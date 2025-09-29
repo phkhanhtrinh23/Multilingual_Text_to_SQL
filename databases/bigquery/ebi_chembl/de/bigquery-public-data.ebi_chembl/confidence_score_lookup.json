@@ -1,0 +1,56 @@
+{
+  "table_name": "confidence_score_lookup",
+  "table_fullname": "bigquery-public-data.ebi_chembl.confidence_score_lookup",
+  "column_names": [
+    "Konfidenzscore",
+    "Beschreibung",
+    "Zielzuordnung"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "konfidenz_wert",
+    "beschreibung",
+    "ziel_zuordnung"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    null,
+    null,
+    null
+  ],
+  "sample_rows": [
+    {
+      "konfidenz_wert": "0",
+      "beschreibung": "Default value - Target unknown or has yet to be assigned",
+      "ziel_zuordnung": "Unassigned"
+    },
+    {
+      "konfidenz_wert": "1",
+      "beschreibung": "Target assigned is non-molecular",
+      "ziel_zuordnung": "Non-molecular"
+    },
+    {
+      "konfidenz_wert": "2",
+      "beschreibung": "Target assigned is subcellular fraction",
+      "ziel_zuordnung": "Subcellular fraction"
+    },
+    {
+      "konfidenz_wert": "3",
+      "beschreibung": "Target assigned is molecular non-protein target",
+      "ziel_zuordnung": "Molecular (non-protein)"
+    },
+    {
+      "konfidenz_wert": "4",
+      "beschreibung": "Multiple homologous protein targets may be assigned",
+      "ziel_zuordnung": "Multiple homologous proteins"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "table_name": "Original_jhu_usc_edu_PANCAN_HumanMethylation27_betaValue_whitelisted",
+  "table_fullname": "isb-cgc-bq.pancancer_atlas.Original_jhu_usc_edu_PANCAN_HumanMethylation27_betaValue_whitelisted",
+  "column_names": [
+    "Identifikator",
+    "Teilproben-Barcode",
+    "Beta"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "FLOAT64"
+  ],
+  "nested_column_names": [
+    "Identifikator",
+    "Aliquot-Barcode",
+    "Beta"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "FLOAT64"
+  ],
+  "description": [
+    "Einzigartiger Sondenidentifikator (z.B. cg04676771) aus dem Illumina Human Methylation-Array -- bitte beziehen Sie sich auf die Annotationstabelle (isb-cgc-bq.annotations.methylation_annotation_hg19_illumina_current) für weitere Details zu einer bestimmten Sonde",
+    "TCGA-Aliquot-Barcode, z.B. TCGA-12-1089-01A-01D-0517-28",
+    "Normalisierter DNA-Methylierungs-Beta-Wert (zwischen 0 und 1, wobei 0 vollständig unmethyliert und 1 vollständig methyliert anzeigt)"
+  ],
+  "sample_rows": [
+    {
+      "Identifikator": "cg05679521",
+      "Aliquot-Barcode": "TCGA-01-0628-11A-01D-0383-05",
+      "Beta": 0.0290592
+    },
+    {
+      "Identifikator": "cg04853151",
+      "Aliquot-Barcode": "TCGA-01-0628-11A-01D-0383-05",
+      "Beta": 0.029444
+    },
+    {
+      "Identifikator": "cg06162003",
+      "Aliquot-Barcode": "TCGA-01-0628-11A-01D-0383-05",
+      "Beta": 0.0111285
+    },
+    {
+      "Identifikator": "cg01136458",
+      "Aliquot-Barcode": "TCGA-01-0628-11A-01D-0383-05",
+      "Beta": 0.764987
+    },
+    {
+      "Identifikator": "cg02132188",
+      "Aliquot-Barcode": "TCGA-01-0628-11A-01D-0383-05",
+      "Beta": 0.31103400000000003
+    }
+  ]
+}

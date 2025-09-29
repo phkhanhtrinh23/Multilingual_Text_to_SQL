@@ -1,0 +1,106 @@
+{
+  "table_name": "drug_indication_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.drug_indication_30",
+  "column_names": [
+    "Arzneimittel-Indikations-ID",
+    "Datensatz-ID",
+    "Molekülregistrierungsnummer",
+    "Maximale Phase der Indikation",
+    "MeSH-ID",
+    "MeSH-Begriff",
+    "EFO-ID",
+    "EFO-Begriff"
+  ],
+  "column_types": [
+    "INT64",
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "Indikations-ID",
+    "Datensatz-ID",
+    "Molekül-ID",
+    "Maximale Phase der Indikation",
+    "MeSH-ID",
+    "MeSH-Begriff",
+    "EFO-ID",
+    "EFO-Begriff"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "Primärschlüssel",
+    "Fremdschlüssel zur Tabelle compound_records. Verknüpft mit dem Arzneimittel-Datensatz, auf den diese Indikation zutrifft",
+    "Molregno, das dem record_id in der Tabelle compound_records entspricht",
+    "Die maximale Entwicklungsphase, die das Medikament für diese Indikation erreicht hat",
+    "Medical Subject Headings (MeSH) Krankheitsidentifikator, der der Indikation entspricht",
+    "Medical Subject Heading-Begriff für die MeSH-Krankheits-ID",
+    "Experimental Factor Ontology (EFO) Krankheitsidentifikator, der der Indikation entspricht",
+    "Experimental Factor Ontology-Begriff für die EFO-ID"
+  ],
+  "sample_rows": [
+    {
+      "Indikations-ID": 54362,
+      "Datensatz-ID": 1697032,
+      "Molekül-ID": 1380217,
+      "Maximale Phase der Indikation": 0,
+      "MeSH-ID": "D000375",
+      "MeSH-Begriff": "Aging",
+      "EFO-ID": "GO:0007568",
+      "EFO-Begriff": "aging"
+    },
+    {
+      "Indikations-ID": 122845,
+      "Datensatz-ID": 1344486,
+      "Molekül-ID": 675637,
+      "Maximale Phase der Indikation": 0,
+      "MeSH-ID": "D000375",
+      "MeSH-Begriff": "Aging",
+      "EFO-ID": "GO:0007568",
+      "EFO-Begriff": "aging"
+    },
+    {
+      "Indikations-ID": 121760,
+      "Datensatz-ID": 1701733,
+      "Molekül-ID": 1377512,
+      "Maximale Phase der Indikation": 0,
+      "MeSH-ID": "D014549",
+      "MeSH-Begriff": "Urinary Incontinence",
+      "EFO-ID": "HP:0000020",
+      "EFO-Begriff": "Urinary incontinence"
+    },
+    {
+      "Indikations-ID": 130058,
+      "Datensatz-ID": 3460748,
+      "Molekül-ID": 1797543,
+      "Maximale Phase der Indikation": 0,
+      "MeSH-ID": "D014549",
+      "MeSH-Begriff": "Urinary Incontinence",
+      "EFO-ID": "HP:0000020",
+      "EFO-Begriff": "Urinary incontinence"
+    },
+    {
+      "Indikations-ID": 121019,
+      "Datensatz-ID": 1344763,
+      "Molekül-ID": 858397,
+      "Maximale Phase der Indikation": 0,
+      "MeSH-ID": "D051437",
+      "MeSH-Begriff": "Renal Insufficiency",
+      "EFO-ID": "HP:0000083",
+      "EFO-Begriff": "Renal insufficiency"
+    }
+  ]
+}

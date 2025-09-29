@@ -1,0 +1,76 @@
+{
+  "table_name": "chembl_id_lookup_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.chembl_id_lookup_30",
+  "column_names": [
+    "chembl_id",
+    "entity_type",
+    "entity_id",
+    "Status",
+    "last_active"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "INT64",
+    "STRING",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "ChEMBL-ID",
+    "Entitätstyp",
+    "Entitäts-ID",
+    "Status",
+    "Letzte Aktivität"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "INT64",
+    "STRING",
+    "INT64"
+  ],
+  "description": [
+    "ChEMBL-Identifikator",
+    "Typ der Entität (z. B. COMPOUND, ASSAY, TARGET)",
+    "Primärschlüssel für diese Entität in der entsprechenden Tabelle (z. B. molregno für Verbindungen, tid für Ziele)",
+    "Gibt an, ob der Status der Entität in der Datenbank ACTIVE, INACTIVE (herabgestuft) oder OBS (veraltet/entfernt) ist.",
+    "Gibt an, in welcher letzten ChEMBL-Version die CHEMBL_ID aktiv war."
+  ],
+  "sample_rows": [
+    {
+      "ChEMBL-ID": "CHEMBL1075036",
+      "Entitätstyp": "TARGET",
+      "Entitäts-ID": 102994,
+      "Status": "OBS",
+      "Letzte Aktivität": 20
+    },
+    {
+      "ChEMBL-ID": "CHEMBL1075114",
+      "Entitätstyp": "TARGET",
+      "Entitäts-ID": 103040,
+      "Status": "OBS",
+      "Letzte Aktivität": 16
+    },
+    {
+      "ChEMBL-ID": "CHEMBL1075122",
+      "Entitätstyp": "TARGET",
+      "Entitäts-ID": 103049,
+      "Status": "OBS",
+      "Letzte Aktivität": 16
+    },
+    {
+      "ChEMBL-ID": "CHEMBL1075123",
+      "Entitätstyp": "TARGET",
+      "Entitäts-ID": 103050,
+      "Status": "OBS",
+      "Letzte Aktivität": 16
+    },
+    {
+      "ChEMBL-ID": "CHEMBL1075124",
+      "Entitätstyp": "TARGET",
+      "Entitäts-ID": 103051,
+      "Status": "OBS",
+      "Letzte Aktivität": 16
+    }
+  ]
+}

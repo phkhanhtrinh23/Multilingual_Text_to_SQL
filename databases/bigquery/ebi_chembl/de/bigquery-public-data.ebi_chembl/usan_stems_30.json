@@ -1,0 +1,96 @@
+{
+  "table_name": "usan_stems_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.usan_stems_30",
+  "column_names": [
+    "usan_stamm_id",
+    "stamm",
+    "untergruppe",
+    "anmerkung",
+    "stamm_klasse",
+    "haupt_klasse",
+    "wer_zusatz"
+  ],
+  "column_types": [
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "Stamm-ID",
+    "Stamm",
+    "Untergruppe",
+    "Anmerkung",
+    "Stammklasse",
+    "Hauptklasse",
+    "Zusatzangaben"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64"
+  ],
+  "description": [
+    "Numerischer Primärschlüssel.",
+    "Stamm, der für die Verwendung in United States Adopted Names definiert ist.",
+    "Eine spezifischere Untergruppe des Stammes, definiert für die Verwendung in United States Adopted Names.",
+    "Bedeutung des Stammes (z. B. die Klasse der Verbindung, auf die er angewendet wird).",
+    "Gibt an, ob der Stamm als Präfix/Infix/Suffix verwendet wird.",
+    "Proteinfamilie, auf die Verbindungen dieser Klasse abzielen (z. B. GPCR/Ionenkanal/Protease), sofern bekannt.",
+    "Stamm nicht in der USAN-Liste vertreten, aber aus der WHO INN-Stammliste hinzugefügt (wo auf 1 gesetzt)."
+  ],
+  "sample_rows": [
+    {
+      "Stamm-ID": 16,
+      "Stamm": "-adol-",
+      "Untergruppe": "-",
+      "Anmerkung": "analgesics (mixed opiate receptor agonists/antagonists)",
+      "Stammklasse": "Infix",
+      "Hauptklasse": "GPCR",
+      "Zusatzangaben": 0
+    },
+    {
+      "Stamm-ID": 32,
+      "Stamm": "-nab-",
+      "Untergruppe": "-",
+      "Anmerkung": "cannabinol derivatives",
+      "Stammklasse": "Infix",
+      "Hauptklasse": "GPCR",
+      "Zusatzangaben": 0
+    },
+    {
+      "Stamm-ID": 49,
+      "Stamm": "-kef-",
+      "Untergruppe": "-",
+      "Anmerkung": "enkephalin agonists",
+      "Stammklasse": "Infix",
+      "Hauptklasse": "GPCR",
+      "Zusatzangaben": 0
+    },
+    {
+      "Stamm-ID": 73,
+      "Stamm": "-prost-",
+      "Untergruppe": "-",
+      "Anmerkung": "prostaglandins",
+      "Stammklasse": "Infix",
+      "Hauptklasse": "GPCR",
+      "Zusatzangaben": 0
+    },
+    {
+      "Stamm-ID": 86,
+      "Stamm": "-barb-",
+      "Untergruppe": "-",
+      "Anmerkung": "barbituric acid derivatives",
+      "Stammklasse": "Infix",
+      "Hauptklasse": "ion channel",
+      "Zusatzangaben": 0
+    }
+  ]
+}

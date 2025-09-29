@@ -1,0 +1,96 @@
+{
+  "table_name": "fares",
+  "table_fullname": "bigquery-public-data.san_francisco_transit_muni.fares",
+  "column_names": [
+    "Fahrpreis-ID",
+    "Fahrgast-ID",
+    "Fahrgastbeschreibung",
+    "Preis",
+    "Zahlungsart",
+    "Überweisungen erlaubt",
+    "Überweisungsdauer"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "NUMERIC",
+    "STRING",
+    "STRING",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "Fahrpreis-ID",
+    "Fahrgast-ID",
+    "Fahrgastbeschreibung",
+    "Preis",
+    "Zahlungsmethode",
+    "Überweisungen erlaubt",
+    "Überweisungsdauer"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "NUMERIC",
+    "STRING",
+    "STRING",
+    "INT64"
+  ],
+  "description": [
+    "Eindeutiger Bezeichner einer Tarifklasse.",
+    "Eindeutiger Bezeichner einer Rider-Kategorie. Rider-Kategorien werden verwendet, um unterschiedliche Preisgestaltungen verschiedenen Gruppen von Personen zuzuordnen.",
+    "Textbeschreibung der Rider-Kategorie.",
+    "Enthält den Tarifpreis in USD.",
+    "Gibt an, wann der Tarif bezahlt werden muss. Folgende Werte sind gültig für dieses Feld: - während: Gibt an, dass der Fahrpreis beim Einstieg der Fahrgäste gezahlt wird - vor: Gibt an, dass der Fahrpreis vor dem Einstieg der Fahrgäste gezahlt werden muss",
+    "Gibt die Anzahl der zulässigen Transfers bei diesem Tarif an.  -  0: Auf diesem Tarif sind keine Transfers erlaubt. -  1: Auf diesem Tarif ist ein Transfer erlaubt. -  2: Auf diesem Tarif sind zwei Transfers erlaubt. - NULL: Unbegrenzte Transfers sind bei diesem Tarif erlaubt.",
+    "Gibt die Länge der Zeit in Sekunden an, bevor ein Transfer abläuft. Wenn es mit einem Wert von transfers_permitted = 0 verwendet wird, gibt das Feld transfer_duration an, wie lange ein Ticket für einen Tarif gültig ist, bei dem keine Transfers erlaubt sind."
+  ],
+  "sample_rows": [
+    {
+      "Fahrpreis-ID": "5398",
+      "Fahrgast-ID": "6",
+      "Fahrgastbeschreibung": "Disabled",
+      "Preis": "3.000000000",
+      "Zahlungsmethode": "0",
+      "Überweisungen erlaubt": null,
+      "Überweisungsdauer": 5400
+    },
+    {
+      "Fahrpreis-ID": "5398",
+      "Fahrgast-ID": "5",
+      "Fahrgastbeschreibung": "Youth",
+      "Preis": "3.000000000",
+      "Zahlungsmethode": "0",
+      "Überweisungen erlaubt": null,
+      "Überweisungsdauer": 5400
+    },
+    {
+      "Fahrpreis-ID": "5398",
+      "Fahrgast-ID": "3",
+      "Fahrgastbeschreibung": "Child",
+      "Preis": "3.000000000",
+      "Zahlungsmethode": "0",
+      "Überweisungen erlaubt": null,
+      "Überweisungsdauer": 5400
+    },
+    {
+      "Fahrpreis-ID": "5398",
+      "Fahrgast-ID": "2",
+      "Fahrgastbeschreibung": "Senior",
+      "Preis": "3.000000000",
+      "Zahlungsmethode": "0",
+      "Überweisungen erlaubt": null,
+      "Überweisungsdauer": 5400
+    },
+    {
+      "Fahrpreis-ID": "5399",
+      "Fahrgast-ID": "6",
+      "Fahrgastbeschreibung": "Disabled",
+      "Preis": "7.000000000",
+      "Zahlungsmethode": "0",
+      "Überweisungen erlaubt": "0.0",
+      "Überweisungsdauer": 0
+    }
+  ]
+}

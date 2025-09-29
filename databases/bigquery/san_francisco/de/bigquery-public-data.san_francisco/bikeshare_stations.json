@@ -1,0 +1,96 @@
+{
+  "table_name": "bikeshare_stations",
+  "table_fullname": "bigquery-public-data.san_francisco.bikeshare_stations",
+  "column_names": [
+    "Stations-ID",
+    "Name",
+    "Breitengrad",
+    "Längengrad",
+    "Anzahl Abstellplätze",
+    "Wahrzeichen",
+    "Installationsdatum"
+  ],
+  "column_types": [
+    "INT64",
+    "STRING",
+    "FLOAT64",
+    "FLOAT64",
+    "INT64",
+    "STRING",
+    "DATE"
+  ],
+  "nested_column_names": [
+    "Stationskennung",
+    "Name",
+    "Breitengrad",
+    "Längengrad",
+    "Anlegestellenanzahl",
+    "Wahrzeichen",
+    "Installationsdatum"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "STRING",
+    "FLOAT64",
+    "FLOAT64",
+    "INT64",
+    "STRING",
+    "DATE"
+  ],
+  "description": [
+    "Stations-ID-Nummer",
+    "Name der Station",
+    "Breitengrad",
+    "Längengrad",
+    "Gesamtanzahl der Docks an der Station",
+    "Stadt (San Francisco, Redwood City, Palo Alto, Mountain View, San Jose)",
+    "Ursprüngliches Installationsdatum der Station. Falls die Station versetzt wurde, wird dies unten vermerkt."
+  ],
+  "sample_rows": [
+    {
+      "Stationskennung": 4,
+      "Name": "Santa Clara at Almaden",
+      "Breitengrad": 37.333988,
+      "Längengrad": -121.894902,
+      "Anlegestellenanzahl": 11,
+      "Wahrzeichen": "San Jose",
+      "Installationsdatum": "2013-08-06"
+    },
+    {
+      "Stationskennung": 84,
+      "Name": "Ryland Park",
+      "Breitengrad": 37.342725,
+      "Längengrad": -121.895617,
+      "Anlegestellenanzahl": 15,
+      "Wahrzeichen": "San Jose",
+      "Installationsdatum": "2014-04-09"
+    },
+    {
+      "Stationskennung": 8,
+      "Name": "San Salvador at 1st",
+      "Breitengrad": 37.330165,
+      "Längengrad": -121.885831,
+      "Anlegestellenanzahl": 15,
+      "Wahrzeichen": "San Jose",
+      "Installationsdatum": "2013-08-05"
+    },
+    {
+      "Stationskennung": 9,
+      "Name": "Japantown",
+      "Breitengrad": 37.348742,
+      "Längengrad": -121.894715,
+      "Anlegestellenanzahl": 15,
+      "Wahrzeichen": "San Jose",
+      "Installationsdatum": "2013-08-05"
+    },
+    {
+      "Stationskennung": 3,
+      "Name": "San Jose Civic Center",
+      "Breitengrad": 37.330698,
+      "Längengrad": -121.888979,
+      "Anlegestellenanzahl": 15,
+      "Wahrzeichen": "San Jose",
+      "Installationsdatum": "2013-08-05"
+    }
+  ]
+}

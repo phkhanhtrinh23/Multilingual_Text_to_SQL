@@ -1,0 +1,126 @@
+{
+  "table_name": "Filtered_all_CNVR_data_by_gene",
+  "table_fullname": "isb-cgc-bq.pancancer_atlas.Filtered_all_CNVR_data_by_gene",
+  "column_names": [
+    "Teilnehmer-Barcode",
+    "Probe-Barcode",
+    "Aliquot-Barcode",
+    "Probe-Typ-Buchstaben-Code",
+    "Probe-Typ",
+    "Studie",
+    "Gen-Symbol",
+    "Locus-ID",
+    "Zytoband",
+    "GISTIC-Aufrufe"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "STRING",
+    "FLOAT64"
+  ],
+  "nested_column_names": [
+    "ParticipantBarcode",
+    "SampleBarcode",
+    "AliquotBarcode",
+    "SampleTypeLetterCode",
+    "SampleType",
+    "Studie",
+    "Gene_Symbol",
+    "Locus_ID",
+    "Zytoband",
+    "GISTIC_Calls"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "STRING",
+    "FLOAT64"
+  ],
+  "description": [
+    "TCGA-Barcode-Identifikator für den Studien-Teilnehmer, z. B. TCGA-02-0001",
+    "Barcode der Biospecimen-Probe, z. B. TCGA-13-1489-02A",
+    "TCGA-Aliquot-Barcode, z. B. TCGA-12-1089-01A-01D-0517-28",
+    "Buchstabencode des Probentyps gemäß den TCGA-Standards, z. B. TPN, EBV. Die vollständige Liste finden Sie unter https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/sample-type-codes",
+    "Es gibt 10 Probentypen: Blood Derived Normal, Primary solid Tumor, Solid Tissue Normal, Recurrent Solid Tumor, Metastatic, Additional - New Primary, Primary Blood Derived Cancer - Peripheral Blood, Buccal Cell Normal, Additioanal Metastatic, Bone Marrrow Normal",
+    "TCGA-Studienabkürzung, z. B. LAML. Die vollständige Liste finden Sie unter https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/tcga-study-abbreviations",
+    "z. B. TP53, LRP1B, usw. (entspricht dem Hugo_Symbol-Feld, außer dass leer statt Unknown steht)",
+    "Gen-Locus-ID, z. B. 57380, 100616303",
+    "Voller Cytoband-Name, einschließlich des Chromosoms. z. B. 17p13.2 Siehe https://www.ncbi.nlm.nih.gov/Class/MLACourse/Original8Hour/Genetics/chrombanding.html",
+    "GISTIC Copy-Number-Aufrufe"
+  ],
+  "sample_rows": [
+    {
+      "ParticipantBarcode": "TCGA-04-1331",
+      "SampleBarcode": "TCGA-04-1331-01A",
+      "AliquotBarcode": "TCGA-04-1331-01A-01D-0428-01",
+      "SampleTypeLetterCode": "TP",
+      "SampleType": "Primary solid Tumor",
+      "Studie": "OV",
+      "Gene_Symbol": "MIR663B",
+      "Locus_ID": 100313824,
+      "Zytoband": "2q21.2",
+      "GISTIC_Calls": -0.054
+    },
+    {
+      "ParticipantBarcode": "TCGA-04-1331",
+      "SampleBarcode": "TCGA-04-1331-01A",
+      "AliquotBarcode": "TCGA-04-1331-01A-01D-0428-01",
+      "SampleTypeLetterCode": "TP",
+      "SampleType": "Primary solid Tumor",
+      "Studie": "OV",
+      "Gene_Symbol": "REG4",
+      "Locus_ID": 83998,
+      "Zytoband": "1p12",
+      "GISTIC_Calls": 0.13
+    },
+    {
+      "ParticipantBarcode": "TCGA-04-1331",
+      "SampleBarcode": "TCGA-04-1331-01A",
+      "AliquotBarcode": "TCGA-04-1331-01A-01D-0428-01",
+      "SampleTypeLetterCode": "TP",
+      "SampleType": "Primary solid Tumor",
+      "Studie": "OV",
+      "Gene_Symbol": "CABIN1",
+      "Locus_ID": 23523,
+      "Zytoband": "22q11.23",
+      "GISTIC_Calls": -0.715
+    },
+    {
+      "ParticipantBarcode": "TCGA-04-1331",
+      "SampleBarcode": "TCGA-04-1331-01A",
+      "AliquotBarcode": "TCGA-04-1331-01A-01D-0428-01",
+      "SampleTypeLetterCode": "TP",
+      "SampleType": "Primary solid Tumor",
+      "Studie": "OV",
+      "Gene_Symbol": "CHRNA7",
+      "Locus_ID": 1139,
+      "Zytoband": "15q13.3",
+      "GISTIC_Calls": -0.764
+    },
+    {
+      "ParticipantBarcode": "TCGA-04-1331",
+      "SampleBarcode": "TCGA-04-1331-01A",
+      "AliquotBarcode": "TCGA-04-1331-01A-01D-0428-01",
+      "SampleTypeLetterCode": "TP",
+      "SampleType": "Primary solid Tumor",
+      "Studie": "OV",
+      "Gene_Symbol": "AOC2",
+      "Locus_ID": 314,
+      "Zytoband": "17q21.31",
+      "GISTIC_Calls": -0.277
+    }
+  ]
+}

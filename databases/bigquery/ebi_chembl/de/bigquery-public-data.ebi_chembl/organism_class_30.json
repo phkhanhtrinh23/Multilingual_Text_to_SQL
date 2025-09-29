@@ -1,0 +1,76 @@
+{
+  "table_name": "organism_class_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.organism_class_30",
+  "column_names": [
+    "oc_id",
+    "tax_id",
+    "l1",
+    "l2",
+    "l3"
+  ],
+  "column_types": [
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "OC-ID",
+    "Steuer-ID",
+    "Ebene 1",
+    "Ebene 2",
+    "Ebene 3"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "Interner Primärschlüssel",
+    "NCBI-Taxonomie-ID für den Organismus (entsprechend tax_ids in den Tabellen assay2target und target_dictionary)",
+    "Oberste Klassifikationsstufe (z. B. Eukaryoten, Bakterien, Pilze usw.)",
+    "Zweite Klassifikationsstufe",
+    "Dritte Klassifikationsstufe"
+  ],
+  "sample_rows": [
+    {
+      "OC-ID": 281,
+      "Steuer-ID": 2210,
+      "Ebene 1": "Archaea",
+      "Ebene 2": null,
+      "Ebene 3": null
+    },
+    {
+      "OC-ID": 282,
+      "Steuer-ID": 2261,
+      "Ebene 1": "Archaea",
+      "Ebene 2": null,
+      "Ebene 3": null
+    },
+    {
+      "OC-ID": 283,
+      "Steuer-ID": 2287,
+      "Ebene 1": "Archaea",
+      "Ebene 2": null,
+      "Ebene 3": null
+    },
+    {
+      "OC-ID": 284,
+      "Steuer-ID": 187420,
+      "Ebene 1": "Archaea",
+      "Ebene 2": null,
+      "Ebene 3": null
+    },
+    {
+      "OC-ID": 1218,
+      "Steuer-ID": 32644,
+      "Ebene 1": "Unclassified",
+      "Ebene 2": null,
+      "Ebene 3": null
+    }
+  ]
+}

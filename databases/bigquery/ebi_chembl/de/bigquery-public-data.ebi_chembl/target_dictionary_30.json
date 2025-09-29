@@ -1,0 +1,96 @@
+{
+  "table_name": "target_dictionary_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.target_dictionary_30",
+  "column_names": [
+    "Transaktions-ID",
+    "Zieltyp",
+    "Bevorzugter Name",
+    "Steuer-ID",
+    "Organismus",
+    "ChEMBL-Kennung",
+    "Artengruppe-Flag"
+  ],
+  "column_types": [
+    "INT64",
+    "STRING",
+    "STRING",
+    "INT64",
+    "STRING",
+    "STRING",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "Transaktions-ID",
+    "Zieltyp",
+    "Bevorzugter Name",
+    "Steuer-ID",
+    "Organismus",
+    "ChEMBL-ID",
+    "Artengruppe Kennzeichen"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "STRING",
+    "STRING",
+    "INT64",
+    "STRING",
+    "STRING",
+    "INT64"
+  ],
+  "description": [
+    "Eindeutige Kennung des Ziels",
+    "Beschreibt, ob das Target ein Protein, ein Organismus, ein Gewebe usw. ist. Fremdschlüssel zur TARGET_TYPE-Tabelle.",
+    "Bevorzugter Zielname: manuell kuratiert",
+    "NCBI-Taxonomie-ID des Ziels",
+    "Quellorganismus des molekularen Ziels oder Gewebes, oder der Organismus des Ziels, falls die Aktivität der Verbindung in einem Organismus gemeldet wird statt in einem Protein oder Gewebe.",
+    "ChEMBL-Identifikator für dieses Target (zur Verwendung im Web-Interface usw.)",
+    "Flag, der angibt, ob das Target eine Gruppe von Arten darstellt statt einer einzelnen Art (z. B. 'Bacterial DHFR'). Falls der Wert auf 1 gesetzt ist, bedeutet dies, dass die zugehörigen Target-Komponenten repräsentativ sind und keine vollständige Menge darstellen."
+  ],
+  "sample_rows": [
+    {
+      "Transaktions-ID": 22224,
+      "Zieltyp": "ADMET",
+      "Bevorzugter Name": "ADMET",
+      "Steuer-ID": null,
+      "Organismus": null,
+      "ChEMBL-ID": "CHEMBL612558",
+      "Artengruppe Kennzeichen": 0
+    },
+    {
+      "Transaktions-ID": 109711,
+      "Zieltyp": "LIPID",
+      "Bevorzugter Name": "Cholesterol ester",
+      "Steuer-ID": null,
+      "Organismus": null,
+      "ChEMBL-ID": "CHEMBL3559388",
+      "Artengruppe Kennzeichen": 0
+    },
+    {
+      "Transaktions-ID": 109712,
+      "Zieltyp": "LIPID",
+      "Bevorzugter Name": "Triglyceride",
+      "Steuer-ID": null,
+      "Organismus": null,
+      "ChEMBL-ID": "CHEMBL3559389",
+      "Artengruppe Kennzeichen": 0
+    },
+    {
+      "Transaktions-ID": 120037,
+      "Zieltyp": "LIPID",
+      "Bevorzugter Name": "Lipid bilayer",
+      "Steuer-ID": null,
+      "Organismus": null,
+      "ChEMBL-ID": "CHEMBL4651323",
+      "Artengruppe Kennzeichen": 0
+    },
+    {
+      "Transaktions-ID": 109803,
+      "Zieltyp": "LIPID",
+      "Bevorzugter Name": "Ganglioside GD3",
+      "Steuer-ID": 9606,
+      "Organismus": "Homo sapiens",
+      "ChEMBL-ID": "CHEMBL3580507",
+      "Artengruppe Kennzeichen": 0
+    }
+  ]
+}

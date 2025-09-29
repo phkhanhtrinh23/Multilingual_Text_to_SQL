@@ -1,0 +1,56 @@
+{
+  "table_name": "molecule_hierarchy_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.molecule_hierarchy_30",
+  "column_names": [
+    "Molekülregistrierungsnummer",
+    "Eltern-Molekülregistrierungsnummer",
+    "Aktive Molekülregistrierungsnummer"
+  ],
+  "column_types": [
+    "INT64",
+    "INT64",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "Molekülregistrierungsnummer",
+    "Eltern-Molekülregistrierungsnummer",
+    "Aktive Molekülregistrierungsnummer"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "INT64",
+    "INT64"
+  ],
+  "description": [
+    "Fremdschlüssel zur Tabelle compounds. Dieses Feld enthält eine Liste aller ChEMBL-Verbindungen mit zugehörigen Daten (z. B. Aktivitätsinformationen, zugelassene Medikamente). Elternverbindungen, die nur durch Entfernen von Salzen erzeugt werden und selbst keine zugehörigen Daten haben, erscheinen hier nicht.",
+    "Stellt die Elternverbindung von molregno im ersten Feld dar (d. h. erzeugt durch Entfernen von Salzen). Wenn molregno und parent_molregno identisch sind, enthielt die ursprüngliche ChEMBL-Verbindung keinen Salzanteil oder konnte aus verschiedenen Gründen (z. B. aufgrund einer anorganischen Mischung) nicht weiter verarbeitet werden. Verbindungen, die ausschließlich durch Entfernen von Salzen erzeugt werden, erscheinen in diesem Feld. Solche Verbindungen, die selbst über zugehörige Daten (z. B. Aktivitätsdaten) verfügen oder zugelassene Medikamente sind, erscheinen außerdem im molregno-Feld.",
+    "Wenn eine Verbindung ein Prodrug ist, entspricht dies dem aktiven Metaboliten der durch parent_molregno angegebenen 'dosierten' Verbindung. Wenn parent_molregno und active_molregno identisch sind, ist die Verbindung derzeit nicht als Prodrug bekannt."
+  ],
+  "sample_rows": [
+    {
+      "Molekülregistrierungsnummer": 2,
+      "Eltern-Molekülregistrierungsnummer": 2,
+      "Aktive Molekülregistrierungsnummer": 2
+    },
+    {
+      "Molekülregistrierungsnummer": 3,
+      "Eltern-Molekülregistrierungsnummer": 3,
+      "Aktive Molekülregistrierungsnummer": 3
+    },
+    {
+      "Molekülregistrierungsnummer": 4,
+      "Eltern-Molekülregistrierungsnummer": 4,
+      "Aktive Molekülregistrierungsnummer": 4
+    },
+    {
+      "Molekülregistrierungsnummer": 5,
+      "Eltern-Molekülregistrierungsnummer": 5,
+      "Aktive Molekülregistrierungsnummer": 5
+    },
+    {
+      "Molekülregistrierungsnummer": 6,
+      "Eltern-Molekülregistrierungsnummer": 6,
+      "Aktive Molekülregistrierungsnummer": 6
+    }
+  ]
+}

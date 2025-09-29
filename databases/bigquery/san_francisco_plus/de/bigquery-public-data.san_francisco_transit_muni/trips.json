@@ -1,0 +1,106 @@
+{
+  "table_name": "trips",
+  "table_fullname": "bigquery-public-data.san_francisco_transit_muni.trips",
+  "column_names": [
+    "Fahrtkennzeichen",
+    "Linienkennung",
+    "Richtung",
+    "Blockkennung",
+    "Dienstkategorie",
+    "Zielanzeige",
+    "Geometriekennung",
+    "Fahrtgeometrie"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "GEOGRAPHY"
+  ],
+  "nested_column_names": [
+    "Fahrt-ID",
+    "Route-ID",
+    "Richtung",
+    "Block-ID",
+    "Dienstkategorie",
+    "Fahrzielanzeige",
+    "Streckenverlauf-ID",
+    "Fahrtstrecke"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "GEOGRAPHY"
+  ],
+  "description": [
+    "Eindeutige Kennung für jede Fahrt",
+    "Eindeutige Kennung für jede Route. Eine einzelne Route hat mehrere Fahrten.",
+    "\"Gibt die Fahrtrichtung einer Fahrt an. Die folgenden Werte sind gültig:   -  O: Outbound travel -  I: Inbound travel  Dieses Feld wird im Routing nicht verwendet, sondern dient dazu, Fahrten nach Fahrtrichtung zu unterscheiden\"",
+    "Identifiziert den Block, dem die Fahrt gehört. Ein Block besteht aus einer einzelnen Fahrt oder vielen sequentiellen Fahrten, die mit demselben Fahrzeug durchgeführt werden. Die Fahrten werden zu einem Block gruppiert durch die Verwendung eines gemeinsamen service day und block_id. Eine block_id kann Fahrten mit unterschiedlichen service days enthalten, was dann unterschiedliche Blöcke ergibt. Weitere Details finden Sie unter: https://developers.google.com/transit/gtfs/reference/#example-showing-blocks-and-service-day",
+    "Gibt den Typ des Service für diese Fahrt an",
+    "Enthält den Text, der auf der Beschilderung erscheint und das Ziel der Fahrt für Fahrgäste identifiziert. Verwenden Sie dieses Feld, um zwischen verschiedenen Service-Mustern auf derselben Route zu unterscheiden.",
+    "Einzigartige Kennung für die geospatiale Shape, die die Fahrzeugreise einer Fahrt entlang einzelner Punkte beschreibt. Verwenden Sie diese, um mit den in der shapes-Tabelle verfügbaren shapes zu JOINen.",
+    "Geographische Darstellung der gesamten Route der Fahrt"
+  ],
+  "sample_rows": [
+    {
+      "Fahrt-ID": "8999876",
+      "Route-ID": "83X",
+      "Richtung": "O",
+      "Block-ID": "8301",
+      "Dienstkategorie": null,
+      "Fahrzielanzeige": "Caltrain Depot",
+      "Streckenverlauf-ID": "174188",
+      "Fahrtstrecke": null
+    },
+    {
+      "Fahrt-ID": "8999873",
+      "Route-ID": "83X",
+      "Richtung": "O",
+      "Block-ID": "8302",
+      "Dienstkategorie": null,
+      "Fahrzielanzeige": "Caltrain Depot",
+      "Streckenverlauf-ID": "174188",
+      "Fahrtstrecke": null
+    },
+    {
+      "Fahrt-ID": "8999875",
+      "Route-ID": "83X",
+      "Richtung": "O",
+      "Block-ID": "8301",
+      "Dienstkategorie": null,
+      "Fahrzielanzeige": "Caltrain Depot",
+      "Streckenverlauf-ID": "174188",
+      "Fahrtstrecke": null
+    },
+    {
+      "Fahrt-ID": "8999872",
+      "Route-ID": "83X",
+      "Richtung": "O",
+      "Block-ID": "8302",
+      "Dienstkategorie": null,
+      "Fahrzielanzeige": "Caltrain Depot",
+      "Streckenverlauf-ID": "174188",
+      "Fahrtstrecke": null
+    },
+    {
+      "Fahrt-ID": "8999892",
+      "Route-ID": "83X",
+      "Richtung": "O",
+      "Block-ID": "8301",
+      "Dienstkategorie": null,
+      "Fahrzielanzeige": "Caltrain Depot",
+      "Streckenverlauf-ID": "174188",
+      "Fahrtstrecke": null
+    }
+  ]
+}

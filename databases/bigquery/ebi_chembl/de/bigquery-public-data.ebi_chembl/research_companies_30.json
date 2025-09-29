@@ -1,0 +1,76 @@
+{
+  "table_name": "research_companies_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.research_companies_30",
+  "column_names": [
+    "co_stem_id",
+    "res_stem_id",
+    "Unternehmen",
+    "Land",
+    "previous_company"
+  ],
+  "column_types": [
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "Unternehmensstamm-ID",
+    "Ressourcenstamm-ID",
+    "Unternehmen",
+    "Land",
+    "Vorheriges Unternehmen"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "Primärschlüssel.",
+    "Fremdschlüssel zur research_stem-Tabelle.",
+    "Name der aktuellen Firma, die mit diesem Forschungs-Code-Stamm verbunden ist.",
+    "Land, in dem das Unternehmen diesen Forschungs-Code-Stamm verwendet.",
+    "Früherer Name der Firma, die mit diesem Forschungs-Code-Stamm verbunden ist (z. B., wenn das Unternehmen Übernahmen/Fusionen durchlaufen hat)."
+  ],
+  "sample_rows": [
+    {
+      "Unternehmensstamm-ID": 541,
+      "Ressourcenstamm-ID": 149,
+      "Unternehmen": "Vernalis",
+      "Land": "UK",
+      "Vorheriges Unternehmen": "Cita NeuroPharmaceuticals"
+    },
+    {
+      "Unternehmensstamm-ID": 681,
+      "Ressourcenstamm-ID": 28,
+      "Unternehmen": "GlaxoSmithKline",
+      "Land": "UK",
+      "Vorheriges Unternehmen": "Allen & Hanburys"
+    },
+    {
+      "Unternehmensstamm-ID": 683,
+      "Ressourcenstamm-ID": 3,
+      "Unternehmen": "AstraZeneca",
+      "Land": "UK",
+      "Vorheriges Unternehmen": "Astra"
+    },
+    {
+      "Unternehmensstamm-ID": 687,
+      "Ressourcenstamm-ID": 106,
+      "Unternehmen": "GlaxoSmithKline",
+      "Land": "UK",
+      "Vorheriges Unternehmen": "Borroughs Wellcome"
+    },
+    {
+      "Unternehmensstamm-ID": 688,
+      "Ressourcenstamm-ID": 77,
+      "Unternehmen": "Vernalis",
+      "Land": "UK",
+      "Vorheriges Unternehmen": "British Biotech"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "table_name": "biotherapeutic_components_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.biotherapeutic_components_30",
+  "column_names": [
+    "Biokomponenten-ID",
+    "Molekülregistrierungsnummer",
+    "Komponenten-ID"
+  ],
+  "column_types": [
+    "INT64",
+    "INT64",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "Biokomponenten-ID",
+    "Molekülregistrierungsnummer",
+    "Komponenten-ID"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "INT64",
+    "INT64"
+  ],
+  "description": [
+    "Primary key.",
+    "Foreign key zur biotherapeutics-Tabelle, die angibt, zu welchem Biotherapeutikum der Bestandteil gehört.",
+    "Foreign key zur bio_component_sequences-Tabelle, die angibt, welche Komponente zum Biotherapeutikum gehört."
+  ],
+  "sample_rows": [
+    {
+      "Biokomponenten-ID": 3,
+      "Molekülregistrierungsnummer": 1121951,
+      "Komponenten-ID": 6288
+    },
+    {
+      "Biokomponenten-ID": 4,
+      "Molekülregistrierungsnummer": 1121907,
+      "Komponenten-ID": 6289
+    },
+    {
+      "Biokomponenten-ID": 5,
+      "Molekülregistrierungsnummer": 1121907,
+      "Komponenten-ID": 6290
+    },
+    {
+      "Biokomponenten-ID": 6,
+      "Molekülregistrierungsnummer": 1121879,
+      "Komponenten-ID": 6291
+    },
+    {
+      "Biokomponenten-ID": 7,
+      "Molekülregistrierungsnummer": 1121879,
+      "Komponenten-ID": 6292
+    }
+  ]
+}

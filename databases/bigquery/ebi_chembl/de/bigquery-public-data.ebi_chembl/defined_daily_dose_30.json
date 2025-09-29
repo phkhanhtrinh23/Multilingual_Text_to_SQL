@@ -1,0 +1,86 @@
+{
+  "table_name": "defined_daily_dose_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.defined_daily_dose_30",
+  "column_names": [
+    "ATC-Code",
+    "ddd_Einheiten",
+    "ddd_Verabreichung",
+    "ddd_Kommentar",
+    "ddd_Identifikator",
+    "ddd_Wert"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "FLOAT64"
+  ],
+  "nested_column_names": [
+    "ATC-Code",
+    "DDD-Einheiten",
+    "DDD-Verabreichungsweg",
+    "DDD-Kommentar",
+    "DDD-ID",
+    "DDD-Wert"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "FLOAT64"
+  ],
+  "description": [
+    "ATC-Code für die Verbindung (foreign key to ATC_CLASSIFICATION Tabelle)",
+    "Einheiten der definierten Tagesdosen",
+    "Verabreichungsweg für die Dosis",
+    "Kommentar",
+    "Interner Primärschlüssel",
+    "Wert der definierten Tagesdosis"
+  ],
+  "sample_rows": [
+    {
+      "ATC-Code": "A02AD01",
+      "DDD-Einheiten": null,
+      "DDD-Verabreichungsweg": null,
+      "DDD-Kommentar": "Standard dose: 10 tablets or 50 ml mixt",
+      "DDD-ID": 15,
+      "DDD-Wert": null
+    },
+    {
+      "ATC-Code": "R03BB05",
+      "DDD-Einheiten": null,
+      "DDD-Verabreichungsweg": null,
+      "DDD-Kommentar": null,
+      "DDD-ID": 2979,
+      "DDD-Wert": null
+    },
+    {
+      "ATC-Code": "R03BB06",
+      "DDD-Einheiten": null,
+      "DDD-Verabreichungsweg": null,
+      "DDD-Kommentar": null,
+      "DDD-ID": 2981,
+      "DDD-Wert": null
+    },
+    {
+      "ATC-Code": "V03AE09",
+      "DDD-Einheiten": null,
+      "DDD-Verabreichungsweg": null,
+      "DDD-Kommentar": null,
+      "DDD-ID": 3237,
+      "DDD-Wert": null
+    },
+    {
+      "ATC-Code": "B06AC05",
+      "DDD-Einheiten": null,
+      "DDD-Verabreichungsweg": null,
+      "DDD-Kommentar": null,
+      "DDD-ID": 3282,
+      "DDD-Wert": null
+    }
+  ]
+}

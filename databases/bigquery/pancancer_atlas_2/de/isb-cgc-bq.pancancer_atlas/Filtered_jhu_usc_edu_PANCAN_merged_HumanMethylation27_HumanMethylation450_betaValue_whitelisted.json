@@ -1,0 +1,106 @@
+{
+  "table_name": "Filtered_jhu_usc_edu_PANCAN_merged_HumanMethylation27_HumanMethylation450_betaValue_whitelisted",
+  "table_fullname": "isb-cgc-bq.pancancer_atlas.Filtered_jhu_usc_edu_PANCAN_merged_HumanMethylation27_HumanMethylation450_betaValue_whitelisted",
+  "column_names": [
+    "Teilnehmerbarcode",
+    "Probenbarcode",
+    "Aliquotbarcode",
+    "ProbenartBuchstabencode",
+    "Probenart",
+    "Studie",
+    "Identifikator",
+    "Beta"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64"
+  ],
+  "nested_column_names": [
+    "Teilnehmerbarcode",
+    "Probenbarcode",
+    "Aliquot-Barcode",
+    "Probenart-Buchstabencode",
+    "Probenart",
+    "Studie",
+    "Identifikator",
+    "Beta"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64"
+  ],
+  "description": [
+    "TCGA-Barcode-Identifikator für den Studienteilnehmer, z. B. TCGA-02-0001",
+    "Barcode der Biospecimenprobe, z. B. TCGA-13-1489-02A",
+    "TCGA-Aliquot-Barcode, z. B. TCGA-12-1089-01A-01D-0517-28",
+    "Buchstabencode des Proben-Typs gemäß den TCGA-Standards, z. B. TPN, EBV. Die vollständige Liste finden Sie unter https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/sample-type-codes",
+    "Es gibt 10 Probenarten: Blood Derived Normal, Primary solid Tumor, Solid Tissue Normal, Recurrent Solid Tumor, Metastatic, Additional - New Primary, Primary Blood Derived Cancer - Peripheral Blood, Buccal Cell Normal, Additioanal Metastatic, Bone Marrrow Normal",
+    "TCGA-Studienabkürzung, z. B. LAML. Vollständige Liste verfügbar unter https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/tcga-study-abbreviations",
+    "Einzigartige Probe-ID (z. B. cg04676771) vom Illumina Human Methylation Array -- bitte beachten Sie die Annotationstabelle (isb-cgc-bq.annotations.methylation_annotation_hg19_illumina_current) für weitere Details zu einer bestimmten Probe",
+    "Normalisierter DNA-Methylierungs-Beta-Wert (zwischen 0 und 1, wobei 0 vollständig unmethylisiert und 1 vollständig methyliert ist)"
+  ],
+  "sample_rows": [
+    {
+      "Teilnehmerbarcode": "TCGA-01-0628",
+      "Probenbarcode": "TCGA-01-0628-11A",
+      "Aliquot-Barcode": "TCGA-01-0628-11A-01D-0383-05",
+      "Probenart-Buchstabencode": "NT",
+      "Probenart": "Solid Tissue Normal",
+      "Studie": "OV",
+      "Identifikator": "cg25264554",
+      "Beta": 0.014019597658378
+    },
+    {
+      "Teilnehmerbarcode": "TCGA-01-0628",
+      "Probenbarcode": "TCGA-01-0628-11A",
+      "Aliquot-Barcode": "TCGA-01-0628-11A-01D-0383-05",
+      "Probenart-Buchstabencode": "NT",
+      "Probenart": "Solid Tissue Normal",
+      "Studie": "OV",
+      "Identifikator": "cg12269343",
+      "Beta": 0.0197464851425526
+    },
+    {
+      "Teilnehmerbarcode": "TCGA-01-0628",
+      "Probenbarcode": "TCGA-01-0628-11A",
+      "Aliquot-Barcode": "TCGA-01-0628-11A-01D-0383-05",
+      "Probenart-Buchstabencode": "NT",
+      "Probenart": "Solid Tissue Normal",
+      "Studie": "OV",
+      "Identifikator": "cg02425732",
+      "Beta": 0.033633891941717
+    },
+    {
+      "Teilnehmerbarcode": "TCGA-01-0628",
+      "Probenbarcode": "TCGA-01-0628-11A",
+      "Aliquot-Barcode": "TCGA-01-0628-11A-01D-0383-05",
+      "Probenart-Buchstabencode": "NT",
+      "Probenart": "Solid Tissue Normal",
+      "Studie": "OV",
+      "Identifikator": "cg09852871",
+      "Beta": 0.788843878492672
+    },
+    {
+      "Teilnehmerbarcode": "TCGA-01-0628",
+      "Probenbarcode": "TCGA-01-0628-11A",
+      "Aliquot-Barcode": "TCGA-01-0628-11A-01D-0383-05",
+      "Probenart-Buchstabencode": "NT",
+      "Probenart": "Solid Tissue Normal",
+      "Studie": "OV",
+      "Identifikator": "cg23953831",
+      "Beta": 0.864616977642031
+    }
+  ]
+}

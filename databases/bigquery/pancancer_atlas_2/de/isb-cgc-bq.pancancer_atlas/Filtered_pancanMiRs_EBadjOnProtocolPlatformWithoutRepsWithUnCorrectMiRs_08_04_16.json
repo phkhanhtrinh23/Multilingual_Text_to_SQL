@@ -1,0 +1,116 @@
+{
+  "table_name": "Filtered_pancanMiRs_EBadjOnProtocolPlatformWithoutRepsWithUnCorrectMiRs_08_04_16",
+  "table_fullname": "isb-cgc-bq.pancancer_atlas.Filtered_pancanMiRs_EBadjOnProtocolPlatformWithoutRepsWithUnCorrectMiRs_08_04_16",
+  "column_names": [
+    "ParticipantBarcode",
+    "SampleBarcode",
+    "AliquotBarcode",
+    "SampleTypeLetterCode",
+    "SampleType",
+    "Studie",
+    "Identifikator",
+    "miRNAexpr",
+    "Korrigiert"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "Teilnehmerbarcode",
+    "Probenbarcode",
+    "Aliquotbarcode",
+    "Probeartbuchstabencode",
+    "Probeart",
+    "Studie",
+    "Identifikator",
+    "miRNAausdruck",
+    "Korrigiert"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING"
+  ],
+  "description": [
+    "TCGA-Barcode-Identifikator für den Studienteilnehmer, z. B. TCGA-02-0001",
+    "Barcode der Biospecimenprobe, z. B. TCGA-13-1489-02A",
+    "TCGA-Aliquot-Barcode, z. B. TCGA-12-1089-01A-01D-0517-28",
+    "Buchstabencode des Proben-Typs gemäß den TCGA-Standards, z. B. TPN, EBV. Die vollständige Liste finden Sie unter https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/sample-type-codes",
+    "Es gibt 10 Probentypen: Blood Derived Normal, Primary solid Tumor, Solid Tissue Normal, Recurrent Solid Tumor, Metastatic, Additional - New Primary, Primary Blood Derived Cancer - Peripheral Blood, Buccal Cell Normal, Additioanal Metastatic, Bone Marrrow Normal",
+    "TCGA-Studienabkürzung, z. B. LAML. Die vollständige Liste finden Sie unter https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/tcga-study-abbreviations",
+    "Eine der 1870 eindeutigen miRNA-IDs (auch Symbole genannt), die in dieser Tabelle enthalten ist, z. B. hsa-mir-21 -- Relevante Referenzinformationen finden Sie im isb-cgc:genome_reference-Datensatz in den Tabellen miRBase_v20 und miRBase_v20_hsa_gff3",
+    "Normalisierte Abundanz (d. h. Reads per Million, RPM)",
+    "Indikator für korrigierte bzw. ungekorrigierte miRs, der angibt, ob sie durch die EBN+-Methode korrigiert wurden. Weitere Details finden Sie unter https://www.synapse.org/#!Synapse:syn6171109"
+  ],
+  "sample_rows": [
+    {
+      "Teilnehmerbarcode": "TCGA-06-0675",
+      "Probenbarcode": "TCGA-06-0675-11A",
+      "Aliquotbarcode": "TCGA-06-0675-11A-32R-A36C-13",
+      "Probeartbuchstabencode": "NT",
+      "Probeart": "Solid Tissue Normal",
+      "Studie": "GBM",
+      "Identifikator": "hsa-miR-655-3p",
+      "miRNAausdruck": 29.608492,
+      "Korrigiert": "Corrected"
+    },
+    {
+      "Teilnehmerbarcode": "TCGA-06-0675",
+      "Probenbarcode": "TCGA-06-0675-11A",
+      "Aliquotbarcode": "TCGA-06-0675-11A-32R-A36C-13",
+      "Probeartbuchstabencode": "NT",
+      "Probeart": "Solid Tissue Normal",
+      "Studie": "GBM",
+      "Identifikator": "hsa-miR-139-5p",
+      "miRNAausdruck": 4549.497868,
+      "Korrigiert": "Corrected"
+    },
+    {
+      "Teilnehmerbarcode": "TCGA-06-0675",
+      "Probenbarcode": "TCGA-06-0675-11A",
+      "Aliquotbarcode": "TCGA-06-0675-11A-32R-A36C-13",
+      "Probeartbuchstabencode": "NT",
+      "Probeart": "Solid Tissue Normal",
+      "Studie": "GBM",
+      "Identifikator": "hsa-miR-202-5p",
+      "miRNAausdruck": 0.255246,
+      "Korrigiert": "Corrected"
+    },
+    {
+      "Teilnehmerbarcode": "TCGA-06-0675",
+      "Probenbarcode": "TCGA-06-0675-11A",
+      "Aliquotbarcode": "TCGA-06-0675-11A-32R-A36C-13",
+      "Probeartbuchstabencode": "NT",
+      "Probeart": "Solid Tissue Normal",
+      "Studie": "GBM",
+      "Identifikator": "hsa-miR-542-3p",
+      "miRNAausdruck": 204.706984,
+      "Korrigiert": "Corrected"
+    },
+    {
+      "Teilnehmerbarcode": "TCGA-06-0675",
+      "Probenbarcode": "TCGA-06-0675-11A",
+      "Aliquotbarcode": "TCGA-06-0675-11A-32R-A36C-13",
+      "Probeartbuchstabencode": "NT",
+      "Probeart": "Solid Tissue Normal",
+      "Studie": "GBM",
+      "Identifikator": "hsa-miR-98-3p",
+      "miRNAausdruck": 1.276228,
+      "Korrigiert": "Corrected"
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "table_name": "hrac_classification_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.hrac_classification_30",
+  "column_names": [
+    "Spielerklasse-ID",
+    "Wirkstoff",
+    "Stufe 1",
+    "Beschreibung Stufe 1",
+    "Stufe 2",
+    "Beschreibung Stufe 2",
+    "Stufe 3",
+    "Spieler-Code"
+  ],
+  "column_types": [
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "Spielerklasse-ID",
+    "Wirkstoff",
+    "Stufe 1",
+    "Beschreibung der Stufe 1",
+    "Stufe 2",
+    "Beschreibung der Stufe 2",
+    "Stufe 3",
+    "Spieler-Code"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "Einzigartiger numerischer Primärschlüssel für jeden level3 Code",
+    "Name des Wirkstoffs (Herbizid), der durch HRAC klassifiziert wird",
+    "HRAC-Gruppencode – der den Wirkmechanismus des Herbizids kennzeichnet",
+    "Beschreibung des von HRAC bereitgestellten Wirkmechanismus",
+    "Gibt eine chemische Familie innerhalb einer bestimmten HRAC-Gruppe an (Nummer von HRAC nicht zugewiesen)",
+    "Beschreibung der chemischen Familie, die von HRAC bereitgestellt wird",
+    "Ein eindeutiger Code, der jedem Wirkstoff zugewiesen wird (basierend auf der Level-1- und Level-2-HRAC-Klassifikation, aber nicht von HRAC zugewiesen)",
+    "Der offizielle HRAC-Klassifikationscode für den Wirkstoff"
+  ],
+  "sample_rows": [
+    {
+      "Spielerklasse-ID": 2,
+      "Wirkstoff": "CYHALOFOP-BUTYL",
+      "Stufe 1": "A",
+      "Beschreibung der Stufe 1": "INHIBITION OF ACETYL COA CARBOXYLASE (ACCASE)",
+      "Stufe 2": "A1",
+      "Beschreibung der Stufe 2": "ARYLOXYPHENOXY-PROPIONATE 'FOPS'",
+      "Stufe 3": "A12",
+      "Spieler-Code": "A"
+    },
+    {
+      "Spielerklasse-ID": 3,
+      "Wirkstoff": "DICLOFOP-METHYL",
+      "Stufe 1": "A",
+      "Beschreibung der Stufe 1": "INHIBITION OF ACETYL COA CARBOXYLASE (ACCASE)",
+      "Stufe 2": "A1",
+      "Beschreibung der Stufe 2": "ARYLOXYPHENOXY-PROPIONATE 'FOPS'",
+      "Stufe 3": "A13",
+      "Spieler-Code": "A"
+    },
+    {
+      "Spielerklasse-ID": 4,
+      "Wirkstoff": "FENOXAPROP-P-ETHYL",
+      "Stufe 1": "A",
+      "Beschreibung der Stufe 1": "INHIBITION OF ACETYL COA CARBOXYLASE (ACCASE)",
+      "Stufe 2": "A1",
+      "Beschreibung der Stufe 2": "ARYLOXYPHENOXY-PROPIONATE 'FOPS'",
+      "Stufe 3": "A14",
+      "Spieler-Code": "A"
+    },
+    {
+      "Spielerklasse-ID": 5,
+      "Wirkstoff": "FLUAZIFOP-P-BUTYL",
+      "Stufe 1": "A",
+      "Beschreibung der Stufe 1": "INHIBITION OF ACETYL COA CARBOXYLASE (ACCASE)",
+      "Stufe 2": "A1",
+      "Beschreibung der Stufe 2": "ARYLOXYPHENOXY-PROPIONATE 'FOPS'",
+      "Stufe 3": "A15",
+      "Spieler-Code": "A"
+    },
+    {
+      "Spielerklasse-ID": 6,
+      "Wirkstoff": "HALOXYFOP-R-METHYL",
+      "Stufe 1": "A",
+      "Beschreibung der Stufe 1": "INHIBITION OF ACETYL COA CARBOXYLASE (ACCASE)",
+      "Stufe 2": "A1",
+      "Beschreibung der Stufe 2": "ARYLOXYPHENOXY-PROPIONATE 'FOPS'",
+      "Stufe 3": "A16",
+      "Spieler-Code": "A"
+    }
+  ]
+}

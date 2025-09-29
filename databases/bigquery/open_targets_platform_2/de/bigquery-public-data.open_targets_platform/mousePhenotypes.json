@@ -1,0 +1,162 @@
+{
+  "table_name": "mousePhenotypes",
+  "table_fullname": "bigquery-public-data.open_targets_platform.mousePhenotypes",
+  "column_names": [
+    "Biologische Modelle",
+    "Modellphänotypklassen",
+    "Modellphänotyp-ID",
+    "Modellphänotyp-Bezeichnung",
+    "Ziel aus Quell-ID",
+    "Modellziel",
+    "Modellziel-Ensembl-ID",
+    "Modellziel-MGI-ID"
+  ],
+  "column_types": [
+    "STRUCT<list ARRAY<STRUCT<element STRUCT<allelicComposition STRING, geneticBackground STRING, id STRING, literature STRUCT<list ARRAY<STRUCT<element STRING>>>>>>>",
+    "STRUCT<list ARRAY<STRUCT<element STRUCT<id STRING, label STRING>>>>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "Biologische Modelle",
+    "Liste biologischer Modelle",
+    "Listenelement biologischer Modelle",
+    "Allelkombination des Listenelements biologischer Modelle",
+    "Genetischer Hintergrund des Listenelements biologischer Modelle",
+    "Kennung des Listenelements biologischer Modelle",
+    "Literatur des Listenelements biologischer Modelle",
+    "Literaturliste des Listenelements biologischer Modelle",
+    "Literaturlistenelement des Listenelements biologischer Modelle",
+    "Modellphänotypklassen",
+    "Liste der Modellphänotypklassen",
+    "Listenelement der Modellphänotypklassen",
+    "Kennung des Listenelements der Modellphänotypklassen",
+    "Bezeichnung des Listenelements der Modellphänotypklassen",
+    "Modellphänotyp-ID",
+    "Bezeichnung des Modellphänotyps",
+    "Ziel aus Quell-ID",
+    "Ziel im Modell",
+    "Ensembl-ID des Ziels im Modell",
+    "MGI-ID des Ziels im Modell"
+  ],
+  "nested_column_types": [
+    "STRUCT<list ARRAY<STRUCT<element STRUCT<allelicComposition STRING, geneticBackground STRING, id STRING, literature STRUCT<list ARRAY<STRUCT<element STRING>>>>>>>",
+    "ARRAY<STRUCT<element STRUCT<allelicComposition STRING, geneticBackground STRING, id STRING, literature STRUCT<list ARRAY<STRUCT<element STRING>>>>>>",
+    "STRUCT<allelicComposition STRING, geneticBackground STRING, id STRING, literature STRUCT<list ARRAY<STRUCT<element STRING>>>>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+    "ARRAY<STRUCT<element STRING>>",
+    "STRING",
+    "STRUCT<list ARRAY<STRUCT<element STRUCT<id STRING, label STRING>>>>",
+    "ARRAY<STRUCT<element STRUCT<id STRING, label STRING>>>",
+    "STRUCT<id STRING, label STRING>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "sample_rows": [
+    {
+      "Biologische Modelle": {
+        "list": "[{'element': {'allelicComposition': 'T/T', 'geneticBackground': 'Not Specified', 'id': 'MGI:2169509', 'literature': {'list': array([{'element': '10617567'}, {'element': '12533796'},\n        {'element': '1218735'}, {'element': '23359409'},\n        {'element': '9383288'}, {'element': '2658196'},\n        {'element': '5906493'}, {'element': '12140191'},\n        {'element': '15384171'}, {'element': '8436292'},\n        {'element': '20809182'}, {'element': '11071760'},\n        {'element': '10723731'}, {'element': '10835400'},\n        {'element': '13575656'}, {'element': '8293872'}], dtype=object)}}}                                                                                                           ]"
+      },
+      "Modellphänotypklassen": {
+        "list": "[{'element': {'id': 'MP:0005380', 'label': 'embryo phenotype'}}]"
+      },
+      "Modellphänotyp-ID": "MP:0004712",
+      "Bezeichnung des Modellphänotyps": "notochord degeneration",
+      "Ziel aus Quell-ID": "ENSG00000164458",
+      "Ziel im Modell": "T",
+      "Ensembl-ID des Ziels im Modell": "ENSMUSG00000062327",
+      "MGI-ID des Ziels im Modell": "MGI:98472"
+    },
+    {
+      "Biologische Modelle": {
+        "list": "[{'element': {'allelicComposition': 'T/T', 'geneticBackground': 'Not Specified', 'id': 'MGI:2169509', 'literature': {'list': array([{'element': '10617567'}, {'element': '12533796'},\n        {'element': '1218735'}, {'element': '23359409'},\n        {'element': '9383288'}, {'element': '2658196'},\n        {'element': '5906493'}, {'element': '12140191'},\n        {'element': '15384171'}, {'element': '8436292'},\n        {'element': '20809182'}, {'element': '11071760'},\n        {'element': '10723731'}, {'element': '10835400'},\n        {'element': '13575656'}, {'element': '8293872'}], dtype=object)}}}                                                                                                           ]"
+      },
+      "Modellphänotypklassen": {
+        "list": "[{'element': {'id': 'MP:0005376', 'label': 'homeostasis/metabolism phenotype'}}\n {'element': {'id': 'MP:0005385', 'label': 'cardiovascular system phenotype'}}]"
+      },
+      "Modellphänotyp-ID": "MP:0005244",
+      "Bezeichnung des Modellphänotyps": "hemopericardium",
+      "Ziel aus Quell-ID": "ENSG00000164458",
+      "Ziel im Modell": "T",
+      "Ensembl-ID des Ziels im Modell": "ENSMUSG00000062327",
+      "MGI-ID des Ziels im Modell": "MGI:98472"
+    },
+    {
+      "Biologische Modelle": {
+        "list": "[{'element': {'allelicComposition': 'T/T', 'geneticBackground': 'Not Specified', 'id': 'MGI:2169509', 'literature': {'list': array([{'element': '10617567'}, {'element': '12533796'},\n        {'element': '1218735'}, {'element': '23359409'},\n        {'element': '9383288'}, {'element': '2658196'},\n        {'element': '5906493'}, {'element': '12140191'},\n        {'element': '15384171'}, {'element': '8436292'},\n        {'element': '20809182'}, {'element': '11071760'},\n        {'element': '10723731'}, {'element': '10835400'},\n        {'element': '13575656'}, {'element': '8293872'}], dtype=object)}}}                                                                                                           ]"
+      },
+      "Modellphänotypklassen": {
+        "list": "[{'element': {'id': 'MP:0005385', 'label': 'cardiovascular system phenotype'}}]"
+      },
+      "Modellphänotyp-ID": "MP:0012082",
+      "Bezeichnung des Modellphänotyps": "delayed heart development",
+      "Ziel aus Quell-ID": "ENSG00000164458",
+      "Ziel im Modell": "T",
+      "Ensembl-ID des Ziels im Modell": "ENSMUSG00000062327",
+      "MGI-ID des Ziels im Modell": "MGI:98472"
+    },
+    {
+      "Biologische Modelle": {
+        "list": "[{'element': {'allelicComposition': 'T/T', 'geneticBackground': 'Not Specified', 'id': 'MGI:2169509', 'literature': {'list': array([{'element': '10617567'}, {'element': '12533796'},\n        {'element': '1218735'}, {'element': '23359409'},\n        {'element': '9383288'}, {'element': '2658196'},\n        {'element': '5906493'}, {'element': '12140191'},\n        {'element': '15384171'}, {'element': '8436292'},\n        {'element': '20809182'}, {'element': '11071760'},\n        {'element': '10723731'}, {'element': '10835400'},\n        {'element': '13575656'}, {'element': '8293872'}], dtype=object)}}}                                                                                                           ]"
+      },
+      "Modellphänotypklassen": {
+        "list": "[{'element': {'id': 'MP:0010771', 'label': 'integument phenotype'}}]"
+      },
+      "Modellphänotyp-ID": "MP:0008854",
+      "Bezeichnung des Modellphänotyps": "bleb",
+      "Ziel aus Quell-ID": "ENSG00000164458",
+      "Ziel im Modell": "T",
+      "Ensembl-ID des Ziels im Modell": "ENSMUSG00000062327",
+      "MGI-ID des Ziels im Modell": "MGI:98472"
+    },
+    {
+      "Biologische Modelle": {
+        "list": "[{'element': {'allelicComposition': 'T/T', 'geneticBackground': 'Not Specified', 'id': 'MGI:2169509', 'literature': {'list': array([{'element': '10617567'}, {'element': '12533796'},\n        {'element': '1218735'}, {'element': '23359409'},\n        {'element': '9383288'}, {'element': '2658196'},\n        {'element': '5906493'}, {'element': '12140191'},\n        {'element': '15384171'}, {'element': '8436292'},\n        {'element': '20809182'}, {'element': '11071760'},\n        {'element': '10723731'}, {'element': '10835400'},\n        {'element': '13575656'}, {'element': '8293872'}], dtype=object)}}}                                                                                                           ]"
+      },
+      "Modellphänotypklassen": {
+        "list": "[{'element': {'id': 'MP:0005380', 'label': 'embryo phenotype'}}\n {'element': {'id': 'MP:0005378', 'label': 'growth/size/body region phenotype'}}]"
+      },
+      "Modellphänotyp-ID": "MP:0001698",
+      "Bezeichnung des Modellphänotyps": "decreased embryo size",
+      "Ziel aus Quell-ID": "ENSG00000164458",
+      "Ziel im Modell": "T",
+      "Ensembl-ID des Ziels im Modell": "ENSMUSG00000062327",
+      "MGI-ID des Ziels im Modell": "MGI:98472"
+    }
+  ]
+}

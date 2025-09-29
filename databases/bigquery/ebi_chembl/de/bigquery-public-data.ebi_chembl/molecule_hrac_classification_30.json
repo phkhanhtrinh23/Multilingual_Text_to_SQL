@@ -1,0 +1,56 @@
+{
+  "table_name": "molecule_hrac_classification_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.molecule_hrac_classification_30",
+  "column_names": [
+    "Molekül-Spieler-ID",
+    "Spielerklasse-ID",
+    "Molekülregistrierungsnummer"
+  ],
+  "column_types": [
+    "INT64",
+    "INT64",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "Molekül-HRAC-ID",
+    "HRAC-Klassen-ID",
+    "Molekülregistrierungsnummer"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "INT64",
+    "INT64"
+  ],
+  "description": [
+    "Primary key",
+    "Fremdschlüssel zur Tabelle hrac_classification, der die Klassifikation für die Verbindung anzeigt.",
+    "Fremdschlüssel zur Tabelle molecule_dictionary, der die Verbindung zeigt, auf die diese Klassifikation zutrifft."
+  ],
+  "sample_rows": [
+    {
+      "Molekül-HRAC-ID": 148,
+      "HRAC-Klassen-ID": 256,
+      "Molekülregistrierungsnummer": 1369899
+    },
+    {
+      "Molekül-HRAC-ID": 136,
+      "HRAC-Klassen-ID": 1,
+      "Molekülregistrierungsnummer": 1238673
+    },
+    {
+      "Molekül-HRAC-ID": 182,
+      "HRAC-Klassen-ID": 257,
+      "Molekülregistrierungsnummer": 1495975
+    },
+    {
+      "Molekül-HRAC-ID": 8,
+      "HRAC-Klassen-ID": 3,
+      "Molekülregistrierungsnummer": 51985
+    },
+    {
+      "Molekül-HRAC-ID": 161,
+      "HRAC-Klassen-ID": 4,
+      "Molekülregistrierungsnummer": 1475652
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "table_name": "stop_times",
+  "table_fullname": "bigquery-public-data.san_francisco_transit_muni.stop_times",
+  "column_names": [
+    "Haltestellen-ID",
+    "Fahrt-ID",
+    "Haltestellenfolge",
+    "Ankunftszeit",
+    "Ankunft am nächsten Tag",
+    "Abfahrtszeit",
+    "Abfahrt am nächsten Tag",
+    "Ausstiegstyp",
+    "ExakterZeitpunkt"
+  ],
+  "column_types": [
+    "INT64",
+    "INT64",
+    "INT64",
+    "TIME",
+    "BOOL",
+    "TIME",
+    "BOOL",
+    "STRING",
+    "BOOL"
+  ],
+  "nested_column_names": [
+    "Haltestelle-ID",
+    "Fahrt-ID",
+    "Haltestellenreihenfolge",
+    "Ankunftszeit",
+    "Ankunft am Folgetag",
+    "Abfahrtszeit",
+    "Abfahrt am Folgetag",
+    "Abgabetyp",
+    "Exakter Zeitpunkt"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "INT64",
+    "INT64",
+    "TIME",
+    "BOOL",
+    "TIME",
+    "BOOL",
+    "STRING",
+    "BOOL"
+  ],
+  "description": [
+    "Identifiziert die bediente Haltestelle. Mehrere Linien können dieselbe Haltestelle nutzen.",
+    "Identifiziert eine Fahrt. Mehrere Fahrten können dieselbe Haltestelle haben.",
+    "Identifiziert die Reihenfolge der Haltestellen für eine bestimmte Fahrt. Die Werte von stop_sequence müssen während der Fahrt zunehmen, müssen aber nicht aufeinanderfolgend sein.",
+    "Gibt die geplante Ankunftszeit an einer bestimmten Haltestelle für eine bestimmte Fahrt auf einer Route an.",
+    "Mehrere Linien beginnen vor Mitternacht, wobei der Betrieb die Nacht über fortgesetzt wird. Diese Variable gibt an, ob arrival_time nach Mitternacht am Tag nach dem geplanten Tag liegt. Dies ist nützlich, um Linien zu identifizieren, die an einem Tag beginnen und am nächsten Tag enden.",
+    "Gibt die geplante Abfahrtszeit an einer bestimmten Haltestelle für eine bestimmte Fahrt auf einer Route an.",
+    "Mehrere Linien beginnen vor Mitternacht, und der Betrieb geht die Nacht über weiter. Diese Variable gibt an, ob departure_time nach Mitternacht am Tag nach dem geplanten Tag auftritt. Dies ist hilfreich, um Linien zu identifizieren, die an einem Tag beginnen und am nächsten Tag enden.",
+    "\"Gibt an, ob Fahrgäste an einer Haltestelle im Rahmen des normalen Fahrplans aussteigen oder ob ein Aussteigen an der Haltestelle nicht möglich ist. Verfügbare Optionen:  - regular - none - phone (weist darauf hin, dass man die Agentur anrufen muss, um das Aussteigen zu arrangieren) - driver (weist darauf hin, dass man mit dem Fahrer koordinieren muss, um das Aussteigen zu arrangieren)\"",
+    "Gibt an, ob die angegebenen Ankunfts- und Abfahrtszeiten für eine Haltestelle vom Verkehrsmittel strikt eingehalten werden oder ob sie stattdessen ungefähre oder interpolierte Zeiten sind."
+  ],
+  "sample_rows": [
+    {
+      "Haltestelle-ID": 15759,
+      "Fahrt-ID": 8951406,
+      "Haltestellenreihenfolge": 51,
+      "Ankunftszeit": "06:54:55",
+      "Ankunft am Folgetag": false,
+      "Abfahrtszeit": "06:54:55",
+      "Abfahrt am Folgetag": false,
+      "Abgabetyp": "regular",
+      "Exakter Zeitpunkt": false
+    },
+    {
+      "Haltestelle-ID": 15761,
+      "Fahrt-ID": 8951406,
+      "Haltestellenreihenfolge": 52,
+      "Ankunftszeit": "06:55:33",
+      "Ankunft am Folgetag": false,
+      "Abfahrtszeit": "06:55:33",
+      "Abfahrt am Folgetag": false,
+      "Abgabetyp": "regular",
+      "Exakter Zeitpunkt": false
+    },
+    {
+      "Haltestelle-ID": 15763,
+      "Fahrt-ID": 8951406,
+      "Haltestellenreihenfolge": 53,
+      "Ankunftszeit": "06:56:04",
+      "Ankunft am Folgetag": false,
+      "Abfahrtszeit": "06:56:04",
+      "Abfahrt am Folgetag": false,
+      "Abgabetyp": "regular",
+      "Exakter Zeitpunkt": false
+    },
+    {
+      "Haltestelle-ID": 15828,
+      "Fahrt-ID": 8951406,
+      "Haltestellenreihenfolge": 54,
+      "Ankunftszeit": "06:57:00",
+      "Ankunft am Folgetag": false,
+      "Abfahrtszeit": "06:57:00",
+      "Abfahrt am Folgetag": false,
+      "Abgabetyp": "regular",
+      "Exakter Zeitpunkt": true
+    },
+    {
+      "Haltestelle-ID": 15759,
+      "Fahrt-ID": 8951253,
+      "Haltestellenreihenfolge": 51,
+      "Ankunftszeit": "06:54:55",
+      "Ankunft am Folgetag": false,
+      "Abfahrtszeit": "06:54:55",
+      "Abfahrt am Folgetag": false,
+      "Abgabetyp": "regular",
+      "Exakter Zeitpunkt": false
+    }
+  ]
+}
