@@ -1,0 +1,76 @@
+{
+  "table_name": "icd10_procedures_2019",
+  "table_fullname": "bigquery-public-data.cms_codes.icd10_procedures_2019",
+  "column_names": [
+    "Bestellnummer",
+    "Artikelcode",
+    "Kopfzeilen Code",
+    "Kurzbeschreibung",
+    "Ausführliche Beschreibung"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "BOOL",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "Bestellnummer",
+    "Stückcode",
+    "Kopfzeilenkennzeichen",
+    "Kurzbeschreibung",
+    "Langbeschreibung"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "BOOL",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "Eine eindeutige Kennung, die es Nutzern erleichtert, einen Bereich von Codes zu kommunizieren",
+    "Verfahrenscode",
+    "TRUE - Der Code ist ein Header-Code und für HIPAA-geschützte Transaktionen nicht gültig. FALSE - Der Code ist gültig für die Einreichung bei HIPAA-geschützten Transaktionen.",
+    "Kurze Textbeschreibung des Verfahrens",
+    "Vollständige Textbeschreibung des Verfahrens"
+  ],
+  "sample_rows": [
+    {
+      "Bestellnummer": "67369",
+      "Stückcode": "0XH",
+      "Kopfzeilenkennzeichen": null,
+      "Kurzbeschreibung": null,
+      "Langbeschreibung": null
+    },
+    {
+      "Bestellnummer": "67514",
+      "Stückcode": "0XJ",
+      "Kopfzeilenkennzeichen": null,
+      "Kurzbeschreibung": null,
+      "Langbeschreibung": null
+    },
+    {
+      "Bestellnummer": "67579",
+      "Stückcode": "0XM",
+      "Kopfzeilenkennzeichen": null,
+      "Kurzbeschreibung": null,
+      "Langbeschreibung": null
+    },
+    {
+      "Bestellnummer": "67608",
+      "Stückcode": "0XP",
+      "Kopfzeilenkennzeichen": null,
+      "Kurzbeschreibung": null,
+      "Langbeschreibung": null
+    },
+    {
+      "Bestellnummer": "67665",
+      "Stückcode": "0XQ",
+      "Kopfzeilenkennzeichen": null,
+      "Kurzbeschreibung": null,
+      "Langbeschreibung": null
+    }
+  ]
+}
