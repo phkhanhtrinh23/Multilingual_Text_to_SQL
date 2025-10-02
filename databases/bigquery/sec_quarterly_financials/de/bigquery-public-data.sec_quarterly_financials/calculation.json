@@ -1,0 +1,108 @@
+{
+  "table_name": "calculation",
+  "table_fullname": "bigquery-public-data.sec_quarterly_financials.calculation",
+  "column_names": [
+    "Einreichungsnummer",
+    "Gruppe",
+    "Bogen",
+    "Negativ",
+    "Übergeordnetes Schlagwort",
+    "Übergeordnete Version",
+    "Untergeordnetes Schlagwort",
+    "Untergeordnete Version",
+    "_PARTITIONTIME"
+  ],
+  "column_types": [
+    "STRING",
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "TIMESTAMP"
+  ],
+  "nested_column_names": [
+    "Einreichungsnummer",
+    "Gruppe",
+    "Kante",
+    "Negativ",
+    "Übergeordneter Tag",
+    "Übergeordnete Version",
+    "Untergeordneter Tag",
+    "Untergeordnete Version"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "Zugangsnummer. Die 20-stellige Zeichenfolge, die aus der 18-stelligen Zahl gebildet wird, die von der Kommission jeder EDGAR-Einreichung zugewiesen wird. submission_number: [adsh]",
+    "Fortlaufende Nummer zur Gruppierung von Kanten in einer Einreichung. group: [grp]",
+    "Fortlaufende Nummer für Kanten innerhalb einer Gruppe in einer Einreichung.",
+    "Gibt ein Gewicht von -1 an (TRUE, wenn die Kante negativ ist), in der Regel jedoch +1 (FALSE).",
+    "Das Tag des Elternteils der Kante parent_tag: [ptag]",
+    "Die Version des Tags des Elternteils der Kante parent_version: [pversion]",
+    "Das Tag des Kindes der Kante child_tag: [ctag]",
+    "Die Version des Tags des Kindes der Kante child_version: [cversion]"
+  ],
+  "sample_rows": [
+    {
+      "Einreichungsnummer": "0001019687-14-002604",
+      "Gruppe": 1,
+      "Kante": 1,
+      "Negativ": 1,
+      "Übergeordneter Tag": "CashPeriodIncreaseDecrease",
+      "Übergeordnete Version": "us-gaap/2014",
+      "Untergeordneter Tag": "CashPeriodIncreaseDecrease",
+      "Untergeordnete Version": "us-gaap/2014"
+    },
+    {
+      "Einreichungsnummer": "0001019687-14-002569",
+      "Gruppe": 1,
+      "Kante": 1,
+      "Negativ": 1,
+      "Übergeordneter Tag": "CashPeriodIncreaseDecrease",
+      "Übergeordnete Version": "us-gaap/2014",
+      "Untergeordneter Tag": "CashPeriodIncreaseDecrease",
+      "Untergeordnete Version": "us-gaap/2014"
+    },
+    {
+      "Einreichungsnummer": "0000798359-14-000048",
+      "Gruppe": 1,
+      "Kante": 1,
+      "Negativ": 1,
+      "Übergeordneter Tag": "DiscontinuedOperationIncomeLossFromDiscontinuedOperationDuringPhaseOutPeriodNetOfTax",
+      "Übergeordnete Version": "us-gaap/2014",
+      "Untergeordneter Tag": "DiscontinuedOperationIncomeLossFromDiscontinuedOperationDuringPhaseOutPeriodNetOfTax",
+      "Untergeordnete Version": "us-gaap/2014"
+    },
+    {
+      "Einreichungsnummer": "0001140361-14-026077",
+      "Gruppe": 1,
+      "Kante": 1,
+      "Negativ": 1,
+      "Übergeordneter Tag": "AllocatedShareBasedCompensationExpenseNetOfTax",
+      "Übergeordnete Version": "us-gaap/2014",
+      "Untergeordneter Tag": "AllocatedShareBasedCompensationExpenseNetOfTax",
+      "Untergeordnete Version": "us-gaap/2014"
+    },
+    {
+      "Einreichungsnummer": "0001140361-14-026435",
+      "Gruppe": 1,
+      "Kante": 1,
+      "Negativ": 1,
+      "Übergeordneter Tag": "ContractReceivableDueOneYearOrLess",
+      "Übergeordnete Version": "us-gaap/2014",
+      "Untergeordneter Tag": "ContractReceivableDueOneYearOrLess",
+      "Untergeordnete Version": "us-gaap/2014"
+    }
+  ]
+}

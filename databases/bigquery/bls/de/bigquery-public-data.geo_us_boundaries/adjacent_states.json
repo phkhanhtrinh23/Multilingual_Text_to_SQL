@@ -1,0 +1,76 @@
+{
+  "table_name": "adjacent_states",
+  "table_fullname": "bigquery-public-data.geo_us_boundaries.adjacent_states",
+  "column_names": [
+    "Bundesstaat",
+    "Bundesstaatsname",
+    "Bundesstaats-FIPS-Code",
+    "Nachbarstaaten",
+    "Nachbarstaaten-FIPS-Codes"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "ARRAY<STRING>",
+    "ARRAY<STRING>"
+  ],
+  "nested_column_names": [
+    "Staat",
+    "Staatsname",
+    "FIPS-Code des Staates",
+    "Nachbarstaat",
+    "FIPS-Codes der Nachbarstaaten"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "ARRAY<STRING>",
+    "ARRAY<STRING>"
+  ],
+  "description": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "sample_rows": [
+    {
+      "Staat": "AL",
+      "Staatsname": "Alabama",
+      "FIPS-Code des Staates": "01",
+      "Nachbarstaat": "['Florida' 'Georgia' 'Mississippi' 'Tennessee']",
+      "FIPS-Codes der Nachbarstaaten": "['12' '13' '28' '47']"
+    },
+    {
+      "Staat": "AR",
+      "Staatsname": "Arkansas",
+      "FIPS-Code des Staates": "05",
+      "Nachbarstaat": "['Tennessee' 'Texas' 'Missouri' 'Mississippi' 'Louisiana' 'Oklahoma']",
+      "FIPS-Codes der Nachbarstaaten": "['47' '48' '29' '28' '22' '40']"
+    },
+    {
+      "Staat": "AZ",
+      "Staatsname": "Arizona",
+      "FIPS-Code des Staates": "04",
+      "Nachbarstaat": "['Nevada' 'New Mexico' 'Colorado' 'California' 'Utah']",
+      "FIPS-Codes der Nachbarstaaten": "['32' '35' '08' '06' '49']"
+    },
+    {
+      "Staat": "CA",
+      "Staatsname": "California",
+      "FIPS-Code des Staates": "06",
+      "Nachbarstaat": "['Arizona' 'Nevada' 'Oregon']",
+      "FIPS-Codes der Nachbarstaaten": "['04' '32' '41']"
+    },
+    {
+      "Staat": "CO",
+      "Staatsname": "Colorado",
+      "FIPS-Code des Staates": "08",
+      "Nachbarstaat": "['Kansas' 'New Mexico' 'Nebraska' 'Utah' 'Wyoming' 'Arizona' 'Oklahoma']",
+      "FIPS-Codes der Nachbarstaaten": "['20' '35' '31' '49' '56' '04' '40']"
+    }
+  ]
+}

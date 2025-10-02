@@ -1,0 +1,126 @@
+{
+  "table_name": "population_evaluation_type",
+  "table_fullname": "bigquery-public-data.usfs_fia.population_evaluation_type",
+  "column_names": [
+    "Sequenznummer des Evaluierungstyps",
+    "Sequenznummer der Evaluierungsgruppe",
+    "Sequenznummer der Evaluierung",
+    "Evaluierungstyp",
+    "Ersteller",
+    "Erstellungsdatum",
+    "Erstellt in Instanz",
+    "Geändert von",
+    "Änderungsdatum",
+    "Geändert in Instanz"
+  ],
+  "column_types": [
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING",
+    "DATE",
+    "INT64",
+    "STRING",
+    "DATE",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "Sequenznummer der Auswertungsart",
+    "Sequenznummer der Auswertungsgruppe",
+    "Sequenznummer der Auswertung",
+    "Auswertungsart",
+    "Erstellt von",
+    "Erstellungsdatum",
+    "Erstellt in Instanz",
+    "Geändert von",
+    "Geändert am",
+    "Geändert in Instanz"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING",
+    "DATE",
+    "INT64",
+    "STRING",
+    "DATE",
+    "INT64"
+  ],
+  "description": [
+    "Eine eindeutige Sequenznummer, die verwendet wird, um einen Datensatz des Populationsbewertungstyps zu identifizieren.",
+    "Fremdschlüssel, der den Datensatz der Populationsbewertung mit dem Datensatz der Populationsbewertungsgruppe verknüpft.",
+    "Fremdschlüssel, der den Datensatz der Schätzungseinheit mit dem Evaluierungsdatensatz verknüpft.",
+    "Beschreibt den Typ der Bewertung. Der Bewertungstyp wird benötigt, um Zusammenfassungsberichte für ein Inventar zu erstellen. Zum Beispiel ist eine spezifische Bewertung mit der Bewertung für Baumvolumen (EXPVOL) verknüpft. Derzeit können neun Arten von Bewertungen erzeugt werden. Siehe auch die REF_POP_EVAL_TYP_DESCR-Tabelle.",
+    "Siehe die SURVEY.CREATED_BY Beschreibung zur Definition.",
+    "Siehe die SURVEY.CREATED_DATE Beschreibung zur Definition.",
+    "Siehe die SURVEY.CREATED_IN_INSTANCE Beschreibung zur Definition.",
+    "Siehe die SURVEY.MODIFIED_BY Beschreibung zur Definition.",
+    "Siehe die SURVEY.MODIFIED_DATE Beschreibung zur Definition.",
+    "Siehe die SURVEY.MODIFIED_IN_INSTANCE Beschreibung zur Definition."
+  ],
+  "sample_rows": [
+    {
+      "Sequenznummer der Auswertungsart": 247340670010854,
+      "Sequenznummer der Auswertungsgruppe": 246589849010854,
+      "Sequenznummer der Auswertung": 247334062010854,
+      "Auswertungsart": "EXPGROW",
+      "Erstellt von": null,
+      "Erstellungsdatum": "2010-08-27",
+      "Erstellt in Instanz": 10854,
+      "Geändert von": null,
+      "Geändert am": "NaT",
+      "Geändert in Instanz": null
+    },
+    {
+      "Sequenznummer der Auswertungsart": 247340671010854,
+      "Sequenznummer der Auswertungsgruppe": 246589849010854,
+      "Sequenznummer der Auswertung": 247334062010854,
+      "Auswertungsart": "EXPREMV",
+      "Erstellt von": null,
+      "Erstellungsdatum": "2010-08-27",
+      "Erstellt in Instanz": 10854,
+      "Geändert von": null,
+      "Geändert am": "NaT",
+      "Geändert in Instanz": null
+    },
+    {
+      "Sequenznummer der Auswertungsart": 247340672010854,
+      "Sequenznummer der Auswertungsgruppe": 246589849010854,
+      "Sequenznummer der Auswertung": 247334062010854,
+      "Auswertungsart": "EXPMORT",
+      "Erstellt von": null,
+      "Erstellungsdatum": "2010-08-27",
+      "Erstellt in Instanz": 10854,
+      "Geändert von": null,
+      "Geändert am": "NaT",
+      "Geändert in Instanz": null
+    },
+    {
+      "Sequenznummer der Auswertungsart": 215078424010854,
+      "Sequenznummer der Auswertungsgruppe": 209643348010854,
+      "Sequenznummer der Auswertung": 209643345010854,
+      "Auswertungsart": "EXPCURR",
+      "Erstellt von": null,
+      "Erstellungsdatum": "2009-12-15",
+      "Erstellt in Instanz": 10854,
+      "Geändert von": null,
+      "Geändert am": "NaT",
+      "Geändert in Instanz": null
+    },
+    {
+      "Sequenznummer der Auswertungsart": 215078427010854,
+      "Sequenznummer der Auswertungsgruppe": 209643348010854,
+      "Sequenznummer der Auswertung": 209643346010854,
+      "Auswertungsart": "EXPVOL",
+      "Erstellt von": null,
+      "Erstellungsdatum": "2009-12-15",
+      "Erstellt in Instanz": 10854,
+      "Geändert von": null,
+      "Geändert am": "NaT",
+      "Geändert in Instanz": null
+    }
+  ]
+}

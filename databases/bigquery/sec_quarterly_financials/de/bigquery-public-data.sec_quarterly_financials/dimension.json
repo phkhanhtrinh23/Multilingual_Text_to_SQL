@@ -1,0 +1,58 @@
+{
+  "table_name": "dimension",
+  "table_fullname": "bigquery-public-data.sec_quarterly_financials.dimension",
+  "column_names": [
+    "Segmente-Hash",
+    "Segmente",
+    "Segment-Trunkierung",
+    "_PARTITIONTIME"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "BOOL",
+    "TIMESTAMP"
+  ],
+  "nested_column_names": [
+    "SegmenteHashwert",
+    "Segmente",
+    "Segmentkürzung"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "BOOL"
+  ],
+  "description": [
+    "MD5-Hash des Segmentsfeldtexts. Obwohl MD5 für kryptographische Zwecke ungeeignet ist, wird es hier lediglich verwendet, um die Größe des Primärschlüssels zu begrenzen. segments_hash: [dimhash]",
+    "Verkettung von Tag-Namen, die die Achse und die in den XBRL-Segmenten vorkommenden Mitglieder repräsentieren. Tag-Namen haben ihre ersten Zeichen \"Statement\", die letzten 4 Zeichen \"Axis\" und die letzten 6 Zeichen \"Member\" oder \"Domain\" gekürzt, wo sie erscheinen. Namespaces und Präfixe werden ignoriert, weil EDGAR-Validierung sicherstellt, dass die lokalen Namen bei einer Einreichung eindeutig sind. Jede Dimension wird als das Paar \"{axis}={member};\" dargestellt und die Achsen in lexikografischer Reihenfolge verkettet. Beispiel: \"LegalEntity=Xyz;Scenario=Restated;\" repräsentiert das XBRL-Segment mit der Dimension LegalEntityAxis und dem Member XyzMember, Dimension StatementScenarioAxis und Member RestatedMember.",
+    "WAHR, wenn das Segmentsfeld länger als 1024 Zeichen gewesen wäre, falls es nicht gekürzt worden wäre; ansonsten FALSCH. segment_truncation: [segt]"
+  ],
+  "sample_rows": [
+    {
+      "SegmenteHashwert": "0x00000000",
+      "Segmente": null,
+      "Segmentkürzung": false
+    },
+    {
+      "SegmenteHashwert": "0x0cfab777bfb97c9c70428f4aa168335c",
+      "Segmente": "PropertyPlantAndEquipmentByType=NonProducingOilAndGasProperties;",
+      "Segmentkürzung": false
+    },
+    {
+      "SegmenteHashwert": "0x0fbb52a9c45f6b71e15f9014faa85f56",
+      "Segmente": "PropertyPlantAndEquipmentByType=SouthTexasProjectAcreage;",
+      "Segmentkürzung": false
+    },
+    {
+      "SegmenteHashwert": "0x133ed0334b7713ac9a34d0512f7d9f1a",
+      "Segmente": "DerivativeInstrumentRisk=PutOption;",
+      "Segmentkürzung": false
+    },
+    {
+      "SegmenteHashwert": "0x1767e6cfc42e170f20b295eb0caaa6cc",
+      "Segmente": "ConsolidationItems=OperatingSegments;BusinessSegments=AllOtherSegments;",
+      "Segmentkürzung": false
+    }
+  ]
+}

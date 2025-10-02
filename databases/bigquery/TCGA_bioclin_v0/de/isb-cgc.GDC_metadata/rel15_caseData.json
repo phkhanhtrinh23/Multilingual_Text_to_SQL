@@ -1,0 +1,126 @@
+{
+  "table_name": "rel15_caseData",
+  "table_fullname": "isb-cgc.GDC_metadata.rel15_caseData",
+  "column_names": [
+    "GDC-Fall-ID",
+    "dbGaP-Akkessionnummer",
+    "Krankheitstyp",
+    "Projektname",
+    "dbGaP-Akkessionnummer des Programms",
+    "Programmiername",
+    "Projekt-ID",
+    "Fall-Barcode",
+    "Anzahl Legacy-Dateien",
+    "Anzahl aktueller Dateien"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "GDC-Fallkennung",
+    "dbGaP-Zugangsnummer des Projekts",
+    "Krankheitsart des Projekts",
+    "Projektname",
+    "dbGaP-Zugangsnummer des Programms",
+    "Programmname",
+    "Projektkennung",
+    "Barcode des Falls",
+    "Anzahl der Legacy-Dateien",
+    "Anzahl der aktuellen Dateien"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "INT64"
+  ],
+  "description": [
+    "GDC eindeutige Kennung",
+    "Zugangsnummer des dbGaP-Programms, z. B. phs000181",
+    "Die Art der durch das Projekt untersuchten Krankheit; z. B. Sarkom, Brustinvasives Karzinom, Akute lymphoblastische Leukämie, usw",
+    "Projektname; Häufig derselbe oder dem Krankheits-Typ des Projekts ähnelnd, z. B. Akute lymphoblastische Leukämie - Phase II oder Brustinvasives Karzinom usw",
+    "Zugangsnummer des dbGaP-Programms, z. B. phs000178",
+    "Programname, z. B. TCGA oder TARGET",
+    "ID des Projekts -- z. B. TCGA-BRCA, TARGET-AML, usw.",
+    "Einreicher-ID, z. B. HCC1954, TCGA-ZX-AA5X, usw",
+    "Gesamtanzahl der Dateien für diesen Fall im GDC-Legacy-Archiv",
+    "Anzahl aktiver Dateien für diesen Fall"
+  ],
+  "sample_rows": [
+    {
+      "GDC-Fallkennung": "8e20b23c-1e5c-4edc-8263-ec3ec3abf482",
+      "dbGaP-Zugangsnummer des Projekts": "phs001179",
+      "Krankheitsart des Projekts": "multi",
+      "Projektname": "Foundation Medicine Adult Cancer Clinical Dataset (FM-AD)",
+      "dbGaP-Zugangsnummer des Programms": null,
+      "Programmname": "FM",
+      "Projektkennung": "FM-AD",
+      "Barcode des Falls": "AD1",
+      "Anzahl der Legacy-Dateien": 0,
+      "Anzahl der aktuellen Dateien": 5
+    },
+    {
+      "GDC-Fallkennung": "35818db5-87e9-4c42-9d4c-902bbfaa09ea",
+      "dbGaP-Zugangsnummer des Projekts": "phs001179",
+      "Krankheitsart des Projekts": "multi",
+      "Projektname": "Foundation Medicine Adult Cancer Clinical Dataset (FM-AD)",
+      "dbGaP-Zugangsnummer des Programms": null,
+      "Programmname": "FM",
+      "Projektkennung": "FM-AD",
+      "Barcode des Falls": "AD2",
+      "Anzahl der Legacy-Dateien": 0,
+      "Anzahl der aktuellen Dateien": 5
+    },
+    {
+      "GDC-Fallkennung": "59b7703e-5bd6-4a2f-b4a6-be80ad6871e9",
+      "dbGaP-Zugangsnummer des Projekts": "phs001179",
+      "Krankheitsart des Projekts": "multi",
+      "Projektname": "Foundation Medicine Adult Cancer Clinical Dataset (FM-AD)",
+      "dbGaP-Zugangsnummer des Programms": null,
+      "Programmname": "FM",
+      "Projektkennung": "FM-AD",
+      "Barcode des Falls": "AD3",
+      "Anzahl der Legacy-Dateien": 0,
+      "Anzahl der aktuellen Dateien": 5
+    },
+    {
+      "GDC-Fallkennung": "066801c5-7723-473e-af4e-3e227d1a680c",
+      "dbGaP-Zugangsnummer des Projekts": "phs001179",
+      "Krankheitsart des Projekts": "multi",
+      "Projektname": "Foundation Medicine Adult Cancer Clinical Dataset (FM-AD)",
+      "dbGaP-Zugangsnummer des Programms": null,
+      "Programmname": "FM",
+      "Projektkennung": "FM-AD",
+      "Barcode des Falls": "AD4",
+      "Anzahl der Legacy-Dateien": 0,
+      "Anzahl der aktuellen Dateien": 5
+    },
+    {
+      "GDC-Fallkennung": "e2cf827c-f437-4759-8651-9317dd291fa5",
+      "dbGaP-Zugangsnummer des Projekts": "phs001179",
+      "Krankheitsart des Projekts": "multi",
+      "Projektname": "Foundation Medicine Adult Cancer Clinical Dataset (FM-AD)",
+      "dbGaP-Zugangsnummer des Programms": null,
+      "Programmname": "FM",
+      "Projektkennung": "FM-AD",
+      "Barcode des Falls": "AD5",
+      "Anzahl der Legacy-Dateien": 0,
+      "Anzahl der aktuellen Dateien": 5
+    }
+  ]
+}

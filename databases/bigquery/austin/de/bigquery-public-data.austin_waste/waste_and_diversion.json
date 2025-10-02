@@ -1,0 +1,106 @@
+{
+  "table_name": "waste_and_diversion",
+  "table_fullname": "bigquery-public-data.austin_waste.waste_and_diversion",
+  "column_names": [
+    "Ladungskennung",
+    "Berichtsdatum",
+    "Ladungstyp",
+    "Ladezeit",
+    "Ladungsgewicht",
+    "Abgabestelle",
+    "Routentyp",
+    "Routenummer"
+  ],
+  "column_types": [
+    "INT64",
+    "DATE",
+    "STRING",
+    "TIMESTAMP",
+    "FLOAT64",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "Ladung_ID",
+    "Berichtsdatum",
+    "Ladungstyp",
+    "Ladezeit",
+    "Ladegewicht",
+    "Abgabestelle",
+    "Routentyp",
+    "Routennummer"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "DATE",
+    "STRING",
+    "TIMESTAMP",
+    "FLOAT64",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "sample_rows": [
+    {
+      "Ladung_ID": 827369,
+      "Berichtsdatum": "2019-05-21",
+      "Ladungstyp": "RECYCLED METAL",
+      "Ladezeit": "2019-05-21 02:30:00+00:00",
+      "Ladegewicht": 760.0,
+      "Abgabestelle": "AUSTIN IRON AND METAL",
+      "Routentyp": "BULK",
+      "Routennummer": "BU05"
+    },
+    {
+      "Ladung_ID": 827104,
+      "Berichtsdatum": "2019-05-20",
+      "Ladungstyp": "RECYCLED METAL",
+      "Ladezeit": "2019-05-20 12:00:00+00:00",
+      "Ladegewicht": 610.0,
+      "Abgabestelle": "AUSTIN IRON AND METAL",
+      "Routentyp": "BULK",
+      "Routennummer": "BU05"
+    },
+    {
+      "Ladung_ID": 827456,
+      "Berichtsdatum": "2019-05-22",
+      "Ladungstyp": "RECYCLED METAL",
+      "Ladezeit": "2019-05-22 02:32:00+00:00",
+      "Ladegewicht": 610.0,
+      "Abgabestelle": "AUSTIN IRON AND METAL",
+      "Routentyp": "BULK",
+      "Routennummer": "BU05"
+    },
+    {
+      "Ladung_ID": 834192,
+      "Berichtsdatum": "2019-07-16",
+      "Ladungstyp": "RECYCLED METAL",
+      "Ladezeit": "2019-07-16 03:33:00+00:00",
+      "Ladegewicht": 1250.0,
+      "Abgabestelle": "AUSTIN IRON AND METAL",
+      "Routentyp": "BULK",
+      "Routennummer": "BU06"
+    },
+    {
+      "Ladung_ID": 834048,
+      "Berichtsdatum": "2019-07-15",
+      "Ladungstyp": "RECYCLED METAL",
+      "Ladezeit": "2019-07-15 01:15:00+00:00",
+      "Ladegewicht": 1070.0,
+      "Abgabestelle": "AUSTIN IRON AND METAL",
+      "Routentyp": "BULK",
+      "Routennummer": "BU06"
+    }
+  ]
+}

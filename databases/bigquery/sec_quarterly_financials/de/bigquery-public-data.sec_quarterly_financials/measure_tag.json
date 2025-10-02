@@ -1,0 +1,118 @@
+{
+  "table_name": "measure_tag",
+  "table_fullname": "bigquery-public-data.sec_quarterly_financials.measure_tag",
+  "column_names": [
+    "Messbezeichnung",
+    "Version",
+    "Benutzerdefiniert",
+    "Zusammenfassung",
+    "Datentyp",
+    "i_or_d",
+    "credit_or_debit",
+    "tag_label",
+    "Dokument",
+    "_PARTITIONTIME"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "BOOL",
+    "BOOL",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "TIMESTAMP"
+  ],
+  "nested_column_names": [
+    "measure_tag",
+    "Version",
+    "Benutzerdefiniert",
+    "Zusammenfassung",
+    "Datentyp",
+    "i_or_d",
+    "credit_or_debit",
+    "tag_label",
+    "Dokument"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "BOOL",
+    "BOOL",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "Die eindeutige Kennung (Name) für einen Tag in einer bestimmten Taxonomie-Version. measure_tag:[tag]",
+    "Für einen Standard-Tag ist dies eine Kennung für die Taxonomie; andernfalls die Accession-Nummer, unter der der Tag definiert wurde.",
+    "1, wenn der Tag benutzerdefiniert ist (version=adsh), 0, wenn er Standard ist. Hinweis: Dieses Flag ist technisch redundant mit den Feldern version und adsh.",
+    "1, wenn der Tag nicht verwendet wird, um eine numerische Tatsache darzustellen.",
+    "Wenn abstract=1, dann NULL, ansonsten der Datentyp (z. B. monetär) für das Tag.",
+    "Wenn abstract=1, dann NULL; andernfalls I, wenn der Wert ein Zeitpunkt ist, oder D, wenn der Wert eine Dauer ist. i_or_d: [iord]",
+    "Wenn datatype = monetary, dann der natürliche Kontostand des Tags aus Sicht der Bilanz oder der Gewinn- und Verlustrechnung (Soll oder Haben); falls nicht definiert, dann NULL. credit_or_debit: [crdr]",
+    "Wenn es sich um einen Standard-Tag handelt, dann der von der Taxonomie bereitgestellte Label-Text; andernfalls der vom Einreicher bereitgestellte Text. Ein Tag, der keines von beidem hat, hätte hier NULL als Wert. tag_label: [tlabel]",
+    "Die detaillierte Definition des Tags, auf 2048 Zeichen gekürzt. Wenn es sich um einen Standard-Tag handelt, dann der von der Taxonomie bereitgestellte Text, andernfalls der vom Einreicher zugewiesene Text. Einige Tags haben keines von beidem; in diesem Fall ist dieses Feld NULL."
+  ],
+  "sample_rows": [
+    {
+      "measure_tag": "InvestmentIdentifierLineItems",
+      "Version": "invest/2013",
+      "Benutzerdefiniert": false,
+      "Zusammenfassung": true,
+      "Datentyp": null,
+      "i_or_d": null,
+      "credit_or_debit": null,
+      "tag_label": "Investment Identifier [Line Items]",
+      "Dokument": "Line items represent reporting concepts included in a table. These concepts are used to disclose reportable information associated with domain members defined in one or many axes to the table."
+    },
+    {
+      "measure_tag": "InvestmentIdentifierTable",
+      "Version": "invest/2013",
+      "Benutzerdefiniert": false,
+      "Zusammenfassung": true,
+      "Datentyp": null,
+      "i_or_d": null,
+      "credit_or_debit": null,
+      "tag_label": "Investment Identifier [Table]",
+      "Dokument": "This table lists the identifiers for the investments. An investment may have more than one identifier. Each identifier is from an identifier scheme."
+    },
+    {
+      "measure_tag": "InvestmentLineItems",
+      "Version": "invest/2013",
+      "Benutzerdefiniert": false,
+      "Zusammenfassung": true,
+      "Datentyp": null,
+      "i_or_d": null,
+      "credit_or_debit": null,
+      "tag_label": "Investment [Line Items]",
+      "Dokument": "Line items represent reporting concepts included in a table. These concepts are used to disclose reportable information associated with domain members defined in one or many axes to the table."
+    },
+    {
+      "measure_tag": "InvestmentMaturityDateRangeAbstract",
+      "Version": "invest/2013",
+      "Benutzerdefiniert": false,
+      "Zusammenfassung": true,
+      "Datentyp": null,
+      "i_or_d": null,
+      "credit_or_debit": null,
+      "tag_label": "Investment Maturity Date Range [Abstract]",
+      "Dokument": "The maturity date range of the underlying investments reported on the Schedule of Investments."
+    },
+    {
+      "measure_tag": "InvestmentTable",
+      "Version": "invest/2013",
+      "Benutzerdefiniert": false,
+      "Zusammenfassung": true,
+      "Datentyp": null,
+      "i_or_d": null,
+      "credit_or_debit": null,
+      "tag_label": "Investment [Table]",
+      "Dokument": "This table lists the investments. The line items identify information about the investment."
+    }
+  ]
+}
