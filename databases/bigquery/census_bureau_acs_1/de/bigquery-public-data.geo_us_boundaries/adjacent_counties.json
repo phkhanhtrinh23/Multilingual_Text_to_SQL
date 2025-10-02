@@ -1,0 +1,86 @@
+{
+  "table_name": "adjacent_counties",
+  "table_fullname": "bigquery-public-data.geo_us_boundaries.adjacent_counties",
+  "column_names": [
+    "Kreis",
+    "Bundesland",
+    "county_fips_code",
+    "Nachbarn",
+    "Nachbarbundesland",
+    "neighbors_fips_code"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "ARRAY<STRING>",
+    "ARRAY<STRING>",
+    "ARRAY<STRING>"
+  ],
+  "nested_column_names": [
+    "Kreis",
+    "Bundesland",
+    "Kreis_FIPS_Code",
+    "Nachbarn",
+    "Nachbarbundesland",
+    "Nachbarn_FIPS_Code"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "ARRAY<STRING>",
+    "ARRAY<STRING>",
+    "ARRAY<STRING>"
+  ],
+  "description": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "sample_rows": [
+    {
+      "Kreis": "Audubon County",
+      "Bundesland": "Iowa",
+      "Kreis_FIPS_Code": "19009",
+      "Nachbarn": "['Shelby' 'Adair' 'Guthrie' 'Crawford' 'Cass' 'Carroll']",
+      "Nachbarbundesland": "['Iowa' 'Iowa' 'Iowa' 'Iowa' 'Iowa' 'Iowa']",
+      "Nachbarn_FIPS_Code": "['19165' '19001' '19077' '19047' '19029' '19027']"
+    },
+    {
+      "Kreis": "Boone County",
+      "Bundesland": "Iowa",
+      "Kreis_FIPS_Code": "19015",
+      "Nachbarn": "['Polk' 'Dallas' 'Webster' 'Greene' 'Story' 'Hamilton']",
+      "Nachbarbundesland": "['Iowa' 'Iowa' 'Iowa' 'Iowa' 'Iowa' 'Iowa']",
+      "Nachbarn_FIPS_Code": "['19153' '19049' '19187' '19073' '19169' '19079']"
+    },
+    {
+      "Kreis": "Bremer County",
+      "Bundesland": "Iowa",
+      "Kreis_FIPS_Code": "19017",
+      "Nachbarn": "['Floyd' 'Chickasaw' 'Buchanan' 'Butler' 'Fayette' 'Black Hawk']",
+      "Nachbarbundesland": "['Iowa' 'Iowa' 'Iowa' 'Iowa' 'Iowa' 'Iowa']",
+      "Nachbarn_FIPS_Code": "['19067' '19037' '19019' '19023' '19065' '19013']"
+    },
+    {
+      "Kreis": "Calhoun County",
+      "Bundesland": "Iowa",
+      "Kreis_FIPS_Code": "19025",
+      "Nachbarn": "['Sac' 'Carroll' 'Buena Vista' 'Webster' 'Greene' 'Pocahontas']",
+      "Nachbarbundesland": "['Iowa' 'Iowa' 'Iowa' 'Iowa' 'Iowa' 'Iowa']",
+      "Nachbarn_FIPS_Code": "['19161' '19027' '19021' '19187' '19073' '19151']"
+    },
+    {
+      "Kreis": "Cedar County",
+      "Bundesland": "Iowa",
+      "Kreis_FIPS_Code": "19031",
+      "Nachbarn": "['Scott' 'Jones' 'Clinton' 'Johnson' 'Muscatine' 'Linn']",
+      "Nachbarbundesland": "['Iowa' 'Iowa' 'Iowa' 'Iowa' 'Iowa' 'Iowa']",
+      "Nachbarn_FIPS_Code": "['19163' '19105' '19045' '19103' '19139' '19113']"
+    }
+  ]
+}
