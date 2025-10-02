@@ -1,0 +1,121 @@
+{
+  "table_name": "rel19_caseData",
+  "table_fullname": "isb-cgc.GDC_metadata.rel19_caseData",
+  "column_names": [
+    "Fall GDC ID",
+    "Projekt DBGAP Akkessionnummer",
+    "Krankheitsart des Projekts",
+    "Projektname",
+    "Programm DBGAP Akkessionnummer",
+    "Programname",
+    "Projektnummer",
+    "Barcode des Falls",
+    "Anzahl Altdateien",
+    "Anzahl aktiver Dateien"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "GDC-Fall-ID",
+    "DBGAP-Accession-Nummer",
+    "Krankheitsart",
+    "Projektname",
+    "DBGAP-Accession-Nummer",
+    "Programmname",
+    "Projekt-ID",
+    "Fall-Barcode",
+    "Legacy-Dateien-Anzahl",
+    "Aktive-Dateien-Anzahl"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "INT64"
+  ],
+  "description": [
+    "GDC eindeutige Kennung",
+    "Programm dbGaP-Akkessionnummer, z.B. phs000187",
+    "Der Typ der Erkrankung, die im Projekt untersucht wird; z.B. Sarkom, Brustinvasives Karzinom, akute lymphoblastische Leukämie usw",
+    "Projektname; häufig derselbe wie oder ähnlich dem Erkrankungstyp des Projekts z. B. Akute lymphoblastische Leukämie - Phase II oder Brustinvasives Karzinom usw",
+    "Programm dbGaP-Akkessionnummer, z.B. phs000178",
+    "Programname, z. B. TCGA oder TARGET",
+    "ID des Projekts -- z. B. TCGA-BRCA, TARGET-AML, usw",
+    "Einreicher-Identifikator, z. B. HCC1954, TCGA-ZX-AA5X, usw",
+    "Gesamtanzahl der Dateien für diesen Fall im GDC-Legacy-Archiv",
+    "Gesamtanzahl der Dateien für diesen Fall im aktiven (Standard-)GDC-Archiv"
+  ],
+  "sample_rows": [
+    {
+      "GDC-Fall-ID": "942851b0-b554-48f4-84f6-6826902e12d7",
+      "DBGAP-Accession-Nummer": "CCLE",
+      "Krankheitsart": "Lymphoid Neoplasm Diffuse Large B-cell Lymphoma",
+      "Projektname": "Lymphoid Neoplasm Diffuse Large B-cell Lymphoma",
+      "Programmname": "CCLE",
+      "Projekt-ID": "CCLE-DLBC",
+      "Fall-Barcode": "DB",
+      "Legacy-Dateien-Anzahl": 1,
+      "Aktive-Dateien-Anzahl": 0
+    },
+    {
+      "GDC-Fall-ID": "aaa8da09-070c-4a31-a99e-720f1a0a964f",
+      "DBGAP-Accession-Nummer": "CCLE",
+      "Krankheitsart": "Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma",
+      "Projektname": "Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma",
+      "Programmname": "CCLE",
+      "Projekt-ID": "CCLE-CESC",
+      "Fall-Barcode": "EN",
+      "Legacy-Dateien-Anzahl": 1,
+      "Aktive-Dateien-Anzahl": 0
+    },
+    {
+      "GDC-Fall-ID": "ae4dd9c2-ddba-4da5-a372-4cfdeed0859e",
+      "DBGAP-Accession-Nummer": "CCLE",
+      "Krankheitsart": "Brain Lower Grade Glioma",
+      "Projektname": "Brain Lower Grade Glioma",
+      "Programmname": "CCLE",
+      "Projekt-ID": "CCLE-LGG",
+      "Fall-Barcode": "H4",
+      "Legacy-Dateien-Anzahl": 1,
+      "Aktive-Dateien-Anzahl": 0
+    },
+    {
+      "GDC-Fall-ID": "6153a459-2c19-41c9-8815-aa9f6e72712e",
+      "DBGAP-Accession-Nummer": "CCLE",
+      "Krankheitsart": "Lymphoid Neoplasm Diffuse Large B-cell Lymphoma",
+      "Projektname": "Lymphoid Neoplasm Diffuse Large B-cell Lymphoma",
+      "Programmname": "CCLE",
+      "Projekt-ID": "CCLE-DLBC",
+      "Fall-Barcode": "HH",
+      "Legacy-Dateien-Anzahl": 1,
+      "Aktive-Dateien-Anzahl": 0
+    },
+    {
+      "GDC-Fall-ID": "7f1968dd-cabb-4fc0-9ae7-76f80f41baa5",
+      "DBGAP-Accession-Nummer": "CCLE",
+      "Krankheitsart": "Lymphoid Neoplasm Diffuse Large B-cell Lymphoma",
+      "Projektname": "Lymphoid Neoplasm Diffuse Large B-cell Lymphoma",
+      "Programmname": "CCLE",
+      "Projekt-ID": "CCLE-DLBC",
+      "Fall-Barcode": "HT",
+      "Legacy-Dateien-Anzahl": 2,
+      "Aktive-Dateien-Anzahl": 0
+    }
+  ]
+}

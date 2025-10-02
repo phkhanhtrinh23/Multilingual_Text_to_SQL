@@ -1,0 +1,126 @@
+{
+  "table_name": "rel13_caseData",
+  "table_fullname": "isb-cgc.GDC_metadata.rel13_caseData",
+  "column_names": [
+    "Datei-ID",
+    "DBGAP-Zugangsnummer des Projekts",
+    "Krankheitstyp des Projekts",
+    "Projektname",
+    "DBGAP-Zugangsnummer des Programms",
+    "Programmname",
+    "Projekt-ID",
+    "Einreicher-ID",
+    "Anzahl der Legacy-Dateien",
+    "Anzahl der aktiven Dateien"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "Datei-ID",
+    "DBGAP-Akzessionnummer",
+    "Krankheitsart",
+    "Projektname",
+    "DBGAP-Akzessionnummer des Programms",
+    "Programmname",
+    "Projekt-ID",
+    "Einreicher-ID",
+    "Altdateien-Anzahl",
+    "Anzahl aktiver Dateien"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "INT64"
+  ],
+  "description": [
+    "GDC-Datei-Identifikator. Dies ist ein Duplikat des Feldes file_gdc_id, das in einigen Tabellen gefunden wird.",
+    "Projekt-dbGaP-Zugangsnr.",
+    "Krankheitstyp des Projekts.",
+    "Name der Studie des Projekts.",
+    "DbGaP-Zugangsnr. für das Programm.",
+    "Programmname.",
+    "Programmkürzel mit Projektskürzel.",
+    "Dies kann verwendet werden, um einen entsprechenden Eintrag in den Aufzeichnungen des Einreichers zu identifizieren. Die GDC fordert, dass submitter_id für jede Entität innerhalb eines Projekts eindeutig ist: das Tupel (Kombination) von [ project_id, submitter_id ] ist ein eindeutiger Schlüssel.",
+    "Gesamtanzahl der Dateien für diesen Fall im GDC-Legacy-Archiv.",
+    "Anzahl der Dateien im aktiven Archiv."
+  ],
+  "sample_rows": [
+    {
+      "Datei-ID": "942851b0-b554-48f4-84f6-6826902e12d7",
+      "DBGAP-Akzessionnummer": "CCLE",
+      "Krankheitsart": "Lymphoid Neoplasm Diffuse Large B-cell Lymphoma",
+      "Projektname": "Lymphoid Neoplasm Diffuse Large B-cell Lymphoma",
+      "DBGAP-Akzessionnummer des Programms": "CCLE",
+      "Programmname": "CCLE",
+      "Projekt-ID": "CCLE-DLBC",
+      "Einreicher-ID": "DB",
+      "Altdateien-Anzahl": 1,
+      "Anzahl aktiver Dateien": 0
+    },
+    {
+      "Datei-ID": "aaa8da09-070c-4a31-a99e-720f1a0a964f",
+      "DBGAP-Akzessionnummer": "CCLE",
+      "Krankheitsart": "Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma",
+      "Projektname": "Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma",
+      "DBGAP-Akzessionnummer des Programms": "CCLE",
+      "Programmname": "CCLE",
+      "Projekt-ID": "CCLE-CESC",
+      "Einreicher-ID": "EN",
+      "Altdateien-Anzahl": 1,
+      "Anzahl aktiver Dateien": 0
+    },
+    {
+      "Datei-ID": "ae4dd9c2-ddba-4da5-a372-4cfdeed0859e",
+      "DBGAP-Akzessionnummer": "CCLE",
+      "Krankheitsart": "Brain Lower Grade Glioma",
+      "Projektname": "Brain Lower Grade Glioma",
+      "DBGAP-Akzessionnummer des Programms": "CCLE",
+      "Programmname": "CCLE",
+      "Projekt-ID": "CCLE-LGG",
+      "Einreicher-ID": "H4",
+      "Altdateien-Anzahl": 1,
+      "Anzahl aktiver Dateien": 0
+    },
+    {
+      "Datei-ID": "6153a459-2c19-41c9-8815-aa9f6e72712e",
+      "DBGAP-Akzessionnummer": "CCLE",
+      "Krankheitsart": "Lymphoid Neoplasm Diffuse Large B-cell Lymphoma",
+      "Projektname": "Lymphoid Neoplasm Diffuse Large B-cell Lymphoma",
+      "DBGAP-Akzessionnummer des Programms": "CCLE",
+      "Programmname": "CCLE",
+      "Projekt-ID": "CCLE-DLBC",
+      "Einreicher-ID": "HH",
+      "Altdateien-Anzahl": 1,
+      "Anzahl aktiver Dateien": 0
+    },
+    {
+      "Datei-ID": "7f1968dd-cabb-4fc0-9ae7-76f80f41baa5",
+      "DBGAP-Akzessionnummer": "CCLE",
+      "Krankheitsart": "Lymphoid Neoplasm Diffuse Large B-cell Lymphoma",
+      "Projektname": "Lymphoid Neoplasm Diffuse Large B-cell Lymphoma",
+      "DBGAP-Akzessionnummer des Programms": "CCLE",
+      "Programmname": "CCLE",
+      "Projekt-ID": "CCLE-DLBC",
+      "Einreicher-ID": "HT",
+      "Altdateien-Anzahl": 2,
+      "Anzahl aktiver Dateien": 0
+    }
+  ]
+}

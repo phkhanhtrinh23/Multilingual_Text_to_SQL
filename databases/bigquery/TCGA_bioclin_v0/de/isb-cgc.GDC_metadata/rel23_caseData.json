@@ -1,0 +1,126 @@
+{
+  "table_name": "rel23_caseData",
+  "table_fullname": "isb-cgc.GDC_metadata.rel23_caseData",
+  "column_names": [
+    "GDC-Fall-ID",
+    "Projekt-DBGaP-Zugangsnr",
+    "Projektkrankheitstyp",
+    "Projektname",
+    "Programm-DBGaP-Zugangsnr",
+    "Programmname",
+    "Projekt-ID",
+    "Fallbarcode",
+    "Legacy-Dateienanzahl",
+    "AktiveDateienanzahl"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "Fall GDC Identifikationsnummer",
+    "Projekt dbGaP Zugangsnummer",
+    "Krankheitsart",
+    "Projektname",
+    "Programm dbGaP Zugangsnummer",
+    "Programname",
+    "Projektkennung",
+    "Fallbarcode",
+    "LegacyDateienanzahl",
+    "Anzahl aktiver Dateien"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "INT64"
+  ],
+  "description": [
+    "GDC eindeutige Kennung",
+    "Programm dbGaP Aktenzeichen, z.B. phs000187",
+    "Der Krankheitstyp, der im Projekt untersucht wird; z.B. Sarkom, Brustinvasives Karzinom, akute lymphoblastische Leukämie, usw",
+    "Projektname; häufig derselbe oder ähnliche wie der Krankheitstyp des Projekts, z.B. Akute lymphoblastische Leukämie - Phase II oder Brustinvasives Karzinom usw",
+    "Programm dbGaP Aktenzeichen, z.B. phs000178",
+    "Programname, z.B. TCGA oder TARGET",
+    "Projekt-ID – z.B. TCGA-BRCA, TARGET-AML, etc",
+    "Einreicher-ID, z.B. HCC1954, TCGA-ZX-AA5X, etc",
+    "Gesamtanzahl der Dateien für diesen Fall im GDC-Legacy-Archiv",
+    "Gesamtanzahl der Dateien für diesen Fall im aktiven (Standard-) GDC-Archiv"
+  ],
+  "sample_rows": [
+    {
+      "Fall GDC Identifikationsnummer": "7f36eff2-aa69-4c4d-8101-8801c812a36b",
+      "Projekt dbGaP Zugangsnummer": null,
+      "Krankheitsart": "Cystic, Mucinous and Serous Neoplasms;Not Reported",
+      "Projektname": "Ovarian Serous Cystadenocarcinoma",
+      "Programm dbGaP Zugangsnummer": "phs000178",
+      "Programname": "TCGA",
+      "Projektkennung": "TCGA-OV",
+      "Fallbarcode": "TCGA-13-0914",
+      "LegacyDateienanzahl": 9,
+      "Anzahl aktiver Dateien": 20
+    },
+    {
+      "Fall GDC Identifikationsnummer": "78821fb5-0669-42c7-b62b-b61d6b7d7ac6",
+      "Projekt dbGaP Zugangsnummer": null,
+      "Krankheitsart": "Cystic, Mucinous and Serous Neoplasms;Not Reported",
+      "Projektname": "Ovarian Serous Cystadenocarcinoma",
+      "Programm dbGaP Zugangsnummer": "phs000178",
+      "Programname": "TCGA",
+      "Projektkennung": "TCGA-OV",
+      "Fallbarcode": "TCGA-13-0922",
+      "LegacyDateienanzahl": 9,
+      "Anzahl aktiver Dateien": 20
+    },
+    {
+      "Fall GDC Identifikationsnummer": "f88560c8-3475-47f2-9d48-4b8311bc1132",
+      "Projekt dbGaP Zugangsnummer": null,
+      "Krankheitsart": "Cystic, Mucinous and Serous Neoplasms;Not Reported",
+      "Projektname": "Ovarian Serous Cystadenocarcinoma",
+      "Programm dbGaP Zugangsnummer": "phs000178",
+      "Programname": "TCGA",
+      "Projektkennung": "TCGA-OV",
+      "Fallbarcode": "TCGA-01-0628",
+      "LegacyDateienanzahl": 41,
+      "Anzahl aktiver Dateien": 21
+    },
+    {
+      "Fall GDC Identifikationsnummer": "dc9b4616-e815-43c8-9ec4-720a32868541",
+      "Projekt dbGaP Zugangsnummer": null,
+      "Krankheitsart": "Cystic, Mucinous and Serous Neoplasms;Not Reported",
+      "Projektname": "Ovarian Serous Cystadenocarcinoma",
+      "Programm dbGaP Zugangsnummer": "phs000178",
+      "Programname": "TCGA",
+      "Projektkennung": "TCGA-OV",
+      "Fallbarcode": "TCGA-01-0630",
+      "LegacyDateienanzahl": 41,
+      "Anzahl aktiver Dateien": 21
+    },
+    {
+      "Fall GDC Identifikationsnummer": "3a7b22b5-0847-46df-92bf-cacc3f11deef",
+      "Projekt dbGaP Zugangsnummer": null,
+      "Krankheitsart": "Cystic, Mucinous and Serous Neoplasms;Not Reported",
+      "Projektname": "Ovarian Serous Cystadenocarcinoma",
+      "Programm dbGaP Zugangsnummer": "phs000178",
+      "Programname": "TCGA",
+      "Projektkennung": "TCGA-OV",
+      "Fallbarcode": "TCGA-01-0631",
+      "LegacyDateienanzahl": 41,
+      "Anzahl aktiver Dateien": 21
+    }
+  ]
+}
