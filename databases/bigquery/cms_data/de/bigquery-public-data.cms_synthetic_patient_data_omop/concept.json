@@ -1,0 +1,126 @@
+{
+  "table_name": "concept",
+  "table_fullname": "bigquery-public-data.cms_synthetic_patient_data_omop.concept",
+  "column_names": [
+    "Begriff-ID",
+    "Begriffname",
+    "Domänen-ID",
+    "Vokabular-ID",
+    "Begriffsklasse-ID",
+    "Standardkonzept",
+    "Begriffscode",
+    "Gültigkeitsbeginn",
+    "Gültigkeitsende",
+    "Ungültigkeitsgrund"
+  ],
+  "column_types": [
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "DATE",
+    "DATE",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "Begriff_ID",
+    "Begriff_Name",
+    "Domain_ID",
+    "Vokabular_ID",
+    "Begriffsklasse_ID",
+    "Standardbegriff",
+    "Begriff_Code",
+    "Gueltigkeitsbeginn",
+    "Gueltigkeitsende",
+    "Ungueltigkeitsgrund"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "DATE",
+    "DATE",
+    "STRING"
+  ],
+  "description": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "sample_rows": [
+    {
+      "Begriff_ID": 3050551,
+      "Begriff_Name": "Deprecated Upper extremity arteries - left Fluoroscopic angiogram W contrast",
+      "Domain_ID": "Observation",
+      "Vokabular_ID": "LOINC",
+      "Begriffsklasse_ID": "Clinical Observation",
+      "Standardbegriff": null,
+      "Begriff_Code": "37573-3",
+      "Gueltigkeitsbeginn": "1970-01-01",
+      "Gueltigkeitsende": "2010-08-27",
+      "Ungueltigkeitsgrund": "U"
+    },
+    {
+      "Begriff_ID": 3048206,
+      "Begriff_Name": "Deprecated Breast - right Mammogram magnification & spot compression",
+      "Domain_ID": "Observation",
+      "Vokabular_ID": "LOINC",
+      "Begriffsklasse_ID": "Clinical Observation",
+      "Standardbegriff": null,
+      "Begriff_Code": "38823-1",
+      "Gueltigkeitsbeginn": "1970-01-01",
+      "Gueltigkeitsende": "2010-08-27",
+      "Ungueltigkeitsgrund": "U"
+    },
+    {
+      "Begriff_ID": 3002477,
+      "Begriff_Name": "Deprecated Carpal bones - left X-ray",
+      "Domain_ID": "Observation",
+      "Vokabular_ID": "LOINC",
+      "Begriffsklasse_ID": "Clinical Observation",
+      "Standardbegriff": null,
+      "Begriff_Code": "26104-0",
+      "Gueltigkeitsbeginn": "1970-01-01",
+      "Gueltigkeitsende": "2010-08-27",
+      "Ungueltigkeitsgrund": "U"
+    },
+    {
+      "Begriff_ID": 40115591,
+      "Begriff_Name": "Iodine 0.009 MG/MG [Iodosorb]",
+      "Domain_ID": "Drug",
+      "Vokabular_ID": "RxNorm",
+      "Begriffsklasse_ID": "Branded Drug Comp",
+      "Standardbegriff": null,
+      "Begriff_Code": "575013",
+      "Gueltigkeitsbeginn": "2005-09-11",
+      "Gueltigkeitsende": "2007-02-25",
+      "Ungueltigkeitsgrund": "D"
+    },
+    {
+      "Begriff_ID": 40664513,
+      "Begriff_Name": "Smoking and tobacco cessation counseling visit for the asymptomatic patient; intermediate, greater than 3 minutes, up to 10 minutes",
+      "Domain_ID": "Device",
+      "Vokabular_ID": "HCPCS",
+      "Begriffsklasse_ID": "HCPCS",
+      "Standardbegriff": null,
+      "Begriff_Code": "C9801",
+      "Gueltigkeitsbeginn": "2011-01-09",
+      "Gueltigkeitsende": "2014-11-11",
+      "Ungueltigkeitsgrund": "D"
+    }
+  ]
+}
