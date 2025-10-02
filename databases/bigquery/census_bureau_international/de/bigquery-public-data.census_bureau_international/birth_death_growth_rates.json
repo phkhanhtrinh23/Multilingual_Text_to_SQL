@@ -1,0 +1,106 @@
+{
+  "table_name": "birth_death_growth_rates",
+  "table_fullname": "bigquery-public-data.census_bureau_international.birth_death_growth_rates",
+  "column_names": [
+    "Ländercode",
+    "Landname",
+    "Jahr",
+    "Geburtenrate",
+    "Sterberate",
+    "Nettozuwanderung",
+    "Natürliche Zuwachsrate",
+    "Bevölkerungswachstumsrate"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "INT64",
+    "FLOAT64",
+    "FLOAT64",
+    "FLOAT64",
+    "FLOAT64",
+    "FLOAT64"
+  ],
+  "nested_column_names": [
+    "Ländercode",
+    "Landname",
+    "Jahr",
+    "Rohgeburtenrate",
+    "Rohsterberate",
+    "Nettozuwanderung",
+    "natürliche Bevölkerungswachstumsrate",
+    "Bevölkerungswachstumsrate"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "INT64",
+    "FLOAT64",
+    "FLOAT64",
+    "FLOAT64",
+    "FLOAT64",
+    "FLOAT64"
+  ],
+  "description": [
+    "Federal Information Processing Standard (FIPS) Ländercode/Gebietscode",
+    "Land- oder Gebietsnamen",
+    "Jahr",
+    "Rohgeburtenrate (Geburten pro 1,000 Einwohner)",
+    "Sterblichkeitsrate (Sterbefälle pro 1,000 Einwohner)",
+    "Netto-Migrationsrate (Nettoanzahl der Migranten pro 1,000 Einwohner)",
+    "Rate des natürlichen Zuwachses (Prozent)",
+    "Wachstumsrate (Prozent)"
+  ],
+  "sample_rows": [
+    {
+      "Ländercode": "CD",
+      "Landname": "Chad",
+      "Jahr": 1993,
+      "Rohgeburtenrate": 47.8,
+      "Rohsterberate": 18.71,
+      "Nettozuwanderung": -23.09,
+      "natürliche Bevölkerungswachstumsrate": 2.909,
+      "Bevölkerungswachstumsrate": 0.6
+    },
+    {
+      "Ländercode": "CD",
+      "Landname": "Chad",
+      "Jahr": 1994,
+      "Rohgeburtenrate": 47.71,
+      "Rohsterberate": 18.31,
+      "Nettozuwanderung": -0.2,
+      "natürliche Bevölkerungswachstumsrate": 2.94,
+      "Bevölkerungswachstumsrate": 2.92
+    },
+    {
+      "Ländercode": "CD",
+      "Landname": "Chad",
+      "Jahr": 1995,
+      "Rohgeburtenrate": 48.02,
+      "Rohsterberate": 17.9,
+      "Nettozuwanderung": 21.95,
+      "natürliche Bevölkerungswachstumsrate": 3.012,
+      "Bevölkerungswachstumsrate": 5.207
+    },
+    {
+      "Ländercode": "CD",
+      "Landname": "Chad",
+      "Jahr": 1996,
+      "Rohgeburtenrate": 48.35,
+      "Rohsterberate": 17.51,
+      "Nettozuwanderung": -0.14,
+      "natürliche Bevölkerungswachstumsrate": 3.084,
+      "Bevölkerungswachstumsrate": 3.07
+    },
+    {
+      "Ländercode": "CD",
+      "Landname": "Chad",
+      "Jahr": 1997,
+      "Rohgeburtenrate": 48.74,
+      "Rohsterberate": 17.25,
+      "Nettozuwanderung": 0.18,
+      "natürliche Bevölkerungswachstumsrate": 3.149,
+      "Bevölkerungswachstumsrate": 3.168
+    }
+  ]
+}
