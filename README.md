@@ -1,6 +1,7 @@
-# Multilingual_Text_to_SQL [TO BE UPDATED]
 
-Small collection of multilingual Natural Language -> SQL (text-to-SQL) question datasets and database schemas used for experimentation and evaluation **[TO BE UPDATED]**.
+# Multilingual_Text_to_SQL
+
+Multilingual_Text_to_SQL provides datasets and schemas for evaluating and developing multilingual text-to-SQL systems. It supports 8 languages and multiple database engines, making it useful for research and benchmarking.
 
 ## Layout
 
@@ -26,7 +27,13 @@ This repo aggregates:
 - Add multilingual question files under `questions/` as JSONL, one JSON object per line.
 - Keep schema DDL and JSON metadata aligned.
 
+
 ## Notes
 
 - Files in `databases/` include descriptive JSON metadata (and may have DDL.csv) that help identify table and column names for SQL generation.
 - Question files contain instance ids and the target `db` name matching directory names under `databases/`.
+
+---
+For questions or contributions, contact: phkhanhtrinh23@gmail.com
+
+License: MIT
