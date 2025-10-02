@@ -14,6 +14,7 @@ This repo aggregates:
 - Database table definitions and samples to help map natural language questions to schema elements.
 - Multilingual question sets cover 8 languages (en, de, es, fr, ja, pt, vi, zh) intended for training/evaluating text-to-SQL systems.
 
+
 ## Usage
 
 1. Inspect database schemas in [databases/](databases/).
