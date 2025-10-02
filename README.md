@@ -1,6 +1,6 @@
-# Multilingual_Text_to_SQL
+# Multilingual_Text_to_SQL [TO BE UPDATED]
 
-Small collection of multilingual Natural Language -> SQL (text-to-SQL) question datasets and BigQuery database schemas used for experimentation and evaluation **[TO BE UPDATED]**.
+Small collection of multilingual Natural Language -> SQL (text-to-SQL) question datasets and database schemas used for experimentation and evaluation **[TO BE UPDATED]**.
 
 ## Layout
 
