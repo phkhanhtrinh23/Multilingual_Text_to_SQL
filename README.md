@@ -11,7 +11,7 @@ Small collection of multilingual Natural Language -> SQL (text-to-SQL) question 
 
 This repo aggregates:
 - Database table definitions and samples to help map natural language questions to schema elements.
-- Multilingual question sets (en, de, es, fr, ja, pt, vi, zh) intended for training/evaluating text-to-SQL systems.
+- Multilingual question sets cover 8 languages (en, de, es, fr, ja, pt, vi, zh) intended for training/evaluating text-to-SQL systems.
 
 ## Usage
 
