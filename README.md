@@ -1,42 +1,32 @@
 
-
 # Multilingual_Text_to_SQL
 
-**Multilingual_Text_to_SQL** is a resource for evaluating and developing multilingual text-to-SQL systems. It offers:
-- Datasets and schemas for multiple public databases
-- Support for 8 languages: en, de, es, fr, ja, pt, vi, zh
-- Compatibility with BigQuery, Snowflake, and SQLite engines
-- Ready-to-use question sets for research and benchmarking
+Multilingual_Text_to_SQL provides datasets and schemas for evaluating and developing multilingual text-to-SQL systems. It supports 8 languages and multiple database engines, making it useful for research and benchmarking.
 
-
-## Repository Structure
+## Layout
 
 - [databases/](databases/) — exported BigQuery, Snowflake, and SQLite schemas and JSON/DDL metadata for multiple public datasets.
 - [questions/](questions/) — multilingual question files in JSONL format. Each line is a single JSON object describing a natural language query and target database.
 
-
 ## Purpose
 
-This repository aggregates:
-- Database table definitions and samples to help map natural language questions to schema elements
-- Multilingual question sets for training and evaluating text-to-SQL systems
+This repo aggregates:
+- Database table definitions and samples to help map natural language questions to schema elements.
+- Multilingual question sets cover 8 languages (en, de, es, fr, ja, pt, vi, zh) intended for training/evaluating text-to-SQL systems.
 
 
-
-## Quick Start
+## Usage
 
 1. Inspect database schemas in [databases/](databases/).
 2. Open question files in [questions/](questions/) to view examples of NL queries and associated db ids.
    - Example: [questions/spider2-lite_vi.jsonl](questions/spider2-lite_vi.jsonl)
 3. Use the schemas to generate SQL templates or to build mapping layers for your parser.
 
-
-## Contributing Guidelines
+## Contributing
 
 - Add new schemas under `databases/<engine>/<dataset>/`.
 - Add multilingual question files under `questions/` as JSONL, one JSON object per line.
 - Keep schema DDL and JSON metadata aligned.
-
 
 
 ## Additional Notes
@@ -45,5 +35,5 @@ This repository aggregates:
 - Question files contain instance ids and the target `db` name matching directory names under `databases/`.
 
 ---
-**Contact:** phkhanhtrinh23@gmail.com  
-**License:** MIT
+
+License: MIT
