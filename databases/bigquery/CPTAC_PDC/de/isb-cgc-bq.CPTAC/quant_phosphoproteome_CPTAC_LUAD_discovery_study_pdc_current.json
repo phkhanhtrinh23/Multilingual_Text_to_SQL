@@ -1,0 +1,116 @@
+{
+  "table_name": "quant_phosphoproteome_CPTAC_LUAD_discovery_study_pdc_current",
+  "table_fullname": "isb-cgc-bq.CPTAC.quant_phosphoproteome_CPTAC_LUAD_discovery_study_pdc_current",
+  "column_names": [
+    "Fall-ID",
+    "Probe-ID",
+    "Aliquot-ID",
+    "Aliquot-Einreicher-ID",
+    "Aliquot-Durchlauf-Metadaten-ID",
+    "Studienname",
+    "Log2-Verhältnis der Proteinabundanz",
+    "RefSeq-ID",
+    "Phosphorylierungsstellen"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "case_id",
+    "sample_id",
+    "aliquot_id",
+    "aliquot_submitter_id",
+    "aliquot_run_metadata_id",
+    "study_name",
+    "protein_abundance_log2ratio",
+    "refseq_id",
+    "phosphorylation_sites"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "Eindeutige Kennung, die mit einem bestimmten Patienten verknüpft ist (z. B. 24cb0fcb-63d6-11e8-bcf1-0a2705229b82)",
+    "Einzigartige PDC-Kennung für diese Probe (z. B. e8d83eb9-693a-11ea-b1fd-0aad30af8a83)",
+    "Einzigartige PDC-Kennung für dieses Aliquot (z. B. e8db124a-693a-11ea-b1fd-0aad30af8a83)",
+    "Aliquot-Submitter-ID, die vom Programm zugewiesen wurde (z. B. T14)",
+    "Eindeutige Identifikation des Aliquot danach, wie er im Experiment verwendet wurde (basierend auf dem Beschriftungsreagenz und/oder dem biologischen Replikat)",
+    "Name der Studie (z. B. Pediatric Brain Cancer Pilot Study - Phosphoproteome)",
+    "Durchschnittliches Log-Verhältnis des Proben-Reporter-Ions zur gemeinsamen Referenz der Peptid-Ionen, die dem in den Messungen aus einer bestimmten biologischen Probe zugehörigen Gen zugeordnet sind",
+    "Einzigartige Kennung, die einer Sequenz in der NCBI RefSeq-Datenbank zugewiesen wird",
+    "Einzelbuchstaben-Codes und Positionen der phosphorylierten Aminosäuren in der Proteinsequenz (z. B. t304s310, t59)"
+  ],
+  "sample_rows": [
+    {
+      "case_id": "f1ed884e-cf1e-11e9-9a07-0a80fada099c",
+      "sample_id": "98c196c9-d0a6-11e9-9a07-0a80fada099c",
+      "aliquot_id": "5022ebd4-d0b0-11e9-9a07-0a80fada099c",
+      "aliquot_submitter_id": "CPT0053040004",
+      "aliquot_run_metadata_id": "4642fe4b-becc-11e9-9a07-0a80fada099c",
+      "study_name": "CPTAC LUAD Discovery Study - Phosphoproteome",
+      "protein_abundance_log2ratio": 0.9994,
+      "refseq_id": "NP_071934.3",
+      "phosphorylation_sites": "t1199"
+    },
+    {
+      "case_id": "f1ed884e-cf1e-11e9-9a07-0a80fada099c",
+      "sample_id": "98c196c9-d0a6-11e9-9a07-0a80fada099c",
+      "aliquot_id": "5022ebd4-d0b0-11e9-9a07-0a80fada099c",
+      "aliquot_submitter_id": "CPT0053040004",
+      "aliquot_run_metadata_id": "4642fe4b-becc-11e9-9a07-0a80fada099c",
+      "study_name": "CPTAC LUAD Discovery Study - Phosphoproteome",
+      "protein_abundance_log2ratio": -0.1381,
+      "refseq_id": "NP_001127909.1",
+      "phosphorylation_sites": "s411s414"
+    },
+    {
+      "case_id": "f1ed884e-cf1e-11e9-9a07-0a80fada099c",
+      "sample_id": "98c196c9-d0a6-11e9-9a07-0a80fada099c",
+      "aliquot_id": "5022ebd4-d0b0-11e9-9a07-0a80fada099c",
+      "aliquot_submitter_id": "CPT0053040004",
+      "aliquot_run_metadata_id": "4642fe4b-becc-11e9-9a07-0a80fada099c",
+      "study_name": "CPTAC LUAD Discovery Study - Phosphoproteome",
+      "protein_abundance_log2ratio": -0.6238,
+      "refseq_id": "NP_001185712.1",
+      "phosphorylation_sites": "s382"
+    },
+    {
+      "case_id": "f1ed884e-cf1e-11e9-9a07-0a80fada099c",
+      "sample_id": "98c196c9-d0a6-11e9-9a07-0a80fada099c",
+      "aliquot_id": "5022ebd4-d0b0-11e9-9a07-0a80fada099c",
+      "aliquot_submitter_id": "CPT0053040004",
+      "aliquot_run_metadata_id": "4642fe4b-becc-11e9-9a07-0a80fada099c",
+      "study_name": "CPTAC LUAD Discovery Study - Phosphoproteome",
+      "protein_abundance_log2ratio": 0.6082,
+      "refseq_id": "NP_116222.4",
+      "phosphorylation_sites": "s508"
+    },
+    {
+      "case_id": "f1ed884e-cf1e-11e9-9a07-0a80fada099c",
+      "sample_id": "98c196c9-d0a6-11e9-9a07-0a80fada099c",
+      "aliquot_id": "5022ebd4-d0b0-11e9-9a07-0a80fada099c",
+      "aliquot_submitter_id": "CPT0053040004",
+      "aliquot_run_metadata_id": "4642fe4b-becc-11e9-9a07-0a80fada099c",
+      "study_name": "CPTAC LUAD Discovery Study - Phosphoproteome",
+      "protein_abundance_log2ratio": 0.3478,
+      "refseq_id": "NP_001257354.1",
+      "phosphorylation_sites": "t174"
+    }
+  ]
+}
