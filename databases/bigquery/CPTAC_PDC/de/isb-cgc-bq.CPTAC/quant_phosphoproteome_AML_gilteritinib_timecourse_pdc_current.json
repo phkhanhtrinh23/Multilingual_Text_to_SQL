@@ -1,0 +1,116 @@
+{
+  "table_name": "quant_phosphoproteome_AML_gilteritinib_timecourse_pdc_current",
+  "table_fullname": "isb-cgc-bq.CPTAC.quant_phosphoproteome_AML_gilteritinib_timecourse_pdc_current",
+  "column_names": [
+    "Fall-ID",
+    "Probe-ID",
+    "Unterprobe-ID",
+    "Unterprobe-Einreicher-ID",
+    "Unterprobe-Lauf-Metadaten-ID",
+    "Studienname",
+    "Proteinabundanz-Log2-Verhältnis",
+    "Referenzsequenz-ID",
+    "Phosphorylierungsstellen"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "Fall-ID",
+    "Proben-ID",
+    "Aliquot-ID",
+    "Einreicher-ID",
+    "Aliquot-Durchlauf-Metadaten-ID",
+    "Studienname",
+    "Proteinabundanz-Log2-Verhältnis",
+    "RefSeq-ID",
+    "Phosphorylierungsstellen"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "Eine eindeutige Kennung, die mit einem bestimmten Patienten verbunden ist (z. B. 24cb0fcb-63d6-11e8-bcf1-0a2705229b82)",
+    "Eine eindeutige PDC-Identifikator für diese Probe (z. B. e8d83eb9-693a-11ea-b1fd-0aad30af8a83)",
+    "Eine eindeutige PDC-Identifikator für dieses Aliquot (z. B. e8db124a-693a-11ea-b1fd-0aad30af8a83)",
+    "Vom Programm zugewiesene Aliquot-Einreicher-ID",
+    "Eindeutig identifiziert, wie die Aliquot im Experiment verwendet wurde (basierend auf dem Etikettierungsreagenz und/oder biologischen Replikaten)",
+    "Name der Studie (z. B. Pediatric Brain Cancer Pilot Study - Phosphoproteome)",
+    "Durchschnittliches Log-Verhältnis der Sample-Reporter-Ionen zur gemeinsamen Referenz der Peptidionen, die dem Gen in Messungen aus einer bestimmten biologischen Probe zugeordnet sind",
+    "Einzigartige Kennung einer Sequenz in der NCBI RefSeq-Datenbank",
+    "Einzelbuchstaben-Codes und Proteinsequenzpositionen der phosphorylierten Aminosäuren (z. B. t304s310, t59)"
+  ],
+  "sample_rows": [
+    {
+      "Fall-ID": "4a4b2172-550c-4dbd-adad-8b3425f3ddea",
+      "Proben-ID": "1c1f661c-e8d8-44f0-971b-863c32c9ef59",
+      "Aliquot-ID": "2e2c8318-db8c-4131-aaa4-72a8dbfdb229",
+      "Einreicher-ID": "PTRC_Ex8_P1",
+      "Aliquot-Durchlauf-Metadaten-ID": "a44d66b4-e0bf-4c65-afa0-e90f5ef0c6ff",
+      "Studienname": "AML Gilteritinib TimeCourse -  Phosphoproteome",
+      "Proteinabundanz-Log2-Verhältnis": -0.8623,
+      "RefSeq-ID": "NP_000539.2",
+      "Phosphorylierungsstellen": "s1346"
+    },
+    {
+      "Fall-ID": "4a4b2172-550c-4dbd-adad-8b3425f3ddea",
+      "Proben-ID": "1c1f661c-e8d8-44f0-971b-863c32c9ef59",
+      "Aliquot-ID": "2e2c8318-db8c-4131-aaa4-72a8dbfdb229",
+      "Einreicher-ID": "PTRC_Ex8_P1",
+      "Aliquot-Durchlauf-Metadaten-ID": "a44d66b4-e0bf-4c65-afa0-e90f5ef0c6ff",
+      "Studienname": "AML Gilteritinib TimeCourse -  Phosphoproteome",
+      "Proteinabundanz-Log2-Verhältnis": -0.2265,
+      "RefSeq-ID": "NP_001001973.1",
+      "Phosphorylierungsstellen": "s146"
+    },
+    {
+      "Fall-ID": "4a4b2172-550c-4dbd-adad-8b3425f3ddea",
+      "Proben-ID": "1c1f661c-e8d8-44f0-971b-863c32c9ef59",
+      "Aliquot-ID": "2e2c8318-db8c-4131-aaa4-72a8dbfdb229",
+      "Einreicher-ID": "PTRC_Ex8_P1",
+      "Aliquot-Durchlauf-Metadaten-ID": "a44d66b4-e0bf-4c65-afa0-e90f5ef0c6ff",
+      "Studienname": "AML Gilteritinib TimeCourse -  Phosphoproteome",
+      "Proteinabundanz-Log2-Verhältnis": -0.2676,
+      "RefSeq-ID": "NP_001005271.2",
+      "Phosphorylierungsstellen": "s132s138"
+    },
+    {
+      "Fall-ID": "4a4b2172-550c-4dbd-adad-8b3425f3ddea",
+      "Proben-ID": "1c1f661c-e8d8-44f0-971b-863c32c9ef59",
+      "Aliquot-ID": "2e2c8318-db8c-4131-aaa4-72a8dbfdb229",
+      "Einreicher-ID": "PTRC_Ex8_P1",
+      "Aliquot-Durchlauf-Metadaten-ID": "a44d66b4-e0bf-4c65-afa0-e90f5ef0c6ff",
+      "Studienname": "AML Gilteritinib TimeCourse -  Phosphoproteome",
+      "Proteinabundanz-Log2-Verhältnis": 0.0293,
+      "RefSeq-ID": "NP_001005498.2",
+      "Phosphorylierungsstellen": "s84"
+    },
+    {
+      "Fall-ID": "4a4b2172-550c-4dbd-adad-8b3425f3ddea",
+      "Proben-ID": "1c1f661c-e8d8-44f0-971b-863c32c9ef59",
+      "Aliquot-ID": "2e2c8318-db8c-4131-aaa4-72a8dbfdb229",
+      "Einreicher-ID": "PTRC_Ex8_P1",
+      "Aliquot-Durchlauf-Metadaten-ID": "a44d66b4-e0bf-4c65-afa0-e90f5ef0c6ff",
+      "Studienname": "AML Gilteritinib TimeCourse -  Phosphoproteome",
+      "Proteinabundanz-Log2-Verhältnis": -0.9234,
+      "RefSeq-ID": "NP_001005751.1",
+      "Phosphorylierungsstellen": "s802"
+    }
+  ]
+}
