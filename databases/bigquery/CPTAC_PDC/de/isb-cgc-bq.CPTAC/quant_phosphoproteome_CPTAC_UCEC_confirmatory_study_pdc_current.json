@@ -1,0 +1,116 @@
+{
+  "table_name": "quant_phosphoproteome_CPTAC_UCEC_confirmatory_study_pdc_current",
+  "table_fullname": "isb-cgc-bq.CPTAC.quant_phosphoproteome_CPTAC_UCEC_confirmatory_study_pdc_current",
+  "column_names": [
+    "Fall-ID",
+    "Probe-ID",
+    "Aliquot-ID",
+    "Aliquot-Einreicher-ID",
+    "Aliquot-Lauf-Metadaten-ID",
+    "Studienname",
+    "Proteinabundanz-Log2-Verhältnis",
+    "RefSeq-ID",
+    "Phosphorylierungsstellen"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "Fall-ID",
+    "Probe-ID",
+    "Aliquot-ID",
+    "Aliquot-Einreicher-ID",
+    "Aliquot-Lauf-Metadaten-ID",
+    "Studienname",
+    "Proteinabundanz-log2-Verhältnis",
+    "RefSeq-ID",
+    "Phosphorylierungsstellen"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "Einzigartige Kennung, die einem bestimmten Patienten zugeordnet ist (z. B. 24cb0fcb-63d6-11e8-bcf1-0a2705229b82)",
+    "Einzigartige PDC-Kennung für diese Probe (z. B. e8d83eb9-693a-11ea-b1fd-0aad30af8a83)",
+    "Einzigartige PDC-Kennung für dieses Aliquot (z. B. e8db124a-693a-11ea-b1fd-0aad30af8a83)",
+    "Aliquot-Einreicher-ID, vom Programm zugewiesen (z. B. T14)",
+    "Eindeutig identifiziert, wie das Aliquot im Experiment verwendet wurde (basierend auf dem Markierungsreagenz und/oder biologischem Replikat)",
+    "Name der Studie (z. B. Pediatric Brain Cancer Pilot Study - Phosphoproteome)",
+    "Durchschnittliches Log-Verhältnis des Proben-Reporter-Ion zum gemeinsamen Referenzwert der Peptidionen, die dem Gen in Messungen aus einer bestimmten biologischen Probe zugeordnet sind",
+    "Einzigartige Kennung, die einer Sequenz in der NCBI RefSeq-Datenbank zugewiesen wird",
+    "Einzelbuchstaben-Codes und Proteinsequenzpositionen der phosphorylierten Aminosäuren (z. B. t304s310, t59)"
+  ],
+  "sample_rows": [
+    {
+      "Fall-ID": "cb74e02b-315f-4638-8820-56fb0345e9b9",
+      "Probe-ID": "f2921c8f-2065-4c4b-afa4-51a25480b029",
+      "Aliquot-ID": "025f7122-b19d-45dd-b8f5-f7ea171cab70",
+      "Aliquot-Einreicher-ID": "CPT0188030003",
+      "Aliquot-Lauf-Metadaten-ID": "fb55726e-8833-4ae7-bbb7-ed9f19df7826",
+      "Studienname": "CPTAC UCEC Confirmatory Study - Phosphoproteome",
+      "Proteinabundanz-log2-Verhältnis": -0.6794,
+      "RefSeq-ID": "NP_001243805.1",
+      "Phosphorylierungsstellen": "s70"
+    },
+    {
+      "Fall-ID": "cb74e02b-315f-4638-8820-56fb0345e9b9",
+      "Probe-ID": "f2921c8f-2065-4c4b-afa4-51a25480b029",
+      "Aliquot-ID": "025f7122-b19d-45dd-b8f5-f7ea171cab70",
+      "Aliquot-Einreicher-ID": "CPT0188030003",
+      "Aliquot-Lauf-Metadaten-ID": "fb55726e-8833-4ae7-bbb7-ed9f19df7826",
+      "Studienname": "CPTAC UCEC Confirmatory Study - Phosphoproteome",
+      "Proteinabundanz-log2-Verhältnis": 0.1904,
+      "RefSeq-ID": "NP_056171.3",
+      "Phosphorylierungsstellen": "s1220"
+    },
+    {
+      "Fall-ID": "cb74e02b-315f-4638-8820-56fb0345e9b9",
+      "Probe-ID": "f2921c8f-2065-4c4b-afa4-51a25480b029",
+      "Aliquot-ID": "025f7122-b19d-45dd-b8f5-f7ea171cab70",
+      "Aliquot-Einreicher-ID": "CPT0188030003",
+      "Aliquot-Lauf-Metadaten-ID": "fb55726e-8833-4ae7-bbb7-ed9f19df7826",
+      "Studienname": "CPTAC UCEC Confirmatory Study - Phosphoproteome",
+      "Proteinabundanz-log2-Verhältnis": -0.0263,
+      "RefSeq-ID": "NP_705694.2",
+      "Phosphorylierungsstellen": "s427"
+    },
+    {
+      "Fall-ID": "cb74e02b-315f-4638-8820-56fb0345e9b9",
+      "Probe-ID": "f2921c8f-2065-4c4b-afa4-51a25480b029",
+      "Aliquot-ID": "025f7122-b19d-45dd-b8f5-f7ea171cab70",
+      "Aliquot-Einreicher-ID": "CPT0188030003",
+      "Aliquot-Lauf-Metadaten-ID": "fb55726e-8833-4ae7-bbb7-ed9f19df7826",
+      "Studienname": "CPTAC UCEC Confirmatory Study - Phosphoproteome",
+      "Proteinabundanz-log2-Verhältnis": 0.4841,
+      "RefSeq-ID": "NP_003012.1",
+      "Phosphorylierungsstellen": "s77"
+    },
+    {
+      "Fall-ID": "cb74e02b-315f-4638-8820-56fb0345e9b9",
+      "Probe-ID": "f2921c8f-2065-4c4b-afa4-51a25480b029",
+      "Aliquot-ID": "025f7122-b19d-45dd-b8f5-f7ea171cab70",
+      "Aliquot-Einreicher-ID": "CPT0188030003",
+      "Aliquot-Lauf-Metadaten-ID": "fb55726e-8833-4ae7-bbb7-ed9f19df7826",
+      "Studienname": "CPTAC UCEC Confirmatory Study - Phosphoproteome",
+      "Proteinabundanz-log2-Verhältnis": 1.5402,
+      "RefSeq-ID": "NP_001157711.1",
+      "Phosphorylierungsstellen": "s81"
+    }
+  ]
+}
