@@ -1,0 +1,116 @@
+{
+  "table_name": "quant_phosphoproteome_PTRC_HGSOC_frozen_validation_pdc_current",
+  "table_fullname": "isb-cgc-bq.CPTAC.quant_phosphoproteome_PTRC_HGSOC_frozen_validation_pdc_current",
+  "column_names": [
+    "Fall-ID",
+    "Probe-ID",
+    "Aliquot-ID",
+    "Einreicher-ID",
+    "Aliquot-Durchlauf-Metadaten-ID",
+    "Studienname",
+    "Proteinabundanz-Log2-Verhältnis",
+    "Referenzsequenz-ID",
+    "Phosphorylierungsstellen"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "Fall-ID",
+    "Probe-ID",
+    "Aliquot-ID",
+    "Aliquot-Einreicher-ID",
+    "Aliquot-Durchlauf-Metadaten-ID",
+    "Studienname",
+    "Proteinabundanz-Log2-Verhältnis",
+    "RefSeq-ID",
+    "Phosphorylierungsstellen"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "Eindeutige Kennung, die mit einem bestimmten Patienten verknüpft ist (z. B. 24cb0fcb-63d6-11e8-bcf1-0a2705229b82)",
+    "Eindeutiger PDC-Identifikator für diese Probe (z. B. e8d83eb9-693a-11ea-b1fd-0aad30af8a83)",
+    "Eindeutiger PDC-Identifikator für dieses Aliquot (z. B. e8db124a-693a-11ea-b1fd-0aad30af8a83)",
+    "Aliquot-Einreicher-ID, vom Programm zugewiesen (z. B. T14)",
+    "Identifiziert das Aliquot eindeutig danach, wie es im Experiment verwendet wurde (basierend auf dem Etikettierungsreagenz und/oder dem biologischen Replikat)",
+    "Name der Studie (z. B. Pediatric Brain Cancer Pilot Study - Phosphoproteom)",
+    "Durchschnittliches logarithmisches Verhältnis der Probe-Reporter-Ionen zur gemeinsamen Referenz der Peptidionen, die dem Gen in Messungen aus einer bestimmten biologischen Probe zugeordnet sind",
+    "Eindeutige Kennung, die einer Sequenz in der NCBI RefSeq-Datenbank zugewiesen wird",
+    "Einbuchstaben-Codes und Proteinsequenz-Positionen der phosphorylierten Aminosäuren (z. B. t304s310, t59)"
+  ],
+  "sample_rows": [
+    {
+      "Fall-ID": "00cb6713-234c-465c-9c2e-397168bb3bca",
+      "Probe-ID": "8d9c5933-055c-4b1f-8d81-a7749af94d03",
+      "Aliquot-ID": "47130988-7848-40fc-9076-cb545b4ca065",
+      "Aliquot-Einreicher-ID": "589667",
+      "Aliquot-Durchlauf-Metadaten-ID": "05da500b-8226-4f6d-bfb8-34d76ab3693f",
+      "Studienname": "PTRC HGSOC Frozen Validation - Phosphoproteome",
+      "Proteinabundanz-Log2-Verhältnis": -0.2788,
+      "RefSeq-ID": "NP_000436.2",
+      "Phosphorylierungsstellen": "s1611"
+    },
+    {
+      "Fall-ID": "00cb6713-234c-465c-9c2e-397168bb3bca",
+      "Probe-ID": "8d9c5933-055c-4b1f-8d81-a7749af94d03",
+      "Aliquot-ID": "47130988-7848-40fc-9076-cb545b4ca065",
+      "Aliquot-Einreicher-ID": "589667",
+      "Aliquot-Durchlauf-Metadaten-ID": "05da500b-8226-4f6d-bfb8-34d76ab3693f",
+      "Studienname": "PTRC HGSOC Frozen Validation - Phosphoproteome",
+      "Proteinabundanz-Log2-Verhältnis": 1.3858,
+      "RefSeq-ID": "NP_001001522.1",
+      "Phosphorylierungsstellen": "y193"
+    },
+    {
+      "Fall-ID": "00cb6713-234c-465c-9c2e-397168bb3bca",
+      "Probe-ID": "8d9c5933-055c-4b1f-8d81-a7749af94d03",
+      "Aliquot-ID": "47130988-7848-40fc-9076-cb545b4ca065",
+      "Aliquot-Einreicher-ID": "589667",
+      "Aliquot-Durchlauf-Metadaten-ID": "05da500b-8226-4f6d-bfb8-34d76ab3693f",
+      "Studienname": "PTRC HGSOC Frozen Validation - Phosphoproteome",
+      "Proteinabundanz-Log2-Verhältnis": 0.6129,
+      "RefSeq-ID": "NP_001007103.1",
+      "Phosphorylierungsstellen": "s645"
+    },
+    {
+      "Fall-ID": "00cb6713-234c-465c-9c2e-397168bb3bca",
+      "Probe-ID": "8d9c5933-055c-4b1f-8d81-a7749af94d03",
+      "Aliquot-ID": "47130988-7848-40fc-9076-cb545b4ca065",
+      "Aliquot-Einreicher-ID": "589667",
+      "Aliquot-Durchlauf-Metadaten-ID": "05da500b-8226-4f6d-bfb8-34d76ab3693f",
+      "Studienname": "PTRC HGSOC Frozen Validation - Phosphoproteome",
+      "Proteinabundanz-Log2-Verhältnis": -2.5995,
+      "RefSeq-ID": "NP_001008709.1",
+      "Phosphorylierungsstellen": "s336"
+    },
+    {
+      "Fall-ID": "00cb6713-234c-465c-9c2e-397168bb3bca",
+      "Probe-ID": "8d9c5933-055c-4b1f-8d81-a7749af94d03",
+      "Aliquot-ID": "47130988-7848-40fc-9076-cb545b4ca065",
+      "Aliquot-Einreicher-ID": "589667",
+      "Aliquot-Durchlauf-Metadaten-ID": "05da500b-8226-4f6d-bfb8-34d76ab3693f",
+      "Studienname": "PTRC HGSOC Frozen Validation - Phosphoproteome",
+      "Proteinabundanz-Log2-Verhältnis": -0.9138,
+      "RefSeq-ID": "NP_001011713.2",
+      "Phosphorylierungsstellen": "s39"
+    }
+  ]
+}
