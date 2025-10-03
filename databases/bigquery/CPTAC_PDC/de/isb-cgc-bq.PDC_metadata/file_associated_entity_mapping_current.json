@@ -1,0 +1,76 @@
+{
+  "table_name": "file_associated_entity_mapping_current",
+  "table_fullname": "isb-cgc-bq.PDC_metadata.file_associated_entity_mapping_current",
+  "column_names": [
+    "Datei-ID",
+    "Fall-ID",
+    "Entität-ID",
+    "Einreicher-ID",
+    "Entitätstyp"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "Datei-ID",
+    "Fall-ID",
+    "Entität-ID",
+    "Einreicher-ID",
+    "Entitätstyp"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "Eine Kennung (UUID), um die Datei im PDC eindeutig zu identifizieren (z. B. 795dd383-5efd-484b-9c2f-f061ae617fc7)",
+    "Eine eindeutige Kennung, die mit einem bestimmten Patienten verknüpft ist (z. B. 24cb0fcb-63d6-11e8-bcf1-0a2705229b82)",
+    "Eine Kennung (UUID), um die Entität im PDC eindeutig zu identifizieren (z. B. 2a6b4244-6428-11e8-bcf1-0a2705229b82, die sich auf ein Aliquot bezieht)",
+    "Eine eindeutige Kennung, die vom Dateneinreicher stammt und mit einer bestimmten Entität verknüpft ist (z. B. TCGA-61-1911-01A-32-2224-29)",
+    "Zugehöriger Entitätstyp (z. B. Aliquot oder Fall)"
+  ],
+  "sample_rows": [
+    {
+      "Datei-ID": "ef9f2ec8-8de6-453a-9848-4f8ac587644f",
+      "Fall-ID": "0067a0e0-63d8-11e8-bcf1-0a2705229b82",
+      "Entität-ID": "2a6b4244-6428-11e8-bcf1-0a2705229b82",
+      "Einreicher-ID": "TCGA-61-1911-01A-32-2224-29",
+      "Entitätstyp": "aliquot"
+    },
+    {
+      "Datei-ID": "26a67215-9cf0-46cb-aef8-1938df733d2b",
+      "Fall-ID": "0067a0e0-63d8-11e8-bcf1-0a2705229b82",
+      "Entität-ID": "2a6b4244-6428-11e8-bcf1-0a2705229b82",
+      "Einreicher-ID": "TCGA-61-1911-01A-32-2224-29",
+      "Entitätstyp": "aliquot"
+    },
+    {
+      "Datei-ID": "b8cb61c9-68bb-4fc0-9e70-3e39ea3e2976",
+      "Fall-ID": "0067a0e0-63d8-11e8-bcf1-0a2705229b82",
+      "Entität-ID": "2a6b4244-6428-11e8-bcf1-0a2705229b82",
+      "Einreicher-ID": "TCGA-61-1911-01A-32-2224-29",
+      "Entitätstyp": "aliquot"
+    },
+    {
+      "Datei-ID": "e32baef6-7002-47db-a43d-cb74e752ee4f",
+      "Fall-ID": "0067a0e0-63d8-11e8-bcf1-0a2705229b82",
+      "Entität-ID": "2a6b4244-6428-11e8-bcf1-0a2705229b82",
+      "Einreicher-ID": "TCGA-61-1911-01A-32-2224-29",
+      "Entitätstyp": "aliquot"
+    },
+    {
+      "Datei-ID": "7535654e-5a22-420a-9fdf-93fb44f7c421",
+      "Fall-ID": "0067a0e0-63d8-11e8-bcf1-0a2705229b82",
+      "Entität-ID": "2a6b4244-6428-11e8-bcf1-0a2705229b82",
+      "Einreicher-ID": "TCGA-61-1911-01A-32-2224-29",
+      "Entitätstyp": "aliquot"
+    }
+  ]
+}
