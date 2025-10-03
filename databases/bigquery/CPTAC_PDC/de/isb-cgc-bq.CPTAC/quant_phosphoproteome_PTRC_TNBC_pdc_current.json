@@ -1,0 +1,116 @@
+{
+  "table_name": "quant_phosphoproteome_PTRC_TNBC_pdc_current",
+  "table_fullname": "isb-cgc-bq.CPTAC.quant_phosphoproteome_PTRC_TNBC_pdc_current",
+  "column_names": [
+    "Fall-ID",
+    "Probe-ID",
+    "Aliquot-ID",
+    "Aliquot-Einreicher-ID",
+    "Aliquot-Lauf-Metadaten-ID",
+    "Studienname",
+    "Proteinabundanz-Log2-Verhältnis",
+    "RefSeq-ID",
+    "Phosphorylierungsstellen"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "Fall-ID",
+    "Probe-ID",
+    "Aliquot-ID",
+    "Aliquot-Einreicher-ID",
+    "Aliquot-Durchlauf-Metadaten-ID",
+    "Studienname",
+    "Proteinabundanz-Log2-Verhältnis",
+    "Referenzsequenz-ID",
+    "Phosphorylierungsstellen"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "Einzigartige Kennung, die mit einem bestimmten Patienten verknüpft ist (z. B. 24cb0fcb-63d6-11e8-bcf1-0a2705229b82)",
+    "Einzigartige PDC-Identifikator für diese Probe (z. B. e8d83eb9-693a-11ea-b1fd-0aad30af8a83)",
+    "Einzigartige PDC-Identifikator für dieses Aliquot (z. B. e8db124a-693a-11ea-b1fd-0aad30af8a83)",
+    "Vom Programm zugewiesene Aliquot-Einreicher-ID (z. B. T14)",
+    "Bestimmt eindeutig das Aliquot danach, wie es im Experiment verwendet wurde (basierend auf dem Markierungsreagenz und/oder dem biologischen Replikat)",
+    "Name der Studie (z. B. Pediatric Brain Cancer Pilot Study - Phosphoproteom)",
+    "Durchschnittliches Log-Verhältnis des Sample-Reporter-Ions zum gemeinsamen Referenz-Ionensatz der Peptidionen, die dem Gen in Messungen aus einer bestimmten biologischen Probe zugeordnet sind",
+    "Einzigartige Kennung, die einer Sequenz in der NCBI RefSeq-Datenbank zugewiesen wird",
+    "Ein-Buchstaben-Codes und Proteinsequenzpositionen der phosphorylierten Aminosäuren (z. B. t304s310, t59)"
+  ],
+  "sample_rows": [
+    {
+      "Fall-ID": "961fcdab-129c-4ae9-8abc-2ec9ae61c866",
+      "Probe-ID": "ba08cd04-5fa2-4d7a-9c14-b5a572c53efc",
+      "Aliquot-ID": "064b6ce5-2964-4ed0-b258-121db8ceab0d",
+      "Aliquot-Einreicher-ID": "NTN089_Baseline",
+      "Aliquot-Durchlauf-Metadaten-ID": "630f5dd6-091d-469f-8cc5-1ed43dfccdb7",
+      "Studienname": "PTRC TNBC - Phosphoproteome",
+      "Proteinabundanz-Log2-Verhältnis": 1.2257,
+      "Referenzsequenz-ID": "NP_000114.2",
+      "Phosphorylierungsstellen": "s384"
+    },
+    {
+      "Fall-ID": "961fcdab-129c-4ae9-8abc-2ec9ae61c866",
+      "Probe-ID": "ba08cd04-5fa2-4d7a-9c14-b5a572c53efc",
+      "Aliquot-ID": "064b6ce5-2964-4ed0-b258-121db8ceab0d",
+      "Aliquot-Einreicher-ID": "NTN089_Baseline",
+      "Aliquot-Durchlauf-Metadaten-ID": "630f5dd6-091d-469f-8cc5-1ed43dfccdb7",
+      "Studienname": "PTRC TNBC - Phosphoproteome",
+      "Proteinabundanz-Log2-Verhältnis": 0.9393,
+      "Referenzsequenz-ID": "NP_001002909.1",
+      "Phosphorylierungsstellen": "s1035"
+    },
+    {
+      "Fall-ID": "961fcdab-129c-4ae9-8abc-2ec9ae61c866",
+      "Probe-ID": "ba08cd04-5fa2-4d7a-9c14-b5a572c53efc",
+      "Aliquot-ID": "064b6ce5-2964-4ed0-b258-121db8ceab0d",
+      "Aliquot-Einreicher-ID": "NTN089_Baseline",
+      "Aliquot-Durchlauf-Metadaten-ID": "630f5dd6-091d-469f-8cc5-1ed43dfccdb7",
+      "Studienname": "PTRC TNBC - Phosphoproteome",
+      "Proteinabundanz-Log2-Verhältnis": 1.6176,
+      "Referenzsequenz-ID": "NP_001003698.1",
+      "Phosphorylierungsstellen": "s161"
+    },
+    {
+      "Fall-ID": "961fcdab-129c-4ae9-8abc-2ec9ae61c866",
+      "Probe-ID": "ba08cd04-5fa2-4d7a-9c14-b5a572c53efc",
+      "Aliquot-ID": "064b6ce5-2964-4ed0-b258-121db8ceab0d",
+      "Aliquot-Einreicher-ID": "NTN089_Baseline",
+      "Aliquot-Durchlauf-Metadaten-ID": "630f5dd6-091d-469f-8cc5-1ed43dfccdb7",
+      "Studienname": "PTRC TNBC - Phosphoproteome",
+      "Proteinabundanz-Log2-Verhältnis": 0.7767,
+      "Referenzsequenz-ID": "NP_001011553.2",
+      "Phosphorylierungsstellen": "s333"
+    },
+    {
+      "Fall-ID": "961fcdab-129c-4ae9-8abc-2ec9ae61c866",
+      "Probe-ID": "ba08cd04-5fa2-4d7a-9c14-b5a572c53efc",
+      "Aliquot-ID": "064b6ce5-2964-4ed0-b258-121db8ceab0d",
+      "Aliquot-Einreicher-ID": "NTN089_Baseline",
+      "Aliquot-Durchlauf-Metadaten-ID": "630f5dd6-091d-469f-8cc5-1ed43dfccdb7",
+      "Studienname": "PTRC TNBC - Phosphoproteome",
+      "Proteinabundanz-Log2-Verhältnis": 0.8599,
+      "Referenzsequenz-ID": "NP_001017368.1",
+      "Phosphorylierungsstellen": "s226"
+    }
+  ]
+}
