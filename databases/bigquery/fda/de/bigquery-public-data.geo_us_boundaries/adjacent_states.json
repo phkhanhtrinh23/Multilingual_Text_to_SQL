@@ -1,0 +1,76 @@
+{
+  "table_name": "adjacent_states",
+  "table_fullname": "bigquery-public-data.geo_us_boundaries.adjacent_states",
+  "column_names": [
+    "Bundesland",
+    "Bundeslandname",
+    "Bundesland-FIPS-Code",
+    "Nachbarbundesländer",
+    "Nachbar-FIPS-Codes"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "ARRAY<STRING>",
+    "ARRAY<STRING>"
+  ],
+  "nested_column_names": [
+    "Bundesland",
+    "Name des Bundeslandes",
+    "FIPS-Code des Bundeslandes",
+    "Nachbar-Bundesland",
+    "FIPS-Code des Nachbar-Bundeslandes"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "ARRAY<STRING>",
+    "ARRAY<STRING>"
+  ],
+  "description": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "sample_rows": [
+    {
+      "Bundesland": "AL",
+      "Name des Bundeslandes": "Alabama",
+      "FIPS-Code des Bundeslandes": "01",
+      "Nachbar-Bundesland": "['Florida' 'Georgia' 'Mississippi' 'Tennessee']",
+      "FIPS-Code des Nachbar-Bundeslandes": "['12' '13' '28' '47']"
+    },
+    {
+      "Bundesland": "AR",
+      "Name des Bundeslandes": "Arkansas",
+      "FIPS-Code des Bundeslandes": "05",
+      "Nachbar-Bundesland": "['Tennessee' 'Texas' 'Missouri' 'Mississippi' 'Louisiana' 'Oklahoma']",
+      "FIPS-Code des Nachbar-Bundeslandes": "['47' '48' '29' '28' '22' '40']"
+    },
+    {
+      "Bundesland": "AZ",
+      "Name des Bundeslandes": "Arizona",
+      "FIPS-Code des Bundeslandes": "04",
+      "Nachbar-Bundesland": "['Nevada' 'New Mexico' 'Colorado' 'California' 'Utah']",
+      "FIPS-Code des Nachbar-Bundeslandes": "['32' '35' '08' '06' '49']"
+    },
+    {
+      "Bundesland": "CA",
+      "Name des Bundeslandes": "California",
+      "FIPS-Code des Bundeslandes": "06",
+      "Nachbar-Bundesland": "['Arizona' 'Nevada' 'Oregon']",
+      "FIPS-Code des Nachbar-Bundeslandes": "['04' '32' '41']"
+    },
+    {
+      "Bundesland": "CO",
+      "Name des Bundeslandes": "Colorado",
+      "FIPS-Code des Bundeslandes": "08",
+      "Nachbar-Bundesland": "['Kansas' 'New Mexico' 'Nebraska' 'Utah' 'Wyoming' 'Arizona' 'Oklahoma']",
+      "FIPS-Code des Nachbar-Bundeslandes": "['20' '35' '31' '49' '56' '04' '40']"
+    }
+  ]
+}
