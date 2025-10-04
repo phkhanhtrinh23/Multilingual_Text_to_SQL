@@ -1,0 +1,86 @@
+{
+  "table_name": "zipcode_to_census_tracts",
+  "table_fullname": "bigquery-public-data.hud_zipcode_crosswalk.zipcode_to_census_tracts",
+  "column_names": [
+    "Postleitzahl",
+    "Geoid des Zensusbezirks",
+    "Wohnanteil",
+    "Gewerbeanteil",
+    "Sonstiger Anteil",
+    "Gesamtanteil"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "NUMERIC",
+    "NUMERIC",
+    "NUMERIC",
+    "NUMERIC"
+  ],
+  "nested_column_names": [
+    "Postleitzahl",
+    "Geoid des Zensusgebiets",
+    "Wohnanteil",
+    "Gewerbeanteil",
+    "Sonstiger Anteil",
+    "Gesamtanteil"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "NUMERIC",
+    "NUMERIC",
+    "NUMERIC",
+    "NUMERIC"
+  ],
+  "description": [
+    "5-stellige USPS-Postleitzahl.",
+    "11-stellige eindeutige GEOID des Zensus-Trakts aus dem Jahr 2000 oder 2010, bestehend aus state FIPS + county FIPS + Trakt-Code. Der Dezimalwert ist implizit, und führende sowie nachfolgende Nullen wurden beibehalten. Diese können auf mehrere USPS-Postleitzahlen (ZIPs) abgebildet werden. Wird zu 'geo_id' in Tabellen mit Census-Tract-Daten abgebildet.",
+    "Das Verhältnis der Wohnadressen im ZIP-Trakt-Teil zur Gesamtzahl der Wohnadressen im gesamten ZIP.",
+    "Das Verhältnis der Geschäftsadressen im ZIP-Trakt-Teil zur Gesamtzahl der Geschäftsadressen im gesamten ZIP.",
+    "Das Verhältnis der anderen Adressen im ZIP-Trakt-Teil zur Gesamtzahl der Geschäftsadressen im gesamten ZIP.",
+    "Das Verhältnis aller Adressen im ZIP-Trakt-Teil zur Gesamtzahl der Geschäftsadressen im gesamten ZIP."
+  ],
+  "sample_rows": [
+    {
+      "Postleitzahl": "60448",
+      "Geoid des Zensusgebiets": "17197881010",
+      "Wohnanteil": "0.000490000",
+      "Gewerbeanteil": "0E-9",
+      "Sonstiger Anteil": "0E-9",
+      "Gesamtanteil": "0.000400000"
+    },
+    {
+      "Postleitzahl": "56229",
+      "Geoid des Zensusgebiets": "27083360200",
+      "Wohnanteil": "0.029450000",
+      "Gewerbeanteil": "0E-9",
+      "Sonstiger Anteil": "0E-9",
+      "Gesamtanteil": "0.028130000"
+    },
+    {
+      "Postleitzahl": "10465",
+      "Geoid des Zensusgebiets": "36005027600",
+      "Wohnanteil": "0.000170000",
+      "Gewerbeanteil": "0E-9",
+      "Sonstiger Anteil": "0E-9",
+      "Gesamtanteil": "0.000160000"
+    },
+    {
+      "Postleitzahl": "78573",
+      "Geoid des Zensusgebiets": "48215020202",
+      "Wohnanteil": "0.000060000",
+      "Gewerbeanteil": "0E-9",
+      "Sonstiger Anteil": "0E-9",
+      "Gesamtanteil": "0.000050000"
+    },
+    {
+      "Postleitzahl": "92129",
+      "Geoid des Zensusgebiets": "06073017029",
+      "Wohnanteil": "0.000870000",
+      "Gewerbeanteil": "0E-9",
+      "Sonstiger Anteil": "0E-9",
+      "Gesamtanteil": "0.000800000"
+    }
+  ]
+}
