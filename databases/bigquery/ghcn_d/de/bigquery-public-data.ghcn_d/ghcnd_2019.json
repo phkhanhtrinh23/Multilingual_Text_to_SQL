@@ -1,0 +1,116 @@
+{
+  "table_name": "ghcnd_2019",
+  "table_fullname": "bigquery-public-data.ghcn_d.ghcnd_2019",
+  "column_names": [
+    "Identifikator",
+    "Datum",
+    "Element",
+    "Wert",
+    "M-Kennzeichen",
+    "Q-Kennzeichen",
+    "S-Kennzeichen",
+    "Zeit",
+    "Quell-URL",
+    "ETL-Zeitstempel"
+  ],
+  "column_types": [
+    "STRING",
+    "DATE",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "TIMESTAMP"
+  ],
+  "nested_column_names": [
+    "Identifikator",
+    "Datum",
+    "Element",
+    "Wert",
+    "Kennzeichen",
+    "Kennzeichen",
+    "Kennzeichen",
+    "Zeit",
+    "Quelladresse",
+    "ETL-Zeitstempel"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "DATE",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "TIMESTAMP"
+  ],
+  "description": [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "Quelle",
+    "Ladezeit für diese Datenzeile"
+  ],
+  "sample_rows": [
+    {
+      "Identifikator": "USC00116661",
+      "Datum": "2019-01-24",
+      "Element": "SNWD",
+      "Wert": 127.0,
+      "Kennzeichen": "7",
+      "Zeit": "0700",
+      "Quelladresse": "ftp://ftp.ncei.noaa.gov/pub/data/ghcn/daily/by_year/2019.csv.gz",
+      "ETL-Zeitstempel": "2023-07-19 21:13:26.234378+00:00"
+    },
+    {
+      "Identifikator": "USC00327027",
+      "Datum": "2019-01-24",
+      "Element": "TMAX",
+      "Wert": -100.0,
+      "Kennzeichen": "7",
+      "Zeit": "0800",
+      "Quelladresse": "ftp://ftp.ncei.noaa.gov/pub/data/ghcn/daily/by_year/2019.csv.gz",
+      "ETL-Zeitstempel": "2023-07-19 21:13:26.234378+00:00"
+    },
+    {
+      "Identifikator": "USC00356550",
+      "Datum": "2019-01-24",
+      "Element": "TMAX",
+      "Wert": 111.0,
+      "Kennzeichen": "7",
+      "Zeit": "1000",
+      "Quelladresse": "ftp://ftp.ncei.noaa.gov/pub/data/ghcn/daily/by_year/2019.csv.gz",
+      "ETL-Zeitstempel": "2023-07-19 21:13:26.234378+00:00"
+    },
+    {
+      "Identifikator": "USC00358726",
+      "Datum": "2019-01-24",
+      "Element": "WT01",
+      "Wert": 1.0,
+      "Kennzeichen": "7",
+      "Zeit": null,
+      "Quelladresse": "ftp://ftp.ncei.noaa.gov/pub/data/ghcn/daily/by_year/2019.csv.gz",
+      "ETL-Zeitstempel": "2023-07-19 21:13:26.234378+00:00"
+    },
+    {
+      "Identifikator": "USC00366886",
+      "Datum": "2019-01-24",
+      "Element": "SNOW",
+      "Wert": 0.0,
+      "Kennzeichen": "7",
+      "Zeit": null,
+      "Quelladresse": "ftp://ftp.ncei.noaa.gov/pub/data/ghcn/daily/by_year/2019.csv.gz",
+      "ETL-Zeitstempel": "2023-07-19 21:13:26.234378+00:00"
+    }
+  ]
+}
