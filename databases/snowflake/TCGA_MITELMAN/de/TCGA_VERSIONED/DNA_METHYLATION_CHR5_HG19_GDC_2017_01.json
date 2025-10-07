@@ -1,0 +1,78 @@
+{
+  "table_name": "DNA_METHYLATION_CHR5_HG19_GDC_2017_01",
+  "table_fullname": "TCGA_MITELMAN.TCGA_VERSIONED.DNA_METHYLATION_CHR5_HG19_GDC_2017_01",
+  "column_names": [
+    "probe_id",
+    "projekt_kurzname",
+    "sample_barcode",
+    "platform",
+    "case_barcode",
+    "aliquot_barcode",
+    "beta_wert"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "FLOAT"
+  ],
+  "description": [
+    "Eindeutiger Sonde-Identifikator (z. B. cg04676771) aus dem Illumina Human Methylation-Array -- bitte siehe die Annotations-Tabelle (isb-cgc:platform_reference.methylation_annotation) für weitere Details zu einer bestimmten Sonde",
+    "Abkürzung des Projektnamens; der Programmname mit einer Projektnamensabkürzung; z. B. TCGA-OV usw.",
+    "Originaler TCGA-Proben-Barcode, z. B. TCGA-12-1089-01A",
+    "Plattformname, der zur Generierung dieser Daten verwendet wurde -- entweder HumanMethylation450 oder HumanMethylation27",
+    "Originaler TCGA-Fall-Barcode, z. B. TCGA-12-1089  --  beachten Sie, dass jeder Fall in der Regel eine primäre-Tumor-Probe und eine passende-Normal-(Blut- oder angrenzende-Gewebe-)Probe hat; bitte siehe die TCGA Biospecimen-Tabelle für weitere Details",
+    "Originaler TCGA-Aliquot-Barcode, z. B. TCGA-12-1089-01A-01D-0517-01",
+    "Normalisierter DNA-Methylierungs-Beta-Wert (zwischen 0 und 1, wobei 0 eine vollständig un-methylierte und 1 eine vollständig methylierte DNA angibt)"
+  ],
+  "sample_rows": [
+    {
+      "projekt_kurzname": "TCGA-OV",
+      "case_barcode": "TCGA-01-0628",
+      "sample_barcode": "TCGA-01-0628-11A",
+      "aliquot_barcode": "TCGA-01-0628-11A-01D-0383-05",
+      "probe_id": "cg18489719",
+      "beta_wert": 0.04,
+      "platform": "HumanMethylation27"
+    },
+    {
+      "projekt_kurzname": "TCGA-OV",
+      "case_barcode": "TCGA-01-0628",
+      "sample_barcode": "TCGA-01-0628-11A",
+      "aliquot_barcode": "TCGA-01-0628-11A-01D-0383-05",
+      "probe_id": "cg05869964",
+      "beta_wert": 0.94,
+      "platform": "HumanMethylation27"
+    },
+    {
+      "projekt_kurzname": "TCGA-OV",
+      "case_barcode": "TCGA-01-0630",
+      "sample_barcode": "TCGA-01-0630-11A",
+      "aliquot_barcode": "TCGA-01-0630-11A-01D-0383-05",
+      "probe_id": "cg17587934",
+      "beta_wert": 0.01,
+      "platform": "HumanMethylation27"
+    },
+    {
+      "projekt_kurzname": "TCGA-OV",
+      "case_barcode": "TCGA-01-0630",
+      "sample_barcode": "TCGA-01-0630-11A",
+      "aliquot_barcode": "TCGA-01-0630-11A-01D-0383-05",
+      "probe_id": "cg06177968",
+      "beta_wert": 0.01,
+      "platform": "HumanMethylation27"
+    },
+    {
+      "projekt_kurzname": "TCGA-OV",
+      "case_barcode": "TCGA-01-0630",
+      "sample_barcode": "TCGA-01-0630-11A",
+      "aliquot_barcode": "TCGA-01-0630-11A-01D-0383-05",
+      "probe_id": "cg03909500",
+      "beta_wert": 0.01,
+      "platform": "HumanMethylation27"
+    }
+  ]
+}
