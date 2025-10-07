@@ -1,0 +1,86 @@
+{
+  "table_name": "CLINICAL_DIAGNOSES_TREATMENTS_GDC_R29",
+  "table_fullname": "TCGA.TCGA_VERSIONED.CLINICAL_DIAGNOSES_TREATMENTS_GDC_R29",
+  "column_names": [
+    "diag__treat__behandlungsart",
+    "diag__treat__aktualisiertes_datum_und_uhrzeit",
+    "diag__treat__behandlung_oder_therapie",
+    "diag__treat__behandlungs_id",
+    "diag__treat__erstelltes_datum_und_uhrzeit",
+    "fall_id",
+    "diag__treat__zustand",
+    "diag__diagnose_id"
+  ],
+  "column_types": [
+    "TEXT",
+    "NUMBER",
+    "TEXT",
+    "TEXT",
+    "NUMBER",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Textbegriff, der die Art der verabreichten Behandlung beschreibt.",
+    "Eine Kombination aus Datum und Tageszeit in der Form [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm]",
+    "Ein Ja/Nein/Unbekannt/Nicht anwendbar-Indikator im Zusammenhang mit der Verabreichung von therapeutischen Mitteln, die erhalten wurden.",
+    "Von der GDC zugewiesener Identifikator für die Behandlungsdaten eines Falls.",
+    "Eine Kombination aus Datum und Tageszeit in der Form [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm]",
+    "Eindeutiger GDC-Identifikator für diesen Fall (entspricht dem `case_barcode`) -- dieser kann verwendet werden, um weitere Informationen vom GDC-Datenportal auf folgende Weise abzurufen: https://portal.gdc.cancer.gov/files/c21b332c-06c6-4403-9032-f91c8f407ba9.",
+    "Der aktuelle Zustand des Objekts.",
+    "Von der GDC zugewiesener Identifikator für die Diagnose eines Falls."
+  ],
+  "sample_rows": [
+    {
+      "diag__treat__behandlungs_id": "7a761afc-8438-59b4-b1df-9b82e0d95105",
+      "diag__diagnose_id": "f1207955-f463-570c-b29c-7577ec63f8c2",
+      "fall_id": "6ee6ca0a-8702-480d-b2d1-9224e7dd9211",
+      "diag__treat__behandlungsart": "Radiation Therapy, NOS",
+      "diag__treat__behandlung_oder_therapie": "no",
+      "diag__treat__zustand": "released",
+      "diag__treat__erstelltes_datum_und_uhrzeit": null,
+      "diag__treat__aktualisiertes_datum_und_uhrzeit": 1564621073992534
+    },
+    {
+      "diag__treat__behandlungs_id": "6ebd0641-1379-5198-af12-04c4efb9de00",
+      "diag__diagnose_id": "dbb15873-9487-57d6-a65b-7c8e10a50b2f",
+      "fall_id": "2a2f2663-d813-41ff-a4e2-dfe0f16d236d",
+      "diag__treat__behandlungsart": "Radiation Therapy, NOS",
+      "diag__treat__behandlung_oder_therapie": "no",
+      "diag__treat__zustand": "released",
+      "diag__treat__erstelltes_datum_und_uhrzeit": null,
+      "diag__treat__aktualisiertes_datum_und_uhrzeit": 1564622038418782
+    },
+    {
+      "diag__treat__behandlungs_id": "255f8276-d709-52d1-aa3c-227538ad6b80",
+      "diag__diagnose_id": "fd19e47b-cbaa-5a26-aef7-0ba6758500b0",
+      "fall_id": "0e084325-ba97-4c0a-9d00-12d01b4bc0bb",
+      "diag__treat__behandlungsart": "Radiation Therapy, NOS",
+      "diag__treat__behandlung_oder_therapie": "no",
+      "diag__treat__zustand": "released",
+      "diag__treat__erstelltes_datum_und_uhrzeit": null,
+      "diag__treat__aktualisiertes_datum_und_uhrzeit": 1564605946952916
+    },
+    {
+      "diag__treat__behandlungs_id": "8e00a0cd-97c9-56e3-8250-54f7398e2629",
+      "diag__diagnose_id": "9a229056-7b85-508c-8bc5-064651d7cc60",
+      "fall_id": "6020ec67-8f3b-409f-a0ed-2af849b4d76f",
+      "diag__treat__behandlungsart": "Radiation Therapy, NOS",
+      "diag__treat__behandlung_oder_therapie": "no",
+      "diag__treat__zustand": "released",
+      "diag__treat__erstelltes_datum_und_uhrzeit": null,
+      "diag__treat__aktualisiertes_datum_und_uhrzeit": 1564604515069316
+    },
+    {
+      "diag__treat__behandlungs_id": "70038b40-d1e5-5dba-a15b-10b4ad72d961",
+      "diag__diagnose_id": "a9117477-ee48-564f-b57d-141e83666a38",
+      "fall_id": "962fd4e7-9199-43d9-abce-e3dfa46da62c",
+      "diag__treat__behandlungsart": "Radiation Therapy, NOS",
+      "diag__treat__behandlung_oder_therapie": "no",
+      "diag__treat__zustand": "released",
+      "diag__treat__erstelltes_datum_und_uhrzeit": null,
+      "diag__treat__aktualisiertes_datum_und_uhrzeit": 1564623240092693
+    }
+  ]
+}
