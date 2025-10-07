@@ -1,0 +1,78 @@
+{
+  "sample_rows": [
+    {
+      "GEO_NAME": "Bureau County",
+      "GEO_ID": "geoId/17011",
+      "LEVEL": "County",
+      "VERWANDTER_GEO_NAME": "61317",
+      "VERWANDTES_GEO_ID": "zip/61317",
+      "VERWANDTES_LEVEL": "CensusZipCodeTabulationArea",
+      "BEZIEHUNGSTYP": "Contains"
+    },
+    {
+      "GEO_NAME": "Census Tract 8, Geary County, Kansas",
+      "GEO_ID": "geoId/20061000800",
+      "LEVEL": "CensusTract",
+      "VERWANDTER_GEO_NAME": "67487",
+      "VERWANDTES_GEO_ID": "zip/67487",
+      "VERWANDTES_LEVEL": "CensusZipCodeTabulationArea",
+      "BEZIEHUNGSTYP": "Overlaps"
+    },
+    {
+      "GEO_NAME": "Canada",
+      "GEO_ID": "country/CAN",
+      "LEVEL": "Country",
+      "VERWANDTER_GEO_NAME": "24180065",
+      "VERWANDTES_GEO_ID": "statcanId/S051224180065",
+      "VERWANDTES_LEVEL": "DisseminationArea",
+      "BEZIEHUNGSTYP": "Contains"
+    },
+    {
+      "GEO_NAME": "California",
+      "GEO_ID": "geoId/06",
+      "LEVEL": "State",
+      "VERWANDTER_GEO_NAME": "Census Tract 4087.07, Los Angeles County, California",
+      "VERWANDTES_GEO_ID": "geoId/06037408707",
+      "VERWANDTES_LEVEL": "CensusTract",
+      "BEZIEHUNGSTYP": "Contains"
+    },
+    {
+      "GEO_NAME": "04346",
+      "GEO_ID": "zip/04346",
+      "LEVEL": "CensusZipCodeTabulationArea",
+      "VERWANDTER_GEO_NAME": "United States",
+      "VERWANDTES_GEO_ID": "country/USA",
+      "VERWANDTES_LEVEL": "Country",
+      "BEZIEHUNGSTYP": "Overlaps"
+    }
+  ],
+  "table_name": "GEOGRAPHY_RELATIONSHIPS",
+  "table_fullname": "GLOBAL_GOVERNMENT.CYBERSYN.GEOGRAPHY_RELATIONSHIPS",
+  "column_names": [
+    "VERWANDTER_GEO_NAME",
+    "VERWANDTES_LEVEL",
+    "BEZIEHUNGSTYP",
+    "VERWANDTES_GEO_ID",
+    "GEO_ID",
+    "LEVEL",
+    "GEO_NAME"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Name des Ortes im Zusammenhang mit `GEO_NAME`. Dies ist ein Ort, der sich mit dem primären Geo überlappt oder darin enthalten ist (z. B. Stadt innerhalb eines Bundeslandes)",
+    "Geografisches Level oder Hierarchie des verwandten Ortes (z. B. Land, Bundesland, County, Stadt, Kontinent, CountrySubRegion usw.)",
+    "Beziehung zwischen den beiden Orten. `Contains` bedeutet, dass die `RELATED_GEO_ID` vollständig innerhalb der `GEO_ID` enthalten ist (z. B. Beziehung von Bundesland zu Stadt), während `Overlaps` angibt, dass die `GEO_ID` ein Teil der `RELATED_GEO_ID` ist (z. B. Beziehung von Stadt zu Bundesland)",
+    "Eindeutiger Identifikator für den verwandten Ort, der mit der `GEOGRAPHY_INDEX`-Tabelle verknüpft werden kann",
+    "Eindeutiger Identifikator für einen Ort, der mit der `GEOGRAPHY_INDEX`-Tabelle verknüpft werden kann",
+    "Geografisches Level oder Hierarchie (z. B. Land, Bundesland, County, Stadt, Kontinent, CountrySubRegion usw.)",
+    "Vollständiger Name des Ortes"
+  ]
+}
