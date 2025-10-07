@@ -1,0 +1,78 @@
+{
+  "sample_rows": [
+    {
+      "VARIABLE": "FHFA_HPI_traditional_purchase-only_monthly_NSA",
+      "VARIABLENNAME": "FHFA_HPI traditional purchase-only monthly Not Seasonally Adjusted",
+      "EIGENSCHAFTSKLASSE": "traditional",
+      "INDEXART": "purchase-only",
+      "HÄUFIGKEIT": "MONTHLY",
+      "SAISONBEREINIGT": false,
+      "EINHEIT": "Index"
+    },
+    {
+      "VARIABLE": "FHFA_HPI_traditional_purchase-only_quarterly_NSA",
+      "VARIABLENNAME": "FHFA_HPI traditional purchase-only quarterly Not Seasonally Adjusted",
+      "EIGENSCHAFTSKLASSE": "traditional",
+      "INDEXART": "purchase-only",
+      "HÄUFIGKEIT": "QUARTERLY",
+      "SAISONBEREINIGT": false,
+      "EINHEIT": "Index"
+    },
+    {
+      "VARIABLE": "FHFA_HPI_traditional_purchase-only_monthly_SA",
+      "VARIABLENNAME": "FHFA_HPI traditional purchase-only monthly Seasonally Adjusted",
+      "EIGENSCHAFTSKLASSE": "traditional",
+      "INDEXART": "purchase-only",
+      "HÄUFIGKEIT": "MONTHLY",
+      "SAISONBEREINIGT": true,
+      "EINHEIT": "Index"
+    },
+    {
+      "VARIABLE": "FHFA_HPI_non-metro_all-transactions_quarterly_NSA",
+      "VARIABLENNAME": "FHFA_HPI non-metro all-transactions quarterly Not Seasonally Adjusted",
+      "EIGENSCHAFTSKLASSE": "non-metro",
+      "INDEXART": "all-transactions",
+      "HÄUFIGKEIT": "QUARTERLY",
+      "SAISONBEREINIGT": false,
+      "EINHEIT": "Index"
+    },
+    {
+      "VARIABLE": "FHFA_HPI_traditional_purchase-only_quarterly_SA",
+      "VARIABLENNAME": "FHFA_HPI traditional purchase-only quarterly Seasonally Adjusted",
+      "EIGENSCHAFTSKLASSE": "traditional",
+      "INDEXART": "purchase-only",
+      "HÄUFIGKEIT": "QUARTERLY",
+      "SAISONBEREINIGT": true,
+      "EINHEIT": "Index"
+    }
+  ],
+  "table_name": "FHFA_HOUSE_PRICE_ATTRIBUTES",
+  "table_fullname": "US_REAL_ESTATE.CYBERSYN.FHFA_HOUSE_PRICE_ATTRIBUTES",
+  "column_names": [
+    "EIGENSCHAFTSKLASSE",
+    "VARIABLENNAME",
+    "SAISONBEREINIGT",
+    "INDEXART",
+    "VARIABLE",
+    "HÄUFIGKEIT",
+    "EINHEIT"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "BOOLEAN",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Klassifizierung des Hauspreis-Index (traditionell, frei von Notverkäufen, nicht-metropolitan)",
+    "Menschlich lesbarer Beschreibung für die Variable",
+    "Boolesches Feld, das angibt, ob eine Serie saisonal angepasst ist",
+    "Typ des im Index gemessenen Hauspreis-Index (alle-Transaktionen, Kauf-nur, erweiterte-Daten)",
+    "Eindeutiger Identifikator für eine Variable, die mit der Timeseries-Tabelle für Filterung verknüpft werden kann",
+    "Häufigkeit der Variablenmessung (z. B. Täglich, Monatlich, Vierteljährlich)",
+    "Einheit der Messung für die Variable:  (z. B. Index)"
+  ]
+}
