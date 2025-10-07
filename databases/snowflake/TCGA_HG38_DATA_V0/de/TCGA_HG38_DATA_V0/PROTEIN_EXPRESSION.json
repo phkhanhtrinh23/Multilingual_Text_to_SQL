@@ -1,0 +1,110 @@
+{
+  "table_name": "PROTEIN_EXPRESSION",
+  "table_fullname": "TCGA_HG38_DATA_V0.TCGA_HG38_DATA_V0.PROTEIN_EXPRESSION",
+  "column_names": [
+    "Proteinname",
+    "Proteinausdruck",
+    "Genname",
+    "Antikörperquelle",
+    "Fallbarcode",
+    "Proteinbasisname",
+    "Probenbarcode",
+    "Validierungsstatus",
+    "Phospho",
+    "Projektkurzname",
+    "Aliquotbarcode"
+  ],
+  "column_types": [
+    "TEXT",
+    "FLOAT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Proteinsymbol mit Phosphorylierungsstatus, z. B. ACC_pS79",
+    "Expressionsniveau des Proteins, wie durch reverse-phase Protein-Arrays gemessen. https://bioinformatics.mdanderson.org/public-software/tcpa/",
+    "Genname, z. B. TTN, DDR1 usw.",
+    "Tier, von dem das Antikörper stammt: M (Maus), R (Kaninchen), G (Ziege)",
+    "Originaler TCGA-Fall-Barcode, z. B. TCGA-12-1089  --  beachten Sie, dass jeder Fall in der Regel eine primäre Tumorprobe und eine passende Normprobe (Blut oder benachbartes Gewebe) hat; für weitere Details siehe die TCGA-Biospecimen-Tabelle",
+    "Proteinnamen, z. B. AR, MAPK",
+    "Originaler TCGA-Proben-Barcode, z. B. TCGA-12-1089-01A  --  beachten Sie, dass eine Probe mehrere Aliquote und daher mehrere CN-Segmentierungen haben kann; verwenden Sie daher `GROUP BY` entsprechend in Ihren Abfragen",
+    "Validierungsstatus des Antikörpers durch Korrelation von RPPA-Daten mit Western-Blot: V, E, C. Für weitere Informationen: https://bioinformatics.mdanderson.org/public-software/mclp/",
+    "Wenn der Antikörper ein phosphoryliertes Protein anzielt, enthält dieses Feld diese Information, z. B. pS473  --  ansonsten ist dieses Feld null",
+    "Projektnamen-Abkürzung; der Programmname mit einer Projektnamen-Abkürzung; z. B. TCGA-OV usw.",
+    "Originaler TCGA-Aliquot-Barcode, z. B. TCGA-12-1089-01A-01D-0517-01"
+  ],
+  "sample_rows": [
+    {
+      "Projektkurzname": "TCGA-CHOL",
+      "Fallbarcode": "TCGA-4G-AAZT",
+      "Probenbarcode": "TCGA-4G-AAZT-01A",
+      "Aliquotbarcode": "TCGA-4G-AAZT-01A-21-A45N-20",
+      "Genname": "AR",
+      "Proteinbasisname": "AR",
+      "Phospho": null,
+      "Proteinname": "AR",
+      "Proteinausdruck": 0.42619968075,
+      "Antikörperquelle": "R",
+      "Validierungsstatus": "V"
+    },
+    {
+      "Projektkurzname": "TCGA-UVM",
+      "Fallbarcode": "TCGA-V4-A9EA",
+      "Probenbarcode": "TCGA-V4-A9EA-01A",
+      "Aliquotbarcode": "TCGA-V4-A9EA-01A-21-A41Z-20",
+      "Genname": "AR",
+      "Proteinbasisname": "AR",
+      "Phospho": null,
+      "Proteinname": "AR",
+      "Proteinausdruck": -0.0883969254999999,
+      "Antikörperquelle": "R",
+      "Validierungsstatus": "V"
+    },
+    {
+      "Projektkurzname": "TCGA-DLBC",
+      "Fallbarcode": "TCGA-GS-A9TW",
+      "Probenbarcode": "TCGA-GS-A9TW-01A",
+      "Aliquotbarcode": "TCGA-GS-A9TW-01A-21-A45K-20",
+      "Genname": "AR",
+      "Proteinbasisname": "AR",
+      "Phospho": null,
+      "Proteinname": "AR",
+      "Proteinausdruck": 0.1090014075,
+      "Antikörperquelle": "R",
+      "Validierungsstatus": "V"
+    },
+    {
+      "Projektkurzname": "TCGA-DLBC",
+      "Fallbarcode": "TCGA-G8-6914",
+      "Probenbarcode": "TCGA-G8-6914-01A",
+      "Aliquotbarcode": "TCGA-G8-6914-01A-21-A45K-20",
+      "Genname": "AR",
+      "Proteinbasisname": "AR",
+      "Phospho": null,
+      "Proteinname": "AR",
+      "Proteinausdruck": 0.2661189065,
+      "Antikörperquelle": "R",
+      "Validierungsstatus": "V"
+    },
+    {
+      "Projektkurzname": "TCGA-CHOL",
+      "Fallbarcode": "TCGA-W5-AA33",
+      "Probenbarcode": "TCGA-W5-AA33-01A",
+      "Aliquotbarcode": "TCGA-W5-AA33-01A-21-A45N-20",
+      "Genname": "AR",
+      "Proteinbasisname": "AR",
+      "Phospho": null,
+      "Proteinname": "AR",
+      "Proteinausdruck": 0.0378950837500001,
+      "Antikörperquelle": "R",
+      "Validierungsstatus": "V"
+    }
+  ]
+}
