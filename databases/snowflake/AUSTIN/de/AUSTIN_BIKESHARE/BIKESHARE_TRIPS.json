@@ -1,0 +1,102 @@
+{
+  "table_name": "BIKESHARE_TRIPS",
+  "table_fullname": "AUSTIN.AUSTIN_BIKESHARE.BIKESHARE_TRIPS",
+  "column_names": [
+    "abonnententyp",
+    "startzeit",
+    "endstation_id",
+    "fahrradtyp",
+    "startstation_id",
+    "endstation_name",
+    "fahrt_id",
+    "startstation_name",
+    "fahrrad_id",
+    "dauer_minuten"
+  ],
+  "column_types": [
+    "TEXT",
+    "NUMBER",
+    "TEXT",
+    "TEXT",
+    "NUMBER",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "NUMBER"
+  ],
+  "description": [
+    "Art des Abonnenten",
+    "Start-Timestamp der Fahrt",
+    "Numerische Referenz für Endstation",
+    "Typ des verwendeten Fahrrads",
+    "Numerische Referenz für Startstation",
+    "Stationsname für Endstation",
+    "Numerische ID der Fahrradfahrt",
+    "Stationsname für Startstation",
+    "ID des verwendeten Fahrrads",
+    "Dauer der Fahrt in Minuten"
+  ],
+  "sample_rows": [
+    {
+      "fahrt_id": "18939964",
+      "abonnententyp": "Single Trip",
+      "fahrrad_id": "263G",
+      "fahrradtyp": "classic",
+      "startzeit": 1541345975000000,
+      "startstation_id": 2574,
+      "startstation_name": "Zilker Park",
+      "endstation_id": "4051",
+      "endstation_name": "10th & Red River",
+      "dauer_minuten": 44
+    },
+    {
+      "fahrt_id": "29611056",
+      "abonnententyp": "Pay-as-you-ride",
+      "fahrrad_id": "19453",
+      "fahrradtyp": "electric",
+      "startzeit": 1683920482000000,
+      "startstation_id": 4051,
+      "startstation_name": "10th/Red River",
+      "endstation_id": "4051",
+      "endstation_name": "10th/Red River",
+      "dauer_minuten": 64
+    },
+    {
+      "fahrt_id": "29599451",
+      "abonnententyp": "Local31",
+      "fahrrad_id": "22196",
+      "fahrradtyp": "electric",
+      "startzeit": 1683826896000000,
+      "startstation_id": 4051,
+      "startstation_name": "10th/Red River",
+      "endstation_id": "4051",
+      "endstation_name": "10th/Red River",
+      "dauer_minuten": 12
+    },
+    {
+      "fahrt_id": "29541694",
+      "abonnententyp": "Pay-as-you-ride",
+      "fahrrad_id": "1434",
+      "fahrradtyp": "classic",
+      "startzeit": 1683361074000000,
+      "startstation_id": 4051,
+      "startstation_name": "10th/Red River",
+      "endstation_id": "4051",
+      "endstation_name": "10th/Red River",
+      "dauer_minuten": 58
+    },
+    {
+      "fahrt_id": "29599284",
+      "abonnententyp": "Local31",
+      "fahrrad_id": "22196",
+      "fahrradtyp": "electric",
+      "startzeit": 1683825929000000,
+      "startstation_id": 4051,
+      "startstation_name": "10th/Red River",
+      "endstation_id": "4051",
+      "endstation_name": "10th/Red River",
+      "dauer_minuten": 16
+    }
+  ]
+}
