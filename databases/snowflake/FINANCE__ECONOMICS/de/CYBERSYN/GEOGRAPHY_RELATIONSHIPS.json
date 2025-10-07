@@ -1,0 +1,78 @@
+{
+  "sample_rows": [
+    {
+      "GEO_NAME": "Sumter County",
+      "GEO_ID": "geoId/45085",
+      "LEVEL": "County",
+      "VERWANDTER_GEO_NAME": "Block Group 3, Census Tract 4, Sumter County, South Carolina",
+      "VERWANDTES_GEO_ID": "censusBlockGroup/450850004003",
+      "VERWANDTES_LEVEL": "CensusBlockGroup",
+      "BEZIEHUNGSTYP": "Contains"
+    },
+    {
+      "GEO_NAME": "Census Tract 5035.10, Santa Clara County, California",
+      "GEO_ID": "geoId/06085503510",
+      "LEVEL": "CensusTract",
+      "VERWANDTER_GEO_NAME": "Block Group 2; Census Tract 5035.10; Santa Clara County; California",
+      "VERWANDTES_GEO_ID": "censusBlockGroup/060855035102",
+      "VERWANDTES_LEVEL": "CensusBlockGroup",
+      "BEZIEHUNGSTYP": "Contains"
+    },
+    {
+      "GEO_NAME": "Northern America",
+      "GEO_ID": "countrySubRegion/021",
+      "LEVEL": "CountrySubRegion",
+      "VERWANDTER_GEO_NAME": "Census Tract 107.30, Sandoval County, New Mexico",
+      "VERWANDTES_GEO_ID": "geoId/35043010730",
+      "VERWANDTES_LEVEL": "CensusTract",
+      "BEZIEHUNGSTYP": "Contains"
+    },
+    {
+      "GEO_NAME": "59150306",
+      "GEO_ID": "statcanId/S051259150306",
+      "LEVEL": "DisseminationArea",
+      "VERWANDTER_GEO_NAME": "Greater Vancouver",
+      "VERWANDTES_GEO_ID": "statcanId/A00035915",
+      "VERWANDTES_LEVEL": "CensusDivision",
+      "BEZIEHUNGSTYP": "Overlaps"
+    },
+    {
+      "GEO_NAME": "35230419",
+      "GEO_ID": "statcanId/S051235230419",
+      "LEVEL": "DisseminationArea",
+      "VERWANDTER_GEO_NAME": "Guelph/Eramosa",
+      "VERWANDTES_GEO_ID": "statcanId/A00053523009",
+      "VERWANDTES_LEVEL": "CensusSubdivision",
+      "BEZIEHUNGSTYP": "Overlaps"
+    }
+  ],
+  "table_name": "GEOGRAPHY_RELATIONSHIPS",
+  "table_fullname": "FINANCE__ECONOMICS.CYBERSYN.GEOGRAPHY_RELATIONSHIPS",
+  "column_names": [
+    "VERWANDTER_GEO_NAME",
+    "VERWANDTES_LEVEL",
+    "BEZIEHUNGSTYP",
+    "VERWANDTES_GEO_ID",
+    "GEO_ID",
+    "GEO_NAME",
+    "LEVEL"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Name des Ortes im Zusammenhang mit `GEO_NAME`. Dies ist ein Ort, der sich mit dem primären Geo überlappt oder darin enthalten ist (z. B. Stadt innerhalb eines Bundeslandes)",
+    "Geografisches Level oder Hierarchie des verwandten Ortes (z. B. Land, Bundesland, County, Stadt, Kontinent, CountrySubRegion usw.)",
+    "Beziehung zwischen den beiden Orten. `Contains` bedeutet, dass die `RELATED_GEO_ID` vollständig innerhalb der `GEO_ID` enthalten ist (z. B. Beziehung von Bundesland zu Stadt), während `Overlaps` angibt, dass die `GEO_ID` ein Teil der `RELATED_GEO_ID` ist (z. B. Beziehung von Stadt zu Bundesland)",
+    "Eindeutiger Identifikator für den verwandten Ort, der mit der `GEOGRAPHY_INDEX`-Tabelle verknüpft werden kann",
+    "Eindeutiger Identifikator für einen Ort, der mit der `GEOGRAPHY_INDEX`-Tabelle verknüpft werden kann",
+    "Vollständiger Name des Ortes",
+    "Geografisches Level oder Hierarchie (z. B. Land, Bundesland, County, Stadt, Kontinent, CountrySubRegion usw.)"
+  ]
+}
