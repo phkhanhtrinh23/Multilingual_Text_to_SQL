@@ -1,0 +1,94 @@
+{
+  "table_name": "CYTOGENINVVALID",
+  "table_fullname": "TCGA_MITELMAN.PROD.CYTOGENINVVALID",
+  "column_names": [
+    "Fallnummer",
+    "Grund",
+    "Rechnungsnummer",
+    "KaryShort",
+    "KaryLong",
+    "CytoConvInput",
+    "Referenznummer",
+    "Nachricht",
+    "KaryLänge"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "NUMBER",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "NUMBER",
+    "TEXT",
+    "NUMBER"
+  ],
+  "description": [
+    "Fallnummer -- normalerweise ein Integer, aber kann auch eine beliebige Zeichenfolge sein",
+    "Fehlermeldungen",
+    "Untersuchungsnummer -- immer ein Integer zwischen 1 und 9",
+    "kurze (möglicherweise gekürzte) Karyotyp-Beschreibung",
+    "wenn die Karyotyp-Beschreibung eine bestimmte Länge überschreitet, ist der vollständige String in dieser Spalte, ansonsten ist dieses Feld null",
+    "ein vollständiger Karyotyp-Wert, der für das Tool von CytoConverter angepasst wurde",
+    "Referenznummer",
+    "Gibt an, ob der Karyotyp vom Syntax-Prüfer korrigiert wurde",
+    "Länge der Karyotyp-Beschreibung -- kann bis zu tausende von Zeichen lang sein, ist aber normalerweise < 30"
+  ],
+  "sample_rows": [
+    {
+      "Referenznummer": 17264,
+      "Fallnummer": "403",
+      "Rechnungsnummer": 1,
+      "KaryLänge": 256,
+      "KaryShort": "45,XY,der(4)t(4;11)(p15;q21)t(4;11)(q13;q21)t(4;11)(q13;q14),der(5)t(5;17)(q11;q11),del(7)(q22q36),der(9)t(9;15)(q34;q26),r(11)(p11q11),der(15)t(11;15)(q14;p11)t(11;15)(q14;q14),der(16)t(15;16)(q21;q24)t(12;15)(q24;q21),del(17)(q11),der(20)t(4;20)(p15;p11",
+      "KaryLong": "45,XY,der(4)t(4;11)(p15;q21)t(4;11)(q13;q21)t(4;11)(q13;q14),der(5)t(5;17)(q11;q11),del(7)(q22q36),der(9)t(9;15)(q34;q26),r(11)(p11q11),der(15)t(11;15)(q14;p11)t(11;15)(q14;q14),der(16)t(15;16)(q21;q24)t(12;15)(q24;q21),del(17)(q11),der(20)t(4;20)(p15;p11)",
+      "Nachricht": "Original",
+      "Grund": " ",
+      "CytoConvInput": "45,XY,der(4)t(4;11)(p15;q21)t(4;11)(q13;q21)t(4;11)(q13;q14),der(5)t(5;17)(q11;q11),del(7)(q22q36),der(9)t(9;15)(q34;q26),r(11)(p11q11),der(15)t(11;15)(q14;p11)t(11;15)(q14;q14),der(16)t(15;16)(q21;q24)t(12;15)(q24;q21),del(17)(q11),der(20)t(4;20)(p15;p11)"
+    },
+    {
+      "Referenznummer": 12035,
+      "Fallnummer": "7",
+      "Rechnungsnummer": 1,
+      "KaryLänge": 0,
+      "KaryShort": " ",
+      "KaryLong": " ",
+      "Nachricht": "Original",
+      "Grund": " ",
+      "CytoConvInput": " "
+    },
+    {
+      "Referenznummer": 2651,
+      "Fallnummer": "4",
+      "Rechnungsnummer": 1,
+      "KaryLänge": 0,
+      "KaryShort": " ",
+      "KaryLong": " ",
+      "Nachricht": "Original",
+      "Grund": " ",
+      "CytoConvInput": " "
+    },
+    {
+      "Referenznummer": 1625,
+      "Fallnummer": "90",
+      "Rechnungsnummer": 1,
+      "KaryLänge": 0,
+      "KaryShort": " ",
+      "KaryLong": " ",
+      "Nachricht": "Original",
+      "Grund": " ",
+      "CytoConvInput": " "
+    },
+    {
+      "Referenznummer": 2093,
+      "Fallnummer": "1",
+      "Rechnungsnummer": 1,
+      "KaryLänge": 0,
+      "KaryShort": " ",
+      "KaryLong": " ",
+      "Nachricht": "Original",
+      "Grund": " ",
+      "CytoConvInput": " "
+    }
+  ]
+}
