@@ -1,0 +1,78 @@
+{
+  "sample_rows": [
+    {
+      "GEO_NAME": "New York-Newark-Jersey City, NY-NJ-PA Metro Area",
+      "GEO_ID": "geoId/C35620",
+      "LEVEL": "CensusCoreBasedStatisticalArea",
+      "VERWANDTER_GEO_NAME": "Census Tract 972.06, Queens, New York",
+      "VERWANDTER_GEO_ID": "geoId/36081097206",
+      "VERWANDTER_LEVEL": "CensusTract",
+      "BEZIEHUNGSTYP": "Contains"
+    },
+    {
+      "GEO_NAME": "24580377",
+      "GEO_ID": "statcanId/S051224580377",
+      "LEVEL": "DisseminationArea",
+      "VERWANDTER_GEO_NAME": "Brossard",
+      "VERWANDTER_GEO_ID": "statcanId/A00052458007",
+      "VERWANDTER_LEVEL": "CensusSubdivision",
+      "BEZIEHUNGSTYP": "Overlaps"
+    },
+    {
+      "GEO_NAME": "Block Group 3, Census Tract 5459, Wayne County, Michigan",
+      "GEO_ID": "censusBlockGroup/261635459003",
+      "LEVEL": "CensusBlockGroup",
+      "VERWANDTER_GEO_NAME": "Census Tract 5459, Wayne County, Michigan",
+      "VERWANDTER_GEO_ID": "geoId/26163545900",
+      "VERWANDTER_LEVEL": "CensusTract",
+      "BEZIEHUNGSTYP": "Overlaps"
+    },
+    {
+      "GEO_NAME": "Census Tract 9015.01, Prince William County, Virginia",
+      "GEO_ID": "geoId/51153901501",
+      "LEVEL": "CensusTract",
+      "VERWANDTER_GEO_NAME": "Northern America",
+      "VERWANDTER_GEO_ID": "countrySubRegion/021",
+      "VERWANDTER_LEVEL": "CountrySubRegion",
+      "BEZIEHUNGSTYP": "Overlaps"
+    },
+    {
+      "GEO_NAME": "70506",
+      "GEO_ID": "zip/70506",
+      "LEVEL": "CensusZipCodeTabulationArea",
+      "VERWANDTER_GEO_NAME": "Census Tract 18.02, Lafayette Parish, Louisiana",
+      "VERWANDTER_GEO_ID": "geoId/22055001802",
+      "VERWANDTER_LEVEL": "CensusTract",
+      "BEZIEHUNGSTYP": "Overlaps"
+    }
+  ],
+  "table_name": "GEOGRAPHY_RELATIONSHIPS",
+  "table_fullname": "WEATHER__ENVIRONMENT.CYBERSYN.GEOGRAPHY_RELATIONSHIPS",
+  "column_names": [
+    "VERWANDTER_GEO_NAME",
+    "VERWANDTER_GEO_ID",
+    "VERWANDTER_LEVEL",
+    "BEZIEHUNGSTYP",
+    "GEO_ID",
+    "LEVEL",
+    "GEO_NAME"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Name des Ortes im Zusammenhang mit `GEO_NAME`. Dies ist ein Ort, der sich mit dem primären Geo überlappt oder darin enthalten ist (z. B. Stadt innerhalb eines Bundeslandes)",
+    "Eindeutiger Identifikator für den zugehörigen Ort, der mit der `GEOGRAPHY_INDEX`-Tabelle verknüpft werden kann",
+    "Geografisches Level oder die Hierarchie des zugehörigen Ortes (z. B. Land, Bundesland, County, Stadt, Kontinent, `CountrySubRegion` usw.)",
+    "Beziehung zwischen den beiden Orten. `Contains` bedeutet, dass die `RELATED_GEO_ID` vollständig innerhalb der `GEO_ID` enthalten ist (z. B. Beziehung von Bundesland zu Stadt), während `Overlaps` angibt, dass die `GEO_ID` ein Teil der `RELATED_GEO_ID` ist (z. B. Beziehung von Stadt zu Bundesland)",
+    "Eindeutiger Identifikator für einen Ort, der mit der `GEOGRAPHY_INDEX`-Tabelle verknüpft werden kann",
+    "Geografisches Level oder die Hierarchie (z. B. Land, Bundesland, County, Stadt, Kontinent, `CountrySubRegion` usw.)",
+    "Vollständiger Name des Ortes"
+  ]
+}

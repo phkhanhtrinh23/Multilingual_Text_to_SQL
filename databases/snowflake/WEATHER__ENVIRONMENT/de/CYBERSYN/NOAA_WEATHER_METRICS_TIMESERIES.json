@@ -1,0 +1,78 @@
+{
+  "sample_rows": [
+    {
+      "NOAA_WEATHER_STATION_ID": "US1ALSH0043",
+      "VARIABLE": "precipitation",
+      "Variablenname": "Precipitation",
+      "Datum": "2012-09-10",
+      "Datum_Uhrzeit": "2012-09-10 00:00:00",
+      "Wert": "0.000000",
+      "Einheit": "Millimeters"
+    },
+    {
+      "NOAA_WEATHER_STATION_ID": "USW00094994",
+      "VARIABLE": "precipitation",
+      "Variablenname": "Precipitation",
+      "Datum": "2023-04-03",
+      "Datum_Uhrzeit": "2023-04-03 00:00:00",
+      "Wert": "0.800000",
+      "Einheit": "Millimeters"
+    },
+    {
+      "NOAA_WEATHER_STATION_ID": "USS0011C01S",
+      "VARIABLE": "minimum_temperature",
+      "Variablenname": "Minimum Temperature",
+      "Datum": "2008-11-28",
+      "Datum_Uhrzeit": "2008-11-28 00:00:00",
+      "Wert": "-5.100000",
+      "Einheit": "Degrees Celsius"
+    },
+    {
+      "NOAA_WEATHER_STATION_ID": "RSM00028275",
+      "VARIABLE": "snow_depth",
+      "Variablenname": "Snow Depth",
+      "Datum": "2004-03-25",
+      "Datum_Uhrzeit": "2004-03-25 00:00:00",
+      "Wert": "351.000000",
+      "Einheit": "Millimeters"
+    },
+    {
+      "NOAA_WEATHER_STATION_ID": "USW00093720",
+      "VARIABLE": "direction_of_fastest_2_minute_wind",
+      "Variablenname": "Direction of Fastest 2-Minute Wind",
+      "Datum": "2011-04-20",
+      "Datum_Uhrzeit": "2011-04-20 00:00:00",
+      "Wert": "210.000000",
+      "Einheit": "Degrees"
+    }
+  ],
+  "table_name": "NOAA_WEATHER_METRICS_TIMESERIES",
+  "table_fullname": "WEATHER__ENVIRONMENT.CYBERSYN.NOAA_WEATHER_METRICS_TIMESERIES",
+  "column_names": [
+    "VARIABLE",
+    "Wert",
+    "NOAA_WEATHER_STATION_ID",
+    "Datum",
+    "Datum_Uhrzeit",
+    "Einheit",
+    "Variablenname"
+  ],
+  "column_types": [
+    "TEXT",
+    "NUMBER",
+    "TEXT",
+    "DATE",
+    "TIMESTAMP_NTZ",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Eindeutiger Identifikator für eine Variable, die mit der Timeseries-Tabelle verknüpft werden kann.",
+    "Für die Variable gemeldeter Wert",
+    "Eindeutiger Identifikator für Wetterstationen an der Landoberfläche im Global Historical Climatology Network daily (GHCNd), bestehend aus dem FIPS-Ländercode (erste 2 Zeichen), einem Netzwerkcode (drittes Zeichen) und der eigentlichen Station-ID (die verbleibenden 8 Zeichen).",
+    "Dem Wert zugeordnetes Datum",
+    "Dem Wert zugeordnetes Datum und Uhrzeit",
+    "Einheit der Messung für den gemeldeten Wert.",
+    "Menschlich lesbarer Name für die Variable."
+  ]
+}
