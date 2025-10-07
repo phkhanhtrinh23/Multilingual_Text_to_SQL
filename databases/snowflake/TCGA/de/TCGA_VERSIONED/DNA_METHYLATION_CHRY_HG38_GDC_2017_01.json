@@ -1,0 +1,102 @@
+{
+  "table_name": "DNA_METHYLATION_CHRY_HG38_GDC_2017_01",
+  "table_fullname": "TCGA.TCGA_VERSIONED.DNA_METHYLATION_CHRY_HG38_GDC_2017_01",
+  "column_names": [
+    "Beta_Wert",
+    "Aliquot_Scan_Code",
+    "Fall_GDC_ID",
+    "Probe_GDC_ID",
+    "Probe_Scan_Code",
+    "Aliquot_GDC_ID",
+    "Plattform",
+    "Sondier_ID",
+    "Fall_Scan_Code",
+    "Datei_GDC_ID"
+  ],
+  "column_types": [
+    "FLOAT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Stellt das Verhältnis zwischen der intensität des methylierten Arrays und der Gesamtintensität des Arrays dar, liegt zwischen 0 (niedrigere Methylierungsgrade) und 1 (höhere Methylierungsgrade)",
+    "TCGA-Aliquot-Schienencode, z. B. TCGA-12-1089-01A-01D-0517-27",
+    "Eindeutiger GDC-Identifikator für diesen Fall (entspricht dem `case_barcode`). Kann verwendet werden, um weitere Informationen vom GDC-Datenportal abzurufen, wie z. B.: https://portal.gdc.cancer.gov/files/c21b332c-06c6-4403-9032-f91c8f407ba35",
+    "Eindeutiger GDC-Identifikator für diese Probe (entspricht dem `sample_barcode`), z. B. a1ec9279-c1a6-4e58-97ed-9ec1f36187c5 -- dieser kann verwendet werden, um weitere Informationen vom GDC-Datenportal abzurufen",
+    "TCGA-Proben-Schienencode, z. B. TCGA-12-1089-01A. Eine Probe kann mehrere Sätze von CN-Segmentierungen haben, die mehreren Aliquots entsprechen; verwenden Sie `GROUP BY` entsprechend in Abfragen",
+    "Eindeutiger GDC-Identifikator für diesen Aliquot (entspricht dem `aliquot_barcode`), z. B. 7fbfdb3e-1fd2-4206-8d2e-7f68e4a15844 -- dieser kann verwendet werden, um weitere Informationen vom GDC-Datenportal abzurufen",
+    "Plattform, die zur Generierung dieser Daten verwendet wurde -- entweder `HumanMethylation450` oder `HumanMethylation27`",
+    "Eindeutige ID für den Array-Sondenverbund, der einem CpG-Standort zugeordnet ist",
+    "Original-TCGA-Fall-Schienencode, z. B. TCGA-DX-A8BN",
+    "Eindeutiger GDC-Identifikator für diese Datei (entspricht dem `file_barcode`) -- dieser kann verwendet werden, um weitere Informationen vom GDC-Datenportal abzurufen, wie z. B.: https://portal.gdc.cancer.gov/files/c21b332c-06c6-4403-9032-f91c8f407ba42"
+  ],
+  "sample_rows": [
+    {
+      "Fall_Scan_Code": "TCGA-A6-2670",
+      "Probe_Scan_Code": "TCGA-A6-2670-01A",
+      "Aliquot_Scan_Code": "TCGA-A6-2670-01A-02D-0820-05",
+      "Sondier_ID": "cg03515901",
+      "Beta_Wert": 0.939927954557361,
+      "Plattform": null,
+      "Datei_GDC_ID": "cdd5e1a9-1ce8-4361-9fca-61ccb7098b25",
+      "Fall_GDC_ID": "65bb7520-f055-43a8-b735-1152fa2c9e04",
+      "Probe_GDC_ID": "724072ae-40b5-45cc-b339-e24f1cb6fbcf",
+      "Aliquot_GDC_ID": "b8074b70-ad2b-49e5-b70a-c6e8a6681830"
+    },
+    {
+      "Fall_Scan_Code": "TCGA-BR-4186",
+      "Probe_Scan_Code": "TCGA-BR-4186-01A",
+      "Aliquot_Scan_Code": "TCGA-BR-4186-01A-01D-1129-05",
+      "Sondier_ID": "cg22415432",
+      "Beta_Wert": 0.501611003084744,
+      "Plattform": null,
+      "Datei_GDC_ID": "9f1a5a8a-aa4b-498b-b522-74eec31b203c",
+      "Fall_GDC_ID": "65834878-0e8d-4741-9e4c-2316105ad40d",
+      "Probe_GDC_ID": "d8919d77-45ab-438a-825d-51bdb1310659",
+      "Aliquot_GDC_ID": "43256bf0-b759-4b49-b76f-6d015376326b"
+    },
+    {
+      "Fall_Scan_Code": "TCGA-BR-4190",
+      "Probe_Scan_Code": "TCGA-BR-4190-01A",
+      "Aliquot_Scan_Code": "TCGA-BR-4190-01A-01D-1129-05",
+      "Sondier_ID": "cg20401549",
+      "Beta_Wert": 0.398097856078824,
+      "Plattform": null,
+      "Datei_GDC_ID": "16a7391b-41d8-4b4a-9296-fcbec012a2e7",
+      "Fall_GDC_ID": "282e979d-4ad9-4d42-8ffa-7487a94fa1f3",
+      "Probe_GDC_ID": "0486af5d-6d7c-4409-81e9-2fc4a38225c4",
+      "Aliquot_GDC_ID": "77f0ac56-827e-47da-bbfd-ca438b9fa222"
+    },
+    {
+      "Fall_Scan_Code": "TCGA-BR-4190",
+      "Probe_Scan_Code": "TCGA-BR-4190-01A",
+      "Aliquot_Scan_Code": "TCGA-BR-4190-01A-01D-1129-05",
+      "Sondier_ID": "cg22415432",
+      "Beta_Wert": 0.547468110865326,
+      "Plattform": null,
+      "Datei_GDC_ID": "16a7391b-41d8-4b4a-9296-fcbec012a2e7",
+      "Fall_GDC_ID": "282e979d-4ad9-4d42-8ffa-7487a94fa1f3",
+      "Probe_GDC_ID": "0486af5d-6d7c-4409-81e9-2fc4a38225c4",
+      "Aliquot_GDC_ID": "77f0ac56-827e-47da-bbfd-ca438b9fa222"
+    },
+    {
+      "Fall_Scan_Code": "TCGA-BR-4194",
+      "Probe_Scan_Code": "TCGA-BR-4194-11A",
+      "Aliquot_Scan_Code": "TCGA-BR-4194-11A-01D-1129-05",
+      "Sondier_ID": "cg08455548",
+      "Beta_Wert": 0.277063709223331,
+      "Plattform": null,
+      "Datei_GDC_ID": "2c8ae27f-bf3c-4fda-b718-c6491c4fd8df",
+      "Fall_GDC_ID": "2c650fe1-48b0-4f88-bc11-04096be48571",
+      "Probe_GDC_ID": "1cf42373-411f-41fd-8705-c829800c2c55",
+      "Aliquot_GDC_ID": "02b7a23d-34b9-4dfc-a1e5-800819501377"
+    }
+  ]
+}
