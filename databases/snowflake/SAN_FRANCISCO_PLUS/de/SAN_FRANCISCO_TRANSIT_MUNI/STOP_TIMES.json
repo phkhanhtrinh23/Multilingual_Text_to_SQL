@@ -1,0 +1,94 @@
+{
+  "table_name": "STOP_TIMES",
+  "table_fullname": "SAN_FRANCISCO_PLUS.SAN_FRANCISCO_TRANSIT_MUNI.STOP_TIMES",
+  "column_names": [
+    "Ankunftszeit",
+    "genauer Zeitpunkt",
+    "Haltefolge",
+    "stop_id",
+    "kommt_am_nächsten_Tag_an",
+    "trip_id",
+    "Abfahrtszeit",
+    "dropoff_type",
+    "fährt_am_nächsten_Tag_ab"
+  ],
+  "column_types": [
+    "TIME",
+    "BOOLEAN",
+    "NUMBER",
+    "NUMBER",
+    "BOOLEAN",
+    "NUMBER",
+    "TIME",
+    "TEXT",
+    "BOOLEAN"
+  ],
+  "description": [
+    "Gibt die geplante Ankunftszeit an einem bestimmten Haltestellen für eine bestimmte Fahrt auf einer Route an.",
+    "Gibt an, ob die angegebenen Ankunfts- und Abfahrtszeiten für eine Haltestelle streng eingehalten werden oder ob es sich um ungefähre oder interpolierte Zeiten handelt.",
+    "Identifiziert die Reihenfolge der Haltestellen für eine bestimmte Fahrt. Die Werte für stop_sequence müssen während der Fahrt ansteigen, müssen aber nicht aufeinanderfolgend sein.",
+    "Identifiziert die bediente Haltestelle. Mehrere Routen können die gleiche Haltestelle verwenden.",
+    "Mehrere Routen beginnen vor Mitternacht, wobei der Service die ganze Nacht über fortgesetzt wird. Diese Variable gibt an, ob arrival_time nach Mitternacht am Tag nach dem geplanten Tag erfolgt. Dies ist nützlich, um Routen zu identifizieren, die an einem Tag beginnen und am nächsten Tag enden.",
+    "Identifiziert eine Fahrt. Mehrere Fahrten können die gleiche Haltestelle haben.",
+    "Gibt die geplante Abfahrtszeit an einem bestimmten Haltestellen für eine bestimmte Fahrt auf einer Route an.",
+    "\"Gibt an, ob Fahrgäste an einer Haltestelle im Rahmen des normalen Fahrplans abgesetzt werden oder ob ein Absetzen an der Haltestelle nicht verfügbar ist. Verfügbare Optionen: - regular - none - phone (gibt an, dass eine Agentur angerufen werden muss, um den Absetzen zu arrangieren) - driver (gibt an, dass der Absetzen mit dem Fahrer koordiniert werden muss)\"",
+    "Mehrere Routen beginnen vor Mitternacht, wobei der Service die ganze Nacht über fortgesetzt wird. Diese Variable gibt an, ob departure_time nach Mitternacht am Tag nach dem geplanten Tag erfolgt. Dies ist nützlich, um Routen zu identifizieren, die an einem Tag beginnen und am nächsten Tag enden."
+  ],
+  "sample_rows": [
+    {
+      "stop_id": 15759,
+      "trip_id": 8951406,
+      "Haltefolge": 51,
+      "Ankunftszeit": "06:54:55",
+      "kommt_am_nächsten_Tag_an": false,
+      "Abfahrtszeit": "06:54:55",
+      "fährt_am_nächsten_Tag_ab": false,
+      "dropoff_type": "regular",
+      "genauer Zeitpunkt": false
+    },
+    {
+      "stop_id": 15761,
+      "trip_id": 8951406,
+      "Haltefolge": 52,
+      "Ankunftszeit": "06:55:33",
+      "kommt_am_nächsten_Tag_an": false,
+      "Abfahrtszeit": "06:55:33",
+      "fährt_am_nächsten_Tag_ab": false,
+      "dropoff_type": "regular",
+      "genauer Zeitpunkt": false
+    },
+    {
+      "stop_id": 15759,
+      "trip_id": 8951253,
+      "Haltefolge": 51,
+      "Ankunftszeit": "06:54:55",
+      "kommt_am_nächsten_Tag_an": false,
+      "Abfahrtszeit": "06:54:55",
+      "fährt_am_nächsten_Tag_ab": false,
+      "dropoff_type": "regular",
+      "genauer Zeitpunkt": false
+    },
+    {
+      "stop_id": 15761,
+      "trip_id": 8951253,
+      "Haltefolge": 52,
+      "Ankunftszeit": "06:55:33",
+      "kommt_am_nächsten_Tag_an": false,
+      "Abfahrtszeit": "06:55:33",
+      "fährt_am_nächsten_Tag_ab": false,
+      "dropoff_type": "regular",
+      "genauer Zeitpunkt": false
+    },
+    {
+      "stop_id": 15828,
+      "trip_id": 8951253,
+      "Haltefolge": 54,
+      "Ankunftszeit": "06:57:00",
+      "kommt_am_nächsten_Tag_an": false,
+      "Abfahrtszeit": "06:57:00",
+      "fährt_am_nächsten_Tag_ab": false,
+      "dropoff_type": "regular",
+      "genauer Zeitpunkt": true
+    }
+  ]
+}
