@@ -1,0 +1,78 @@
+{
+  "sample_rows": [
+    {
+      "FLUGZEUGTRAEGER_ID": "01212_11",
+      "TRAEGER_NAME": "Paklook Air, Inc d/b/a/ Airlift Alaska (2017 - 2017)",
+      "TRAEGER_WELT_GEBIETS_CODE": 1,
+      "TRAEGER_TYP": "Domestic Carrier",
+      "OAI_TRAEGER_TYP": "Large Regional Carrier - $20-100M in revenue",
+      "BUNDESSTAAT_GEO_ID": "geoId/02",
+      "LAND_GEO_ID": "country/USA"
+    },
+    {
+      "FLUGZEUGTRAEGER_ID": "01006_31",
+      "TRAEGER_NAME": "Virgin America (2007 - 2018)",
+      "TRAEGER_WELT_GEBIETS_CODE": 10,
+      "TRAEGER_TYP": "Domestic Carrier",
+      "OAI_TRAEGER_TYP": "Major Carrier - $1B+ in revenue",
+      "BUNDESSTAAT_GEO_ID": null,
+      "LAND_GEO_ID": null
+    },
+    {
+      "FLUGZEUGTRAEGER_ID": "06993_51",
+      "TRAEGER_NAME": "Bellair Inc. (1) (Domestic)",
+      "TRAEGER_WELT_GEBIETS_CODE": 10,
+      "TRAEGER_TYP": "Domestic Carrier",
+      "OAI_TRAEGER_TYP": "Small Certified Carrier",
+      "BUNDESSTAAT_GEO_ID": null,
+      "LAND_GEO_ID": null
+    },
+    {
+      "FLUGZEUGTRAEGER_ID": "16770 (1)_11",
+      "TRAEGER_NAME": "Reliant Airlines (1998 - 2003)",
+      "TRAEGER_WELT_GEBIETS_CODE": 10,
+      "TRAEGER_TYP": "Domestic Carrier",
+      "OAI_TRAEGER_TYP": "Large Regional Carrier - $20-100M in revenue",
+      "BUNDESSTAAT_GEO_ID": null,
+      "LAND_GEO_ID": null
+    },
+    {
+      "FLUGZEUGTRAEGER_ID": "06752_11",
+      "TRAEGER_NAME": "Pan American Airways Corp. (1999 - 2004)",
+      "TRAEGER_WELT_GEBIETS_CODE": 10,
+      "TRAEGER_TYP": "Domestic Carrier",
+      "OAI_TRAEGER_TYP": "Large Regional Carrier - $20-100M in revenue",
+      "BUNDESSTAAT_GEO_ID": null,
+      "LAND_GEO_ID": null
+    }
+  ],
+  "table_name": "AIRCRAFT_CARRIER_INDEX",
+  "table_fullname": "GLOBAL_GOVERNMENT.CYBERSYN.AIRCRAFT_CARRIER_INDEX",
+  "column_names": [
+    "TRAEGER_WELT_GEBIETS_CODE",
+    "FLUGZEUGTRAEGER_ID",
+    "TRAEGER_TYP",
+    "TRAEGER_NAME",
+    "LAND_GEO_ID",
+    "OAI_TRAEGER_TYP",
+    "BUNDESSTAAT_GEO_ID"
+  ],
+  "column_types": [
+    "NUMBER",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "US-DOT-Identifikator für das geografische Gebiet, in dem der Carrier ansässig ist.",
+    "Eindeutige ID für den Flugzeugträger.",
+    "Typ des Carriers basierend auf seinen primären betrieblichen Eigenschaften.",
+    "Name des Flughafen-Carriers.",
+    "Eindeutiger Identifikator für ein Land, verknüpfbar mit der `GEOGRAPHY_INDEX`-Tabelle, der die primäre Geografie für die Variable darstellt.",
+    "Betreibender Luftfahrt-Carrier-Typ (OAC), der eine detaillierte Klassifizierung des Typs der vom Carrier durchgeführten Operationen bietet.",
+    "Eindeutiger Identifikator für einen Staat, verknüpfbar mit der `GEOGRAPHY_INDEX`-Tabelle, der die primäre Geografie für die Variable darstellt."
+  ]
+}
