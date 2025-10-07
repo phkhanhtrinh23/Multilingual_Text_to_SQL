@@ -1,0 +1,70 @@
+{
+  "sample_rows": [
+    {
+      "KalenderID": "day",
+      "Kalendername": "Day",
+      "PeriodeStartDatum": "2017-02-03",
+      "PeriodeEndDatum": "2017-02-03",
+      "Jahreszeitraum": 2017,
+      "OrdnungspositionImJahreszeitraum": 34
+    },
+    {
+      "KalenderID": "week_monday_start",
+      "Kalendername": "Week - Monday Start",
+      "PeriodeStartDatum": "2023-06-12",
+      "PeriodeEndDatum": "2023-06-18",
+      "Jahreszeitraum": 2023,
+      "OrdnungspositionImJahreszeitraum": 24
+    },
+    {
+      "KalenderID": "day",
+      "Kalendername": "Day",
+      "PeriodeStartDatum": "2023-06-26",
+      "PeriodeEndDatum": "2023-06-26",
+      "Jahreszeitraum": 2023,
+      "OrdnungspositionImJahreszeitraum": 177
+    },
+    {
+      "KalenderID": "day",
+      "Kalendername": "Day",
+      "PeriodeStartDatum": "2019-11-09",
+      "PeriodeEndDatum": "2019-11-09",
+      "Jahreszeitraum": 2019,
+      "OrdnungspositionImJahreszeitraum": 313
+    },
+    {
+      "KalenderID": "day",
+      "Kalendername": "Day",
+      "PeriodeStartDatum": "2018-11-09",
+      "PeriodeEndDatum": "2018-11-09",
+      "Jahreszeitraum": 2018,
+      "OrdnungspositionImJahreszeitraum": 313
+    }
+  ],
+  "table_name": "CALENDAR_INDEX",
+  "table_fullname": "GLOBAL_GOVERNMENT.CYBERSYN.CALENDAR_INDEX",
+  "column_names": [
+    "Kalendername",
+    "KalenderID",
+    "OrdnungspositionImJahreszeitraum",
+    "PeriodeEndDatum",
+    "PeriodeStartDatum",
+    "Jahreszeitraum"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "NUMBER",
+    "DATE",
+    "DATE",
+    "NUMBER"
+  ],
+  "description": [
+    "Menschlich lesbarer Name für den Typ des Kalenders.",
+    "Eindeutige ID, die einen Typ des Kalenders bezeichnet (z. B. Monat, Quartal, Einzelhandelskalender 4-5-4 Monat).",
+    "Die Reihenfolge der Periode innerhalb der Jahresperiode.",
+    "Der letzte Tag der Periode.",
+    "Der erste Tag der Periode.",
+    "Die Jahreszahl, die mit dem Jahreskalender für die Periode verbunden ist, sie spiegelt das Kalenderjahr für Kalenderperioden und das Einzelhandelsjahr 4-5-4 für Einzelhandelsperioden wider."
+  ]
+}
