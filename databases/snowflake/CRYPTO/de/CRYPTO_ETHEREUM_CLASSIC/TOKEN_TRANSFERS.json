@@ -1,0 +1,94 @@
+{
+  "table_name": "TOKEN_TRANSFERS",
+  "table_fullname": "CRYPTO.CRYPTO_ETHEREUM_CLASSIC.TOKEN_TRANSFERS",
+  "column_names": [
+    "Block_Hash",
+    "Wert",
+    "TokenAdresse",
+    "Block_Timestamp",
+    "Log_Index",
+    "VonAdresse",
+    "AnAdresse",
+    "Block_Nummer",
+    "Transaktions_Hash"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "NUMBER",
+    "NUMBER",
+    "TEXT",
+    "TEXT",
+    "NUMBER",
+    "TEXT"
+  ],
+  "description": [
+    "Hash des Blocks, in dem dieser Transfer war",
+    "Anzahl der übertragenen Token (ERC20) / ID des übertragenen Tokens (ERC721). Verwenden Sie safe_cast für das Umwandeln in NUMERIC oder FLOAT64",
+    "ERC20-Token-Adresse",
+    "Zeitstempel des Blocks, in dem dieser Transfer war",
+    "Log-Index im Transaktionsbeleg",
+    "Adresse des Senders",
+    "Adresse des Empfängers",
+    "Blocknummer, in dem dieser Transfer war",
+    "Transaktions-Hash"
+  ],
+  "sample_rows": [
+    {
+      "TokenAdresse": "0xd2c640b89645019fe9044345605ac43ad4219d0d",
+      "VonAdresse": "0x0000000000000000000000000000000000000000",
+      "AnAdresse": "0xf5c7a331f1a5c3889cf3187e483efcab53dbc3bc",
+      "Wert": "40000000000000000000000000000",
+      "Transaktions_Hash": "0x8aa13c540244a8056a4e876e8270dcd893636efe8fbdb2069f847719f9106cd9",
+      "Log_Index": 0,
+      "Block_Timestamp": 1532759268000000,
+      "Block_Nummer": 6262645,
+      "Block_Hash": "0x9a1a9843f11899ae3f84058f0a3a4b9142610ea772d08ba2c5c3c100d58685f0"
+    },
+    {
+      "TokenAdresse": "0x1774c5827fcc520d268e6454d53429e600507f3b",
+      "VonAdresse": "0x0073fc90514a359808ced01a122752eaca80c376",
+      "AnAdresse": "0x417109f5babad097f10c3ba1e946b3c170008db7",
+      "Wert": "12000",
+      "Transaktions_Hash": "0xa7f04f01d6b73362c5fb76bbbf96d3487ea48b4c66f36480aa9fdb8bd1ed1e54",
+      "Log_Index": 0,
+      "Block_Timestamp": 1532786744000000,
+      "Block_Nummer": 6264648,
+      "Block_Hash": "0xdb348ada7102bfebcf44d60577a5fe038be5d571eab7dcdc22486559abc93af8"
+    },
+    {
+      "TokenAdresse": "0x1774c5827fcc520d268e6454d53429e600507f3b",
+      "VonAdresse": "0x0073fc90514a359808ced01a122752eaca80c376",
+      "AnAdresse": "0x8284e1ffc3fa30d7ad662f421d1c38c143c22f10",
+      "Wert": "25854",
+      "Transaktions_Hash": "0x0c5066efc1338a874ea69399d504a7c8669f84b8e8eed96aaa4ccbd9850d9c01",
+      "Log_Index": 12,
+      "Block_Timestamp": 1532788489000000,
+      "Block_Nummer": 6264763,
+      "Block_Hash": "0x1d843cca708b16f297bed5b80c6dd31d4f2f6d2f5ae66ddbaabf7bf059f1f45f"
+    },
+    {
+      "TokenAdresse": "0x1774c5827fcc520d268e6454d53429e600507f3b",
+      "VonAdresse": "0x0073fc90514a359808ced01a122752eaca80c376",
+      "AnAdresse": "0x8284e1ffc3fa30d7ad662f421d1c38c143c22f10",
+      "Wert": "25000000000000000000000",
+      "Transaktions_Hash": "0x4c1b5c680d1b3f87a0ccf54ec8fb1ae697ea2313e728d35e8d07ba9605a4164d",
+      "Log_Index": 0,
+      "Block_Timestamp": 1532789955000000,
+      "Block_Nummer": 6264850,
+      "Block_Hash": "0x427af88123ee258ef17881f5a3346324030a8ac428700e8f4ee7b3e104e97f78"
+    },
+    {
+      "TokenAdresse": "0x45aa09a11d7ea6a484651f2a03df3f3ec2766cbc",
+      "VonAdresse": "0x0f79a13977c992e50f46a6b5f8c990de6cf32a66",
+      "AnAdresse": "0xd91ce1fd3150117474e3025944b64cca86ea9431",
+      "Wert": "52083000",
+      "Transaktions_Hash": "0x48d49ec87f71753d5915054a7640c063fc08d57a6fc2d0dfdba2e4a4cf4e5b3f",
+      "Log_Index": 2,
+      "Block_Timestamp": 1532789392000000,
+      "Block_Nummer": 6264818,
+      "Block_Hash": "0x1b1a5817bc433cf577d16428c64265a07d476bc4e487ba7c3295bde2855b1af2"
+    }
+  ]
+}
