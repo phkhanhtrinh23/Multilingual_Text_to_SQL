@@ -1,0 +1,78 @@
+{
+  "table_name": "MOLCLINGENE",
+  "table_fullname": "TCGA_MITELMAN.PROD.MOLCLINGENE",
+  "column_names": [
+    "Präfix",
+    "RechnungsNr",
+    "MolClin",
+    "Gen",
+    "ReferenzNr",
+    "BestellNr",
+    "Suffix"
+  ],
+  "column_types": [
+    "TEXT",
+    "NUMBER",
+    "TEXT",
+    "TEXT",
+    "NUMBER",
+    "NUMBER",
+    "TEXT"
+  ],
+  "description": [
+    "Prefixzeichen -- entweder leer oder '+'",
+    "Untersuchungsnummer, normalerweise zwischen 1 und 10",
+    "Flag, das entweder molekular 'M' oder klinisch 'C' anzeigt",
+    "Gen-Symbol(e), z. B. 'KMT2A' oder 'BCR/ABL1'",
+    "Referenznummer, z. B. '15563'",
+    "Bestellnummer, zwischen 1 und 15",
+    "Suffixzeichen -- entweder leer oder '+'"
+  ],
+  "sample_rows": [
+    {
+      "MolClin": "C",
+      "ReferenzNr": 3976,
+      "RechnungsNr": 2,
+      "BestellNr": 1,
+      "Präfix": null,
+      "Gen": "BCR::ABL1",
+      "Suffix": null
+    },
+    {
+      "MolClin": "C",
+      "ReferenzNr": 4541,
+      "RechnungsNr": 1,
+      "BestellNr": 1,
+      "Präfix": null,
+      "Gen": "PML::RARA",
+      "Suffix": null
+    },
+    {
+      "MolClin": "C",
+      "ReferenzNr": 4624,
+      "RechnungsNr": 1,
+      "BestellNr": 1,
+      "Präfix": null,
+      "Gen": "BCR::ABL1",
+      "Suffix": null
+    },
+    {
+      "MolClin": "C",
+      "ReferenzNr": 4748,
+      "RechnungsNr": 1,
+      "BestellNr": 1,
+      "Präfix": null,
+      "Gen": "PML::RARA",
+      "Suffix": null
+    },
+    {
+      "MolClin": "C",
+      "ReferenzNr": 4994,
+      "RechnungsNr": 1,
+      "BestellNr": 1,
+      "Präfix": null,
+      "Gen": "TCF3::PBX1",
+      "Suffix": null
+    }
+  ]
+}
