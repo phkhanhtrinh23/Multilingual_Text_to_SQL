@@ -1,0 +1,62 @@
+{
+  "sample_rows": [
+    {
+      "GEO_ID": "censusRegion/03",
+      "Variable": "Average_Price:_All_Ham_(Excluding_Canned_Ham_and_Luncheon_Slices),_per_lb._(453.6_gm)",
+      "Variablenname": "Average Price: All Ham (Excluding Canned Ham and Luncheon Slices), per lb. (453.6 gm)",
+      "Wert": 2.093,
+      "Datum": "2001-06-30"
+    },
+    {
+      "GEO_ID": "censusRegion/01",
+      "Variable": "Average_Price:_American_processed_cheese,_per_lb._(453.6_gm)",
+      "Variablenname": "Average Price: American processed cheese, per lb. (453.6 gm)",
+      "Wert": 4.556,
+      "Datum": "2007-08-31"
+    },
+    {
+      "GEO_ID": "censusDivision/05",
+      "Variable": "CPI:_Services_less_rent_of_shelter,_Not_seasonally_adjusted,_Semi-annual,_2017-12_Index_Date",
+      "Variablenname": "CPI: Services less rent of shelter, Not seasonally adjusted, Semi-annual, 2017-12 Index Date",
+      "Wert": 126.853,
+      "Datum": "2024-06-30"
+    },
+    {
+      "GEO_ID": "geoId/C42660",
+      "Variable": "CPI:_All_items_less_energy,_Not_seasonally_adjusted,_Semi-annual",
+      "Variablenname": "CPI: All items less energy, Not seasonally adjusted, Semi-annual",
+      "Wert": 153.3,
+      "Datum": "1994-12-31"
+    },
+    {
+      "GEO_ID": "censusRegion/03",
+      "Variable": "CPI:_Gasoline,_unleaded_regular,_Not_seasonally_adjusted,_Monthly",
+      "Variablenname": "CPI: Gasoline, unleaded regular, Not seasonally adjusted, Monthly",
+      "Wert": 98.0,
+      "Datum": "1990-08-31"
+    }
+  ],
+  "table_name": "BUREAU_OF_LABOR_STATISTICS_PRICE_TIMESERIES",
+  "table_fullname": "FINANCE__ECONOMICS.CYBERSYN.BUREAU_OF_LABOR_STATISTICS_PRICE_TIMESERIES",
+  "column_names": [
+    "GEO_ID",
+    "Wert",
+    "Variable",
+    "Variablenname",
+    "Datum"
+  ],
+  "column_types": [
+    "TEXT",
+    "FLOAT",
+    "TEXT",
+    "TEXT",
+    "DATE"
+  ],
+  "description": [
+    "Eindeutiger Identifikator für einen Ort, der mit den Tabellen geography_index/relationships verknüpft werden kann",
+    "Wert des Metrics",
+    "Eindeutiger Identifikator für eine Variable, die mit der attributes-Tabelle verknüpft werden kann",
+    "Menschlich lesbarer Name für eine Variable",
+    "Datum, das mit dem Wert verknüpft ist, das auf den letzten Tag des Berichtszeitraums festgelegt ist"
+  ]
+}
