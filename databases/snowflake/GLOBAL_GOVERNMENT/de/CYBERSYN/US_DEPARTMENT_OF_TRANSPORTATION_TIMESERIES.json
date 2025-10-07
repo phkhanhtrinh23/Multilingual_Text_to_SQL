@@ -1,0 +1,110 @@
+{
+  "sample_rows": [
+    {
+      "FLUGTYP_ID": "28ad3b116a705f65fd2a9df6bec3f49f",
+      "FLUGZEUGTRÄGER_ID": "06964_12",
+      "FLUGZEUG_ID": "3501",
+      "URSPRUNGS_FLUGHAFEN_ID": "90530OOK",
+      "ZIEL_FLUGHAFEN_ID": "10360BET",
+      "SERVICE_KLASSE": "Non-Scheduled Civilian Passenger Service",
+      "VARIABLE": "RAMP_IN_MINUTES",
+      "VARIABLE_NAME": "Ramp to Ramp Time",
+      "DATUM": "2010-08-31",
+      "WERT": 56.0,
+      "EINHEIT": "Minutes"
+    },
+    {
+      "FLUGTYP_ID": "cf4b7309ce4884368d51a7e51942e1b9",
+      "FLUGZEUGTRÄGER_ID": "06820_32",
+      "FLUGZEUG_ID": "67761",
+      "URSPRUNGS_FLUGHAFEN_ID": "33342MKE",
+      "ZIEL_FLUGHAFEN_ID": "30977ORD",
+      "SERVICE_KLASSE": "Scheduled Passenger/Cargo Service",
+      "VARIABLE": "RAMP_IN_MINUTES",
+      "VARIABLE_NAME": "Ramp to Ramp Time",
+      "DATUM": "2022-08-31",
+      "WERT": 129.0,
+      "EINHEIT": "Minutes"
+    },
+    {
+      "FLUGTYP_ID": "f367e322ca9c2659c07cc794f71f1d91",
+      "FLUGZEUGTRÄGER_ID": "07028_22",
+      "FLUGZEUG_ID": "3161",
+      "URSPRUNGS_FLUGHAFEN_ID": "30781BTR",
+      "ZIEL_FLUGHAFEN_ID": "31057CLT",
+      "SERVICE_KLASSE": "Scheduled Passenger/Cargo Service",
+      "VARIABLE": "AVAILABLE_CAPACITY_PAYLOAD_POUNDS",
+      "VARIABLE_NAME": "Available Payload",
+      "DATUM": "2018-12-31",
+      "WERT": 17600.0,
+      "EINHEIT": "Pounds"
+    },
+    {
+      "FLUGTYP_ID": "c9dd4f9fc360815254514841363591c7",
+      "FLUGZEUGTRÄGER_ID": "01220_31",
+      "FLUGZEUG_ID": "61661",
+      "URSPRUNGS_FLUGHAFEN_ID": "31703EWR",
+      "ZIEL_FLUGHAFEN_ID": "30792BUF",
+      "SERVICE_KLASSE": "Scheduled Passenger/Cargo Service",
+      "VARIABLE": "DEPARTURES_PERFORMED",
+      "VARIABLE_NAME": "Departures Performed",
+      "DATUM": "2001-02-28",
+      "WERT": 17.0,
+      "EINHEIT": "Count"
+    },
+    {
+      "FLUGTYP_ID": "43c78ee4a763fae537e32de92c688134",
+      "FLUGZEUGTRÄGER_ID": "06860_12",
+      "FLUGZEUG_ID": "41641",
+      "URSPRUNGS_FLUGHAFEN_ID": "32122HGZ",
+      "ZIEL_FLUGHAFEN_ID": "32214HSL",
+      "SERVICE_KLASSE": "Scheduled Passenger/Cargo Service",
+      "VARIABLE": "MAIL_TRANSPORTED",
+      "VARIABLE_NAME": "Non-Stop Segment Mail Transported",
+      "DATUM": "2003-06-30",
+      "WERT": 1121.0,
+      "EINHEIT": "Pounds"
+    }
+  ],
+  "table_name": "US_DEPARTMENT_OF_TRANSPORTATION_TIMESERIES",
+  "table_fullname": "GLOBAL_GOVERNMENT.CYBERSYN.US_DEPARTMENT_OF_TRANSPORTATION_TIMESERIES",
+  "column_names": [
+    "FLUGTYP_ID",
+    "FLUGZEUG_ID",
+    "ZIEL_FLUGHAFEN_ID",
+    "EINHEIT",
+    "WERT",
+    "DATUM",
+    "SERVICE_KLASSE",
+    "VARIABLE_NAME",
+    "URSPRUNGS_FLUGHAFEN_ID",
+    "VARIABLE",
+    "FLUGZEUGTRÄGER_ID"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "FLOAT",
+    "DATE",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Ein eindeutiger Hash für die Kombination der Ausgangs- und Zielairports, Fluggesellschaften und Flugzeugen. Primärschlüssel, der das Flugmuster widerspiegelt.",
+    "ID für den Flugzeugtyp, ein bestimmtes Modell, wie es vom Hersteller bezeichnet wird.",
+    "ID für den Zielairport, der Teil der gemessenen Flugroute ist, Kombination aus dem eindeutigen DOT-Code und dem offiziellen 3-Buchstaben-OAG-Code, der für diesen Airport ausgestellt wurde.",
+    "Einheit der Messung für den gemeldeten Wert.",
+    "Wert, der für die Variable gemeldet wird.",
+    "Datum, das mit dem Wert verknüpft ist.",
+    "Typ des von der Airline auf einem bestimmten Flug angebotenen Dienstes, aufgeteilt in geplante und nicht geplante Dienste und den Dienstetyp.",
+    "Menschlich lesbarer eindeutiger Name für die Variable.",
+    "ID für den Ausgangsairport, der Teil der gemessenen Flugroute ist, Kombination aus dem eindeutigen DOT-Code und dem offiziellen 3-Buchstaben-OAG-Code, der für diesen Airport ausgestellt wurde.",
+    "Eindeutiger Identifikator für eine Variable, verknüpfbar mit der Timeseries-Tabelle.",
+    "ID für den Flugzeugbetreiber."
+  ]
+}
