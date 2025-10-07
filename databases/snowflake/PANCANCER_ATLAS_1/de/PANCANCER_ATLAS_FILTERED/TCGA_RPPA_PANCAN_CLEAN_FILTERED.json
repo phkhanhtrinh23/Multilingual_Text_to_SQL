@@ -1,0 +1,86 @@
+{
+  "table_name": "TCGA_RPPA_PANCAN_CLEAN_FILTERED",
+  "table_fullname": "PANCANCER_ATLAS_1.PANCANCER_ATLAS_FILTERED.TCGA_RPPA_PANCAN_CLEAN_FILTERED",
+  "column_names": [
+    "ProbenTypBuchstabenCode",
+    "ProbenStrichcode",
+    "AliquotStrichcode",
+    "Studie",
+    "ProbenTyp",
+    "TeilnehmerStrichcode",
+    "Wert",
+    "Protein"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "FLOAT",
+    "TEXT"
+  ],
+  "description": [
+    "Buchstabencode des ProbenTyps unter Verwendung der TCGA-Standards, z. B. TPN, EBV. Vollständige Liste verfügbar unter https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/sample-type-codes",
+    "Barcode der Biospecimen-Probe, z. B. TCGA-13-1489-02A",
+    "TCGA-Aliquot-Barcode, z. B. TCGA-12-1089-01A-01D-0517-28",
+    "TCGA-Studienabkürzung, z. B. LAML. Vollständige Liste verfügbar unter https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/tcga-study-abbreviations",
+    "Es gibt 10 ProbenTypen: Blutabgeleiteter Normal, Primärer fester Tumor, Fester Gewebenormal, Rezidivierender fester Tumor, Metastatischer, Zusätzlich - Neues Primär, Primärer blutabgeleiteter Krebs - Peripheres Blut, Buccal-Zellnormal, Zusätzlich metastatischer, Knochenmarknormal",
+    "TCGA-Barcode-Identifikator für den Studienteilnehmer, z. B. TCGA-02-0001",
+    "Expressionsniveau des Proteins, wie durch reverse-phase Protein-Arrays (RPPAs) gemessen. Beispiele: 0.204238725, -0.01826295",
+    "Proteinsymbol und Phosphorylierungsstatus (falls anwendbar), z. B. P53, JNK_pT183Y185"
+  ],
+  "sample_rows": [
+    {
+      "TeilnehmerStrichcode": "TCGA-04-1335",
+      "ProbenStrichcode": "TCGA-04-1335-01A",
+      "AliquotStrichcode": "TCGA-04-1335-01A-21-20",
+      "ProbenTypBuchstabenCode": "TP",
+      "ProbenTyp": "Primary solid Tumor",
+      "Studie": "OV",
+      "Protein": "PDCD1",
+      "Wert": null
+    },
+    {
+      "TeilnehmerStrichcode": "TCGA-04-1335",
+      "ProbenStrichcode": "TCGA-04-1335-01A",
+      "AliquotStrichcode": "TCGA-04-1335-01A-21-20",
+      "ProbenTypBuchstabenCode": "TP",
+      "ProbenTyp": "Primary solid Tumor",
+      "Studie": "OV",
+      "Protein": "BCL2",
+      "Wert": 0.077853
+    },
+    {
+      "TeilnehmerStrichcode": "TCGA-04-1335",
+      "ProbenStrichcode": "TCGA-04-1335-01A",
+      "AliquotStrichcode": "TCGA-04-1335-01A-21-20",
+      "ProbenTypBuchstabenCode": "TP",
+      "ProbenTyp": "Primary solid Tumor",
+      "Studie": "OV",
+      "Protein": "EIF4E",
+      "Wert": -0.91868
+    },
+    {
+      "TeilnehmerStrichcode": "TCGA-04-1335",
+      "ProbenStrichcode": "TCGA-04-1335-01A",
+      "AliquotStrichcode": "TCGA-04-1335-01A-21-20",
+      "ProbenTypBuchstabenCode": "TP",
+      "ProbenTyp": "Primary solid Tumor",
+      "Studie": "OV",
+      "Protein": "SF2",
+      "Wert": 0.018487
+    },
+    {
+      "TeilnehmerStrichcode": "TCGA-04-1335",
+      "ProbenStrichcode": "TCGA-04-1335-01A",
+      "AliquotStrichcode": "TCGA-04-1335-01A-21-20",
+      "ProbenTypBuchstabenCode": "TP",
+      "ProbenTyp": "Primary solid Tumor",
+      "Studie": "OV",
+      "Protein": "MYOSINIIA_pS1943",
+      "Wert": 0.44285
+    }
+  ]
+}
