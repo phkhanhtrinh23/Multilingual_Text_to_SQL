@@ -1,0 +1,70 @@
+{
+  "sample_rows": [
+    {
+      "StateFIPS": "36",
+      "BundeslandAbkuerzung": "NY",
+      "MetrikID": "B11012_011E",
+      "BundeslandBenchmarkWert": 546071.0,
+      "GesamteinwohnerzahldesBundeslandes": 20114745,
+      "GesamteinwohnerzahlderUSA": 333036755
+    },
+    {
+      "StateFIPS": "36",
+      "BundeslandAbkuerzung": "NY",
+      "MetrikID": "B25075_011E",
+      "BundeslandBenchmarkWert": 61829.0,
+      "GesamteinwohnerzahldesBundeslandes": 20114745,
+      "GesamteinwohnerzahlderUSA": 333036755
+    },
+    {
+      "StateFIPS": "36",
+      "BundeslandAbkuerzung": "NY",
+      "MetrikID": "B25075_018E",
+      "BundeslandBenchmarkWert": 157838.0,
+      "GesamteinwohnerzahldesBundeslandes": 20114745,
+      "GesamteinwohnerzahlderUSA": 333036755
+    },
+    {
+      "StateFIPS": "36",
+      "BundeslandAbkuerzung": "NY",
+      "MetrikID": "B08301_020E",
+      "BundeslandBenchmarkWert": 77083.0,
+      "GesamteinwohnerzahldesBundeslandes": 20114745,
+      "GesamteinwohnerzahlderUSA": 333036755
+    },
+    {
+      "StateFIPS": "36",
+      "BundeslandAbkuerzung": "NY",
+      "MetrikID": "B11012_016E",
+      "BundeslandBenchmarkWert": 214963.0,
+      "GesamteinwohnerzahldesBundeslandes": 20114745,
+      "GesamteinwohnerzahlderUSA": 333036755
+    }
+  ],
+  "table_name": "Fact_StateBenchmark_ACS2021",
+  "table_fullname": "CENSUS_GALAXY__AIML_MODEL_DATA_ENRICHMENT_SAMPLE.PUBLIC.Fact_StateBenchmark_ACS2021",
+  "column_names": [
+    "MetrikID",
+    "GesamteinwohnerzahldesBundeslandes",
+    "BundeslandBenchmarkWert",
+    "GesamteinwohnerzahlderUSA",
+    "StateFIPS",
+    "BundeslandAbkuerzung"
+  ],
+  "column_types": [
+    "TEXT",
+    "NUMBER",
+    "FLOAT",
+    "NUMBER",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Ein eindeutiger Identifikator für eine bestimmte Metrik oder Messung innerhalb der American Community Survey oder Volkszählungsdaten.",
+    "Gesamtbevölkerung eines Bundesstaates oder Territoriums unter Verwendung von MetricID = “B01003_001E”, bekannt als “Gesamtbevölkerung” in jeder Census-Hierarchie. Dies soll als GroupBy- oder Aggregate-Spalte verwendet werden.",
+    "Der Int-Wert für die Beziehung zwischen MetricID und StateAbbrev. Dies können Aggregatwerte oder Schätzungen von Personen, Haustieren, Haushalten usw. sein. Verweisen Sie auf die Dim_CensusMetrics-Tabelle für die Bedeutung jedes Wertes. Alle Werte wurden gemäß der Census-Hierarchie in der Dim_CensusGeography-Tabelle korrekt zusammengefasst.",
+    "Gesamtbevölkerung der Vereinigten Staaten unter Verwendung von MetricID = “B01003_001E”, bekannt als “Gesamtbevölkerung” in jeder Census-Hierarchie. Dies soll als GroupBy- oder Aggregate-Spalte verwendet werden.",
+    "Der Federal Information Processing Standard (FIPS)-Code, der den Staat darstellt, in dem sich die Blockgruppe befindet.",
+    "Die zweibuchstabige Staatsabkürzung für jeden US-Bundesstaat und jedes Territorium."
+  ]
+}
