@@ -1,0 +1,102 @@
+{
+  "sample_rows": [
+    {
+      "MetrikID": "B01002_002E",
+      "Typ": "Estimate",
+      "MetrikTableID": "B01002",
+      "MetrikTableBeschreibung": "Median age of the population categorized by sex",
+      "Einheitsmessertyp": "Aggregate",
+      "MetrikKategorie": "Demographics",
+      "MetrikGruppe": "Essential",
+      "Descriptor1": "Male",
+      "Descriptor2": "",
+      "Descriptor3": ""
+    },
+    {
+      "MetrikID": "B19051_001E",
+      "Typ": "Estimate",
+      "MetrikTableID": "B19051",
+      "MetrikTableBeschreibung": "Earnings of households in the past 12 months",
+      "Einheitsmessertyp": "People",
+      "MetrikKategorie": "Income",
+      "MetrikGruppe": "Essential",
+      "Descriptor1": "",
+      "Descriptor2": "",
+      "Descriptor3": ""
+    },
+    {
+      "MetrikID": "B19051_003E",
+      "Typ": "Estimate",
+      "MetrikTableID": "B19051",
+      "MetrikTableBeschreibung": "Earnings of households in the past 12 months",
+      "Einheitsmessertyp": "People",
+      "MetrikKategorie": "Income",
+      "MetrikGruppe": "Essential",
+      "Descriptor1": "No earnings",
+      "Descriptor2": "",
+      "Descriptor3": ""
+    },
+    {
+      "MetrikID": "B11012_002E",
+      "Typ": "Estimate",
+      "MetrikTableID": "B11012",
+      "MetrikTableBeschreibung": "Different types of households based on size and type",
+      "Einheitsmessertyp": "People",
+      "MetrikKategorie": "Housing",
+      "MetrikGruppe": "Essential",
+      "Descriptor1": "Marriedcouple household",
+      "Descriptor2": "",
+      "Descriptor3": ""
+    },
+    {
+      "MetrikID": "B11012_004E",
+      "Typ": "Estimate",
+      "MetrikTableID": "B11012",
+      "MetrikTableBeschreibung": "Different types of households based on size and type",
+      "Einheitsmessertyp": "People",
+      "MetrikKategorie": "Housing",
+      "MetrikGruppe": "Essential",
+      "Descriptor1": "Marriedcouple household",
+      "Descriptor2": "With no children of the householder under 18 years",
+      "Descriptor3": ""
+    }
+  ],
+  "table_name": "Dim_CensusMetrics",
+  "table_fullname": "CENSUS_GALAXY__ZIP_CODE_TO_BLOCK_GROUP_SAMPLE.PUBLIC.Dim_CensusMetrics",
+  "column_names": [
+    "Typ",
+    "Descriptor2",
+    "MetrikKategorie",
+    "MetrikTableBeschreibung",
+    "MetrikTableID",
+    "MetrikID",
+    "Descriptor1",
+    "Einheitsmessertyp",
+    "MetrikGruppe",
+    "Descriptor3"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Der Typ oder die Art der Metrik, die die Art der Daten angibt, die sie darstellt, wie z. B. Bevölkerung, Wohnen, Bildung, Beschäftigung usw.",
+    "Zusätzlicher beschreibender Attribut oder Merkmal, das mit der Metrik verbunden ist und weitere spezifische Details liefert.",
+    "Die Kategorie oder Klassifizierung, der die Metrik angehört, und die verwandte Metriken gruppiert.",
+    "Eine Beschreibung oder Bezeichnung für die Tabelle oder das Dataset im American Community Survey oder im Zensusdaten, in dem die Metrik gespeichert ist.",
+    "Ein eindeutiger Identifikator für die Tabelle oder das Dataset im American Community Survey oder im Zensusdaten, in dem die Metrik gespeichert ist.",
+    "Ein eindeutiger Identifikator für eine spezifische Metrik oder Messung im American Community Survey oder im Zensusdaten.",
+    "Ein beschreibender Attribut oder Merkmal, das mit der Metrik verbunden ist und weitere Informationen oder Kontext liefert.",
+    "Der Typ der Daten, die in der `CensusValue` für jede `MetricID` gespeichert sind. Es ist wichtig, auf dieses Feld zu achten, wenn Werte auf oder unter geografischen Ebenen gruppiert und summiert werden, da einige rohe Zählungen und andere Durchschnittswerte oder Medianwerte sind.",
+    "Die Produktgruppierung, die von No Fret Data entschieden wurde, verbunden mit dem Rollout und der Roadmap von `Census Galaxy`.",
+    "Ein weiterer beschreibender Attribut oder Merkmal, das mit der Metrik verbunden ist und weitere Einblicke oder Details liefert."
+  ]
+}
