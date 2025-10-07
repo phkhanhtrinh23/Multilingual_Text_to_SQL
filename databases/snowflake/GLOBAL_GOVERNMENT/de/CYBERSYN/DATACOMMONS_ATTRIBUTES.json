@@ -1,0 +1,70 @@
+{
+  "sample_rows": [
+    {
+      "Variable": "Count_BirthEvent_europa.eu",
+      "VariablenName": "Count of Birth Event, europa.eu",
+      "VariablenGruppe": "Count of Birth Event",
+      "Kategorie": "BirthEvent",
+      "Einheit": "Count",
+      "Quellbereich": "europa.eu"
+    },
+    {
+      "Variable": "Percent_Person_BingeDrinking",
+      "VariablenName": "Percentage of Population Who Binge Drink",
+      "VariablenGruppe": "Percentage of Population Who Binge Drink",
+      "Kategorie": "Person_HealthBehavior-BingeDrinking",
+      "Einheit": "Percent",
+      "Quellbereich": "cdc.gov"
+    },
+    {
+      "Variable": "Temperature",
+      "VariablenName": "Temperature in a Location",
+      "VariablenGruppe": "Temperature in a Location",
+      "Kategorie": "ObservationalWeather",
+      "Einheit": "Celsius",
+      "Quellbereich": "nasa.gov"
+    },
+    {
+      "Variable": "RetailDrugDistribution_DrugDistribution_Ecgonine",
+      "VariablenName": "Retail Drug Distribution of Drug Distribution: Drug/dea/9180 L",
+      "VariablenGruppe": "Retail Drug Distribution of Drug Distribution: Drug/dea/9180 L",
+      "Kategorie": "DrugDistribution_DrugPrescribed",
+      "Einheit": "Grams",
+      "Quellbereich": "dea.gov"
+    },
+    {
+      "Variable": "Count_Person_Female_abs.gov.au",
+      "VariablenName": "Female Population, abs.gov.au",
+      "VariablenGruppe": "Female Population",
+      "Kategorie": "Person_Gender-Female",
+      "Einheit": "Count",
+      "Quellbereich": "abs.gov.au"
+    }
+  ],
+  "table_name": "DATACOMMONS_ATTRIBUTES",
+  "table_fullname": "GLOBAL_GOVERNMENT.CYBERSYN.DATACOMMONS_ATTRIBUTES",
+  "column_names": [
+    "Einheit",
+    "Quellbereich",
+    "VariablenGruppe",
+    "Kategorie",
+    "Variable",
+    "VariablenName"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Einheit der Messung für den Wert (z. B. USD, Jahre, Acre usw.)",
+    "Domain der URL, unter der die Rohdaten gefunden werden können",
+    "Die Kernvariable, die gemessen wird, ohne Informationen über die Messmethode. Variablen, die zur gleichen Gruppe gehören, messen das gleiche, aber unterscheiden sich in der Messmethode oder der Berichterstellungsagentur",
+    "Übergreifende Kategorie der Variable oder Messart (z. B. Wetter, Demografie usw.)",
+    "Eindeutiger Identifikator für eine statistische Variable, verknüpfbar mit der `DATACOMMONS_TIMESERIES`-Tabelle",
+    "Menschlich lesbarer Name für die Variable"
+  ]
+}
