@@ -1,0 +1,78 @@
+{
+  "table_name": "DNA_METHYLATION_CHR10_HG19_GDC_2017_01",
+  "table_fullname": "TCGA.TCGA_VERSIONED.DNA_METHYLATION_CHR10_HG19_GDC_2017_01",
+  "column_names": [
+    "kurzer_projektname",
+    "beta_wert",
+    "plattform",
+    "aliquot_schienen_code",
+    "proben_schienen_code",
+    "sonde_id",
+    "fall_schienen_code"
+  ],
+  "column_types": [
+    "TEXT",
+    "FLOAT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Abkürzung des Projekt-Namens; der Programm-Name mit einer Projekt-Name-Abkürzung angehängt; z. B. TCGA-OV usw.",
+    "Normalisierter DNA-Methylierungs-Beta-Wert (zwischen 0 und 1, wobei 0 eine vollständig un-methylierte und 1 eine vollständig methylierte DNA angibt)",
+    "Plattform-Name, der zur Generierung dieser Daten verwendet wurde -- entweder `HumanMethylation450` oder `HumanMethylation27`",
+    "Originaler TCGA-Aliquot-Barcode, z. B. `TCGA-12-1089-01A-01D-0517-01`",
+    "Originaler TCGA-Sample-Barcode, z. B. `TCGA-12-1089-01A`",
+    "Eindeutiger Sonden-Identifikator (z. B. `cg04676771`) aus der Illumina Human Methylation Array -- bitte beachten Sie die Annotation-Tabelle (`isb-cgc:platform_reference.methylation_annotation`) für weitere Details zu einer bestimmten Sonde",
+    "Originaler TCGA-Case-Barcode, z. B. `TCGA-12-1089` -- beachten Sie, dass jeder Fall normalerweise eine primäre-Tumor-Probe und eine passende-Normal-(Blut- oder angrenzende-Gewebe-)Probe hat; bitte beachten Sie die TCGA Biospecimen-Tabelle für weitere Details"
+  ],
+  "sample_rows": [
+    {
+      "kurzer_projektname": "TCGA-OV",
+      "fall_schienen_code": "TCGA-01-0630",
+      "proben_schienen_code": "TCGA-01-0630-11A",
+      "aliquot_schienen_code": "TCGA-01-0630-11A-01D-0383-05",
+      "sonde_id": "cg22139878",
+      "beta_wert": 0.02,
+      "plattform": "HumanMethylation27"
+    },
+    {
+      "kurzer_projektname": "TCGA-OV",
+      "fall_schienen_code": "TCGA-01-0630",
+      "proben_schienen_code": "TCGA-01-0630-11A",
+      "aliquot_schienen_code": "TCGA-01-0630-11A-01D-0383-05",
+      "sonde_id": "cg00997424",
+      "beta_wert": 0.04,
+      "plattform": "HumanMethylation27"
+    },
+    {
+      "kurzer_projektname": "TCGA-OV",
+      "fall_schienen_code": "TCGA-01-0630",
+      "proben_schienen_code": "TCGA-01-0630-11A",
+      "aliquot_schienen_code": "TCGA-01-0630-11A-01D-0383-05",
+      "sonde_id": "cg13806670",
+      "beta_wert": 0.01,
+      "plattform": "HumanMethylation27"
+    },
+    {
+      "kurzer_projektname": "TCGA-OV",
+      "fall_schienen_code": "TCGA-01-0630",
+      "proben_schienen_code": "TCGA-01-0630-11A",
+      "aliquot_schienen_code": "TCGA-01-0630-11A-01D-0383-05",
+      "sonde_id": "cg17165760",
+      "beta_wert": 0.02,
+      "plattform": "HumanMethylation27"
+    },
+    {
+      "kurzer_projektname": "TCGA-OV",
+      "fall_schienen_code": "TCGA-01-0633",
+      "proben_schienen_code": "TCGA-01-0633-11A",
+      "aliquot_schienen_code": "TCGA-01-0633-11A-01D-0383-05",
+      "sonde_id": "cg25692323",
+      "beta_wert": 0.52,
+      "plattform": "HumanMethylation27"
+    }
+  ]
+}
