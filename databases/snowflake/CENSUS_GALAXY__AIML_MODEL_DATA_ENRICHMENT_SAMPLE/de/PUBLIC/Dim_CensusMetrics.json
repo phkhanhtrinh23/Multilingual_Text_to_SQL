@@ -1,0 +1,102 @@
+{
+  "sample_rows": [
+    {
+      "MetrikID": "B01002_002E",
+      "Typ": "Estimate",
+      "MetrikTabelleID": "B01002",
+      "MetrikTabelleBeschreibung": "Median age of the population categorized by sex",
+      "EinheitsmessTyp": "Aggregate",
+      "MetrikKategorie": "Demographics",
+      "MetrikGruppe": "Essential",
+      "Deskriptor1": "Male",
+      "Deskriptor2": "",
+      "Deskriptor3": ""
+    },
+    {
+      "MetrikID": "B19051_001E",
+      "Typ": "Estimate",
+      "MetrikTabelleID": "B19051",
+      "MetrikTabelleBeschreibung": "Earnings of households in the past 12 months",
+      "EinheitsmessTyp": "People",
+      "MetrikKategorie": "Income",
+      "MetrikGruppe": "Essential",
+      "Deskriptor1": "",
+      "Deskriptor2": "",
+      "Deskriptor3": ""
+    },
+    {
+      "MetrikID": "B19051_002E",
+      "Typ": "Estimate",
+      "MetrikTabelleID": "B19051",
+      "MetrikTabelleBeschreibung": "Earnings of households in the past 12 months",
+      "EinheitsmessTyp": "People",
+      "MetrikKategorie": "Income",
+      "MetrikGruppe": "Essential",
+      "Deskriptor1": "With earnings",
+      "Deskriptor2": "",
+      "Deskriptor3": ""
+    },
+    {
+      "MetrikID": "B19051_003E",
+      "Typ": "Estimate",
+      "MetrikTabelleID": "B19051",
+      "MetrikTabelleBeschreibung": "Earnings of households in the past 12 months",
+      "EinheitsmessTyp": "People",
+      "MetrikKategorie": "Income",
+      "MetrikGruppe": "Essential",
+      "Deskriptor1": "No earnings",
+      "Deskriptor2": "",
+      "Deskriptor3": ""
+    },
+    {
+      "MetrikID": "B11012_001E",
+      "Typ": "Estimate",
+      "MetrikTabelleID": "B11012",
+      "MetrikTabelleBeschreibung": "Different types of households based on size and type",
+      "EinheitsmessTyp": "People",
+      "MetrikKategorie": "Housing",
+      "MetrikGruppe": "Essential",
+      "Deskriptor1": "",
+      "Deskriptor2": "",
+      "Deskriptor3": ""
+    }
+  ],
+  "table_name": "Dim_CensusMetrics",
+  "table_fullname": "CENSUS_GALAXY__AIML_MODEL_DATA_ENRICHMENT_SAMPLE.PUBLIC.Dim_CensusMetrics",
+  "column_names": [
+    "MetrikKategorie",
+    "Typ",
+    "Deskriptor2",
+    "MetrikTabelleBeschreibung",
+    "MetrikTabelleID",
+    "MetrikID",
+    "Deskriptor1",
+    "Deskriptor3",
+    "MetrikGruppe",
+    "EinheitsmessTyp"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Die Kategorie oder Klassifizierung, der die Metrik angehört, gruppiert verwandte Metriken zusammen.",
+    "Der Typ oder die Art der Metrik, die die Art der Daten angibt, die sie darstellt, wie z. B. Bevölkerung, Wohnen, Bildung, Beschäftigung usw.",
+    "Zusätzlicher beschreibender Attribut oder Merkmal, das mit der Metrik verbunden ist und spezifischere Details liefert.",
+    "Eine Beschreibung oder Bezeichnung für die Tabelle oder das Dataset im American Community Survey oder im Zensusdaten, in dem die Metrik gespeichert ist.",
+    "Ein eindeutiger Identifikator für die Tabelle oder das Dataset im American Community Survey oder im Zensusdaten, in dem die Metrik gespeichert ist.",
+    "Ein eindeutiger Identifikator für eine bestimmte Metrik oder Messung im American Community Survey oder im Zensusdaten.",
+    "Ein beschreibender Attribut oder Merkmal, das mit der Metrik verbunden ist und zusätzliche Informationen oder Kontext liefert.",
+    "Ein weiterer beschreibender Attribut oder Merkmal, das mit der Metrik verbunden ist und weitere Einblicke oder Details liefert.",
+    "Die Produktgruppierung, die von No Fret Data entschieden wurde, verbunden mit dem Rollout und der Roadmap von Census Galaxy.",
+    "Der Typ der Daten, die im `CensusValue` für jeden `MetricID` gespeichert sind. Es ist wichtig, auf dieses Feld zu achten, wenn Werte auf oder unter geografischen Ebenen gruppiert und summiert werden, da einige rohe Zählungen und andere Durchschnittswerte oder Medianwerte sind."
+  ]
+}
