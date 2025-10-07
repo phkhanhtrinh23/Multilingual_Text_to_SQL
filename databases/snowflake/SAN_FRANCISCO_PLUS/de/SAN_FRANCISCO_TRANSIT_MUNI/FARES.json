@@ -1,0 +1,42 @@
+{
+  "table_name": "FARES",
+  "table_fullname": "SAN_FRANCISCO_PLUS.SAN_FRANCISCO_TRANSIT_MUNI.FARES",
+  "column_names": [
+    "Transferdauer",
+    "Fahrer_ID",
+    "Übertragungen_erlaubt",
+    "Zahlungsmethode",
+    "Fahrer_Beschreibung",
+    "Fahrpreis_ID",
+    "Preis"
+  ],
+  "column_types": [
+    "NUMBER",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "NUMBER"
+  ],
+  "description": [
+    "Legt die Länge der Zeit in Sekunden fest, bevor ein Transfer abläuft. Wenn mit einem transfers_permitted-Wert von 0 verwendet, zeigt das transfer_duration-Feld an, wie lange ein Ticket für einen Tarif gültig ist, bei dem keine Transfers erlaubt sind.",
+    "Eindeutiger Identifikator einer Fahrerkategorie. Fahrerkategorien werden verwendet, um unterschiedliche Preise für verschiedene Gruppen von Personen zuzuweisen",
+    "Legt die Anzahl der erlaubten Transfers für diesen Tarif fest.  -  0: Es sind keine Transfers für diesen Tarif erlaubt. -  1: Ein Transfer ist für diesen Tarif erlaubt. -  2: Zwei Transfers sind für diesen Tarif erlaubt. -  NULL: Es sind unbegrenzte Transfers für diesen Tarif erlaubt.",
+    "Gibt an, wann der Tarif bezahlt werden muss. Die folgenden Werte sind für dieses Feld gültig: -  during: Gibt an, dass der Tarif beim Einsteigen der Fahrgäste bezahlt wird -  before: Gibt an, dass der Tarif vor dem Einsteigen der Fahrgäste bezahlt werden muss",
+    "Textbeschreibung der Fahrerkategorie",
+    "Eindeutiger Identifikator einer Tarifklasse.",
+    "Enthält den Tarifpreis in USD"
+  ],
+  "sample_rows": [
+    {
+      "Fahrpreis_ID": "5398",
+      "Fahrer_ID": "2",
+      "Fahrer_Beschreibung": "Senior",
+      "Preis": "3.000000000",
+      "Zahlungsmethode": "0",
+      "Übertragungen_erlaubt": null,
+      "Transferdauer": 5400
+    }
+  ]
+}

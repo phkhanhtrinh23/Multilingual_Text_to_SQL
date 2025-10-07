@@ -1,0 +1,54 @@
+{
+  "table_name": "ROUTES",
+  "table_fullname": "SAN_FRANCISCO_PLUS.SAN_FRANCISCO_TRANSIT_MUNI.ROUTES",
+  "column_names": [
+    "Routentyp",
+    "langer_Routenname",
+    "kurzer_Routenname",
+    "route_id"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "\"Beschreibt den Typ des auf einer Route verwendeten Transports. Die folgenden sind gültige Werte für dieses Feld:  -  light_rail: Straßenbahn oder Leichtbahn. Wird für jedes Leichtbahn- oder straßenniveau-System innerhalb eines Ballungsraums verwendet. -  subway: U-Bahn oder Metro. Wird für jedes unterirdische Schienensystem innerhalb eines Ballungsraums verwendet. -  rail: Wird für den Fern- oder Langstreckenverkehr verwendet. -  bus: Wird für Kurz- und Langstreckenbuslinien verwendet. -  ferry: Wird für Kurz- und Langstrecken-Schiffsdienste verwendet. -  cable_car: Wird für straßenniveau-Kabelbahnen verwendet, bei denen das Kabel unter dem Wagen verläuft. -  tram: Gondel oder Hängeseilbahn. Wird in der Regel für Luftseilbahnen verwendet, bei denen der Wagen von dem Kabel suspendiert wird. -  funicular: Wird für jedes Schienensystem verwendet, das auf steilen Rampen mit einem Seilzugsystem bewegt wird.\"",
+    "Enthält den vollständigen Namen einer Route. Dieser Name ist im Allgemeinen beschreibender als der Name von route_short_name und enthält oft das Ziel oder die Haltestelle der Route.",
+    "Enthält den Kurznamen einer Route. Dies ist ein kurzer, abstrakter Identifikator wie 32, 100X oder Grün, den Fahrgäste verwenden, um eine Route zu identifizieren, aber der keine Angabe darüber macht, welche Orte die Route bedient.",
+    "Eindeutiger Identifikator für jede Route. Eine einzelne Route wird mehrere Fahrten haben"
+  ],
+  "sample_rows": [
+    {
+      "route_id": "83X",
+      "kurzer_Routenname": "83X",
+      "langer_Routenname": "MID-MARKET EXPRESS",
+      "Routentyp": "3"
+    },
+    {
+      "route_id": "E",
+      "kurzer_Routenname": "E",
+      "langer_Routenname": "EMBARCADERO",
+      "Routentyp": "0"
+    },
+    {
+      "route_id": "3",
+      "kurzer_Routenname": "3",
+      "langer_Routenname": "JACKSON",
+      "Routentyp": "3"
+    },
+    {
+      "route_id": "M",
+      "kurzer_Routenname": "M",
+      "langer_Routenname": "OCEAN VIEW",
+      "Routentyp": "0"
+    },
+    {
+      "route_id": "8AX",
+      "kurzer_Routenname": "8AX",
+      "langer_Routenname": "BAYSHORE A EXPRESS",
+      "Routentyp": "3"
+    }
+  ]
+}

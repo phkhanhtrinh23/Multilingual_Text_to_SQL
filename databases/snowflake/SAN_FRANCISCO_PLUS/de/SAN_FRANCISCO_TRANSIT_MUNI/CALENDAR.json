@@ -1,0 +1,97 @@
+{
+  "table_name": "CALENDAR",
+  "table_fullname": "SAN_FRANCISCO_PLUS.SAN_FRANCISCO_TRANSIT_MUNI.CALENDAR",
+  "column_names": [
+    "Freitag",
+    "exception_type",
+    "Donnerstag",
+    "Mittwoch",
+    "Montag",
+    "service_desc",
+    "Sonntag",
+    "service_id",
+    "Samstag",
+    "Dienstag",
+    "exceptions"
+  ],
+  "column_types": [
+    "BOOLEAN",
+    "BOOLEAN",
+    "BOOLEAN",
+    "BOOLEAN",
+    "BOOLEAN",
+    "TEXT",
+    "BOOLEAN",
+    "TEXT",
+    "BOOLEAN",
+    "BOOLEAN",
+    "DATE"
+  ],
+  "description": [
+    "Gibt an, ob der Dienst für alle Sonntage gültig ist, an denen die Agentur normalen Fahrplänen und Fahrpreiskategorien verwendet",
+    "Gibt an, ob der Dienst an dem in dem Feld exceptions angegebenen Datum verfügbar ist. Die folgenden Werte sind für dieses Feld gültig:  - TRUE: Der Dienst wird an dem im Feld exceptions aufgeführten Datum betrieben -  FALSE: Der Dienst wird an dem im Feld exceptions aufgeführten Datum nicht betrieben",
+    "Gibt an, ob der Dienst für alle Sonntage gültig ist, an denen die Agentur normalen Fahrplänen und Fahrpreiskategorien verwendet",
+    "Gibt an, ob der Dienst für alle Sonntage gültig ist, an denen die Agentur normalen Fahrplänen und Fahrpreiskategorien verwendet",
+    "Gibt an, ob der Dienst für alle Sonntage gültig ist, an denen die Agentur normalen Fahrplänen und Fahrpreiskategorien verwendet",
+    "Textbeschreibung der Dienstkategorie",
+    "Gibt an, ob der Dienst für alle Sonntage gültig ist, an denen die Agentur normalen Fahrplänen und Fahrpreiskategorien verwendet",
+    "Eindeutiger Identifikator für eine Reihe von Daten, an denen der Dienst für eine oder mehrere Routen verfügbar ist",
+    "Gibt an, ob der Dienst für alle Sonntage gültig ist, an denen die Agentur normalen Fahrplänen und Fahrpreiskategorien verwendet",
+    "Gibt an, ob der Dienst für alle Sonntage gültig ist, an denen die Agentur normalen Fahrplänen und Fahrpreiskategorien verwendet",
+    "Gibt ein bestimmtes Datum an, an dem dieser Dienst nicht verfügbar ist. Dies ist normalerweise während Feiertagen, besonderen Ereignissen usw. der Fall. Wenn zutreffend, wird der betriebene Dienst für den Tag in replacement_service angegeben. Das Format für das Datum ist YYYY-MM-DD"
+  ],
+  "sample_rows": [
+    {
+      "service_id": "73692",
+      "service_desc": "Weekday",
+      "Sonntag": true,
+      "Montag": true,
+      "Dienstag": true,
+      "Mittwoch": true,
+      "Donnerstag": true,
+      "Freitag": false,
+      "Samstag": false,
+      "exceptions": "2019-12-25",
+      "exception_type": false
+    },
+    {
+      "service_id": "73692",
+      "service_desc": "Weekday",
+      "Sonntag": true,
+      "Montag": true,
+      "Dienstag": true,
+      "Mittwoch": true,
+      "Donnerstag": true,
+      "Freitag": false,
+      "Samstag": false,
+      "exceptions": "2020-01-20",
+      "exception_type": false
+    },
+    {
+      "service_id": "73692",
+      "service_desc": "Weekday",
+      "Sonntag": true,
+      "Montag": true,
+      "Dienstag": true,
+      "Mittwoch": true,
+      "Donnerstag": true,
+      "Freitag": false,
+      "Samstag": false,
+      "exceptions": "2020-02-17",
+      "exception_type": false
+    },
+    {
+      "service_id": "73693",
+      "service_desc": "Saturday",
+      "Sonntag": false,
+      "Montag": false,
+      "Dienstag": false,
+      "Mittwoch": false,
+      "Donnerstag": false,
+      "Freitag": true,
+      "Samstag": false,
+      "exceptions": "2020-01-20",
+      "exception_type": true
+    }
+  ]
+}
