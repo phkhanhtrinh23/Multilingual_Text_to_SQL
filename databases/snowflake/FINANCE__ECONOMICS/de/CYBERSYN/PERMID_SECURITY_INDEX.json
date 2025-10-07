@@ -1,0 +1,102 @@
+{
+  "sample_rows": [
+    {
+      "PERMID_SICHERHEITS_ID": "8589975674",
+      "PRIMÄRER_TICKER": "EVN",
+      "WERTPAPIERNAME": "EATON VANCE MUNICIPAL INCOME CLOSED FUND",
+      "ANLAGEKLASSE": "Other",
+      "PRIMÄRER_BÖRSENCODE": "NYQ",
+      "PRIMÄRE_BÖRSENNAME": "NYSE CONSOLIDATED",
+      "WERTPAPIERSTATUS": "Active",
+      "GLOBALE_TICKER": "[\n  \"EVN\",\n  \"XEVNX\"\n]",
+      "BÖRSENCODE": "[\n  \"NAS\",\n  \"NYQ\"\n]",
+      "PERMID_QUOTE_ID": "[\n  \"55835369644\",\n  \"55839104515\"\n]"
+    },
+    {
+      "PERMID_SICHERHEITS_ID": "8589959375",
+      "PRIMÄRER_TICKER": "LENb",
+      "WERTPAPIERNAME": "LENNAR ORD SHS CLASS B",
+      "ANLAGEKLASSE": "Ordinary Shares",
+      "PRIMÄRER_BÖRSENCODE": "ISS",
+      "PRIMÄRE_BÖRSENNAME": "ISE when trading NYSE and AMEX Stocks",
+      "WERTPAPIERSTATUS": "Active",
+      "GLOBALE_TICKER": "[\n  \"LENB*\",\n  \"LENb\",\n  \"LNN0\"\n]",
+      "BÖRSENCODE": "[\n  \"FRA\",\n  \"ISS\",\n  \"MEX\"\n]",
+      "PERMID_QUOTE_ID": "[\n  \"21627275840\",\n  \"21736829361\",\n  \"55836192793\"\n]"
+    },
+    {
+      "PERMID_SICHERHEITS_ID": "18040205046",
+      "PRIMÄRER_TICKER": "XFSLX",
+      "WERTPAPIERNAME": "FIRST EAGLE SENIOR LOAN FUND",
+      "ANLAGEKLASSE": "Other",
+      "PRIMÄRER_BÖRSENCODE": "NAS",
+      "PRIMÄRE_BÖRSENNAME": "NASDAQ CAPITAL MARKET",
+      "WERTPAPIERSTATUS": "Inactive",
+      "GLOBALE_TICKER": "[\n  \"TSLF\",\n  \"XFSLX\"\n]",
+      "BÖRSENCODE": "[\n  \"NAS\",\n  \"WCB\"\n]",
+      "PERMID_QUOTE_ID": "[\n  \"21529763349\",\n  \"21529826402\"\n]"
+    },
+    {
+      "PERMID_SICHERHEITS_ID": "8590935543",
+      "PRIMÄRER_TICKER": "TIF*",
+      "WERTPAPIERNAME": "TIFFANY ORD SHS",
+      "ANLAGEKLASSE": "Ordinary Shares",
+      "PRIMÄRER_BÖRSENCODE": "MXQ",
+      "PRIMÄRE_BÖRSENNAME": null,
+      "WERTPAPIERSTATUS": "Inactive",
+      "GLOBALE_TICKER": "[\n  \"0LFD\",\n  \"0LFDl\",\n  \"TIF*\"\n]",
+      "BÖRSENCODE": "[\n  \"BCO\",\n  \"LSE\",\n  \"MXQ\"\n]",
+      "PERMID_QUOTE_ID": "[\n  \"21633621402\",\n  \"21634297966\",\n  \"21667705791\"\n]"
+    },
+    {
+      "PERMID_SICHERHEITS_ID": "8590923465",
+      "PRIMÄRER_TICKER": "RWSl",
+      "WERTPAPIERNAME": "RWS HOLDINGS ORD SHS",
+      "ANLAGEKLASSE": "Ordinary Shares",
+      "PRIMÄRER_BÖRSENCODE": "BCO",
+      "PRIMÄRE_BÖRSENNAME": "BATS CHI-X Trade Reporting",
+      "WERTPAPIERSTATUS": "Active",
+      "GLOBALE_TICKER": "[\n  \"RWJ\",\n  \"RWSl\"\n]",
+      "BÖRSENCODE": "[\n  \"BCO\",\n  \"TDG\"\n]",
+      "PERMID_QUOTE_ID": "[\n  \"21475037440\",\n  \"21538768765\"\n]"
+    }
+  ],
+  "table_name": "PERMID_SECURITY_INDEX",
+  "table_fullname": "FINANCE__ECONOMICS.CYBERSYN.PERMID_SECURITY_INDEX",
+  "column_names": [
+    "ANLAGEKLASSE",
+    "BÖRSENCODE",
+    "PRIMÄRER_TICKER",
+    "WERTPAPIERNAME",
+    "PRIMÄRER_BÖRSENCODE",
+    "WERTPAPIERSTATUS",
+    "GLOBALE_TICKER",
+    "PERMID_SICHERHEITS_ID",
+    "PRIMÄRE_BÖRSENNAME",
+    "PERMID_QUOTE_ID"
+  ],
+  "column_types": [
+    "TEXT",
+    "ARRAY",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "ARRAY",
+    "TEXT",
+    "TEXT",
+    "ARRAY"
+  ],
+  "description": [
+    "Breite Klasse des Vermögenswerts, wie z. B. 'Ordinary Shares', 'Depositary Receipts' usw.",
+    "Ein Array von Codes, die die Börsen darstellen, an denen die Sicherheit gehandelt wird. Ein leerer Array bedeutet, dass Börseninformationen nicht verfügbar sind.",
+    "Der Ticker für den primären Handelsplatz einer Sicherheit. Wenn eine Sicherheit an mehreren Börsen gehandelt wird oder zahlreiche Ticker hat, wird versucht, den Ticker aus dem Heimatmarkt auszuwählen.",
+    "Name der Sicherheit.",
+    "Der Börsencode für den primären Handelsplatz einer Sicherheit.",
+    "Status der Sicherheit, d. h. 'Active' oder 'Inactive'. Eine aktive Sicherheit ist eine Sicherheit, die aktive Kurse hat, und eine inaktive Sicherheit hat keine aktiven Kurse. Dieser Status ändert sich über die Zeit.",
+    "Ein Array von Tickersymbolen, unter denen die Sicherheit global an allen Börsen gehandelt werden kann.",
+    "PermID für die Sicherheit.",
+    "Der Börsenname für den primären Handelsplatz einer Sicherheit.",
+    "Ein Array von PermIDs für die Kurse für jede Börse, an der die Sicherheit gehandelt wird. Ein leerer Array bedeutet, dass Kursinformationen nicht verfügbar sind."
+  ]
+}
