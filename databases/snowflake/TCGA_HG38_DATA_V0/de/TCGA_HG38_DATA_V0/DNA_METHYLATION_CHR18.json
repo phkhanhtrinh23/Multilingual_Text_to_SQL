@@ -1,0 +1,102 @@
+{
+  "table_name": "DNA_METHYLATION_CHR18",
+  "table_fullname": "TCGA_HG38_DATA_V0.TCGA_HG38_DATA_V0.DNA_METHYLATION_CHR18",
+  "column_names": [
+    "Plattform",
+    "beta_wert",
+    "datei_gdc_id",
+    "aliquot_gdc_id",
+    "aliquot_barcode",
+    "probe_barcode",
+    "fall_gdc_id",
+    "fall_barcode",
+    "probe_gdc_id",
+    "sonde_id"
+  ],
+  "column_types": [
+    "TEXT",
+    "FLOAT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Plattformname, der zur Generierung dieser Daten verwendet wurde -- entweder HumanMethylation450 oder HumanMethylation27",
+    "Normalisierter DNA-Methylierungs-Beta-Wert (zwischen 0 und 1, wobei 0 eine vollständig un-methylierte und 1 eine vollständig methylierte DNA anzeigt)",
+    "",
+    "",
+    "Originaler TCGA-Aliquot-Barcode, z. B. TCGA-12-1089-01A-01D-0517-01",
+    "Originaler TCGA-Proben-Barcode, z. B. TCGA-12-1089-01A",
+    "",
+    "Originaler TCGA-Fall-Barcode, z. B. TCGA-12-1089  --  beachten Sie, dass jeder Fall in der Regel eine primäre Tumorprobe und eine passende Normprobe (Blut oder benachbartes Gewebe) hat; für weitere Details siehe die TCGA-Biospecimen-Tabelle",
+    "",
+    "Eindeutiger Sonden-Identifikator (z. B. cg04676771) aus dem Illumina-Human-Methylation-Array -- für weitere Details zu einer bestimmten Sonde siehe die Annotations-Tabelle (isb-cgc:platform_reference.methylation_annotation)"
+  ],
+  "sample_rows": [
+    {
+      "fall_barcode": "TCGA-12-1601",
+      "probe_barcode": "TCGA-12-1601-01A",
+      "aliquot_barcode": "TCGA-12-1601-01A-01D-0595-05",
+      "sonde_id": "cg20837735",
+      "beta_wert": 0.910289665503915,
+      "Plattform": null,
+      "datei_gdc_id": "5cd6f2f6-7278-4757-be8e-a8ae3a7a81d3",
+      "fall_gdc_id": "cc1459be-de8f-482e-9efe-65937db9dc45",
+      "probe_gdc_id": "b02fd704-03a6-44c4-b224-f5f457e733f3",
+      "aliquot_gdc_id": "aa761ca4-e8f0-4a43-8262-bd84eedb459a"
+    },
+    {
+      "fall_barcode": "TCGA-12-1601",
+      "probe_barcode": "TCGA-12-1601-01A",
+      "aliquot_barcode": "TCGA-12-1601-01A-01D-0595-05",
+      "sonde_id": "cg01106788",
+      "beta_wert": 0.958804953061487,
+      "Plattform": null,
+      "datei_gdc_id": "5cd6f2f6-7278-4757-be8e-a8ae3a7a81d3",
+      "fall_gdc_id": "cc1459be-de8f-482e-9efe-65937db9dc45",
+      "probe_gdc_id": "b02fd704-03a6-44c4-b224-f5f457e733f3",
+      "aliquot_gdc_id": "aa761ca4-e8f0-4a43-8262-bd84eedb459a"
+    },
+    {
+      "fall_barcode": "TCGA-12-1601",
+      "probe_barcode": "TCGA-12-1601-01A",
+      "aliquot_barcode": "TCGA-12-1601-01A-01D-0595-05",
+      "sonde_id": "cg12012699",
+      "beta_wert": 0.00881784375205681,
+      "Plattform": null,
+      "datei_gdc_id": "5cd6f2f6-7278-4757-be8e-a8ae3a7a81d3",
+      "fall_gdc_id": "cc1459be-de8f-482e-9efe-65937db9dc45",
+      "probe_gdc_id": "b02fd704-03a6-44c4-b224-f5f457e733f3",
+      "aliquot_gdc_id": "aa761ca4-e8f0-4a43-8262-bd84eedb459a"
+    },
+    {
+      "fall_barcode": "TCGA-12-1601",
+      "probe_barcode": "TCGA-12-1601-01A",
+      "aliquot_barcode": "TCGA-12-1601-01A-01D-0595-05",
+      "sonde_id": "cg17709676",
+      "beta_wert": 0.0077880029836213,
+      "Plattform": null,
+      "datei_gdc_id": "5cd6f2f6-7278-4757-be8e-a8ae3a7a81d3",
+      "fall_gdc_id": "cc1459be-de8f-482e-9efe-65937db9dc45",
+      "probe_gdc_id": "b02fd704-03a6-44c4-b224-f5f457e733f3",
+      "aliquot_gdc_id": "aa761ca4-e8f0-4a43-8262-bd84eedb459a"
+    },
+    {
+      "fall_barcode": "TCGA-A6-2670",
+      "probe_barcode": "TCGA-A6-2670-01A",
+      "aliquot_barcode": "TCGA-A6-2670-01A-02D-0820-05",
+      "sonde_id": "cg07457944",
+      "beta_wert": 0.016901800876324,
+      "Plattform": null,
+      "datei_gdc_id": "cdd5e1a9-1ce8-4361-9fca-61ccb7098b25",
+      "fall_gdc_id": "65bb7520-f055-43a8-b735-1152fa2c9e04",
+      "probe_gdc_id": "724072ae-40b5-45cc-b339-e24f1cb6fbcf",
+      "aliquot_gdc_id": "b8074b70-ad2b-49e5-b70a-c6e8a6681830"
+    }
+  ]
+}
