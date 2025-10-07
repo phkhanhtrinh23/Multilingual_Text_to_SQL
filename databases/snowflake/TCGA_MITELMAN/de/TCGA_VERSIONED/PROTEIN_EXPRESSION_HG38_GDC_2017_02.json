@@ -1,0 +1,110 @@
+{
+  "table_name": "PROTEIN_EXPRESSION_HG38_GDC_2017_02",
+  "table_fullname": "TCGA_MITELMAN.TCGA_VERSIONED.PROTEIN_EXPRESSION_HG38_GDC_2017_02",
+  "column_names": [
+    "Projekt_Kurzname",
+    "Proteinname",
+    "Sample_Strichcode",
+    "Validierungsstatus",
+    "Protein_Basname",
+    "Fall_Strichcode",
+    "Phospho",
+    "Antikörperquelle",
+    "Protein_Expression",
+    "Genname",
+    "Aliquot_Strichcode"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "FLOAT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Abkürzung des Projekt-Namens; der Programm-Name mit einer Projekt-Name-Abkürzung angehängt; z. B. TCGA-OV usw.",
+    "Proteinsymbol mit Phosphorylierungsstatus, z. B. ACC_pS79",
+    "TCGA-Proben-Strichcode, z. B. TCGA-12-1089-01A. Eine Probe kann mehrere Sätze von CN-Segmentierungen entsprechend mehreren Aliquots haben; verwenden Sie `GROUP BY` entsprechend in Abfragen",
+    "Validierungsstatus des Antikörpers durch Korrelation von RPPA-Daten mit Western-Blot, V E C (https://bioinformatics.mdanderson.org/public-software/mclp/)",
+    "Proteinnamen, z. B. AR, MAPK",
+    "Originaler TCGA-Fall-Strichcode, z. B. TCGA-DX-A8BN",
+    "Wenn der Antikörper ein phosphoryliertes Protein anzielt, enthält dieses Feld diese Information, z. B. pS473 -- ansonsten ist dieses Feld null",
+    "Tier, von dem der Antikörper stammt, M (Maus), R (Kaninchen), G (Ziege)",
+    "Expressionsniveau des Proteins, gemessen durch reverse-phase-Protein-Arrays. https://bioinformatics.mdanderson.org/public-software/tcpa/",
+    "Gen-Name, z. B. TTN, DDR1 usw.",
+    "TCGA-Aliquot-Strichcode, z. B. TCGA-12-1089-01A-01D-0517-30"
+  ],
+  "sample_rows": [
+    {
+      "Projekt_Kurzname": "TCGA-CHOL",
+      "Fall_Strichcode": "TCGA-ZH-A8Y1",
+      "Sample_Strichcode": "TCGA-ZH-A8Y1-01A",
+      "Aliquot_Strichcode": "TCGA-ZH-A8Y1-01A-21-A45N-20",
+      "Genname": "AR",
+      "Protein_Basname": "AR",
+      "Phospho": null,
+      "Proteinname": "AR",
+      "Protein_Expression": -0.260880929,
+      "Antikörperquelle": "R",
+      "Validierungsstatus": "V"
+    },
+    {
+      "Projekt_Kurzname": "TCGA-CHOL",
+      "Fall_Strichcode": "TCGA-3X-AAVC",
+      "Sample_Strichcode": "TCGA-3X-AAVC-01A",
+      "Aliquot_Strichcode": "TCGA-3X-AAVC-01A-31-A45N-20",
+      "Genname": "AR",
+      "Protein_Basname": "AR",
+      "Phospho": null,
+      "Proteinname": "AR",
+      "Protein_Expression": -0.1308857725,
+      "Antikörperquelle": "R",
+      "Validierungsstatus": "V"
+    },
+    {
+      "Projekt_Kurzname": "TCGA-UVM",
+      "Fall_Strichcode": "TCGA-V4-A9EA",
+      "Sample_Strichcode": "TCGA-V4-A9EA-01A",
+      "Aliquot_Strichcode": "TCGA-V4-A9EA-01A-21-A41Z-20",
+      "Genname": "AR",
+      "Protein_Basname": "AR",
+      "Phospho": null,
+      "Proteinname": "AR",
+      "Protein_Expression": -0.0883969254999999,
+      "Antikörperquelle": "R",
+      "Validierungsstatus": "V"
+    },
+    {
+      "Projekt_Kurzname": "TCGA-DLBC",
+      "Fall_Strichcode": "TCGA-GS-A9TT",
+      "Sample_Strichcode": "TCGA-GS-A9TT-01A",
+      "Aliquot_Strichcode": "TCGA-GS-A9TT-01A-21-A45K-20",
+      "Genname": "AR",
+      "Protein_Basname": "AR",
+      "Phospho": null,
+      "Proteinname": "AR",
+      "Protein_Expression": 0.360854283,
+      "Antikörperquelle": "R",
+      "Validierungsstatus": "V"
+    },
+    {
+      "Projekt_Kurzname": "TCGA-CHOL",
+      "Fall_Strichcode": "TCGA-W5-AA2O",
+      "Sample_Strichcode": "TCGA-W5-AA2O-01A",
+      "Aliquot_Strichcode": "TCGA-W5-AA2O-01A-21-A45N-20",
+      "Genname": "AR",
+      "Protein_Basname": "AR",
+      "Phospho": null,
+      "Proteinname": "AR",
+      "Protein_Expression": 0.0128838137500001,
+      "Antikörperquelle": "R",
+      "Validierungsstatus": "V"
+    }
+  ]
+}
