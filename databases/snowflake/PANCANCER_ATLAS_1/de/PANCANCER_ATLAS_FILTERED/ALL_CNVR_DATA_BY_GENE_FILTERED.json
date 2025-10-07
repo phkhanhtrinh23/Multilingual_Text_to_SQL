@@ -1,0 +1,102 @@
+{
+  "table_name": "ALL_CNVR_DATA_BY_GENE_FILTERED",
+  "table_fullname": "PANCANCER_ATLAS_1.PANCANCER_ATLAS_FILTERED.ALL_CNVR_DATA_BY_GENE_FILTERED",
+  "column_names": [
+    "ProbenTyp",
+    "ProbenStrichcode",
+    "TeilnehmerStrichcode",
+    "GISTIC_Aufrufe",
+    "Locus_ID",
+    "Studie",
+    "AliquotStrichcode",
+    "Cytoband",
+    "ProbenTypBuchstabenCode",
+    "Gen_Symbol"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "FLOAT",
+    "NUMBER",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Es gibt 10 Probenarten: Blutabgeleitet Normal, Primärer fester Tumor, Fester Gewebenormal, Rezidivierender fester Tumor, Metastatischer, Zusätzlich - Neues Primär, Primär blutabgeleitetes Krebsgewebe - Peripheres Blut, Buccal-Zell-Normal, Additioanal Metastatischer, Knochenmark-Normal",
+    "Barcode der Biospecimen-Probe, z. B. TCGA-13-1489-02A",
+    "TCGA-Barcode-Identifikator für den Studienteilnehmer, z. B. TCGA-02-0001",
+    "Gistic Copy Number-Aufrufe",
+    "Genlocus-ID, z. B.  57380, 100616303",
+    "TCGA-Studienabkürzung, z. B. LAML. Vollständige Liste verfügbar unter https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/tcga-study-abbreviations",
+    "TCGA-Aliquot-Barcode, z. B. TCGA-12-1089-01A-01D-0517-28",
+    "Vollständiger Cytoband-Name, einschließlich Chromosom. Z. B. 17p13.2 Siehe https://www.ncbi.nlm.nih.gov/Class/MLACourse/Original8Hour/Genetics/chrombanding.html",
+    "Buchstabencode der Probenart unter Verwendung der TCGA-Standards, z. B. TPN, EBV. Vollständige Liste verfügbar unter https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/sample-type-codes",
+    "z. B. TP53, LRP1B usw. (gleich wie Hugo_Symbol-Feld, außer leer anstelle von Unknown)"
+  ],
+  "sample_rows": [
+    {
+      "TeilnehmerStrichcode": "TCGA-04-1331",
+      "ProbenStrichcode": "TCGA-04-1331-01A",
+      "AliquotStrichcode": "TCGA-04-1331-01A-01D-0428-01",
+      "ProbenTypBuchstabenCode": "TP",
+      "ProbenTyp": "Primary solid Tumor",
+      "Studie": "OV",
+      "Gen_Symbol": "SLC44A3",
+      "Locus_ID": 126969,
+      "Cytoband": "1p21.3",
+      "GISTIC_Aufrufe": 0.038
+    },
+    {
+      "TeilnehmerStrichcode": "TCGA-04-1331",
+      "ProbenStrichcode": "TCGA-04-1331-01A",
+      "AliquotStrichcode": "TCGA-04-1331-01A-01D-0428-01",
+      "ProbenTypBuchstabenCode": "TP",
+      "ProbenTyp": "Primary solid Tumor",
+      "Studie": "OV",
+      "Gen_Symbol": "FEZF2",
+      "Locus_ID": 55079,
+      "Cytoband": "3p14.2",
+      "GISTIC_Aufrufe": 0.052
+    },
+    {
+      "TeilnehmerStrichcode": "TCGA-04-1331",
+      "ProbenStrichcode": "TCGA-04-1331-01A",
+      "AliquotStrichcode": "TCGA-04-1331-01A-01D-0428-01",
+      "ProbenTypBuchstabenCode": "TP",
+      "ProbenTyp": "Primary solid Tumor",
+      "Studie": "OV",
+      "Gen_Symbol": "SNORD55",
+      "Locus_ID": 26811,
+      "Cytoband": "1p34.1",
+      "GISTIC_Aufrufe": 0.062
+    },
+    {
+      "TeilnehmerStrichcode": "TCGA-04-1331",
+      "ProbenStrichcode": "TCGA-04-1331-01A",
+      "AliquotStrichcode": "TCGA-04-1331-01A-01D-0428-01",
+      "ProbenTypBuchstabenCode": "TP",
+      "ProbenTyp": "Primary solid Tumor",
+      "Studie": "OV",
+      "Gen_Symbol": "FLT4",
+      "Locus_ID": 2324,
+      "Cytoband": "5q35.3",
+      "GISTIC_Aufrufe": 0.06
+    },
+    {
+      "TeilnehmerStrichcode": "TCGA-04-1331",
+      "ProbenStrichcode": "TCGA-04-1331-01A",
+      "AliquotStrichcode": "TCGA-04-1331-01A-01D-0428-01",
+      "ProbenTypBuchstabenCode": "TP",
+      "ProbenTyp": "Primary solid Tumor",
+      "Studie": "OV",
+      "Gen_Symbol": "RP11-701P16.5",
+      "Locus_ID": 731424,
+      "Cytoband": "4q35.1",
+      "GISTIC_Aufrufe": -0.61
+    }
+  ]
+}
