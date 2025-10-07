@@ -1,0 +1,78 @@
+{
+  "sample_rows": [
+    {
+      "FDIC_INSTITUTION_ID": "2239",
+      "FDIC_BRANCH_ID": "286466",
+      "Variable": "DEPSUMBR",
+      "Variablenname": "Branch Deposits",
+      "Datum": "2023-06-30",
+      "Wert": 119632,
+      "Einheit": "USD"
+    },
+    {
+      "FDIC_INSTITUTION_ID": "6499",
+      "FDIC_BRANCH_ID": "6499",
+      "Variable": "DEPSUMBR",
+      "Variablenname": "Branch Deposits",
+      "Datum": "2017-06-30",
+      "Wert": 59230,
+      "Einheit": "USD"
+    },
+    {
+      "FDIC_INSTITUTION_ID": "417",
+      "FDIC_BRANCH_ID": "481396",
+      "Variable": "DEPSUMBR",
+      "Variablenname": "Branch Deposits",
+      "Datum": "2014-06-30",
+      "Wert": 35943,
+      "Einheit": "USD"
+    },
+    {
+      "FDIC_INSTITUTION_ID": "3123",
+      "FDIC_BRANCH_ID": "203999",
+      "Variable": "DEPSUMBR",
+      "Variablenname": "Branch Deposits",
+      "Datum": "2016-06-30",
+      "Wert": 85928,
+      "Einheit": "USD"
+    },
+    {
+      "FDIC_INSTITUTION_ID": "745",
+      "FDIC_BRANCH_ID": "745",
+      "Variable": "ASSET",
+      "Variablenname": "Institutional Assets",
+      "Datum": "2007-06-30",
+      "Wert": 133714,
+      "Einheit": "USD"
+    }
+  ],
+  "table_name": "FDIC_SUMMARY_OF_DEPOSITS_TIMESERIES",
+  "table_fullname": "FINANCE__ECONOMICS.CYBERSYN.FDIC_SUMMARY_OF_DEPOSITS_TIMESERIES",
+  "column_names": [
+    "Wert",
+    "Datum",
+    "FDIC_INSTITUTION_ID",
+    "Einheit",
+    "Variable",
+    "FDIC_BRANCH_ID",
+    "Variablenname"
+  ],
+  "column_types": [
+    "NUMBER",
+    "DATE",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Wert, der für die Variable gemeldet wird.",
+    "Datum, das mit dem Wert verknüpft ist.",
+    "Eindeutige FDIC-ID der Institution, die die Filiale besitzt. Es handelt sich um eine eindeutige Nummer, die sequentiell der FDIC-Datenbank für Banken und Filialen hinzugefügt wird. Diese ID wird bei jedem Zusammenschluss oder Kauf von Filialen aktualisiert, um den aktuellen Eigentümer widerzuspiegeln.",
+    "Einheit, in der die Messung aufgezeichnet wird (z. B. `USD YTD`).",
+    "Eindeutiger FDIC-Identifikator für verfolgte Finanzdaten.",
+    "FDICs eindeutige Nummer für die Bank oder Sparkasse, die von der FDIC zugewiesen wird, um die Bank oder Sparkasse zu identifizieren und zu verfolgen. Die Filialen-ID für die Zentralstelle ist dieselbe wie die Filialen-ID für die gesamte Bank oder Sparkasse.",
+    "Menschlich lesbarer Beschreibung der Finanzdatenvariablen, die von der FDIC verfolgt werden."
+  ]
+}
