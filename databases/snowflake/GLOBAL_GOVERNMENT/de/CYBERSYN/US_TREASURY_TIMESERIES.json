@@ -1,0 +1,70 @@
+{
+  "sample_rows": [
+    {
+      "GEO_ID": "country/USA",
+      "Variable": "121",
+      "Variablenname": "Non-Tax Net Collections Amount: Fiscal Service Processed Electronically (Over-the-Counter)",
+      "Datum": "2017-03-20",
+      "Wert": 64657026.0,
+      "Einheit": "USD"
+    },
+    {
+      "GEO_ID": "country/USA",
+      "Variable": "131",
+      "Variablenname": "Non-Tax Net Collections Amount: Fiscal Service Settled Electronically (Over-the-Counter)",
+      "Datum": "2022-08-29",
+      "Wert": 753.0,
+      "Einheit": "USD"
+    },
+    {
+      "GEO_ID": "country/USA",
+      "Variable": "213",
+      "Variablenname": "IRS Non-Tax Net Collections Amount: Fully Electronic (Internet)",
+      "Datum": "2017-08-10",
+      "Wert": 99641.0,
+      "Einheit": "USD"
+    },
+    {
+      "GEO_ID": "country/USA",
+      "Variable": "332",
+      "Variablenname": "IRS Tax Net Collections Amount: Fiscal Service Settled Electronically (Mail)",
+      "Datum": "2013-10-09",
+      "Wert": 704080197.0,
+      "Einheit": "USD"
+    },
+    {
+      "GEO_ID": "country/USA",
+      "Variable": "paper_savings_bonds_unmatured_&_unredeemed_all_series",
+      "Variablenname": "Paper Savings Bonds Unmatured & Unredeemed: All Series",
+      "Datum": "2020-11-30",
+      "Wert": 294438314.0,
+      "Einheit": "Count"
+    }
+  ],
+  "table_name": "US_TREASURY_TIMESERIES",
+  "table_fullname": "GLOBAL_GOVERNMENT.CYBERSYN.US_TREASURY_TIMESERIES",
+  "column_names": [
+    "GEO_ID",
+    "Einheit",
+    "Variable",
+    "Datum",
+    "Variablenname",
+    "Wert"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "DATE",
+    "TEXT",
+    "FLOAT"
+  ],
+  "description": [
+    "Eindeutiger Identifikator für einen Ort. Kann mit anderen Geographie-Tabellen wie `GEOGRAPHY_INDEX`, `GEOGRAPHY_RELATIONSHIPS` und `GEOGRAPHY_CHARACTERISTICS` verknüpft werden.",
+    "Einheit der Messung für den gemeldeten Wert.",
+    "Eindeutiger Identifikator für eine Variable, verknüpfbar mit der `timeseries`-Tabelle.",
+    "Datum, das dem Wert zugeordnet ist.",
+    "Menschlich lesbarer eindeutiger Name für die Variable.",
+    "Für die Variable gemeldeter Wert."
+  ]
+}
