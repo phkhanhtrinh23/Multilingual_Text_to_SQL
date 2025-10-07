@@ -1,0 +1,94 @@
+{
+  "table_name": "RNASEQ_HG19_GDC_2017_02",
+  "table_fullname": "TCGA.TCGA_VERSIONED.RNASEQ_HG19_GDC_2017_02",
+  "column_names": [
+    "urspruengliches_Gen_Symbol",
+    "Fall_Strichcode",
+    "HGNC_Gen_Symbol",
+    "normalisierter_Wert",
+    "Gen_ID",
+    "Proben_Strichcode",
+    "Aliquot_Strichcode",
+    "Kurzname_des_Projekts",
+    "Plattform"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "FLOAT",
+    "NUMBER",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Gen-Symbol aus der ursprünglichen Datendatei, unterscheidet sich, wenn das genehmigte Gen-Symbol seitdem geändert wurde, z. B. C11orf17 wurde zu AKIP1",
+    "Originaler TCGA-Fall-Strichcode, z. B. TCGA-12-1089  --  beachten Sie, dass jeder Fall in der Regel eine primäre-Tumor-Probe und eine passende-Normal-(Blut- oder angrenzende-Gewebe-)Probe hat; bitte verweisen Sie auf die TCGA-Biospecimen-Tabelle für weitere Details",
+    "HUGO-Gen-Nomenklatur-Komitee-Gen-Symbol, basierend auf `gene_id` in der ursprünglichen Datendatei, z. B. AMY1A. Null, wenn kein Gen-Symbol gefunden werden konnte (siehe Dokumentation für weitere Details zu ETL) http://isb-cancer-genomics-cloud.readthedocs.io/en/latest/sections/data/data2/ETL_mRNAexpression.html",
+    "Normalisierte Gen-Expression aus der ursprünglichen `rsem.genes.normalized_results`-Datei",
+    "Das Gen-Symbol. In dieser Tabelle ist das Gen-Symbol der Gen-Name, z. B. `ENSG00000251562`",
+    "Originaler TCGA-Probe-Strichcode, z. B. TCGA-12-1089-01A",
+    "Originaler TCGA-Aliquot-Strichcode, z. B. TCGA-12-1089-01A-01D-0517-01",
+    "Projektname-Abkürzung; der Programmname mit einer Projektname-Abkürzung; z. B. TCGA-OV usw.",
+    "Plattform, die zur Generierung der Daten verwendet wurde; entweder `IlluminaHiSeq` (für fast 93 % der Proben) oder `IlluminaGA`"
+  ],
+  "sample_rows": [
+    {
+      "Kurzname_des_Projekts": "TCGA-OV",
+      "Fall_Strichcode": "TCGA-04-1348",
+      "Proben_Strichcode": "TCGA-04-1348-01A",
+      "Aliquot_Strichcode": "TCGA-04-1348-01A-01R-1565-13",
+      "HGNC_Gen_Symbol": "C1orf189",
+      "Gen_ID": 388701,
+      "normalisierter_Wert": 0.0,
+      "urspruengliches_Gen_Symbol": "C1orf189",
+      "Plattform": "IlluminaHiSeq"
+    },
+    {
+      "Kurzname_des_Projekts": "TCGA-OV",
+      "Fall_Strichcode": "TCGA-04-1348",
+      "Proben_Strichcode": "TCGA-04-1348-01A",
+      "Aliquot_Strichcode": "TCGA-04-1348-01A-01R-1565-13",
+      "HGNC_Gen_Symbol": "NEURL2",
+      "Gen_ID": 140825,
+      "normalisierter_Wert": 124.6706,
+      "urspruengliches_Gen_Symbol": "NEURL2",
+      "Plattform": "IlluminaHiSeq"
+    },
+    {
+      "Kurzname_des_Projekts": "TCGA-OV",
+      "Fall_Strichcode": "TCGA-04-1348",
+      "Proben_Strichcode": "TCGA-04-1348-01A",
+      "Aliquot_Strichcode": "TCGA-04-1348-01A-01R-1565-13",
+      "HGNC_Gen_Symbol": "WRNIP1",
+      "Gen_ID": 56897,
+      "normalisierter_Wert": 2187.1471,
+      "urspruengliches_Gen_Symbol": "WRNIP1",
+      "Plattform": "IlluminaHiSeq"
+    },
+    {
+      "Kurzname_des_Projekts": "TCGA-OV",
+      "Fall_Strichcode": "TCGA-04-1348",
+      "Proben_Strichcode": "TCGA-04-1348-01A",
+      "Aliquot_Strichcode": "TCGA-04-1348-01A-01R-1565-13",
+      "HGNC_Gen_Symbol": "JSRP1",
+      "Gen_ID": 126306,
+      "normalisierter_Wert": 53.2401,
+      "urspruengliches_Gen_Symbol": "JSRP1",
+      "Plattform": "IlluminaHiSeq"
+    },
+    {
+      "Kurzname_des_Projekts": "TCGA-OV",
+      "Fall_Strichcode": "TCGA-04-1348",
+      "Proben_Strichcode": "TCGA-04-1348-01A",
+      "Aliquot_Strichcode": "TCGA-04-1348-01A-01R-1565-13",
+      "HGNC_Gen_Symbol": "ZNF569",
+      "Gen_ID": 148266,
+      "normalisierter_Wert": 269.5778,
+      "urspruengliches_Gen_Symbol": "ZNF569",
+      "Plattform": "IlluminaHiSeq"
+    }
+  ]
+}
