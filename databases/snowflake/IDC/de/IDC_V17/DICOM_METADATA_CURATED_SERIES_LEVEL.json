@@ -1,0 +1,102 @@
+{
+  "table_name": "DICOM_METADATA_CURATED_SERIES_LEVEL",
+  "table_fullname": "IDC.IDC_V17.DICOM_METADATA_CURATED_SERIES_LEVEL",
+  "column_names": [
+    "ObjektivlinseLeistung",
+    "max_GesamtPixelMatrixZeilen",
+    "SeriesInstanceUID",
+    "Modality",
+    "primäreAnatomischeStruktur_code_designator_wert_str",
+    "Beleuchtungstyp_code_designator_wert_str",
+    "Beleuchtungstyp_CodeBedeutung",
+    "min_Bildpunktabstand_2sf",
+    "primäreAnatomischeStruktur_CodeBedeutung",
+    "max_GesamtPixelMatrixSpalten"
+  ],
+  "column_types": [
+    "NUMBER",
+    "NUMBER",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "FLOAT",
+    "TEXT",
+    "NUMBER"
+  ],
+  "description": [
+    "Wert von OpticalPathSequence[0] > ObjectiveLensPower (anwendbar in SM).",
+    "Mindestwert des Attributs Rows über Instanzen innerhalb der Serie. Enthält den ersten nicht-leeren Wert zwischen dem obersten Attribut Rows und dem in TotalPixelMatrixRows (aufgetreten in SM-Modus).",
+    "DICOM SeriesInstanceUID",
+    "DICOM Modality",
+    "Konkatierte Werte von `CodingSchemeDesignator` und `CodeValue`, getrennt durch `:`, aus SpecimenDescriptionSequence[0] > PrimaryAnatomicStructureSequence[0] (anwendbar in SM).",
+    "Konkatierte Werte von `CodingSchemeDesignator` und `CodeValue`, getrennt durch `:`, aus OpticalPathSequence[0].IlluminationTypeCodeSequence[0] (anwendbar in SM).",
+    "`CodeMeaning` von OpticalPathSequence[0].IlluminationTypeCodeSequence[0] (anwendbar in SM).",
+    "Mindestwert der ersten Komponente des Pixelabstands über alle Instanzen in der Serie. Enthält den ersten nicht-leeren Wert zwischen der ersten Komponente des obersten Attributs PixelSpacing und dem in SharedFunctionalGroupSequence[0] > PixelMeasuresSequence[0]. Auf zwei signifikante Stellen gerundet.",
+    "`CodeMeaning` von SpecimenDescriptionSequence[0] > PrimaryAnatomicStructureSequence[0] (anwendbar in SM).",
+    "Mindestwert des Attributs Columns über Instanzen innerhalb der Serie. Enthält den ersten nicht-leeren Wert zwischen dem obersten Attribut Columns und dem in TotalPixelMatrixColumns (aufgetreten in SM-Modus)."
+  ],
+  "sample_rows": [
+    {
+      "SeriesInstanceUID": "1.3.6.1.4.1.14519.5.2.1.2103.7010.269874.1.2",
+      "min_Bildpunktabstand_2sf": null,
+      "max_GesamtPixelMatrixSpalten": null,
+      "max_GesamtPixelMatrixZeilen": null,
+      "ObjektivlinseLeistung": null,
+      "primäreAnatomischeStruktur_code_designator_wert_str": null,
+      "primäreAnatomischeStruktur_CodeBedeutung": null,
+      "Beleuchtungstyp_code_designator_wert_str": null,
+      "Beleuchtungstyp_CodeBedeutung": null,
+      "Modality": "KO"
+    },
+    {
+      "SeriesInstanceUID": "1.3.6.1.4.1.14519.5.2.1.2103.7010.269874.1.1",
+      "min_Bildpunktabstand_2sf": null,
+      "max_GesamtPixelMatrixSpalten": null,
+      "max_GesamtPixelMatrixZeilen": null,
+      "ObjektivlinseLeistung": null,
+      "primäreAnatomischeStruktur_code_designator_wert_str": null,
+      "primäreAnatomischeStruktur_CodeBedeutung": null,
+      "Beleuchtungstyp_code_designator_wert_str": null,
+      "Beleuchtungstyp_CodeBedeutung": null,
+      "Modality": "KO"
+    },
+    {
+      "SeriesInstanceUID": "1.3.6.1.4.1.14519.5.2.1.2103.7010.237254.1.2",
+      "min_Bildpunktabstand_2sf": null,
+      "max_GesamtPixelMatrixSpalten": null,
+      "max_GesamtPixelMatrixZeilen": null,
+      "ObjektivlinseLeistung": null,
+      "primäreAnatomischeStruktur_code_designator_wert_str": null,
+      "primäreAnatomischeStruktur_CodeBedeutung": null,
+      "Beleuchtungstyp_code_designator_wert_str": null,
+      "Beleuchtungstyp_CodeBedeutung": null,
+      "Modality": "KO"
+    },
+    {
+      "SeriesInstanceUID": "1.3.6.1.4.1.14519.5.2.1.2103.7010.263376.2.1",
+      "min_Bildpunktabstand_2sf": null,
+      "max_GesamtPixelMatrixSpalten": null,
+      "max_GesamtPixelMatrixZeilen": null,
+      "ObjektivlinseLeistung": null,
+      "primäreAnatomischeStruktur_code_designator_wert_str": null,
+      "primäreAnatomischeStruktur_CodeBedeutung": null,
+      "Beleuchtungstyp_code_designator_wert_str": null,
+      "Beleuchtungstyp_CodeBedeutung": null,
+      "Modality": "KO"
+    },
+    {
+      "SeriesInstanceUID": "1.3.6.1.4.1.14519.5.2.1.2103.7010.135953.2.2",
+      "min_Bildpunktabstand_2sf": null,
+      "max_GesamtPixelMatrixSpalten": null,
+      "max_GesamtPixelMatrixZeilen": null,
+      "ObjektivlinseLeistung": null,
+      "primäreAnatomischeStruktur_code_designator_wert_str": null,
+      "primäreAnatomischeStruktur_CodeBedeutung": null,
+      "Beleuchtungstyp_code_designator_wert_str": null,
+      "Beleuchtungstyp_CodeBedeutung": null,
+      "Modality": "KO"
+    }
+  ]
+}
