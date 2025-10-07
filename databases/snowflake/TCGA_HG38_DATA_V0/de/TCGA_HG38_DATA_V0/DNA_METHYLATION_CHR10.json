@@ -1,0 +1,102 @@
+{
+  "table_name": "DNA_METHYLATION_CHR10",
+  "table_fullname": "TCGA_HG38_DATA_V0.TCGA_HG38_DATA_V0.DNA_METHYLATION_CHR10",
+  "column_names": [
+    "StichprobenBarcode",
+    "StichprobenGdcId",
+    "AliquotGdcId",
+    "AliquotBarcode",
+    "Plattform",
+    "FallBarcode",
+    "DateiGdcId",
+    "SondierId",
+    "FallGdcId",
+    "BetaWert"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "FLOAT"
+  ],
+  "description": [
+    "Ursprüngliche TCGA-Proben-Schlüssel, zB `TCGA-12-1089-01A`",
+    "",
+    "",
+    "Ursprüngliche TCGA-Aliquot-Schlüssel, zB `TCGA-12-1089-01A-01D-0517-01`",
+    "Plattformname, der zur Generierung dieser Daten verwendet wurde -- entweder `HumanMethylation450` oder `HumanMethylation27`",
+    "Ursprüngliche TCGA-Fall-Schlüssel, zB `TCGA-12-1089`  --  beachten Sie, dass jeder Fall normalerweise eine primäre-Tumor-Probe und eine passende-Normale (Blut oder benachbartes Gewebe)-Probe hat; bitte verweisen Sie auf die TCGA Biospecimen-Tabelle für weitere Details",
+    "",
+    "Eindeutiger `probe`-Identifier (zB `cg04676771`) aus dem Illumina Human Methylation-Array -- bitte verweisen Sie auf die Annotation-Tabelle (`isb-cgc:platform_reference.methylation_annotation`) für weitere Details über einen bestimmten `probe`",
+    "",
+    "Normalisierter DNA-Methylierungs-Beta-Wert (zwischen 0 und 1, wobei 0 eine vollständig un-methylierte und 1 eine vollständig methylierte DNA angibt)"
+  ],
+  "sample_rows": [
+    {
+      "FallBarcode": "TCGA-12-1601",
+      "StichprobenBarcode": "TCGA-12-1601-01A",
+      "AliquotBarcode": "TCGA-12-1601-01A-01D-0595-05",
+      "SondierId": "cg06837731",
+      "BetaWert": 0.0182775196264869,
+      "Plattform": null,
+      "DateiGdcId": "5cd6f2f6-7278-4757-be8e-a8ae3a7a81d3",
+      "FallGdcId": "cc1459be-de8f-482e-9efe-65937db9dc45",
+      "StichprobenGdcId": "b02fd704-03a6-44c4-b224-f5f457e733f3",
+      "AliquotGdcId": "aa761ca4-e8f0-4a43-8262-bd84eedb459a"
+    },
+    {
+      "FallBarcode": "TCGA-32-2498",
+      "StichprobenBarcode": "TCGA-32-2498-01A",
+      "AliquotBarcode": "TCGA-32-2498-01A-01D-1228-05",
+      "SondierId": "cg27550918",
+      "BetaWert": 0.358299544705567,
+      "Plattform": null,
+      "DateiGdcId": "6db4187c-5e48-45ac-8ae3-6b55198ff65a",
+      "FallGdcId": "0d5e5a6b-5113-43f2-836c-776207b21b56",
+      "StichprobenGdcId": "58af038c-bd40-4123-a6d3-11061f0d38e1",
+      "AliquotGdcId": "6e65d823-0d94-4d26-b60a-2f168cbe2ba8"
+    },
+    {
+      "FallBarcode": "TCGA-32-2498",
+      "StichprobenBarcode": "TCGA-32-2498-01A",
+      "AliquotBarcode": "TCGA-32-2498-01A-01D-1228-05",
+      "SondierId": "cg05538387",
+      "BetaWert": 0.0148317376069891,
+      "Plattform": null,
+      "DateiGdcId": "6db4187c-5e48-45ac-8ae3-6b55198ff65a",
+      "FallGdcId": "0d5e5a6b-5113-43f2-836c-776207b21b56",
+      "StichprobenGdcId": "58af038c-bd40-4123-a6d3-11061f0d38e1",
+      "AliquotGdcId": "6e65d823-0d94-4d26-b60a-2f168cbe2ba8"
+    },
+    {
+      "FallBarcode": "TCGA-32-2498",
+      "StichprobenBarcode": "TCGA-32-2498-01A",
+      "AliquotBarcode": "TCGA-32-2498-01A-01D-1228-05",
+      "SondierId": "cg20688340",
+      "BetaWert": 0.949530403369254,
+      "Plattform": null,
+      "DateiGdcId": "6db4187c-5e48-45ac-8ae3-6b55198ff65a",
+      "FallGdcId": "0d5e5a6b-5113-43f2-836c-776207b21b56",
+      "StichprobenGdcId": "58af038c-bd40-4123-a6d3-11061f0d38e1",
+      "AliquotGdcId": "6e65d823-0d94-4d26-b60a-2f168cbe2ba8"
+    },
+    {
+      "FallBarcode": "TCGA-A6-2670",
+      "StichprobenBarcode": "TCGA-A6-2670-01A",
+      "AliquotBarcode": "TCGA-A6-2670-01A-02D-0820-05",
+      "SondierId": "cg04589904",
+      "BetaWert": 0.0225681943535175,
+      "Plattform": null,
+      "DateiGdcId": "cdd5e1a9-1ce8-4361-9fca-61ccb7098b25",
+      "FallGdcId": "65bb7520-f055-43a8-b735-1152fa2c9e04",
+      "StichprobenGdcId": "724072ae-40b5-45cc-b339-e24f1cb6fbcf",
+      "AliquotGdcId": "b8074b70-ad2b-49e5-b70a-c6e8a6681830"
+    }
+  ]
+}

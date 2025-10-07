@@ -1,0 +1,102 @@
+{
+  "table_name": "DNA_METHYLATION_CHR1",
+  "table_fullname": "TCGA_HG38_DATA_V0.TCGA_HG38_DATA_V0.DNA_METHYLATION_CHR1",
+  "column_names": [
+    "Stichproben_GDC_ID",
+    "Datei_GDC_ID",
+    "Fall_Strichcode",
+    "Stichproben_Strichcode",
+    "Aliquot_GDC_ID",
+    "Plattform",
+    "Sonden_ID",
+    "Aliquot_Strichcode",
+    "Beta_Wert",
+    "Fall_GDC_ID"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "FLOAT",
+    "TEXT"
+  ],
+  "description": [
+    "",
+    "",
+    "Originale TCGA-Fall-Strichcode, z. B. TCGA-12-1089  --  beachten Sie, dass jeder Fall in der Regel eine primäre-Tumor-Probe und eine passende-Normal-(Blut- oder angrenzende-Gewebe-)Probe hat; bitte verweisen Sie auf die TCGA-Biospecimen-Tabelle für weitere Details",
+    "Originale TCGA-Probe-Strichcode, z. B. TCGA-12-1089-01A  --  beachten Sie, dass eine Probe mehrere Aliquote haben kann und daher mehrere Sätze von CN-Segmentierungen; stellen Sie daher sicher, dass Sie GROUP BY entsprechend in Ihren Abfragen verwenden",
+    "",
+    "Plattformname, der zur Generierung dieser Daten verwendet wurde -- entweder HumanMethylation450 oder HumanMethylation27",
+    "Eindeutiger Sonde-Identifikator (z. B. `cg04676771`) aus der Illumina Human Methylation-Array -- bitte verweisen Sie auf die Annotation-Tabelle (`isb-cgc:platform_reference.methylation_annotation`) für weitere Details zu einer bestimmten Sonde",
+    "Originale TCGA-Aliquot-Strichcode, z. B. TCGA-12-1089-01A-01D-0517-01",
+    "Normalisierter DNA-Methylierungs-Beta-Wert (zwischen 0 und 1, wobei 0 vollständig un-methyliert und 1 vollständig methyliert angibt)",
+    ""
+  ],
+  "sample_rows": [
+    {
+      "Fall_Strichcode": "TCGA-12-1601",
+      "Stichproben_Strichcode": "TCGA-12-1601-01A",
+      "Aliquot_Strichcode": "TCGA-12-1601-01A-01D-0595-05",
+      "Sonden_ID": "cg13306164",
+      "Beta_Wert": 0.00393837594521082,
+      "Plattform": null,
+      "Datei_GDC_ID": "5cd6f2f6-7278-4757-be8e-a8ae3a7a81d3",
+      "Fall_GDC_ID": "cc1459be-de8f-482e-9efe-65937db9dc45",
+      "Stichproben_GDC_ID": "b02fd704-03a6-44c4-b224-f5f457e733f3",
+      "Aliquot_GDC_ID": "aa761ca4-e8f0-4a43-8262-bd84eedb459a"
+    },
+    {
+      "Fall_Strichcode": "TCGA-12-1601",
+      "Stichproben_Strichcode": "TCGA-12-1601-01A",
+      "Aliquot_Strichcode": "TCGA-12-1601-01A-01D-0595-05",
+      "Sonden_ID": "cg08763433",
+      "Beta_Wert": 0.00553220182262394,
+      "Plattform": null,
+      "Datei_GDC_ID": "5cd6f2f6-7278-4757-be8e-a8ae3a7a81d3",
+      "Fall_GDC_ID": "cc1459be-de8f-482e-9efe-65937db9dc45",
+      "Stichproben_GDC_ID": "b02fd704-03a6-44c4-b224-f5f457e733f3",
+      "Aliquot_GDC_ID": "aa761ca4-e8f0-4a43-8262-bd84eedb459a"
+    },
+    {
+      "Fall_Strichcode": "TCGA-12-1601",
+      "Stichproben_Strichcode": "TCGA-12-1601-01A",
+      "Aliquot_Strichcode": "TCGA-12-1601-01A-01D-0595-05",
+      "Sonden_ID": "cg22968727",
+      "Beta_Wert": 0.00785051644534616,
+      "Plattform": null,
+      "Datei_GDC_ID": "5cd6f2f6-7278-4757-be8e-a8ae3a7a81d3",
+      "Fall_GDC_ID": "cc1459be-de8f-482e-9efe-65937db9dc45",
+      "Stichproben_GDC_ID": "b02fd704-03a6-44c4-b224-f5f457e733f3",
+      "Aliquot_GDC_ID": "aa761ca4-e8f0-4a43-8262-bd84eedb459a"
+    },
+    {
+      "Fall_Strichcode": "TCGA-A6-2670",
+      "Stichproben_Strichcode": "TCGA-A6-2670-01A",
+      "Aliquot_Strichcode": "TCGA-A6-2670-01A-02D-0820-05",
+      "Sonden_ID": "cg16604136",
+      "Beta_Wert": 0.014583218040782,
+      "Plattform": null,
+      "Datei_GDC_ID": "cdd5e1a9-1ce8-4361-9fca-61ccb7098b25",
+      "Fall_GDC_ID": "65bb7520-f055-43a8-b735-1152fa2c9e04",
+      "Stichproben_GDC_ID": "724072ae-40b5-45cc-b339-e24f1cb6fbcf",
+      "Aliquot_GDC_ID": "b8074b70-ad2b-49e5-b70a-c6e8a6681830"
+    },
+    {
+      "Fall_Strichcode": "TCGA-A6-2670",
+      "Stichproben_Strichcode": "TCGA-A6-2670-01A",
+      "Aliquot_Strichcode": "TCGA-A6-2670-01A-02D-0820-05",
+      "Sonden_ID": "cg10735116",
+      "Beta_Wert": 0.013328023233442,
+      "Plattform": null,
+      "Datei_GDC_ID": "cdd5e1a9-1ce8-4361-9fca-61ccb7098b25",
+      "Fall_GDC_ID": "65bb7520-f055-43a8-b735-1152fa2c9e04",
+      "Stichproben_GDC_ID": "724072ae-40b5-45cc-b339-e24f1cb6fbcf",
+      "Aliquot_GDC_ID": "b8074b70-ad2b-49e5-b70a-c6e8a6681830"
+    }
+  ]
+}
