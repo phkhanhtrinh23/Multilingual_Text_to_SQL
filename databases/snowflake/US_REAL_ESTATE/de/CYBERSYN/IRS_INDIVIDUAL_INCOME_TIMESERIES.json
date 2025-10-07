@@ -1,0 +1,78 @@
+{
+  "sample_rows": [
+    {
+      "GEO_ID": "zip/47578",
+      "VARIABLE": "Total_income_-_Amount,_AGI_bin:_$100,000_under_$200,000",
+      "VARIABLEN_NAME": "Total income - Amount, AGI bin: $100,000 under $200,000",
+      "DATUM": "2018-12-31",
+      "WERT": 5096000.0,
+      "EINHEIT": "USD",
+      "UNTERDRÜCKT": false
+    },
+    {
+      "GEO_ID": "zip/88337",
+      "VARIABLE": "Total_taxes_paid_-_Number_of_returns,_AGI_bin:_$100,000_under_$200,000",
+      "VARIABLEN_NAME": "Total taxes paid - Number of returns, AGI bin: $100,000 under $200,000",
+      "DATUM": "2011-12-31",
+      "WERT": 69.0,
+      "EINHEIT": "Returns",
+      "UNTERDRÜCKT": false
+    },
+    {
+      "GEO_ID": "zip/50167",
+      "VARIABLE": "Total_premium_tax_credit_-_Amount,_AGI_bin:_$100,000_under_$200,000",
+      "VARIABLEN_NAME": "Total premium tax credit - Amount, AGI bin: $100,000 under $200,000",
+      "DATUM": "2017-12-31",
+      "WERT": 0.0,
+      "EINHEIT": "USD",
+      "UNTERDRÜCKT": false
+    },
+    {
+      "GEO_ID": "zip/50543",
+      "VARIABLE": "Taxable_income_-_Amount,_AGI_bin:_$200,000_or_more",
+      "VARIABLEN_NAME": "Taxable income - Amount, AGI bin: $200,000 or more",
+      "DATUM": "2017-12-31",
+      "WERT": null,
+      "EINHEIT": "USD",
+      "UNTERDRÜCKT": true
+    },
+    {
+      "GEO_ID": "zip/50643",
+      "VARIABLE": "Child_tax_credit_-_Amount,_AGI_bin:_$75,000_under_$100,000",
+      "VARIABLEN_NAME": "Child tax credit - Amount, AGI bin: $75,000 under $100,000",
+      "DATUM": "2017-12-31",
+      "WERT": 128000.0,
+      "EINHEIT": "USD",
+      "UNTERDRÜCKT": false
+    }
+  ],
+  "table_name": "IRS_INDIVIDUAL_INCOME_TIMESERIES",
+  "table_fullname": "US_REAL_ESTATE.CYBERSYN.IRS_INDIVIDUAL_INCOME_TIMESERIES",
+  "column_names": [
+    "UNTERDRÜCKT",
+    "DATUM",
+    "VARIABLE",
+    "VARIABLEN_NAME",
+    "GEO_ID",
+    "EINHEIT",
+    "WERT"
+  ],
+  "column_types": [
+    "BOOLEAN",
+    "DATE",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "FLOAT"
+  ],
+  "description": [
+    "Boolescher Indikator, der angibt, ob der Wert in den zugrunde liegenden Daten aus Gründen des Datenschutzes unterdrückt wurde. Unterdrückte Werte erscheinen als NULL",
+    "Datum, das dem Wert zugeordnet ist, für individuelle Einkommenszipcodedaten ist es der letzte Tag des zu berichtenden Jahres",
+    "Eindeutiger Identifikator für eine Variable, die mit der `attributes`-Tabelle verknüpft werden kann",
+    "Menschlich lesbarer Name für die Variable",
+    "Eindeutiger Identifikator für einen Ort (Bundesland, County, Zipcode), der mit der `geography_index`/`relationships`-Tabelle verknüpft werden kann",
+    "Einheit der Messung für den Wert, Beispiele: USD, `returns`, `individuals`, `dependents`",
+    "Der tatsächliche numerische Wert für die Variable. Unterdrückte Werte sind Null."
+  ]
+}

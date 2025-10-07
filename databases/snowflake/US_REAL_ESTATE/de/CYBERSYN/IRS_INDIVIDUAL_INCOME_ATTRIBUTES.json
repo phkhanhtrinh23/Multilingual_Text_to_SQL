@@ -1,0 +1,70 @@
+{
+  "sample_rows": [
+    {
+      "Variable": "Total_income_-_Number_of_returns,_AGI_bin:_$100,000_under_$200,000",
+      "Variablenname": "Total income - Number of returns, AGI bin: $100,000 under $200,000",
+      "Einkommensgruppe": "$100,000 under $200,000",
+      "Einheit": "Returns",
+      "saisonbereinigt": false,
+      "Frequenz": "Annual"
+    },
+    {
+      "Variable": "Investment_interest_paid_-_Amount,_AGI_bin:_$200,000_or_more",
+      "Variablenname": "Investment interest paid - Amount, AGI bin: $200,000 or more",
+      "Einkommensgruppe": "$200,000 or more",
+      "Einheit": "USD",
+      "saisonbereinigt": false,
+      "Frequenz": "Annual"
+    },
+    {
+      "Variable": "Personal_property_taxes_-_Number_of_returns,_AGI_bin:_$25,000_under_$50,000",
+      "Variablenname": "Personal property taxes - Number of returns, AGI bin: $25,000 under $50,000",
+      "Einkommensgruppe": "$25,000 under $50,000",
+      "Einheit": "Returns",
+      "saisonbereinigt": false,
+      "Frequenz": "Annual"
+    },
+    {
+      "Variable": "Economic_impact_payment_second_round_[15,_17]_-_Amount,_AGI_bin:_$200,000_or_more",
+      "Variablenname": "Economic impact payment second round [15, 17] - Amount, AGI bin: $200,000 or more",
+      "Einkommensgruppe": "$200,000 or more",
+      "Einheit": "USD",
+      "saisonbereinigt": false,
+      "Frequenz": "Annual"
+    },
+    {
+      "Variable": "Domestic_production_activities_deduction_-_Number_of_returns,_AGI_bin:_$75,000_under_$100,000",
+      "Variablenname": "Domestic production activities deduction - Number of returns, AGI bin: $75,000 under $100,000",
+      "Einkommensgruppe": "$75,000 under $100,000",
+      "Einheit": "Returns",
+      "saisonbereinigt": false,
+      "Frequenz": "Annual"
+    }
+  ],
+  "table_name": "IRS_INDIVIDUAL_INCOME_ATTRIBUTES",
+  "table_fullname": "US_REAL_ESTATE.CYBERSYN.IRS_INDIVIDUAL_INCOME_ATTRIBUTES",
+  "column_names": [
+    "Variablenname",
+    "saisonbereinigt",
+    "Einkommensgruppe",
+    "Einheit",
+    "Frequenz",
+    "Variable"
+  ],
+  "column_types": [
+    "TEXT",
+    "BOOLEAN",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Menschlich lesbarer Name für die Variable",
+    "Gibt an, ob der Wert saisonal angepasst ist",
+    "Der angepasste Bruttogehaltsstreifen von Personen innerhalb der Serie",
+    "Einheit der Messung für den Wert (z. B. USD, Renditen, Personen, Angehörige)",
+    "Häufigkeit der Variablenmessung",
+    "Eindeutiger Identifikator für eine Variable, die mit der Timeseries-Tabelle verknüpft werden kann"
+  ]
+}
