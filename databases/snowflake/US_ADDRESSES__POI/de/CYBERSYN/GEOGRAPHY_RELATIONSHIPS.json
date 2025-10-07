@@ -1,0 +1,78 @@
+{
+  "sample_rows": [
+    {
+      "GEO_NAME": "35300541",
+      "GEO_ID": "statcanId/S051235300541",
+      "LEVEL": "DisseminationArea",
+      "VERWANDTER_GEO_NAME": "Northern America",
+      "VERWANDTER_GEO_ID": "countrySubRegion/021",
+      "VERWANDTER_LEVEL": "CountrySubRegion",
+      "BEZIEHUNGSTYP": "Overlaps"
+    },
+    {
+      "GEO_NAME": "47878",
+      "GEO_ID": "zip/47878",
+      "LEVEL": "CensusZipCodeTabulationArea",
+      "VERWANDTER_GEO_NAME": "Northern America",
+      "VERWANDTER_GEO_ID": "countrySubRegion/021",
+      "VERWANDTER_LEVEL": "CountrySubRegion",
+      "BEZIEHUNGSTYP": "Overlaps"
+    },
+    {
+      "GEO_NAME": "48139",
+      "GEO_ID": "zip/48139",
+      "LEVEL": "CensusZipCodeTabulationArea",
+      "VERWANDTER_GEO_NAME": "United States",
+      "VERWANDTER_GEO_ID": "country/USA",
+      "VERWANDTER_LEVEL": "Country",
+      "BEZIEHUNGSTYP": "Overlaps"
+    },
+    {
+      "GEO_NAME": "Massachusetts",
+      "GEO_ID": "geoId/25",
+      "LEVEL": "State",
+      "VERWANDTER_GEO_NAME": "Block Group 5, Census Tract 3703, Middlesex County, Massachusetts",
+      "VERWANDTER_GEO_ID": "censusBlockGroup/250173703005",
+      "VERWANDTER_LEVEL": "CensusBlockGroup",
+      "BEZIEHUNGSTYP": "Contains"
+    },
+    {
+      "GEO_NAME": "West Virginia",
+      "GEO_ID": "geoId/54",
+      "LEVEL": "State",
+      "VERWANDTER_GEO_NAME": "26040",
+      "VERWANDTER_GEO_ID": "zip/26040",
+      "VERWANDTER_LEVEL": "CensusZipCodeTabulationArea",
+      "BEZIEHUNGSTYP": "Contains"
+    }
+  ],
+  "table_name": "GEOGRAPHY_RELATIONSHIPS",
+  "table_fullname": "US_ADDRESSES__POI.CYBERSYN.GEOGRAPHY_RELATIONSHIPS",
+  "column_names": [
+    "VERWANDTER_GEO_NAME",
+    "VERWANDTER_GEO_ID",
+    "VERWANDTER_LEVEL",
+    "BEZIEHUNGSTYP",
+    "GEO_ID",
+    "GEO_NAME",
+    "LEVEL"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Name des Ortes im Zusammenhang mit `GEO_NAME`. Dies ist ein Ort, der sich mit dem primären Geo überlappt oder darin enthalten ist (z. B. Stadt innerhalb eines Bundeslandes)",
+    "Eindeutiger Identifikator für den zugehörigen Ort, der mit der `GEOGRAPHY_INDEX`-Tabelle verknüpft werden kann",
+    "Geografisches Level oder die Hierarchie des zugehörigen Ortes (z. B. Land, Bundesland, County, Stadt, Kontinent, `CountrySubRegion` usw.)",
+    "Beziehung zwischen den beiden Orten. `Contains` bedeutet, dass die `RELATED_GEO_ID` vollständig innerhalb der `GEO_ID` enthalten ist (z. B. Beziehung von Bundesland zu Stadt), während `Overlaps` angibt, dass die `GEO_ID` ein Teil der `RELATED_GEO_ID` ist (z. B. Beziehung von Stadt zu Bundesland)",
+    "Eindeutiger Identifikator für einen Ort, der mit der `GEOGRAPHY_INDEX`-Tabelle verknüpft werden kann",
+    "Vollständiger Name des Ortes",
+    "Geografisches Level oder die Hierarchie (z. B. Land, Bundesland, County, Stadt, Kontinent, `CountrySubRegion` usw.)"
+  ]
+}
