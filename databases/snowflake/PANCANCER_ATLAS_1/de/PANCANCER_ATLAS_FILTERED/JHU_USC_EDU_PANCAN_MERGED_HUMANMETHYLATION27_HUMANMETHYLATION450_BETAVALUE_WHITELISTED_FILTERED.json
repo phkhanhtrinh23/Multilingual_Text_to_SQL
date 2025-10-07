@@ -1,0 +1,86 @@
+{
+  "table_name": "JHU_USC_EDU_PANCAN_MERGED_HUMANMETHYLATION27_HUMANMETHYLATION450_BETAVALUE_WHITELISTED_FILTERED",
+  "table_fullname": "PANCANCER_ATLAS_1.PANCANCER_ATLAS_FILTERED.JHU_USC_EDU_PANCAN_MERGED_HUMANMETHYLATION27_HUMANMETHYLATION450_BETAVALUE_WHITELISTED_FILTERED",
+  "column_names": [
+    "AliquotBarcode",
+    "ProbenTypBuchstabenCode",
+    "ID",
+    "Beta",
+    "ProbenBarcode",
+    "ProbenTyp",
+    "TeilnehmerBarcode",
+    "Studie"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "FLOAT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "TCGA-Aliquot-Strichcode, z. B. TCGA-12-1089-01A-01D-0517-28",
+    "Buchstabencode des ProbenTyps unter Verwendung der TCGA-Standards, z. B. TPN, EBV. Vollständige Liste verfügbar unter https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/sample-type-codes",
+    "Eindeutiger Sonde-Identifikator (z. B. cg04676771) aus dem Illumina Human Methylation-Array -- bitte beachten Sie die Anmerkungstabelle (isb-cgc:platform_reference.methylation_annotation) für weitere Details zu einer bestimmten Sonde",
+    "Normalisierter DNA-Methylierungs-Beta-Wert (zwischen 0 und 1, wobei 0 vollständig un-methyliert und 1 vollständig methyliert anzeigt)",
+    "Strichcode der Biospecimen-Probe, z. B. TCGA-13-1489-02A",
+    "Es gibt 10 ProbenTypen: Blut-abgeleitete Normale, Primärer fester Tumor, Fester Gewebe-Normale, Rezidivierender fester Tumor, Metastatischer, Zusätzlich - Neues Primär-, Primärer Blut-abgeleiteter Krebs - Peripheres Blut, Buccal-Zell-Normale, Zusätzlich Metastatischer, Knochenmark-Normale",
+    "TCGA-Strichcode-Identifikator für den Studienteilnehmer, z. B. TCGA-02-0001",
+    "TCGA-Studien-Abkürzung, z. B. LAML. Vollständige Liste verfügbar unter https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/tcga-study-abbreviations"
+  ],
+  "sample_rows": [
+    {
+      "TeilnehmerBarcode": "TCGA-01-0628",
+      "ProbenBarcode": "TCGA-01-0628-11A",
+      "AliquotBarcode": "TCGA-01-0628-11A-01D-0383-05",
+      "ProbenTypBuchstabenCode": "NT",
+      "ProbenTyp": "Solid Tissue Normal",
+      "Studie": "OV",
+      "ID": "cg14892768",
+      "Beta": 0.0601423404451476
+    },
+    {
+      "TeilnehmerBarcode": "TCGA-01-0628",
+      "ProbenBarcode": "TCGA-01-0628-11A",
+      "AliquotBarcode": "TCGA-01-0628-11A-01D-0383-05",
+      "ProbenTypBuchstabenCode": "NT",
+      "ProbenTyp": "Solid Tissue Normal",
+      "Studie": "OV",
+      "ID": "cg18636558",
+      "Beta": 0.12449542110063
+    },
+    {
+      "TeilnehmerBarcode": "TCGA-01-0628",
+      "ProbenBarcode": "TCGA-01-0628-11A",
+      "AliquotBarcode": "TCGA-01-0628-11A-01D-0383-05",
+      "ProbenTypBuchstabenCode": "NT",
+      "ProbenTyp": "Solid Tissue Normal",
+      "Studie": "OV",
+      "ID": "cg08080029",
+      "Beta": 0.0293399559924022
+    },
+    {
+      "TeilnehmerBarcode": "TCGA-01-0628",
+      "ProbenBarcode": "TCGA-01-0628-11A",
+      "AliquotBarcode": "TCGA-01-0628-11A-01D-0383-05",
+      "ProbenTypBuchstabenCode": "NT",
+      "ProbenTyp": "Solid Tissue Normal",
+      "Studie": "OV",
+      "ID": "cg15479752",
+      "Beta": 0.875771879811699
+    },
+    {
+      "TeilnehmerBarcode": "TCGA-01-0628",
+      "ProbenBarcode": "TCGA-01-0628-11A",
+      "AliquotBarcode": "TCGA-01-0628-11A-01D-0383-05",
+      "ProbenTypBuchstabenCode": "NT",
+      "ProbenTyp": "Solid Tissue Normal",
+      "Studie": "OV",
+      "ID": "cg00503840",
+      "Beta": 0.423619365466548
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "table_name": "PANCANMIRS_EBADJONPROTOCOLPLATFORMWITHOUTREPSWITHUNCORRECTMIRS_08_04_16_FILTERED",
+  "table_fullname": "PANCANCER_ATLAS_1.PANCANCER_ATLAS_FILTERED.PANCANMIRS_EBADJONPROTOCOLPLATFORMWITHOUTREPSWITHUNCORRECTMIRS_08_04_16_FILTERED",
+  "column_names": [
+    "TeilnehmerBarcode",
+    "Studie",
+    "ID",
+    "ProbenTyp",
+    "ProbenTypBuchstabenCode",
+    "miRNAexpr",
+    "AliquotBarcode",
+    "Korrigiert",
+    "ProbenBarcode"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "FLOAT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "TCGA-Barcode-Identifikator für den Studienteilnehmer, z. B. TCGA-02-0001",
+    "TCGA-Studienabkürzung, z. B. LAML. Vollständige Liste verfügbar unter https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/tcga-study-abbreviations",
+    "Eine von 1870 eindeutigen miRNA-IDs (auch Symbole genannt) in dieser Tabelle, z. B. hsa-mir-21 -- relevante Referenzinformationen finden sich im isb-cgc:genome_reference-Datensatz in den Tabellen miRBase_v20 und miRBase_v20_hsa_gff3",
+    "Es gibt 10 Probenarten: Blutabgeleitete Normale, Primärer fester Tumor, Fester Gewebenormale, Rezidivierender fester Tumor, Metastatischer, Zusätzlich - Neues Primär-, Primärblutabgeleitetes Krebsgewebe - Peripheres Blut, Buccalzellen-Normale, Zusätzlich metastatischer, Knochenmark-Normale",
+    "Buchstabencode der Probenart unter Verwendung der TCGA-Standards, z. B. TPN, EBV. Vollständige Liste verfügbar unter https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/sample-type-codes",
+    "Normierte Häufigkeit (d. h. gelesene Million, RPM)",
+    "TCGA-Aliquot-Barcode, z. B. TCGA-12-1089-01A-01D-0517-28",
+    "Korrigierter und unkorrigierter Indikator, der angibt, ob die miRs durch die EBN+-Methode korrigiert wurden. Weitere Details unter https://www.synapse.org/#!Synapse:syn6171109",
+    "Barcode der Biospecimenprobe, z. B. TCGA-13-1489-02A"
+  ],
+  "sample_rows": [
+    {
+      "TeilnehmerBarcode": "TCGA-04-1331",
+      "ProbenBarcode": "TCGA-04-1331-01A",
+      "AliquotBarcode": "TCGA-04-1331-01A-01R-1569-13",
+      "ProbenTypBuchstabenCode": "TP",
+      "ProbenTyp": "Primary solid Tumor",
+      "Studie": "OV",
+      "ID": "hsa-miR-129-2-3p",
+      "miRNAexpr": 1.924155,
+      "Korrigiert": "Corrected"
+    },
+    {
+      "TeilnehmerBarcode": "TCGA-04-1331",
+      "ProbenBarcode": "TCGA-04-1331-01A",
+      "AliquotBarcode": "TCGA-04-1331-01A-01R-1569-13",
+      "ProbenTypBuchstabenCode": "TP",
+      "ProbenTyp": "Primary solid Tumor",
+      "Studie": "OV",
+      "ID": "hsa-miR-3130-5p",
+      "miRNAexpr": 35.184554,
+      "Korrigiert": "Corrected"
+    },
+    {
+      "TeilnehmerBarcode": "TCGA-04-1331",
+      "ProbenBarcode": "TCGA-04-1331-01A",
+      "AliquotBarcode": "TCGA-04-1331-01A-01R-1569-13",
+      "ProbenTypBuchstabenCode": "TP",
+      "ProbenTyp": "Primary solid Tumor",
+      "Studie": "OV",
+      "ID": "hsa-miR-454-3p",
+      "miRNAexpr": 0.274879,
+      "Korrigiert": "Corrected"
+    },
+    {
+      "TeilnehmerBarcode": "TCGA-04-1331",
+      "ProbenBarcode": "TCGA-04-1331-01A",
+      "AliquotBarcode": "TCGA-04-1331-01A-01R-1569-13",
+      "ProbenTypBuchstabenCode": "TP",
+      "ProbenTyp": "Primary solid Tumor",
+      "Studie": "OV",
+      "ID": "hsa-miR-501-5p",
+      "miRNAexpr": 7.696621,
+      "Korrigiert": "Corrected"
+    },
+    {
+      "TeilnehmerBarcode": "TCGA-04-1331",
+      "ProbenBarcode": "TCGA-04-1331-01A",
+      "AliquotBarcode": "TCGA-04-1331-01A-01R-1569-13",
+      "ProbenTypBuchstabenCode": "TP",
+      "ProbenTyp": "Primary solid Tumor",
+      "Studie": "OV",
+      "ID": "hsa-miR-3613-3p",
+      "miRNAexpr": 1.099517,
+      "Korrigiert": "Corrected"
+    }
+  ]
+}
