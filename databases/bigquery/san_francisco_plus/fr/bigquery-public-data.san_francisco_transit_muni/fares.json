@@ -1,0 +1,96 @@
+{
+  "table_name": "fares",
+  "table_fullname": "bigquery-public-data.san_francisco_transit_muni.fares",
+  "column_names": [
+    "id_tarif",
+    "id_cavalier",
+    "desc_cavalier",
+    "prix",
+    "methode_paiement",
+    "transferts_permis",
+    "duree_transfert"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "NUMERIC",
+    "STRING",
+    "STRING",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "id_tarif",
+    "id_cavalier",
+    "desc_cavalier",
+    "prix",
+    "methode_paiement",
+    "transferts_permis",
+    "duree_transfert"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "NUMERIC",
+    "STRING",
+    "STRING",
+    "INT64"
+  ],
+  "description": [
+    "Identifiant unique d'une classe de tarif.",
+    "Identifiant unique d'une catégorie de cavalier. Les catégories de cavaliers sont utilisées pour attribuer des tarifs différents à des groupes d'individus différents",
+    "Description textuelle de la catégorie de cavalier",
+    "Contient le prix du tarif, en USD",
+    "Indique quand le tarif doit être payé. Les valeurs suivantes sont valides pour ce champ : -  during: Indique que le tarif est payé lorsque les cavaliers montent à bord -  before: Indique que le tarif doit être payé avant que les cavaliers montent à bord",
+    "Spécifie le nombre de correspondances autorisées pour ce tarif.  -  0 : Aucune correspondance n'est autorisée pour ce tarif. -  1 : Une correspondance est autorisée pour ce tarif. -  2 : Deux correspondances sont autorisées pour ce tarif. -  NULL : Des correspondances illimitées sont autorisées pour ce tarif.",
+    "Spécifie la durée, en secondes, avant qu'une correspondance n'expire. Lorsqu'elle est utilisée avec une valeur de transfers_permitted de 0, le champ transfer_duration indique combien de temps un ticket est valable pour un tarif pour lequel aucune correspondance n'est autorisée."
+  ],
+  "sample_rows": [
+    {
+      "id_tarif": "5398",
+      "id_cavalier": "6",
+      "desc_cavalier": "Disabled",
+      "prix": "3.000000000",
+      "methode_paiement": "0",
+      "transferts_permis": null,
+      "duree_transfert": 5400
+    },
+    {
+      "id_tarif": "5398",
+      "id_cavalier": "5",
+      "desc_cavalier": "Youth",
+      "prix": "3.000000000",
+      "methode_paiement": "0",
+      "transferts_permis": null,
+      "duree_transfert": 5400
+    },
+    {
+      "id_tarif": "5398",
+      "id_cavalier": "3",
+      "desc_cavalier": "Child",
+      "prix": "3.000000000",
+      "methode_paiement": "0",
+      "transferts_permis": null,
+      "duree_transfert": 5400
+    },
+    {
+      "id_tarif": "5398",
+      "id_cavalier": "2",
+      "desc_cavalier": "Senior",
+      "prix": "3.000000000",
+      "methode_paiement": "0",
+      "transferts_permis": null,
+      "duree_transfert": 5400
+    },
+    {
+      "id_tarif": "5399",
+      "id_cavalier": "6",
+      "desc_cavalier": "Disabled",
+      "prix": "7.000000000",
+      "methode_paiement": "0",
+      "transferts_permis": "0.0",
+      "duree_transfert": 0
+    }
+  ]
+}
