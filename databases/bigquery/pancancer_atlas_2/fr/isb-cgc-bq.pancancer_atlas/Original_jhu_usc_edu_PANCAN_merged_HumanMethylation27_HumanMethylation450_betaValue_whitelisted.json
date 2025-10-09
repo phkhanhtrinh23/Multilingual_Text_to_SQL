@@ -1,0 +1,56 @@
+{
+  "table_name": "Original_jhu_usc_edu_PANCAN_merged_HumanMethylation27_HumanMethylation450_betaValue_whitelisted",
+  "table_fullname": "isb-cgc-bq.pancancer_atlas.Original_jhu_usc_edu_PANCAN_merged_HumanMethylation27_HumanMethylation450_betaValue_whitelisted",
+  "column_names": [
+    "Identifiant",
+    "CodeBarreAliquot",
+    "Beta"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "FLOAT64"
+  ],
+  "nested_column_names": [
+    "Identifiant",
+    "CodeBarreAliquot",
+    "Beta"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "FLOAT64"
+  ],
+  "description": [
+    "Identifiant unique de la sonde (par exemple `cg04676771`) à partir de l'array de méthylation de l'ADN humain Illumina -- veuillez vous référer au tableau d'annotation (`isb-cgc-bq.annotations.methylation_annotation_hg19_illumina_current`) pour plus de détails sur une sonde particulière",
+    "Code à barres de l'aliquote TCGA, par exemple `TCGA-12-1089-01A-01D-0517-28`",
+    "Valeur beta de méthylation de l'ADN normalisée (entre 0 et 1, où 0 indique complètement non méthylationné et 1 indique complètement méthylationné)"
+  ],
+  "sample_rows": [
+    {
+      "Identifiant": "cg19510484",
+      "CodeBarreAliquot": "TCGA-01-0628-11A-01D-0383-05",
+      "Beta": 0.0160995221688944
+    },
+    {
+      "Identifiant": "cg05786809",
+      "CodeBarreAliquot": "TCGA-01-0628-11A-01D-0383-05",
+      "Beta": 0.0350495728032872
+    },
+    {
+      "Identifiant": "cg18871670",
+      "CodeBarreAliquot": "TCGA-01-0628-11A-01D-0383-05",
+      "Beta": 0.036090943698553
+    },
+    {
+      "Identifiant": "cg10795646",
+      "CodeBarreAliquot": "TCGA-01-0628-11A-01D-0383-05",
+      "Beta": 0.447475489365782
+    },
+    {
+      "Identifiant": "cg18043280",
+      "CodeBarreAliquot": "TCGA-01-0628-11A-01D-0383-05",
+      "Beta": 0.816155830516454
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "table_name": "Original_TCGA_RPPA_pancan_clean",
+  "table_fullname": "isb-cgc-bq.pancancer_atlas.Original_TCGA_RPPA_pancan_clean",
+  "column_names": [
+    "CodeBarresAliquot",
+    "Étude",
+    "Protéine",
+    "Valeur"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64"
+  ],
+  "nested_column_names": [
+    "CodeBarresAliquot",
+    "Etude",
+    "Proteine",
+    "Valeur"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64"
+  ],
+  "description": [
+    "Code à barres de l'alias TCGA, par exemple TCGA-12-1089-01A-01D-0517-28",
+    "Abréviation d'étude TCGA, par exemple LAML. Liste complète disponible à https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/tcga-study-abbreviations",
+    "Symbole de protéine et statut de phosphorylation (le cas échéant), par exemple P53, JNK_pT183Y185",
+    "Niveau d'expression de la protéine mesuré par des tableaux de protéines à phase inverse (RPPAs). Exemples : 0.204238725, -0.01826295"
+  ],
+  "sample_rows": [
+    {
+      "CodeBarresAliquot": "TCGA-36-1577-01A-21-1558-20",
+      "Etude": "OV",
+      "Proteine": "AR",
+      "Valeur": 1.1373
+    },
+    {
+      "CodeBarresAliquot": "TCGA-25-1325-01A-21-1562-20",
+      "Etude": "OV",
+      "Proteine": "AR",
+      "Valeur": -0.0228
+    },
+    {
+      "CodeBarresAliquot": "TCGA-61-1899-01A-21-1559-20",
+      "Etude": "OV",
+      "Proteine": "AR",
+      "Valeur": 1.4535
+    },
+    {
+      "CodeBarresAliquot": "TCGA-61-1916-01A-21-1559-20",
+      "Etude": "OV",
+      "Proteine": "AR",
+      "Valeur": 0.84167
+    },
+    {
+      "CodeBarresAliquot": "TCGA-04-1644-01A-11-1562-20",
+      "Etude": "OV",
+      "Proteine": "AR",
+      "Valeur": -0.15876
+    }
+  ]
+}
