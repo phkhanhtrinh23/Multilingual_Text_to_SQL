@@ -1,0 +1,96 @@
+{
+  "table_name": "time",
+  "table_fullname": "bigquery-public-data.utility_us.time",
+  "column_names": [
+    "temps",
+    "heure",
+    "minute",
+    "seconde",
+    "seconde_dans_la_journee",
+    "heure_ampm",
+    "est_pm"
+  ],
+  "column_types": [
+    "TIME",
+    "INT64",
+    "INT64",
+    "INT64",
+    "INT64",
+    "INT64",
+    "BOOL"
+  ],
+  "nested_column_names": [
+    "temps",
+    "heure",
+    "minute",
+    "seconde",
+    "seconde_de_la_journee",
+    "heure_ampm",
+    "est_pm"
+  ],
+  "nested_column_types": [
+    "TIME",
+    "INT64",
+    "INT64",
+    "INT64",
+    "INT64",
+    "INT64",
+    "BOOL"
+  ],
+  "description": [
+    "Heure sous forme TIME - CAST('23:59:59' AS TIME)",
+    "Heure sous forme ENTIER - [0, 23]",
+    "Minute sous forme ENTIER - [0, 59]",
+    "Seconde sous forme ENTIER - [0, 59]",
+    "Secondes sous forme ENTIER - [0, 86399]; 00:00:00 = 0, 23:59:59 = 86399",
+    "Heure sous forme ENTIER - [1, 12]",
+    "AM = False, PM = True"
+  ],
+  "sample_rows": [
+    {
+      "temps": "00:00:26",
+      "heure": 0,
+      "minute": 0,
+      "seconde": 26,
+      "seconde_de_la_journee": 26,
+      "heure_ampm": 12,
+      "est_pm": false
+    },
+    {
+      "temps": "00:00:35",
+      "heure": 0,
+      "minute": 0,
+      "seconde": 35,
+      "seconde_de_la_journee": 35,
+      "heure_ampm": 12,
+      "est_pm": false
+    },
+    {
+      "temps": "00:00:37",
+      "heure": 0,
+      "minute": 0,
+      "seconde": 37,
+      "seconde_de_la_journee": 37,
+      "heure_ampm": 12,
+      "est_pm": false
+    },
+    {
+      "temps": "00:00:46",
+      "heure": 0,
+      "minute": 0,
+      "seconde": 46,
+      "seconde_de_la_journee": 46,
+      "heure_ampm": 12,
+      "est_pm": false
+    },
+    {
+      "temps": "00:00:57",
+      "heure": 0,
+      "minute": 0,
+      "seconde": 57,
+      "seconde_de_la_journee": 57,
+      "heure_ampm": 12,
+      "est_pm": false
+    }
+  ]
+}
