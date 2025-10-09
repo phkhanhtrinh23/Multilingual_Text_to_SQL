@@ -1,0 +1,126 @@
+{
+  "table_name": "population_evaluation_type",
+  "table_fullname": "bigquery-public-data.usfs_fia.population_evaluation_type",
+  "column_names": [
+    "numero_de_sequence_de_type_d_evaluation",
+    "numero_de_sequence_de_groupe_d_evaluation",
+    "numero_de_sequence_d_evaluation",
+    "type_d_evaluation",
+    "eval_type_created_by",
+    "eval_type_created_date",
+    "eval_type_created_in_instance",
+    "eval_type_modified_by",
+    "eval_type_modified_date",
+    "eval_type_modified_in_instance"
+  ],
+  "column_types": [
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING",
+    "DATE",
+    "INT64",
+    "STRING",
+    "DATE",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "numero_de_sequence_de_type_d_evaluation",
+    "numero_de_sequence_de_groupe_d_evaluation",
+    "numero_de_sequence_d_evaluation",
+    "type_d_evaluation",
+    "eval_type_created_by",
+    "eval_type_created_date",
+    "eval_type_created_in_instance",
+    "eval_type_modified_by",
+    "eval_type_modified_date",
+    "eval_type_modified_in_instance"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING",
+    "DATE",
+    "INT64",
+    "STRING",
+    "DATE",
+    "INT64"
+  ],
+  "description": [
+    "Un numéro de séquence unique utilisé pour identifier un type d'enregistrement d'évaluation de population.",
+    "Clé étrangère reliant l'enregistrement d'évaluation de population à l'enregistrement de groupe d'évaluation de population.",
+    "Clé étrangère reliant l'enregistrement d'unité d'estimation à l'enregistrement d'évaluation.",
+    "Décrit le type d'évaluation. Le type d'évaluation est nécessaire pour générer des rapports résumés pour un inventaire. Par exemple, une évaluation spécifique est associée à l'évaluation du volume des arbres (`EXPVOL`). Actuellement, neuf types d'évaluations peuvent être produits. Voir également la table `REF_POP_EVAL_TYP_DESCR`.",
+    "Voir la description de `SURVEY.CREATED_BY` pour la définition.",
+    "Voir la description de `SURVEY.CREATED_DATE` pour la définition.",
+    "Voir la description de `SURVEY.CREATED_IN_INSTANCE` pour la définition.",
+    "Voir la description de `SURVEY.MODIFIED_BY` pour la définition.",
+    "Voir la description de `SURVEY.MODIFIED_DATE` pour la définition.",
+    "Voir la description de `SURVEY.MODIFIED_IN_INSTANCE` pour la définition."
+  ],
+  "sample_rows": [
+    {
+      "numero_de_sequence_de_type_d_evaluation": 247340670010854,
+      "numero_de_sequence_de_groupe_d_evaluation": 246589849010854,
+      "numero_de_sequence_d_evaluation": 247334062010854,
+      "type_d_evaluation": "EXPGROW",
+      "eval_type_created_by": null,
+      "eval_type_created_date": "2010-08-27",
+      "eval_type_created_in_instance": 10854,
+      "eval_type_modified_by": null,
+      "eval_type_modified_date": "NaT",
+      "eval_type_modified_in_instance": null
+    },
+    {
+      "numero_de_sequence_de_type_d_evaluation": 247340671010854,
+      "numero_de_sequence_de_groupe_d_evaluation": 246589849010854,
+      "numero_de_sequence_d_evaluation": 247334062010854,
+      "type_d_evaluation": "EXPREMV",
+      "eval_type_created_by": null,
+      "eval_type_created_date": "2010-08-27",
+      "eval_type_created_in_instance": 10854,
+      "eval_type_modified_by": null,
+      "eval_type_modified_date": "NaT",
+      "eval_type_modified_in_instance": null
+    },
+    {
+      "numero_de_sequence_de_type_d_evaluation": 247340672010854,
+      "numero_de_sequence_de_groupe_d_evaluation": 246589849010854,
+      "numero_de_sequence_d_evaluation": 247334062010854,
+      "type_d_evaluation": "EXPMORT",
+      "eval_type_created_by": null,
+      "eval_type_created_date": "2010-08-27",
+      "eval_type_created_in_instance": 10854,
+      "eval_type_modified_by": null,
+      "eval_type_modified_date": "NaT",
+      "eval_type_modified_in_instance": null
+    },
+    {
+      "numero_de_sequence_de_type_d_evaluation": 215078424010854,
+      "numero_de_sequence_de_groupe_d_evaluation": 209643348010854,
+      "numero_de_sequence_d_evaluation": 209643345010854,
+      "type_d_evaluation": "EXPCURR",
+      "eval_type_created_by": null,
+      "eval_type_created_date": "2009-12-15",
+      "eval_type_created_in_instance": 10854,
+      "eval_type_modified_by": null,
+      "eval_type_modified_date": "NaT",
+      "eval_type_modified_in_instance": null
+    },
+    {
+      "numero_de_sequence_de_type_d_evaluation": 215078427010854,
+      "numero_de_sequence_de_groupe_d_evaluation": 209643348010854,
+      "numero_de_sequence_d_evaluation": 209643346010854,
+      "type_d_evaluation": "EXPVOL",
+      "eval_type_created_by": null,
+      "eval_type_created_date": "2009-12-15",
+      "eval_type_created_in_instance": 10854,
+      "eval_type_modified_by": null,
+      "eval_type_modified_date": "NaT",
+      "eval_type_modified_in_instance": null
+    }
+  ]
+}
