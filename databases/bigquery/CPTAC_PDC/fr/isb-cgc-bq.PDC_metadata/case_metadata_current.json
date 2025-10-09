@@ -1,0 +1,106 @@
+{
+  "table_name": "case_metadata_current",
+  "table_fullname": "isb-cgc-bq.PDC_metadata.case_metadata_current",
+  "column_names": [
+    "id_de_cas",
+    "id_de_soumetteur_de_cas",
+    "site_principal",
+    "type_de_maladie",
+    "nom_de_projet",
+    "nom_de_programme",
+    "id_de_projet",
+    "nombre_de_fichiers"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "id_de_cas",
+    "id_de_soumetteur_de_cas",
+    "site_principal",
+    "type_de_maladie",
+    "nom_de_projet",
+    "nom_de_programme",
+    "id_de_projet",
+    "nombre_de_fichiers"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64"
+  ],
+  "description": [
+    "Identifiant unique associé à un patient spécifique (e.g. 24cb0fcb-63d6-11e8-bcf1-0a2705229b82)",
+    "Identifiant unique dérivant du soumissionnaire de données associé à un patient spécifique (e.g. 05BR016)",
+    "Le terme textuel utilisé pour décrire l'emplacement général de la maladie maligne, catégorisé par la Classification internationale des maladies pour l'oncologie (ICD-O) de l'Organisation mondiale de la santé (OMS)",
+    "Le terme textuel utilisé pour décrire le type de maladie maligne, catégorisé par la Classification internationale des maladies pour l'oncologie (ICD-O) de l'Organisation mondiale de la santé (OMS)",
+    "Nom du projet (e.g. CPTAC-2)",
+    "Nom du programme source des données",
+    "UUID du projet PDC (e.g. edb4ca56-f1e8-11e9-9a07-0a80fada099c)",
+    "Nombre de fichiers associés à un certain case_id"
+  ],
+  "sample_rows": [
+    {
+      "id_de_cas": "48a488d1-88bf-4eb4-809f-eba13c7b3537",
+      "id_de_soumetteur_de_cas": "C224967",
+      "site_principal": null,
+      "type_de_maladie": "Complex Epithelial Neoplasms",
+      "nom_de_projet": "CPTAC3 Discovery and Confirmatory",
+      "nom_de_programme": "Clinical Proteomic Tumor Analysis Consortium",
+      "id_de_projet": "267d6671-0e78-11e9-a064-0a9c39d33490",
+      "nombre_de_fichiers": 168
+    },
+    {
+      "id_de_cas": "6ca38436-0581-4f2c-b2b3-5bded49d35c8",
+      "id_de_soumetteur_de_cas": "C283515",
+      "site_principal": "Brain",
+      "type_de_maladie": "Meningiomas",
+      "nom_de_projet": "CPTAC3 Discovery and Confirmatory",
+      "nom_de_programme": "Clinical Proteomic Tumor Analysis Consortium",
+      "id_de_projet": "267d6671-0e78-11e9-a064-0a9c39d33490",
+      "nombre_de_fichiers": 172
+    },
+    {
+      "id_de_cas": "1ac99f68-ba13-4ab7-bc0e-53556cfdba1d",
+      "id_de_soumetteur_de_cas": "C524103",
+      "site_principal": "Other and unspecified urinary organs",
+      "type_de_maladie": "Skin Cutaneous Melanoma",
+      "nom_de_projet": "CPTAC3 Discovery and Confirmatory",
+      "nom_de_programme": "Clinical Proteomic Tumor Analysis Consortium",
+      "id_de_projet": "267d6671-0e78-11e9-a064-0a9c39d33490",
+      "nombre_de_fichiers": 168
+    },
+    {
+      "id_de_cas": "9ff8dc1d-111a-43a0-9264-abb3adf5d1f3",
+      "id_de_soumetteur_de_cas": "C223491",
+      "site_principal": "Uterus, NOS",
+      "type_de_maladie": "Uterine Adenocarcinoma",
+      "nom_de_projet": "CPTAC3 Discovery and Confirmatory",
+      "nom_de_programme": "Clinical Proteomic Tumor Analysis Consortium",
+      "id_de_projet": "267d6671-0e78-11e9-a064-0a9c39d33490",
+      "nombre_de_fichiers": 168
+    },
+    {
+      "id_de_cas": "2c4089f4-44ae-40b9-9ede-405a88cc5c51",
+      "id_de_soumetteur_de_cas": "C621273",
+      "site_principal": "Colon",
+      "type_de_maladie": "Epithelial Neoplasms, NOS",
+      "nom_de_projet": "CPTAC3 Discovery and Confirmatory",
+      "nom_de_programme": "Clinical Proteomic Tumor Analysis Consortium",
+      "id_de_projet": "267d6671-0e78-11e9-a064-0a9c39d33490",
+      "nombre_de_fichiers": 168
+    }
+  ]
+}

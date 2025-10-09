@@ -1,0 +1,76 @@
+{
+  "table_name": "file_associated_entity_mapping_current",
+  "table_fullname": "isb-cgc-bq.PDC_metadata.file_associated_entity_mapping_current",
+  "column_names": [
+    "id_fichier",
+    "id_dossier",
+    "id_entité",
+    "id_expéditeur_entité",
+    "type_entité"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "id_fichier",
+    "id_dossier",
+    "id_entité",
+    "id_expéditeur_entité",
+    "type_entité"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "Un identifiant (UUID) pour identifier de manière unique le fichier dans PDC (e.g. 795dd383-5efd-484b-9c2f-f061ae617fc7)",
+    "Identifiant unique associé à un patient spécifique (e.g. 24cb0fcb-63d6-11e8-bcf1-0a2705229b82)",
+    "Un identifiant (UUID) pour identifier de manière unique l'entité dans PDC  (e.g. 2a6b4244-6428-11e8-bcf1-0a2705229b82, qui fait référence à un aliquot)",
+    "Identifiant unique dérivant du soumetteur de données qui est associé à une entité spécifique (e.g. TCGA-61-1911-01A-32-2224-29)",
+    "Type d'entité associé (e.g. aliquot ou case)"
+  ],
+  "sample_rows": [
+    {
+      "id_fichier": "ef9f2ec8-8de6-453a-9848-4f8ac587644f",
+      "id_dossier": "0067a0e0-63d8-11e8-bcf1-0a2705229b82",
+      "id_entité": "2a6b4244-6428-11e8-bcf1-0a2705229b82",
+      "id_expéditeur_entité": "TCGA-61-1911-01A-32-2224-29",
+      "type_entité": "aliquot"
+    },
+    {
+      "id_fichier": "26a67215-9cf0-46cb-aef8-1938df733d2b",
+      "id_dossier": "0067a0e0-63d8-11e8-bcf1-0a2705229b82",
+      "id_entité": "2a6b4244-6428-11e8-bcf1-0a2705229b82",
+      "id_expéditeur_entité": "TCGA-61-1911-01A-32-2224-29",
+      "type_entité": "aliquot"
+    },
+    {
+      "id_fichier": "b8cb61c9-68bb-4fc0-9e70-3e39ea3e2976",
+      "id_dossier": "0067a0e0-63d8-11e8-bcf1-0a2705229b82",
+      "id_entité": "2a6b4244-6428-11e8-bcf1-0a2705229b82",
+      "id_expéditeur_entité": "TCGA-61-1911-01A-32-2224-29",
+      "type_entité": "aliquot"
+    },
+    {
+      "id_fichier": "e32baef6-7002-47db-a43d-cb74e752ee4f",
+      "id_dossier": "0067a0e0-63d8-11e8-bcf1-0a2705229b82",
+      "id_entité": "2a6b4244-6428-11e8-bcf1-0a2705229b82",
+      "id_expéditeur_entité": "TCGA-61-1911-01A-32-2224-29",
+      "type_entité": "aliquot"
+    },
+    {
+      "id_fichier": "7535654e-5a22-420a-9fdf-93fb44f7c421",
+      "id_dossier": "0067a0e0-63d8-11e8-bcf1-0a2705229b82",
+      "id_entité": "2a6b4244-6428-11e8-bcf1-0a2705229b82",
+      "id_expéditeur_entité": "TCGA-61-1911-01A-32-2224-29",
+      "type_entité": "aliquot"
+    }
+  ]
+}
