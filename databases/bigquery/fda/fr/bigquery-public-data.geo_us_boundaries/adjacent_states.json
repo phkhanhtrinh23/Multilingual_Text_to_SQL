@@ -1,0 +1,76 @@
+{
+  "table_name": "adjacent_states",
+  "table_fullname": "bigquery-public-data.geo_us_boundaries.adjacent_states",
+  "column_names": [
+    "état",
+    "nom_de_létat",
+    "code_fips_de_létat",
+    "état_voisin",
+    "code_fips_des_états_voisins"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "ARRAY<STRING>",
+    "ARRAY<STRING>"
+  ],
+  "nested_column_names": [
+    "état",
+    "nom_de_létat",
+    "code_fips_de_létat",
+    "état_voisin",
+    "code_fips_des_états_voisins"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "ARRAY<STRING>",
+    "ARRAY<STRING>"
+  ],
+  "description": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "sample_rows": [
+    {
+      "état": "AL",
+      "nom_de_létat": "Alabama",
+      "code_fips_de_létat": "01",
+      "état_voisin": "['Florida' 'Georgia' 'Mississippi' 'Tennessee']",
+      "code_fips_des_états_voisins": "['12' '13' '28' '47']"
+    },
+    {
+      "état": "AR",
+      "nom_de_létat": "Arkansas",
+      "code_fips_de_létat": "05",
+      "état_voisin": "['Tennessee' 'Texas' 'Missouri' 'Mississippi' 'Louisiana' 'Oklahoma']",
+      "code_fips_des_états_voisins": "['47' '48' '29' '28' '22' '40']"
+    },
+    {
+      "état": "AZ",
+      "nom_de_létat": "Arizona",
+      "code_fips_de_létat": "04",
+      "état_voisin": "['Nevada' 'New Mexico' 'Colorado' 'California' 'Utah']",
+      "code_fips_des_états_voisins": "['32' '35' '08' '06' '49']"
+    },
+    {
+      "état": "CA",
+      "nom_de_létat": "California",
+      "code_fips_de_létat": "06",
+      "état_voisin": "['Arizona' 'Nevada' 'Oregon']",
+      "code_fips_des_états_voisins": "['04' '32' '41']"
+    },
+    {
+      "état": "CO",
+      "nom_de_létat": "Colorado",
+      "code_fips_de_létat": "08",
+      "état_voisin": "['Kansas' 'New Mexico' 'Nebraska' 'Utah' 'Wyoming' 'Arizona' 'Oklahoma']",
+      "code_fips_des_états_voisins": "['20' '35' '31' '49' '56' '04' '40']"
+    }
+  ]
+}
