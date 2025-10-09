@@ -1,0 +1,86 @@
+{
+  "table_name": "zip_to_county",
+  "table_fullname": "bigquery-public-data.hud_zipcode_crosswalk.zip_to_county",
+  "column_names": [
+    "code_postal",
+    "geoid_comte",
+    "ratio_residentiel",
+    "ratio_commercial",
+    "ratio_autre",
+    "ratio_total"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "NUMERIC",
+    "NUMERIC",
+    "NUMERIC",
+    "NUMERIC"
+  ],
+  "nested_column_names": [
+    "code_postal",
+    "geoid_comte",
+    "ratio_residentiel",
+    "ratio_commercial",
+    "ratio_autre",
+    "ratio_total"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "NUMERIC",
+    "NUMERIC",
+    "NUMERIC",
+    "NUMERIC"
+  ],
+  "description": [
+    "Code postal USPS à 5 chiffres.",
+    "Géocode de comté unique à 5 chiffres du recensement de 2000 ou 2010, composé de l'État FIPS + du comté FIPS. Cela peut correspondre à plusieurs ZIP USPS. Correspond à 'geo_id' dans les tables avec des données de comté",
+    "Le ratio d'adresses résidentielles dans la partie comté - ZIP par rapport au nombre total d'adresses résidentielles dans l'ensemble du ZIP.",
+    "Le ratio d'adresses professionnelles dans la partie comté - ZIP par rapport au nombre total d'adresses professionnelles dans l'ensemble du ZIP.",
+    "Le ratio d'autres adresses dans la partie comté - ZIP par rapport au nombre total d'adresses professionnelles dans l'ensemble du ZIP.",
+    "Le ratio de toutes les adresses dans la partie comté - ZIP par rapport au nombre total d'adresses professionnelles dans l'ensemble du ZIP."
+  ],
+  "sample_rows": [
+    {
+      "code_postal": "36758",
+      "geoid_comte": "01001",
+      "ratio_residentiel": "0.194743130",
+      "ratio_commercial": "0.090909091",
+      "ratio_autre": "0E-9",
+      "ratio_total": "0.191860465"
+    },
+    {
+      "code_postal": "36006",
+      "geoid_comte": "01001",
+      "ratio_residentiel": "0.711048159",
+      "ratio_commercial": "0.529411765",
+      "ratio_autre": "0.555555556",
+      "ratio_total": "0.704918033"
+    },
+    {
+      "code_postal": "36022",
+      "geoid_comte": "01001",
+      "ratio_residentiel": "0.366555925",
+      "ratio_commercial": "0.242990654",
+      "ratio_autre": "0.350000000",
+      "ratio_total": "0.364454094"
+    },
+    {
+      "code_postal": "36066",
+      "geoid_comte": "01001",
+      "ratio_residentiel": "0.898141493",
+      "ratio_commercial": "0.723684211",
+      "ratio_autre": "0.743002545",
+      "ratio_total": "0.880370914"
+    },
+    {
+      "code_postal": "36749",
+      "geoid_comte": "01001",
+      "ratio_residentiel": "0.595273264",
+      "ratio_commercial": "0.333333333",
+      "ratio_autre": "0.388888889",
+      "ratio_total": "0.586647727"
+    }
+  ]
+}
