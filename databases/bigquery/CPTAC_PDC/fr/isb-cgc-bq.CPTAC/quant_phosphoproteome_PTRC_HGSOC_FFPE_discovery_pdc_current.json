@@ -1,0 +1,116 @@
+{
+  "table_name": "quant_phosphoproteome_PTRC_HGSOC_FFPE_discovery_pdc_current",
+  "table_fullname": "isb-cgc-bq.CPTAC.quant_phosphoproteome_PTRC_HGSOC_FFPE_discovery_pdc_current",
+  "column_names": [
+    "id_de_cas",
+    "id_d_echantillon",
+    "id_d_aliquote",
+    "id_de_soumission_d_aliquote",
+    "id_de_metadonnees_d_execution_d_aliquote",
+    "nom_d_etude",
+    "abondance_de_proteine_log2ratio",
+    "id_refseq",
+    "sites_de_phosphorylation"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "id_de_cas",
+    "id_d_echantillon",
+    "id_d_aliquote",
+    "id_de_soumission_d_aliquote",
+    "id_de_metadonnees_d_execution_d_aliquote",
+    "nom_d_etude",
+    "abondance_de_proteine_log2ratio",
+    "id_refseq",
+    "sites_de_phosphorylation"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "Identifiant unique associé à un patient spécifique (e.g. 24cb0fcb-63d6-11e8-bcf1-0a2705229b82)",
+    "Identifiant PDC unique pour cet échantillon (e.g. e8d83eb9-693a-11ea-b1fd-0aad30af8a83)",
+    "Identifiant PDC unique pour cet aliquot (e.g. e8db124a-693a-11ea-b1fd-0aad30af8a83)",
+    "ID de soumission d'aliquot attribué par le programme (e.g. T14)",
+    "Identifie de manière unique l'aliquot en fonction de son utilisation dans l'expérience (en fonction du réactif d'étiquetage et/ou de la répétition biologique)",
+    "Nom de l'étude (e.g. Étude pilote sur le cancer du cerveau pédiatrique - Phosphoprotéome)",
+    "Rapport log-moyen des ions rapporteurs d'échantillon par rapport à la référence commune des ions de peptides associés au gène dans les acquisitions d'un échantillon biologique spécifique",
+    "Identifiant unique donné à une séquence dans la base de données NCBI RefSeq",
+    "Codes à lettre unique et positions de séquence de protéine des acides aminés phosphorylés (e.g. t304s310, t59)"
+  ],
+  "sample_rows": [
+    {
+      "id_de_cas": "6dc777d4-4a5b-4387-9ed2-0d2fa9f4ff72",
+      "id_d_echantillon": "16d7cf28-d501-4845-af50-581879c46b79",
+      "id_d_aliquote": "47b273c2-d4a5-4cf6-8ed8-551cd6c5fe0c",
+      "id_de_soumission_d_aliquote": "Frozen-bridge",
+      "id_de_metadonnees_d_execution_d_aliquote": "00b4ad2e-0b60-4edb-8d1f-1f4d6d8b9e45",
+      "nom_d_etude": "PTRC HGSOC FFPE Discovery - Phosphoproteome",
+      "abondance_de_proteine_log2ratio": -0.4584,
+      "id_refseq": "NP_001032752.1",
+      "sites_de_phosphorylation": "s106"
+    },
+    {
+      "id_de_cas": "6dc777d4-4a5b-4387-9ed2-0d2fa9f4ff72",
+      "id_d_echantillon": "16d7cf28-d501-4845-af50-581879c46b79",
+      "id_d_aliquote": "47b273c2-d4a5-4cf6-8ed8-551cd6c5fe0c",
+      "id_de_soumission_d_aliquote": "Frozen-bridge",
+      "id_de_metadonnees_d_execution_d_aliquote": "00b4ad2e-0b60-4edb-8d1f-1f4d6d8b9e45",
+      "nom_d_etude": "PTRC HGSOC FFPE Discovery - Phosphoproteome",
+      "abondance_de_proteine_log2ratio": 0.2839,
+      "id_refseq": "NP_001121689.1",
+      "sites_de_phosphorylation": "s129"
+    },
+    {
+      "id_de_cas": "6dc777d4-4a5b-4387-9ed2-0d2fa9f4ff72",
+      "id_d_echantillon": "16d7cf28-d501-4845-af50-581879c46b79",
+      "id_d_aliquote": "47b273c2-d4a5-4cf6-8ed8-551cd6c5fe0c",
+      "id_de_soumission_d_aliquote": "Frozen-bridge",
+      "id_de_metadonnees_d_execution_d_aliquote": "00b4ad2e-0b60-4edb-8d1f-1f4d6d8b9e45",
+      "nom_d_etude": "PTRC HGSOC FFPE Discovery - Phosphoproteome",
+      "abondance_de_proteine_log2ratio": 0.9428,
+      "id_refseq": "NP_001127836.1",
+      "sites_de_phosphorylation": "s636"
+    },
+    {
+      "id_de_cas": "6dc777d4-4a5b-4387-9ed2-0d2fa9f4ff72",
+      "id_d_echantillon": "16d7cf28-d501-4845-af50-581879c46b79",
+      "id_d_aliquote": "47b273c2-d4a5-4cf6-8ed8-551cd6c5fe0c",
+      "id_de_soumission_d_aliquote": "Frozen-bridge",
+      "id_de_metadonnees_d_execution_d_aliquote": "00b4ad2e-0b60-4edb-8d1f-1f4d6d8b9e45",
+      "nom_d_etude": "PTRC HGSOC FFPE Discovery - Phosphoproteome",
+      "abondance_de_proteine_log2ratio": -1.1168,
+      "id_refseq": "NP_001128409.1",
+      "sites_de_phosphorylation": "s486"
+    },
+    {
+      "id_de_cas": "6dc777d4-4a5b-4387-9ed2-0d2fa9f4ff72",
+      "id_d_echantillon": "16d7cf28-d501-4845-af50-581879c46b79",
+      "id_d_aliquote": "47b273c2-d4a5-4cf6-8ed8-551cd6c5fe0c",
+      "id_de_soumission_d_aliquote": "Frozen-bridge",
+      "id_de_metadonnees_d_execution_d_aliquote": "00b4ad2e-0b60-4edb-8d1f-1f4d6d8b9e45",
+      "nom_d_etude": "PTRC HGSOC FFPE Discovery - Phosphoproteome",
+      "abondance_de_proteine_log2ratio": -0.7,
+      "id_refseq": "NP_001139019.1",
+      "sites_de_phosphorylation": "s155"
+    }
+  ]
+}
