@@ -1,0 +1,106 @@
+{
+  "table_name": "drug_indication_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.drug_indication_30",
+  "column_names": [
+    "id_indication_médicament",
+    "id_enregistrement",
+    "molregno",
+    "phase_maximale_pour_indication",
+    "id_mesh",
+    "intitulé_mesh",
+    "efo_id",
+    "terme_efo"
+  ],
+  "column_types": [
+    "INT64",
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "id_indication_médicament",
+    "id_enregistrement",
+    "molregno",
+    "phase_maximale_pour_indication",
+    "id_mesh",
+    "intitulé_mesh",
+    "efo_id",
+    "terme_efo"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "Clé primaire",
+    "Clé étrangère vers la table compound_records. Lie le dossier de médicament auquel cette indication s'applique",
+    "Molregno correspondant à l'ID de dossier dans la table compound_records",
+    "La phase maximale de développement que le médicament est connu pour avoir atteint pour cette indication particulière",
+    "Identifiant de maladie Medical Subject Headings (MeSH) correspondant à l'indication",
+    "Terme Medical Subject Heading pour l'ID de maladie MeSH",
+    "Identifiant de maladie Experimental Factor Ontology (EFO) correspondant à l'indication",
+    "Terme Experimental Factor Ontology pour l'ID EFO"
+  ],
+  "sample_rows": [
+    {
+      "id_indication_médicament": 54362,
+      "id_enregistrement": 1697032,
+      "molregno": 1380217,
+      "phase_maximale_pour_indication": 0,
+      "id_mesh": "D000375",
+      "intitulé_mesh": "Aging",
+      "efo_id": "GO:0007568",
+      "terme_efo": "aging"
+    },
+    {
+      "id_indication_médicament": 122845,
+      "id_enregistrement": 1344486,
+      "molregno": 675637,
+      "phase_maximale_pour_indication": 0,
+      "id_mesh": "D000375",
+      "intitulé_mesh": "Aging",
+      "efo_id": "GO:0007568",
+      "terme_efo": "aging"
+    },
+    {
+      "id_indication_médicament": 121760,
+      "id_enregistrement": 1701733,
+      "molregno": 1377512,
+      "phase_maximale_pour_indication": 0,
+      "id_mesh": "D014549",
+      "intitulé_mesh": "Urinary Incontinence",
+      "efo_id": "HP:0000020",
+      "terme_efo": "Urinary incontinence"
+    },
+    {
+      "id_indication_médicament": 130058,
+      "id_enregistrement": 3460748,
+      "molregno": 1797543,
+      "phase_maximale_pour_indication": 0,
+      "id_mesh": "D014549",
+      "intitulé_mesh": "Urinary Incontinence",
+      "efo_id": "HP:0000020",
+      "terme_efo": "Urinary incontinence"
+    },
+    {
+      "id_indication_médicament": 121019,
+      "id_enregistrement": 1344763,
+      "molregno": 858397,
+      "phase_maximale_pour_indication": 0,
+      "id_mesh": "D051437",
+      "intitulé_mesh": "Renal Insufficiency",
+      "efo_id": "HP:0000083",
+      "terme_efo": "Renal insufficiency"
+    }
+  ]
+}
