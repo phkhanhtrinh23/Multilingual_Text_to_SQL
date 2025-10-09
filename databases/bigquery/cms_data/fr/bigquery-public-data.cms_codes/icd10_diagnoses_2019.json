@@ -1,0 +1,76 @@
+{
+  "table_name": "icd10_diagnoses_2019",
+  "table_fullname": "bigquery-public-data.cms_codes.icd10_diagnoses_2019",
+  "column_names": [
+    "numero_de_commande",
+    "code_cm",
+    "est_code_d_entete",
+    "description_courte",
+    "description_longue"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "BOOL",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "numero_de_commande",
+    "code_cm",
+    "est_code_d_entete",
+    "description_courte",
+    "description_longue"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "BOOL",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "Code d'en-tête unique qui facilite aux utilisateurs la communication d'une gamme de codes",
+    "Code de diagnostic",
+    "TRUE -  Le code est un code « d'en-tête » et n'est pas valide pour les transactions couvertes par HIPAA. FALSE - Le code est valide pour la soumission de transactions couvertes par HIPAA.",
+    "Description textuelle courte du diagnostic",
+    "Description textuelle complète du diagnostic"
+  ],
+  "sample_rows": [
+    {
+      "numero_de_commande": "00004",
+      "code_cm": "A009",
+      "est_code_d_entete": false,
+      "description_courte": "Cholera, unspecified",
+      "description_longue": "Cholera, unspecified"
+    },
+    {
+      "numero_de_commande": "01543",
+      "code_cm": "C4339",
+      "est_code_d_entete": false,
+      "description_courte": "Malignant melanoma of other parts of face",
+      "description_longue": "Malignant melanoma of other parts of face"
+    },
+    {
+      "numero_de_commande": "03541",
+      "code_cm": "D696",
+      "est_code_d_entete": false,
+      "description_courte": "Thrombocytopenia, unspecified",
+      "description_longue": "Thrombocytopenia, unspecified"
+    },
+    {
+      "numero_de_commande": "03955",
+      "code_cm": "E093593",
+      "est_code_d_entete": false,
+      "description_courte": "Drug/chem diab with prolif diab rtnop without mclr edema, bi",
+      "description_longue": "Drug or chemical induced diabetes mellitus with proliferative diabetic retinopathy without macular edema, bilateral"
+    },
+    {
+      "numero_de_commande": "05041",
+      "code_cm": "F12129",
+      "est_code_d_entete": false,
+      "description_courte": "Cannabis abuse with intoxication, unspecified",
+      "description_longue": "Cannabis abuse with intoxication, unspecified"
+    }
+  ]
+}

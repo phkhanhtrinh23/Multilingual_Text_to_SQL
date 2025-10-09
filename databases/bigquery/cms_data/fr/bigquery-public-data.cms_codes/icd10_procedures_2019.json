@@ -1,0 +1,76 @@
+{
+  "table_name": "icd10_procedures_2019",
+  "table_fullname": "bigquery-public-data.cms_codes.icd10_procedures_2019",
+  "column_names": [
+    "numero_de_commande",
+    "code_pcs",
+    "est_code_d_entete",
+    "description_courte",
+    "description_longue"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "BOOL",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "numero_de_commande",
+    "code_pcs",
+    "est_code_d_entete",
+    "description_courte",
+    "description_longue"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "BOOL",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "Identifiant unique qui facilite aux utilisateurs la communication d'une gamme de codes",
+    "Code de procédure",
+    "TRUE - Le code est un code « d'en-tête » et n'est pas valide pour les transactions couvertes par HIPAA. FALSE - Le code est valide pour la soumission de transactions couvertes par HIPAA.",
+    "Description textuelle courte de la procédure",
+    "Description textuelle complète de la procédure"
+  ],
+  "sample_rows": [
+    {
+      "numero_de_commande": "67369",
+      "code_pcs": "0XH",
+      "est_code_d_entete": null,
+      "description_courte": null,
+      "description_longue": null
+    },
+    {
+      "numero_de_commande": "67514",
+      "code_pcs": "0XJ",
+      "est_code_d_entete": null,
+      "description_courte": null,
+      "description_longue": null
+    },
+    {
+      "numero_de_commande": "67579",
+      "code_pcs": "0XM",
+      "est_code_d_entete": null,
+      "description_courte": null,
+      "description_longue": null
+    },
+    {
+      "numero_de_commande": "67608",
+      "code_pcs": "0XP",
+      "est_code_d_entete": null,
+      "description_courte": null,
+      "description_longue": null
+    },
+    {
+      "numero_de_commande": "67665",
+      "code_pcs": "0XQ",
+      "est_code_d_entete": null,
+      "description_courte": null,
+      "description_longue": null
+    }
+  ]
+}
