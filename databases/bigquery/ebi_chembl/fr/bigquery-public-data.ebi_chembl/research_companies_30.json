@@ -1,0 +1,76 @@
+{
+  "table_name": "research_companies_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.research_companies_30",
+  "column_names": [
+    "id_racine_co",
+    "id_racine_res",
+    "entreprise",
+    "pays",
+    "entreprise_precedente"
+  ],
+  "column_types": [
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "id_racine_co",
+    "id_racine_res",
+    "entreprise",
+    "pays",
+    "entreprise_precedente"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "Clé primaire.",
+    "Clé étrangère vers la table `research_stem`.",
+    "Nom de l'entreprise actuelle associée à ce code stem de recherche.",
+    "Pays dans lequel l'entreprise utilise ce code stem de recherche.",
+    "Ancien nom de l'entreprise associée à ce code stem de recherche (par exemple, si l'entreprise a subi des acquisitions/fusions)."
+  ],
+  "sample_rows": [
+    {
+      "id_racine_co": 541,
+      "id_racine_res": 149,
+      "entreprise": "Vernalis",
+      "pays": "UK",
+      "entreprise_precedente": "Cita NeuroPharmaceuticals"
+    },
+    {
+      "id_racine_co": 681,
+      "id_racine_res": 28,
+      "entreprise": "GlaxoSmithKline",
+      "pays": "UK",
+      "entreprise_precedente": "Allen & Hanburys"
+    },
+    {
+      "id_racine_co": 683,
+      "id_racine_res": 3,
+      "entreprise": "AstraZeneca",
+      "pays": "UK",
+      "entreprise_precedente": "Astra"
+    },
+    {
+      "id_racine_co": 687,
+      "id_racine_res": 106,
+      "entreprise": "GlaxoSmithKline",
+      "pays": "UK",
+      "entreprise_precedente": "Borroughs Wellcome"
+    },
+    {
+      "id_racine_co": 688,
+      "id_racine_res": 77,
+      "entreprise": "Vernalis",
+      "pays": "UK",
+      "entreprise_precedente": "British Biotech"
+    }
+  ]
+}
