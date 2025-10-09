@@ -1,0 +1,126 @@
+{
+  "table_name": "rel16_caseData",
+  "table_fullname": "isb-cgc.GDC_metadata.rel16_caseData",
+  "column_names": [
+    "id_gdc_cas",
+    "numero_dacceso_dbgap_de_projet",
+    "type_de_maladie_de_projet",
+    "nom_de_projet",
+    "numero_dacceso_dbgap_de_programme",
+    "nom_de_programme",
+    "id_de_projet",
+    "code_barre_cas",
+    "nombre_de_fichiers_herites",
+    "nombre_de_fichiers_actifs"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "case_gdc_id",
+    "project_dbgap_accession_number",
+    "project_type_de_maladie",
+    "project_name",
+    "program_dbgap_accession_number",
+    "program_name",
+    "project_id",
+    "case_barcode",
+    "nombre_de_fichiers_hérités",
+    "active_file_count"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "INT64"
+  ],
+  "description": [
+    "Identifiant unique GDC",
+    "Numéro d'accès dbGaP du programme, par exemple phs000184",
+    "Le type de maladie étudiée par le projet ; par exemple Sarcoma, Carcinome invasive du sein, Leucémie lymphoblastique aiguë, etc",
+    "Nom du projet ; fréquemment le même que ou similaire au type de maladie du projet, par exemple Leucémie lymphoblastique aiguë - Phase II ou Carcinome invasive du sein, etc",
+    "Numéro d'accès dbGaP du programme, par exemple phs000178",
+    "Nom du programme, par exemple TCGA ou TARGET",
+    "ID du projet -- par exemple TCGA-BRCA, TARGET-AML, etc",
+    "Identifiant du soumetteur, par exemple HCC1954, TCGA-ZX-AA5X, etc",
+    "Nombre total de fichiers pour ce cas dans l'archive legacy GDC",
+    "Nombre total de fichiers pour ce cas dans l'archive GDC active (par défaut)"
+  ],
+  "sample_rows": [
+    {
+      "case_gdc_id": "8e20b23c-1e5c-4edc-8263-ec3ec3abf482",
+      "project_dbgap_accession_number": "phs001179",
+      "project_type_de_maladie": "multi",
+      "project_name": "Foundation Medicine Adult Cancer Clinical Dataset (FM-AD)",
+      "program_dbgap_accession_number": null,
+      "program_name": "FM",
+      "project_id": "FM-AD",
+      "case_barcode": "AD1",
+      "nombre_de_fichiers_hérités": 0,
+      "active_file_count": 5
+    },
+    {
+      "case_gdc_id": "35818db5-87e9-4c42-9d4c-902bbfaa09ea",
+      "project_dbgap_accession_number": "phs001179",
+      "project_type_de_maladie": "multi",
+      "project_name": "Foundation Medicine Adult Cancer Clinical Dataset (FM-AD)",
+      "program_dbgap_accession_number": null,
+      "program_name": "FM",
+      "project_id": "FM-AD",
+      "case_barcode": "AD2",
+      "nombre_de_fichiers_hérités": 0,
+      "active_file_count": 5
+    },
+    {
+      "case_gdc_id": "59b7703e-5bd6-4a2f-b4a6-be80ad6871e9",
+      "project_dbgap_accession_number": "phs001179",
+      "project_type_de_maladie": "multi",
+      "project_name": "Foundation Medicine Adult Cancer Clinical Dataset (FM-AD)",
+      "program_dbgap_accession_number": null,
+      "program_name": "FM",
+      "project_id": "FM-AD",
+      "case_barcode": "AD3",
+      "nombre_de_fichiers_hérités": 0,
+      "active_file_count": 5
+    },
+    {
+      "case_gdc_id": "066801c5-7723-473e-af4e-3e227d1a680c",
+      "project_dbgap_accession_number": "phs001179",
+      "project_type_de_maladie": "multi",
+      "project_name": "Foundation Medicine Adult Cancer Clinical Dataset (FM-AD)",
+      "program_dbgap_accession_number": null,
+      "program_name": "FM",
+      "project_id": "FM-AD",
+      "case_barcode": "AD4",
+      "nombre_de_fichiers_hérités": 0,
+      "active_file_count": 5
+    },
+    {
+      "case_gdc_id": "e2cf827c-f437-4759-8651-9317dd291fa5",
+      "project_dbgap_accession_number": "phs001179",
+      "project_type_de_maladie": "multi",
+      "project_name": "Foundation Medicine Adult Cancer Clinical Dataset (FM-AD)",
+      "program_dbgap_accession_number": null,
+      "program_name": "FM",
+      "project_id": "FM-AD",
+      "case_barcode": "AD5",
+      "nombre_de_fichiers_hérités": 0,
+      "active_file_count": 5
+    }
+  ]
+}
