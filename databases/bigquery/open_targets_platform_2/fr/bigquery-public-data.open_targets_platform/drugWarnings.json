@@ -1,0 +1,177 @@
+{
+  "table_name": "drugWarnings",
+  "table_fullname": "bigquery-public-data.open_targets_platform.drugWarnings",
+  "column_names": [
+    "chemblIds",
+    "classeDeToxicite",
+    "pays",
+    "description",
+    "id",
+    "references",
+    "typeDavertissement",
+    "annee",
+    "efo_term",
+    "efo_id",
+    "efo_id_for_warning_class"
+  ],
+  "column_types": [
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "STRUCT<list ARRAY<STRUCT<element STRUCT<ref_id STRING, ref_type STRING, ref_url STRING>>>>",
+    "STRING",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "identifiantsChembbl",
+    "listeIdentifiantsChembbl",
+    "élémentDeLaListeDesIdentifiantsChembbl",
+    "classeDeToxicité",
+    "pays",
+    "description",
+    "id",
+    "références",
+    "listeDesRéférences",
+    "élémentDeLaListeDesRéférences",
+    "idDeRéférenceDeLÉlémentDeLaListe",
+    "typeDeRéférenceDeLÉlémentDeLaListe",
+    "urlDeRéférenceDeLÉlémentDeLaListe",
+    "typeDavertissement",
+    "année",
+    "termeEfo",
+    "idEfo",
+    "idEfoPourLaClasseDavertissement"
+  ],
+  "nested_column_types": [
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+    "ARRAY<STRUCT<element STRING>>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "STRUCT<list ARRAY<STRUCT<element STRUCT<ref_id STRING, ref_type STRING, ref_url STRING>>>>",
+    "ARRAY<STRUCT<element STRUCT<ref_id STRING, ref_type STRING, ref_url STRING>>>",
+    "STRUCT<ref_id STRING, ref_type STRING, ref_url STRING>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "sample_rows": [
+    {
+      "identifiantsChembbl": {
+        "list": "[{'element': 'CHEMBL3039594'} {'element': 'CHEMBL3039597'}]"
+      },
+      "classeDeToxicité": null,
+      "pays": "United States",
+      "description": null,
+      "id": 2817,
+      "références": {
+        "list": "[]"
+      },
+      "typeDavertissement": "Black Box Warning",
+      "année": null,
+      "termeEfo": null,
+      "idEfo": null,
+      "idEfoPourLaClasseDavertissement": null
+    },
+    {
+      "identifiantsChembbl": {
+        "list": "[{'element': 'CHEMBL3989677'} {'element': 'CHEMBL1457'}]"
+      },
+      "classeDeToxicité": null,
+      "pays": "United States",
+      "description": null,
+      "id": 2818,
+      "références": {
+        "list": "[]"
+      },
+      "typeDavertissement": "Black Box Warning",
+      "année": null,
+      "termeEfo": null,
+      "idEfo": null,
+      "idEfoPourLaClasseDavertissement": null
+    },
+    {
+      "identifiantsChembbl": {
+        "list": "[{'element': 'CHEMBL2359966'} {'element': 'CHEMBL170'}]"
+      },
+      "classeDeToxicité": null,
+      "pays": "United States",
+      "description": null,
+      "id": 2820,
+      "références": {
+        "list": "[]"
+      },
+      "typeDavertissement": "Black Box Warning",
+      "année": null,
+      "termeEfo": null,
+      "idEfo": null,
+      "idEfoPourLaClasseDavertissement": null
+    },
+    {
+      "identifiantsChembbl": {
+        "list": "[{'element': 'CHEMBL5095051'} {'element': 'CHEMBL637'}]"
+      },
+      "classeDeToxicité": null,
+      "pays": "United States",
+      "description": null,
+      "id": 2864,
+      "références": {
+        "list": "[]"
+      },
+      "typeDavertissement": "Black Box Warning",
+      "année": null,
+      "termeEfo": null,
+      "idEfo": null,
+      "idEfoPourLaClasseDavertissement": null
+    },
+    {
+      "identifiantsChembbl": {
+        "list": "[{'element': 'CHEMBL1742992'}]"
+      },
+      "classeDeToxicité": null,
+      "pays": "United States",
+      "description": null,
+      "id": 221,
+      "références": {
+        "list": "[]"
+      },
+      "typeDavertissement": "Black Box Warning",
+      "année": null,
+      "termeEfo": null,
+      "idEfo": null,
+      "idEfoPourLaClasseDavertissement": null
+    }
+  ]
+}
