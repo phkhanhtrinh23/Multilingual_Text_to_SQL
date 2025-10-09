@@ -1,0 +1,86 @@
+{
+  "table_name": "activity_stds_lookup_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.activity_stds_lookup_30",
+  "column_names": [
+    "id_activite_std",
+    "type_standard",
+    "definition",
+    "unites_standard",
+    "min_plage_normale",
+    "max_plage_normale"
+  ],
+  "column_types": [
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "FLOAT64"
+  ],
+  "nested_column_names": [
+    "id_activite_std",
+    "type_standard",
+    "definition",
+    "unites_standard",
+    "min_plage_normale",
+    "max_plage_normale"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "FLOAT64"
+  ],
+  "description": [
+    "Clé primaire.",
+    "Le standard_type auquel les autres published_types de la table des activités ont été convertis.",
+    "Une description/définition du standard_type.",
+    "Les unités qui sont appliquées à ce standard_type et auxquelles les autres published_units sont convertis. Notez qu'un standard_type peut avoir plus d'une unité standard autorisée et donc plusieurs lignes dans cette table.",
+    "La valeur la plus basse pour ce type d'activité qui est susceptible d'être réelle. Il s’agit seulement d’une approximation, il se peut donc que des valeurs réelles plus basses existent, mais il peut être souhaitable de valider celles-ci avant de les utiliser. Pour un standard_type/units donné, les valeurs de la table des activités en dessous de ce seuil sont signalées avec un commentaire de validité des données de 'Hors plage typique'.",
+    "La valeur la plus élevée pour ce type d'activité qui est susceptible d'être réelle. Il s’agit seulement d’une approximation, il se peut donc que des valeurs réelles plus élevées existent, mais il peut être souhaitable de valider celles-ci avant de les utiliser. Pour un standard_type/units donné, les valeurs de la table des activités au-dessus de ce seuil sont signalées avec un commentaire de validité des données de 'Hors plage typique'."
+  ],
+  "sample_rows": [
+    {
+      "id_activite_std": 81,
+      "type_standard": "HCT",
+      "definition": "The percentage of a whole blood specimen that is composed of red blood cells (erythrocytes).",
+      "unites_standard": "%",
+      "min_plage_normale": null,
+      "max_plage_normale": null
+    },
+    {
+      "id_activite_std": 95,
+      "type_standard": "MCHC",
+      "definition": "A quantitative measurement of the mean amount of hemoglobin per erythrocytes in a specified volume of a biological specimen.",
+      "unites_standard": "%",
+      "min_plage_normale": null,
+      "max_plage_normale": null
+    },
+    {
+      "id_activite_std": 103,
+      "type_standard": "EOSLE",
+      "definition": "A relative measurement (ratio or percentage) of the eosinophils to leukocytes in a biological specimen.",
+      "unites_standard": "%",
+      "min_plage_normale": null,
+      "max_plage_normale": null
+    },
+    {
+      "id_activite_std": 104,
+      "type_standard": "LYMLE",
+      "definition": "A relative measurement (ratio or percentage) of the lymphocytes to leukocytes in a biological specimen.",
+      "unites_standard": "%",
+      "min_plage_normale": null,
+      "max_plage_normale": null
+    },
+    {
+      "id_activite_std": 106,
+      "type_standard": "BASOLE",
+      "definition": "A relative measurement (ratio or percentage) of the basophils to leukocytes in a biological specimen.",
+      "unites_standard": "%",
+      "min_plage_normale": null,
+      "max_plage_normale": null
+    }
+  ]
+}
