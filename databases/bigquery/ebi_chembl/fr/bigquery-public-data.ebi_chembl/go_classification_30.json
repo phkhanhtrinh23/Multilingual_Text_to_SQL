@@ -1,0 +1,86 @@
+{
+  "table_name": "go_classification_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.go_classification_30",
+  "column_names": [
+    "id_aller",
+    "id_parent_go",
+    "nom_preferentiel",
+    "niveau_classe",
+    "aspect",
+    "chemin"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "id_aller",
+    "id_parent_go",
+    "nom_preferentiel",
+    "niveau_classe",
+    "aspect",
+    "chemin"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "Clé primaire. Identifiant de l'Ontologie des Gènes pour le terme GO slim",
+    "Identifiant de l'Ontologie des Gènes pour le parent de ce terme GO dans le ChEMBL Drug Target GO slim",
+    "Nom de l'Ontologie des Gènes",
+    "Indique le niveau du terme dans le slim (L1 = le plus élevé)",
+    "Indique à quel aspect de l'Ontologie des Gènes le terme appartient (F = fonction moléculaire, P = processus biologique, C = composant cellulaire)",
+    "Indique le chemin complet vers ce terme dans le GO slim"
+  ],
+  "sample_rows": [
+    {
+      "id_aller": "GO:0003674",
+      "id_parent_go": null,
+      "nom_preferentiel": "molecular_function",
+      "niveau_classe": 0,
+      "aspect": "F",
+      "chemin": "molecular_function"
+    },
+    {
+      "id_aller": "GO:0005575",
+      "id_parent_go": null,
+      "nom_preferentiel": "cellular_component",
+      "niveau_classe": 0,
+      "aspect": "C",
+      "chemin": "cellular_component"
+    },
+    {
+      "id_aller": "GO:0008150",
+      "id_parent_go": null,
+      "nom_preferentiel": "biological_process",
+      "niveau_classe": 0,
+      "aspect": "P",
+      "chemin": "biological_process"
+    },
+    {
+      "id_aller": "GO:0000166",
+      "id_parent_go": "GO:0003674",
+      "nom_preferentiel": "nucleotide binding",
+      "niveau_classe": 1,
+      "aspect": "F",
+      "chemin": "molecular_function  nucleotide binding"
+    },
+    {
+      "id_aller": "GO:0000988",
+      "id_parent_go": "GO:0003674",
+      "nom_preferentiel": "protein binding transcription factor activity",
+      "niveau_classe": 1,
+      "aspect": "F",
+      "chemin": "molecular_function  protein binding transcription factor activity"
+    }
+  ]
+}
