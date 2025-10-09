@@ -1,0 +1,106 @@
+{
+  "table_name": "birth_death_growth_rates",
+  "table_fullname": "bigquery-public-data.census_bureau_international.birth_death_growth_rates",
+  "column_names": [
+    "code_pays",
+    "nom_pays",
+    "annee",
+    "taux_brut_de_naisance",
+    "taux_brut_de_mortalite",
+    "migration_nette",
+    "taux_d_acroissement_naturel",
+    "taux_de_croissance"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "INT64",
+    "FLOAT64",
+    "FLOAT64",
+    "FLOAT64",
+    "FLOAT64",
+    "FLOAT64"
+  ],
+  "nested_column_names": [
+    "code_pays",
+    "nom_pays",
+    "annee",
+    "taux_brut_de_naisance",
+    "taux_brut_de_mortalite",
+    "migration_nette",
+    "taux_d_acroissement_naturel",
+    "taux_de_croissance"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "INT64",
+    "FLOAT64",
+    "FLOAT64",
+    "FLOAT64",
+    "FLOAT64",
+    "FLOAT64"
+  ],
+  "description": [
+    "Code de pays/zone de traitement de l'information fédéral (FIPS)",
+    "Nom du pays ou de la zone",
+    "Année",
+    "Taux de natalité brut (naissances pour 1 000 habitants)",
+    "Taux de mortalité brut (décès pour 1 000 habitants)",
+    "Taux de migration nette (nombre net de migrants pour 1 000 habitants)",
+    "Taux d'augmentation naturelle (pourcentage)",
+    "Taux de croissance (pourcentage)"
+  ],
+  "sample_rows": [
+    {
+      "code_pays": "CD",
+      "nom_pays": "Chad",
+      "annee": 1993,
+      "taux_brut_de_naisance": 47.8,
+      "taux_brut_de_mortalite": 18.71,
+      "migration_nette": -23.09,
+      "taux_d_acroissement_naturel": 2.909,
+      "taux_de_croissance": 0.6
+    },
+    {
+      "code_pays": "CD",
+      "nom_pays": "Chad",
+      "annee": 1994,
+      "taux_brut_de_naisance": 47.71,
+      "taux_brut_de_mortalite": 18.31,
+      "migration_nette": -0.2,
+      "taux_d_acroissement_naturel": 2.94,
+      "taux_de_croissance": 2.92
+    },
+    {
+      "code_pays": "CD",
+      "nom_pays": "Chad",
+      "annee": 1995,
+      "taux_brut_de_naisance": 48.02,
+      "taux_brut_de_mortalite": 17.9,
+      "migration_nette": 21.95,
+      "taux_d_acroissement_naturel": 3.012,
+      "taux_de_croissance": 5.207
+    },
+    {
+      "code_pays": "CD",
+      "nom_pays": "Chad",
+      "annee": 1996,
+      "taux_brut_de_naisance": 48.35,
+      "taux_brut_de_mortalite": 17.51,
+      "migration_nette": -0.14,
+      "taux_d_acroissement_naturel": 3.084,
+      "taux_de_croissance": 3.07
+    },
+    {
+      "code_pays": "CD",
+      "nom_pays": "Chad",
+      "annee": 1997,
+      "taux_brut_de_naisance": 48.74,
+      "taux_brut_de_mortalite": 17.25,
+      "migration_nette": 0.18,
+      "taux_d_acroissement_naturel": 3.149,
+      "taux_de_croissance": 3.168
+    }
+  ]
+}
