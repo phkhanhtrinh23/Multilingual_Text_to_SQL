@@ -1,0 +1,126 @@
+{
+  "table_name": "Filtered_all_CNVR_data_by_gene",
+  "table_fullname": "isb-cgc-bq.pancancer_atlas.Filtered_all_CNVR_data_by_gene",
+  "column_names": [
+    "CodeBarreParticipant",
+    "CodeBarreEchantillon",
+    "CodeBarreAliquot",
+    "CodeLettreTypeEchantillon",
+    "TypeEchantillon",
+    "Etude",
+    "Gene_Symbol",
+    "Locus_ID",
+    "Cytoband",
+    "AppelsGISTIC"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "STRING",
+    "FLOAT64"
+  ],
+  "nested_column_names": [
+    "CodeBarreParticipant",
+    "CodeBarreEchantillon",
+    "CodeBarreAliquot",
+    "CodeLettreTypeEchantillon",
+    "TypeEchantillon",
+    "Etude",
+    "Gene_Symbol",
+    "Locus_ID",
+    "Cytoband",
+    "AppelsGISTIC"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "STRING",
+    "FLOAT64"
+  ],
+  "description": [
+    "Identifiant de code à barres TCGA pour le participant à l'étude, par exemple TCGA-02-0001",
+    "Code à barres de l'échantillon de biospecimen, par exemple TCGA-13-1489-02A",
+    "Code à barres de l'aliquote TCGA, par exemple TCGA-12-1089-01A-01D-0517-28",
+    "Code lettre du type d'échantillon en utilisant les normes TCGA, par exemple TPN, EBV. Liste complète disponible à https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/sample-type-codes",
+    "Il existe 10 types d'échantillons : Sang Dérivé Normal, Tumeur solide primaire, Tissu solide normal, Tumeur solide récurrente, Métastatique, Complémentaire - Nouveau primaire, Cancer dérivé du sang primaire - Sang périphérique, Cellule buccale normale, Complémentaire métastatique, Moelle osseuse normale",
+    "Abréviation d'étude TCGA, par exemple LAML. Liste complète disponible à https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/tcga-study-abbreviations",
+    "par exemple TP53, LRP1B, etc (même que le champ Hugo_Symbol sauf espace vide au lieu de Inconnu",
+    "ID de locus de gène, par exemple 57380, 100616303",
+    "Nom complet de la cyto-bande, y compris le chromosome. Par exemple, 17p13.2 Voir https://www.ncbi.nlm.nih.gov/Class/MLACourse/Original8Hour/Genetics/chrombanding.html",
+    "Appels de copie numérique Gistic"
+  ],
+  "sample_rows": [
+    {
+      "CodeBarreParticipant": "TCGA-04-1331",
+      "CodeBarreEchantillon": "TCGA-04-1331-01A",
+      "CodeBarreAliquot": "TCGA-04-1331-01A-01D-0428-01",
+      "CodeLettreTypeEchantillon": "TP",
+      "TypeEchantillon": "Primary solid Tumor",
+      "Etude": "OV",
+      "Gene_Symbol": "MIR663B",
+      "Locus_ID": 100313824,
+      "Cytoband": "2q21.2",
+      "AppelsGISTIC": -0.054
+    },
+    {
+      "CodeBarreParticipant": "TCGA-04-1331",
+      "CodeBarreEchantillon": "TCGA-04-1331-01A",
+      "CodeBarreAliquot": "TCGA-04-1331-01A-01D-0428-01",
+      "CodeLettreTypeEchantillon": "TP",
+      "TypeEchantillon": "Primary solid Tumor",
+      "Etude": "OV",
+      "Gene_Symbol": "REG4",
+      "Locus_ID": 83998,
+      "Cytoband": "1p12",
+      "AppelsGISTIC": 0.13
+    },
+    {
+      "CodeBarreParticipant": "TCGA-04-1331",
+      "CodeBarreEchantillon": "TCGA-04-1331-01A",
+      "CodeBarreAliquot": "TCGA-04-1331-01A-01D-0428-01",
+      "CodeLettreTypeEchantillon": "TP",
+      "TypeEchantillon": "Primary solid Tumor",
+      "Etude": "OV",
+      "Gene_Symbol": "CABIN1",
+      "Locus_ID": 23523,
+      "Cytoband": "22q11.23",
+      "AppelsGISTIC": -0.715
+    },
+    {
+      "CodeBarreParticipant": "TCGA-04-1331",
+      "CodeBarreEchantillon": "TCGA-04-1331-01A",
+      "CodeBarreAliquot": "TCGA-04-1331-01A-01D-0428-01",
+      "CodeLettreTypeEchantillon": "TP",
+      "TypeEchantillon": "Primary solid Tumor",
+      "Etude": "OV",
+      "Gene_Symbol": "CHRNA7",
+      "Locus_ID": 1139,
+      "Cytoband": "15q13.3",
+      "AppelsGISTIC": -0.764
+    },
+    {
+      "CodeBarreParticipant": "TCGA-04-1331",
+      "CodeBarreEchantillon": "TCGA-04-1331-01A",
+      "CodeBarreAliquot": "TCGA-04-1331-01A-01D-0428-01",
+      "CodeLettreTypeEchantillon": "TP",
+      "TypeEchantillon": "Primary solid Tumor",
+      "Etude": "OV",
+      "Gene_Symbol": "AOC2",
+      "Locus_ID": 314,
+      "Cytoband": "17q21.31",
+      "AppelsGISTIC": -0.277
+    }
+  ]
+}

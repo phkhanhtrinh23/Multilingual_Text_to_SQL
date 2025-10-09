@@ -1,0 +1,76 @@
+{
+  "table_name": "BarcodeMap",
+  "table_fullname": "isb-cgc-bq.pancancer_atlas.BarcodeMap",
+  "column_names": [
+    "CodeBarreParticipant",
+    "CodeBarreEchantillon",
+    "CodeBarreAliquot",
+    "Etude",
+    "CodeLettreTypeEchantillon"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "CodeBarreParticipant",
+    "CodeBarreEchantillon",
+    "CodeBarreAliquot",
+    "Etude",
+    "CodeLettreTypeEchantillon"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "Identifiant de code à barres TCGA pour le participant à l'étude, par exemple TCGA-02-0001",
+    "Code à barres de l'échantillon de biospécimen, par exemple TCGA-13-1489-02A",
+    "Code à barres de l'aliquote TCGA, par exemple TCGA-12-1089-01A-01D-0517-28",
+    "Abréviation d'étude TCGA, par exemple LAML. Liste complète disponible à https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/tcga-study-abbreviations",
+    "Code lettre du type d'échantillon en utilisant les normes TCGA, par exemple TPN, EBV. Liste complète disponible à https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/sample-type-codes"
+  ],
+  "sample_rows": [
+    {
+      "CodeBarreParticipant": "TCGA-04-1331",
+      "CodeBarreEchantillon": "TCGA-04-1331-10A",
+      "CodeBarreAliquot": "TCGA-04-1331-10A-01D-0428-01",
+      "Etude": "OV",
+      "CodeLettreTypeEchantillon": "NB"
+    },
+    {
+      "CodeBarreParticipant": "TCGA-04-1331",
+      "CodeBarreEchantillon": "TCGA-04-1331-10A",
+      "CodeBarreAliquot": "TCGA-04-1331-10A-01D-0429-04",
+      "Etude": "OV",
+      "CodeLettreTypeEchantillon": "NB"
+    },
+    {
+      "CodeBarreParticipant": "TCGA-04-1331",
+      "CodeBarreEchantillon": "TCGA-04-1331-10A",
+      "CodeBarreAliquot": "TCGA-04-1331-10A-01D-0430-06",
+      "Etude": "OV",
+      "CodeLettreTypeEchantillon": "NB"
+    },
+    {
+      "CodeBarreParticipant": "TCGA-04-1331",
+      "CodeBarreEchantillon": "TCGA-04-1331-10A",
+      "CodeBarreAliquot": "TCGA-04-1331-10A-01D-0431-02",
+      "Etude": "OV",
+      "CodeLettreTypeEchantillon": "NB"
+    },
+    {
+      "CodeBarreParticipant": "TCGA-04-1331",
+      "CodeBarreEchantillon": "TCGA-04-1331-10A",
+      "CodeBarreAliquot": "TCGA-04-1331-10A-01D-1036-01",
+      "Etude": "OV",
+      "CodeLettreTypeEchantillon": "NB"
+    }
+  ]
+}
