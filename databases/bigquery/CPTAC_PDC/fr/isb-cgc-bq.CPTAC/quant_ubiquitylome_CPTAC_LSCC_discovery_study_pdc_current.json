@@ -1,0 +1,116 @@
+{
+  "table_name": "quant_ubiquitylome_CPTAC_LSCC_discovery_study_pdc_current",
+  "table_fullname": "isb-cgc-bq.CPTAC.quant_ubiquitylome_CPTAC_LSCC_discovery_study_pdc_current",
+  "column_names": [
+    "id_de_cas",
+    "id_d_echantillon",
+    "id_d_aliquote",
+    "id_de_soumission_d_aliquote",
+    "id_de_metadonnees_d_execution_d_aliquote",
+    "nom_d_etude",
+    "abundance_de_proteine_log2ratio",
+    "id_refseq",
+    "sites_d_ubiquitination"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "id_de_cas",
+    "id_d_echantillon",
+    "id_d_aliquote",
+    "id_de_soumission_d_aliquote",
+    "id_de_metadonnees_d_execution_d_aliquote",
+    "nom_d_etude",
+    "abundance_de_proteine_log2ratio",
+    "id_refseq",
+    "sites_d_ubiquitination"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "Identifiant unique associé à un patient spécifique (e.g. 24cb0fcb-63d6-11e8-bcf1-0a2705229b82)",
+    "Identifiant PDC unique pour cet échantillon (e.g. e8d83eb9-693a-11ea-b1fd-0aad30af8a83)",
+    "Identifiant PDC unique pour cet aliquot (e.g. e8db124a-693a-11ea-b1fd-0aad30af8a83)",
+    "ID de soumission d'aliquot attribué par le programme (e.g. T14)",
+    "Identifie de manière unique l'aliquot en fonction de son utilisation dans l'expérience (en fonction du réactif d'étiquetage et/ou de la répétition biologique)",
+    "Nom de l'étude (e.g. Étude pilote sur le cancer du cerveau pédiatrique - Phosphoprotéome)",
+    "Rapport log-moyen de l'ion rapporteur d'échantillon à la référence commune des ions de peptide associés au gène dans les acquisitions d'un échantillon biologique spécifique",
+    "Identifiant unique donné à une séquence dans la base de données NCBI RefSeq",
+    "Codes à lettre unique et positions de séquence de protéine des acides aminés ubiquitylés"
+  ],
+  "sample_rows": [
+    {
+      "id_de_cas": "1c6408e5-d028-11ea-b1fd-0aad30af8a83",
+      "id_d_echantillon": "1c6500c1-d028-11ea-b1fd-0aad30af8a83",
+      "id_d_aliquote": "1c6681c3-d028-11ea-b1fd-0aad30af8a83",
+      "id_de_soumission_d_aliquote": "CPT0232690003",
+      "id_de_metadonnees_d_execution_d_aliquote": "ef747fd5-eecb-11ea-b1fd-0aad30af8a83",
+      "nom_d_etude": "CPTAC LSCC Discovery Study - Ubiquitylome",
+      "abundance_de_proteine_log2ratio": -1.8121,
+      "id_refseq": "NP_003741.1",
+      "sites_d_ubiquitination": "k420"
+    },
+    {
+      "id_de_cas": "1c6408e5-d028-11ea-b1fd-0aad30af8a83",
+      "id_d_echantillon": "1c6500c1-d028-11ea-b1fd-0aad30af8a83",
+      "id_d_aliquote": "1c6681c3-d028-11ea-b1fd-0aad30af8a83",
+      "id_de_soumission_d_aliquote": "CPT0232690003",
+      "id_de_metadonnees_d_execution_d_aliquote": "ef747fd5-eecb-11ea-b1fd-0aad30af8a83",
+      "nom_d_etude": "CPTAC LSCC Discovery Study - Ubiquitylome",
+      "abundance_de_proteine_log2ratio": -2.3702,
+      "id_refseq": "NP_005611.1",
+      "sites_d_ubiquitination": "k23"
+    },
+    {
+      "id_de_cas": "1c6408e5-d028-11ea-b1fd-0aad30af8a83",
+      "id_d_echantillon": "1c6500c1-d028-11ea-b1fd-0aad30af8a83",
+      "id_d_aliquote": "1c6681c3-d028-11ea-b1fd-0aad30af8a83",
+      "id_de_soumission_d_aliquote": "CPT0232690003",
+      "id_de_metadonnees_d_execution_d_aliquote": "ef747fd5-eecb-11ea-b1fd-0aad30af8a83",
+      "nom_d_etude": "CPTAC LSCC Discovery Study - Ubiquitylome",
+      "abundance_de_proteine_log2ratio": -0.3914,
+      "id_refseq": "NP_071766.2",
+      "sites_d_ubiquitination": "k386"
+    },
+    {
+      "id_de_cas": "1c6408e5-d028-11ea-b1fd-0aad30af8a83",
+      "id_d_echantillon": "1c6500c1-d028-11ea-b1fd-0aad30af8a83",
+      "id_d_aliquote": "1c6681c3-d028-11ea-b1fd-0aad30af8a83",
+      "id_de_soumission_d_aliquote": "CPT0232690003",
+      "id_de_metadonnees_d_execution_d_aliquote": "ef747fd5-eecb-11ea-b1fd-0aad30af8a83",
+      "nom_d_etude": "CPTAC LSCC Discovery Study - Ubiquitylome",
+      "abundance_de_proteine_log2ratio": -3.1272,
+      "id_refseq": "NP_001036041.1",
+      "sites_d_ubiquitination": "k166"
+    },
+    {
+      "id_de_cas": "1c6408e5-d028-11ea-b1fd-0aad30af8a83",
+      "id_d_echantillon": "1c6500c1-d028-11ea-b1fd-0aad30af8a83",
+      "id_d_aliquote": "1c6681c3-d028-11ea-b1fd-0aad30af8a83",
+      "id_de_soumission_d_aliquote": "CPT0232690003",
+      "id_de_metadonnees_d_execution_d_aliquote": "ef747fd5-eecb-11ea-b1fd-0aad30af8a83",
+      "nom_d_etude": "CPTAC LSCC Discovery Study - Ubiquitylome",
+      "abundance_de_proteine_log2ratio": -0.2114,
+      "id_refseq": "NP_000282.1",
+      "sites_d_ubiquitination": "k267"
+    }
+  ]
+}
