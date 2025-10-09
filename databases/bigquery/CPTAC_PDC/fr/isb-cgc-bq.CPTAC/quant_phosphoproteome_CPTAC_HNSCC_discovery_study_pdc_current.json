@@ -1,0 +1,116 @@
+{
+  "table_name": "quant_phosphoproteome_CPTAC_HNSCC_discovery_study_pdc_current",
+  "table_fullname": "isb-cgc-bq.CPTAC.quant_phosphoproteome_CPTAC_HNSCC_discovery_study_pdc_current",
+  "column_names": [
+    "id_de_cas",
+    "id_d_echantillon",
+    "id_d_aliquote",
+    "id_de_soumission_d_aliquote",
+    "id_de_metadonnees_d_execution_d_aliquote",
+    "nom_d_etude",
+    "abondance_de_proteine_log2ratio",
+    "id_refseq",
+    "sites_de_phosphorylation"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "id_de_cas",
+    "id_d_echantillon",
+    "id_d_aliquote",
+    "id_de_soumission_d_aliquote",
+    "id_de_metadonnees_d_execution_d_aliquote",
+    "nom_d_etude",
+    "abondance_de_proteine_log2ratio",
+    "id_refseq",
+    "sites_de_phosphorylation"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "Identifiant unique associé à un patient spécifique (e.g. 24cb0fcb-63d6-11e8-bcf1-0a2705229b82)",
+    "Identifiant PDC unique pour cet échantillon (e.g. e8d83eb9-693a-11ea-b1fd-0aad30af8a83)",
+    "Identifiant PDC unique pour cet aliquot (e.g. e8db124a-693a-11ea-b1fd-0aad30af8a83)",
+    "ID de soumission d'aliquot attribué par le programme (e.g. T14)",
+    "Identifie de manière unique l'aliquot en fonction de son utilisation dans l'expérience (en fonction du réactif d'étiquetage et/ou de la répétition biologique)",
+    "Nom de l'étude (e.g. Étude pilote sur le cancer du cerveau pédiatrique - Phosphoprotéome)",
+    "Rapport log-moyen des ions rapporteurs d'échantillon par rapport à la référence commune des ions de peptides associés au gène dans les acquisitions d'un échantillon biologique spécifique",
+    "Identifiant unique donné à une séquence dans la base de données NCBI RefSeq",
+    "Codes à lettre unique et positions de séquence de protéine des acides aminés phosphorylés (e.g. t304s310, t59)"
+  ],
+  "sample_rows": [
+    {
+      "id_de_cas": "df4ea6f3-8f98-11ea-b1fd-0aad30af8a83",
+      "id_d_echantillon": "df4f5bdb-8f98-11ea-b1fd-0aad30af8a83",
+      "id_d_aliquote": "df507d6a-8f98-11ea-b1fd-0aad30af8a83",
+      "id_de_soumission_d_aliquote": "CPT0278700002",
+      "id_de_metadonnees_d_execution_d_aliquote": "422c0f92-8fab-11ea-bc9a-0a16d369a41f",
+      "nom_d_etude": "CPTAC HNSCC Discovery Study - Phosphoproteome",
+      "abondance_de_proteine_log2ratio": 0.3506438760398335,
+      "id_refseq": "NP_004577.1",
+      "sites_de_phosphorylation": "y234"
+    },
+    {
+      "id_de_cas": "df4eac21-8f98-11ea-b1fd-0aad30af8a83",
+      "id_d_echantillon": "df4f6605-8f98-11ea-b1fd-0aad30af8a83",
+      "id_d_aliquote": "df508537-8f98-11ea-b1fd-0aad30af8a83",
+      "id_de_soumission_d_aliquote": "CPT0248520003",
+      "id_de_metadonnees_d_execution_d_aliquote": "422c12c8-8fab-11ea-bc9a-0a16d369a41f",
+      "nom_d_etude": "CPTAC HNSCC Discovery Study - Phosphoproteome",
+      "abondance_de_proteine_log2ratio": -0.23414133269041515,
+      "id_refseq": "NP_002017.1",
+      "sites_de_phosphorylation": "t524y525"
+    },
+    {
+      "id_de_cas": "df4ea6f3-8f98-11ea-b1fd-0aad30af8a83",
+      "id_d_echantillon": "df4f5bdb-8f98-11ea-b1fd-0aad30af8a83",
+      "id_d_aliquote": "df507d6a-8f98-11ea-b1fd-0aad30af8a83",
+      "id_de_soumission_d_aliquote": "CPT0278700002",
+      "id_de_metadonnees_d_execution_d_aliquote": "422c0f92-8fab-11ea-bc9a-0a16d369a41f",
+      "nom_d_etude": "CPTAC HNSCC Discovery Study - Phosphoproteome",
+      "abondance_de_proteine_log2ratio": -0.2008295081473152,
+      "id_refseq": "NP_055953.3",
+      "sites_de_phosphorylation": "s697"
+    },
+    {
+      "id_de_cas": "df4efdf1-8f98-11ea-b1fd-0aad30af8a83",
+      "id_d_echantillon": "df4ffeb8-8f98-11ea-b1fd-0aad30af8a83",
+      "id_d_aliquote": "df51044b-8f98-11ea-b1fd-0aad30af8a83",
+      "id_de_soumission_d_aliquote": "CPT0246590003",
+      "id_de_metadonnees_d_execution_d_aliquote": "422c19e5-8fab-11ea-bc9a-0a16d369a41f",
+      "nom_d_etude": "CPTAC HNSCC Discovery Study - Phosphoproteome",
+      "abondance_de_proteine_log2ratio": -0.7727531217649894,
+      "id_refseq": "NP_001136202.1",
+      "sites_de_phosphorylation": "s551"
+    },
+    {
+      "id_de_cas": "df4f1830-8f98-11ea-b1fd-0aad30af8a83",
+      "id_d_echantillon": "df502f10-8f98-11ea-b1fd-0aad30af8a83",
+      "id_d_aliquote": "df512dbf-8f98-11ea-b1fd-0aad30af8a83",
+      "id_de_soumission_d_aliquote": "CPT0222360003",
+      "id_de_metadonnees_d_execution_d_aliquote": "422c0e8b-8fab-11ea-bc9a-0a16d369a41f",
+      "nom_d_etude": "CPTAC HNSCC Discovery Study - Phosphoproteome",
+      "abondance_de_proteine_log2ratio": 0.5247810525842279,
+      "id_refseq": "NP_000539.2",
+      "sites_de_phosphorylation": "s1411"
+    }
+  ]
+}
