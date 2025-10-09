@@ -1,0 +1,96 @@
+{
+  "table_name": "protein_classification_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.protein_classification_30",
+  "column_names": [
+    "id_classe_proteine",
+    "id_parent",
+    "nom_preferentiel",
+    "nom_court",
+    "description_classe_proteine",
+    "definition",
+    "niveau_classe"
+  ],
+  "column_types": [
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "id_classe_proteine",
+    "id_parent",
+    "nom_preferentiel",
+    "nom_court",
+    "description_classe_proteine",
+    "definition",
+    "niveau_classe"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64"
+  ],
+  "description": [
+    "Clé primaire. Identifiant unique pour chaque classification de famille de protéines.",
+    "`Protein_class_id` du parent de cette famille de protéines.",
+    "Nom préféré/complet pour cette famille de protéines.",
+    "Nom court/abrévié pour cette famille de protéines (pas nécessairement unique).",
+    "Description concaténée de chaque classification pour des fins de recherche, etc.",
+    "Définition de la famille de protéines.",
+    "Niveau de la classe dans la hiérarchie (niveau 1 = classification de niveau supérieur)"
+  ],
+  "sample_rows": [
+    {
+      "id_classe_proteine": 1,
+      "id_parent": 0,
+      "nom_preferentiel": "Enzyme",
+      "nom_court": "Enzyme",
+      "description_classe_proteine": "enzyme",
+      "definition": "Biological molecules that possess catalytic activity. They may occur naturally or be synthetically created. Enzymes are usually proteins, however CATALYTIC RNA and CATALYTIC DNA molecules have also been identified. [MESH:D004798]",
+      "niveau_classe": 1
+    },
+    {
+      "id_classe_proteine": 2,
+      "id_parent": 0,
+      "nom_preferentiel": "Adhesion",
+      "nom_court": "Adhesion",
+      "description_classe_proteine": "adhesion",
+      "definition": "Surface ligands, usually glycoproteins, that mediate cell-to-cell adhesion. Their functions include the assembly and interconnection of various vertebrate systems, as well as maintenance of tissue integration, wound healing, morphogenic movements, cellular migrations, and metastasis. [MESH:D015815]",
+      "niveau_classe": 1
+    },
+    {
+      "id_classe_proteine": 3,
+      "id_parent": 0,
+      "nom_preferentiel": "Secreted protein",
+      "nom_court": "Secreted",
+      "description_classe_proteine": "secreted",
+      "definition": null,
+      "niveau_classe": 1
+    },
+    {
+      "id_classe_proteine": 4,
+      "id_parent": 0,
+      "nom_preferentiel": "Structural protein",
+      "nom_court": "Structural",
+      "description_classe_proteine": "structural",
+      "definition": null,
+      "niveau_classe": 1
+    },
+    {
+      "id_classe_proteine": 5,
+      "id_parent": 0,
+      "nom_preferentiel": "Other nuclear protein",
+      "nom_court": "Nuclear other",
+      "description_classe_proteine": "nuclear other",
+      "definition": null,
+      "niveau_classe": 1
+    }
+  ]
+}
