@@ -1,0 +1,66 @@
+{
+  "table_name": "target_relations_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.target_relations_30",
+  "column_names": [
+    "identifiant_transaction",
+    "relation",
+    "identifiant_transaction_associe",
+    "id_relation_cible"
+  ],
+  "column_types": [
+    "INT64",
+    "STRING",
+    "INT64",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "identifiant_transaction",
+    "relation",
+    "identifiant_transaction_associe",
+    "id_relation_cible"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "STRING",
+    "INT64",
+    "INT64"
+  ],
+  "description": [
+    "Identifiant de la cible d'intérêt (clé étrangère de la table target_dictionary)",
+    "Relation entre deux cibles (par exemple, SOUS-ENSEMBLE DE, SUR-ENSEMBLE DE, CHEVAUCHEMENT AVEC)",
+    "Identifiant de la cible liée à la cible d'intérêt (clé étrangère de la table target_dictionary)",
+    "Clé primaire"
+  ],
+  "sample_rows": [
+    {
+      "identifiant_transaction": 117043,
+      "relation": "SUBSET OF",
+      "identifiant_transaction_associe": 118387,
+      "id_relation_cible": 227977
+    },
+    {
+      "identifiant_transaction": 117043,
+      "relation": "SUBSET OF",
+      "identifiant_transaction_associe": 120269,
+      "id_relation_cible": 227981
+    },
+    {
+      "identifiant_transaction": 104690,
+      "relation": "SUBSET OF",
+      "identifiant_transaction_associe": 104871,
+      "id_relation_cible": 228004
+    },
+    {
+      "identifiant_transaction": 104897,
+      "relation": "SUBSET OF",
+      "identifiant_transaction_associe": 119771,
+      "id_relation_cible": 228021
+    },
+    {
+      "identifiant_transaction": 105044,
+      "relation": "SUBSET OF",
+      "identifiant_transaction_associe": 104844,
+      "id_relation_cible": 228037
+    }
+  ]
+}
