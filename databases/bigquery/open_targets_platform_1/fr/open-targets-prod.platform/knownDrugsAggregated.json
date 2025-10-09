@@ -1,0 +1,282 @@
+{
+  "table_name": "knownDrugsAggregated",
+  "table_fullname": "open-targets-prod.platform.knownDrugsAggregated",
+  "column_names": [
+    "identifiantDeMedicament",
+    "identifiantDeCible",
+    "identifiantDeMaladie",
+    "phase",
+    "status",
+    "urls",
+    "ancetres",
+    "label",
+    "symboleApprouve",
+    "nomApprouve",
+    "classeDeCible",
+    "nomPreferentiel",
+    "nomsCommerciaux",
+    "synonymes",
+    "typeDeMedicament",
+    "mecanismeDaction",
+    "nomDeCible"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRUCT<list ARRAY<STRUCT<element STRUCT<niceName STRING, url STRING>>>>",
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+    "STRING",
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "identifiantMedicament",
+    "identifiantCible",
+    "identifiantMaladie",
+    "phase",
+    "statut",
+    "urls",
+    "urls.liste",
+    "urls.liste.element",
+    "urls.liste.element.nomConvenable",
+    "urls.liste.element.url",
+    "ancetres",
+    "ancetres.liste",
+    "ancetres.liste.element",
+    "etiquette",
+    "symboleApprouve",
+    "nomApprouve",
+    "classeCible",
+    "classeCible.liste",
+    "classeCible.liste.element",
+    "nomPreferer",
+    "nomsCommerciaux",
+    "nomsCommerciaux.liste",
+    "nomsCommerciaux.liste.element",
+    "synonymes",
+    "synonymes.liste",
+    "synonymes.liste.element",
+    "typeMedicament",
+    "mecanismeDaction",
+    "nomCible"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRUCT<list ARRAY<STRUCT<element STRUCT<niceName STRING, url STRING>>>>",
+    "ARRAY<STRUCT<element STRUCT<niceName STRING, url STRING>>>",
+    "STRUCT<niceName STRING, url STRING>",
+    "STRING",
+    "STRING",
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+    "ARRAY<STRUCT<element STRING>>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+    "ARRAY<STRUCT<element STRING>>",
+    "STRING",
+    "STRING",
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+    "ARRAY<STRUCT<element STRING>>",
+    "STRING",
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+    "ARRAY<STRUCT<element STRING>>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "sample_rows": [
+    {
+      "identifiantMedicament": "CHEMBL409",
+      "identifiantCible": "ENSG00000169083",
+      "identifiantMaladie": "MONDO_0008315",
+      "phase": 2.0,
+      "statut": "Recruiting",
+      "urls": {
+        "list": "[{'element': {'niceName': 'ClinicalTrials', 'url': 'https://clinicaltrials.gov/study/NCT04025372'}}\n {'element': {'niceName': 'ClinicalTrials', 'url': 'https://clinicaltrials.gov/study/NCT04734730'}}\n {'element': {'niceName': 'ClinicalTrials', 'url': 'https://clinicaltrials.gov/study/NCT03541928'}}]"
+      },
+      "ancetres": {
+        "list": "[{'element': 'OTAR_0000017'} {'element': 'EFO_0009555'}\n {'element': 'EFO_0007355'} {'element': 'MONDO_0024582'}\n {'element': 'MONDO_0002149'} {'element': 'MONDO_0023370'}\n {'element': 'EFO_1000051'} {'element': 'EFO_0009602'}\n {'element': 'MONDO_0045024'} {'element': 'MONDO_0021259'}\n {'element': 'MONDO_0004992'} {'element': 'EFO_0000512'}\n {'element': 'EFO_0000616'}]"
+      },
+      "etiquette": "prostate cancer",
+      "symboleApprouve": "AR",
+      "nomApprouve": "androgen receptor",
+      "classeCible": {
+        "list": "[{'element': 'Transcription factor'} {'element': 'Unclassified protein'}]"
+      },
+      "nomPreferer": "BICALUTAMIDE",
+      "nomsCommerciaux": {
+        "list": "[{'element': 'Bicalutamide'} {'element': 'Calutide'}\n {'element': 'Casodex'} {'element': 'Cosudex'} {'element': 'Kalumid'}]"
+      },
+      "synonymes": {
+        "list": "[{'element': 'Bicalutamide'} {'element': 'Casodex'}\n {'element': 'ICI 176,334'} {'element': 'ICI-176334'}\n {'element': 'ICI176,334-1'} {'element': 'NSC-759816'}]"
+      },
+      "typeMedicament": "Small molecule",
+      "mecanismeDaction": "Androgen Receptor antagonist",
+      "nomCible": "Androgen Receptor"
+    },
+    {
+      "identifiantMedicament": "CHEMBL409",
+      "identifiantCible": "ENSG00000169083",
+      "identifiantMaladie": "EFO_0000196",
+      "phase": 3.0,
+      "statut": "Completed",
+      "urls": {
+        "list": "[{'element': {'niceName': 'ClinicalTrials', 'url': 'https://clinicaltrials.gov/study/NCT00672282'}}\n {'element': {'niceName': 'ClinicalTrials', 'url': 'https://clinicaltrials.gov/study/NCT00657904'}}\n {'element': {'niceName': 'ClinicalTrials', 'url': 'https://clinicaltrials.gov/study/NCT00673205'}}]"
+      },
+      "ancetres": {
+        "list": "[{'element': 'OTAR_0000017'} {'element': 'EFO_0009555'}\n {'element': 'EFO_0007355'} {'element': 'MONDO_0024582'}\n {'element': 'MONDO_0002149'} {'element': 'MONDO_0023370'}\n {'element': 'EFO_1000051'} {'element': 'EFO_0009602'}\n {'element': 'MONDO_0045024'} {'element': 'MONDO_0021259'}\n {'element': 'MONDO_0004992'} {'element': 'MONDO_0008315'}\n {'element': 'EFO_0000512'} {'element': 'EFO_0000313'}\n {'element': 'EFO_0001663'} {'element': 'EFO_0006858'}\n {'element': 'EFO_0000616'}]"
+      },
+      "etiquette": "metastatic prostate cancer",
+      "symboleApprouve": "AR",
+      "nomApprouve": "androgen receptor",
+      "classeCible": {
+        "list": "[{'element': 'Transcription factor'} {'element': 'Unclassified protein'}]"
+      },
+      "nomPreferer": "BICALUTAMIDE",
+      "nomsCommerciaux": {
+        "list": "[{'element': 'Bicalutamide'} {'element': 'Calutide'}\n {'element': 'Casodex'} {'element': 'Cosudex'} {'element': 'Kalumid'}]"
+      },
+      "synonymes": {
+        "list": "[{'element': 'Bicalutamide'} {'element': 'Casodex'}\n {'element': 'ICI 176,334'} {'element': 'ICI-176334'}\n {'element': 'ICI176,334-1'} {'element': 'NSC-759816'}]"
+      },
+      "typeMedicament": "Small molecule",
+      "mecanismeDaction": "Androgen Receptor antagonist",
+      "nomCible": "Androgen Receptor"
+    },
+    {
+      "identifiantMedicament": "CHEMBL409",
+      "identifiantCible": "ENSG00000169083",
+      "identifiantMaladie": "MONDO_0008315",
+      "phase": 3.0,
+      "statut": "Terminated",
+      "urls": {
+        "list": "[{'element': {'niceName': 'ClinicalTrials', 'url': 'https://clinicaltrials.gov/study/NCT00014586'}}\n {'element': {'niceName': 'ClinicalTrials', 'url': 'https://clinicaltrials.gov/study/NCT00243646'}}\n {'element': {'niceName': 'ClinicalTrials', 'url': 'https://clinicaltrials.gov/study/NCT00831233'}}\n {'element': {'niceName': 'ClinicalTrials', 'url': 'https://clinicaltrials.gov/study/NCT00388804'}}\n {'element': {'niceName': 'ClinicalTrials', 'url': 'https://clinicaltrials.gov/study/NCT01313273'}}\n {'element': {'niceName': 'ClinicalTrials', 'url': 'https://clinicaltrials.gov/study/NCT00651326'}}]"
+      },
+      "ancetres": {
+        "list": "[{'element': 'OTAR_0000017'} {'element': 'EFO_0009555'}\n {'element': 'EFO_0007355'} {'element': 'MONDO_0024582'}\n {'element': 'MONDO_0002149'} {'element': 'MONDO_0023370'}\n {'element': 'EFO_1000051'} {'element': 'EFO_0009602'}\n {'element': 'MONDO_0045024'} {'element': 'MONDO_0021259'}\n {'element': 'MONDO_0004992'} {'element': 'EFO_0000512'}\n {'element': 'EFO_0000616'}]"
+      },
+      "etiquette": "prostate cancer",
+      "symboleApprouve": "AR",
+      "nomApprouve": "androgen receptor",
+      "classeCible": {
+        "list": "[{'element': 'Transcription factor'} {'element': 'Unclassified protein'}]"
+      },
+      "nomPreferer": "BICALUTAMIDE",
+      "nomsCommerciaux": {
+        "list": "[{'element': 'Bicalutamide'} {'element': 'Calutide'}\n {'element': 'Casodex'} {'element': 'Cosudex'} {'element': 'Kalumid'}]"
+      },
+      "synonymes": {
+        "list": "[{'element': 'Bicalutamide'} {'element': 'Casodex'}\n {'element': 'ICI 176,334'} {'element': 'ICI-176334'}\n {'element': 'ICI176,334-1'} {'element': 'NSC-759816'}]"
+      },
+      "typeMedicament": "Small molecule",
+      "mecanismeDaction": "Androgen Receptor antagonist",
+      "nomCible": "Androgen Receptor"
+    },
+    {
+      "identifiantMedicament": "CHEMBL409",
+      "identifiantCible": "ENSG00000169083",
+      "identifiantMaladie": "EFO_0000305",
+      "phase": 2.0,
+      "statut": "Active, not recruiting",
+      "urls": {
+        "list": "[{'element': {'niceName': 'ClinicalTrials', 'url': 'https://clinicaltrials.gov/study/NCT03650894'}}]"
+      },
+      "ancetres": {
+        "list": "[{'element': 'OTAR_0000017'} {'element': 'MONDO_0021350'}\n {'element': 'MONDO_0000653'} {'element': 'MONDO_0023370'}\n {'element': 'MONDO_0007254'} {'element': 'MONDO_0045024'}\n {'element': 'MONDO_0004992'} {'element': 'EFO_0009483'}\n {'element': 'MONDO_0003274'} {'element': 'EFO_0003869'}\n {'element': 'EFO_0000313'} {'element': 'EFO_0010285'}\n {'element': 'EFO_0006858'} {'element': 'EFO_0000616'}]"
+      },
+      "etiquette": "breast carcinoma",
+      "symboleApprouve": "AR",
+      "nomApprouve": "androgen receptor",
+      "classeCible": {
+        "list": "[{'element': 'Transcription factor'} {'element': 'Unclassified protein'}]"
+      },
+      "nomPreferer": "BICALUTAMIDE",
+      "nomsCommerciaux": {
+        "list": "[{'element': 'Bicalutamide'} {'element': 'Calutide'}\n {'element': 'Casodex'} {'element': 'Cosudex'} {'element': 'Kalumid'}]"
+      },
+      "synonymes": {
+        "list": "[{'element': 'Bicalutamide'} {'element': 'Casodex'}\n {'element': 'ICI 176,334'} {'element': 'ICI-176334'}\n {'element': 'ICI176,334-1'} {'element': 'NSC-759816'}]"
+      },
+      "typeMedicament": "Small molecule",
+      "mecanismeDaction": "Androgen Receptor antagonist",
+      "nomCible": "Androgen Receptor"
+    },
+    {
+      "identifiantMedicament": "CHEMBL409",
+      "identifiantCible": "ENSG00000169083",
+      "identifiantMaladie": "MONDO_0007254",
+      "phase": 2.0,
+      "statut": "Unknown status",
+      "urls": {
+        "list": "[{'element': {'niceName': 'ClinicalTrials', 'url': 'https://clinicaltrials.gov/study/NCT02910050'}}]"
+      },
+      "ancetres": {
+        "list": "[{'element': 'EFO_0003869'} {'element': 'OTAR_0000017'}\n {'element': 'MONDO_0021350'} {'element': 'MONDO_0000653'}\n {'element': 'MONDO_0023370'} {'element': 'MONDO_0045024'}\n {'element': 'MONDO_0004992'} {'element': 'EFO_0010285'}\n {'element': 'EFO_0009483'} {'element': 'MONDO_0003274'}\n {'element': 'EFO_0000616'}]"
+      },
+      "etiquette": "breast cancer",
+      "symboleApprouve": "AR",
+      "nomApprouve": "androgen receptor",
+      "classeCible": {
+        "list": "[{'element': 'Transcription factor'} {'element': 'Unclassified protein'}]"
+      },
+      "nomPreferer": "BICALUTAMIDE",
+      "nomsCommerciaux": {
+        "list": "[{'element': 'Bicalutamide'} {'element': 'Calutide'}\n {'element': 'Casodex'} {'element': 'Cosudex'} {'element': 'Kalumid'}]"
+      },
+      "synonymes": {
+        "list": "[{'element': 'Bicalutamide'} {'element': 'Casodex'}\n {'element': 'ICI 176,334'} {'element': 'ICI-176334'}\n {'element': 'ICI176,334-1'} {'element': 'NSC-759816'}]"
+      },
+      "typeMedicament": "Small molecule",
+      "mecanismeDaction": "Androgen Receptor antagonist",
+      "nomCible": "Androgen Receptor"
+    }
+  ]
+}
