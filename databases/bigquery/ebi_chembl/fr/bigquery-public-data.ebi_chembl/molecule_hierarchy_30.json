@@ -1,0 +1,56 @@
+{
+  "table_name": "molecule_hierarchy_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.molecule_hierarchy_30",
+  "column_names": [
+    "numero_molreg",
+    "parent_numero_molreg",
+    "active_numero_molreg"
+  ],
+  "column_types": [
+    "INT64",
+    "INT64",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "numero_molreg",
+    "numero_molreg_parent",
+    "numero_molreg_actif"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "INT64",
+    "INT64"
+  ],
+  "description": [
+    "Clé étrangère de la table des composés. Ce champ contient une liste de tous les composés ChEMBL avec des données associées (par exemple, des informations d'activité, des médicaments approuvés). Les composés parents générés uniquement en supprimant les sels et qui n'ont pas eux-mêmes de données associées n'apparaîtront pas ici.",
+    "Représente le composé parent de `molregno` dans le premier champ (c'est-à-dire généré en supprimant les sels). Lorsque `molregno` et `parent_molregno` sont identiques, le composé ChEMBL initial ne contenait pas de composant sel, ou ne pouvait pas être traité pour diverses raisons (par exemple, mélange inorganique). Les composés qui sont générés uniquement en supprimant les sels apparaîtront dans ce champ uniquement. Ceux qui, eux-mêmes, ont des données associées (par exemple, des données d'activité) ou sont des médicaments lancés apparaîtront également dans le champ `molregno`.",
+    "Lorsqu'un composé est un pro-médicament, cela représente le métabolite actif du composé « dosé » donné par `parent_molregno`. Lorsque `parent_molregno` et `active_molregno` sont identiques, le composé n'est pas actuellement connu pour être un pro-médicament."
+  ],
+  "sample_rows": [
+    {
+      "numero_molreg": 2,
+      "numero_molreg_parent": 2,
+      "numero_molreg_actif": 2
+    },
+    {
+      "numero_molreg": 3,
+      "numero_molreg_parent": 3,
+      "numero_molreg_actif": 3
+    },
+    {
+      "numero_molreg": 4,
+      "numero_molreg_parent": 4,
+      "numero_molreg_actif": 4
+    },
+    {
+      "numero_molreg": 5,
+      "numero_molreg_parent": 5,
+      "numero_molreg_actif": 5
+    },
+    {
+      "numero_molreg": 6,
+      "numero_molreg_parent": 6,
+      "numero_molreg_actif": 6
+    }
+  ]
+}
