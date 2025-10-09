@@ -1,0 +1,56 @@
+{
+  "table_name": "molecule_frac_classification_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.molecule_frac_classification_30",
+  "column_names": [
+    "fraction_molaire_id",
+    "classe_fraction_id",
+    "molregno"
+  ],
+  "column_types": [
+    "INT64",
+    "INT64",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "fraction_molaire_id",
+    "classe_fraction_id",
+    "molregno"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "INT64",
+    "INT64"
+  ],
+  "description": [
+    "Clé primaire.",
+    "Clé étrangère vers la table frac_classification indiquant la classification de la mécanisme d'action du composé.",
+    "Clé étrangère vers molecule_dictionary, montrant le composé auquel la classification s'applique."
+  ],
+  "sample_rows": [
+    {
+      "fraction_molaire_id": 139,
+      "classe_fraction_id": 513,
+      "molregno": 1627948
+    },
+    {
+      "fraction_molaire_id": 123,
+      "classe_fraction_id": 514,
+      "molregno": 1486302
+    },
+    {
+      "fraction_molaire_id": 114,
+      "classe_fraction_id": 515,
+      "molregno": 1461886
+    },
+    {
+      "fraction_molaire_id": 29,
+      "classe_fraction_id": 519,
+      "molregno": 435442
+    },
+    {
+      "fraction_molaire_id": 131,
+      "classe_fraction_id": 520,
+      "molregno": 1493581
+    }
+  ]
+}
