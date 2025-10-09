@@ -1,0 +1,66 @@
+{
+  "table_name": "target_components_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.target_components_30",
+  "column_names": [
+    "identifiant_de_transaction",
+    "identifiant_de_composant",
+    "identifiant_de_composant_cible",
+    "homologue"
+  ],
+  "column_types": [
+    "INT64",
+    "INT64",
+    "INT64",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "identifiant_de_transaction",
+    "identifiant_de_composant",
+    "identifiant_de_composant_cible",
+    "homologue"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "INT64",
+    "INT64",
+    "INT64"
+  ],
+  "description": [
+    "Clé étrangère vers la target_dictionary, indiquant la cible à laquelle appartiennent les composants.",
+    "Clé étrangère vers la table component_sequences, indiquant quels composants appartiennent à la cible.",
+    "Clé primaire.",
+    "Indique que le composant donné est un homologue du composant correct (par exemple, d'une espèce différente) lorsqu'il est défini sur 1. Cela peut être le cas si la séquence du protéine/acide nucléique correct ne peut pas être trouvée dans les bases de données de séquences. Une valeur de 2 indique que la séquence donnée est un représentant d'un groupe d'espèces, par exemple une protéine E. coli pour représenter la cible d'un antibiotique à large spectre."
+  ],
+  "sample_rows": [
+    {
+      "identifiant_de_transaction": 10496,
+      "identifiant_de_composant": 1361,
+      "identifiant_de_composant_cible": 4530,
+      "homologue": 0
+    },
+    {
+      "identifiant_de_transaction": 10752,
+      "identifiant_de_composant": 321,
+      "identifiant_de_composant_cible": 2345,
+      "homologue": 0
+    },
+    {
+      "identifiant_de_transaction": 11520,
+      "identifiant_de_composant": 1491,
+      "identifiant_de_composant_cible": 5341,
+      "homologue": 0
+    },
+    {
+      "identifiant_de_transaction": 12800,
+      "identifiant_de_composant": 2751,
+      "identifiant_de_composant_cible": 4027,
+      "homologue": 0
+    },
+    {
+      "identifiant_de_transaction": 13056,
+      "identifiant_de_composant": 2744,
+      "identifiant_de_composant_cible": 4758,
+      "homologue": 0
+    }
+  ]
+}
