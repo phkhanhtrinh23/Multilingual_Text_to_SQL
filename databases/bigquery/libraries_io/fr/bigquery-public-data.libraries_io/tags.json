@@ -1,0 +1,116 @@
+{
+  "table_name": "tags",
+  "table_fullname": "bigquery-public-data.libraries_io.tags",
+  "column_names": [
+    "id",
+    "type_hote",
+    "nom_de_dépôt_avec_propriétaire",
+    "id_de_dépôt",
+    "nom_de_balisage",
+    "sha_git_de_balisage",
+    "horodatage_de_publication_de_balisage",
+    "horodatage_de_création_de_balisage",
+    "horodatage_de_mise_à_jour_de_balisage"
+  ],
+  "column_types": [
+    "INT64",
+    "STRING",
+    "STRING",
+    "INT64",
+    "STRING",
+    "STRING",
+    "TIMESTAMP",
+    "TIMESTAMP",
+    "TIMESTAMP"
+  ],
+  "nested_column_names": [
+    "id",
+    "type_hote",
+    "nom_de_dépôt_avec_propriétaire",
+    "id_de_dépôt",
+    "nom_de_balisage",
+    "sha_git_de_balisage",
+    "horodatage_de_publication_de_balisage",
+    "horodatage_de_création_de_balisage",
+    "horodatage_de_mise_à_jour_de_balisage"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "STRING",
+    "STRING",
+    "INT64",
+    "STRING",
+    "STRING",
+    "TIMESTAMP",
+    "TIMESTAMP",
+    "TIMESTAMP"
+  ],
+  "description": [
+    "La clé primaire unique du tag dans la base de données Libraries.io.",
+    "Le site Web sur lequel le référentiel de tags est hébergé, soit GitHub, GitLab ou Bitbucket.",
+    "Le nom du référentiel et du propriétaire séparés par une barre oblique, qui correspond également au slug d'URL sur l'hôte de référentiel donné, par exemple librariesio/libraries.io.",
+    "La clé primaire unique du référentiel pour ce tag dans la base de données Libraries.io.",
+    "Le nom du tag qui est souvent un numéro de version, mais peut être n'importe quelle chaîne de caractères libre.",
+    "Sha de l'objet auquel le tag pointe dans le référentiel.",
+    "L'horodatage de la publication du tag.",
+    "L'horodatage de la première sauvegarde du tag par Libraries.io.",
+    "L'horodatage de la dernière sauvegarde du tag par Libraries.io."
+  ],
+  "sample_rows": [
+    {
+      "id": 52086629,
+      "type_hote": "GitHub",
+      "nom_de_dépôt_avec_propriétaire": "dmpriso/hunter",
+      "id_de_dépôt": 23754342,
+      "nom_de_balisage": "v0.16.2",
+      "sha_git_de_balisage": "db87a6c907a822d2c0d3e5df01d74a11330e290d",
+      "horodatage_de_publication_de_balisage": "2016-10-01 00:27:25+00:00",
+      "horodatage_de_création_de_balisage": "2017-05-11 12:17:06+00:00",
+      "horodatage_de_mise_à_jour_de_balisage": "2017-05-11 12:17:06+00:00"
+    },
+    {
+      "id": 52086654,
+      "type_hote": "GitHub",
+      "nom_de_dépôt_avec_propriétaire": "dmpriso/hunter",
+      "id_de_dépôt": 23754342,
+      "nom_de_balisage": "v0.16.27",
+      "sha_git_de_balisage": "4b9a51ac24f8c55d0dc28b617c4329f0db582b53",
+      "horodatage_de_publication_de_balisage": "2016-11-13 05:26:20+00:00",
+      "horodatage_de_création_de_balisage": "2017-05-11 12:17:20+00:00",
+      "horodatage_de_mise_à_jour_de_balisage": "2017-05-11 12:17:20+00:00"
+    },
+    {
+      "id": 52086678,
+      "type_hote": "GitHub",
+      "nom_de_dépôt_avec_propriétaire": "dmpriso/hunter",
+      "id_de_dépôt": 23754342,
+      "nom_de_balisage": "v0.17.14",
+      "sha_git_de_balisage": "ca3adc81c78cdba67bc1567088d0fba309df2fb8",
+      "horodatage_de_publication_de_balisage": "2017-01-15 04:57:59+00:00",
+      "horodatage_de_création_de_balisage": "2017-05-11 12:17:27+00:00",
+      "horodatage_de_mise_à_jour_de_balisage": "2017-05-11 12:17:27+00:00"
+    },
+    {
+      "id": 52086709,
+      "type_hote": "GitHub",
+      "nom_de_dépôt_avec_propriétaire": "dmpriso/hunter",
+      "id_de_dépôt": 23754342,
+      "nom_de_balisage": "v0.18.24",
+      "sha_git_de_balisage": "65fce9666dcb02ac8fbc43bed10680dd86ab758b",
+      "horodatage_de_publication_de_balisage": "2017-03-21 10:26:17+00:00",
+      "horodatage_de_création_de_balisage": "2017-05-11 12:17:36+00:00",
+      "horodatage_de_mise_à_jour_de_balisage": "2017-05-11 12:17:36+00:00"
+    },
+    {
+      "id": 52086694,
+      "type_hote": "GitHub",
+      "nom_de_dépôt_avec_propriétaire": "dmpriso/hunter",
+      "id_de_dépôt": 23754342,
+      "nom_de_balisage": "v0.18.9",
+      "sha_git_de_balisage": "87e8fb2e57f4a71b685270d053e94d8706da9bdb",
+      "horodatage_de_publication_de_balisage": "2017-03-04 03:46:31+00:00",
+      "horodatage_de_création_de_balisage": "2017-05-11 12:17:32+00:00",
+      "horodatage_de_mise_à_jour_de_balisage": "2017-05-11 12:17:32+00:00"
+    }
+  ]
+}
