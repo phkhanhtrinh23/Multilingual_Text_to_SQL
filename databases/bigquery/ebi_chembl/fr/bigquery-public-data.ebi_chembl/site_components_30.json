@@ -1,0 +1,76 @@
+{
+  "table_name": "site_components_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.site_components_30",
+  "column_names": [
+    "id_composant_site",
+    "id_site",
+    "id_composant",
+    "id_domaine",
+    "residus_site"
+  ],
+  "column_types": [
+    "INT64",
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "id_composant_site",
+    "id_site",
+    "id_composant",
+    "id_domaine",
+    "residus_site"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING"
+  ],
+  "description": [
+    "Clé primaire.",
+    "Clé étrangère vers la table binding_sites.",
+    "Clé étrangère vers la table component_sequences, indiquant quel composant moléculaire de la cible est impliqué dans le site de liaison.",
+    "Clé étrangère vers la table domains, indiquant quel domaine du composant moléculaire donné est impliqué dans le site de liaison (lorsqu'il n'est pas connu, domain_id peut être null).",
+    "Liste des résidus du composant moléculaire donné qui constituent le site de liaison (lorsqu'il n'est pas connu, sera null)."
+  ],
+  "sample_rows": [
+    {
+      "id_composant_site": 2691,
+      "id_site": 2616,
+      "id_composant": 3269,
+      "id_domaine": null,
+      "residus_site": null
+    },
+    {
+      "id_composant_site": 2695,
+      "id_site": 2616,
+      "id_composant": 4850,
+      "id_domaine": null,
+      "residus_site": null
+    },
+    {
+      "id_composant_site": 2700,
+      "id_site": 2617,
+      "id_composant": 3269,
+      "id_domaine": null,
+      "residus_site": null
+    },
+    {
+      "id_composant_site": 2703,
+      "id_site": 2617,
+      "id_composant": 2363,
+      "id_domaine": null,
+      "residus_site": null
+    },
+    {
+      "id_composant_site": 2705,
+      "id_site": 2617,
+      "id_composant": 1075,
+      "id_domaine": null,
+      "residus_site": null
+    }
+  ]
+}
