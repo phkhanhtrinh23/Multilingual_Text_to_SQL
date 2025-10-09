@@ -1,0 +1,116 @@
+{
+  "table_name": "product_patents_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.product_patents_30",
+  "column_names": [
+    "id_pat_prod",
+    "id_produit",
+    "no_brevet",
+    "date_expiration_brevet",
+    "indicateur_substance_medicale",
+    "indicateur_produit_medicinal",
+    "code_utilisation_brevet",
+    "indicateur_radiation",
+    "date_de_presentation"
+  ],
+  "column_types": [
+    "INT64",
+    "STRING",
+    "STRING",
+    "DATETIME",
+    "INT64",
+    "INT64",
+    "STRING",
+    "INT64",
+    "DATETIME"
+  ],
+  "nested_column_names": [
+    "id_pat_prod",
+    "id_produit",
+    "no_brevet",
+    "date_expiration_brevet",
+    "indicateur_substance_medicale",
+    "indicateur_produit_medicinal",
+    "code_utilisation_brevet",
+    "indicateur_radiation",
+    "date_de_presentation"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "STRING",
+    "STRING",
+    "DATETIME",
+    "INT64",
+    "INT64",
+    "STRING",
+    "INT64",
+    "DATETIME"
+  ],
+  "description": [
+    "Clé primaire",
+    "Clé étrangère pour la table des produits - Numéro de demande de l'FDA pour le produit",
+    "Numéros de brevets soumis par le titulaire du brevet pour les brevets couverts par les dispositions légales",
+    "Date d'expiration du brevet telle que soumise par le titulaire du brevet, y compris les prolongations applicables",
+    "Les brevets soumis sur le formulaire FDA 3542 et énumérés après le 18 août 2003 peuvent avoir un indicateur de substance médicamenteuse défini sur 1, indiquant que le sponsor a soumis le brevet comme revendiquant la substance médicamenteuse",
+    "Les brevets soumis sur le formulaire FDA 3542 et énumérés après le 18 août 2003 peuvent avoir un indicateur de produit médicamenteux défini sur 1, indiquant que le sponsor a soumis le brevet comme revendiquant le produit médicamenteux",
+    "Code pour désigner un brevet d'utilisation qui couvre l'indication ou l'utilisation approuvée d'un produit médicamenteux",
+    "Les demandeurs en vertu de la Section 505(b)(2) ne sont pas tenus de certifier les brevets lorsque cet indicateur est défini sur 1",
+    "La date à laquelle l'FDA reçoit les informations sur les brevets de la part du titulaire de la demande de nouveau médicament (NDA). Format est Mmm d, yyyy"
+  ],
+  "sample_rows": [
+    {
+      "id_pat_prod": 12524,
+      "id_produit": "PRODUCT_022569_002",
+      "no_brevet": "9078814",
+      "date_expiration_brevet": "2024-01-08 00:00:00",
+      "indicateur_substance_medicale": 0,
+      "indicateur_produit_medicinal": 1,
+      "code_utilisation_brevet": null,
+      "indicateur_radiation": 0,
+      "date_de_presentation": "2015-08-11 00:00:00"
+    },
+    {
+      "id_pat_prod": 12841,
+      "id_produit": "PRODUCT_022569_001",
+      "no_brevet": "9078814",
+      "date_expiration_brevet": "2024-01-08 00:00:00",
+      "indicateur_substance_medicale": 0,
+      "indicateur_produit_medicinal": 1,
+      "code_utilisation_brevet": null,
+      "indicateur_radiation": 0,
+      "date_de_presentation": "2015-08-11 00:00:00"
+    },
+    {
+      "id_pat_prod": 19542,
+      "id_produit": "PRODUCT_022569_003",
+      "no_brevet": "9814705",
+      "date_expiration_brevet": "2024-01-08 00:00:00",
+      "indicateur_substance_medicale": 0,
+      "indicateur_produit_medicinal": 1,
+      "code_utilisation_brevet": null,
+      "indicateur_radiation": 0,
+      "date_de_presentation": "2017-12-13 00:00:00"
+    },
+    {
+      "id_pat_prod": 21398,
+      "id_produit": "PRODUCT_022569_002",
+      "no_brevet": "9814705",
+      "date_expiration_brevet": "2024-01-08 00:00:00",
+      "indicateur_substance_medicale": 0,
+      "indicateur_produit_medicinal": 1,
+      "code_utilisation_brevet": null,
+      "indicateur_radiation": 0,
+      "date_de_presentation": "2017-12-13 00:00:00"
+    },
+    {
+      "id_pat_prod": 21415,
+      "id_produit": "PRODUCT_022569_001",
+      "no_brevet": "9814705",
+      "date_expiration_brevet": "2024-01-08 00:00:00",
+      "indicateur_substance_medicale": 0,
+      "indicateur_produit_medicinal": 1,
+      "code_utilisation_brevet": null,
+      "indicateur_radiation": 0,
+      "date_de_presentation": "2017-12-13 00:00:00"
+    }
+  ]
+}
