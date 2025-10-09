@@ -1,0 +1,76 @@
+{
+  "table_name": "stops",
+  "table_fullname": "bigquery-public-data.san_francisco_transit_muni.stops",
+  "column_names": [
+    "id_arret",
+    "nom_arret",
+    "latitude_arret",
+    "longitude_arret",
+    "geometrie_arret"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "FLOAT64",
+    "GEOGRAPHY"
+  ],
+  "nested_column_names": [
+    "id_arret",
+    "nom_arret",
+    "latitude_arret",
+    "longitude_arret",
+    "geometrie_arret"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "FLOAT64",
+    "GEOGRAPHY"
+  ],
+  "description": [
+    "Identifiant unique pour chaque arrêt",
+    "Nom complet du texte de l'arrêt de transit",
+    "Latitude de l'arrêt",
+    "Longitude de l'arrêt",
+    "Représentation géographique de la position de l'arrêt"
+  ],
+  "sample_rows": [
+    {
+      "id_arret": "15829",
+      "nom_arret": "100 O'Shaughnessy Blvd",
+      "latitude_arret": 37.744481,
+      "longitude_arret": -122.450678,
+      "geometrie_arret": "POINT(-122.450678 37.744481)"
+    },
+    {
+      "id_arret": "14343",
+      "nom_arret": "101 Dakota St",
+      "latitude_arret": 37.75374,
+      "longitude_arret": -122.39565,
+      "geometrie_arret": "POINT(-122.39565 37.75374)"
+    },
+    {
+      "id_arret": "14122",
+      "nom_arret": "1095 CONNECTICUT ST",
+      "latitude_arret": 37.753902,
+      "longitude_arret": -122.397341,
+      "geometrie_arret": "POINT(-122.397341 37.753902)"
+    },
+    {
+      "id_arret": "13230",
+      "nom_arret": "10th Ave & Ortega St",
+      "latitude_arret": 37.752724,
+      "longitude_arret": -122.466502,
+      "geometrie_arret": "POINT(-122.466502 37.752724)"
+    },
+    {
+      "id_arret": "13231",
+      "nom_arret": "10th Ave & Pacheco St",
+      "latitude_arret": 37.75086,
+      "longitude_arret": -122.466376,
+      "geometrie_arret": "POINT(-122.466376 37.75086)"
+    }
+  ]
+}
