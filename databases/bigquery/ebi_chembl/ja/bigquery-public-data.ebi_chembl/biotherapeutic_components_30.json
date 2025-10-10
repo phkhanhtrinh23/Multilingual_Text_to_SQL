@@ -1,0 +1,56 @@
+{
+  "table_name": "biotherapeutic_components_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.biotherapeutic_components_30",
+  "column_names": [
+    "biocomp_id",
+    "molregno",
+    "component_id"
+  ],
+  "column_types": [
+    "INT64",
+    "INT64",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "生体構成要素_id",
+    "分子登録番号",
+    "構成要素_id"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "INT64",
+    "INT64"
+  ],
+  "description": [
+    "主キー。",
+    "コンポーネントが属する biotherapeutics テーブルへの外部キー。",
+    "どのコンポーネントがそのバイオ治療薬の一部であるかを示す bio_component_sequences テーブルへの外部キー。"
+  ],
+  "sample_rows": [
+    {
+      "生体構成要素_id": 3,
+      "分子登録番号": 1121951,
+      "構成要素_id": 6288
+    },
+    {
+      "生体構成要素_id": 4,
+      "分子登録番号": 1121907,
+      "構成要素_id": 6289
+    },
+    {
+      "生体構成要素_id": 5,
+      "分子登録番号": 1121907,
+      "構成要素_id": 6290
+    },
+    {
+      "生体構成要素_id": 6,
+      "分子登録番号": 1121879,
+      "構成要素_id": 6291
+    },
+    {
+      "生体構成要素_id": 7,
+      "分子登録番号": 1121879,
+      "構成要素_id": 6292
+    }
+  ]
+}
