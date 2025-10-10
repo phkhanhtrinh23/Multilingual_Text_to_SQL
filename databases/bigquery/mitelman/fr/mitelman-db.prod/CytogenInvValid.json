@@ -1,0 +1,116 @@
+{
+  "table_name": "CytogenInvValid",
+  "table_fullname": "mitelman-db.prod.CytogenInvValid",
+  "column_names": [
+    "NumRef",
+    "NumDossier",
+    "NumFacture",
+    "LongueurKary",
+    "KaryCourt",
+    "KaryLong",
+    "Message",
+    "Raison",
+    "EntreeCytoConv"
+  ],
+  "column_types": [
+    "INT64",
+    "STRING",
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "NumRef",
+    "NumDossier",
+    "NumFacture",
+    "LongueurKary",
+    "KaryCourt",
+    "KaryLong",
+    "Message",
+    "Raison",
+    "EntreeCytoConv"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "STRING",
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "numéro de référence",
+    "numéro de dossier -- habituellement un entier, mais peut également être une chaîne arbitraire",
+    "numéro d'enquête -- toujours un entier entre 1 et 9",
+    "longueur de la description du caryotype -- peut être aussi longue que des milliers de caractères, mais est généralement < 30",
+    "description du caryotype courte (possiblement tronquée)",
+    "si la description du caryotype dépasse une certaine longueur, la chaîne complète se trouve dans cette colonne, sinon ce champ est null",
+    "Indique si le caryotype a été corrigé par le vérificateur de syntaxe",
+    "Messages d'erreur",
+    "Une valeur de caryotype complète ajustée pour fonctionner avec l'outil CytoConverter"
+  ],
+  "sample_rows": [
+    {
+      "NumRef": 17264,
+      "NumDossier": "403",
+      "NumFacture": 1,
+      "LongueurKary": 256,
+      "KaryCourt": "45,XY,der(4)t(4;11)(p15;q21)t(4;11)(q13;q21)t(4;11)(q13;q14),der(5)t(5;17)(q11;q11),del(7)(q22q36),der(9)t(9;15)(q34;q26),r(11)(p11q11),der(15)t(11;15)(q14;p11)t(11;15)(q14;q14),der(16)t(15;16)(q21;q24)t(12;15)(q24;q21),del(17)(q11),der(20)t(4;20)(p15;p11",
+      "KaryLong": "45,XY,der(4)t(4;11)(p15;q21)t(4;11)(q13;q21)t(4;11)(q13;q14),der(5)t(5;17)(q11;q11),del(7)(q22q36),der(9)t(9;15)(q34;q26),r(11)(p11q11),der(15)t(11;15)(q14;p11)t(11;15)(q14;q14),der(16)t(15;16)(q21;q24)t(12;15)(q24;q21),del(17)(q11),der(20)t(4;20)(p15;p11)",
+      "Message": "Original",
+      "Raison": " ",
+      "EntreeCytoConv": "45,XY,der(4)t(4;11)(p15;q21)t(4;11)(q13;q21)t(4;11)(q13;q14),der(5)t(5;17)(q11;q11),del(7)(q22q36),der(9)t(9;15)(q34;q26),r(11)(p11q11),der(15)t(11;15)(q14;p11)t(11;15)(q14;q14),der(16)t(15;16)(q21;q24)t(12;15)(q24;q21),del(17)(q11),der(20)t(4;20)(p15;p11)"
+    },
+    {
+      "NumRef": 14318,
+      "NumDossier": "6",
+      "NumFacture": 3,
+      "LongueurKary": 256,
+      "KaryCourt": "46,XY,der(8)t(8;9)(p22;p24)t(8;22)(q24;q11),der(9)t(8;9)(p21;p24)x2,der(21)t(1;21)(q21;p11),der(22)t(8;22)(q24;q11)/46,XY,der(8)t(8;9)(p22;p24)t(8;22)(q24;q11),der(9)t(8;9)(p21;p24)x2,der(21)t(1;21)(q21;p11),der(22)t(8;22)(q24;q11),der(16)t(16;22)(q24;q11",
+      "KaryLong": "46,XY,der(8)t(8;9)(p22;p24)t(8;22)(q24;q11),der(9)t(8;9)(p21;p24)x2,der(21)t(1;21)(q21;p11),der(22)t(8;22)(q24;q11)/46,XY,der(8)t(8;9)(p22;p24)t(8;22)(q24;q11),der(9)t(8;9)(p21;p24)x2,der(21)t(1;21)(q21;p11),der(22)t(8;22)(q24;q11),der(16)t(16;22)(q24;q11)",
+      "Message": "Has been altered",
+      "Raison": " ",
+      "EntreeCytoConv": "46,XY,der(8)t(8;9)(p22;p24)t(8;22)(q24;q11),der(9)t(8;9)(p21;p24)x2,der(21)t(1;21)(q21;p11),der(22)t(8;22)(q24;q11)/46,XY,der(8)t(8;9)(p22;p24)t(8;22)(q24;q11),der(9)t(8;9)(p21;p24)x2,der(21)t(1;21)(q21;p11),der(22)t(8;22)(q24;q11),der(16)t(16;22)(q24;q11)"
+    },
+    {
+      "NumRef": 11275,
+      "NumDossier": "1",
+      "NumFacture": 1,
+      "LongueurKary": 0,
+      "KaryCourt": " ",
+      "KaryLong": " ",
+      "Message": "Original",
+      "Raison": " ",
+      "EntreeCytoConv": " "
+    },
+    {
+      "NumRef": 7355,
+      "NumDossier": "1",
+      "NumFacture": 1,
+      "LongueurKary": 0,
+      "KaryCourt": " ",
+      "KaryLong": " ",
+      "Message": "Original",
+      "Raison": " ",
+      "EntreeCytoConv": " "
+    },
+    {
+      "NumRef": 12035,
+      "NumDossier": "7",
+      "NumFacture": 1,
+      "LongueurKary": 0,
+      "KaryCourt": " ",
+      "KaryLong": " ",
+      "Message": "Original",
+      "Raison": " ",
+      "EntreeCytoConv": " "
+    }
+  ]
+}
