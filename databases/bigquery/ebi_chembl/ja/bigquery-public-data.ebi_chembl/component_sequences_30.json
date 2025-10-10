@@ -1,0 +1,126 @@
+{
+  "table_name": "component_sequences_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.component_sequences_30",
+  "column_names": [
+    "component_id",
+    "component_type",
+    "accession",
+    "sequence",
+    "sequence_md5sum",
+    "description",
+    "tax_id",
+    "organism",
+    "db_source",
+    "db_version"
+  ],
+  "column_types": [
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "component_id",
+    "component_type",
+    "accession",
+    "sequence",
+    "sequence_md5sum",
+    "description",
+    "tax_id",
+    "organism",
+    "db_source",
+    "db_version"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "Primary key. コンポーネントの一意の識別子。",
+    "表される分子成分のタイプ（例: 'PROTEIN','DNA','RNA'）。",
+    "配列が取得された元データベースでのアクセッション（例: タンパク質の場合は UniProt アクセッション）。",
+    "ソース配列データベースに示されている、分子成分の代表配列（アッセイで実際に使用された正確な配列とは限らない）。",
+    "配列のMD5チェックサム。",
+    "分子成分の説明/名称。通常はソース配列データベースから取得される。",
+    "ソースデータベース内の配列のNCBI tax ID（すなわち、そのタンパク質/核酸配列が由来する種）。",
+    "配列が由来する生物の名称。",
+    "配列/アクセッションが取得されたソース配列データベースの名称。UniProt のタンパク質については、このフィールドは配列が SWISS-PROT か TREMBL のどちらかを示す。",
+    "配列/アクセッションが最後に更新されたソース配列データベースのバージョン。"
+  ],
+  "sample_rows": [
+    {
+      "component_id": 7819,
+      "component_type": "RNA",
+      "accession": "ENSG00000084674",
+      "sequence": null,
+      "sequence_md5sum": null,
+      "description": "Apo-B 100 mRNA",
+      "tax_id": 9606,
+      "organism": "Homo sapiens",
+      "db_source": "Manual",
+      "db_version": null
+    },
+    {
+      "component_id": 17009,
+      "component_type": "RNA",
+      "accession": "ENSG00000198947",
+      "sequence": null,
+      "sequence_md5sum": null,
+      "description": "Dystrophin pre-mRNA",
+      "tax_id": 9606,
+      "organism": "Homo sapiens",
+      "db_source": "Manual",
+      "db_version": null
+    },
+    {
+      "component_id": 17014,
+      "component_type": "RNA",
+      "accession": "ENSG00000205571",
+      "sequence": null,
+      "sequence_md5sum": null,
+      "description": "SMN2 delta7 pre-mRNA",
+      "tax_id": 9606,
+      "organism": "Homo sapiens",
+      "db_source": "Manual",
+      "db_version": null
+    },
+    {
+      "component_id": 17103,
+      "component_type": "RNA",
+      "accession": "ENSG00000142168",
+      "sequence": null,
+      "sequence_md5sum": null,
+      "description": "SOD1 mRNA",
+      "tax_id": 9606,
+      "organism": "Homo sapiens",
+      "db_source": "Manual",
+      "db_version": null
+    },
+    {
+      "component_id": 17551,
+      "component_type": "RNA",
+      "accession": null,
+      "sequence": null,
+      "sequence_md5sum": null,
+      "description": "18S RNA",
+      "tax_id": 9606,
+      "organism": "Homo sapiens",
+      "db_source": "Manual",
+      "db_version": null
+    }
+  ]
+}
