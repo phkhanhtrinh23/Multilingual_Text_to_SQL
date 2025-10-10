@@ -1,0 +1,86 @@
+{
+  "table_name": "tlc_fhv_trips_2015",
+  "table_fullname": "bigquery-public-data.new_york_taxi_trips.tlc_fhv_trips_2015",
+  "column_names": [
+    "id_de_localisation",
+    "date_heure_de_ramassage",
+    "numero_de_base_de_dispatching",
+    "arrondissement",
+    "zone",
+    "zone_de_service"
+  ],
+  "column_types": [
+    "INT64",
+    "DATETIME",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "id_emplacement",
+    "date_heure_de_ramassage",
+    "numero_de_base_de_dispatching",
+    "arrondissement",
+    "zone",
+    "zone_de_service"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "DATETIME",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "La zone de taxi TLC de la prise en charge du trajet",
+    "La date et l'heure de la prise en charge du trajet.",
+    "Le numéro de licence de base TLC de la base qui a dispatché le trajet.",
+    "Ceci est le borough de prise en charge",
+    "Ceci est la zone de prise en charge",
+    "Ceci est la zone de service de prise en charge"
+  ],
+  "sample_rows": [
+    {
+      "id_emplacement": null,
+      "date_heure_de_ramassage": "2015-12-13 15:25:00",
+      "numero_de_base_de_dispatching": "B00001",
+      "arrondissement": "",
+      "zone": "",
+      "zone_de_service": ""
+    },
+    {
+      "id_emplacement": null,
+      "date_heure_de_ramassage": "2015-07-07 18:30:00",
+      "numero_de_base_de_dispatching": "B00001",
+      "arrondissement": "",
+      "zone": "",
+      "zone_de_service": ""
+    },
+    {
+      "id_emplacement": null,
+      "date_heure_de_ramassage": "2015-06-14 17:00:00",
+      "numero_de_base_de_dispatching": "B00001",
+      "arrondissement": "",
+      "zone": "",
+      "zone_de_service": ""
+    },
+    {
+      "id_emplacement": null,
+      "date_heure_de_ramassage": "2015-05-04 07:00:00",
+      "numero_de_base_de_dispatching": "B00001",
+      "arrondissement": "",
+      "zone": "",
+      "zone_de_service": ""
+    },
+    {
+      "id_emplacement": null,
+      "date_heure_de_ramassage": "2015-05-24 10:00:00",
+      "numero_de_base_de_dispatching": "B00001",
+      "arrondissement": "",
+      "zone": "",
+      "zone_de_service": ""
+    }
+  ]
+}
