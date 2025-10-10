@@ -1,0 +1,86 @@
+{
+  "table_name": " distract_2015",
+  "table_fullname": "bigquery-public-data.nhtsa_traffic_fatalities. distract_2015",
+  "column_names": [
+    "numero_d_etat",
+    "nom_d_etat",
+    "numero_consecutif",
+    "numero_de_vehicule",
+    "conducteur_distrait_par",
+    "nom_conducteur_distrait_par"
+  ],
+  "column_types": [
+    "INT64",
+    "STRING",
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "numero_d_etat",
+    "nom_d_etat",
+    "numero_consecutif",
+    "numero_de_vehicule",
+    "conducteur_distrait_par",
+    "nom_de_conducteur_distrait_par"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "STRING",
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING"
+  ],
+  "description": [
+    "Cet élément de données identifie l'état dans lequel l'accident s'est produit. Les codes sont issus de la publication de l'Administration des services généraux (GSA) sur les codes de localisation géographique mondiaux (GLC). Pour plus d'informations sur les codes, veuillez consulter la section <C1/V1/D1/PC1/P1/NM1 State Number> du pdf : https://crashstats.nhtsa.dot.gov/Api/Public/ViewPublication/812315",
+    "Cet élément de données identifie l'état dans lequel l'accident s'est produit. Les codes sont issus de la publication de l'Administration des services généraux (GSA) sur les codes de localisation géographique mondiaux (GLC).",
+    "Cet élément de données est le numéro de cas unique attribué à chaque accident. Il figure sur chaque fichier de données et est utilisé pour fusionner les informations des fichiers de données. xxxxxx Deux caractères pour le code d'état suivis de quatre caractères pour le numéro de cas",
+    "Cet élément de données est le numéro consécutif attribué à chaque véhicule dans le cas. Cet élément de données figure sur chaque fichier de données au niveau du véhicule et est utilisé en conjonction avec l'élément de données ST_CASE pour fusionner les informations des fichiers de données au niveau du véhicule. 000-999 Numéro attribué de véhicule à moteur",
+    "Cet élément de données identifie l'attribut (s) qui décrit (ent) le mieux l'attention du conducteur à la conduite avant que le conducteur ne prenne conscience d'un événement critique imminent ou juste avant l'impact si la prise de conscience d'un événement critique imminent ne se produit pas. Pour plus d'informations sur les codes, veuillez consulter la section <PC16 Driver Distracted By> du pdf : https://crashstats.nhtsa.dot.gov/Api/Public/ViewPublication/812315",
+    "Cet élément de données identifie l'attribut (s) qui décrit (ent) le mieux l'attention du conducteur à la conduite avant que le conducteur ne prenne conscience d'un événement critique imminent ou juste avant l'impact si la prise de conscience d'un événement critique imminent ne se produit pas."
+  ],
+  "sample_rows": [
+    {
+      "numero_d_etat": 1,
+      "nom_d_etat": "Alabama",
+      "numero_consecutif": 10034,
+      "numero_de_vehicule": 5,
+      "conducteur_distrait_par": 0,
+      "nom_de_conducteur_distrait_par": "Not Distracted"
+    },
+    {
+      "numero_d_etat": 1,
+      "nom_d_etat": "Alabama",
+      "numero_consecutif": 10034,
+      "numero_de_vehicule": 6,
+      "conducteur_distrait_par": 0,
+      "nom_de_conducteur_distrait_par": "Not Distracted"
+    },
+    {
+      "numero_d_etat": 1,
+      "nom_d_etat": "Alabama",
+      "numero_consecutif": 10095,
+      "numero_de_vehicule": 10,
+      "conducteur_distrait_par": 0,
+      "nom_de_conducteur_distrait_par": "Not Distracted"
+    },
+    {
+      "numero_d_etat": 1,
+      "nom_d_etat": "Alabama",
+      "numero_consecutif": 10141,
+      "numero_de_vehicule": 5,
+      "conducteur_distrait_par": 0,
+      "nom_de_conducteur_distrait_par": "Not Distracted"
+    },
+    {
+      "numero_d_etat": 1,
+      "nom_d_etat": "Alabama",
+      "numero_consecutif": 10141,
+      "numero_de_vehicule": 6,
+      "conducteur_distrait_par": 0,
+      "nom_de_conducteur_distrait_par": "Not Distracted"
+    }
+  ]
+}
