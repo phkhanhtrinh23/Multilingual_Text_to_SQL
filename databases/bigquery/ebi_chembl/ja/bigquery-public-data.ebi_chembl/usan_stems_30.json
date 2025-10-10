@@ -1,0 +1,96 @@
+{
+  "table_name": "usan_stems_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.usan_stems_30",
+  "column_names": [
+    "usan_stem_id",
+    "stem",
+    "subgroup",
+    "annotation",
+    "stem_class",
+    "major_class",
+    "who_extra"
+  ],
+  "column_types": [
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "USANステムID",
+    "ステム",
+    "サブグループ",
+    "注釈",
+    "ステム分類",
+    "主要分類",
+    "WHO追加情報"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64"
+  ],
+  "description": [
+    "数値の主キー。",
+    "United States Adopted Namesで使用するために定義されたステム。",
+    "United States Adopted Namesで使用するために定義された、ステムのより具体的なサブグループ。",
+    "ステムの意味（例：それが適用される化合物のクラス）。",
+    "ステムが接頭辞/インフィックス/接尾辞として使用されるかどうかを示す。",
+    "このクラスの化合物が標的とするタンパク質ファミリー（既知または該当する場合、例：GPCR/イオンチャネル/プロテアーゼ）。",
+    "USANリストに表示されないステムで、WHO INNステムリストから追加されたもの（1に設定されている場合）。"
+  ],
+  "sample_rows": [
+    {
+      "USANステムID": 16,
+      "ステム": "-adol-",
+      "サブグループ": "-",
+      "注釈": "analgesics (mixed opiate receptor agonists/antagonists)",
+      "ステム分類": "Infix",
+      "主要分類": "GPCR",
+      "WHO追加情報": 0
+    },
+    {
+      "USANステムID": 32,
+      "ステム": "-nab-",
+      "サブグループ": "-",
+      "注釈": "cannabinol derivatives",
+      "ステム分類": "Infix",
+      "主要分類": "GPCR",
+      "WHO追加情報": 0
+    },
+    {
+      "USANステムID": 49,
+      "ステム": "-kef-",
+      "サブグループ": "-",
+      "注釈": "enkephalin agonists",
+      "ステム分類": "Infix",
+      "主要分類": "GPCR",
+      "WHO追加情報": 0
+    },
+    {
+      "USANステムID": 73,
+      "ステム": "-prost-",
+      "サブグループ": "-",
+      "注釈": "prostaglandins",
+      "ステム分類": "Infix",
+      "主要分類": "GPCR",
+      "WHO追加情報": 0
+    },
+    {
+      "USANステムID": 86,
+      "ステム": "-barb-",
+      "サブグループ": "-",
+      "注釈": "barbituric acid derivatives",
+      "ステム分類": "Infix",
+      "主要分類": "ion channel",
+      "WHO追加情報": 0
+    }
+  ]
+}
