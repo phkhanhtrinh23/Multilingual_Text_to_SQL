@@ -1,0 +1,62 @@
+{
+  "sample_rows": [
+    {
+      "ID_DE_POI": "08f2a100d2c8339a03800511a0e262db",
+      "ID_D_ADRESSE": "addressId/f5b7341c99d6fb3b021b81e2b1440534",
+      "TYPE_DE_RELATION": "Overlaps",
+      "DATE_DE_DEBUT_DE_RELATION": null,
+      "DATE_DE_FIN_DE_RELATION": null
+    },
+    {
+      "ID_DE_POI": "08f44f69346b2d180329f2842dadd97f",
+      "ID_D_ADRESSE": "addressId/f292c542fb15aea917efc820024f7f59",
+      "TYPE_DE_RELATION": "Overlaps",
+      "DATE_DE_DEBUT_DE_RELATION": null,
+      "DATE_DE_FIN_DE_RELATION": null
+    },
+    {
+      "ID_DE_POI": "08f444658991457103a40df7d19158a8",
+      "ID_D_ADRESSE": "addressId/be401329734185e3737194a6270c0ca3",
+      "TYPE_DE_RELATION": "Overlaps",
+      "DATE_DE_DEBUT_DE_RELATION": null,
+      "DATE_DE_FIN_DE_RELATION": null
+    },
+    {
+      "ID_DE_POI": "08f2a93158a44176039c10b29a8591ca",
+      "ID_D_ADRESSE": "addressId/8e9f346e8be0edbb3d3c70118c92d41f",
+      "TYPE_DE_RELATION": "Overlaps",
+      "DATE_DE_DEBUT_DE_RELATION": null,
+      "DATE_DE_FIN_DE_RELATION": null
+    },
+    {
+      "ID_DE_POI": "08f2758d6a55c146031a544fd081a425",
+      "ID_D_ADRESSE": "addressId/aecb4f044fac1440c914b9dea833a24c",
+      "TYPE_DE_RELATION": "Overlaps",
+      "DATE_DE_DEBUT_DE_RELATION": null,
+      "DATE_DE_FIN_DE_RELATION": null
+    }
+  ],
+  "table_name": "POINT_OF_INTEREST_ADDRESSES_RELATIONSHIPS",
+  "table_fullname": "US_REAL_ESTATE.CYBERSYN.POINT_OF_INTEREST_ADDRESSES_RELATIONSHIPS",
+  "column_names": [
+    "TYPE_DE_RELATION",
+    "ID_DE_POI",
+    "DATE_DE_DEBUT_DE_RELATION",
+    "DATE_DE_FIN_DE_RELATION",
+    "ID_D_ADRESSE"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "DATE",
+    "DATE",
+    "TEXT"
+  ],
+  "description": [
+    "Relation entre les deux endroits. Nous utilisons 'Overlaps' pour indiquer que le `POI_ID` est une sous-partie du `ADDRESS_ID` (par exemple, relation d'un appartement à un immeuble d'appartements, car il peut y avoir plusieurs points d'intérêt à la même adresse, surtout si les données manquent d'informations précises sur les unités).",
+    "Un identifiant unique pour un point d'intérêt (comme un parc, une succursale d'une chaîne de restauration rapide, un hôtel, etc.) en fonction de sa description et de son emplacement. Il peut être joint à la table `point_of_interest_index`.",
+    "La date à partir de laquelle une relation donnée est valable. Par exemple, si le `NAME` d'un endroit à un `POI_ID` donné a changé le 2023-04-01, alors la `relationship_start_date` du 2023-04-01 est attribuée. Cependant, actuellement, toutes les valeurs de cette colonne sont NULL puisqu'elle ne contient que les caractéristiques les plus récentes sans changements historiques.",
+    "La date à partir de laquelle une relation donnée est valable. Par exemple, si le `NAME` d'un endroit à un `POI_ID` donné a changé le 2023-04-01, alors la `relationship_end_date` du 2023-03-31 est attribuée au `NAME` pour ce `POI_ID`. Cependant, actuellement, toutes les valeurs de cette colonne sont NULL puisqu'elle ne contient que les caractéristiques les plus récentes sans changements historiques.",
+    "Un identifiant unique pour une adresse en fonction de l'adresse de rue qui peut être joint à la table `us_addresses`."
+  ]
+}

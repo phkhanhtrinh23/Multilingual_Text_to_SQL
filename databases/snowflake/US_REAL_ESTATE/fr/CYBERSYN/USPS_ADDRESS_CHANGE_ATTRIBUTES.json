@@ -1,0 +1,70 @@
+{
+  "sample_rows": [
+    {
+      "VARIABLE": "inbound_address_changes_permanent",
+      "NOM_DE_VARIABLE": "Inbound Address Changes, Permanent",
+      "MESURE": "Inbound Address Changes",
+      "TYPE_DE_REQUÊTE": "Permanent",
+      "UNITÉ": "Count",
+      "FRÉQUENCE": "Month"
+    },
+    {
+      "VARIABLE": "inbound_address_changes_total",
+      "NOM_DE_VARIABLE": "Inbound Address Changes, Total",
+      "MESURE": "Inbound Address Changes",
+      "TYPE_DE_REQUÊTE": "Total",
+      "UNITÉ": "Count",
+      "FRÉQUENCE": "Month"
+    },
+    {
+      "VARIABLE": "inbound_address_changes_businesses",
+      "NOM_DE_VARIABLE": "Inbound Address Changes, Businesses",
+      "MESURE": "Inbound Address Changes",
+      "TYPE_DE_REQUÊTE": "Businesses",
+      "UNITÉ": "Count",
+      "FRÉQUENCE": "Month"
+    },
+    {
+      "VARIABLE": "net_address_changes_individuals",
+      "NOM_DE_VARIABLE": "Net Address Changes, Individuals",
+      "MESURE": "Net Address Changes",
+      "TYPE_DE_REQUÊTE": "Individuals",
+      "UNITÉ": "Count",
+      "FRÉQUENCE": "Month"
+    },
+    {
+      "VARIABLE": "outbound_address_changes_temporary",
+      "NOM_DE_VARIABLE": "Outbound Address Changes, Temporary",
+      "MESURE": "Outbound Address Changes",
+      "TYPE_DE_REQUÊTE": "Temporary",
+      "UNITÉ": "Count",
+      "FRÉQUENCE": "Month"
+    }
+  ],
+  "table_name": "USPS_ADDRESS_CHANGE_ATTRIBUTES",
+  "table_fullname": "US_REAL_ESTATE.CYBERSYN.USPS_ADDRESS_CHANGE_ATTRIBUTES",
+  "column_names": [
+    "NOM_DE_VARIABLE",
+    "UNITÉ",
+    "TYPE_DE_REQUÊTE",
+    "MESURE",
+    "FRÉQUENCE",
+    "VARIABLE"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Une description lisible par l'homme de la variable",
+    "Unité de mesure, qui est le nombre de demandes de changement d'adresse",
+    "Catégorisation de la demande. Les types de demandes sont regroupés comme temporelles (définitives ou temporaires) ; type de demandeur (famille, individu, entreprise) ; ou total",
+    "Type de changements d'adresse signalés, Entrant - personnes qui déménagent vers la géographie ; sortant - personnes qui quittent la géographie ; net - entrant moins sortant",
+    "Fréquence à laquelle la valeur est signalée",
+    "Un identifiant unique pouvant être joint à la table des séries chronologiques"
+  ]
+}

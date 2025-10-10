@@ -1,0 +1,54 @@
+{
+  "sample_rows": [
+    {
+      "ID_POI": "08f26c862279d1150352e1060f847671",
+      "NOM_POI": "Redbox",
+      "CATEGORIE_PRINCIPALE": "Video And Video Game Rentals",
+      "CATEGORIE_ALTERNATE": "[\n  \"Books Mags Music And Video\",\n  \"Rental Kiosks\"\n]"
+    },
+    {
+      "ID_POI": "08f27490544e86b1036967efcd70720e",
+      "NOM_POI": "Hudson Place",
+      "CATEGORIE_PRINCIPALE": "Retirement Home",
+      "CATEGORIE_ALTERNATE": "[\n  \"Health And Medical\",\n  \"Public Service And Government\"\n]"
+    },
+    {
+      "ID_POI": "08f275d740d8184e03d67542272d1020",
+      "NOM_POI": "One Source Construction Corp.",
+      "CATEGORIE_PRINCIPALE": "Construction Services",
+      "CATEGORIE_ALTERNATE": "[\n  \"Commercial Industrial\",\n  \"Contractor\"\n]"
+    },
+    {
+      "ID_POI": "08f26c18910da49303ca27a9af04b9cf",
+      "NOM_POI": "Council Road",
+      "CATEGORIE_PRINCIPALE": "Church Cathedral",
+      "CATEGORIE_ALTERNATE": "[\n  \"Baptist Church\",\n  \"Religious Organization\"\n]"
+    },
+    {
+      "ID_POI": "08f2a94d0592d19c0352b1ade5f7bfe8",
+      "NOM_POI": "Impact Employment Solutions",
+      "CATEGORIE_PRINCIPALE": "Employment Agencies",
+      "CATEGORIE_ALTERNATE": "[\n  \"Information Technology Company\",\n  \"Professional Services\"\n]"
+    }
+  ],
+  "table_name": "POINT_OF_INTEREST_INDEX",
+  "table_fullname": "US_REAL_ESTATE.CYBERSYN.POINT_OF_INTEREST_INDEX",
+  "column_names": [
+    "CATEGORIE_PRINCIPALE",
+    "NOM_POI",
+    "CATEGORIE_ALTERNATE",
+    "ID_POI"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "ARRAY",
+    "TEXT"
+  ],
+  "description": [
+    "Catégorie principale ou classe de lieu pour le POI.",
+    "Nom du lieu, du commerçant ou de la marque pour le POI particulier.",
+    "Catégories alternatives du POI. Un POI peut correspondre à plusieurs catégories (par exemple, Restaurant, Restaurant de burgers, Restaurant de fast food), dans ce cas, une catégorie serait enregistrée comme CATEGORY_MAIN et les catégories restantes seraient enregistrées dans une liste sous CATEGORY_ALTERNATE.",
+    "Un identifiant unique pour un point d'intérêt (comme un parc, une chaîne de restauration rapide, un hôtel, etc.) en fonction de sa description et de son emplacement. Cela peut être joint à la table POINT_OF_INTEREST_ADDRESSES_RELATIONSHIPS qui peut être utilisée pour relier les POI aux adresses."
+  ]
+}
