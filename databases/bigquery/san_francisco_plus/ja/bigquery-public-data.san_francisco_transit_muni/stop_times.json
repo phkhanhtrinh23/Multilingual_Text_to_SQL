@@ -1,0 +1,116 @@
+{
+  "table_name": "stop_times",
+  "table_fullname": "bigquery-public-data.san_francisco_transit_muni.stop_times",
+  "column_names": [
+    "停留所ID",
+    "便ID",
+    "停留所順序",
+    "到着時刻",
+    "翌日到着",
+    "出発時刻",
+    "翌日出発",
+    "降車方法",
+    "正確な時刻指定"
+  ],
+  "column_types": [
+    "INT64",
+    "INT64",
+    "INT64",
+    "TIME",
+    "BOOL",
+    "TIME",
+    "BOOL",
+    "STRING",
+    "BOOL"
+  ],
+  "nested_column_names": [
+    "停留所ID",
+    "運行ID",
+    "停車順序",
+    "到着時刻",
+    "翌日到着",
+    "出発時刻",
+    "翌日出発",
+    "降車種別",
+    "厳密な時刻指定"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "INT64",
+    "INT64",
+    "TIME",
+    "BOOL",
+    "TIME",
+    "BOOL",
+    "STRING",
+    "BOOL"
+  ],
+  "description": [
+    "サービスが提供される停留所を識別します。複数の路線が同じ停留所を使用することがあります。",
+    "運行を識別します。複数の運行が同じ停留所を持つことがあります。",
+    "特定の運行における停留所の順序を識別します。stop_sequence の値は運行中に増加している必要がありますが、連続している必要はありません。",
+    "特定の路線上の特定の運行における特定の停留所での予定到着時刻を指定します。",
+    "複数の路線は深夜前に始まり、夜通し運行が続きます。この変数は、arrival_time が予定日の翌日の深夜以降に発生するかどうかを指定します。これは、ある日に始まり翌日に終了する路線を特定するのに有用です。",
+    "特定の路線上の特定の運行における特定の停留所での予定出発時刻を指定します。",
+    "複数の路線は深夜前に始まり、夜通し運行が続きます。この変数は、departure_time が予定日の翌日の深夜以降に発生するかどうかを指定します。これは、ある日に始まり翌日に終了する路線を特定するのに有用です。",
+    "\"Indicates whether riders are dropped off at a stop as part of the normal schedule or whether a drop off at the stop isn't available. Available options:  -  regular -  none -  phone (indicates must phone agency to arrange drop off) -  driver (indicates must coordinate with driver to arrange drop off)\"",
+    "指定された停留所の到着時刻と出発時刻が輸送車両によって厳密に守られているか、それとも概算または補間された時刻であるかを示します。"
+  ],
+  "sample_rows": [
+    {
+      "停留所ID": 15759,
+      "運行ID": 8951406,
+      "停車順序": 51,
+      "到着時刻": "06:54:55",
+      "翌日到着": false,
+      "出発時刻": "06:54:55",
+      "翌日出発": false,
+      "降車種別": "regular",
+      "厳密な時刻指定": false
+    },
+    {
+      "停留所ID": 15761,
+      "運行ID": 8951406,
+      "停車順序": 52,
+      "到着時刻": "06:55:33",
+      "翌日到着": false,
+      "出発時刻": "06:55:33",
+      "翌日出発": false,
+      "降車種別": "regular",
+      "厳密な時刻指定": false
+    },
+    {
+      "停留所ID": 15763,
+      "運行ID": 8951406,
+      "停車順序": 53,
+      "到着時刻": "06:56:04",
+      "翌日到着": false,
+      "出発時刻": "06:56:04",
+      "翌日出発": false,
+      "降車種別": "regular",
+      "厳密な時刻指定": false
+    },
+    {
+      "停留所ID": 15828,
+      "運行ID": 8951406,
+      "停車順序": 54,
+      "到着時刻": "06:57:00",
+      "翌日到着": false,
+      "出発時刻": "06:57:00",
+      "翌日出発": false,
+      "降車種別": "regular",
+      "厳密な時刻指定": true
+    },
+    {
+      "停留所ID": 15759,
+      "運行ID": 8951253,
+      "停車順序": 51,
+      "到着時刻": "06:54:55",
+      "翌日到着": false,
+      "出発時刻": "06:54:55",
+      "翌日出発": false,
+      "降車種別": "regular",
+      "厳密な時刻指定": false
+    }
+  ]
+}
