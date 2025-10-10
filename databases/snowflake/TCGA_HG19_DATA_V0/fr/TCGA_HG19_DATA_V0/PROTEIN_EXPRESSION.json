@@ -1,0 +1,110 @@
+{
+  "table_name": "PROTEIN_EXPRESSION",
+  "table_fullname": "TCGA_HG19_DATA_V0.TCGA_HG19_DATA_V0.PROTEIN_EXPRESSION",
+  "column_names": [
+    "code_barre_aliquot",
+    "phospho",
+    "nom_de_base_de_proteine",
+    "nom_de_gene",
+    "code_barre_echantillon",
+    "expression_de_proteine",
+    "code_barre_cas",
+    "nom_de_proteine",
+    "source_d_anticorps",
+    "nom_court_de_projet",
+    "statut_de_validation"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "FLOAT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Code à barres d'aliquote TCGA original, par exemple TCGA-12-1089-01A-01D-0517-01",
+    "Si l'anticorps cible une protéine phosphorylée, ce champ contiendra ces informations, par exemple pS473  --  sinon ce champ sera null",
+    "Nom de la protéine, par exemple AR, MAPK",
+    "Nom du gène, par exemple TTN, DDR1, etc",
+    "Code à barres d'échantillon TCGA original, par exemple TCGA-12-1089-01A  --  notez qu'un échantillon peut avoir plusieurs aliquotes et donc plusieurs ensembles de segmentations CN ; assurez-vous d'utiliser GROUP BY de manière appropriée dans vos requêtes",
+    "Niveau d'expression de la protéine mesuré par des tableaux de protéines à phase inverse. https://bioinformatics.mdanderson.org/public-software/tcpa/",
+    "Code à barres de cas TCGA original, par exemple TCGA-12-1089  --  notez que chaque cas contient généralement un échantillon de tumeur primaire et un échantillon apparié normal (sang ou tissu adjacent) ; veuillez consulter la table de biospécimen TCGA pour plus de détails",
+    "Symbole de la protéine avec état de phosphorylation, par exemple ACC_pS79",
+    "Animal d'origine de l'anticorps M (Souris), R (Lapin), G (Chèvre)",
+    "Abréviation du nom du projet ; le nom du programme suivi d'une abréviation du nom du projet ; par exemple TCGA-OV, etc.",
+    "Statut de validation de l'anticorps par corrélation des données RPPA avec le Western blot : V, E, C. Pour plus d'informations : https://bioinformatics.mdanderson.org/public-software/mclp/"
+  ],
+  "sample_rows": [
+    {
+      "nom_court_de_projet": "TCGA-CHOL",
+      "code_barre_cas": "TCGA-W5-AA2U",
+      "code_barre_echantillon": "TCGA-W5-AA2U-01A",
+      "code_barre_aliquot": "TCGA-W5-AA2U-01A-21-A45N-20",
+      "nom_de_gene": "AR",
+      "nom_de_base_de_proteine": "AR",
+      "phospho": null,
+      "nom_de_proteine": "AR",
+      "expression_de_proteine": -0.205618065,
+      "source_d_anticorps": "R",
+      "statut_de_validation": "V"
+    },
+    {
+      "nom_court_de_projet": "TCGA-DLBC",
+      "code_barre_cas": "TCGA-FA-A7Q1",
+      "code_barre_echantillon": "TCGA-FA-A7Q1-01A",
+      "code_barre_aliquot": "TCGA-FA-A7Q1-01A-21-A45K-20",
+      "nom_de_gene": "AR",
+      "nom_de_base_de_proteine": "AR",
+      "phospho": null,
+      "nom_de_proteine": "AR",
+      "expression_de_proteine": -0.225150876,
+      "source_d_anticorps": "R",
+      "statut_de_validation": "V"
+    },
+    {
+      "nom_court_de_projet": "TCGA-DLBC",
+      "code_barre_cas": "TCGA-FF-8042",
+      "code_barre_echantillon": "TCGA-FF-8042-01A",
+      "code_barre_aliquot": "TCGA-FF-8042-01A-21-A45K-20",
+      "nom_de_gene": "AR",
+      "nom_de_base_de_proteine": "AR",
+      "phospho": null,
+      "nom_de_proteine": "AR",
+      "expression_de_proteine": 0.1546948165,
+      "source_d_anticorps": "R",
+      "statut_de_validation": "V"
+    },
+    {
+      "nom_court_de_projet": "TCGA-DLBC",
+      "code_barre_cas": "TCGA-RQ-A68N",
+      "code_barre_echantillon": "TCGA-RQ-A68N-01A",
+      "code_barre_aliquot": "TCGA-RQ-A68N-01A-21-A45K-20",
+      "nom_de_gene": "AR",
+      "nom_de_base_de_proteine": "AR",
+      "phospho": null,
+      "nom_de_proteine": "AR",
+      "expression_de_proteine": 0.1433404515,
+      "source_d_anticorps": "R",
+      "statut_de_validation": "V"
+    },
+    {
+      "nom_court_de_projet": "TCGA-DLBC",
+      "code_barre_cas": "TCGA-FA-8693",
+      "code_barre_echantillon": "TCGA-FA-8693-01A",
+      "code_barre_aliquot": "TCGA-FA-8693-01A-21-A45K-20",
+      "nom_de_gene": "AR",
+      "nom_de_base_de_proteine": "AR",
+      "phospho": null,
+      "nom_de_proteine": "AR",
+      "expression_de_proteine": -0.0486869165000001,
+      "source_d_anticorps": "R",
+      "statut_de_validation": "V"
+    }
+  ]
+}
