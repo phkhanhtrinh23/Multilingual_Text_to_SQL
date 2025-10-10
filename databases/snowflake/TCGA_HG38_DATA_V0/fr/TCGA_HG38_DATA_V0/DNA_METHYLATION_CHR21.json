@@ -1,0 +1,102 @@
+{
+  "table_name": "DNA_METHYLATION_CHR21",
+  "table_fullname": "TCGA_HG38_DATA_V0.TCGA_HG38_DATA_V0.DNA_METHYLATION_CHR21",
+  "column_names": [
+    "identifiant_gdc_échantillon",
+    "code_barre_aliquot",
+    "identifiant_gdc_fichier",
+    "code_barre_cas",
+    "identifiant_gdc_aliquot",
+    "id_sonde",
+    "valeur_bêta",
+    "code_barre_échantillon",
+    "plateforme",
+    "identifiant_gdc_cas"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "FLOAT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "",
+    "Code-barres d'aliquote TCGA original, par exemple TCGA-12-1089-01A-01D-0517-01",
+    "",
+    "Code-barres de cas TCGA original, par exemple TCGA-12-1089  --  notez que chaque cas contient généralement un échantillon de tumeur primaire et un échantillon normal apparié (sang ou tissu adjacent) ; veuillez consulter la table TCGA Biospecimen pour plus de détails",
+    "",
+    "Identifiant unique de sonde (par exemple `cg04676771`) de la matrice d'hyperméthylation humaine Illumina -- veuillez consulter la table d'annotation (`isb-cgc:platform_reference.methylation_annotation`) pour plus de détails sur une sonde particulière",
+    "Valeur beta d'hyperméthylation de l'ADN normalisée (entre 0 et 1, où 0 indique complètement non méthylation et 1 indique complètement méthylation)",
+    "Code-barres d'échantillon TCGA original, par exemple TCGA-12-1089-01A",
+    "Nom de la plate-forme utilisée pour générer ces données -- soit HumanMethylation450 ou HumanMethylation27",
+    ""
+  ],
+  "sample_rows": [
+    {
+      "code_barre_cas": "TCGA-12-1601",
+      "code_barre_échantillon": "TCGA-12-1601-01A",
+      "code_barre_aliquot": "TCGA-12-1601-01A-01D-0595-05",
+      "id_sonde": "cg13694867",
+      "valeur_bêta": 0.00771909550408236,
+      "plateforme": null,
+      "identifiant_gdc_fichier": "5cd6f2f6-7278-4757-be8e-a8ae3a7a81d3",
+      "identifiant_gdc_cas": "cc1459be-de8f-482e-9efe-65937db9dc45",
+      "identifiant_gdc_échantillon": "b02fd704-03a6-44c4-b224-f5f457e733f3",
+      "identifiant_gdc_aliquot": "aa761ca4-e8f0-4a43-8262-bd84eedb459a"
+    },
+    {
+      "code_barre_cas": "TCGA-12-1601",
+      "code_barre_échantillon": "TCGA-12-1601-01A",
+      "code_barre_aliquot": "TCGA-12-1601-01A-01D-0595-05",
+      "id_sonde": "cg23581186",
+      "valeur_bêta": 0.231187979927026,
+      "plateforme": null,
+      "identifiant_gdc_fichier": "5cd6f2f6-7278-4757-be8e-a8ae3a7a81d3",
+      "identifiant_gdc_cas": "cc1459be-de8f-482e-9efe-65937db9dc45",
+      "identifiant_gdc_échantillon": "b02fd704-03a6-44c4-b224-f5f457e733f3",
+      "identifiant_gdc_aliquot": "aa761ca4-e8f0-4a43-8262-bd84eedb459a"
+    },
+    {
+      "code_barre_cas": "TCGA-32-2498",
+      "code_barre_échantillon": "TCGA-32-2498-01A",
+      "code_barre_aliquot": "TCGA-32-2498-01A-01D-1228-05",
+      "id_sonde": "cg08701609",
+      "valeur_bêta": 0.0718482609701679,
+      "plateforme": null,
+      "identifiant_gdc_fichier": "6db4187c-5e48-45ac-8ae3-6b55198ff65a",
+      "identifiant_gdc_cas": "0d5e5a6b-5113-43f2-836c-776207b21b56",
+      "identifiant_gdc_échantillon": "58af038c-bd40-4123-a6d3-11061f0d38e1",
+      "identifiant_gdc_aliquot": "6e65d823-0d94-4d26-b60a-2f168cbe2ba8"
+    },
+    {
+      "code_barre_cas": "TCGA-32-2498",
+      "code_barre_échantillon": "TCGA-32-2498-01A",
+      "code_barre_aliquot": "TCGA-32-2498-01A-01D-1228-05",
+      "id_sonde": "cg23772557",
+      "valeur_bêta": 0.0154488206578836,
+      "plateforme": null,
+      "identifiant_gdc_fichier": "6db4187c-5e48-45ac-8ae3-6b55198ff65a",
+      "identifiant_gdc_cas": "0d5e5a6b-5113-43f2-836c-776207b21b56",
+      "identifiant_gdc_échantillon": "58af038c-bd40-4123-a6d3-11061f0d38e1",
+      "identifiant_gdc_aliquot": "6e65d823-0d94-4d26-b60a-2f168cbe2ba8"
+    },
+    {
+      "code_barre_cas": "TCGA-32-2498",
+      "code_barre_échantillon": "TCGA-32-2498-01A",
+      "code_barre_aliquot": "TCGA-32-2498-01A-01D-1228-05",
+      "id_sonde": "cg03993463",
+      "valeur_bêta": 0.700461943856151,
+      "plateforme": null,
+      "identifiant_gdc_fichier": "6db4187c-5e48-45ac-8ae3-6b55198ff65a",
+      "identifiant_gdc_cas": "0d5e5a6b-5113-43f2-836c-776207b21b56",
+      "identifiant_gdc_échantillon": "58af038c-bd40-4123-a6d3-11061f0d38e1",
+      "identifiant_gdc_aliquot": "6e65d823-0d94-4d26-b60a-2f168cbe2ba8"
+    }
+  ]
+}
