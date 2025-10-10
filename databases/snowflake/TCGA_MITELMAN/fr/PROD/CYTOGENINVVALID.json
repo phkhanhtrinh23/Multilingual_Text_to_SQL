@@ -1,0 +1,94 @@
+{
+  "table_name": "CYTOGENINVVALID",
+  "table_fullname": "TCGA_MITELMAN.PROD.CYTOGENINVVALID",
+  "column_names": [
+    "NumeroDeDossier",
+    "Raison",
+    "NuméroDeFacture",
+    "KaryShort",
+    "KaryLong",
+    "EntréeDeConversionCytogenetique",
+    "NuméroDeReference",
+    "Message",
+    "LongueurDeKaryotype"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "NUMBER",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "NUMBER",
+    "TEXT",
+    "NUMBER"
+  ],
+  "description": [
+    "numéro de cas -- généralement un entier, mais peut également être une chaîne arbitraire",
+    "Messages d'erreur",
+    "numéro d'enquête -- toujours un entier compris entre 1 et 9",
+    "description du caryotype courte (possiblement tronquée)",
+    "si la description du caryotype dépasse une certaine longueur, la chaîne complète se trouve dans cette colonne, sinon ce champ est null",
+    "valeur de caryotype complète ajustée pour fonctionner avec l'outil CytoConverter",
+    "numéro de référence",
+    "Indique si le caryotype a été corrigé par le vérificateur de syntaxe",
+    "longueur de la description du caryotype -- peut être aussi longue que des milliers de caractères, mais est généralement < 30"
+  ],
+  "sample_rows": [
+    {
+      "NuméroDeReference": 17264,
+      "NumeroDeDossier": "403",
+      "NuméroDeFacture": 1,
+      "LongueurDeKaryotype": 256,
+      "KaryShort": "45,XY,der(4)t(4;11)(p15;q21)t(4;11)(q13;q21)t(4;11)(q13;q14),der(5)t(5;17)(q11;q11),del(7)(q22q36),der(9)t(9;15)(q34;q26),r(11)(p11q11),der(15)t(11;15)(q14;p11)t(11;15)(q14;q14),der(16)t(15;16)(q21;q24)t(12;15)(q24;q21),del(17)(q11),der(20)t(4;20)(p15;p11",
+      "KaryLong": "45,XY,der(4)t(4;11)(p15;q21)t(4;11)(q13;q21)t(4;11)(q13;q14),der(5)t(5;17)(q11;q11),del(7)(q22q36),der(9)t(9;15)(q34;q26),r(11)(p11q11),der(15)t(11;15)(q14;p11)t(11;15)(q14;q14),der(16)t(15;16)(q21;q24)t(12;15)(q24;q21),del(17)(q11),der(20)t(4;20)(p15;p11)",
+      "Message": "Original",
+      "Raison": " ",
+      "EntréeDeConversionCytogenetique": "45,XY,der(4)t(4;11)(p15;q21)t(4;11)(q13;q21)t(4;11)(q13;q14),der(5)t(5;17)(q11;q11),del(7)(q22q36),der(9)t(9;15)(q34;q26),r(11)(p11q11),der(15)t(11;15)(q14;p11)t(11;15)(q14;q14),der(16)t(15;16)(q21;q24)t(12;15)(q24;q21),del(17)(q11),der(20)t(4;20)(p15;p11)"
+    },
+    {
+      "NuméroDeReference": 12035,
+      "NumeroDeDossier": "7",
+      "NuméroDeFacture": 1,
+      "LongueurDeKaryotype": 0,
+      "KaryShort": " ",
+      "KaryLong": " ",
+      "Message": "Original",
+      "Raison": " ",
+      "EntréeDeConversionCytogenetique": " "
+    },
+    {
+      "NuméroDeReference": 2651,
+      "NumeroDeDossier": "4",
+      "NuméroDeFacture": 1,
+      "LongueurDeKaryotype": 0,
+      "KaryShort": " ",
+      "KaryLong": " ",
+      "Message": "Original",
+      "Raison": " ",
+      "EntréeDeConversionCytogenetique": " "
+    },
+    {
+      "NuméroDeReference": 1625,
+      "NumeroDeDossier": "90",
+      "NuméroDeFacture": 1,
+      "LongueurDeKaryotype": 0,
+      "KaryShort": " ",
+      "KaryLong": " ",
+      "Message": "Original",
+      "Raison": " ",
+      "EntréeDeConversionCytogenetique": " "
+    },
+    {
+      "NuméroDeReference": 2093,
+      "NumeroDeDossier": "1",
+      "NuméroDeFacture": 1,
+      "LongueurDeKaryotype": 0,
+      "KaryShort": " ",
+      "KaryLong": " ",
+      "Message": "Original",
+      "Raison": " ",
+      "EntréeDeConversionCytogenetique": " "
+    }
+  ]
+}
