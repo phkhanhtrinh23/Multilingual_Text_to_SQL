@@ -1,0 +1,106 @@
+{
+  "table_name": "Filtered_TCGA_RPPA_pancan_clean",
+  "table_fullname": "isb-cgc-bq.pancancer_atlas.Filtered_TCGA_RPPA_pancan_clean",
+  "column_names": [
+    "参加者バーコード",
+    "試料バーコード",
+    "アリコートバーコード",
+    "試料種別文字コード",
+    "試料種別",
+    "研究",
+    "タンパク質",
+    "値"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64"
+  ],
+  "nested_column_names": [
+    "ParticipantBarcode",
+    "SampleBarcode",
+    "AliquotBarcode",
+    "SampleTypeLetterCode",
+    "SampleType",
+    "Study",
+    "Protein",
+    "Value"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64"
+  ],
+  "description": [
+    "研究参加者のTCGAバーコード識別子、例: TCGA-02-0001",
+    "生体試料サンプルのバーコード、例: TCGA-13-1489-02A",
+    "TCGAアリクオットバーコード、例: TCGA-12-1089-01A-01D-0517-28",
+    "TCGA基準を用いたサンプルタイプの英字コード、例: TPN, EBV。完全な一覧は https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/sample-type-codes を参照",
+    "サンプルタイプは10種類あります: Blood Derived Normal, Primary solid Tumor, Solid Tissue Normal, Recurrent Solid Tumor, Metastatic, Additional - New Primary, Primary Blood Derived Cancer - Peripheral Blood, Buccal Cell Normal, Additioanal Metastatic, Bone Marrrow Normal",
+    "TCGA研究略称、例: LAML。完全な一覧は https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/tcga-study-abbreviations を参照",
+    "タンパク質記号とリン酸化状態（該当する場合）、例: P53, JNK_pT183Y185",
+    "リバースフェーズプロテインアレイ（RPPAs）によって測定されたタンパク質の発現レベル。例: 0.204238725,-0.01826295"
+  ],
+  "sample_rows": [
+    {
+      "ParticipantBarcode": "TCGA-04-1335",
+      "SampleBarcode": "TCGA-04-1335-01A",
+      "AliquotBarcode": "TCGA-04-1335-01A-21-20",
+      "SampleTypeLetterCode": "TP",
+      "SampleType": "Primary solid Tumor",
+      "Study": "OV",
+      "Protein": "EIF4G",
+      "Value": -0.51629
+    },
+    {
+      "ParticipantBarcode": "TCGA-04-1335",
+      "SampleBarcode": "TCGA-04-1335-01A",
+      "AliquotBarcode": "TCGA-04-1335-01A-21-20",
+      "SampleTypeLetterCode": "TP",
+      "SampleType": "Primary solid Tumor",
+      "Study": "OV",
+      "Protein": "SF2",
+      "Value": 0.018487
+    },
+    {
+      "ParticipantBarcode": "TCGA-04-1335",
+      "SampleBarcode": "TCGA-04-1335-01A",
+      "AliquotBarcode": "TCGA-04-1335-01A-21-20",
+      "SampleTypeLetterCode": "TP",
+      "SampleType": "Primary solid Tumor",
+      "Study": "OV",
+      "Protein": "EGFR",
+      "Value": -0.10668
+    },
+    {
+      "ParticipantBarcode": "TCGA-04-1335",
+      "SampleBarcode": "TCGA-04-1335-01A",
+      "AliquotBarcode": "TCGA-04-1335-01A-21-20",
+      "SampleTypeLetterCode": "TP",
+      "SampleType": "Primary solid Tumor",
+      "Study": "OV",
+      "Protein": "P70S6K_pT389",
+      "Value": 0.022309
+    },
+    {
+      "ParticipantBarcode": "TCGA-04-1335",
+      "SampleBarcode": "TCGA-04-1335-01A",
+      "AliquotBarcode": "TCGA-04-1335-01A-21-20",
+      "SampleTypeLetterCode": "TP",
+      "SampleType": "Primary solid Tumor",
+      "Study": "OV",
+      "Protein": "PDCD1",
+      "Value": null
+    }
+  ]
+}
