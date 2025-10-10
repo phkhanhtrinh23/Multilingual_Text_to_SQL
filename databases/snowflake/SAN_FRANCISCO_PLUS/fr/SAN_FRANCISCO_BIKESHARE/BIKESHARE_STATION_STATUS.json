@@ -1,0 +1,110 @@
+{
+  "table_name": "BIKESHARE_STATION_STATUS",
+  "table_fullname": "SAN_FRANCISCO_PLUS.SAN_FRANCISCO_BIKESHARE.BIKESHARE_STATION_STATUS",
+  "column_names": [
+    "est_en_location",
+    "est_installe",
+    "station_id",
+    "nombre_de_velos_disponibles",
+    "eightd_has_available_keys",
+    "nombre_de_quais_desactive",
+    "dernier_rapport",
+    "est_en_retour",
+    "nombre_de_velos_electriques_disponibles",
+    "nombre_de_velos_desactive",
+    "nombre_de_quais_disponibles"
+  ],
+  "column_types": [
+    "BOOLEAN",
+    "BOOLEAN",
+    "TEXT",
+    "NUMBER",
+    "BOOLEAN",
+    "NUMBER",
+    "NUMBER",
+    "BOOLEAN",
+    "NUMBER",
+    "NUMBER",
+    "NUMBER"
+  ],
+  "description": [
+    "1/0 boolean - est-ce que la station loue actuellement des vélos (même si la station est vide, si elle est réglée pour permettre les locations, cette valeur devrait être 1)",
+    "1/0 boolean - est-ce que la station est actuellement sur la rue",
+    "Identifiant unique d'une station",
+    "Nombre de vélos disponibles pour la location",
+    "",
+    "Nombre de points d'amarrage vides mais désactivés à la station. Cette valeur reste partie de la spécification car elle est potentiellement utile pendant le développement",
+    "Timestamp POSIX entier indiquant la dernière fois que cette station a signalé son état au backend",
+    "1/0 boolean - est-ce que la station accepte les retours de vélos (si une station est pleine mais permettrait un retour si elle ne l'était pas, cette valeur devrait être 1)",
+    "",
+    "Nombre de vélos désactivés à la station. Les fournisseurs qui ne veulent pas publier le nombre de vélos ou de docks désactivés dans leur système peuvent choisir d'omettre la capacité de la station (dans `station_information`), `num_bikes_disabled` et `num_docks_disabled`. Si la capacité de la station est publiée, les docks/bicyclettes cassés peuvent être déduits (bien que non spécifiquement si la capacité réduite est un vélo ou un dock cassé)",
+    "Nombre de docks acceptant les retours de vélos"
+  ],
+  "sample_rows": [
+    {
+      "station_id": "46b4ef45-b06b-40eb-9fdf-9bc8ff104a4f",
+      "nombre_de_velos_disponibles": 0,
+      "nombre_de_velos_desactive": 0,
+      "nombre_de_quais_disponibles": 15,
+      "nombre_de_quais_desactive": 0,
+      "est_installe": true,
+      "est_en_location": true,
+      "est_en_retour": true,
+      "dernier_rapport": 1729209514,
+      "nombre_de_velos_electriques_disponibles": 0,
+      "eightd_has_available_keys": false
+    },
+    {
+      "station_id": "bb54f5c8-5578-4167-9599-8e55154de4fd",
+      "nombre_de_velos_disponibles": 0,
+      "nombre_de_velos_desactive": 0,
+      "nombre_de_quais_disponibles": 27,
+      "nombre_de_quais_desactive": 0,
+      "est_installe": true,
+      "est_en_location": true,
+      "est_en_retour": true,
+      "dernier_rapport": 1729209462,
+      "nombre_de_velos_electriques_disponibles": 0,
+      "eightd_has_available_keys": false
+    },
+    {
+      "station_id": "63b2136c-c947-473e-977e-8cc0e6347699",
+      "nombre_de_velos_disponibles": 0,
+      "nombre_de_velos_desactive": 0,
+      "nombre_de_quais_disponibles": 19,
+      "nombre_de_quais_desactive": 0,
+      "est_installe": true,
+      "est_en_location": true,
+      "est_en_retour": true,
+      "dernier_rapport": 1729209551,
+      "nombre_de_velos_electriques_disponibles": 0,
+      "eightd_has_available_keys": false
+    },
+    {
+      "station_id": "7dd926da-25ee-48fd-9de7-ad59a83f94a8",
+      "nombre_de_velos_disponibles": 0,
+      "nombre_de_velos_desactive": 0,
+      "nombre_de_quais_disponibles": 31,
+      "nombre_de_quais_desactive": 0,
+      "est_installe": true,
+      "est_en_location": true,
+      "est_en_retour": true,
+      "dernier_rapport": 1729209544,
+      "nombre_de_velos_electriques_disponibles": 0,
+      "eightd_has_available_keys": false
+    },
+    {
+      "station_id": "e70c8987-0178-46f2-941f-1fd0eb306ed9",
+      "nombre_de_velos_disponibles": 0,
+      "nombre_de_velos_desactive": 0,
+      "nombre_de_quais_disponibles": 19,
+      "nombre_de_quais_desactive": 0,
+      "est_installe": true,
+      "est_en_location": true,
+      "est_en_retour": true,
+      "dernier_rapport": 1729209503,
+      "nombre_de_velos_electriques_disponibles": 0,
+      "eightd_has_available_keys": false
+    }
+  ]
+}
