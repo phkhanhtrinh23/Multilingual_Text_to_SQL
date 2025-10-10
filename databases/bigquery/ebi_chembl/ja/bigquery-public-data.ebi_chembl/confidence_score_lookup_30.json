@@ -1,0 +1,56 @@
+{
+  "table_name": "confidence_score_lookup_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.confidence_score_lookup_30",
+  "column_names": [
+    "confidence_score",
+    "説明",
+    "target_mapping"
+  ],
+  "column_types": [
+    "INT64",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "confidence_score",
+    "説明",
+    "target_mapping"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "0-9スコアは、アッセイの正確な分子標的の割り当てに対する確信度のレベルを示します",
+    "各スコアに割り当てられた標的タイプの説明",
+    "各スコアに割り当てられた標的タイプの簡潔な説明"
+  ],
+  "sample_rows": [
+    {
+      "confidence_score": 1,
+      "説明": "Target assigned is non-molecular",
+      "target_mapping": "Non-molecular"
+    },
+    {
+      "confidence_score": 2,
+      "説明": "Target assigned is subcellular fraction",
+      "target_mapping": "Subcellular fraction"
+    },
+    {
+      "confidence_score": 3,
+      "説明": "Target assigned is molecular non-protein target",
+      "target_mapping": "Molecular (non-protein)"
+    },
+    {
+      "confidence_score": 4,
+      "説明": "Multiple homologous protein targets may be assigned",
+      "target_mapping": "Multiple homologous proteins"
+    },
+    {
+      "confidence_score": 5,
+      "説明": "Multiple direct protein targets may be assigned",
+      "target_mapping": "Multiple proteins"
+    }
+  ]
+}
