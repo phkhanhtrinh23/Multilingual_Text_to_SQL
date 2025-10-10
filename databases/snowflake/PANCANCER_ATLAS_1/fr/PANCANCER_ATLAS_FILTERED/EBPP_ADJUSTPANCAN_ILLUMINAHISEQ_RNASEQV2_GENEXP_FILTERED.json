@@ -1,0 +1,94 @@
+{
+  "table_name": "EBPP_ADJUSTPANCAN_ILLUMINAHISEQ_RNASEQV2_GENEXP_FILTERED",
+  "table_fullname": "PANCANCER_ATLAS_1.PANCANCER_ATLAS_FILTERED.EBPP_ADJUSTPANCAN_ILLUMINAHISEQ_RNASEQV2_GENEXP_FILTERED",
+  "column_names": [
+    "CodeBarresEchantillon",
+    "CodeLettreTypeEchantillon",
+    "CodeBarresParticipant",
+    "CodeBarresAliquote",
+    "Etude",
+    "compte_normalise",
+    "TypeEchantillon",
+    "Entrez",
+    "Symbole"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "FLOAT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Code à barres de l'échantillon de biospecimen, par exemple TCGA-13-1489-02A",
+    "Code de lettre du type d'échantillon en utilisant les normes TCGA, par exemple TPN, EBV. Liste complète disponible à https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/sample-type-codes",
+    "Identifiant de code à barres TCGA pour le participant à l'étude, par exemple TCGA-02-0001",
+    "Code à barres d'aliquote TCGA, par exemple TCGA-12-1089-01A-01D-0517-28",
+    "Abréviation d'étude TCGA, par exemple LAML. Liste complète disponible à https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/tcga-study-abbreviations",
+    "Expression génique normalisée",
+    "Il existe 10 types d'échantillons : Sang Dérivé Normal, Tumeur solide primaire, Tissu solide normal, Tumeur solide récurrente, Métastatique, Supplémentaire - Nouveau primaire, Cancer sanguin dérivé primaire - Sang périphérique, Cellule buccale normale, Métastatique supplémentaire, Moelle osseuse normale",
+    "ID Entrez de la NCBI, par exemple 730971",
+    "par exemple TP53, LRP1B, etc (même que le champ Hugo_Symbol sauf espace au lieu de Inconnu"
+  ],
+  "sample_rows": [
+    {
+      "CodeBarresParticipant": "TCGA-EL-A3ZT",
+      "CodeBarresEchantillon": "TCGA-EL-A3ZT-01A",
+      "CodeBarresAliquote": "TCGA-EL-A3ZT-01A-12R-A23N-07",
+      "CodeLettreTypeEchantillon": "TP",
+      "TypeEchantillon": "Primary solid Tumor",
+      "Etude": "THCA",
+      "Symbole": "CTAGE9",
+      "Entrez": "643854",
+      "compte_normalise": 649.975
+    },
+    {
+      "CodeBarresParticipant": "TCGA-EL-A3ZT",
+      "CodeBarresEchantillon": "TCGA-EL-A3ZT-01A",
+      "CodeBarresAliquote": "TCGA-EL-A3ZT-01A-12R-A23N-07",
+      "CodeLettreTypeEchantillon": "TP",
+      "TypeEchantillon": "Primary solid Tumor",
+      "Etude": "THCA",
+      "Symbole": "JDP2",
+      "Entrez": "122953",
+      "compte_normalise": 405.581
+    },
+    {
+      "CodeBarresParticipant": "TCGA-EL-A3ZT",
+      "CodeBarresEchantillon": "TCGA-EL-A3ZT-01A",
+      "CodeBarresAliquote": "TCGA-EL-A3ZT-01A-12R-A23N-07",
+      "CodeLettreTypeEchantillon": "TP",
+      "TypeEchantillon": "Primary solid Tumor",
+      "Etude": "THCA",
+      "Symbole": "RTKN",
+      "Entrez": "6242",
+      "compte_normalise": 1142.38
+    },
+    {
+      "CodeBarresParticipant": "TCGA-EL-A3ZT",
+      "CodeBarresEchantillon": "TCGA-EL-A3ZT-01A",
+      "CodeBarresAliquote": "TCGA-EL-A3ZT-01A-12R-A23N-07",
+      "CodeLettreTypeEchantillon": "TP",
+      "TypeEchantillon": "Primary solid Tumor",
+      "Etude": "THCA",
+      "Symbole": "SLC2A11",
+      "Entrez": "66035",
+      "compte_normalise": 699.417
+    },
+    {
+      "CodeBarresParticipant": "TCGA-EL-A3ZT",
+      "CodeBarresEchantillon": "TCGA-EL-A3ZT-01A",
+      "CodeBarresAliquote": "TCGA-EL-A3ZT-01A-12R-A23N-07",
+      "CodeLettreTypeEchantillon": "TP",
+      "TypeEchantillon": "Primary solid Tumor",
+      "Etude": "THCA",
+      "Symbole": "PCDHGB1",
+      "Entrez": "56104",
+      "compte_normalise": 69.2101
+    }
+  ]
+}
