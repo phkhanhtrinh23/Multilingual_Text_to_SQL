@@ -1,0 +1,94 @@
+{
+  "table_name": "STOP_TIMES",
+  "table_fullname": "SAN_FRANCISCO_PLUS.SAN_FRANCISCO_TRANSIT_MUNI.STOP_TIMES",
+  "column_names": [
+    "heure_d_arrivee",
+    "point_de_temps_exact",
+    "sequence_d_arret",
+    "id_d_arret",
+    "arrive_le_lendemain",
+    "id_de_trajet",
+    "heure_de_depart",
+    "type_de_depose",
+    "part_le_lendemain"
+  ],
+  "column_types": [
+    "TIME",
+    "BOOLEAN",
+    "NUMBER",
+    "NUMBER",
+    "BOOLEAN",
+    "NUMBER",
+    "TIME",
+    "TEXT",
+    "BOOLEAN"
+  ],
+  "description": [
+    "Spécifie l'heure d'arrivée prévue à un arrêt spécifique pour un trajet spécifique sur une ligne.",
+    "Indique si les heures d'arrivée et de départ spécifiées pour un arrêt sont strictement respectées par le véhicule de transport, ou si elles sont approximatives ou des temps interpolés.",
+    "Identifie l'ordre des arrêts pour un trajet particulier. Les valeurs de stop_sequence doivent augmenter tout au long du trajet, mais n'ont pas besoin d'être consécutives.",
+    "Identifie l'arrêt desservi. Plusieurs lignes peuvent utiliser le même arrêt.",
+    "Plusieurs lignes commencent avant minuit, avec un service qui continue toute la nuit. Cette variable spécifie si arrival_time se produit après minuit le jour suivant la journée prévue.  Cela est utile pour identifier les lignes qui commencent un jour et se terminent le jour suivant",
+    "Identifie un trajet. Plusieurs trajets peuvent avoir le même arrêt",
+    "Spécifie l'heure de départ prévue à un arrêt spécifique pour un trajet spécifique sur une ligne.",
+    "\"Indique si les passagers sont déposés à un arrêt dans le cadre de l'horaire normal ou si un dépôt à l'arrêt n'est pas disponible. Options disponibles :  -  régulier -  aucun -  téléphone (indique que le passager doit appeler l'agence pour organiser le dépôt) -  chauffeur (indique que le passager doit coordonner avec le chauffeur pour organiser le dépôt)\"",
+    "Plusieurs lignes commencent avant minuit, avec un service qui continue toute la nuit. Cette variable spécifie si departure_time se produit après minuit le jour suivant la journée prévue.  Cela est utile pour identifier les lignes qui commencent un jour et se terminent le jour suivant"
+  ],
+  "sample_rows": [
+    {
+      "id_d_arret": 15759,
+      "id_de_trajet": 8951406,
+      "sequence_d_arret": 51,
+      "heure_d_arrivee": "06:54:55",
+      "arrive_le_lendemain": false,
+      "heure_de_depart": "06:54:55",
+      "part_le_lendemain": false,
+      "type_de_depose": "regular",
+      "point_de_temps_exact": false
+    },
+    {
+      "id_d_arret": 15761,
+      "id_de_trajet": 8951406,
+      "sequence_d_arret": 52,
+      "heure_d_arrivee": "06:55:33",
+      "arrive_le_lendemain": false,
+      "heure_de_depart": "06:55:33",
+      "part_le_lendemain": false,
+      "type_de_depose": "regular",
+      "point_de_temps_exact": false
+    },
+    {
+      "id_d_arret": 15759,
+      "id_de_trajet": 8951253,
+      "sequence_d_arret": 51,
+      "heure_d_arrivee": "06:54:55",
+      "arrive_le_lendemain": false,
+      "heure_de_depart": "06:54:55",
+      "part_le_lendemain": false,
+      "type_de_depose": "regular",
+      "point_de_temps_exact": false
+    },
+    {
+      "id_d_arret": 15761,
+      "id_de_trajet": 8951253,
+      "sequence_d_arret": 52,
+      "heure_d_arrivee": "06:55:33",
+      "arrive_le_lendemain": false,
+      "heure_de_depart": "06:55:33",
+      "part_le_lendemain": false,
+      "type_de_depose": "regular",
+      "point_de_temps_exact": false
+    },
+    {
+      "id_d_arret": 15828,
+      "id_de_trajet": 8951253,
+      "sequence_d_arret": 54,
+      "heure_d_arrivee": "06:57:00",
+      "arrive_le_lendemain": false,
+      "heure_de_depart": "06:57:00",
+      "part_le_lendemain": false,
+      "type_de_depose": "regular",
+      "point_de_temps_exact": true
+    }
+  ]
+}
