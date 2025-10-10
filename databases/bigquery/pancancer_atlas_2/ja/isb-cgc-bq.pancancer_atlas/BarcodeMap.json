@@ -1,0 +1,76 @@
+{
+  "table_name": "BarcodeMap",
+  "table_fullname": "isb-cgc-bq.pancancer_atlas.BarcodeMap",
+  "column_names": [
+    "ParticipantBarcode",
+    "SampleBarcode",
+    "AliquotBarcode",
+    "研究",
+    "SampleTypeLetterCode"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "ParticipantBarcode",
+    "SampleBarcode",
+    "AliquotBarcode",
+    "研究",
+    "SampleTypeLetterCode"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "研究参加者のTCGAバーコード識別子、例 TCGA-02-0001",
+    "生体試料サンプルのバーコード、例 TCGA-13-1489-02A",
+    "TCGAアリコートバーコード（分注バーコード）、例 TCGA-12-1089-01A-01D-0517-28",
+    "TCGA研究略称、例 LAML。完全な一覧は https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/tcga-study-abbreviations で入手可能",
+    "TCGA標準に従ったサンプルタイプの文字コード、例 TPN、EBV。完全な一覧は https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/sample-type-codes で入手可能"
+  ],
+  "sample_rows": [
+    {
+      "ParticipantBarcode": "TCGA-04-1331",
+      "SampleBarcode": "TCGA-04-1331-10A",
+      "AliquotBarcode": "TCGA-04-1331-10A-01D-0428-01",
+      "研究": "OV",
+      "SampleTypeLetterCode": "NB"
+    },
+    {
+      "ParticipantBarcode": "TCGA-04-1331",
+      "SampleBarcode": "TCGA-04-1331-10A",
+      "AliquotBarcode": "TCGA-04-1331-10A-01D-0429-04",
+      "研究": "OV",
+      "SampleTypeLetterCode": "NB"
+    },
+    {
+      "ParticipantBarcode": "TCGA-04-1331",
+      "SampleBarcode": "TCGA-04-1331-10A",
+      "AliquotBarcode": "TCGA-04-1331-10A-01D-0430-06",
+      "研究": "OV",
+      "SampleTypeLetterCode": "NB"
+    },
+    {
+      "ParticipantBarcode": "TCGA-04-1331",
+      "SampleBarcode": "TCGA-04-1331-10A",
+      "AliquotBarcode": "TCGA-04-1331-10A-01D-0431-02",
+      "研究": "OV",
+      "SampleTypeLetterCode": "NB"
+    },
+    {
+      "ParticipantBarcode": "TCGA-04-1331",
+      "SampleBarcode": "TCGA-04-1331-10A",
+      "AliquotBarcode": "TCGA-04-1331-10A-01D-1036-01",
+      "研究": "OV",
+      "SampleTypeLetterCode": "NB"
+    }
+  ]
+}
