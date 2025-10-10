@@ -1,0 +1,56 @@
+{
+  "table_name": "molecule_hrac_classification_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.molecule_hrac_classification_30",
+  "column_names": [
+    "化合物_hrac_id",
+    "hrac_分類_id",
+    "化合物登録番号"
+  ],
+  "column_types": [
+    "INT64",
+    "INT64",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "mol_hrac_id",
+    "hrac_class_id",
+    "化合物登録番号"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "INT64",
+    "INT64"
+  ],
+  "description": [
+    "主キー",
+    "化合物の分類を示す hrac_classification テーブルへの外部キー。",
+    "この分類が適用される化合物を示す molecule_dictionary テーブルへの外部キー。"
+  ],
+  "sample_rows": [
+    {
+      "mol_hrac_id": 148,
+      "hrac_class_id": 256,
+      "化合物登録番号": 1369899
+    },
+    {
+      "mol_hrac_id": 136,
+      "hrac_class_id": 1,
+      "化合物登録番号": 1238673
+    },
+    {
+      "mol_hrac_id": 182,
+      "hrac_class_id": 257,
+      "化合物登録番号": 1495975
+    },
+    {
+      "mol_hrac_id": 8,
+      "hrac_class_id": 3,
+      "化合物登録番号": 51985
+    },
+    {
+      "mol_hrac_id": 161,
+      "hrac_class_id": 4,
+      "化合物登録番号": 1475652
+    }
+  ]
+}
