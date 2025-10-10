@@ -1,0 +1,70 @@
+{
+  "sample_rows": [
+    {
+      "ID_GEO": "country/KEN",
+      "VARIABLE": "change_in_global_mean_surface_temperature_caused_by_methane_emissions_from_agriculture_and_land_use",
+      "NOM_VARIABLE": "Change in global mean surface temperature caused by methane emissions from agriculture and land use",
+      "DATE": "1868-12-31",
+      "VALEUR": 6.946388599999999e-6,
+      "UNITE": "Degrees Celsius"
+    },
+    {
+      "ID_GEO": "country/GRD",
+      "VARIABLE": "change_in_global_mean_surface_temperature_caused_by_co2_emissions_from_fossil_fuels_and_industry",
+      "NOM_VARIABLE": "Change in global mean surface temperature caused by CO2 emissions from fossil fuels and industry",
+      "DATE": "1893-12-31",
+      "VALEUR": 0.0,
+      "UNITE": "Degrees Celsius"
+    },
+    {
+      "ID_GEO": "countryGroup/WORLD",
+      "VARIABLE": "change_in_global_mean_surface_temperature_caused_by_methane_emissions_from_agriculture_and_land_use",
+      "NOM_VARIABLE": "Change in global mean surface temperature caused by methane emissions from agriculture and land use",
+      "DATE": "1884-12-31",
+      "VALEUR": 0.010140341,
+      "UNITE": "Degrees Celsius"
+    },
+    {
+      "ID_GEO": "country/YEM",
+      "VARIABLE": "cumulative_co2_emissions_from_flaring",
+      "NOM_VARIABLE": "Cumulative CO2 emissions from flaring",
+      "DATE": "1997-12-31",
+      "VALEUR": 3270198.0,
+      "UNITE": "Tonnes"
+    },
+    {
+      "ID_GEO": "country/CRI",
+      "VARIABLE": "change_in_global_mean_surface_temperature_caused_by_nitrous_oxide_emissions",
+      "NOM_VARIABLE": "Change in global mean surface temperature caused by nitrous oxide emissions",
+      "DATE": "1992-12-31",
+      "VALEUR": 0.000023692706000000004,
+      "UNITE": "Degrees Celsius"
+    }
+  ],
+  "table_name": "OUR_WORLD_IN_DATA_TIMESERIES",
+  "table_fullname": "WEATHER__ENVIRONMENT.CYBERSYN.OUR_WORLD_IN_DATA_TIMESERIES",
+  "column_names": [
+    "ID_GEO",
+    "DATE",
+    "VARIABLE",
+    "NOM_VARIABLE",
+    "UNITE",
+    "VALEUR"
+  ],
+  "column_types": [
+    "TEXT",
+    "DATE",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "FLOAT"
+  ],
+  "description": [
+    "Un identifiant unique pour un lieu. Joignable à d'autres tables de géographie, notamment GEOGRAPHY_INDEX, GEOGRAPHY_RELATIONSHIPS et GEOGRAPHY_CHARACTERISTICS.",
+    "Date associée à la valeur.",
+    "Identifiant unique pour une variable, joignable à la table timeseries.",
+    "Nom unique lisible par l'homme pour la variable.",
+    "Unité de mesure pour la valeur rapportée.",
+    "Valeur rapportée pour la variable."
+  ]
+}
