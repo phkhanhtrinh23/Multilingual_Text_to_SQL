@@ -1,0 +1,128 @@
+{
+  "table_name": "indication",
+  "table_fullname": "open-targets-prod.platform.indication",
+  "column_names": [
+    "識別子",
+    "適応症",
+    "approvedIndications",
+    "indicationCount"
+  ],
+  "column_types": [
+    "STRING",
+    "STRUCT<list ARRAY<STRUCT<element STRUCT<disease STRING, efoName STRING, references STRUCT<list ARRAY<STRUCT<element STRUCT<source STRING, ids STRUCT<list ARRAY<STRUCT<element STRING>>>>>>>, maxPhaseForIndication FLOAT64>>>>",
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "ID",
+    "適応症",
+    "適応症一覧",
+    "適応症項目",
+    "疾患",
+    "適応症項目のefoName",
+    "適応症項目の参考文献",
+    "適応症項目の参考文献一覧",
+    "参考文献項目",
+    "参考文献項目の出典",
+    "参考文献項目のID",
+    "参考文献項目のID一覧",
+    "参考文献項目のID一覧項目",
+    "適応症項目のmaxPhaseForIndication",
+    "承認適応症のapprovedIndications",
+    "承認適応症のapprovedIndications一覧",
+    "承認適応症のapprovedIndications項目",
+    "適応症数のindicationCount"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRUCT<list ARRAY<STRUCT<element STRUCT<disease STRING, efoName STRING, references STRUCT<list ARRAY<STRUCT<element STRUCT<source STRING, ids STRUCT<list ARRAY<STRUCT<element STRING>>>>>>>, maxPhaseForIndication FLOAT64>>>>",
+    "ARRAY<STRUCT<element STRUCT<disease STRING, efoName STRING, references STRUCT<list ARRAY<STRUCT<element STRUCT<source STRING, ids STRUCT<list ARRAY<STRUCT<element STRING>>>>>>>, maxPhaseForIndication FLOAT64>>>",
+    "STRUCT<disease STRING, efoName STRING, references STRUCT<list ARRAY<STRUCT<element STRUCT<source STRING, ids STRUCT<list ARRAY<STRUCT<element STRING>>>>>>>, maxPhaseForIndication FLOAT64>",
+    "STRING",
+    "STRING",
+    "STRUCT<list ARRAY<STRUCT<element STRUCT<source STRING, ids STRUCT<list ARRAY<STRUCT<element STRING>>>>>>>",
+    "ARRAY<STRUCT<element STRUCT<source STRING, ids STRUCT<list ARRAY<STRUCT<element STRING>>>>>>",
+    "STRUCT<source STRING, ids STRUCT<list ARRAY<STRUCT<element STRING>>>>",
+    "STRING",
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+    "ARRAY<STRUCT<element STRING>>",
+    "STRING",
+    "FLOAT64",
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+    "ARRAY<STRUCT<element STRING>>",
+    "STRING",
+    "INT64"
+  ],
+  "description": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "sample_rows": [
+    {
+      "ID": "CHEMBL500826",
+      "適応症": {
+        "list": "[{'element': {'disease': 'EFO_1001888', 'efoName': 'eye infection', 'references': {'list': array([{'element': {'source': 'ATC', 'ids': {'list': array([{'element': 'S01AX10'}], dtype=object)}}}],\n       dtype=object)}, 'maxPhaseForIndication': 2.0}}                                                                                                                                             ]"
+      },
+      "承認適応症のapprovedIndications": {
+        "list": "[]"
+      },
+      "適応症数のindicationCount": 1
+    },
+    {
+      "ID": "CHEMBL3989504",
+      "適応症": {
+        "list": "[{'element': {'disease': 'EFO_0000771', 'efoName': 'bacterial disease', 'references': {'list': array([{'element': {'source': 'ATC', 'ids': {'list': array([{'element': 'J01MA21'}], dtype=object)}}}],\n       dtype=object)}, 'maxPhaseForIndication': 2.0}}                                                                                                                                                 ]"
+      },
+      "承認適応症のapprovedIndications": {
+        "list": "[]"
+      },
+      "適応症数のindicationCount": 1
+    },
+    {
+      "ID": "CHEMBL36633",
+      "適応症": {
+        "list": "[{'element': {'disease': 'EFO_0003888', 'efoName': 'attention deficit hyperactivity disorder', 'references': {'list': array([{'element': {'source': 'ATC', 'ids': {'list': array([{'element': 'N06BX07'}], dtype=object)}}}],\n       dtype=object)}, 'maxPhaseForIndication': 2.0}}                                                                                                                                                                        ]"
+      },
+      "承認適応症のapprovedIndications": {
+        "list": "[]"
+      },
+      "適応症数のindicationCount": 1
+    },
+    {
+      "ID": "CHEMBL3989705",
+      "適応症": {
+        "list": "[{'element': {'disease': 'EFO_1001888', 'efoName': 'eye infection', 'references': {'list': array([{'element': {'source': 'ATC', 'ids': {'list': array([{'element': 'S01AX10'}], dtype=object)}}}],\n       dtype=object)}, 'maxPhaseForIndication': 2.0}}                                                                                                                                             ]"
+      },
+      "承認適応症のapprovedIndications": {
+        "list": "[]"
+      },
+      "適応症数のindicationCount": 1
+    },
+    {
+      "ID": "CHEMBL3989444",
+      "適応症": {
+        "list": "[{'element': {'disease': 'EFO_0000319', 'efoName': 'cardiovascular disease', 'references': {'list': array([{'element': {'source': 'ATC', 'ids': {'list': array([{'element': 'C04AX24'}], dtype=object)}}}],\n       dtype=object)}, 'maxPhaseForIndication': 2.0}}                                                                                                                                                      ]"
+      },
+      "承認適応症のapprovedIndications": {
+        "list": "[]"
+      },
+      "適応症数のindicationCount": 1
+    }
+  ]
+}
