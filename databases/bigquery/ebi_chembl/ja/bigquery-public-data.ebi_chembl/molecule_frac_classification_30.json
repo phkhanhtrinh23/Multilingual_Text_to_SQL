@@ -1,0 +1,56 @@
+{
+  "table_name": "molecule_frac_classification_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.molecule_frac_classification_30",
+  "column_names": [
+    "mol_frac_id",
+    "frac_class_id",
+    "molregno"
+  ],
+  "column_types": [
+    "INT64",
+    "INT64",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "モル_分率_id",
+    "分率_分類_id",
+    "化合物登録番号"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "INT64",
+    "INT64"
+  ],
+  "description": [
+    "主キー。",
+    "frac_classification テーブルへの外部キーで、化合物の作用機序分類を示します。",
+    "molecule_dictionary への外部キーで、その分類が適用される化合物を示します。"
+  ],
+  "sample_rows": [
+    {
+      "モル_分率_id": 139,
+      "分率_分類_id": 513,
+      "化合物登録番号": 1627948
+    },
+    {
+      "モル_分率_id": 123,
+      "分率_分類_id": 514,
+      "化合物登録番号": 1486302
+    },
+    {
+      "モル_分率_id": 114,
+      "分率_分類_id": 515,
+      "化合物登録番号": 1461886
+    },
+    {
+      "モル_分率_id": 29,
+      "分率_分類_id": 519,
+      "化合物登録番号": 435442
+    },
+    {
+      "モル_分率_id": 131,
+      "分率_分類_id": 520,
+      "化合物登録番号": 1493581
+    }
+  ]
+}
