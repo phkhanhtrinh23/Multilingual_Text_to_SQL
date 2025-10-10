@@ -1,0 +1,76 @@
+{
+  "table_name": "component_domains_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.component_domains_30",
+  "column_names": [
+    "化合物ID",
+    "ドメインID",
+    "コンポーネントID",
+    "開始位置",
+    "終了位置"
+  ],
+  "column_types": [
+    "INT64",
+    "INT64",
+    "INT64",
+    "INT64",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "化合物ID",
+    "ドメインID",
+    "コンポーネントID",
+    "開始位置",
+    "終了位置"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "INT64",
+    "INT64",
+    "INT64",
+    "INT64"
+  ],
+  "description": [
+    "主キー。",
+    "関連する molecular_component に含まれるドメインを示す、domains テーブルへの外部キー。",
+    "指定されたドメインを持つ molecular_component を示す、component_sequences テーブルへの外部キー。",
+    "component_sequences テーブルで示されるシーケンス内のドメインの開始位置。",
+    "component_sequences テーブルで示されるシーケンス内のドメインの終了位置。"
+  ],
+  "sample_rows": [
+    {
+      "化合物ID": 233577,
+      "ドメインID": 2832,
+      "コンポーネントID": 3430,
+      "開始位置": 256,
+      "終了位置": 376
+    },
+    {
+      "化合物ID": 229403,
+      "ドメインID": 3351,
+      "コンポーネントID": 649,
+      "開始位置": 256,
+      "終了位置": 695
+    },
+    {
+      "化合物ID": 233381,
+      "ドメインID": 3375,
+      "コンポーネントID": 2296,
+      "開始位置": 256,
+      "終了位置": 433
+    },
+    {
+      "化合物ID": 243399,
+      "ドメインID": 2630,
+      "コンポーネントID": 7217,
+      "開始位置": 256,
+      "終了位置": 397
+    },
+    {
+      "化合物ID": 247929,
+      "ドメインID": 2630,
+      "コンポーネントID": 19683,
+      "開始位置": 256,
+      "終了位置": 397
+    }
+  ]
+}
