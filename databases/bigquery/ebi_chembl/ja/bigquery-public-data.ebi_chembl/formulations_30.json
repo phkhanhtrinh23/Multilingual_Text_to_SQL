@@ -1,0 +1,86 @@
+{
+  "table_name": "formulations_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.formulations_30",
+  "column_names": [
+    "product_id",
+    "成分",
+    "含量",
+    "record_id",
+    "molregno",
+    "formulation_id"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "INT64",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "product_id",
+    "成分",
+    "用量",
+    "record_id",
+    "molregno",
+    "formulation_id"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "INT64",
+    "INT64"
+  ],
+  "description": [
+    "製品の一意の識別子。PRODUCTSへのFK",
+    "製品内の承認された成分の名称",
+    "用量",
+    "compound_recordsテーブルへの外部キー。",
+    "成分の一意の識別子。MOLECULE_DICTIONARYへのFK",
+    "主キー。"
+  ],
+  "sample_rows": [
+    {
+      "product_id": "PRODUCT_017406_001",
+      "成分": "CYANOCOBALAMIN",
+      "用量": null,
+      "record_id": 1344800,
+      "molregno": 1383003,
+      "formulation_id": 148332
+    },
+    {
+      "product_id": "PRODUCT_016089_001",
+      "成分": "CYANOCOBALAMIN",
+      "用量": null,
+      "record_id": 1344800,
+      "molregno": 1383003,
+      "formulation_id": 148336
+    },
+    {
+      "product_id": "PRODUCT_016090_001",
+      "成分": "CYANOCOBALAMIN",
+      "用量": null,
+      "record_id": 1344800,
+      "molregno": 1383003,
+      "formulation_id": 148340
+    },
+    {
+      "product_id": "PRODUCT_016089_001",
+      "成分": "INTRINSIC FACTOR",
+      "用量": null,
+      "record_id": 1343088,
+      "molregno": 675455,
+      "formulation_id": 148338
+    },
+    {
+      "product_id": "PRODUCT_016090_001",
+      "成分": "INTRINSIC FACTOR",
+      "用量": null,
+      "record_id": 1343088,
+      "molregno": 675455,
+      "formulation_id": 148342
+    }
+  ]
+}
