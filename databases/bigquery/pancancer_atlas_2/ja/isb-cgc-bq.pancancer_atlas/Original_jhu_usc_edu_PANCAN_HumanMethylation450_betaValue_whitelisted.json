@@ -1,0 +1,56 @@
+{
+  "table_name": "Original_jhu_usc_edu_PANCAN_HumanMethylation450_betaValue_whitelisted",
+  "table_fullname": "isb-cgc-bq.pancancer_atlas.Original_jhu_usc_edu_PANCAN_HumanMethylation450_betaValue_whitelisted",
+  "column_names": [
+    "識別子",
+    "AliquotBarcode",
+    "ベータ"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "FLOAT64"
+  ],
+  "nested_column_names": [
+    "ID",
+    "AliquotBarcode",
+    "ベータ"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "FLOAT64"
+  ],
+  "description": [
+    "ユニークなプローブ識別子（例: cg04676771） — Illumina Human Methylation アレイ由来 — 特定のプローブの詳細については注釈テーブル (isb-cgc-bq.annotations.methylation_annotation_hg19_illumina_current) を参照してください",
+    "TCGA のアリクオットバーコード（例: TCGA-12-1089-01A-01D-0517-28）",
+    "正規化されたDNAメチル化ベータ値（0〜1の範囲。0は完全に非メチル化、1は完全にメチル化を示します）"
+  ],
+  "sample_rows": [
+    {
+      "ID": "cg02830202",
+      "AliquotBarcode": "TCGA-05-4384-01A-01D-1756-05",
+      "ベータ": 0.8376889999999999
+    },
+    {
+      "ID": "cg00492309",
+      "AliquotBarcode": "TCGA-05-4384-01A-01D-1756-05",
+      "ベータ": 0.779062
+    },
+    {
+      "ID": "cg20582984",
+      "AliquotBarcode": "TCGA-05-4384-01A-01D-1756-05",
+      "ベータ": 0.654628
+    },
+    {
+      "ID": "cg08333283",
+      "AliquotBarcode": "TCGA-05-4384-01A-01D-1756-05",
+      "ベータ": 0.62995
+    },
+    {
+      "ID": "cg02312706",
+      "AliquotBarcode": "TCGA-05-4384-01A-01D-1756-05",
+      "ベータ": 0.8331770000000001
+    }
+  ]
+}
