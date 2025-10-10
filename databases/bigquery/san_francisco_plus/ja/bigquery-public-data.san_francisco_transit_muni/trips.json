@@ -1,0 +1,106 @@
+{
+  "table_name": "trips",
+  "table_fullname": "bigquery-public-data.san_francisco_transit_muni.trips",
+  "column_names": [
+    "trip_id",
+    "route_id",
+    "direction",
+    "block_id",
+    "service_category",
+    "trip_headsign",
+    "shape_id",
+    "trip_shape"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "GEOGRAPHY"
+  ],
+  "nested_column_names": [
+    "便ID",
+    "路線ID",
+    "方向",
+    "ブロックID",
+    "サービス区分",
+    "行先表示",
+    "形状ID",
+    "運行形状"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "GEOGRAPHY"
+  ],
+  "description": [
+    "各トリップの一意の識別子",
+    "各ルートの一意の識別子。単一のルートは複数のトリップを持ちます",
+    "\"Indicates the direction of travel for a trip. The following values are valid:   -  O: Outbound travel -  I: Inbound travel  This field is not used in routing, but instead provides a way to separate trips by direction\"",
+    "トリップが属するブロックを識別します。ブロックは単一のトリップ、または同じ車両で行われる複数の連続したトリップで構成されます。トリップは共有の service day andblock_id の使用によってブロックにグループ化されます。block_id は異なる service day を持つトリップを含むことができ、その場合は別個のブロックとなります。詳細は次を参照してください: https://developers.google.com/transit/gtfs/reference/#example-showing-blocks-and-service-day",
+    "このトリップのサービスの種類を示します",
+    "乗客に目的地を示す標示に表示されるテキストを含みます。同じルート上の異なるサービスパターンを区別するためにこのフィールドを使用してください。",
+    "個々の点に沿ったトリップの車両移動を記述する地理空間シェイプの一意の識別子。shapes テーブルで利用可能な shapes とJOINするために使用します",
+    "トリップ全体のルートの地理的表現"
+  ],
+  "sample_rows": [
+    {
+      "便ID": "8999876",
+      "路線ID": "83X",
+      "方向": "O",
+      "ブロックID": "8301",
+      "サービス区分": null,
+      "行先表示": "Caltrain Depot",
+      "形状ID": "174188",
+      "運行形状": null
+    },
+    {
+      "便ID": "8999873",
+      "路線ID": "83X",
+      "方向": "O",
+      "ブロックID": "8302",
+      "サービス区分": null,
+      "行先表示": "Caltrain Depot",
+      "形状ID": "174188",
+      "運行形状": null
+    },
+    {
+      "便ID": "8999875",
+      "路線ID": "83X",
+      "方向": "O",
+      "ブロックID": "8301",
+      "サービス区分": null,
+      "行先表示": "Caltrain Depot",
+      "形状ID": "174188",
+      "運行形状": null
+    },
+    {
+      "便ID": "8999872",
+      "路線ID": "83X",
+      "方向": "O",
+      "ブロックID": "8302",
+      "サービス区分": null,
+      "行先表示": "Caltrain Depot",
+      "形状ID": "174188",
+      "運行形状": null
+    },
+    {
+      "便ID": "8999892",
+      "路線ID": "83X",
+      "方向": "O",
+      "ブロックID": "8301",
+      "サービス区分": null,
+      "行先表示": "Caltrain Depot",
+      "形状ID": "174188",
+      "運行形状": null
+    }
+  ]
+}
