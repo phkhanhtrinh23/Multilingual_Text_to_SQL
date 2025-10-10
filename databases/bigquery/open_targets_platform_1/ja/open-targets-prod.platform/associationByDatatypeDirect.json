@@ -1,0 +1,76 @@
+{
+  "table_name": "associationByDatatypeDirect",
+  "table_fullname": "open-targets-prod.platform.associationByDatatypeDirect",
+  "column_names": [
+    "diseaseId",
+    "targetId",
+    "datatypeId",
+    "スコア",
+    "evidenceCount"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "疾患ID",
+    "ターゲットID",
+    "データ型ID",
+    "スコア",
+    "エビデンス数"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "INT64"
+  ],
+  "description": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "sample_rows": [
+    {
+      "疾患ID": "EFO_0000182",
+      "ターゲットID": "ENSG00000157404",
+      "データ型ID": "known_drug",
+      "スコア": 0.9776027328690036,
+      "エビデンス数": 256
+    },
+    {
+      "疾患ID": "EFO_0000222",
+      "ターゲットID": "ENSG00000130816",
+      "データ型ID": "literature",
+      "スコア": 0.9317724820898985,
+      "エビデンス数": 256
+    },
+    {
+      "疾患ID": "EFO_0000544",
+      "ターゲットID": "ENSG00000170266",
+      "データ型ID": "literature",
+      "スコア": 0.14032130170230317,
+      "エビデンス数": 256
+    },
+    {
+      "疾患ID": "EFO_0000616",
+      "ターゲットID": "ENSG00000104067",
+      "データ型ID": "literature",
+      "スコア": 0.8441010580117951,
+      "エビデンス数": 256
+    },
+    {
+      "疾患ID": "MONDO_0004992",
+      "ターゲットID": "ENSG00000162434",
+      "データ型ID": "literature",
+      "スコア": 0.6289120158371304,
+      "エビデンス数": 256
+    }
+  ]
+}
