@@ -1,0 +1,66 @@
+{
+  "table_name": "target_relations_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.target_relations_30",
+  "column_names": [
+    "tid",
+    "関係",
+    "関連_tid",
+    "対象関連_id"
+  ],
+  "column_types": [
+    "INT64",
+    "STRING",
+    "INT64",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "識別子",
+    "関係",
+    "related_tid",
+    "targrel_id"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "STRING",
+    "INT64",
+    "INT64"
+  ],
+  "description": [
+    "関心のあるターゲットの識別子（target_dictionary テーブルへの外部キー）",
+    "2つのターゲット間の関係（例：SUBSET OF、SUPERSET OF、OVERLAPS WITH）",
+    "関心のあるターゲットに関連するターゲットの識別子（target_dicitionary テーブルへの外部キー）",
+    "主キー"
+  ],
+  "sample_rows": [
+    {
+      "識別子": 117043,
+      "関係": "SUBSET OF",
+      "related_tid": 118387,
+      "targrel_id": 227977
+    },
+    {
+      "識別子": 117043,
+      "関係": "SUBSET OF",
+      "related_tid": 120269,
+      "targrel_id": 227981
+    },
+    {
+      "識別子": 104690,
+      "関係": "SUBSET OF",
+      "related_tid": 104871,
+      "targrel_id": 228004
+    },
+    {
+      "識別子": 104897,
+      "関係": "SUBSET OF",
+      "related_tid": 119771,
+      "targrel_id": 228021
+    },
+    {
+      "識別子": 105044,
+      "関係": "SUBSET OF",
+      "related_tid": 104844,
+      "targrel_id": 228037
+    }
+  ]
+}
