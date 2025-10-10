@@ -1,0 +1,46 @@
+{
+  "table_name": "data_validity_lookup_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.data_validity_lookup_30",
+  "column_names": [
+    "データ有効性コメント",
+    "説明"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "データ有効性のコメント",
+    "説明"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "主キー。activities テーブル内の値に適用されるさまざまな種類のエラー/警告の簡潔な説明。",
+    "data_validity_comment フィールド内の用語の定義。"
+  ],
+  "sample_rows": [
+    {
+      "データ有効性のコメント": "Manually validated",
+      "説明": "Data have been checked against the publication and are believed to be accurate"
+    },
+    {
+      "データ有効性のコメント": "Non standard unit for type",
+      "説明": "Units for this activity type are unusual and may be incorrect (or the standard_type may be incorrect)"
+    },
+    {
+      "データ有効性のコメント": "Outside typical range",
+      "説明": "Values for this activity type are unusually large/small, so may not be accurate"
+    },
+    {
+      "データ有効性のコメント": "Potential author error",
+      "説明": "Data have been checked against the publication and are as reported - possibly an error was made by the author"
+    },
+    {
+      "データ有効性のコメント": "Potential missing data",
+      "説明": "No data provided for value, units or activity_comment, needs further investigation"
+    }
+  ]
+}
