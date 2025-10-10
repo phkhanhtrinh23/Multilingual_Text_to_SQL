@@ -1,0 +1,86 @@
+{
+  "table_name": " violatn_2018",
+  "table_fullname": "bigquery-public-data.nhtsa_traffic_fatalities. violatn_2018",
+  "column_names": [
+    "numero_d_etat",
+    "nom_d_etat",
+    "numero_consecutif",
+    "numero_de_vehicule",
+    "violations_incriminees",
+    "nom_de_violations_incriminees"
+  ],
+  "column_types": [
+    "INT64",
+    "STRING",
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "numero_d_etat",
+    "nom_d_etat",
+    "numero_consecutif",
+    "numero_de_vehicule",
+    "violations_incriminees",
+    "nom_de_violations_incriminees"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "STRING",
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "Cet élément de données identifie l'état dans lequel l'accident s'est produit. Les codes sont issus de la publication de l'Administration des services généraux (GSA) sur les codes de localisation géographique mondiaux (GLC). Pour plus d'informations sur les codes, veuillez consulter la section <C1/V1/D1/PC1/P1/NM1 State Number> du pdf : https://crashstats.nhtsa.dot.gov/Api/Public/ViewPublication/812315",
+    "Cet élément de données identifie l'état dans lequel l'accident s'est produit. Les codes sont issus de la publication de l'Administration des services généraux (GSA) sur les codes de localisation géographique mondiaux (GLC).",
+    "Cet élément de données est le numéro de cas unique attribué à chaque accident. Il figure sur chaque fichier de données et est utilisé pour fusionner les informations des fichiers de données. xxxxxx Deux caractères pour le code d'état suivis de quatre caractères pour le numéro de cas",
+    "Cet élément de données est le numéro consécutif attribué à chaque véhicule dans le cas. Cet élément de données figure sur chaque fichier de données au niveau du véhicule et est utilisé en conjonction avec l'élément de données ST_CASE pour fusionner les informations des fichiers de données au niveau du véhicule. 000-999 Numéro attribué de véhicule à moteur",
+    "Cet élément de données identifie toutes les infractions reprochées à ce conducteur. Pour plus d'informations sur les codes, veuillez consulter la section <D21 Violations Charged> du pdf : https://crashstats.nhtsa.dot.gov/Api/Public/ViewPublication/812315",
+    "Cet élément de données identifie toutes les infractions reprochées à ce conducteur. Pour plus d'informations sur les codes, veuillez consulter la section <D21 Violations Charged> du pdf : https://crashstats.nhtsa.dot.gov/Api/Public/ViewPublication/812315"
+  ],
+  "sample_rows": [
+    {
+      "numero_d_etat": 1,
+      "nom_d_etat": "Alabama",
+      "numero_consecutif": 10059,
+      "numero_de_vehicule": 5,
+      "violations_incriminees": "0",
+      "nom_de_violations_incriminees": "None"
+    },
+    {
+      "numero_d_etat": 1,
+      "nom_d_etat": "Alabama",
+      "numero_consecutif": 10141,
+      "numero_de_vehicule": 5,
+      "violations_incriminees": "0",
+      "nom_de_violations_incriminees": "None"
+    },
+    {
+      "numero_d_etat": 1,
+      "nom_d_etat": "Alabama",
+      "numero_consecutif": 10141,
+      "numero_de_vehicule": 6,
+      "violations_incriminees": "0",
+      "nom_de_violations_incriminees": "None"
+    },
+    {
+      "numero_d_etat": 1,
+      "nom_d_etat": "Alabama",
+      "numero_consecutif": 10333,
+      "numero_de_vehicule": 5,
+      "violations_incriminees": "0",
+      "nom_de_violations_incriminees": "None"
+    },
+    {
+      "numero_d_etat": 1,
+      "nom_d_etat": "Alabama",
+      "numero_consecutif": 10386,
+      "numero_de_vehicule": 5,
+      "violations_incriminees": "0",
+      "nom_de_violations_incriminees": "None"
+    }
+  ]
+}

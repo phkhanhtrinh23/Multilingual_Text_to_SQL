@@ -1,0 +1,106 @@
+{
+  "table_name": "Filtered_jhu_usc_edu_PANCAN_HumanMethylation450_betaValue_whitelisted",
+  "table_fullname": "isb-cgc-bq.pancancer_atlas.Filtered_jhu_usc_edu_PANCAN_HumanMethylation450_betaValue_whitelisted",
+  "column_names": [
+    "ParticipantBarcode",
+    "SampleBarcode",
+    "AliquotBarcode",
+    "SampleTypeLetterCode",
+    "SampleType",
+    "研究",
+    "識別子",
+    "ベータ"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64"
+  ],
+  "nested_column_names": [
+    "ParticipantBarcode",
+    "SampleBarcode",
+    "AliquotBarcode",
+    "SampleTypeLetterCode",
+    "SampleType",
+    "研究",
+    "識別子",
+    "ベータ"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64"
+  ],
+  "description": [
+    "研究参加者のTCGAバーコード識別子、例: TCGA-02-0001",
+    "生物試料サンプルのバーコード、例: TCGA-13-1489-02A",
+    "TCGAアリコットバーコード、例: TCGA-12-1089-01A-01D-0517-28",
+    "TCGAの基準を用いたサンプルタイプの文字コード、例: TPN, EBV。完全な一覧は https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/sample-type-codes で入手可能",
+    "サンプルタイプは10種類あります: Blood Derived Normal, Primary solid Tumor, Solid Tissue Normal, Recurrent Solid Tumor, Metastatic, Additional - New Primary, Primary Blood Derived Cancer - Peripheral Blood, Buccal Cell Normal, Additioanal Metastatic, Bone Marrrow Normal",
+    "TCGA研究の略称、例: LAML。完全な一覧は https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/tcga-study-abbreviations で入手可能",
+    "Illumina Human Methylation arrayの一意のプローブ識別子（例: cg04676771）— 特定のプローブの詳細については注釈テーブル (isb-cgc-bq.annotations.methylation_annotation_hg19_illumina_current) を参照してください",
+    "正規化されたDNAメチル化ベータ値（0〜1の範囲、0は完全に非メチル化、1は完全にメチル化されていることを示す）"
+  ],
+  "sample_rows": [
+    {
+      "ParticipantBarcode": "TCGA-06-0221",
+      "SampleBarcode": "TCGA-06-0221-02A",
+      "AliquotBarcode": "TCGA-06-0221-02A-11D-2004-05",
+      "SampleTypeLetterCode": "TR",
+      "SampleType": "Recurrent Solid Tumor",
+      "研究": "GBM",
+      "識別子": "cg23731184",
+      "ベータ": 0.214408
+    },
+    {
+      "ParticipantBarcode": "TCGA-06-0152",
+      "SampleBarcode": "TCGA-06-0152-02A",
+      "AliquotBarcode": "TCGA-06-0152-02A-01D-2004-05",
+      "SampleTypeLetterCode": "TR",
+      "SampleType": "Recurrent Solid Tumor",
+      "研究": "GBM",
+      "識別子": "cg06362729",
+      "ベータ": 0.920151
+    },
+    {
+      "ParticipantBarcode": "TCGA-06-0152",
+      "SampleBarcode": "TCGA-06-0152-02A",
+      "AliquotBarcode": "TCGA-06-0152-02A-01D-2004-05",
+      "SampleTypeLetterCode": "TR",
+      "SampleType": "Recurrent Solid Tumor",
+      "研究": "GBM",
+      "識別子": "cg10753101",
+      "ベータ": 0.95802
+    },
+    {
+      "ParticipantBarcode": "TCGA-06-0210",
+      "SampleBarcode": "TCGA-06-0210-02A",
+      "AliquotBarcode": "TCGA-06-0210-02A-01D-2004-05",
+      "SampleTypeLetterCode": "TR",
+      "SampleType": "Recurrent Solid Tumor",
+      "研究": "GBM",
+      "識別子": "cg25832529",
+      "ベータ": 0.357678
+    },
+    {
+      "ParticipantBarcode": "TCGA-14-0736",
+      "SampleBarcode": "TCGA-14-0736-02A",
+      "AliquotBarcode": "TCGA-14-0736-02A-01D-2004-05",
+      "SampleTypeLetterCode": "TR",
+      "SampleType": "Recurrent Solid Tumor",
+      "研究": "GBM",
+      "識別子": "cg09167779",
+      "ベータ": 0.894181
+    }
+  ]
+}
