@@ -1,0 +1,106 @@
+{
+  "table_name": "Filtered_jhu_usc_edu_PANCAN_merged_HumanMethylation27_HumanMethylation450_betaValue_whitelisted",
+  "table_fullname": "isb-cgc-bq.pancancer_atlas.Filtered_jhu_usc_edu_PANCAN_merged_HumanMethylation27_HumanMethylation450_betaValue_whitelisted",
+  "column_names": [
+    "参加者バーコード",
+    "試料バーコード",
+    "分注バーコード",
+    "試料種別文字コード",
+    "試料種別",
+    "研究",
+    "識別子",
+    "ベータ"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64"
+  ],
+  "nested_column_names": [
+    "ParticipantBarcode",
+    "SampleBarcode",
+    "AliquotBarcode",
+    "SampleTypeLetterCode",
+    "SampleType",
+    "Study",
+    "ID",
+    "Beta"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64"
+  ],
+  "description": [
+    "研究参加者のTCGAバーコード識別子（例: TCGA-02-0001）",
+    "生体試料サンプルのバーコード（例: TCGA-13-1489-02A）",
+    "TCGAアリクオートバーコード（例: TCGA-12-1089-01A-01D-0517-28）",
+    "TCGA基準で使用されるサンプルタイプの文字コード（例: TPN, EBV）。完全な一覧は https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/sample-type-codes を参照してください",
+    "サンプルタイプは10種類あります: Blood Derived Normal, Primary solid Tumor, Solid Tissue Normal, Recurrent Solid Tumor, Metastatic, Additional - New Primary, Primary Blood Derived Cancer - Peripheral Blood, Buccal Cell Normal, Additioanal Metastatic, Bone Marrrow Normal",
+    "TCGA研究略称（例: LAML）。完全な一覧は https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/tcga-study-abbreviations を参照してください",
+    "Illumina Human Methylation arrayのユニークなプローブ識別子（例: cg04676771）— 特定のプローブの詳細についてはアノテーションテーブル (isb-cgc-bq.annotations.methylation_annotation_hg19_illumina_current) を参照してください",
+    "正規化されたDNAメチル化ベータ値（0から1の間、0は完全に非メチル化、1は完全にメチル化を示す）"
+  ],
+  "sample_rows": [
+    {
+      "ParticipantBarcode": "TCGA-01-0628",
+      "SampleBarcode": "TCGA-01-0628-11A",
+      "AliquotBarcode": "TCGA-01-0628-11A-01D-0383-05",
+      "SampleTypeLetterCode": "NT",
+      "SampleType": "Solid Tissue Normal",
+      "Study": "OV",
+      "ID": "cg25264554",
+      "Beta": 0.014019597658378
+    },
+    {
+      "ParticipantBarcode": "TCGA-01-0628",
+      "SampleBarcode": "TCGA-01-0628-11A",
+      "AliquotBarcode": "TCGA-01-0628-11A-01D-0383-05",
+      "SampleTypeLetterCode": "NT",
+      "SampleType": "Solid Tissue Normal",
+      "Study": "OV",
+      "ID": "cg12269343",
+      "Beta": 0.0197464851425526
+    },
+    {
+      "ParticipantBarcode": "TCGA-01-0628",
+      "SampleBarcode": "TCGA-01-0628-11A",
+      "AliquotBarcode": "TCGA-01-0628-11A-01D-0383-05",
+      "SampleTypeLetterCode": "NT",
+      "SampleType": "Solid Tissue Normal",
+      "Study": "OV",
+      "ID": "cg02425732",
+      "Beta": 0.033633891941717
+    },
+    {
+      "ParticipantBarcode": "TCGA-01-0628",
+      "SampleBarcode": "TCGA-01-0628-11A",
+      "AliquotBarcode": "TCGA-01-0628-11A-01D-0383-05",
+      "SampleTypeLetterCode": "NT",
+      "SampleType": "Solid Tissue Normal",
+      "Study": "OV",
+      "ID": "cg09852871",
+      "Beta": 0.788843878492672
+    },
+    {
+      "ParticipantBarcode": "TCGA-01-0628",
+      "SampleBarcode": "TCGA-01-0628-11A",
+      "AliquotBarcode": "TCGA-01-0628-11A-01D-0383-05",
+      "SampleTypeLetterCode": "NT",
+      "SampleType": "Solid Tissue Normal",
+      "Study": "OV",
+      "ID": "cg23953831",
+      "Beta": 0.864616977642031
+    }
+  ]
+}
