@@ -1,0 +1,66 @@
+{
+  "table_name": "protein_class_synonyms_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.protein_class_synonyms_30",
+  "column_names": [
+    "タンパク質クラス同義語ID",
+    "タンパク質クラスID",
+    "タンパク質クラス同義語",
+    "同義語の種類"
+  ],
+  "column_types": [
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "タンパク質クラス同義語_id",
+    "タンパク質_クラス_id",
+    "タンパク質_クラス_同義語",
+    "同義語_種類"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "主キー。",
+    "PROTEIN_CLASSIFICATION テーブルへの外部キー。この同義語が適用される protein_class。",
+    "タンパク質クラスの同義語。",
+    "同義語の種類または由来（例: ChEMBL、Concept Wiki、UMLS）。"
+  ],
+  "sample_rows": [
+    {
+      "タンパク質クラス同義語_id": 33670,
+      "タンパク質_クラス_id": 1,
+      "タンパク質_クラス_同義語": "Biocatalysts",
+      "同義語_種類": "UMLS"
+    },
+    {
+      "タンパク質クラス同義語_id": 33671,
+      "タンパク質_クラス_id": 1,
+      "タンパク質_クラス_同義語": "Enzymes",
+      "同義語_種類": "UMLS"
+    },
+    {
+      "タンパク質クラス同義語_id": 33680,
+      "タンパク質_クラス_id": 10,
+      "タンパク質_クラス_同義語": "Dehydrogenases",
+      "同義語_種類": "UMLS"
+    },
+    {
+      "タンパク質クラス同義語_id": 33681,
+      "タンパク質_クラス_id": 10,
+      "タンパク質_クラス_同義語": "Reductases",
+      "同義語_種類": "UMLS"
+    },
+    {
+      "タンパク質クラス同義語_id": 33682,
+      "タンパク質_クラス_id": 10,
+      "タンパク質_クラス_同義語": "Reductase",
+      "同義語_種類": "UMLS"
+    }
+  ]
+}
