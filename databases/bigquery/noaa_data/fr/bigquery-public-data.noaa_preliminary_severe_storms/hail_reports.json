@@ -1,0 +1,126 @@
+{
+  "table_name": "hail_reports",
+  "table_fullname": "bigquery-public-data.noaa_preliminary_severe_storms.hail_reports",
+  "column_names": [
+    "horodatage",
+    "heure",
+    "taille",
+    "emplacement",
+    "comté",
+    "état",
+    "latitude",
+    "longitude",
+    "commentaires",
+    "report_point"
+  ],
+  "column_types": [
+    "TIMESTAMP",
+    "STRING",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "FLOAT64",
+    "STRING",
+    "GEOGRAPHY"
+  ],
+  "nested_column_names": [
+    "horodatage",
+    "heure",
+    "taille",
+    "emplacement",
+    "comté",
+    "état",
+    "latitude",
+    "longitude",
+    "commentaires",
+    "point_de_rapport"
+  ],
+  "nested_column_types": [
+    "TIMESTAMP",
+    "STRING",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "FLOAT64",
+    "STRING",
+    "GEOGRAPHY"
+  ],
+  "description": [
+    "Horodatage en UTC",
+    "Heure en UTC",
+    "Taille en 1/100 de pouce (175 = 1,75\")",
+    "Emplacement du rapport",
+    "",
+    "",
+    "Latitude à deux décimales",
+    "Longitude à deux décimales",
+    "",
+    ""
+  ],
+  "sample_rows": [
+    {
+      "horodatage": "2021-05-26 23:28:00+00:00",
+      "heure": "2328",
+      "taille": 200,
+      "emplacement": "10 WEST HEMINGFORD",
+      "comté": "BOX BUTTE",
+      "état": "N",
+      "latitude": 4.23,
+      "longitude": -10.32,
+      "commentaires": "PHOTO ON SOCIAL MEDIA READING 2.14 INCHES FOR DIAMETER. (CYS",
+      "point_de_rapport": "POINT(-10.32 4.23)"
+    },
+    {
+      "horodatage": "2021-04-24 21:22:00+00:00",
+      "heure": "2122",
+      "taille": 125,
+      "emplacement": "1 SSW EW SHELL FISHERIE",
+      "comté": "LEE",
+      "état": "AL",
+      "latitude": 32.67,
+      "longitude": -85.51,
+      "commentaires": "VIA SOCIAL MEDIA. (BMX)",
+      "point_de_rapport": "POINT(-85.51 32.67)"
+    },
+    {
+      "horodatage": "2021-12-30 20:05:00+00:00",
+      "heure": "2005",
+      "taille": 100,
+      "emplacement": "1 W LOACHAPOKA",
+      "comté": "LEE",
+      "état": "AL",
+      "latitude": 32.6,
+      "longitude": -85.61,
+      "commentaires": "QUARTER SIZE HAIL IN LOACHAPOKA. (BMX)",
+      "point_de_rapport": "POINT(-85.61 32.6)"
+    },
+    {
+      "horodatage": "2021-12-30 20:28:00+00:00",
+      "heure": "2028",
+      "taille": 150,
+      "emplacement": "BEAUREGARD",
+      "comté": "LEE",
+      "état": "AL",
+      "latitude": 32.54,
+      "longitude": -85.37,
+      "commentaires": "SILVER DOLLAR SIZE HAIL IN BEAUREGARD. (BMX)",
+      "point_de_rapport": "POINT(-85.37 32.54)"
+    },
+    {
+      "horodatage": "2021-12-30 20:47:00+00:00",
+      "heure": "2047",
+      "taille": 175,
+      "emplacement": "SMITHS STATION",
+      "comté": "LEE",
+      "état": "AL",
+      "latitude": 32.54,
+      "longitude": -85.09,
+      "commentaires": "GOLF BALL SIZE HAIL IN SMITHS STATION. (BMX)",
+      "point_de_rapport": "POINT(-85.09 32.54)"
+    }
+  ]
+}
