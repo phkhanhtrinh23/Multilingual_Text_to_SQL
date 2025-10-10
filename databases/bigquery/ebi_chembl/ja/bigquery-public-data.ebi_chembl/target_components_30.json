@@ -1,0 +1,66 @@
+{
+  "table_name": "target_components_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.target_components_30",
+  "column_names": [
+    "識別子",
+    "component_id",
+    "targcomp_id",
+    "ホモログ"
+  ],
+  "column_types": [
+    "INT64",
+    "INT64",
+    "INT64",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "tid",
+    "component_id",
+    "targcomp_id",
+    "homologue"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "INT64",
+    "INT64",
+    "INT64"
+  ],
+  "description": [
+    "コンポーネントが属するターゲットを示す、target_dictionaryへの外部キー。",
+    "ターゲットに属するコンポーネントを示す、component_sequencesテーブルへの外部キー。",
+    "主キー。",
+    "値が1に設定されている場合、与えられたコンポーネントが正しいコンポーネントのホモログ（例えば異なる種由来）であることを示します。正しいタンパク質/核酸の配列が配列データベースで見つからない場合にこのようになることがあります。値が2の場合、与えられた配列が種群の代表であることを示します（例：広域スペクトル抗生物質の標的を表すためのE. coli由来のタンパク質）。"
+  ],
+  "sample_rows": [
+    {
+      "tid": 10496,
+      "component_id": 1361,
+      "targcomp_id": 4530,
+      "homologue": 0
+    },
+    {
+      "tid": 10752,
+      "component_id": 321,
+      "targcomp_id": 2345,
+      "homologue": 0
+    },
+    {
+      "tid": 11520,
+      "component_id": 1491,
+      "targcomp_id": 5341,
+      "homologue": 0
+    },
+    {
+      "tid": 12800,
+      "component_id": 2751,
+      "targcomp_id": 4027,
+      "homologue": 0
+    },
+    {
+      "tid": 13056,
+      "component_id": 2744,
+      "targcomp_id": 4758,
+      "homologue": 0
+    }
+  ]
+}
