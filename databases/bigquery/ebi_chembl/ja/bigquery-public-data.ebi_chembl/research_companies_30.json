@@ -1,0 +1,76 @@
+{
+  "table_name": "research_companies_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.research_companies_30",
+  "column_names": [
+    "co_stem_id",
+    "res_stem_id",
+    "会社",
+    "国",
+    "previous_company"
+  ],
+  "column_types": [
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "co_stem_id",
+    "res_stem_id",
+    "会社",
+    "国",
+    "previous_company"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "主キー.",
+    "research_stem テーブルへの外部キー.",
+    "この研究コードステムに関連する現在の会社名.",
+    "会社がこの研究コードステムを使用する国.",
+    "この研究コードステムに関連する会社の以前の名称（例：会社が買収や合併を経験した場合）."
+  ],
+  "sample_rows": [
+    {
+      "co_stem_id": 541,
+      "res_stem_id": 149,
+      "会社": "Vernalis",
+      "国": "UK",
+      "previous_company": "Cita NeuroPharmaceuticals"
+    },
+    {
+      "co_stem_id": 681,
+      "res_stem_id": 28,
+      "会社": "GlaxoSmithKline",
+      "国": "UK",
+      "previous_company": "Allen & Hanburys"
+    },
+    {
+      "co_stem_id": 683,
+      "res_stem_id": 3,
+      "会社": "AstraZeneca",
+      "国": "UK",
+      "previous_company": "Astra"
+    },
+    {
+      "co_stem_id": 687,
+      "res_stem_id": 106,
+      "会社": "GlaxoSmithKline",
+      "国": "UK",
+      "previous_company": "Borroughs Wellcome"
+    },
+    {
+      "co_stem_id": 688,
+      "res_stem_id": 77,
+      "会社": "Vernalis",
+      "国": "UK",
+      "previous_company": "British Biotech"
+    }
+  ]
+}
