@@ -1,0 +1,76 @@
+{
+  "table_name": "organism_class_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.organism_class_30",
+  "column_names": [
+    "oc_id",
+    "tax_id",
+    "l1",
+    "l2",
+    "l3"
+  ],
+  "column_types": [
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "oc_id",
+    "tax_id",
+    "レベル1",
+    "レベル2",
+    "レベル3"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "内部主キー",
+    "生物のNCBI taxonomy ID（assay2targetおよびtarget_dictionaryテーブルのtax_idsに対応）",
+    "最上位の分類（例: 真核生物、細菌、真菌など）",
+    "第二レベルの分類",
+    "第三レベルの分類"
+  ],
+  "sample_rows": [
+    {
+      "oc_id": 281,
+      "tax_id": 2210,
+      "レベル1": "Archaea",
+      "レベル2": null,
+      "レベル3": null
+    },
+    {
+      "oc_id": 282,
+      "tax_id": 2261,
+      "レベル1": "Archaea",
+      "レベル2": null,
+      "レベル3": null
+    },
+    {
+      "oc_id": 283,
+      "tax_id": 2287,
+      "レベル1": "Archaea",
+      "レベル2": null,
+      "レベル3": null
+    },
+    {
+      "oc_id": 284,
+      "tax_id": 187420,
+      "レベル1": "Archaea",
+      "レベル2": null,
+      "レベル3": null
+    },
+    {
+      "oc_id": 1218,
+      "tax_id": 32644,
+      "レベル1": "Unclassified",
+      "レベル2": null,
+      "レベル3": null
+    }
+  ]
+}
