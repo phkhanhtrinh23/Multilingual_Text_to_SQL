@@ -1,0 +1,102 @@
+{
+  "table_name": "RECURRENTDATA",
+  "table_fullname": "TCGA_MITELMAN.PROD.RECURRENTDATA",
+  "column_names": [
+    "CasTotal",
+    "Chromosome",
+    "Bras",
+    "Type",
+    "Bande",
+    "Topo",
+    "Anomalie",
+    "Morph",
+    "Gene",
+    "OrdreChr"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "NUMBER"
+  ],
+  "description": [
+    "nombre total de cas (jusqu'à 2150)",
+    "numéro du chromosome (1- 22, X ou Y)",
+    "bras du chromosome (p ou q)",
+    "indiquer équilibré ('B') ou déséquilibré ('U')",
+    "position du gène sur le bras p ou q",
+    "code de topographie, par exemple '0902' (ou vide)",
+    "description de l'anomalie, par exemple 'add(19)(q13)' ou 'del(20)(q11q13)'",
+    "code de morphologie, par exemple '1602'",
+    "symbole(s) de gène, par exemple 'KMT2A+' ou 'BCR/ABL1' ou vide",
+    "ordre numérique du chromosome"
+  ],
+  "sample_rows": [
+    {
+      "Chromosome": "Y",
+      "Bras": "q",
+      "Bande": "10",
+      "Anomalie": "i(Y)(q10)",
+      "Morph": "1820",
+      "Topo": null,
+      "CasTotal": "2",
+      "Gene": null,
+      "OrdreChr": 24,
+      "Type": "U"
+    },
+    {
+      "Chromosome": "1",
+      "Bras": "q",
+      "Bande": "10",
+      "Anomalie": "der(1;3)(q10;q10)",
+      "Morph": "3121",
+      "Topo": "0203",
+      "CasTotal": "2",
+      "Gene": null,
+      "OrdreChr": 1,
+      "Type": "U"
+    },
+    {
+      "Chromosome": "1",
+      "Bras": "q",
+      "Bande": "10",
+      "Anomalie": "der(1;5)(q10;p10)",
+      "Morph": "1101",
+      "Topo": null,
+      "CasTotal": "2",
+      "Gene": null,
+      "OrdreChr": 1,
+      "Type": "U"
+    },
+    {
+      "Chromosome": "1",
+      "Bras": "q",
+      "Bande": "10",
+      "Anomalie": "der(1;5)(q10;p10)",
+      "Morph": "1702",
+      "Topo": null,
+      "CasTotal": "3",
+      "Gene": null,
+      "OrdreChr": 1,
+      "Type": "U"
+    },
+    {
+      "Chromosome": "1",
+      "Bras": "q",
+      "Bande": "10",
+      "Anomalie": "der(1;5)(q10;q10)",
+      "Morph": "1101",
+      "Topo": null,
+      "CasTotal": "2",
+      "Gene": null,
+      "OrdreChr": 1,
+      "Type": "U"
+    }
+  ]
+}

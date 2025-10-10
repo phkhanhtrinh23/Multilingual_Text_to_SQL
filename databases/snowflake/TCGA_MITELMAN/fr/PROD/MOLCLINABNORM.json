@@ -1,0 +1,62 @@
+{
+  "table_name": "MOLCLINABNORM",
+  "table_fullname": "TCGA_MITELMAN.PROD.MOLCLINABNORM",
+  "column_names": [
+    "NumFact",
+    "NumCommande",
+    "NumRef",
+    "Anomalie",
+    "MolClin"
+  ],
+  "column_types": [
+    "NUMBER",
+    "NUMBER",
+    "NUMBER",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "numéro d'enquête, généralement entre 1 et 10",
+    "numéro de commande, entre 1 et 54",
+    "numéro de référence, par exemple '15563'",
+    "description de l'anomalie, par exemple 't(19;19)(p13;p13)' ou 'del(7)(q?)'",
+    "indicateur de moléculaire 'M', ou clinique 'C'"
+  ],
+  "sample_rows": [
+    {
+      "MolClin": "C",
+      "NumRef": 1696,
+      "NumFact": 1,
+      "NumCommande": 1,
+      "Anomalie": "r"
+    },
+    {
+      "MolClin": "C",
+      "NumRef": 4556,
+      "NumFact": 1,
+      "NumCommande": 11,
+      "Anomalie": "r"
+    },
+    {
+      "MolClin": "C",
+      "NumRef": 15564,
+      "NumFact": 1,
+      "NumCommande": 1,
+      "Anomalie": "r"
+    },
+    {
+      "MolClin": "C",
+      "NumRef": 15564,
+      "NumFact": 2,
+      "NumCommande": 1,
+      "Anomalie": "r"
+    },
+    {
+      "MolClin": "C",
+      "NumRef": 11249,
+      "NumFact": 1,
+      "NumCommande": 2,
+      "Anomalie": "+1"
+    }
+  ]
+}

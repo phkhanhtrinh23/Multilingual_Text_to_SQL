@@ -1,0 +1,62 @@
+{
+  "table_name": "MOLCLINBREAK",
+  "table_fullname": "TCGA_MITELMAN.PROD.MOLCLINBREAK",
+  "column_names": [
+    "NumRef",
+    "MolClin",
+    "PointDeRupture",
+    "NumInv",
+    "NumCommande"
+  ],
+  "column_types": [
+    "NUMBER",
+    "TEXT",
+    "TEXT",
+    "NUMBER",
+    "NUMBER"
+  ],
+  "description": [
+    "numéro de référence, par exemple '15563'",
+    "indicateur indiquant soit moléculaire 'M', soit clinique 'C'",
+    "description du point de rupture, par exemple '19p13' ou '12q2?3', etc",
+    "numéro d'enquête, généralement entre 1 et 10",
+    "numéro de commande, entre 1 et 68"
+  ],
+  "sample_rows": [
+    {
+      "MolClin": "C",
+      "NumRef": 7869,
+      "NumInv": 1,
+      "NumCommande": 1,
+      "PointDeRupture": "1"
+    },
+    {
+      "MolClin": "C",
+      "NumRef": 10829,
+      "NumInv": 1,
+      "NumCommande": 1,
+      "PointDeRupture": "1"
+    },
+    {
+      "MolClin": "C",
+      "NumRef": 16405,
+      "NumInv": 1,
+      "NumCommande": 1,
+      "PointDeRupture": "1"
+    },
+    {
+      "MolClin": "M",
+      "NumRef": 7806,
+      "NumInv": 3,
+      "NumCommande": 1,
+      "PointDeRupture": "1"
+    },
+    {
+      "MolClin": "M",
+      "NumRef": 7806,
+      "NumInv": 9,
+      "NumCommande": 1,
+      "PointDeRupture": "1"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "table_name": "MOLCLINGENE",
+  "table_fullname": "TCGA_MITELMAN.PROD.MOLCLINGENE",
+  "column_names": [
+    "Préfixe",
+    "NumInv",
+    "MolClin",
+    "Gène",
+    "NumRef",
+    "NumCommande",
+    "Suffixe"
+  ],
+  "column_types": [
+    "TEXT",
+    "NUMBER",
+    "TEXT",
+    "TEXT",
+    "NUMBER",
+    "NUMBER",
+    "TEXT"
+  ],
+  "description": [
+    "préfixe de chaîne -- soit vide ou '+'",
+    "numéro d'enquête, généralement entre 1 et 10",
+    "indicateur indiquant soit moléculaire 'M', soit clinique 'C'",
+    "symbole(s) de gène, par exemple 'KMT2A' ou 'BCR/ABL1'",
+    "numéro de référence, par exemple '15563'",
+    "numéro de commande, entre 1 et 15",
+    "chaîne de suffixe -- soit vide ou '+'"
+  ],
+  "sample_rows": [
+    {
+      "MolClin": "C",
+      "NumRef": 3976,
+      "NumInv": 2,
+      "NumCommande": 1,
+      "Préfixe": null,
+      "Gène": "BCR::ABL1",
+      "Suffixe": null
+    },
+    {
+      "MolClin": "C",
+      "NumRef": 4541,
+      "NumInv": 1,
+      "NumCommande": 1,
+      "Préfixe": null,
+      "Gène": "PML::RARA",
+      "Suffixe": null
+    },
+    {
+      "MolClin": "C",
+      "NumRef": 4624,
+      "NumInv": 1,
+      "NumCommande": 1,
+      "Préfixe": null,
+      "Gène": "BCR::ABL1",
+      "Suffixe": null
+    },
+    {
+      "MolClin": "C",
+      "NumRef": 4748,
+      "NumInv": 1,
+      "NumCommande": 1,
+      "Préfixe": null,
+      "Gène": "PML::RARA",
+      "Suffixe": null
+    },
+    {
+      "MolClin": "C",
+      "NumRef": 4994,
+      "NumInv": 1,
+      "NumCommande": 1,
+      "Préfixe": null,
+      "Gène": "TCF3::PBX1",
+      "Suffixe": null
+    }
+  ]
+}
