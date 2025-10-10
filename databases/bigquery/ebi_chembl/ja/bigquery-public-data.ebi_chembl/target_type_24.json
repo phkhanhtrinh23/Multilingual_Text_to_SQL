@@ -1,0 +1,56 @@
+{
+  "table_name": "target_type_24",
+  "table_fullname": "bigquery-public-data.ebi_chembl.target_type_24",
+  "column_names": [
+    "対象_種別",
+    "対象_説明",
+    "親_種別"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "対象_種類",
+    "対象_説明",
+    "親_種類"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    null,
+    null,
+    null
+  ],
+  "sample_rows": [
+    {
+      "対象_種類": "MOLECULAR",
+      "対象_説明": "Target has been identified as a defined molecular entity (e.g., protein or nucleic acid)",
+      "親_種類": null
+    },
+    {
+      "対象_種類": "NON-MOLECULAR",
+      "対象_説明": "Target has not been defined at a molecular level, only the non-molecular entity which is affected (e.g., organism, cell line etc)",
+      "親_種類": null
+    },
+    {
+      "対象_種類": "UNDEFINED",
+      "対象_説明": "No target has been defined",
+      "親_種類": null
+    },
+    {
+      "対象_種類": "CHIMERIC PROTEIN",
+      "対象_説明": "Target is a fusion of two different proteins, either a synthetic construct or naturally occurring fusion protein",
+      "親_種類": "PROTEIN"
+    },
+    {
+      "対象_種類": "PROTEIN COMPLEX",
+      "対象_説明": "Target is a defined protein complex, consisting of multiple subunits",
+      "親_種類": "PROTEIN"
+    }
+  ]
+}
