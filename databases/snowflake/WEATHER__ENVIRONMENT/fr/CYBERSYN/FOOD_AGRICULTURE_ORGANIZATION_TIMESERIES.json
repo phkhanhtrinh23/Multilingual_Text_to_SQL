@@ -1,0 +1,70 @@
+{
+  "sample_rows": [
+    {
+      "ID_GEO": "country/NIU",
+      "VARIABLE": "72380_ 1052_3050_E",
+      "NOM_DE_VARIABLE": "Manure left on pasture (N content) of Chickens, layers (FAO Estimated value)",
+      "DATE": "1975-12-31",
+      "VALEUR": 145.4598,
+      "UNITÉ": "Kilograms"
+    },
+    {
+      "ID_GEO": "country/IMN",
+      "VARIABLE": "7273_ 6991_3050_E",
+      "NOM_DE_VARIABLE": "Emissions (CO2) of Agrifood Systems Waste Disposal (FAO Estimated value)",
+      "DATE": "1990-12-31",
+      "VALEUR": 0.0,
+      "UNITÉ": "Kilotonnes"
+    },
+    {
+      "ID_GEO": "countryGroup/X31",
+      "VARIABLE": "723113_ 6507_E",
+      "NOM_DE_VARIABLE": "Emissions (CO2eq) of Food Processing (Estimated value)",
+      "DATE": "2014-12-31",
+      "VALEUR": 1363.663426,
+      "UNITÉ": "Kilotonnes"
+    },
+    {
+      "ID_GEO": "country/AND",
+      "VARIABLE": "7230_ 6824_3050_E",
+      "NOM_DE_VARIABLE": "Emissions (N2O) of Agriculture, Forestry and Other Land Use (FAO Estimated value)",
+      "DATE": "2008-12-31",
+      "VALEUR": 0.0,
+      "UNITÉ": "Kilotonnes"
+    },
+    {
+      "ID_GEO": "countryGroup/ANZ",
+      "VARIABLE": "72380_ 976_3050_E",
+      "NOM_DE_VARIABLE": "Manure left on pasture (N content) of Sheep (FAO Estimated value)",
+      "DATE": "1971-12-31",
+      "VALEUR": 4734986352.9836,
+      "UNITÉ": "Kilograms"
+    }
+  ],
+  "table_name": "FOOD_AGRICULTURE_ORGANIZATION_TIMESERIES",
+  "table_fullname": "WEATHER__ENVIRONMENT.CYBERSYN.FOOD_AGRICULTURE_ORGANIZATION_TIMESERIES",
+  "column_names": [
+    "NOM_DE_VARIABLE",
+    "UNITÉ",
+    "ID_GEO",
+    "VARIABLE",
+    "DATE",
+    "VALEUR"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "FLOAT"
+  ],
+  "description": [
+    "Nom unique lisible par l'homme pour la variable.",
+    "Unité de mesure pour la valeur rapportée.",
+    "Un identifiant unique pour un lieu. Joignable à d'autres tables de géographie, notamment `GEOGRAPHY_INDEX`, `GEOGRAPHY_RELATIONSHIPS` et `GEOGRAPHY_CHARACTERISTICS`.",
+    "Identifiant unique pour une variable, joignable à la table timeseries.",
+    "Date associée à la valeur.",
+    "Valeur rapportée pour la variable."
+  ]
+}
