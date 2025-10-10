@@ -1,0 +1,282 @@
+{
+  "table_name": "knownDrugsAggregated",
+  "table_fullname": "bigquery-public-data.open_targets_platform.knownDrugsAggregated",
+  "column_names": [
+    "drugId",
+    "targetId",
+    "diseaseId",
+    "開発段階",
+    "状態",
+    "リンク",
+    "上位項目",
+    "ラベル",
+    "approvedSymbol",
+    "approvedName",
+    "targetClass",
+    "prefName",
+    "tradeNames",
+    "同義語",
+    "drugType",
+    "mechanismOfAction",
+    "targetName"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRUCT<list ARRAY<STRUCT<element STRUCT<niceName STRING, url STRING>>>>",
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+    "STRING",
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "医薬品ID",
+    "標的ID",
+    "疾患ID",
+    "フェーズ",
+    "ステータス",
+    "URL一覧",
+    "URLリスト",
+    "URLリスト項目",
+    "URLリスト項目表示名",
+    "URLリスト項目のURL",
+    "上位項目",
+    "上位項目リスト",
+    "上位項目リスト項目",
+    "ラベル",
+    "承認済みシンボル",
+    "承認済み名称",
+    "ターゲットクラス",
+    "ターゲットクラス一覧",
+    "ターゲットクラス一覧項目",
+    "優先名称",
+    "商品名",
+    "商品名リスト",
+    "商品名リスト項目",
+    "同義語",
+    "同義語リスト",
+    "同義語リスト項目",
+    "薬剤タイプ",
+    "作用機序",
+    "ターゲット名"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRUCT<list ARRAY<STRUCT<element STRUCT<niceName STRING, url STRING>>>>",
+    "ARRAY<STRUCT<element STRUCT<niceName STRING, url STRING>>>",
+    "STRUCT<niceName STRING, url STRING>",
+    "STRING",
+    "STRING",
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+    "ARRAY<STRUCT<element STRING>>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+    "ARRAY<STRUCT<element STRING>>",
+    "STRING",
+    "STRING",
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+    "ARRAY<STRUCT<element STRING>>",
+    "STRING",
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+    "ARRAY<STRUCT<element STRING>>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "sample_rows": [
+    {
+      "医薬品ID": "CHEMBL409",
+      "標的ID": "ENSG00000169083",
+      "疾患ID": "MONDO_0008315",
+      "フェーズ": 2.0,
+      "ステータス": "Recruiting",
+      "URL一覧": {
+        "list": "[{'element': {'niceName': 'ClinicalTrials', 'url': 'https://clinicaltrials.gov/study/NCT04025372'}}\n {'element': {'niceName': 'ClinicalTrials', 'url': 'https://clinicaltrials.gov/study/NCT04734730'}}\n {'element': {'niceName': 'ClinicalTrials', 'url': 'https://clinicaltrials.gov/study/NCT03541928'}}]"
+      },
+      "上位項目": {
+        "list": "[{'element': 'OTAR_0000017'} {'element': 'EFO_0009555'}\n {'element': 'EFO_0007355'} {'element': 'MONDO_0024582'}\n {'element': 'MONDO_0002149'} {'element': 'MONDO_0023370'}\n {'element': 'EFO_1000051'} {'element': 'EFO_0009602'}\n {'element': 'MONDO_0045024'} {'element': 'MONDO_0021259'}\n {'element': 'MONDO_0004992'} {'element': 'EFO_0000512'}\n {'element': 'EFO_0000616'}]"
+      },
+      "ラベル": "prostate cancer",
+      "承認済みシンボル": "AR",
+      "承認済み名称": "androgen receptor",
+      "ターゲットクラス": {
+        "list": "[{'element': 'Transcription factor'} {'element': 'Unclassified protein'}]"
+      },
+      "優先名称": "BICALUTAMIDE",
+      "商品名": {
+        "list": "[{'element': 'Bicalutamide'} {'element': 'Calutide'}\n {'element': 'Casodex'} {'element': 'Cosudex'} {'element': 'Kalumid'}]"
+      },
+      "同義語": {
+        "list": "[{'element': 'Bicalutamide'} {'element': 'Casodex'}\n {'element': 'ICI 176,334'} {'element': 'ICI-176334'}\n {'element': 'ICI176,334-1'} {'element': 'NSC-759816'}]"
+      },
+      "薬剤タイプ": "Small molecule",
+      "作用機序": "Androgen Receptor antagonist",
+      "ターゲット名": "Androgen Receptor"
+    },
+    {
+      "医薬品ID": "CHEMBL409",
+      "標的ID": "ENSG00000169083",
+      "疾患ID": "EFO_0000196",
+      "フェーズ": 3.0,
+      "ステータス": "Completed",
+      "URL一覧": {
+        "list": "[{'element': {'niceName': 'ClinicalTrials', 'url': 'https://clinicaltrials.gov/study/NCT00672282'}}\n {'element': {'niceName': 'ClinicalTrials', 'url': 'https://clinicaltrials.gov/study/NCT00657904'}}\n {'element': {'niceName': 'ClinicalTrials', 'url': 'https://clinicaltrials.gov/study/NCT00673205'}}]"
+      },
+      "上位項目": {
+        "list": "[{'element': 'OTAR_0000017'} {'element': 'EFO_0009555'}\n {'element': 'EFO_0007355'} {'element': 'MONDO_0024582'}\n {'element': 'MONDO_0002149'} {'element': 'MONDO_0023370'}\n {'element': 'EFO_1000051'} {'element': 'EFO_0009602'}\n {'element': 'MONDO_0045024'} {'element': 'MONDO_0021259'}\n {'element': 'MONDO_0004992'} {'element': 'MONDO_0008315'}\n {'element': 'EFO_0000512'} {'element': 'EFO_0000313'}\n {'element': 'EFO_0001663'} {'element': 'EFO_0006858'}\n {'element': 'EFO_0000616'}]"
+      },
+      "ラベル": "metastatic prostate cancer",
+      "承認済みシンボル": "AR",
+      "承認済み名称": "androgen receptor",
+      "ターゲットクラス": {
+        "list": "[{'element': 'Transcription factor'} {'element': 'Unclassified protein'}]"
+      },
+      "優先名称": "BICALUTAMIDE",
+      "商品名": {
+        "list": "[{'element': 'Bicalutamide'} {'element': 'Calutide'}\n {'element': 'Casodex'} {'element': 'Cosudex'} {'element': 'Kalumid'}]"
+      },
+      "同義語": {
+        "list": "[{'element': 'Bicalutamide'} {'element': 'Casodex'}\n {'element': 'ICI 176,334'} {'element': 'ICI-176334'}\n {'element': 'ICI176,334-1'} {'element': 'NSC-759816'}]"
+      },
+      "薬剤タイプ": "Small molecule",
+      "作用機序": "Androgen Receptor antagonist",
+      "ターゲット名": "Androgen Receptor"
+    },
+    {
+      "医薬品ID": "CHEMBL409",
+      "標的ID": "ENSG00000169083",
+      "疾患ID": "MONDO_0008315",
+      "フェーズ": 3.0,
+      "ステータス": "Terminated",
+      "URL一覧": {
+        "list": "[{'element': {'niceName': 'ClinicalTrials', 'url': 'https://clinicaltrials.gov/study/NCT00014586'}}\n {'element': {'niceName': 'ClinicalTrials', 'url': 'https://clinicaltrials.gov/study/NCT00243646'}}\n {'element': {'niceName': 'ClinicalTrials', 'url': 'https://clinicaltrials.gov/study/NCT00831233'}}\n {'element': {'niceName': 'ClinicalTrials', 'url': 'https://clinicaltrials.gov/study/NCT00388804'}}\n {'element': {'niceName': 'ClinicalTrials', 'url': 'https://clinicaltrials.gov/study/NCT01313273'}}\n {'element': {'niceName': 'ClinicalTrials', 'url': 'https://clinicaltrials.gov/study/NCT00651326'}}]"
+      },
+      "上位項目": {
+        "list": "[{'element': 'OTAR_0000017'} {'element': 'EFO_0009555'}\n {'element': 'EFO_0007355'} {'element': 'MONDO_0024582'}\n {'element': 'MONDO_0002149'} {'element': 'MONDO_0023370'}\n {'element': 'EFO_1000051'} {'element': 'EFO_0009602'}\n {'element': 'MONDO_0045024'} {'element': 'MONDO_0021259'}\n {'element': 'MONDO_0004992'} {'element': 'EFO_0000512'}\n {'element': 'EFO_0000616'}]"
+      },
+      "ラベル": "prostate cancer",
+      "承認済みシンボル": "AR",
+      "承認済み名称": "androgen receptor",
+      "ターゲットクラス": {
+        "list": "[{'element': 'Transcription factor'} {'element': 'Unclassified protein'}]"
+      },
+      "優先名称": "BICALUTAMIDE",
+      "商品名": {
+        "list": "[{'element': 'Bicalutamide'} {'element': 'Calutide'}\n {'element': 'Casodex'} {'element': 'Cosudex'} {'element': 'Kalumid'}]"
+      },
+      "同義語": {
+        "list": "[{'element': 'Bicalutamide'} {'element': 'Casodex'}\n {'element': 'ICI 176,334'} {'element': 'ICI-176334'}\n {'element': 'ICI176,334-1'} {'element': 'NSC-759816'}]"
+      },
+      "薬剤タイプ": "Small molecule",
+      "作用機序": "Androgen Receptor antagonist",
+      "ターゲット名": "Androgen Receptor"
+    },
+    {
+      "医薬品ID": "CHEMBL409",
+      "標的ID": "ENSG00000169083",
+      "疾患ID": "EFO_0000305",
+      "フェーズ": 2.0,
+      "ステータス": "Active, not recruiting",
+      "URL一覧": {
+        "list": "[{'element': {'niceName': 'ClinicalTrials', 'url': 'https://clinicaltrials.gov/study/NCT03650894'}}]"
+      },
+      "上位項目": {
+        "list": "[{'element': 'OTAR_0000017'} {'element': 'MONDO_0021350'}\n {'element': 'MONDO_0000653'} {'element': 'MONDO_0023370'}\n {'element': 'MONDO_0007254'} {'element': 'MONDO_0045024'}\n {'element': 'MONDO_0004992'} {'element': 'EFO_0009483'}\n {'element': 'MONDO_0003274'} {'element': 'EFO_0003869'}\n {'element': 'EFO_0000313'} {'element': 'EFO_0010285'}\n {'element': 'EFO_0006858'} {'element': 'EFO_0000616'}]"
+      },
+      "ラベル": "breast carcinoma",
+      "承認済みシンボル": "AR",
+      "承認済み名称": "androgen receptor",
+      "ターゲットクラス": {
+        "list": "[{'element': 'Transcription factor'} {'element': 'Unclassified protein'}]"
+      },
+      "優先名称": "BICALUTAMIDE",
+      "商品名": {
+        "list": "[{'element': 'Bicalutamide'} {'element': 'Calutide'}\n {'element': 'Casodex'} {'element': 'Cosudex'} {'element': 'Kalumid'}]"
+      },
+      "同義語": {
+        "list": "[{'element': 'Bicalutamide'} {'element': 'Casodex'}\n {'element': 'ICI 176,334'} {'element': 'ICI-176334'}\n {'element': 'ICI176,334-1'} {'element': 'NSC-759816'}]"
+      },
+      "薬剤タイプ": "Small molecule",
+      "作用機序": "Androgen Receptor antagonist",
+      "ターゲット名": "Androgen Receptor"
+    },
+    {
+      "医薬品ID": "CHEMBL409",
+      "標的ID": "ENSG00000169083",
+      "疾患ID": "MONDO_0007254",
+      "フェーズ": 2.0,
+      "ステータス": "Unknown status",
+      "URL一覧": {
+        "list": "[{'element': {'niceName': 'ClinicalTrials', 'url': 'https://clinicaltrials.gov/study/NCT02910050'}}]"
+      },
+      "上位項目": {
+        "list": "[{'element': 'EFO_0003869'} {'element': 'OTAR_0000017'}\n {'element': 'MONDO_0021350'} {'element': 'MONDO_0000653'}\n {'element': 'MONDO_0023370'} {'element': 'MONDO_0045024'}\n {'element': 'MONDO_0004992'} {'element': 'EFO_0010285'}\n {'element': 'EFO_0009483'} {'element': 'MONDO_0003274'}\n {'element': 'EFO_0000616'}]"
+      },
+      "ラベル": "breast cancer",
+      "承認済みシンボル": "AR",
+      "承認済み名称": "androgen receptor",
+      "ターゲットクラス": {
+        "list": "[{'element': 'Transcription factor'} {'element': 'Unclassified protein'}]"
+      },
+      "優先名称": "BICALUTAMIDE",
+      "商品名": {
+        "list": "[{'element': 'Bicalutamide'} {'element': 'Calutide'}\n {'element': 'Casodex'} {'element': 'Cosudex'} {'element': 'Kalumid'}]"
+      },
+      "同義語": {
+        "list": "[{'element': 'Bicalutamide'} {'element': 'Casodex'}\n {'element': 'ICI 176,334'} {'element': 'ICI-176334'}\n {'element': 'ICI176,334-1'} {'element': 'NSC-759816'}]"
+      },
+      "薬剤タイプ": "Small molecule",
+      "作用機序": "Androgen Receptor antagonist",
+      "ターゲット名": "Androgen Receptor"
+    }
+  ]
+}
