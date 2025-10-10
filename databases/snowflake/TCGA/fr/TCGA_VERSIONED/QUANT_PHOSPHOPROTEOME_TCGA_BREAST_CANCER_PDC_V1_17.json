@@ -1,0 +1,89 @@
+{
+  "table_name": "QUANT_PHOSPHOPROTEOME_TCGA_BREAST_CANCER_PDC_V1_17",
+  "table_fullname": "TCGA.TCGA_VERSIONED.QUANT_PHOSPHOPROTEOME_TCGA_BREAST_CANCER_PDC_V1_17",
+  "column_names": [
+    "nom_etude",
+    "id_echantillon",
+    "abundance_proteique_log2ratio",
+    "id_soumission_echantillon",
+    "id_echantillon",
+    "id_refseq",
+    "id_cas",
+    "sites_phosphorylation",
+    "id_metadonnees_execution_echantillon"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Nom de l'étude (par exemple, Étude pilote sur le cancer du cerveau pédiatrique - Phosphoprotéome)",
+    "Identifiant PDC unique pour cet échantillon (par exemple, e8d83eb9-693a-11ea-b1fd-0aad30af8a83)",
+    "Rapport log-moyen de l'ion rapporteur de l'échantillon par rapport à la référence commune des ions de peptide associés au gène dans les acquisitions d'un échantillon biologique spécifique",
+    "ID de soumission d'aliquote attribué par le programme (par exemple, T14)",
+    "Identifiant PDC unique pour cette aliquote (par exemple, e8db124a-693a-11ea-b1fd-0aad30af8a83)",
+    "Identifiant unique donné à une séquence dans la base de données NCBI RefSeq",
+    "Identifiant unique associé à un patient spécifique (par exemple, 24cb0fcb-63d6-11e8-bcf1-0a2705229b82)",
+    "Codes à lettre unique et positions de séquence de protéine des acides aminés phosphorylés (par exemple, t304s310, t59)",
+    "Identifie de manière unique l'aliquote en fonction de son utilisation dans l'expérience (en fonction du réactif d'étiquetage et/ou de la répétition biologique)"
+  ],
+  "sample_rows": [
+    {
+      "id_cas": "010df72d-63d9-11e8-bcf1-0a2705229b82",
+      "id_echantillon": "410a1984-6429-11e8-bcf1-0a2705229b82",
+      "id_soumission_echantillon": "TCGA-E2-A10A-01A-12-A21V-30",
+      "id_metadonnees_execution_echantillon": "27c280fc-5730-11e8-b664-00a098d917f8",
+      "nom_etude": "TCGA Breast Cancer Phosphoproteome",
+      "abundance_proteique_log2ratio": "-4.7876",
+      "id_refseq": "NP_001269554.1",
+      "sites_phosphorylation": "s392"
+    },
+    {
+      "id_cas": "010df72d-63d9-11e8-bcf1-0a2705229b82",
+      "id_echantillon": "410a1984-6429-11e8-bcf1-0a2705229b82",
+      "id_soumission_echantillon": "TCGA-E2-A10A-01A-12-A21V-30",
+      "id_metadonnees_execution_echantillon": "27c280fc-5730-11e8-b664-00a098d917f8",
+      "nom_etude": "TCGA Breast Cancer Phosphoproteome",
+      "abundance_proteique_log2ratio": "-0.1509",
+      "id_refseq": "NP_001311404.1",
+      "sites_phosphorylation": "s536"
+    },
+    {
+      "id_cas": "010df72d-63d9-11e8-bcf1-0a2705229b82",
+      "id_echantillon": "410a1984-6429-11e8-bcf1-0a2705229b82",
+      "id_soumission_echantillon": "TCGA-E2-A10A-01A-12-A21V-30",
+      "id_metadonnees_execution_echantillon": "27c280fc-5730-11e8-b664-00a098d917f8",
+      "nom_etude": "TCGA Breast Cancer Phosphoproteome",
+      "abundance_proteique_log2ratio": "-2.3882",
+      "id_refseq": "NP_001138436.1",
+      "sites_phosphorylation": "s354s358y364"
+    },
+    {
+      "id_cas": "010df72d-63d9-11e8-bcf1-0a2705229b82",
+      "id_echantillon": "410a1984-6429-11e8-bcf1-0a2705229b82",
+      "id_soumission_echantillon": "TCGA-E2-A10A-01A-12-A21V-30",
+      "id_metadonnees_execution_echantillon": "27c280fc-5730-11e8-b664-00a098d917f8",
+      "nom_etude": "TCGA Breast Cancer Phosphoproteome",
+      "abundance_proteique_log2ratio": "-1.3213",
+      "id_refseq": "NP_056307.2",
+      "sites_phosphorylation": "s455"
+    },
+    {
+      "id_cas": "010df72d-63d9-11e8-bcf1-0a2705229b82",
+      "id_echantillon": "410a1984-6429-11e8-bcf1-0a2705229b82",
+      "id_soumission_echantillon": "TCGA-E2-A10A-01A-12-A21V-30",
+      "id_metadonnees_execution_echantillon": "27c280fc-5730-11e8-b664-00a098d917f8",
+      "nom_etude": "TCGA Breast Cancer Phosphoproteome",
+      "abundance_proteique_log2ratio": "-0.7386",
+      "id_refseq": "NP_004765.2",
+      "sites_phosphorylation": "s1481s1482"
+    }
+  ]
+}
