@@ -1,0 +1,142 @@
+{
+  "table_name": "hpo",
+  "table_fullname": "open-targets-prod.platform.hpo",
+  "column_names": [
+    "dbXRefs",
+    "説明",
+    "識別子",
+    "名前",
+    "名前空間",
+    "obsolete_terms",
+    "親"
+  ],
+  "column_types": [
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>"
+  ],
+  "nested_column_names": [
+    "dbXRefs",
+    "dbXRefs.一覧",
+    "dbXRefs.一覧.項目",
+    "説明",
+    "ID",
+    "名前",
+    "名前空間",
+    "名前空間.一覧",
+    "名前空間.一覧.項目",
+    "obsolete_terms",
+    "obsolete_terms.一覧",
+    "obsolete_terms.一覧.項目",
+    "親",
+    "親.一覧",
+    "親.一覧.項目"
+  ],
+  "nested_column_types": [
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+    "ARRAY<STRUCT<element STRING>>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+    "ARRAY<STRUCT<element STRING>>",
+    "STRING",
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+    "ARRAY<STRUCT<element STRING>>",
+    "STRING",
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+    "ARRAY<STRUCT<element STRING>>",
+    "STRING"
+  ],
+  "description": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "sample_rows": [
+    {
+      "dbXRefs": null,
+      "説明": null,
+      "ID": "CL_1001567",
+      "名前": "lung endothelial cell",
+      "名前空間": {
+        "list": "[{'element': 'cl'}]"
+      },
+      "obsolete_terms": null,
+      "親": {
+        "list": "[{'element': 'b43134'} {'element': 'CL_0000082'} {'element': 'CL_0002139'}]"
+      }
+    },
+    {
+      "dbXRefs": {
+        "list": "[{'element': 'BTO:0001141'}]"
+      },
+      "説明": null,
+      "ID": "CL_1001568",
+      "名前": "pulmonary artery endothelial cell",
+      "名前空間": {
+        "list": "[{'element': 'cl'}]"
+      },
+      "obsolete_terms": null,
+      "親": {
+        "list": "[{'element': 'b44524'} {'element': 'CL_1000413'}]"
+      }
+    },
+    {
+      "dbXRefs": null,
+      "説明": "The various hormone- or neurotransmitter-secreting cells present throughout the mucosa of the intestinal tract.",
+      "ID": "CL_1001516",
+      "名前": "intestinal enteroendocrine cell",
+      "名前空間": {
+        "list": "[{'element': 'cl'}]"
+      },
+      "obsolete_terms": null,
+      "親": {
+        "list": "[{'element': 'CL_0002563'} {'element': 'CL_0000164'}]"
+      }
+    },
+    {
+      "dbXRefs": null,
+      "説明": null,
+      "ID": "BFO_0000019",
+      "名前": "quality",
+      "名前空間": {
+        "list": "[{'element': 'bfo'}]"
+      },
+      "obsolete_terms": null,
+      "親": {
+        "list": "[{'element': 'b24511'} {'element': 'BFO_0000020'}]"
+      }
+    },
+    {
+      "dbXRefs": null,
+      "説明": "An independent continuant that is spatially extended whose identity is independent of that of other entities and can be maintained through time.",
+      "ID": "BFO_0000040",
+      "名前": "material entity",
+      "名前空間": {
+        "list": "[{'element': 'bfo'}]"
+      },
+      "obsolete_terms": null,
+      "親": {
+        "list": "[{'element': 'BFO_0000004'}]"
+      }
+    }
+  ]
+}
