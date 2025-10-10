@@ -1,0 +1,106 @@
+{
+  "table_name": "dar_intersectional_hiring",
+  "table_fullname": "bigquery-public-data.google_dei.dar_intersectional_hiring",
+  "column_names": [
+    "effectif",
+    "annee_rapport",
+    "sexe_us",
+    "race_asiatique",
+    "race_noire",
+    "race_hispanique_latinx",
+    "race_americaine_autochtone",
+    "race_blanche"
+  ],
+  "column_types": [
+    "STRING",
+    "INT64",
+    "STRING",
+    "FLOAT64",
+    "FLOAT64",
+    "FLOAT64",
+    "FLOAT64",
+    "FLOAT64"
+  ],
+  "nested_column_names": [
+    "effectif",
+    "annee_rapport",
+    "sexe_us",
+    "race_asiatique",
+    "race_noire",
+    "race_hispanique_latinx",
+    "race_autochtone_americaine",
+    "race_blanche"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "INT64",
+    "STRING",
+    "FLOAT64",
+    "FLOAT64",
+    "FLOAT64",
+    "FLOAT64",
+    "FLOAT64"
+  ],
+  "description": [
+    "Globale et sous-catégories",
+    "L'année de publication du rapport",
+    "Le genre des Googlers aux États-Unis",
+    "Le pourcentage de Googlers embauchés aux États-Unis qui s'identifient comme Asiatiques et zéro ou plusieurs autres races",
+    "Le pourcentage de Googlers embauchés aux États-Unis qui s'identifient comme Noirs et zéro ou plusieurs autres races",
+    "Le pourcentage de Googlers embauchés aux États-Unis qui s'identifient comme Hispaniques ou Latinx et zéro ou plusieurs autres races",
+    "Le pourcentage de Googlers embauchés aux États-Unis qui s'identifient comme Amérindiens et zéro ou plusieurs autres races",
+    "Le pourcentage de Googlers embauchés aux États-Unis qui s'identifient comme Blancs et zéro ou plusieurs autres races"
+  ],
+  "sample_rows": [
+    {
+      "effectif": "leadership",
+      "annee_rapport": 2021,
+      "sexe_us": "men",
+      "race_asiatique": 0.168,
+      "race_noire": 0.045,
+      "race_hispanique_latinx": 0.045,
+      "race_autochtone_americaine": null,
+      "race_blanche": 0.45
+    },
+    {
+      "effectif": "leadership",
+      "annee_rapport": 2024,
+      "sexe_us": "men",
+      "race_asiatique": 0.208,
+      "race_noire": null,
+      "race_hispanique_latinx": null,
+      "race_autochtone_americaine": null,
+      "race_blanche": 0.377
+    },
+    {
+      "effectif": "leadership",
+      "annee_rapport": 2024,
+      "sexe_us": "women",
+      "race_asiatique": 0.156,
+      "race_noire": null,
+      "race_hispanique_latinx": null,
+      "race_autochtone_americaine": null,
+      "race_blanche": 0.175
+    },
+    {
+      "effectif": "leadership",
+      "annee_rapport": 2023,
+      "sexe_us": "men",
+      "race_asiatique": 0.222,
+      "race_noire": 0.043,
+      "race_hispanique_latinx": 0.043,
+      "race_autochtone_americaine": null,
+      "race_blanche": 0.363
+    },
+    {
+      "effectif": "leadership",
+      "annee_rapport": 2022,
+      "sexe_us": "women",
+      "race_asiatique": 0.119,
+      "race_noire": 0.047,
+      "race_hispanique_latinx": null,
+      "race_autochtone_americaine": null,
+      "race_blanche": 0.178
+    }
+  ]
+}
