@@ -1,0 +1,56 @@
+{
+  "table_name": "molecule_hierarchy_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.molecule_hierarchy_30",
+  "column_names": [
+    "molregno",
+    "parent_molregno",
+    "active_molregno"
+  ],
+  "column_types": [
+    "INT64",
+    "INT64",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "molregno",
+    "parent_molregno",
+    "active_molregno"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "INT64",
+    "INT64"
+  ],
+  "description": [
+    "compoundsテーブルへの外部キー。このフィールドには関連データ（例: 活性情報、承認薬）を持つすべてのChEMBL化合物の一覧が格納されます。塩を除去することでのみ生成され、かつそれ自体に関連データを持たない親化合物はここに表示されません。",
+    "最初のフィールドにあるmolregnoの親化合物を表します（つまり塩を除去して生成されたもの）。molregnoとparent_molregnoが同じ場合、元のChEMBL化合物は塩成分を含まないか、あるいは無機混合物などのさまざまな理由でこれ以上処理できなかったことを意味します。塩の除去だけで生成される化合物はこのフィールドにのみ表示されます。自ら関連データ（例: 活性データ）を持つ化合物や上市薬はmolregnoフィールドにも表示されます。",
+    "化合物がプロドラッグである場合、これはparent_molregnoで示される 'dosed' 化合物の活性代謝物を表します。parent_molregnoとactive_molregnoが同じ場合、その化合物は現在プロドラッグであるとは知られていません。"
+  ],
+  "sample_rows": [
+    {
+      "molregno": 2,
+      "parent_molregno": 2,
+      "active_molregno": 2
+    },
+    {
+      "molregno": 3,
+      "parent_molregno": 3,
+      "active_molregno": 3
+    },
+    {
+      "molregno": 4,
+      "parent_molregno": 4,
+      "active_molregno": 4
+    },
+    {
+      "molregno": 5,
+      "parent_molregno": 5,
+      "active_molregno": 5
+    },
+    {
+      "molregno": 6,
+      "parent_molregno": 6,
+      "active_molregno": 6
+    }
+  ]
+}
