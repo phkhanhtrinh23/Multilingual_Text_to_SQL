@@ -1,0 +1,66 @@
+{
+  "table_name": "structural_alerts_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.structural_alerts_30",
+  "column_names": [
+    "アラートID",
+    "アラートセットID",
+    "アラート名",
+    "知能"
+  ],
+  "column_types": [
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "アラートID",
+    "アラートセットID",
+    "アラート名",
+    "知能"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "主キー。構造アラートの一意の識別子",
+    "この特定のアラートがどのセットに属するかを示す structural_alert_sets テーブルへの外部キー",
+    "構造アラートの名前",
+    "アラートと見なされる構造的特徴を定義する SMARTS"
+  ],
+  "sample_rows": [
+    {
+      "アラートID": 2,
+      "アラートセットID": 1,
+      "アラート名": "R2 Acid halides",
+      "知能": "[S,C](=[O,S])[F,Br,Cl,I]"
+    },
+    {
+      "アラートID": 3,
+      "アラートセットID": 1,
+      "アラート名": "R3 Carbazides",
+      "知能": "O=CN=[N+]=[N-]"
+    },
+    {
+      "アラートID": 4,
+      "アラートセットID": 1,
+      "アラート名": "R4 Sulphate esters",
+      "知能": "COS(=O)O[C,c]"
+    },
+    {
+      "アラートID": 5,
+      "アラートセットID": 1,
+      "アラート名": "R5 Sulphonates",
+      "知能": "COS(=O)(=O)[C,c]"
+    },
+    {
+      "アラートID": 6,
+      "アラートセットID": 1,
+      "アラート名": "R6 Acid anhydrides",
+      "知能": "C(=O)OC(=O)"
+    }
+  ]
+}
