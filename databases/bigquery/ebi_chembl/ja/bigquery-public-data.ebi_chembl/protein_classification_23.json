@@ -1,0 +1,96 @@
+{
+  "table_name": "protein_classification_23",
+  "table_fullname": "bigquery-public-data.ebi_chembl.protein_classification_23",
+  "column_names": [
+    "タンパク質_分類_ID",
+    "親_ID",
+    "推奨_名称",
+    "略称_名称",
+    "タンパク質_分類_説明",
+    "定義",
+    "分類_レベル"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "タンパク質_クラス_ID",
+    "親_ID",
+    "推奨_名称",
+    "略称_名称",
+    "タンパク質_クラス_説明",
+    "定義",
+    "クラス_レベル"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "sample_rows": [
+    {
+      "タンパク質_クラス_ID": "0",
+      "親_ID": null,
+      "推奨_名称": "Protein class",
+      "略称_名称": "Protein class",
+      "タンパク質_クラス_説明": "protein class",
+      "定義": "Root of the ChEMBL protein family classification",
+      "クラス_レベル": "0"
+    },
+    {
+      "タンパク質_クラス_ID": "2",
+      "親_ID": "0",
+      "推奨_名称": "Adhesion",
+      "略称_名称": "Adhesion",
+      "タンパク質_クラス_説明": "adhesion",
+      "定義": "Surface ligands, usually glycoproteins, that mediate cell-to-cell adhesion. Their functions include the assembly and interconnection of various vertebrate systems, as well as maintenance of tissue integration, wound healing, morphogenic movements, cellular migrations, and metastasis. [MESH:D015815]",
+      "クラス_レベル": "1"
+    },
+    {
+      "タンパク質_クラス_ID": "836",
+      "親_ID": "0",
+      "推奨_名称": "Epigenetic regulator",
+      "略称_名称": "Epigenetic",
+      "タンパク質_クラス_説明": "epigenetic regulator",
+      "定義": "A class of proteins that alter gene expression through methylation of DNA or post-translational modification (e.g., methylation/acetylation) of histones",
+      "クラス_レベル": "1"
+    },
+    {
+      "タンパク質_クラス_ID": "11",
+      "親_ID": "0",
+      "推奨_名称": "Membrane receptor",
+      "略称_名称": "Membrane receptor",
+      "タンパク質_クラス_説明": "membrane receptor",
+      "定義": "Cell surface proteins that bind signalling molecules external to the cell with high affinity and convert this extracellular event into one or more intracellular signals that alter the behavior of the target cell (From Alberts, Molecular Biology of the Cell, 2nd ed, pp693-5). Cell surface receptors, unlike enzymes, do not chemically alter their ligands. [MESH:D011956]",
+      "クラス_レベル": "1"
+    },
+    {
+      "タンパク質_クラス_ID": "9",
+      "親_ID": "0",
+      "推奨_名称": "Surface antigen",
+      "略称_名称": "Surface antigen",
+      "タンパク質_クラス_説明": "surface antigen",
+      "定義": "Antigens on surfaces of cells, including infectious or foreign cells or viruses. They are usually protein-containing groups on cell membranes or walls and may be isolated. [MESH:D000954]",
+      "クラス_レベル": "1"
+    }
+  ]
+}
