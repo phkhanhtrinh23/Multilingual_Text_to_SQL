@@ -1,0 +1,102 @@
+{
+  "table_name": "BIKESHARE_TRIPS",
+  "table_fullname": "AUSTIN.AUSTIN_BIKESHARE.BIKESHARE_TRIPS",
+  "column_names": [
+    "type_d_abonne",
+    "heure_de_debut",
+    "id_station_fin",
+    "type_de_velo",
+    "id_station_debut",
+    "nom_station_fin",
+    "id_trajet",
+    "nom_station_debut",
+    "id_velo",
+    "duree_minutes"
+  ],
+  "column_types": [
+    "TEXT",
+    "NUMBER",
+    "TEXT",
+    "TEXT",
+    "NUMBER",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "NUMBER"
+  ],
+  "description": [
+    "Type du souscripteur",
+    "Horodatage de début du trajet",
+    "Référence numérique pour la station de fin",
+    "Type de vélo utilisé",
+    "Référence numérique pour la station de départ",
+    "Nom de la station pour la station de fin",
+    "ID numérique du trajet à vélo",
+    "Nom de la station pour la station de départ",
+    "ID du vélo utilisé",
+    "Durée du trajet en minutes"
+  ],
+  "sample_rows": [
+    {
+      "id_trajet": "18939964",
+      "type_d_abonne": "Single Trip",
+      "id_velo": "263G",
+      "type_de_velo": "classic",
+      "heure_de_debut": 1541345975000000,
+      "id_station_debut": 2574,
+      "nom_station_debut": "Zilker Park",
+      "id_station_fin": "4051",
+      "nom_station_fin": "10th & Red River",
+      "duree_minutes": 44
+    },
+    {
+      "id_trajet": "29611056",
+      "type_d_abonne": "Pay-as-you-ride",
+      "id_velo": "19453",
+      "type_de_velo": "electric",
+      "heure_de_debut": 1683920482000000,
+      "id_station_debut": 4051,
+      "nom_station_debut": "10th/Red River",
+      "id_station_fin": "4051",
+      "nom_station_fin": "10th/Red River",
+      "duree_minutes": 64
+    },
+    {
+      "id_trajet": "29599451",
+      "type_d_abonne": "Local31",
+      "id_velo": "22196",
+      "type_de_velo": "electric",
+      "heure_de_debut": 1683826896000000,
+      "id_station_debut": 4051,
+      "nom_station_debut": "10th/Red River",
+      "id_station_fin": "4051",
+      "nom_station_fin": "10th/Red River",
+      "duree_minutes": 12
+    },
+    {
+      "id_trajet": "29541694",
+      "type_d_abonne": "Pay-as-you-ride",
+      "id_velo": "1434",
+      "type_de_velo": "classic",
+      "heure_de_debut": 1683361074000000,
+      "id_station_debut": 4051,
+      "nom_station_debut": "10th/Red River",
+      "id_station_fin": "4051",
+      "nom_station_fin": "10th/Red River",
+      "duree_minutes": 58
+    },
+    {
+      "id_trajet": "29599284",
+      "type_d_abonne": "Local31",
+      "id_velo": "22196",
+      "type_de_velo": "electric",
+      "heure_de_debut": 1683825929000000,
+      "id_station_debut": 4051,
+      "nom_station_debut": "10th/Red River",
+      "id_station_fin": "4051",
+      "nom_station_fin": "10th/Red River",
+      "duree_minutes": 16
+    }
+  ]
+}
