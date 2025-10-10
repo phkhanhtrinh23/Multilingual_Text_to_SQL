@@ -1,0 +1,126 @@
+{
+  "table_name": "KaryClone",
+  "table_fullname": "mitelman-db.prod.KaryClone",
+  "column_names": [
+    "NumRef",
+    "NumDossier",
+    "NumFacture",
+    "NumClone",
+    "ChromoMin",
+    "ChromoMax",
+    "CloneCourt",
+    "CloneLong",
+    "LongueurClone",
+    "Sole"
+  ],
+  "column_types": [
+    "INT64",
+    "STRING",
+    "INT64",
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING",
+    "INT64",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "NumRef",
+    "NumDossier",
+    "NumFacture",
+    "NumClone",
+    "ChromoMin",
+    "ChromoMax",
+    "CloneCourt",
+    "CloneLong",
+    "LongueurClone",
+    "Sole"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "STRING",
+    "INT64",
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING",
+    "INT64",
+    "STRING"
+  ],
+  "description": [
+    "numéro de référence, par exemple '14620'",
+    "numéro de dossier, généralement entre 1 et 10, mais peut également être une chaîne arbitraire, par exemple 'A11'",
+    "numéro d'enquête, entre 1 et 9",
+    "numéro de clone, entre 1 et 58",
+    "les valeurs les plus courantes sont entre '42' et '51', mais la valeur minimale est '0' et la valeur maximale est '409'",
+    "les valeurs les plus courantes sont entre '43' et '52', mais la valeur minimale est '0' et la valeur maximale est '409'",
+    "description de clone plus courte, parfois tronquée, par exemple '45,X,-Y' ou '46,Xy,t(8;21)(q22;q22)'",
+    "généralement vide, mais si la description du clone est très longue, cette chaîne sera stockée ici",
+    "longueur de la chaîne de description du clone -- généralement entre 8 et 24 caractères, mais peut aller jusqu'à 2199 caractères",
+    "indicateur T/F indiquant si cela est l'unique anomalie"
+  ],
+  "sample_rows": [
+    {
+      "NumRef": 3822,
+      "NumDossier": "1",
+      "NumFacture": 1,
+      "NumClone": 5,
+      "ChromoMin": 45,
+      "ChromoMax": 45,
+      "CloneCourt": "45,X,-X",
+      "CloneLong": null,
+      "LongueurClone": 7,
+      "Sole": "T"
+    },
+    {
+      "NumRef": 4018,
+      "NumDossier": "33",
+      "NumFacture": 1,
+      "NumClone": 6,
+      "ChromoMin": 45,
+      "ChromoMax": 45,
+      "CloneCourt": "45,X,-X",
+      "CloneLong": null,
+      "LongueurClone": 7,
+      "Sole": "T"
+    },
+    {
+      "NumRef": 8240,
+      "NumDossier": "8B",
+      "NumFacture": 1,
+      "NumClone": 7,
+      "ChromoMin": 45,
+      "ChromoMax": 45,
+      "CloneCourt": "45,X,-X",
+      "CloneLong": null,
+      "LongueurClone": 7,
+      "Sole": "T"
+    },
+    {
+      "NumRef": 11389,
+      "NumDossier": "8",
+      "NumFacture": 1,
+      "NumClone": 5,
+      "ChromoMin": 45,
+      "ChromoMax": 45,
+      "CloneCourt": "45,X,-X",
+      "CloneLong": null,
+      "LongueurClone": 7,
+      "Sole": "T"
+    },
+    {
+      "NumRef": 9341,
+      "NumDossier": "5",
+      "NumFacture": 1,
+      "NumClone": 9,
+      "ChromoMin": 45,
+      "ChromoMax": 45,
+      "CloneCourt": "45,X,-Y",
+      "CloneLong": null,
+      "LongueurClone": 7,
+      "Sole": "T"
+    }
+  ]
+}
