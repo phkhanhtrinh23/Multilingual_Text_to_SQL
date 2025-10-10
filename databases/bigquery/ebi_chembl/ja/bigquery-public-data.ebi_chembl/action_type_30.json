@@ -1,0 +1,56 @@
+{
+  "table_name": "action_type_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.action_type_30",
+  "column_names": [
+    "action_type",
+    "description",
+    "parent_type"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "action_type",
+    "説明",
+    "parent_type"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "主キー。薬剤の作用タイプ（例：アゴニスト、アンタゴニスト）。",
+    "作用タイプがどのように使用されるかの説明",
+    "作用タイプの上位分類（例：正の作用と負の作用）"
+  ],
+  "sample_rows": [
+    {
+      "action_type": "BINDING AGENT",
+      "説明": "Binds to a substance such as a cell surface antigen, targetting a drug to that location, but not necessarily affecting the functioning of the substance itself",
+      "parent_type": "OTHER"
+    },
+    {
+      "action_type": "CHELATING AGENT",
+      "説明": "Binds to a metal, reducing its availability for further interactions",
+      "parent_type": "OTHER"
+    },
+    {
+      "action_type": "CROSS-LINKING AGENT",
+      "説明": "Induces cross-linking of proteins or nucleic acids",
+      "parent_type": "OTHER"
+    },
+    {
+      "action_type": "DISRUPTING AGENT",
+      "説明": "Destabilises or disrupts a protein complex, macromolecular assembly, cell membrane etc",
+      "parent_type": "OTHER"
+    },
+    {
+      "action_type": "HYDROLYTIC ENZYME",
+      "説明": "Hydrolyses a substrate through enzymatic reaction",
+      "parent_type": "OTHER"
+    }
+  ]
+}
