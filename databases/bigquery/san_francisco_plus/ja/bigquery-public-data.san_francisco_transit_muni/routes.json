@@ -1,0 +1,66 @@
+{
+  "table_name": "routes",
+  "table_fullname": "bigquery-public-data.san_francisco_transit_muni.routes",
+  "column_names": [
+    "route_id",
+    "route_short_name",
+    "route_long_name",
+    "route_type"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "路線ID",
+    "路線略称",
+    "路線名称",
+    "路線種別"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "各路線の一意の識別子。単一の路線には複数の便があります。",
+    "路線の短い名前を含みます。これは乗客が路線を識別するために使用する 32、100X、または Green のような短く抽象的な識別子ですが、路線がどの場所を運行するかは示しません。",
+    "路線の正式名称を含みます。この名前は一般に route_short_name の名前よりも詳細で、しばしば路線の目的地や停留所を含みます。",
+    "\"路線で使用される輸送手段の種類を説明します。次の値がこのフィールドで有効です:  -  light_rail: 路面電車またはライトレール。都市圏内のライトレールまたは路面レベルのシステムに使用します。 -  subway: 地下鉄またはメトロ。都市圏内の地下鉄システムに使用します。 -  rail: 都市間または長距離の旅客輸送に使用します。 -  bus: 短距離および長距離のバス路線に使用します。 -  ferry: 短距離および長距離の船便に使用します。 -  cable_car: 車両の下をケーブルが通る路面ケーブルカーに使用します。 -  tram: ゴンドラまたは吊り下げ式ケーブルカー。通常は車両がケーブルから吊り下げられている空中ケーブルカーに使用します。 -  funicular: ケーブル牽引方式で急勾配を移動する任意の鉄道システムに使用します.\""
+  ],
+  "sample_rows": [
+    {
+      "路線ID": "83X",
+      "路線略称": "83X",
+      "路線名称": "MID-MARKET EXPRESS",
+      "路線種別": "3"
+    },
+    {
+      "路線ID": "82X",
+      "路線略称": "82X",
+      "路線名称": "LEVI PLAZA EXPRESS",
+      "路線種別": "3"
+    },
+    {
+      "路線ID": "E",
+      "路線略称": "E",
+      "路線名称": "EMBARCADERO",
+      "路線種別": "0"
+    },
+    {
+      "路線ID": "KT",
+      "路線略称": "KT",
+      "路線名称": "INGLESIDE-THIRD",
+      "路線種別": "0"
+    },
+    {
+      "路線ID": "3",
+      "路線略称": "3",
+      "路線名称": "JACKSON",
+      "路線種別": "3"
+    }
+  ]
+}
