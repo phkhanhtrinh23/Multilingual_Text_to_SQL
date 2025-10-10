@@ -1,0 +1,56 @@
+{
+  "table_name": "compound_structural_alerts_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.compound_structural_alerts_30",
+  "column_names": [
+    "cpd_str_alert_id",
+    "molregno",
+    "alert_id"
+  ],
+  "column_types": [
+    "INT64",
+    "INT64",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "cpd_str_alert_id",
+    "molregno",
+    "alert_id"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "INT64",
+    "INT64"
+  ],
+  "description": [
+    "主キー。",
+    "molecule_dictionary への外部キー。構造アラートが検出された化合物。",
+    "structural_alerts テーブルへの外部キー。この化合物で特定されたアラート。"
+  ],
+  "sample_rows": [
+    {
+      "cpd_str_alert_id": 53246522,
+      "molregno": 105,
+      "alert_id": 1
+    },
+    {
+      "cpd_str_alert_id": 53246523,
+      "molregno": 638,
+      "alert_id": 1
+    },
+    {
+      "cpd_str_alert_id": 53246524,
+      "molregno": 722,
+      "alert_id": 1
+    },
+    {
+      "cpd_str_alert_id": 53246525,
+      "molregno": 752,
+      "alert_id": 1
+    },
+    {
+      "cpd_str_alert_id": 53246526,
+      "molregno": 777,
+      "alert_id": 1
+    }
+  ]
+}
