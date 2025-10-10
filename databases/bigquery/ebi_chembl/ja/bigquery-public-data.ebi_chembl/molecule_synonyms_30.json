@@ -1,0 +1,76 @@
+{
+  "table_name": "molecule_synonyms_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.molecule_synonyms_30",
+  "column_names": [
+    "分子登録番号",
+    "syn_type",
+    "molsyn_id",
+    "res_stem_id",
+    "同義語"
+  ],
+  "column_types": [
+    "INT64",
+    "STRING",
+    "INT64",
+    "INT64",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "分子登録番号",
+    "同義語の種類",
+    "分子同義語ID",
+    "語幹ID",
+    "同義語"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "STRING",
+    "INT64",
+    "INT64",
+    "STRING"
+  ],
+  "description": [
+    "molecule_dictionary への外部キー",
+    "名前/同義語の種類（例: TRADE_NAME、RESEARCH_CODE、USAN）",
+    "主キー。",
+    "research_stem テーブルへの外部キー。もし同義語が研究コードである場合、この外部キーはそのコードに関連する企業に関する詳細情報へリンクします。",
+    "化合物の同義語"
+  ],
+  "sample_rows": [
+    {
+      "分子登録番号": 97,
+      "同義語の種類": "ATC",
+      "分子同義語ID": 2160798,
+      "語幹ID": null,
+      "同義語": "Prazosin"
+    },
+    {
+      "分子登録番号": 115,
+      "同義語の種類": "ATC",
+      "分子同義語ID": 2160810,
+      "語幹ID": null,
+      "同義語": "Nicotine"
+    },
+    {
+      "分子登録番号": 146,
+      "同義語の種類": "ATC",
+      "分子同義語ID": 2160846,
+      "語幹ID": null,
+      "同義語": "Ofloxacin"
+    },
+    {
+      "分子登録番号": 147,
+      "同義語の種類": "ATC",
+      "分子同義語ID": 2160865,
+      "語幹ID": null,
+      "同義語": "Nalidixic acid"
+    },
+    {
+      "分子登録番号": 173,
+      "同義語の種類": "ATC",
+      "分子同義語ID": 2160921,
+      "語幹ID": null,
+      "同義語": "Indometacin"
+    }
+  ]
+}
