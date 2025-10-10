@@ -1,0 +1,86 @@
+{
+  "table_name": "assay_classification_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.assay_classification_30",
+  "column_names": [
+    "アッセイ_クラス_id",
+    "レベル1",
+    "レベル2",
+    "レベル3",
+    "クラス_タイプ",
+    "ソース"
+  ],
+  "column_types": [
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "assay_class_id",
+    "l1",
+    "l2",
+    "l3",
+    "class_type",
+    "ソース"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "主キー",
+    "高レベルの分類（例：解剖学的／治療領域別）",
+    "中レベルの分類（例：表現型／生物学的プロセス別）",
+    "詳細な分類（例：アッセイ種別による）",
+    "分類されるアッセイのタイプ（例：in vivo 有効性）",
+    "アッセイクラスの取得元"
+  ],
+  "sample_rows": [
+    {
+      "assay_class_id": 9,
+      "l1": "ALIMENTARY TRACT AND METABOLISM",
+      "l2": "Experimental Obesity",
+      "l3": "Diet Induced Obesity",
+      "class_type": "In vivo efficacy",
+      "ソース": "Hock_2016"
+    },
+    {
+      "assay_class_id": 25,
+      "l1": "ALIMENTARY TRACT AND METABOLISM",
+      "l2": "Gastric Function",
+      "l3": "Indomethacin Induced Ulcers in Rats",
+      "class_type": "In vivo efficacy",
+      "ソース": "Hock_2016"
+    },
+    {
+      "assay_class_id": 81,
+      "l1": "ALIMENTARY TRACT AND METABOLISM",
+      "l2": "Test on Salivary Glands",
+      "l3": "Measurement of Salivation",
+      "class_type": "In vivo efficacy",
+      "ソース": "Hock_2016"
+    },
+    {
+      "assay_class_id": 88,
+      "l1": "ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS",
+      "l2": "Leukemia Oncology Models",
+      "l3": "L1210 Experimental Leukemia",
+      "class_type": "In vivo efficacy",
+      "ソース": "Hock_2016"
+    },
+    {
+      "assay_class_id": 96,
+      "l1": "ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS",
+      "l2": "Methods for Testing Immunological Factors",
+      "l3": "Adjuvant Arthritis in Rats",
+      "class_type": "In vivo efficacy",
+      "ソース": "Hock_2016"
+    }
+  ]
+}
