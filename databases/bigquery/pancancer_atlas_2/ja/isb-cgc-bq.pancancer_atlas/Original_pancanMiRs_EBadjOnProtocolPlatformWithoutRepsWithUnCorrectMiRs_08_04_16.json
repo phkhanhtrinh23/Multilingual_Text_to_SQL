@@ -1,0 +1,66 @@
+{
+  "table_name": "Original_pancanMiRs_EBadjOnProtocolPlatformWithoutRepsWithUnCorrectMiRs_08_04_16",
+  "table_fullname": "isb-cgc-bq.pancancer_atlas.Original_pancanMiRs_EBadjOnProtocolPlatformWithoutRepsWithUnCorrectMiRs_08_04_16",
+  "column_names": [
+    "識別子",
+    "修正済み",
+    "AliquotBarcode",
+    "miRNAExp"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64"
+  ],
+  "nested_column_names": [
+    "識別子",
+    "補正済み",
+    "AliquotBarcode",
+    "miRNAExp"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64"
+  ],
+  "description": [
+    "このテーブルに含まれる1870のユニークなmiRNA ids（別名シンボル）のうちの1つ、例: hsa-mir-21 -- 関連する参照情報は isb-cgc:genome_reference データセットのテーブル miRBase_v20 と miRBase_v20_hsa_gff3 にあります",
+    "EBN+ 法で miRs が修正されたかを指定する Corrected と Uncorrected の指標。詳細は https://www.synapse.org/#!Synapse:syn6171109 を参照",
+    "TCGA アリクオットバーコード、例: TCGA-12-1089-01A-01D-0517-28",
+    "正規化発現量（すなわち reads per million, RPM）"
+  ],
+  "sample_rows": [
+    {
+      "識別子": "hsa-miR-1",
+      "補正済み": "Corrected",
+      "AliquotBarcode": "TCGA-A2-A0EW-01A-21R-A114-13",
+      "miRNAExp": 5.528753
+    },
+    {
+      "識別子": "hsa-miR-1",
+      "補正済み": "Corrected",
+      "AliquotBarcode": "TCGA-E9-A1N3-01A-12R-A156-13",
+      "miRNAExp": 3.756076
+    },
+    {
+      "識別子": "hsa-miR-1",
+      "補正済み": "Corrected",
+      "AliquotBarcode": "TCGA-CV-6945-01A-11R-1914-13",
+      "miRNAExp": 242.687442
+    },
+    {
+      "識別子": "hsa-miR-1",
+      "補正済み": "Corrected",
+      "AliquotBarcode": "TCGA-CJ-5680-11A-01R-1540-13",
+      "miRNAExp": 17.337644
+    },
+    {
+      "識別子": "hsa-miR-1",
+      "補正済み": "Corrected",
+      "AliquotBarcode": "TCGA-DD-AADW-01A-11R-A39J-13",
+      "miRNAExp": 15.17737
+    }
+  ]
+}
