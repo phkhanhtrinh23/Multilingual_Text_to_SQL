@@ -1,0 +1,106 @@
+{
+  "table_name": "Filtered_jhu_usc_edu_PANCAN_HumanMethylation27_betaValue_whitelisted",
+  "table_fullname": "isb-cgc-bq.pancancer_atlas.Filtered_jhu_usc_edu_PANCAN_HumanMethylation27_betaValue_whitelisted",
+  "column_names": [
+    "参加者バーコード",
+    "検体バーコード",
+    "アリコートバーコード",
+    "検体種別文字コード",
+    "検体種別",
+    "研究",
+    "識別子",
+    "ベータ"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64"
+  ],
+  "nested_column_names": [
+    "ParticipantBarcode",
+    "SampleBarcode",
+    "AliquotBarcode",
+    "SampleTypeLetterCode",
+    "SampleType",
+    "研究",
+    "識別子",
+    "ベータ"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64"
+  ],
+  "description": [
+    "研究参加者のTCGAバーコード識別子、例: TCGA-02-0001",
+    "生体試料のバーコード、例: TCGA-13-1489-02A",
+    "TCGAアリクオットバーコード、例: TCGA-12-1089-01A-01D-0517-28",
+    "TCGAの基準に基づくサンプルタイプのレターコード、例: TPN、EBV。完全な一覧は https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/sample-type-codes で入手可能",
+    "サンプルタイプは10種類あります: Blood Derived Normal, Primary solid Tumor, Solid Tissue Normal, Recurrent Solid Tumor, Metastatic, Additional - New Primary, Primary Blood Derived Cancer - Peripheral Blood, Buccal Cell Normal, Additioanal Metastatic, Bone Marrrow Normal",
+    "TCGA研究略称、例: LAML。完全な一覧は https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/tcga-study-abbreviations で入手可能",
+    "ユニークなプローブ識別子（例: cg04676771）はIllumina Human Methylation array由来です — 特定のプローブの詳細は注釈テーブル (isb-cgc-bq.annotations.methylation_annotation_hg19_illumina_current) を参照してください",
+    "正規化されたDNAメチレーションbeta値（0〜1の範囲、0は完全に非メチル化、1は完全にメチル化を示します）"
+  ],
+  "sample_rows": [
+    {
+      "ParticipantBarcode": "TCGA-01-0628",
+      "SampleBarcode": "TCGA-01-0628-11A",
+      "AliquotBarcode": "TCGA-01-0628-11A-01D-0383-05",
+      "SampleTypeLetterCode": "NT",
+      "SampleType": "Solid Tissue Normal",
+      "研究": "OV",
+      "識別子": "cg03882305",
+      "ベータ": 0.20754
+    },
+    {
+      "ParticipantBarcode": "TCGA-01-0628",
+      "SampleBarcode": "TCGA-01-0628-11A",
+      "AliquotBarcode": "TCGA-01-0628-11A-01D-0383-05",
+      "SampleTypeLetterCode": "NT",
+      "SampleType": "Solid Tissue Normal",
+      "研究": "OV",
+      "識別子": "cg05523254",
+      "ベータ": 0.0054853
+    },
+    {
+      "ParticipantBarcode": "TCGA-01-0628",
+      "SampleBarcode": "TCGA-01-0628-11A",
+      "AliquotBarcode": "TCGA-01-0628-11A-01D-0383-05",
+      "SampleTypeLetterCode": "NT",
+      "SampleType": "Solid Tissue Normal",
+      "研究": "OV",
+      "識別子": "cg04798158",
+      "ベータ": 0.0145277
+    },
+    {
+      "ParticipantBarcode": "TCGA-01-0628",
+      "SampleBarcode": "TCGA-01-0628-11A",
+      "AliquotBarcode": "TCGA-01-0628-11A-01D-0383-05",
+      "SampleTypeLetterCode": "NT",
+      "SampleType": "Solid Tissue Normal",
+      "研究": "OV",
+      "識別子": "cg06069731",
+      "ベータ": 0.0129045
+    },
+    {
+      "ParticipantBarcode": "TCGA-01-0628",
+      "SampleBarcode": "TCGA-01-0628-11A",
+      "AliquotBarcode": "TCGA-01-0628-11A-01D-0383-05",
+      "SampleTypeLetterCode": "NT",
+      "SampleType": "Solid Tissue Normal",
+      "研究": "OV",
+      "識別子": "cg00943245",
+      "ベータ": 0.882652
+    }
+  ]
+}
