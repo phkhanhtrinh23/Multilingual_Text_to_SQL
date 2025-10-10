@@ -1,0 +1,86 @@
+{
+  "table_name": "JHU_USC_EDU_PANCAN_HUMANMETHYLATION27_BETAVALUE_WHITELISTED_FILTERED",
+  "table_fullname": "PANCANCER_ATLAS_1.PANCANCER_ATLAS_FILTERED.JHU_USC_EDU_PANCAN_HUMANMETHYLATION27_BETAVALUE_WHITELISTED_FILTERED",
+  "column_names": [
+    "CodeBarresEchantillon",
+    "CodeBarresAliquot",
+    "CodeLettreTypeEchantillon",
+    "Bêta",
+    "ID",
+    "CodeBarresParticipant",
+    "TypeEchantillon",
+    "Etude"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "FLOAT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Code à barres de l'échantillon de biospecimen, par exemple TCGA-13-1489-02A",
+    "Code à barres de l'aliquote TCGA, par exemple TCGA-12-1089-01A-01D-0517-28",
+    "Code lettre du type d'échantillon en utilisant les normes TCGA, par exemple TPN, EBV. Liste complète disponible à https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/sample-type-codes",
+    "Valeur beta de méthylation de l'ADN normalisée (entre 0 et 1, où 0 indique complètement non méthylation et 1 indique complètement méthylation)",
+    "Identifiant unique de la sonde (par exemple cg04676771) de la matrice de méthylation de l'ADN humain Illumina -- veuillez vous référer à la table d'annotation (isb-cgc:platform_reference.methylation_annotation) pour plus de détails sur une sonde particulière",
+    "Identifiant de code à barres TCGA pour le participant à l'étude, par exemple TCGA-02-0001",
+    "Il existe 10 types d'échantillons : Sang Dérivé Normal, Tumeur solide primaire, Tissu solide normal, Tumeur solide récurrente, Métastatique, Supplémentaire - Nouveau primaire, Cancer sanguin primaire dérivé du sang - Sang périphérique, Cellule buccale normale, Métastatique supplémentaire, Moelle osseuse normale",
+    "Abréviation d'étude TCGA, par exemple LAML. Liste complète disponible à https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/tcga-study-abbreviations"
+  ],
+  "sample_rows": [
+    {
+      "CodeBarresParticipant": "TCGA-01-0628",
+      "CodeBarresEchantillon": "TCGA-01-0628-11A",
+      "CodeBarresAliquot": "TCGA-01-0628-11A-01D-0383-05",
+      "CodeLettreTypeEchantillon": "NT",
+      "TypeEchantillon": "Solid Tissue Normal",
+      "Etude": "OV",
+      "ID": "cg03367667",
+      "Bêta": 0.00769804
+    },
+    {
+      "CodeBarresParticipant": "TCGA-01-0628",
+      "CodeBarresEchantillon": "TCGA-01-0628-11A",
+      "CodeBarresAliquot": "TCGA-01-0628-11A-01D-0383-05",
+      "CodeLettreTypeEchantillon": "NT",
+      "TypeEchantillon": "Solid Tissue Normal",
+      "Etude": "OV",
+      "ID": "cg01656955",
+      "Bêta": 0.045264
+    },
+    {
+      "CodeBarresParticipant": "TCGA-01-0628",
+      "CodeBarresEchantillon": "TCGA-01-0628-11A",
+      "CodeBarresAliquot": "TCGA-01-0628-11A-01D-0383-05",
+      "CodeLettreTypeEchantillon": "NT",
+      "TypeEchantillon": "Solid Tissue Normal",
+      "Etude": "OV",
+      "ID": "cg05368089",
+      "Bêta": 0.0131
+    },
+    {
+      "CodeBarresParticipant": "TCGA-01-0628",
+      "CodeBarresEchantillon": "TCGA-01-0628-11A",
+      "CodeBarresAliquot": "TCGA-01-0628-11A-01D-0383-05",
+      "CodeLettreTypeEchantillon": "NT",
+      "TypeEchantillon": "Solid Tissue Normal",
+      "Etude": "OV",
+      "ID": "cg01852131",
+      "Bêta": 0.00786461
+    },
+    {
+      "CodeBarresParticipant": "TCGA-01-0628",
+      "CodeBarresEchantillon": "TCGA-01-0628-11A",
+      "CodeBarresAliquot": "TCGA-01-0628-11A-01D-0383-05",
+      "CodeLettreTypeEchantillon": "NT",
+      "TypeEchantillon": "Solid Tissue Normal",
+      "Etude": "OV",
+      "ID": "cg03804568",
+      "Bêta": 0.0101117
+    }
+  ]
+}
