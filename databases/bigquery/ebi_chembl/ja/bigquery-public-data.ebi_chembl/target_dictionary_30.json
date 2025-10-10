@@ -1,0 +1,96 @@
+{
+  "table_name": "target_dictionary_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.target_dictionary_30",
+  "column_names": [
+    "tid",
+    "target_type",
+    "pref_name",
+    "tax_id",
+    "organism",
+    "chembl_id",
+    "species_group_flag"
+  ],
+  "column_types": [
+    "INT64",
+    "STRING",
+    "STRING",
+    "INT64",
+    "STRING",
+    "STRING",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "ターゲットID",
+    "target_type",
+    "pref_name",
+    "tax_id",
+    "生物種",
+    "chembl_id",
+    "species_group_flag"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "STRING",
+    "STRING",
+    "INT64",
+    "STRING",
+    "STRING",
+    "INT64"
+  ],
+  "description": [
+    "ターゲットの一意のID",
+    "ターゲットがタンパク質、生物、組織などのどれであるかを記述します。TARGET_TYPEテーブルへの外部キー。",
+    "優先ターゲット名：手動でキュレーションされた",
+    "ターゲットのNCBI分類ID",
+    "分子ターゲットや組織の由来生物、または化合物活性がタンパク質や組織ではなく生物体で報告されている場合の対象生物",
+    "このターゲットのChEMBL識別子（ウェブインターフェース等で使用）",
+    "ターゲットが個別の種ではなく種のグループを表すかどうかを示すフラグ（例：'Bacterial DHFR'）。このフラグが`1`に設定されている場合、関連するターゲット構成要素は網羅的なセットではなく代表的なものになることを示します。"
+  ],
+  "sample_rows": [
+    {
+      "ターゲットID": 22224,
+      "target_type": "ADMET",
+      "pref_name": "ADMET",
+      "tax_id": null,
+      "生物種": null,
+      "chembl_id": "CHEMBL612558",
+      "species_group_flag": 0
+    },
+    {
+      "ターゲットID": 109711,
+      "target_type": "LIPID",
+      "pref_name": "Cholesterol ester",
+      "tax_id": null,
+      "生物種": null,
+      "chembl_id": "CHEMBL3559388",
+      "species_group_flag": 0
+    },
+    {
+      "ターゲットID": 109712,
+      "target_type": "LIPID",
+      "pref_name": "Triglyceride",
+      "tax_id": null,
+      "生物種": null,
+      "chembl_id": "CHEMBL3559389",
+      "species_group_flag": 0
+    },
+    {
+      "ターゲットID": 120037,
+      "target_type": "LIPID",
+      "pref_name": "Lipid bilayer",
+      "tax_id": null,
+      "生物種": null,
+      "chembl_id": "CHEMBL4651323",
+      "species_group_flag": 0
+    },
+    {
+      "ターゲットID": 109803,
+      "target_type": "LIPID",
+      "pref_name": "Ganglioside GD3",
+      "tax_id": 9606,
+      "生物種": "Homo sapiens",
+      "chembl_id": "CHEMBL3580507",
+      "species_group_flag": 0
+    }
+  ]
+}
