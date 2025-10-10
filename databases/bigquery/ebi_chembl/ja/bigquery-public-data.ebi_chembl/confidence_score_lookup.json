@@ -1,0 +1,56 @@
+{
+  "table_name": "confidence_score_lookup",
+  "table_fullname": "bigquery-public-data.ebi_chembl.confidence_score_lookup",
+  "column_names": [
+    "信頼度",
+    "説明",
+    "対象対応付け"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "信頼度",
+    "説明",
+    "ターゲットマッピング"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    null,
+    null,
+    null
+  ],
+  "sample_rows": [
+    {
+      "信頼度": "0",
+      "説明": "Default value - Target unknown or has yet to be assigned",
+      "ターゲットマッピング": "Unassigned"
+    },
+    {
+      "信頼度": "1",
+      "説明": "Target assigned is non-molecular",
+      "ターゲットマッピング": "Non-molecular"
+    },
+    {
+      "信頼度": "2",
+      "説明": "Target assigned is subcellular fraction",
+      "ターゲットマッピング": "Subcellular fraction"
+    },
+    {
+      "信頼度": "3",
+      "説明": "Target assigned is molecular non-protein target",
+      "ターゲットマッピング": "Molecular (non-protein)"
+    },
+    {
+      "信頼度": "4",
+      "説明": "Multiple homologous protein targets may be assigned",
+      "ターゲットマッピング": "Multiple homologous proteins"
+    }
+  ]
+}
