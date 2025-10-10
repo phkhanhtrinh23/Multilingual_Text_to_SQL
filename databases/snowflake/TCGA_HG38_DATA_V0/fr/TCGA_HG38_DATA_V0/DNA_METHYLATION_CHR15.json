@@ -1,0 +1,102 @@
+{
+  "table_name": "DNA_METHYLATION_CHR15",
+  "table_fullname": "TCGA_HG38_DATA_V0.TCGA_HG38_DATA_V0.DNA_METHYLATION_CHR15",
+  "column_names": [
+    "plateforme",
+    "sample_gdc_id",
+    "probe_id",
+    "code_barre_echantillon",
+    "file_gdc_id",
+    "aliquot_gdc_id",
+    "code_barre_aliquot",
+    "case_gdc_id",
+    "valeur_beta",
+    "code_barre_cas"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "FLOAT",
+    "TEXT"
+  ],
+  "description": [
+    "Nom de la plate-forme utilisée pour générer ces données -- soit HumanMethylation450 ou HumanMethylation27",
+    "",
+    "Identifiant de sonde unique (par exemple `cg04676771`) de la matrice de méthylation de l'ADN humaine d'Illumina -- veuillez vous référer à la table d'annotation (`isb-cgc:platform_reference.methylation_annotation`) pour plus de détails sur une sonde particulière",
+    "Code à barres d'échantillon TCGA original, par exemple `TCGA-12-1089-01A`  --  notez qu'un échantillon peut avoir plusieurs aliquotes et donc plusieurs ensembles de segmentations CN ; assurez-vous donc d'utiliser `GROUP BY` de manière appropriée dans vos requêtes",
+    "",
+    "",
+    "Code à barres d'aliquote TCGA original, par exemple `TCGA-12-1089-01A-01D-0517-01`",
+    "",
+    "Valeur bêta de méthylation de l'ADN normalisée (entre 0 et 1, où 0 indique complètement non méthylation et 1 indique complètement méthylation)",
+    "Code à barres de cas TCGA original, par exemple `TCGA-12-1089`  --  notez que chaque cas contient généralement un échantillon de tumeur primitive et un échantillon apparié normal (sang ou tissu adjacent) ; veuillez vous référer à la table des biospécimens TCGA pour plus de détails"
+  ],
+  "sample_rows": [
+    {
+      "code_barre_cas": "TCGA-12-1601",
+      "code_barre_echantillon": "TCGA-12-1601-01A",
+      "code_barre_aliquot": "TCGA-12-1601-01A-01D-0595-05",
+      "probe_id": "cg08057475",
+      "valeur_beta": 0.947523169801489,
+      "plateforme": null,
+      "file_gdc_id": "5cd6f2f6-7278-4757-be8e-a8ae3a7a81d3",
+      "case_gdc_id": "cc1459be-de8f-482e-9efe-65937db9dc45",
+      "sample_gdc_id": "b02fd704-03a6-44c4-b224-f5f457e733f3",
+      "aliquot_gdc_id": "aa761ca4-e8f0-4a43-8262-bd84eedb459a"
+    },
+    {
+      "code_barre_cas": "TCGA-12-1601",
+      "code_barre_echantillon": "TCGA-12-1601-01A",
+      "code_barre_aliquot": "TCGA-12-1601-01A-01D-0595-05",
+      "probe_id": "cg11823654",
+      "valeur_beta": 0.0102136526432354,
+      "plateforme": null,
+      "file_gdc_id": "5cd6f2f6-7278-4757-be8e-a8ae3a7a81d3",
+      "case_gdc_id": "cc1459be-de8f-482e-9efe-65937db9dc45",
+      "sample_gdc_id": "b02fd704-03a6-44c4-b224-f5f457e733f3",
+      "aliquot_gdc_id": "aa761ca4-e8f0-4a43-8262-bd84eedb459a"
+    },
+    {
+      "code_barre_cas": "TCGA-12-1601",
+      "code_barre_echantillon": "TCGA-12-1601-01A",
+      "code_barre_aliquot": "TCGA-12-1601-01A-01D-0595-05",
+      "probe_id": "cg03532957",
+      "valeur_beta": 0.0162621577837732,
+      "plateforme": null,
+      "file_gdc_id": "5cd6f2f6-7278-4757-be8e-a8ae3a7a81d3",
+      "case_gdc_id": "cc1459be-de8f-482e-9efe-65937db9dc45",
+      "sample_gdc_id": "b02fd704-03a6-44c4-b224-f5f457e733f3",
+      "aliquot_gdc_id": "aa761ca4-e8f0-4a43-8262-bd84eedb459a"
+    },
+    {
+      "code_barre_cas": "TCGA-12-1601",
+      "code_barre_echantillon": "TCGA-12-1601-01A",
+      "code_barre_aliquot": "TCGA-12-1601-01A-01D-0595-05",
+      "probe_id": "cg07243932",
+      "valeur_beta": 0.00764419500454648,
+      "plateforme": null,
+      "file_gdc_id": "5cd6f2f6-7278-4757-be8e-a8ae3a7a81d3",
+      "case_gdc_id": "cc1459be-de8f-482e-9efe-65937db9dc45",
+      "sample_gdc_id": "b02fd704-03a6-44c4-b224-f5f457e733f3",
+      "aliquot_gdc_id": "aa761ca4-e8f0-4a43-8262-bd84eedb459a"
+    },
+    {
+      "code_barre_cas": "TCGA-12-1601",
+      "code_barre_echantillon": "TCGA-12-1601-01A",
+      "code_barre_aliquot": "TCGA-12-1601-01A-01D-0595-05",
+      "probe_id": "cg08022502",
+      "valeur_beta": 0.0552436820554729,
+      "plateforme": null,
+      "file_gdc_id": "5cd6f2f6-7278-4757-be8e-a8ae3a7a81d3",
+      "case_gdc_id": "cc1459be-de8f-482e-9efe-65937db9dc45",
+      "sample_gdc_id": "b02fd704-03a6-44c4-b224-f5f457e733f3",
+      "aliquot_gdc_id": "aa761ca4-e8f0-4a43-8262-bd84eedb459a"
+    }
+  ]
+}
