@@ -1,0 +1,86 @@
+{
+  "table_name": "TRIPS",
+  "table_fullname": "SAN_FRANCISCO_PLUS.SAN_FRANCISCO_TRANSIT_MUNI.TRIPS",
+  "column_names": [
+    "enseigne_de_trajet",
+    "id_de_trajet",
+    "id_de_bloc",
+    "id_de_route",
+    "id_de_forme",
+    "forme_de_trajet",
+    "categorie_de_service",
+    "direction"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "BINARY",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Contient le texte qui apparaît sur les panneaux de signalisation qui identifient la destination du trajet aux passagers. Utilisez ce champ pour distinguer entre différents modèles de service sur la même route.",
+    "Identifiant unique pour chaque trajet",
+    "Identifie le bloc auquel appartient le trajet. Un bloc consiste en un seul trajet ou en plusieurs trajets séquentiels effectués avec le même véhicule. Les trajets sont regroupés en un bloc en utilisant un jour de service partagé et un `block_id`. Un `block_id` peut inclure des trajets avec différents jours de service, ce qui crée alors des blocs distincts. Pour plus de détails, voir : https://developers.google.com/transit/gtfs/reference/#example-showing-blocks-and-service-day",
+    "Identifiant unique pour chaque ligne. Une seule ligne aura plusieurs trajets",
+    "Identifiant unique pour la forme géospatiale qui décrit le trajet du véhicule pour un trajet le long de points individuels. Utilisez pour JOIN avec les formes disponibles dans la table `shapes`",
+    "Représentation géographique de l'ensemble du trajet.",
+    "Indique le type de service pour ce trajet",
+    "\"Indique la direction de déplacement pour un trajet. Les valeurs suivantes sont valides :   -  O : déplacement en sortie -  I : déplacement en entrée  Ce champ n'est pas utilisé dans le routage, mais fournit plutôt un moyen de séparer les trajets par direction\""
+  ],
+  "sample_rows": [
+    {
+      "id_de_trajet": "8999873",
+      "id_de_route": "83X",
+      "direction": "O",
+      "id_de_bloc": "8302",
+      "categorie_de_service": null,
+      "enseigne_de_trajet": "Caltrain Depot",
+      "id_de_forme": "174188",
+      "forme_de_trajet": null
+    },
+    {
+      "id_de_trajet": "8999875",
+      "id_de_route": "83X",
+      "direction": "O",
+      "id_de_bloc": "8301",
+      "categorie_de_service": null,
+      "enseigne_de_trajet": "Caltrain Depot",
+      "id_de_forme": "174188",
+      "forme_de_trajet": null
+    },
+    {
+      "id_de_trajet": "8999872",
+      "id_de_route": "83X",
+      "direction": "O",
+      "id_de_bloc": "8302",
+      "categorie_de_service": null,
+      "enseigne_de_trajet": "Caltrain Depot",
+      "id_de_forme": "174188",
+      "forme_de_trajet": null
+    },
+    {
+      "id_de_trajet": "8999871",
+      "id_de_route": "83X",
+      "direction": "O",
+      "id_de_bloc": "8301",
+      "categorie_de_service": null,
+      "enseigne_de_trajet": "Caltrain Depot",
+      "id_de_forme": "174188",
+      "forme_de_trajet": null
+    },
+    {
+      "id_de_trajet": "8999893",
+      "id_de_route": "83X",
+      "direction": "O",
+      "id_de_bloc": "8302",
+      "categorie_de_service": null,
+      "enseigne_de_trajet": "Caltrain Depot",
+      "id_de_forme": "174188",
+      "forme_de_trajet": null
+    }
+  ]
+}
