@@ -1,0 +1,96 @@
+{
+  "table_name": "metric_names",
+  "table_fullname": "data-to-insights.ncaa.metric_names",
+  "column_names": [
+    "nom_stat",
+    "étiquette",
+    "nom_concept",
+    "off_or_def",
+    "rang_asc",
+    "rd_dec",
+    "off_def_nom_stat"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "BOOL",
+    "INT64",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "nom_stat",
+    "étiquette",
+    "nom_concept",
+    "off_or_def",
+    "rang_asc",
+    "rd_dec",
+    "off_def_nom_stat"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "BOOL",
+    "INT64",
+    "STRING"
+  ],
+  "description": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "sample_rows": [
+    {
+      "nom_stat": "tm_to_pct",
+      "étiquette": "TO%",
+      "nom_concept": "Turnovers",
+      "off_or_def": "Off",
+      "rang_asc": true,
+      "rd_dec": 1,
+      "off_def_nom_stat": "off_to_pct"
+    },
+    {
+      "nom_stat": "opp_to_pct",
+      "étiquette": "TO%",
+      "nom_concept": "Turnovers",
+      "off_or_def": "Def",
+      "rang_asc": false,
+      "rd_dec": 1,
+      "off_def_nom_stat": "def_to_pct"
+    },
+    {
+      "nom_stat": "tm_drb_pct",
+      "étiquette": "DRB%",
+      "nom_concept": "Rebounding",
+      "off_or_def": "Def",
+      "rang_asc": false,
+      "rd_dec": 1,
+      "off_def_nom_stat": "drb_pct"
+    },
+    {
+      "nom_stat": "tm_orb_pct",
+      "étiquette": "ORB%",
+      "nom_concept": "Rebounding",
+      "off_or_def": "Off",
+      "rang_asc": false,
+      "rd_dec": 1,
+      "off_def_nom_stat": "orb_pct"
+    },
+    {
+      "nom_stat": "tm_efg_pct",
+      "étiquette": "eFG%",
+      "nom_concept": "Shooting",
+      "off_or_def": "Off",
+      "rang_asc": false,
+      "rd_dec": 1,
+      "off_def_nom_stat": "off_efg_pct"
+    }
+  ]
+}
