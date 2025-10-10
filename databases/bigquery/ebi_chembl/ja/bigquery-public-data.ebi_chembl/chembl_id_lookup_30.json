@@ -1,0 +1,76 @@
+{
+  "table_name": "chembl_id_lookup_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.chembl_id_lookup_30",
+  "column_names": [
+    "chembl_id",
+    "entity_type",
+    "entity_id",
+    "status",
+    "last_active"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "INT64",
+    "STRING",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "chembl_id",
+    "entity_type",
+    "entity_id",
+    "status",
+    "last_active"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "INT64",
+    "STRING",
+    "INT64"
+  ],
+  "description": [
+    "ChEMBL識別子",
+    "エンティティの種類（例: COMPOUND、ASSAY、TARGET）",
+    "該当テーブルにおけるそのエンティティの主キー（例: 化合物では molregno、ターゲットでは tid）",
+    "データベース内でのエンティティのステータスを示します — ACTIVE、INACTIVE（ダウングレード）、OBS（廃止/削除）。",
+    "CHEMBL_ID が有効だった最後の ChEMBL バージョンを示します"
+  ],
+  "sample_rows": [
+    {
+      "chembl_id": "CHEMBL1075036",
+      "entity_type": "TARGET",
+      "entity_id": 102994,
+      "status": "OBS",
+      "last_active": 20
+    },
+    {
+      "chembl_id": "CHEMBL1075114",
+      "entity_type": "TARGET",
+      "entity_id": 103040,
+      "status": "OBS",
+      "last_active": 16
+    },
+    {
+      "chembl_id": "CHEMBL1075122",
+      "entity_type": "TARGET",
+      "entity_id": 103049,
+      "status": "OBS",
+      "last_active": 16
+    },
+    {
+      "chembl_id": "CHEMBL1075123",
+      "entity_type": "TARGET",
+      "entity_id": 103050,
+      "status": "OBS",
+      "last_active": 16
+    },
+    {
+      "chembl_id": "CHEMBL1075124",
+      "entity_type": "TARGET",
+      "entity_id": 103051,
+      "status": "OBS",
+      "last_active": 16
+    }
+  ]
+}
