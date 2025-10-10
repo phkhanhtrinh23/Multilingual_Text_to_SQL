@@ -1,0 +1,244 @@
+{
+  "table_name": "studies",
+  "table_fullname": "open-targets-genetics.genetics.studies",
+  "column_names": [
+    "研究ID",
+    "初期系統",
+    "再現系統",
+    "症例数",
+    "初期サンプル数",
+    "検証サンプル数",
+    "PubMed ID",
+    "著者",
+    "出版日",
+    "雑誌名",
+    "論文タイトル",
+    "要約統計の有無",
+    "関連座位数",
+    "出典",
+    "報告された表現型",
+    "EFO表現型",
+    "表現型カテゴリ"
+  ],
+  "column_types": [
+    "STRING",
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "BOOL",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "研究ID",
+    "初期の祖先背景",
+    "初期の祖先背景リスト",
+    "初期の祖先背景リスト要素",
+    "レプリケーションの祖先背景",
+    "レプリケーションの祖先背景リスト",
+    "レプリケーションの祖先背景リスト要素",
+    "症例数",
+    "初期サンプル数",
+    "レプリケーションのサンプル数",
+    "PubMed ID",
+    "論文著者",
+    "出版日",
+    "掲載誌",
+    "論文タイトル",
+    "要約統計量あり",
+    "関連遺伝子座数",
+    "出典",
+    "報告された形質",
+    "形質のEFO用語",
+    "形質のEFOリスト",
+    "形質のEFOリスト要素",
+    "形質カテゴリ"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+    "ARRAY<STRUCT<element STRING>>",
+    "STRING",
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+    "ARRAY<STRUCT<element STRING>>",
+    "STRING",
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "BOOL",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+    "ARRAY<STRUCT<element STRING>>",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "sample_rows": [
+    {
+      "研究ID": "FINNGEN_R6_M13_MYALGIA",
+      "初期の祖先背景": {
+        "list": "[{'element': 'European=201546'}]"
+      },
+      "レプリケーションの祖先背景": {
+        "list": "[]"
+      },
+      "症例数": 3822,
+      "初期サンプル数": 201546,
+      "レプリケーションのサンプル数": 0,
+      "PubMed ID": null,
+      "論文著者": "FINNGEN_R6",
+      "出版日": "2022-01-24",
+      "掲載誌": null,
+      "論文タイトル": null,
+      "要約統計量あり": true,
+      "関連遺伝子座数": 1,
+      "出典": "FINNGEN",
+      "報告された形質": "Myalgia",
+      "形質のEFO用語": {
+        "list": "[{'element': 'HP_0003326'}]"
+      },
+      "形質カテゴリ": "phenotype"
+    },
+    {
+      "研究ID": "FINNGEN_R6_M13_PATELLADISLOCATIO",
+      "初期の祖先背景": {
+        "list": "[{'element': 'European=174430'}]"
+      },
+      "レプリケーションの祖先背景": {
+        "list": "[]"
+      },
+      "症例数": 1016,
+      "初期サンプル数": 174430,
+      "レプリケーションのサンプル数": 0,
+      "PubMed ID": null,
+      "論文著者": "FINNGEN_R6",
+      "出版日": "2022-01-24",
+      "掲載誌": null,
+      "論文タイトル": null,
+      "要約統計量あり": true,
+      "関連遺伝子座数": 0,
+      "出典": "FINNGEN",
+      "報告された形質": "Recurrent dislocation of patella",
+      "形質のEFO用語": {
+        "list": "[{'element': 'HP_0002999'}]"
+      },
+      "形質カテゴリ": "phenotype"
+    },
+    {
+      "研究ID": "FINNGEN_R6_M13_PATHODISLOCATIO",
+      "初期の祖先背景": {
+        "list": "[{'element': 'European=175145'}]"
+      },
+      "レプリケーションの祖先背景": {
+        "list": "[]"
+      },
+      "症例数": 1731,
+      "初期サンプル数": 175145,
+      "レプリケーションのサンプル数": 0,
+      "PubMed ID": null,
+      "論文著者": "FINNGEN_R6",
+      "出版日": "2022-01-24",
+      "掲載誌": null,
+      "論文タイトル": null,
+      "要約統計量あり": true,
+      "関連遺伝子座数": 0,
+      "出典": "FINNGEN",
+      "報告された形質": "\"Pathological/recurrent dislocation and subluxation of joint, not elsewhere classified\"",
+      "形質のEFO用語": {
+        "list": "[{'element': 'HP_0032153'} {'element': 'HP_0001373'}]"
+      },
+      "形質カテゴリ": "phenotype"
+    },
+    {
+      "研究ID": "FINNGEN_R6_M13_RECUDISLOCATIO",
+      "初期の祖先背景": {
+        "list": "[{'element': 'European=174889'}]"
+      },
+      "レプリケーションの祖先背景": {
+        "list": "[]"
+      },
+      "症例数": 1475,
+      "初期サンプル数": 174889,
+      "レプリケーションのサンプル数": 0,
+      "PubMed ID": null,
+      "論文著者": "FINNGEN_R6",
+      "出版日": "2022-01-24",
+      "掲載誌": null,
+      "論文タイトル": null,
+      "要約統計量あり": true,
+      "関連遺伝子座数": 0,
+      "出典": "FINNGEN",
+      "報告された形質": "Recurrent dislocation and subluxation of joint",
+      "形質のEFO用語": {
+        "list": "[{'element': 'HP_0032153'} {'element': 'HP_0001373'}]"
+      },
+      "形質カテゴリ": "phenotype"
+    },
+    {
+      "研究ID": "FINNGEN_R6_M13_SACROILIITIS",
+      "初期の祖先背景": {
+        "list": "[{'element': 'European=195058'}]"
+      },
+      "レプリケーションの祖先背景": {
+        "list": "[]"
+      },
+      "症例数": 769,
+      "初期サンプル数": 195058,
+      "レプリケーションのサンプル数": 0,
+      "PubMed ID": null,
+      "論文著者": "FINNGEN_R6",
+      "出版日": "2022-01-24",
+      "掲載誌": null,
+      "論文タイトル": null,
+      "要約統計量あり": true,
+      "関連遺伝子座数": 2,
+      "出典": "FINNGEN",
+      "報告された形質": "\"Sacroiliitis, not elsewhere classified\"",
+      "形質のEFO用語": {
+        "list": "[{'element': 'HP_0012317'}]"
+      },
+      "形質カテゴリ": "phenotype"
+    }
+  ]
+}
