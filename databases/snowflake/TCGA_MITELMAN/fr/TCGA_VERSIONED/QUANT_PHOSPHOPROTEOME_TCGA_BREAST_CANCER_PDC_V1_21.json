@@ -1,0 +1,94 @@
+{
+  "table_name": "QUANT_PHOSPHOPROTEOME_TCGA_BREAST_CANCER_PDC_V1_21",
+  "table_fullname": "TCGA_MITELMAN.TCGA_VERSIONED.QUANT_PHOSPHOPROTEOME_TCGA_BREAST_CANCER_PDC_V1_21",
+  "column_names": [
+    "id_de_cas",
+    "id_d_echantillon",
+    "id_d_aliquot",
+    "id_de_metadonnees_d_aliquot",
+    "id_d_aliquot_soumis",
+    "id_refseq",
+    "abundance_de_proteine_log2ratio",
+    "sites_de_phosphorylation",
+    "nom_d_etude"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "FLOAT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Identifiant unique associé à un patient spécifique (e.g. 24cb0fcb-63d6-11e8-bcf1-0a2705229b82)",
+    "Identifiant PDC unique pour cet échantillon (e.g. e8d83eb9-693a-11ea-b1fd-0aad30af8a83)",
+    "Identifiant PDC unique pour cet aliquot (e.g. e8db124a-693a-11ea-b1fd-0aad30af8a83)",
+    "Identifie de manière unique l'aliquot en fonction de son utilisation dans l'expérience (en fonction du réactif d'étiquetage et/ou de la répétition biologique)",
+    "ID de soumission d'aliquot attribué par le programme (e.g. T14)",
+    "Identifiant unique donné à une séquence dans la base de données NCBI RefSeq",
+    "Rapport log-moyen des ions rapporteurs d'échantillon par rapport à la référence commune des ions de peptides associés au gène dans les acquisitions d'un échantillon biologique spécifique",
+    "Codes à lettre unique et positions de séquence de protéine des acides aminés phosphorylés (e.g. t304s310, t59)",
+    "Nom de l'étude (e.g. Étude pilote sur le cancer du cerveau pédiatrique - Phosphoprotéome)"
+  ],
+  "sample_rows": [
+    {
+      "id_de_cas": "e959b0d7-63d8-11e8-bcf1-0a2705229b82",
+      "id_d_echantillon": "6f5dbf57-6420-11e8-bcf1-0a2705229b82",
+      "id_d_aliquot": "289ee34c-6429-11e8-bcf1-0a2705229b82",
+      "id_d_aliquot_soumis": "TCGA-BH-A18Q-01A-41-A21W-30",
+      "id_de_metadonnees_d_aliquot": "1e0b473a-5731-11e8-b664-00a098d917f8",
+      "nom_d_etude": "TCGA Breast Cancer Phosphoproteome",
+      "abundance_de_proteine_log2ratio": 0.7642,
+      "id_refseq": "NP_056013.2",
+      "sites_de_phosphorylation": "t265s269"
+    },
+    {
+      "id_de_cas": "e959b0d7-63d8-11e8-bcf1-0a2705229b82",
+      "id_d_echantillon": "6f5dbf57-6420-11e8-bcf1-0a2705229b82",
+      "id_d_aliquot": "289ee34c-6429-11e8-bcf1-0a2705229b82",
+      "id_d_aliquot_soumis": "TCGA-BH-A18Q-01A-41-A21W-30",
+      "id_de_metadonnees_d_aliquot": "1e0b473a-5731-11e8-b664-00a098d917f8",
+      "nom_d_etude": "TCGA Breast Cancer Phosphoproteome",
+      "abundance_de_proteine_log2ratio": 0.4807,
+      "id_refseq": "NP_001191315.1",
+      "sites_de_phosphorylation": "s481"
+    },
+    {
+      "id_de_cas": "e959b0d7-63d8-11e8-bcf1-0a2705229b82",
+      "id_d_echantillon": "6f5dbf57-6420-11e8-bcf1-0a2705229b82",
+      "id_d_aliquot": "289ee34c-6429-11e8-bcf1-0a2705229b82",
+      "id_d_aliquot_soumis": "TCGA-BH-A18Q-01A-41-A21W-30",
+      "id_de_metadonnees_d_aliquot": "1e0b473a-5731-11e8-b664-00a098d917f8",
+      "nom_d_etude": "TCGA Breast Cancer Phosphoproteome",
+      "abundance_de_proteine_log2ratio": -1.1637,
+      "id_refseq": "NP_005886.2",
+      "sites_de_phosphorylation": "s392"
+    },
+    {
+      "id_de_cas": "e959b0d7-63d8-11e8-bcf1-0a2705229b82",
+      "id_d_echantillon": "6f5dbf57-6420-11e8-bcf1-0a2705229b82",
+      "id_d_aliquot": "289ee34c-6429-11e8-bcf1-0a2705229b82",
+      "id_d_aliquot_soumis": "TCGA-BH-A18Q-01A-41-A21W-30",
+      "id_de_metadonnees_d_aliquot": "1e0b473a-5731-11e8-b664-00a098d917f8",
+      "nom_d_etude": "TCGA Breast Cancer Phosphoproteome",
+      "abundance_de_proteine_log2ratio": -0.5146,
+      "id_refseq": "NP_001106653.1",
+      "sites_de_phosphorylation": "s301"
+    },
+    {
+      "id_de_cas": "e959b0d7-63d8-11e8-bcf1-0a2705229b82",
+      "id_d_echantillon": "6f5dbf57-6420-11e8-bcf1-0a2705229b82",
+      "id_d_aliquot": "289ee34c-6429-11e8-bcf1-0a2705229b82",
+      "id_d_aliquot_soumis": "TCGA-BH-A18Q-01A-41-A21W-30",
+      "id_de_metadonnees_d_aliquot": "1e0b473a-5731-11e8-b664-00a098d917f8",
+      "nom_d_etude": "TCGA Breast Cancer Phosphoproteome",
+      "abundance_de_proteine_log2ratio": -1.2605,
+      "id_refseq": "NP_001137307.1",
+      "sites_de_phosphorylation": "s494"
+    }
+  ]
+}
