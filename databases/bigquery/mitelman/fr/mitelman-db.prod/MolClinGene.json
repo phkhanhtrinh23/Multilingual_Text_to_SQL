@@ -1,0 +1,96 @@
+{
+  "table_name": "MolClinGene",
+  "table_fullname": "mitelman-db.prod.MolClinGene",
+  "column_names": [
+    "MolClin",
+    "NumRef",
+    "NumInv",
+    "NumCommande",
+    "Prefix",
+    "Gene",
+    "Suffix"
+  ],
+  "column_types": [
+    "STRING",
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "MolClin",
+    "NumRef",
+    "NumInv",
+    "NumCommande",
+    "Prefix",
+    "Gene",
+    "Suffix"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "indicateur indiquant soit moléculaire 'M', soit clinique 'C'",
+    "numéro de référence, par exemple '15563'",
+    "numéro d'enquête, généralement entre 1 et 10",
+    "numéro de commande, entre 1 et 15",
+    "chaîne de préfixe -- soit vide, soit '+'",
+    "symbole(s) de gène, par exemple 'KMT2A' ou 'BCR/ABL1'",
+    "chaîne de suffixe -- soit vide, soit '+'"
+  ],
+  "sample_rows": [
+    {
+      "MolClin": "C",
+      "NumRef": 3967,
+      "NumInv": 1,
+      "NumCommande": 1,
+      "Prefix": null,
+      "Gene": "BCR::ABL1",
+      "Suffix": null
+    },
+    {
+      "MolClin": "C",
+      "NumRef": 3976,
+      "NumInv": 1,
+      "NumCommande": 1,
+      "Prefix": null,
+      "Gene": "BCR::ABL1",
+      "Suffix": null
+    },
+    {
+      "MolClin": "C",
+      "NumRef": 3976,
+      "NumInv": 2,
+      "NumCommande": 1,
+      "Prefix": null,
+      "Gene": "BCR::ABL1",
+      "Suffix": null
+    },
+    {
+      "MolClin": "C",
+      "NumRef": 4541,
+      "NumInv": 1,
+      "NumCommande": 1,
+      "Prefix": null,
+      "Gene": "PML::RARA",
+      "Suffix": null
+    },
+    {
+      "MolClin": "C",
+      "NumRef": 4624,
+      "NumInv": 1,
+      "NumCommande": 1,
+      "Prefix": null,
+      "Gene": "BCR::ABL1",
+      "Suffix": null
+    }
+  ]
+}
