@@ -1,0 +1,86 @@
+{
+  "sample_rows": [
+    {
+      "VARIABLE": "net_receipts_by_pipeline_tanker_barge_and_rail_of_residual_fuel_oil_031_to_100_sulfur_mbbl_per_day_monthly",
+      "VARIABLE_NAME": "Net Receipts by Pipeline, Tanker, Barge and Rail of Residual Fuel Oil, 0.31 to 1.00% Sulfur, MBBL per day (Monthly)",
+      "SECTEUR": null,
+      "TYPE_D_ENERGIE": "Petroleum",
+      "MESURE": "Net Receipts",
+      "UNITE": "MBBL per day",
+      "FREQUENCE": "Monthly",
+      "RAPPORT": "EIA petroleum gas survey data"
+    },
+    {
+      "VARIABLE": "premium_gasoline_through_company_outlets_price_by_refiners_and_gas_plants_usd_per_gallon_monthly",
+      "VARIABLE_NAME": "Premium Gasoline Through Company Outlets Price by Refiners and Gas Plants, USD per gallon (Monthly)",
+      "SECTEUR": null,
+      "TYPE_D_ENERGIE": "Petroleum",
+      "MESURE": "Through Company Outlets Price",
+      "UNITE": "USD per gallon",
+      "FREQUENCE": "Monthly",
+      "RAPPORT": "EIA petroleum gas survey data"
+    },
+    {
+      "VARIABLE": "conventional_premium_gasoline_rack_sales_price_by_refiners_and_gas_plants_usd_per_gallon_monthly",
+      "VARIABLE_NAME": "Conventional Premium Gasoline Rack Sales Price by Refiners and Gas Plants, USD per gallon (Monthly)",
+      "SECTEUR": null,
+      "TYPE_D_ENERGIE": "Petroleum",
+      "MESURE": "Rack Sales Price",
+      "UNITE": "USD per gallon",
+      "FREQUENCE": "Monthly",
+      "RAPPORT": "EIA petroleum gas survey data"
+    },
+    {
+      "VARIABLE": "residual_fuel_oil_greater_than_1_sulfur_wholesale/resale_volume_by_refiners_and_gas_plants_mgal_per_day_monthly",
+      "VARIABLE_NAME": "Residual Fuel Oil, Greater Than 1% Sulfur Wholesale/Resale Volume by Refiners and Gas Plants, MGAL per day (Monthly)",
+      "SECTEUR": null,
+      "TYPE_D_ENERGIE": "Petroleum",
+      "MESURE": "Wholesale/Resale Volume",
+      "UNITE": "MGAL per day",
+      "FREQUENCE": "Monthly",
+      "RAPPORT": "EIA petroleum gas survey data"
+    },
+    {
+      "VARIABLE": "us_landed_costs_of_uk_brent_crude_oil_usd_per_barrel_monthly",
+      "VARIABLE_NAME": "US Landed Costs of UK Brent Crude Oil, USD per barrel (Monthly)",
+      "SECTEUR": null,
+      "TYPE_D_ENERGIE": "Petroleum",
+      "MESURE": "Landed Costs",
+      "UNITE": "USD per barrel",
+      "FREQUENCE": "Monthly",
+      "RAPPORT": "EIA petroleum gas survey data"
+    }
+  ],
+  "table_name": "EIA_ENERGY_ATTRIBUTES",
+  "table_fullname": "WEATHER__ENVIRONMENT.CYBERSYN.EIA_ENERGY_ATTRIBUTES",
+  "column_names": [
+    "RAPPORT",
+    "SECTEUR",
+    "MESURE",
+    "FREQUENCE",
+    "UNITE",
+    "VARIABLE_NAME",
+    "TYPE_D_ENERGIE",
+    "VARIABLE"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Source où la variable est collectée ou publiée à l'origine.",
+    "Le secteur dans lequel la variable est contenue (par exemple Industriel vs Commercial).",
+    "Attribut ou sujet quantifiable ; description de ce qui est enregistré.",
+    "Fréquence des agrégations.",
+    "Unité de mesure pour la valeur rapportée.",
+    "Nom unique lisible par l'homme pour la variable.",
+    "Le type d'énergie associé à la variable (par exemple Électricité, Gaz naturel, Pétrole, etc.).",
+    "Identifiant unique pour une variable, joignable à la table des timeseries."
+  ]
+}
