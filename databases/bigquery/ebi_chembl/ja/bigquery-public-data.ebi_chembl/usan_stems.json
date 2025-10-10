@@ -1,0 +1,86 @@
+{
+  "table_name": "usan_stems",
+  "table_fullname": "bigquery-public-data.ebi_chembl.usan_stems",
+  "column_names": [
+    "usan_語幹_id",
+    "語幹",
+    "サブグループ",
+    "注釈",
+    "語幹_分類",
+    "主要_分類"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "usan_stem_id",
+    "語幹",
+    "サブグループ",
+    "注釈",
+    "stem_class",
+    "major_class"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "sample_rows": [
+    {
+      "usan_stem_id": "1471",
+      "語幹": "som-",
+      "サブグループ": "som--bove",
+      "注釈": "growth hormone derivatives: bovine somatotropin derivatives",
+      "stem_class": "combined prefix and suffix",
+      "major_class": null
+    },
+    {
+      "usan_stem_id": "1472",
+      "語幹": "som-",
+      "サブグループ": "som--por",
+      "注釈": "growth hormone derivatives: porcine somatotropin derivatives",
+      "stem_class": "combined prefix and suffix",
+      "major_class": null
+    },
+    {
+      "usan_stem_id": "979",
+      "語幹": "-ampa-",
+      "サブグループ": null,
+      "注釈": "ionotropic non-NMDA (N-methyl D-aspartate) glutamate receptors [AMPA (alpha-amino-3-hydroxy-5-methyl-4-isoxazolepropionic acid receptor) and/or KA (kainite antagonist) receptors]",
+      "stem_class": "infix",
+      "major_class": null
+    },
+    {
+      "usan_stem_id": "990",
+      "語幹": "-apt-",
+      "サブグループ": null,
+      "注釈": "aptamers, classical and mirror",
+      "stem_class": "infix",
+      "major_class": null
+    },
+    {
+      "usan_stem_id": "993",
+      "語幹": "-aril-",
+      "サブグループ": null,
+      "注釈": "antiviral (arildone derivatives)",
+      "stem_class": "infix",
+      "major_class": null
+    }
+  ]
+}
