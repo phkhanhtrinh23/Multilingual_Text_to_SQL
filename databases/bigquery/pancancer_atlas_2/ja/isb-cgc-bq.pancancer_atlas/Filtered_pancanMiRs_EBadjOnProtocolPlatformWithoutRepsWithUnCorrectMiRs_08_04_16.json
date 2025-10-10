@@ -1,0 +1,116 @@
+{
+  "table_name": "Filtered_pancanMiRs_EBadjOnProtocolPlatformWithoutRepsWithUnCorrectMiRs_08_04_16",
+  "table_fullname": "isb-cgc-bq.pancancer_atlas.Filtered_pancanMiRs_EBadjOnProtocolPlatformWithoutRepsWithUnCorrectMiRs_08_04_16",
+  "column_names": [
+    "ParticipantBarcode",
+    "SampleBarcode",
+    "AliquotBarcode",
+    "SampleTypeLetterCode",
+    "SampleType",
+    "研究",
+    "ID",
+    "miRNAexpr",
+    "補正済み"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "参加者バーコード",
+    "サンプルバーコード",
+    "アリコートバーコード",
+    "サンプル種別文字コード",
+    "サンプル種別",
+    "研究",
+    "ID",
+    "miRNA発現量",
+    "補正済み"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING"
+  ],
+  "description": [
+    "研究参加者のTCGAバーコード識別子、例: TCGA-02-0001",
+    "生体試料サンプルのバーコード、例: TCGA-13-1489-02A",
+    "TCGAアリコートバーコード、例: TCGA-12-1089-01A-01D-0517-28",
+    "TCGA基準に従ったサンプルタイプのレターコード、例: TPN, EBV。完全なリストは https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/sample-type-codes で入手可能",
+    "サンプルタイプは10種類あります: Blood Derived Normal, Primary solid Tumor, Solid Tissue Normal, Recurrent Solid Tumor, Metastatic, Additional - New Primary, Primary Blood Derived Cancer - Peripheral Blood, Buccal Cell Normal, Additioanal Metastatic, Bone Marrrow Normal",
+    "TCGA研究略号、例: LAML。完全なリストは https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/tcga-study-abbreviations で入手可能",
+    "このテーブルに含まれる1870個のユニークなmiRNA ids（別名シンボル）のうちの1つ、例: hsa-mir-21 — 関連する参照情報は isb-cgc:genome_reference データセットのテーブル miRBase_v20 および miRBase_v20_hsa_gff3 にあります",
+    "正規化されたアバンダンス（すなわち reads per million、RPM）",
+    "「Corrected」と「Uncorrected」の指標は miRs が EBN+ 法によって補正されたかどうかを示します。詳細は https://www.synapse.org/#!Synapse:syn6171109 を参照してください"
+  ],
+  "sample_rows": [
+    {
+      "参加者バーコード": "TCGA-06-0675",
+      "サンプルバーコード": "TCGA-06-0675-11A",
+      "アリコートバーコード": "TCGA-06-0675-11A-32R-A36C-13",
+      "サンプル種別文字コード": "NT",
+      "サンプル種別": "Solid Tissue Normal",
+      "研究": "GBM",
+      "ID": "hsa-miR-655-3p",
+      "miRNA発現量": 29.608492,
+      "補正済み": "Corrected"
+    },
+    {
+      "参加者バーコード": "TCGA-06-0675",
+      "サンプルバーコード": "TCGA-06-0675-11A",
+      "アリコートバーコード": "TCGA-06-0675-11A-32R-A36C-13",
+      "サンプル種別文字コード": "NT",
+      "サンプル種別": "Solid Tissue Normal",
+      "研究": "GBM",
+      "ID": "hsa-miR-139-5p",
+      "miRNA発現量": 4549.497868,
+      "補正済み": "Corrected"
+    },
+    {
+      "参加者バーコード": "TCGA-06-0675",
+      "サンプルバーコード": "TCGA-06-0675-11A",
+      "アリコートバーコード": "TCGA-06-0675-11A-32R-A36C-13",
+      "サンプル種別文字コード": "NT",
+      "サンプル種別": "Solid Tissue Normal",
+      "研究": "GBM",
+      "ID": "hsa-miR-202-5p",
+      "miRNA発現量": 0.255246,
+      "補正済み": "Corrected"
+    },
+    {
+      "参加者バーコード": "TCGA-06-0675",
+      "サンプルバーコード": "TCGA-06-0675-11A",
+      "アリコートバーコード": "TCGA-06-0675-11A-32R-A36C-13",
+      "サンプル種別文字コード": "NT",
+      "サンプル種別": "Solid Tissue Normal",
+      "研究": "GBM",
+      "ID": "hsa-miR-542-3p",
+      "miRNA発現量": 204.706984,
+      "補正済み": "Corrected"
+    },
+    {
+      "参加者バーコード": "TCGA-06-0675",
+      "サンプルバーコード": "TCGA-06-0675-11A",
+      "アリコートバーコード": "TCGA-06-0675-11A-32R-A36C-13",
+      "サンプル種別文字コード": "NT",
+      "サンプル種別": "Solid Tissue Normal",
+      "研究": "GBM",
+      "ID": "hsa-miR-98-3p",
+      "miRNA発現量": 1.276228,
+      "補正済み": "Corrected"
+    }
+  ]
+}
