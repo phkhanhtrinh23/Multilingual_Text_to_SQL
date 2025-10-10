@@ -1,0 +1,96 @@
+{
+  "table_name": "protein_classification_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.protein_classification_30",
+  "column_names": [
+    "タンパク質_クラス_id",
+    "親_id",
+    "推奨_名",
+    "略_名",
+    "タンパク質_クラス_説明",
+    "定義",
+    "クラス_レベル"
+  ],
+  "column_types": [
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "タンパク質クラスID",
+    "親ID",
+    "優先名",
+    "略称",
+    "タンパク質クラスの説明",
+    "定義",
+    "クラスレベル"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64"
+  ],
+  "description": [
+    "主キー。各タンパク質ファミリー分類の一意の識別子。",
+    "このタンパク質ファミリーの親を示すProtein_class_id。",
+    "このタンパク質ファミリーの推奨/正式名称。",
+    "このタンパク質ファミリーの短縮名/略称（必ずしも一意ではない）。",
+    "検索などの目的で各分類を連結した説明。",
+    "タンパク質ファミリーの定義。",
+    "階層内のクラスのレベル（レベル1 = 最上位の分類）"
+  ],
+  "sample_rows": [
+    {
+      "タンパク質クラスID": 1,
+      "親ID": 0,
+      "優先名": "Enzyme",
+      "略称": "Enzyme",
+      "タンパク質クラスの説明": "enzyme",
+      "定義": "Biological molecules that possess catalytic activity. They may occur naturally or be synthetically created. Enzymes are usually proteins, however CATALYTIC RNA and CATALYTIC DNA molecules have also been identified. [MESH:D004798]",
+      "クラスレベル": 1
+    },
+    {
+      "タンパク質クラスID": 2,
+      "親ID": 0,
+      "優先名": "Adhesion",
+      "略称": "Adhesion",
+      "タンパク質クラスの説明": "adhesion",
+      "定義": "Surface ligands, usually glycoproteins, that mediate cell-to-cell adhesion. Their functions include the assembly and interconnection of various vertebrate systems, as well as maintenance of tissue integration, wound healing, morphogenic movements, cellular migrations, and metastasis. [MESH:D015815]",
+      "クラスレベル": 1
+    },
+    {
+      "タンパク質クラスID": 3,
+      "親ID": 0,
+      "優先名": "Secreted protein",
+      "略称": "Secreted",
+      "タンパク質クラスの説明": "secreted",
+      "定義": null,
+      "クラスレベル": 1
+    },
+    {
+      "タンパク質クラスID": 4,
+      "親ID": 0,
+      "優先名": "Structural protein",
+      "略称": "Structural",
+      "タンパク質クラスの説明": "structural",
+      "定義": null,
+      "クラスレベル": 1
+    },
+    {
+      "タンパク質クラスID": 5,
+      "親ID": 0,
+      "優先名": "Other nuclear protein",
+      "略称": "Nuclear other",
+      "タンパク質クラスの説明": "nuclear other",
+      "定義": null,
+      "クラスレベル": 1
+    }
+  ]
+}
