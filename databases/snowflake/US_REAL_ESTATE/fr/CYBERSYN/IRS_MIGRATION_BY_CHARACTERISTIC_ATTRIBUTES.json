@@ -1,0 +1,86 @@
+{
+  "sample_rows": [
+    {
+      "VARIABLE": "Outflow_Returns_–_adjusted_gross_income_from_Year_1,_primary_taxpayers_ages_45_under_55,_AGI_bin:_$10,000_under_$25,000",
+      "NOM_DE_VARIABLE": "Outflow Returns – adjusted gross income from Year 1, primary taxpayers ages 45 under 55, AGI bin: $10,000 under $25,000",
+      "GROUPE_DE_RETOUR": "Outflow Returns",
+      "TRANCHE_DE_REVENU": "$10,000 under $25,000",
+      "GROUPE_D_AGE": "45 under 55",
+      "UNITE": "USD",
+      "AJUSTE_SAISONNIER": false,
+      "FREQUENCE": "Annual"
+    },
+    {
+      "VARIABLE": "Same_State_Returns_–_number_of_individuals,_primary_taxpayers_ages_26_under_35,_AGI_bin:_$75,000_under_$100,000",
+      "NOM_DE_VARIABLE": "Same State Returns – number of individuals, primary taxpayers ages 26 under 35, AGI bin: $75,000 under $100,000",
+      "GROUPE_DE_RETOUR": "Same State Returns",
+      "TRANCHE_DE_REVENU": "$75,000 under $100,000",
+      "GROUPE_D_AGE": "26 under 35",
+      "UNITE": "Individuals",
+      "AJUSTE_SAISONNIER": false,
+      "FREQUENCE": "Annual"
+    },
+    {
+      "VARIABLE": "Total_Returns_–_number_of_individuals,_primary_taxpayers_ages_55_under_65,_AGI_bin:_$100,000_under_$200,000",
+      "NOM_DE_VARIABLE": "Total Returns – number of individuals, primary taxpayers ages 55 under 65, AGI bin: $100,000 under $200,000",
+      "GROUPE_DE_RETOUR": "Total Returns",
+      "TRANCHE_DE_REVENU": "$100,000 under $200,000",
+      "GROUPE_D_AGE": "55 under 65",
+      "UNITE": "Individuals",
+      "AJUSTE_SAISONNIER": false,
+      "FREQUENCE": "Annual"
+    },
+    {
+      "VARIABLE": "Inflow_Returns_–_adjusted_gross_income_from_Year_1,_all_ages,_All_AGI_classes",
+      "NOM_DE_VARIABLE": "Inflow Returns – adjusted gross income from Year 1, all ages, All AGI classes",
+      "GROUPE_DE_RETOUR": "Inflow Returns",
+      "TRANCHE_DE_REVENU": "All AGI classes",
+      "GROUPE_D_AGE": "All Ages",
+      "UNITE": "USD",
+      "AJUSTE_SAISONNIER": false,
+      "FREQUENCE": "Annual"
+    },
+    {
+      "VARIABLE": "Total_Returns_-_number_of_returns,_all_ages,_All_AGI_classes",
+      "NOM_DE_VARIABLE": "Total Returns - number of returns, all ages, All AGI classes",
+      "GROUPE_DE_RETOUR": "Total Returns",
+      "TRANCHE_DE_REVENU": "All AGI classes",
+      "GROUPE_D_AGE": "All Ages",
+      "UNITE": "Returns",
+      "AJUSTE_SAISONNIER": false,
+      "FREQUENCE": "Annual"
+    }
+  ],
+  "table_name": "IRS_MIGRATION_BY_CHARACTERISTIC_ATTRIBUTES",
+  "table_fullname": "US_REAL_ESTATE.CYBERSYN.IRS_MIGRATION_BY_CHARACTERISTIC_ATTRIBUTES",
+  "column_names": [
+    "GROUPE_D_AGE",
+    "UNITE",
+    "GROUPE_DE_RETOUR",
+    "FREQUENCE",
+    "VARIABLE",
+    "AJUSTE_SAISONNIER",
+    "TRANCHE_DE_REVENU",
+    "NOM_DE_VARIABLE"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "BOOLEAN",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Le groupe d'âge de la valeur étant signalée",
+    "Unité de mesure de la valeur, exemples : USD, rendements, individus",
+    "Le groupe de population de la valeur étant signalée - veuillez consulter la documentation IRS pour plus de détails",
+    "Fréquence de la mesure de la variable",
+    "Code d'identifiant unique pour une variable",
+    "Indique si la valeur est ajustée en fonction des saisons",
+    "La tranche de revenu brut ajusté des individus dans la série",
+    "Nom lisible par l'homme pour la variable"
+  ]
+}
