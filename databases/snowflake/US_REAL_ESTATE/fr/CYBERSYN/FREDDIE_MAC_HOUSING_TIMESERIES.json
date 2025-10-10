@@ -1,0 +1,70 @@
+{
+  "sample_rows": [
+    {
+      "ID_GEO": "country/USA",
+      "VARIABLE": "FRM_30_YR",
+      "NOM_DE_VARIABLE": "30-Year Fixed Rate Mortgage Rate, National Average",
+      "DATE": "2024-08-29",
+      "VALEUR": 0.0635,
+      "UNITE": "Percent"
+    },
+    {
+      "ID_GEO": "geoId/31",
+      "VARIABLE": "INDEX_SA",
+      "NOM_DE_VARIABLE": "Freddie Mac House Price Index (Seasonally adjusted)",
+      "DATE": "2020-07-31",
+      "VALEUR": 172.7589483,
+      "UNITE": "Index"
+    },
+    {
+      "ID_GEO": "geoId/32",
+      "VARIABLE": "INDEX_NSA",
+      "NOM_DE_VARIABLE": "Freddie Mac House Price Index (Not seasonally adjusted)",
+      "DATE": "1976-09-30",
+      "VALEUR": 31.93893565,
+      "UNITE": "Index"
+    },
+    {
+      "ID_GEO": "geoId/10",
+      "VARIABLE": "INDEX_SA",
+      "NOM_DE_VARIABLE": "Freddie Mac House Price Index (Seasonally adjusted)",
+      "DATE": "1996-08-31",
+      "VALEUR": 83.36771622,
+      "UNITE": "Index"
+    },
+    {
+      "ID_GEO": "geoId/25",
+      "VARIABLE": "INDEX_NSA",
+      "NOM_DE_VARIABLE": "Freddie Mac House Price Index (Not seasonally adjusted)",
+      "DATE": "2021-05-31",
+      "VALEUR": 225.5959953,
+      "UNITE": "Index"
+    }
+  ],
+  "table_name": "FREDDIE_MAC_HOUSING_TIMESERIES",
+  "table_fullname": "US_REAL_ESTATE.CYBERSYN.FREDDIE_MAC_HOUSING_TIMESERIES",
+  "column_names": [
+    "VALEUR",
+    "NOM_DE_VARIABLE",
+    "DATE",
+    "ID_GEO",
+    "UNITE",
+    "VARIABLE"
+  ],
+  "column_types": [
+    "FLOAT",
+    "TEXT",
+    "DATE",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Valeur signalée pour la variable.",
+    "Nom unique lisible par l'homme pour la variable.",
+    "Date associée à la valeur.",
+    "Un identifiant unique pour un lieu. Joignable à d'autres tables de géographie, notamment `GEOGRAPHY_INDEX`, `GEOGRAPHY_RELATIONSHIPS` et `GEOGRAPHY_CHARACTERISTICS`.",
+    "Unité de mesure pour la valeur signalée.",
+    "Identifiant unique pour une variable, joignable à la table timeseries."
+  ]
+}
