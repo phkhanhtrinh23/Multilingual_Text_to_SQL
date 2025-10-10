@@ -1,0 +1,177 @@
+{
+  "table_name": "drugWarnings",
+  "table_fullname": "bigquery-public-data.open_targets_platform.drugWarnings",
+  "column_names": [
+    "chemblIds",
+    "toxicityClass",
+    "国",
+    "説明",
+    "識別子",
+    "参考文献",
+    "warningType",
+    "年",
+    "efo_term",
+    "efo_id",
+    "efo_id_for_warning_class"
+  ],
+  "column_types": [
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "STRUCT<list ARRAY<STRUCT<element STRUCT<ref_id STRING, ref_type STRING, ref_url STRING>>>>",
+    "STRING",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "chemblIds",
+    "chemblIds.一覧",
+    "chemblIds.一覧.要素",
+    "toxicityClass",
+    "国",
+    "説明",
+    "ID",
+    "参照",
+    "参照.一覧",
+    "参照.一覧.要素",
+    "参照.一覧.要素.ref_id",
+    "参照.一覧.要素.ref_type",
+    "参照.一覧.要素.ref_url",
+    "warningType",
+    "年",
+    "efo_term",
+    "efo_id",
+    "efo_id_for_warning_class"
+  ],
+  "nested_column_types": [
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+    "ARRAY<STRUCT<element STRING>>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "STRUCT<list ARRAY<STRUCT<element STRUCT<ref_id STRING, ref_type STRING, ref_url STRING>>>>",
+    "ARRAY<STRUCT<element STRUCT<ref_id STRING, ref_type STRING, ref_url STRING>>>",
+    "STRUCT<ref_id STRING, ref_type STRING, ref_url STRING>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "sample_rows": [
+    {
+      "chemblIds": {
+        "list": "[{'element': 'CHEMBL3039594'} {'element': 'CHEMBL3039597'}]"
+      },
+      "toxicityClass": null,
+      "国": "United States",
+      "説明": null,
+      "ID": 2817,
+      "参照": {
+        "list": "[]"
+      },
+      "warningType": "Black Box Warning",
+      "年": null,
+      "efo_term": null,
+      "efo_id": null,
+      "efo_id_for_warning_class": null
+    },
+    {
+      "chemblIds": {
+        "list": "[{'element': 'CHEMBL3989677'} {'element': 'CHEMBL1457'}]"
+      },
+      "toxicityClass": null,
+      "国": "United States",
+      "説明": null,
+      "ID": 2818,
+      "参照": {
+        "list": "[]"
+      },
+      "warningType": "Black Box Warning",
+      "年": null,
+      "efo_term": null,
+      "efo_id": null,
+      "efo_id_for_warning_class": null
+    },
+    {
+      "chemblIds": {
+        "list": "[{'element': 'CHEMBL2359966'} {'element': 'CHEMBL170'}]"
+      },
+      "toxicityClass": null,
+      "国": "United States",
+      "説明": null,
+      "ID": 2820,
+      "参照": {
+        "list": "[]"
+      },
+      "warningType": "Black Box Warning",
+      "年": null,
+      "efo_term": null,
+      "efo_id": null,
+      "efo_id_for_warning_class": null
+    },
+    {
+      "chemblIds": {
+        "list": "[{'element': 'CHEMBL5095051'} {'element': 'CHEMBL637'}]"
+      },
+      "toxicityClass": null,
+      "国": "United States",
+      "説明": null,
+      "ID": 2864,
+      "参照": {
+        "list": "[]"
+      },
+      "warningType": "Black Box Warning",
+      "年": null,
+      "efo_term": null,
+      "efo_id": null,
+      "efo_id_for_warning_class": null
+    },
+    {
+      "chemblIds": {
+        "list": "[{'element': 'CHEMBL1742992'}]"
+      },
+      "toxicityClass": null,
+      "国": "United States",
+      "説明": null,
+      "ID": 221,
+      "参照": {
+        "list": "[]"
+      },
+      "warningType": "Black Box Warning",
+      "年": null,
+      "efo_term": null,
+      "efo_id": null,
+      "efo_id_for_warning_class": null
+    }
+  ]
+}
