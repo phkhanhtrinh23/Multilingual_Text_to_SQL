@@ -1,0 +1,94 @@
+{
+  "sample_rows": [
+    {
+      "VARIABLE": "ALL_NONRES_AMUSEMENT_SA",
+      "NOM_DE_VARIABLE": "Nonresidential Construction: Amusement And Recreation (Seasonally Adjusted)",
+      "MESURE": "Nonresidential Construction",
+      "UNITE": "USD",
+      "FREQUENCE": "Monthly",
+      "TYPE_DE_MESURE": null,
+      "PERIODE_DE_MESURE": null,
+      "USAGE_DU_BATIMENT": "Amusement and recreation",
+      "AJUSTE_SAISSONNIER": true
+    },
+    {
+      "VARIABLE": "ALL_NONRES_COMMERCIAL_STD_ERR_MM_PY",
+      "NOM_DE_VARIABLE": "Nonresidential Construction: Commercial: Standard Error, Month-to-month change from previous year",
+      "MESURE": "Nonresidential Construction",
+      "UNITE": "Percent",
+      "FREQUENCE": "Monthly",
+      "TYPE_DE_MESURE": null,
+      "PERIODE_DE_MESURE": null,
+      "USAGE_DU_BATIMENT": "Commercial",
+      "AJUSTE_SAISSONNIER": null
+    },
+    {
+      "VARIABLE": "ALL_NONRES_HEALTH_A",
+      "NOM_DE_VARIABLE": "Nonresidential Construction: Health Care (Annual)",
+      "MESURE": "Nonresidential Construction",
+      "UNITE": "USD",
+      "FREQUENCE": "Annual",
+      "TYPE_DE_MESURE": null,
+      "PERIODE_DE_MESURE": null,
+      "USAGE_DU_BATIMENT": "Health care",
+      "AJUSTE_SAISSONNIER": null
+    },
+    {
+      "VARIABLE": "ALL_NONRES_HEALTH_NSA",
+      "NOM_DE_VARIABLE": "Nonresidential Construction: Health Care (Not Seasonally Adjusted)",
+      "MESURE": "Nonresidential Construction",
+      "UNITE": "USD",
+      "FREQUENCE": "Monthly",
+      "TYPE_DE_MESURE": null,
+      "PERIODE_DE_MESURE": null,
+      "USAGE_DU_BATIMENT": "Health care",
+      "AJUSTE_SAISSONNIER": false
+    },
+    {
+      "VARIABLE": "ALL_NONRES_MANUFACTURING_NSA",
+      "NOM_DE_VARIABLE": "Nonresidential Construction: Manufacturing (Not Seasonally Adjusted)",
+      "MESURE": "Nonresidential Construction",
+      "UNITE": "USD",
+      "FREQUENCE": "Monthly",
+      "TYPE_DE_MESURE": null,
+      "PERIODE_DE_MESURE": null,
+      "USAGE_DU_BATIMENT": "Manufacturing",
+      "AJUSTE_SAISSONNIER": false
+    }
+  ],
+  "table_name": "US_REAL_ESTATE_ATTRIBUTES",
+  "table_fullname": "US_REAL_ESTATE.CYBERSYN.US_REAL_ESTATE_ATTRIBUTES",
+  "column_names": [
+    "AJUSTE_SAISSONNIER",
+    "TYPE_DE_MESURE",
+    "UNITE",
+    "USAGE_DU_BATIMENT",
+    "PERIODE_DE_MESURE",
+    "MESURE",
+    "VARIABLE",
+    "NOM_DE_VARIABLE",
+    "FREQUENCE"
+  ],
+  "column_types": [
+    "BOOLEAN",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Indique où la valeur est ajustée en fonction de la saison.",
+    "Classification de mesure de la variable (ex. Estimations Avec Imputation).",
+    "Unité de mesure de la valeur rapportée.",
+    "Catégorie d'utilisation pour le bâtiment (ex. Maisons unifamiliales, Fabrication).",
+    "Période de collecte de données pour la variable (ex. Année à ce jour).",
+    "Attribut quantifiable ou sujet ; description de ce qui est enregistré.",
+    "Identifiant unique pour une variable, joignable à la table timeseries.",
+    "Nom unique lisible par l'homme pour la variable.",
+    "Fréquence des agrégations."
+  ]
+}

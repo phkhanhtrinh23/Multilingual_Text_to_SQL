@@ -1,0 +1,70 @@
+{
+  "sample_rows": [
+    {
+      "ID_GEO": "geoId/47157",
+      "VARIABLE": "UNITS_3_4_UNITS_M_YTD",
+      "NOM_VARIABLE": "Three- and Four-Family Buildings units: Estimates With Imputation (Monthly, Year-to-Date)",
+      "DATE": "2008-02-29",
+      "VALEUR": "8.00000000",
+      "UNITE": "Count"
+    },
+    {
+      "ID_GEO": "geoId/C27100",
+      "VARIABLE": "BLDGS_5_UNITS_M",
+      "NOM_VARIABLE": "Five-or-More Family Buildings: Estimates With Imputation (Monthly, Current Month)",
+      "DATE": "2012-09-30",
+      "VALEUR": "0E-8",
+      "UNITE": "Count"
+    },
+    {
+      "ID_GEO": "geoId/17135",
+      "VARIABLE": "UNITS_5_UNITS_REP_M",
+      "NOM_VARIABLE": "Five-or-More Family Buildings units reported: Reported Only Data (Monthly, Current Month)",
+      "DATE": "2024-06-30",
+      "VALEUR": "0E-8",
+      "UNITE": "Count"
+    },
+    {
+      "ID_GEO": "geoId/17163",
+      "VARIABLE": "BLDGS_5_UNITS_M_YTD",
+      "NOM_VARIABLE": "Five-or-More Family Buildings: Estimates With Imputation (Monthly, Year-to-Date)",
+      "DATE": "2003-03-31",
+      "VALEUR": "0E-8",
+      "UNITE": "Count"
+    },
+    {
+      "ID_GEO": "geoId/17097",
+      "VARIABLE": "BLDGS_3_4_UNITS_REP_M",
+      "NOM_VARIABLE": "Three- and Four-Family Buildings reported: Reported Only Data (Monthly, Current Month)",
+      "DATE": "2018-03-31",
+      "VALEUR": "0E-8",
+      "UNITE": "Count"
+    }
+  ],
+  "table_name": "US_REAL_ESTATE_TIMESERIES",
+  "table_fullname": "US_REAL_ESTATE.CYBERSYN.US_REAL_ESTATE_TIMESERIES",
+  "column_names": [
+    "ID_GEO",
+    "UNITE",
+    "NOM_VARIABLE",
+    "DATE",
+    "VALEUR",
+    "VARIABLE"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "DATE",
+    "NUMBER",
+    "TEXT"
+  ],
+  "description": [
+    "Un identifiant unique pour un lieu. Joignable à d'autres tables de géographie, notamment GEOGRAPHY_INDEX, GEOGRAPHY_RELATIONSHIPS et GEOGRAPHY_CHARACTERISTICS.",
+    "Unité de mesure pour la valeur rapportée.",
+    "Nom unique lisible par l'homme pour la variable.",
+    "Date associée à la valeur.",
+    "Valeur rapportée pour la variable.",
+    "Identifiant unique pour une variable, joignable à la table timeseries."
+  ]
+}
