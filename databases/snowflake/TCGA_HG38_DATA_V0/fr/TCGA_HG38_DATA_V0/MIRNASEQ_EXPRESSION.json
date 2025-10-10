@@ -1,0 +1,86 @@
+{
+  "table_name": "MIRNASEQ_EXPRESSION",
+  "table_fullname": "TCGA_HG38_DATA_V0.TCGA_HG38_DATA_V0.MIRNASEQ_EXPRESSION",
+  "column_names": [
+    "code_barcode_aliquot",
+    "cartographie_croisee",
+    "nom_court_projet",
+    "code_barcode_cas",
+    "lectures_par_million_miRNA_cartographiees",
+    "comptage_lectures",
+    "id_mirna",
+    "code_barcode_echantillon"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "FLOAT",
+    "NUMBER",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Code-barres d'origine de l'aliquote TCGA, par exemple TCGA-12-1089-01A-01D-0517-01",
+    "Une lecture courte d'isomiR peut correspondre exactement aux brins matures dont les séquences sont similaires mais pas identiques, lorsque la séquence de lecture ne capture pas les bases qui distinguent ces miRNAs (par exemple `hsa-mir-30a` à 6q13 et `hsa-mir-30e` à 1p34.2, qui diffèrent à la position 18). Nous signalons une telle lecture comme étant croisée, et nous incrémentons le comptage de lecture pour chaque MIMAT auquel elle a été associée. Soit Y ou N -- moins de 2 % sont Y",
+    "Abréviation du nom du projet ; le nom du programme suivi d'une abréviation du nom du projet ; par exemple TCGA-OV, etc.",
+    "Code-barres d'origine du cas TCGA, par exemple TCGA-12-1089  --  notez que chaque cas contient généralement un échantillon de tumeur primaire et un échantillon normal apparié (sang ou tissu adjacent) ; veuillez consulter la table TCGA Biospecimen pour plus de détails",
+    "Comptage de lectures normalisé par lectures totales mappées divisées par 1 million",
+    "Nombre de lectures qui ont été mappées à cette `mirna_id`",
+    "L'un des 1870 identifiants d'miRNA uniques (également appelés symboles) contenus dans cette table, par exemple `hsa-mir-21`  --  des informations de référence pertinentes peuvent être trouvées dans le jeu de données `isb-cgc:genome_reference` dans les tables `miRBase_v20` et `miRBase_v20_hsa_gff3`",
+    "Code-barres d'origine de l'échantillon TCGA, par exemple TCGA-12-1089-01A  --  notez qu'un échantillon peut avoir plusieurs aliquotes et donc plusieurs ensembles de segmentations de CN ; assurez-vous donc d'utiliser GROUP BY de manière appropriée dans vos requêtes"
+  ],
+  "sample_rows": [
+    {
+      "nom_court_projet": "TCGA-OV",
+      "code_barcode_cas": "TCGA-04-1331",
+      "code_barcode_echantillon": "TCGA-04-1331-01A",
+      "code_barcode_aliquot": "TCGA-04-1331-01A-01R-1569-13",
+      "id_mirna": "hsa-mir-9-3",
+      "comptage_lectures": 15,
+      "lectures_par_million_miRNA_cartographiees": 4.31216,
+      "cartographie_croisee": "N"
+    },
+    {
+      "nom_court_projet": "TCGA-OV",
+      "code_barcode_cas": "TCGA-04-1331",
+      "code_barcode_echantillon": "TCGA-04-1331-01A",
+      "code_barcode_aliquot": "TCGA-04-1331-01A-01R-1569-13",
+      "id_mirna": "hsa-mir-3143",
+      "comptage_lectures": 2,
+      "lectures_par_million_miRNA_cartographiees": 0.574955,
+      "cartographie_croisee": "N"
+    },
+    {
+      "nom_court_projet": "TCGA-OV",
+      "code_barcode_cas": "TCGA-04-1331",
+      "code_barcode_echantillon": "TCGA-04-1331-01A",
+      "code_barcode_aliquot": "TCGA-04-1331-01A-01R-1569-13",
+      "id_mirna": "hsa-mir-544b",
+      "comptage_lectures": 2,
+      "lectures_par_million_miRNA_cartographiees": 0.574955,
+      "cartographie_croisee": "N"
+    },
+    {
+      "nom_court_projet": "TCGA-OV",
+      "code_barcode_cas": "TCGA-04-1331",
+      "code_barcode_echantillon": "TCGA-04-1331-01A",
+      "code_barcode_aliquot": "TCGA-04-1331-01A-01R-1569-13",
+      "id_mirna": "hsa-mir-105-2",
+      "comptage_lectures": 5,
+      "lectures_par_million_miRNA_cartographiees": 1.437387,
+      "cartographie_croisee": "N"
+    },
+    {
+      "nom_court_projet": "TCGA-OV",
+      "code_barcode_cas": "TCGA-04-1331",
+      "code_barcode_echantillon": "TCGA-04-1331-01A",
+      "code_barcode_aliquot": "TCGA-04-1331-01A-01R-1569-13",
+      "id_mirna": "hsa-mir-210",
+      "comptage_lectures": 191,
+      "lectures_par_million_miRNA_cartographiees": 54.908173,
+      "cartographie_croisee": "N"
+    }
+  ]
+}
