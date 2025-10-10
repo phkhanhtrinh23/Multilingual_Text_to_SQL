@@ -1,0 +1,165 @@
+{
+  "table_name": "mechanismOfAction",
+  "table_fullname": "open-targets-prod.platform.mechanismOfAction",
+  "column_names": [
+    "actionType",
+    "mechanismOfAction",
+    "chemblIds",
+    "targetName",
+    "targetType",
+    "targets",
+    "references"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+    "STRING",
+    "STRING",
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+    "STRUCT<list ARRAY<STRUCT<element STRUCT<source STRING, ids STRUCT<list ARRAY<STRUCT<element STRING>>>, urls STRUCT<list ARRAY<STRUCT<element STRING>>>>>>>"
+  ],
+  "nested_column_names": [
+    "actionTypeの種類",
+    "mechanismOfActionの作用機序",
+    "chemblIdsのChEMBL識別子",
+    "chemblIds.listの一覧",
+    "chemblIds.list.elementの要素",
+    "targetNameの標的名",
+    "targetTypeの種類",
+    "targetsの標的一覧",
+    "targets.listの一覧",
+    "targets.list.elementの要素",
+    "referencesの参考文献",
+    "references.listの一覧",
+    "references.list.elementの要素",
+    "references.list.element.sourceの出典",
+    "references.list.element.idsの識別子",
+    "references.list.element.ids.listの一覧",
+    "references.list.element.ids.list.elementの要素",
+    "references.list.element.urlsのURL",
+    "references.list.element.urls.listの一覧",
+    "references.list.element.urls.list.elementの要素"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+    "ARRAY<STRUCT<element STRING>>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+    "ARRAY<STRUCT<element STRING>>",
+    "STRING",
+    "STRUCT<list ARRAY<STRUCT<element STRUCT<source STRING, ids STRUCT<list ARRAY<STRUCT<element STRING>>>, urls STRUCT<list ARRAY<STRUCT<element STRING>>>>>>>",
+    "ARRAY<STRUCT<element STRUCT<source STRING, ids STRUCT<list ARRAY<STRUCT<element STRING>>>, urls STRUCT<list ARRAY<STRUCT<element STRING>>>>>>",
+    "STRUCT<source STRING, ids STRUCT<list ARRAY<STRUCT<element STRING>>>, urls STRUCT<list ARRAY<STRUCT<element STRING>>>>",
+    "STRING",
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+    "ARRAY<STRUCT<element STRING>>",
+    "STRING",
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+    "ARRAY<STRUCT<element STRING>>",
+    "STRING"
+  ],
+  "description": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "sample_rows": [
+    {
+      "actionTypeの種類": "OTHER",
+      "mechanismOfActionの作用機序": "CD22 other",
+      "chemblIdsのChEMBL識別子": {
+        "list": "[{'element': 'CHEMBL2108228'}]"
+      },
+      "targetNameの標的名": "CD22",
+      "targetTypeの種類": "single protein",
+      "targetsの標的一覧": {
+        "list": "[{'element': 'ENSG00000012124'}]"
+      },
+      "referencesの参考文献": {
+        "list": "[{'element': {'source': 'PubMed', 'ids': {'list': array([{'element': '12537673'}], dtype=object)}, 'urls': {'list': array([{'element': 'http://europepmc.org/abstract/MED/12537673'}],\n       dtype=object)}}}                                                                                                                                                               ]"
+      }
+    },
+    {
+      "actionTypeの種類": "OTHER",
+      "mechanismOfActionの作用機序": "Basigin other",
+      "chemblIdsのChEMBL識別子": {
+        "list": "[{'element': 'CHEMBL2109193'}]"
+      },
+      "targetNameの標的名": "Basigin",
+      "targetTypeの種類": "single protein",
+      "targetsの標的一覧": {
+        "list": "[{'element': 'ENSG00000172270'}]"
+      },
+      "referencesの参考文献": {
+        "list": "[{'element': {'source': 'PubMed', 'ids': {'list': array([{'element': '17110457'}], dtype=object)}, 'urls': {'list': array([{'element': 'http://europepmc.org/abstract/MED/17110457'}],\n       dtype=object)}}}                                                                                                                                                               ]"
+      }
+    },
+    {
+      "actionTypeの種類": "OTHER",
+      "mechanismOfActionの作用機序": "Mucin-1 other",
+      "chemblIdsのChEMBL識別子": {
+        "list": "[{'element': 'CHEMBL2109637'}]"
+      },
+      "targetNameの標的名": "Mucin-1",
+      "targetTypeの種類": "single protein",
+      "targetsの標的一覧": {
+        "list": "[{'element': 'ENSG00000185499'}]"
+      },
+      "referencesの参考文献": {
+        "list": "[{'element': {'source': 'PubMed', 'ids': {'list': array([{'element': '1391628'}, {'element': '8050089'}], dtype=object)}, 'urls': {'list': array([{'element': 'http://europepmc.org/abstract/MED/1391628'},\n        {'element': 'http://europepmc.org/abstract/MED/8050089'}],\n       dtype=object)}}}                                                                                                                                                                                    ]"
+      }
+    },
+    {
+      "actionTypeの種類": "OTHER",
+      "mechanismOfActionの作用機序": "Mucin-1 other",
+      "chemblIdsのChEMBL識別子": {
+        "list": "[{'element': 'CHEMBL2108341'}]"
+      },
+      "targetNameの標的名": "Mucin-1",
+      "targetTypeの種類": "single protein",
+      "targetsの標的一覧": {
+        "list": "[{'element': 'ENSG00000185499'}]"
+      },
+      "referencesの参考文献": {
+        "list": "[{'element': {'source': 'PubMed', 'ids': {'list': array([{'element': '19811637'}, {'element': '21878535'}], dtype=object)}, 'urls': {'list': array([{'element': 'http://europepmc.org/abstract/MED/19811637'},\n        {'element': 'http://europepmc.org/abstract/MED/21878535'}],\n       dtype=object)}}}                                                                                                                                                                                       ]"
+      }
+    },
+    {
+      "actionTypeの種類": "OTHER",
+      "mechanismOfActionの作用機序": "Mucin-1 other",
+      "chemblIdsのChEMBL識別子": {
+        "list": "[{'element': 'CHEMBL2109364'}]"
+      },
+      "targetNameの標的名": "Mucin-1",
+      "targetTypeの種類": "single protein",
+      "targetsの標的一覧": {
+        "list": "[{'element': 'ENSG00000185499'}]"
+      },
+      "referencesの参考文献": {
+        "list": "[{'element': {'source': 'PubMed', 'ids': {'list': array([{'element': '11839249'}], dtype=object)}, 'urls': {'list': array([{'element': 'http://europepmc.org/abstract/MED/11839249'}],\n       dtype=object)}}}                                                                                                                                                               ]"
+      }
+    }
+  ]
+}
