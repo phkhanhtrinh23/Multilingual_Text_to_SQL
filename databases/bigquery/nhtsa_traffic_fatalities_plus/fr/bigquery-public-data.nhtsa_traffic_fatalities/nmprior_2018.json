@@ -1,0 +1,96 @@
+{
+  "table_name": " nmprior_2018",
+  "table_fullname": "bigquery-public-data.nhtsa_traffic_fatalities. nmprior_2018",
+  "column_names": [
+    "numero_d_etat",
+    "nom_d_etat",
+    "numero_consecutif",
+    "numero_de_vehicule",
+    "numero_de_personne",
+    "circonstances_d_action_de_non_motoriste",
+    "nom_de_circonstances_d_action_de_non_motoriste"
+  ],
+  "column_types": [
+    "INT64",
+    "STRING",
+    "INT64",
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "numero_d_etat",
+    "nom_d_etat",
+    "numero_consecutif",
+    "numero_de_vehicule",
+    "numero_de_personne",
+    "circonstances_d_action_de_non_usager_de_la_route",
+    "nom_de_circonstances_d_action_de_non_usager_de_la_route"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "STRING",
+    "INT64",
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING"
+  ],
+  "description": [
+    "Cet élément de données identifie l'état dans lequel l'accident s'est produit. Les codes sont issus de la publication de l'Administration des services généraux (GSA) sur les codes de localisation géographique mondiaux (GLC). Pour plus d'informations sur les codes, veuillez consulter la section <C1/V1/D1/PC1/P1/NM1 State Number> du pdf : https://crashstats.nhtsa.dot.gov/Api/Public/ViewPublication/812315",
+    "Cet élément de données identifie l'état dans lequel l'accident s'est produit. Les codes sont issus de la publication de l'Administration des services généraux (GSA) sur les codes de localisation géographique mondiaux (GLC).",
+    "Cet élément de données est le numéro de dossier unique attribué à chaque accident. Il figure sur chaque fichier de données et est utilisé pour fusionner les informations des fichiers de données. xxxxxx Deux caractères pour le code d'état suivis de quatre caractères pour le numéro de dossier",
+    "Cet élément de données est le numéro consécutif attribué à chaque véhicule dans le dossier. Cet élément de données figure sur chaque fichier de données au niveau du véhicule et est utilisé en conjonction avec l'élément de données ST_CASE pour fusionner les informations des fichiers de données au niveau du véhicule. 000-999 Numéro attribué de véhicule à moteur",
+    "Cet élément de données est le numéro consécutif attribué à chaque personne dans le dossier (c'est-à-dire chaque occupant, piéton ou non-motoriste impliqué dans l'accident). Cet élément de données figure sur chaque fichier de données au niveau de la personne et est utilisé en conjonction avec l'élément de données ST_CASE (et parfois l'élément de données VEH_NO) pour fusionner les informations des fichiers de données au niveau de la personne. 001-999 Numéro de personne attribué",
+    "Cet élément de données décrit l'action (ou les actions) du non-motoriste immédiatement avant leur implication dans l'accident. Pour plus d'informations sur les codes, veuillez consulter la section <NM11 Non-Motorist Action/Circumstances> du pdf : https://crashstats.nhtsa.dot.gov/Api/Public/ViewPublication/812315",
+    "Cet élément de données décrit l'action (ou les actions) du non-motoriste immédiatement avant leur implication dans l'accident."
+  ],
+  "sample_rows": [
+    {
+      "numero_d_etat": 4,
+      "nom_d_etat": "Arizona",
+      "numero_consecutif": 40643,
+      "numero_de_vehicule": 0,
+      "numero_de_personne": 1,
+      "circonstances_d_action_de_non_usager_de_la_route": 1,
+      "nom_de_circonstances_d_action_de_non_usager_de_la_route": "Going To or From School (K-12)"
+    },
+    {
+      "numero_d_etat": 8,
+      "nom_d_etat": "Colorado",
+      "numero_consecutif": 80018,
+      "numero_de_vehicule": 0,
+      "numero_de_personne": 1,
+      "circonstances_d_action_de_non_usager_de_la_route": 1,
+      "nom_de_circonstances_d_action_de_non_usager_de_la_route": "Going To or From School (K-12)"
+    },
+    {
+      "numero_d_etat": 8,
+      "nom_d_etat": "Colorado",
+      "numero_consecutif": 80133,
+      "numero_de_vehicule": 0,
+      "numero_de_personne": 1,
+      "circonstances_d_action_de_non_usager_de_la_route": 1,
+      "nom_de_circonstances_d_action_de_non_usager_de_la_route": "Going To or From School (K-12)"
+    },
+    {
+      "numero_d_etat": 8,
+      "nom_d_etat": "Colorado",
+      "numero_consecutif": 80170,
+      "numero_de_vehicule": 0,
+      "numero_de_personne": 1,
+      "circonstances_d_action_de_non_usager_de_la_route": 1,
+      "nom_de_circonstances_d_action_de_non_usager_de_la_route": "Going To or From School (K-12)"
+    },
+    {
+      "numero_d_etat": 13,
+      "nom_d_etat": "Georgia",
+      "numero_consecutif": 131144,
+      "numero_de_vehicule": 0,
+      "numero_de_personne": 1,
+      "circonstances_d_action_de_non_usager_de_la_route": 1,
+      "nom_de_circonstances_d_action_de_non_usager_de_la_route": "Going To or From School (K-12)"
+    }
+  ]
+}

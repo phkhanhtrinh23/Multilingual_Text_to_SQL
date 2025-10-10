@@ -1,0 +1,86 @@
+{
+  "table_name": "shapes",
+  "table_fullname": "bigquery-public-data.san_francisco_transit_muni.shapes",
+  "column_names": [
+    "shape_id",
+    "shape_point_sequence",
+    "shape_point_lat",
+    "shape_point_lon",
+    "shape_point_geom",
+    "shape_distance_traveled"
+  ],
+  "column_types": [
+    "STRING",
+    "INT64",
+    "FLOAT64",
+    "FLOAT64",
+    "GEOGRAPHY",
+    "FLOAT64"
+  ],
+  "nested_column_names": [
+    "shape_id",
+    "shape_point_sequence",
+    "shape_point_lat",
+    "shape_point_lon",
+    "shape_point_geom",
+    "shape_distance_traveled"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "INT64",
+    "FLOAT64",
+    "FLOAT64",
+    "GEOGRAPHY",
+    "FLOAT64"
+  ],
+  "description": [
+    "各形状を一意に識別します",
+    "形状ポイントの緯度と経度を、その形状に沿った順序と関連付けます。shape_pt_sequence の値は経路全体を通して増加している必要がありますが、連続している必要はありません。",
+    "形状ポイントの緯度を対応する shape ID に関連付けます。",
+    "形状ポイントの経度を対応する shape ID に関連付けます。",
+    "ポイントの緯度と経度の地理的表現",
+    "このレコードで指定された点まで、最初の形状点から形状に沿って実際に移動した距離を提供します。この情報により、経路の一部を地図上で表示する際にどの程度の形状を描画するかを経路プランナーが判断できます。shape_dist_traveled に使用される値は shape_pt_sequence とともに増加している必要があります：経路に沿った逆方向の移動を示すためには使用できません。"
+  ],
+  "sample_rows": [
+    {
+      "shape_id": "173975",
+      "shape_point_sequence": 197,
+      "shape_point_lat": 37.715079,
+      "shape_point_lon": -122.424956,
+      "shape_point_geom": "POINT(-122.424956 37.715079)",
+      "shape_distance_traveled": 14437.0
+    },
+    {
+      "shape_id": "173976",
+      "shape_point_sequence": 195,
+      "shape_point_lat": 37.715079,
+      "shape_point_lon": -122.424956,
+      "shape_point_geom": "POINT(-122.424956 37.715079)",
+      "shape_distance_traveled": 14391.0
+    },
+    {
+      "shape_id": "174183",
+      "shape_point_sequence": 283,
+      "shape_point_lat": 37.832971,
+      "shape_point_lon": -122.538276,
+      "shape_point_geom": "POINT(-122.538276 37.832971)",
+      "shape_distance_traveled": 21512.0
+    },
+    {
+      "shape_id": "174271",
+      "shape_point_sequence": 92,
+      "shape_point_lat": 37.760837,
+      "shape_point_lon": -122.440596,
+      "shape_point_geom": "POINT(-122.440596 37.760837)",
+      "shape_distance_traveled": 5348.0
+    },
+    {
+      "shape_id": "174272",
+      "shape_point_sequence": 185,
+      "shape_point_lat": 37.760837,
+      "shape_point_lon": -122.440596,
+      "shape_point_geom": "POINT(-122.440596 37.760837)",
+      "shape_distance_traveled": 6161.0
+    }
+  ]
+}
