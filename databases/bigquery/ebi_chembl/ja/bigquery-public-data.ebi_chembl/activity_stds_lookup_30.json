@@ -1,0 +1,86 @@
+{
+  "table_name": "activity_stds_lookup_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.activity_stds_lookup_30",
+  "column_names": [
+    "標準_操作_ID",
+    "標準_種類",
+    "定義",
+    "標準_単位",
+    "正常_範囲_最小値",
+    "正常_範囲_最大値"
+  ],
+  "column_types": [
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "FLOAT64"
+  ],
+  "nested_column_names": [
+    "std_act_id",
+    "standard_type",
+    "definition",
+    "standard_units",
+    "normal_range_min",
+    "normal_range_max"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "FLOAT64"
+  ],
+  "description": [
+    "主キー。",
+    "activities テーブル内の他の published_types が変換された standard_type。",
+    "standard_type の説明/定義。",
+    "この standard_type に適用され、他の published_units が変換される単位。注意: standard_type は複数の許容される standard_unit を持つ場合があり、そのためこのテーブルに複数の行が存在することがあります。",
+    "この活動タイプに対して妥当である可能性が高い最小値。これはあくまで概算であり、これより低い妥当な値が存在する可能性があるため、使用前にそれらを検証することが望ましい場合があります。特定の standard_type/units に対して、activities テーブル内でこの閾値を下回る値は data_validity_comment が 'Outside typical range' としてフラグ付けされます。",
+    "この活動タイプに対して妥当である可能性が高い最大値。これはあくまで概算であり、これより高い妥当な値が存在する可能性があるため、使用前にそれらを検証することが望ましい場合があります。特定の standard_type/units に対して、activities テーブル内でこの閾値を上回る値は data_validity_comment が 'Outside typical range' としてフラグ付けされます。"
+  ],
+  "sample_rows": [
+    {
+      "std_act_id": 81,
+      "standard_type": "HCT",
+      "definition": "The percentage of a whole blood specimen that is composed of red blood cells (erythrocytes).",
+      "standard_units": "%",
+      "normal_range_min": null,
+      "normal_range_max": null
+    },
+    {
+      "std_act_id": 95,
+      "standard_type": "MCHC",
+      "definition": "A quantitative measurement of the mean amount of hemoglobin per erythrocytes in a specified volume of a biological specimen.",
+      "standard_units": "%",
+      "normal_range_min": null,
+      "normal_range_max": null
+    },
+    {
+      "std_act_id": 103,
+      "standard_type": "EOSLE",
+      "definition": "A relative measurement (ratio or percentage) of the eosinophils to leukocytes in a biological specimen.",
+      "standard_units": "%",
+      "normal_range_min": null,
+      "normal_range_max": null
+    },
+    {
+      "std_act_id": 104,
+      "standard_type": "LYMLE",
+      "definition": "A relative measurement (ratio or percentage) of the lymphocytes to leukocytes in a biological specimen.",
+      "standard_units": "%",
+      "normal_range_min": null,
+      "normal_range_max": null
+    },
+    {
+      "std_act_id": 106,
+      "standard_type": "BASOLE",
+      "definition": "A relative measurement (ratio or percentage) of the basophils to leukocytes in a biological specimen.",
+      "standard_units": "%",
+      "normal_range_min": null,
+      "normal_range_max": null
+    }
+  ]
+}
