@@ -1,0 +1,94 @@
+{
+  "table_name": "PANCANMIRS_EBADJONPROTOCOLPLATFORMWITHOUTREPSWITHUNCORRECTMIRS_08_04_16_FILTERED",
+  "table_fullname": "PANCANCER_ATLAS_1.PANCANCER_ATLAS_FILTERED.PANCANMIRS_EBADJONPROTOCOLPLATFORMWITHOUTREPSWITHUNCORRECTMIRS_08_04_16_FILTERED",
+  "column_names": [
+    "CodeBarreParticipant",
+    "Etude",
+    "ID",
+    "TypeEchantillon",
+    "CodeLettreTypeEchantillon",
+    "miRNAexpr",
+    "CodeBarreAliquot",
+    "Corrigé",
+    "CodeBarreEchantillon"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "FLOAT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Identifiant de code à barres TCGA pour le participant à l'étude, par exemple TCGA-02-0001",
+    "Abréviation d'étude TCGA, par exemple LAML. La liste complète est disponible à https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/tcga-study-abbreviations",
+    "Un des 1870 identifiants de miRNA uniques (également appelés symboles) contenus dans ce tableau, par exemple hsa-mir-21 -- des informations de référence pertinentes peuvent être trouvées dans le jeu de données isb-cgc:genome_reference dans les tables miRBase_v20 et miRBase_v20_hsa_gff3",
+    "Il existe 10 types d'échantillons : Sang Normal Dérivé, Tumeur Solide Primaire, Tissu Solide Normal, Tumeur Solide Récurrente, Métastatique, Complémentaire - Nouveau Primaire, Cancer Dérivé du Sang Primaire - Sang Péritphérique, Cellule Buccale Normale, Complémentaire Métastatique, Moelle Osseuse Normale",
+    "Code lettre du type d'échantillon en utilisant les normes TCGA, par exemple TPN, EBV. La liste complète est disponible à https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/sample-type-codes",
+    "Abondance normalisée (c'est-à-dire, lectures par million, RPM)",
+    "Code à barres de l'aliquote TCGA, par exemple TCGA-12-1089-01A-01D-0517-28",
+    "Indicateur corrigé et non corrigé qui spécifie si les miRs ont été corrigés par la méthode EBN+. Voir plus de détails à https://www.synapse.org/#!Synapse:syn6171109",
+    "Code à barres de l'échantillon de biospécimen, par exemple TCGA-13-1489-02A"
+  ],
+  "sample_rows": [
+    {
+      "CodeBarreParticipant": "TCGA-04-1331",
+      "CodeBarreEchantillon": "TCGA-04-1331-01A",
+      "CodeBarreAliquot": "TCGA-04-1331-01A-01R-1569-13",
+      "CodeLettreTypeEchantillon": "TP",
+      "TypeEchantillon": "Primary solid Tumor",
+      "Etude": "OV",
+      "ID": "hsa-miR-129-2-3p",
+      "miRNAexpr": 1.924155,
+      "Corrigé": "Corrected"
+    },
+    {
+      "CodeBarreParticipant": "TCGA-04-1331",
+      "CodeBarreEchantillon": "TCGA-04-1331-01A",
+      "CodeBarreAliquot": "TCGA-04-1331-01A-01R-1569-13",
+      "CodeLettreTypeEchantillon": "TP",
+      "TypeEchantillon": "Primary solid Tumor",
+      "Etude": "OV",
+      "ID": "hsa-miR-3130-5p",
+      "miRNAexpr": 35.184554,
+      "Corrigé": "Corrected"
+    },
+    {
+      "CodeBarreParticipant": "TCGA-04-1331",
+      "CodeBarreEchantillon": "TCGA-04-1331-01A",
+      "CodeBarreAliquot": "TCGA-04-1331-01A-01R-1569-13",
+      "CodeLettreTypeEchantillon": "TP",
+      "TypeEchantillon": "Primary solid Tumor",
+      "Etude": "OV",
+      "ID": "hsa-miR-454-3p",
+      "miRNAexpr": 0.274879,
+      "Corrigé": "Corrected"
+    },
+    {
+      "CodeBarreParticipant": "TCGA-04-1331",
+      "CodeBarreEchantillon": "TCGA-04-1331-01A",
+      "CodeBarreAliquot": "TCGA-04-1331-01A-01R-1569-13",
+      "CodeLettreTypeEchantillon": "TP",
+      "TypeEchantillon": "Primary solid Tumor",
+      "Etude": "OV",
+      "ID": "hsa-miR-501-5p",
+      "miRNAexpr": 7.696621,
+      "Corrigé": "Corrected"
+    },
+    {
+      "CodeBarreParticipant": "TCGA-04-1331",
+      "CodeBarreEchantillon": "TCGA-04-1331-01A",
+      "CodeBarreAliquot": "TCGA-04-1331-01A-01R-1569-13",
+      "CodeLettreTypeEchantillon": "TP",
+      "TypeEchantillon": "Primary solid Tumor",
+      "Etude": "OV",
+      "ID": "hsa-miR-3613-3p",
+      "miRNAexpr": 1.099517,
+      "Corrigé": "Corrected"
+    }
+  ]
+}
