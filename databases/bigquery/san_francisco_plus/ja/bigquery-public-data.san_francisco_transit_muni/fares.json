@@ -1,0 +1,96 @@
+{
+  "table_name": "fares",
+  "table_fullname": "bigquery-public-data.san_francisco_transit_muni.fares",
+  "column_names": [
+    "運賃_id",
+    "乗客_id",
+    "乗客_説明",
+    "料金",
+    "支払_方法",
+    "乗り換え_許可",
+    "乗り換え_時間"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "NUMERIC",
+    "STRING",
+    "STRING",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "fare_id",
+    "rider_id",
+    "rider_desc",
+    "price",
+    "payment_method",
+    "transfers_permitted",
+    "transfer_duration"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "NUMERIC",
+    "STRING",
+    "STRING",
+    "INT64"
+  ],
+  "description": [
+    "運賃クラスの一意の識別子。",
+    "乗客カテゴリの一意の識別子。乗客カテゴリは、異なる個人グループに対して異なる料金を割り当てるために使用されます。",
+    "乗客カテゴリのテキストによる説明",
+    "運賃価格（USD）を含む",
+    "運賃をいつ支払う必要があるかを示します。 このフィールドの有効な値は次のとおりです: -  during: 乗車時に運賃が支払われることを示す -  before: 乗車前に運賃が支払われなければならないことを示す",
+    "この運賃で許可される乗り換え回数を指定します。 - 0: この運賃では乗り換えは許可されません。 - 1: この運賃では1回の乗り換えが許可されます。 - 2: この運賃では2回の乗り換えが許可されます。 - NULL: この運賃では乗り換えが無制限に許可されます。",
+    "乗り換えが無効になるまでの時間（秒）を指定します。transfers_permitted が 0 の値と併用される場合、transfer_duration フィールドは乗り換えが許可されない運賃のチケットが有効である期間を示します。"
+  ],
+  "sample_rows": [
+    {
+      "fare_id": "5398",
+      "rider_id": "6",
+      "rider_desc": "Disabled",
+      "price": "3.000000000",
+      "payment_method": "0",
+      "transfers_permitted": null,
+      "transfer_duration": 5400
+    },
+    {
+      "fare_id": "5398",
+      "rider_id": "5",
+      "rider_desc": "Youth",
+      "price": "3.000000000",
+      "payment_method": "0",
+      "transfers_permitted": null,
+      "transfer_duration": 5400
+    },
+    {
+      "fare_id": "5398",
+      "rider_id": "3",
+      "rider_desc": "Child",
+      "price": "3.000000000",
+      "payment_method": "0",
+      "transfers_permitted": null,
+      "transfer_duration": 5400
+    },
+    {
+      "fare_id": "5398",
+      "rider_id": "2",
+      "rider_desc": "Senior",
+      "price": "3.000000000",
+      "payment_method": "0",
+      "transfers_permitted": null,
+      "transfer_duration": 5400
+    },
+    {
+      "fare_id": "5399",
+      "rider_id": "6",
+      "rider_desc": "Disabled",
+      "price": "7.000000000",
+      "payment_method": "0",
+      "transfers_permitted": "0.0",
+      "transfer_duration": 0
+    }
+  ]
+}
