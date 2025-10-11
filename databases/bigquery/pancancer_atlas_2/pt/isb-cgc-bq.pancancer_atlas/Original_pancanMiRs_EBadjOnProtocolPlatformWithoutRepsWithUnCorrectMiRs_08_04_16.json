@@ -1,0 +1,66 @@
+{
+  "table_name": "Original_pancanMiRs_EBadjOnProtocolPlatformWithoutRepsWithUnCorrectMiRs_08_04_16",
+  "table_fullname": "isb-cgc-bq.pancancer_atlas.Original_pancanMiRs_EBadjOnProtocolPlatformWithoutRepsWithUnCorrectMiRs_08_04_16",
+  "column_names": [
+    "ID",
+    "Corrigido",
+    "AliquotBarcode",
+    "miRNAExp"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64"
+  ],
+  "nested_column_names": [
+    "ID",
+    "Corrigido",
+    "AliquotBarcode",
+    "miRNAExp"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64"
+  ],
+  "description": [
+    "Uma das 1870 ids de miRNA únicas (também conhecidas como símbolos) contidas nesta tabela, por exemplo, hsa-mir-21 -- informações de referência relevantes podem ser encontradas no conjunto de dados isb-cgc:genome_reference nas tabelas miRBase_v20 e miRBase_v20_hsa_gff3",
+    "Indicador corrigido e não corrigido que especifica se os miRs foram corrigidos pelo método EBN+. Veja mais detalhes em https://www.synapse.org/#!Synapse:syn6171109",
+    "Código de barras do aliquote TCGA, por exemplo, TCGA-12-1089-01A-01D-0517-28",
+    "Abundância normalizada (ou seja, leituras por milhão, RPM)"
+  ],
+  "sample_rows": [
+    {
+      "ID": "hsa-miR-1",
+      "Corrigido": "Corrected",
+      "AliquotBarcode": "TCGA-A2-A0EW-01A-21R-A114-13",
+      "miRNAExp": 5.528753
+    },
+    {
+      "ID": "hsa-miR-1",
+      "Corrigido": "Corrected",
+      "AliquotBarcode": "TCGA-E9-A1N3-01A-12R-A156-13",
+      "miRNAExp": 3.756076
+    },
+    {
+      "ID": "hsa-miR-1",
+      "Corrigido": "Corrected",
+      "AliquotBarcode": "TCGA-CV-6945-01A-11R-1914-13",
+      "miRNAExp": 242.687442
+    },
+    {
+      "ID": "hsa-miR-1",
+      "Corrigido": "Corrected",
+      "AliquotBarcode": "TCGA-CJ-5680-11A-01R-1540-13",
+      "miRNAExp": 17.337644
+    },
+    {
+      "ID": "hsa-miR-1",
+      "Corrigido": "Corrected",
+      "AliquotBarcode": "TCGA-DD-AADW-01A-11R-A39J-13",
+      "miRNAExp": 15.17737
+    }
+  ]
+}
