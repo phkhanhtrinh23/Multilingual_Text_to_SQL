@@ -1,0 +1,86 @@
+{
+  "sample_rows": [
+    {
+      "VARIABLE": "chf_sek",
+      "NOM_DE_VARIABLE": "CHF/SEK Exchange Rate",
+      "ID_DE_LA_MONNAIE_DE_BASE": "CHF",
+      "ID_DE_LA_MONNAIE_DE_COTE": "SEK",
+      "NOM_DE_LA_MONNAIE_DE_BASE": "Swiss Franc",
+      "NOM_DE_LA_MONNAIE_DE_COTE": "Swedish Krona",
+      "DATE": "2011-03-10",
+      "VALEUR": 6.8232
+    },
+    {
+      "VARIABLE": "usd_try",
+      "NOM_DE_VARIABLE": "USD/TRY Exchange Rate",
+      "ID_DE_LA_MONNAIE_DE_BASE": "USD",
+      "ID_DE_LA_MONNAIE_DE_COTE": "TRY",
+      "NOM_DE_LA_MONNAIE_DE_BASE": "United States Dollar",
+      "NOM_DE_LA_MONNAIE_DE_COTE": "Turkish Lira",
+      "DATE": "2013-03-13",
+      "VALEUR": 1.8111
+    },
+    {
+      "VARIABLE": "usd_mkd",
+      "NOM_DE_VARIABLE": "USD/MKD Exchange Rate",
+      "ID_DE_LA_MONNAIE_DE_BASE": "USD",
+      "ID_DE_LA_MONNAIE_DE_COTE": "MKD",
+      "NOM_DE_LA_MONNAIE_DE_BASE": "United States Dollar",
+      "NOM_DE_LA_MONNAIE_DE_COTE": "Macedonian Denar",
+      "DATE": "2024-04-25",
+      "VALEUR": 57.61
+    },
+    {
+      "VARIABLE": "cad_sgd",
+      "NOM_DE_VARIABLE": "CAD/SGD Exchange Rate",
+      "ID_DE_LA_MONNAIE_DE_BASE": "CAD",
+      "ID_DE_LA_MONNAIE_DE_COTE": "SGD",
+      "NOM_DE_LA_MONNAIE_DE_BASE": "Canadian Dollar",
+      "NOM_DE_LA_MONNAIE_DE_COTE": "Singapore Dollar",
+      "DATE": "2012-12-24",
+      "VALEUR": 1.229
+    },
+    {
+      "VARIABLE": "usd_inr",
+      "NOM_DE_VARIABLE": "USD/INR Exchange Rate",
+      "ID_DE_LA_MONNAIE_DE_BASE": "USD",
+      "ID_DE_LA_MONNAIE_DE_COTE": "INR",
+      "NOM_DE_LA_MONNAIE_DE_BASE": "United States Dollar",
+      "NOM_DE_LA_MONNAIE_DE_COTE": "Indian Rupee",
+      "DATE": "1981-07-28",
+      "VALEUR": 8.98
+    }
+  ],
+  "table_name": "FX_RATES_TIMESERIES",
+  "table_fullname": "FINANCE__ECONOMICS.CYBERSYN.FX_RATES_TIMESERIES",
+  "column_names": [
+    "NOM_DE_LA_MONNAIE_DE_BASE",
+    "VARIABLE",
+    "NOM_DE_LA_MONNAIE_DE_COTE",
+    "VALEUR",
+    "NOM_DE_VARIABLE",
+    "ID_DE_LA_MONNAIE_DE_BASE",
+    "DATE",
+    "ID_DE_LA_MONNAIE_DE_COTE"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "FLOAT",
+    "TEXT",
+    "TEXT",
+    "DATE",
+    "TEXT"
+  ],
+  "description": [
+    "Nom complet de la devise de base",
+    "Un identifiant unique pour le pair de devises",
+    "Nom complet de la devise de quotation",
+    "Prix de la devise de base en termes de devise de quotation",
+    "Un identifiant unique lisible par l'homme pour le pair de devises",
+    "Code de devise ISO 4217 pour la devise de base",
+    "Date pour le taux de change spot étranger",
+    "Code de devise ISO 4217 pour la devise de quotation"
+  ]
+}
