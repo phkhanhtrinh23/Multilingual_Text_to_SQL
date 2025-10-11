@@ -1,0 +1,108 @@
+{
+  "table_name": "calculation",
+  "table_fullname": "bigquery-public-data.sec_quarterly_financials.calculation",
+  "column_names": [
+    "numero_de_submissao",
+    "grupo",
+    "arco",
+    "negativo",
+    "tag_pai",
+    "versao_pai",
+    "tag_filho",
+    "versao_filho",
+    "_PARTITIONTIME"
+  ],
+  "column_types": [
+    "STRING",
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "TIMESTAMP"
+  ],
+  "nested_column_names": [
+    "numero_de_submissao",
+    "grupo",
+    "arco",
+    "negativo",
+    "tag_pai",
+    "versao_pai",
+    "tag_filho",
+    "versao_filho"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "Número de Acesso. A string de 20 caracteres formada pelo número de 18 dígitos atribuído pela Comissão a cada envio do EDGAR. submission_number: [adsh]",
+    "Número sequencial para agrupar arcos em um envio. group: [grp]",
+    "Número sequencial para arcos dentro de um grupo em um envio.",
+    "Indica um peso de -1 (TRUE se o arco for negativo), mas normalmente +1 (FALSE).",
+    "A tag para o pai do arco parent_tag: [ptag]",
+    "A versão da tag para o pai do arco parent_version: [pversion]",
+    "A tag para o filho do arco child_tag: [ctag]",
+    "A versão da tag para o filho do arco child_version: [cversion]"
+  ],
+  "sample_rows": [
+    {
+      "numero_de_submissao": "0001019687-14-002604",
+      "grupo": 1,
+      "arco": 1,
+      "negativo": 1,
+      "tag_pai": "CashPeriodIncreaseDecrease",
+      "versao_pai": "us-gaap/2014",
+      "tag_filho": "CashPeriodIncreaseDecrease",
+      "versao_filho": "us-gaap/2014"
+    },
+    {
+      "numero_de_submissao": "0001019687-14-002569",
+      "grupo": 1,
+      "arco": 1,
+      "negativo": 1,
+      "tag_pai": "CashPeriodIncreaseDecrease",
+      "versao_pai": "us-gaap/2014",
+      "tag_filho": "CashPeriodIncreaseDecrease",
+      "versao_filho": "us-gaap/2014"
+    },
+    {
+      "numero_de_submissao": "0000798359-14-000048",
+      "grupo": 1,
+      "arco": 1,
+      "negativo": 1,
+      "tag_pai": "DiscontinuedOperationIncomeLossFromDiscontinuedOperationDuringPhaseOutPeriodNetOfTax",
+      "versao_pai": "us-gaap/2014",
+      "tag_filho": "DiscontinuedOperationIncomeLossFromDiscontinuedOperationDuringPhaseOutPeriodNetOfTax",
+      "versao_filho": "us-gaap/2014"
+    },
+    {
+      "numero_de_submissao": "0001140361-14-026077",
+      "grupo": 1,
+      "arco": 1,
+      "negativo": 1,
+      "tag_pai": "AllocatedShareBasedCompensationExpenseNetOfTax",
+      "versao_pai": "us-gaap/2014",
+      "tag_filho": "AllocatedShareBasedCompensationExpenseNetOfTax",
+      "versao_filho": "us-gaap/2014"
+    },
+    {
+      "numero_de_submissao": "0001140361-14-026435",
+      "grupo": 1,
+      "arco": 1,
+      "negativo": 1,
+      "tag_pai": "ContractReceivableDueOneYearOrLess",
+      "versao_pai": "us-gaap/2014",
+      "tag_filho": "ContractReceivableDueOneYearOrLess",
+      "versao_filho": "us-gaap/2014"
+    }
+  ]
+}
