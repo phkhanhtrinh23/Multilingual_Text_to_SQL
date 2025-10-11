@@ -1,0 +1,94 @@
+{
+  "sample_rows": [
+    {
+      "ID_DE_L_ENTREPRISE": "ca52d8c892a8ffe6e8368f2bd7a5fca7",
+      "NOM_DE_L_ENTREPRISE": "WYNN RESORTS LTD",
+      "NIVEAU_DE_L_ENTITE": "Corporate",
+      "ID_DE_L_ENTREPRISE_ASSOCIEE": "5a2aaa890644211a8e69ad206ee9d4de",
+      "NOM_DE_L_ENTREPRISE_ASSOCIEE": "WYNN LAS VEGAS LLC",
+      "NIVEAU_DE_L_ENTITE_ASSOCIEE": "Corporate",
+      "TYPE_DE_RELATION": "Parent",
+      "DATE_DE_DEBUT_DE_LA_RELATION": null,
+      "DATE_DE_FIN_DE_LA_RELATION": null
+    },
+    {
+      "ID_DE_L_ENTREPRISE": "61042fb57d4bc5965ff4f0dfa55f3aa2",
+      "NOM_DE_L_ENTREPRISE": "RITZ-CARLTON HOTEL COMPANY LLC",
+      "NIVEAU_DE_L_ENTITE": "Corporate",
+      "ID_DE_L_ENTREPRISE_ASSOCIEE": "d0d371457687b60bbb116b9fc9ae65ea",
+      "NOM_DE_L_ENTREPRISE_ASSOCIEE": "MARRIOTT INTERNATIONAL INC /MD/",
+      "NIVEAU_DE_L_ENTITE_ASSOCIEE": "Corporate",
+      "TYPE_DE_RELATION": "Subsidiary",
+      "DATE_DE_DEBUT_DE_LA_RELATION": null,
+      "DATE_DE_FIN_DE_LA_RELATION": null
+    },
+    {
+      "ID_DE_L_ENTREPRISE": "9d60e1934f9141a0991597d08181e126",
+      "NOM_DE_L_ENTREPRISE": "TOWNEPLACE SUITES BY MARRIOTT",
+      "NIVEAU_DE_L_ENTITE": "Corporate",
+      "ID_DE_L_ENTREPRISE_ASSOCIEE": "d0d371457687b60bbb116b9fc9ae65ea",
+      "NOM_DE_L_ENTREPRISE_ASSOCIEE": "MARRIOTT INTERNATIONAL INC /MD/",
+      "NIVEAU_DE_L_ENTITE_ASSOCIEE": "Corporate",
+      "TYPE_DE_RELATION": "Subsidiary",
+      "DATE_DE_DEBUT_DE_LA_RELATION": null,
+      "DATE_DE_FIN_DE_LA_RELATION": null
+    },
+    {
+      "ID_DE_L_ENTREPRISE": "b5647b2c2c12a1b09f5ce31802833f10",
+      "NOM_DE_L_ENTREPRISE": "WYNDHAM HOTELS & RESORTS, INC.",
+      "NIVEAU_DE_L_ENTITE": "Corporate",
+      "ID_DE_L_ENTREPRISE_ASSOCIEE": "015a8a998d3e9492c6ff9ed4e452d802",
+      "NOM_DE_L_ENTREPRISE_ASSOCIEE": "SUPER 8 WORLDWIDE, INC.",
+      "NIVEAU_DE_L_ENTITE_ASSOCIEE": "Corporate",
+      "TYPE_DE_RELATION": "Parent",
+      "DATE_DE_DEBUT_DE_LA_RELATION": null,
+      "DATE_DE_FIN_DE_LA_RELATION": null
+    },
+    {
+      "ID_DE_L_ENTREPRISE": "b00320b7fdfbd6ecdbe7379e1e1e1d61",
+      "NOM_DE_L_ENTREPRISE": "COMCAST CORP",
+      "NIVEAU_DE_L_ENTITE": "Corporate",
+      "ID_DE_L_ENTREPRISE_ASSOCIEE": "36df5b636ad537c1a94fb35cd7c91f80",
+      "NOM_DE_L_ENTREPRISE_ASSOCIEE": "FANDANGO MEDIA LLC",
+      "NIVEAU_DE_L_ENTITE_ASSOCIEE": "Corporate",
+      "TYPE_DE_RELATION": "Parent",
+      "DATE_DE_DEBUT_DE_LA_RELATION": null,
+      "DATE_DE_FIN_DE_LA_RELATION": null
+    }
+  ],
+  "table_name": "COMPANY_RELATIONSHIPS",
+  "table_fullname": "FINANCE__ECONOMICS.CYBERSYN.COMPANY_RELATIONSHIPS",
+  "column_names": [
+    "NOM_DE_L_ENTREPRISE",
+    "TYPE_DE_RELATION",
+    "DATE_DE_DEBUT_DE_LA_RELATION",
+    "DATE_DE_FIN_DE_LA_RELATION",
+    "ID_DE_L_ENTREPRISE",
+    "NIVEAU_DE_L_ENTITE",
+    "ID_DE_L_ENTREPRISE_ASSOCIEE",
+    "NIVEAU_DE_L_ENTITE_ASSOCIEE",
+    "NOM_DE_L_ENTREPRISE_ASSOCIEE"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "DATE",
+    "DATE",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Le nom de l'entreprise.",
+    "Spécifie le type de relation entre l'entreprise et l'entreprise associée. La valeur est 'Parent' lorsque l'entreprise est la société mère de l'entreprise associée et 'Subsidiary' lorsque l'entreprise est une filiale de l'entreprise associée.",
+    "Le début de l'association d'une entreprise avec l'entreprise associée. Dans les cas où la date de début est inconnue, NULL est attribué.",
+    "La fin de la relation étant valable pour l'entreprise et l'entreprise associée. Dans les cas où une relation est actuellement valable, une date de fin de NULL est attribuée.",
+    "Identifiant unique attribué par Cybersyn à chaque entreprise. Joignable à la table COMPANY_INDEX.",
+    "Décrit le type ou le niveau de l'entité pour une commodité supplémentaire. Actuellement, toutes les entités sont des entités corporatives et sont désignées comme 'Corporate'.",
+    "Identifiant unique attribué par Cybersyn à l'entreprise associée. Joignable à la table COMPANY_INDEX.",
+    "Décrit le type ou le niveau de l'entité associée pour une commodité supplémentaire. Actuellement, toutes les entités sont des entités corporatives et sont désignées comme 'Corporate'.",
+    "Le nom de l'entreprise associée."
+  ]
+}

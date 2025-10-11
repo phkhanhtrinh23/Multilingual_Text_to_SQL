@@ -1,0 +1,62 @@
+{
+  "sample_rows": [
+    {
+      "ID_GEO": "geoId/31127",
+      "VARIABLE": "Local_Area_Unemployment:_Unemployment,_Not_seasonally_adjusted,_Monthly",
+      "NOM_DE_VARIABLE": "Local Area Unemployment: Unemployment, Not seasonally adjusted, Monthly",
+      "VALEUR": 169.0,
+      "DATE": "2013-04-30"
+    },
+    {
+      "ID_GEO": "geoId/22015",
+      "VARIABLE": "Local_Area_Unemployment:_Unemployment_Rate,_Not_seasonally_adjusted,_Monthly",
+      "NOM_DE_VARIABLE": "Local Area Unemployment: Unemployment Rate, Not seasonally adjusted, Monthly",
+      "VALEUR": 0.051,
+      "DATE": "2011-04-30"
+    },
+    {
+      "ID_GEO": "geoId/C39820",
+      "VARIABLE": "State_and_Metro_Employment:_All_Employees,_Financial_Activities,_Not_seasonally_adjusted,_Monthly",
+      "NOM_DE_VARIABLE": "State and Metro Employment: All Employees, Financial Activities, Not seasonally adjusted, Monthly",
+      "VALEUR": 2900.0,
+      "DATE": "2022-07-31"
+    },
+    {
+      "ID_GEO": "geoId/51520",
+      "VARIABLE": "Local_Area_Unemployment:_Employment,_Not_seasonally_adjusted,_Monthly",
+      "NOM_DE_VARIABLE": "Local Area Unemployment: Employment, Not seasonally adjusted, Monthly",
+      "VALEUR": 7328.0,
+      "DATE": "2022-03-31"
+    },
+    {
+      "ID_GEO": "geoId/16",
+      "VARIABLE": "State_and_Metro_Employment:_All_Employees,_Manufacturing,_Not_seasonally_adjusted,_Monthly",
+      "NOM_DE_VARIABLE": "State and Metro Employment: All Employees, Manufacturing, Not seasonally adjusted, Monthly",
+      "VALEUR": 76400.0,
+      "DATE": "2024-01-31"
+    }
+  ],
+  "table_name": "BUREAU_OF_LABOR_STATISTICS_EMPLOYMENT_TIMESERIES",
+  "table_fullname": "FINANCE__ECONOMICS.CYBERSYN.BUREAU_OF_LABOR_STATISTICS_EMPLOYMENT_TIMESERIES",
+  "column_names": [
+    "DATE",
+    "NOM_DE_VARIABLE",
+    "ID_GEO",
+    "VALEUR",
+    "VARIABLE"
+  ],
+  "column_types": [
+    "DATE",
+    "TEXT",
+    "TEXT",
+    "FLOAT",
+    "TEXT"
+  ],
+  "description": [
+    "Date associée à la valeur, qui est définie sur le dernier jour de la période de rapport",
+    "Nom lisible par l'homme pour une variable",
+    "Un identifiant unique pour un lieu, joignable aux tables geography_index/relationships",
+    "Valeur de la métrique",
+    "Un identifiant unique pour une variable joignable à la table attributes"
+  ]
+}

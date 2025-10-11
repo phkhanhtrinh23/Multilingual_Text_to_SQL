@@ -1,0 +1,62 @@
+{
+  "sample_rows": [
+    {
+      "ID_GEO": "censusRegion/03",
+      "VARIABLE": "Average_Price:_All_Ham_(Excluding_Canned_Ham_and_Luncheon_Slices),_per_lb._(453.6_gm)",
+      "NOM_VARIABLE": "Average Price: All Ham (Excluding Canned Ham and Luncheon Slices), per lb. (453.6 gm)",
+      "VALEUR": 2.093,
+      "DATE": "2001-06-30"
+    },
+    {
+      "ID_GEO": "censusRegion/01",
+      "VARIABLE": "Average_Price:_American_processed_cheese,_per_lb._(453.6_gm)",
+      "NOM_VARIABLE": "Average Price: American processed cheese, per lb. (453.6 gm)",
+      "VALEUR": 4.556,
+      "DATE": "2007-08-31"
+    },
+    {
+      "ID_GEO": "censusDivision/05",
+      "VARIABLE": "CPI:_Services_less_rent_of_shelter,_Not_seasonally_adjusted,_Semi-annual,_2017-12_Index_Date",
+      "NOM_VARIABLE": "CPI: Services less rent of shelter, Not seasonally adjusted, Semi-annual, 2017-12 Index Date",
+      "VALEUR": 126.853,
+      "DATE": "2024-06-30"
+    },
+    {
+      "ID_GEO": "geoId/C42660",
+      "VARIABLE": "CPI:_All_items_less_energy,_Not_seasonally_adjusted,_Semi-annual",
+      "NOM_VARIABLE": "CPI: All items less energy, Not seasonally adjusted, Semi-annual",
+      "VALEUR": 153.3,
+      "DATE": "1994-12-31"
+    },
+    {
+      "ID_GEO": "censusRegion/03",
+      "VARIABLE": "CPI:_Gasoline,_unleaded_regular,_Not_seasonally_adjusted,_Monthly",
+      "NOM_VARIABLE": "CPI: Gasoline, unleaded regular, Not seasonally adjusted, Monthly",
+      "VALEUR": 98.0,
+      "DATE": "1990-08-31"
+    }
+  ],
+  "table_name": "BUREAU_OF_LABOR_STATISTICS_PRICE_TIMESERIES",
+  "table_fullname": "FINANCE__ECONOMICS.CYBERSYN.BUREAU_OF_LABOR_STATISTICS_PRICE_TIMESERIES",
+  "column_names": [
+    "ID_GEO",
+    "VALEUR",
+    "VARIABLE",
+    "NOM_VARIABLE",
+    "DATE"
+  ],
+  "column_types": [
+    "TEXT",
+    "FLOAT",
+    "TEXT",
+    "TEXT",
+    "DATE"
+  ],
+  "description": [
+    "Un identifiant unique pour un lieu, joignable aux tables geography_index/relationships",
+    "Valeur de la métrique",
+    "Un identifiant unique pour une variable joignable à la table attributes",
+    "Nom lisible par l'homme pour une variable",
+    "Date associée à la valeur, qui est définie sur le dernier jour de la période de rapport"
+  ]
+}
