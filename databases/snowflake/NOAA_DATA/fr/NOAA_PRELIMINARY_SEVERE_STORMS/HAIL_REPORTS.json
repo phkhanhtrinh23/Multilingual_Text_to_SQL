@@ -1,0 +1,102 @@
+{
+  "table_name": "HAIL_REPORTS",
+  "table_fullname": "NOAA_DATA.NOAA_PRELIMINARY_SEVERE_STORMS.HAIL_REPORTS",
+  "column_names": [
+    "état",
+    "commentaires",
+    "emplacement",
+    "comté",
+    "horodatage",
+    "longitude",
+    "taille",
+    "latitude",
+    "point_de_rapport",
+    "heure"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "NUMBER",
+    "FLOAT",
+    "NUMBER",
+    "FLOAT",
+    "BINARY",
+    "TEXT"
+  ],
+  "description": [
+    "",
+    "",
+    "Emplacement du rapport",
+    "",
+    "Horodatage en UTC",
+    "Longitude à deux décimales",
+    "Taille en 1/100 de pouce (175 = 1,75 pouces)",
+    "Latitude à deux décimales",
+    "",
+    "Heure en UTC"
+  ],
+  "sample_rows": [
+    {
+      "horodatage": 1619299320000000,
+      "heure": "2122",
+      "taille": 125,
+      "emplacement": "1 SSW EW SHELL FISHERIE",
+      "comté": "LEE",
+      "état": "AL",
+      "latitude": 32.67,
+      "longitude": -85.51,
+      "commentaires": "VIA SOCIAL MEDIA. (BMX)",
+      "point_de_rapport": "bytearray(b'\\x01\\x01\\x00\\x00\\x00q=\\n\\xd7\\xa3`U\\xc0\\xf6(\\\\\\x8f\\xc2U@@')"
+    },
+    {
+      "horodatage": 1640894700000000,
+      "heure": "2005",
+      "taille": 100,
+      "emplacement": "1 W LOACHAPOKA",
+      "comté": "LEE",
+      "état": "AL",
+      "latitude": 32.6,
+      "longitude": -85.61,
+      "commentaires": "QUARTER SIZE HAIL IN LOACHAPOKA. (BMX)",
+      "point_de_rapport": "bytearray(b'\\x01\\x01\\x00\\x00\\x00\\xd7\\xa3p=\\ngU\\xc0\\xcd\\xcc\\xcc\\xcc\\xccL@@')"
+    },
+    {
+      "horodatage": 1640897220000000,
+      "heure": "2047",
+      "taille": 175,
+      "emplacement": "SMITHS STATION",
+      "comté": "LEE",
+      "état": "AL",
+      "latitude": 32.54,
+      "longitude": -85.09,
+      "commentaires": "GOLF BALL SIZE HAIL IN SMITHS STATION. (BMX)",
+      "point_de_rapport": "bytearray(b'\\x01\\x01\\x00\\x00\\x00\\xf6(\\\\\\x8f\\xc2EU\\xc0\\x85\\xebQ\\xb8\\x1eE@@')"
+    },
+    {
+      "horodatage": 1619299800000000,
+      "heure": "2130",
+      "taille": 100,
+      "emplacement": "1 SE OZARK",
+      "comté": "DALE",
+      "état": "AL",
+      "latitude": 31.44,
+      "longitude": -85.64,
+      "commentaires": "REPORT VIA SOCIAL MEDIA ON PINE AVE. (TAE)",
+      "point_de_rapport": "bytearray(b'\\x01\\x01\\x00\\x00\\x00)\\\\\\x8f\\xc2\\xf5hU\\xc0r=\\n\\xd7\\xa3p?@')"
+    },
+    {
+      "horodatage": 1619313060000000,
+      "heure": "0111",
+      "taille": 100,
+      "emplacement": "DALEVILLE",
+      "comté": "DALE",
+      "état": "AL",
+      "latitude": 31.29,
+      "longitude": -85.73,
+      "commentaires": "(TAE)",
+      "point_de_rapport": "bytearray(b'\\x01\\x01\\x00\\x00\\x00\\x1f\\x85\\xebQ\\xb8nU\\xc0\\n\\xd7\\xa3p=J?@')"
+    }
+  ]
+}
