@@ -1,0 +1,86 @@
+{
+  "table_name": "significantAdverseDrugReactions",
+  "table_fullname": "open-targets-prod.platform.significantAdverseDrugReactions",
+  "column_names": [
+    "id_chembl",
+    "evento",
+    "contagem",
+    "llr",
+    "valor_critico",
+    "codigo_meddra"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "INT64",
+    "FLOAT64",
+    "FLOAT64",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "id_chembl",
+    "evento",
+    "contagem",
+    "llr",
+    "valor_critico",
+    "codigo_meddra"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "INT64",
+    "FLOAT64",
+    "FLOAT64",
+    "STRING"
+  ],
+  "description": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "sample_rows": [
+    {
+      "id_chembl": "CHEMBL2",
+      "evento": "hypotension",
+      "contagem": 53,
+      "llr": 91.35776972666008,
+      "valor_critico": 6.251299745844193,
+      "codigo_meddra": "10021097"
+    },
+    {
+      "id_chembl": "CHEMBL3",
+      "evento": "jaundice neonatal",
+      "contagem": 43,
+      "llr": 155.15858689508605,
+      "valor_critico": 38.961201902675384,
+      "codigo_meddra": "10023138"
+    },
+    {
+      "id_chembl": "CHEMBL3",
+      "evento": "macular degeneration",
+      "contagem": 114,
+      "llr": 388.47462428933795,
+      "valor_critico": 38.961201902675384,
+      "codigo_meddra": "10025409"
+    },
+    {
+      "id_chembl": "CHEMBL3",
+      "evento": "drug abuse",
+      "contagem": 83,
+      "llr": 86.02875766474244,
+      "valor_critico": 38.961201902675384,
+      "codigo_meddra": "10013654"
+    },
+    {
+      "id_chembl": "CHEMBL3",
+      "evento": "premature baby",
+      "contagem": 150,
+      "llr": 299.56098443422525,
+      "valor_critico": 38.961201902675384,
+      "codigo_meddra": "10036590"
+    }
+  ]
+}
