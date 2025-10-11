@@ -1,0 +1,102 @@
+{
+  "sample_rows": [
+    {
+      "IDMetrique": "B01002_002E",
+      "Type": "Estimate",
+      "IDTableMetrique": "B01002",
+      "DescriptionTableMetrique": "Median age of the population categorized by sex",
+      "TypeUniteMesure": "Aggregate",
+      "CategorieMetrique": "Demographics",
+      "GroupeMetrique": "Essential",
+      "Descripteur1": "Male",
+      "Descripteur2": "",
+      "Descripteur3": ""
+    },
+    {
+      "IDMetrique": "B19051_001E",
+      "Type": "Estimate",
+      "IDTableMetrique": "B19051",
+      "DescriptionTableMetrique": "Earnings of households in the past 12 months",
+      "TypeUniteMesure": "People",
+      "CategorieMetrique": "Income",
+      "GroupeMetrique": "Essential",
+      "Descripteur1": "",
+      "Descripteur2": "",
+      "Descripteur3": ""
+    },
+    {
+      "IDMetrique": "B19051_002E",
+      "Type": "Estimate",
+      "IDTableMetrique": "B19051",
+      "DescriptionTableMetrique": "Earnings of households in the past 12 months",
+      "TypeUniteMesure": "People",
+      "CategorieMetrique": "Income",
+      "GroupeMetrique": "Essential",
+      "Descripteur1": "With earnings",
+      "Descripteur2": "",
+      "Descripteur3": ""
+    },
+    {
+      "IDMetrique": "B19051_003E",
+      "Type": "Estimate",
+      "IDTableMetrique": "B19051",
+      "DescriptionTableMetrique": "Earnings of households in the past 12 months",
+      "TypeUniteMesure": "People",
+      "CategorieMetrique": "Income",
+      "GroupeMetrique": "Essential",
+      "Descripteur1": "No earnings",
+      "Descripteur2": "",
+      "Descripteur3": ""
+    },
+    {
+      "IDMetrique": "B11012_001E",
+      "Type": "Estimate",
+      "IDTableMetrique": "B11012",
+      "DescriptionTableMetrique": "Different types of households based on size and type",
+      "TypeUniteMesure": "People",
+      "CategorieMetrique": "Housing",
+      "GroupeMetrique": "Essential",
+      "Descripteur1": "",
+      "Descripteur2": "",
+      "Descripteur3": ""
+    }
+  ],
+  "table_name": "Dim_CensusMetrics",
+  "table_fullname": "CENSUS_GALAXY__AIML_MODEL_DATA_ENRICHMENT_SAMPLE.PUBLIC.Dim_CensusMetrics",
+  "column_names": [
+    "CategorieMetrique",
+    "Type",
+    "Descripteur2",
+    "DescriptionTableMetrique",
+    "IDTableMetrique",
+    "IDMetrique",
+    "Descripteur1",
+    "Descripteur3",
+    "GroupeMetrique",
+    "TypeUniteMesure"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "La catégorie ou la classification à laquelle appartient la métrique, regroupant les métriques liées ensemble.",
+    "Le type ou la nature de la métrique, indiquant le type de données qu'elle représente, telles que population, logement, éducation, emploi, etc.",
+    "Attribut ou caractéristique descriptif supplémentaire associé à la métrique, fournissant des détails plus spécifiques.",
+    "Une description ou un libellé pour le tableau ou le jeu de données dans l'American Community Survey ou les données du recensement où la métrique est stockée.",
+    "Un identifiant unique pour le tableau ou le jeu de données dans l'American Community Survey ou les données du recensement où la métrique est stockée.",
+    "Un identifiant unique pour une métrique ou une mesure spécifique dans l'American Community Survey ou les données du recensement.",
+    "Un attribut ou une caractéristique descriptive associée à la métrique, fournissant des informations ou un contexte supplémentaires.",
+    "Un autre attribut ou caractéristique descriptive associée à la métrique, fournissant des informations ou des détails supplémentaires.",
+    "Le regroupement de produits décidé par No Fret Data, connecté au déploiement et à la feuille de route de Census Galaxy.",
+    "Le type de données stockées dans `CensusValue` pour chaque `MetricID`. Il est important de regarder ce champ lors du regroupement et de la somme des valeurs en haut ou en bas des niveaux géographiques, car certaines sont des décomptes bruts et d'autres sont des moyennes ou des médianes."
+  ]
+}
