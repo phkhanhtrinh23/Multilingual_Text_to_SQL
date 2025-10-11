@@ -1,0 +1,102 @@
+{
+  "sample_rows": [
+    {
+      "ID_DE_TITRE_PERMID": "8589975674",
+      "TICKER_PRINCIPAL": "EVN",
+      "NOM_DE_TITRE": "EATON VANCE MUNICIPAL INCOME CLOSED FUND",
+      "CLASSE_ACTIF": "Other",
+      "CODE_DE_BOURSE_PRINCIPAL": "NYQ",
+      "NOM_DE_BOURSE_PRINCIPAL": "NYSE CONSOLIDATED",
+      "STATUT_DE_TITRE": "Active",
+      "TICKERS_MONDIAUX": "[\n  \"EVN\",\n  \"XEVNX\"\n]",
+      "CODE_DE_BOURSE": "[\n  \"NAS\",\n  \"NYQ\"\n]",
+      "ID_DE_COTATION_PERMID": "[\n  \"55835369644\",\n  \"55839104515\"\n]"
+    },
+    {
+      "ID_DE_TITRE_PERMID": "8589959375",
+      "TICKER_PRINCIPAL": "LENb",
+      "NOM_DE_TITRE": "LENNAR ORD SHS CLASS B",
+      "CLASSE_ACTIF": "Ordinary Shares",
+      "CODE_DE_BOURSE_PRINCIPAL": "ISS",
+      "NOM_DE_BOURSE_PRINCIPAL": "ISE when trading NYSE and AMEX Stocks",
+      "STATUT_DE_TITRE": "Active",
+      "TICKERS_MONDIAUX": "[\n  \"LENB*\",\n  \"LENb\",\n  \"LNN0\"\n]",
+      "CODE_DE_BOURSE": "[\n  \"FRA\",\n  \"ISS\",\n  \"MEX\"\n]",
+      "ID_DE_COTATION_PERMID": "[\n  \"21627275840\",\n  \"21736829361\",\n  \"55836192793\"\n]"
+    },
+    {
+      "ID_DE_TITRE_PERMID": "18040205046",
+      "TICKER_PRINCIPAL": "XFSLX",
+      "NOM_DE_TITRE": "FIRST EAGLE SENIOR LOAN FUND",
+      "CLASSE_ACTIF": "Other",
+      "CODE_DE_BOURSE_PRINCIPAL": "NAS",
+      "NOM_DE_BOURSE_PRINCIPAL": "NASDAQ CAPITAL MARKET",
+      "STATUT_DE_TITRE": "Inactive",
+      "TICKERS_MONDIAUX": "[\n  \"TSLF\",\n  \"XFSLX\"\n]",
+      "CODE_DE_BOURSE": "[\n  \"NAS\",\n  \"WCB\"\n]",
+      "ID_DE_COTATION_PERMID": "[\n  \"21529763349\",\n  \"21529826402\"\n]"
+    },
+    {
+      "ID_DE_TITRE_PERMID": "8590935543",
+      "TICKER_PRINCIPAL": "TIF*",
+      "NOM_DE_TITRE": "TIFFANY ORD SHS",
+      "CLASSE_ACTIF": "Ordinary Shares",
+      "CODE_DE_BOURSE_PRINCIPAL": "MXQ",
+      "NOM_DE_BOURSE_PRINCIPAL": null,
+      "STATUT_DE_TITRE": "Inactive",
+      "TICKERS_MONDIAUX": "[\n  \"0LFD\",\n  \"0LFDl\",\n  \"TIF*\"\n]",
+      "CODE_DE_BOURSE": "[\n  \"BCO\",\n  \"LSE\",\n  \"MXQ\"\n]",
+      "ID_DE_COTATION_PERMID": "[\n  \"21633621402\",\n  \"21634297966\",\n  \"21667705791\"\n]"
+    },
+    {
+      "ID_DE_TITRE_PERMID": "8590923465",
+      "TICKER_PRINCIPAL": "RWSl",
+      "NOM_DE_TITRE": "RWS HOLDINGS ORD SHS",
+      "CLASSE_ACTIF": "Ordinary Shares",
+      "CODE_DE_BOURSE_PRINCIPAL": "BCO",
+      "NOM_DE_BOURSE_PRINCIPAL": "BATS CHI-X Trade Reporting",
+      "STATUT_DE_TITRE": "Active",
+      "TICKERS_MONDIAUX": "[\n  \"RWJ\",\n  \"RWSl\"\n]",
+      "CODE_DE_BOURSE": "[\n  \"BCO\",\n  \"TDG\"\n]",
+      "ID_DE_COTATION_PERMID": "[\n  \"21475037440\",\n  \"21538768765\"\n]"
+    }
+  ],
+  "table_name": "PERMID_SECURITY_INDEX",
+  "table_fullname": "FINANCE__ECONOMICS.CYBERSYN.PERMID_SECURITY_INDEX",
+  "column_names": [
+    "CLASSE_ACTIF",
+    "CODE_DE_BOURSE",
+    "TICKER_PRINCIPAL",
+    "NOM_DE_TITRE",
+    "CODE_DE_BOURSE_PRINCIPAL",
+    "STATUT_DE_TITRE",
+    "TICKERS_MONDIAUX",
+    "ID_DE_TITRE_PERMID",
+    "NOM_DE_BOURSE_PRINCIPAL",
+    "ID_DE_COTATION_PERMID"
+  ],
+  "column_types": [
+    "TEXT",
+    "ARRAY",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "ARRAY",
+    "TEXT",
+    "TEXT",
+    "ARRAY"
+  ],
+  "description": [
+    "Classe étendue de l'actif, telle que 'Ordinary Shares', 'Depositary Receipts', etc.",
+    "Un tableau de codes représentant les bourses où la sécurité est négociée. Un tableau vide signifie que les informations sur les bourses ne sont pas disponibles.",
+    "Le ticker pour le lieu de négociation principal d'une sécurité. Si une sécurité est négociée sur plusieurs bourses ou a de nombreux tickers, une tentative est faite pour sélectionner le ticker du marché domestique.",
+    "Nom de la sécurité.",
+    "Le code de bourse pour le lieu de négociation principal d'une sécurité.",
+    "État de la sécurité, c'est-à-dire 'Active' ou 'Inactive'. Une sécurité active est une sécurité qui a des quotes actives et une sécurité inactive n'a pas de quotes actives. Ce statut change au fil du temps.",
+    "Un tableau de symboles de ticker sous lesquels la sécurité peut être négociée dans le monde entier sur toutes les bourses.",
+    "PermID pour la sécurité.",
+    "Le nom de bourse pour le lieu de négociation principal d'une sécurité.",
+    "Un tableau de PermIDs pour les quotes de chaque bourse où la sécurité est négociée. Un tableau vide signifie que les informations sur les quotes ne sont pas disponibles."
+  ]
+}
