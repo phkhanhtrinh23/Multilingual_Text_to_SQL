@@ -1,0 +1,86 @@
+{
+  "sample_rows": [
+    {
+      "VARIABLE": "Quarterly_25%_Quartile_of_Appraised_Value_Property_Condition_(4_categories)_Purchase_&_Refinance_C1_and_C2",
+      "NOM_DE_VARIABLE": "Quarterly 25% Quartile of Appraised Value Property Condition (4 categories) Purchase & Refinance C1 and C2",
+      "GROUPE_DE_VARIABLE": "25% Quartile of Appraised Value",
+      "BUT_D_EVALUATION": "Purchase & Refinance",
+      "CARACTERISTIQUE": "Property Condition (4 categories)",
+      "CATEGORIE": "C1 and C2",
+      "UNITE": "USD",
+      "FREQUENCE": "Quarterly"
+    },
+    {
+      "VARIABLE": "Quarterly_25%_Quartile_of_Appraised_Value_Public_Water_Refinance_Public",
+      "NOM_DE_VARIABLE": "Quarterly 25% Quartile of Appraised Value Public Water Refinance Public",
+      "GROUPE_DE_VARIABLE": "25% Quartile of Appraised Value",
+      "BUT_D_EVALUATION": "Refinance",
+      "CARACTERISTIQUE": "Public Water",
+      "CATEGORIE": "Public",
+      "UNITE": "USD",
+      "FREQUENCE": "Quarterly"
+    },
+    {
+      "VARIABLE": "Quarterly_25%_Quartile_of_Appraised_Value_Tract_Largest_Race/Ethnicity_Group_Purchase_&_Refinance_Black_(50%_or_more)",
+      "NOM_DE_VARIABLE": "Quarterly 25% Quartile of Appraised Value Tract Largest Race/Ethnicity Group Purchase & Refinance Black (50% or more)",
+      "GROUPE_DE_VARIABLE": "25% Quartile of Appraised Value",
+      "BUT_D_EVALUATION": "Purchase & Refinance",
+      "CARACTERISTIQUE": "Tract Largest Race/Ethnicity Group",
+      "CATEGORIE": "Black (50% or more)",
+      "UNITE": "USD",
+      "FREQUENCE": "Quarterly"
+    },
+    {
+      "VARIABLE": "Quarterly_Median_Appraised_Value_Property_Condition_(4_categories)_Purchase_&_Refinance_C5_and_C6",
+      "NOM_DE_VARIABLE": "Quarterly Median Appraised Value Property Condition (4 categories) Purchase & Refinance C5 and C6",
+      "GROUPE_DE_VARIABLE": "Median Appraised Value",
+      "BUT_D_EVALUATION": "Purchase & Refinance",
+      "CARACTERISTIQUE": "Property Condition (4 categories)",
+      "CATEGORIE": "C5 and C6",
+      "UNITE": "USD",
+      "FREQUENCE": "Quarterly"
+    },
+    {
+      "VARIABLE": "Quarterly_Median_Appraised_Value_Property_Condition_(4_categories)_Refinance_C5_and_C6",
+      "NOM_DE_VARIABLE": "Quarterly Median Appraised Value Property Condition (4 categories) Refinance C5 and C6",
+      "GROUPE_DE_VARIABLE": "Median Appraised Value",
+      "BUT_D_EVALUATION": "Refinance",
+      "CARACTERISTIQUE": "Property Condition (4 categories)",
+      "CATEGORIE": "C5 and C6",
+      "UNITE": "USD",
+      "FREQUENCE": "Quarterly"
+    }
+  ],
+  "table_name": "FHFA_UNIFORM_APPRAISAL_ATTRIBUTES",
+  "table_fullname": "FINANCE__ECONOMICS.CYBERSYN.FHFA_UNIFORM_APPRAISAL_ATTRIBUTES",
+  "column_names": [
+    "GROUPE_DE_VARIABLE",
+    "NOM_DE_VARIABLE",
+    "CATEGORIE",
+    "CARACTERISTIQUE",
+    "UNITE",
+    "BUT_D_EVALUATION",
+    "FREQUENCE",
+    "VARIABLE"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Regroupement de variables globales pour les séries chronologiques (par exemple, Valeur médiane estimée, Nombre d'évaluations, etc.)",
+    "Description lisible par l'homme pour la variable",
+    "Catégorie réelle correspondant au type de caractéristique. Notes les caractéristiques importantes de la maison (par exemple, Pas de climatisation centrale, construite entre 1970 et 1979, etc.)",
+    "Caractéristique pour le regroupement de catégories basé sur les caractéristiques de la maison (par exemple, Climatisation centrale, Type de fondation, etc.)",
+    "Unité de mesure pour la variable : (par exemple, Compte, Pourcentage, Ratio, USD)",
+    "Raison de la demande d'évaluation (par exemple, Achat, Réfinancement, Achat et Réfinancement)",
+    "Fréquence des agrégations (par exemple, Annuelle).",
+    "Un identifiant unique pour une variable joignable à la table des séries chronologiques pour le filtrage"
+  ]
+}
