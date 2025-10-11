@@ -1,0 +1,76 @@
+{
+  "table_name": "icd10_diagnoses_2019",
+  "table_fullname": "bigquery-public-data.cms_codes.icd10_diagnoses_2019",
+  "column_names": [
+    "numero_do_pedido",
+    "cm_codigo",
+    "is_codigo_de_cabecalho",
+    "descricao_curta",
+    "descricao_longa"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "BOOL",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "numero_do_pedido",
+    "cm_codigo",
+    "is_codigo_de_cabecalho",
+    "descricao_curta",
+    "descricao_longa"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "BOOL",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "Código de cabeçalho único que facilita aos usuários a comunicação de uma variedade de códigos",
+    "Código de diagnóstico",
+    "TRUE -  O código é um código de “cabeçalho” e não é válido para transações cobertas pelo HIPAA. FALSE - O código é válido para envio para transações cobertas pelo HIPAA.",
+    "Descrição de texto curta do diagnóstico",
+    "Descrição de texto completa do diagnóstico"
+  ],
+  "sample_rows": [
+    {
+      "numero_do_pedido": "00004",
+      "cm_codigo": "A009",
+      "is_codigo_de_cabecalho": false,
+      "descricao_curta": "Cholera, unspecified",
+      "descricao_longa": "Cholera, unspecified"
+    },
+    {
+      "numero_do_pedido": "01543",
+      "cm_codigo": "C4339",
+      "is_codigo_de_cabecalho": false,
+      "descricao_curta": "Malignant melanoma of other parts of face",
+      "descricao_longa": "Malignant melanoma of other parts of face"
+    },
+    {
+      "numero_do_pedido": "03541",
+      "cm_codigo": "D696",
+      "is_codigo_de_cabecalho": false,
+      "descricao_curta": "Thrombocytopenia, unspecified",
+      "descricao_longa": "Thrombocytopenia, unspecified"
+    },
+    {
+      "numero_do_pedido": "03955",
+      "cm_codigo": "E093593",
+      "is_codigo_de_cabecalho": false,
+      "descricao_curta": "Drug/chem diab with prolif diab rtnop without mclr edema, bi",
+      "descricao_longa": "Drug or chemical induced diabetes mellitus with proliferative diabetic retinopathy without macular edema, bilateral"
+    },
+    {
+      "numero_do_pedido": "05041",
+      "cm_codigo": "F12129",
+      "is_codigo_de_cabecalho": false,
+      "descricao_curta": "Cannabis abuse with intoxication, unspecified",
+      "descricao_longa": "Cannabis abuse with intoxication, unspecified"
+    }
+  ]
+}

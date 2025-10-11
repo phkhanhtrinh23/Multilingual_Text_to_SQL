@@ -1,0 +1,76 @@
+{
+  "table_name": "icd10_procedures_2019",
+  "table_fullname": "bigquery-public-data.cms_codes.icd10_procedures_2019",
+  "column_names": [
+    "numero_do_pedido",
+    "codigo_pcs",
+    "is_header_code",
+    "descricao_curta",
+    "descricao_longa"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "BOOL",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "numero_do_pedido",
+    "codigo_pcs",
+    "is_header_code",
+    "descricao_curta",
+    "descricao_longa"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "BOOL",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "Identificador único que facilita aos usuários a comunicação de uma variedade de códigos",
+    "Código do procedimento",
+    "TRUE - O código é um código “de cabeçalho” e não é válido para transações cobertas pelo HIPAA. FALSE - O código é válido para envio para transações cobertas pelo HIPAA.",
+    "Descrição de texto curta do procedimento",
+    "Descrição de texto completa do procedimento"
+  ],
+  "sample_rows": [
+    {
+      "numero_do_pedido": "67369",
+      "codigo_pcs": "0XH",
+      "is_header_code": null,
+      "descricao_curta": null,
+      "descricao_longa": null
+    },
+    {
+      "numero_do_pedido": "67514",
+      "codigo_pcs": "0XJ",
+      "is_header_code": null,
+      "descricao_curta": null,
+      "descricao_longa": null
+    },
+    {
+      "numero_do_pedido": "67579",
+      "codigo_pcs": "0XM",
+      "is_header_code": null,
+      "descricao_curta": null,
+      "descricao_longa": null
+    },
+    {
+      "numero_do_pedido": "67608",
+      "codigo_pcs": "0XP",
+      "is_header_code": null,
+      "descricao_curta": null,
+      "descricao_longa": null
+    },
+    {
+      "numero_do_pedido": "67665",
+      "codigo_pcs": "0XQ",
+      "is_header_code": null,
+      "descricao_curta": null,
+      "descricao_longa": null
+    }
+  ]
+}
