@@ -1,0 +1,76 @@
+{
+  "table_name": "chembl_id_lookup_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.chembl_id_lookup_30",
+  "column_names": [
+    "id_chembl",
+    "tipo_de_entidade",
+    "id_da_entidade",
+    "status",
+    "ultimo_ativo"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "INT64",
+    "STRING",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "id_chembl",
+    "tipo_de_entidade",
+    "id_da_entidade",
+    "status",
+    "ultimo_ativo"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "INT64",
+    "STRING",
+    "INT64"
+  ],
+  "description": [
+    "Identificador ChEMBL",
+    "Tipo de entidade (por exemplo, COMPOUND, ASSAY, TARGET)",
+    "Chave primária para essa entidade na tabela correspondente (por exemplo, molregno para compostos, tid para alvos)",
+    "Indica se o status da entidade dentro do banco de dados é ATIVO, INATIVO (rebaixado), OBS (obsoleto/removido).",
+    "indica a última versão ChEMBL onde o CHEMBL_ID estava ativo"
+  ],
+  "sample_rows": [
+    {
+      "id_chembl": "CHEMBL1075036",
+      "tipo_de_entidade": "TARGET",
+      "id_da_entidade": 102994,
+      "status": "OBS",
+      "ultimo_ativo": 20
+    },
+    {
+      "id_chembl": "CHEMBL1075114",
+      "tipo_de_entidade": "TARGET",
+      "id_da_entidade": 103040,
+      "status": "OBS",
+      "ultimo_ativo": 16
+    },
+    {
+      "id_chembl": "CHEMBL1075122",
+      "tipo_de_entidade": "TARGET",
+      "id_da_entidade": 103049,
+      "status": "OBS",
+      "ultimo_ativo": 16
+    },
+    {
+      "id_chembl": "CHEMBL1075123",
+      "tipo_de_entidade": "TARGET",
+      "id_da_entidade": 103050,
+      "status": "OBS",
+      "ultimo_ativo": 16
+    },
+    {
+      "id_chembl": "CHEMBL1075124",
+      "tipo_de_entidade": "TARGET",
+      "id_da_entidade": 103051,
+      "status": "OBS",
+      "ultimo_ativo": 16
+    }
+  ]
+}
