@@ -1,0 +1,78 @@
+{
+  "table_name": "EVENT_LOGS",
+  "table_fullname": "CRYPTO.CRYPTO_ZILLIQA.EVENT_LOGS",
+  "column_names": [
+    "numero_de_bloc",
+    "indice",
+    "id_de_transaction",
+    "timestamp_de_bloc",
+    "nom_d_evenement",
+    "adresse",
+    "paramètres"
+  ],
+  "column_types": [
+    "NUMBER",
+    "NUMBER",
+    "TEXT",
+    "NUMBER",
+    "TEXT",
+    "TEXT",
+    "VARIANT"
+  ],
+  "description": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "sample_rows": [
+    {
+      "numero_de_bloc": 1292028,
+      "timestamp_de_bloc": 1626601281000000,
+      "id_de_transaction": "af8827f3abf77159c8b4a5836854310cd5abea08e057dd3d6deaa0bef18a735d",
+      "indice": 1,
+      "adresse": "zil12drvflckms6874ffuujcdxj75raavl4yfn4ssc",
+      "nom_d_evenement": "TransferSuccess",
+      "paramètres": "[\n  \"{\\\"type\\\":\\\"ByStr20\\\",\\\"value\\\":\\\"0xba11eb7bcc0a02e947acf03cc651bfaf19c9ec00\\\",\\\"vname\\\":\\\"sender\\\"}\",\n  \"{\\\"type\\\":\\\"ByStr20\\\",\\\"value\\\":\\\"0xa5d3b90d17ff0dbe4d8caf30cad1ad2108074289\\\",\\\"vname\\\":\\\"recipient\\\"}\",\n  \"{\\\"type\\\":\\\"Uint128\\\",\\\"value\\\":\\\"235568293162207\\\",\\\"vname\\\":\\\"amount\\\"}\"\n]"
+    },
+    {
+      "numero_de_bloc": 1292323,
+      "timestamp_de_bloc": 1626611915000000,
+      "id_de_transaction": "59affee306573f6918395b8bfb75f59c0d714a032dd21d0ff1e58b0a82a1b186",
+      "indice": 1,
+      "adresse": "zil14d6wwelssqumu6w9c6kaucz2r57z34cxuh96lf",
+      "nom_d_evenement": "TransferSuccess",
+      "paramètres": "[\n  \"{\\\"type\\\":\\\"ByStr20\\\",\\\"value\\\":\\\"0xba11eb7bcc0a02e947acf03cc651bfaf19c9ec00\\\",\\\"vname\\\":\\\"sender\\\"}\",\n  \"{\\\"type\\\":\\\"ByStr20\\\",\\\"value\\\":\\\"0x5abbab562630f415b0d0707634ba82a9029faf80\\\",\\\"vname\\\":\\\"recipient\\\"}\",\n  \"{\\\"type\\\":\\\"Uint128\\\",\\\"value\\\":\\\"696030103442616\\\",\\\"vname\\\":\\\"amount\\\"}\"\n]"
+    },
+    {
+      "numero_de_bloc": 1292313,
+      "timestamp_de_bloc": 1626611588000000,
+      "id_de_transaction": "3d9c183d4c4d2c3b40dc6fb7360a8c76a17cd74581407b0d0be9c3b254aafeb1",
+      "indice": 1,
+      "adresse": "zil14d6wwelssqumu6w9c6kaucz2r57z34cxuh96lf",
+      "nom_d_evenement": "TransferSuccess",
+      "paramètres": "[\n  \"{\\\"type\\\":\\\"ByStr20\\\",\\\"value\\\":\\\"0xba11eb7bcc0a02e947acf03cc651bfaf19c9ec00\\\",\\\"vname\\\":\\\"sender\\\"}\",\n  \"{\\\"type\\\":\\\"ByStr20\\\",\\\"value\\\":\\\"0x5abbab562630f415b0d0707634ba82a9029faf80\\\",\\\"vname\\\":\\\"recipient\\\"}\",\n  \"{\\\"type\\\":\\\"Uint128\\\",\\\"value\\\":\\\"1251993838435842\\\",\\\"vname\\\":\\\"amount\\\"}\"\n]"
+    },
+    {
+      "numero_de_bloc": 1292248,
+      "timestamp_de_bloc": 1626609131000000,
+      "id_de_transaction": "8763921930416d3c1c8f383d9ca6af8a9fbb9a4c9a83abd0281895349f6aa8ff",
+      "indice": 0,
+      "adresse": "zil14d6wwelssqumu6w9c6kaucz2r57z34cxuh96lf",
+      "nom_d_evenement": "IncreasedAllowance",
+      "paramètres": "[\n  \"{\\\"type\\\":\\\"ByStr20\\\",\\\"value\\\":\\\"0x2966d1cd46937efda876be88509d02cc055b69d1\\\",\\\"vname\\\":\\\"token_owner\\\"}\",\n  \"{\\\"type\\\":\\\"ByStr20\\\",\\\"value\\\":\\\"0xba11eb7bcc0a02e947acf03cc651bfaf19c9ec00\\\",\\\"vname\\\":\\\"spender\\\"}\",\n  \"{\\\"type\\\":\\\"Uint128\\\",\\\"value\\\":\\\"340282366920938463463374607431768211455\\\",\\\"vname\\\":\\\"new_allowance\\\"}\"\n]"
+    },
+    {
+      "numero_de_bloc": 1292036,
+      "timestamp_de_bloc": 1626601559000000,
+      "id_de_transaction": "2ffe6b346ad0fa0dccf640ee2198fe942401a606dfb325a9c0124c8aec19905c",
+      "indice": 0,
+      "adresse": "zil14d6wwelssqumu6w9c6kaucz2r57z34cxuh96lf",
+      "nom_d_evenement": "IncreasedAllowance",
+      "paramètres": "[\n  \"{\\\"type\\\":\\\"ByStr20\\\",\\\"value\\\":\\\"0xa5d3b90d17ff0dbe4d8caf30cad1ad2108074289\\\",\\\"vname\\\":\\\"token_owner\\\"}\",\n  \"{\\\"type\\\":\\\"ByStr20\\\",\\\"value\\\":\\\"0xba11eb7bcc0a02e947acf03cc651bfaf19c9ec00\\\",\\\"vname\\\":\\\"spender\\\"}\",\n  \"{\\\"type\\\":\\\"Uint128\\\",\\\"value\\\":\\\"340282366920938463463374607431768211455\\\",\\\"vname\\\":\\\"new_allowance\\\"}\"\n]"
+    }
+  ]
+}
