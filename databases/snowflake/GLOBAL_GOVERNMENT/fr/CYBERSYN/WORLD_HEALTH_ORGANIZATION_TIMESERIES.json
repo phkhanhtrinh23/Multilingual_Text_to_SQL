@@ -1,0 +1,86 @@
+{
+  "sample_rows": [
+    {
+      "GEO_ID": "WHORegion/AFR",
+      "VARIABLE": "AIR_11_SEX_BTSX_AGEGROUP_AGEALL_ENVCAUSE_ENVCAUSE000",
+      "NOM_DE_VARIABLE": "Household air pollution attributable deaths | Sex: Both sexes | Age Group: Total (All ages) | Cause: Total | Estimate",
+      "DATE": "2019-12-31",
+      "VALEUR": 638583.0321,
+      "UNITE": "Count",
+      "SOURCE_WHO": null,
+      "COMMENTAIRE_DE_VALEUR": null
+    },
+    {
+      "GEO_ID": "WorldBankIncomeGroup/WB_LMI",
+      "VARIABLE": "LIFE_0000000029_SEX_FMLE_AGEGROUP_AGE55-59",
+      "NOM_DE_VARIABLE": "Age-specific death rate between ages x and x+n | Sex: Female | Age Group: 55-59 years | Estimate",
+      "DATE": "2000-12-31",
+      "VALEUR": 0.01276,
+      "UNITE": "Rate",
+      "SOURCE_WHO": null,
+      "COMMENTAIRE_DE_VALEUR": null
+    },
+    {
+      "GEO_ID": "MGHERegion/WBDCP_EAP",
+      "VARIABLE": "MORT_600_SEX_FMLE_AGEGROUP_YEARS70+_GHECAUSES_GHE051",
+      "NOM_DE_VARIABLE": "Projection of deaths | Sex: Female | Age Group: 70 plus  years of age (please delete. It does not work with menu.xml) | Causes: Birth asphyxia and birth trauma | Estimate",
+      "DATE": "2030-12-31",
+      "VALEUR": 8.0,
+      "UNITE": "Count",
+      "SOURCE_WHO": null,
+      "COMMENTAIRE_DE_VALEUR": null
+    },
+    {
+      "GEO_ID": "WHORegion/WPR",
+      "VARIABLE": "PHE_HHAIR_PROP_POP_CATEGORY_FUELS_RESIDENCEAREATYPE_RUR_HOUSEHOLDCOOKINGFUEL_FUEL_CHARCOAL_HIGH",
+      "NOM_DE_VARIABLE": "Percent of population with primary reliance on fuels and technologies for cooking, by fuel type | Residence Area Type: Rural | Cooking fuel: Charcoal | Margin of Error: Upper Bound",
+      "DATE": "2002-12-31",
+      "VALEUR": 1.68,
+      "UNITE": "Percent",
+      "SOURCE_WHO": null,
+      "COMMENTAIRE_DE_VALEUR": null
+    },
+    {
+      "GEO_ID": "MGHERegion/WBINC_LOINC",
+      "VARIABLE": "GHE_YLLRATE_SEX_FMLE_AGEGROUP_YEARS50-69_GHECAUSES_GHE138",
+      "NOM_DE_VARIABLE": "Years of life lost from mortality (YLLs), per 100,000 people | Sex: Female | Age Group: 50-69 years | Causes: Back and neck pain | Estimate",
+      "DATE": "2012-12-31",
+      "VALEUR": 0.06066,
+      "UNITE": "Count",
+      "SOURCE_WHO": null,
+      "COMMENTAIRE_DE_VALEUR": null
+    }
+  ],
+  "table_name": "WORLD_HEALTH_ORGANIZATION_TIMESERIES",
+  "table_fullname": "GLOBAL_GOVERNMENT.CYBERSYN.WORLD_HEALTH_ORGANIZATION_TIMESERIES",
+  "column_names": [
+    "NOM_DE_VARIABLE",
+    "VARIABLE",
+    "DATE",
+    "GEO_ID",
+    "UNITE",
+    "SOURCE_WHO",
+    "COMMENTAIRE_DE_VALEUR",
+    "VALEUR"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "DATE",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "FLOAT"
+  ],
+  "description": [
+    "Description lisible par l'homme de l'attribut signalé.",
+    "Identifiant unique pour une variable créée à partir des caractéristiques uniques des variables de l'Organisation mondiale de la santé (WHO).",
+    "Date de publication des données.",
+    "Identifiant unique pour un pays, un groupe de pays ou une région, joignable à la table `GEOGRAPHY_INDEX`.",
+    "Unité de mesure pour la valeur signalée (ex. USD).",
+    "Source dont l'Organisation mondiale de la santé (WHO) a reçu ces données.",
+    "Commentaire sur la source, la mesure ou la définition de la valeur.",
+    "Chiffre signalé pour la variable."
+  ]
+}
