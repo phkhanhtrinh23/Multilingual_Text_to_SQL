@@ -1,0 +1,70 @@
+{
+  "sample_rows": [
+    {
+      "ID_GEO": "geoId/5003250",
+      "VARIABLE": "Mean_Visibility",
+      "NOM_DE_VARIABLE": "Mean Visibility",
+      "DATE": "2023-02-01",
+      "VALEUR": "13.38340000000",
+      "UNITÉ": "Kilometer"
+    },
+    {
+      "ID_GEO": "geoId/3048250",
+      "VARIABLE": "Mean_Snowfall",
+      "NOM_DE_VARIABLE": "Mean Snowfall",
+      "DATE": "1957-05-01",
+      "VALEUR": "0.60420000000",
+      "UNITÉ": "Millimeter"
+    },
+    {
+      "ID_GEO": "zip/97132",
+      "VARIABLE": "Mean_Snowfall",
+      "NOM_DE_VARIABLE": "Mean Snowfall",
+      "DATE": "1924-12-01",
+      "VALEUR": "3.80307000000",
+      "UNITÉ": "Millimeter"
+    },
+    {
+      "ID_GEO": "geoId/2601960",
+      "VARIABLE": "Mean_Snowfall",
+      "NOM_DE_VARIABLE": "Mean Snowfall",
+      "DATE": "1934-03-01",
+      "VALEUR": "12.39500000000",
+      "UNITÉ": "Millimeter"
+    },
+    {
+      "ID_GEO": "geoId/42039111600",
+      "VARIABLE": "Count_Person_WithMedicaidOrMeansTestedPublicCoverage",
+      "NOM_DE_VARIABLE": "Population With Medicaid or Means-Tested Public Coverage",
+      "DATE": "2018-01-01",
+      "VALEUR": "1768.00000000000",
+      "UNITÉ": "Count"
+    }
+  ],
+  "table_name": "DATACOMMONS_TIMESERIES",
+  "table_fullname": "GLOBAL_GOVERNMENT.CYBERSYN.DATACOMMONS_TIMESERIES",
+  "column_names": [
+    "VARIABLE",
+    "UNITÉ",
+    "NOM_DE_VARIABLE",
+    "DATE",
+    "ID_GEO",
+    "VALEUR"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "DATE",
+    "TEXT",
+    "NUMBER"
+  ],
+  "description": [
+    "Un identifiant unique pour une variable statistique. Chaque variable statistique représente une mesure unique (par exemple, Population, Revenu médian, etc.)",
+    "Unité de mesure pour la valeur (par exemple, USD, Années, Acre, etc.)",
+    "Nom lisible par l'homme pour la variable",
+    "Date associée à la valeur",
+    "Un identifiant unique pour un lieu joignable à la table `GEOGRAPHY_INDEX`",
+    "La valeur numérique réelle pour une variable donnée"
+  ]
+}
