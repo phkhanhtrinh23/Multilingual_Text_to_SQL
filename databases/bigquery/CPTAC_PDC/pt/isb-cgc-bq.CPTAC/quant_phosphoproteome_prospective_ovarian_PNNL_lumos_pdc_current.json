@@ -1,0 +1,116 @@
+{
+  "table_name": "quant_phosphoproteome_prospective_ovarian_PNNL_lumos_pdc_current",
+  "table_fullname": "isb-cgc-bq.CPTAC.quant_phosphoproteome_prospective_ovarian_PNNL_lumos_pdc_current",
+  "column_names": [
+    "id_caso",
+    "id_amostra",
+    "id_alíquota",
+    "id_submitter_alíquota",
+    "id_metadados_execucao_alíquota",
+    "nome_estudo",
+    "abundancia_proteica_log2ratio",
+    "id_refseq",
+    "sitios_fosforilacao"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "id_caso",
+    "id_amostra",
+    "id_alíquota",
+    "id_submetedor_alíquota",
+    "id_metadados_execucao_alíquota",
+    "nome_estudo",
+    "protein_abundance_log2ratio",
+    "id_refseq",
+    "sitios_de_fosforilação"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "Identificador único associado a um paciente específico (e.g. 24cb0fcb-63d6-11e8-bcf1-0a2705229b82)",
+    "Identificador PDC único para esta amostra (e.g. e8d83eb9-693a-11ea-b1fd-0aad30af8a83)",
+    "Identificador PDC único para este alíquota (e.g. e8db124a-693a-11ea-b1fd-0aad30af8a83)",
+    "Id do submetedor de alíquota atribuído pelo programa (e.g. T14)",
+    "Identifica exclusivamente o alíquota pelo modo como foi utilizado no experimento (com base no reagente de rotulagem e/ou replicata biológica)",
+    "Nome do estudo (e.g. Estudo Piloto de Câncer de Cérebro Pediátrico - Fosfoproteoma)",
+    "Razão logarítmica média do íon de relatório da amostra para referência comum de íons de peptídeos associados ao gene em aquisições de uma amostra biológica específica",
+    "Identificador único dado a uma sequência no banco de dados NCBI RefSeq",
+    "Códigos de letra única e posições de sequência de proteína dos aminoácidos fosforilados (e.g. t304s310, t59)"
+  ],
+  "sample_rows": [
+    {
+      "id_caso": "526a8712-0881-11eb-bc0e-0aad30af8a83",
+      "id_amostra": "0633de6c-641d-11e8-bcf1-0a2705229b82",
+      "id_alíquota": "e56ea641-6424-11e8-bcf1-0a2705229b82",
+      "id_submetedor_alíquota": "665f4f0f-130c-4b09-9762-cd0696_D2",
+      "id_metadados_execucao_alíquota": "096069d2-5738-11e8-b664-00a098d917f8",
+      "nome_estudo": "Prospective Ovarian PNNL Phosphoproteome Lumos",
+      "protein_abundance_log2ratio": -2.4217,
+      "id_refseq": "NP_057417.3",
+      "sitios_de_fosforilação": "s1691t1698"
+    },
+    {
+      "id_caso": "526a8712-0881-11eb-bc0e-0aad30af8a83",
+      "id_amostra": "0633de6c-641d-11e8-bcf1-0a2705229b82",
+      "id_alíquota": "e56ea641-6424-11e8-bcf1-0a2705229b82",
+      "id_submetedor_alíquota": "665f4f0f-130c-4b09-9762-cd0696_D2",
+      "id_metadados_execucao_alíquota": "096069d2-5738-11e8-b664-00a098d917f8",
+      "nome_estudo": "Prospective Ovarian PNNL Phosphoproteome Lumos",
+      "protein_abundance_log2ratio": -0.3629,
+      "id_refseq": "NP_000042.3",
+      "sitios_de_fosforilação": "t1885"
+    },
+    {
+      "id_caso": "526a8712-0881-11eb-bc0e-0aad30af8a83",
+      "id_amostra": "0633de6c-641d-11e8-bcf1-0a2705229b82",
+      "id_alíquota": "e56ea641-6424-11e8-bcf1-0a2705229b82",
+      "id_submetedor_alíquota": "665f4f0f-130c-4b09-9762-cd0696_D2",
+      "id_metadados_execucao_alíquota": "096069d2-5738-11e8-b664-00a098d917f8",
+      "nome_estudo": "Prospective Ovarian PNNL Phosphoproteome Lumos",
+      "protein_abundance_log2ratio": -0.0056,
+      "id_refseq": "XP_011511944.1",
+      "sitios_de_fosforilação": "s1544"
+    },
+    {
+      "id_caso": "526a8712-0881-11eb-bc0e-0aad30af8a83",
+      "id_amostra": "0633de6c-641d-11e8-bcf1-0a2705229b82",
+      "id_alíquota": "e56ea641-6424-11e8-bcf1-0a2705229b82",
+      "id_submetedor_alíquota": "665f4f0f-130c-4b09-9762-cd0696_D2",
+      "id_metadados_execucao_alíquota": "096069d2-5738-11e8-b664-00a098d917f8",
+      "nome_estudo": "Prospective Ovarian PNNL Phosphoproteome Lumos",
+      "protein_abundance_log2ratio": -1.304,
+      "id_refseq": "NP_060889.1",
+      "sitios_de_fosforilação": "s70"
+    },
+    {
+      "id_caso": "526a8712-0881-11eb-bc0e-0aad30af8a83",
+      "id_amostra": "0633de6c-641d-11e8-bcf1-0a2705229b82",
+      "id_alíquota": "e56ea641-6424-11e8-bcf1-0a2705229b82",
+      "id_submetedor_alíquota": "665f4f0f-130c-4b09-9762-cd0696_D2",
+      "id_metadados_execucao_alíquota": "096069d2-5738-11e8-b664-00a098d917f8",
+      "nome_estudo": "Prospective Ovarian PNNL Phosphoproteome Lumos",
+      "protein_abundance_log2ratio": -0.5937,
+      "id_refseq": "NP_001139438.1",
+      "sitios_de_fosforilação": "t2029"
+    }
+  ]
+}
