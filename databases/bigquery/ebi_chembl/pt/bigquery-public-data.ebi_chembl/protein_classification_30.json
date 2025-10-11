@@ -1,0 +1,96 @@
+{
+  "table_name": "protein_classification_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.protein_classification_30",
+  "column_names": [
+    "id_classe_proteina",
+    "id_pai",
+    "nome_preferido",
+    "nome_curto",
+    "descricao_classe_proteina",
+    "definicao",
+    "nivel_classe"
+  ],
+  "column_types": [
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "id_classe_proteina",
+    "id_pai",
+    "nome_preferido",
+    "nome_curto",
+    "descricao_classe_proteina",
+    "definicao",
+    "nivel_classe"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64"
+  ],
+  "description": [
+    "Chave primária. Identificador único para cada classificação de família de proteínas.",
+    "Protein_class_id do pai desta família de proteínas.",
+    "Nome preferido/completo para esta família de proteínas.",
+    "Nome curto/abreviado para esta família de proteínas (não necessariamente único).",
+    "Descrição concatenada de cada classificação para fins de pesquisa etc.",
+    "Definição da família de proteínas.",
+    "Nível da classe dentro da hierarquia (nível 1 = classificação de nível superior)"
+  ],
+  "sample_rows": [
+    {
+      "id_classe_proteina": 1,
+      "id_pai": 0,
+      "nome_preferido": "Enzyme",
+      "nome_curto": "Enzyme",
+      "descricao_classe_proteina": "enzyme",
+      "definicao": "Biological molecules that possess catalytic activity. They may occur naturally or be synthetically created. Enzymes are usually proteins, however CATALYTIC RNA and CATALYTIC DNA molecules have also been identified. [MESH:D004798]",
+      "nivel_classe": 1
+    },
+    {
+      "id_classe_proteina": 2,
+      "id_pai": 0,
+      "nome_preferido": "Adhesion",
+      "nome_curto": "Adhesion",
+      "descricao_classe_proteina": "adhesion",
+      "definicao": "Surface ligands, usually glycoproteins, that mediate cell-to-cell adhesion. Their functions include the assembly and interconnection of various vertebrate systems, as well as maintenance of tissue integration, wound healing, morphogenic movements, cellular migrations, and metastasis. [MESH:D015815]",
+      "nivel_classe": 1
+    },
+    {
+      "id_classe_proteina": 3,
+      "id_pai": 0,
+      "nome_preferido": "Secreted protein",
+      "nome_curto": "Secreted",
+      "descricao_classe_proteina": "secreted",
+      "definicao": null,
+      "nivel_classe": 1
+    },
+    {
+      "id_classe_proteina": 4,
+      "id_pai": 0,
+      "nome_preferido": "Structural protein",
+      "nome_curto": "Structural",
+      "descricao_classe_proteina": "structural",
+      "definicao": null,
+      "nivel_classe": 1
+    },
+    {
+      "id_classe_proteina": 5,
+      "id_pai": 0,
+      "nome_preferido": "Other nuclear protein",
+      "nome_curto": "Nuclear other",
+      "descricao_classe_proteina": "nuclear other",
+      "definicao": null,
+      "nivel_classe": 1
+    }
+  ]
+}
