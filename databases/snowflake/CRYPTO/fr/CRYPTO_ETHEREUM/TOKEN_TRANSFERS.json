@@ -1,0 +1,94 @@
+{
+  "table_name": "TOKEN_TRANSFERS",
+  "table_fullname": "CRYPTO.CRYPTO_ETHEREUM.TOKEN_TRANSFERS",
+  "column_names": [
+    "valeur",
+    "hash_de_transaction",
+    "adresse_de_destination",
+    "adresse_d_expedition",
+    "hash_de_bloc",
+    "index_de_journal",
+    "numero_de_bloc",
+    "adresse_de_token",
+    "timestamp_de_bloc"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "NUMBER",
+    "NUMBER",
+    "TEXT",
+    "NUMBER"
+  ],
+  "description": [
+    "Quantité de jetons transférés (ERC20) / id du jeton transféré (ERC721). Utilisez safe_cast pour caster en NUMERIC ou FLOAT64",
+    "Hachage de transaction",
+    "Adresse du destinataire",
+    "Adresse de l'expéditeur",
+    "Hachage du bloc où ce transfert a eu lieu",
+    "Index de journal dans le reçu de transaction",
+    "Numéro de bloc où ce transfert a eu lieu",
+    "Adresse du jeton ERC20",
+    "Horodatage du bloc où ce transfert a eu lieu"
+  ],
+  "sample_rows": [
+    {
+      "adresse_de_token": "0x67a6e7372b805b430240f6a545273efa89a3c18b",
+      "adresse_d_expedition": "0x5a7a6b69c6382000fd35711fd28440f415417318",
+      "adresse_de_destination": "0x83c8f28c26bf6aaca652df1dbbe0e1b56f8baba2",
+      "valeur": "3303",
+      "hash_de_transaction": "0xfe3f77e61c8bf9e13bd31ff08eac0b0ae13fa18fa514b6e57ed4bb654dcdee14",
+      "index_de_journal": 205,
+      "timestamp_de_bloc": 1660275833000000,
+      "numero_de_bloc": 15324735,
+      "hash_de_bloc": "0xe21f55ec59367a04575352bd9be36840f4b6cf0087592434ab90e53645aa9491"
+    },
+    {
+      "adresse_de_token": "0x6a625ddb2e2a2de0257c5129364dd80bb4afa3b9",
+      "adresse_d_expedition": "0x80a17eaf3b10dcac016916bc239d823ddb423ba0",
+      "adresse_de_destination": "0x882c874c31297bc03fc8e6696e3b512b95f0de1b",
+      "valeur": "10000000000000000000",
+      "hash_de_transaction": "0xf160fa3511463539ed4cc2036e6379d00edf04c35d591d5314ae65924dbb708a",
+      "index_de_journal": 205,
+      "timestamp_de_bloc": 1620758235000000,
+      "numero_de_bloc": 12414767,
+      "hash_de_bloc": "0x245043fbd95f71bc670bc9f9ba20e3bad632bb3cd16084c816522a9fc1dd7da8"
+    },
+    {
+      "adresse_de_token": "0x6b175474e89094c44da98b954eedeac495271d0f",
+      "adresse_d_expedition": "0xb19ee17b1130af6b2b3b4dfbdc88203de898befe",
+      "adresse_de_destination": "0x503828976d22510aad0201ac7ec88293211d23da",
+      "valeur": "842966613178623797896",
+      "hash_de_transaction": "0x5f1ef4bd9058ed788f9627a64ba7c0cb8698d7f86bc0ce8bd5a626932cf33975",
+      "index_de_journal": 205,
+      "timestamp_de_bloc": 1660328696000000,
+      "numero_de_bloc": 15328552,
+      "hash_de_bloc": "0xd06774c1b782666f3badf7e7fb453b3b83074048408e3862e3c14f0f860a2845"
+    },
+    {
+      "adresse_de_token": "0x6b175474e89094c44da98b954eedeac495271d0f",
+      "adresse_d_expedition": "0x49aaf8889576451ff15b8f09cb381152349ccee3",
+      "adresse_de_destination": "0xe93381fb4c4f14bda253907b18fad305d799241a",
+      "valeur": "1127433027680000000000",
+      "hash_de_transaction": "0x3d236866be88d6a24cb1fe69198e46ccb95f11a792c418dffa775c58b19fe5ed",
+      "index_de_journal": 205,
+      "timestamp_de_bloc": 1609999950000000,
+      "numero_de_bloc": 11605839,
+      "hash_de_bloc": "0x8b0b9a20b4c721345f8c0d15ccb81812a62455ee59563b57bc01ec7ee0ffe731"
+    },
+    {
+      "adresse_de_token": "0x6b3595068778dd592e39a122f4f5a5cf09c90fe2",
+      "adresse_d_expedition": "0x8b06dd726c2e7b052a65583152936055b3f68a8b",
+      "adresse_de_destination": "0xce0f28a72381cc8045ac63c166b282b67cdcd2ed",
+      "valeur": "5345923413036540000",
+      "hash_de_transaction": "0x003250a0b922bcf2790c8ffb0b76b5187fd96bada27366e7d534ff4a2fc2257d",
+      "index_de_journal": 205,
+      "timestamp_de_bloc": 1602954731000000,
+      "numero_de_bloc": 11074734,
+      "hash_de_bloc": "0xe39dc227d8990f82228d576712669afbad07d31b25bc3fe4f52f1c45e6660c49"
+    }
+  ]
+}
