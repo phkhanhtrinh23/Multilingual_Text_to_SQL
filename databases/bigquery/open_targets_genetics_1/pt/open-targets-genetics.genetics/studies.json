@@ -1,0 +1,244 @@
+{
+  "table_name": "studies",
+  "table_fullname": "open-targets-genetics.genetics.studies",
+  "column_names": [
+    "id_estudo",
+    "ancestralidade_inicial",
+    "ancestralidade_replicacao",
+    "n_casos",
+    "n_inicial",
+    "n_replicacao",
+    "pmid",
+    "autor_pub",
+    "data_pub",
+    "jornal_pub",
+    "titulo_pub",
+    "has_sumstats",
+    "num_assoc_loci",
+    "fonte",
+    "trao_reportado",
+    "trao_efos",
+    "categoria_trao"
+  ],
+  "column_types": [
+    "STRING",
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "BOOL",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "id_estudo",
+    "ancestralidade_inicial",
+    "ancestralidade_inicial.list",
+    "ancestralidade_inicial.list.element",
+    "ancestralidade_replicacao",
+    "ancestralidade_replicacao.list",
+    "ancestralidade_replicacao.list.element",
+    "n_casos",
+    "n_inicial",
+    "n_replicacao",
+    "pmid",
+    "autor_pub",
+    "data_pub",
+    "jornal_pub",
+    "titulo_pub",
+    "tem_sumstats",
+    "num_loci_assoc",
+    "fonte",
+    "trao_reportado",
+    "trao_efos",
+    "trao_efos.list",
+    "trao_efos.list.element",
+    "categoria_trao"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+    "ARRAY<STRUCT<element STRING>>",
+    "STRING",
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+    "ARRAY<STRUCT<element STRING>>",
+    "STRING",
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "BOOL",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+    "ARRAY<STRUCT<element STRING>>",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "sample_rows": [
+    {
+      "id_estudo": "FINNGEN_R6_M13_MYALGIA",
+      "ancestralidade_inicial": {
+        "list": "[{'element': 'European=201546'}]"
+      },
+      "ancestralidade_replicacao": {
+        "list": "[]"
+      },
+      "n_casos": 3822,
+      "n_inicial": 201546,
+      "n_replicacao": 0,
+      "pmid": null,
+      "autor_pub": "FINNGEN_R6",
+      "data_pub": "2022-01-24",
+      "jornal_pub": null,
+      "titulo_pub": null,
+      "tem_sumstats": true,
+      "num_loci_assoc": 1,
+      "fonte": "FINNGEN",
+      "trao_reportado": "Myalgia",
+      "trao_efos": {
+        "list": "[{'element': 'HP_0003326'}]"
+      },
+      "categoria_trao": "phenotype"
+    },
+    {
+      "id_estudo": "FINNGEN_R6_M13_PATELLADISLOCATIO",
+      "ancestralidade_inicial": {
+        "list": "[{'element': 'European=174430'}]"
+      },
+      "ancestralidade_replicacao": {
+        "list": "[]"
+      },
+      "n_casos": 1016,
+      "n_inicial": 174430,
+      "n_replicacao": 0,
+      "pmid": null,
+      "autor_pub": "FINNGEN_R6",
+      "data_pub": "2022-01-24",
+      "jornal_pub": null,
+      "titulo_pub": null,
+      "tem_sumstats": true,
+      "num_loci_assoc": 0,
+      "fonte": "FINNGEN",
+      "trao_reportado": "Recurrent dislocation of patella",
+      "trao_efos": {
+        "list": "[{'element': 'HP_0002999'}]"
+      },
+      "categoria_trao": "phenotype"
+    },
+    {
+      "id_estudo": "FINNGEN_R6_M13_PATHODISLOCATIO",
+      "ancestralidade_inicial": {
+        "list": "[{'element': 'European=175145'}]"
+      },
+      "ancestralidade_replicacao": {
+        "list": "[]"
+      },
+      "n_casos": 1731,
+      "n_inicial": 175145,
+      "n_replicacao": 0,
+      "pmid": null,
+      "autor_pub": "FINNGEN_R6",
+      "data_pub": "2022-01-24",
+      "jornal_pub": null,
+      "titulo_pub": null,
+      "tem_sumstats": true,
+      "num_loci_assoc": 0,
+      "fonte": "FINNGEN",
+      "trao_reportado": "\"Pathological/recurrent dislocation and subluxation of joint, not elsewhere classified\"",
+      "trao_efos": {
+        "list": "[{'element': 'HP_0032153'} {'element': 'HP_0001373'}]"
+      },
+      "categoria_trao": "phenotype"
+    },
+    {
+      "id_estudo": "FINNGEN_R6_M13_RECUDISLOCATIO",
+      "ancestralidade_inicial": {
+        "list": "[{'element': 'European=174889'}]"
+      },
+      "ancestralidade_replicacao": {
+        "list": "[]"
+      },
+      "n_casos": 1475,
+      "n_inicial": 174889,
+      "n_replicacao": 0,
+      "pmid": null,
+      "autor_pub": "FINNGEN_R6",
+      "data_pub": "2022-01-24",
+      "jornal_pub": null,
+      "titulo_pub": null,
+      "tem_sumstats": true,
+      "num_loci_assoc": 0,
+      "fonte": "FINNGEN",
+      "trao_reportado": "Recurrent dislocation and subluxation of joint",
+      "trao_efos": {
+        "list": "[{'element': 'HP_0032153'} {'element': 'HP_0001373'}]"
+      },
+      "categoria_trao": "phenotype"
+    },
+    {
+      "id_estudo": "FINNGEN_R6_M13_SACROILIITIS",
+      "ancestralidade_inicial": {
+        "list": "[{'element': 'European=195058'}]"
+      },
+      "ancestralidade_replicacao": {
+        "list": "[]"
+      },
+      "n_casos": 769,
+      "n_inicial": 195058,
+      "n_replicacao": 0,
+      "pmid": null,
+      "autor_pub": "FINNGEN_R6",
+      "data_pub": "2022-01-24",
+      "jornal_pub": null,
+      "titulo_pub": null,
+      "tem_sumstats": true,
+      "num_loci_assoc": 2,
+      "fonte": "FINNGEN",
+      "trao_reportado": "\"Sacroiliitis, not elsewhere classified\"",
+      "trao_efos": {
+        "list": "[{'element': 'HP_0012317'}]"
+      },
+      "categoria_trao": "phenotype"
+    }
+  ]
+}
