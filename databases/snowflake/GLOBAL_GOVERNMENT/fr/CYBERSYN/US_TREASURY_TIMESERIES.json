@@ -1,0 +1,70 @@
+{
+  "sample_rows": [
+    {
+      "ID_GEO": "country/USA",
+      "VARIABLE": "121",
+      "NOM_VARIABLE": "Non-Tax Net Collections Amount: Fiscal Service Processed Electronically (Over-the-Counter)",
+      "DATE": "2017-03-20",
+      "VALEUR": 64657026.0,
+      "UNITE": "USD"
+    },
+    {
+      "ID_GEO": "country/USA",
+      "VARIABLE": "131",
+      "NOM_VARIABLE": "Non-Tax Net Collections Amount: Fiscal Service Settled Electronically (Over-the-Counter)",
+      "DATE": "2022-08-29",
+      "VALEUR": 753.0,
+      "UNITE": "USD"
+    },
+    {
+      "ID_GEO": "country/USA",
+      "VARIABLE": "213",
+      "NOM_VARIABLE": "IRS Non-Tax Net Collections Amount: Fully Electronic (Internet)",
+      "DATE": "2017-08-10",
+      "VALEUR": 99641.0,
+      "UNITE": "USD"
+    },
+    {
+      "ID_GEO": "country/USA",
+      "VARIABLE": "332",
+      "NOM_VARIABLE": "IRS Tax Net Collections Amount: Fiscal Service Settled Electronically (Mail)",
+      "DATE": "2013-10-09",
+      "VALEUR": 704080197.0,
+      "UNITE": "USD"
+    },
+    {
+      "ID_GEO": "country/USA",
+      "VARIABLE": "paper_savings_bonds_unmatured_&_unredeemed_all_series",
+      "NOM_VARIABLE": "Paper Savings Bonds Unmatured & Unredeemed: All Series",
+      "DATE": "2020-11-30",
+      "VALEUR": 294438314.0,
+      "UNITE": "Count"
+    }
+  ],
+  "table_name": "US_TREASURY_TIMESERIES",
+  "table_fullname": "GLOBAL_GOVERNMENT.CYBERSYN.US_TREASURY_TIMESERIES",
+  "column_names": [
+    "ID_GEO",
+    "UNITE",
+    "VARIABLE",
+    "DATE",
+    "NOM_VARIABLE",
+    "VALEUR"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "DATE",
+    "TEXT",
+    "FLOAT"
+  ],
+  "description": [
+    "Un identifiant unique pour un lieu. Joignable à d'autres tables de géographie, notamment GEOGRAPHY_INDEX, GEOGRAPHY_RELATIONSHIPS et GEOGRAPHY_CHARACTERISTICS.",
+    "Unité de mesure pour la valeur rapportée.",
+    "Identifiant unique pour une variable, joignable à la table timeseries.",
+    "Date associée à la valeur.",
+    "Nom unique lisible par l'homme pour la variable.",
+    "Valeur rapportée pour la variable."
+  ]
+}
