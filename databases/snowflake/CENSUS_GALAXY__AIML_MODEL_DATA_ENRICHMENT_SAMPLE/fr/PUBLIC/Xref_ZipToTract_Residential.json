@@ -1,0 +1,46 @@
+{
+  "sample_rows": [
+    {
+      "CodePostalDepart": "11721",
+      "IDComteEtatDestination": "36103111300",
+      "RatioCartographieResidentielleZT": "0.271000000000000"
+    },
+    {
+      "CodePostalDepart": "12551",
+      "IDComteEtatDestination": "36071000400",
+      "RatioCartographieResidentielleZT": "1.000000000000000"
+    },
+    {
+      "CodePostalDepart": "13495",
+      "IDComteEtatDestination": "36065023400",
+      "RatioCartographieResidentielleZT": "0.114837398373984"
+    },
+    {
+      "CodePostalDepart": "13495",
+      "IDComteEtatDestination": "36065023300",
+      "RatioCartographieResidentielleZT": "0.885162601626016"
+    },
+    {
+      "CodePostalDepart": "12160",
+      "IDComteEtatDestination": "36095740100",
+      "RatioCartographieResidentielleZT": "0.424882629107981"
+    }
+  ],
+  "table_name": "Xref_ZipToTract_Residential",
+  "table_fullname": "CENSUS_GALAXY__AIML_MODEL_DATA_ENRICHMENT_SAMPLE.PUBLIC.Xref_ZipToTract_Residential",
+  "column_names": [
+    "CodePostalDepart",
+    "IDComteEtatDestination",
+    "RatioCartographieResidentielleZT"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "NUMBER"
+  ],
+  "description": [
+    "Le code postal des États-Unis qui se rapporte à `StateCountyTractID` en fonction du ratio de résidents dans cette région géographique. De nombreux `Tracts` peuvent chevaucher des parties de codes postaux, et de nombreux codes postaux peuvent chevaucher des parties de `Tracts`.",
+    "Une clé composée unique qui utilise `StateFIPS`, `CountyFIPS` et `Tract` pour un spécifique dans une zone géographique. Ce champ (et table) est pour les métriques et les valeurs de roulement du code postal au niveau du groupe de blocs de recensement ou de `Tract`.",
+    "Les ratios de résidents dans chaque code postal qui sont constitués par ce `Tract` connecté. « ZT » comme suffixe désigne la direction des données, code postal à `Tract` (généralement des polygones plus grands dans des plus petits)."
+  ]
+}

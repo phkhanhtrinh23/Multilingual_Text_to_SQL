@@ -1,0 +1,102 @@
+{
+  "sample_rows": [
+    {
+      "IDMetrique": "B01002_002E",
+      "Type": "Estimate",
+      "IDTableauMetrique": "B01002",
+      "DescriptionTableauMetrique": "Median age of the population categorized by sex",
+      "TypeUniteMesure": "Aggregate",
+      "CategorieMetrique": "Demographics",
+      "GroupeMetrique": "Essential",
+      "Descriptor1": "Male",
+      "Descriptor2": "",
+      "Descriptor3": ""
+    },
+    {
+      "IDMetrique": "B19051_001E",
+      "Type": "Estimate",
+      "IDTableauMetrique": "B19051",
+      "DescriptionTableauMetrique": "Earnings of households in the past 12 months",
+      "TypeUniteMesure": "People",
+      "CategorieMetrique": "Income",
+      "GroupeMetrique": "Essential",
+      "Descriptor1": "",
+      "Descriptor2": "",
+      "Descriptor3": ""
+    },
+    {
+      "IDMetrique": "B19051_003E",
+      "Type": "Estimate",
+      "IDTableauMetrique": "B19051",
+      "DescriptionTableauMetrique": "Earnings of households in the past 12 months",
+      "TypeUniteMesure": "People",
+      "CategorieMetrique": "Income",
+      "GroupeMetrique": "Essential",
+      "Descriptor1": "No earnings",
+      "Descriptor2": "",
+      "Descriptor3": ""
+    },
+    {
+      "IDMetrique": "B11012_002E",
+      "Type": "Estimate",
+      "IDTableauMetrique": "B11012",
+      "DescriptionTableauMetrique": "Different types of households based on size and type",
+      "TypeUniteMesure": "People",
+      "CategorieMetrique": "Housing",
+      "GroupeMetrique": "Essential",
+      "Descriptor1": "Marriedcouple household",
+      "Descriptor2": "",
+      "Descriptor3": ""
+    },
+    {
+      "IDMetrique": "B11012_004E",
+      "Type": "Estimate",
+      "IDTableauMetrique": "B11012",
+      "DescriptionTableauMetrique": "Different types of households based on size and type",
+      "TypeUniteMesure": "People",
+      "CategorieMetrique": "Housing",
+      "GroupeMetrique": "Essential",
+      "Descriptor1": "Marriedcouple household",
+      "Descriptor2": "With no children of the householder under 18 years",
+      "Descriptor3": ""
+    }
+  ],
+  "table_name": "Dim_CensusMetrics",
+  "table_fullname": "CENSUS_GALAXY__ZIP_CODE_TO_BLOCK_GROUP_SAMPLE.PUBLIC.Dim_CensusMetrics",
+  "column_names": [
+    "Type",
+    "Descriptor2",
+    "CategorieMetrique",
+    "DescriptionTableauMetrique",
+    "IDTableauMetrique",
+    "IDMetrique",
+    "Descriptor1",
+    "TypeUniteMesure",
+    "GroupeMetrique",
+    "Descriptor3"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Le type ou la nature de la métrique, indiquant le type de données qu'elle représente, telles que la population, le logement, l'éducation, l'emploi, etc.",
+    "Attribut ou fonction descriptive supplémentaire associé à la métrique, fournissant des détails plus spécifiques.",
+    "La catégorie ou la classification à laquelle appartient la métrique, regroupant les métriques liées.",
+    "Une description ou un libellé pour la table ou le jeu de données dans l'American Community Survey ou les données du recensement où la métrique est stockée.",
+    "Un identifiant unique pour la table ou le jeu de données dans l'American Community Survey ou les données du recensement où la métrique est stockée.",
+    "Un identifiant unique pour une métrique ou une mesure spécifique dans l'American Community Survey ou les données du recensement.",
+    "Un attribut ou une fonction descriptive associé à la métrique, fournissant des informations ou un contexte supplémentaires.",
+    "Le type de données stockées dans `CensusValue` pour chaque `MetricID`. Il est important de regarder ce champ lors du regroupement et de la somme des valeurs à des niveaux géographiques plus élevés ou plus bas, car certaines sont des décomptes bruts et d'autres sont des moyennes ou des médianes.",
+    "Le regroupement de produits décidé par No Fret Data, connecté au déploiement et à la feuille de route de Census Galaxy.",
+    "Un autre attribut ou fonction descriptive associé à la métrique, fournissant des insights ou des détails supplémentaires."
+  ]
+}
