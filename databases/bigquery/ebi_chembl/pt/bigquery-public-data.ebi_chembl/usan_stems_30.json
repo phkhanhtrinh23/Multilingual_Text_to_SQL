@@ -1,0 +1,96 @@
+{
+  "table_name": "usan_stems_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.usan_stems_30",
+  "column_names": [
+    "id_raiz_usan",
+    "raiz",
+    "subgrupo",
+    "anotacao",
+    "classe_raiz",
+    "classe_principal",
+    "who_extra"
+  ],
+  "column_types": [
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "id_raiz_usan",
+    "raiz",
+    "subgrupo",
+    "anotação",
+    "classe_raiz",
+    "classe_principal",
+    "who_extra"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64"
+  ],
+  "description": [
+    "Chave primária numérica.",
+    "Caule definido para uso em Nomes Adotados pelos Estados Unidos.",
+    "Subgrupo mais específico do caule definido para uso em Nomes Adotados pelos Estados Unidos.",
+    "Significado do caule (por exemplo, a classe de composto que se aplica).",
+    "Indica se o caule é usado como Prefixo/Infixo/Sufixo.",
+    "Família de proteínas targetizada por compostos desta classe (por exemplo, GPCR/Canal iônico/Protease) quando conhecida/aplicável.",
+    "Caule não representado na lista USAN, mas adicionado da lista de caules INN da OMS (onde definido como 1)."
+  ],
+  "sample_rows": [
+    {
+      "id_raiz_usan": 16,
+      "raiz": "-adol-",
+      "subgrupo": "-",
+      "anotação": "analgesics (mixed opiate receptor agonists/antagonists)",
+      "classe_raiz": "Infix",
+      "classe_principal": "GPCR",
+      "who_extra": 0
+    },
+    {
+      "id_raiz_usan": 32,
+      "raiz": "-nab-",
+      "subgrupo": "-",
+      "anotação": "cannabinol derivatives",
+      "classe_raiz": "Infix",
+      "classe_principal": "GPCR",
+      "who_extra": 0
+    },
+    {
+      "id_raiz_usan": 49,
+      "raiz": "-kef-",
+      "subgrupo": "-",
+      "anotação": "enkephalin agonists",
+      "classe_raiz": "Infix",
+      "classe_principal": "GPCR",
+      "who_extra": 0
+    },
+    {
+      "id_raiz_usan": 73,
+      "raiz": "-prost-",
+      "subgrupo": "-",
+      "anotação": "prostaglandins",
+      "classe_raiz": "Infix",
+      "classe_principal": "GPCR",
+      "who_extra": 0
+    },
+    {
+      "id_raiz_usan": 86,
+      "raiz": "-barb-",
+      "subgrupo": "-",
+      "anotação": "barbituric acid derivatives",
+      "classe_raiz": "Infix",
+      "classe_principal": "ion channel",
+      "who_extra": 0
+    }
+  ]
+}
