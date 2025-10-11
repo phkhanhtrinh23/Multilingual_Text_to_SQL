@@ -1,0 +1,106 @@
+{
+  "table_name": "compound_records_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.compound_records_30",
+  "column_names": [
+    "id_registro",
+    "molregno",
+    "id_documento",
+    "chave_compound",
+    "nome_compound",
+    "id_fonte",
+    "id_compound_fonte",
+    "cidx"
+  ],
+  "column_types": [
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING",
+    "INT64",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "id_registro",
+    "molregno",
+    "id_documento",
+    "chave_compound",
+    "nome_compound",
+    "id_fonte",
+    "id_compound_fonte",
+    "cidx"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING",
+    "INT64",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "ID único para um composto/registro",
+    "Chave estrangeira para a tabela de compostos (estrutura de composto)",
+    "Chave estrangeira para a tabela de documentos",
+    "Texto-chave que identifica este composto no documento científico",
+    "Nome deste composto registrado no documento científico",
+    "Chave estrangeira para a tabela de fontes",
+    "Identificador do composto no banco de dados de fontes (por exemplo, pubchem SID)",
+    "O Identificador de Composto Definido pelo Depositante"
+  ],
+  "sample_rows": [
+    {
+      "id_registro": 2530031,
+      "molregno": 155006,
+      "id_documento": 94208,
+      "chave_compound": "BDBM50130293",
+      "nome_compound": "7-{4-[4-(2,3-dichlorophenyl)piperazin-1-yl]butoxy}-3,4-dihydroquinolin-2(1H)-one::ARIPIPRAZOLE::CHEMBL1112::US9018213, aripprazole::US9156822, Aripiprazole",
+      "id_fonte": 37,
+      "id_compound_fonte": "BDBM50130293",
+      "cidx": "BDBM50130293"
+    },
+    {
+      "id_registro": 2571453,
+      "molregno": 2027989,
+      "id_documento": 94464,
+      "chave_compound": "BDBM128330",
+      "nome_compound": "US8796280, 20",
+      "id_fonte": 37,
+      "id_compound_fonte": "BDBM128330",
+      "cidx": "BDBM128330"
+    },
+    {
+      "id_registro": 2571438,
+      "molregno": 2027974,
+      "id_documento": 94464,
+      "chave_compound": "BDBM128315",
+      "nome_compound": "US8796280, 4",
+      "id_fonte": 37,
+      "id_compound_fonte": "BDBM128315",
+      "cidx": "BDBM128315"
+    },
+    {
+      "id_registro": 2571475,
+      "molregno": 2028011,
+      "id_documento": 94464,
+      "chave_compound": "BDBM128352",
+      "nome_compound": "US8796280, 42",
+      "id_fonte": 37,
+      "id_compound_fonte": "BDBM128352",
+      "cidx": "BDBM128352"
+    },
+    {
+      "id_registro": 2571452,
+      "molregno": 2027988,
+      "id_documento": 94464,
+      "chave_compound": "BDBM128329",
+      "nome_compound": "US8796280, 19",
+      "id_fonte": 37,
+      "id_compound_fonte": "BDBM128329",
+      "cidx": "BDBM128329"
+    }
+  ]
+}
