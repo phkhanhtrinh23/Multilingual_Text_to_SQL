@@ -1,0 +1,70 @@
+{
+  "sample_rows": [
+    {
+      "GEO_ID": "CoC/MI-504",
+      "VARIABLE": "overall_homeless_veterans_transgender",
+      "NOM_DE_VARIABLE": "Overall Homeless Veterans - Transgender",
+      "DATE": "2017-12-31",
+      "VALEUR": 0.0,
+      "UNITÉ": "Count"
+    },
+    {
+      "GEO_ID": "CoC/CA-518",
+      "VARIABLE": "sheltered_safe_haven_sh_homeless_over_24",
+      "NOM_DE_VARIABLE": "Sheltered Safe Haven (SH) Homeless - Over 24",
+      "DATE": "2020-12-31",
+      "VALEUR": 0.0,
+      "UNITÉ": "Count"
+    },
+    {
+      "GEO_ID": "CoC/MD-600",
+      "VARIABLE": "overall_homeless_individuals_under_18",
+      "NOM_DE_VARIABLE": "Overall Homeless Individuals - Under 18",
+      "DATE": "2018-12-31",
+      "VALEUR": 2.0,
+      "UNITÉ": "Count"
+    },
+    {
+      "GEO_ID": "CoC/FL-515",
+      "VARIABLE": "sheltered_transitional_housing_th_homeless_people_in_families_native_hawaiian_or_other_pacific_islander",
+      "NOM_DE_VARIABLE": "Sheltered Transitional Housing (TH) Homeless People in Families - Native Hawaiian or Other Pacific Islander",
+      "DATE": "2019-12-31",
+      "VALEUR": 0.0,
+      "UNITÉ": "Count"
+    },
+    {
+      "GEO_ID": "CoC/PA-603",
+      "VARIABLE": "sheltered_emergency_shelter_es_homeless_individuals_under_18",
+      "NOM_DE_VARIABLE": "Sheltered Emergency Shelter (ES) Homeless Individuals - Under 18",
+      "DATE": "2016-12-31",
+      "VALEUR": 0.0,
+      "UNITÉ": "Count"
+    }
+  ],
+  "table_name": "HOUSING_URBAN_DEVELOPMENT_TIMESERIES",
+  "table_fullname": "GLOBAL_GOVERNMENT.CYBERSYN.HOUSING_URBAN_DEVELOPMENT_TIMESERIES",
+  "column_names": [
+    "VALEUR",
+    "DATE",
+    "UNITÉ",
+    "GEO_ID",
+    "VARIABLE",
+    "NOM_DE_VARIABLE"
+  ],
+  "column_types": [
+    "FLOAT",
+    "DATE",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Valeur signalée pour la variable.",
+    "Date associée à la valeur.",
+    "Unité de mesure pour la valeur signalée.",
+    "Un identifiant unique pour un lieu. Joignable à d'autres tables de géographie, notamment `GEOGRAPHY_INDEX`, `GEOGRAPHY_RELATIONSHIPS` et `GEOGRAPHY_CHARACTERISTICS`.",
+    "Identifiant unique pour une variable, joignable à la table timeseries.",
+    "Nom unique lisible par l'homme pour la variable."
+  ]
+}
