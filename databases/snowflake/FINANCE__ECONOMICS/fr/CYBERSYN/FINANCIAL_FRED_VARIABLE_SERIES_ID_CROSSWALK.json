@@ -1,0 +1,46 @@
+{
+  "sample_rows": [
+    {
+      "ID_GEO": "country/USA",
+      "VARIABLE": "Industrial_Production:_Nondurable_Goods_Materials,_Seasonally_adjusted,_Monthly,_Index_2017=100",
+      "ID_DE_SERIE": "IPNMAT"
+    },
+    {
+      "ID_GEO": "country/USA",
+      "VARIABLE": "Industrial_Production:_Nondurable_Energy_Consumer_Goods:_Fuels,_Seasonally_adjusted,_Monthly,_Index_2017=100",
+      "ID_DE_SERIE": "IPFUELS"
+    },
+    {
+      "ID_GEO": "country/USA",
+      "VARIABLE": "Assets:_Liquidity_and_Credit_Facilities:_Net_Portfolio_Holdings_of_MS_Facilities_2020_LLC_(Main_Street_Lending_Program):_Wednesday_Level_in_Federal_Reserve_District_7:_Chicago,_Not_seasonally_adjusted,_Weekly,_USD",
+      "ID_DE_SERIE": "H41RESPPAAEF07NWW"
+    },
+    {
+      "ID_GEO": "country/USA",
+      "VARIABLE": "Layoffs_and_Discharges:_Total_Nonfarm,_Seasonally_adjusted,_Monthly,_Level_in_Thousands",
+      "ID_DE_SERIE": "JTSLDL"
+    },
+    {
+      "ID_GEO": "country/USA",
+      "VARIABLE": "New_Privately-Owned_Housing_Units_Authorized_in_Permit-Issuing_Places:_Units_in_Buildings_with_2-4_Units,_Seasonally_adjusted_annual_rate,_Monthly,_Units",
+      "ID_DE_SERIE": "PERMIT24"
+    }
+  ],
+  "table_name": "FINANCIAL_FRED_VARIABLE_SERIES_ID_CROSSWALK",
+  "table_fullname": "FINANCE__ECONOMICS.CYBERSYN.FINANCIAL_FRED_VARIABLE_SERIES_ID_CROSSWALK",
+  "column_names": [
+    "ID_DE_SERIE",
+    "ID_GEO",
+    "VARIABLE"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Identifiant de série à partir de la base de données FRED. La combinaison de geo_id et de variable est nécessaire pour identifier un series_id unique",
+    "Identifiant unique pour un lieu joignable à la table timeseries.",
+    "Identifiant unique joignable aux tables attributes et timeseries."
+  ]
+}
