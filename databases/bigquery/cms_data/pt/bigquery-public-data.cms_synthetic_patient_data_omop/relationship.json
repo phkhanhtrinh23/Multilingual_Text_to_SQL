@@ -1,0 +1,86 @@
+{
+  "table_name": "relationship",
+  "table_fullname": "bigquery-public-data.cms_synthetic_patient_data_omop.relationship",
+  "column_names": [
+    "id_de_relacionamento",
+    "nome_de_relacionamento",
+    "is_hierarchical",
+    "defines_ancestry",
+    "id_de_relacionamento_reverso",
+    "id_de_conceito_de_relacionamento"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "id_de_relacionamento",
+    "nome_de_relacionamento",
+    "is_hierarchical",
+    "defines_ancestry",
+    "id_de_relacionamento_reverso",
+    "id_de_conceito_de_relacionamento"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64"
+  ],
+  "description": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "sample_rows": [
+    {
+      "id_de_relacionamento": "Acc device used by",
+      "nome_de_relacionamento": "Access device used by (SNOMED)",
+      "is_hierarchical": "0",
+      "defines_ancestry": "0",
+      "id_de_relacionamento_reverso": "Using acc device",
+      "id_de_conceito_de_relacionamento": 44818895
+    },
+    {
+      "id_de_relacionamento": "Access of",
+      "nome_de_relacionamento": "Access of (SNOMED)",
+      "is_hierarchical": "0",
+      "defines_ancestry": "0",
+      "id_de_relacionamento_reverso": "Has access",
+      "id_de_conceito_de_relacionamento": 44818847
+    },
+    {
+      "id_de_relacionamento": "Active ing of",
+      "nome_de_relacionamento": "Active ingredient of (SNOMED)",
+      "is_hierarchical": "0",
+      "defines_ancestry": "0",
+      "id_de_relacionamento_reverso": "Has active ing",
+      "id_de_conceito_de_relacionamento": 44818859
+    },
+    {
+      "id_de_relacionamento": "AMP of",
+      "nome_de_relacionamento": "Actual Medicinal Product of (SNOMED)",
+      "is_hierarchical": "0",
+      "defines_ancestry": "0",
+      "id_de_relacionamento_reverso": "Has AMP",
+      "id_de_conceito_de_relacionamento": 45905757
+    },
+    {
+      "id_de_relacionamento": "Answer of",
+      "nome_de_relacionamento": "Answer of (LOINC)",
+      "is_hierarchical": "0",
+      "defines_ancestry": "0",
+      "id_de_relacionamento_reverso": "Has Answer",
+      "id_de_conceito_de_relacionamento": 45754684
+    }
+  ]
+}
