@@ -1,0 +1,102 @@
+{
+  "table_name": "DICOM_METADATA_CURATED_SERIES_LEVEL",
+  "table_fullname": "IDC.IDC_V17.DICOM_METADATA_CURATED_SERIES_LEVEL",
+  "column_names": [
+    "PuissanceObjectif",
+    "max_LignesMatricePixelTotal",
+    "SeriesInstanceUID",
+    "Modalité",
+    "primaryAnatomicStructure_code_designator_value_str",
+    "illuminationType_code_designator_value_str",
+    "illuminationType_CodeMeaning",
+    "min_EspacementPixel_2sf",
+    "primaryAnatomicStructure_CodeMeaning",
+    "max_ColonneMatricePixelTotal"
+  ],
+  "column_types": [
+    "NUMBER",
+    "NUMBER",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "FLOAT",
+    "TEXT",
+    "NUMBER"
+  ],
+  "description": [
+    "Valeur de OpticalPathSequence[0] > ObjectiveLensPower (applicable dans SM).",
+    "Valeur minimale de l'attribut Rows à travers les instances au sein de la série. Contient la première valeur non nulle entre l'attribut Rows de niveau supérieur et celui de TotalPixelMatrixRows (rencontré dans la modalité SM).",
+    "DICOM SeriesInstanceUID",
+    "DICOM Modality",
+    "Valeurs concaténées de `CodingSchemeDesignator` et `CodeValue` séparées par `:` à partir de SpecimenDescriptionSequence[0] > PrimaryAnatomicStructureSequence[0] (applicable dans SM).",
+    "Valeurs concaténées de `CodingSchemeDesignator` et `CodeValue` séparées par `:` à partir de OpticalPathSequence[0].IlluminationTypeCodeSequence[0] (applicable dans SM).",
+    "`CodeMeaning` à partir de OpticalPathSequence[0].IlluminationTypeCodeSequence[0] (applicable dans SM).",
+    "Valeur minimale du premier composant de l'espacement des pixels à travers toutes les instances de la série. Contient la première valeur non nulle entre le premier composant de l'attribut PixelSpacing de niveau supérieur et celui de SharedFunctionalGroupSequence[0] > PixelMeasuresSequence[0]. Arrondie à deux chiffres significatifs.",
+    "`CodeMeaning` à partir de SpecimenDescriptionSequence[0] > PrimaryAnatomicStructureSequence[0] (applicable dans SM).",
+    "Valeur minimale de l'attribut Columns à travers les instances au sein de la série. Contient la première valeur non nulle entre l'attribut Columns de niveau supérieur et celui de TotalPixelMatrixColumns (rencontré dans la modalité SM)."
+  ],
+  "sample_rows": [
+    {
+      "SeriesInstanceUID": "1.3.6.1.4.1.14519.5.2.1.2103.7010.269874.1.2",
+      "min_EspacementPixel_2sf": null,
+      "max_ColonneMatricePixelTotal": null,
+      "max_LignesMatricePixelTotal": null,
+      "PuissanceObjectif": null,
+      "primaryAnatomicStructure_code_designator_value_str": null,
+      "primaryAnatomicStructure_CodeMeaning": null,
+      "illuminationType_code_designator_value_str": null,
+      "illuminationType_CodeMeaning": null,
+      "Modalité": "KO"
+    },
+    {
+      "SeriesInstanceUID": "1.3.6.1.4.1.14519.5.2.1.2103.7010.269874.1.1",
+      "min_EspacementPixel_2sf": null,
+      "max_ColonneMatricePixelTotal": null,
+      "max_LignesMatricePixelTotal": null,
+      "PuissanceObjectif": null,
+      "primaryAnatomicStructure_code_designator_value_str": null,
+      "primaryAnatomicStructure_CodeMeaning": null,
+      "illuminationType_code_designator_value_str": null,
+      "illuminationType_CodeMeaning": null,
+      "Modalité": "KO"
+    },
+    {
+      "SeriesInstanceUID": "1.3.6.1.4.1.14519.5.2.1.2103.7010.237254.1.2",
+      "min_EspacementPixel_2sf": null,
+      "max_ColonneMatricePixelTotal": null,
+      "max_LignesMatricePixelTotal": null,
+      "PuissanceObjectif": null,
+      "primaryAnatomicStructure_code_designator_value_str": null,
+      "primaryAnatomicStructure_CodeMeaning": null,
+      "illuminationType_code_designator_value_str": null,
+      "illuminationType_CodeMeaning": null,
+      "Modalité": "KO"
+    },
+    {
+      "SeriesInstanceUID": "1.3.6.1.4.1.14519.5.2.1.2103.7010.263376.2.1",
+      "min_EspacementPixel_2sf": null,
+      "max_ColonneMatricePixelTotal": null,
+      "max_LignesMatricePixelTotal": null,
+      "PuissanceObjectif": null,
+      "primaryAnatomicStructure_code_designator_value_str": null,
+      "primaryAnatomicStructure_CodeMeaning": null,
+      "illuminationType_code_designator_value_str": null,
+      "illuminationType_CodeMeaning": null,
+      "Modalité": "KO"
+    },
+    {
+      "SeriesInstanceUID": "1.3.6.1.4.1.14519.5.2.1.2103.7010.135953.2.2",
+      "min_EspacementPixel_2sf": null,
+      "max_ColonneMatricePixelTotal": null,
+      "max_LignesMatricePixelTotal": null,
+      "PuissanceObjectif": null,
+      "primaryAnatomicStructure_code_designator_value_str": null,
+      "primaryAnatomicStructure_CodeMeaning": null,
+      "illuminationType_code_designator_value_str": null,
+      "illuminationType_CodeMeaning": null,
+      "Modalité": "KO"
+    }
+  ]
+}
