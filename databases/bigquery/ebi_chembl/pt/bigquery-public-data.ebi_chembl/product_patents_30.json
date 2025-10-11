@@ -1,0 +1,116 @@
+{
+  "table_name": "product_patents_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.product_patents_30",
+  "column_names": [
+    "id_patente_produto",
+    "id_produto",
+    "numero_patente",
+    "data_expiracao_patente",
+    "indicador_substancia_farmaceutica",
+    "indicador_produto_farmaceutico",
+    "codigo_uso_patente",
+    "indicador_exclusao",
+    "data_envio"
+  ],
+  "column_types": [
+    "INT64",
+    "STRING",
+    "STRING",
+    "DATETIME",
+    "INT64",
+    "INT64",
+    "STRING",
+    "INT64",
+    "DATETIME"
+  ],
+  "nested_column_names": [
+    "id_patente_produto",
+    "id_produto",
+    "numero_patente",
+    "data_expiracao_patente",
+    "indicador_substancia_farmaceutica",
+    "indicador_produto_farmaceutico",
+    "codigo_uso_patente",
+    "indicador_exclusao",
+    "data_envio"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "STRING",
+    "STRING",
+    "DATETIME",
+    "INT64",
+    "INT64",
+    "STRING",
+    "INT64",
+    "DATETIME"
+  ],
+  "description": [
+    "Chave primária",
+    "Chave estrangeira para a tabela de produtos - Número de aplicação da FDA para o produto",
+    "Números de patente conforme apresentados pelo titular do pedido para patentes cobertas pelas disposições estatutárias",
+    "Data em que a patente expira conforme apresentada pelo titular do pedido, incluindo extensões aplicáveis",
+    "Patentes apresentadas no Formulário FDA 3542 e listadas após 18 de agosto de 2003 podem ter uma flag de substância de droga definida como 1, indicando que o sponsor apresentou a patente como reivindicando a substância de droga",
+    "Patentes apresentadas no Formulário FDA 3542 e listadas após 18 de agosto de 2003 podem ter uma flag de produto de droga definida como 1, indicando que o sponsor apresentou a patente como reivindicando o produto de droga",
+    "Código para designar uma patente de uso que cobre a indicação aprovada ou uso de um produto de droga",
+    "Solicitantes sob a Seção 505(b)(2) não são obrigados a certificar patentes onde essa flag é definida como 1",
+    "A data em que a FDA recebe informações de patente do titular da nova droga (NDA) - Formato é Mmm d, yyyy"
+  ],
+  "sample_rows": [
+    {
+      "id_patente_produto": 12524,
+      "id_produto": "PRODUCT_022569_002",
+      "numero_patente": "9078814",
+      "data_expiracao_patente": "2024-01-08 00:00:00",
+      "indicador_substancia_farmaceutica": 0,
+      "indicador_produto_farmaceutico": 1,
+      "codigo_uso_patente": null,
+      "indicador_exclusao": 0,
+      "data_envio": "2015-08-11 00:00:00"
+    },
+    {
+      "id_patente_produto": 12841,
+      "id_produto": "PRODUCT_022569_001",
+      "numero_patente": "9078814",
+      "data_expiracao_patente": "2024-01-08 00:00:00",
+      "indicador_substancia_farmaceutica": 0,
+      "indicador_produto_farmaceutico": 1,
+      "codigo_uso_patente": null,
+      "indicador_exclusao": 0,
+      "data_envio": "2015-08-11 00:00:00"
+    },
+    {
+      "id_patente_produto": 19542,
+      "id_produto": "PRODUCT_022569_003",
+      "numero_patente": "9814705",
+      "data_expiracao_patente": "2024-01-08 00:00:00",
+      "indicador_substancia_farmaceutica": 0,
+      "indicador_produto_farmaceutico": 1,
+      "codigo_uso_patente": null,
+      "indicador_exclusao": 0,
+      "data_envio": "2017-12-13 00:00:00"
+    },
+    {
+      "id_patente_produto": 21398,
+      "id_produto": "PRODUCT_022569_002",
+      "numero_patente": "9814705",
+      "data_expiracao_patente": "2024-01-08 00:00:00",
+      "indicador_substancia_farmaceutica": 0,
+      "indicador_produto_farmaceutico": 1,
+      "codigo_uso_patente": null,
+      "indicador_exclusao": 0,
+      "data_envio": "2017-12-13 00:00:00"
+    },
+    {
+      "id_patente_produto": 21415,
+      "id_produto": "PRODUCT_022569_001",
+      "numero_patente": "9814705",
+      "data_expiracao_patente": "2024-01-08 00:00:00",
+      "indicador_substancia_farmaceutica": 0,
+      "indicador_produto_farmaceutico": 1,
+      "codigo_uso_patente": null,
+      "indicador_exclusao": 0,
+      "data_envio": "2017-12-13 00:00:00"
+    }
+  ]
+}
