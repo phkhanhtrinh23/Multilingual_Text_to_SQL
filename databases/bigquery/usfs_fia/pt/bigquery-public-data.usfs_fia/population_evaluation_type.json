@@ -1,0 +1,126 @@
+{
+  "table_name": "population_evaluation_type",
+  "table_fullname": "bigquery-public-data.usfs_fia.population_evaluation_type",
+  "column_names": [
+    "sequencia_de_numero_do_tipo_de_avaliacao",
+    "sequencia_de_numero_do_grupo_de_avaliacao",
+    "sequencia_de_numero_de_avaliacao",
+    "tipo_de_avaliacao",
+    "tipo_de_avaliacao_criado_por",
+    "data_de_criacao_do_tipo_de_avaliacao",
+    "instancia_de_criacao_do_tipo_de_avaliacao",
+    "tipo_de_avaliacao_modificado_por",
+    "data_de_modificacao_do_tipo_de_avaliacao",
+    "instancia_de_modificacao_do_tipo_de_avaliacao"
+  ],
+  "column_types": [
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING",
+    "DATE",
+    "INT64",
+    "STRING",
+    "DATE",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "sequencia_de_numero_do_tipo_de_avaliacao",
+    "sequencia_de_numero_do_grupo_de_avaliacao",
+    "sequencia_de_numero_de_avaliacao",
+    "tipo_de_avaliacao",
+    "tipo_de_avaliacao_criado_por",
+    "data_de_criacao_do_tipo_de_avaliacao",
+    "instancia_de_criacao_do_tipo_de_avaliacao",
+    "tipo_de_avaliacao_modificado_por",
+    "data_de_modificacao_do_tipo_de_avaliacao",
+    "instancia_de_modificacao_do_tipo_de_avaliacao"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING",
+    "DATE",
+    "INT64",
+    "STRING",
+    "DATE",
+    "INT64"
+  ],
+  "description": [
+    "Um número de sequência único usado para identificar um registro de tipo de avaliação de população.",
+    "Chave estrangeira que liga o registro de avaliação de população ao registro do grupo de avaliação de população.",
+    "Chave estrangeira que liga o registro da unidade de estimativa ao registro de avaliação.",
+    "Descreve o tipo de avaliação. O tipo de avaliação é necessário para gerar relatórios resumidos para um inventário. Por exemplo, uma avaliação específica está associada à avaliação do volume de árvores (`EXPVOL`). Atualmente, nove tipos de avaliações podem ser produzidos. Consulte também a tabela `REF_POP_EVAL_TYP_DESCR`.",
+    "Veja a descrição de `SURVEY.CREATED_BY` para definição.",
+    "Veja a descrição de `SURVEY.CREATED_DATE` para definição.",
+    "Veja a descrição de `SURVEY.CREATED_IN_INSTANCE` para definição.",
+    "Veja a descrição de `SURVEY.MODIFIED_BY` para definição.",
+    "Veja a descrição de `SURVEY.MODIFIED_DATE` para definição.",
+    "Veja a descrição de `SURVEY.MODIFIED_IN_INSTANCE` para definição."
+  ],
+  "sample_rows": [
+    {
+      "sequencia_de_numero_do_tipo_de_avaliacao": 247340670010854,
+      "sequencia_de_numero_do_grupo_de_avaliacao": 246589849010854,
+      "sequencia_de_numero_de_avaliacao": 247334062010854,
+      "tipo_de_avaliacao": "EXPGROW",
+      "tipo_de_avaliacao_criado_por": null,
+      "data_de_criacao_do_tipo_de_avaliacao": "2010-08-27",
+      "instancia_de_criacao_do_tipo_de_avaliacao": 10854,
+      "tipo_de_avaliacao_modificado_por": null,
+      "data_de_modificacao_do_tipo_de_avaliacao": "NaT",
+      "instancia_de_modificacao_do_tipo_de_avaliacao": null
+    },
+    {
+      "sequencia_de_numero_do_tipo_de_avaliacao": 247340671010854,
+      "sequencia_de_numero_do_grupo_de_avaliacao": 246589849010854,
+      "sequencia_de_numero_de_avaliacao": 247334062010854,
+      "tipo_de_avaliacao": "EXPREMV",
+      "tipo_de_avaliacao_criado_por": null,
+      "data_de_criacao_do_tipo_de_avaliacao": "2010-08-27",
+      "instancia_de_criacao_do_tipo_de_avaliacao": 10854,
+      "tipo_de_avaliacao_modificado_por": null,
+      "data_de_modificacao_do_tipo_de_avaliacao": "NaT",
+      "instancia_de_modificacao_do_tipo_de_avaliacao": null
+    },
+    {
+      "sequencia_de_numero_do_tipo_de_avaliacao": 247340672010854,
+      "sequencia_de_numero_do_grupo_de_avaliacao": 246589849010854,
+      "sequencia_de_numero_de_avaliacao": 247334062010854,
+      "tipo_de_avaliacao": "EXPMORT",
+      "tipo_de_avaliacao_criado_por": null,
+      "data_de_criacao_do_tipo_de_avaliacao": "2010-08-27",
+      "instancia_de_criacao_do_tipo_de_avaliacao": 10854,
+      "tipo_de_avaliacao_modificado_por": null,
+      "data_de_modificacao_do_tipo_de_avaliacao": "NaT",
+      "instancia_de_modificacao_do_tipo_de_avaliacao": null
+    },
+    {
+      "sequencia_de_numero_do_tipo_de_avaliacao": 215078424010854,
+      "sequencia_de_numero_do_grupo_de_avaliacao": 209643348010854,
+      "sequencia_de_numero_de_avaliacao": 209643345010854,
+      "tipo_de_avaliacao": "EXPCURR",
+      "tipo_de_avaliacao_criado_por": null,
+      "data_de_criacao_do_tipo_de_avaliacao": "2009-12-15",
+      "instancia_de_criacao_do_tipo_de_avaliacao": 10854,
+      "tipo_de_avaliacao_modificado_por": null,
+      "data_de_modificacao_do_tipo_de_avaliacao": "NaT",
+      "instancia_de_modificacao_do_tipo_de_avaliacao": null
+    },
+    {
+      "sequencia_de_numero_do_tipo_de_avaliacao": 215078427010854,
+      "sequencia_de_numero_do_grupo_de_avaliacao": 209643348010854,
+      "sequencia_de_numero_de_avaliacao": 209643346010854,
+      "tipo_de_avaliacao": "EXPVOL",
+      "tipo_de_avaliacao_criado_por": null,
+      "data_de_criacao_do_tipo_de_avaliacao": "2009-12-15",
+      "instancia_de_criacao_do_tipo_de_avaliacao": 10854,
+      "tipo_de_avaliacao_modificado_por": null,
+      "data_de_modificacao_do_tipo_de_avaliacao": "NaT",
+      "instancia_de_modificacao_do_tipo_de_avaliacao": null
+    }
+  ]
+}
