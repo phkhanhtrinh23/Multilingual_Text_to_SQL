@@ -1,0 +1,102 @@
+{
+  "table_name": "SCRNASEQ_VUMC_HTAN_VAL_DIS_NONEPI_V2_CURRENT",
+  "table_fullname": "HTAN_2.HTAN.SCRNASEQ_VUMC_HTAN_VAL_DIS_NONEPI_V2_CURRENT",
+  "column_names": [
+    "Valeur_X",
+    "HTAN_Biospecimen_ID",
+    "Type_de_tissu",
+    "iObs",
+    "iVar",
+    "Sous_type_de_tissu",
+    "Nom_de_gène",
+    "HTAN_Parent_Data_File_ID",
+    "Type_de_cellule",
+    "Numéro_de_code_barre_de_cellule"
+  ],
+  "column_types": [
+    "FLOAT",
+    "TEXT",
+    "TEXT",
+    "NUMBER",
+    "NUMBER",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Valeur d'expression pour un gène et une cellule donnés.",
+    "ID HTAN associé à un biosample en fonction de la SOP ID HTAN (par exemple HTANx_yyy_zzz)",
+    "AD = adénome conventionnel, SER = polype serré, NL = normal, MSI-H = instabilité des microsatellites élevée CRC, MSS = CRC stable des microsatellites",
+    "Index des codes à barres des cellules.",
+    "Index des ID de gènes.",
+    "TA = adénome tubulaire, HP = polype hyperplasique, TVA = adénome tubulovilleux, SSL = lésion serrée sessile, NL = normal, MSI-H = instabilité des microsatellites élevée CRC, MSS = CRC stable des microsatellites",
+    "Gène mesuré",
+    "Identifiant de fichier de données HTAN indiquant le fichier(s) à partir duquel ces fichiers ont été dérivés",
+    "B = cellule B, T = cellule T, END = endothélial, FIB = fibroblaste, MAS = cellule mast, MYE = myéloïde, PLA = plasma",
+    "Codes à barres utilisés pour chaque gouttelette qui contient la cellule dans le processus de séquençage"
+  ],
+  "sample_rows": [
+    {
+      "iObs": 915,
+      "iVar": 16620,
+      "Valeur_X": 1.0,
+      "Numéro_de_code_barre_de_cellule": "AGCACCACCCTACTAG-10",
+      "HTAN_Parent_Data_File_ID": "HTA11_78_200000101113111",
+      "HTAN_Biospecimen_ID": "HTA11_78_2000001011",
+      "Type_de_cellule": "PLA",
+      "Sous_type_de_tissu": "TA",
+      "Type_de_tissu": "AD",
+      "Nom_de_gène": "PRDM1"
+    },
+    {
+      "iObs": 915,
+      "iVar": 7275,
+      "Valeur_X": 1.0,
+      "Numéro_de_code_barre_de_cellule": "AGCACCACCCTACTAG-10",
+      "HTAN_Parent_Data_File_ID": "HTA11_78_200000101113111",
+      "HTAN_Biospecimen_ID": "HTA11_78_2000001011",
+      "Type_de_cellule": "PLA",
+      "Sous_type_de_tissu": "TA",
+      "Type_de_tissu": "AD",
+      "Nom_de_gène": "DOPEY1"
+    },
+    {
+      "iObs": 915,
+      "iVar": 9862,
+      "Valeur_X": 1.0,
+      "Numéro_de_code_barre_de_cellule": "AGCACCACCCTACTAG-10",
+      "HTAN_Parent_Data_File_ID": "HTA11_78_200000101113111",
+      "HTAN_Biospecimen_ID": "HTA11_78_2000001011",
+      "Type_de_cellule": "PLA",
+      "Sous_type_de_tissu": "TA",
+      "Type_de_tissu": "AD",
+      "Nom_de_gène": "HCLS1"
+    },
+    {
+      "iObs": 893,
+      "iVar": 1963,
+      "Valeur_X": 1.0,
+      "Numéro_de_code_barre_de_cellule": "CCGCTGTTGAATACGC-10",
+      "HTAN_Parent_Data_File_ID": "HTA11_78_200000101113111",
+      "HTAN_Biospecimen_ID": "HTA11_78_2000001011",
+      "Type_de_cellule": "PLA",
+      "Sous_type_de_tissu": "TA",
+      "Type_de_tissu": "AD",
+      "Nom_de_gène": "ANKMY1"
+    },
+    {
+      "iObs": 893,
+      "iVar": 23528,
+      "Valeur_X": 1.0,
+      "Numéro_de_code_barre_de_cellule": "CCGCTGTTGAATACGC-10",
+      "HTAN_Parent_Data_File_ID": "HTA11_78_200000101113111",
+      "HTAN_Biospecimen_ID": "HTA11_78_2000001011",
+      "Type_de_cellule": "PLA",
+      "Sous_type_de_tissu": "TA",
+      "Type_de_tissu": "AD",
+      "Nom_de_gène": "RP11-81K2.1"
+    }
+  ]
+}
