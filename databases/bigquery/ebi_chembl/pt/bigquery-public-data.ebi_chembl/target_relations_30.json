@@ -1,0 +1,66 @@
+{
+  "table_name": "target_relations_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.target_relations_30",
+  "column_names": [
+    "id_transacao",
+    "relacionamento",
+    "tid_relacionado",
+    "id_relacao_alvo"
+  ],
+  "column_types": [
+    "INT64",
+    "STRING",
+    "INT64",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "id_transacao",
+    "relacionamento",
+    "tid_relacionado",
+    "id_relacao_alvo"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "STRING",
+    "INT64",
+    "INT64"
+  ],
+  "description": [
+    "Identificador para o alvo de interesse (chave estrangeira para a tabela target_dictionary)",
+    "Relação entre dois alvos (por exemplo, SUBSET OF, SUPERSET OF, OVERLAPS WITH)",
+    "Identificador para o alvo relacionado ao alvo de interesse (chave estrangeira para a tabela target_dictionary)",
+    "Chave primária"
+  ],
+  "sample_rows": [
+    {
+      "id_transacao": 117043,
+      "relacionamento": "SUBSET OF",
+      "tid_relacionado": 118387,
+      "id_relacao_alvo": 227977
+    },
+    {
+      "id_transacao": 117043,
+      "relacionamento": "SUBSET OF",
+      "tid_relacionado": 120269,
+      "id_relacao_alvo": 227981
+    },
+    {
+      "id_transacao": 104690,
+      "relacionamento": "SUBSET OF",
+      "tid_relacionado": 104871,
+      "id_relacao_alvo": 228004
+    },
+    {
+      "id_transacao": 104897,
+      "relacionamento": "SUBSET OF",
+      "tid_relacionado": 119771,
+      "id_relacao_alvo": 228021
+    },
+    {
+      "id_transacao": 105044,
+      "relacionamento": "SUBSET OF",
+      "tid_relacionado": 104844,
+      "id_relacao_alvo": 228037
+    }
+  ]
+}
