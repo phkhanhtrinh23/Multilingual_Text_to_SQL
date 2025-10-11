@@ -1,0 +1,116 @@
+{
+  "table_name": "quant_phosphoproteome_CPTAC_GBM_discovery_study_pdc_current",
+  "table_fullname": "isb-cgc-bq.CPTAC.quant_phosphoproteome_CPTAC_GBM_discovery_study_pdc_current",
+  "column_names": [
+    "id_caso",
+    "id_amostra",
+    "id_alíquota",
+    "id_submitter_alíquota",
+    "id_metadados_execucao_alíquota",
+    "nome_estudo",
+    "abundancia_proteica_log2ratio",
+    "id_refseq",
+    "sitios_fosforilacao"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "id_caso",
+    "id_amostra",
+    "id_alíquota",
+    "id_submetedor_alíquota",
+    "id_metadados_execucao_alíquota",
+    "nome_estudo",
+    "protein_abundance_log2ratio",
+    "id_refseq",
+    "sitios_de_fosforilação"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "Identificador único associado a um paciente específico (e.g. 24cb0fcb-63d6-11e8-bcf1-0a2705229b82)",
+    "Identificador PDC único para esta amostra (e.g. e8d83eb9-693a-11ea-b1fd-0aad30af8a83)",
+    "Identificador PDC único para este alíquota (e.g. e8db124a-693a-11ea-b1fd-0aad30af8a83)",
+    "Id do submetedor de alíquota atribuído pelo programa (e.g. T14)",
+    "Identifica exclusivamente o alíquota pelo modo como foi utilizado no experimento (com base no reagente de rotulagem e/ou replicata biológica)",
+    "Nome do estudo (e.g. Estudo Piloto de Câncer de Cérebro Pediátrico - Fosfoproteoma)",
+    "Média da razão logarítmica do íon do relatório da amostra para a referência comum dos íons de peptídeos associados ao gene nas aquisições de uma amostra biológica específica",
+    "Identificador único dado a uma sequência no banco de dados NCBI RefSeq",
+    "Códigos de letra única e posições da sequência de proteína dos aminoácidos fosforilados (e.g. t304s310, t59)"
+  ],
+  "sample_rows": [
+    {
+      "id_caso": "104c0406-2139-11ea-aee1-0e1aae319e49",
+      "id_amostra": "104c98ce-2139-11ea-aee1-0e1aae319e49",
+      "id_alíquota": "104d4cd6-2139-11ea-aee1-0e1aae319e49",
+      "id_submetedor_alíquota": "CPT0092440003",
+      "id_metadados_execucao_alíquota": "54d82185-2167-11ea-8856-0aee84e6d0d3",
+      "nome_estudo": "CPTAC GBM Discovery Study - Phosphoproteome",
+      "protein_abundance_log2ratio": 0.2915,
+      "id_refseq": "NP_001129108.1",
+      "sitios_de_fosforilação": "s448"
+    },
+    {
+      "id_caso": "104c0406-2139-11ea-aee1-0e1aae319e49",
+      "id_amostra": "104c98ce-2139-11ea-aee1-0e1aae319e49",
+      "id_alíquota": "104d4cd6-2139-11ea-aee1-0e1aae319e49",
+      "id_submetedor_alíquota": "CPT0092440003",
+      "id_metadados_execucao_alíquota": "54d82185-2167-11ea-8856-0aee84e6d0d3",
+      "nome_estudo": "CPTAC GBM Discovery Study - Phosphoproteome",
+      "protein_abundance_log2ratio": -0.0832,
+      "id_refseq": "NP_001449.3",
+      "sitios_de_fosforilação": "s1527"
+    },
+    {
+      "id_caso": "104c0406-2139-11ea-aee1-0e1aae319e49",
+      "id_amostra": "104c98ce-2139-11ea-aee1-0e1aae319e49",
+      "id_alíquota": "104d4cd6-2139-11ea-aee1-0e1aae319e49",
+      "id_submetedor_alíquota": "CPT0092440003",
+      "id_metadados_execucao_alíquota": "54d82185-2167-11ea-8856-0aee84e6d0d3",
+      "nome_estudo": "CPTAC GBM Discovery Study - Phosphoproteome",
+      "protein_abundance_log2ratio": 0.5382,
+      "id_refseq": "NP_001278928.1",
+      "sitios_de_fosforilação": "s85s89"
+    },
+    {
+      "id_caso": "104c0406-2139-11ea-aee1-0e1aae319e49",
+      "id_amostra": "104c98ce-2139-11ea-aee1-0e1aae319e49",
+      "id_alíquota": "104d4cd6-2139-11ea-aee1-0e1aae319e49",
+      "id_submetedor_alíquota": "CPT0092440003",
+      "id_metadados_execucao_alíquota": "54d82185-2167-11ea-8856-0aee84e6d0d3",
+      "nome_estudo": "CPTAC GBM Discovery Study - Phosphoproteome",
+      "protein_abundance_log2ratio": 0.4233,
+      "id_refseq": "NP_003194.3",
+      "sitios_de_fosforilação": "s19"
+    },
+    {
+      "id_caso": "104c0406-2139-11ea-aee1-0e1aae319e49",
+      "id_amostra": "104c98ce-2139-11ea-aee1-0e1aae319e49",
+      "id_alíquota": "104d4cd6-2139-11ea-aee1-0e1aae319e49",
+      "id_submetedor_alíquota": "CPT0092440003",
+      "id_metadados_execucao_alíquota": "54d82185-2167-11ea-8856-0aee84e6d0d3",
+      "nome_estudo": "CPTAC GBM Discovery Study - Phosphoproteome",
+      "protein_abundance_log2ratio": 1.3674,
+      "id_refseq": "NP_958786.1",
+      "sitios_de_fosforilação": "s1417"
+    }
+  ]
+}
