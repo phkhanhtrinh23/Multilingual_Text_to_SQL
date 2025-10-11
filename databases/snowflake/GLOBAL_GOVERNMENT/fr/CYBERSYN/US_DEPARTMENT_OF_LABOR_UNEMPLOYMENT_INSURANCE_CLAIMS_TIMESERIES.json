@@ -1,0 +1,70 @@
+{
+  "sample_rows": [
+    {
+      "ID_GEO": "geoId/24",
+      "VARIABLE": "CW",
+      "NOM_VARIABLE": "Adjusted Continued Weeks Claimed for State Unemployment Insurance",
+      "DATE": "2007-04-28",
+      "VALEUR": 30739.0,
+      "UNITÉ": "Count"
+    },
+    {
+      "ID_GEO": "geoId/24",
+      "VARIABLE": "WSEIC",
+      "NOM_VARIABLE": "Short Time Compensation (Workshare) Equivalent Initial Claims",
+      "DATE": "2016-04-09",
+      "VALEUR": 0.0,
+      "UNITÉ": "Count"
+    },
+    {
+      "ID_GEO": "geoId/40",
+      "VARIABLE": "CE",
+      "NOM_VARIABLE": "Covered Employment",
+      "DATE": "1992-11-21",
+      "VALEUR": 1182846.0,
+      "UNITÉ": "Count"
+    },
+    {
+      "ID_GEO": "geoId/42",
+      "VARIABLE": "WSECW",
+      "NOM_VARIABLE": "Short Time Compensation (Workshare) Equivalent Continued Weeks Claimed",
+      "DATE": "2008-07-19",
+      "VALEUR": 0.0,
+      "UNITÉ": "Count"
+    },
+    {
+      "ID_GEO": "geoId/24",
+      "VARIABLE": "EBUI",
+      "NOM_VARIABLE": "Total State Unemployment Insurance Continued Weeks Claimed under the Federal/State Extended Benefit Program",
+      "DATE": "2022-02-26",
+      "VALEUR": 5.0,
+      "UNITÉ": "Count"
+    }
+  ],
+  "table_name": "US_DEPARTMENT_OF_LABOR_UNEMPLOYMENT_INSURANCE_CLAIMS_TIMESERIES",
+  "table_fullname": "GLOBAL_GOVERNMENT.CYBERSYN.US_DEPARTMENT_OF_LABOR_UNEMPLOYMENT_INSURANCE_CLAIMS_TIMESERIES",
+  "column_names": [
+    "UNITÉ",
+    "ID_GEO",
+    "VARIABLE",
+    "DATE",
+    "VALEUR",
+    "NOM_VARIABLE"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "DATE",
+    "FLOAT",
+    "TEXT"
+  ],
+  "description": [
+    "Unité de mesure pour la valeur rapportée.",
+    "Un identifiant unique pour un lieu. Joignable à d'autres tables de géographie, notamment `GEOGRAPHY_INDEX`, `GEOGRAPHY_RELATIONSHIPS` et `GEOGRAPHY_CHARACTERISTICS`.",
+    "Identifiant unique pour une variable, joignable à la table timeseries.",
+    "Date associée à la valeur.",
+    "Valeur rapportée pour la variable.",
+    "Nom unique lisible par l'homme pour la variable."
+  ]
+}
