@@ -1,0 +1,126 @@
+{
+  "table_name": "bikeshare_trips",
+  "table_fullname": "bigquery-public-data.austin_bikeshare.bikeshare_trips",
+  "column_names": [
+    "id_viagem",
+    "tipo_assinante",
+    "id_bicicleta",
+    "tipo_bicicleta",
+    "hora_inicio",
+    "id_estacao_inicio",
+    "nome_estacao_inicio",
+    "id_estacao_fim",
+    "nome_estacao_fim",
+    "duracao_minutos"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "TIMESTAMP",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "id_viagem",
+    "tipo_assinante",
+    "id_bicicleta",
+    "tipo_bicicleta",
+    "hora_inicio",
+    "id_estacao_inicio",
+    "nome_estacao_inicio",
+    "id_estacao_fim",
+    "nome_estacao_fim",
+    "duracao_minutos"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "TIMESTAMP",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64"
+  ],
+  "description": [
+    "ID numérico da viagem de bicicleta",
+    "Tipo do Assinante",
+    "ID da bicicleta usada",
+    "Tipo de bicicleta usada",
+    "Carimbo de data/hora de início da viagem",
+    "Referência numérica para a estação de início",
+    "Nome da estação de início",
+    "Referência numérica para a estação de fim",
+    "Nome da estação de fim",
+    "Tempo de viagem em minutos"
+  ],
+  "sample_rows": [
+    {
+      "id_viagem": "4098781",
+      "tipo_assinante": "24 Hour Walk Up Pass",
+      "id_bicicleta": "14",
+      "tipo_bicicleta": "classic",
+      "hora_inicio": "2015-03-12 22:24:45+00:00",
+      "id_estacao_inicio": 2546,
+      "nome_estacao_inicio": "ACC - West & 12th Street",
+      "id_estacao_fim": "2546",
+      "nome_estacao_fim": "ACC - West & 12th Street",
+      "duracao_minutos": 44
+    },
+    {
+      "id_viagem": "4098776",
+      "tipo_assinante": "24 Hour Walk Up Pass",
+      "id_bicicleta": "24",
+      "tipo_bicicleta": "classic",
+      "hora_inicio": "2015-03-12 22:22:59+00:00",
+      "id_estacao_inicio": 2546,
+      "nome_estacao_inicio": "ACC - West & 12th Street",
+      "id_estacao_fim": "2546",
+      "nome_estacao_fim": "ACC - West & 12th Street",
+      "duracao_minutos": 46
+    },
+    {
+      "id_viagem": "4098773",
+      "tipo_assinante": "24 Hour Walk Up Pass",
+      "id_bicicleta": "789",
+      "tipo_bicicleta": "classic",
+      "hora_inicio": "2015-03-12 22:21:57+00:00",
+      "id_estacao_inicio": 2546,
+      "nome_estacao_inicio": "ACC - West & 12th Street",
+      "id_estacao_fim": "2546",
+      "nome_estacao_fim": "ACC - West & 12th Street",
+      "duracao_minutos": 80
+    },
+    {
+      "id_viagem": "4098766",
+      "tipo_assinante": "24 Hour Walk Up Pass",
+      "id_bicicleta": "306",
+      "tipo_bicicleta": "classic",
+      "hora_inicio": "2015-03-12 22:20:09+00:00",
+      "id_estacao_inicio": 2546,
+      "nome_estacao_inicio": "ACC - West & 12th Street",
+      "id_estacao_fim": "2546",
+      "nome_estacao_fim": "ACC - West & 12th Street",
+      "duracao_minutos": 47
+    },
+    {
+      "id_viagem": "4098761",
+      "tipo_assinante": "24 Hour Walk Up Pass",
+      "id_bicicleta": "362",
+      "tipo_bicicleta": "classic",
+      "hora_inicio": "2015-03-12 22:19:11+00:00",
+      "id_estacao_inicio": 2546,
+      "nome_estacao_inicio": "ACC - West & 12th Street",
+      "id_estacao_fim": "2546",
+      "nome_estacao_fim": "ACC - West & 12th Street",
+      "duracao_minutos": 47
+    }
+  ]
+}
