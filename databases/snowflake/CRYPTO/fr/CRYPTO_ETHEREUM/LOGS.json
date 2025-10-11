@@ -1,0 +1,94 @@
+{
+  "table_name": "LOGS",
+  "table_fullname": "CRYPTO.CRYPTO_ETHEREUM.LOGS",
+  "column_names": [
+    "indice_transaction",
+    "adresse",
+    "numero_bloc",
+    "data",
+    "topics",
+    "hachage_transaction",
+    "indice_journal",
+    "timestamp_bloc",
+    "hachage_bloc"
+  ],
+  "column_types": [
+    "NUMBER",
+    "TEXT",
+    "NUMBER",
+    "TEXT",
+    "VARIANT",
+    "TEXT",
+    "NUMBER",
+    "NUMBER",
+    "TEXT"
+  ],
+  "description": [
+    "Entier de la position d'index des transactions à partir duquel le journal a été créé",
+    "Adresse à partir de laquelle ce journal a origine",
+    "Numéro du bloc où ce journal se trouvait",
+    "Contient un ou plusieurs arguments non indexés de 32 octets du journal",
+    "Arguments de journal indexés (0 à 4 chaînes hexadécimales de 32 octets). (En solidity : Le premier sujet est le hachage de la signature de l'événement (par exemple Deposit(address,bytes32,uint256)), sauf si vous avez déclaré l'événement avec le spécificateur anonyme.)",
+    "Hachage des transactions à partir duquel ce journal a été créé",
+    "Entier de la position d'index du journal dans le bloc",
+    "Horodatage du bloc où ce journal se trouvait",
+    "Hachage du bloc où ce journal se trouvait"
+  ],
+  "sample_rows": [
+    {
+      "indice_journal": 244,
+      "hachage_transaction": "0x8d2aeccb668f0c7cecce04784366c738e058741b3769a0a8b453f09ec4e17da5",
+      "indice_transaction": 97,
+      "adresse": "0x39053d51b77dc0d36036fc1fcc8cb819df8ef37a",
+      "data": "0x000000000000000000000000754238f520b0d11e700e31190133a15f635dd3aa000000000000000000000000acb55c530acdb2849e6d4f36992cd8c9d50ed8f7000000000000000000000000000000000000000000000005f68e8131ecf80000",
+      "topics": "[\n  \"0x1ec042c965e2edd7107b51188ee0f383e22e76179041ab3a9d18ff151405166c\",\n  \"0x0000000000000000000000005accc90436492f24e6af278569691e2c942a676d\"\n]",
+      "timestamp_bloc": 1719238631000000,
+      "numero_bloc": 20162083,
+      "hachage_bloc": "0x7b782c6f4bf52787f5c4790b3dbdfa9c4ea41d6dc0964d64bb599d1f173dec16"
+    },
+    {
+      "indice_journal": 244,
+      "hachage_transaction": "0xa0383b2d1dd47f17d47532d1941c5828de645a44f9f820dba6a3591dd473ae3d",
+      "indice_transaction": 98,
+      "adresse": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+      "data": "0x00000000000000000000000000000000000000000000000000000000ed864640",
+      "topics": "[\n  \"0x8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925\",\n  \"0x000000000000000000000000962827ba450d5d319e07da61b4bb508af077500a\",\n  \"0x0000000000000000000000001715a3e4a142d8b698131108995174f37aeba10d\"\n]",
+      "timestamp_bloc": 1702516559000000,
+      "numero_bloc": 18781051,
+      "hachage_bloc": "0x93f8d1ec09b21f8205812736b8ad0d5e7fee21bcbdd3173829918dd0c1e1fb9e"
+    },
+    {
+      "indice_journal": 244,
+      "hachage_transaction": "0xd5a7f22a4c94547373f40997d28a2eb3d5a8efb8d9c23c24cc9ba914865c533b",
+      "indice_transaction": 100,
+      "adresse": "0x57f1887a8bf19b14fc0df6fd9b2acc9af147ea85",
+      "data": "0x0000000000000000000000000000000000000000000000000000000000000001",
+      "topics": "[\n  \"0x17307eab39ab6107e8899845ad3d59bd9653f200f220920489ca2b5937696c31\",\n  \"0x000000000000000000000000b1978234d50f74a3f5869fc2ebe22604e7acf15f\",\n  \"0x0000000000000000000000001e0049783f008a0085193e00003d00cd54003c71\"\n]",
+      "timestamp_bloc": 1687745903000000,
+      "numero_bloc": 17560590,
+      "hachage_bloc": "0x8008aa7848be9aec7a3a5d699ee9862cc97fddb048e48fc03f2920bbd86a9658"
+    },
+    {
+      "indice_journal": 244,
+      "hachage_transaction": "0xc83d5c8fd7b2e2092c22b843376c7e4ec9a31080ee7547f0110108b0c6e9c6a6",
+      "indice_transaction": 100,
+      "adresse": "0x00000000005316fe469550d85f2e5ae85b7db719",
+      "data": "0x",
+      "topics": "[\n  \"0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef\",\n  \"0x000000000000000000000000ca22185b0681b33ef73f6e27c4baa26bb94ad4f0\",\n  \"0x00000000000000000000000090d7e8b37cd1d1bbe772cc06705835acd877a128\",\n  \"0x00000000000000000000000000000000000000000000000000000000000026f9\"\n]",
+      "timestamp_bloc": 1700755271000000,
+      "numero_bloc": 18635488,
+      "hachage_bloc": "0x506a4b97227fa5b66e12ff3ce7a253bb62b4f31c9fbd84e5273d47fcf5f895f0"
+    },
+    {
+      "indice_journal": 244,
+      "hachage_transaction": "0x220517d9df157a5868f5112805514d14d8bc696e57d5e200bbbb99f6536c1543",
+      "indice_transaction": 101,
+      "adresse": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+      "data": "0x000000000000000000000000000000000000000000000000054607fc96a60000",
+      "topics": "[\n  \"0xe1fffcc4923d04b559f4d29a8bfc6cda04eb5b0d3c460751c2402c5c5cc9109c\",\n  \"0x0000000000000000000000007a250d5630b4cf539739df2c5dacb4c659f2488d\"\n]",
+      "timestamp_bloc": 1617386800000000,
+      "numero_bloc": 12161595,
+      "hachage_bloc": "0x57be820ef4b7fbcb8113db23de43cb68f9e0538f1aeec71d65513e3d94ecc8c8"
+    }
+  ]
+}
