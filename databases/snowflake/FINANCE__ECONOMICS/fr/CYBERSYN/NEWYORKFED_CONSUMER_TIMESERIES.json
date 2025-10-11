@@ -1,0 +1,70 @@
+{
+  "sample_rows": [
+    {
+      "ID_GEO": "country/USA",
+      "VARIABLE": "probability_of_different_inflation_outcomes_one_year_ahead_numeracy_high_0percent",
+      "NOM_DE_VARIABLE": "Probability of Different Inflation Outcomes; One year ahead; Numeracy High; <0%",
+      "DATE": "2024-07-31",
+      "VALEUR": 0.19138706206999997,
+      "UNITÉ": "Percent"
+    },
+    {
+      "ID_GEO": "censusRegion/04",
+      "VARIABLE": "inflation_uncertainty_median_one_year_ahead_uncertainty_and_median_three_year_ahead_uncertainty_by_demographics_region_west",
+      "NOM_DE_VARIABLE": "Inflation uncertainty; Median one-year ahead uncertainty and Median three-year ahead uncertainty, by Demographics; Region West",
+      "DATE": "2024-07-31",
+      "VALEUR": 3.322753668,
+      "UNITÉ": "Median Score"
+    },
+    {
+      "ID_GEO": "country/USA",
+      "VARIABLE": "one_year_ahead_household_income_growth_expectations_25th_percentile_point_prediction",
+      "NOM_DE_VARIABLE": "One-year ahead household income growth expectations; 25th Percentile point prediction",
+      "DATE": "2024-07-31",
+      "VALEUR": 1.18092072,
+      "UNITÉ": "25th Percentile Score"
+    },
+    {
+      "ID_GEO": "country/USA",
+      "VARIABLE": "change_in_credit_availability_year_ago_somewhat_harder",
+      "NOM_DE_VARIABLE": "Change in credit availability; Year ago; Somewhat harder",
+      "DATE": "2024-07-31",
+      "VALEUR": 0.37023681641000006,
+      "UNITÉ": "Percent"
+    },
+    {
+      "ID_GEO": "country/USA",
+      "VARIABLE": "probability_of_different_inflation_outcomes_three_year_ahead_age_under_40_2_4percent",
+      "NOM_DE_VARIABLE": "Probability of Different Inflation Outcomes; Three year ahead; Age Under 40; 2-4%",
+      "DATE": "2024-07-31",
+      "VALEUR": 0.20577831268000002,
+      "UNITÉ": "Percent"
+    }
+  ],
+  "table_name": "NEWYORKFED_CONSUMER_TIMESERIES",
+  "table_fullname": "FINANCE__ECONOMICS.CYBERSYN.NEWYORKFED_CONSUMER_TIMESERIES",
+  "column_names": [
+    "VARIABLE",
+    "UNITÉ",
+    "DATE",
+    "NOM_DE_VARIABLE",
+    "ID_GEO",
+    "VALEUR"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "DATE",
+    "TEXT",
+    "TEXT",
+    "FLOAT"
+  ],
+  "description": [
+    "Identifiant unique pour une variable, joignable à la table timeseries.",
+    "Unité de mesure pour la valeur rapportée.",
+    "Date associée à la valeur.",
+    "Nom unique lisible par l'homme pour la variable.",
+    "Un identifiant unique pour un lieu. Joignable à d'autres tables de géographie, notamment GEOGRAPHY_INDEX, GEOGRAPHY_RELATIONSHIPS et GEOGRAPHY_CHARACTERISTICS.",
+    "Valeur rapportée pour la variable."
+  ]
+}
