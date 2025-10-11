@@ -1,0 +1,106 @@
+{
+  "table_name": "hrac_classification_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.hrac_classification_30",
+  "column_names": [
+    "id_classe_hrac",
+    "ingrediente_ativo",
+    "nivel1",
+    "descricao_nivel1",
+    "nivel2",
+    "descricao_nivel2",
+    "nivel3",
+    "codigo_hrac"
+  ],
+  "column_types": [
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "id_classe_hrac",
+    "ingrediente_ativo",
+    "nivel1",
+    "descricao_nivel1",
+    "nivel2",
+    "descricao_nivel2",
+    "nivel3",
+    "codigo_hrac"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "Chave primária numérica única para cada código level3",
+    "Nome do ingrediente ativo (herbicida) classificado por HRAC",
+    "Código do grupo HRAC - denotando mecanismo de ação do herbicida",
+    "Descrição do mecanismo de ação fornecida por HRAC",
+    "Indica uma família química dentro de um grupo HRAC particular (número não atribuído por HRAC)",
+    "Descrição da família química fornecida por HRAC",
+    "Um código único atribuído a cada ingrediente (com base na classificação HRAC de nível 1 e 2, mas não atribuído por HRAC)",
+    "O código de classificação oficial HRAC para o ingrediente"
+  ],
+  "sample_rows": [
+    {
+      "id_classe_hrac": 2,
+      "ingrediente_ativo": "CYHALOFOP-BUTYL",
+      "nivel1": "A",
+      "descricao_nivel1": "INHIBITION OF ACETYL COA CARBOXYLASE (ACCASE)",
+      "nivel2": "A1",
+      "descricao_nivel2": "ARYLOXYPHENOXY-PROPIONATE 'FOPS'",
+      "nivel3": "A12",
+      "codigo_hrac": "A"
+    },
+    {
+      "id_classe_hrac": 3,
+      "ingrediente_ativo": "DICLOFOP-METHYL",
+      "nivel1": "A",
+      "descricao_nivel1": "INHIBITION OF ACETYL COA CARBOXYLASE (ACCASE)",
+      "nivel2": "A1",
+      "descricao_nivel2": "ARYLOXYPHENOXY-PROPIONATE 'FOPS'",
+      "nivel3": "A13",
+      "codigo_hrac": "A"
+    },
+    {
+      "id_classe_hrac": 4,
+      "ingrediente_ativo": "FENOXAPROP-P-ETHYL",
+      "nivel1": "A",
+      "descricao_nivel1": "INHIBITION OF ACETYL COA CARBOXYLASE (ACCASE)",
+      "nivel2": "A1",
+      "descricao_nivel2": "ARYLOXYPHENOXY-PROPIONATE 'FOPS'",
+      "nivel3": "A14",
+      "codigo_hrac": "A"
+    },
+    {
+      "id_classe_hrac": 5,
+      "ingrediente_ativo": "FLUAZIFOP-P-BUTYL",
+      "nivel1": "A",
+      "descricao_nivel1": "INHIBITION OF ACETYL COA CARBOXYLASE (ACCASE)",
+      "nivel2": "A1",
+      "descricao_nivel2": "ARYLOXYPHENOXY-PROPIONATE 'FOPS'",
+      "nivel3": "A15",
+      "codigo_hrac": "A"
+    },
+    {
+      "id_classe_hrac": 6,
+      "ingrediente_ativo": "HALOXYFOP-R-METHYL",
+      "nivel1": "A",
+      "descricao_nivel1": "INHIBITION OF ACETYL COA CARBOXYLASE (ACCASE)",
+      "nivel2": "A1",
+      "descricao_nivel2": "ARYLOXYPHENOXY-PROPIONATE 'FOPS'",
+      "nivel3": "A16",
+      "codigo_hrac": "A"
+    }
+  ]
+}
