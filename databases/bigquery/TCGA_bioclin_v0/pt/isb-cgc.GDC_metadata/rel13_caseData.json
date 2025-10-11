@@ -1,0 +1,126 @@
+{
+  "table_name": "rel13_caseData",
+  "table_fullname": "isb-cgc.GDC_metadata.rel13_caseData",
+  "column_names": [
+    "id_do_arquivo",
+    "project__dbgap_accession_number",
+    "project__tipo_de_doenca",
+    "project__nome",
+    "project__program__dbgap_accession_number",
+    "project__program__nome",
+    "project__id_do_projeto",
+    "id_do_submetente",
+    "legacy_file_count",
+    "active_file_count"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "id_do_arquivo",
+    "project__dbgap_accession_number",
+    "project__tipo_de_doenca",
+    "project__nome",
+    "project__program__dbgap_accession_number",
+    "project__program__nome",
+    "project__id_do_projeto",
+    "id_do_remetente",
+    "legado_contagem_de_arquivos",
+    "contagem_de_arquivos_ativos"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "INT64"
+  ],
+  "description": [
+    "Identificador do arquivo GDC. Este é um duplicado do campo file_gdc_id encontrado em algumas tabelas.",
+    "Número de acesso dbGaP do projeto",
+    "Tipo de doença do projeto",
+    "Nome do estudo do projeto",
+    "Número de acesso dbGaP do programa",
+    "Nome do programa",
+    "Nome curto do programa com nome curto do projeto",
+    "Isso pode ser usado para identificar uma entrada correspondente nos registros do submetedor. O GDC exige que o submitter_id seja único para cada entidade dentro de um projeto: a tupla (combinação) de [ project_id, submitter_id ] é uma chave única.",
+    "Número total de arquivos para este caso no arquivo legado do GDC",
+    "Contagem de arquivos do arquivo ativo"
+  ],
+  "sample_rows": [
+    {
+      "id_do_arquivo": "942851b0-b554-48f4-84f6-6826902e12d7",
+      "project__dbgap_accession_number": "CCLE",
+      "project__tipo_de_doenca": "Lymphoid Neoplasm Diffuse Large B-cell Lymphoma",
+      "project__nome": "Lymphoid Neoplasm Diffuse Large B-cell Lymphoma",
+      "project__program__dbgap_accession_number": "CCLE",
+      "project__program__nome": "CCLE",
+      "project__id_do_projeto": "CCLE-DLBC",
+      "id_do_remetente": "DB",
+      "legado_contagem_de_arquivos": 1,
+      "contagem_de_arquivos_ativos": 0
+    },
+    {
+      "id_do_arquivo": "aaa8da09-070c-4a31-a99e-720f1a0a964f",
+      "project__dbgap_accession_number": "CCLE",
+      "project__tipo_de_doenca": "Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma",
+      "project__nome": "Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma",
+      "project__program__dbgap_accession_number": "CCLE",
+      "project__program__nome": "CCLE",
+      "project__id_do_projeto": "CCLE-CESC",
+      "id_do_remetente": "EN",
+      "legado_contagem_de_arquivos": 1,
+      "contagem_de_arquivos_ativos": 0
+    },
+    {
+      "id_do_arquivo": "ae4dd9c2-ddba-4da5-a372-4cfdeed0859e",
+      "project__dbgap_accession_number": "CCLE",
+      "project__tipo_de_doenca": "Brain Lower Grade Glioma",
+      "project__nome": "Brain Lower Grade Glioma",
+      "project__program__dbgap_accession_number": "CCLE",
+      "project__program__nome": "CCLE",
+      "project__id_do_projeto": "CCLE-LGG",
+      "id_do_remetente": "H4",
+      "legado_contagem_de_arquivos": 1,
+      "contagem_de_arquivos_ativos": 0
+    },
+    {
+      "id_do_arquivo": "6153a459-2c19-41c9-8815-aa9f6e72712e",
+      "project__dbgap_accession_number": "CCLE",
+      "project__tipo_de_doenca": "Lymphoid Neoplasm Diffuse Large B-cell Lymphoma",
+      "project__nome": "Lymphoid Neoplasm Diffuse Large B-cell Lymphoma",
+      "project__program__dbgap_accession_number": "CCLE",
+      "project__program__nome": "CCLE",
+      "project__id_do_projeto": "CCLE-DLBC",
+      "id_do_remetente": "HH",
+      "legado_contagem_de_arquivos": 1,
+      "contagem_de_arquivos_ativos": 0
+    },
+    {
+      "id_do_arquivo": "7f1968dd-cabb-4fc0-9ae7-76f80f41baa5",
+      "project__dbgap_accession_number": "CCLE",
+      "project__tipo_de_doenca": "Lymphoid Neoplasm Diffuse Large B-cell Lymphoma",
+      "project__nome": "Lymphoid Neoplasm Diffuse Large B-cell Lymphoma",
+      "project__program__dbgap_accession_number": "CCLE",
+      "project__program__nome": "CCLE",
+      "project__id_do_projeto": "CCLE-DLBC",
+      "id_do_remetente": "HT",
+      "legado_contagem_de_arquivos": 2,
+      "contagem_de_arquivos_ativos": 0
+    }
+  ]
+}
