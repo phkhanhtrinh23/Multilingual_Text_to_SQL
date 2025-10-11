@@ -1,0 +1,76 @@
+{
+  "table_name": "adjacent_states",
+  "table_fullname": "bigquery-public-data.geo_us_boundaries.adjacent_states",
+  "column_names": [
+    "estado",
+    "nome_do_estado",
+    "codigo_fips_do_estado",
+    "estado_vizinhos",
+    "codigo_fips_vizinhos"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "ARRAY<STRING>",
+    "ARRAY<STRING>"
+  ],
+  "nested_column_names": [
+    "estado",
+    "nome_do_estado",
+    "codigo_fips_do_estado",
+    "estado_vizinhos",
+    "codigo_fips_vizinhos"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "ARRAY<STRING>",
+    "ARRAY<STRING>"
+  ],
+  "description": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "sample_rows": [
+    {
+      "estado": "AL",
+      "nome_do_estado": "Alabama",
+      "codigo_fips_do_estado": "01",
+      "estado_vizinhos": "['Florida' 'Georgia' 'Mississippi' 'Tennessee']",
+      "codigo_fips_vizinhos": "['12' '13' '28' '47']"
+    },
+    {
+      "estado": "AR",
+      "nome_do_estado": "Arkansas",
+      "codigo_fips_do_estado": "05",
+      "estado_vizinhos": "['Tennessee' 'Texas' 'Missouri' 'Mississippi' 'Louisiana' 'Oklahoma']",
+      "codigo_fips_vizinhos": "['47' '48' '29' '28' '22' '40']"
+    },
+    {
+      "estado": "AZ",
+      "nome_do_estado": "Arizona",
+      "codigo_fips_do_estado": "04",
+      "estado_vizinhos": "['Nevada' 'New Mexico' 'Colorado' 'California' 'Utah']",
+      "codigo_fips_vizinhos": "['32' '35' '08' '06' '49']"
+    },
+    {
+      "estado": "CA",
+      "nome_do_estado": "California",
+      "codigo_fips_do_estado": "06",
+      "estado_vizinhos": "['Arizona' 'Nevada' 'Oregon']",
+      "codigo_fips_vizinhos": "['04' '32' '41']"
+    },
+    {
+      "estado": "CO",
+      "nome_do_estado": "Colorado",
+      "codigo_fips_do_estado": "08",
+      "estado_vizinhos": "['Kansas' 'New Mexico' 'Nebraska' 'Utah' 'Wyoming' 'Arizona' 'Oklahoma']",
+      "codigo_fips_vizinhos": "['20' '35' '31' '49' '56' '04' '40']"
+    }
+  ]
+}
