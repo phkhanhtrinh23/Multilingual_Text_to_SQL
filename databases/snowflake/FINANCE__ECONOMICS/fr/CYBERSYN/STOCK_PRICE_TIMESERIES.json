@@ -1,0 +1,86 @@
+{
+  "sample_rows": [
+    {
+      "TICKER": "FAMI",
+      "CLASSE_D_ACTIF": "Common Shares",
+      "CODE_DE_BOURSE_PRINCIPALE": "NAS",
+      "NOM_DE_BOURSE_PRINCIPALE": "NASDAQ CAPITAL MARKET",
+      "VARIABLE": "all-day_high",
+      "NOM_DE_VARIABLE": "All-Day High",
+      "DATE": "2022-08-08",
+      "VALEUR": 1.19
+    },
+    {
+      "TICKER": "TIPT",
+      "CLASSE_D_ACTIF": "Equity",
+      "CODE_DE_BOURSE_PRINCIPALE": "NAS",
+      "NOM_DE_BOURSE_PRINCIPALE": "NASDAQ CAPITAL MARKET",
+      "VARIABLE": "nasdaq_volume",
+      "NOM_DE_VARIABLE": "Nasdaq Volume",
+      "DATE": "2023-02-16",
+      "VALEUR": 17249.0
+    },
+    {
+      "TICKER": "BLK",
+      "CLASSE_D_ACTIF": "Equity",
+      "CODE_DE_BOURSE_PRINCIPALE": "NYS",
+      "NOM_DE_BOURSE_PRINCIPALE": "NEW YORK STOCK EXCHANGE",
+      "VARIABLE": "post-market_close",
+      "NOM_DE_VARIABLE": "Post-Market Close",
+      "DATE": "2021-04-26",
+      "VALEUR": 817.51
+    },
+    {
+      "TICKER": "BRN",
+      "CLASSE_D_ACTIF": "Equity",
+      "CODE_DE_BOURSE_PRINCIPALE": "ASE",
+      "NOM_DE_BOURSE_PRINCIPALE": "NYSE MKT LLC",
+      "VARIABLE": "nasdaq_volume",
+      "NOM_DE_VARIABLE": "Nasdaq Volume",
+      "DATE": "2018-09-18",
+      "VALEUR": 2028.0
+    },
+    {
+      "TICKER": "XLP",
+      "CLASSE_D_ACTIF": "ETF-Index Fund Shares",
+      "CODE_DE_BOURSE_PRINCIPALE": "PSE",
+      "NOM_DE_BOURSE_PRINCIPALE": "NYSE ARCA",
+      "VARIABLE": "nasdaq_volume",
+      "NOM_DE_VARIABLE": "Nasdaq Volume",
+      "DATE": "2023-11-16",
+      "VALEUR": 2373734.0
+    }
+  ],
+  "table_name": "STOCK_PRICE_TIMESERIES",
+  "table_fullname": "FINANCE__ECONOMICS.CYBERSYN.STOCK_PRICE_TIMESERIES",
+  "column_names": [
+    "NOM_DE_BOURSE_PRINCIPALE",
+    "CLASSE_D_ACTIF",
+    "VALEUR",
+    "CODE_DE_BOURSE_PRINCIPALE",
+    "VARIABLE",
+    "DATE",
+    "NOM_DE_VARIABLE",
+    "TICKER"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "FLOAT",
+    "TEXT",
+    "TEXT",
+    "DATE",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Le nom de l'échange pour le lieu de négociation principal d'une sécurité.",
+    "Type de sécurité.",
+    "Valeur rapportée pour la variable.",
+    "Le code d'échange pour le lieu de négociation principal d'une sécurité.",
+    "Identifiant unique pour une variable, joignable à la table des séries chronologiques.",
+    "Date associée à la valeur.",
+    "Nom unique lisible par l'homme pour la variable.",
+    "Code alphanumérique qui représente une sécurité négociée publiquement spécifique sur l'échange NASDAQ."
+  ]
+}
