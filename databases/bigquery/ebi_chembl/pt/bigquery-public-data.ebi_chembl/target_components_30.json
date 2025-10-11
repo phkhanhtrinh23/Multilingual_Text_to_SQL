@@ -1,0 +1,66 @@
+{
+  "table_name": "target_components_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.target_components_30",
+  "column_names": [
+    "id_do_título",
+    "id_do_componente",
+    "id_do_componente_alvo",
+    "homólogo"
+  ],
+  "column_types": [
+    "INT64",
+    "INT64",
+    "INT64",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "id_transacao",
+    "id_componente",
+    "id_componente_alvo",
+    "homologo"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "INT64",
+    "INT64",
+    "INT64"
+  ],
+  "description": [
+    "Chave estrangeira para o target_dictionary, indicando o alvo ao qual os componentes pertencem.",
+    "Chave estrangeira para a tabela component_sequences, indicando quais componentes pertencem ao alvo.",
+    "Chave primária.",
+    "Indica que o componente dado é um homólogo do componente correto (por exemplo, de uma espécie diferente) quando definido como 1. Isso pode ser o caso se a sequência para o proteína/ácido nucléico correto não puder ser encontrada em bancos de dados de sequências. Um valor de 2 indica que a sequência dada é um representante de um grupo de espécies, por exemplo, uma proteína E. coli para representar o alvo de um antibiótico de amplo espectro."
+  ],
+  "sample_rows": [
+    {
+      "id_transacao": 10496,
+      "id_componente": 1361,
+      "id_componente_alvo": 4530,
+      "homologo": 0
+    },
+    {
+      "id_transacao": 10752,
+      "id_componente": 321,
+      "id_componente_alvo": 2345,
+      "homologo": 0
+    },
+    {
+      "id_transacao": 11520,
+      "id_componente": 1491,
+      "id_componente_alvo": 5341,
+      "homologo": 0
+    },
+    {
+      "id_transacao": 12800,
+      "id_componente": 2751,
+      "id_componente_alvo": 4027,
+      "homologo": 0
+    },
+    {
+      "id_transacao": 13056,
+      "id_componente": 2744,
+      "id_componente_alvo": 4758,
+      "homologo": 0
+    }
+  ]
+}
