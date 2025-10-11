@@ -1,0 +1,165 @@
+{
+  "table_name": "mechanismOfAction",
+  "table_fullname": "open-targets-prod.platform.mechanismOfAction",
+  "column_names": [
+    "tipoDeAcao",
+    "mecanismoDeAcao",
+    "idsDoChEMBL",
+    "nomeDoAlvo",
+    "tipoDeAlvo",
+    "alvos",
+    "referencias"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+    "STRING",
+    "STRING",
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+    "STRUCT<list ARRAY<STRUCT<element STRUCT<source STRING, ids STRUCT<list ARRAY<STRUCT<element STRING>>>, urls STRUCT<list ARRAY<STRUCT<element STRING>>>>>>>"
+  ],
+  "nested_column_names": [
+    "tipoDeAcao",
+    "mecanismoDeAcao",
+    "idsChEMBL",
+    "idsChEMBL.lista",
+    "idsChEMBL.lista.elemento",
+    "nomeDoAlvo",
+    "tipoDeAlvo",
+    "alvos",
+    "alvos.lista",
+    "alvos.lista.elemento",
+    "referencias",
+    "referencias.lista",
+    "referencias.lista.elemento",
+    "referencias.lista.elemento.fonte",
+    "referencias.lista.elemento.ids",
+    "referencias.lista.elemento.ids.lista",
+    "referencias.lista.elemento.ids.lista.elemento",
+    "referencias.lista.elemento.urls",
+    "referencias.lista.elemento.urls.lista",
+    "referencias.lista.elemento.urls.lista.elemento"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+    "ARRAY<STRUCT<element STRING>>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+    "ARRAY<STRUCT<element STRING>>",
+    "STRING",
+    "STRUCT<list ARRAY<STRUCT<element STRUCT<source STRING, ids STRUCT<list ARRAY<STRUCT<element STRING>>>, urls STRUCT<list ARRAY<STRUCT<element STRING>>>>>>>",
+    "ARRAY<STRUCT<element STRUCT<source STRING, ids STRUCT<list ARRAY<STRUCT<element STRING>>>, urls STRUCT<list ARRAY<STRUCT<element STRING>>>>>>",
+    "STRUCT<source STRING, ids STRUCT<list ARRAY<STRUCT<element STRING>>>, urls STRUCT<list ARRAY<STRUCT<element STRING>>>>",
+    "STRING",
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+    "ARRAY<STRUCT<element STRING>>",
+    "STRING",
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+    "ARRAY<STRUCT<element STRING>>",
+    "STRING"
+  ],
+  "description": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "sample_rows": [
+    {
+      "tipoDeAcao": "OTHER",
+      "mecanismoDeAcao": "CD22 other",
+      "idsChEMBL": {
+        "list": "[{'element': 'CHEMBL2108228'}]"
+      },
+      "nomeDoAlvo": "CD22",
+      "tipoDeAlvo": "single protein",
+      "alvos": {
+        "list": "[{'element': 'ENSG00000012124'}]"
+      },
+      "referencias": {
+        "list": "[{'element': {'source': 'PubMed', 'ids': {'list': array([{'element': '12537673'}], dtype=object)}, 'urls': {'list': array([{'element': 'http://europepmc.org/abstract/MED/12537673'}],\n       dtype=object)}}}                                                                                                                                                               ]"
+      }
+    },
+    {
+      "tipoDeAcao": "OTHER",
+      "mecanismoDeAcao": "Basigin other",
+      "idsChEMBL": {
+        "list": "[{'element': 'CHEMBL2109193'}]"
+      },
+      "nomeDoAlvo": "Basigin",
+      "tipoDeAlvo": "single protein",
+      "alvos": {
+        "list": "[{'element': 'ENSG00000172270'}]"
+      },
+      "referencias": {
+        "list": "[{'element': {'source': 'PubMed', 'ids': {'list': array([{'element': '17110457'}], dtype=object)}, 'urls': {'list': array([{'element': 'http://europepmc.org/abstract/MED/17110457'}],\n       dtype=object)}}}                                                                                                                                                               ]"
+      }
+    },
+    {
+      "tipoDeAcao": "OTHER",
+      "mecanismoDeAcao": "Mucin-1 other",
+      "idsChEMBL": {
+        "list": "[{'element': 'CHEMBL2109637'}]"
+      },
+      "nomeDoAlvo": "Mucin-1",
+      "tipoDeAlvo": "single protein",
+      "alvos": {
+        "list": "[{'element': 'ENSG00000185499'}]"
+      },
+      "referencias": {
+        "list": "[{'element': {'source': 'PubMed', 'ids': {'list': array([{'element': '1391628'}, {'element': '8050089'}], dtype=object)}, 'urls': {'list': array([{'element': 'http://europepmc.org/abstract/MED/1391628'},\n        {'element': 'http://europepmc.org/abstract/MED/8050089'}],\n       dtype=object)}}}                                                                                                                                                                                    ]"
+      }
+    },
+    {
+      "tipoDeAcao": "OTHER",
+      "mecanismoDeAcao": "Mucin-1 other",
+      "idsChEMBL": {
+        "list": "[{'element': 'CHEMBL2108341'}]"
+      },
+      "nomeDoAlvo": "Mucin-1",
+      "tipoDeAlvo": "single protein",
+      "alvos": {
+        "list": "[{'element': 'ENSG00000185499'}]"
+      },
+      "referencias": {
+        "list": "[{'element': {'source': 'PubMed', 'ids': {'list': array([{'element': '19811637'}, {'element': '21878535'}], dtype=object)}, 'urls': {'list': array([{'element': 'http://europepmc.org/abstract/MED/19811637'},\n        {'element': 'http://europepmc.org/abstract/MED/21878535'}],\n       dtype=object)}}}                                                                                                                                                                                       ]"
+      }
+    },
+    {
+      "tipoDeAcao": "OTHER",
+      "mecanismoDeAcao": "Mucin-1 other",
+      "idsChEMBL": {
+        "list": "[{'element': 'CHEMBL2109364'}]"
+      },
+      "nomeDoAlvo": "Mucin-1",
+      "tipoDeAlvo": "single protein",
+      "alvos": {
+        "list": "[{'element': 'ENSG00000185499'}]"
+      },
+      "referencias": {
+        "list": "[{'element': {'source': 'PubMed', 'ids': {'list': array([{'element': '11839249'}], dtype=object)}, 'urls': {'list': array([{'element': 'http://europepmc.org/abstract/MED/11839249'}],\n       dtype=object)}}}                                                                                                                                                               ]"
+      }
+    }
+  ]
+}
