@@ -1,0 +1,70 @@
+{
+  "sample_rows": [
+    {
+      "VARIABLE": "ASSET",
+      "NOM_DE_VARIABLE": "Institutional Assets",
+      "MESURE": "Assets Owned",
+      "UNITE": "USD",
+      "FREQUENCE": "Annual",
+      "TYPE_DE_MESURE": "Institution"
+    },
+    {
+      "VARIABLE": "DEPDOM",
+      "NOM_DE_VARIABLE": "Institutional Domestic Deposits",
+      "MESURE": "Domestic Deposits",
+      "UNITE": "USD",
+      "FREQUENCE": "Annual",
+      "TYPE_DE_MESURE": "Institution"
+    },
+    {
+      "VARIABLE": "DEPSUM",
+      "NOM_DE_VARIABLE": "Institutional Deposits",
+      "MESURE": "Deposits",
+      "UNITE": "USD",
+      "FREQUENCE": "Annual",
+      "TYPE_DE_MESURE": "Institution"
+    },
+    {
+      "VARIABLE": "DEPSUMBR",
+      "NOM_DE_VARIABLE": "Branch Deposits",
+      "MESURE": "Deposits",
+      "UNITE": "USD",
+      "FREQUENCE": "Annual",
+      "TYPE_DE_MESURE": "Branch"
+    },
+    {
+      "VARIABLE": "ESCROW",
+      "NOM_DE_VARIABLE": "Escrow Deposits",
+      "MESURE": "Escrow Deposits",
+      "UNITE": "USD",
+      "FREQUENCE": "Annual",
+      "TYPE_DE_MESURE": "Institution"
+    }
+  ],
+  "table_name": "FDIC_SUMMARY_OF_DEPOSITS_ATTRIBUTES",
+  "table_fullname": "FINANCE__ECONOMICS.CYBERSYN.FDIC_SUMMARY_OF_DEPOSITS_ATTRIBUTES",
+  "column_names": [
+    "NOM_DE_VARIABLE",
+    "UNITE",
+    "MESURE",
+    "VARIABLE",
+    "TYPE_DE_MESURE",
+    "FREQUENCE"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Description lisible par l'homme des variables de données financières suivies par la FDIC.",
+    "Unité dans laquelle la mesure est enregistrée (par exemple, USD YTD).",
+    "Attribut quantifiable enregistré (par exemple, Domestic Deposits).",
+    "Identifiant FDIC unique pour les données financières suivies.",
+    "Classification indiquant le niveau auquel la variable est suivie par la FDIC, soit au niveau \"Institution\" ou \"Branch\".",
+    "Fréquence à laquelle les données sont agrégées (par exemple, Annual)."
+  ]
+}
