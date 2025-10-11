@@ -1,0 +1,86 @@
+{
+  "table_name": "formulations_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.formulations_30",
+  "column_names": [
+    "id_do_produto",
+    "ingrediente",
+    "força",
+    "id_do_registro",
+    "molregno",
+    "id_da_formulação"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "INT64",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "id_produto",
+    "ingrediente",
+    "força",
+    "id_registro",
+    "molregno",
+    "id_formulação"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "INT64",
+    "INT64"
+  ],
+  "description": [
+    "Identificador único do produto. FK para PRODUCTS",
+    "Nome do ingrediente aprovado dentro do produto",
+    "Força da dose",
+    "Chave estrangeira para a tabela compound_records.",
+    "Identificador único do ingrediente FK para MOLECULE_DICTIONARY",
+    "Chave primária."
+  ],
+  "sample_rows": [
+    {
+      "id_produto": "PRODUCT_017406_001",
+      "ingrediente": "CYANOCOBALAMIN",
+      "força": null,
+      "id_registro": 1344800,
+      "molregno": 1383003,
+      "id_formulação": 148332
+    },
+    {
+      "id_produto": "PRODUCT_016089_001",
+      "ingrediente": "CYANOCOBALAMIN",
+      "força": null,
+      "id_registro": 1344800,
+      "molregno": 1383003,
+      "id_formulação": 148336
+    },
+    {
+      "id_produto": "PRODUCT_016090_001",
+      "ingrediente": "CYANOCOBALAMIN",
+      "força": null,
+      "id_registro": 1344800,
+      "molregno": 1383003,
+      "id_formulação": 148340
+    },
+    {
+      "id_produto": "PRODUCT_016089_001",
+      "ingrediente": "INTRINSIC FACTOR",
+      "força": null,
+      "id_registro": 1343088,
+      "molregno": 675455,
+      "id_formulação": 148338
+    },
+    {
+      "id_produto": "PRODUCT_016090_001",
+      "ingrediente": "INTRINSIC FACTOR",
+      "força": null,
+      "id_registro": 1343088,
+      "molregno": 675455,
+      "id_formulação": 148342
+    }
+  ]
+}
