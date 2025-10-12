@@ -1,0 +1,102 @@
+{
+  "table_name": "HAIL_REPORTS",
+  "table_fullname": "NOAA_DATA_PLUS.NOAA_PRELIMINARY_SEVERE_STORMS.HAIL_REPORTS",
+  "column_names": [
+    "estado",
+    "comentários",
+    "localização",
+    "condado",
+    "carimbo_de_data_hora",
+    "longitude",
+    "tamanho",
+    "latitude",
+    "ponto_de_relato",
+    "hora"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "NUMBER",
+    "FLOAT",
+    "NUMBER",
+    "FLOAT",
+    "BINARY",
+    "TEXT"
+  ],
+  "description": [
+    "",
+    "",
+    "Localização do relatório",
+    "",
+    "Carimbo de data/hora em UTC",
+    "Longitude com duas casas decimais",
+    "Tamanho em 1/100 de polegada (175 = 1,75 polegadas)",
+    "Latitude com duas casas decimais",
+    "",
+    "Hora em UTC"
+  ],
+  "sample_rows": [
+    {
+      "carimbo_de_data_hora": 1640896080000000,
+      "hora": "2028",
+      "tamanho": 150,
+      "localização": "BEAUREGARD",
+      "condado": "LEE",
+      "estado": "AL",
+      "latitude": 32.54,
+      "longitude": -85.37,
+      "comentários": "SILVER DOLLAR SIZE HAIL IN BEAUREGARD. (BMX)",
+      "ponto_de_relato": "bytearray(b'\\x01\\x01\\x00\\x00\\x00H\\xe1z\\x14\\xaeWU\\xc0\\x85\\xebQ\\xb8\\x1eE@@')"
+    },
+    {
+      "carimbo_de_data_hora": 1619313060000000,
+      "hora": "0111",
+      "tamanho": 100,
+      "localização": "DALEVILLE",
+      "condado": "DALE",
+      "estado": "AL",
+      "latitude": 31.29,
+      "longitude": -85.73,
+      "comentários": "(TAE)",
+      "ponto_de_relato": "bytearray(b'\\x01\\x01\\x00\\x00\\x00\\x1f\\x85\\xebQ\\xb8nU\\xc0\\n\\xd7\\xa3p=J?@')"
+    },
+    {
+      "carimbo_de_data_hora": 1618007820000000,
+      "hora": "2237",
+      "tamanho": 100,
+      "localização": "1 ENE MOUNDVILLE",
+      "condado": "HALE",
+      "estado": "AL",
+      "latitude": 33.0,
+      "longitude": -87.62,
+      "comentários": "QUARTER SIZE HAIL WAS REPORTED IN MOUNDVILLE. PICTURES RECEIVED FROM SOCIAL MEDIA. (BMX)",
+      "ponto_de_relato": "bytearray(b'\\x01\\x01\\x00\\x00\\x00H\\xe1z\\x14\\xae\\xe7U\\xc0\\x00\\x00\\x00\\x00\\x00\\x80@@')"
+    },
+    {
+      "carimbo_de_data_hora": 1617998760000000,
+      "hora": "2006",
+      "tamanho": 100,
+      "localização": "1 S ARKADELPHIA",
+      "condado": "BLOUNT",
+      "estado": "AL",
+      "latitude": 33.86,
+      "longitude": -86.93,
+      "comentários": "REPORTS OF QUARTER SIZE HAIL NEAR ARKADELPHIA. (BMX)",
+      "ponto_de_relato": "bytearray(b'\\x01\\x01\\x00\\x00\\x00\\xecQ\\xb8\\x1e\\x85\\xbbU\\xc0\\xaeG\\xe1z\\x14\\xee@@')"
+    },
+    {
+      "carimbo_de_data_hora": 1619302380000000,
+      "hora": "2213",
+      "tamanho": 150,
+      "localização": "3 W WHITNEY JUNCTION",
+      "condado": "BLOUNT",
+      "estado": "AL",
+      "latitude": 33.88,
+      "longitude": -86.36,
+      "comentários": "(BMX)",
+      "ponto_de_relato": "bytearray(b'\\x01\\x01\\x00\\x00\\x00\\xd7\\xa3p=\\n\\x97U\\xc0p=\\n\\xd7\\xa3\\xf0@@')"
+    }
+  ]
+}
