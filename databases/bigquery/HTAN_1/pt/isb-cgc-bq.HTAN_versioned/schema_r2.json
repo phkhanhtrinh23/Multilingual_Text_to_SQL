@@ -1,0 +1,126 @@
+{
+  "table_name": "schema_r2",
+  "table_fullname": "isb-cgc-bq.HTAN_versioned.schema_r2",
+  "column_names": [
+    "Atributo",
+    "Descrição",
+    "Valores_Válidos",
+    "Dependente_De",
+    "Propriedades",
+    "Obrigatório",
+    "Pai",
+    "Dependente_Do_Componente",
+    "Fonte",
+    "Regras_De_Validação"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "Atributo",
+    "Descrição",
+    "Valores_Válidos",
+    "Dependente_De",
+    "Propriedades",
+    "Obrigatório",
+    "Pai",
+    "Dependente_Do_Componente",
+    "Fonte",
+    "Regras_De_Validação"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "Característica chave X do ensaio, protocolo relacionado ou dados downstream que desejamos registrar como recurso de metadados.",
+    "Forneça uma definição ou uma referência que contenha a definição do atributo X. Preferencialmente, forneça um link de ontologia de fonte ou código, além da definição. Deixe em branco se a descrição final estiver pendente.",
+    "O intervalo do atributo X: os valores que podem ser atribuídos ao atributo X; esses valores podem incluir/ser outros atributos (i.e., listados nas colunas 'Atributo') em si. Separados por vírgula. Se nenhum for fornecido, qualquer valor não nulo é válido para o atributo X.",
+    "Características importantes, se houver, do atributo X que precisam ser registradas como recursos de metadados, dado que o atributo X é especificado. Essas características podem ser atributos ou propriedades de atributos (i.e., listados na coluna 'Atributo' e/ou na coluna \"Propriedades\"). Separados por vírgula.",
+    "Propriedades específicas de um atributo particular; observe que as propriedades podem ser atributos em si (i.e., listados na coluna \"Atributos\").",
+    "Indique se especificar um valor para o atributo X é obrigatório ou opcional por padrão. Definido como TRUE ou FALSE. Se TRUE, um contribuidor de dados deve fornecer um valor para o atributo X (por exemplo, um dos valores válidos em 'Valores Válidos', se algum for especificado). Se FALSE, um contribuidor de dados pode selecionar entre 'Não Aplicável' ou 'Não Especificado' como um valor para o atributo X. Observe que um atributo pode não ser necessário por padrão (i.e., 'Obrigatório' é definido como FALSE), mas pode ser necessário por virtude de ser um atributo de outro atributo necessário (por exemplo, veja ERCC).",
+    "Classe pai deste atributo - i.e., onde \"conectar\" este atributo em um esquema existente. Observe que isso assume um único esquema existente/um único contexto de schema json-ld; se precisarmos suportar classes/atributos/propriedades definidas em vários esquemas/contextos json-ld, precisaríamos adicionar uma coluna de esquema/contexto que especifique o contexto de cada atributo, se diferente do contexto do atributo pai.",
+    "Cada componente é uma classe de ontologia de alto nível na qual as entidades/objetos são categorizados/componentizados; um componente é uma entidade por si só que precisa ser definida no esquema",
+    "A fonte para a descrição do termo, geralmente um URI. Ontologias podem ser usadas como fontes. Por exemplo, o Método de Construção da Biblioteca tem fonte: http://purl.obolibrary.org/obo/OBI_0000711",
+    "Que tipo de dados é permitido na coluna Valores Válidos. Relevantes apenas se os Valores Válidos não estiverem presentes na linha. Por exemplo, string, lista, inteiro"
+  ],
+  "sample_rows": [
+    {
+      "Atributo": "File Format",
+      "Descrição": "Format of a file (e.g. txt, csv, fastq, bam, etc.)",
+      "Valores_Válidos": "hdf5, bedgraph, idx, idat, bam, bai, excel, powerpoint, tif, tiff, OME-TIFF, png, doc, pdf, fasta, fastq, sam, vcf, bcf, maf, bed, chp, cel, sif, tsv, csv, txt, plink, bigwig, wiggle, gct, bgzip, zip, seg, html, mov, hyperlink, svs, md, flagstat, gtf, raw, msf, rmd, bed narrowPeak, bed broadPeak, bed gappedPeak, avi, pzfx, fig, xml, tar, R script, abf, bpm, dat, jpg, locs, Sentrix descriptor file, Python script, sav, gzip, sdf, RData, hic, ab1, 7z, gff3, json, sqlite, svg, sra, recal, tranches, mtx, tagAlign, dup, DICOM, czi, mex, cloupe, am, cell am, mpg, m, mzML",
+      "Dependente_De": null,
+      "Propriedades": null,
+      "Obrigatório": "TRUE",
+      "Pai": null,
+      "Dependente_Do_Componente": null,
+      "Fonte": "http://example.org/htan/fileFormat",
+      "Regras_De_Validação": null
+    },
+    {
+      "Atributo": "Imaging Assay Type",
+      "Descrição": "Type of imaging assay",
+      "Valores_Válidos": "H&E, CyCIF, t-CyCIF, IHC, mIHC, MxIF, SABER, IMC, CODEX, GeoMX-DSP, MIBI, MERFISH, ExSeq, Not Applicable",
+      "Dependente_De": null,
+      "Propriedades": null,
+      "Obrigatório": "TRUE",
+      "Pai": "Imaging Level 2",
+      "Dependente_Do_Componente": null,
+      "Fonte": null,
+      "Regras_De_Validação": null
+    },
+    {
+      "Atributo": "Passed QC",
+      "Descrição": "Did all channels pass QC (if not add free text Comment)",
+      "Valores_Válidos": "Yes, No - Channels QC",
+      "Dependente_De": null,
+      "Propriedades": null,
+      "Obrigatório": "TRUE",
+      "Pai": "Imaging Level 2",
+      "Dependente_Do_Componente": null,
+      "Fonte": null,
+      "Regras_De_Validação": null
+    },
+    {
+      "Atributo": "DimensionOrder",
+      "Descrição": "The order in which the individual planes of data are interleaved.",
+      "Valores_Válidos": "XYZCT, XYZTC, XYCTZ, XYCZT, XYTZC, ZYX",
+      "Dependente_De": null,
+      "Propriedades": null,
+      "Obrigatório": "TRUE",
+      "Pai": "Imaging Level 2",
+      "Dependente_Do_Componente": null,
+      "Fonte": null,
+      "Regras_De_Validação": null
+    },
+    {
+      "Atributo": "Pixels BigEndian",
+      "Descrição": "Boolean (True/False)",
+      "Valores_Válidos": "True, False",
+      "Dependente_De": null,
+      "Propriedades": null,
+      "Obrigatório": "TRUE",
+      "Pai": "Imaging Level 2",
+      "Dependente_Do_Componente": null,
+      "Fonte": null,
+      "Regras_De_Validação": null
+    }
+  ]
+}
