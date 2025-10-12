@@ -1,0 +1,86 @@
+{
+  "table_name": "KaryAbnorm",
+  "table_fullname": "mitelman-db.prod.KaryAbnorm",
+  "column_names": [
+    "RefNo",
+    "CaseNo",
+    "InvNo",
+    "CloneNo",
+    "OrderNo",
+    "Anormalidade"
+  ],
+  "column_types": [
+    "INT64",
+    "STRING",
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "RefNo",
+    "CaseNo",
+    "InvNo",
+    "CloneNo",
+    "OrderNo",
+    "Anormalidade"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "STRING",
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING"
+  ],
+  "description": [
+    "número de referência, por exemplo '14620'",
+    "número do caso, mais frequentemente um inteiro entre 1 e 10, mas também pode ser uma string arbitrária, por exemplo '11H046'",
+    "número de investigação (entre 1 e 9)",
+    "número de clone (entre 1 e 58)",
+    "número do pedido (entre 1 e 198)",
+    "por exemplo '46', ou 'XY', ou 'XX', ou '-22', etc"
+  ],
+  "sample_rows": [
+    {
+      "RefNo": 401,
+      "CaseNo": "109",
+      "InvNo": 1,
+      "CloneNo": 1,
+      "OrderNo": 1,
+      "Anormalidade": "??"
+    },
+    {
+      "RefNo": 737,
+      "CaseNo": "105",
+      "InvNo": 1,
+      "CloneNo": 1,
+      "OrderNo": 1,
+      "Anormalidade": "??"
+    },
+    {
+      "RefNo": 737,
+      "CaseNo": "124",
+      "InvNo": 1,
+      "CloneNo": 1,
+      "OrderNo": 1,
+      "Anormalidade": "??"
+    },
+    {
+      "RefNo": 737,
+      "CaseNo": "63",
+      "InvNo": 1,
+      "CloneNo": 1,
+      "OrderNo": 1,
+      "Anormalidade": "??"
+    },
+    {
+      "RefNo": 737,
+      "CaseNo": "66",
+      "InvNo": 1,
+      "CloneNo": 1,
+      "OrderNo": 1,
+      "Anormalidade": "??"
+    }
+  ]
+}

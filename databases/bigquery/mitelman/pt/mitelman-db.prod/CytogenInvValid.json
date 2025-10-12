@@ -1,0 +1,116 @@
+{
+  "table_name": "CytogenInvValid",
+  "table_fullname": "mitelman-db.prod.CytogenInvValid",
+  "column_names": [
+    "RefNo",
+    "CaseNo",
+    "InvNo",
+    "ComprimentoKary",
+    "KaryCurto",
+    "KaryLongo",
+    "Mensagem",
+    "Motivo",
+    "CytoConvInput"
+  ],
+  "column_types": [
+    "INT64",
+    "STRING",
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "RefNo",
+    "CaseNo",
+    "InvNo",
+    "ComprimentoKary",
+    "KaryCurto",
+    "KaryLongo",
+    "Mensagem",
+    "Razao",
+    "CytoConvInput"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "STRING",
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "número de referência",
+    "número do caso -- geralmente um inteiro, mas também pode ser uma string arbitrária",
+    "número de investigação -- sempre um inteiro entre 1 e 9",
+    "comprimento da descrição do cariótipo -- pode ter até milhares de caracteres, mas geralmente é < 30",
+    "descrição do cariótipo curta (possivelmente truncada)",
+    "se a descrição do cariótipo excede um certo comprimento, a string completa está nessa coluna, caso contrário esse campo é nulo",
+    "Indica se o cariótipo foi corrigido pelo verificador de sintaxe",
+    "Mensagens de Erro",
+    "um valor de cariótipo completo ajustado para funcionar com a ferramenta do CytoConverter"
+  ],
+  "sample_rows": [
+    {
+      "RefNo": 17264,
+      "CaseNo": "403",
+      "InvNo": 1,
+      "ComprimentoKary": 256,
+      "KaryCurto": "45,XY,der(4)t(4;11)(p15;q21)t(4;11)(q13;q21)t(4;11)(q13;q14),der(5)t(5;17)(q11;q11),del(7)(q22q36),der(9)t(9;15)(q34;q26),r(11)(p11q11),der(15)t(11;15)(q14;p11)t(11;15)(q14;q14),der(16)t(15;16)(q21;q24)t(12;15)(q24;q21),del(17)(q11),der(20)t(4;20)(p15;p11",
+      "KaryLongo": "45,XY,der(4)t(4;11)(p15;q21)t(4;11)(q13;q21)t(4;11)(q13;q14),der(5)t(5;17)(q11;q11),del(7)(q22q36),der(9)t(9;15)(q34;q26),r(11)(p11q11),der(15)t(11;15)(q14;p11)t(11;15)(q14;q14),der(16)t(15;16)(q21;q24)t(12;15)(q24;q21),del(17)(q11),der(20)t(4;20)(p15;p11)",
+      "Mensagem": "Original",
+      "Razao": " ",
+      "CytoConvInput": "45,XY,der(4)t(4;11)(p15;q21)t(4;11)(q13;q21)t(4;11)(q13;q14),der(5)t(5;17)(q11;q11),del(7)(q22q36),der(9)t(9;15)(q34;q26),r(11)(p11q11),der(15)t(11;15)(q14;p11)t(11;15)(q14;q14),der(16)t(15;16)(q21;q24)t(12;15)(q24;q21),del(17)(q11),der(20)t(4;20)(p15;p11)"
+    },
+    {
+      "RefNo": 14318,
+      "CaseNo": "6",
+      "InvNo": 3,
+      "ComprimentoKary": 256,
+      "KaryCurto": "46,XY,der(8)t(8;9)(p22;p24)t(8;22)(q24;q11),der(9)t(8;9)(p21;p24)x2,der(21)t(1;21)(q21;p11),der(22)t(8;22)(q24;q11)/46,XY,der(8)t(8;9)(p22;p24)t(8;22)(q24;q11),der(9)t(8;9)(p21;p24)x2,der(21)t(1;21)(q21;p11),der(22)t(8;22)(q24;q11),der(16)t(16;22)(q24;q11",
+      "KaryLongo": "46,XY,der(8)t(8;9)(p22;p24)t(8;22)(q24;q11),der(9)t(8;9)(p21;p24)x2,der(21)t(1;21)(q21;p11),der(22)t(8;22)(q24;q11)/46,XY,der(8)t(8;9)(p22;p24)t(8;22)(q24;q11),der(9)t(8;9)(p21;p24)x2,der(21)t(1;21)(q21;p11),der(22)t(8;22)(q24;q11),der(16)t(16;22)(q24;q11)",
+      "Mensagem": "Has been altered",
+      "Razao": " ",
+      "CytoConvInput": "46,XY,der(8)t(8;9)(p22;p24)t(8;22)(q24;q11),der(9)t(8;9)(p21;p24)x2,der(21)t(1;21)(q21;p11),der(22)t(8;22)(q24;q11)/46,XY,der(8)t(8;9)(p22;p24)t(8;22)(q24;q11),der(9)t(8;9)(p21;p24)x2,der(21)t(1;21)(q21;p11),der(22)t(8;22)(q24;q11),der(16)t(16;22)(q24;q11)"
+    },
+    {
+      "RefNo": 11275,
+      "CaseNo": "1",
+      "InvNo": 1,
+      "ComprimentoKary": 0,
+      "KaryCurto": " ",
+      "KaryLongo": " ",
+      "Mensagem": "Original",
+      "Razao": " ",
+      "CytoConvInput": " "
+    },
+    {
+      "RefNo": 7355,
+      "CaseNo": "1",
+      "InvNo": 1,
+      "ComprimentoKary": 0,
+      "KaryCurto": " ",
+      "KaryLongo": " ",
+      "Mensagem": "Original",
+      "Razao": " ",
+      "CytoConvInput": " "
+    },
+    {
+      "RefNo": 12035,
+      "CaseNo": "7",
+      "InvNo": 1,
+      "ComprimentoKary": 0,
+      "KaryCurto": " ",
+      "KaryLongo": " ",
+      "Mensagem": "Original",
+      "Razao": " ",
+      "CytoConvInput": " "
+    }
+  ]
+}
