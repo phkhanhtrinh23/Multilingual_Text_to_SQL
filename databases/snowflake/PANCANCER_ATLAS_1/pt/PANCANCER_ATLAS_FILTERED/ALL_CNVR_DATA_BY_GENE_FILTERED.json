@@ -1,0 +1,102 @@
+{
+  "table_name": "ALL_CNVR_DATA_BY_GENE_FILTERED",
+  "table_fullname": "PANCANCER_ATLAS_1.PANCANCER_ATLAS_FILTERED.ALL_CNVR_DATA_BY_GENE_FILTERED",
+  "column_names": [
+    "TipoAmostra",
+    "CodigoBarraAmostra",
+    "CodigoBarraParticipante",
+    "ChamadasGISTIC",
+    "ID_Locus",
+    "Estudo",
+    "CodigoBarraAlíquota",
+    "Cytoband",
+    "CodigoLetraTipoAmostra",
+    "SimboloGene"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "FLOAT",
+    "NUMBER",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Existem 10 tipos de amostras: Sangue Derivado Normal, Tumor Sólido Primário, Tecido Sólido Normal, Tumor Sólido Recorrente, Metastático, Adicional - Novo Primário, Câncer Derivado de Sangue Primário - Sangue Periférico, Célula Buocal Normal, Adicional Metastático, Medula Óssea Normal",
+    "Código de barras da amostra de biosspecimen, por exemplo TCGA-13-1489-02A",
+    "Identificador de código de barras TCGA para o participante do estudo, por exemplo TCGA-02-0001",
+    "Chamadas de Número de Cópia Gistic",
+    "ID do locus do gene, por exemplo  57380, 100616303",
+    "Abreviação do estudo TCGA, por exemplo LAML. Lista completa disponível em https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/tcga-study-abbreviations",
+    "Código de barras do alíquota TCGA, por exemplo TCGA-12-1089-01A-01D-0517-28",
+    "Nome completo da cito-banda, incluindo cromossomo. Por exemplo, 17p13.2 Veja https://www.ncbi.nlm.nih.gov/Class/MLACourse/Original8Hour/Genetics/chrombanding.html",
+    "Código de letra do tipo de amostra usando os padrões TCGA, por exemplo TPN, EBV. Lista completa disponível em https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/sample-type-codes",
+    "por exemplo TP53, LRP1B, etc (mesmo que o campo Hugo_Symbol, exceto em branco em vez de Desconhecido"
+  ],
+  "sample_rows": [
+    {
+      "CodigoBarraParticipante": "TCGA-04-1331",
+      "CodigoBarraAmostra": "TCGA-04-1331-01A",
+      "CodigoBarraAlíquota": "TCGA-04-1331-01A-01D-0428-01",
+      "CodigoLetraTipoAmostra": "TP",
+      "TipoAmostra": "Primary solid Tumor",
+      "Estudo": "OV",
+      "SimboloGene": "SLC44A3",
+      "ID_Locus": 126969,
+      "Cytoband": "1p21.3",
+      "ChamadasGISTIC": 0.038
+    },
+    {
+      "CodigoBarraParticipante": "TCGA-04-1331",
+      "CodigoBarraAmostra": "TCGA-04-1331-01A",
+      "CodigoBarraAlíquota": "TCGA-04-1331-01A-01D-0428-01",
+      "CodigoLetraTipoAmostra": "TP",
+      "TipoAmostra": "Primary solid Tumor",
+      "Estudo": "OV",
+      "SimboloGene": "FEZF2",
+      "ID_Locus": 55079,
+      "Cytoband": "3p14.2",
+      "ChamadasGISTIC": 0.052
+    },
+    {
+      "CodigoBarraParticipante": "TCGA-04-1331",
+      "CodigoBarraAmostra": "TCGA-04-1331-01A",
+      "CodigoBarraAlíquota": "TCGA-04-1331-01A-01D-0428-01",
+      "CodigoLetraTipoAmostra": "TP",
+      "TipoAmostra": "Primary solid Tumor",
+      "Estudo": "OV",
+      "SimboloGene": "SNORD55",
+      "ID_Locus": 26811,
+      "Cytoband": "1p34.1",
+      "ChamadasGISTIC": 0.062
+    },
+    {
+      "CodigoBarraParticipante": "TCGA-04-1331",
+      "CodigoBarraAmostra": "TCGA-04-1331-01A",
+      "CodigoBarraAlíquota": "TCGA-04-1331-01A-01D-0428-01",
+      "CodigoLetraTipoAmostra": "TP",
+      "TipoAmostra": "Primary solid Tumor",
+      "Estudo": "OV",
+      "SimboloGene": "FLT4",
+      "ID_Locus": 2324,
+      "Cytoband": "5q35.3",
+      "ChamadasGISTIC": 0.06
+    },
+    {
+      "CodigoBarraParticipante": "TCGA-04-1331",
+      "CodigoBarraAmostra": "TCGA-04-1331-01A",
+      "CodigoBarraAlíquota": "TCGA-04-1331-01A-01D-0428-01",
+      "CodigoLetraTipoAmostra": "TP",
+      "TipoAmostra": "Primary solid Tumor",
+      "Estudo": "OV",
+      "SimboloGene": "RP11-701P16.5",
+      "ID_Locus": 731424,
+      "Cytoband": "4q35.1",
+      "ChamadasGISTIC": -0.61
+    }
+  ]
+}
