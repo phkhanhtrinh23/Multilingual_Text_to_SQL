@@ -1,0 +1,126 @@
+{
+  "table_name": "KaryClone",
+  "table_fullname": "mitelman-db.prod.KaryClone",
+  "column_names": [
+    "RefNo",
+    "CaseNo",
+    "InvNo",
+    "CloneNo",
+    "ChromoMin",
+    "ChromoMax",
+    "CloneShort",
+    "CloneLong",
+    "CloneLength",
+    "Sole"
+  ],
+  "column_types": [
+    "INT64",
+    "STRING",
+    "INT64",
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING",
+    "INT64",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "RefNo",
+    "CaseNo",
+    "InvNo",
+    "CloneNo",
+    "ChromoMin",
+    "ChromoMax",
+    "CloneShort",
+    "CloneLong",
+    "CloneLength",
+    "Sole"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "STRING",
+    "INT64",
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING",
+    "INT64",
+    "STRING"
+  ],
+  "description": [
+    "número de referência, por exemplo, '14620'",
+    "número do caso, geralmente entre 1 e 10, mas também pode ser uma string arbitrária, por exemplo, 'A11'",
+    "número de investigação, entre 1 e 9",
+    "número do clone, entre 1 e 58",
+    "os valores mais comuns estão entre '42' e '51', mas o valor mínimo é '0' e o máximo é '409'",
+    "os valores mais comuns estão entre '43' e '52', mas o valor mínimo é '0' e o máximo é '409'",
+    "descrição do clone mais curta, às vezes truncada, por exemplo, '45,X,-Y' ou '46,Xy,t(8;21)(q22;q22)'",
+    "geralmente em branco, mas se a descrição do clone for muito longa, essa string será armazenada aqui",
+    "comprimento da string de descrição do clone -- geralmente entre 8 e 24 caracteres, mas pode ser de até 2199 caracteres",
+    "flag T/F que indica se este é a única anomalia"
+  ],
+  "sample_rows": [
+    {
+      "RefNo": 3822,
+      "CaseNo": "1",
+      "InvNo": 1,
+      "CloneNo": 5,
+      "ChromoMin": 45,
+      "ChromoMax": 45,
+      "CloneShort": "45,X,-X",
+      "CloneLong": null,
+      "CloneLength": 7,
+      "Sole": "T"
+    },
+    {
+      "RefNo": 4018,
+      "CaseNo": "33",
+      "InvNo": 1,
+      "CloneNo": 6,
+      "ChromoMin": 45,
+      "ChromoMax": 45,
+      "CloneShort": "45,X,-X",
+      "CloneLong": null,
+      "CloneLength": 7,
+      "Sole": "T"
+    },
+    {
+      "RefNo": 8240,
+      "CaseNo": "8B",
+      "InvNo": 1,
+      "CloneNo": 7,
+      "ChromoMin": 45,
+      "ChromoMax": 45,
+      "CloneShort": "45,X,-X",
+      "CloneLong": null,
+      "CloneLength": 7,
+      "Sole": "T"
+    },
+    {
+      "RefNo": 11389,
+      "CaseNo": "8",
+      "InvNo": 1,
+      "CloneNo": 5,
+      "ChromoMin": 45,
+      "ChromoMax": 45,
+      "CloneShort": "45,X,-X",
+      "CloneLong": null,
+      "CloneLength": 7,
+      "Sole": "T"
+    },
+    {
+      "RefNo": 9341,
+      "CaseNo": "5",
+      "InvNo": 1,
+      "CloneNo": 9,
+      "ChromoMin": 45,
+      "ChromoMax": 45,
+      "CloneShort": "45,X,-Y",
+      "CloneLong": null,
+      "CloneLength": 7,
+      "Sole": "T"
+    }
+  ]
+}
