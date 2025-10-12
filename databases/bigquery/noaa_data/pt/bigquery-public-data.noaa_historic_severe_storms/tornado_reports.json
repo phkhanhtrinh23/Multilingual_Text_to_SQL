@@ -1,0 +1,126 @@
+{
+  "table_name": "tornado_reports",
+  "table_fullname": "bigquery-public-data.noaa_historic_severe_storms.tornado_reports",
+  "column_names": [
+    "carimbo_de_data_hora",
+    "hora",
+    "f_scale",
+    "localizacao",
+    "condado",
+    "estado",
+    "latitude",
+    "longitude",
+    "comentarios",
+    "report_point"
+  ],
+  "column_types": [
+    "TIMESTAMP",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "FLOAT64",
+    "STRING",
+    "GEOGRAPHY"
+  ],
+  "nested_column_names": [
+    "carimbo_de_data",
+    "hora",
+    "f_scale",
+    "localizacao",
+    "condado",
+    "estado",
+    "latitude",
+    "longitude",
+    "comentarios",
+    "report_point"
+  ],
+  "nested_column_types": [
+    "TIMESTAMP",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "FLOAT64",
+    "STRING",
+    "GEOGRAPHY"
+  ],
+  "description": [
+    "Carimbo de data/hora em UTC",
+    "Hora em UTC",
+    "A escala F classifica danos F0-F5 calibrados por engenheiros e meteorologistas em 28 diferentes tipos de indicadores de danos (principalmente vários tipos de edifícios, mas também algumas outras estruturas, bem como árvores).",
+    "Localização do relatório",
+    "",
+    "",
+    "Latitude com duas casas decimais",
+    "Longitude com duas casas decimais",
+    "",
+    ""
+  ],
+  "sample_rows": [
+    {
+      "carimbo_de_data": "2019-01-04 10:40:00+00:00",
+      "hora": "1040",
+      "f_scale": "UNK",
+      "localizacao": "2 N GRABALL",
+      "condado": "HENRY",
+      "estado": "AL",
+      "latitude": 31.62,
+      "longitude": -85.28,
+      "comentarios": "TREE DAMAGE FROM A BRIEF TORNADO ABOUT 1.5 MI N OF ABBEVILLE / 2 MI N GRABALL. (TAE)",
+      "report_point": "POINT(-85.28 31.62)"
+    },
+    {
+      "carimbo_de_data": "2019-01-19 20:04:00+00:00",
+      "hora": "2004",
+      "f_scale": "UNK",
+      "localizacao": "3 ENE MULBERRY",
+      "condado": "AUTAUGA",
+      "estado": "AL",
+      "latitude": 32.49,
+      "longitude": -86.73,
+      "comentarios": "*** 2 INJ *** CORRECTS PREVIOUS TORNADO REPORT TO INCLUDE 2 INJURIES. A NWS STORM SURVEY TEAM CONFIRMED A TORNADO OF EF-1 INTENSITY... WHICH OCCURRED JUST NORTHWEST OF (BMX)",
+      "report_point": "POINT(-86.73 32.49)"
+    },
+    {
+      "carimbo_de_data": "2019-01-19 20:52:00+00:00",
+      "hora": "2052",
+      "f_scale": "UNK",
+      "localizacao": "3 SW WETUMPKA",
+      "condado": "ELMORE",
+      "estado": "AL",
+      "latitude": 32.52,
+      "longitude": -86.24,
+      "comentarios": "*** 4 INJ *** A NWS STORM SURVEY TEAM CONFIRMED A TORNADO OF HIGH-END EF-2 INTENSITY THAT BEGAN JUST SOUTHWEST OF WETUMPKA AND CONTINUED NORTHEAST... ENDING JUST BEFORE (BMX)",
+      "report_point": "POINT(-86.24 32.52)"
+    },
+    {
+      "carimbo_de_data": "2019-01-19 20:58:00+00:00",
+      "hora": "2058",
+      "f_scale": "UNK",
+      "localizacao": "2 W COTTAGE GROVE",
+      "condado": "COOSA",
+      "estado": "AL",
+      "latitude": 32.85,
+      "longitude": -86.15,
+      "comentarios": "A NWS STORM SURVEY TEAM CONFIRMED A TORNADO OF EF-1 INTENSITY... AFFECTING AREAS JUST SOUTHEAST OF ROCKFORD IN COOSA COUNTY ALONG COUNTY ROAD 101. (BMX)",
+      "report_point": "POINT(-86.15 32.85)"
+    },
+    {
+      "carimbo_de_data": "2019-02-23 23:44:00+00:00",
+      "hora": "2344",
+      "f_scale": "UNK",
+      "localizacao": "3 WSW GAINESVILLE LAKE",
+      "condado": "PICKENS",
+      "estado": "AL",
+      "latitude": 33.06,
+      "longitude": -88.31,
+      "comentarios": "CORRECTS PREVIOUS TORNADO REPORT FROM 3 WSW GAINSVILLE LAKE. THE TORNADO TOUCHED DOWN JUST EAST OF NANCY CLARK ROAD... AND FIRST CAUSED DAMAGE ALONG AN EAST-WEST TREELI (BMX)",
+      "report_point": "POINT(-88.31 33.06)"
+    }
+  ]
+}
