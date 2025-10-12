@@ -1,0 +1,86 @@
+{
+  "table_name": " vision_2020",
+  "table_fullname": "bigquery-public-data.nhtsa_traffic_fatalities. vision_2020",
+  "column_names": [
+    "numero_do_estado",
+    "nome_do_estado",
+    "numero_consecutivo",
+    "numero_do_veiculo",
+    "visao_do_motorista_obscurecida_por",
+    "nome_visao_do_motorista_obscurecida_por"
+  ],
+  "column_types": [
+    "INT64",
+    "STRING",
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "numero_do_estado",
+    "nome_do_estado",
+    "numero_consecutivo",
+    "numero_do_veiculo",
+    "visao_do_motorista_obscurecida_por",
+    "nome_visao_do_motorista_obscurecida_por"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "STRING",
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING"
+  ],
+  "description": [
+    "Este elemento de dados identifica o estado em que ocorreu o acidente. Os códigos são da publicação da Administração de Serviços Gerais (GSA) dos Códigos de Localização Geográfica Mundial (GLC). Para mais informações sobre os códigos, por favor, consulte a seção <C1/V1/D1/PC1/P1/NM1 State Number> no pdf: https://crashstats.nhtsa.dot.gov/Api/Public/ViewPublication/812315",
+    "Este elemento de dados identifica o estado em que ocorreu o acidente. Os códigos são da publicação da Administração de Serviços Gerais (GSA) dos Códigos de Localização Geográfica Mundial (GLC).",
+    "Este elemento de dados é o número de caso único atribuído a cada acidente. Ele aparece em cada arquivo de dados e é usado para mesclar informações dos arquivos de dados. xxxxxx Dois Caracteres para Código de Estado seguidos por Quatro Caracteres para Número do Caso",
+    "Este elemento de dados é o número consecutivo atribuído a cada veículo no caso. Este elemento de dados aparece em cada arquivo de dados de nível de veículo e é usado em conjunto com o elemento de dados ST_CASE para mesclar informações dos arquivos de dados de nível de veículo. 000-999 Número Atribuído de Veículo Motor",
+    "Este elemento de dados registra os obstáculos ao campo visual deste motorista que foram observados nos materiais do caso. Para mais informações sobre os códigos, por favor, consulte a seção <PC14 Driver’s Vision Obscured by> no pdf: https://crashstats.nhtsa.dot.gov/Api/Public/ViewPublication/812315",
+    "Este elemento de dados registra os obstáculos ao campo visual deste motorista que foram observados nos materiais do caso. Para mais informações sobre os códigos, por favor, consulte a seção <PC14 Driver’s Vision Obscured by> no pdf: https://crashstats.nhtsa.dot.gov/Api/Public/ViewPublication/812315"
+  ],
+  "sample_rows": [
+    {
+      "numero_do_estado": 1,
+      "nome_do_estado": "Alabama",
+      "numero_consecutivo": 10049,
+      "numero_do_veiculo": 5,
+      "visao_do_motorista_obscurecida_por": 0,
+      "nome_visao_do_motorista_obscurecida_por": "No Obstruction Noted"
+    },
+    {
+      "numero_do_estado": 1,
+      "nome_do_estado": "Alabama",
+      "numero_consecutivo": 10106,
+      "numero_do_veiculo": 5,
+      "visao_do_motorista_obscurecida_por": 0,
+      "nome_visao_do_motorista_obscurecida_por": "No Obstruction Noted"
+    },
+    {
+      "numero_do_estado": 1,
+      "nome_do_estado": "Alabama",
+      "numero_consecutivo": 10367,
+      "numero_do_veiculo": 5,
+      "visao_do_motorista_obscurecida_por": 0,
+      "nome_visao_do_motorista_obscurecida_por": "No Obstruction Noted"
+    },
+    {
+      "numero_do_estado": 1,
+      "nome_do_estado": "Alabama",
+      "numero_consecutivo": 10571,
+      "numero_do_veiculo": 5,
+      "visao_do_motorista_obscurecida_por": 0,
+      "nome_visao_do_motorista_obscurecida_por": "No Obstruction Noted"
+    },
+    {
+      "numero_do_estado": 1,
+      "nome_do_estado": "Alabama",
+      "numero_consecutivo": 10572,
+      "numero_do_veiculo": 5,
+      "visao_do_motorista_obscurecida_por": 0,
+      "nome_visao_do_motorista_obscurecida_por": "No Obstruction Noted"
+    }
+  ]
+}
