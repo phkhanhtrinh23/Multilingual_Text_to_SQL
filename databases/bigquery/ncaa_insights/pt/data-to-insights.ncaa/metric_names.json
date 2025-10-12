@@ -1,0 +1,96 @@
+{
+  "table_name": "metric_names",
+  "table_fullname": "data-to-insights.ncaa.metric_names",
+  "column_names": [
+    "nome_estatistica",
+    "etiqueta",
+    "nome_conceito",
+    "off_or_def",
+    "rank_asc",
+    "rd_dec",
+    "nome_estatistica_off_def"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "BOOL",
+    "INT64",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "nome_estatistica",
+    "etiqueta",
+    "nome_conceito",
+    "off_or_def",
+    "rank_asc",
+    "rd_dec",
+    "nome_estatistica_off_def"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "BOOL",
+    "INT64",
+    "STRING"
+  ],
+  "description": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "sample_rows": [
+    {
+      "nome_estatistica": "tm_to_pct",
+      "etiqueta": "TO%",
+      "nome_conceito": "Turnovers",
+      "off_or_def": "Off",
+      "rank_asc": true,
+      "rd_dec": 1,
+      "nome_estatistica_off_def": "off_to_pct"
+    },
+    {
+      "nome_estatistica": "opp_to_pct",
+      "etiqueta": "TO%",
+      "nome_conceito": "Turnovers",
+      "off_or_def": "Def",
+      "rank_asc": false,
+      "rd_dec": 1,
+      "nome_estatistica_off_def": "def_to_pct"
+    },
+    {
+      "nome_estatistica": "tm_drb_pct",
+      "etiqueta": "DRB%",
+      "nome_conceito": "Rebounding",
+      "off_or_def": "Def",
+      "rank_asc": false,
+      "rd_dec": 1,
+      "nome_estatistica_off_def": "drb_pct"
+    },
+    {
+      "nome_estatistica": "tm_orb_pct",
+      "etiqueta": "ORB%",
+      "nome_conceito": "Rebounding",
+      "off_or_def": "Off",
+      "rank_asc": false,
+      "rd_dec": 1,
+      "nome_estatistica_off_def": "orb_pct"
+    },
+    {
+      "nome_estatistica": "tm_efg_pct",
+      "etiqueta": "eFG%",
+      "nome_conceito": "Shooting",
+      "off_or_def": "Off",
+      "rank_asc": false,
+      "rd_dec": 1,
+      "nome_estatistica_off_def": "off_efg_pct"
+    }
+  ]
+}
