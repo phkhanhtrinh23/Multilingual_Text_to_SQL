@@ -1,0 +1,126 @@
+{
+  "table_name": "scRNAseq_VUMC_HTAN_VAL_DIS_NONEPI_V2_r2",
+  "table_fullname": "isb-cgc-bq.HTAN_versioned.scRNAseq_VUMC_HTAN_VAL_DIS_NONEPI_V2_r2",
+  "column_names": [
+    "iObs",
+    "iVar",
+    "X_valor",
+    "Numero_Do_Codigo_De_Celula",
+    "ID_Do_Arquivo_De_Dados_Pai_HTAN",
+    "ID_De_Biosspecimen_HTAN",
+    "Tipo_De_Celula",
+    "Subtipo_De_Tecido",
+    "Tipo_De_Tecido",
+    "Nome_Do_Gene"
+  ],
+  "column_types": [
+    "INT64",
+    "INT64",
+    "FLOAT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "iObs",
+    "iVar",
+    "X_valor",
+    "Numero_Do_Codigo_De_Celula",
+    "ID_Do_Arquivo_De_Dados_Pai_HTAN",
+    "ID_De_Biosspecimen_HTAN",
+    "Tipo_De_Celula",
+    "Subtipo_De_Tecido",
+    "Tipo_De_Tecido",
+    "Nome_Do_Gene"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "INT64",
+    "FLOAT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "Índice para códigos de barras de células.",
+    "Índice para IDs de genes.",
+    "Valor de expressão para um gene e célula determinados.",
+    "Códigos de barras usados para cada gota que contém a célula no processo de sequenciamento",
+    "Identificador de Arquivo de Dados HTAN que indica o arquivo(s) do qual esses arquivos foram derivados",
+    "ID HTAN associado a uma biosamostra com base na SOP de ID HTAN (por exemplo, HTANx_yyy_zzz)",
+    "B = Célula B, T = Célula T, END = endotelial, FIB = fibroblasto, MAS = célula mastroide, MYE = mieloide, PLA = plasmática",
+    "TA = adenoma tubular, HP = pólipo hiperplásico, TVA = adenoma tubuloviloso, SSL = lesão serrilada sessil, NL = normal, MSI-H = instabilidade de microsatélite alta CRC, MSS = CRC estável de microsatélite",
+    "AD = adenoma convencional, SER = pólipo serrilado, NL = normal, MSI-H = instabilidade de microsatélite alta CRC, MSS = CRC estável de microsatélite",
+    "Gene medido"
+  ],
+  "sample_rows": [
+    {
+      "iObs": 2827,
+      "iVar": 15691,
+      "X_valor": 2.0,
+      "Numero_Do_Codigo_De_Celula": "ATGCTCCGTTTGGATCG-54",
+      "ID_Do_Arquivo_De_Dados_Pai_HTAN": "HTA11_6310_200000202113111",
+      "ID_De_Biosspecimen_HTAN": "HTA11_6310_2000002021",
+      "Tipo_De_Celula": "B",
+      "Subtipo_De_Tecido": "NL",
+      "Tipo_De_Tecido": "NL",
+      "Nome_Do_Gene": "PCNP"
+    },
+    {
+      "iObs": 6875,
+      "iVar": 27125,
+      "X_valor": 2.0,
+      "Numero_Do_Codigo_De_Celula": "TGCGTATCAGCTACGG-16-5607",
+      "ID_Do_Arquivo_De_Dados_Pai_HTAN": "HTA11_8099_200000201113111",
+      "ID_De_Biosspecimen_HTAN": "HTA11_8099_2000002011",
+      "Tipo_De_Celula": "B",
+      "Subtipo_De_Tecido": "NL",
+      "Tipo_De_Tecido": "NL",
+      "Nome_Do_Gene": "TBC1D5"
+    },
+    {
+      "iObs": 5768,
+      "iVar": 28591,
+      "X_valor": 2.0,
+      "Numero_Do_Codigo_De_Celula": "TGACGTAGAAGCTACTTGT-4-5607",
+      "ID_Do_Arquivo_De_Dados_Pai_HTAN": "HTA11_10167_200000202113111",
+      "ID_De_Biosspecimen_HTAN": "HTA11_10167_2000002021",
+      "Tipo_De_Celula": "B",
+      "Subtipo_De_Tecido": "NL",
+      "Tipo_De_Tecido": "NL",
+      "Nome_Do_Gene": "UBC"
+    },
+    {
+      "iObs": 3238,
+      "iVar": 4200,
+      "X_valor": 2.0,
+      "Numero_Do_Codigo_De_Celula": "TGAGTCCATGTATCCCACG-54",
+      "ID_Do_Arquivo_De_Dados_Pai_HTAN": "HTA11_6310_200000202113111",
+      "ID_De_Biosspecimen_HTAN": "HTA11_6310_2000002021",
+      "Tipo_De_Celula": "B",
+      "Subtipo_De_Tecido": "NL",
+      "Tipo_De_Tecido": "NL",
+      "Nome_Do_Gene": "CCSER1"
+    },
+    {
+      "iObs": 2796,
+      "iVar": 26484,
+      "X_valor": 13.0,
+      "Numero_Do_Codigo_De_Celula": "TGACGTATCGGCGCTCTCA-54",
+      "ID_Do_Arquivo_De_Dados_Pai_HTAN": "HTA11_6310_200000202113111",
+      "ID_De_Biosspecimen_HTAN": "HTA11_6310_2000002021",
+      "Tipo_De_Celula": "B",
+      "Subtipo_De_Tecido": "NL",
+      "Tipo_De_Tecido": "NL",
+      "Nome_Do_Gene": "SPICE1"
+    }
+  ]
+}
