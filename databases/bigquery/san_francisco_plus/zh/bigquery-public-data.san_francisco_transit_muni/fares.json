@@ -1,0 +1,96 @@
+{
+  "table_name": "fares",
+  "table_fullname": "bigquery-public-data.san_francisco_transit_muni.fares",
+  "column_names": [
+    "fare_id",
+    "rider_id",
+    "rider_desc",
+    "price",
+    "payment_method",
+    "transfers_permitted",
+    "transfer_duration"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "NUMERIC",
+    "STRING",
+    "STRING",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "fare_id",
+    "rider_id",
+    "rider_desc",
+    "price",
+    "payment_method",
+    "transfers_permitted",
+    "transfer_duration"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "NUMERIC",
+    "STRING",
+    "STRING",
+    "INT64"
+  ],
+  "description": [
+    "唯一标识符 `a` fare class。",
+    "唯一标识符 `a` 乘客类别。乘客类别用于为不同群体的个人分配不同的价格",
+    "乘客类别的文本描述",
+    "包含票价，以 `USD` 为单位",
+    "指示何时必须支付票价。该字段的有效值如下：- `during`：表示票价在乘客登车时支付 - `before`：表示票价必须在乘客登车前支付",
+    "指定此票价允许的转乘次数。 - `0`：不允许转乘 - `1`：允许一次转乘 - `2`：允许两次转乘 - `NULL`：允许无限次转乘",
+    "指定转乘过期前的时间长度（以秒为单位）。当与 `transfers_permitted` 值 `0` 结合使用时，`transfer_duration` 字段指示无转乘允许的票价的有效期限"
+  ],
+  "sample_rows": [
+    {
+      "fare_id": "5398",
+      "rider_id": "6",
+      "rider_desc": "Disabled",
+      "price": "3.000000000",
+      "payment_method": "0",
+      "transfers_permitted": null,
+      "transfer_duration": 5400
+    },
+    {
+      "fare_id": "5398",
+      "rider_id": "5",
+      "rider_desc": "Youth",
+      "price": "3.000000000",
+      "payment_method": "0",
+      "transfers_permitted": null,
+      "transfer_duration": 5400
+    },
+    {
+      "fare_id": "5398",
+      "rider_id": "3",
+      "rider_desc": "Child",
+      "price": "3.000000000",
+      "payment_method": "0",
+      "transfers_permitted": null,
+      "transfer_duration": 5400
+    },
+    {
+      "fare_id": "5398",
+      "rider_id": "2",
+      "rider_desc": "Senior",
+      "price": "3.000000000",
+      "payment_method": "0",
+      "transfers_permitted": null,
+      "transfer_duration": 5400
+    },
+    {
+      "fare_id": "5399",
+      "rider_id": "6",
+      "rider_desc": "Disabled",
+      "price": "7.000000000",
+      "payment_method": "0",
+      "transfers_permitted": "0.0",
+      "transfer_duration": 0
+    }
+  ]
+}
