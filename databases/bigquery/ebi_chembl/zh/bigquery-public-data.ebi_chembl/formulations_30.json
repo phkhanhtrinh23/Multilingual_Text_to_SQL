@@ -1,0 +1,86 @@
+{
+  "table_name": "formulations_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.formulations_30",
+  "column_names": [
+    "产品编号",
+    "成分",
+    "强度",
+    "记录编号",
+    "molregno",
+    "配方编号"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "INT64",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "产品编号",
+    "成分",
+    "强度",
+    "记录编号",
+    "molregno",
+    "配方编号"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "INT64",
+    "INT64"
+  ],
+  "description": [
+    "产品的唯一标识符。 FK to PRODUCTS",
+    "产品中批准的成分名称",
+    "剂量强度",
+    "Foreign key to the compound_records 表。",
+    "成分的唯一标识符 FK to MOLECULE_DICTIONARY",
+    "主键。"
+  ],
+  "sample_rows": [
+    {
+      "产品编号": "PRODUCT_017406_001",
+      "成分": "CYANOCOBALAMIN",
+      "强度": null,
+      "记录编号": 1344800,
+      "molregno": 1383003,
+      "配方编号": 148332
+    },
+    {
+      "产品编号": "PRODUCT_016089_001",
+      "成分": "CYANOCOBALAMIN",
+      "强度": null,
+      "记录编号": 1344800,
+      "molregno": 1383003,
+      "配方编号": 148336
+    },
+    {
+      "产品编号": "PRODUCT_016090_001",
+      "成分": "CYANOCOBALAMIN",
+      "强度": null,
+      "记录编号": 1344800,
+      "molregno": 1383003,
+      "配方编号": 148340
+    },
+    {
+      "产品编号": "PRODUCT_016089_001",
+      "成分": "INTRINSIC FACTOR",
+      "强度": null,
+      "记录编号": 1343088,
+      "molregno": 675455,
+      "配方编号": 148338
+    },
+    {
+      "产品编号": "PRODUCT_016090_001",
+      "成分": "INTRINSIC FACTOR",
+      "强度": null,
+      "记录编号": 1343088,
+      "molregno": 675455,
+      "配方编号": 148342
+    }
+  ]
+}
