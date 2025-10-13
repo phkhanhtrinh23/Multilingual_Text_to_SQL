@@ -1,0 +1,102 @@
+{
+  "sample_rows": [
+    {
+      "IDDeMetrica": "B01002_002E",
+      "Tipo": "Estimate",
+      "IDDaTabelaDeMetrica": "B01002",
+      "DescricaoDaTabelaDeMetrica": "Median age of the population categorized by sex",
+      "TipoDeMedida": "Aggregate",
+      "CategoriaDeMetrica": "Demographics",
+      "GrupoDeMetrica": "Essential",
+      "Descritor1": "Male",
+      "Descritor2": "",
+      "Descritor3": ""
+    },
+    {
+      "IDDeMetrica": "B19051_001E",
+      "Tipo": "Estimate",
+      "IDDaTabelaDeMetrica": "B19051",
+      "DescricaoDaTabelaDeMetrica": "Earnings of households in the past 12 months",
+      "TipoDeMedida": "People",
+      "CategoriaDeMetrica": "Income",
+      "GrupoDeMetrica": "Essential",
+      "Descritor1": "",
+      "Descritor2": "",
+      "Descritor3": ""
+    },
+    {
+      "IDDeMetrica": "B19051_003E",
+      "Tipo": "Estimate",
+      "IDDaTabelaDeMetrica": "B19051",
+      "DescricaoDaTabelaDeMetrica": "Earnings of households in the past 12 months",
+      "TipoDeMedida": "People",
+      "CategoriaDeMetrica": "Income",
+      "GrupoDeMetrica": "Essential",
+      "Descritor1": "No earnings",
+      "Descritor2": "",
+      "Descritor3": ""
+    },
+    {
+      "IDDeMetrica": "B11012_002E",
+      "Tipo": "Estimate",
+      "IDDaTabelaDeMetrica": "B11012",
+      "DescricaoDaTabelaDeMetrica": "Different types of households based on size and type",
+      "TipoDeMedida": "People",
+      "CategoriaDeMetrica": "Housing",
+      "GrupoDeMetrica": "Essential",
+      "Descritor1": "Marriedcouple household",
+      "Descritor2": "",
+      "Descritor3": ""
+    },
+    {
+      "IDDeMetrica": "B11012_004E",
+      "Tipo": "Estimate",
+      "IDDaTabelaDeMetrica": "B11012",
+      "DescricaoDaTabelaDeMetrica": "Different types of households based on size and type",
+      "TipoDeMedida": "People",
+      "CategoriaDeMetrica": "Housing",
+      "GrupoDeMetrica": "Essential",
+      "Descritor1": "Marriedcouple household",
+      "Descritor2": "With no children of the householder under 18 years",
+      "Descritor3": ""
+    }
+  ],
+  "table_name": "Dim_CensusMetrics",
+  "table_fullname": "CENSUS_GALAXY__ZIP_CODE_TO_BLOCK_GROUP_SAMPLE.PUBLIC.Dim_CensusMetrics",
+  "column_names": [
+    "Tipo",
+    "Descritor2",
+    "CategoriaDeMetrica",
+    "DescricaoDaTabelaDeMetrica",
+    "IDDaTabelaDeMetrica",
+    "IDDeMetrica",
+    "Descritor1",
+    "TipoDeMedida",
+    "GrupoDeMetrica",
+    "Descritor3"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "O tipo ou natureza da métrica, indicando o tipo de dados que ela representa, como população, habitação, educação, emprego, etc.",
+    "Atributo descritivo adicional ou recurso associado à métrica, fornecendo detalhes mais específicos.",
+    "A categoria ou classificação à qual a métrica pertence, agrupando métricas relacionadas.",
+    "Uma descrição ou rótulo para a tabela ou conjunto de dados no American Community Survey ou dados do censo onde a métrica é armazenada.",
+    "Um identificador único para a tabela ou conjunto de dados no American Community Survey ou dados do censo onde a métrica é armazenada.",
+    "Um identificador único para uma métrica ou medição específica dentro do American Community Survey ou dados do censo.",
+    "Um atributo descritivo ou recurso associado à métrica, fornecendo informações adicionais ou contexto.",
+    "O tipo de dados armazenados em `CensusValue` para cada `MetricID`. É importante olhar para este campo ao agrupar e somar valores para cima ou para baixo níveis geográficos, pois alguns são contagens raw e outros são médias ou medianas.",
+    "O agrupamento de produtos decidido pela No Fret Data, conectado ao lançamento e ao roadmap do Census Galaxy.",
+    "Outro atributo descritivo ou recurso associado à métrica, fornecendo insights ou detalhes adicionais."
+  ]
+}
