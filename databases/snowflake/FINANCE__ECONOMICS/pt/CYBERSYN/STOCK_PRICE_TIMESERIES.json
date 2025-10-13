@@ -1,0 +1,86 @@
+{
+  "sample_rows": [
+    {
+      "TICKER": "FAMI",
+      "CLASSE_DE_ATIVO": "Common Shares",
+      "CODIGO_DA_PRINCIPAL_BOLSA": "NAS",
+      "NOME_DA_PRINCIPAL_BOLSA": "NASDAQ CAPITAL MARKET",
+      "VARIÁVEL": "all-day_high",
+      "NOME_DA_VARIÁVEL": "All-Day High",
+      "DATA": "2022-08-08",
+      "VALOR": 1.19
+    },
+    {
+      "TICKER": "TIPT",
+      "CLASSE_DE_ATIVO": "Equity",
+      "CODIGO_DA_PRINCIPAL_BOLSA": "NAS",
+      "NOME_DA_PRINCIPAL_BOLSA": "NASDAQ CAPITAL MARKET",
+      "VARIÁVEL": "nasdaq_volume",
+      "NOME_DA_VARIÁVEL": "Nasdaq Volume",
+      "DATA": "2023-02-16",
+      "VALOR": 17249.0
+    },
+    {
+      "TICKER": "BLK",
+      "CLASSE_DE_ATIVO": "Equity",
+      "CODIGO_DA_PRINCIPAL_BOLSA": "NYS",
+      "NOME_DA_PRINCIPAL_BOLSA": "NEW YORK STOCK EXCHANGE",
+      "VARIÁVEL": "post-market_close",
+      "NOME_DA_VARIÁVEL": "Post-Market Close",
+      "DATA": "2021-04-26",
+      "VALOR": 817.51
+    },
+    {
+      "TICKER": "BRN",
+      "CLASSE_DE_ATIVO": "Equity",
+      "CODIGO_DA_PRINCIPAL_BOLSA": "ASE",
+      "NOME_DA_PRINCIPAL_BOLSA": "NYSE MKT LLC",
+      "VARIÁVEL": "nasdaq_volume",
+      "NOME_DA_VARIÁVEL": "Nasdaq Volume",
+      "DATA": "2018-09-18",
+      "VALOR": 2028.0
+    },
+    {
+      "TICKER": "XLP",
+      "CLASSE_DE_ATIVO": "ETF-Index Fund Shares",
+      "CODIGO_DA_PRINCIPAL_BOLSA": "PSE",
+      "NOME_DA_PRINCIPAL_BOLSA": "NYSE ARCA",
+      "VARIÁVEL": "nasdaq_volume",
+      "NOME_DA_VARIÁVEL": "Nasdaq Volume",
+      "DATA": "2023-11-16",
+      "VALOR": 2373734.0
+    }
+  ],
+  "table_name": "STOCK_PRICE_TIMESERIES",
+  "table_fullname": "FINANCE__ECONOMICS.CYBERSYN.STOCK_PRICE_TIMESERIES",
+  "column_names": [
+    "NOME_DA_PRINCIPAL_BOLSA",
+    "CLASSE_DE_ATIVO",
+    "VALOR",
+    "CODIGO_DA_PRINCIPAL_BOLSA",
+    "VARIÁVEL",
+    "DATA",
+    "NOME_DA_VARIÁVEL",
+    "TICKER"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "FLOAT",
+    "TEXT",
+    "TEXT",
+    "DATE",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "O nome da bolsa de valores para o local de negociação primário de um título.",
+    "Tipo de título.",
+    "Valor relatado para a variável.",
+    "O código da bolsa de valores para o local de negociação primário de um título.",
+    "Identificador único para uma variável, que pode ser unida à tabela de séries temporais.",
+    "Data associada ao valor.",
+    "Nome único legível por humanos para a variável.",
+    "Código alfanumérico que representa um título negociado publicamente específico na bolsa de valores NASDAQ."
+  ]
+}
