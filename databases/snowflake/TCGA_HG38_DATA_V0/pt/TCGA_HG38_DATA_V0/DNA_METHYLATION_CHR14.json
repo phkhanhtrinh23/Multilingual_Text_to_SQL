@@ -1,0 +1,102 @@
+{
+  "table_name": "DNA_METHYLATION_CHR14",
+  "table_fullname": "TCGA_HG38_DATA_V0.TCGA_HG38_DATA_V0.DNA_METHYLATION_CHR14",
+  "column_names": [
+    "plataforma",
+    "id_sonda",
+    "id_gdc_caso",
+    "id_gdc_arquivo",
+    "codigo_barras_aliquota",
+    "id_gdc_amostra",
+    "id_gdc_aliquota",
+    "codigo_barras_amostra",
+    "valor_beta",
+    "codigo_barras_caso"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "FLOAT",
+    "TEXT"
+  ],
+  "description": [
+    "Nome da plataforma usado para gerar esses dados -- seja HumanMethylation450 ou HumanMethylation27",
+    "Identificador de sonda único (por exemplo, `cg04676771`) do array de metilação humana Illumina -- por favor, consulte a tabela de anotação (isb-cgc:platform_reference.methylation_annotation) para obter mais detalhes sobre qualquer sonda em particular",
+    "",
+    "",
+    "Código de barras do aliquote TCGA original, por exemplo `TCGA-12-1089-01A-01D-0517-01`",
+    "",
+    "",
+    "Código de barras da amostra TCGA original, por exemplo `TCGA-12-1089-01A`",
+    "Valor beta de metilação de DNA normalizado (entre 0 e 1, onde 0 indica completamente não metilado e 1 indica totalmente metilado)",
+    "Código de barras do caso TCGA original, por exemplo `TCGA-12-1089` -- observe que cada caso geralmente tem uma amostra de tumor primário e uma amostra normal correspondente (sangue ou tecido adjacente); por favor, consulte a tabela de Biospecimen do TCGA para obter mais detalhes"
+  ],
+  "sample_rows": [
+    {
+      "codigo_barras_caso": "TCGA-12-1601",
+      "codigo_barras_amostra": "TCGA-12-1601-01A",
+      "codigo_barras_aliquota": "TCGA-12-1601-01A-01D-0595-05",
+      "id_sonda": "cg06111454",
+      "valor_beta": 0.0107027979208236,
+      "plataforma": null,
+      "id_gdc_arquivo": "5cd6f2f6-7278-4757-be8e-a8ae3a7a81d3",
+      "id_gdc_caso": "cc1459be-de8f-482e-9efe-65937db9dc45",
+      "id_gdc_amostra": "b02fd704-03a6-44c4-b224-f5f457e733f3",
+      "id_gdc_aliquota": "aa761ca4-e8f0-4a43-8262-bd84eedb459a"
+    },
+    {
+      "codigo_barras_caso": "TCGA-12-1601",
+      "codigo_barras_amostra": "TCGA-12-1601-01A",
+      "codigo_barras_aliquota": "TCGA-12-1601-01A-01D-0595-05",
+      "id_sonda": "cg24482053",
+      "valor_beta": 0.0124688268277754,
+      "plataforma": null,
+      "id_gdc_arquivo": "5cd6f2f6-7278-4757-be8e-a8ae3a7a81d3",
+      "id_gdc_caso": "cc1459be-de8f-482e-9efe-65937db9dc45",
+      "id_gdc_amostra": "b02fd704-03a6-44c4-b224-f5f457e733f3",
+      "id_gdc_aliquota": "aa761ca4-e8f0-4a43-8262-bd84eedb459a"
+    },
+    {
+      "codigo_barras_caso": "TCGA-12-1601",
+      "codigo_barras_amostra": "TCGA-12-1601-01A",
+      "codigo_barras_aliquota": "TCGA-12-1601-01A-01D-0595-05",
+      "id_sonda": "cg13507326",
+      "valor_beta": 0.973006808180506,
+      "plataforma": null,
+      "id_gdc_arquivo": "5cd6f2f6-7278-4757-be8e-a8ae3a7a81d3",
+      "id_gdc_caso": "cc1459be-de8f-482e-9efe-65937db9dc45",
+      "id_gdc_amostra": "b02fd704-03a6-44c4-b224-f5f457e733f3",
+      "id_gdc_aliquota": "aa761ca4-e8f0-4a43-8262-bd84eedb459a"
+    },
+    {
+      "codigo_barras_caso": "TCGA-32-2498",
+      "codigo_barras_amostra": "TCGA-32-2498-01A",
+      "codigo_barras_aliquota": "TCGA-32-2498-01A-01D-1228-05",
+      "id_sonda": "cg12422450",
+      "valor_beta": 0.0309625494289143,
+      "plataforma": null,
+      "id_gdc_arquivo": "6db4187c-5e48-45ac-8ae3-6b55198ff65a",
+      "id_gdc_caso": "0d5e5a6b-5113-43f2-836c-776207b21b56",
+      "id_gdc_amostra": "58af038c-bd40-4123-a6d3-11061f0d38e1",
+      "id_gdc_aliquota": "6e65d823-0d94-4d26-b60a-2f168cbe2ba8"
+    },
+    {
+      "codigo_barras_caso": "TCGA-32-2498",
+      "codigo_barras_amostra": "TCGA-32-2498-01A",
+      "codigo_barras_aliquota": "TCGA-32-2498-01A-01D-1228-05",
+      "id_sonda": "cg01545079",
+      "valor_beta": 0.516140217463093,
+      "plataforma": null,
+      "id_gdc_arquivo": "6db4187c-5e48-45ac-8ae3-6b55198ff65a",
+      "id_gdc_caso": "0d5e5a6b-5113-43f2-836c-776207b21b56",
+      "id_gdc_amostra": "58af038c-bd40-4123-a6d3-11061f0d38e1",
+      "id_gdc_aliquota": "6e65d823-0d94-4d26-b60a-2f168cbe2ba8"
+    }
+  ]
+}
