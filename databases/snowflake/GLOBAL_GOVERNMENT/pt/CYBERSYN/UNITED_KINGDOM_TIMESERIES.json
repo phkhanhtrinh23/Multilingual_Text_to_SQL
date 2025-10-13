@@ -1,0 +1,70 @@
+{
+  "sample_rows": [
+    {
+      "ID_GEO": "uk/E06000055",
+      "VARIÁVEL": "weekly-deaths-local-authority_registrations_hospice_covid-19",
+      "NOME_DA_VARIÁVEL": "Death Registrations from COVID 19: Hospice",
+      "DATA": "2022-12-11",
+      "VALOR": 0.0,
+      "UNIDADE": "Count"
+    },
+    {
+      "ID_GEO": "uk/E06000037",
+      "VARIÁVEL": "weekly-deaths-local-authority_occurrences_hospital_all-causes",
+      "NOME_DA_VARIÁVEL": "Death Occurrences from All causes: Hospital",
+      "DATA": "2023-10-22",
+      "VALOR": 8.0,
+      "UNIDADE": "Count"
+    },
+    {
+      "ID_GEO": "uk/E08000034",
+      "VARIÁVEL": "weekly-deaths-local-authority_registrations_other-communal-establishment_covid-19",
+      "NOME_DA_VARIÁVEL": "Death Registrations from COVID 19: Other communal establishment",
+      "DATA": "2023-09-03",
+      "VALOR": 0.0,
+      "UNIDADE": "Count"
+    },
+    {
+      "ID_GEO": "uk/E06000043",
+      "VARIÁVEL": "weekly-deaths-local-authority_registrations_other-communal-establishment_covid-19",
+      "NOME_DA_VARIÁVEL": "Death Registrations from COVID 19: Other communal establishment",
+      "DATA": "2023-07-09",
+      "VALOR": 0.0,
+      "UNIDADE": "Count"
+    },
+    {
+      "ID_GEO": "uk/E09000028",
+      "VARIÁVEL": "weekly-deaths-local-authority_occurrences_hospice_all-causes",
+      "NOME_DA_VARIÁVEL": "Death Occurrences from All causes: Hospice",
+      "DATA": "2023-06-25",
+      "VALOR": 1.0,
+      "UNIDADE": "Count"
+    }
+  ],
+  "table_name": "UNITED_KINGDOM_TIMESERIES",
+  "table_fullname": "GLOBAL_GOVERNMENT.CYBERSYN.UNITED_KINGDOM_TIMESERIES",
+  "column_names": [
+    "VARIÁVEL",
+    "NOME_DA_VARIÁVEL",
+    "UNIDADE",
+    "ID_GEO",
+    "DATA",
+    "VALOR"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "DATE",
+    "FLOAT"
+  ],
+  "description": [
+    "Identificador único para uma variável, juntable à tabela de séries temporais.",
+    "Nome único legível por humanos para a variável.",
+    "Unidade de medida para o valor relatado.",
+    "Um identificador único para um local. Juntable a outras tabelas de geografia, incluindo `GEOGRAPHY_INDEX`, `GEOGRAPHY_RELATIONSHIPS` e `GEOGRAPHY_CHARACTERISTICS`.",
+    "Data associada ao valor.",
+    "Valor relatado para a variável."
+  ]
+}
