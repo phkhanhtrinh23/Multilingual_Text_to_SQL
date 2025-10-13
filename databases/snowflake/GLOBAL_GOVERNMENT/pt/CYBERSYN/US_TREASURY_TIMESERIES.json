@@ -1,0 +1,70 @@
+{
+  "sample_rows": [
+    {
+      "ID_GEO": "country/USA",
+      "VARIÁVEL": "121",
+      "NOME_VARIÁVEL": "Non-Tax Net Collections Amount: Fiscal Service Processed Electronically (Over-the-Counter)",
+      "DATA": "2017-03-20",
+      "VALOR": 64657026.0,
+      "UNIDADE": "USD"
+    },
+    {
+      "ID_GEO": "country/USA",
+      "VARIÁVEL": "131",
+      "NOME_VARIÁVEL": "Non-Tax Net Collections Amount: Fiscal Service Settled Electronically (Over-the-Counter)",
+      "DATA": "2022-08-29",
+      "VALOR": 753.0,
+      "UNIDADE": "USD"
+    },
+    {
+      "ID_GEO": "country/USA",
+      "VARIÁVEL": "213",
+      "NOME_VARIÁVEL": "IRS Non-Tax Net Collections Amount: Fully Electronic (Internet)",
+      "DATA": "2017-08-10",
+      "VALOR": 99641.0,
+      "UNIDADE": "USD"
+    },
+    {
+      "ID_GEO": "country/USA",
+      "VARIÁVEL": "332",
+      "NOME_VARIÁVEL": "IRS Tax Net Collections Amount: Fiscal Service Settled Electronically (Mail)",
+      "DATA": "2013-10-09",
+      "VALOR": 704080197.0,
+      "UNIDADE": "USD"
+    },
+    {
+      "ID_GEO": "country/USA",
+      "VARIÁVEL": "paper_savings_bonds_unmatured_&_unredeemed_all_series",
+      "NOME_VARIÁVEL": "Paper Savings Bonds Unmatured & Unredeemed: All Series",
+      "DATA": "2020-11-30",
+      "VALOR": 294438314.0,
+      "UNIDADE": "Count"
+    }
+  ],
+  "table_name": "US_TREASURY_TIMESERIES",
+  "table_fullname": "GLOBAL_GOVERNMENT.CYBERSYN.US_TREASURY_TIMESERIES",
+  "column_names": [
+    "ID_GEO",
+    "UNIDADE",
+    "VARIÁVEL",
+    "DATA",
+    "NOME_VARIÁVEL",
+    "VALOR"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "DATE",
+    "TEXT",
+    "FLOAT"
+  ],
+  "description": [
+    "Um identificador único para um local. Pode ser unido a outras tabelas de geografia, incluindo `GEOGRAPHY_INDEX`, `GEOGRAPHY_RELATIONSHIPS` e `GEOGRAPHY_CHARACTERISTICS`.",
+    "Unidade de medida para o valor relatado.",
+    "Identificador único para uma variável, pode ser unido à tabela `timeseries`.",
+    "Data associada ao valor.",
+    "Nome único legível por humanos para a variável.",
+    "Valor relatado para a variável."
+  ]
+}
