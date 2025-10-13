@@ -1,0 +1,86 @@
+{
+  "sample_rows": [
+    {
+      "VARIÁVEL": "Outflow_Returns_–_adjusted_gross_income_from_Year_1,_primary_taxpayers_ages_45_under_55,_AGI_bin:_$10,000_under_$25,000",
+      "NOME_DA_VARIÁVEL": "Outflow Returns – adjusted gross income from Year 1, primary taxpayers ages 45 under 55, AGI bin: $10,000 under $25,000",
+      "GRUPO_DE_RETORNO": "Outflow Returns",
+      "FAIXA_DE_RENDA": "$10,000 under $25,000",
+      "FAIXA_ETARIA": "45 under 55",
+      "UNIDADE": "USD",
+      "AJUSTADO_SAZONALMENTE": false,
+      "FREQUENCIA": "Annual"
+    },
+    {
+      "VARIÁVEL": "Same_State_Returns_–_number_of_individuals,_primary_taxpayers_ages_26_under_35,_AGI_bin:_$75,000_under_$100,000",
+      "NOME_DA_VARIÁVEL": "Same State Returns – number of individuals, primary taxpayers ages 26 under 35, AGI bin: $75,000 under $100,000",
+      "GRUPO_DE_RETORNO": "Same State Returns",
+      "FAIXA_DE_RENDA": "$75,000 under $100,000",
+      "FAIXA_ETARIA": "26 under 35",
+      "UNIDADE": "Individuals",
+      "AJUSTADO_SAZONALMENTE": false,
+      "FREQUENCIA": "Annual"
+    },
+    {
+      "VARIÁVEL": "Total_Returns_–_number_of_individuals,_primary_taxpayers_ages_55_under_65,_AGI_bin:_$100,000_under_$200,000",
+      "NOME_DA_VARIÁVEL": "Total Returns – number of individuals, primary taxpayers ages 55 under 65, AGI bin: $100,000 under $200,000",
+      "GRUPO_DE_RETORNO": "Total Returns",
+      "FAIXA_DE_RENDA": "$100,000 under $200,000",
+      "FAIXA_ETARIA": "55 under 65",
+      "UNIDADE": "Individuals",
+      "AJUSTADO_SAZONALMENTE": false,
+      "FREQUENCIA": "Annual"
+    },
+    {
+      "VARIÁVEL": "Inflow_Returns_–_adjusted_gross_income_from_Year_1,_all_ages,_All_AGI_classes",
+      "NOME_DA_VARIÁVEL": "Inflow Returns – adjusted gross income from Year 1, all ages, All AGI classes",
+      "GRUPO_DE_RETORNO": "Inflow Returns",
+      "FAIXA_DE_RENDA": "All AGI classes",
+      "FAIXA_ETARIA": "All Ages",
+      "UNIDADE": "USD",
+      "AJUSTADO_SAZONALMENTE": false,
+      "FREQUENCIA": "Annual"
+    },
+    {
+      "VARIÁVEL": "Total_Returns_-_number_of_returns,_all_ages,_All_AGI_classes",
+      "NOME_DA_VARIÁVEL": "Total Returns - number of returns, all ages, All AGI classes",
+      "GRUPO_DE_RETORNO": "Total Returns",
+      "FAIXA_DE_RENDA": "All AGI classes",
+      "FAIXA_ETARIA": "All Ages",
+      "UNIDADE": "Returns",
+      "AJUSTADO_SAZONALMENTE": false,
+      "FREQUENCIA": "Annual"
+    }
+  ],
+  "table_name": "IRS_MIGRATION_BY_CHARACTERISTIC_ATTRIBUTES",
+  "table_fullname": "US_REAL_ESTATE.CYBERSYN.IRS_MIGRATION_BY_CHARACTERISTIC_ATTRIBUTES",
+  "column_names": [
+    "FAIXA_ETARIA",
+    "UNIDADE",
+    "GRUPO_DE_RETORNO",
+    "FREQUENCIA",
+    "VARIÁVEL",
+    "AJUSTADO_SAZONALMENTE",
+    "FAIXA_DE_RENDA",
+    "NOME_DA_VARIÁVEL"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "BOOLEAN",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "O grupo etário do valor sendo relatado",
+    "Unidade de medida para o valor, exemplos: USD, retornos, indivíduos",
+    "O grupo populacional do valor sendo relatado - consulte a documentação do IRS para detalhes",
+    "Frequência da medição da variável",
+    "Código de identificador único para uma variável",
+    "Indica se o valor é ajustado sazonalmente",
+    "A faixa de renda bruta ajustada dos indivíduos dentro da série",
+    "Nome legível por humanos para a variável"
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "sample_rows": [
+    {
+      "GEO_ID": "zip/47578",
+      "VARIÁVEL": "Total_income_-_Amount,_AGI_bin:_$100,000_under_$200,000",
+      "NOME_DA_VARIÁVEL": "Total income - Amount, AGI bin: $100,000 under $200,000",
+      "DATA": "2018-12-31",
+      "VALOR": 5096000.0,
+      "UNIDADE": "USD",
+      "SUPPRESSED": false
+    },
+    {
+      "GEO_ID": "zip/88337",
+      "VARIÁVEL": "Total_taxes_paid_-_Number_of_returns,_AGI_bin:_$100,000_under_$200,000",
+      "NOME_DA_VARIÁVEL": "Total taxes paid - Number of returns, AGI bin: $100,000 under $200,000",
+      "DATA": "2011-12-31",
+      "VALOR": 69.0,
+      "UNIDADE": "Returns",
+      "SUPPRESSED": false
+    },
+    {
+      "GEO_ID": "zip/50167",
+      "VARIÁVEL": "Total_premium_tax_credit_-_Amount,_AGI_bin:_$100,000_under_$200,000",
+      "NOME_DA_VARIÁVEL": "Total premium tax credit - Amount, AGI bin: $100,000 under $200,000",
+      "DATA": "2017-12-31",
+      "VALOR": 0.0,
+      "UNIDADE": "USD",
+      "SUPPRESSED": false
+    },
+    {
+      "GEO_ID": "zip/50543",
+      "VARIÁVEL": "Taxable_income_-_Amount,_AGI_bin:_$200,000_or_more",
+      "NOME_DA_VARIÁVEL": "Taxable income - Amount, AGI bin: $200,000 or more",
+      "DATA": "2017-12-31",
+      "VALOR": null,
+      "UNIDADE": "USD",
+      "SUPPRESSED": true
+    },
+    {
+      "GEO_ID": "zip/50643",
+      "VARIÁVEL": "Child_tax_credit_-_Amount,_AGI_bin:_$75,000_under_$100,000",
+      "NOME_DA_VARIÁVEL": "Child tax credit - Amount, AGI bin: $75,000 under $100,000",
+      "DATA": "2017-12-31",
+      "VALOR": 128000.0,
+      "UNIDADE": "USD",
+      "SUPPRESSED": false
+    }
+  ],
+  "table_name": "IRS_INDIVIDUAL_INCOME_TIMESERIES",
+  "table_fullname": "US_REAL_ESTATE.CYBERSYN.IRS_INDIVIDUAL_INCOME_TIMESERIES",
+  "column_names": [
+    "SUPPRESSED",
+    "DATA",
+    "VARIÁVEL",
+    "NOME_DA_VARIÁVEL",
+    "GEO_ID",
+    "UNIDADE",
+    "VALOR"
+  ],
+  "column_types": [
+    "BOOLEAN",
+    "DATE",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "FLOAT"
+  ],
+  "description": [
+    "Indicador booleano de que o valor foi suprimido nos dados subjacentes por motivos de privacidade. Valores suprimidos aparecem como NULL",
+    "Data associada ao valor, para dados de código de renda individual, é o último dia do ano sendo relatado",
+    "Um identificador único para uma variável associável à tabela de atributos",
+    "Nome legível por humanos para a variável",
+    "Um identificador único para um local (estado, condado, código postal) associável às tabelas geography_index/relationships",
+    "Unidade de medida para o valor, exemplos: USD, retornos, indivíduos, dependentes",
+    "O valor numérico real para a variável. Valores suprimidos são Null."
+  ]
+}
