@@ -1,0 +1,78 @@
+{
+  "sample_rows": [
+    {
+      "NOME_GEO": "New York-Newark-Jersey City, NY-NJ-PA Metro Area",
+      "ID_GEO": "geoId/C35620",
+      "NIVEL": "CensusCoreBasedStatisticalArea",
+      "NOME_GEO_RELACIONADO": "Census Tract 972.06, Queens, New York",
+      "ID_GEO_RELACIONADO": "geoId/36081097206",
+      "NIVEL_RELACIONADO": "CensusTract",
+      "TIPO_DE_RELACIONAMENTO": "Contains"
+    },
+    {
+      "NOME_GEO": "24580377",
+      "ID_GEO": "statcanId/S051224580377",
+      "NIVEL": "DisseminationArea",
+      "NOME_GEO_RELACIONADO": "Brossard",
+      "ID_GEO_RELACIONADO": "statcanId/A00052458007",
+      "NIVEL_RELACIONADO": "CensusSubdivision",
+      "TIPO_DE_RELACIONAMENTO": "Overlaps"
+    },
+    {
+      "NOME_GEO": "Block Group 3, Census Tract 5459, Wayne County, Michigan",
+      "ID_GEO": "censusBlockGroup/261635459003",
+      "NIVEL": "CensusBlockGroup",
+      "NOME_GEO_RELACIONADO": "Census Tract 5459, Wayne County, Michigan",
+      "ID_GEO_RELACIONADO": "geoId/26163545900",
+      "NIVEL_RELACIONADO": "CensusTract",
+      "TIPO_DE_RELACIONAMENTO": "Overlaps"
+    },
+    {
+      "NOME_GEO": "Census Tract 9015.01, Prince William County, Virginia",
+      "ID_GEO": "geoId/51153901501",
+      "NIVEL": "CensusTract",
+      "NOME_GEO_RELACIONADO": "Northern America",
+      "ID_GEO_RELACIONADO": "countrySubRegion/021",
+      "NIVEL_RELACIONADO": "CountrySubRegion",
+      "TIPO_DE_RELACIONAMENTO": "Overlaps"
+    },
+    {
+      "NOME_GEO": "70506",
+      "ID_GEO": "zip/70506",
+      "NIVEL": "CensusZipCodeTabulationArea",
+      "NOME_GEO_RELACIONADO": "Census Tract 18.02, Lafayette Parish, Louisiana",
+      "ID_GEO_RELACIONADO": "geoId/22055001802",
+      "NIVEL_RELACIONADO": "CensusTract",
+      "TIPO_DE_RELACIONAMENTO": "Overlaps"
+    }
+  ],
+  "table_name": "GEOGRAPHY_RELATIONSHIPS",
+  "table_fullname": "WEATHER__ENVIRONMENT.CYBERSYN.GEOGRAPHY_RELATIONSHIPS",
+  "column_names": [
+    "NOME_GEO_RELACIONADO",
+    "ID_GEO_RELACIONADO",
+    "NIVEL_RELACIONADO",
+    "TIPO_DE_RELACIONAMENTO",
+    "ID_GEO",
+    "NIVEL",
+    "NOME_GEO"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Nome do local relacionado ao GEO_NAME. Este é um local que se sobrepõe ou está contido dentro do geo principal (por exemplo, cidade dentro de um estado)",
+    "Um identificador único para o local relacionado joinável à tabela GEOGRAPHY_INDEX",
+    "Nível geográfico ou hierarquia do local relacionado (por exemplo, País, Estado, Condado, Cidade, Continente, SubRegiãoPaís, etc.)",
+    "Relação entre os dois locais. Contém significa que o RELATED_GEO_ID está totalmente contido dentro do GEO_ID (por exemplo, relação de estado para uma cidade) enquanto Overlaps indica que o GEO_ID é uma subparte do RELATED_GEO_ID (por exemplo, relação de cidade para um estado)",
+    "Um identificador único para um local joinável à tabela GEOGRAPHY_INDEX",
+    "Nível geográfico ou hierarquia (por exemplo, País, Estado, Condado, Cidade, Continente, SubRegiãoPaís, etc.)",
+    "Nome completo do local"
+  ]
+}
