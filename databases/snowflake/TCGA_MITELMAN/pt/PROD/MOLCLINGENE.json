@@ -1,0 +1,78 @@
+{
+  "table_name": "MOLCLINGENE",
+  "table_fullname": "TCGA_MITELMAN.PROD.MOLCLINGENE",
+  "column_names": [
+    "Prefixo",
+    "NumInv",
+    "MolClin",
+    "Gene",
+    "RefNo",
+    "NumPedido",
+    "Sufixo"
+  ],
+  "column_types": [
+    "TEXT",
+    "NUMBER",
+    "TEXT",
+    "TEXT",
+    "NUMBER",
+    "NUMBER",
+    "TEXT"
+  ],
+  "description": [
+    "prefixo de string -- seja em branco ou '+'",
+    "número de investigação, geralmente entre 1 e 10",
+    "flag indicando seja molecular 'M', ou clínico 'C'",
+    "símbolo(s) de gene, por exemplo 'KMT2A' ou 'BCR/ABL1'",
+    "número de referência, por exemplo '15563'",
+    "número de pedido, entre 1 e 15",
+    "string de sufixo -- seja em branco ou '+'"
+  ],
+  "sample_rows": [
+    {
+      "MolClin": "C",
+      "RefNo": 3976,
+      "NumInv": 2,
+      "NumPedido": 1,
+      "Prefixo": null,
+      "Gene": "BCR::ABL1",
+      "Sufixo": null
+    },
+    {
+      "MolClin": "C",
+      "RefNo": 4541,
+      "NumInv": 1,
+      "NumPedido": 1,
+      "Prefixo": null,
+      "Gene": "PML::RARA",
+      "Sufixo": null
+    },
+    {
+      "MolClin": "C",
+      "RefNo": 4624,
+      "NumInv": 1,
+      "NumPedido": 1,
+      "Prefixo": null,
+      "Gene": "BCR::ABL1",
+      "Sufixo": null
+    },
+    {
+      "MolClin": "C",
+      "RefNo": 4748,
+      "NumInv": 1,
+      "NumPedido": 1,
+      "Prefixo": null,
+      "Gene": "PML::RARA",
+      "Sufixo": null
+    },
+    {
+      "MolClin": "C",
+      "RefNo": 4994,
+      "NumInv": 1,
+      "NumPedido": 1,
+      "Prefixo": null,
+      "Gene": "TCF3::PBX1",
+      "Sufixo": null
+    }
+  ]
+}
