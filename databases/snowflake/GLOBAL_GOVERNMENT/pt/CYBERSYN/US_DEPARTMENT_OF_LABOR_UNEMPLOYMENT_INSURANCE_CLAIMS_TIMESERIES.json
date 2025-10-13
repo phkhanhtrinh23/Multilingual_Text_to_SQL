@@ -1,0 +1,70 @@
+{
+  "sample_rows": [
+    {
+      "GEO_ID": "geoId/24",
+      "VARIÁVEL": "CW",
+      "NOME_DA_VARIÁVEL": "Adjusted Continued Weeks Claimed for State Unemployment Insurance",
+      "DATA": "2007-04-28",
+      "VALOR": 30739.0,
+      "UNIDADE": "Count"
+    },
+    {
+      "GEO_ID": "geoId/24",
+      "VARIÁVEL": "WSEIC",
+      "NOME_DA_VARIÁVEL": "Short Time Compensation (Workshare) Equivalent Initial Claims",
+      "DATA": "2016-04-09",
+      "VALOR": 0.0,
+      "UNIDADE": "Count"
+    },
+    {
+      "GEO_ID": "geoId/40",
+      "VARIÁVEL": "CE",
+      "NOME_DA_VARIÁVEL": "Covered Employment",
+      "DATA": "1992-11-21",
+      "VALOR": 1182846.0,
+      "UNIDADE": "Count"
+    },
+    {
+      "GEO_ID": "geoId/42",
+      "VARIÁVEL": "WSECW",
+      "NOME_DA_VARIÁVEL": "Short Time Compensation (Workshare) Equivalent Continued Weeks Claimed",
+      "DATA": "2008-07-19",
+      "VALOR": 0.0,
+      "UNIDADE": "Count"
+    },
+    {
+      "GEO_ID": "geoId/24",
+      "VARIÁVEL": "EBUI",
+      "NOME_DA_VARIÁVEL": "Total State Unemployment Insurance Continued Weeks Claimed under the Federal/State Extended Benefit Program",
+      "DATA": "2022-02-26",
+      "VALOR": 5.0,
+      "UNIDADE": "Count"
+    }
+  ],
+  "table_name": "US_DEPARTMENT_OF_LABOR_UNEMPLOYMENT_INSURANCE_CLAIMS_TIMESERIES",
+  "table_fullname": "GLOBAL_GOVERNMENT.CYBERSYN.US_DEPARTMENT_OF_LABOR_UNEMPLOYMENT_INSURANCE_CLAIMS_TIMESERIES",
+  "column_names": [
+    "UNIDADE",
+    "GEO_ID",
+    "VARIÁVEL",
+    "DATA",
+    "VALOR",
+    "NOME_DA_VARIÁVEL"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "DATE",
+    "FLOAT",
+    "TEXT"
+  ],
+  "description": [
+    "Unidade de medida para o valor relatado.",
+    "Um identificador único para um local. Pode ser unido a outras tabelas de geografia, incluindo `GEOGRAPHY_INDEX`, `GEOGRAPHY_RELATIONSHIPS` e `GEOGRAPHY_CHARACTERISTICS`.",
+    "Identificador único para uma variável, unível à tabela `timeseries`.",
+    "Data associada ao valor.",
+    "Valor relatado para a variável.",
+    "Nome único legível por humanos para a variável."
+  ]
+}
