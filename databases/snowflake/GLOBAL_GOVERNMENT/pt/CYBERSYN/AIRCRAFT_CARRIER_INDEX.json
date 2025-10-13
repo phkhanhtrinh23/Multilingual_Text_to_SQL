@@ -1,0 +1,78 @@
+{
+  "sample_rows": [
+    {
+      "ID_DE_PORTA_AVIOES": "01212_11",
+      "NOME_DA_TRANSPORTADORA": "Paklook Air, Inc d/b/a/ Airlift Alaska (2017 - 2017)",
+      "CODIGO_DE_AREA_MUNDIAL_DE_TRANSPORTADORA": 1,
+      "TIPO_DE_TRANSPORTADORA": "Domestic Carrier",
+      "TIPO_DE_TRANSPORTADORA_OAI": "Large Regional Carrier - $20-100M in revenue",
+      "ID_GEO_GRAFICO_DO_ESTADO": "geoId/02",
+      "ID_GEO_GRAFICO_DO_PAIS": "country/USA"
+    },
+    {
+      "ID_DE_PORTA_AVIOES": "01006_31",
+      "NOME_DA_TRANSPORTADORA": "Virgin America (2007 - 2018)",
+      "CODIGO_DE_AREA_MUNDIAL_DE_TRANSPORTADORA": 10,
+      "TIPO_DE_TRANSPORTADORA": "Domestic Carrier",
+      "TIPO_DE_TRANSPORTADORA_OAI": "Major Carrier - $1B+ in revenue",
+      "ID_GEO_GRAFICO_DO_ESTADO": null,
+      "ID_GEO_GRAFICO_DO_PAIS": null
+    },
+    {
+      "ID_DE_PORTA_AVIOES": "06993_51",
+      "NOME_DA_TRANSPORTADORA": "Bellair Inc. (1) (Domestic)",
+      "CODIGO_DE_AREA_MUNDIAL_DE_TRANSPORTADORA": 10,
+      "TIPO_DE_TRANSPORTADORA": "Domestic Carrier",
+      "TIPO_DE_TRANSPORTADORA_OAI": "Small Certified Carrier",
+      "ID_GEO_GRAFICO_DO_ESTADO": null,
+      "ID_GEO_GRAFICO_DO_PAIS": null
+    },
+    {
+      "ID_DE_PORTA_AVIOES": "16770 (1)_11",
+      "NOME_DA_TRANSPORTADORA": "Reliant Airlines (1998 - 2003)",
+      "CODIGO_DE_AREA_MUNDIAL_DE_TRANSPORTADORA": 10,
+      "TIPO_DE_TRANSPORTADORA": "Domestic Carrier",
+      "TIPO_DE_TRANSPORTADORA_OAI": "Large Regional Carrier - $20-100M in revenue",
+      "ID_GEO_GRAFICO_DO_ESTADO": null,
+      "ID_GEO_GRAFICO_DO_PAIS": null
+    },
+    {
+      "ID_DE_PORTA_AVIOES": "06752_11",
+      "NOME_DA_TRANSPORTADORA": "Pan American Airways Corp. (1999 - 2004)",
+      "CODIGO_DE_AREA_MUNDIAL_DE_TRANSPORTADORA": 10,
+      "TIPO_DE_TRANSPORTADORA": "Domestic Carrier",
+      "TIPO_DE_TRANSPORTADORA_OAI": "Large Regional Carrier - $20-100M in revenue",
+      "ID_GEO_GRAFICO_DO_ESTADO": null,
+      "ID_GEO_GRAFICO_DO_PAIS": null
+    }
+  ],
+  "table_name": "AIRCRAFT_CARRIER_INDEX",
+  "table_fullname": "GLOBAL_GOVERNMENT.CYBERSYN.AIRCRAFT_CARRIER_INDEX",
+  "column_names": [
+    "CODIGO_DE_AREA_MUNDIAL_DE_TRANSPORTADORA",
+    "ID_DE_PORTA_AVIOES",
+    "TIPO_DE_TRANSPORTADORA",
+    "NOME_DA_TRANSPORTADORA",
+    "ID_GEO_GRAFICO_DO_PAIS",
+    "TIPO_DE_TRANSPORTADORA_OAI",
+    "ID_GEO_GRAFICO_DO_ESTADO"
+  ],
+  "column_types": [
+    "NUMBER",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Identificador do DOT dos EUA para a área geográfica onde a transportadora está sediada.",
+    "ID único para a transportadora aérea.",
+    "Tipo de transportadora com base em suas características operacionais primárias.",
+    "Nome do transportador do aeroporto.",
+    "Um identificador único para um país, que pode ser unido à tabela GEOGRAPHY_INDEX, representando a geografia primária para a variável.",
+    "Tipo de transportadora aérea operacional (OAC) que fornece uma classificação detalhada do tipo de operações realizadas pela transportadora.",
+    "Um identificador único para um estado, que pode ser unido à tabela GEOGRAPHY_INDEX, representando a geografia primária para a variável."
+  ]
+}
