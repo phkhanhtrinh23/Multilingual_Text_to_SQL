@@ -1,0 +1,62 @@
+{
+  "table_name": "MOLCLINABNORM",
+  "table_fullname": "TCGA_MITELMAN.PROD.MOLCLINABNORM",
+  "column_names": [
+    "NumInv",
+    "NumPedido",
+    "NumRef",
+    "Anormalidade",
+    "MolClin"
+  ],
+  "column_types": [
+    "NUMBER",
+    "NUMBER",
+    "NUMBER",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "número de investigação, geralmente entre 1 e 10",
+    "número do pedido, entre 1 e 54",
+    "número de referência, por exemplo '15563'",
+    "descrição da anomalia, por exemplo 't(19;19)(p13;p13)' ou 'del(7)(q?)'",
+    "indicador de molecular 'M', ou clínico 'C'"
+  ],
+  "sample_rows": [
+    {
+      "MolClin": "C",
+      "NumRef": 1696,
+      "NumInv": 1,
+      "NumPedido": 1,
+      "Anormalidade": "r"
+    },
+    {
+      "MolClin": "C",
+      "NumRef": 4556,
+      "NumInv": 1,
+      "NumPedido": 11,
+      "Anormalidade": "r"
+    },
+    {
+      "MolClin": "C",
+      "NumRef": 15564,
+      "NumInv": 1,
+      "NumPedido": 1,
+      "Anormalidade": "r"
+    },
+    {
+      "MolClin": "C",
+      "NumRef": 15564,
+      "NumInv": 2,
+      "NumPedido": 1,
+      "Anormalidade": "r"
+    },
+    {
+      "MolClin": "C",
+      "NumRef": 11249,
+      "NumInv": 1,
+      "NumPedido": 2,
+      "Anormalidade": "+1"
+    }
+  ]
+}

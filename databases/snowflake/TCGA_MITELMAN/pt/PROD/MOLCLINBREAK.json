@@ -1,0 +1,62 @@
+{
+  "table_name": "MOLCLINBREAK",
+  "table_fullname": "TCGA_MITELMAN.PROD.MOLCLINBREAK",
+  "column_names": [
+    "RefNo",
+    "MolClin",
+    "PontoDeQuebra",
+    "InvNo",
+    "OrderNo"
+  ],
+  "column_types": [
+    "NUMBER",
+    "TEXT",
+    "TEXT",
+    "NUMBER",
+    "NUMBER"
+  ],
+  "description": [
+    "número de referência, por exemplo '15563'",
+    "flag que indica seja molecular 'M', ou clínico 'C'",
+    "descrição do ponto de quebra, por exemplo '19p13' ou '12q2?3', etc",
+    "número de investigação, geralmente entre 1 e 10",
+    "número do pedido, entre 1 e 68"
+  ],
+  "sample_rows": [
+    {
+      "MolClin": "C",
+      "RefNo": 7869,
+      "InvNo": 1,
+      "OrderNo": 1,
+      "PontoDeQuebra": "1"
+    },
+    {
+      "MolClin": "C",
+      "RefNo": 10829,
+      "InvNo": 1,
+      "OrderNo": 1,
+      "PontoDeQuebra": "1"
+    },
+    {
+      "MolClin": "C",
+      "RefNo": 16405,
+      "InvNo": 1,
+      "OrderNo": 1,
+      "PontoDeQuebra": "1"
+    },
+    {
+      "MolClin": "M",
+      "RefNo": 7806,
+      "InvNo": 3,
+      "OrderNo": 1,
+      "PontoDeQuebra": "1"
+    },
+    {
+      "MolClin": "M",
+      "RefNo": 7806,
+      "InvNo": 9,
+      "OrderNo": 1,
+      "PontoDeQuebra": "1"
+    }
+  ]
+}
