@@ -1,0 +1,78 @@
+{
+  "sample_rows": [
+    {
+      "GEO_ID": "geoId/C41740",
+      "VARIÁVEL": "Annual_%_of_Appraisals_Above_Contract_Price_Ratio_of_Tract_Med._Inc._to_MSA_Med._Inc._Purchase_Missing",
+      "NOME_DA_VARIÁVEL": "Annual % of Appraisals Above Contract Price Ratio of Tract Med. Inc. to MSA Med. Inc. Purchase Missing",
+      "DATA": "2015-12-31",
+      "VALOR": 0.51,
+      "UNIDADE": "Percent",
+      "SUPRIMIDO": false
+    },
+    {
+      "GEO_ID": "geoId/M19804",
+      "VARIÁVEL": "Quarterly_25%_Quartile_of_Appraised_Value_Year_Built_Purchase_1980_to_1989",
+      "NOME_DA_VARIÁVEL": "Quarterly 25% Quartile of Appraised Value Year Built Purchase 1980 to 1989",
+      "DATA": "2023-12-31",
+      "VALOR": 264000.0,
+      "UNIDADE": "USD",
+      "SUPRIMIDO": false
+    },
+    {
+      "GEO_ID": "geoId/C36540",
+      "VARIÁVEL": "Annual_Mean_Comps_Adjustment_Percent_Effective_Age_Purchase_&_Refinance_6_to_10_years",
+      "NOME_DA_VARIÁVEL": "Annual Mean Comps Adjustment Percent Effective Age Purchase & Refinance 6 to 10 years",
+      "DATA": "2023-12-31",
+      "VALOR": 0.004,
+      "UNIDADE": "Percent",
+      "SUPRIMIDO": false
+    },
+    {
+      "GEO_ID": "geoId/39153502101",
+      "VARIÁVEL": "Annual_25%_Quartile_of_Appraised_Value_Refinance_All_Appraisals",
+      "NOME_DA_VARIÁVEL": "Annual 25% Quartile of Appraised Value Refinance All Appraisals",
+      "DATA": "2021-12-31",
+      "VALOR": 95500.0,
+      "UNIDADE": "USD",
+      "SUPRIMIDO": false
+    },
+    {
+      "GEO_ID": "geoId/M33874",
+      "VARIÁVEL": "Quarterly_Mean_Distance_to_Comps_Number_of_Rooms_Above_Grade_Refinance_7_Rooms",
+      "NOME_DA_VARIÁVEL": "Quarterly Mean Distance to Comps Number of Rooms Above Grade Refinance 7 Rooms",
+      "DATA": "2021-03-31",
+      "VALOR": 0.83,
+      "UNIDADE": "Miles",
+      "SUPRIMIDO": false
+    }
+  ],
+  "table_name": "FHFA_UNIFORM_APPRAISAL_TIMESERIES",
+  "table_fullname": "FINANCE__ECONOMICS.CYBERSYN.FHFA_UNIFORM_APPRAISAL_TIMESERIES",
+  "column_names": [
+    "UNIDADE",
+    "NOME_DA_VARIÁVEL",
+    "VARIÁVEL",
+    "GEO_ID",
+    "SUPRIMIDO",
+    "DATA",
+    "VALOR"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "BOOLEAN",
+    "DATE",
+    "FLOAT"
+  ],
+  "description": [
+    "Unidade de medida para a variável (por exemplo, Contagem, Percentagem, Razão, USD)",
+    "Descrição legível para a variável",
+    "Um identificador único para uma variável que pode ser unida à tabela de atributos para filtragem",
+    "Um identificador geográfico único que pode ser unido às tabelas geography_index/relationships",
+    "Booleano que indica se o valor foi suprimido nos dados subjacentes por motivos de privacidade. Valores suprimidos aparecem como NULL",
+    "Data associada ao valor",
+    "O valor numérico relatado para a variável e data"
+  ]
+}
