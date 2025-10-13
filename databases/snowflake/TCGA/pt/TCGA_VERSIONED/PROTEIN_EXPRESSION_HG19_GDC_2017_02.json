@@ -1,0 +1,110 @@
+{
+  "table_name": "PROTEIN_EXPRESSION_HG19_GDC_2017_02",
+  "table_fullname": "TCGA.TCGA_VERSIONED.PROTEIN_EXPRESSION_HG19_GDC_2017_02",
+  "column_names": [
+    "codigo_barras_caso",
+    "nome_proteina",
+    "expressao_proteica",
+    "nome_curto_projeto",
+    "phospho",
+    "nome_gene",
+    "fonte_anticorpo",
+    "status_validacao",
+    "nome_base_proteina",
+    "codigo_barras_amostra",
+    "codigo_barras_aliquota"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "FLOAT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Código de barras original do caso TCGA, por exemplo, TCGA-12-1089  --  observe que cada caso geralmente tem uma amostra de tumor primário e uma amostra normal correspondente (sangue ou tecido adjacente); por favor, consulte a tabela de Biospecimen do TCGA para mais detalhes",
+    "Símbolo de proteína com status de fosforilação, por exemplo, ACC_pS79",
+    "Nível de expressão da proteína medido por arranjos de proteínas de fase reversa. https://bioinformatics.mdanderson.org/public-software/tcpa/",
+    "Abreviação do nome do projeto; o nome do programa anexado a uma abreviação do nome do projeto; por exemplo, TCGA-OV, etc.",
+    "Se o anticorpo mira uma proteína fosforilada, este campo conterá essa informação, por exemplo, pS473  --  caso contrário, este campo será nulo",
+    "Nome do gene, por exemplo, TTN, DDR1, etc",
+    "Animal de origem do anticorpo: M (Camundongo), R (Coelho), G (Cabra)",
+    "Status de validação do anticorpo por correlação de dados RPPA com Western blot: V, E, C. Para mais informações: https://bioinformatics.mdanderson.org/public-software/mclp/",
+    "Nome da proteína, por exemplo, AR, MAPK",
+    "Código de barras original da amostra TCGA, por exemplo, TCGA-12-1089-01A  --  observe que uma amostra pode ter vários alíquotas e, portanto, vários conjuntos de segmentações de CN; certifique-se de usar GROUP BY apropriadamente em suas consultas",
+    "Código de barras original do alíquota TCGA, por exemplo, TCGA-12-1089-01A-01D-0517-01"
+  ],
+  "sample_rows": [
+    {
+      "nome_curto_projeto": "TCGA-CHOL",
+      "codigo_barras_caso": "TCGA-ZH-A8Y1",
+      "codigo_barras_amostra": "TCGA-ZH-A8Y1-01A",
+      "codigo_barras_aliquota": "TCGA-ZH-A8Y1-01A-21-A45N-20",
+      "nome_gene": "AR",
+      "nome_base_proteina": "AR",
+      "phospho": null,
+      "nome_proteina": "AR",
+      "expressao_proteica": -0.260880929,
+      "fonte_anticorpo": "R",
+      "status_validacao": "V"
+    },
+    {
+      "nome_curto_projeto": "TCGA-CHOL",
+      "codigo_barras_caso": "TCGA-W5-AA2Q",
+      "codigo_barras_amostra": "TCGA-W5-AA2Q-01A",
+      "codigo_barras_aliquota": "TCGA-W5-AA2Q-01A-21-A45N-20",
+      "nome_gene": "AR",
+      "nome_base_proteina": "AR",
+      "phospho": null,
+      "nome_proteina": "AR",
+      "expressao_proteica": -0.000939914500000028,
+      "fonte_anticorpo": "R",
+      "status_validacao": "V"
+    },
+    {
+      "nome_curto_projeto": "TCGA-CHOL",
+      "codigo_barras_caso": "TCGA-W5-AA31",
+      "codigo_barras_amostra": "TCGA-W5-AA31-01A",
+      "codigo_barras_aliquota": "TCGA-W5-AA31-01A-21-A45N-20",
+      "nome_gene": "AR",
+      "nome_base_proteina": "AR",
+      "phospho": null,
+      "nome_proteina": "AR",
+      "expressao_proteica": -0.14716832275,
+      "fonte_anticorpo": "R",
+      "status_validacao": "V"
+    },
+    {
+      "nome_curto_projeto": "TCGA-DLBC",
+      "codigo_barras_caso": "TCGA-FF-A7CR",
+      "codigo_barras_amostra": "TCGA-FF-A7CR-01A",
+      "codigo_barras_aliquota": "TCGA-FF-A7CR-01A-21-A45K-20",
+      "nome_gene": "AR",
+      "nome_base_proteina": "AR",
+      "phospho": null,
+      "nome_proteina": "AR",
+      "expressao_proteica": 0.1369039475,
+      "fonte_anticorpo": "R",
+      "status_validacao": "V"
+    },
+    {
+      "nome_curto_projeto": "TCGA-CHOL",
+      "codigo_barras_caso": "TCGA-W5-AA2R",
+      "codigo_barras_amostra": "TCGA-W5-AA2R-01A",
+      "codigo_barras_aliquota": "TCGA-W5-AA2R-01A-21-A45N-20",
+      "nome_gene": "AR",
+      "nome_base_proteina": "AR",
+      "phospho": null,
+      "nome_proteina": "AR",
+      "expressao_proteica": -0.0339963165,
+      "fonte_anticorpo": "R",
+      "status_validacao": "V"
+    }
+  ]
+}
