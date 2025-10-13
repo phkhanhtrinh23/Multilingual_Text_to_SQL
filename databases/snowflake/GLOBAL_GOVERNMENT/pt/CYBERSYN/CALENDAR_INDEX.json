@@ -1,0 +1,70 @@
+{
+  "sample_rows": [
+    {
+      "ID_DO_CALENDARIO": "day",
+      "NOME_DO_CALENDARIO": "Day",
+      "DATA_DE_INICIO_DO_PERIODO": "2017-02-03",
+      "DATA_DE_FIM_DO_PERIODO": "2017-02-03",
+      "PERIODO_ANUAL": 2017,
+      "POSICAO_ORDINAL_NO_PERIODO_ANUAL": 34
+    },
+    {
+      "ID_DO_CALENDARIO": "week_monday_start",
+      "NOME_DO_CALENDARIO": "Week - Monday Start",
+      "DATA_DE_INICIO_DO_PERIODO": "2023-06-12",
+      "DATA_DE_FIM_DO_PERIODO": "2023-06-18",
+      "PERIODO_ANUAL": 2023,
+      "POSICAO_ORDINAL_NO_PERIODO_ANUAL": 24
+    },
+    {
+      "ID_DO_CALENDARIO": "day",
+      "NOME_DO_CALENDARIO": "Day",
+      "DATA_DE_INICIO_DO_PERIODO": "2023-06-26",
+      "DATA_DE_FIM_DO_PERIODO": "2023-06-26",
+      "PERIODO_ANUAL": 2023,
+      "POSICAO_ORDINAL_NO_PERIODO_ANUAL": 177
+    },
+    {
+      "ID_DO_CALENDARIO": "day",
+      "NOME_DO_CALENDARIO": "Day",
+      "DATA_DE_INICIO_DO_PERIODO": "2019-11-09",
+      "DATA_DE_FIM_DO_PERIODO": "2019-11-09",
+      "PERIODO_ANUAL": 2019,
+      "POSICAO_ORDINAL_NO_PERIODO_ANUAL": 313
+    },
+    {
+      "ID_DO_CALENDARIO": "day",
+      "NOME_DO_CALENDARIO": "Day",
+      "DATA_DE_INICIO_DO_PERIODO": "2018-11-09",
+      "DATA_DE_FIM_DO_PERIODO": "2018-11-09",
+      "PERIODO_ANUAL": 2018,
+      "POSICAO_ORDINAL_NO_PERIODO_ANUAL": 313
+    }
+  ],
+  "table_name": "CALENDAR_INDEX",
+  "table_fullname": "GLOBAL_GOVERNMENT.CYBERSYN.CALENDAR_INDEX",
+  "column_names": [
+    "NOME_DO_CALENDARIO",
+    "ID_DO_CALENDARIO",
+    "POSICAO_ORDINAL_NO_PERIODO_ANUAL",
+    "DATA_DE_FIM_DO_PERIODO",
+    "DATA_DE_INICIO_DO_PERIODO",
+    "PERIODO_ANUAL"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "NUMBER",
+    "DATE",
+    "DATE",
+    "NUMBER"
+  ],
+  "description": [
+    "Nome legível por humanos para o tipo de calendário.",
+    "ID único que denota um tipo de calendário (por exemplo, Mês, Trimestre, Mês de Varejo 4-5-4).",
+    "A posição ordinal do período dentro do período anual.",
+    "O último dia do período.",
+    "O primeiro dia do período.",
+    "O número do ano relacionado ao calendário anual para o período, refletindo o ano do calendário para períodos de calendário e o ano de varejo 4-5-4 para períodos de varejo."
+  ]
+}

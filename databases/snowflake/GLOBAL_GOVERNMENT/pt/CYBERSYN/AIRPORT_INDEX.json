@@ -1,0 +1,94 @@
+{
+  "sample_rows": [
+    {
+      "ID_DO_AEROPORTO": "1059BHM",
+      "CODIGO_DOT_DO_AEROPORTO": 1059,
+      "NOME_DO_AEROPORTO": "Birmingham-Shuttlesworth International",
+      "CODIGO_ALFA_DO_AEROPORTO": "BHM",
+      "CODIGO_DE_AREA_MUNDIAL_DO_AEROPORTO": 51,
+      "LOCALIZACAO": "Birmingham, AL: Birmingham-Shuttlesworth International",
+      "NOME_DA_CIDADE_DO_AEROPORTO": "Birmingham",
+      "ID_GEO_ESTADO": "geoId/01",
+      "ID_GEO_PAIS": "country/USA"
+    },
+    {
+      "ID_DO_AEROPORTO": "42650MCI",
+      "CODIGO_DOT_DO_AEROPORTO": 42650,
+      "NOME_DO_AEROPORTO": "Kansas City International",
+      "CODIGO_ALFA_DO_AEROPORTO": "MCI",
+      "CODIGO_DE_AREA_MUNDIAL_DO_AEROPORTO": 64,
+      "LOCALIZACAO": "Kansas City, MO: Kansas City International",
+      "NOME_DA_CIDADE_DO_AEROPORTO": "Kansas City",
+      "ID_GEO_ESTADO": "geoId/29",
+      "ID_GEO_PAIS": "country/USA"
+    },
+    {
+      "ID_DO_AEROPORTO": "91940TUS",
+      "CODIGO_DOT_DO_AEROPORTO": 91940,
+      "NOME_DO_AEROPORTO": "Tucson International",
+      "CODIGO_ALFA_DO_AEROPORTO": "TUS",
+      "CODIGO_DE_AREA_MUNDIAL_DO_AEROPORTO": 81,
+      "LOCALIZACAO": "Tucson, AZ: Tucson International",
+      "NOME_DA_CIDADE_DO_AEROPORTO": "Tucson",
+      "ID_GEO_ESTADO": "geoId/04",
+      "ID_GEO_PAIS": "country/USA"
+    },
+    {
+      "ID_DO_AEROPORTO": "1298LIJ",
+      "CODIGO_DOT_DO_AEROPORTO": 1298,
+      "NOME_DO_AEROPORTO": "Long Island Airport",
+      "CODIGO_ALFA_DO_AEROPORTO": "LIJ",
+      "CODIGO_DE_AREA_MUNDIAL_DO_AEROPORTO": 1,
+      "LOCALIZACAO": "Long Island, AK: Long Island Airport",
+      "NOME_DA_CIDADE_DO_AEROPORTO": "Long Island",
+      "ID_GEO_ESTADO": "geoId/02",
+      "ID_GEO_PAIS": "country/USA"
+    },
+    {
+      "ID_DO_AEROPORTO": "49005PIB",
+      "CODIGO_DOT_DO_AEROPORTO": 49005,
+      "NOME_DO_AEROPORTO": "Hattiesburg-Laurel Regional",
+      "CODIGO_ALFA_DO_AEROPORTO": "PIB",
+      "CODIGO_DE_AREA_MUNDIAL_DO_AEROPORTO": 53,
+      "LOCALIZACAO": "Hattiesburg/Laurel, MS: Hattiesburg-Laurel Regional",
+      "NOME_DA_CIDADE_DO_AEROPORTO": "Hattiesburg/Laurel",
+      "ID_GEO_ESTADO": "geoId/28",
+      "ID_GEO_PAIS": "country/USA"
+    }
+  ],
+  "table_name": "AIRPORT_INDEX",
+  "table_fullname": "GLOBAL_GOVERNMENT.CYBERSYN.AIRPORT_INDEX",
+  "column_names": [
+    "NOME_DO_AEROPORTO",
+    "ID_GEO_ESTADO",
+    "NOME_DA_CIDADE_DO_AEROPORTO",
+    "CODIGO_ALFA_DO_AEROPORTO",
+    "CODIGO_DOT_DO_AEROPORTO",
+    "CODIGO_DE_AREA_MUNDIAL_DO_AEROPORTO",
+    "ID_GEO_PAIS",
+    "LOCALIZACAO",
+    "ID_DO_AEROPORTO"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "NUMBER",
+    "NUMBER",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Nome do aeroporto.",
+    "Um identificador único para um estado, juntable à tabela `GEOGRAPHY_INDEX`, representando a geografia principal para a variável.",
+    "Nome da cidade onde o aeroporto está localizado.",
+    "Código atribuído aos aeroportos pela International Air Transport Association (IATA), que são amplamente utilizados na indústria da aviação para emissão de bilhetes, manipulação de bagagens e planejamento de voos.",
+    "Identificador único atribuído pelo US DOT a cada aeroporto, utilizado para fins administrativos e de relatórios.",
+    "Identificador do US DOT para a área geográfica onde o aeroporto está baseado.",
+    "Um identificador único para um país, juntable à tabela `GEOGRAPHY_INDEX`, representando a geografia principal para a variável.",
+    "Nome completo da localização do aeroporto.",
+    "ID para o aeroporto de origem que faz parte da rota de voo sendo medida, combinação do código único do DOT e do código oficial de 3 letras OAG emitido para esse aeroporto."
+  ]
+}
