@@ -1,0 +1,70 @@
+{
+  "sample_rows": [
+    {
+      "VARIANTE": "inbound_address_changes_permanent",
+      "NOME_VARIAVEL": "Inbound Address Changes, Permanent",
+      "MEDIDA": "Inbound Address Changes",
+      "TIPO_SOLICITACAO": "Permanent",
+      "UNIDADE": "Count",
+      "FREQUENCIA": "Month"
+    },
+    {
+      "VARIANTE": "inbound_address_changes_total",
+      "NOME_VARIAVEL": "Inbound Address Changes, Total",
+      "MEDIDA": "Inbound Address Changes",
+      "TIPO_SOLICITACAO": "Total",
+      "UNIDADE": "Count",
+      "FREQUENCIA": "Month"
+    },
+    {
+      "VARIANTE": "inbound_address_changes_businesses",
+      "NOME_VARIAVEL": "Inbound Address Changes, Businesses",
+      "MEDIDA": "Inbound Address Changes",
+      "TIPO_SOLICITACAO": "Businesses",
+      "UNIDADE": "Count",
+      "FREQUENCIA": "Month"
+    },
+    {
+      "VARIANTE": "net_address_changes_individuals",
+      "NOME_VARIAVEL": "Net Address Changes, Individuals",
+      "MEDIDA": "Net Address Changes",
+      "TIPO_SOLICITACAO": "Individuals",
+      "UNIDADE": "Count",
+      "FREQUENCIA": "Month"
+    },
+    {
+      "VARIANTE": "outbound_address_changes_temporary",
+      "NOME_VARIAVEL": "Outbound Address Changes, Temporary",
+      "MEDIDA": "Outbound Address Changes",
+      "TIPO_SOLICITACAO": "Temporary",
+      "UNIDADE": "Count",
+      "FREQUENCIA": "Month"
+    }
+  ],
+  "table_name": "USPS_ADDRESS_CHANGE_ATTRIBUTES",
+  "table_fullname": "US_REAL_ESTATE.CYBERSYN.USPS_ADDRESS_CHANGE_ATTRIBUTES",
+  "column_names": [
+    "NOME_VARIAVEL",
+    "UNIDADE",
+    "TIPO_SOLICITACAO",
+    "MEDIDA",
+    "FREQUENCIA",
+    "VARIANTE"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Uma descrição legível por humanos da variável",
+    "Unidade de medida, que é a contagem de solicitações de alteração de endereço",
+    "Categorização da solicitação. Os tipos de solicitação são agrupados como temporais (permanentes ou temporários); tipo de solicitante (família, individual, empresa); ou total",
+    "Tipo de alterações de endereço sendo relatadas, Inbound - pessoas se mudando para a geografia; outbound - pessoas saindo da geografia; net - inbound menos outbound",
+    "Frequência com que o valor é relatado",
+    "Um identificador único que pode ser unido à tabela de séries temporais"
+  ]
+}
