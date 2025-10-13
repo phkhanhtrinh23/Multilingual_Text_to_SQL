@@ -1,0 +1,54 @@
+{
+  "sample_rows": [
+    {
+      "ID_DO_POI": "08f2aad4446520ec03e1f001780831d4",
+      "NOME_DO_POI": "Bk Rentals",
+      "CATEGORIA_PRINCIPAL": "Party Equipment Rental",
+      "CATEGORIA_ALTERNATIVA": "[\n  \"Party Supply\",\n  \"Retail\"\n]"
+    },
+    {
+      "ID_DO_POI": "08f44a112860108a03b33ba25948478f",
+      "NOME_DO_POI": "Amethyst Law Group",
+      "CATEGORIA_PRINCIPAL": "Lawyer",
+      "CATEGORIA_ALTERNATIVA": null
+    },
+    {
+      "ID_DO_POI": "08f2986ab4d3447503b83560c1fe48ad",
+      "NOME_DO_POI": "Iglesia Cristiana Mi Refugio",
+      "CATEGORIA_PRINCIPAL": "Church Cathedral",
+      "CATEGORIA_ALTERNATIVA": "[\n  \"Religious Organization\"\n]"
+    },
+    {
+      "ID_DO_POI": "08f2832b99aed21203072dc6cbb35c3b",
+      "NOME_DO_POI": "Jass Gardening",
+      "CATEGORIA_PRINCIPAL": null,
+      "CATEGORIA_ALTERNATIVA": null
+    },
+    {
+      "ID_DO_POI": "08f2a33cd328310e0331f178e0caa82b",
+      "NOME_DO_POI": "Pampered By G",
+      "CATEGORIA_PRINCIPAL": null,
+      "CATEGORIA_ALTERNATIVA": null
+    }
+  ],
+  "table_name": "POINT_OF_INTEREST_INDEX",
+  "table_fullname": "US_ADDRESSES__POI.CYBERSYN.POINT_OF_INTEREST_INDEX",
+  "column_names": [
+    "CATEGORIA_PRINCIPAL",
+    "NOME_DO_POI",
+    "CATEGORIA_ALTERNATIVA",
+    "ID_DO_POI"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "ARRAY",
+    "TEXT"
+  ],
+  "description": [
+    "Categoria primária ou classe de local para o POI.",
+    "Nome do local, comerciante ou ponto de referência para o POI específico.",
+    "Categorias alternativas do POI. Um POI pode se encaixar em múltiplas categorias (por exemplo, Restaurante, Restaurante de Hamburguer, Restaurante de Comida Rápida), caso em que uma categoria seria registrada como CATEGORY_MAIN e as categorias restantes seriam registradas em uma lista sob CATEGORY_ALTERNATE.",
+    "Um identificador único para um ponto de interesse (como um parque, cadeia de fast food, hotel, etc.) com base em sua descrição e localização. Isso pode ser unido à tabela POINT_OF_INTEREST_ADDRESSES_RELATIONSHIPS, que pode ser usada para vincular POIs a endereços."
+  ]
+}
