@@ -1,0 +1,78 @@
+{
+  "sample_rows": [
+    {
+      "VARIÁVEL": "paper_savings_bonds_outstanding_series_i",
+      "NOME_DA_VARIÁVEL": "Paper Savings Bonds Outstanding: Series I",
+      "MEDIDA": "Paper Savings Bonds",
+      "UNIDADE": "Count",
+      "FREQUÊNCIA": "Monthly",
+      "TIPO_DE_MEDIDA": "Series I",
+      "CATEGORIA_DE_IMPOSTO": null
+    },
+    {
+      "VARIÁVEL": "treasurydirect_sales_by_term_amount_marketable_security_tips_5_years_from_certificates_of_indebtedness",
+      "NOME_DA_VARIÁVEL": "TreasuryDirect Sales by Term Amount: Marketable Security TIPS (5 years) (From Certificates of Indebtedness)",
+      "MEDIDA": "TreasuryDirect Sales by Term",
+      "UNIDADE": "USD",
+      "FREQUÊNCIA": "Monthly",
+      "TIPO_DE_MEDIDA": "Marketable Security TIPS (5 years) (From Certificates of Indebtedness)",
+      "CATEGORIA_DE_IMPOSTO": null
+    },
+    {
+      "VARIÁVEL": "paper_savings_bonds_redeemed_series_j",
+      "NOME_DA_VARIÁVEL": "Paper Savings Bonds Redeemed: Series J",
+      "MEDIDA": "Paper Savings Bonds",
+      "UNIDADE": "Count",
+      "FREQUÊNCIA": "Monthly",
+      "TIPO_DE_MEDIDA": "Series J",
+      "CATEGORIA_DE_IMPOSTO": null
+    },
+    {
+      "VARIÁVEL": "matured_unredeemed_debt_bonds_outstanding_series_j",
+      "NOME_DA_VARIÁVEL": "Matured Unredeemed Debt: Bonds Outstanding, Series J",
+      "MEDIDA": "Matured Unredeemed Debt",
+      "UNIDADE": "Count",
+      "FREQUÊNCIA": "Monthly",
+      "TIPO_DE_MEDIDA": "Series J",
+      "CATEGORIA_DE_IMPOSTO": null
+    },
+    {
+      "VARIÁVEL": "treasurydirect_sales_by_term_count_marketable_series_bill_7_weeks_from_certificates_of_indebtedness",
+      "NOME_DA_VARIÁVEL": "TreasuryDirect Sales by Term Count: Marketable Series Bill (7 weeks) (From Certificates of Indebtedness)",
+      "MEDIDA": "TreasuryDirect Sales by Term",
+      "UNIDADE": "Count",
+      "FREQUÊNCIA": "Monthly",
+      "TIPO_DE_MEDIDA": "Marketable Series Bill (7 weeks) (From Certificates of Indebtedness)",
+      "CATEGORIA_DE_IMPOSTO": null
+    }
+  ],
+  "table_name": "US_TREASURY_ATTRIBUTES",
+  "table_fullname": "GLOBAL_GOVERNMENT.CYBERSYN.US_TREASURY_ATTRIBUTES",
+  "column_names": [
+    "VARIÁVEL",
+    "MEDIDA",
+    "NOME_DA_VARIÁVEL",
+    "FREQUÊNCIA",
+    "CATEGORIA_DE_IMPOSTO",
+    "TIPO_DE_MEDIDA",
+    "UNIDADE"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Identificador único para uma variável, juntable à tabela de séries temporais.",
+    "Atributo ou assunto quantificável; descrição do que está sendo registrado.",
+    "Nome único legível por humanos para a variável.",
+    "Frequência de agregações.",
+    "Categoria fiscal conforme relatado pelo Tesouro dos EUA, que não são mutuamente exclusivas. A Categoria Fiscal Total contém a soma dos montantes de Não-Imposto e Imposto do Serviço de Receita Interna (IRS). As cinco categorias são 1. Não-Imposto - Soma de IRS-Não-Imposto e Não-Imposto (outros que não sejam IRS Não-Imposto). 2. IRS Não-Imposto - Coletas para ALCs (Códigos de Localização de Agência) que começam com 2009, mas não incluem nenhum dos Centros de Serviço do IRS. 3. IRS Imposto - Coletas para os ALCs do Centro de Serviço do IRS. 4. Não-Imposto (outros que não sejam IRS Não-Imposto) - Coletas que não começam com ALC 2009. 5. IRS Imposto & IRS Não-Imposto - Soma de IRS Não-Imposto e IRS Imposto.",
+    "Tipo de instrumento do Tesouro dos EUA sendo medido (por exemplo, Série de Título de Poupança E).",
+    "Unidade de medida para o valor relatado."
+  ]
+}
