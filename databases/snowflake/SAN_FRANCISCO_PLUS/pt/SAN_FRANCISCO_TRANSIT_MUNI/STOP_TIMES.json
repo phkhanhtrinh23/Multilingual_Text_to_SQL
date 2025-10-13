@@ -1,0 +1,94 @@
+{
+  "table_name": "STOP_TIMES",
+  "table_fullname": "SAN_FRANCISCO_PLUS.SAN_FRANCISCO_TRANSIT_MUNI.STOP_TIMES",
+  "column_names": [
+    "hora_de_chegada",
+    "ponto_de_tempo_exato",
+    "sequencia_de_parada",
+    "id_de_parada",
+    "chega_no_proximo_dia",
+    "id_de_viagem",
+    "hora_de_partida",
+    "tipo_de_descarga",
+    "parte_no_proximo_dia"
+  ],
+  "column_types": [
+    "TIME",
+    "BOOLEAN",
+    "NUMBER",
+    "NUMBER",
+    "BOOLEAN",
+    "NUMBER",
+    "TIME",
+    "TEXT",
+    "BOOLEAN"
+  ],
+  "description": [
+    "Especifica o horário de chegada programado em uma parada específica para uma viagem específica em uma rota.",
+    "Indica se os horários de chegada e partida especificados para uma parada são rigorosamente seguidos pelo veículo de trânsito, ou se são horários aproximados ou interpolados.",
+    "Identifica a ordem das paradas para uma viagem em particular. Os valores para stop_sequence devem aumentar ao longo da viagem, mas não precisam ser consecutivos.",
+    "Identifica a parada atendida. Múltiplas rotas podem usar a mesma parada.",
+    "Várias rotas começam antes da meia-noite, com o serviço continuando durante a noite. Esta variável especifica se arrival_time ocorre após a meia-noite do dia seguinte ao dia programado. Isso é útil para identificar rotas que começam um dia e terminam no dia seguinte.",
+    "Identifica uma viagem. Múltiplas viagens podem ter a mesma parada.",
+    "Especifica o horário de partida programado em uma parada específica para uma viagem específica em uma rota.",
+    "\"Indica se os passageiros são deixados em uma parada como parte do cronograma normal ou se uma saída na parada não está disponível. Opções disponíveis: - regular - none - phone (indica que é necessário ligar para a agência para arranjar a saída) - driver (indica que é necessário coordenar com o motorista para arranjar a saída)\"",
+    "Várias rotas começam antes da meia-noite, com o serviço continuando durante a noite. Esta variável especifica se departure_time ocorre após a meia-noite do dia seguinte ao dia programado. Isso é útil para identificar rotas que começam um dia e terminam no dia seguinte."
+  ],
+  "sample_rows": [
+    {
+      "id_de_parada": 15759,
+      "id_de_viagem": 8951406,
+      "sequencia_de_parada": 51,
+      "hora_de_chegada": "06:54:55",
+      "chega_no_proximo_dia": false,
+      "hora_de_partida": "06:54:55",
+      "parte_no_proximo_dia": false,
+      "tipo_de_descarga": "regular",
+      "ponto_de_tempo_exato": false
+    },
+    {
+      "id_de_parada": 15761,
+      "id_de_viagem": 8951406,
+      "sequencia_de_parada": 52,
+      "hora_de_chegada": "06:55:33",
+      "chega_no_proximo_dia": false,
+      "hora_de_partida": "06:55:33",
+      "parte_no_proximo_dia": false,
+      "tipo_de_descarga": "regular",
+      "ponto_de_tempo_exato": false
+    },
+    {
+      "id_de_parada": 15759,
+      "id_de_viagem": 8951253,
+      "sequencia_de_parada": 51,
+      "hora_de_chegada": "06:54:55",
+      "chega_no_proximo_dia": false,
+      "hora_de_partida": "06:54:55",
+      "parte_no_proximo_dia": false,
+      "tipo_de_descarga": "regular",
+      "ponto_de_tempo_exato": false
+    },
+    {
+      "id_de_parada": 15761,
+      "id_de_viagem": 8951253,
+      "sequencia_de_parada": 52,
+      "hora_de_chegada": "06:55:33",
+      "chega_no_proximo_dia": false,
+      "hora_de_partida": "06:55:33",
+      "parte_no_proximo_dia": false,
+      "tipo_de_descarga": "regular",
+      "ponto_de_tempo_exato": false
+    },
+    {
+      "id_de_parada": 15828,
+      "id_de_viagem": 8951253,
+      "sequencia_de_parada": 54,
+      "hora_de_chegada": "06:57:00",
+      "chega_no_proximo_dia": false,
+      "hora_de_partida": "06:57:00",
+      "parte_no_proximo_dia": false,
+      "tipo_de_descarga": "regular",
+      "ponto_de_tempo_exato": true
+    }
+  ]
+}

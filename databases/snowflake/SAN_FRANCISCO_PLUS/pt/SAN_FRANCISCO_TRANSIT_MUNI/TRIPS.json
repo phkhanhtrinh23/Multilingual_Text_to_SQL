@@ -1,0 +1,86 @@
+{
+  "table_name": "TRIPS",
+  "table_fullname": "SAN_FRANCISCO_PLUS.SAN_FRANCISCO_TRANSIT_MUNI.TRIPS",
+  "column_names": [
+    "destino_da_viagem",
+    "id_da_viagem",
+    "id_do_bloco",
+    "id_da_rota",
+    "id_da_forma",
+    "forma_da_viagem",
+    "categoria_de_servico",
+    "direcao"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "BINARY",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Contém o texto que aparece nas placas de sinalização que identificam o destino da viagem para os passageiros. Use este campo para distinguir entre diferentes padrões de serviço na mesma rota.",
+    "Identificador único para cada viagem",
+    "Identifica o bloco ao qual a viagem pertence. Um bloco consiste em uma única viagem ou muitas viagens sequenciais feitas com o mesmo veículo. As viagens são agrupadas em um bloco pelo uso de um dia de serviço compartilhado e `block_id`. Um `block_id` pode incluir viagens com diferentes dias de serviço, o que então cria blocos distintos. Para mais detalhes, consulte: https://developers.google.com/transit/gtfs/reference/#example-showing-blocks-and-service-day",
+    "Identificador único para cada rota. Uma rota única terá múltiplas viagens",
+    "Identificador único para a forma geoespacial que descreve a viagem do veículo para uma viagem ao longo de pontos individuais. Use para JOIN com as formas disponíveis na tabela `shapes`",
+    "Representação geográfica de toda a rota da viagem.",
+    "Indica o tipo de serviço para esta viagem",
+    "\"Indica a direção de viagem para uma viagem. Os seguintes valores são válidos:   -  O: Viagem de saída -  I: Viagem de entrada  Este campo não é usado no roteamento, mas fornece uma maneira de separar viagens por direção\""
+  ],
+  "sample_rows": [
+    {
+      "id_da_viagem": "8999873",
+      "id_da_rota": "83X",
+      "direcao": "O",
+      "id_do_bloco": "8302",
+      "categoria_de_servico": null,
+      "destino_da_viagem": "Caltrain Depot",
+      "id_da_forma": "174188",
+      "forma_da_viagem": null
+    },
+    {
+      "id_da_viagem": "8999875",
+      "id_da_rota": "83X",
+      "direcao": "O",
+      "id_do_bloco": "8301",
+      "categoria_de_servico": null,
+      "destino_da_viagem": "Caltrain Depot",
+      "id_da_forma": "174188",
+      "forma_da_viagem": null
+    },
+    {
+      "id_da_viagem": "8999872",
+      "id_da_rota": "83X",
+      "direcao": "O",
+      "id_do_bloco": "8302",
+      "categoria_de_servico": null,
+      "destino_da_viagem": "Caltrain Depot",
+      "id_da_forma": "174188",
+      "forma_da_viagem": null
+    },
+    {
+      "id_da_viagem": "8999871",
+      "id_da_rota": "83X",
+      "direcao": "O",
+      "id_do_bloco": "8301",
+      "categoria_de_servico": null,
+      "destino_da_viagem": "Caltrain Depot",
+      "id_da_forma": "174188",
+      "forma_da_viagem": null
+    },
+    {
+      "id_da_viagem": "8999893",
+      "id_da_rota": "83X",
+      "direcao": "O",
+      "id_do_bloco": "8302",
+      "categoria_de_servico": null,
+      "destino_da_viagem": "Caltrain Depot",
+      "id_da_forma": "174188",
+      "forma_da_viagem": null
+    }
+  ]
+}
