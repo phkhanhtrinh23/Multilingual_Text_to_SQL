@@ -1,0 +1,86 @@
+{
+  "sample_rows": [
+    {
+      "ID_GEO": "padDistrict/04",
+      "ID_GEO_DO_EXPORTADOR": null,
+      "ID_GEO_DO_IMPORTADOR": null,
+      "VARIÁVEL": "refinery_and_blender_net_production_of_kerosene_mbbl_monthly",
+      "NOME_DA_VARIÁVEL": "Refinery and Blender Net Production of Kerosene, MBBL (Monthly)",
+      "DATA": "2002-04-30",
+      "VALOR": 10.0,
+      "UNIDADE": "MBBL"
+    },
+    {
+      "ID_GEO": "geoId/56",
+      "ID_GEO_DO_EXPORTADOR": null,
+      "ID_GEO_DO_IMPORTADOR": null,
+      "VARIÁVEL": "natural_gas_in_underground_storage_base_gas_mmcf_monthly",
+      "NOME_DA_VARIÁVEL": "Natural Gas in Underground Storage Base Gas, MMCF (Monthly)",
+      "DATA": "1997-01-31",
+      "VALOR": 60697.0,
+      "UNIDADE": "MMCF"
+    },
+    {
+      "ID_GEO": "padDistrict/02",
+      "ID_GEO_DO_EXPORTADOR": null,
+      "ID_GEO_DO_IMPORTADOR": null,
+      "VARIÁVEL": "refinery_net_production_of_paraffinic_lubricants_mbbl_per_day_monthly",
+      "NOME_DA_VARIÁVEL": "Refinery Net Production of Paraffinic Lubricants, MBBL per day (Monthly)",
+      "DATA": "2002-10-31",
+      "VALOR": 13.0,
+      "UNIDADE": "MBBL per day"
+    },
+    {
+      "ID_GEO": "padDistrict/05",
+      "ID_GEO_DO_EXPORTADOR": null,
+      "ID_GEO_DO_IMPORTADOR": null,
+      "VARIÁVEL": "imports_of_reformulated_rbob_with_alcohol_gasoline_blending_components_mbbl_per_day_weekly",
+      "NOME_DA_VARIÁVEL": "Imports of Reformulated RBOB with Alcohol Gasoline Blending Components, MBBL per day (Weekly)",
+      "DATA": "2008-12-26",
+      "VALOR": 0.0,
+      "UNIDADE": "MBBL per day"
+    },
+    {
+      "ID_GEO": "geoId/37",
+      "ID_GEO_DO_EXPORTADOR": null,
+      "ID_GEO_DO_IMPORTADOR": null,
+      "VARIÁVEL": "natural_gas_delivered_to_consumers_mmcf_monthly",
+      "NOME_DA_VARIÁVEL": "Natural Gas Delivered to Consumers, MMCF (Monthly)",
+      "DATA": "2021-10-31",
+      "VALOR": 46759.0,
+      "UNIDADE": "MMCF"
+    }
+  ],
+  "table_name": "EIA_ENERGY_TIMESERIES",
+  "table_fullname": "WEATHER__ENVIRONMENT.CYBERSYN.EIA_ENERGY_TIMESERIES",
+  "column_names": [
+    "NOME_DA_VARIÁVEL",
+    "UNIDADE",
+    "ID_GEO_DO_IMPORTADOR",
+    "ID_GEO_DO_EXPORTADOR",
+    "VALOR",
+    "VARIÁVEL",
+    "DATA",
+    "ID_GEO"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "FLOAT",
+    "TEXT",
+    "DATE",
+    "TEXT"
+  ],
+  "description": [
+    "Nome único legível por humanos para a variável.",
+    "Unidade de medida para o valor relatado.",
+    "Um identificador único para o importador de recursos naturais. Pode ser unido a outras tabelas de geografia, incluindo `GEOGRAPHY_INDEX`, `GEOGRAPHY_RELATIONSHIPS` e `GEOGRAPHY_CHARACTERISTICS`.",
+    "Um identificador único para o exportador de recursos naturais. Pode ser unido a outras tabelas de geografia, incluindo `GEOGRAPHY_INDEX`, `GEOGRAPHY_RELATIONSHIPS` e `GEOGRAPHY_CHARACTERISTICS`.",
+    "Valor relatado para a variável.",
+    "Identificador único para uma variável, unível à tabela de séries temporais.",
+    "Data associada ao valor.",
+    "Um identificador único para um local. Pode ser unido a outras tabelas de geografia, incluindo `GEOGRAPHY_INDEX`, `GEOGRAPHY_RELATIONSHIPS` e `GEOGRAPHY_CHARACTERISTICS`."
+  ]
+}
