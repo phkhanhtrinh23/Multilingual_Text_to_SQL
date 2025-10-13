@@ -1,0 +1,70 @@
+{
+  "sample_rows": [
+    {
+      "GEO_ID": "country/USA",
+      "VARIÁVEL": "probability_of_different_inflation_outcomes_one_year_ahead_numeracy_high_0percent",
+      "NOME_DA_VARIÁVEL": "Probability of Different Inflation Outcomes; One year ahead; Numeracy High; <0%",
+      "DATA": "2024-07-31",
+      "VALOR": 0.19138706206999997,
+      "UNIDADE": "Percent"
+    },
+    {
+      "GEO_ID": "censusRegion/04",
+      "VARIÁVEL": "inflation_uncertainty_median_one_year_ahead_uncertainty_and_median_three_year_ahead_uncertainty_by_demographics_region_west",
+      "NOME_DA_VARIÁVEL": "Inflation uncertainty; Median one-year ahead uncertainty and Median three-year ahead uncertainty, by Demographics; Region West",
+      "DATA": "2024-07-31",
+      "VALOR": 3.322753668,
+      "UNIDADE": "Median Score"
+    },
+    {
+      "GEO_ID": "country/USA",
+      "VARIÁVEL": "one_year_ahead_household_income_growth_expectations_25th_percentile_point_prediction",
+      "NOME_DA_VARIÁVEL": "One-year ahead household income growth expectations; 25th Percentile point prediction",
+      "DATA": "2024-07-31",
+      "VALOR": 1.18092072,
+      "UNIDADE": "25th Percentile Score"
+    },
+    {
+      "GEO_ID": "country/USA",
+      "VARIÁVEL": "change_in_credit_availability_year_ago_somewhat_harder",
+      "NOME_DA_VARIÁVEL": "Change in credit availability; Year ago; Somewhat harder",
+      "DATA": "2024-07-31",
+      "VALOR": 0.37023681641000006,
+      "UNIDADE": "Percent"
+    },
+    {
+      "GEO_ID": "country/USA",
+      "VARIÁVEL": "probability_of_different_inflation_outcomes_three_year_ahead_age_under_40_2_4percent",
+      "NOME_DA_VARIÁVEL": "Probability of Different Inflation Outcomes; Three year ahead; Age Under 40; 2-4%",
+      "DATA": "2024-07-31",
+      "VALOR": 0.20577831268000002,
+      "UNIDADE": "Percent"
+    }
+  ],
+  "table_name": "NEWYORKFED_CONSUMER_TIMESERIES",
+  "table_fullname": "FINANCE__ECONOMICS.CYBERSYN.NEWYORKFED_CONSUMER_TIMESERIES",
+  "column_names": [
+    "VARIÁVEL",
+    "UNIDADE",
+    "DATA",
+    "NOME_DA_VARIÁVEL",
+    "GEO_ID",
+    "VALOR"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "DATE",
+    "TEXT",
+    "TEXT",
+    "FLOAT"
+  ],
+  "description": [
+    "Identificador único para uma variável, unível à tabela de séries temporais.",
+    "Unidade de medida para o valor relatado.",
+    "Data associada ao valor.",
+    "Nome legível por humanos e único para a variável.",
+    "Um identificador único para um local. Unível a outras tabelas de geografia, incluindo `GEOGRAPHY_INDEX`, `GEOGRAPHY_RELATIONSHIPS` e `GEOGRAPHY_CHARACTERISTICS`.",
+    "Valor relatado para a variável."
+  ]
+}
