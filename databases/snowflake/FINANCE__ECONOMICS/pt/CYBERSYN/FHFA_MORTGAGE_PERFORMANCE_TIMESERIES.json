@@ -1,0 +1,70 @@
+{
+  "sample_rows": [
+    {
+      "ID_GEO": "geoId/50",
+      "VARIAVEL": "Percent_in_the_Process_of_Foreclosure,_Bankruptcy,_or_Deed_in_Lieu_Government / Non-Conventional",
+      "NOME_VARIAVEL": "Percent in the Process of Foreclosure, Bankruptcy, or Deed in Lieu - Government / Non-Conventional",
+      "DATA": "2022-12-31",
+      "VALOR": 0.003,
+      "UNIDADE": "Percent"
+    },
+    {
+      "ID_GEO": "geoId/34",
+      "VARIAVEL": "Percent_in_Forbearance_Enterprise Acquisitions",
+      "NOME_VARIAVEL": "Percent in Forbearance - Enterprise Acquisitions",
+      "DATA": "2023-09-30",
+      "VALOR": 0.002,
+      "UNIDADE": "Percent"
+    },
+    {
+      "ID_GEO": "geoId/C12580",
+      "VARIAVEL": "Percent_30_or_60_Days_Past_Due_Date_All Mortgages",
+      "NOME_VARIAVEL": "Percent 30 or 60 Days Past Due Date - All Mortgages",
+      "DATA": "2024-03-31",
+      "VALOR": 0.017,
+      "UNIDADE": "Percent"
+    },
+    {
+      "ID_GEO": "geoId/02",
+      "VARIAVEL": "Percent_in_Forbearance_Enterprise Acquisitions",
+      "NOME_VARIAVEL": "Percent in Forbearance - Enterprise Acquisitions",
+      "DATA": "2020-12-31",
+      "VALOR": 0.021,
+      "UNIDADE": "Percent"
+    },
+    {
+      "ID_GEO": "geoId/C49180",
+      "VARIAVEL": "Percent_in_the_Process_of_Foreclosure,_Bankruptcy,_or_Deed_in_Lieu_Government / Non-Conventional",
+      "NOME_VARIAVEL": "Percent in the Process of Foreclosure, Bankruptcy, or Deed in Lieu - Government / Non-Conventional",
+      "DATA": "2024-03-31",
+      "VALOR": 0.002,
+      "UNIDADE": "Percent"
+    }
+  ],
+  "table_name": "FHFA_MORTGAGE_PERFORMANCE_TIMESERIES",
+  "table_fullname": "FINANCE__ECONOMICS.CYBERSYN.FHFA_MORTGAGE_PERFORMANCE_TIMESERIES",
+  "column_names": [
+    "DATA",
+    "ID_GEO",
+    "UNIDADE",
+    "NOME_VARIAVEL",
+    "VARIAVEL",
+    "VALOR"
+  ],
+  "column_types": [
+    "DATE",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "FLOAT"
+  ],
+  "description": [
+    "Data associada ao valor",
+    "Um identificador geográfico único que pode ser unido às tabelas geography_index/relationships",
+    "Unidade de medida para a variável (por exemplo, Percent)",
+    "Descrição legível por humanos para a variável",
+    "Um identificador único para uma variável que pode ser unido à tabela attributes para filtragem",
+    "O valor numérico relatado para a variável e data"
+  ]
+}
