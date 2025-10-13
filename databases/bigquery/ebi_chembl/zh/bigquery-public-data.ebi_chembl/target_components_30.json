@@ -1,0 +1,66 @@
+{
+  "table_name": "target_components_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.target_components_30",
+  "column_names": [
+    "交易id",
+    "组件id",
+    "目标组件id",
+    "同源体"
+  ],
+  "column_types": [
+    "INT64",
+    "INT64",
+    "INT64",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "交易id",
+    "组件id",
+    "目标组件id",
+    "同源体"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "INT64",
+    "INT64",
+    "INT64"
+  ],
+  "description": [
+    "指向 target_dictionary 的外键，表示组件所属的目标。",
+    "指向 component_sequences 表的外键，表示属于目标的组件。",
+    "主键。",
+    "表示给定的组件是正确组件的同源体（例如来自不同物种）时设置为 1，这可能是因为在序列数据库中找不到正确的蛋白质/核酸的序列。值为 2 表示给定的序列是物种组的代表，例如，一个 E. coli 蛋白代表广谱抗生素的目标。"
+  ],
+  "sample_rows": [
+    {
+      "交易id": 10496,
+      "组件id": 1361,
+      "目标组件id": 4530,
+      "同源体": 0
+    },
+    {
+      "交易id": 10752,
+      "组件id": 321,
+      "目标组件id": 2345,
+      "同源体": 0
+    },
+    {
+      "交易id": 11520,
+      "组件id": 1491,
+      "目标组件id": 5341,
+      "同源体": 0
+    },
+    {
+      "交易id": 12800,
+      "组件id": 2751,
+      "目标组件id": 4027,
+      "同源体": 0
+    },
+    {
+      "交易id": 13056,
+      "组件id": 2744,
+      "目标组件id": 4758,
+      "同源体": 0
+    }
+  ]
+}
