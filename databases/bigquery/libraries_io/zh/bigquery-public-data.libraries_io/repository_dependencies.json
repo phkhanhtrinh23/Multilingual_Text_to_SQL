@@ -1,0 +1,106 @@
+{
+  "table_name": "repository_dependencies",
+  "table_fullname": "bigquery-public-data.libraries_io.repository_dependencies",
+  "column_names": [
+    "id",
+    "",
+    "",
+    "id",
+    "",
+    "",
+    "git",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "id"
+  ],
+  "column_types": [
+    "INT64",
+    "STRING",
+    "STRING",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "id",
+    "",
+    "",
+    "id",
+    "",
+    "",
+    "git",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "id"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "STRING",
+    "STRING",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64"
+  ],
+  "description": [
+    "Libraries.io 数据库中存储库依赖项的唯一主键。",
+    "依赖项的存储库托管在哪个网站上，可能是 GitHub、GitLab 或 Bitbucket。",
+    "存储库名称和所有者，以斜杠分隔，也映射到给定存储库主机上的 URL slug，例如 librariesio/libraries.io。",
+    "Libraries.io 数据库中此依赖项的存储库的唯一主键。",
+    "清单中列出的依赖项应使用哪个包管理器。",
+    "声明依赖项的文件在存储库中的路径。",
+    "从存储库加载清单的分支。",
+    "可以是清单或锁定文件，清单由人类编写，锁定文件包含完整的解析依赖项树。",
+    "依赖项是否可选。",
+    "依赖项指定的项目名称。",
+    "依赖项指定的版本或版本范围，解析为特定版本取决于包管理器。",
+    "依赖项的类型，通常声明为使用阶段，例如运行时、测试、开发、构建。",
+    "Libraries.io 数据库中此依赖项的项目的唯一主键。"
+  ],
+  "sample_rows": [
+    {
+      "id": 140871,
+      "": "runtime",
+      "git": null
+    },
+    {
+      "id": 149306,
+      "": "runtime",
+      "git": null
+    },
+    {
+      "id": 159991,
+      "": "runtime",
+      "git": null
+    },
+    {
+      "id": 897326,
+      "": "runtime",
+      "git": null
+    },
+    {
+      "id": 291676,
+      "": "runtime",
+      "git": null
+    }
+  ]
+}
