@@ -1,0 +1,102 @@
+{
+  "sample_rows": [
+    {
+      "VARIAVEL": "BIS,WS_LBS_D_PUB,1.0,Q.F.L.D.TO1.A.5J.A.GB.A.5J.A",
+      "NOME_VARIAVEL": "United Kingdom - All Total liabilities of banks with headquarters in All countries (total) vis-a-vis residents of All countries (total), All sectors (FX and break adjusted change (BIS calculated), Debt securities in All currencies (=D+F+U), All currencies, All reporting banks/institutions (domestic, foreign, consortium and unclassified)",
+      "ID_SERIE": "BIS,WS_LBS_D_PUB,1.0",
+      "MEDIDA": "Total liabilities",
+      "UNIDADE": "USD",
+      "FREQUENCIA": "Quarterly",
+      "TIPO_DE_MEDIDA": null,
+      "FONTE": null,
+      "NOME_GEO": "United Kingdom",
+      "NOME_GEO CONTRAPARTE": "All countries (total)"
+    },
+    {
+      "VARIAVEL": "BIS,WS_CBS_PUB,1.0,Q.S.TW.4B.U.C.V.A.TO1.A.BM",
+      "NOME_VARIAVEL": "Domestic banks from Taiwan - Consolidated Total claims in All currencies with residents of Bermuda (Guarantor basis), All sectors (Amounts outstanding / Stocks, Derivatives, Total (all maturities)",
+      "ID_SERIE": "BIS,WS_CBS_PUB,1.0",
+      "MEDIDA": "Total claims",
+      "UNIDADE": "USD",
+      "FREQUENCIA": "Quarterly",
+      "TIPO_DE_MEDIDA": "End of period",
+      "FONTE": null,
+      "NOME_GEO": "Taiwan",
+      "NOME_GEO CONTRAPARTE": "Bermuda"
+    },
+    {
+      "VARIAVEL": "BIS,WS_LBS_D_PUB,1.0,Q.F.L.B.TO1.A.5J.A.5A.I.GQ.N",
+      "NOME_VARIAVEL": "All reporting countries - Cross-border Total liabilities of banks with headquarters in All countries (total) vis-a-vis residents of Equatorial Guinea, Banks, related offices (FX and break adjusted change (BIS calculated), Credit (loans & debt securities) in All currencies (=D+F+U), All currencies, All reporting banks/institutions (domestic, foreign, consortium and unclassified)",
+      "ID_SERIE": "BIS,WS_LBS_D_PUB,1.0",
+      "MEDIDA": "Total liabilities",
+      "UNIDADE": "USD",
+      "FREQUENCIA": "Quarterly",
+      "TIPO_DE_MEDIDA": null,
+      "FONTE": null,
+      "NOME_GEO": "All reporting countries",
+      "NOME_GEO CONTRAPARTE": "Equatorial Guinea"
+    },
+    {
+      "VARIAVEL": "BIS,WS_LBS_D_PUB,1.0,Q.S.L.G.GBP.A.5J.A.5A.N.CL.N",
+      "NOME_VARIAVEL": "All reporting countries - Cross-border Total liabilities of banks with headquarters in All countries (total) vis-a-vis residents of Chile, Non-banks, total (Amounts outstanding / Stocks, Loans and deposits in All currencies (=D+F+U), Pound (sterling), All reporting banks/institutions (domestic, foreign, consortium and unclassified)",
+      "ID_SERIE": "BIS,WS_LBS_D_PUB,1.0",
+      "MEDIDA": "Total liabilities",
+      "UNIDADE": "USD",
+      "FREQUENCIA": "Quarterly",
+      "TIPO_DE_MEDIDA": null,
+      "FONTE": null,
+      "NOME_GEO": "All reporting countries",
+      "NOME_GEO CONTRAPARTE": "Chile"
+    },
+    {
+      "VARIAVEL": "BIS,WS_LBS_D_PUB,1.0,Q.S.L.A.TO1.A.5J.A.AU.C.5J.U",
+      "NOME_VARIAVEL": "Australia - Unallocated Total liabilities of banks with headquarters in All countries (total) vis-a-vis residents of All countries (total), Non-financial corporations (Amounts outstanding / Stocks, All instruments in All currencies (=D+F+U), All currencies, All reporting banks/institutions (domestic, foreign, consortium and unclassified)",
+      "ID_SERIE": "BIS,WS_LBS_D_PUB,1.0",
+      "MEDIDA": "Total liabilities",
+      "UNIDADE": "USD",
+      "FREQUENCIA": "Quarterly",
+      "TIPO_DE_MEDIDA": null,
+      "FONTE": null,
+      "NOME_GEO": "Australia",
+      "NOME_GEO CONTRAPARTE": "All countries (total)"
+    }
+  ],
+  "table_name": "BANK_FOR_INTERNATIONAL_SETTLEMENTS_ATTRIBUTES",
+  "table_fullname": "FINANCE__ECONOMICS.CYBERSYN.BANK_FOR_INTERNATIONAL_SETTLEMENTS_ATTRIBUTES",
+  "column_names": [
+    "NOME_GEO CONTRAPARTE",
+    "NOME_VARIAVEL",
+    "MEDIDA",
+    "TIPO_DE_MEDIDA",
+    "UNIDADE",
+    "VARIAVEL",
+    "NOME_GEO",
+    "FREQUENCIA",
+    "FONTE",
+    "ID_SERIE"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "País ou grupo de países, representando a geografia da contraparte para a variável.",
+    "Nome legível por humanos para a variável.",
+    "Atributo quantificável; descrição do que está sendo registrado.",
+    "Metodologia para a coleta de uma variável ao longo do tempo.",
+    "Unidade de medida para o valor relatado.",
+    "Identificador único para uma variável do fluxo de dados do Banco de Compensações Internacionais (BIS) e IDs principais, que pode ser unido à tabela de séries temporais.",
+    "País ou grupo de países, representando a geografia principal para a variável.",
+    "Frequência de agregações.",
+    "Fonte onde a variável é publicada.",
+    "Identificador único para uma série de variáveis (ou seja, fluxo de dados) do Banco de Compensações Internacionais (BIS)."
+  ]
+}

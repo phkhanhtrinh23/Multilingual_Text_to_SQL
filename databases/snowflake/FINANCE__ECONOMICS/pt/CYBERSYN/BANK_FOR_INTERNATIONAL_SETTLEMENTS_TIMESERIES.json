@@ -1,0 +1,78 @@
+{
+  "sample_rows": [
+    {
+      "ID_GEO": null,
+      "ID_GEO CONTRAPARTE": "country/TUR",
+      "VARIÁVEL": "BIS,WS_LBS_D_PUB,1.0,Q.S.L.G.TO3.A.5J.A.5A.N.TR.N",
+      "NOME_VARIÁVEL": "All reporting countries - Cross-border Total liabilities of banks with headquarters in All countries (total) vis-a-vis residents of Turkey, Non-banks, total (Amounts outstanding / Stocks, Loans and deposits in All currencies (=D+F+U), All currencies excl. core, All reporting banks/institutions (domestic, foreign, consortium and unclassified)",
+      "DATA": "2010-06-30",
+      "VALOR": 7561000000.0,
+      "UNIDADE": "USD"
+    },
+    {
+      "ID_GEO": null,
+      "ID_GEO CONTRAPARTE": "country/MWI",
+      "VARIÁVEL": "BIS,WS_LBS_D_PUB,1.0,Q.S.C.G.TO1.A.5J.A.5A.B.MW.N",
+      "NOME_VARIÁVEL": "All reporting countries - Cross-border Total claims of banks with headquarters in All countries (total) vis-a-vis residents of Malawi, Banks, total (Amounts outstanding / Stocks, Loans and deposits in All currencies (=D+F+U), All currencies, All reporting banks/institutions (domestic, foreign, consortium and unclassified)",
+      "DATA": "1998-09-30",
+      "VALOR": 57000000.0,
+      "UNIDADE": "USD"
+    },
+    {
+      "ID_GEO": null,
+      "ID_GEO CONTRAPARTE": "country/ETH",
+      "VARIÁVEL": "BIS,WS_LBS_D_PUB,1.0,Q.F.L.A.UN9.A.5J.A.5A.A.ET.N",
+      "NOME_VARIÁVEL": "All reporting countries - Cross-border Total liabilities of banks with headquarters in All countries (total) vis-a-vis residents of Ethiopia, All sectors (FX and break adjusted change (BIS calculated), All instruments in All currencies (=D+F+U), Unallocated currencies, All reporting banks/institutions (domestic, foreign, consortium and unclassified)",
+      "DATA": "1994-03-31",
+      "VALOR": -1230000.0,
+      "UNIDADE": "USD"
+    },
+    {
+      "ID_GEO": null,
+      "ID_GEO CONTRAPARTE": "country/TON",
+      "VARIÁVEL": "BIS,WS_LBS_D_PUB,1.0,Q.S.L.B.TO1.A.5J.A.5A.A.TO.N",
+      "NOME_VARIÁVEL": "All reporting countries - Cross-border Total liabilities of banks with headquarters in All countries (total) vis-a-vis residents of Tonga, All sectors (Amounts outstanding / Stocks, Credit (loans & debt securities) in All currencies (=D+F+U), All currencies, All reporting banks/institutions (domestic, foreign, consortium and unclassified)",
+      "DATA": "2009-09-30",
+      "VALOR": 30000000.0,
+      "UNIDADE": "USD"
+    },
+    {
+      "ID_GEO": null,
+      "ID_GEO CONTRAPARTE": "country/AUS",
+      "VARIÁVEL": "BIS,WS_LBS_D_PUB,1.0,Q.F.C.G.UN9.A.5J.A.5A.B.AU.N",
+      "NOME_VARIÁVEL": "All reporting countries - Cross-border Total claims of banks with headquarters in All countries (total) vis-a-vis residents of Australia, Banks, total (FX and break adjusted change (BIS calculated), Loans and deposits in All currencies (=D+F+U), Unallocated currencies, All reporting banks/institutions (domestic, foreign, consortium and unclassified)",
+      "DATA": "2010-03-31",
+      "VALOR": -1417108000.0,
+      "UNIDADE": "USD"
+    }
+  ],
+  "table_name": "BANK_FOR_INTERNATIONAL_SETTLEMENTS_TIMESERIES",
+  "table_fullname": "FINANCE__ECONOMICS.CYBERSYN.BANK_FOR_INTERNATIONAL_SETTLEMENTS_TIMESERIES",
+  "column_names": [
+    "ID_GEO CONTRAPARTE",
+    "ID_GEO",
+    "UNIDADE",
+    "VALOR",
+    "DATA",
+    "VARIÁVEL",
+    "NOME_VARIÁVEL"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "FLOAT",
+    "DATE",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Um identificador único para um país ou grupo de países, que pode ser unido à tabela GEOGRAPHY_INDEX, representando a geografia da contraparte para a variável.",
+    "Um identificador único para um país ou grupo de países, que pode ser unido à tabela GEOGRAPHY_INDEX, representando a geografia principal para a variável.",
+    "Unidade de medida para o valor relatado.",
+    "Valor relatado para a variável.",
+    "Data associada ao valor.",
+    "Identificador único para uma variável, que pode ser unido à tabela timeseries.",
+    "Nome legível por humanos para a variável."
+  ]
+}
