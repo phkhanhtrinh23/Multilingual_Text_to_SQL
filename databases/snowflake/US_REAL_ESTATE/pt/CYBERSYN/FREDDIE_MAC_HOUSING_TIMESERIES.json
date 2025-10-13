@@ -1,0 +1,70 @@
+{
+  "sample_rows": [
+    {
+      "ID_GEO": "country/USA",
+      "VARIÁVEL": "FRM_30_YR",
+      "NOME_DA_VARIÁVEL": "30-Year Fixed Rate Mortgage Rate, National Average",
+      "DATA": "2024-08-29",
+      "VALOR": 0.0635,
+      "UNIDADE": "Percent"
+    },
+    {
+      "ID_GEO": "geoId/31",
+      "VARIÁVEL": "INDEX_SA",
+      "NOME_DA_VARIÁVEL": "Freddie Mac House Price Index (Seasonally adjusted)",
+      "DATA": "2020-07-31",
+      "VALOR": 172.7589483,
+      "UNIDADE": "Index"
+    },
+    {
+      "ID_GEO": "geoId/32",
+      "VARIÁVEL": "INDEX_NSA",
+      "NOME_DA_VARIÁVEL": "Freddie Mac House Price Index (Not seasonally adjusted)",
+      "DATA": "1976-09-30",
+      "VALOR": 31.93893565,
+      "UNIDADE": "Index"
+    },
+    {
+      "ID_GEO": "geoId/10",
+      "VARIÁVEL": "INDEX_SA",
+      "NOME_DA_VARIÁVEL": "Freddie Mac House Price Index (Seasonally adjusted)",
+      "DATA": "1996-08-31",
+      "VALOR": 83.36771622,
+      "UNIDADE": "Index"
+    },
+    {
+      "ID_GEO": "geoId/25",
+      "VARIÁVEL": "INDEX_NSA",
+      "NOME_DA_VARIÁVEL": "Freddie Mac House Price Index (Not seasonally adjusted)",
+      "DATA": "2021-05-31",
+      "VALOR": 225.5959953,
+      "UNIDADE": "Index"
+    }
+  ],
+  "table_name": "FREDDIE_MAC_HOUSING_TIMESERIES",
+  "table_fullname": "US_REAL_ESTATE.CYBERSYN.FREDDIE_MAC_HOUSING_TIMESERIES",
+  "column_names": [
+    "VALOR",
+    "NOME_DA_VARIÁVEL",
+    "DATA",
+    "ID_GEO",
+    "UNIDADE",
+    "VARIÁVEL"
+  ],
+  "column_types": [
+    "FLOAT",
+    "TEXT",
+    "DATE",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Valor relatado para a variável.",
+    "Nome único legível por humanos para a variável.",
+    "Data associada ao valor.",
+    "Um identificador único para um local. Pode ser unido a outras tabelas de geografia, incluindo `GEOGRAPHY_INDEX`, `GEOGRAPHY_RELATIONSHIPS` e `GEOGRAPHY_CHARACTERISTICS`.",
+    "Unidade de medida para o valor relatado.",
+    "Identificador único para uma variável, unível à tabela `timeseries`."
+  ]
+}
