@@ -1,0 +1,78 @@
+{
+  "sample_rows": [
+    {
+      "VARIÁVEL": "FHFA_HPI_traditional_purchase-only_monthly_NSA",
+      "NOME_DA_VARIAVEL": "FHFA_HPI traditional purchase-only monthly Not Seasonally Adjusted",
+      "CLASSIFICACAO_DE_PROPRIEDADE": "traditional",
+      "TIPO_DE_INDICE": "purchase-only",
+      "FREQUENCIA": "MONTHLY",
+      "AJUSTADO_SAZONALMENTE": false,
+      "UNIDADE": "Index"
+    },
+    {
+      "VARIÁVEL": "FHFA_HPI_traditional_purchase-only_quarterly_NSA",
+      "NOME_DA_VARIAVEL": "FHFA_HPI traditional purchase-only quarterly Not Seasonally Adjusted",
+      "CLASSIFICACAO_DE_PROPRIEDADE": "traditional",
+      "TIPO_DE_INDICE": "purchase-only",
+      "FREQUENCIA": "QUARTERLY",
+      "AJUSTADO_SAZONALMENTE": false,
+      "UNIDADE": "Index"
+    },
+    {
+      "VARIÁVEL": "FHFA_HPI_traditional_purchase-only_monthly_SA",
+      "NOME_DA_VARIAVEL": "FHFA_HPI traditional purchase-only monthly Seasonally Adjusted",
+      "CLASSIFICACAO_DE_PROPRIEDADE": "traditional",
+      "TIPO_DE_INDICE": "purchase-only",
+      "FREQUENCIA": "MONTHLY",
+      "AJUSTADO_SAZONALMENTE": true,
+      "UNIDADE": "Index"
+    },
+    {
+      "VARIÁVEL": "FHFA_HPI_non-metro_all-transactions_quarterly_NSA",
+      "NOME_DA_VARIAVEL": "FHFA_HPI non-metro all-transactions quarterly Not Seasonally Adjusted",
+      "CLASSIFICACAO_DE_PROPRIEDADE": "non-metro",
+      "TIPO_DE_INDICE": "all-transactions",
+      "FREQUENCIA": "QUARTERLY",
+      "AJUSTADO_SAZONALMENTE": false,
+      "UNIDADE": "Index"
+    },
+    {
+      "VARIÁVEL": "FHFA_HPI_traditional_purchase-only_quarterly_SA",
+      "NOME_DA_VARIAVEL": "FHFA_HPI traditional purchase-only quarterly Seasonally Adjusted",
+      "CLASSIFICACAO_DE_PROPRIEDADE": "traditional",
+      "TIPO_DE_INDICE": "purchase-only",
+      "FREQUENCIA": "QUARTERLY",
+      "AJUSTADO_SAZONALMENTE": true,
+      "UNIDADE": "Index"
+    }
+  ],
+  "table_name": "FHFA_HOUSE_PRICE_ATTRIBUTES",
+  "table_fullname": "US_REAL_ESTATE.CYBERSYN.FHFA_HOUSE_PRICE_ATTRIBUTES",
+  "column_names": [
+    "CLASSIFICACAO_DE_PROPRIEDADE",
+    "NOME_DA_VARIAVEL",
+    "AJUSTADO_SAZONALMENTE",
+    "TIPO_DE_INDICE",
+    "VARIÁVEL",
+    "FREQUENCIA",
+    "UNIDADE"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "BOOLEAN",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Classificação do Índice de Preços de Casa (tradicional, sem estresse, não metropolitano)",
+    "Descrição legível por humanos para a variável",
+    "Campo booleano que indica se uma série é ajustada sazonalmente",
+    "Tipo de Índice de Preços de Casa medido no índice (all-transactions, purchase-only, expanded-data)",
+    "Um identificador único para uma variável joinável à tabela timeseries para filtragem",
+    "Frequência da medição da variável (por exemplo, Diário, Mensal, Trimestral)",
+    "Unidade de medida para a variável:  (por exemplo, Índice)"
+  ]
+}
