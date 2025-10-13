@@ -1,0 +1,62 @@
+{
+  "sample_rows": [
+    {
+      "ID_GEO": "censusRegion/03",
+      "VARIÁVEL": "Average_Price:_All_Ham_(Excluding_Canned_Ham_and_Luncheon_Slices),_per_lb._(453.6_gm)",
+      "NOME_VARIÁVEL": "Average Price: All Ham (Excluding Canned Ham and Luncheon Slices), per lb. (453.6 gm)",
+      "VALOR": 2.093,
+      "DATA": "2001-06-30"
+    },
+    {
+      "ID_GEO": "censusRegion/01",
+      "VARIÁVEL": "Average_Price:_American_processed_cheese,_per_lb._(453.6_gm)",
+      "NOME_VARIÁVEL": "Average Price: American processed cheese, per lb. (453.6 gm)",
+      "VALOR": 4.556,
+      "DATA": "2007-08-31"
+    },
+    {
+      "ID_GEO": "censusDivision/05",
+      "VARIÁVEL": "CPI:_Services_less_rent_of_shelter,_Not_seasonally_adjusted,_Semi-annual,_2017-12_Index_Date",
+      "NOME_VARIÁVEL": "CPI: Services less rent of shelter, Not seasonally adjusted, Semi-annual, 2017-12 Index Date",
+      "VALOR": 126.853,
+      "DATA": "2024-06-30"
+    },
+    {
+      "ID_GEO": "geoId/C42660",
+      "VARIÁVEL": "CPI:_All_items_less_energy,_Not_seasonally_adjusted,_Semi-annual",
+      "NOME_VARIÁVEL": "CPI: All items less energy, Not seasonally adjusted, Semi-annual",
+      "VALOR": 153.3,
+      "DATA": "1994-12-31"
+    },
+    {
+      "ID_GEO": "censusRegion/03",
+      "VARIÁVEL": "CPI:_Gasoline,_unleaded_regular,_Not_seasonally_adjusted,_Monthly",
+      "NOME_VARIÁVEL": "CPI: Gasoline, unleaded regular, Not seasonally adjusted, Monthly",
+      "VALOR": 98.0,
+      "DATA": "1990-08-31"
+    }
+  ],
+  "table_name": "BUREAU_OF_LABOR_STATISTICS_PRICE_TIMESERIES",
+  "table_fullname": "FINANCE__ECONOMICS.CYBERSYN.BUREAU_OF_LABOR_STATISTICS_PRICE_TIMESERIES",
+  "column_names": [
+    "ID_GEO",
+    "VALOR",
+    "VARIÁVEL",
+    "NOME_VARIÁVEL",
+    "DATA"
+  ],
+  "column_types": [
+    "TEXT",
+    "FLOAT",
+    "TEXT",
+    "TEXT",
+    "DATE"
+  ],
+  "description": [
+    "Um identificador único para um local, unível às tabelas geography_index/relationships",
+    "Valor da métrica",
+    "Um identificador único para uma variável unível à tabela attributes",
+    "Nome legível por humanos para uma variável",
+    "Data associada ao valor, que é definida como o último dia do período de relatório"
+  ]
+}

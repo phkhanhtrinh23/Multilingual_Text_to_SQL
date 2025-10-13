@@ -1,0 +1,110 @@
+{
+  "sample_rows": [
+    {
+      "ID_DA_EMPRESA": "9cee45c58a4fdb6bb265552a0db62a00",
+      "NOME_DA_EMPRESA": "VENDERA RESOURCES VI-A LP",
+      "NIVEL_DA_ENTIDADE": "Corporate",
+      "EIN": null,
+      "CIK": "0002011467",
+      "LEI": null,
+      "ID_DA_EMPRESA_PERMID": "5087020389",
+      "PRINCIPAL_TICKER": null,
+      "CODIGO_DA_PRINCIPAL_BOLSA": null,
+      "NOME_DA_PRINCIPAL_BOLSA": null,
+      "TICKERS_GLOBAIS": null
+    },
+    {
+      "ID_DA_EMPRESA": "7766ef904f8648e8b8ac520b7267d5b5",
+      "NOME_DA_EMPRESA": "RT-AI I LLC",
+      "NIVEL_DA_ENTIDADE": "Corporate",
+      "EIN": null,
+      "CIK": "0002018929",
+      "LEI": null,
+      "ID_DA_EMPRESA_PERMID": "5087193531",
+      "PRINCIPAL_TICKER": null,
+      "CODIGO_DA_PRINCIPAL_BOLSA": null,
+      "NOME_DA_PRINCIPAL_BOLSA": null,
+      "TICKERS_GLOBAIS": null
+    },
+    {
+      "ID_DA_EMPRESA": "bfd8994995275e9917290bc423536fd6",
+      "NOME_DA_EMPRESA": "PANTHEON GLOBAL SECONDARY FUND III B L P",
+      "NIVEL_DA_ENTIDADE": "Corporate",
+      "EIN": null,
+      "CIK": "0001371639",
+      "LEI": null,
+      "ID_DA_EMPRESA_PERMID": "4297623383",
+      "PRINCIPAL_TICKER": null,
+      "CODIGO_DA_PRINCIPAL_BOLSA": null,
+      "NOME_DA_PRINCIPAL_BOLSA": null,
+      "TICKERS_GLOBAIS": null
+    },
+    {
+      "ID_DA_EMPRESA": "878d19cbba19e94e8645afbabd4a14c2",
+      "NOME_DA_EMPRESA": "SCI NEW CAP WEST",
+      "NIVEL_DA_ENTIDADE": "Corporate",
+      "EIN": null,
+      "CIK": null,
+      "LEI": null,
+      "ID_DA_EMPRESA_PERMID": "5057843478",
+      "PRINCIPAL_TICKER": null,
+      "CODIGO_DA_PRINCIPAL_BOLSA": null,
+      "NOME_DA_PRINCIPAL_BOLSA": null,
+      "TICKERS_GLOBAIS": null
+    },
+    {
+      "ID_DA_EMPRESA": "fcff55343666f5399f3e288f4c38c46b",
+      "NOME_DA_EMPRESA": "MADCAP MOTEL LOS ANGELES LLC",
+      "NIVEL_DA_ENTIDADE": "Corporate",
+      "EIN": null,
+      "CIK": "0001766936",
+      "LEI": null,
+      "ID_DA_EMPRESA_PERMID": "5067944874",
+      "PRINCIPAL_TICKER": null,
+      "CODIGO_DA_PRINCIPAL_BOLSA": null,
+      "NOME_DA_PRINCIPAL_BOLSA": null,
+      "TICKERS_GLOBAIS": null
+    }
+  ],
+  "table_name": "COMPANY_INDEX",
+  "table_fullname": "FINANCE__ECONOMICS.CYBERSYN.COMPANY_INDEX",
+  "column_names": [
+    "NOME_DA_PRINCIPAL_BOLSA",
+    "PRINCIPAL_TICKER",
+    "NIVEL_DA_ENTIDADE",
+    "ID_DA_EMPRESA_PERMID",
+    "LEI",
+    "ID_DA_EMPRESA",
+    "EIN",
+    "CODIGO_DA_PRINCIPAL_BOLSA",
+    "TICKERS_GLOBAIS",
+    "NOME_DA_EMPRESA",
+    "CIK"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "ARRAY",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "ARRAY",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "O nome da bolsa para o local de negociação primário de um título.",
+    "O ticker para o local de negociação primário de um título. Se um título for negociado em várias bolsas ou tiver vários tickers, uma tentativa é feita para selecionar o ticker do mercado doméstico.",
+    "Descreve o tipo ou nível da entidade para conveniência adicional. Atualmente, todas as entidades são entidades corporativas e são denotadas como 'Corporate'.",
+    "Identificador Permanente, que é um identificador fornecido pela Refinitiv (via PermID) para fornecer uma forma de identificar uma empresa de forma única.",
+    "Identificador de Entidade Legal, um identificador único da GLEIF que identifica entidades legais que realizam transações financeiras.",
+    "Identificador único atribuído pela Cybersyn a cada empresa.",
+    "Número de Identificação do Empregador, um número de identificação único que é atribuído a um negócio pelo IRS.",
+    "O código da bolsa para o local de negociação primário de um título.",
+    "Uma matriz de símbolos de ticker sob os quais o título pode ser negociado globalmente em todas as bolsas.",
+    "O nome da empresa.",
+    "Chave de Índice Central, um identificador único para corporações registradas na Comissão de Valores Mobiliários dos Estados Unidos (SEC)."
+  ]
+}
