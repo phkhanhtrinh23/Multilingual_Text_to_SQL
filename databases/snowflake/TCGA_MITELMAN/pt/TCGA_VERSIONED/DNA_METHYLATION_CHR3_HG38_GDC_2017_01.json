@@ -1,0 +1,102 @@
+{
+  "table_name": "DNA_METHYLATION_CHR3_HG38_GDC_2017_01",
+  "table_fullname": "TCGA_MITELMAN.TCGA_VERSIONED.DNA_METHYLATION_CHR3_HG38_GDC_2017_01",
+  "column_names": [
+    "codigo_de_barras_amostra",
+    "id_sonda",
+    "plataforma",
+    "codigo_de_barras_caso",
+    "id_gdc_arquivo",
+    "valor_beta",
+    "id_gdc_amostra",
+    "id_gdc_caso",
+    "id_gdc_aliquota",
+    "codigo_de_barras_aliquota"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "FLOAT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Código de barras da amostra TCGA, por exemplo, TCGA-12-1089-01A. Uma amostra pode ter vários conjuntos de segmentações de CN correspondentes a vários alíquotas; use GROUP BY apropriadamente nas consultas",
+    "ID único para a sonda de array associada a um site CpG",
+    "Plataforma usada para gerar esses dados -- seja HumanMethylation450 ou HumanMethylation27",
+    "Código de barras original do caso TCGA, por exemplo, TCGA-DX-A8BN",
+    "Identificador GDC único para este arquivo (corresponde ao file_barcode)  --  isso pode ser usado para acessar mais informações do portal de dados GDC como este: https://portal.gdc.cancer.gov/files/c21b332c-06c6-4403-9032-f91c8f407ba34",
+    "Representa a razão entre a intensidade do array metilado e a intensidade total do array, variando entre 0 (níveis mais baixos de metilação) e 1 (níveis mais altos de metilação)",
+    "Identificador GDC único para esta amostra (corresponde ao sample_barcode), por exemplo, a1ec9279-c1a6-4e58-97ed-9ec1f36187c5  --  isso pode ser usado para acessar mais informações do portal de dados GDC",
+    "Identificador GDC único para este caso (corresponde ao case_barcode).  Pode ser usado para acessar mais informações do portal de dados GDC como este:   https://portal.gdc.cancer.gov/files/c21b332c-06c6-4403-9032-f91c8f407ba27",
+    "Identificador GDC único para este alíquota (corresponde ao aliquot_barcode), por exemplo, 7fbfdb3e-1fd2-4206-8d2e-7f68e4a15844  --  isso pode ser usado para acessar mais informações do portal de dados GDC",
+    "Código de barras do alíquota TCGA, por exemplo, TCGA-12-1089-01A-01D-0517-19"
+  ],
+  "sample_rows": [
+    {
+      "codigo_de_barras_caso": "TCGA-12-1601",
+      "codigo_de_barras_amostra": "TCGA-12-1601-01A",
+      "codigo_de_barras_aliquota": "TCGA-12-1601-01A-01D-0595-05",
+      "id_sonda": "cg18759346",
+      "valor_beta": 0.01425742531329,
+      "plataforma": null,
+      "id_gdc_arquivo": "5cd6f2f6-7278-4757-be8e-a8ae3a7a81d3",
+      "id_gdc_caso": "cc1459be-de8f-482e-9efe-65937db9dc45",
+      "id_gdc_amostra": "b02fd704-03a6-44c4-b224-f5f457e733f3",
+      "id_gdc_aliquota": "aa761ca4-e8f0-4a43-8262-bd84eedb459a"
+    },
+    {
+      "codigo_de_barras_caso": "TCGA-12-1601",
+      "codigo_de_barras_amostra": "TCGA-12-1601-01A",
+      "codigo_de_barras_aliquota": "TCGA-12-1601-01A-01D-0595-05",
+      "id_sonda": "cg13745870",
+      "valor_beta": 0.117312875111575,
+      "plataforma": null,
+      "id_gdc_arquivo": "5cd6f2f6-7278-4757-be8e-a8ae3a7a81d3",
+      "id_gdc_caso": "cc1459be-de8f-482e-9efe-65937db9dc45",
+      "id_gdc_amostra": "b02fd704-03a6-44c4-b224-f5f457e733f3",
+      "id_gdc_aliquota": "aa761ca4-e8f0-4a43-8262-bd84eedb459a"
+    },
+    {
+      "codigo_de_barras_caso": "TCGA-12-1601",
+      "codigo_de_barras_amostra": "TCGA-12-1601-01A",
+      "codigo_de_barras_aliquota": "TCGA-12-1601-01A-01D-0595-05",
+      "id_sonda": "cg04627663",
+      "valor_beta": 0.431058628295249,
+      "plataforma": null,
+      "id_gdc_arquivo": "5cd6f2f6-7278-4757-be8e-a8ae3a7a81d3",
+      "id_gdc_caso": "cc1459be-de8f-482e-9efe-65937db9dc45",
+      "id_gdc_amostra": "b02fd704-03a6-44c4-b224-f5f457e733f3",
+      "id_gdc_aliquota": "aa761ca4-e8f0-4a43-8262-bd84eedb459a"
+    },
+    {
+      "codigo_de_barras_caso": "TCGA-12-1601",
+      "codigo_de_barras_amostra": "TCGA-12-1601-01A",
+      "codigo_de_barras_aliquota": "TCGA-12-1601-01A-01D-0595-05",
+      "id_sonda": "cg18331396",
+      "valor_beta": 0.009074954090536,
+      "plataforma": null,
+      "id_gdc_arquivo": "5cd6f2f6-7278-4757-be8e-a8ae3a7a81d3",
+      "id_gdc_caso": "cc1459be-de8f-482e-9efe-65937db9dc45",
+      "id_gdc_amostra": "b02fd704-03a6-44c4-b224-f5f457e733f3",
+      "id_gdc_aliquota": "aa761ca4-e8f0-4a43-8262-bd84eedb459a"
+    },
+    {
+      "codigo_de_barras_caso": "TCGA-12-1601",
+      "codigo_de_barras_amostra": "TCGA-12-1601-01A",
+      "codigo_de_barras_aliquota": "TCGA-12-1601-01A-01D-0595-05",
+      "id_sonda": "cg22613010",
+      "valor_beta": 0.0150373576144508,
+      "plataforma": null,
+      "id_gdc_arquivo": "5cd6f2f6-7278-4757-be8e-a8ae3a7a81d3",
+      "id_gdc_caso": "cc1459be-de8f-482e-9efe-65937db9dc45",
+      "id_gdc_amostra": "b02fd704-03a6-44c4-b224-f5f457e733f3",
+      "id_gdc_aliquota": "aa761ca4-e8f0-4a43-8262-bd84eedb459a"
+    }
+  ]
+}
