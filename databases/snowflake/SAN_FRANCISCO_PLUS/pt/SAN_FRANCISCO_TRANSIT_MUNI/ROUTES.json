@@ -1,0 +1,54 @@
+{
+  "table_name": "ROUTES",
+  "table_fullname": "SAN_FRANCISCO_PLUS.SAN_FRANCISCO_TRANSIT_MUNI.ROUTES",
+  "column_names": [
+    "tipo_de_rota",
+    "nome_longo_da_rota",
+    "nome_curto_da_rota",
+    "id_da_rota"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "\"Descreve o tipo de transporte utilizado em uma rota. Os seguintes são valores válidos para este campo:  -  light_rail: Bondes ou trem leve. Usado para qualquer sistema de trem leve ou de nível de rua dentro de uma área metropolitana. -  subway: Metrô ou metro. Usado para qualquer sistema de trem subterrâneo dentro de uma área metropolitana. -  rail: Usado para viagens intermunicipais ou de longa distância. -  bus: Usado para rotas de ônibus de curta e longa distância. -  ferry: Usado para serviços de barco de curta e longa distância. -  cable_car: Usado para bondes de nível de rua onde o cabo passa sob o carro. -  tram: Teleférico ou bondes suspensos. Normalmente usado para bondes aéreos suspensos pelo cabo. -  funicular: Usado para qualquer sistema ferroviário que se move em inclinações íngremes com um sistema de tração a cabo.\"",
+    "Contém o nome completo de uma rota. Este nome é geralmente mais descritivo do que o nome de route_short_name e muitas vezes inclui o destino ou parada da rota.",
+    "Contém o nome curto de uma rota. Este é um identificador abstrato e curto, como 32, 100X ou Verde, que os passageiros usam para identificar uma rota, mas que não dá nenhuma indicação de quais lugares a rota atende.",
+    "Identificador único para cada rota. Uma rota única terá múltiplas viagens"
+  ],
+  "sample_rows": [
+    {
+      "id_da_rota": "83X",
+      "nome_curto_da_rota": "83X",
+      "nome_longo_da_rota": "MID-MARKET EXPRESS",
+      "tipo_de_rota": "3"
+    },
+    {
+      "id_da_rota": "E",
+      "nome_curto_da_rota": "E",
+      "nome_longo_da_rota": "EMBARCADERO",
+      "tipo_de_rota": "0"
+    },
+    {
+      "id_da_rota": "3",
+      "nome_curto_da_rota": "3",
+      "nome_longo_da_rota": "JACKSON",
+      "tipo_de_rota": "3"
+    },
+    {
+      "id_da_rota": "M",
+      "nome_curto_da_rota": "M",
+      "nome_longo_da_rota": "OCEAN VIEW",
+      "tipo_de_rota": "0"
+    },
+    {
+      "id_da_rota": "8AX",
+      "nome_curto_da_rota": "8AX",
+      "nome_longo_da_rota": "BAYSHORE A EXPRESS",
+      "tipo_de_rota": "3"
+    }
+  ]
+}
