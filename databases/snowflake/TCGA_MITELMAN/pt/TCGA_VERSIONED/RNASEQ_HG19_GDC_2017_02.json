@@ -1,0 +1,94 @@
+{
+  "table_name": "RNASEQ_HG19_GDC_2017_02",
+  "table_fullname": "TCGA_MITELMAN.TCGA_VERSIONED.RNASEQ_HG19_GDC_2017_02",
+  "column_names": [
+    "simbolo_do_gene_original",
+    "codigo_de_barras_do_caso",
+    "simbolo_do_gene_HGNC",
+    "contagem_normalizada",
+    "id_do_gene",
+    "codigo_de_barras_da_amostra",
+    "codigo_de_barras_do_aliquota",
+    "nome_curto_do_projeto",
+    "plataforma"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "FLOAT",
+    "NUMBER",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Símbolo do gene do arquivo de dados original, difere se o símbolo do gene aprovado foi alterado desde então, por exemplo, C11orf17 se tornou AKIP1",
+    "Código de barras do caso TCGA original, por exemplo, TCGA-12-1089 -- observe que cada caso geralmente tem uma amostra de tumor primário e uma amostra normal correspondente (sangue ou tecido adjacente); por favor, consulte a tabela de Biospecimen do TCGA para mais detalhes",
+    "Símbolo do gene do Comitê de Nomenclatura de Genes HUGO, com base em gene_id no arquivo de dados original, por exemplo, AMY1A. Nulo se não for encontrado um símbolo de gene (consulte a documentação para obter mais detalhes sobre ETL) http://isb-cancer-genomics-cloud.readthedocs.io/en/latest/sections/data/data2/ETL_mRNAexpression.html",
+    "Expressão gênica normalizada do arquivo rsem.genes.normalized_results original",
+    "O símbolo do gene. Nesta tabela, o símbolo do gene é o nome do gene, por exemplo, ENSG00000251562",
+    "Código de barras da amostra TCGA original, por exemplo, TCGA-12-1089-01A",
+    "Código de barras do alíquota TCGA original, por exemplo, TCGA-12-1089-01A-01D-0517-01",
+    "Abreviação do nome do projeto; o nome do programa anexado a uma abreviação do nome do projeto; por exemplo, TCGA-OV, etc.",
+    "Plataforma usada para gerar dados; seja IlluminaHiSeq (para cerca de 93% das amostras) ou IlluminaGA"
+  ],
+  "sample_rows": [
+    {
+      "nome_curto_do_projeto": "TCGA-OV",
+      "codigo_de_barras_do_caso": "TCGA-04-1348",
+      "codigo_de_barras_da_amostra": "TCGA-04-1348-01A",
+      "codigo_de_barras_do_aliquota": "TCGA-04-1348-01A-01R-1565-13",
+      "simbolo_do_gene_HGNC": "CASP5",
+      "id_do_gene": 838,
+      "contagem_normalizada": 9.4111,
+      "simbolo_do_gene_original": "CASP5",
+      "plataforma": "IlluminaHiSeq"
+    },
+    {
+      "nome_curto_do_projeto": "TCGA-OV",
+      "codigo_de_barras_do_caso": "TCGA-04-1348",
+      "codigo_de_barras_da_amostra": "TCGA-04-1348-01A",
+      "codigo_de_barras_do_aliquota": "TCGA-04-1348-01A-01R-1565-13",
+      "simbolo_do_gene_HGNC": "ITGB3",
+      "id_do_gene": 3690,
+      "contagem_normalizada": 50.5512,
+      "simbolo_do_gene_original": "ITGB3",
+      "plataforma": "IlluminaHiSeq"
+    },
+    {
+      "nome_curto_do_projeto": "TCGA-OV",
+      "codigo_de_barras_do_caso": "TCGA-04-1348",
+      "codigo_de_barras_da_amostra": "TCGA-04-1348-01A",
+      "codigo_de_barras_do_aliquota": "TCGA-04-1348-01A-01R-1565-13",
+      "simbolo_do_gene_HGNC": "USP4",
+      "id_do_gene": 7375,
+      "contagem_normalizada": 2135.5203,
+      "simbolo_do_gene_original": "USP4",
+      "plataforma": "IlluminaHiSeq"
+    },
+    {
+      "nome_curto_do_projeto": "TCGA-OV",
+      "codigo_de_barras_do_caso": "TCGA-04-1348",
+      "codigo_de_barras_da_amostra": "TCGA-04-1348-01A",
+      "codigo_de_barras_do_aliquota": "TCGA-04-1348-01A-01R-1565-13",
+      "simbolo_do_gene_HGNC": "RPL15",
+      "id_do_gene": 6138,
+      "contagem_normalizada": 25928.2065,
+      "simbolo_do_gene_original": "RPL15",
+      "plataforma": "IlluminaHiSeq"
+    },
+    {
+      "nome_curto_do_projeto": "TCGA-OV",
+      "codigo_de_barras_do_caso": "TCGA-04-1348",
+      "codigo_de_barras_da_amostra": "TCGA-04-1348-01A",
+      "codigo_de_barras_do_aliquota": "TCGA-04-1348-01A-01R-1565-13",
+      "simbolo_do_gene_HGNC": null,
+      "id_do_gene": 440040,
+      "contagem_normalizada": 0.0,
+      "simbolo_do_gene_original": "LOC440040",
+      "plataforma": "IlluminaHiSeq"
+    }
+  ]
+}
