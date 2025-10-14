@@ -1,0 +1,66 @@
+{
+  "table_name": "concept_ancestor",
+  "table_fullname": "bigquery-public-data.cms_synthetic_patient_data_omop.concept_ancestor",
+  "column_names": [
+    "上位_概念_id",
+    "下位_概念_id",
+    "最小_隔たり_レベル",
+    "最大_隔たり_レベル"
+  ],
+  "column_types": [
+    "INT64",
+    "INT64",
+    "INT64",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "ancestor_concept_id 先祖概念ID",
+    "descendant_concept_id 子孫概念ID",
+    "min_levels_of_separation 最小分離レベル",
+    "max_levels_of_separation 最大分離レベル"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "INT64",
+    "INT64",
+    "INT64"
+  ],
+  "description": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "sample_rows": [
+    {
+      "ancestor_concept_id 先祖概念ID": 41016650,
+      "descendant_concept_id 子孫概念ID": 41016650,
+      "min_levels_of_separation 最小分離レベル": 0,
+      "max_levels_of_separation 最大分離レベル": 0
+    },
+    {
+      "ancestor_concept_id 先祖概念ID": 41045056,
+      "descendant_concept_id 子孫概念ID": 41079531,
+      "min_levels_of_separation 最小分離レベル": 0,
+      "max_levels_of_separation 最大分離レベル": 0
+    },
+    {
+      "ancestor_concept_id 先祖概念ID": 41053181,
+      "descendant_concept_id 子孫概念ID": 41155334,
+      "min_levels_of_separation 最小分離レベル": 0,
+      "max_levels_of_separation 最大分離レベル": 0
+    },
+    {
+      "ancestor_concept_id 先祖概念ID": 41055214,
+      "descendant_concept_id 子孫概念ID": 41160390,
+      "min_levels_of_separation 最小分離レベル": 0,
+      "max_levels_of_separation 最大分離レベル": 0
+    },
+    {
+      "ancestor_concept_id 先祖概念ID": 41143402,
+      "descendant_concept_id 子孫概念ID": 41143402,
+      "min_levels_of_separation 最小分離レベル": 0,
+      "max_levels_of_separation 最大分離レベル": 0
+    }
+  ]
+}
