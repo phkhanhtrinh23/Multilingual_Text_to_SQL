@@ -1,0 +1,116 @@
+{
+  "table_name": "CytogenInvValid",
+  "table_fullname": "mitelman-db.prod.CytogenInvValid",
+  "column_names": [
+    "参考号",
+    "案件号",
+    "发票号",
+    "KaryLength",
+    "KaryShort",
+    "KaryLong",
+    "消息",
+    "原因",
+    "CytoConvInput"
+  ],
+  "column_types": [
+    "INT64",
+    "STRING",
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "参考号",
+    "案件号",
+    "发票号",
+    "KaryLength",
+    "KaryShort",
+    "KaryLong",
+    "消息",
+    "原因",
+    "CytoConvInput"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "STRING",
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "参考编号",
+    "案件编号 -- 通常是一个整数，但也可以是任意字符串",
+    "调查编号 -- 始终是一个介于 1 和 9 之间的整数",
+    "染色体描述的长度 -- 可以长达数千个字符，但通常小于 30",
+    "短（可能被截断）的染色体描述",
+    "如果染色体描述超过一定长度，则完整的字符串在此列中，否则此字段为 null",
+    "指示染色体是否已由语法检查器更正",
+    "错误消息",
+    "调整后的完整染色体值，以适用于 CytoConverter 的工具"
+  ],
+  "sample_rows": [
+    {
+      "参考号": 17264,
+      "案件号": "403",
+      "发票号": 1,
+      "KaryLength": 256,
+      "KaryShort": "45,XY,der(4)t(4;11)(p15;q21)t(4;11)(q13;q21)t(4;11)(q13;q14),der(5)t(5;17)(q11;q11),del(7)(q22q36),der(9)t(9;15)(q34;q26),r(11)(p11q11),der(15)t(11;15)(q14;p11)t(11;15)(q14;q14),der(16)t(15;16)(q21;q24)t(12;15)(q24;q21),del(17)(q11),der(20)t(4;20)(p15;p11",
+      "KaryLong": "45,XY,der(4)t(4;11)(p15;q21)t(4;11)(q13;q21)t(4;11)(q13;q14),der(5)t(5;17)(q11;q11),del(7)(q22q36),der(9)t(9;15)(q34;q26),r(11)(p11q11),der(15)t(11;15)(q14;p11)t(11;15)(q14;q14),der(16)t(15;16)(q21;q24)t(12;15)(q24;q21),del(17)(q11),der(20)t(4;20)(p15;p11)",
+      "消息": "Original",
+      "原因": " ",
+      "CytoConvInput": "45,XY,der(4)t(4;11)(p15;q21)t(4;11)(q13;q21)t(4;11)(q13;q14),der(5)t(5;17)(q11;q11),del(7)(q22q36),der(9)t(9;15)(q34;q26),r(11)(p11q11),der(15)t(11;15)(q14;p11)t(11;15)(q14;q14),der(16)t(15;16)(q21;q24)t(12;15)(q24;q21),del(17)(q11),der(20)t(4;20)(p15;p11)"
+    },
+    {
+      "参考号": 14318,
+      "案件号": "6",
+      "发票号": 3,
+      "KaryLength": 256,
+      "KaryShort": "46,XY,der(8)t(8;9)(p22;p24)t(8;22)(q24;q11),der(9)t(8;9)(p21;p24)x2,der(21)t(1;21)(q21;p11),der(22)t(8;22)(q24;q11)/46,XY,der(8)t(8;9)(p22;p24)t(8;22)(q24;q11),der(9)t(8;9)(p21;p24)x2,der(21)t(1;21)(q21;p11),der(22)t(8;22)(q24;q11),der(16)t(16;22)(q24;q11",
+      "KaryLong": "46,XY,der(8)t(8;9)(p22;p24)t(8;22)(q24;q11),der(9)t(8;9)(p21;p24)x2,der(21)t(1;21)(q21;p11),der(22)t(8;22)(q24;q11)/46,XY,der(8)t(8;9)(p22;p24)t(8;22)(q24;q11),der(9)t(8;9)(p21;p24)x2,der(21)t(1;21)(q21;p11),der(22)t(8;22)(q24;q11),der(16)t(16;22)(q24;q11)",
+      "消息": "Has been altered",
+      "原因": " ",
+      "CytoConvInput": "46,XY,der(8)t(8;9)(p22;p24)t(8;22)(q24;q11),der(9)t(8;9)(p21;p24)x2,der(21)t(1;21)(q21;p11),der(22)t(8;22)(q24;q11)/46,XY,der(8)t(8;9)(p22;p24)t(8;22)(q24;q11),der(9)t(8;9)(p21;p24)x2,der(21)t(1;21)(q21;p11),der(22)t(8;22)(q24;q11),der(16)t(16;22)(q24;q11)"
+    },
+    {
+      "参考号": 11275,
+      "案件号": "1",
+      "发票号": 1,
+      "KaryLength": 0,
+      "KaryShort": " ",
+      "KaryLong": " ",
+      "消息": "Original",
+      "原因": " ",
+      "CytoConvInput": " "
+    },
+    {
+      "参考号": 7355,
+      "案件号": "1",
+      "发票号": 1,
+      "KaryLength": 0,
+      "KaryShort": " ",
+      "KaryLong": " ",
+      "消息": "Original",
+      "原因": " ",
+      "CytoConvInput": " "
+    },
+    {
+      "参考号": 12035,
+      "案件号": "7",
+      "发票号": 1,
+      "KaryLength": 0,
+      "KaryShort": " ",
+      "KaryLong": " ",
+      "消息": "Original",
+      "原因": " ",
+      "CytoConvInput": " "
+    }
+  ]
+}
