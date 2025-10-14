@@ -39,3 +39,9 @@ This repo aggregates:
 ---
 
 License: MIT
+
+
+-----------
+**Backup Statistics**
+
+![Visitors](https://margherita-gustatory-zane.ngrok-free.dev/badge/phkhanhtrinh23%2FMultilingual_Text_to_SQL.svg?ngrok-skip-browser-warning=true)
