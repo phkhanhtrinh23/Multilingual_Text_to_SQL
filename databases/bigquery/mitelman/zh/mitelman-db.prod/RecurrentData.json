@@ -1,0 +1,126 @@
+{
+  "table_name": "RecurrentData",
+  "table_fullname": "mitelman-db.prod.RecurrentData",
+  "column_names": [
+    "染色体",
+    "臂",
+    "带",
+    "异常",
+    "Morph",
+    "Topo",
+    "总病例",
+    "基因",
+    "ChrOrder",
+    "类型"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "染色体",
+    "臂",
+    "带",
+    "异常",
+    "Morph",
+    "Topo",
+    "总病例",
+    "基因",
+    "ChrOrder",
+    "类型"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "STRING"
+  ],
+  "description": [
+    "染色体编号（1-22，X 或 Y）",
+    "染色体的臂（p 或 q）",
+    "基因在 p 或 q 臂上的位置",
+    "异常描述，例如 'add(19)(q13)' 或 'del(20)(q11q13)'",
+    "形态学代码，例如 '1602'",
+    "解剖学代码，例如 '0902'（或空）",
+    "病例总数（最多 2150）",
+    "基因符号，例如 'KMT2A+' 或 'BCR/ABL1' 或空",
+    "染色体的数字顺序",
+    "指示平衡（'B'）或不平衡（'U'）"
+  ],
+  "sample_rows": [
+    {
+      "染色体": "Y",
+      "臂": "q",
+      "带": "10",
+      "异常": "i(Y)(q10)",
+      "Morph": "1820",
+      "Topo": null,
+      "总病例": "2",
+      "基因": null,
+      "ChrOrder": 24,
+      "类型": "U"
+    },
+    {
+      "染色体": "1",
+      "臂": "q",
+      "带": "10",
+      "异常": "der(1;2)(q10;p10)",
+      "Morph": "1702",
+      "Topo": null,
+      "总病例": "2",
+      "基因": null,
+      "ChrOrder": 1,
+      "类型": "U"
+    },
+    {
+      "染色体": "1",
+      "臂": "q",
+      "带": "10",
+      "异常": "der(1;2)(q10;q10)",
+      "Morph": "8804",
+      "Topo": "0801",
+      "总病例": "2",
+      "基因": null,
+      "ChrOrder": 1,
+      "类型": "U"
+    },
+    {
+      "染色体": "1",
+      "臂": "q",
+      "带": "10",
+      "异常": "der(1;3)(q10;q10)",
+      "Morph": "1702",
+      "Topo": null,
+      "总病例": "2",
+      "基因": null,
+      "ChrOrder": 1,
+      "类型": "U"
+    },
+    {
+      "染色体": "1",
+      "臂": "q",
+      "带": "10",
+      "异常": "der(1;3)(q10;q10)",
+      "Morph": "3111",
+      "Topo": "0401",
+      "总病例": "2",
+      "基因": null,
+      "ChrOrder": 1,
+      "类型": "U"
+    }
+  ]
+}
