@@ -1,0 +1,126 @@
+{
+  "table_name": "scRNAseq_VUMC_HTAN_VAL_DIS_NONEPI_V2_r2",
+  "table_fullname": "isb-cgc-bq.HTAN_versioned.scRNAseq_VUMC_HTAN_VAL_DIS_NONEPI_V2_r2",
+  "column_names": [
+    "输入观察值",
+    "输入变量",
+    "X值",
+    "细胞条码编号",
+    "HTAN父数据文件ID",
+    "HTAN生物样本ID",
+    "细胞类型",
+    "组织子类型",
+    "组织类型",
+    "基因名称"
+  ],
+  "column_types": [
+    "INT64",
+    "INT64",
+    "FLOAT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "输入观察值",
+    "输入变量",
+    "X值",
+    "细胞条码编号",
+    "HTAN父数据文件ID",
+    "HTAN生物样本ID",
+    "细胞类型",
+    "组织子类型",
+    "组织类型",
+    "基因名称"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "INT64",
+    "FLOAT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "索引到细胞条形码。",
+    "索引到基因ID。",
+    "给定基因和细胞的表达值。",
+    "序列过程中每个滴剂中包含的细胞使用的条形码",
+    "HTAN数据文件标识符，指示这些文件来源的文件",
+    "基于HTAN ID SOP（例如HTANx_yyy_zzz）与生物样本关联的HTAN ID",
+    "B = B细胞，T = T细胞，END = 内皮细胞，FIB = 成纤维细胞，MAS = 肥大细胞，MYE = 骨髓细胞，PLA = 浆细胞",
+    "TA = 管状腺瘤，HP = 增生性息肉，TVA = 管绒状腺瘤，SSL = 静息性凹凸性病变，NL = 正常，MSI-H = 微卫星不稳定性高CRC，MSS = 微卫星稳定CRC",
+    "AD = 传统腺瘤，SER = 凹凸性息肉，NL = 正常，MSI-H = 微卫星不稳定性高CRC，MSS = 微卫星稳定CRC",
+    "测量基因"
+  ],
+  "sample_rows": [
+    {
+      "输入观察值": 2827,
+      "输入变量": 15691,
+      "X值": 2.0,
+      "细胞条码编号": "ATGCTCCGTTTGGATCG-54",
+      "HTAN父数据文件ID": "HTA11_6310_200000202113111",
+      "HTAN生物样本ID": "HTA11_6310_2000002021",
+      "细胞类型": "B",
+      "组织子类型": "NL",
+      "组织类型": "NL",
+      "基因名称": "PCNP"
+    },
+    {
+      "输入观察值": 6875,
+      "输入变量": 27125,
+      "X值": 2.0,
+      "细胞条码编号": "TGCGTATCAGCTACGG-16-5607",
+      "HTAN父数据文件ID": "HTA11_8099_200000201113111",
+      "HTAN生物样本ID": "HTA11_8099_2000002011",
+      "细胞类型": "B",
+      "组织子类型": "NL",
+      "组织类型": "NL",
+      "基因名称": "TBC1D5"
+    },
+    {
+      "输入观察值": 5768,
+      "输入变量": 28591,
+      "X值": 2.0,
+      "细胞条码编号": "TGACGTAGAAGCTACTTGT-4-5607",
+      "HTAN父数据文件ID": "HTA11_10167_200000202113111",
+      "HTAN生物样本ID": "HTA11_10167_2000002021",
+      "细胞类型": "B",
+      "组织子类型": "NL",
+      "组织类型": "NL",
+      "基因名称": "UBC"
+    },
+    {
+      "输入观察值": 3238,
+      "输入变量": 4200,
+      "X值": 2.0,
+      "细胞条码编号": "TGAGTCCATGTATCCCACG-54",
+      "HTAN父数据文件ID": "HTA11_6310_200000202113111",
+      "HTAN生物样本ID": "HTA11_6310_2000002021",
+      "细胞类型": "B",
+      "组织子类型": "NL",
+      "组织类型": "NL",
+      "基因名称": "CCSER1"
+    },
+    {
+      "输入观察值": 2796,
+      "输入变量": 26484,
+      "X值": 13.0,
+      "细胞条码编号": "TGACGTATCGGCGCTCTCA-54",
+      "HTAN父数据文件ID": "HTA11_6310_200000202113111",
+      "HTAN生物样本ID": "HTA11_6310_2000002021",
+      "细胞类型": "B",
+      "组织子类型": "NL",
+      "组织类型": "NL",
+      "基因名称": "SPICE1"
+    }
+  ]
+}
