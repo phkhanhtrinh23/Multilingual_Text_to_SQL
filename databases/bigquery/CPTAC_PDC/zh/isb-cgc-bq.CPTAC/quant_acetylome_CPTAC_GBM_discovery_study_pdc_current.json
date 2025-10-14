@@ -1,0 +1,116 @@
+{
+  "table_name": "quant_acetylome_CPTAC_GBM_discovery_study_pdc_current",
+  "table_fullname": "isb-cgc-bq.CPTAC.quant_acetylome_CPTAC_GBM_discovery_study_pdc_current",
+  "column_names": [
+    "病例编号",
+    "样本编号",
+    "分样编号",
+    "分样提交编号",
+    "分样运行元数据编号",
+    "研究名称",
+    "蛋白质丰度对数2比率",
+    "refseq_id",
+    "蛋白质乙酰化位点"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "病例编号",
+    "样本编号",
+    "分样编号",
+    "分样提交编号",
+    "分样运行元数据编号",
+    "研究名称",
+    "蛋白质丰度对数2比率",
+    "refseq_id",
+    "蛋白质乙酰化位点"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "与特定患者关联的唯一标识符（例如 24cb0fcb-63d6-11e8-bcf1-0a2705229b82）",
+    "此样本的唯一 PDC 标识符（例如 e8d83eb9-693a-11ea-b1fd-0aad30af8a83）",
+    "此 aliquot 的唯一 PDC 标识符（例如 e8db124a-693a-11ea-b1fd-0aad30af8a83）",
+    "程序分配的 aliquot 提交者 ID（例如 T14）",
+    "根据实验中使用的标记试剂和/或生物复制物唯一标识 aliquot",
+    "研究的名称（例如儿童脑癌试点研究 - 磷酸蛋白组）",
+    "特定生物样本中与基因相关的肽离子样本报告离子与公共参考的平均对数比",
+    "在 NCBI RefSeq 数据库中分配给序列的唯一标识符",
+    "被乙酰化的氨基酸的单字母代码和蛋白序列位置（例如 k12k16, k21）"
+  ],
+  "sample_rows": [
+    {
+      "病例编号": "104c0852-2139-11ea-aee1-0e1aae319e49",
+      "样本编号": "104c9aa3-2139-11ea-aee1-0e1aae319e49",
+      "分样编号": "104d4e99-2139-11ea-aee1-0e1aae319e49",
+      "分样提交编号": "CPT0002410011",
+      "分样运行元数据编号": "a558cb61-f794-11ea-bc0e-0aad30af8a83",
+      "研究名称": "CPTAC GBM Discovery Study - Acetylome",
+      "蛋白质丰度对数2比率": 0.4322,
+      "refseq_id": "NP_000087.1",
+      "蛋白质乙酰化位点": "k245"
+    },
+    {
+      "病例编号": "104c0852-2139-11ea-aee1-0e1aae319e49",
+      "样本编号": "104c9aa3-2139-11ea-aee1-0e1aae319e49",
+      "分样编号": "104d4e99-2139-11ea-aee1-0e1aae319e49",
+      "分样提交编号": "CPT0002410011",
+      "分样运行元数据编号": "a558cb61-f794-11ea-bc0e-0aad30af8a83",
+      "研究名称": "CPTAC GBM Discovery Study - Acetylome",
+      "蛋白质丰度对数2比率": -0.0324,
+      "refseq_id": "NP_000099.2",
+      "蛋白质乙酰化位点": "k72"
+    },
+    {
+      "病例编号": "104c0852-2139-11ea-aee1-0e1aae319e49",
+      "样本编号": "104c9aa3-2139-11ea-aee1-0e1aae319e49",
+      "分样编号": "104d4e99-2139-11ea-aee1-0e1aae319e49",
+      "分样提交编号": "CPT0002410011",
+      "分样运行元数据编号": "a558cb61-f794-11ea-bc0e-0aad30af8a83",
+      "研究名称": "CPTAC GBM Discovery Study - Acetylome",
+      "蛋白质丰度对数2比率": 0.8015,
+      "refseq_id": "NP_000161.2",
+      "蛋白质乙酰化位点": "k238"
+    },
+    {
+      "病例编号": "104c0852-2139-11ea-aee1-0e1aae319e49",
+      "样本编号": "104c9aa3-2139-11ea-aee1-0e1aae319e49",
+      "分样编号": "104d4e99-2139-11ea-aee1-0e1aae319e49",
+      "分样提交编号": "CPT0002410011",
+      "分样运行元数据编号": "a558cb61-f794-11ea-bc0e-0aad30af8a83",
+      "研究名称": "CPTAC GBM Discovery Study - Acetylome",
+      "蛋白质丰度对数2比率": 0.0158,
+      "refseq_id": "NP_000280.1",
+      "蛋白质乙酰化位点": "k564"
+    },
+    {
+      "病例编号": "104c0852-2139-11ea-aee1-0e1aae319e49",
+      "样本编号": "104c9aa3-2139-11ea-aee1-0e1aae319e49",
+      "分样编号": "104d4e99-2139-11ea-aee1-0e1aae319e49",
+      "分样提交编号": "CPT0002410011",
+      "分样运行元数据编号": "a558cb61-f794-11ea-bc0e-0aad30af8a83",
+      "研究名称": "CPTAC GBM Discovery Study - Acetylome",
+      "蛋白质丰度对数2比率": 0.2595,
+      "refseq_id": "NP_000282.1",
+      "蛋白质乙酰化位点": "k156"
+    }
+  ]
+}
