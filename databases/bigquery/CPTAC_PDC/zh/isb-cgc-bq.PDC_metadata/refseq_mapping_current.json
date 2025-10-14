@@ -1,0 +1,66 @@
+{
+  "table_name": "refseq_mapping_current",
+  "table_fullname": "isb-cgc-bq.PDC_metadata.refseq_mapping_current",
+  "column_names": [
+    "uniprot_id",
+    "uniprot_review_status",
+    "基因符号",
+    "refseq_id"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "uniprot_id",
+    "uniprot_review_status",
+    "基因符号",
+    "refseq_id"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "由UniProt分配给序列的唯一标识符，通常包含生物学相关信息",
+    "'unreviewed' 记录包含与计算机生成的注释和大规模功能特征相关的蛋白质序列；'reviewed' 记录是高质量、手动注释和非冗余的",
+    "基因符号，由PDC从NCBI来源",
+    "在NCBI RefSeq数据库中给序列的唯一标识符"
+  ],
+  "sample_rows": [
+    {
+      "uniprot_id": "A0JNW5-1",
+      "uniprot_review_status": "reviewed",
+      "基因符号": "BLTP3B",
+      "refseq_id": "NP_055869.1"
+    },
+    {
+      "uniprot_id": "A0JNW5-2",
+      "uniprot_review_status": "reviewed",
+      "基因符号": "BLTP3B",
+      "refseq_id": "NP_001006948.1"
+    },
+    {
+      "uniprot_id": "A0JP26-1",
+      "uniprot_review_status": "reviewed",
+      "基因符号": "POTEB3",
+      "refseq_id": "XP_011542097.1"
+    },
+    {
+      "uniprot_id": "A0JP26-1",
+      "uniprot_review_status": "reviewed",
+      "基因符号": "POTEB3",
+      "refseq_id": "NP_997238.2"
+    },
+    {
+      "uniprot_id": "A1A519-2",
+      "uniprot_review_status": "reviewed",
+      "基因符号": "FAM170A",
+      "refseq_id": "NP_877438.2"
+    }
+  ]
+}
