@@ -1,0 +1,119 @@
+{
+  "table_name": "trade_capture_report",
+  "table_fullname": "bigquery-public-data.cymbal_investments.trade_capture_report",
+  "column_names": [
+    "发送时间",
+    "TargetCompID",
+    "SenderCompID",
+    "证券代码",
+    "数量",
+    "OrderID",
+    "交易时间",
+    "执行价格",
+    "最后价格",
+    "到期日期",
+    "交易报告ID",
+    "交易日期",
+    "CFICode",
+    "买卖方向"
+  ],
+  "column_types": [
+    "TIMESTAMP",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "STRING",
+    "TIMESTAMP",
+    "FLOAT64",
+    "FLOAT64",
+    "TIMESTAMP",
+    "STRING",
+    "DATE",
+    "STRING",
+    "ARRAY<STRUCT<Side STRING, OrderID STRING, PartyIDs ARRAY<STRUCT<PartyID STRING, PartyIDSource STRING, PartyRole STRING>>>>"
+  ],
+  "nested_column_names": [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ".",
+    ".",
+    ".",
+    ".",
+    ".",
+    "."
+  ],
+  "nested_column_types": [
+    "TIMESTAMP",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "STRING",
+    "TIMESTAMP",
+    "FLOAT64",
+    "FLOAT64",
+    "TIMESTAMP",
+    "STRING",
+    "DATE",
+    "STRING",
+    "ARRAY<STRUCT<Side STRING, OrderID STRING, PartyIDs ARRAY<STRUCT<PartyID STRING, PartyIDSource STRING, PartyRole STRING>>>>",
+    "STRING",
+    "STRING",
+    "ARRAY<STRUCT<PartyID STRING, PartyIDSource STRING, PartyRole STRING>>",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "消息发送的时间",
+    "分配的值，用于标识接收消息的公司。",
+    "分配的值，用于标识发送消息的公司。",
+    "资产的交易符号",
+    "总数量（例如股份数量）",
+    "订单标识符",
+    "交易发生的时间",
+    "CFD 关闭的价格",
+    "CFD 入场的价格",
+    "合同到期日期",
+    "本交易报告的 ID",
+    "交易执行日期",
+    "金融工具分类代码",
+    null,
+    "交易方向（多头或空头）",
+    "",
+    "",
+    "对手方标识符",
+    null,
+    "对手方角色"
+  ],
+  "sample_rows": [
+    {
+      "": "[{'Side': 'LONG', 'OrderID': 'd8eefa63-6f10-4566-8f15-81460448f2ac', 'PartyIDs': array([{'PartyID': 'MOMOES', 'PartyIDSource': 'PROP CODE', 'PartyRole': 'INITIATING TRADER'}],\n       dtype=object)}                                                                                                                                                          ]"
+    },
+    {
+      "": "[{'Side': 'LONG', 'OrderID': '7fa78bef-912c-41cb-b381-4c03b5a7c508', 'PartyIDs': array([{'PartyID': 'MOMOES', 'PartyIDSource': 'PROP CODE', 'PartyRole': 'INITIATING TRADER'}],\n       dtype=object)}                                                                                                                                                          ]"
+    },
+    {
+      "": "[{'Side': 'LONG', 'OrderID': '5a4c4d8b-b9b8-4307-a0c3-8c753ed93520', 'PartyIDs': array([{'PartyID': 'MOMOES', 'PartyIDSource': 'PROP CODE', 'PartyRole': 'INITIATING TRADER'}],\n       dtype=object)}                                                                                                                                                          ]"
+    },
+    {
+      "": "[{'Side': 'LONG', 'OrderID': 'a204ef77-1071-48ee-a5f5-21579311cd91', 'PartyIDs': array([{'PartyID': 'MOMOES', 'PartyIDSource': 'PROP CODE', 'PartyRole': 'INITIATING TRADER'}],\n       dtype=object)}                                                                                                                                                          ]"
+    },
+    {
+      "": "[{'Side': 'LONG', 'OrderID': 'b7a40778-7293-407b-8636-91a7ffe9817a', 'PartyIDs': array([{'PartyID': 'MOMOES', 'PartyIDSource': 'PROP CODE', 'PartyRole': 'INITIATING TRADER'}],\n       dtype=object)}                                                                                                                                                          ]"
+    }
+  ]
+}
