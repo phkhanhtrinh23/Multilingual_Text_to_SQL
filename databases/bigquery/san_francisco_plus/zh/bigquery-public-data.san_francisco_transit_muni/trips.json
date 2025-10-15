@@ -1,0 +1,106 @@
+{
+  "table_name": "trips",
+  "table_fullname": "bigquery-public-data.san_francisco_transit_muni.trips",
+  "column_names": [
+    "行程编号",
+    "路线编号",
+    "方向",
+    "块编号",
+    "服务类别",
+    "车头标识",
+    "形状编号",
+    "行程形状"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "GEOGRAPHY"
+  ],
+  "nested_column_names": [
+    "行程ID",
+    "路线ID",
+    "方向",
+    "区块ID",
+    "服务类别",
+    "行程标识",
+    "形状编号",
+    "行程形状"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "GEOGRAPHY"
+  ],
+  "description": [
+    "每次旅行的唯一标识符",
+    "每条路线的唯一标识符。单一路线将有多趟行程。",
+    "指示旅行方向。以下值为有效：  \n- O：离境旅行  \n- I：入境旅行  \n该字段未用于路由，而是提供按方向区分行程的方法。",
+    "标识该行程所属的块。  \n一个块可以包含单个行程，或使用同一辆车辆执行的多次连续行程。  \n通过使用共享的服务日和 block_id 将这些行程分组为一个块。  \nblock_id 可以包含不同服务日的行程，从而形成不同的块。  \n更多细节请参见：https://developers.google.com/transit/gtfs/reference/#example-showing-blocks-and-service-day",
+    "指明此行程的服务类型",
+    "包含显示在标牌上的文本，用以向乘客识别行程目的地。使用此字段区分同一路线上不同的服务模式。",
+    "唯一标识符，用于描述车辆在行程中沿各个点的地理空间形状。用于与shapes表中的形状进行 JOIN。",
+    "行程全程的地理表示"
+  ],
+  "sample_rows": [
+    {
+      "行程ID": "8999876",
+      "路线ID": "83X",
+      "方向": "O",
+      "区块ID": "8301",
+      "服务类别": null,
+      "行程标识": "Caltrain Depot",
+      "形状编号": "174188",
+      "行程形状": null
+    },
+    {
+      "行程ID": "8999873",
+      "路线ID": "83X",
+      "方向": "O",
+      "区块ID": "8302",
+      "服务类别": null,
+      "行程标识": "Caltrain Depot",
+      "形状编号": "174188",
+      "行程形状": null
+    },
+    {
+      "行程ID": "8999875",
+      "路线ID": "83X",
+      "方向": "O",
+      "区块ID": "8301",
+      "服务类别": null,
+      "行程标识": "Caltrain Depot",
+      "形状编号": "174188",
+      "行程形状": null
+    },
+    {
+      "行程ID": "8999872",
+      "路线ID": "83X",
+      "方向": "O",
+      "区块ID": "8302",
+      "服务类别": null,
+      "行程标识": "Caltrain Depot",
+      "形状编号": "174188",
+      "行程形状": null
+    },
+    {
+      "行程ID": "8999892",
+      "路线ID": "83X",
+      "方向": "O",
+      "区块ID": "8301",
+      "服务类别": null,
+      "行程标识": "Caltrain Depot",
+      "形状编号": "174188",
+      "行程形状": null
+    }
+  ]
+}
