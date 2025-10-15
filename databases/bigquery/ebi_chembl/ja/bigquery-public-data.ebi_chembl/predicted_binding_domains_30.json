@@ -1,0 +1,76 @@
+{
+  "table_name": "predicted_binding_domains_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.predicted_binding_domains_30",
+  "column_names": [
+    "予測結合ID",
+    "活動ID",
+    "サイトID",
+    "予測方法",
+    "自信"
+  ],
+  "column_types": [
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "予測結合ID",
+    "活動ID",
+    "サイトID",
+    "予測方法",
+    "自信"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "主キー",
+    "予測対象となる化合物／アッセイ(+ターゲット)の組み合わせを示す、activitiesテーブルへの外部キー。",
+    "binding_sites テーブルへの外部キーで、化合物が結合すると予測される結合部位（ドメイン）を示します。",
+    "結合ドメインを割り当てる方法（例：タンパク質にドメインが1つしかない場合は「シングルドメイン」、複数のドメインがあるが他のタンパク質では1つだけが小分子に結合することが知られている場合は「マルチドメイン」）。",
+    "予測に対して付与される信頼度のレベル（タンパク質が1つのドメインしか持っていない場合は高く、化合物が複数のドメインを持ち、既知の小分子結合ドメインが1つだけの場合は中程度）。"
+  ],
+  "sample_rows": [
+    {
+      "予測結合ID": 7797342,
+      "活動ID": 22413971,
+      "サイトID": null,
+      "予測方法": "Multi domain",
+      "自信": "medium"
+    },
+    {
+      "予測結合ID": 7899397,
+      "活動ID": 22433085,
+      "サイトID": null,
+      "予測方法": "Multi domain",
+      "自信": "medium"
+    },
+    {
+      "予測結合ID": 7899403,
+      "活動ID": 22469714,
+      "サイトID": null,
+      "予測方法": "Multi domain",
+      "自信": "medium"
+    },
+    {
+      "予測結合ID": 7955143,
+      "活動ID": 22900108,
+      "サイトID": null,
+      "予測方法": "Multi domain",
+      "自信": "medium"
+    },
+    {
+      "予測結合ID": 8002137,
+      "活動ID": 22414005,
+      "サイトID": null,
+      "予測方法": "Multi domain",
+      "自信": "medium"
+    }
+  ]
+}
