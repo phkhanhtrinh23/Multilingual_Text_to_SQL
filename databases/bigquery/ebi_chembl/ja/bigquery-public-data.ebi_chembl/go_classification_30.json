@@ -1,0 +1,76 @@
+{
+  "table_name": "go_classification_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.go_classification_30",
+  "column_names": [
+    "go_id",
+    "parent_go_id",
+    "",
+    "class_level",
+    "aspect",
+    "path"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "go_id",
+    "parent_go_id",
+    "",
+    "class_level",
+    "",
+    ""
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "プライマリーキー。 GOスリム用語のGene Ontology識別子",
+    "ChEMBL Drug Target GOスリムのこのGO用語の親のGene Ontology識別子",
+    "Gene Ontology名",
+    "スリムの用語のレベルを示す（L1 = 最高）",
+    "用語が属するGene Ontologyのアスペクトを示す（F = 分子機能、P = 生物学的プロセス、C = 細胞成分）",
+    "GOスリムのこの用語への完全なパスを示す"
+  ],
+  "sample_rows": [
+    {
+      "go_id": "GO:0003674",
+      "parent_go_id": null,
+      "": "molecular_function",
+      "class_level": 0
+    },
+    {
+      "go_id": "GO:0005575",
+      "parent_go_id": null,
+      "": "cellular_component",
+      "class_level": 0
+    },
+    {
+      "go_id": "GO:0008150",
+      "parent_go_id": null,
+      "": "biological_process",
+      "class_level": 0
+    },
+    {
+      "go_id": "GO:0000166",
+      "parent_go_id": "GO:0003674",
+      "": "molecular_function  nucleotide binding",
+      "class_level": 1
+    },
+    {
+      "go_id": "GO:0000988",
+      "parent_go_id": "GO:0003674",
+      "": "molecular_function  protein binding transcription factor activity",
+      "class_level": 1
+    }
+  ]
+}
