@@ -1,0 +1,86 @@
+{
+  "table_name": " maneuver_2016",
+  "table_fullname": "bigquery-public-data.nhtsa_traffic_fatalities. maneuver_2016",
+  "column_names": [
+    "州编号",
+    "州名称",
+    "连续编号",
+    "车辆编号",
+    "driver_maneuvered_to_avoid",
+    "driver_maneuvered_to_avoid_name"
+  ],
+  "column_types": [
+    "INT64",
+    "STRING",
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "州编号",
+    "州名称",
+    "连续编号",
+    "车辆编号",
+    "driver_maneuvered_to_avoid",
+    "driver_maneuvered_to_avoid_name"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "STRING",
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING"
+  ],
+  "description": [
+    "此数据元素标识发生碰撞的州。代码来自总务署（GSA）的全球地理位置代码（GLC）出版物。有关代码的更多信息，请查看pdf中的 `<C1/V1/D1/PC1/P1/NM1 State Number>` 部分：https://crashstats.nhtsa.dot.gov/Api/Public/ViewPublication/812315",
+    "此数据元素标识发生碰撞的州。代码来自总务署（GSA）的全球地理位置代码（GLC）出版物。",
+    "此数据元素是分配给每次碰撞的唯一案件编号。它出现在每个数据文件中，并用于合并数据文件中的信息。 xxxxxx 两个字符的州代码后面是四个字符的案件编号",
+    "此数据元素是分配给案件中每辆车的连续编号。该数据元素出现在每个车辆级别的数据文件中，并与 `ST_CASE` 数据元素一起使用，以合并车辆级别数据文件中的信息。 000-999 分配的机动车辆编号",
+    "此数据元素标识驾驶员在车辆位于交通路段的路面部分上行驶时，试图避开的东西（们），就在此车辆的第一次有害事件发生之前。有关代码的更多信息，请查看pdf中的 `<PC15 Driver Maneuvered to Avoid>` 部分：https://crashstats.nhtsa.dot.gov/Api/Public/ViewPublication/812315",
+    "此数据元素标识驾驶员在车辆位于交通路段的路面部分上行驶时，试图避开的东西（们），就在此车辆的第一次有害事件发生之前。"
+  ],
+  "sample_rows": [
+    {
+      "州编号": 1,
+      "州名称": "Alabama",
+      "连续编号": 10264,
+      "车辆编号": 5,
+      "driver_maneuvered_to_avoid": 0,
+      "driver_maneuvered_to_avoid_name": "Driver Did Not Maneuver to Avoid"
+    },
+    {
+      "州编号": 1,
+      "州名称": "Alabama",
+      "连续编号": 10762,
+      "车辆编号": 5,
+      "driver_maneuvered_to_avoid": 0,
+      "driver_maneuvered_to_avoid_name": "Driver Did Not Maneuver to Avoid"
+    },
+    {
+      "州编号": 1,
+      "州名称": "Alabama",
+      "连续编号": 10762,
+      "车辆编号": 6,
+      "driver_maneuvered_to_avoid": 0,
+      "driver_maneuvered_to_avoid_name": "Driver Did Not Maneuver to Avoid"
+    },
+    {
+      "州编号": 1,
+      "州名称": "Alabama",
+      "连续编号": 10845,
+      "车辆编号": 5,
+      "driver_maneuvered_to_avoid": 0,
+      "driver_maneuvered_to_avoid_name": "Driver Did Not Maneuver to Avoid"
+    },
+    {
+      "州编号": 1,
+      "州名称": "Alabama",
+      "连续编号": 10878,
+      "车辆编号": 5,
+      "driver_maneuvered_to_avoid": 0,
+      "driver_maneuvered_to_avoid_name": "Driver Did Not Maneuver to Avoid"
+    }
+  ]
+}
