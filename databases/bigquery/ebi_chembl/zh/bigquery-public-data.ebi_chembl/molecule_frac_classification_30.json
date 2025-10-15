@@ -1,0 +1,56 @@
+{
+  "table_name": "molecule_frac_classification_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.molecule_frac_classification_30",
+  "column_names": [
+    "摩尔分率编号",
+    "分数类ID",
+    "分子注册号"
+  ],
+  "column_types": [
+    "INT64",
+    "INT64",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "摩尔分数ID",
+    "分数类别ID",
+    "分子注册号"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "INT64",
+    "INT64"
+  ],
+  "description": [
+    "主键。",
+    "外键指向 frac_classification 表，用于显示化合物的作用机制分类。",
+    "指向 molecule_dictionary 的外键，显示该分类适用于的化合物。"
+  ],
+  "sample_rows": [
+    {
+      "摩尔分数ID": 139,
+      "分数类别ID": 513,
+      "分子注册号": 1627948
+    },
+    {
+      "摩尔分数ID": 123,
+      "分数类别ID": 514,
+      "分子注册号": 1486302
+    },
+    {
+      "摩尔分数ID": 114,
+      "分数类别ID": 515,
+      "分子注册号": 1461886
+    },
+    {
+      "摩尔分数ID": 29,
+      "分数类别ID": 519,
+      "分子注册号": 435442
+    },
+    {
+      "摩尔分数ID": 131,
+      "分数类别ID": 520,
+      "分子注册号": 1493581
+    }
+  ]
+}
