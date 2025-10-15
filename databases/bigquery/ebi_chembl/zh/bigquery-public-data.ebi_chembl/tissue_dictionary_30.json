@@ -1,0 +1,96 @@
+{
+  "table_name": "tissue_dictionary_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.tissue_dictionary_30",
+  "column_names": [
+    "组织编号",
+    "Uberon编号",
+    "偏好名称",
+    "EFO编号",
+    "化合物数据库编号",
+    "按订单建造编号",
+    "caloha编号"
+  ],
+  "column_types": [
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "组织ID",
+    "Uberon编号",
+    "首选项名称",
+    "EFO编号",
+    "ChEMBL编号",
+    "BTO编号",
+    "caloha编号"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "主键，数字ID，用于每个组织。",
+    "此组织的Uberon本体识别码",
+    "组织名称（大多数情况下为 Uberon 名称）",
+    "组织的实验因子本体标识符",
+    "此组织的ChEMBL识别码（供网页界面等使用）",
+    "BRENDA 组织本体标识符",
+    "瑞士生物信息学研究院 CALOHA 本体标识符（针对组织）"
+  ],
+  "sample_rows": [
+    {
+      "组织ID": 6,
+      "Uberon编号": "UBERON:0000006",
+      "首选项名称": "Islets of langerhans",
+      "EFO编号": "EFO:0000856",
+      "ChEMBL编号": "CHEMBL4296343",
+      "BTO编号": "BTO:0000991",
+      "caloha编号": "TS-0741"
+    },
+    {
+      "组织ID": 7,
+      "Uberon编号": "UBERON:0000007",
+      "首选项名称": "Pituitary gland",
+      "EFO编号": "EFO:0000857",
+      "ChEMBL编号": "CHEMBL3638173",
+      "BTO编号": "BTO:0001073",
+      "caloha编号": "TS-0798"
+    },
+    {
+      "组织ID": 23,
+      "Uberon编号": "UBERON:0000023",
+      "首选项名称": "Wing",
+      "EFO编号": "EFO:0000885",
+      "ChEMBL编号": "CHEMBL3988049",
+      "BTO编号": "BTO:0001463",
+      "caloha编号": null
+    },
+    {
+      "组织ID": 29,
+      "Uberon编号": "UBERON:0000029",
+      "首选项名称": "Lymph node",
+      "EFO编号": "EFO:0000872",
+      "ChEMBL编号": "CHEMBL3638175",
+      "BTO编号": "BTO:0000784",
+      "caloha编号": "TS-0579"
+    },
+    {
+      "组织ID": 33,
+      "Uberon编号": "UBERON:0000033",
+      "首选项名称": "Head",
+      "EFO编号": "EFO:0000964",
+      "ChEMBL编号": "CHEMBL3987761",
+      "BTO编号": "BTO:0000282",
+      "caloha编号": "TS-0436"
+    }
+  ]
+}
