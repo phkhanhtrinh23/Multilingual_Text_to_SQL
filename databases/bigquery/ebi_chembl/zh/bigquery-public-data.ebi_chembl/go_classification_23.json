@@ -1,0 +1,86 @@
+{
+  "table_name": "go_classification_23",
+  "table_fullname": "bigquery-public-data.ebi_chembl.go_classification_23",
+  "column_names": [
+    "GO编号",
+    "父级GO ID",
+    "首选姓名",
+    "级别",
+    "方面",
+    "路径"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "GO编号",
+    "父级GO ID",
+    "偏好名称",
+    "课程级别",
+    "方面",
+    "路径"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "sample_rows": [
+    {
+      "GO编号": "GO:0003674",
+      "父级GO ID": null,
+      "偏好名称": "molecular_function",
+      "课程级别": "0",
+      "方面": "F",
+      "路径": "molecular_function"
+    },
+    {
+      "GO编号": "GO:0008150",
+      "父级GO ID": null,
+      "偏好名称": "biological_process",
+      "课程级别": "0",
+      "方面": "P",
+      "路径": "biological_process"
+    },
+    {
+      "GO编号": "GO:0005575",
+      "父级GO ID": null,
+      "偏好名称": "cellular_component",
+      "课程级别": "0",
+      "方面": "C",
+      "路径": "cellular_component"
+    },
+    {
+      "GO编号": "GO:0003823",
+      "父级GO ID": "GO:0003674",
+      "偏好名称": "antigen binding",
+      "课程级别": "1",
+      "方面": "F",
+      "路径": "molecular_function  antigen binding"
+    },
+    {
+      "GO编号": "GO:0005085",
+      "父级GO ID": "GO:0003674",
+      "偏好名称": "guanyl-nucleotide exchange factor activity",
+      "课程级别": "1",
+      "方面": "F",
+      "路径": "molecular_function  guanyl-nucleotide exchange factor activity"
+    }
+  ]
+}
