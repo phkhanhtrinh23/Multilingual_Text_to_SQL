@@ -1,0 +1,86 @@
+{
+  "table_name": "defined_daily_dose_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.defined_daily_dose_30",
+  "column_names": [
+    "ATC编码",
+    "DDD 单位",
+    "DDD管理员",
+    "注释",
+    "ddd编号",
+    "ddd值"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "FLOAT64"
+  ],
+  "nested_column_names": [
+    "ATC代码",
+    "ddd 单位",
+    "ddd_入院",
+    "DDD评论",
+    "ddd编号",
+    "ddd值"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "FLOAT64"
+  ],
+  "description": [
+    "化合物的 ATC 代码（外键指向 ATC_CLASSIFICATION 表）",
+    "每日定义剂量单位",
+    "剂量的给药途径",
+    "评论",
+    "内部主键",
+    "定义每日剂量的值"
+  ],
+  "sample_rows": [
+    {
+      "ATC代码": "A02AD01",
+      "ddd 单位": null,
+      "ddd_入院": null,
+      "DDD评论": "Standard dose: 10 tablets or 50 ml mixt",
+      "ddd编号": 15,
+      "ddd值": null
+    },
+    {
+      "ATC代码": "R03BB05",
+      "ddd 单位": null,
+      "ddd_入院": null,
+      "DDD评论": null,
+      "ddd编号": 2979,
+      "ddd值": null
+    },
+    {
+      "ATC代码": "R03BB06",
+      "ddd 单位": null,
+      "ddd_入院": null,
+      "DDD评论": null,
+      "ddd编号": 2981,
+      "ddd值": null
+    },
+    {
+      "ATC代码": "V03AE09",
+      "ddd 单位": null,
+      "ddd_入院": null,
+      "DDD评论": null,
+      "ddd编号": 3237,
+      "ddd值": null
+    },
+    {
+      "ATC代码": "B06AC05",
+      "ddd 单位": null,
+      "ddd_入院": null,
+      "DDD评论": null,
+      "ddd编号": 3282,
+      "ddd值": null
+    }
+  ]
+}
