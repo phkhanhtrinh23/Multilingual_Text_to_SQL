@@ -1,0 +1,56 @@
+{
+  "table_name": "molecule_atc_classification_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.molecule_atc_classification_30",
+  "column_names": [
+    "分子ATC编号",
+    "五级",
+    "分子注册号"
+  ],
+  "column_types": [
+    "INT64",
+    "STRING",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "化合物ATC编号",
+    "第五等级",
+    "分子注册号"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "STRING",
+    "INT64"
+  ],
+  "description": [
+    "主键",
+    "ATC 代码（外键指向 atc_classification 表）",
+    "适用的ATC代码对应的药物（外键指向 molecule_dictionary 表）"
+  ],
+  "sample_rows": [
+    {
+      "化合物ATC编号": 60559,
+      "第五等级": "B01AC06",
+      "分子注册号": 1280
+    },
+    {
+      "化合物ATC编号": 61116,
+      "第五等级": "N02BA01",
+      "分子注册号": 1280
+    },
+    {
+      "化合物ATC编号": 61117,
+      "第五等级": "N02BA51",
+      "分子注册号": 1280
+    },
+    {
+      "化合物ATC编号": 61696,
+      "第五等级": "A01AD05",
+      "分子注册号": 1280
+    },
+    {
+      "化合物ATC编号": 62830,
+      "第五等级": "N02BA71",
+      "分子注册号": 1280
+    }
+  ]
+}
