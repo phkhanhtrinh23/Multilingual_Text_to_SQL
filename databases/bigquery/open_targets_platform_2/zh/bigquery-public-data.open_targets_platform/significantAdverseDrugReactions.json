@@ -1,0 +1,86 @@
+{
+  "table_name": "significantAdverseDrugReactions",
+  "table_fullname": "bigquery-public-data.open_targets_platform.significantAdverseDrugReactions",
+  "column_names": [
+    "ChEMBL编号",
+    "事件",
+    "计数",
+    "对数似然比",
+    "临界值",
+    "meddra代码"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "INT64",
+    "FLOAT64",
+    "FLOAT64",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "ChEMBL编号",
+    "事件",
+    "计数",
+    "对数似然比",
+    "临界值",
+    "MedDRA编码"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "INT64",
+    "FLOAT64",
+    "FLOAT64",
+    "STRING"
+  ],
+  "description": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "sample_rows": [
+    {
+      "ChEMBL编号": "CHEMBL2",
+      "事件": "hypotension",
+      "计数": 53,
+      "对数似然比": 91.35776972666008,
+      "临界值": 6.251299745844193,
+      "MedDRA编码": "10021097"
+    },
+    {
+      "ChEMBL编号": "CHEMBL3",
+      "事件": "jaundice neonatal",
+      "计数": 43,
+      "对数似然比": 155.15858689508605,
+      "临界值": 38.961201902675384,
+      "MedDRA编码": "10023138"
+    },
+    {
+      "ChEMBL编号": "CHEMBL3",
+      "事件": "macular degeneration",
+      "计数": 114,
+      "对数似然比": 388.47462428933795,
+      "临界值": 38.961201902675384,
+      "MedDRA编码": "10025409"
+    },
+    {
+      "ChEMBL编号": "CHEMBL3",
+      "事件": "drug abuse",
+      "计数": 83,
+      "对数似然比": 86.02875766474244,
+      "临界值": 38.961201902675384,
+      "MedDRA编码": "10013654"
+    },
+    {
+      "ChEMBL编号": "CHEMBL3",
+      "事件": "premature baby",
+      "计数": 150,
+      "对数似然比": 299.56098443422525,
+      "临界值": 38.961201902675384,
+      "MedDRA编码": "10036590"
+    }
+  ]
+}
