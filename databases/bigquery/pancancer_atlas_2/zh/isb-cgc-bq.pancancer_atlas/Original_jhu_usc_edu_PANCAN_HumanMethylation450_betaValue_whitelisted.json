@@ -1,0 +1,56 @@
+{
+  "table_name": "Original_jhu_usc_edu_PANCAN_HumanMethylation450_betaValue_whitelisted",
+  "table_fullname": "isb-cgc-bq.pancancer_atlas.Original_jhu_usc_edu_PANCAN_HumanMethylation450_betaValue_whitelisted",
+  "column_names": [
+    "编号",
+    "取样条码",
+    "贝塔"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "FLOAT64"
+  ],
+  "nested_column_names": [
+    "编号",
+    "分样条码",
+    "贝塔"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "FLOAT64"
+  ],
+  "description": [
+    "来自 Illumina Human Methylation 阵列的唯一探针标识符（例如 cg04676771）——请参阅注释表 (isb-cgc-bq.annotations.methylation_annotation_hg19_illumina_current) 以获取关于任何特定探针的更多详细信息",
+    "TCGA 取样条码，例如 TCGA-12-1089-01A-01D-0517-28",
+    "标准化 DNA 甲基化 beta 值（范围在 0 到 1 之间，0 表示完全未甲基化，1 表示完全甲基化）"
+  ],
+  "sample_rows": [
+    {
+      "编号": "cg02830202",
+      "分样条码": "TCGA-05-4384-01A-01D-1756-05",
+      "贝塔": 0.8376889999999999
+    },
+    {
+      "编号": "cg00492309",
+      "分样条码": "TCGA-05-4384-01A-01D-1756-05",
+      "贝塔": 0.779062
+    },
+    {
+      "编号": "cg20582984",
+      "分样条码": "TCGA-05-4384-01A-01D-1756-05",
+      "贝塔": 0.654628
+    },
+    {
+      "编号": "cg08333283",
+      "分样条码": "TCGA-05-4384-01A-01D-1756-05",
+      "贝塔": 0.62995
+    },
+    {
+      "编号": "cg02312706",
+      "分样条码": "TCGA-05-4384-01A-01D-1756-05",
+      "贝塔": 0.8331770000000001
+    }
+  ]
+}

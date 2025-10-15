@@ -1,0 +1,56 @@
+{
+  "table_name": "Original_jhu_usc_edu_PANCAN_HumanMethylation27_betaValue_whitelisted",
+  "table_fullname": "isb-cgc-bq.pancancer_atlas.Original_jhu_usc_edu_PANCAN_HumanMethylation27_betaValue_whitelisted",
+  "column_names": [
+    "编号",
+    "分样条码",
+    "测试版"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "FLOAT64"
+  ],
+  "nested_column_names": [
+    "编号",
+    "分装条码",
+    "贝塔"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "FLOAT64"
+  ],
+  "description": [
+    "来自 Illumina 人类甲基化芯片的唯一探针标识符（例如 cg04676771）——请参阅注释表 (isb-cgc-bq.annotations.methylation_annotation_hg19_illumina_current)，以获取关于任何特定探针的更多细节",
+    "TCGA 分样条码，例如 TCGA-12-1089-01A-01D-0517-28",
+    "归一化 DNA 甲基化贝塔值（取值范围为0至1，其中0表示完全未甲基化，1表示完全甲基化）"
+  ],
+  "sample_rows": [
+    {
+      "编号": "cg05679521",
+      "分装条码": "TCGA-01-0628-11A-01D-0383-05",
+      "贝塔": 0.0290592
+    },
+    {
+      "编号": "cg04853151",
+      "分装条码": "TCGA-01-0628-11A-01D-0383-05",
+      "贝塔": 0.029444
+    },
+    {
+      "编号": "cg06162003",
+      "分装条码": "TCGA-01-0628-11A-01D-0383-05",
+      "贝塔": 0.0111285
+    },
+    {
+      "编号": "cg01136458",
+      "分装条码": "TCGA-01-0628-11A-01D-0383-05",
+      "贝塔": 0.764987
+    },
+    {
+      "编号": "cg02132188",
+      "分装条码": "TCGA-01-0628-11A-01D-0383-05",
+      "贝塔": 0.31103400000000003
+    }
+  ]
+}
