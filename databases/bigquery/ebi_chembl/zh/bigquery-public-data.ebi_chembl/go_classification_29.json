@@ -1,0 +1,86 @@
+{
+  "table_name": "go_classification_29",
+  "table_fullname": "bigquery-public-data.ebi_chembl.go_classification_29",
+  "column_names": [
+    "GO编号",
+    "父级GO编号",
+    "首选项名称",
+    "等级",
+    "方面",
+    "路径"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "棋局编号",
+    "父GO_ID",
+    "省份名称",
+    "班级级别",
+    "方面",
+    "路径"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "sample_rows": [
+    {
+      "棋局编号": "GO:0003674",
+      "父GO_ID": null,
+      "省份名称": "molecular_function",
+      "班级级别": "0",
+      "方面": "F",
+      "路径": "molecular_function"
+    },
+    {
+      "棋局编号": "GO:0005575",
+      "父GO_ID": null,
+      "省份名称": "cellular_component",
+      "班级级别": "0",
+      "方面": "C",
+      "路径": "cellular_component"
+    },
+    {
+      "棋局编号": "GO:0008150",
+      "父GO_ID": null,
+      "省份名称": "biological_process",
+      "班级级别": "0",
+      "方面": "P",
+      "路径": "biological_process"
+    },
+    {
+      "棋局编号": "GO:0000166",
+      "父GO_ID": "GO:0003674",
+      "省份名称": "nucleotide binding",
+      "班级级别": "1",
+      "方面": "F",
+      "路径": "molecular_function  nucleotide binding"
+    },
+    {
+      "棋局编号": "GO:0000988",
+      "父GO_ID": "GO:0003674",
+      "省份名称": "protein binding transcription factor activity",
+      "班级级别": "1",
+      "方面": "F",
+      "路径": "molecular_function  protein binding transcription factor activity"
+    }
+  ]
+}
