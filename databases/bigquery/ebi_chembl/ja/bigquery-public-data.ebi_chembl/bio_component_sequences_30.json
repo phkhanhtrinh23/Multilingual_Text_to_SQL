@@ -1,0 +1,96 @@
+{
+  "table_name": "bio_component_sequences_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.bio_component_sequences_30",
+  "column_names": [
+    "コンポーネントID",
+    "コンポーネントタイプ",
+    "説明",
+    "シーケンス",
+    "シーケンスmd5sum",
+    "種別ID",
+    "生物種"
+  ],
+  "column_types": [
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "コンポーネントID",
+    "コンポーネントタイプ",
+    "説明",
+    "シーケンス",
+    "シーケンスmd5sum",
+    "種別ID",
+    "生物種"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "STRING"
+  ],
+  "description": [
+    "主キー。ChEMBL（例：抗体鎖、再生蛋白、合成ペプチド）における各生物医薬品の分子成分の固有の識別子。",
+    "分子成分のタイプ（例：`'PROTEIN'`、`'DNA'`、`'RNA'`）。",
+    "分子成分の説明/名称。",
+    "生物医薬品成分のシーケンス。",
+    "シーケンスのMD5チェックサム。",
+    "シーケンスが得られた種のNCBI tax ID。ヒューマナイズドモノクローナル抗体、合成ペプチドなどではnullになる場合がある。",
+    "シーケンスが得られた種の名称。"
+  ],
+  "sample_rows": [
+    {
+      "コンポーネントID": 6288,
+      "コンポーネントタイプ": "PROTEIN",
+      "説明": "Tigatuzumab light chain",
+      "シーケンス": "DIQMTQSPSSLSASVGDRVTITCKASQDVGTAVAWYQQKPGKAPKLLIYWASTRHTGVPSRFSGSGSGTDFTLTISSLQPEDFATYYCQQYSSYRTFGQGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+      "シーケンスmd5sum": "19b1591070d7f2a101ea4dbea681e46e",
+      "種別ID": null,
+      "生物種": null
+    },
+    {
+      "コンポーネントID": 6293,
+      "コンポーネントタイプ": "PROTEIN",
+      "説明": "Enavatuzumab heavy chain",
+      "シーケンス": "EVQLVESGGGLVQPGGSLRLSCAASGFTFSSYWMSWVRQAPGKGLEWVAEIRLKSDNYATHYAESVKGRFTISRDDSKNSLYLQMNSLRAEDTAVYYCTGYYADAMDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKTHTCPPCPAPELLGGPSVFLFPPKPKDTLMISRTPEVTCVVVDVSHEDPEVKFNWYVDGVEVHNAKTKPREEQYNSTYRVVSVLTVLHQDWLNGKEYKCKVSNKALPAPIEKTISKAKGQPREPQVYTLPPSREEMTKNQVSLTCLVKGFYPSDIAVEWESNGQPENNYKTTPPVLDSDGSFFLYSKLTVDKSRWQQGNVFSCSVMHEALHNHYTQKSLSLSPGK",
+      "シーケンスmd5sum": "a54c47ebb642b0597fb99b462ee644d0",
+      "種別ID": null,
+      "生物種": null
+    },
+    {
+      "コンポーネントID": 6294,
+      "コンポーネントタイプ": "PROTEIN",
+      "説明": "Enavatuzumab light chain",
+      "シーケンス": "DIQMTQSPSSLSASVGDRVTITCRASQSVSTSSYSYMHWYQQKPGKAPKLLIKYASNLESGVPSRFSGSGSGTDFTLTISSLQPEDFATYYCQHSWEIPYTFGGGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+      "シーケンスmd5sum": "a758f6dd8e919ec28c3717fe0a301c5d",
+      "種別ID": null,
+      "生物種": null
+    },
+    {
+      "コンポーネントID": 6297,
+      "コンポーネントタイプ": "PROTEIN",
+      "説明": "Alacizumab pegol f(ab')2 fragment",
+      "シーケンス": "EVQLVESGGGLVQPGGSLRLSCAASGFTFSSYGMSWVRQAPGKGLEWVATITSGGSYTYYVDSVKGRFTISRDNAKNTLYLQMNSLRAEDTAVYYCVRIGEDALDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKTHTCAA",
+      "シーケンスmd5sum": "492649be3baaaa97804b4f60a77a2118",
+      "種別ID": null,
+      "生物種": null
+    },
+    {
+      "コンポーネントID": 6298,
+      "コンポーネントタイプ": "PROTEIN",
+      "説明": "Alacizumab pegol light chain",
+      "シーケンス": "DIQMTQSPSSLSASVGDRVTITCRASQDIAGSLNWLQQKPGKAIKRLIYATSSLDSGVPKRFSGSRSGSDYTLTISSLQPEDFATYYCLQYGSFPPTFGQGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+      "シーケンスmd5sum": "6c682f17ba959b62d601da3ccaa799e0",
+      "種別ID": null,
+      "生物種": null
+    }
+  ]
+}
