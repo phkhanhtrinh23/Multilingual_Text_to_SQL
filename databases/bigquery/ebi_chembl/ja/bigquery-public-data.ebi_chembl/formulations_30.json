@@ -1,0 +1,81 @@
+{
+  "table_name": "formulations_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.formulations_30",
+  "column_names": [
+    "product_id",
+    "",
+    "",
+    "record_id",
+    "molregno",
+    "formulation_id"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "INT64",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "product_id",
+    "",
+    "",
+    "record_id",
+    "molregno",
+    "formulation_id"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "INT64",
+    "INT64"
+  ],
+  "description": [
+    "商品のユニーク識別子。PRODUCTSへのFK",
+    "商品内の承認された成分の名前",
+    "用量強度",
+    "compound_recordsテーブルへの外部キー。",
+    "成分のユニーク識別子。MOLECULE_DICTIONARYへのFK",
+    "プライマリーキー。"
+  ],
+  "sample_rows": [
+    {
+      "product_id": "PRODUCT_017406_001",
+      "": null,
+      "record_id": 1344800,
+      "molregno": 1383003,
+      "formulation_id": 148332
+    },
+    {
+      "product_id": "PRODUCT_016089_001",
+      "": null,
+      "record_id": 1344800,
+      "molregno": 1383003,
+      "formulation_id": 148336
+    },
+    {
+      "product_id": "PRODUCT_016090_001",
+      "": null,
+      "record_id": 1344800,
+      "molregno": 1383003,
+      "formulation_id": 148340
+    },
+    {
+      "product_id": "PRODUCT_016089_001",
+      "": null,
+      "record_id": 1343088,
+      "molregno": 675455,
+      "formulation_id": 148338
+    },
+    {
+      "product_id": "PRODUCT_016090_001",
+      "": null,
+      "record_id": 1343088,
+      "molregno": 675455,
+      "formulation_id": 148342
+    }
+  ]
+}
