@@ -1,0 +1,56 @@
+{
+  "table_name": "target_type_29",
+  "table_fullname": "bigquery-public-data.ebi_chembl.target_type_29",
+  "column_names": [
+    "目标类型",
+    "目标描述",
+    "父类型"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "目标类型",
+    "目标描述",
+    "父类型"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    null,
+    null,
+    null
+  ],
+  "sample_rows": [
+    {
+      "目标类型": "MOLECULAR",
+      "目标描述": "Target has been identified as a defined molecular entity (e.g., protein or nucleic acid)",
+      "父类型": null
+    },
+    {
+      "目标类型": "NON-MOLECULAR",
+      "目标描述": "Target has not been defined at a molecular level, only the non-molecular entity which is affected (e.g., organism, cell line etc)",
+      "父类型": null
+    },
+    {
+      "目标类型": "UNDEFINED",
+      "目标描述": "No target has been defined",
+      "父类型": null
+    },
+    {
+      "目标类型": "CHIMERIC PROTEIN",
+      "目标描述": "Target is a fusion of two different proteins, either a synthetic construct or naturally occurring fusion protein",
+      "父类型": "PROTEIN"
+    },
+    {
+      "目标类型": "PROTEIN COMPLEX",
+      "目标描述": "Target is a defined protein complex, consisting of multiple subunits",
+      "父类型": "PROTEIN"
+    }
+  ]
+}
