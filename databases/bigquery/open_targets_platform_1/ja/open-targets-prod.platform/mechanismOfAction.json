@@ -1,0 +1,165 @@
+{
+  "table_name": "mechanismOfAction",
+  "table_fullname": "open-targets-prod.platform.mechanismOfAction",
+  "column_names": [
+    "アクションタイプ",
+    "作用機序",
+    "ChEMBL ID",
+    "対象名",
+    "対象タイプ",
+    "対象",
+    "参照"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+    "STRING",
+    "STRING",
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+    "STRUCT<list ARRAY<STRUCT<element STRUCT<source STRING, ids STRUCT<list ARRAY<STRUCT<element STRING>>>, urls STRUCT<list ARRAY<STRUCT<element STRING>>>>>>>"
+  ],
+  "nested_column_names": [
+    "アクションタイプ",
+    "作用機序",
+    "ChEMBL ID",
+    "Chembl IDリスト",
+    "Chembl IDリスト要素",
+    "ターゲット名",
+    "対象タイプ",
+    "対象",
+    "ターゲットリスト",
+    "ターゲットリスト要素",
+    "参考文献",
+    "参考文献一覧",
+    "参照リスト要素",
+    "参照リスト要素のソース",
+    "参照リスト要素ID",
+    "参照リスト要素ID一覧",
+    "参照リスト項目IDリスト項目",
+    "参照リスト要素URL",
+    "参照リスト要素URLリスト",
+    "参照\nリスト\n要素\nURL\nリスト\n要素"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+    "ARRAY<STRUCT<element STRING>>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+    "ARRAY<STRUCT<element STRING>>",
+    "STRING",
+    "STRUCT<list ARRAY<STRUCT<element STRUCT<source STRING, ids STRUCT<list ARRAY<STRUCT<element STRING>>>, urls STRUCT<list ARRAY<STRUCT<element STRING>>>>>>>",
+    "ARRAY<STRUCT<element STRUCT<source STRING, ids STRUCT<list ARRAY<STRUCT<element STRING>>>, urls STRUCT<list ARRAY<STRUCT<element STRING>>>>>>",
+    "STRUCT<source STRING, ids STRUCT<list ARRAY<STRUCT<element STRING>>>, urls STRUCT<list ARRAY<STRUCT<element STRING>>>>",
+    "STRING",
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+    "ARRAY<STRUCT<element STRING>>",
+    "STRING",
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+    "ARRAY<STRUCT<element STRING>>",
+    "STRING"
+  ],
+  "description": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "sample_rows": [
+    {
+      "アクションタイプ": "OTHER",
+      "作用機序": "CD22 other",
+      "ChEMBL ID": {
+        "list": "[{'element': 'CHEMBL2108228'}]"
+      },
+      "ターゲット名": "CD22",
+      "対象タイプ": "single protein",
+      "対象": {
+        "list": "[{'element': 'ENSG00000012124'}]"
+      },
+      "参考文献": {
+        "list": "[{'element': {'source': 'PubMed', 'ids': {'list': array([{'element': '12537673'}], dtype=object)}, 'urls': {'list': array([{'element': 'http://europepmc.org/abstract/MED/12537673'}],\n       dtype=object)}}}                                                                                                                                                               ]"
+      }
+    },
+    {
+      "アクションタイプ": "OTHER",
+      "作用機序": "Basigin other",
+      "ChEMBL ID": {
+        "list": "[{'element': 'CHEMBL2109193'}]"
+      },
+      "ターゲット名": "Basigin",
+      "対象タイプ": "single protein",
+      "対象": {
+        "list": "[{'element': 'ENSG00000172270'}]"
+      },
+      "参考文献": {
+        "list": "[{'element': {'source': 'PubMed', 'ids': {'list': array([{'element': '17110457'}], dtype=object)}, 'urls': {'list': array([{'element': 'http://europepmc.org/abstract/MED/17110457'}],\n       dtype=object)}}}                                                                                                                                                               ]"
+      }
+    },
+    {
+      "アクションタイプ": "OTHER",
+      "作用機序": "Mucin-1 other",
+      "ChEMBL ID": {
+        "list": "[{'element': 'CHEMBL2109637'}]"
+      },
+      "ターゲット名": "Mucin-1",
+      "対象タイプ": "single protein",
+      "対象": {
+        "list": "[{'element': 'ENSG00000185499'}]"
+      },
+      "参考文献": {
+        "list": "[{'element': {'source': 'PubMed', 'ids': {'list': array([{'element': '1391628'}, {'element': '8050089'}], dtype=object)}, 'urls': {'list': array([{'element': 'http://europepmc.org/abstract/MED/1391628'},\n        {'element': 'http://europepmc.org/abstract/MED/8050089'}],\n       dtype=object)}}}                                                                                                                                                                                    ]"
+      }
+    },
+    {
+      "アクションタイプ": "OTHER",
+      "作用機序": "Mucin-1 other",
+      "ChEMBL ID": {
+        "list": "[{'element': 'CHEMBL2108341'}]"
+      },
+      "ターゲット名": "Mucin-1",
+      "対象タイプ": "single protein",
+      "対象": {
+        "list": "[{'element': 'ENSG00000185499'}]"
+      },
+      "参考文献": {
+        "list": "[{'element': {'source': 'PubMed', 'ids': {'list': array([{'element': '19811637'}, {'element': '21878535'}], dtype=object)}, 'urls': {'list': array([{'element': 'http://europepmc.org/abstract/MED/19811637'},\n        {'element': 'http://europepmc.org/abstract/MED/21878535'}],\n       dtype=object)}}}                                                                                                                                                                                       ]"
+      }
+    },
+    {
+      "アクションタイプ": "OTHER",
+      "作用機序": "Mucin-1 other",
+      "ChEMBL ID": {
+        "list": "[{'element': 'CHEMBL2109364'}]"
+      },
+      "ターゲット名": "Mucin-1",
+      "対象タイプ": "single protein",
+      "対象": {
+        "list": "[{'element': 'ENSG00000185499'}]"
+      },
+      "参考文献": {
+        "list": "[{'element': {'source': 'PubMed', 'ids': {'list': array([{'element': '11839249'}], dtype=object)}, 'urls': {'list': array([{'element': 'http://europepmc.org/abstract/MED/11839249'}],\n       dtype=object)}}}                                                                                                                                                               ]"
+      }
+    }
+  ]
+}
