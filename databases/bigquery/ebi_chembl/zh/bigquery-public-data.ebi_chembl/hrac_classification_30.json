@@ -1,0 +1,106 @@
+{
+  "table_name": "hrac_classification_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.hrac_classification_30",
+  "column_names": [
+    "玩家分类编号",
+    "活性成分",
+    "等级1",
+    "第一级描述",
+    "二级",
+    "二级描述",
+    "三级",
+    "hrac 代码"
+  ],
+  "column_types": [
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "玩家类别ID",
+    "活性成分",
+    "一级",
+    "第一级描述",
+    "二级",
+    "二级描述",
+    "三级",
+    "玩家编号"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "每个 Level3 代码的唯一数值主键",
+    "由 HRAC 分类的除草剂活性成分名称",
+    "HRAC 组代码 – 表示除草剂的作用机制",
+    "HRAC 提供的作用机制说明",
+    "表示特定 HRAC 组内的化学族（HRAC 未分配编号）",
+    "HRAC提供的化学族描述",
+    "为每种成分分配唯一代码（基于一级和二级HRAC分类，但非由HRAC分配）",
+    "该成分的官方HRAC分类代码"
+  ],
+  "sample_rows": [
+    {
+      "玩家类别ID": 2,
+      "活性成分": "CYHALOFOP-BUTYL",
+      "一级": "A",
+      "第一级描述": "INHIBITION OF ACETYL COA CARBOXYLASE (ACCASE)",
+      "二级": "A1",
+      "二级描述": "ARYLOXYPHENOXY-PROPIONATE 'FOPS'",
+      "三级": "A12",
+      "玩家编号": "A"
+    },
+    {
+      "玩家类别ID": 3,
+      "活性成分": "DICLOFOP-METHYL",
+      "一级": "A",
+      "第一级描述": "INHIBITION OF ACETYL COA CARBOXYLASE (ACCASE)",
+      "二级": "A1",
+      "二级描述": "ARYLOXYPHENOXY-PROPIONATE 'FOPS'",
+      "三级": "A13",
+      "玩家编号": "A"
+    },
+    {
+      "玩家类别ID": 4,
+      "活性成分": "FENOXAPROP-P-ETHYL",
+      "一级": "A",
+      "第一级描述": "INHIBITION OF ACETYL COA CARBOXYLASE (ACCASE)",
+      "二级": "A1",
+      "二级描述": "ARYLOXYPHENOXY-PROPIONATE 'FOPS'",
+      "三级": "A14",
+      "玩家编号": "A"
+    },
+    {
+      "玩家类别ID": 5,
+      "活性成分": "FLUAZIFOP-P-BUTYL",
+      "一级": "A",
+      "第一级描述": "INHIBITION OF ACETYL COA CARBOXYLASE (ACCASE)",
+      "二级": "A1",
+      "二级描述": "ARYLOXYPHENOXY-PROPIONATE 'FOPS'",
+      "三级": "A15",
+      "玩家编号": "A"
+    },
+    {
+      "玩家类别ID": 6,
+      "活性成分": "HALOXYFOP-R-METHYL",
+      "一级": "A",
+      "第一级描述": "INHIBITION OF ACETYL COA CARBOXYLASE (ACCASE)",
+      "二级": "A1",
+      "二级描述": "ARYLOXYPHENOXY-PROPIONATE 'FOPS'",
+      "三级": "A16",
+      "玩家编号": "A"
+    }
+  ]
+}
