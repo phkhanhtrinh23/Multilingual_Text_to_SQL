@@ -1,0 +1,86 @@
+{
+  "table_name": " vision_2017",
+  "table_fullname": "bigquery-public-data.nhtsa_traffic_fatalities. vision_2017",
+  "column_names": [
+    "州编号",
+    "州名称",
+    "连续编号",
+    "车辆编号",
+    "drivers_vision_obscured_by",
+    "drivers_vision_obscured_by_name"
+  ],
+  "column_types": [
+    "INT64",
+    "STRING",
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "州编号",
+    "州名称",
+    "连续编号",
+    "车辆编号",
+    "drivers_vision_obscured_by",
+    "drivers_vision_obscured_by_name"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "STRING",
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING"
+  ],
+  "description": [
+    "此数据元素标识发生碰撞的州。代码来自美国总务署（GSA）发布的全球地理位置代码（GLC）。有关代码的更多信息，请查看pdf中的 `<C1/V1/D1/PC1/P1/NM1 State Number>` 部分：https://crashstats.nhtsa.dot.gov/Api/Public/ViewPublication/812315",
+    "此数据元素标识发生碰撞的州。代码来自美国总务署（GSA）发布的全球地理位置代码（GLC）。",
+    "此数据元素是分配给每次碰撞的唯一案件编号。它出现在每个数据文件中，并用于合并数据文件中的信息。 xxxxxx 两个字符的州代码后面是四个字符的案件编号",
+    "此数据元素是分配给案件中每辆车的连续编号。该数据元素出现在每个车辆级别的数据文件中，并与 `ST_CASE` 数据元素一起使用，以合并车辆级别数据文件中的信息。 000-999 分配的机动车辆编号",
+    "此数据元素记录了案件材料中记录的此驾驶员视野的障碍。有关代码的更多信息，请查看pdf中的 `<PC14 Driver’s Vision Obscured by>` 部分：https://crashstats.nhtsa.dot.gov/Api/Public/ViewPublication/812315",
+    "此数据元素记录了案件材料中记录的此驾驶员视野的障碍。有关代码的更多信息，请查看pdf中的 `<PC14 Driver’s Vision Obscured by>` 部分：https://crashstats.nhtsa.dot.gov/Api/Public/ViewPublication/812315"
+  ],
+  "sample_rows": [
+    {
+      "州编号": 1,
+      "州名称": "Alabama",
+      "连续编号": 10477,
+      "车辆编号": 5,
+      "drivers_vision_obscured_by": 0,
+      "drivers_vision_obscured_by_name": "No Obstruction Noted"
+    },
+    {
+      "州编号": 4,
+      "州名称": "Arizona",
+      "连续编号": 40164,
+      "车辆编号": 5,
+      "drivers_vision_obscured_by": 0,
+      "drivers_vision_obscured_by_name": "No Obstruction Noted"
+    },
+    {
+      "州编号": 4,
+      "州名称": "Arizona",
+      "连续编号": 40164,
+      "车辆编号": 6,
+      "drivers_vision_obscured_by": 0,
+      "drivers_vision_obscured_by_name": "No Obstruction Noted"
+    },
+    {
+      "州编号": 4,
+      "州名称": "Arizona",
+      "连续编号": 40164,
+      "车辆编号": 7,
+      "drivers_vision_obscured_by": 0,
+      "drivers_vision_obscured_by_name": "No Obstruction Noted"
+    },
+    {
+      "州编号": 4,
+      "州名称": "Arizona",
+      "连续编号": 40453,
+      "车辆编号": 5,
+      "drivers_vision_obscured_by": 0,
+      "drivers_vision_obscured_by_name": "No Obstruction Noted"
+    }
+  ]
+}
