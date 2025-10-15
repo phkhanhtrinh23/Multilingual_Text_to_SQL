@@ -1,0 +1,56 @@
+{
+  "table_name": "compound_structural_alerts_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.compound_structural_alerts_30",
+  "column_names": [
+    "CPDアラートID",
+    "分子登録番号",
+    "アラートID"
+  ],
+  "column_types": [
+    "INT64",
+    "INT64",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "CPD文字列アラートID",
+    "分子登録番号",
+    "アラートID"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "INT64",
+    "INT64"
+  ],
+  "description": [
+    "主キー",
+    "molecule_dictionaryへの外部キー。構造的アラートが検出された化合物。",
+    "構造アラートテーブルへの外部キー。 この化合物で識別されたアラート。"
+  ],
+  "sample_rows": [
+    {
+      "CPD文字列アラートID": 53246522,
+      "分子登録番号": 105,
+      "アラートID": 1
+    },
+    {
+      "CPD文字列アラートID": 53246523,
+      "分子登録番号": 638,
+      "アラートID": 1
+    },
+    {
+      "CPD文字列アラートID": 53246524,
+      "分子登録番号": 722,
+      "アラートID": 1
+    },
+    {
+      "CPD文字列アラートID": 53246525,
+      "分子登録番号": 752,
+      "アラートID": 1
+    },
+    {
+      "CPD文字列アラートID": 53246526,
+      "分子登録番号": 777,
+      "アラートID": 1
+    }
+  ]
+}
