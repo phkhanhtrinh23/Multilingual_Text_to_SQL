@@ -1,0 +1,177 @@
+{
+  "table_name": "drugWarnings",
+  "table_fullname": "bigquery-public-data.open_targets_platform.drugWarnings",
+  "column_names": [
+    "ChEMBL编号",
+    "毒性类别",
+    "国家",
+    "描述",
+    "编号",
+    "参考文献",
+    "警告类型",
+    "年份",
+    "EFO术语",
+    "efo编号",
+    "警告类的 EFO ID"
+  ],
+  "column_types": [
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "STRUCT<list ARRAY<STRUCT<element STRUCT<ref_id STRING, ref_type STRING, ref_url STRING>>>>",
+    "STRING",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "ChEMBL ID",
+    "chemblIds 列表",
+    "ChEMBL ID 列表条目",
+    "毒性等级",
+    "国家",
+    "描述",
+    "编号",
+    "参考文献",
+    "参考列表",
+    "参考列表元素",
+    "引用列表元素ID",
+    "参考列表元素引用类型",
+    "引用列表元素链接",
+    "警告类型",
+    "年",
+    "EFO术语",
+    "EFO编号",
+    "警告类别的efo_id"
+  ],
+  "nested_column_types": [
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+    "ARRAY<STRUCT<element STRING>>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "STRUCT<list ARRAY<STRUCT<element STRUCT<ref_id STRING, ref_type STRING, ref_url STRING>>>>",
+    "ARRAY<STRUCT<element STRUCT<ref_id STRING, ref_type STRING, ref_url STRING>>>",
+    "STRUCT<ref_id STRING, ref_type STRING, ref_url STRING>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "sample_rows": [
+    {
+      "ChEMBL ID": {
+        "list": "[{'element': 'CHEMBL3039594'} {'element': 'CHEMBL3039597'}]"
+      },
+      "毒性等级": null,
+      "国家": "United States",
+      "描述": null,
+      "编号": 2817,
+      "参考文献": {
+        "list": "[]"
+      },
+      "警告类型": "Black Box Warning",
+      "年": null,
+      "EFO术语": null,
+      "EFO编号": null,
+      "警告类别的efo_id": null
+    },
+    {
+      "ChEMBL ID": {
+        "list": "[{'element': 'CHEMBL3989677'} {'element': 'CHEMBL1457'}]"
+      },
+      "毒性等级": null,
+      "国家": "United States",
+      "描述": null,
+      "编号": 2818,
+      "参考文献": {
+        "list": "[]"
+      },
+      "警告类型": "Black Box Warning",
+      "年": null,
+      "EFO术语": null,
+      "EFO编号": null,
+      "警告类别的efo_id": null
+    },
+    {
+      "ChEMBL ID": {
+        "list": "[{'element': 'CHEMBL2359966'} {'element': 'CHEMBL170'}]"
+      },
+      "毒性等级": null,
+      "国家": "United States",
+      "描述": null,
+      "编号": 2820,
+      "参考文献": {
+        "list": "[]"
+      },
+      "警告类型": "Black Box Warning",
+      "年": null,
+      "EFO术语": null,
+      "EFO编号": null,
+      "警告类别的efo_id": null
+    },
+    {
+      "ChEMBL ID": {
+        "list": "[{'element': 'CHEMBL5095051'} {'element': 'CHEMBL637'}]"
+      },
+      "毒性等级": null,
+      "国家": "United States",
+      "描述": null,
+      "编号": 2864,
+      "参考文献": {
+        "list": "[]"
+      },
+      "警告类型": "Black Box Warning",
+      "年": null,
+      "EFO术语": null,
+      "EFO编号": null,
+      "警告类别的efo_id": null
+    },
+    {
+      "ChEMBL ID": {
+        "list": "[{'element': 'CHEMBL1742992'}]"
+      },
+      "毒性等级": null,
+      "国家": "United States",
+      "描述": null,
+      "编号": 221,
+      "参考文献": {
+        "list": "[]"
+      },
+      "警告类型": "Black Box Warning",
+      "年": null,
+      "EFO术语": null,
+      "EFO编号": null,
+      "警告类别的efo_id": null
+    }
+  ]
+}
