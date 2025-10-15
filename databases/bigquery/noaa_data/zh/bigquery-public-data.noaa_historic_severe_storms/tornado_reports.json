@@ -1,0 +1,126 @@
+{
+  "table_name": "tornado_reports",
+  "table_fullname": "bigquery-public-data.noaa_historic_severe_storms.tornado_reports",
+  "column_names": [
+    "时间戳",
+    "时间",
+    "f_scale",
+    "地点",
+    "县",
+    "州",
+    "纬度",
+    "经度",
+    "评论",
+    "报告点"
+  ],
+  "column_types": [
+    "TIMESTAMP",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "FLOAT64",
+    "STRING",
+    "GEOGRAPHY"
+  ],
+  "nested_column_names": [
+    "时间戳",
+    "时间",
+    "f_scale",
+    "地点",
+    "县",
+    "州",
+    "纬度",
+    "经度",
+    "评论",
+    "报告点"
+  ],
+  "nested_column_types": [
+    "TIMESTAMP",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "FLOAT64",
+    "STRING",
+    "GEOGRAPHY"
+  ],
+  "description": [
+    "UTC 时间戳",
+    "UTC 时区",
+    "F-Scale 将 F0-F5 损害分类为工程师和气象学家校准的 28 种不同类型的损害指标（主要是各种类型的建筑，但也包括其他结构以及树木）。",
+    "报告位置",
+    "",
+    "",
+    "纬度保留两位小数",
+    "经度保留两位小数",
+    "",
+    ""
+  ],
+  "sample_rows": [
+    {
+      "时间戳": "2019-01-04 10:40:00+00:00",
+      "时间": "1040",
+      "f_scale": "UNK",
+      "地点": "2 N GRABALL",
+      "县": "HENRY",
+      "州": "AL",
+      "纬度": 31.62,
+      "经度": -85.28,
+      "评论": "TREE DAMAGE FROM A BRIEF TORNADO ABOUT 1.5 MI N OF ABBEVILLE / 2 MI N GRABALL. (TAE)",
+      "报告点": "POINT(-85.28 31.62)"
+    },
+    {
+      "时间戳": "2019-01-19 20:04:00+00:00",
+      "时间": "2004",
+      "f_scale": "UNK",
+      "地点": "3 ENE MULBERRY",
+      "县": "AUTAUGA",
+      "州": "AL",
+      "纬度": 32.49,
+      "经度": -86.73,
+      "评论": "*** 2 INJ *** CORRECTS PREVIOUS TORNADO REPORT TO INCLUDE 2 INJURIES. A NWS STORM SURVEY TEAM CONFIRMED A TORNADO OF EF-1 INTENSITY... WHICH OCCURRED JUST NORTHWEST OF (BMX)",
+      "报告点": "POINT(-86.73 32.49)"
+    },
+    {
+      "时间戳": "2019-01-19 20:52:00+00:00",
+      "时间": "2052",
+      "f_scale": "UNK",
+      "地点": "3 SW WETUMPKA",
+      "县": "ELMORE",
+      "州": "AL",
+      "纬度": 32.52,
+      "经度": -86.24,
+      "评论": "*** 4 INJ *** A NWS STORM SURVEY TEAM CONFIRMED A TORNADO OF HIGH-END EF-2 INTENSITY THAT BEGAN JUST SOUTHWEST OF WETUMPKA AND CONTINUED NORTHEAST... ENDING JUST BEFORE (BMX)",
+      "报告点": "POINT(-86.24 32.52)"
+    },
+    {
+      "时间戳": "2019-01-19 20:58:00+00:00",
+      "时间": "2058",
+      "f_scale": "UNK",
+      "地点": "2 W COTTAGE GROVE",
+      "县": "COOSA",
+      "州": "AL",
+      "纬度": 32.85,
+      "经度": -86.15,
+      "评论": "A NWS STORM SURVEY TEAM CONFIRMED A TORNADO OF EF-1 INTENSITY... AFFECTING AREAS JUST SOUTHEAST OF ROCKFORD IN COOSA COUNTY ALONG COUNTY ROAD 101. (BMX)",
+      "报告点": "POINT(-86.15 32.85)"
+    },
+    {
+      "时间戳": "2019-02-23 23:44:00+00:00",
+      "时间": "2344",
+      "f_scale": "UNK",
+      "地点": "3 WSW GAINESVILLE LAKE",
+      "县": "PICKENS",
+      "州": "AL",
+      "纬度": 33.06,
+      "经度": -88.31,
+      "评论": "CORRECTS PREVIOUS TORNADO REPORT FROM 3 WSW GAINSVILLE LAKE. THE TORNADO TOUCHED DOWN JUST EAST OF NANCY CLARK ROAD... AND FIRST CAUSED DAMAGE ALONG AN EAST-WEST TREELI (BMX)",
+      "报告点": "POINT(-88.31 33.06)"
+    }
+  ]
+}
