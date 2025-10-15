@@ -1,0 +1,76 @@
+{
+  "table_name": "component_domains_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.component_domains_30",
+  "column_names": [
+    "化合物编号",
+    "域ID",
+    "组件ID",
+    "开始位置",
+    "结束位置"
+  ],
+  "column_types": [
+    "INT64",
+    "INT64",
+    "INT64",
+    "INT64",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "化合物编号",
+    "域ID",
+    "组件编号",
+    "起始位置",
+    "结束位置"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "INT64",
+    "INT64",
+    "INT64",
+    "INT64"
+  ],
+  "description": [
+    "主键",
+    "指向 domains 表的外键，标识关联分子组分中包含的域。",
+    "指向 component_sequences 表的外键，指示具有该域的 molecular_component。",
+    "域在 component_sequences 表中序列的起始位置。",
+    "域在 component_sequences 表中给定序列的结束位置。"
+  ],
+  "sample_rows": [
+    {
+      "化合物编号": 233577,
+      "域ID": 2832,
+      "组件编号": 3430,
+      "起始位置": 256,
+      "结束位置": 376
+    },
+    {
+      "化合物编号": 229403,
+      "域ID": 3351,
+      "组件编号": 649,
+      "起始位置": 256,
+      "结束位置": 695
+    },
+    {
+      "化合物编号": 233381,
+      "域ID": 3375,
+      "组件编号": 2296,
+      "起始位置": 256,
+      "结束位置": 433
+    },
+    {
+      "化合物编号": 243399,
+      "域ID": 2630,
+      "组件编号": 7217,
+      "起始位置": 256,
+      "结束位置": 397
+    },
+    {
+      "化合物编号": 247929,
+      "域ID": 2630,
+      "组件编号": 19683,
+      "起始位置": 256,
+      "结束位置": 397
+    }
+  ]
+}
