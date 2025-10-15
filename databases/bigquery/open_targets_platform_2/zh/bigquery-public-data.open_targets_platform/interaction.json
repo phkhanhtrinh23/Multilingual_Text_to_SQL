@@ -1,194 +1,194 @@
 {
-  "table_name": "interaction",
-  "table_fullname": "bigquery-public-data.open_targets_platform.interaction",
-  "column_names": [
-    "源数据库",
-    "目标A",
-    "整数A",
-    "intABiologicalRole",
-    "目标B",
-    "整数B",
-    "intBBiologicalRole",
-    "物种A",
-    "物种B",
-    "数量",
-    "评分"
-  ],
-  "column_types": [
-    "STRING",
-    "STRING",
-    "STRING",
-    "STRING",
-    "STRING",
-    "STRING",
-    "STRING",
-    "STRUCT<mnemonic STRING, scientific_name STRING, taxon_id INT64>",
-    "STRUCT<mnemonic STRING, scientific_name STRING, taxon_id INT64>",
-    "INT64",
-    "FLOAT64"
-  ],
-  "nested_column_names": [
-    "源数据库",
-    "targetA",
-    "intA",
-    "intA生物学角色",
-    "targetB",
-    "intB",
-    "intB生物学角色",
-    "物种A",
-    "speciesA.mnemonic",
-    "speciesA.科学名称",
-    "speciesA.分类学ID",
-    "物种B",
-    "speciesB.mnemonic",
-    "speciesB.科学名称",
-    "speciesB.分类学ID",
-    "数量",
-    "评分"
-  ],
-  "nested_column_types": [
-    "STRING",
-    "STRING",
-    "STRING",
-    "STRING",
-    "STRING",
-    "STRING",
-    "STRING",
-    "STRUCT<mnemonic STRING, scientific_name STRING, taxon_id INT64>",
-    "STRING",
-    "STRING",
-    "INT64",
-    "STRUCT<mnemonic STRING, scientific_name STRING, taxon_id INT64>",
-    "STRING",
-    "STRING",
-    "INT64",
-    "INT64",
-    "FLOAT64"
-  ],
-  "description": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-  ],
-  "sample_rows": [
-    {
-      "源数据库": "intact",
-      "targetA": "ENSG00000174132",
-      "intA": "Q8TBP5",
-      "intA生物学角色": "unspecified role",
-      "targetB": "ENSG00000111647",
-      "intB": "A0JNW5",
-      "intB生物学角色": "unspecified role",
-      "物种A": {
-        "mnemonic": "human",
-        "scientific_name": "Homo sapiens",
-        "taxon_id": 9606
-      },
-      "物种B": {
-        "mnemonic": "human",
-        "scientific_name": "Homo sapiens",
-        "taxon_id": 9606
-      },
-      "数量": 1,
-      "评分": 0.35
-    },
-    {
-      "源数据库": "intact",
-      "targetA": "ENSG00000274391",
-      "intA": "P56180-2",
-      "intA生物学角色": "unspecified role",
-      "targetB": "ENSG00000105135",
-      "intB": "A1L0T0",
-      "intB生物学角色": "unspecified role",
-      "物种A": {
-        "mnemonic": "human",
-        "scientific_name": "Homo sapiens",
-        "taxon_id": 9606
-      },
-      "物种B": {
-        "mnemonic": "human",
-        "scientific_name": "Homo sapiens",
-        "taxon_id": 9606
-      },
-      "数量": 1,
-      "评分": 0.35
-    },
-    {
-      "源数据库": "intact",
-      "targetA": "ENSG00000097096",
-      "intA": "Q5VT97-1",
-      "intA生物学角色": "unspecified role",
-      "targetB": "ENSG00000126822",
-      "intB": "A1L390",
-      "intB生物学角色": "unspecified role",
-      "物种A": {
-        "mnemonic": "human",
-        "scientific_name": "Homo sapiens",
-        "taxon_id": 9606
-      },
-      "物种B": {
-        "mnemonic": "human",
-        "scientific_name": "Homo sapiens",
-        "taxon_id": 9606
-      },
-      "数量": 1,
-      "评分": 0.35
-    },
-    {
-      "源数据库": "intact",
-      "targetA": "ENSG00000167770",
-      "intA": "Q96FW1",
-      "intA生物学角色": "unspecified role",
-      "targetB": "ENSG00000185888",
-      "intB": "A1L453",
-      "intB生物学角色": "unspecified role",
-      "物种A": {
-        "mnemonic": "human",
-        "scientific_name": "Homo sapiens",
-        "taxon_id": 9606
-      },
-      "物种B": {
-        "mnemonic": "human",
-        "scientific_name": "Homo sapiens",
-        "taxon_id": 9606
-      },
-      "数量": 1,
-      "评分": 0.35
-    },
-    {
-      "源数据库": "intact",
-      "targetA": "ENSG00000169951",
-      "intA": "Q96H86",
-      "intA生物学角色": "unspecified role",
-      "targetB": "ENSG00000174705",
-      "intB": "A1X283",
-      "intB生物学角色": "unspecified role",
-      "物种A": {
-        "mnemonic": "human",
-        "scientific_name": "Homo sapiens",
-        "taxon_id": 9606
-      },
-      "物种B": {
-        "mnemonic": "human",
-        "scientific_name": "Homo sapiens",
-        "taxon_id": 9606
-      },
-      "数量": 1,
-      "评分": 0.35
-    }
-  ]
+    "table_name": "interaction",
+    "table_fullname": "bigquery-public-data.open_targets_platform.interaction",
+    "column_names": [
+        "sourceDatabase",
+        "targetA",
+        "intA",
+        "intABiologicalRole",
+        "targetB",
+        "intB",
+        "intBBiologicalRole",
+        "speciesA",
+        "speciesB",
+        "count",
+        "scoring"
+    ],
+    "column_types": [
+        "STRING",
+        "STRING",
+        "STRING",
+        "STRING",
+        "STRING",
+        "STRING",
+        "STRING",
+        "STRUCT<mnemonic STRING, scientific_name STRING, taxon_id INT64>",
+        "STRUCT<mnemonic STRING, scientific_name STRING, taxon_id INT64>",
+        "INT64",
+        "FLOAT64"
+    ],
+    "nested_column_names": [
+        "sourceDatabase",
+        "targetA",
+        "intA",
+        "intABiologicalRole",
+        "targetB",
+        "intB",
+        "intBBiologicalRole",
+        "speciesA",
+        "speciesA.mnemonic",
+        "speciesA.scientific_name",
+        "speciesA.taxon_id",
+        "speciesB",
+        "speciesB.mnemonic",
+        "speciesB.scientific_name",
+        "speciesB.taxon_id",
+        "count",
+        "scoring"
+    ],
+    "nested_column_types": [
+        "STRING",
+        "STRING",
+        "STRING",
+        "STRING",
+        "STRING",
+        "STRING",
+        "STRING",
+        "STRUCT<mnemonic STRING, scientific_name STRING, taxon_id INT64>",
+        "STRING",
+        "STRING",
+        "INT64",
+        "STRUCT<mnemonic STRING, scientific_name STRING, taxon_id INT64>",
+        "STRING",
+        "STRING",
+        "INT64",
+        "INT64",
+        "FLOAT64"
+    ],
+    "description": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+    ],
+    "sample_rows": [
+        {
+            "sourceDatabase": "intact",
+            "targetA": "ENSG00000174132",
+            "intA": "Q8TBP5",
+            "intABiologicalRole": "unspecified role",
+            "targetB": "ENSG00000111647",
+            "intB": "A0JNW5",
+            "intBBiologicalRole": "unspecified role",
+            "speciesA": {
+                "mnemonic": "human",
+                "scientific_name": "Homo sapiens",
+                "taxon_id": 9606
+            },
+            "speciesB": {
+                "mnemonic": "human",
+                "scientific_name": "Homo sapiens",
+                "taxon_id": 9606
+            },
+            "count": 1,
+            "scoring": 0.35
+        },
+        {
+            "sourceDatabase": "intact",
+            "targetA": "ENSG00000274391",
+            "intA": "P56180-2",
+            "intABiologicalRole": "unspecified role",
+            "targetB": "ENSG00000105135",
+            "intB": "A1L0T0",
+            "intBBiologicalRole": "unspecified role",
+            "speciesA": {
+                "mnemonic": "human",
+                "scientific_name": "Homo sapiens",
+                "taxon_id": 9606
+            },
+            "speciesB": {
+                "mnemonic": "human",
+                "scientific_name": "Homo sapiens",
+                "taxon_id": 9606
+            },
+            "count": 1,
+            "scoring": 0.35
+        },
+        {
+            "sourceDatabase": "intact",
+            "targetA": "ENSG00000097096",
+            "intA": "Q5VT97-1",
+            "intABiologicalRole": "unspecified role",
+            "targetB": "ENSG00000126822",
+            "intB": "A1L390",
+            "intBBiologicalRole": "unspecified role",
+            "speciesA": {
+                "mnemonic": "human",
+                "scientific_name": "Homo sapiens",
+                "taxon_id": 9606
+            },
+            "speciesB": {
+                "mnemonic": "human",
+                "scientific_name": "Homo sapiens",
+                "taxon_id": 9606
+            },
+            "count": 1,
+            "scoring": 0.35
+        },
+        {
+            "sourceDatabase": "intact",
+            "targetA": "ENSG00000167770",
+            "intA": "Q96FW1",
+            "intABiologicalRole": "unspecified role",
+            "targetB": "ENSG00000185888",
+            "intB": "A1L453",
+            "intBBiologicalRole": "unspecified role",
+            "speciesA": {
+                "mnemonic": "human",
+                "scientific_name": "Homo sapiens",
+                "taxon_id": 9606
+            },
+            "speciesB": {
+                "mnemonic": "human",
+                "scientific_name": "Homo sapiens",
+                "taxon_id": 9606
+            },
+            "count": 1,
+            "scoring": 0.35
+        },
+        {
+            "sourceDatabase": "intact",
+            "targetA": "ENSG00000169951",
+            "intA": "Q96H86",
+            "intABiologicalRole": "unspecified role",
+            "targetB": "ENSG00000174705",
+            "intB": "A1X283",
+            "intBBiologicalRole": "unspecified role",
+            "speciesA": {
+                "mnemonic": "human",
+                "scientific_name": "Homo sapiens",
+                "taxon_id": 9606
+            },
+            "speciesB": {
+                "mnemonic": "human",
+                "scientific_name": "Homo sapiens",
+                "taxon_id": 9606
+            },
+            "count": 1,
+            "scoring": 0.35
+        }
+    ]
 }

@@ -1,36 +1,36 @@
 {
-  "table_name": "activity_smid_30",
-  "table_fullname": "bigquery-public-data.ebi_chembl.activity_smid_30",
-  "column_names": [
-    "0 股票代码"
-  ],
-  "column_types": [
-    "INT64"
-  ],
-  "nested_column_names": [
-    "0 股票代码"
-  ],
-  "nested_column_types": [
-    "INT64"
-  ],
-  "description": [
-    "在 ACTIVITY_SUPP_MAP 中 FK 指向 SMID，并且在 ACTIVITY_SUPP 中 FK 指向 SMID"
-  ],
-  "sample_rows": [
-    {
-      "0 股票代码": 2
-    },
-    {
-      "0 股票代码": 3
-    },
-    {
-      "0 股票代码": 4
-    },
-    {
-      "0 股票代码": 5
-    },
-    {
-      "0 股票代码": 6
-    }
-  ]
+    "table_name": "activity_smid_30",
+    "table_fullname": "bigquery-public-data.ebi_chembl.activity_smid_30",
+    "column_names": [
+        "smid"
+    ],
+    "column_types": [
+        "INT64"
+    ],
+    "nested_column_names": [
+        "smid"
+    ],
+    "nested_column_types": [
+        "INT64"
+    ],
+    "description": [
+        "FK to SMID in ACTIVITY_SUPP_MAP, and a FK to SMID in ACTIVITY_SUPP"
+    ],
+    "sample_rows": [
+        {
+            "smid": 2
+        },
+        {
+            "smid": 3
+        },
+        {
+            "smid": 4
+        },
+        {
+            "smid": 5
+        },
+        {
+            "smid": 6
+        }
+    ]
 }

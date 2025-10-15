@@ -1,76 +1,76 @@
 {
-  "table_name": "mechanism_refs_30",
-  "table_fullname": "bigquery-public-data.ebi_chembl.mechanism_refs_30",
-  "column_names": [
-    "参考资料id",
-    "机械id",
-    "参考类型",
-    "参考id",
-    "参考url"
-  ],
-  "column_types": [
-    "INT64",
-    "INT64",
-    "STRING",
-    "STRING",
-    "STRING"
-  ],
-  "nested_column_names": [
-    "参考ID",
-    "机械ID",
-    "引用类型",
-    "引用ID",
-    "引用URL"
-  ],
-  "nested_column_types": [
-    "INT64",
-    "INT64",
-    "STRING",
-    "STRING",
-    "STRING"
-  ],
-  "description": [
-    "主键",
-    "指向 drug_mechanism 表的外键 - 表示参考资料所指的机制",
-    "参考资料的类型/来源（例如，'PubMed','DailyMed'）",
-    "参考资料在来源中的标识符（例如，PubMed ID 或 DailyMed setid）",
-    "链接到参考资料的完整 URL"
-  ],
-  "sample_rows": [
-    {
-      "参考ID": 15815,
-      "机械ID": 9092,
-      "引用类型": "BNF",
-      "引用ID": "https://bnf.nice.org.uk/drug/enoximone.html",
-      "引用URL": "https://bnf.nice.org.uk/drug/enoximone.html"
-    },
-    {
-      "参考ID": 14359,
-      "机械ID": 8478,
-      "引用类型": "BNF",
-      "引用ID": "https://bnf.nice.org.uk/drug/simeticone.html",
-      "引用URL": "https://bnf.nice.org.uk/drug/simeticone.html"
-    },
-    {
-      "参考ID": 15068,
-      "机械ID": 8036,
-      "引用类型": "BNF",
-      "引用ID": "https://bnf.nice.org.uk/drug/temocillin.html",
-      "引用URL": "https://bnf.nice.org.uk/drug/temocillin.html"
-    },
-    {
-      "参考ID": 14855,
-      "机械ID": 8429,
-      "引用类型": "BNF",
-      "引用ID": "https://bnf.nice.org.uk/drug/lenograstim.html",
-      "引用URL": "https://bnf.nice.org.uk/drug/lenograstim.html"
-    },
-    {
-      "参考ID": 15664,
-      "机械ID": 8942,
-      "引用类型": "BNF",
-      "引用ID": "https://bnf.nice.org.uk/drug/quinagolide.html",
-      "引用URL": "https://bnf.nice.org.uk/drug/quinagolide.html"
-    }
-  ]
+    "table_name": "mechanism_refs_30",
+    "table_fullname": "bigquery-public-data.ebi_chembl.mechanism_refs_30",
+    "column_names": [
+        "mecref_id",
+        "mec_id",
+        "ref_type",
+        "ref_id",
+        "ref_url"
+    ],
+    "column_types": [
+        "INT64",
+        "INT64",
+        "STRING",
+        "STRING",
+        "STRING"
+    ],
+    "nested_column_names": [
+        "mecref_id",
+        "mec_id",
+        "ref_type",
+        "ref_id",
+        "ref_url"
+    ],
+    "nested_column_types": [
+        "INT64",
+        "INT64",
+        "STRING",
+        "STRING",
+        "STRING"
+    ],
+    "description": [
+        "Primary key",
+        "Foreign key to drug_mechanism table - indicating the mechanism to which the references refer",
+        "Type/source of reference (e.g., 'PubMed','DailyMed')",
+        " Identifier for the reference in the source (e.g., PubMed ID or DailyMed setid)",
+        " Full URL linking to the reference"
+    ],
+    "sample_rows": [
+        {
+            "mecref_id": 15815,
+            "mec_id": 9092,
+            "ref_type": "BNF",
+            "ref_id": "https://bnf.nice.org.uk/drug/enoximone.html",
+            "ref_url": "https://bnf.nice.org.uk/drug/enoximone.html"
+        },
+        {
+            "mecref_id": 14359,
+            "mec_id": 8478,
+            "ref_type": "BNF",
+            "ref_id": "https://bnf.nice.org.uk/drug/simeticone.html",
+            "ref_url": "https://bnf.nice.org.uk/drug/simeticone.html"
+        },
+        {
+            "mecref_id": 15068,
+            "mec_id": 8036,
+            "ref_type": "BNF",
+            "ref_id": "https://bnf.nice.org.uk/drug/temocillin.html",
+            "ref_url": "https://bnf.nice.org.uk/drug/temocillin.html"
+        },
+        {
+            "mecref_id": 14855,
+            "mec_id": 8429,
+            "ref_type": "BNF",
+            "ref_id": "https://bnf.nice.org.uk/drug/lenograstim.html",
+            "ref_url": "https://bnf.nice.org.uk/drug/lenograstim.html"
+        },
+        {
+            "mecref_id": 15664,
+            "mec_id": 8942,
+            "ref_type": "BNF",
+            "ref_id": "https://bnf.nice.org.uk/drug/quinagolide.html",
+            "ref_url": "https://bnf.nice.org.uk/drug/quinagolide.html"
+        }
+    ]
 }

@@ -1,76 +1,76 @@
 {
-  "table_name": "BarcodeMap",
-  "table_fullname": "isb-cgc-bq.pancancer_atlas.BarcodeMap",
-  "column_names": [
-    "参与者条码",
-    "样本条码",
-    "分样条码",
-    "Study",
-    "SampleTypeLetterCode"
-  ],
-  "column_types": [
-    "STRING",
-    "STRING",
-    "STRING",
-    "STRING",
-    "STRING"
-  ],
-  "nested_column_names": [
-    "参与者条形码",
-    "样本条形码",
-    "分配条形码",
-    "Study",
-    "SampleTypeLetterCode"
-  ],
-  "nested_column_types": [
-    "STRING",
-    "STRING",
-    "STRING",
-    "STRING",
-    "STRING"
-  ],
-  "description": [
-    "研究参与者的TCGA条码标识符，例如 `TCGA-02-0001`",
-    "生物样本的条码，例如 `TCGA-13-1489-02A`",
-    "TCGA aliquot条码，例如 `TCGA-12-1089-01A-01D-0517-28`",
-    "TCGA研究缩写，例如 `LAML`。完整列表可在https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/tcga-study-abbreviations找到",
-    "使用TCGA标准的样本类型字母代码，例如 `TPN`， `EBV`。完整列表可在https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/sample-type-codes找到"
-  ],
-  "sample_rows": [
-    {
-      "参与者条形码": "TCGA-04-1331",
-      "样本条形码": "TCGA-04-1331-10A",
-      "分配条形码": "TCGA-04-1331-10A-01D-0428-01",
-      "Study": "OV",
-      "SampleTypeLetterCode": "NB"
-    },
-    {
-      "参与者条形码": "TCGA-04-1331",
-      "样本条形码": "TCGA-04-1331-10A",
-      "分配条形码": "TCGA-04-1331-10A-01D-0429-04",
-      "Study": "OV",
-      "SampleTypeLetterCode": "NB"
-    },
-    {
-      "参与者条形码": "TCGA-04-1331",
-      "样本条形码": "TCGA-04-1331-10A",
-      "分配条形码": "TCGA-04-1331-10A-01D-0430-06",
-      "Study": "OV",
-      "SampleTypeLetterCode": "NB"
-    },
-    {
-      "参与者条形码": "TCGA-04-1331",
-      "样本条形码": "TCGA-04-1331-10A",
-      "分配条形码": "TCGA-04-1331-10A-01D-0431-02",
-      "Study": "OV",
-      "SampleTypeLetterCode": "NB"
-    },
-    {
-      "参与者条形码": "TCGA-04-1331",
-      "样本条形码": "TCGA-04-1331-10A",
-      "分配条形码": "TCGA-04-1331-10A-01D-1036-01",
-      "Study": "OV",
-      "SampleTypeLetterCode": "NB"
-    }
-  ]
+    "table_name": "BarcodeMap",
+    "table_fullname": "isb-cgc-bq.pancancer_atlas.BarcodeMap",
+    "column_names": [
+        "ParticipantBarcode",
+        "SampleBarcode",
+        "AliquotBarcode",
+        "Study",
+        "SampleTypeLetterCode"
+    ],
+    "column_types": [
+        "STRING",
+        "STRING",
+        "STRING",
+        "STRING",
+        "STRING"
+    ],
+    "nested_column_names": [
+        "ParticipantBarcode",
+        "SampleBarcode",
+        "AliquotBarcode",
+        "Study",
+        "SampleTypeLetterCode"
+    ],
+    "nested_column_types": [
+        "STRING",
+        "STRING",
+        "STRING",
+        "STRING",
+        "STRING"
+    ],
+    "description": [
+        "TCGA barcode identifier for the study participant, eg TCGA-02-0001",
+        "Barcode of the biospecimen sample, eg TCGA-13-1489-02A",
+        "TCGA aliquot barcode, eg TCGA-12-1089-01A-01D-0517-28",
+        "TCGA study abbreviation, eg LAML. Full list available at https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/tcga-study-abbreviations",
+        "Letter code of the sample type using the TCGA standards, eg TPN, EBV. Full list available at https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/sample-type-codes"
+    ],
+    "sample_rows": [
+        {
+            "ParticipantBarcode": "TCGA-04-1331",
+            "SampleBarcode": "TCGA-04-1331-10A",
+            "AliquotBarcode": "TCGA-04-1331-10A-01D-0428-01",
+            "Study": "OV",
+            "SampleTypeLetterCode": "NB"
+        },
+        {
+            "ParticipantBarcode": "TCGA-04-1331",
+            "SampleBarcode": "TCGA-04-1331-10A",
+            "AliquotBarcode": "TCGA-04-1331-10A-01D-0429-04",
+            "Study": "OV",
+            "SampleTypeLetterCode": "NB"
+        },
+        {
+            "ParticipantBarcode": "TCGA-04-1331",
+            "SampleBarcode": "TCGA-04-1331-10A",
+            "AliquotBarcode": "TCGA-04-1331-10A-01D-0430-06",
+            "Study": "OV",
+            "SampleTypeLetterCode": "NB"
+        },
+        {
+            "ParticipantBarcode": "TCGA-04-1331",
+            "SampleBarcode": "TCGA-04-1331-10A",
+            "AliquotBarcode": "TCGA-04-1331-10A-01D-0431-02",
+            "Study": "OV",
+            "SampleTypeLetterCode": "NB"
+        },
+        {
+            "ParticipantBarcode": "TCGA-04-1331",
+            "SampleBarcode": "TCGA-04-1331-10A",
+            "AliquotBarcode": "TCGA-04-1331-10A-01D-1036-01",
+            "Study": "OV",
+            "SampleTypeLetterCode": "NB"
+        }
+    ]
 }

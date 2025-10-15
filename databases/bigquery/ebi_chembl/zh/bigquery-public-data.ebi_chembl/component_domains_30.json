@@ -1,76 +1,76 @@
 {
-  "table_name": "component_domains_30",
-  "table_fullname": "bigquery-public-data.ebi_chembl.component_domains_30",
-  "column_names": [
-    "化合物id",
-    "域id",
-    "组件id",
-    "开始位置",
-    "结束位置"
-  ],
-  "column_types": [
-    "INT64",
-    "INT64",
-    "INT64",
-    "INT64",
-    "INT64"
-  ],
-  "nested_column_names": [
-    "化合物id",
-    "域id",
-    "组件id",
-    "开始位置",
-    "结束位置"
-  ],
-  "nested_column_types": [
-    "INT64",
-    "INT64",
-    "INT64",
-    "INT64",
-    "INT64"
-  ],
-  "description": [
-    "主键。",
-    "指向 domains 表的外键，表示包含在相关分子组件中的域。",
-    "指向 component_sequences 表的外键，表示具有给定域的 molecular_component。",
-    "域在 component_sequences 表中给出的序列中的起始位置。",
-    "域在 component_sequences 表中给出的序列中的结束位置。"
-  ],
-  "sample_rows": [
-    {
-      "化合物id": 233577,
-      "域id": 2832,
-      "组件id": 3430,
-      "开始位置": 256,
-      "结束位置": 376
-    },
-    {
-      "化合物id": 229403,
-      "域id": 3351,
-      "组件id": 649,
-      "开始位置": 256,
-      "结束位置": 695
-    },
-    {
-      "化合物id": 233381,
-      "域id": 3375,
-      "组件id": 2296,
-      "开始位置": 256,
-      "结束位置": 433
-    },
-    {
-      "化合物id": 243399,
-      "域id": 2630,
-      "组件id": 7217,
-      "开始位置": 256,
-      "结束位置": 397
-    },
-    {
-      "化合物id": 247929,
-      "域id": 2630,
-      "组件id": 19683,
-      "开始位置": 256,
-      "结束位置": 397
-    }
-  ]
+    "table_name": "component_domains_30",
+    "table_fullname": "bigquery-public-data.ebi_chembl.component_domains_30",
+    "column_names": [
+        "compd_id",
+        "domain_id",
+        "component_id",
+        "start_position",
+        "end_position"
+    ],
+    "column_types": [
+        "INT64",
+        "INT64",
+        "INT64",
+        "INT64",
+        "INT64"
+    ],
+    "nested_column_names": [
+        "compd_id",
+        "domain_id",
+        "component_id",
+        "start_position",
+        "end_position"
+    ],
+    "nested_column_types": [
+        "INT64",
+        "INT64",
+        "INT64",
+        "INT64",
+        "INT64"
+    ],
+    "description": [
+        "Primary key.",
+        "Foreign key to the domains table, indicating the domain that is contained in the associated molecular component.",
+        "Foreign key to the component_sequences table, indicating the molecular_component that has the given domain.",
+        "Start position of the domain within the sequence given in the component_sequences table.",
+        "End position of the domain within the sequence given in the component_sequences table."
+    ],
+    "sample_rows": [
+        {
+            "compd_id": 233577,
+            "domain_id": 2832,
+            "component_id": 3430,
+            "start_position": 256,
+            "end_position": 376
+        },
+        {
+            "compd_id": 229403,
+            "domain_id": 3351,
+            "component_id": 649,
+            "start_position": 256,
+            "end_position": 695
+        },
+        {
+            "compd_id": 233381,
+            "domain_id": 3375,
+            "component_id": 2296,
+            "start_position": 256,
+            "end_position": 433
+        },
+        {
+            "compd_id": 243399,
+            "domain_id": 2630,
+            "component_id": 7217,
+            "start_position": 256,
+            "end_position": 397
+        },
+        {
+            "compd_id": 247929,
+            "domain_id": 2630,
+            "component_id": 19683,
+            "start_position": 256,
+            "end_position": 397
+        }
+    ]
 }

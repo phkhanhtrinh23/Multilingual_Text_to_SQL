@@ -1,66 +1,66 @@
 {
-  "table_name": "routes",
-  "table_fullname": "bigquery-public-data.san_francisco_transit_muni.routes",
-  "column_names": [
-    "路线id",
-    "路线简称",
-    "路线全称",
-    "路线类型"
-  ],
-  "column_types": [
-    "STRING",
-    "STRING",
-    "STRING",
-    "STRING"
-  ],
-  "nested_column_names": [
-    "路线id",
-    "路线简称",
-    "路线全称",
-    "路线类型"
-  ],
-  "nested_column_types": [
-    "STRING",
-    "STRING",
-    "STRING",
-    "STRING"
-  ],
-  "description": [
-    "每条路线的唯一标识符。单条路线将有多次行程",
-    "包含路线的简短名称。这是一个简短的、抽象的标识符，如 32、100X 或 Green，乘客使用它来识别路线，但它不能表明路线服务的地点。",
-    "包含路线的全名。该名称通常比 route_short_name 中的名称更具描述性，往往包括路线的目的地或停靠站。",
-    "\"描述路线上使用的交通类型。该字段的有效值如下： -  light_rail: 有轨电车或轻轨。用于任何城市地区内的轻轨或地面系统。 -  subway: 地铁或地下铁。用于任何城市地区内的地下铁系统。 -  rail: 用于市际或长距离旅行。 -  bus: 用于短距离和长距离的巴士路线。 -  ferry: 用于短距离和长距离的船舶服务。 -  cable_car: 用于地面电车，其中电车下方运行的电缆。 -  tram: 索道或悬挂电车。通常用于悬挂在电缆上的空中电车。 -  funicular: 用于任何具有电缆牵引系统的陡峭斜坡上的铁系统。\""
-  ],
-  "sample_rows": [
-    {
-      "路线id": "83X",
-      "路线简称": "83X",
-      "路线全称": "MID-MARKET EXPRESS",
-      "路线类型": "3"
-    },
-    {
-      "路线id": "82X",
-      "路线简称": "82X",
-      "路线全称": "LEVI PLAZA EXPRESS",
-      "路线类型": "3"
-    },
-    {
-      "路线id": "E",
-      "路线简称": "E",
-      "路线全称": "EMBARCADERO",
-      "路线类型": "0"
-    },
-    {
-      "路线id": "KT",
-      "路线简称": "KT",
-      "路线全称": "INGLESIDE-THIRD",
-      "路线类型": "0"
-    },
-    {
-      "路线id": "3",
-      "路线简称": "3",
-      "路线全称": "JACKSON",
-      "路线类型": "3"
-    }
-  ]
+    "table_name": "routes",
+    "table_fullname": "bigquery-public-data.san_francisco_transit_muni.routes",
+    "column_names": [
+        "route_id",
+        "route_short_name",
+        "route_long_name",
+        "route_type"
+    ],
+    "column_types": [
+        "STRING",
+        "STRING",
+        "STRING",
+        "STRING"
+    ],
+    "nested_column_names": [
+        "route_id",
+        "route_short_name",
+        "route_long_name",
+        "route_type"
+    ],
+    "nested_column_types": [
+        "STRING",
+        "STRING",
+        "STRING",
+        "STRING"
+    ],
+    "description": [
+        "Unique identifier for each route. A single route will have multiple trips",
+        "Contains the short name of a route. This is a short, abstract identifier like 32, 100X, or Green that riders use to identify a route, but which doesn't give any indication of what places the route serves.",
+        "Contains the full name of a route. This name is generally more descriptive than the name from route_short_name and often includes the route's destination or stop.",
+        "\"Describes the type of transportation used on a route. The following are valid values for this field:  -  light_rail: Streetcar or light rail. Used for any light rail or street-level system within a metropolitan area. -  subway: Subway or metro. Used for any underground rail system within a metropolitan area. -  rail: Used for intercity or long-distance travel. -  bus: Used for short- and long-distance bus routes. -  ferry: Used for short- and long-distance boat service. -  cable_car: Used for street-level cable cars where the cable runs beneath the car. -  tram: Gondola or suspended cable car. Typically used for aerial cable cars where the car is suspended from the cable. -  funicular: Used for any rail system that moves on steep inclines with a cable traction system.\""
+    ],
+    "sample_rows": [
+        {
+            "route_id": "83X",
+            "route_short_name": "83X",
+            "route_long_name": "MID-MARKET EXPRESS",
+            "route_type": "3"
+        },
+        {
+            "route_id": "82X",
+            "route_short_name": "82X",
+            "route_long_name": "LEVI PLAZA EXPRESS",
+            "route_type": "3"
+        },
+        {
+            "route_id": "E",
+            "route_short_name": "E",
+            "route_long_name": "EMBARCADERO",
+            "route_type": "0"
+        },
+        {
+            "route_id": "KT",
+            "route_short_name": "KT",
+            "route_long_name": "INGLESIDE-THIRD",
+            "route_type": "0"
+        },
+        {
+            "route_id": "3",
+            "route_short_name": "3",
+            "route_long_name": "JACKSON",
+            "route_type": "3"
+        }
+    ]
 }

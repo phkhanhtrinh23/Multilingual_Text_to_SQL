@@ -1,56 +1,56 @@
 {
-  "table_name": "molecule_frac_classification_30",
-  "table_fullname": "bigquery-public-data.ebi_chembl.molecule_frac_classification_30",
-  "column_names": [
-    "分子分数id",
-    "分数类id",
-    "molregno"
-  ],
-  "column_types": [
-    "INT64",
-    "INT64",
-    "INT64"
-  ],
-  "nested_column_names": [
-    "分子分数id",
-    "分数类id",
-    "molregno"
-  ],
-  "nested_column_types": [
-    "INT64",
-    "INT64",
-    "INT64"
-  ],
-  "description": [
-    "主键。",
-    "指向 frac_classification 表的外键，显示化合物的作用机制分类。",
-    "指向 molecule_dictionary 的外键，显示应用此分类的化合物。"
-  ],
-  "sample_rows": [
-    {
-      "分子分数id": 139,
-      "分数类id": 513,
-      "molregno": 1627948
-    },
-    {
-      "分子分数id": 123,
-      "分数类id": 514,
-      "molregno": 1486302
-    },
-    {
-      "分子分数id": 114,
-      "分数类id": 515,
-      "molregno": 1461886
-    },
-    {
-      "分子分数id": 29,
-      "分数类id": 519,
-      "molregno": 435442
-    },
-    {
-      "分子分数id": 131,
-      "分数类id": 520,
-      "molregno": 1493581
-    }
-  ]
+    "table_name": "molecule_frac_classification_30",
+    "table_fullname": "bigquery-public-data.ebi_chembl.molecule_frac_classification_30",
+    "column_names": [
+        "mol_frac_id",
+        "frac_class_id",
+        "molregno"
+    ],
+    "column_types": [
+        "INT64",
+        "INT64",
+        "INT64"
+    ],
+    "nested_column_names": [
+        "mol_frac_id",
+        "frac_class_id",
+        "molregno"
+    ],
+    "nested_column_types": [
+        "INT64",
+        "INT64",
+        "INT64"
+    ],
+    "description": [
+        "Primary key.",
+        "Foreign key to frac_classification table showing the mechanism of action classification of the compound.",
+        "Foreign key to molecule_dictionary, showing the compound to which the classification applies."
+    ],
+    "sample_rows": [
+        {
+            "mol_frac_id": 139,
+            "frac_class_id": 513,
+            "molregno": 1627948
+        },
+        {
+            "mol_frac_id": 123,
+            "frac_class_id": 514,
+            "molregno": 1486302
+        },
+        {
+            "mol_frac_id": 114,
+            "frac_class_id": 515,
+            "molregno": 1461886
+        },
+        {
+            "mol_frac_id": 29,
+            "frac_class_id": 519,
+            "molregno": 435442
+        },
+        {
+            "mol_frac_id": 131,
+            "frac_class_id": 520,
+            "molregno": 1493581
+        }
+    ]
 }

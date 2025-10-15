@@ -1,106 +1,106 @@
 {
-  "table_name": "drug_indication_30",
-  "table_fullname": "bigquery-public-data.ebi_chembl.drug_indication_30",
-  "column_names": [
-    "药物指标id",
-    "记录id",
-    "molregno",
-    "最大阶段指标",
-    "mesh_id",
-    "mesh标题",
-    "efo_id",
-    "efo术语"
-  ],
-  "column_types": [
-    "INT64",
-    "INT64",
-    "INT64",
-    "INT64",
-    "STRING",
-    "STRING",
-    "STRING",
-    "STRING"
-  ],
-  "nested_column_names": [
-    "药物指标id",
-    "记录id",
-    "molregno",
-    "最大阶段指标",
-    "mesh_id",
-    "mesh标题",
-    "efo_id",
-    "efo术语"
-  ],
-  "nested_column_types": [
-    "INT64",
-    "INT64",
-    "INT64",
-    "INT64",
-    "STRING",
-    "STRING",
-    "STRING",
-    "STRING"
-  ],
-  "description": [
-    "主键",
-    "指向 `compound_records` 表的外键，链接到此指示适用的药物记录",
-    "对应于 `compound_records` 表中的 `record_id` 的 `Molregno`",
-    "药物已知为此特定指示所达到的开发最大阶段",
-    "医学主题标头（MeSH）疾病标识符，相应于指示",
-    "医学主题标头术语，用于 MeSH 疾病 ID",
-    "实验因子本体论（EFO）疾病标识符，相应于指示",
-    "实验因子本体论术语，用于 EFO ID"
-  ],
-  "sample_rows": [
-    {
-      "药物指标id": 54362,
-      "记录id": 1697032,
-      "molregno": 1380217,
-      "最大阶段指标": 0,
-      "mesh_id": "D000375",
-      "mesh标题": "Aging",
-      "efo_id": "GO:0007568",
-      "efo术语": "aging"
-    },
-    {
-      "药物指标id": 122845,
-      "记录id": 1344486,
-      "molregno": 675637,
-      "最大阶段指标": 0,
-      "mesh_id": "D000375",
-      "mesh标题": "Aging",
-      "efo_id": "GO:0007568",
-      "efo术语": "aging"
-    },
-    {
-      "药物指标id": 121760,
-      "记录id": 1701733,
-      "molregno": 1377512,
-      "最大阶段指标": 0,
-      "mesh_id": "D014549",
-      "mesh标题": "Urinary Incontinence",
-      "efo_id": "HP:0000020",
-      "efo术语": "Urinary incontinence"
-    },
-    {
-      "药物指标id": 130058,
-      "记录id": 3460748,
-      "molregno": 1797543,
-      "最大阶段指标": 0,
-      "mesh_id": "D014549",
-      "mesh标题": "Urinary Incontinence",
-      "efo_id": "HP:0000020",
-      "efo术语": "Urinary incontinence"
-    },
-    {
-      "药物指标id": 121019,
-      "记录id": 1344763,
-      "molregno": 858397,
-      "最大阶段指标": 0,
-      "mesh_id": "D051437",
-      "mesh标题": "Renal Insufficiency",
-      "efo_id": "HP:0000083",
-      "efo术语": "Renal insufficiency"
-    }
-  ]
+    "table_name": "drug_indication_30",
+    "table_fullname": "bigquery-public-data.ebi_chembl.drug_indication_30",
+    "column_names": [
+        "drugind_id",
+        "record_id",
+        "molregno",
+        "max_phase_for_ind",
+        "mesh_id",
+        "mesh_heading",
+        "efo_id",
+        "efo_term"
+    ],
+    "column_types": [
+        "INT64",
+        "INT64",
+        "INT64",
+        "INT64",
+        "STRING",
+        "STRING",
+        "STRING",
+        "STRING"
+    ],
+    "nested_column_names": [
+        "drugind_id",
+        "record_id",
+        "molregno",
+        "max_phase_for_ind",
+        "mesh_id",
+        "mesh_heading",
+        "efo_id",
+        "efo_term"
+    ],
+    "nested_column_types": [
+        "INT64",
+        "INT64",
+        "INT64",
+        "INT64",
+        "STRING",
+        "STRING",
+        "STRING",
+        "STRING"
+    ],
+    "description": [
+        "Primary key",
+        "Foreign key to compound_records table. Links to the drug record to which this indication applies",
+        "Molregno corresponding to the record_id in the compound_records table",
+        "The maximum phase of development that the drug is known to have reached for this particular indication",
+        "Medical Subject Headings (MeSH) disease identifier corresponding to the indication",
+        "Medical Subject Heading term for the MeSH disease ID",
+        "Experimental Factor Ontology (EFO) disease identifier corresponding to the indication",
+        " Experimental Factor Ontology term for the EFO ID"
+    ],
+    "sample_rows": [
+        {
+            "drugind_id": 54362,
+            "record_id": 1697032,
+            "molregno": 1380217,
+            "max_phase_for_ind": 0,
+            "mesh_id": "D000375",
+            "mesh_heading": "Aging",
+            "efo_id": "GO:0007568",
+            "efo_term": "aging"
+        },
+        {
+            "drugind_id": 122845,
+            "record_id": 1344486,
+            "molregno": 675637,
+            "max_phase_for_ind": 0,
+            "mesh_id": "D000375",
+            "mesh_heading": "Aging",
+            "efo_id": "GO:0007568",
+            "efo_term": "aging"
+        },
+        {
+            "drugind_id": 121760,
+            "record_id": 1701733,
+            "molregno": 1377512,
+            "max_phase_for_ind": 0,
+            "mesh_id": "D014549",
+            "mesh_heading": "Urinary Incontinence",
+            "efo_id": "HP:0000020",
+            "efo_term": "Urinary incontinence"
+        },
+        {
+            "drugind_id": 130058,
+            "record_id": 3460748,
+            "molregno": 1797543,
+            "max_phase_for_ind": 0,
+            "mesh_id": "D014549",
+            "mesh_heading": "Urinary Incontinence",
+            "efo_id": "HP:0000020",
+            "efo_term": "Urinary incontinence"
+        },
+        {
+            "drugind_id": 121019,
+            "record_id": 1344763,
+            "molregno": 858397,
+            "max_phase_for_ind": 0,
+            "mesh_id": "D051437",
+            "mesh_heading": "Renal Insufficiency",
+            "efo_id": "HP:0000083",
+            "efo_term": "Renal insufficiency"
+        }
+    ]
 }

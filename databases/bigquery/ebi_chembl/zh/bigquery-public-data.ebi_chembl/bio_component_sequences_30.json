@@ -1,96 +1,96 @@
 {
-  "table_name": "bio_component_sequences_30",
-  "table_fullname": "bigquery-public-data.ebi_chembl.bio_component_sequences_30",
-  "column_names": [
-    "组件id",
-    "组件类型",
-    "描述",
-    "序列",
-    "序列md5sum",
-    "tax_id",
-    "生物体"
-  ],
-  "column_types": [
-    "INT64",
-    "STRING",
-    "STRING",
-    "STRING",
-    "STRING",
-    "INT64",
-    "STRING"
-  ],
-  "nested_column_names": [
-    "组件id",
-    "组件类型",
-    "描述",
-    "序列",
-    "序列md5sum",
-    "tax_id",
-    "生物体"
-  ],
-  "nested_column_types": [
-    "INT64",
-    "STRING",
-    "STRING",
-    "STRING",
-    "STRING",
-    "INT64",
-    "STRING"
-  ],
-  "description": [
-    "主键。ChEMBL中生物治疗的分子组成部分的唯一标识符（例如，抗体链，重组蛋白，合成肽）。",
-    "分子组成部分的类型（例如，'PROTEIN','DNA','RNA'）。",
-    "分子组成部分的描述/名称。",
-    "生物治疗组成部分的序列。",
-    "序列的MD5校验和。",
-    "序列来源物种的NCBI tax ID。对于人源化单克隆抗体，合成肽等可能为null。",
-    "序列来源物种的名称。"
-  ],
-  "sample_rows": [
-    {
-      "组件id": 6288,
-      "组件类型": "PROTEIN",
-      "描述": "Tigatuzumab light chain",
-      "序列": "DIQMTQSPSSLSASVGDRVTITCKASQDVGTAVAWYQQKPGKAPKLLIYWASTRHTGVPSRFSGSGSGTDFTLTISSLQPEDFATYYCQQYSSYRTFGQGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
-      "序列md5sum": "19b1591070d7f2a101ea4dbea681e46e",
-      "tax_id": null,
-      "生物体": null
-    },
-    {
-      "组件id": 6293,
-      "组件类型": "PROTEIN",
-      "描述": "Enavatuzumab heavy chain",
-      "序列": "EVQLVESGGGLVQPGGSLRLSCAASGFTFSSYWMSWVRQAPGKGLEWVAEIRLKSDNYATHYAESVKGRFTISRDDSKNSLYLQMNSLRAEDTAVYYCTGYYADAMDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKTHTCPPCPAPELLGGPSVFLFPPKPKDTLMISRTPEVTCVVVDVSHEDPEVKFNWYVDGVEVHNAKTKPREEQYNSTYRVVSVLTVLHQDWLNGKEYKCKVSNKALPAPIEKTISKAKGQPREPQVYTLPPSREEMTKNQVSLTCLVKGFYPSDIAVEWESNGQPENNYKTTPPVLDSDGSFFLYSKLTVDKSRWQQGNVFSCSVMHEALHNHYTQKSLSLSPGK",
-      "序列md5sum": "a54c47ebb642b0597fb99b462ee644d0",
-      "tax_id": null,
-      "生物体": null
-    },
-    {
-      "组件id": 6294,
-      "组件类型": "PROTEIN",
-      "描述": "Enavatuzumab light chain",
-      "序列": "DIQMTQSPSSLSASVGDRVTITCRASQSVSTSSYSYMHWYQQKPGKAPKLLIKYASNLESGVPSRFSGSGSGTDFTLTISSLQPEDFATYYCQHSWEIPYTFGGGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
-      "序列md5sum": "a758f6dd8e919ec28c3717fe0a301c5d",
-      "tax_id": null,
-      "生物体": null
-    },
-    {
-      "组件id": 6297,
-      "组件类型": "PROTEIN",
-      "描述": "Alacizumab pegol f(ab')2 fragment",
-      "序列": "EVQLVESGGGLVQPGGSLRLSCAASGFTFSSYGMSWVRQAPGKGLEWVATITSGGSYTYYVDSVKGRFTISRDNAKNTLYLQMNSLRAEDTAVYYCVRIGEDALDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKTHTCAA",
-      "序列md5sum": "492649be3baaaa97804b4f60a77a2118",
-      "tax_id": null,
-      "生物体": null
-    },
-    {
-      "组件id": 6298,
-      "组件类型": "PROTEIN",
-      "描述": "Alacizumab pegol light chain",
-      "序列": "DIQMTQSPSSLSASVGDRVTITCRASQDIAGSLNWLQQKPGKAIKRLIYATSSLDSGVPKRFSGSRSGSDYTLTISSLQPEDFATYYCLQYGSFPPTFGQGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
-      "序列md5sum": "6c682f17ba959b62d601da3ccaa799e0",
-      "tax_id": null,
-      "生物体": null
-    }
-  ]
+    "table_name": "bio_component_sequences_30",
+    "table_fullname": "bigquery-public-data.ebi_chembl.bio_component_sequences_30",
+    "column_names": [
+        "component_id",
+        "component_type",
+        "description",
+        "sequence",
+        "sequence_md5sum",
+        "tax_id",
+        "organism"
+    ],
+    "column_types": [
+        "INT64",
+        "STRING",
+        "STRING",
+        "STRING",
+        "STRING",
+        "INT64",
+        "STRING"
+    ],
+    "nested_column_names": [
+        "component_id",
+        "component_type",
+        "description",
+        "sequence",
+        "sequence_md5sum",
+        "tax_id",
+        "organism"
+    ],
+    "nested_column_types": [
+        "INT64",
+        "STRING",
+        "STRING",
+        "STRING",
+        "STRING",
+        "INT64",
+        "STRING"
+    ],
+    "description": [
+        "Primary key. Unique identifier for each of the molecular components of biotherapeutics in ChEMBL (e.g., antibody chains, recombinant proteins, synthetic peptides).",
+        "Type of molecular component (e.g., 'PROTEIN','DNA','RNA').",
+        " Description/name of molecular component.",
+        "Sequence of the biotherapeutic component.",
+        "MD5 checksum of the sequence.",
+        "NCBI tax ID for the species from which the sequence is derived. May be null for humanized monoclonal antibodies, synthetic peptides etc.",
+        " Name of the species from which the sequence is derived."
+    ],
+    "sample_rows": [
+        {
+            "component_id": 6288,
+            "component_type": "PROTEIN",
+            "description": "Tigatuzumab light chain",
+            "sequence": "DIQMTQSPSSLSASVGDRVTITCKASQDVGTAVAWYQQKPGKAPKLLIYWASTRHTGVPSRFSGSGSGTDFTLTISSLQPEDFATYYCQQYSSYRTFGQGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+            "sequence_md5sum": "19b1591070d7f2a101ea4dbea681e46e",
+            "tax_id": null,
+            "organism": null
+        },
+        {
+            "component_id": 6293,
+            "component_type": "PROTEIN",
+            "description": "Enavatuzumab heavy chain",
+            "sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFTFSSYWMSWVRQAPGKGLEWVAEIRLKSDNYATHYAESVKGRFTISRDDSKNSLYLQMNSLRAEDTAVYYCTGYYADAMDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKTHTCPPCPAPELLGGPSVFLFPPKPKDTLMISRTPEVTCVVVDVSHEDPEVKFNWYVDGVEVHNAKTKPREEQYNSTYRVVSVLTVLHQDWLNGKEYKCKVSNKALPAPIEKTISKAKGQPREPQVYTLPPSREEMTKNQVSLTCLVKGFYPSDIAVEWESNGQPENNYKTTPPVLDSDGSFFLYSKLTVDKSRWQQGNVFSCSVMHEALHNHYTQKSLSLSPGK",
+            "sequence_md5sum": "a54c47ebb642b0597fb99b462ee644d0",
+            "tax_id": null,
+            "organism": null
+        },
+        {
+            "component_id": 6294,
+            "component_type": "PROTEIN",
+            "description": "Enavatuzumab light chain",
+            "sequence": "DIQMTQSPSSLSASVGDRVTITCRASQSVSTSSYSYMHWYQQKPGKAPKLLIKYASNLESGVPSRFSGSGSGTDFTLTISSLQPEDFATYYCQHSWEIPYTFGGGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+            "sequence_md5sum": "a758f6dd8e919ec28c3717fe0a301c5d",
+            "tax_id": null,
+            "organism": null
+        },
+        {
+            "component_id": 6297,
+            "component_type": "PROTEIN",
+            "description": "Alacizumab pegol f(ab')2 fragment",
+            "sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFTFSSYGMSWVRQAPGKGLEWVATITSGGSYTYYVDSVKGRFTISRDNAKNTLYLQMNSLRAEDTAVYYCVRIGEDALDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKTHTCAA",
+            "sequence_md5sum": "492649be3baaaa97804b4f60a77a2118",
+            "tax_id": null,
+            "organism": null
+        },
+        {
+            "component_id": 6298,
+            "component_type": "PROTEIN",
+            "description": "Alacizumab pegol light chain",
+            "sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDIAGSLNWLQQKPGKAIKRLIYATSSLDSGVPKRFSGSRSGSDYTLTISSLQPEDFATYYCLQYGSFPPTFGQGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+            "sequence_md5sum": "6c682f17ba959b62d601da3ccaa799e0",
+            "tax_id": null,
+            "organism": null
+        }
+    ]
 }

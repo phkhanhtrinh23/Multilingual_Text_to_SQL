@@ -1,76 +1,76 @@
 {
-  "table_name": "molecule_synonyms_30",
-  "table_fullname": "bigquery-public-data.ebi_chembl.molecule_synonyms_30",
-  "column_names": [
-    "分子注册号",
-    "同义词类型",
-    "分子同义词id",
-    "结果stem_id",
-    "同义词"
-  ],
-  "column_types": [
-    "INT64",
-    "STRING",
-    "INT64",
-    "INT64",
-    "STRING"
-  ],
-  "nested_column_names": [
-    "分子注册号",
-    "同义词类型",
-    "分子同义词id",
-    "结果stem_id",
-    "同义词列表"
-  ],
-  "nested_column_types": [
-    "INT64",
-    "STRING",
-    "INT64",
-    "INT64",
-    "STRING"
-  ],
-  "description": [
-    "外键到 molecule_dictionary",
-    "名称/同义词的类型（例如，TRADE_NAME，RESEARCH_CODE，USAN）",
-    "主键。",
-    "外键到 research_stem 表。当同义词是研究代码时，这将链接到有关该代码关联公司的更多信息。",
-    "化合物的同义词"
-  ],
-  "sample_rows": [
-    {
-      "分子注册号": 97,
-      "同义词类型": "ATC",
-      "分子同义词id": 2160798,
-      "结果stem_id": null,
-      "同义词列表": "Prazosin"
-    },
-    {
-      "分子注册号": 115,
-      "同义词类型": "ATC",
-      "分子同义词id": 2160810,
-      "结果stem_id": null,
-      "同义词列表": "Nicotine"
-    },
-    {
-      "分子注册号": 146,
-      "同义词类型": "ATC",
-      "分子同义词id": 2160846,
-      "结果stem_id": null,
-      "同义词列表": "Ofloxacin"
-    },
-    {
-      "分子注册号": 147,
-      "同义词类型": "ATC",
-      "分子同义词id": 2160865,
-      "结果stem_id": null,
-      "同义词列表": "Nalidixic acid"
-    },
-    {
-      "分子注册号": 173,
-      "同义词类型": "ATC",
-      "分子同义词id": 2160921,
-      "结果stem_id": null,
-      "同义词列表": "Indometacin"
-    }
-  ]
+    "table_name": "molecule_synonyms_30",
+    "table_fullname": "bigquery-public-data.ebi_chembl.molecule_synonyms_30",
+    "column_names": [
+        "molregno",
+        "syn_type",
+        "molsyn_id",
+        "res_stem_id",
+        "synonyms"
+    ],
+    "column_types": [
+        "INT64",
+        "STRING",
+        "INT64",
+        "INT64",
+        "STRING"
+    ],
+    "nested_column_names": [
+        "molregno",
+        "syn_type",
+        "molsyn_id",
+        "res_stem_id",
+        "synonyms"
+    ],
+    "nested_column_types": [
+        "INT64",
+        "STRING",
+        "INT64",
+        "INT64",
+        "STRING"
+    ],
+    "description": [
+        "Foreign key to molecule_dictionary",
+        "Type of name/synonym (e.g., TRADE_NAME, RESEARCH_CODE, USAN)",
+        "Primary key.",
+        "Foreign key to the research_stem table. Where a synonym is a research code, this links to further information about the company associated with that code.",
+        " Synonym for the compound"
+    ],
+    "sample_rows": [
+        {
+            "molregno": 97,
+            "syn_type": "ATC",
+            "molsyn_id": 2160798,
+            "res_stem_id": null,
+            "synonyms": "Prazosin"
+        },
+        {
+            "molregno": 115,
+            "syn_type": "ATC",
+            "molsyn_id": 2160810,
+            "res_stem_id": null,
+            "synonyms": "Nicotine"
+        },
+        {
+            "molregno": 146,
+            "syn_type": "ATC",
+            "molsyn_id": 2160846,
+            "res_stem_id": null,
+            "synonyms": "Ofloxacin"
+        },
+        {
+            "molregno": 147,
+            "syn_type": "ATC",
+            "molsyn_id": 2160865,
+            "res_stem_id": null,
+            "synonyms": "Nalidixic acid"
+        },
+        {
+            "molregno": 173,
+            "syn_type": "ATC",
+            "molsyn_id": 2160921,
+            "res_stem_id": null,
+            "synonyms": "Indometacin"
+        }
+    ]
 }

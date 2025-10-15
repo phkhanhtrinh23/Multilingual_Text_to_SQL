@@ -1,116 +1,116 @@
 {
-  "table_name": "product_patents",
-  "table_fullname": "bigquery-public-data.ebi_chembl.product_patents",
-  "column_names": [
-    "产品专利ID",
-    "产品ID",
-    "专利号",
-    "专利过期日期",
-    "药物物质标志",
-    "药物产品标志",
-    "专利用途代码",
-    "删除标志",
-    "提交日期"
-  ],
-  "column_types": [
-    "STRING",
-    "STRING",
-    "STRING",
-    "STRING",
-    "STRING",
-    "STRING",
-    "STRING",
-    "STRING",
-    "STRING"
-  ],
-  "nested_column_names": [
-    "产品专利ID",
-    "产品ID",
-    "专利号",
-    "专利过期日期",
-    "药物物质标志",
-    "药物产品标志",
-    "专利用途代码",
-    "删除标志",
-    "提交日期"
-  ],
-  "nested_column_types": [
-    "STRING",
-    "STRING",
-    "STRING",
-    "STRING",
-    "STRING",
-    "STRING",
-    "STRING",
-    "STRING",
-    "STRING"
-  ],
-  "description": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-  ],
-  "sample_rows": [
-    {
-      "产品专利ID": "19505",
-      "产品ID": "PRODUCT_209637_001",
-      "专利号": "6899699",
-      "专利过期日期": "2022-01-02 00:00:00.000000",
-      "药物物质标志": "0",
-      "药物产品标志": "1",
-      "专利用途代码": null,
-      "删除标志": "0",
-      "提交日期": "2017-12-20 00:00:00.000000"
-    },
-    {
-      "产品专利ID": "26318",
-      "产品ID": "PRODUCT_209637_002",
-      "专利号": "6899699",
-      "专利过期日期": "2022-01-02 00:00:00.000000",
-      "药物物质标志": "0",
-      "药物产品标志": "1",
-      "专利用途代码": null,
-      "删除标志": "0",
-      "提交日期": "2020-12-21 00:00:00.000000"
-    },
-    {
-      "产品专利ID": "12353",
-      "产品ID": "PRODUCT_206321_001",
-      "专利号": "8672898",
-      "专利过期日期": "2022-01-02 00:00:00.000000",
-      "药物物质标志": "0",
-      "药物产品标志": "1",
-      "专利用途代码": null,
-      "删除标志": "0",
-      "提交日期": "2015-01-21 00:00:00.000000"
-    },
-    {
-      "产品专利ID": "23253",
-      "产品ID": "PRODUCT_209637_001",
-      "专利号": "8672898",
-      "专利过期日期": "2022-01-02 00:00:00.000000",
-      "药物物质标志": "0",
-      "药物产品标志": "1",
-      "专利用途代码": null,
-      "删除标志": "0",
-      "提交日期": "2017-12-20 00:00:00.000000"
-    },
-    {
-      "产品专利ID": "26784",
-      "产品ID": "PRODUCT_209637_002",
-      "专利号": "8672898",
-      "专利过期日期": "2022-01-02 00:00:00.000000",
-      "药物物质标志": "0",
-      "药物产品标志": "1",
-      "专利用途代码": null,
-      "删除标志": "0",
-      "提交日期": "2020-12-21 00:00:00.000000"
-    }
-  ]
+    "table_name": "product_patents",
+    "table_fullname": "bigquery-public-data.ebi_chembl.product_patents",
+    "column_names": [
+        "prod_pat_id",
+        "product_id",
+        "patent_no",
+        "patent_expire_date",
+        "drug_substance_flag",
+        "drug_product_flag",
+        "patent_use_code",
+        "delist_flag",
+        "submission_date"
+    ],
+    "column_types": [
+        "STRING",
+        "STRING",
+        "STRING",
+        "STRING",
+        "STRING",
+        "STRING",
+        "STRING",
+        "STRING",
+        "STRING"
+    ],
+    "nested_column_names": [
+        "prod_pat_id",
+        "product_id",
+        "patent_no",
+        "patent_expire_date",
+        "drug_substance_flag",
+        "drug_product_flag",
+        "patent_use_code",
+        "delist_flag",
+        "submission_date"
+    ],
+    "nested_column_types": [
+        "STRING",
+        "STRING",
+        "STRING",
+        "STRING",
+        "STRING",
+        "STRING",
+        "STRING",
+        "STRING",
+        "STRING"
+    ],
+    "description": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+    ],
+    "sample_rows": [
+        {
+            "prod_pat_id": "19505",
+            "product_id": "PRODUCT_209637_001",
+            "patent_no": "6899699",
+            "patent_expire_date": "2022-01-02 00:00:00.000000",
+            "drug_substance_flag": "0",
+            "drug_product_flag": "1",
+            "patent_use_code": null,
+            "delist_flag": "0",
+            "submission_date": "2017-12-20 00:00:00.000000"
+        },
+        {
+            "prod_pat_id": "26318",
+            "product_id": "PRODUCT_209637_002",
+            "patent_no": "6899699",
+            "patent_expire_date": "2022-01-02 00:00:00.000000",
+            "drug_substance_flag": "0",
+            "drug_product_flag": "1",
+            "patent_use_code": null,
+            "delist_flag": "0",
+            "submission_date": "2020-12-21 00:00:00.000000"
+        },
+        {
+            "prod_pat_id": "12353",
+            "product_id": "PRODUCT_206321_001",
+            "patent_no": "8672898",
+            "patent_expire_date": "2022-01-02 00:00:00.000000",
+            "drug_substance_flag": "0",
+            "drug_product_flag": "1",
+            "patent_use_code": null,
+            "delist_flag": "0",
+            "submission_date": "2015-01-21 00:00:00.000000"
+        },
+        {
+            "prod_pat_id": "23253",
+            "product_id": "PRODUCT_209637_001",
+            "patent_no": "8672898",
+            "patent_expire_date": "2022-01-02 00:00:00.000000",
+            "drug_substance_flag": "0",
+            "drug_product_flag": "1",
+            "patent_use_code": null,
+            "delist_flag": "0",
+            "submission_date": "2017-12-20 00:00:00.000000"
+        },
+        {
+            "prod_pat_id": "26784",
+            "product_id": "PRODUCT_209637_002",
+            "patent_no": "8672898",
+            "patent_expire_date": "2022-01-02 00:00:00.000000",
+            "drug_substance_flag": "0",
+            "drug_product_flag": "1",
+            "patent_use_code": null,
+            "delist_flag": "0",
+            "submission_date": "2020-12-21 00:00:00.000000"
+        }
+    ]
 }

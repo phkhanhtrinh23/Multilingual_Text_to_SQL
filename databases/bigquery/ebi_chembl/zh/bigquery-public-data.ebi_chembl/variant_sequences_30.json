@@ -1,106 +1,106 @@
 {
-  "table_name": "variant_sequences_30",
-  "table_fullname": "bigquery-public-data.ebi_chembl.variant_sequences_30",
-  "column_names": [
-    "变体id",
-    "突变",
-    "存取号",
-    "版本",
-    "异构体",
-    "序列",
-    "生物体",
-    "税id"
-  ],
-  "column_types": [
-    "INT64",
-    "STRING",
-    "STRING",
-    "INT64",
-    "INT64",
-    "STRING",
-    "STRING",
-    "INT64"
-  ],
-  "nested_column_names": [
-    "变体id",
-    "突变",
-    "存取号",
-    "版本",
-    "异构体",
-    "序列",
-    "生物体",
-    "税id"
-  ],
-  "nested_column_types": [
-    "INT64",
-    "STRING",
-    "STRING",
-    "INT64",
-    "INT64",
-    "STRING",
-    "STRING",
-    "INT64"
-  ],
-  "description": [
-    "每个序列变体的主键，数字ID。",
-    "使用的变体详细信息，残基位置调整以匹配提供的序列。",
-    "用作基序列的代表性序列的UniProt访问号（不含变异）。",
-    "用作基序列的UniProt序列版本。",
-    "在相关情况下，用作基序列的UniProt异构体详细信息。",
-    "通过调整UniProt基序列以指定的突变/变异形成的变体序列。",
-    "获得序列的生物体。",
-    "获得序列的生物体的NCBI Tax ID"
-  ],
-  "sample_rows": [
-    {
-      "变体id": 1628,
-      "突变": "E84Q",
-      "存取号": "A2RI47",
-      "版本": null,
-      "异构体": 1,
-      "序列": "MSNSKFNVRLLTEIAFMAALAFIISLIPNTVYGWIIVEIACIPILLLSLRRGLTAGLVGGLIWGILSMITGHAYILSLSQAFLQYLVAPVSLGIAGLFRQKTAPLKLAPVLLGTFVAVLLKYFFHFIAGIIFWSQYAWKGWGAVAYSLAVNGISGILTAIAAFVILIIFVKKFPKLFIHSNY",
-      "生物体": "Lactococcus lactis subsp. cremoris (strain MG1363)",
-      "税id": null
-    },
-    {
-      "变体id": 1629,
-      "突变": "H125A",
-      "存取号": "A2RI47",
-      "版本": null,
-      "异构体": 1,
-      "序列": "MSNSKFNVRLLTEIAFMAALAFIISLIPNTVYGWIIVEIACIPILLLSLRRGLTAGLVGGLIWGILSMITGHAYILSLSQAFLEYLVAPVSLGIAGLFRQKTAPLKLAPVLLGTFVAVLLKYFFAFIAGIIFWSQYAWKGWGAVAYSLAVNGISGILTAIAAFVILIIFVKKFPKLFIHSNY",
-      "生物体": "Lactococcus lactis subsp. cremoris (strain MG1363)",
-      "税id": null
-    },
-    {
-      "变体id": 1630,
-      "突变": "H125N",
-      "存取号": "A2RI47",
-      "版本": null,
-      "异构体": 1,
-      "序列": "MSNSKFNVRLLTEIAFMAALAFIISLIPNTVYGWIIVEIACIPILLLSLRRGLTAGLVGGLIWGILSMITGHAYILSLSQAFLEYLVAPVSLGIAGLFRQKTAPLKLAPVLLGTFVAVLLKYFFNFIAGIIFWSQYAWKGWGAVAYSLAVNGISGILTAIAAFVILIIFVKKFPKLFIHSNY",
-      "生物体": "Lactococcus lactis subsp. cremoris (strain MG1363)",
-      "税id": null
-    },
-    {
-      "变体id": 1631,
-      "突变": "H125F",
-      "存取号": "A2RI47",
-      "版本": null,
-      "异构体": 1,
-      "序列": "MSNSKFNVRLLTEIAFMAALAFIISLIPNTVYGWIIVEIACIPILLLSLRRGLTAGLVGGLIWGILSMITGHAYILSLSQAFLEYLVAPVSLGIAGLFRQKTAPLKLAPVLLGTFVAVLLKYFFFFIAGIIFWSQYAWKGWGAVAYSLAVNGISGILTAIAAFVILIIFVKKFPKLFIHSNY",
-      "生物体": "Lactococcus lactis subsp. cremoris (strain MG1363)",
-      "税id": null
-    },
-    {
-      "变体id": 1632,
-      "突变": "W34A",
-      "存取号": "A2RI47",
-      "版本": null,
-      "异构体": 1,
-      "序列": "MSNSKFNVRLLTEIAFMAALAFIISLIPNTVYGAIIVEIACIPILLLSLRRGLTAGLVGGLIWGILSMITGHAYILSLSQAFLEYLVAPVSLGIAGLFRQKTAPLKLAPVLLGTFVAVLLKYFFHFIAGIIFWSQYAWKGWGAVAYSLAVNGISGILTAIAAFVILIIFVKKFPKLFIHSNY",
-      "生物体": "Lactococcus lactis subsp. cremoris (strain MG1363)",
-      "税id": null
-    }
-  ]
+    "table_name": "variant_sequences_30",
+    "table_fullname": "bigquery-public-data.ebi_chembl.variant_sequences_30",
+    "column_names": [
+        "variant_id",
+        "mutation",
+        "accession",
+        "version",
+        "isoform",
+        "sequence",
+        "organism",
+        "tax_id"
+    ],
+    "column_types": [
+        "INT64",
+        "STRING",
+        "STRING",
+        "INT64",
+        "INT64",
+        "STRING",
+        "STRING",
+        "INT64"
+    ],
+    "nested_column_names": [
+        "variant_id",
+        "mutation",
+        "accession",
+        "version",
+        "isoform",
+        "sequence",
+        "organism",
+        "tax_id"
+    ],
+    "nested_column_types": [
+        "INT64",
+        "STRING",
+        "STRING",
+        "INT64",
+        "INT64",
+        "STRING",
+        "STRING",
+        "INT64"
+    ],
+    "description": [
+        "Primary key, numeric ID for each sequence variant.",
+        "Details of variant(s) used, with residue positions adjusted to match provided sequence.",
+        "UniProt accesion for the representative sequence used as the base sequence (without variation).",
+        "Version of the UniProt sequence used as the base sequence.",
+        "Details of the UniProt isoform used as the base sequence where relevant.",
+        "Variant sequence formed by adjusting the UniProt base sequence with the specified mutations/variations.",
+        " Organism from which the sequence was obtained.",
+        "NCBI Tax ID for the organism from which the sequence was obtained"
+    ],
+    "sample_rows": [
+        {
+            "variant_id": 1628,
+            "mutation": "E84Q",
+            "accession": "A2RI47",
+            "version": null,
+            "isoform": 1,
+            "sequence": "MSNSKFNVRLLTEIAFMAALAFIISLIPNTVYGWIIVEIACIPILLLSLRRGLTAGLVGGLIWGILSMITGHAYILSLSQAFLQYLVAPVSLGIAGLFRQKTAPLKLAPVLLGTFVAVLLKYFFHFIAGIIFWSQYAWKGWGAVAYSLAVNGISGILTAIAAFVILIIFVKKFPKLFIHSNY",
+            "organism": "Lactococcus lactis subsp. cremoris (strain MG1363)",
+            "tax_id": null
+        },
+        {
+            "variant_id": 1629,
+            "mutation": "H125A",
+            "accession": "A2RI47",
+            "version": null,
+            "isoform": 1,
+            "sequence": "MSNSKFNVRLLTEIAFMAALAFIISLIPNTVYGWIIVEIACIPILLLSLRRGLTAGLVGGLIWGILSMITGHAYILSLSQAFLEYLVAPVSLGIAGLFRQKTAPLKLAPVLLGTFVAVLLKYFFAFIAGIIFWSQYAWKGWGAVAYSLAVNGISGILTAIAAFVILIIFVKKFPKLFIHSNY",
+            "organism": "Lactococcus lactis subsp. cremoris (strain MG1363)",
+            "tax_id": null
+        },
+        {
+            "variant_id": 1630,
+            "mutation": "H125N",
+            "accession": "A2RI47",
+            "version": null,
+            "isoform": 1,
+            "sequence": "MSNSKFNVRLLTEIAFMAALAFIISLIPNTVYGWIIVEIACIPILLLSLRRGLTAGLVGGLIWGILSMITGHAYILSLSQAFLEYLVAPVSLGIAGLFRQKTAPLKLAPVLLGTFVAVLLKYFFNFIAGIIFWSQYAWKGWGAVAYSLAVNGISGILTAIAAFVILIIFVKKFPKLFIHSNY",
+            "organism": "Lactococcus lactis subsp. cremoris (strain MG1363)",
+            "tax_id": null
+        },
+        {
+            "variant_id": 1631,
+            "mutation": "H125F",
+            "accession": "A2RI47",
+            "version": null,
+            "isoform": 1,
+            "sequence": "MSNSKFNVRLLTEIAFMAALAFIISLIPNTVYGWIIVEIACIPILLLSLRRGLTAGLVGGLIWGILSMITGHAYILSLSQAFLEYLVAPVSLGIAGLFRQKTAPLKLAPVLLGTFVAVLLKYFFFFIAGIIFWSQYAWKGWGAVAYSLAVNGISGILTAIAAFVILIIFVKKFPKLFIHSNY",
+            "organism": "Lactococcus lactis subsp. cremoris (strain MG1363)",
+            "tax_id": null
+        },
+        {
+            "variant_id": 1632,
+            "mutation": "W34A",
+            "accession": "A2RI47",
+            "version": null,
+            "isoform": 1,
+            "sequence": "MSNSKFNVRLLTEIAFMAALAFIISLIPNTVYGAIIVEIACIPILLLSLRRGLTAGLVGGLIWGILSMITGHAYILSLSQAFLEYLVAPVSLGIAGLFRQKTAPLKLAPVLLGTFVAVLLKYFFHFIAGIIFWSQYAWKGWGAVAYSLAVNGISGILTAIAAFVILIIFVKKFPKLFIHSNY",
+            "organism": "Lactococcus lactis subsp. cremoris (strain MG1363)",
+            "tax_id": null
+        }
+    ]
 }

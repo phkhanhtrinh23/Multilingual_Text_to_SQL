@@ -1,56 +1,56 @@
 {
-  "table_name": "molecule_atc_classification_30",
-  "table_fullname": "bigquery-public-data.ebi_chembl.molecule_atc_classification_30",
-  "column_names": [
-    "分子ATC ID",
-    "第5级",
-    "molregno"
-  ],
-  "column_types": [
-    "INT64",
-    "STRING",
-    "INT64"
-  ],
-  "nested_column_names": [
-    "分子ATC ID",
-    "第5级",
-    "molregno"
-  ],
-  "nested_column_types": [
-    "INT64",
-    "STRING",
-    "INT64"
-  ],
-  "description": [
-    "主键",
-    "ATC代码（atc_classification表的外键）",
-    "应用ATC代码的药物（molecule_dictionary表的外键）"
-  ],
-  "sample_rows": [
-    {
-      "分子ATC ID": 60559,
-      "第5级": "B01AC06",
-      "molregno": 1280
-    },
-    {
-      "分子ATC ID": 61116,
-      "第5级": "N02BA01",
-      "molregno": 1280
-    },
-    {
-      "分子ATC ID": 61117,
-      "第5级": "N02BA51",
-      "molregno": 1280
-    },
-    {
-      "分子ATC ID": 61696,
-      "第5级": "A01AD05",
-      "molregno": 1280
-    },
-    {
-      "分子ATC ID": 62830,
-      "第5级": "N02BA71",
-      "molregno": 1280
-    }
-  ]
+    "table_name": "molecule_atc_classification_30",
+    "table_fullname": "bigquery-public-data.ebi_chembl.molecule_atc_classification_30",
+    "column_names": [
+        "mol_atc_id",
+        "level5",
+        "molregno"
+    ],
+    "column_types": [
+        "INT64",
+        "STRING",
+        "INT64"
+    ],
+    "nested_column_names": [
+        "mol_atc_id",
+        "level5",
+        "molregno"
+    ],
+    "nested_column_types": [
+        "INT64",
+        "STRING",
+        "INT64"
+    ],
+    "description": [
+        "Primary key",
+        "ATC code (foreign key to atc_classification table)",
+        "Drug to which the ATC code applies (foreign key to molecule_dictionary table)"
+    ],
+    "sample_rows": [
+        {
+            "mol_atc_id": 60559,
+            "level5": "B01AC06",
+            "molregno": 1280
+        },
+        {
+            "mol_atc_id": 61116,
+            "level5": "N02BA01",
+            "molregno": 1280
+        },
+        {
+            "mol_atc_id": 61117,
+            "level5": "N02BA51",
+            "molregno": 1280
+        },
+        {
+            "mol_atc_id": 61696,
+            "level5": "A01AD05",
+            "molregno": 1280
+        },
+        {
+            "mol_atc_id": 62830,
+            "level5": "N02BA71",
+            "molregno": 1280
+        }
+    ]
 }

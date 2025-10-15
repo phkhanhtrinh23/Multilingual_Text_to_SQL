@@ -1,244 +1,244 @@
 {
-  "table_name": "studies",
-  "table_fullname": "open-targets-genetics.genetics.studies",
-  "column_names": [
-    "研究编号",
-    "初始祖籍",
-    "复制祖籍",
-    "病例数",
-    "初始样本数",
-    "复制样本数",
-    "pmid",
-    "发表作者",
-    "发表日期",
-    "发表期刊",
-    "发表标题",
-    "has_sumstats",
-    "关联位点数",
-    "源",
-    "报告特征",
-    "特征efos",
-    "特征类别"
-  ],
-  "column_types": [
-    "STRING",
-    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
-    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
-    "INT64",
-    "INT64",
-    "INT64",
-    "STRING",
-    "STRING",
-    "STRING",
-    "STRING",
-    "STRING",
-    "BOOL",
-    "INT64",
-    "STRING",
-    "STRING",
-    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
-    "STRING"
-  ],
-  "nested_column_names": [
-    "研究编号",
-    "初始祖先",
-    "初始祖先列表",
-    "初始祖先列表元素",
-    "复制祖先",
-    "复制祖先列表",
-    "复制祖先列表元素",
-    "病例数",
-    "初始样本数",
-    "复制样本数",
-    "pmid",
-    "发表作者",
-    "发表日期",
-    "发表期刊",
-    "发表标题",
-    "有汇总统计",
-    "关联位点数",
-    "源",
-    "报告特征",
-    "特征efos",
-    "特征efos列表",
-    "特征efos列表元素",
-    "特征类别"
-  ],
-  "nested_column_types": [
-    "STRING",
-    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
-    "ARRAY<STRUCT<element STRING>>",
-    "STRING",
-    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
-    "ARRAY<STRUCT<element STRING>>",
-    "STRING",
-    "INT64",
-    "INT64",
-    "INT64",
-    "STRING",
-    "STRING",
-    "STRING",
-    "STRING",
-    "STRING",
-    "BOOL",
-    "INT64",
-    "STRING",
-    "STRING",
-    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
-    "ARRAY<STRUCT<element STRING>>",
-    "STRING",
-    "STRING"
-  ],
-  "description": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-  ],
-  "sample_rows": [
-    {
-      "研究编号": "FINNGEN_R6_M13_MYALGIA",
-      "初始祖先": {
-        "list": "[{'element': 'European=201546'}]"
-      },
-      "复制祖先": {
-        "list": "[]"
-      },
-      "病例数": 3822,
-      "初始样本数": 201546,
-      "复制样本数": 0,
-      "pmid": null,
-      "发表作者": "FINNGEN_R6",
-      "发表日期": "2022-01-24",
-      "发表期刊": null,
-      "发表标题": null,
-      "有汇总统计": true,
-      "关联位点数": 1,
-      "源": "FINNGEN",
-      "报告特征": "Myalgia",
-      "特征efos": {
-        "list": "[{'element': 'HP_0003326'}]"
-      },
-      "特征类别": "phenotype"
-    },
-    {
-      "研究编号": "FINNGEN_R6_M13_PATELLADISLOCATIO",
-      "初始祖先": {
-        "list": "[{'element': 'European=174430'}]"
-      },
-      "复制祖先": {
-        "list": "[]"
-      },
-      "病例数": 1016,
-      "初始样本数": 174430,
-      "复制样本数": 0,
-      "pmid": null,
-      "发表作者": "FINNGEN_R6",
-      "发表日期": "2022-01-24",
-      "发表期刊": null,
-      "发表标题": null,
-      "有汇总统计": true,
-      "关联位点数": 0,
-      "源": "FINNGEN",
-      "报告特征": "Recurrent dislocation of patella",
-      "特征efos": {
-        "list": "[{'element': 'HP_0002999'}]"
-      },
-      "特征类别": "phenotype"
-    },
-    {
-      "研究编号": "FINNGEN_R6_M13_PATHODISLOCATIO",
-      "初始祖先": {
-        "list": "[{'element': 'European=175145'}]"
-      },
-      "复制祖先": {
-        "list": "[]"
-      },
-      "病例数": 1731,
-      "初始样本数": 175145,
-      "复制样本数": 0,
-      "pmid": null,
-      "发表作者": "FINNGEN_R6",
-      "发表日期": "2022-01-24",
-      "发表期刊": null,
-      "发表标题": null,
-      "有汇总统计": true,
-      "关联位点数": 0,
-      "源": "FINNGEN",
-      "报告特征": "\"Pathological/recurrent dislocation and subluxation of joint, not elsewhere classified\"",
-      "特征efos": {
-        "list": "[{'element': 'HP_0032153'} {'element': 'HP_0001373'}]"
-      },
-      "特征类别": "phenotype"
-    },
-    {
-      "研究编号": "FINNGEN_R6_M13_RECUDISLOCATIO",
-      "初始祖先": {
-        "list": "[{'element': 'European=174889'}]"
-      },
-      "复制祖先": {
-        "list": "[]"
-      },
-      "病例数": 1475,
-      "初始样本数": 174889,
-      "复制样本数": 0,
-      "pmid": null,
-      "发表作者": "FINNGEN_R6",
-      "发表日期": "2022-01-24",
-      "发表期刊": null,
-      "发表标题": null,
-      "有汇总统计": true,
-      "关联位点数": 0,
-      "源": "FINNGEN",
-      "报告特征": "Recurrent dislocation and subluxation of joint",
-      "特征efos": {
-        "list": "[{'element': 'HP_0032153'} {'element': 'HP_0001373'}]"
-      },
-      "特征类别": "phenotype"
-    },
-    {
-      "研究编号": "FINNGEN_R6_M13_SACROILIITIS",
-      "初始祖先": {
-        "list": "[{'element': 'European=195058'}]"
-      },
-      "复制祖先": {
-        "list": "[]"
-      },
-      "病例数": 769,
-      "初始样本数": 195058,
-      "复制样本数": 0,
-      "pmid": null,
-      "发表作者": "FINNGEN_R6",
-      "发表日期": "2022-01-24",
-      "发表期刊": null,
-      "发表标题": null,
-      "有汇总统计": true,
-      "关联位点数": 2,
-      "源": "FINNGEN",
-      "报告特征": "\"Sacroiliitis, not elsewhere classified\"",
-      "特征efos": {
-        "list": "[{'element': 'HP_0012317'}]"
-      },
-      "特征类别": "phenotype"
-    }
-  ]
+    "table_name": "studies",
+    "table_fullname": "open-targets-genetics.genetics.studies",
+    "column_names": [
+        "study_id",
+        "ancestry_initial",
+        "ancestry_replication",
+        "n_cases",
+        "n_initial",
+        "n_replication",
+        "pmid",
+        "pub_author",
+        "pub_date",
+        "pub_journal",
+        "pub_title",
+        "has_sumstats",
+        "num_assoc_loci",
+        "source",
+        "trait_reported",
+        "trait_efos",
+        "trait_category"
+    ],
+    "column_types": [
+        "STRING",
+        "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+        "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+        "INT64",
+        "INT64",
+        "INT64",
+        "STRING",
+        "STRING",
+        "STRING",
+        "STRING",
+        "STRING",
+        "BOOL",
+        "INT64",
+        "STRING",
+        "STRING",
+        "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+        "STRING"
+    ],
+    "nested_column_names": [
+        "study_id",
+        "ancestry_initial",
+        "ancestry_initial.list",
+        "ancestry_initial.list.element",
+        "ancestry_replication",
+        "ancestry_replication.list",
+        "ancestry_replication.list.element",
+        "n_cases",
+        "n_initial",
+        "n_replication",
+        "pmid",
+        "pub_author",
+        "pub_date",
+        "pub_journal",
+        "pub_title",
+        "has_sumstats",
+        "num_assoc_loci",
+        "source",
+        "trait_reported",
+        "trait_efos",
+        "trait_efos.list",
+        "trait_efos.list.element",
+        "trait_category"
+    ],
+    "nested_column_types": [
+        "STRING",
+        "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+        "ARRAY<STRUCT<element STRING>>",
+        "STRING",
+        "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+        "ARRAY<STRUCT<element STRING>>",
+        "STRING",
+        "INT64",
+        "INT64",
+        "INT64",
+        "STRING",
+        "STRING",
+        "STRING",
+        "STRING",
+        "STRING",
+        "BOOL",
+        "INT64",
+        "STRING",
+        "STRING",
+        "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+        "ARRAY<STRUCT<element STRING>>",
+        "STRING",
+        "STRING"
+    ],
+    "description": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+    ],
+    "sample_rows": [
+        {
+            "study_id": "FINNGEN_R6_M13_MYALGIA",
+            "ancestry_initial": {
+                "list": "[{'element': 'European=201546'}]"
+            },
+            "ancestry_replication": {
+                "list": "[]"
+            },
+            "n_cases": 3822,
+            "n_initial": 201546,
+            "n_replication": 0,
+            "pmid": null,
+            "pub_author": "FINNGEN_R6",
+            "pub_date": "2022-01-24",
+            "pub_journal": null,
+            "pub_title": null,
+            "has_sumstats": true,
+            "num_assoc_loci": 1,
+            "source": "FINNGEN",
+            "trait_reported": "Myalgia",
+            "trait_efos": {
+                "list": "[{'element': 'HP_0003326'}]"
+            },
+            "trait_category": "phenotype"
+        },
+        {
+            "study_id": "FINNGEN_R6_M13_PATELLADISLOCATIO",
+            "ancestry_initial": {
+                "list": "[{'element': 'European=174430'}]"
+            },
+            "ancestry_replication": {
+                "list": "[]"
+            },
+            "n_cases": 1016,
+            "n_initial": 174430,
+            "n_replication": 0,
+            "pmid": null,
+            "pub_author": "FINNGEN_R6",
+            "pub_date": "2022-01-24",
+            "pub_journal": null,
+            "pub_title": null,
+            "has_sumstats": true,
+            "num_assoc_loci": 0,
+            "source": "FINNGEN",
+            "trait_reported": "Recurrent dislocation of patella",
+            "trait_efos": {
+                "list": "[{'element': 'HP_0002999'}]"
+            },
+            "trait_category": "phenotype"
+        },
+        {
+            "study_id": "FINNGEN_R6_M13_PATHODISLOCATIO",
+            "ancestry_initial": {
+                "list": "[{'element': 'European=175145'}]"
+            },
+            "ancestry_replication": {
+                "list": "[]"
+            },
+            "n_cases": 1731,
+            "n_initial": 175145,
+            "n_replication": 0,
+            "pmid": null,
+            "pub_author": "FINNGEN_R6",
+            "pub_date": "2022-01-24",
+            "pub_journal": null,
+            "pub_title": null,
+            "has_sumstats": true,
+            "num_assoc_loci": 0,
+            "source": "FINNGEN",
+            "trait_reported": "\"Pathological/recurrent dislocation and subluxation of joint, not elsewhere classified\"",
+            "trait_efos": {
+                "list": "[{'element': 'HP_0032153'} {'element': 'HP_0001373'}]"
+            },
+            "trait_category": "phenotype"
+        },
+        {
+            "study_id": "FINNGEN_R6_M13_RECUDISLOCATIO",
+            "ancestry_initial": {
+                "list": "[{'element': 'European=174889'}]"
+            },
+            "ancestry_replication": {
+                "list": "[]"
+            },
+            "n_cases": 1475,
+            "n_initial": 174889,
+            "n_replication": 0,
+            "pmid": null,
+            "pub_author": "FINNGEN_R6",
+            "pub_date": "2022-01-24",
+            "pub_journal": null,
+            "pub_title": null,
+            "has_sumstats": true,
+            "num_assoc_loci": 0,
+            "source": "FINNGEN",
+            "trait_reported": "Recurrent dislocation and subluxation of joint",
+            "trait_efos": {
+                "list": "[{'element': 'HP_0032153'} {'element': 'HP_0001373'}]"
+            },
+            "trait_category": "phenotype"
+        },
+        {
+            "study_id": "FINNGEN_R6_M13_SACROILIITIS",
+            "ancestry_initial": {
+                "list": "[{'element': 'European=195058'}]"
+            },
+            "ancestry_replication": {
+                "list": "[]"
+            },
+            "n_cases": 769,
+            "n_initial": 195058,
+            "n_replication": 0,
+            "pmid": null,
+            "pub_author": "FINNGEN_R6",
+            "pub_date": "2022-01-24",
+            "pub_journal": null,
+            "pub_title": null,
+            "has_sumstats": true,
+            "num_assoc_loci": 2,
+            "source": "FINNGEN",
+            "trait_reported": "\"Sacroiliitis, not elsewhere classified\"",
+            "trait_efos": {
+                "list": "[{'element': 'HP_0012317'}]"
+            },
+            "trait_category": "phenotype"
+        }
+    ]
 }

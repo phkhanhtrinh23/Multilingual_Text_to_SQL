@@ -1,106 +1,106 @@
 {
-  "table_name": "Filtered_jhu_usc_edu_PANCAN_HumanMethylation27_betaValue_whitelisted",
-  "table_fullname": "isb-cgc-bq.pancancer_atlas.Filtered_jhu_usc_edu_PANCAN_HumanMethylation27_betaValue_whitelisted",
-  "column_names": [
-    "参与者条码",
-    "样本条码",
-    "分配条码",
-    "样本类型字母代码",
-    "样本类型",
-    "研究",
-    "ID",
-    "Beta"
-  ],
-  "column_types": [
-    "STRING",
-    "STRING",
-    "STRING",
-    "STRING",
-    "STRING",
-    "STRING",
-    "STRING",
-    "FLOAT64"
-  ],
-  "nested_column_names": [
-    "参与者条码",
-    "样本条码",
-    "分配条码",
-    "样本类型字母代码",
-    "样本类型",
-    "研究",
-    "ID",
-    "Beta"
-  ],
-  "nested_column_types": [
-    "STRING",
-    "STRING",
-    "STRING",
-    "STRING",
-    "STRING",
-    "STRING",
-    "STRING",
-    "FLOAT64"
-  ],
-  "description": [
-    "研究参与者的TCGA条码标识符，例如TCGA-02-0001",
-    "生物样本的条码，例如TCGA-13-1489-02A",
-    "TCGA别名条码，例如TCGA-12-1089-01A-01D-0517-28",
-    "使用TCGA标准的样本类型字母代码，例如TPN，EBV。完整列表可在https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/sample-type-codes找到",
-    "共有10种样本类型：血液来源的正常样本，原发性实体瘤，实体组织正常样本，复发性实体瘤，转移性，新增的原发性，外周血来源的原发性血液癌，口腔细胞正常样本，新增的转移性，骨髓正常样本",
-    "TCGA研究缩写，例如LAML。完整列表可在https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/tcga-study-abbreviations找到",
-    "独特的探针标识符（例如cg04676771）来自Illumina Human Methylation阵列 -- 请参考注释表（isb-cgc-bq.annotations.methylation_annotation_hg19_illumina_current）以获取有关任何特定探针的更多详细信息",
-    "规范化的DNA甲基化beta值（介于0和1之间，其中0表示完全未甲基化，1表示完全甲基化）"
-  ],
-  "sample_rows": [
-    {
-      "参与者条码": "TCGA-01-0628",
-      "样本条码": "TCGA-01-0628-11A",
-      "分配条码": "TCGA-01-0628-11A-01D-0383-05",
-      "样本类型字母代码": "NT",
-      "样本类型": "Solid Tissue Normal",
-      "研究": "OV",
-      "ID": "cg03882305",
-      "Beta": 0.20754
-    },
-    {
-      "参与者条码": "TCGA-01-0628",
-      "样本条码": "TCGA-01-0628-11A",
-      "分配条码": "TCGA-01-0628-11A-01D-0383-05",
-      "样本类型字母代码": "NT",
-      "样本类型": "Solid Tissue Normal",
-      "研究": "OV",
-      "ID": "cg05523254",
-      "Beta": 0.0054853
-    },
-    {
-      "参与者条码": "TCGA-01-0628",
-      "样本条码": "TCGA-01-0628-11A",
-      "分配条码": "TCGA-01-0628-11A-01D-0383-05",
-      "样本类型字母代码": "NT",
-      "样本类型": "Solid Tissue Normal",
-      "研究": "OV",
-      "ID": "cg04798158",
-      "Beta": 0.0145277
-    },
-    {
-      "参与者条码": "TCGA-01-0628",
-      "样本条码": "TCGA-01-0628-11A",
-      "分配条码": "TCGA-01-0628-11A-01D-0383-05",
-      "样本类型字母代码": "NT",
-      "样本类型": "Solid Tissue Normal",
-      "研究": "OV",
-      "ID": "cg06069731",
-      "Beta": 0.0129045
-    },
-    {
-      "参与者条码": "TCGA-01-0628",
-      "样本条码": "TCGA-01-0628-11A",
-      "分配条码": "TCGA-01-0628-11A-01D-0383-05",
-      "样本类型字母代码": "NT",
-      "样本类型": "Solid Tissue Normal",
-      "研究": "OV",
-      "ID": "cg00943245",
-      "Beta": 0.882652
-    }
-  ]
+    "table_name": "Filtered_jhu_usc_edu_PANCAN_HumanMethylation27_betaValue_whitelisted",
+    "table_fullname": "isb-cgc-bq.pancancer_atlas.Filtered_jhu_usc_edu_PANCAN_HumanMethylation27_betaValue_whitelisted",
+    "column_names": [
+        "ParticipantBarcode",
+        "SampleBarcode",
+        "AliquotBarcode",
+        "SampleTypeLetterCode",
+        "SampleType",
+        "Study",
+        "ID",
+        "Beta"
+    ],
+    "column_types": [
+        "STRING",
+        "STRING",
+        "STRING",
+        "STRING",
+        "STRING",
+        "STRING",
+        "STRING",
+        "FLOAT64"
+    ],
+    "nested_column_names": [
+        "ParticipantBarcode",
+        "SampleBarcode",
+        "AliquotBarcode",
+        "SampleTypeLetterCode",
+        "SampleType",
+        "Study",
+        "ID",
+        "Beta"
+    ],
+    "nested_column_types": [
+        "STRING",
+        "STRING",
+        "STRING",
+        "STRING",
+        "STRING",
+        "STRING",
+        "STRING",
+        "FLOAT64"
+    ],
+    "description": [
+        "TCGA barcode identifier for the study participant, eg TCGA-02-0001",
+        "Barcode of the biospecimen sample, eg TCGA-13-1489-02A",
+        "TCGA aliquot barcode, eg TCGA-12-1089-01A-01D-0517-28",
+        "Letter code of the sample type using the TCGA standards, eg TPN, EBV. Full list available at https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/sample-type-codes",
+        "There are 10 sample types: Blood Derived Normal, Primary solid Tumor, Solid Tissue Normal, Recurrent Solid Tumor, Metastatic, Additional - New Primary, Primary Blood Derived Cancer - Peripheral Blood, Buccal Cell Normal, Additioanal Metastatic, Bone Marrrow Normal",
+        "TCGA study abbreviation, eg LAML. Full list available at https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/tcga-study-abbreviations",
+        "Unique probe identifier (eg cg04676771) from the Illumina Human Methylation array -- please refer to the annotation table (isb-cgc-bq.annotations.methylation_annotation_hg19_illumina_current) for more details about any particular probe",
+        "Normalized DNA methylation beta value (between 0 and 1, where 0 indicates completely un-methylated and 1 indicates fully methylated)"
+    ],
+    "sample_rows": [
+        {
+            "ParticipantBarcode": "TCGA-01-0628",
+            "SampleBarcode": "TCGA-01-0628-11A",
+            "AliquotBarcode": "TCGA-01-0628-11A-01D-0383-05",
+            "SampleTypeLetterCode": "NT",
+            "SampleType": "Solid Tissue Normal",
+            "Study": "OV",
+            "ID": "cg03882305",
+            "Beta": 0.20754
+        },
+        {
+            "ParticipantBarcode": "TCGA-01-0628",
+            "SampleBarcode": "TCGA-01-0628-11A",
+            "AliquotBarcode": "TCGA-01-0628-11A-01D-0383-05",
+            "SampleTypeLetterCode": "NT",
+            "SampleType": "Solid Tissue Normal",
+            "Study": "OV",
+            "ID": "cg05523254",
+            "Beta": 0.0054853
+        },
+        {
+            "ParticipantBarcode": "TCGA-01-0628",
+            "SampleBarcode": "TCGA-01-0628-11A",
+            "AliquotBarcode": "TCGA-01-0628-11A-01D-0383-05",
+            "SampleTypeLetterCode": "NT",
+            "SampleType": "Solid Tissue Normal",
+            "Study": "OV",
+            "ID": "cg04798158",
+            "Beta": 0.0145277
+        },
+        {
+            "ParticipantBarcode": "TCGA-01-0628",
+            "SampleBarcode": "TCGA-01-0628-11A",
+            "AliquotBarcode": "TCGA-01-0628-11A-01D-0383-05",
+            "SampleTypeLetterCode": "NT",
+            "SampleType": "Solid Tissue Normal",
+            "Study": "OV",
+            "ID": "cg06069731",
+            "Beta": 0.0129045
+        },
+        {
+            "ParticipantBarcode": "TCGA-01-0628",
+            "SampleBarcode": "TCGA-01-0628-11A",
+            "AliquotBarcode": "TCGA-01-0628-11A-01D-0383-05",
+            "SampleTypeLetterCode": "NT",
+            "SampleType": "Solid Tissue Normal",
+            "Study": "OV",
+            "ID": "cg00943245",
+            "Beta": 0.882652
+        }
+    ]
 }

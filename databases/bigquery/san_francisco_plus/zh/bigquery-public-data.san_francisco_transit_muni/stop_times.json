@@ -1,116 +1,116 @@
 {
-  "table_name": "stop_times",
-  "table_fullname": "bigquery-public-data.san_francisco_transit_muni.stop_times",
-  "column_names": [
-    "站点id",
-    "行程id",
-    "站点序列",
-    "到达时间",
-    "次日到达",
-    "出发时间",
-    "次日出发",
-    "下车类型",
-    "精确时间点"
-  ],
-  "column_types": [
-    "INT64",
-    "INT64",
-    "INT64",
-    "TIME",
-    "BOOL",
-    "TIME",
-    "BOOL",
-    "STRING",
-    "BOOL"
-  ],
-  "nested_column_names": [
-    "站点id",
-    "行程id",
-    "站点顺序",
-    "到达时间",
-    "次日到达",
-    "出发时间",
-    "次日出发",
-    "下车类型",
-    "精确时间点"
-  ],
-  "nested_column_types": [
-    "INT64",
-    "INT64",
-    "INT64",
-    "TIME",
-    "BOOL",
-    "TIME",
-    "BOOL",
-    "STRING",
-    "BOOL"
-  ],
-  "description": [
-    "确定服务的停靠站。多条路线可以使用同一停靠站。",
-    "确定一趟行程。多个行程可以有相同的停靠站",
-    "确定特定行程的停靠站顺序。stop_sequence 的值必须在整个行程中增加，但不需要是连续的。",
-    "指定特定行程在特定路线上的某个停靠站的预定到达时间。",
-    "多条路线在午夜前开始，服务在整个夜晚继续。这一变量指定 arrival_time 是否发生在预定日的次日午夜后。这对于确定在一天开始、次日结束的路线很有用",
-    "指定特定行程在特定路线上的某个停靠站的预定出发时间。",
-    "多条路线在午夜前开始，服务在整个夜晚继续。这一变量指定 departure_time 是否发生在预定日的次日午夜后。这对于确定在一天开始、次日结束的路线很有用",
-    "\"指示乘客是否可以在正常时间表中在停靠站下车，或者在停靠站下车是否不可用。可用选项：- regular - none - phone（表示必须致电机构安排下车）- driver（表示必须与驾驶员协调安排下车）\"",
-    "指示指定的到达和出发时间是否严格遵守由公共交通工具，还是它们是近似或插值时间。"
-  ],
-  "sample_rows": [
-    {
-      "站点id": 15759,
-      "行程id": 8951406,
-      "站点顺序": 51,
-      "到达时间": "06:54:55",
-      "次日到达": false,
-      "出发时间": "06:54:55",
-      "次日出发": false,
-      "下车类型": "regular",
-      "精确时间点": false
-    },
-    {
-      "站点id": 15761,
-      "行程id": 8951406,
-      "站点顺序": 52,
-      "到达时间": "06:55:33",
-      "次日到达": false,
-      "出发时间": "06:55:33",
-      "次日出发": false,
-      "下车类型": "regular",
-      "精确时间点": false
-    },
-    {
-      "站点id": 15763,
-      "行程id": 8951406,
-      "站点顺序": 53,
-      "到达时间": "06:56:04",
-      "次日到达": false,
-      "出发时间": "06:56:04",
-      "次日出发": false,
-      "下车类型": "regular",
-      "精确时间点": false
-    },
-    {
-      "站点id": 15828,
-      "行程id": 8951406,
-      "站点顺序": 54,
-      "到达时间": "06:57:00",
-      "次日到达": false,
-      "出发时间": "06:57:00",
-      "次日出发": false,
-      "下车类型": "regular",
-      "精确时间点": true
-    },
-    {
-      "站点id": 15759,
-      "行程id": 8951253,
-      "站点顺序": 51,
-      "到达时间": "06:54:55",
-      "次日到达": false,
-      "出发时间": "06:54:55",
-      "次日出发": false,
-      "下车类型": "regular",
-      "精确时间点": false
-    }
-  ]
+    "table_name": "stop_times",
+    "table_fullname": "bigquery-public-data.san_francisco_transit_muni.stop_times",
+    "column_names": [
+        "stop_id",
+        "trip_id",
+        "stop_sequence",
+        "arrival_time",
+        "arrives_next_day",
+        "departure_time",
+        "departs_next_day",
+        "dropoff_type",
+        "exact_timepoint"
+    ],
+    "column_types": [
+        "INT64",
+        "INT64",
+        "INT64",
+        "TIME",
+        "BOOL",
+        "TIME",
+        "BOOL",
+        "STRING",
+        "BOOL"
+    ],
+    "nested_column_names": [
+        "stop_id",
+        "trip_id",
+        "stop_sequence",
+        "arrival_time",
+        "arrives_next_day",
+        "departure_time",
+        "departs_next_day",
+        "dropoff_type",
+        "exact_timepoint"
+    ],
+    "nested_column_types": [
+        "INT64",
+        "INT64",
+        "INT64",
+        "TIME",
+        "BOOL",
+        "TIME",
+        "BOOL",
+        "STRING",
+        "BOOL"
+    ],
+    "description": [
+        "Identifies the serviced stop. Multiple routes can use the same stop.",
+        "Identifies a trip. Multiple trips can have the same stop",
+        "Identifies the order of the stops for a particular trip. The values for stop_sequence must increase throughout the trip but do not need to be consecutive.",
+        "Specifies the scheduled arrival time at a specific stop for a specific trip on a route.",
+        "Several routes begin before midnight, with service continuing throughout the night. This variable specifies whether arrival_time occurs after midnight the day after the scheduled day. \u00a0This is useful for identifying routes that begin one day and end the next day",
+        "Specifies the scheduled departure time at a specific stop for a specific trip on a route.",
+        "Several routes begin before midnight, with service continuing throughout the night. This variable specifies whether departure_time occurs after midnight the day after the scheduled day. \u00a0This is useful for identifying routes that begin one day and end the next day",
+        "\"Indicates whether riders are dropped off at a stop as part of the normal schedule or whether a drop off at the stop isn't available. Available options: \u00a0- \u00a0regular - \u00a0none - \u00a0phone (indicates must phone agency to arrange drop off) - \u00a0driver (indicates must coordinate with driver to arrange drop off)\"",
+        "Indicates if the specified arrival and departure times for a stop are strictly adhered to by the transit vehicle, or if they're instead approximate or interpolated times."
+    ],
+    "sample_rows": [
+        {
+            "stop_id": 15759,
+            "trip_id": 8951406,
+            "stop_sequence": 51,
+            "arrival_time": "06:54:55",
+            "arrives_next_day": false,
+            "departure_time": "06:54:55",
+            "departs_next_day": false,
+            "dropoff_type": "regular",
+            "exact_timepoint": false
+        },
+        {
+            "stop_id": 15761,
+            "trip_id": 8951406,
+            "stop_sequence": 52,
+            "arrival_time": "06:55:33",
+            "arrives_next_day": false,
+            "departure_time": "06:55:33",
+            "departs_next_day": false,
+            "dropoff_type": "regular",
+            "exact_timepoint": false
+        },
+        {
+            "stop_id": 15763,
+            "trip_id": 8951406,
+            "stop_sequence": 53,
+            "arrival_time": "06:56:04",
+            "arrives_next_day": false,
+            "departure_time": "06:56:04",
+            "departs_next_day": false,
+            "dropoff_type": "regular",
+            "exact_timepoint": false
+        },
+        {
+            "stop_id": 15828,
+            "trip_id": 8951406,
+            "stop_sequence": 54,
+            "arrival_time": "06:57:00",
+            "arrives_next_day": false,
+            "departure_time": "06:57:00",
+            "departs_next_day": false,
+            "dropoff_type": "regular",
+            "exact_timepoint": true
+        },
+        {
+            "stop_id": 15759,
+            "trip_id": 8951253,
+            "stop_sequence": 51,
+            "arrival_time": "06:54:55",
+            "arrives_next_day": false,
+            "departure_time": "06:54:55",
+            "departs_next_day": false,
+            "dropoff_type": "regular",
+            "exact_timepoint": false
+        }
+    ]
 }

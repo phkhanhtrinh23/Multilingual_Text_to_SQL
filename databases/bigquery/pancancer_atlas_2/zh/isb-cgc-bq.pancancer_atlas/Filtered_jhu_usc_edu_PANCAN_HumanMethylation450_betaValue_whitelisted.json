@@ -1,106 +1,106 @@
 {
-  "table_name": "Filtered_jhu_usc_edu_PANCAN_HumanMethylation450_betaValue_whitelisted",
-  "table_fullname": "isb-cgc-bq.pancancer_atlas.Filtered_jhu_usc_edu_PANCAN_HumanMethylation450_betaValue_whitelisted",
-  "column_names": [
-    "参与者条形码",
-    "样本条形码",
-    "分配条形码",
-    "样本类型字母代码",
-    "样本类型",
-    "研究",
-    "ID",
-    "Beta"
-  ],
-  "column_types": [
-    "STRING",
-    "STRING",
-    "STRING",
-    "STRING",
-    "STRING",
-    "STRING",
-    "STRING",
-    "FLOAT64"
-  ],
-  "nested_column_names": [
-    "参与者条码",
-    "样本条码",
-    "分配条码",
-    "样本类型字母代码",
-    "样本类型",
-    "研究",
-    "ID",
-    "Beta"
-  ],
-  "nested_column_types": [
-    "STRING",
-    "STRING",
-    "STRING",
-    "STRING",
-    "STRING",
-    "STRING",
-    "STRING",
-    "FLOAT64"
-  ],
-  "description": [
-    "研究参与者的TCGA条码标识符，例如TCGA-02-0001",
-    "生物样本的条码，例如TCGA-13-1489-02A",
-    "TCGA别名条码，例如TCGA-12-1089-01A-01D-0517-28",
-    "使用TCGA标准的样本类型字母代码，例如TPN，EBV。完整列表可在https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/sample-type-codes找到",
-    "共有10种样本类型：血源性正常，原发性实体瘤，实体组织正常，复发性实体瘤，转移性，新增原发性，原发性血源性癌症-外周血，口腔细胞正常，新增转移性，骨髓正常",
-    "TCGA研究缩写，例如LAML。完整列表可在https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/tcga-study-abbreviations找到",
-    "独特的探针标识符（例如cg04676771）来自Illumina Human Methylation阵列 -- 请参考注释表（isb-cgc-bq.annotations.methylation_annotation_hg19_illumina_current）以获取有关任何特定探针的更多详细信息",
-    "正则化的DNA甲基化beta值（介于0和1之间，其中0表示完全未甲基化，1表示完全甲基化）"
-  ],
-  "sample_rows": [
-    {
-      "参与者条码": "TCGA-06-0221",
-      "样本条码": "TCGA-06-0221-02A",
-      "分配条码": "TCGA-06-0221-02A-11D-2004-05",
-      "样本类型字母代码": "TR",
-      "样本类型": "Recurrent Solid Tumor",
-      "研究": "GBM",
-      "ID": "cg23731184",
-      "Beta": 0.214408
-    },
-    {
-      "参与者条码": "TCGA-06-0152",
-      "样本条码": "TCGA-06-0152-02A",
-      "分配条码": "TCGA-06-0152-02A-01D-2004-05",
-      "样本类型字母代码": "TR",
-      "样本类型": "Recurrent Solid Tumor",
-      "研究": "GBM",
-      "ID": "cg06362729",
-      "Beta": 0.920151
-    },
-    {
-      "参与者条码": "TCGA-06-0152",
-      "样本条码": "TCGA-06-0152-02A",
-      "分配条码": "TCGA-06-0152-02A-01D-2004-05",
-      "样本类型字母代码": "TR",
-      "样本类型": "Recurrent Solid Tumor",
-      "研究": "GBM",
-      "ID": "cg10753101",
-      "Beta": 0.95802
-    },
-    {
-      "参与者条码": "TCGA-06-0210",
-      "样本条码": "TCGA-06-0210-02A",
-      "分配条码": "TCGA-06-0210-02A-01D-2004-05",
-      "样本类型字母代码": "TR",
-      "样本类型": "Recurrent Solid Tumor",
-      "研究": "GBM",
-      "ID": "cg25832529",
-      "Beta": 0.357678
-    },
-    {
-      "参与者条码": "TCGA-14-0736",
-      "样本条码": "TCGA-14-0736-02A",
-      "分配条码": "TCGA-14-0736-02A-01D-2004-05",
-      "样本类型字母代码": "TR",
-      "样本类型": "Recurrent Solid Tumor",
-      "研究": "GBM",
-      "ID": "cg09167779",
-      "Beta": 0.894181
-    }
-  ]
+    "table_name": "Filtered_jhu_usc_edu_PANCAN_HumanMethylation450_betaValue_whitelisted",
+    "table_fullname": "isb-cgc-bq.pancancer_atlas.Filtered_jhu_usc_edu_PANCAN_HumanMethylation450_betaValue_whitelisted",
+    "column_names": [
+        "ParticipantBarcode",
+        "SampleBarcode",
+        "AliquotBarcode",
+        "SampleTypeLetterCode",
+        "SampleType",
+        "Study",
+        "ID",
+        "Beta"
+    ],
+    "column_types": [
+        "STRING",
+        "STRING",
+        "STRING",
+        "STRING",
+        "STRING",
+        "STRING",
+        "STRING",
+        "FLOAT64"
+    ],
+    "nested_column_names": [
+        "ParticipantBarcode",
+        "SampleBarcode",
+        "AliquotBarcode",
+        "SampleTypeLetterCode",
+        "SampleType",
+        "Study",
+        "ID",
+        "Beta"
+    ],
+    "nested_column_types": [
+        "STRING",
+        "STRING",
+        "STRING",
+        "STRING",
+        "STRING",
+        "STRING",
+        "STRING",
+        "FLOAT64"
+    ],
+    "description": [
+        "TCGA barcode identifier for the study participant, eg TCGA-02-0001",
+        "Barcode of the biospecimen sample, eg TCGA-13-1489-02A",
+        "TCGA aliquot barcode, eg TCGA-12-1089-01A-01D-0517-28",
+        "Letter code of the sample type using the TCGA standards, eg TPN, EBV. Full list available at https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/sample-type-codes",
+        "There are 10 sample types: Blood Derived Normal, Primary solid Tumor, Solid Tissue Normal, Recurrent Solid Tumor, Metastatic, Additional - New Primary, Primary Blood Derived Cancer - Peripheral Blood, Buccal Cell Normal, Additioanal Metastatic, Bone Marrrow Normal",
+        "TCGA study abbreviation, eg LAML. Full list available at https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/tcga-study-abbreviations",
+        "Unique probe identifier (eg cg04676771) from the Illumina Human Methylation array -- please refer to the annotation table (isb-cgc-bq.annotations.methylation_annotation_hg19_illumina_current) for more details about any particular probe",
+        "Normalized DNA methylation beta value (between 0 and 1, where 0 indicates completely un-methylated and 1 indicates fully methylated)"
+    ],
+    "sample_rows": [
+        {
+            "ParticipantBarcode": "TCGA-06-0221",
+            "SampleBarcode": "TCGA-06-0221-02A",
+            "AliquotBarcode": "TCGA-06-0221-02A-11D-2004-05",
+            "SampleTypeLetterCode": "TR",
+            "SampleType": "Recurrent Solid Tumor",
+            "Study": "GBM",
+            "ID": "cg23731184",
+            "Beta": 0.214408
+        },
+        {
+            "ParticipantBarcode": "TCGA-06-0152",
+            "SampleBarcode": "TCGA-06-0152-02A",
+            "AliquotBarcode": "TCGA-06-0152-02A-01D-2004-05",
+            "SampleTypeLetterCode": "TR",
+            "SampleType": "Recurrent Solid Tumor",
+            "Study": "GBM",
+            "ID": "cg06362729",
+            "Beta": 0.920151
+        },
+        {
+            "ParticipantBarcode": "TCGA-06-0152",
+            "SampleBarcode": "TCGA-06-0152-02A",
+            "AliquotBarcode": "TCGA-06-0152-02A-01D-2004-05",
+            "SampleTypeLetterCode": "TR",
+            "SampleType": "Recurrent Solid Tumor",
+            "Study": "GBM",
+            "ID": "cg10753101",
+            "Beta": 0.95802
+        },
+        {
+            "ParticipantBarcode": "TCGA-06-0210",
+            "SampleBarcode": "TCGA-06-0210-02A",
+            "AliquotBarcode": "TCGA-06-0210-02A-01D-2004-05",
+            "SampleTypeLetterCode": "TR",
+            "SampleType": "Recurrent Solid Tumor",
+            "Study": "GBM",
+            "ID": "cg25832529",
+            "Beta": 0.357678
+        },
+        {
+            "ParticipantBarcode": "TCGA-14-0736",
+            "SampleBarcode": "TCGA-14-0736-02A",
+            "AliquotBarcode": "TCGA-14-0736-02A-01D-2004-05",
+            "SampleTypeLetterCode": "TR",
+            "SampleType": "Recurrent Solid Tumor",
+            "Study": "GBM",
+            "ID": "cg09167779",
+            "Beta": 0.894181
+        }
+    ]
 }

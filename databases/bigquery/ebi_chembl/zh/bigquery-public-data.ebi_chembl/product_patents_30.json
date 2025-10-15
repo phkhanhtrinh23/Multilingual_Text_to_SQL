@@ -1,116 +1,116 @@
 {
-  "table_name": "product_patents_30",
-  "table_fullname": "bigquery-public-data.ebi_chembl.product_patents_30",
-  "column_names": [
-    "产品专利ID",
-    "产品ID",
-    "专利号",
-    "专利过期日期",
-    "药物物质标志",
-    "药物产品标志",
-    "专利使用代码",
-    "删除标志",
-    "提交日期"
-  ],
-  "column_types": [
-    "INT64",
-    "STRING",
-    "STRING",
-    "DATETIME",
-    "INT64",
-    "INT64",
-    "STRING",
-    "INT64",
-    "DATETIME"
-  ],
-  "nested_column_names": [
-    "产品专利ID",
-    "产品ID",
-    "专利号",
-    "专利过期日期",
-    "药物物质标志",
-    "药物产品标志",
-    "专利用途代码",
-    "删除标志",
-    "提交日期"
-  ],
-  "nested_column_types": [
-    "INT64",
-    "STRING",
-    "STRING",
-    "DATETIME",
-    "INT64",
-    "INT64",
-    "STRING",
-    "INT64",
-    "DATETIME"
-  ],
-  "description": [
-    "主键",
-    "外键指向 `products` 表 - 产品的 FDA 申请号",
-    "申请人提交的专利号，受法规规定保护",
-    "申请人提交的专利过期日期，包括适用的延期",
-    "在 FDA 表格 3542 上提交的专利，并在 2003 年 8 月 18 日之后列出，可能会将药物物质标志设置为 1，表示赞助商提交专利以声明药物物质",
-    "在 FDA 表格 3542 上提交的专利，并在 2003 年 8 月 18 日之后列出，可能会将药物产品标志设置为 1，表示赞助商提交专利以声明药物产品",
-    "用于指定一种用途专利的代码，该专利涵盖批准的适应症或药物产品的用途",
-    "根据第 505(b)(2) 节的申请人不需要对此标志设置为 1 的专利进行认证",
-    "FDA 从新药申请（NDA）持有人处收到专利信息的日期。格式为 Mmm d, yyyy"
-  ],
-  "sample_rows": [
-    {
-      "产品专利ID": 12524,
-      "产品ID": "PRODUCT_022569_002",
-      "专利号": "9078814",
-      "专利过期日期": "2024-01-08 00:00:00",
-      "药物物质标志": 0,
-      "药物产品标志": 1,
-      "专利用途代码": null,
-      "删除标志": 0,
-      "提交日期": "2015-08-11 00:00:00"
-    },
-    {
-      "产品专利ID": 12841,
-      "产品ID": "PRODUCT_022569_001",
-      "专利号": "9078814",
-      "专利过期日期": "2024-01-08 00:00:00",
-      "药物物质标志": 0,
-      "药物产品标志": 1,
-      "专利用途代码": null,
-      "删除标志": 0,
-      "提交日期": "2015-08-11 00:00:00"
-    },
-    {
-      "产品专利ID": 19542,
-      "产品ID": "PRODUCT_022569_003",
-      "专利号": "9814705",
-      "专利过期日期": "2024-01-08 00:00:00",
-      "药物物质标志": 0,
-      "药物产品标志": 1,
-      "专利用途代码": null,
-      "删除标志": 0,
-      "提交日期": "2017-12-13 00:00:00"
-    },
-    {
-      "产品专利ID": 21398,
-      "产品ID": "PRODUCT_022569_002",
-      "专利号": "9814705",
-      "专利过期日期": "2024-01-08 00:00:00",
-      "药物物质标志": 0,
-      "药物产品标志": 1,
-      "专利用途代码": null,
-      "删除标志": 0,
-      "提交日期": "2017-12-13 00:00:00"
-    },
-    {
-      "产品专利ID": 21415,
-      "产品ID": "PRODUCT_022569_001",
-      "专利号": "9814705",
-      "专利过期日期": "2024-01-08 00:00:00",
-      "药物物质标志": 0,
-      "药物产品标志": 1,
-      "专利用途代码": null,
-      "删除标志": 0,
-      "提交日期": "2017-12-13 00:00:00"
-    }
-  ]
+    "table_name": "product_patents_30",
+    "table_fullname": "bigquery-public-data.ebi_chembl.product_patents_30",
+    "column_names": [
+        "prod_pat_id",
+        "product_id",
+        "patent_no",
+        "patent_expire_date",
+        "drug_substance_flag",
+        "drug_product_flag",
+        "patent_use_code",
+        "delist_flag",
+        "submission_date"
+    ],
+    "column_types": [
+        "INT64",
+        "STRING",
+        "STRING",
+        "DATETIME",
+        "INT64",
+        "INT64",
+        "STRING",
+        "INT64",
+        "DATETIME"
+    ],
+    "nested_column_names": [
+        "prod_pat_id",
+        "product_id",
+        "patent_no",
+        "patent_expire_date",
+        "drug_substance_flag",
+        "drug_product_flag",
+        "patent_use_code",
+        "delist_flag",
+        "submission_date"
+    ],
+    "nested_column_types": [
+        "INT64",
+        "STRING",
+        "STRING",
+        "DATETIME",
+        "INT64",
+        "INT64",
+        "STRING",
+        "INT64",
+        "DATETIME"
+    ],
+    "description": [
+        "Primary key",
+        "Foreign key to products table - FDA application number for the product",
+        "Patent numbers as submitted by the applicant holder for patents covered by the statutory provisions",
+        "Date the patent expires as submitted by the applicant holder including applicable extensions",
+        "Patents submitted on FDA Form 3542 and listed after August 18, 2003 may have a drug substance flag set to 1, indicating the sponsor submitted the patent as claiming the drug substance",
+        "Patents submitted on FDA Form 3542 and listed after August 18, 2003 may have a drug product flag set to 1, indicating the sponsor submitted the patent as claiming the drug product",
+        "Code to designate a use patent that covers the approved indication or use of a drug product",
+        "Applicants under Section 505(b)(2) are not required to certify to patents where this flag is set to 1",
+        "The date on which the FDA receives patent information from the new drug application (NDA) holder. Format is Mmm d, yyyy"
+    ],
+    "sample_rows": [
+        {
+            "prod_pat_id": 12524,
+            "product_id": "PRODUCT_022569_002",
+            "patent_no": "9078814",
+            "patent_expire_date": "2024-01-08 00:00:00",
+            "drug_substance_flag": 0,
+            "drug_product_flag": 1,
+            "patent_use_code": null,
+            "delist_flag": 0,
+            "submission_date": "2015-08-11 00:00:00"
+        },
+        {
+            "prod_pat_id": 12841,
+            "product_id": "PRODUCT_022569_001",
+            "patent_no": "9078814",
+            "patent_expire_date": "2024-01-08 00:00:00",
+            "drug_substance_flag": 0,
+            "drug_product_flag": 1,
+            "patent_use_code": null,
+            "delist_flag": 0,
+            "submission_date": "2015-08-11 00:00:00"
+        },
+        {
+            "prod_pat_id": 19542,
+            "product_id": "PRODUCT_022569_003",
+            "patent_no": "9814705",
+            "patent_expire_date": "2024-01-08 00:00:00",
+            "drug_substance_flag": 0,
+            "drug_product_flag": 1,
+            "patent_use_code": null,
+            "delist_flag": 0,
+            "submission_date": "2017-12-13 00:00:00"
+        },
+        {
+            "prod_pat_id": 21398,
+            "product_id": "PRODUCT_022569_002",
+            "patent_no": "9814705",
+            "patent_expire_date": "2024-01-08 00:00:00",
+            "drug_substance_flag": 0,
+            "drug_product_flag": 1,
+            "patent_use_code": null,
+            "delist_flag": 0,
+            "submission_date": "2017-12-13 00:00:00"
+        },
+        {
+            "prod_pat_id": 21415,
+            "product_id": "PRODUCT_022569_001",
+            "patent_no": "9814705",
+            "patent_expire_date": "2024-01-08 00:00:00",
+            "drug_substance_flag": 0,
+            "drug_product_flag": 1,
+            "patent_use_code": null,
+            "delist_flag": 0,
+            "submission_date": "2017-12-13 00:00:00"
+        }
+    ]
 }

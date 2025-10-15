@@ -1,106 +1,106 @@
 {
-  "table_name": "trips",
-  "table_fullname": "bigquery-public-data.san_francisco_transit_muni.trips",
-  "column_names": [
-    "行程编号",
-    "线路编号",
-    "方向",
-    "区块编号",
-    "服务类别",
-    "行程标志",
-    "形状编号",
-    "行程形状"
-  ],
-  "column_types": [
-    "STRING",
-    "STRING",
-    "STRING",
-    "STRING",
-    "STRING",
-    "STRING",
-    "STRING",
-    "GEOGRAPHY"
-  ],
-  "nested_column_names": [
-    "行程编号",
-    "线路编号",
-    "方向",
-    "区块编号",
-    "服务类别",
-    "行程标志",
-    "形状编号",
-    "行程形状"
-  ],
-  "nested_column_types": [
-    "STRING",
-    "STRING",
-    "STRING",
-    "STRING",
-    "STRING",
-    "STRING",
-    "STRING",
-    "GEOGRAPHY"
-  ],
-  "description": [
-    "每次行程的唯一标识符",
-    "每条路线的唯一标识符。单条路线将有多次行程",
-    "\"指示行程的旅行方向。以下值有效： - O：出发旅行 - I：返程旅行 此字段不用于路由，而是提供一种方法来按方向分离行程\"",
-    "确定行程所属的区块。一个区块由单次行程或多次使用相同车辆的连续行程组成。行程通过共享服务日和 `block_id` 被分组到区块中。一个 `block_id` 可以包含具有不同服务日的行程，这样就形成了不同的区块。有关更多详细信息，请参阅：https://developers.google.com/transit/gtfs/reference/#example-showing-blocks-and-service-day",
-    "指示此行程的服务类型",
-    "包含出现在标识行程目的地的标志上的文本，以便骑手区分同一路线上的不同服务模式",
-    "描述车辆在行程中沿着各个点的行驶形状的唯一标识符。用于连接 shapes 表中的可用形状",
-    "行程整个路线的地理表示"
-  ],
-  "sample_rows": [
-    {
-      "行程编号": "8999876",
-      "线路编号": "83X",
-      "方向": "O",
-      "区块编号": "8301",
-      "服务类别": null,
-      "行程标志": "Caltrain Depot",
-      "形状编号": "174188",
-      "行程形状": null
-    },
-    {
-      "行程编号": "8999873",
-      "线路编号": "83X",
-      "方向": "O",
-      "区块编号": "8302",
-      "服务类别": null,
-      "行程标志": "Caltrain Depot",
-      "形状编号": "174188",
-      "行程形状": null
-    },
-    {
-      "行程编号": "8999875",
-      "线路编号": "83X",
-      "方向": "O",
-      "区块编号": "8301",
-      "服务类别": null,
-      "行程标志": "Caltrain Depot",
-      "形状编号": "174188",
-      "行程形状": null
-    },
-    {
-      "行程编号": "8999872",
-      "线路编号": "83X",
-      "方向": "O",
-      "区块编号": "8302",
-      "服务类别": null,
-      "行程标志": "Caltrain Depot",
-      "形状编号": "174188",
-      "行程形状": null
-    },
-    {
-      "行程编号": "8999892",
-      "线路编号": "83X",
-      "方向": "O",
-      "区块编号": "8301",
-      "服务类别": null,
-      "行程标志": "Caltrain Depot",
-      "形状编号": "174188",
-      "行程形状": null
-    }
-  ]
+    "table_name": "trips",
+    "table_fullname": "bigquery-public-data.san_francisco_transit_muni.trips",
+    "column_names": [
+        "trip_id",
+        "route_id",
+        "direction",
+        "block_id",
+        "service_category",
+        "trip_headsign",
+        "shape_id",
+        "trip_shape"
+    ],
+    "column_types": [
+        "STRING",
+        "STRING",
+        "STRING",
+        "STRING",
+        "STRING",
+        "STRING",
+        "STRING",
+        "GEOGRAPHY"
+    ],
+    "nested_column_names": [
+        "trip_id",
+        "route_id",
+        "direction",
+        "block_id",
+        "service_category",
+        "trip_headsign",
+        "shape_id",
+        "trip_shape"
+    ],
+    "nested_column_types": [
+        "STRING",
+        "STRING",
+        "STRING",
+        "STRING",
+        "STRING",
+        "STRING",
+        "STRING",
+        "GEOGRAPHY"
+    ],
+    "description": [
+        "Unique identifier for each trip",
+        "Unique identifier for each route. A single route will have multiple trips",
+        "\"Indicates the direction of travel for a trip. The following values are valid:   -  O: Outbound travel -  I: Inbound travel  This field is not used in routing, but instead provides a way to separate trips by direction\"",
+        "Identifies the block to which the trip belongs. A block consists of a single trip or many sequential trips made with the same vehicle. The trips are grouped into a block by the use of a shared service day andblock_id. A block_id can include trips with different service days, which then makes distinct blocks. For more details, see: https://developers.google.com/transit/gtfs/reference/#example-showing-blocks-and-service-day",
+        "Indicates the type of service for this trip",
+        "Contains the text that appears on signage that identifies the trip's destination to riders. Use this field to distinguish between different patterns of service on the same route.",
+        "Unique identifier for the geospatial shape that describes the vehicle travel for a trip along individual points. Use to JOIN with the shapes available in the shapes table",
+        "Geographical representation of the trip's entire route."
+    ],
+    "sample_rows": [
+        {
+            "trip_id": "8999876",
+            "route_id": "83X",
+            "direction": "O",
+            "block_id": "8301",
+            "service_category": null,
+            "trip_headsign": "Caltrain Depot",
+            "shape_id": "174188",
+            "trip_shape": null
+        },
+        {
+            "trip_id": "8999873",
+            "route_id": "83X",
+            "direction": "O",
+            "block_id": "8302",
+            "service_category": null,
+            "trip_headsign": "Caltrain Depot",
+            "shape_id": "174188",
+            "trip_shape": null
+        },
+        {
+            "trip_id": "8999875",
+            "route_id": "83X",
+            "direction": "O",
+            "block_id": "8301",
+            "service_category": null,
+            "trip_headsign": "Caltrain Depot",
+            "shape_id": "174188",
+            "trip_shape": null
+        },
+        {
+            "trip_id": "8999872",
+            "route_id": "83X",
+            "direction": "O",
+            "block_id": "8302",
+            "service_category": null,
+            "trip_headsign": "Caltrain Depot",
+            "shape_id": "174188",
+            "trip_shape": null
+        },
+        {
+            "trip_id": "8999892",
+            "route_id": "83X",
+            "direction": "O",
+            "block_id": "8301",
+            "service_category": null,
+            "trip_headsign": "Caltrain Depot",
+            "shape_id": "174188",
+            "trip_shape": null
+        }
+    ]
 }

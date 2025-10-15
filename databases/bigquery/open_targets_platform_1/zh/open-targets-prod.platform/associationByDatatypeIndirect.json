@@ -1,76 +1,76 @@
 {
-  "table_name": "associationByDatatypeIndirect",
-  "table_fullname": "open-targets-prod.platform.associationByDatatypeIndirect",
-  "column_names": [
-    "疾病ID",
-    "目标ID",
-    "数据类型ID",
-    "得分",
-    "证据数量"
-  ],
-  "column_types": [
-    "STRING",
-    "STRING",
-    "STRING",
-    "FLOAT64",
-    "INT64"
-  ],
-  "nested_column_names": [
-    "疾病ID",
-    "目标ID",
-    "数据类型ID",
-    "score",
-    "证据数量"
-  ],
-  "nested_column_types": [
-    "STRING",
-    "STRING",
-    "STRING",
-    "FLOAT64",
-    "INT64"
-  ],
-  "description": [
-    null,
-    null,
-    null,
-    null,
-    null
-  ],
-  "sample_rows": [
-    {
-      "疾病ID": "EFO_0000677",
-      "目标ID": "ENSG00000187094",
-      "数据类型ID": "literature",
-      "score": 0.3846470249484239,
-      "证据数量": 256
-    },
-    {
-      "疾病ID": "EFO_1000051",
-      "目标ID": "ENSG00000185499",
-      "数据类型ID": "literature",
-      "score": 0.7581854636368128,
-      "证据数量": 256
-    },
-    {
-      "疾病ID": "EFO_0002422",
-      "目标ID": "ENSG00000147437",
-      "数据类型ID": "literature",
-      "score": 0.5861179253662822,
-      "证据数量": 256
-    },
-    {
-      "疾病ID": "EFO_0000540",
-      "目标ID": "ENSG00000161955",
-      "数据类型ID": "literature",
-      "score": 0.9161655401042187,
-      "证据数量": 256
-    },
-    {
-      "疾病ID": "MONDO_0000473",
-      "目标ID": "ENSG00000122194",
-      "数据类型ID": "literature",
-      "score": 0.5007441910332942,
-      "证据数量": 256
-    }
-  ]
+    "table_name": "associationByDatatypeIndirect",
+    "table_fullname": "open-targets-prod.platform.associationByDatatypeIndirect",
+    "column_names": [
+        "diseaseId",
+        "targetId",
+        "datatypeId",
+        "score",
+        "evidenceCount"
+    ],
+    "column_types": [
+        "STRING",
+        "STRING",
+        "STRING",
+        "FLOAT64",
+        "INT64"
+    ],
+    "nested_column_names": [
+        "diseaseId",
+        "targetId",
+        "datatypeId",
+        "score",
+        "evidenceCount"
+    ],
+    "nested_column_types": [
+        "STRING",
+        "STRING",
+        "STRING",
+        "FLOAT64",
+        "INT64"
+    ],
+    "description": [
+        null,
+        null,
+        null,
+        null,
+        null
+    ],
+    "sample_rows": [
+        {
+            "diseaseId": "EFO_0000677",
+            "targetId": "ENSG00000187094",
+            "datatypeId": "literature",
+            "score": 0.3846470249484239,
+            "evidenceCount": 256
+        },
+        {
+            "diseaseId": "EFO_1000051",
+            "targetId": "ENSG00000185499",
+            "datatypeId": "literature",
+            "score": 0.7581854636368128,
+            "evidenceCount": 256
+        },
+        {
+            "diseaseId": "EFO_0002422",
+            "targetId": "ENSG00000147437",
+            "datatypeId": "literature",
+            "score": 0.5861179253662822,
+            "evidenceCount": 256
+        },
+        {
+            "diseaseId": "EFO_0000540",
+            "targetId": "ENSG00000161955",
+            "datatypeId": "literature",
+            "score": 0.9161655401042187,
+            "evidenceCount": 256
+        },
+        {
+            "diseaseId": "MONDO_0000473",
+            "targetId": "ENSG00000122194",
+            "datatypeId": "literature",
+            "score": 0.5007441910332942,
+            "evidenceCount": 256
+        }
+    ]
 }

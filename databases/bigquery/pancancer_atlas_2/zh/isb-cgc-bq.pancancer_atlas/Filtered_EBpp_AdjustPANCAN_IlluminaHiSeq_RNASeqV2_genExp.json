@@ -1,116 +1,116 @@
 {
-  "table_name": "Filtered_EBpp_AdjustPANCAN_IlluminaHiSeq_RNASeqV2_genExp",
-  "table_fullname": "isb-cgc-bq.pancancer_atlas.Filtered_EBpp_AdjustPANCAN_IlluminaHiSeq_RNASeqV2_genExp",
-  "column_names": [
-    "参与者条码",
-    "样本条码",
-    "分配条码",
-    "样本类型字母代码",
-    "样本类型",
-    "研究",
-    "符号",
-    "Entrez",
-    "normalized_count"
-  ],
-  "column_types": [
-    "STRING",
-    "STRING",
-    "STRING",
-    "STRING",
-    "STRING",
-    "STRING",
-    "STRING",
-    "STRING",
-    "FLOAT64"
-  ],
-  "nested_column_names": [
-    "参与者条码",
-    "样本条码",
-    "分配条码",
-    "样本类型字母代码",
-    "样本类型",
-    "研究",
-    "符号",
-    "Entrez",
-    "normalized_count"
-  ],
-  "nested_column_types": [
-    "STRING",
-    "STRING",
-    "STRING",
-    "STRING",
-    "STRING",
-    "STRING",
-    "STRING",
-    "STRING",
-    "FLOAT64"
-  ],
-  "description": [
-    "研究参与者的TCGA条码标识符，例如TCGA-02-0001",
-    "生物样本的条码，例如TCGA-13-1489-02A",
-    "TCGA别名条码，例如TCGA-12-1089-01A-01D-0517-28",
-    "使用TCGA标准的样本类型字母代码，例如TPN，EBV。完整列表可在https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/sample-type-codes找到",
-    "共有10种样本类型：血源性正常，原发性固体肿瘤，固体组织正常，复发性固体肿瘤，转移性，附加-新原发性，原发性血源性癌-外周血，颊细胞正常，附加转移性，骨髓正常",
-    "TCGA研究缩写，例如LAML。完整列表可在https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/tcga-study-abbreviations找到",
-    "例如TP53，LRP1B等（与Hugo_Symbol字段相同，但为空白而不是Unknown",
-    "来自NCBI的Entrez ID，例如730971",
-    "标准化的基因表达"
-  ],
-  "sample_rows": [
-    {
-      "参与者条码": "TCGA-06-0675",
-      "样本条码": "TCGA-06-0675-11A",
-      "分配条码": "TCGA-06-0675-11A-32R-A36H-07",
-      "样本类型字母代码": "NT",
-      "样本类型": "Solid Tissue Normal",
-      "研究": "GBM",
-      "符号": "SNORA3",
-      "Entrez": "619562",
-      "normalized_count": 0.0
-    },
-    {
-      "参与者条码": "TCGA-06-0675",
-      "样本条码": "TCGA-06-0675-11A",
-      "分配条码": "TCGA-06-0675-11A-32R-A36H-07",
-      "样本类型字母代码": "NT",
-      "样本类型": "Solid Tissue Normal",
-      "研究": "GBM",
-      "符号": "SH3TC1",
-      "Entrez": "54436",
-      "normalized_count": 270.806
-    },
-    {
-      "参与者条码": "TCGA-06-0675",
-      "样本条码": "TCGA-06-0675-11A",
-      "分配条码": "TCGA-06-0675-11A-32R-A36H-07",
-      "样本类型字母代码": "NT",
-      "样本类型": "Solid Tissue Normal",
-      "研究": "GBM",
-      "符号": "F2RL1",
-      "Entrez": "2150",
-      "normalized_count": 52.6318
-    },
-    {
-      "参与者条码": "TCGA-06-0675",
-      "样本条码": "TCGA-06-0675-11A",
-      "分配条码": "TCGA-06-0675-11A-32R-A36H-07",
-      "样本类型字母代码": "NT",
-      "样本类型": "Solid Tissue Normal",
-      "研究": "GBM",
-      "符号": "FGF1",
-      "Entrez": "2246",
-      "normalized_count": 1356.73
-    },
-    {
-      "参与者条码": "TCGA-06-0675",
-      "样本条码": "TCGA-06-0675-11A",
-      "分配条码": "TCGA-06-0675-11A-32R-A36H-07",
-      "样本类型字母代码": "NT",
-      "样本类型": "Solid Tissue Normal",
-      "研究": "GBM",
-      "符号": "LOC728410",
-      "Entrez": "728410",
-      "normalized_count": 0.0
-    }
-  ]
+    "table_name": "Filtered_EBpp_AdjustPANCAN_IlluminaHiSeq_RNASeqV2_genExp",
+    "table_fullname": "isb-cgc-bq.pancancer_atlas.Filtered_EBpp_AdjustPANCAN_IlluminaHiSeq_RNASeqV2_genExp",
+    "column_names": [
+        "ParticipantBarcode",
+        "SampleBarcode",
+        "AliquotBarcode",
+        "SampleTypeLetterCode",
+        "SampleType",
+        "Study",
+        "Symbol",
+        "Entrez",
+        "normalized_count"
+    ],
+    "column_types": [
+        "STRING",
+        "STRING",
+        "STRING",
+        "STRING",
+        "STRING",
+        "STRING",
+        "STRING",
+        "STRING",
+        "FLOAT64"
+    ],
+    "nested_column_names": [
+        "ParticipantBarcode",
+        "SampleBarcode",
+        "AliquotBarcode",
+        "SampleTypeLetterCode",
+        "SampleType",
+        "Study",
+        "Symbol",
+        "Entrez",
+        "normalized_count"
+    ],
+    "nested_column_types": [
+        "STRING",
+        "STRING",
+        "STRING",
+        "STRING",
+        "STRING",
+        "STRING",
+        "STRING",
+        "STRING",
+        "FLOAT64"
+    ],
+    "description": [
+        "TCGA barcode identifier for the study participant, eg TCGA-02-0001",
+        "Barcode of the biospecimen sample, eg TCGA-13-1489-02A",
+        "TCGA aliquot barcode, eg TCGA-12-1089-01A-01D-0517-28",
+        "Letter code of the sample type using the TCGA standards, eg TPN, EBV. Full list available at https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/sample-type-codes",
+        "There are 10 sample types: Blood Derived Normal, Primary solid Tumor, Solid Tissue Normal, Recurrent Solid Tumor, Metastatic, Additional - New Primary, Primary Blood Derived Cancer - Peripheral Blood, Buccal Cell Normal, Additioanal Metastatic, Bone Marrrow Normal",
+        "TCGA study abbreviation, eg LAML. Full list available at https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/tcga-study-abbreviations",
+        "eg TP53, LRP1B, etc (same as Hugo_Symbol field except blank instead of Unknown",
+        "Entrez ID from the NCBI, eg 730971",
+        "Normalized gene expression"
+    ],
+    "sample_rows": [
+        {
+            "ParticipantBarcode": "TCGA-06-0675",
+            "SampleBarcode": "TCGA-06-0675-11A",
+            "AliquotBarcode": "TCGA-06-0675-11A-32R-A36H-07",
+            "SampleTypeLetterCode": "NT",
+            "SampleType": "Solid Tissue Normal",
+            "Study": "GBM",
+            "Symbol": "SNORA3",
+            "Entrez": "619562",
+            "normalized_count": 0.0
+        },
+        {
+            "ParticipantBarcode": "TCGA-06-0675",
+            "SampleBarcode": "TCGA-06-0675-11A",
+            "AliquotBarcode": "TCGA-06-0675-11A-32R-A36H-07",
+            "SampleTypeLetterCode": "NT",
+            "SampleType": "Solid Tissue Normal",
+            "Study": "GBM",
+            "Symbol": "SH3TC1",
+            "Entrez": "54436",
+            "normalized_count": 270.806
+        },
+        {
+            "ParticipantBarcode": "TCGA-06-0675",
+            "SampleBarcode": "TCGA-06-0675-11A",
+            "AliquotBarcode": "TCGA-06-0675-11A-32R-A36H-07",
+            "SampleTypeLetterCode": "NT",
+            "SampleType": "Solid Tissue Normal",
+            "Study": "GBM",
+            "Symbol": "F2RL1",
+            "Entrez": "2150",
+            "normalized_count": 52.6318
+        },
+        {
+            "ParticipantBarcode": "TCGA-06-0675",
+            "SampleBarcode": "TCGA-06-0675-11A",
+            "AliquotBarcode": "TCGA-06-0675-11A-32R-A36H-07",
+            "SampleTypeLetterCode": "NT",
+            "SampleType": "Solid Tissue Normal",
+            "Study": "GBM",
+            "Symbol": "FGF1",
+            "Entrez": "2246",
+            "normalized_count": 1356.73
+        },
+        {
+            "ParticipantBarcode": "TCGA-06-0675",
+            "SampleBarcode": "TCGA-06-0675-11A",
+            "AliquotBarcode": "TCGA-06-0675-11A-32R-A36H-07",
+            "SampleTypeLetterCode": "NT",
+            "SampleType": "Solid Tissue Normal",
+            "Study": "GBM",
+            "Symbol": "LOC728410",
+            "Entrez": "728410",
+            "normalized_count": 0.0
+        }
+    ]
 }

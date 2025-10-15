@@ -1,76 +1,76 @@
 {
-  "table_name": "indication_refs_30",
-  "table_fullname": "bigquery-public-data.ebi_chembl.indication_refs_30",
-  "column_names": [
-    "引用ID",
-    "药物指标ID",
-    "引用类型",
-    "引用编号",
-    "引用网址"
-  ],
-  "column_types": [
-    "INT64",
-    "INT64",
-    "STRING",
-    "STRING",
-    "STRING"
-  ],
-  "nested_column_names": [
-    "引用ID",
-    "药物指标ID",
-    "引用类型",
-    "引用编号",
-    "引用网址"
-  ],
-  "nested_column_types": [
-    "INT64",
-    "INT64",
-    "STRING",
-    "STRING",
-    "STRING"
-  ],
-  "description": [
-    "主键",
-    "指向 DRUG_INDICATION 表的外键，表示此引用所应用的药物-适应症链接",
-    "引用的类型/来源",
-    "引用在来源中的标识符",
-    "链接到引用的完整 URL"
-  ],
-  "sample_rows": [
-    {
-      "引用ID": 437519,
-      "药物指标ID": 50045,
-      "引用类型": "ATC",
-      "引用编号": "A01AB02",
-      "引用网址": "http://www.whocc.no/atc_ddd_index/?code=A01AB02"
-    },
-    {
-      "引用ID": 495235,
-      "药物指标ID": 68675,
-      "引用类型": "ATC",
-      "引用编号": "A01AB03",
-      "引用网址": "http://www.whocc.no/atc_ddd_index/?code=A01AB03"
-    },
-    {
-      "引用ID": 434491,
-      "药物指标ID": 42687,
-      "引用类型": "ATC",
-      "引用编号": "A01AB04",
-      "引用网址": "http://www.whocc.no/atc_ddd_index/?code=A01AB04"
-    },
-    {
-      "引用ID": 486361,
-      "药物指标ID": 50046,
-      "引用类型": "ATC",
-      "引用编号": "A01AB05",
-      "引用网址": "http://www.whocc.no/atc_ddd_index/?code=A01AB05"
-    },
-    {
-      "引用ID": 493806,
-      "药物指标ID": 67819,
-      "引用类型": "ATC",
-      "引用编号": "A01AB06",
-      "引用网址": "http://www.whocc.no/atc_ddd_index/?code=A01AB06"
-    }
-  ]
+    "table_name": "indication_refs_30",
+    "table_fullname": "bigquery-public-data.ebi_chembl.indication_refs_30",
+    "column_names": [
+        "indref_id",
+        "drugind_id",
+        "ref_type",
+        "ref_id",
+        "ref_url"
+    ],
+    "column_types": [
+        "INT64",
+        "INT64",
+        "STRING",
+        "STRING",
+        "STRING"
+    ],
+    "nested_column_names": [
+        "indref_id",
+        "drugind_id",
+        "ref_type",
+        "ref_id",
+        "ref_url"
+    ],
+    "nested_column_types": [
+        "INT64",
+        "INT64",
+        "STRING",
+        "STRING",
+        "STRING"
+    ],
+    "description": [
+        "Primary key",
+        "Foreign key to the DRUG_INDICATION table, indicating the drug-indication link that this reference applies to",
+        "Type/source of reference",
+        "Identifier for the reference in the source",
+        "Full URL linking to the reference"
+    ],
+    "sample_rows": [
+        {
+            "indref_id": 437519,
+            "drugind_id": 50045,
+            "ref_type": "ATC",
+            "ref_id": "A01AB02",
+            "ref_url": "http://www.whocc.no/atc_ddd_index/?code=A01AB02"
+        },
+        {
+            "indref_id": 495235,
+            "drugind_id": 68675,
+            "ref_type": "ATC",
+            "ref_id": "A01AB03",
+            "ref_url": "http://www.whocc.no/atc_ddd_index/?code=A01AB03"
+        },
+        {
+            "indref_id": 434491,
+            "drugind_id": 42687,
+            "ref_type": "ATC",
+            "ref_id": "A01AB04",
+            "ref_url": "http://www.whocc.no/atc_ddd_index/?code=A01AB04"
+        },
+        {
+            "indref_id": 486361,
+            "drugind_id": 50046,
+            "ref_type": "ATC",
+            "ref_id": "A01AB05",
+            "ref_url": "http://www.whocc.no/atc_ddd_index/?code=A01AB05"
+        },
+        {
+            "indref_id": 493806,
+            "drugind_id": 67819,
+            "ref_type": "ATC",
+            "ref_id": "A01AB06",
+            "ref_url": "http://www.whocc.no/atc_ddd_index/?code=A01AB06"
+        }
+    ]
 }

@@ -1,76 +1,76 @@
 {
-  "table_name": "associationByDatatypeDirect",
-  "table_fullname": "open-targets-prod.platform.associationByDatatypeDirect",
-  "column_names": [
-    "疾病ID",
-    "目标ID",
-    "数据类型ID",
-    "得分",
-    "证据数量"
-  ],
-  "column_types": [
-    "STRING",
-    "STRING",
-    "STRING",
-    "FLOAT64",
-    "INT64"
-  ],
-  "nested_column_names": [
-    "疾病ID",
-    "目标ID",
-    "数据类型ID",
-    "得分",
-    "证据数量"
-  ],
-  "nested_column_types": [
-    "STRING",
-    "STRING",
-    "STRING",
-    "FLOAT64",
-    "INT64"
-  ],
-  "description": [
-    null,
-    null,
-    null,
-    null,
-    null
-  ],
-  "sample_rows": [
-    {
-      "疾病ID": "EFO_0000182",
-      "目标ID": "ENSG00000157404",
-      "数据类型ID": "known_drug",
-      "得分": 0.9776027328690036,
-      "证据数量": 256
-    },
-    {
-      "疾病ID": "EFO_0000222",
-      "目标ID": "ENSG00000130816",
-      "数据类型ID": "literature",
-      "得分": 0.9317724820898985,
-      "证据数量": 256
-    },
-    {
-      "疾病ID": "EFO_0000544",
-      "目标ID": "ENSG00000170266",
-      "数据类型ID": "literature",
-      "得分": 0.14032130170230317,
-      "证据数量": 256
-    },
-    {
-      "疾病ID": "EFO_0000616",
-      "目标ID": "ENSG00000104067",
-      "数据类型ID": "literature",
-      "得分": 0.8441010580117951,
-      "证据数量": 256
-    },
-    {
-      "疾病ID": "MONDO_0004992",
-      "目标ID": "ENSG00000162434",
-      "数据类型ID": "literature",
-      "得分": 0.6289120158371304,
-      "证据数量": 256
-    }
-  ]
+    "table_name": "associationByDatatypeDirect",
+    "table_fullname": "open-targets-prod.platform.associationByDatatypeDirect",
+    "column_names": [
+        "diseaseId",
+        "targetId",
+        "datatypeId",
+        "score",
+        "evidenceCount"
+    ],
+    "column_types": [
+        "STRING",
+        "STRING",
+        "STRING",
+        "FLOAT64",
+        "INT64"
+    ],
+    "nested_column_names": [
+        "diseaseId",
+        "targetId",
+        "datatypeId",
+        "score",
+        "evidenceCount"
+    ],
+    "nested_column_types": [
+        "STRING",
+        "STRING",
+        "STRING",
+        "FLOAT64",
+        "INT64"
+    ],
+    "description": [
+        null,
+        null,
+        null,
+        null,
+        null
+    ],
+    "sample_rows": [
+        {
+            "diseaseId": "EFO_0000182",
+            "targetId": "ENSG00000157404",
+            "datatypeId": "known_drug",
+            "score": 0.9776027328690036,
+            "evidenceCount": 256
+        },
+        {
+            "diseaseId": "EFO_0000222",
+            "targetId": "ENSG00000130816",
+            "datatypeId": "literature",
+            "score": 0.9317724820898985,
+            "evidenceCount": 256
+        },
+        {
+            "diseaseId": "EFO_0000544",
+            "targetId": "ENSG00000170266",
+            "datatypeId": "literature",
+            "score": 0.14032130170230317,
+            "evidenceCount": 256
+        },
+        {
+            "diseaseId": "EFO_0000616",
+            "targetId": "ENSG00000104067",
+            "datatypeId": "literature",
+            "score": 0.8441010580117951,
+            "evidenceCount": 256
+        },
+        {
+            "diseaseId": "MONDO_0004992",
+            "targetId": "ENSG00000162434",
+            "datatypeId": "literature",
+            "score": 0.6289120158371304,
+            "evidenceCount": 256
+        }
+    ]
 }
