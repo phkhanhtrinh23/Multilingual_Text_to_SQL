@@ -1,0 +1,86 @@
+{
+  "table_name": "defined_daily_dose_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.defined_daily_dose_30",
+  "column_names": [
+    "ATCコード",
+    "DDD単位",
+    "DDD管理者",
+    "DDDコメント",
+    "DDD ID",
+    "DDD値"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "FLOAT64"
+  ],
+  "nested_column_names": [
+    "ATCコード",
+    "DDD単位",
+    "DDD管理者",
+    "コメント",
+    "ddd_識別子",
+    "ddd値"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "FLOAT64"
+  ],
+  "description": [
+    "化合物のATCコード（ATC_CLASSIFICATIONテーブルへの外部キー）",
+    "定義日量単位",
+    "投与経路",
+    "コメント",
+    "内部主キー",
+    "定義日量の価値"
+  ],
+  "sample_rows": [
+    {
+      "ATCコード": "A02AD01",
+      "DDD単位": null,
+      "DDD管理者": null,
+      "コメント": "Standard dose: 10 tablets or 50 ml mixt",
+      "ddd_識別子": 15,
+      "ddd値": null
+    },
+    {
+      "ATCコード": "R03BB05",
+      "DDD単位": null,
+      "DDD管理者": null,
+      "コメント": null,
+      "ddd_識別子": 2979,
+      "ddd値": null
+    },
+    {
+      "ATCコード": "R03BB06",
+      "DDD単位": null,
+      "DDD管理者": null,
+      "コメント": null,
+      "ddd_識別子": 2981,
+      "ddd値": null
+    },
+    {
+      "ATCコード": "V03AE09",
+      "DDD単位": null,
+      "DDD管理者": null,
+      "コメント": null,
+      "ddd_識別子": 3237,
+      "ddd値": null
+    },
+    {
+      "ATCコード": "B06AC05",
+      "DDD単位": null,
+      "DDD管理者": null,
+      "コメント": null,
+      "ddd_識別子": 3282,
+      "ddd値": null
+    }
+  ]
+}
