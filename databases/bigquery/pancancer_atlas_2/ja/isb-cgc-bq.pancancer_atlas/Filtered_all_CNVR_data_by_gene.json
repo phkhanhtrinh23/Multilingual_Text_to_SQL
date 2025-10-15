@@ -1,0 +1,126 @@
+{
+  "table_name": "Filtered_all_CNVR_data_by_gene",
+  "table_fullname": "isb-cgc-bq.pancancer_atlas.Filtered_all_CNVR_data_by_gene",
+  "column_names": [
+    "参加者バーコード",
+    "サンプルバーコード",
+    "分液バーコード",
+    "サンプル種別コード",
+    "サンプルタイプ",
+    "研究",
+    "遺伝子記号",
+    "ローカスID",
+    "染色体帯",
+    "GISTIC呼び出し"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "STRING",
+    "FLOAT64"
+  ],
+  "nested_column_names": [
+    "参加者バーコード",
+    "サンプルバーコード",
+    "分液バーコード",
+    "サンプルタイプ文字コード",
+    "サンプル種別",
+    "研究",
+    "遺伝子記号",
+    "ローカスID",
+    "染色体帯",
+    "GISTIC呼び出し"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "STRING",
+    "FLOAT64"
+  ],
+  "description": [
+    "研究参加者のTCGAバーコード識別子、例：TCGA-02-0001",
+    "生体試料のバーコード、例：TCGA-13-1489-02A",
+    "TCGA アリオットバーコード、例：TCGA-12-1089-01A-01D-0517-28",
+    "TCGA標準に基づくサンプルタイプの文字コード（例：TPN、EBV）  \n完全リストは https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/sample-type-codes で確認できます。",
+    "10種類のサンプルタイプがあります：\n- 血液由来正常\n- 原発性固形腫瘍\n- 固形組織正常\n- 再発固形腫瘍\n- 転移\n- 追加 - 新規原発\n- 原発性血液由来癌 - 周辺血液\n- 口腔粘膜細胞正常\n- 追加転移\n- 骨髄正常",
+    "TCGA 研究略語（例：LAML）  \n完全リストは https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/tcga-study-abbreviations でご確認ください",
+    "例: TP53、LRP1B など（Hugo_Symbol フィールドと同じだが、Unknown の代わりに空白にする）",
+    "遺伝子ローカスID、例：57380、100616303",
+    "染色体を含む完全なサイトバンド名。例：17p13.2 参照 https://www.ncbi.nlm.nih.gov/Class/MLACourse/Original8Hour/Genetics/chrombanding.html",
+    "GISTICコピー数コール"
+  ],
+  "sample_rows": [
+    {
+      "参加者バーコード": "TCGA-04-1331",
+      "サンプルバーコード": "TCGA-04-1331-01A",
+      "分液バーコード": "TCGA-04-1331-01A-01D-0428-01",
+      "サンプルタイプ文字コード": "TP",
+      "サンプル種別": "Primary solid Tumor",
+      "研究": "OV",
+      "遺伝子記号": "MIR663B",
+      "ローカスID": 100313824,
+      "染色体帯": "2q21.2",
+      "GISTIC呼び出し": -0.054
+    },
+    {
+      "参加者バーコード": "TCGA-04-1331",
+      "サンプルバーコード": "TCGA-04-1331-01A",
+      "分液バーコード": "TCGA-04-1331-01A-01D-0428-01",
+      "サンプルタイプ文字コード": "TP",
+      "サンプル種別": "Primary solid Tumor",
+      "研究": "OV",
+      "遺伝子記号": "REG4",
+      "ローカスID": 83998,
+      "染色体帯": "1p12",
+      "GISTIC呼び出し": 0.13
+    },
+    {
+      "参加者バーコード": "TCGA-04-1331",
+      "サンプルバーコード": "TCGA-04-1331-01A",
+      "分液バーコード": "TCGA-04-1331-01A-01D-0428-01",
+      "サンプルタイプ文字コード": "TP",
+      "サンプル種別": "Primary solid Tumor",
+      "研究": "OV",
+      "遺伝子記号": "CABIN1",
+      "ローカスID": 23523,
+      "染色体帯": "22q11.23",
+      "GISTIC呼び出し": -0.715
+    },
+    {
+      "参加者バーコード": "TCGA-04-1331",
+      "サンプルバーコード": "TCGA-04-1331-01A",
+      "分液バーコード": "TCGA-04-1331-01A-01D-0428-01",
+      "サンプルタイプ文字コード": "TP",
+      "サンプル種別": "Primary solid Tumor",
+      "研究": "OV",
+      "遺伝子記号": "CHRNA7",
+      "ローカスID": 1139,
+      "染色体帯": "15q13.3",
+      "GISTIC呼び出し": -0.764
+    },
+    {
+      "参加者バーコード": "TCGA-04-1331",
+      "サンプルバーコード": "TCGA-04-1331-01A",
+      "分液バーコード": "TCGA-04-1331-01A-01D-0428-01",
+      "サンプルタイプ文字コード": "TP",
+      "サンプル種別": "Primary solid Tumor",
+      "研究": "OV",
+      "遺伝子記号": "AOC2",
+      "ローカスID": 314,
+      "染色体帯": "17q21.31",
+      "GISTIC呼び出し": -0.277
+    }
+  ]
+}
