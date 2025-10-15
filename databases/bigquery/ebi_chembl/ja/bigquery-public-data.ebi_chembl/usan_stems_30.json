@@ -1,0 +1,96 @@
+{
+  "table_name": "usan_stems_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.usan_stems_30",
+  "column_names": [
+    "USAN ステムID",
+    "茎",
+    "サブグループ",
+    "注釈",
+    "茎のクラス",
+    "主要クラス",
+    "追加情報"
+  ],
+  "column_types": [
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "USAN ステムID",
+    "茎",
+    "サブグループ",
+    "注釈",
+    "語幹分類",
+    "主要クラス",
+    "追加担当者"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64"
+  ],
+  "description": [
+    "数値主キー",
+    "米国採用名（United States Adopted Names）で使用されるStemの定義",
+    "米国採用名（United States Adopted Names）で使用するために定義されたステムのより具体的なサブグループ",
+    "語幹の意味（例：それが適用される複合語のクラス）",
+    "語幹が接頭辞・中綴辞・接尾辞として使用されるかどうかを示す。",
+    "このクラスの化合物で標的とされるタンパク質ファミリー（例：GPCR /イオンチャネル /プロテアーゼ）が既知または該当する場合",
+    "USANリストには表記されていないステムですが、WHO INN ステムリスト（1に設定されている項目）から追加されました。"
+  ],
+  "sample_rows": [
+    {
+      "USAN ステムID": 16,
+      "茎": "-adol-",
+      "サブグループ": "-",
+      "注釈": "analgesics (mixed opiate receptor agonists/antagonists)",
+      "語幹分類": "Infix",
+      "主要クラス": "GPCR",
+      "追加担当者": 0
+    },
+    {
+      "USAN ステムID": 32,
+      "茎": "-nab-",
+      "サブグループ": "-",
+      "注釈": "cannabinol derivatives",
+      "語幹分類": "Infix",
+      "主要クラス": "GPCR",
+      "追加担当者": 0
+    },
+    {
+      "USAN ステムID": 49,
+      "茎": "-kef-",
+      "サブグループ": "-",
+      "注釈": "enkephalin agonists",
+      "語幹分類": "Infix",
+      "主要クラス": "GPCR",
+      "追加担当者": 0
+    },
+    {
+      "USAN ステムID": 73,
+      "茎": "-prost-",
+      "サブグループ": "-",
+      "注釈": "prostaglandins",
+      "語幹分類": "Infix",
+      "主要クラス": "GPCR",
+      "追加担当者": 0
+    },
+    {
+      "USAN ステムID": 86,
+      "茎": "-barb-",
+      "サブグループ": "-",
+      "注釈": "barbituric acid derivatives",
+      "語幹分類": "Infix",
+      "主要クラス": "ion channel",
+      "追加担当者": 0
+    }
+  ]
+}
