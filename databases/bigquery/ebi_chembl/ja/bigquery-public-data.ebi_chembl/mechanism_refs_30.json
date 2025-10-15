@@ -1,0 +1,76 @@
+{
+  "table_name": "mechanism_refs_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.mechanism_refs_30",
+  "column_names": [
+    "メディカル参照ID",
+    "MEC識別子",
+    "参照種別",
+    "参照ID",
+    "参照URL"
+  ],
+  "column_types": [
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "薬剤参照ID",
+    "MEC ID",
+    "参照タイプ",
+    "参照ID",
+    "参照URL"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "主キー",
+    "drug_mechanism テーブルへの外部キー - 参照先が示すメカニズムを示す",
+    "参照元のタイプ/ソース（例：'PubMed'、'DailyMed'）",
+    "ソース内の参照の識別子（例：PubMed ID または DailyMed setid）",
+    "参照への完全URLリンク"
+  ],
+  "sample_rows": [
+    {
+      "薬剤参照ID": 15815,
+      "MEC ID": 9092,
+      "参照タイプ": "BNF",
+      "参照ID": "https://bnf.nice.org.uk/drug/enoximone.html",
+      "参照URL": "https://bnf.nice.org.uk/drug/enoximone.html"
+    },
+    {
+      "薬剤参照ID": 14359,
+      "MEC ID": 8478,
+      "参照タイプ": "BNF",
+      "参照ID": "https://bnf.nice.org.uk/drug/simeticone.html",
+      "参照URL": "https://bnf.nice.org.uk/drug/simeticone.html"
+    },
+    {
+      "薬剤参照ID": 15068,
+      "MEC ID": 8036,
+      "参照タイプ": "BNF",
+      "参照ID": "https://bnf.nice.org.uk/drug/temocillin.html",
+      "参照URL": "https://bnf.nice.org.uk/drug/temocillin.html"
+    },
+    {
+      "薬剤参照ID": 14855,
+      "MEC ID": 8429,
+      "参照タイプ": "BNF",
+      "参照ID": "https://bnf.nice.org.uk/drug/lenograstim.html",
+      "参照URL": "https://bnf.nice.org.uk/drug/lenograstim.html"
+    },
+    {
+      "薬剤参照ID": 15664,
+      "MEC ID": 8942,
+      "参照タイプ": "BNF",
+      "参照ID": "https://bnf.nice.org.uk/drug/quinagolide.html",
+      "参照URL": "https://bnf.nice.org.uk/drug/quinagolide.html"
+    }
+  ]
+}
