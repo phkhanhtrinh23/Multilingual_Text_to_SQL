@@ -1,0 +1,86 @@
+{
+  "table_name": "significantAdverseDrugReactions",
+  "table_fullname": "bigquery-public-data.open_targets_platform.significantAdverseDrugReactions",
+  "column_names": [
+    "Chembl ID",
+    "イベント",
+    "件数",
+    "対数尤度比",
+    "臨界値",
+    "メディドラコード"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "INT64",
+    "FLOAT64",
+    "FLOAT64",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "Chembl識別子",
+    "イベント",
+    "件数",
+    "対数尤度比",
+    "臨界値",
+    "メッドラコード"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "INT64",
+    "FLOAT64",
+    "FLOAT64",
+    "STRING"
+  ],
+  "description": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "sample_rows": [
+    {
+      "Chembl識別子": "CHEMBL2",
+      "イベント": "hypotension",
+      "件数": 53,
+      "対数尤度比": 91.35776972666008,
+      "臨界値": 6.251299745844193,
+      "メッドラコード": "10021097"
+    },
+    {
+      "Chembl識別子": "CHEMBL3",
+      "イベント": "jaundice neonatal",
+      "件数": 43,
+      "対数尤度比": 155.15858689508605,
+      "臨界値": 38.961201902675384,
+      "メッドラコード": "10023138"
+    },
+    {
+      "Chembl識別子": "CHEMBL3",
+      "イベント": "macular degeneration",
+      "件数": 114,
+      "対数尤度比": 388.47462428933795,
+      "臨界値": 38.961201902675384,
+      "メッドラコード": "10025409"
+    },
+    {
+      "Chembl識別子": "CHEMBL3",
+      "イベント": "drug abuse",
+      "件数": 83,
+      "対数尤度比": 86.02875766474244,
+      "臨界値": 38.961201902675384,
+      "メッドラコード": "10013654"
+    },
+    {
+      "Chembl識別子": "CHEMBL3",
+      "イベント": "premature baby",
+      "件数": 150,
+      "対数尤度比": 299.56098443422525,
+      "臨界値": 38.961201902675384,
+      "メッドラコード": "10036590"
+    }
+  ]
+}
