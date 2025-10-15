@@ -1,0 +1,126 @@
+{
+  "table_name": "irac_classification_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.irac_classification_30",
+  "column_names": [
+    "IRACクラスID",
+    "有効成分",
+    "レベル1",
+    "レベル1の説明",
+    "レベル２",
+    "レベル2説明",
+    "レベル3",
+    "レベル3の説明",
+    "レベル4",
+    "IRACコード"
+  ],
+  "column_types": [
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "IRACクラスID",
+    "有効成分",
+    "レベル1",
+    "レベル1の説明",
+    "レベル2",
+    "レベル2の説明",
+    "レベル3",
+    "レベル3の説明",
+    "レベル4",
+    "IRACコード"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "各レベル4コードに対する一意の数値プライマリキー",
+    "IRACで分類された有効成分（殺虫剤）の名称",
+    "作用クラス 例：神経作用、エネルギー代謝（IRAC によってコード未割り当て）",
+    "IRACによって提供される訴訟クラスの説明",
+    "IRAC主要グループコード（主要部位/作用機序を示す)",
+    "IRACが提供するサイト／作用機序の説明",
+    "IRAC サブグループコード（殺虫剤の化学クラスを示す）",
+    "IRACが提供する化学クラスの記述または代表的な成分",
+    "各成分に割り当てられたユニークコード（レベル1、2、3のIRAC分類に基づくが、IRACによって割り当てられたものではない）",
+    "成分の公式IRAC分類コード"
+  ],
+  "sample_rows": [
+    {
+      "IRACクラスID": 13,
+      "有効成分": "BENSULTAP",
+      "レベル1": "A",
+      "レベル1の説明": "NERVE ACTION",
+      "レベル2": "A14",
+      "レベル2の説明": "NICOTINIC ACETYLCHOLINE RECEPTOR (NACHR) CHANNEL BLOCKERS",
+      "レベル3": "A1414A",
+      "レベル3の説明": "NEREISTOXIN ANALOGUES",
+      "レベル4": "A1414A1",
+      "IRACコード": "14"
+    },
+    {
+      "IRACクラスID": 14,
+      "有効成分": "CARTAP HYDROCHLORIDE",
+      "レベル1": "A",
+      "レベル1の説明": "NERVE ACTION",
+      "レベル2": "A14",
+      "レベル2の説明": "NICOTINIC ACETYLCHOLINE RECEPTOR (NACHR) CHANNEL BLOCKERS",
+      "レベル3": "A1414A",
+      "レベル3の説明": "NEREISTOXIN ANALOGUES",
+      "レベル4": "A1414A2",
+      "IRACコード": "14"
+    },
+    {
+      "IRACクラスID": 15,
+      "有効成分": "THIOCYCLAM",
+      "レベル1": "A",
+      "レベル1の説明": "NERVE ACTION",
+      "レベル2": "A14",
+      "レベル2の説明": "NICOTINIC ACETYLCHOLINE RECEPTOR (NACHR) CHANNEL BLOCKERS",
+      "レベル3": "A1414A",
+      "レベル3の説明": "NEREISTOXIN ANALOGUES",
+      "レベル4": "A1414A3",
+      "IRACコード": "14"
+    },
+    {
+      "IRACクラスID": 16,
+      "有効成分": "THIOSULTAP-SODIUM",
+      "レベル1": "A",
+      "レベル1の説明": "NERVE ACTION",
+      "レベル2": "A14",
+      "レベル2の説明": "NICOTINIC ACETYLCHOLINE RECEPTOR (NACHR) CHANNEL BLOCKERS",
+      "レベル3": "A1414A",
+      "レベル3の説明": "NEREISTOXIN ANALOGUES",
+      "レベル4": "A1414A4",
+      "IRACコード": "14"
+    },
+    {
+      "IRACクラスID": 34,
+      "有効成分": "AMITRAZ",
+      "レベル1": "A",
+      "レベル1の説明": "NERVE ACTION",
+      "レベル2": "A19",
+      "レベル2の説明": "OCTOPAMINE RECEPTOR AGONISTS",
+      "レベル3": "A1919A",
+      "レベル3の説明": "AMITRAZ",
+      "レベル4": "A1919A1",
+      "IRACコード": "19"
+    }
+  ]
+}
