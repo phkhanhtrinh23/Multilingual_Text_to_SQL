@@ -1,0 +1,101 @@
+{
+  "table_name": "Filtered_TCGA_RPPA_pancan_clean",
+  "table_fullname": "isb-cgc-bq.pancancer_atlas.Filtered_TCGA_RPPA_pancan_clean",
+  "column_names": [
+    "参与者条码",
+    "样本条码",
+    "分装条码",
+    "样本类型字母代码",
+    "样本类型",
+    "研究",
+    "蛋白质",
+    "值"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64"
+  ],
+  "nested_column_names": [
+    "参与者条码",
+    "样本条码",
+    "样本条码",
+    "样本类型字母代码",
+    "样本类型",
+    "研究",
+    "蛋白质",
+    "数值"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64"
+  ],
+  "description": [
+    "研究参与者的 TCGA 条形码标识符，例如 TCGA-02-0001",
+    "生物样本的条形码，例如 TCGA-13-1489-02A",
+    "TCGA 样本条码，例如 TCGA-12-1089-01A-01D-0517-28",
+    "使用 TCGA 标准的样本类型字母代码，例如 TPN、EBV。完整列表可在 https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/sample-type-codes 查看。",
+    "血液来源正常样本  \n原发实体肿瘤  \n实体组织正常  \n复发实体肿瘤  \n转移  \n额外-新原发  \n原发血液来源癌症-外周血  \n口腔黏膜细胞正常  \n追加转移  \n骨髓正常",
+    "TCGA 研究缩写，例如 LAML。完整列表可在 https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/tcga-study-abbreviations 获取。",
+    "蛋白质符号和磷酸化状态（如适用），例如 P53、JNK_pT183Y185",
+    "蛋白质表达水平，以逆相蛋白阵列（RPPAs）测定。例子：0.204238725,-0.01826295"
+  ],
+  "sample_rows": [
+    {
+      "参与者条码": "TCGA-04-1335",
+      "样本条码": "TCGA-04-1335-01A-21-20",
+      "样本类型字母代码": "TP",
+      "样本类型": "Primary solid Tumor",
+      "研究": "OV",
+      "蛋白质": "EIF4G",
+      "数值": -0.51629
+    },
+    {
+      "参与者条码": "TCGA-04-1335",
+      "样本条码": "TCGA-04-1335-01A-21-20",
+      "样本类型字母代码": "TP",
+      "样本类型": "Primary solid Tumor",
+      "研究": "OV",
+      "蛋白质": "SF2",
+      "数值": 0.018487
+    },
+    {
+      "参与者条码": "TCGA-04-1335",
+      "样本条码": "TCGA-04-1335-01A-21-20",
+      "样本类型字母代码": "TP",
+      "样本类型": "Primary solid Tumor",
+      "研究": "OV",
+      "蛋白质": "EGFR",
+      "数值": -0.10668
+    },
+    {
+      "参与者条码": "TCGA-04-1335",
+      "样本条码": "TCGA-04-1335-01A-21-20",
+      "样本类型字母代码": "TP",
+      "样本类型": "Primary solid Tumor",
+      "研究": "OV",
+      "蛋白质": "P70S6K_pT389",
+      "数值": 0.022309
+    },
+    {
+      "参与者条码": "TCGA-04-1335",
+      "样本条码": "TCGA-04-1335-01A-21-20",
+      "样本类型字母代码": "TP",
+      "样本类型": "Primary solid Tumor",
+      "研究": "OV",
+      "蛋白质": "PDCD1",
+      "数值": null
+    }
+  ]
+}
