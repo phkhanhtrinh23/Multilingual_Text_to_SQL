@@ -1,0 +1,86 @@
+{
+  "table_name": "formulations_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.formulations_30",
+  "column_names": [
+    "商品ID",
+    "材料",
+    "強さ",
+    "レコードID",
+    "分子登録番号",
+    "製剤ID"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "INT64",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "商品ID",
+    "材料",
+    "強さ",
+    "レコードID",
+    "分子登録番号",
+    "調製ID"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "INT64",
+    "INT64"
+  ],
+  "description": [
+    "製品の一意識別子。FK（外部キー）はPRODUCTSです。",
+    "製品内の承認成分の名称",
+    "投与量",
+    "compound_recordsテーブルへの外部キー",
+    "成分の一意識別子（MOLECULE_DICTIONARYへの外部キー）",
+    "主キー"
+  ],
+  "sample_rows": [
+    {
+      "商品ID": "PRODUCT_017406_001",
+      "材料": "CYANOCOBALAMIN",
+      "強さ": null,
+      "レコードID": 1344800,
+      "分子登録番号": 1383003,
+      "調製ID": 148332
+    },
+    {
+      "商品ID": "PRODUCT_016089_001",
+      "材料": "CYANOCOBALAMIN",
+      "強さ": null,
+      "レコードID": 1344800,
+      "分子登録番号": 1383003,
+      "調製ID": 148336
+    },
+    {
+      "商品ID": "PRODUCT_016090_001",
+      "材料": "CYANOCOBALAMIN",
+      "強さ": null,
+      "レコードID": 1344800,
+      "分子登録番号": 1383003,
+      "調製ID": 148340
+    },
+    {
+      "商品ID": "PRODUCT_016089_001",
+      "材料": "INTRINSIC FACTOR",
+      "強さ": null,
+      "レコードID": 1343088,
+      "分子登録番号": 675455,
+      "調製ID": 148338
+    },
+    {
+      "商品ID": "PRODUCT_016090_001",
+      "材料": "INTRINSIC FACTOR",
+      "強さ": null,
+      "レコードID": 1343088,
+      "分子登録番号": 675455,
+      "調製ID": 148342
+    }
+  ]
+}
