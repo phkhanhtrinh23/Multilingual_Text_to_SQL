@@ -1,0 +1,132 @@
+{
+  "table_name": "diseaseToPhenotype",
+  "table_fullname": "open-targets-prod.platform.diseaseToPhenotype",
+  "column_names": [
+    "病気",
+    "表現型",
+    "証拠"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRUCT<list ARRAY<STRUCT<element STRUCT<aspect STRING, bioCuration STRING, diseaseFromSourceId STRING, diseaseFromSource STRING, diseaseName STRING, evidenceType STRING, frequency STRING, modifiers STRUCT<list ARRAY<STRUCT<element STRING>>>, onset STRUCT<list ARRAY<STRUCT<element STRING>>>, qualifier STRING, qualifierNot BOOL, references STRUCT<list ARRAY<STRUCT<element STRING>>>, sex STRING, resource STRING>>>>"
+  ],
+  "nested_column_names": [
+    "病気",
+    "表現型",
+    "証拠",
+    "証拠一覧",
+    "証拠リスト要素",
+    "証拠リスト要素側面",
+    "バイオキュレーションの証拠リスト要素",
+    "証拠リスト要素疾患由来ID",
+    "証拠リスト要素 疾病の出典",
+    "病名",
+    "証拠リスト要素の証拠タイプ",
+    "証拠リスト要素頻度",
+    "証拠リスト要素修飾子",
+    "証拠リスト要素修飾子リスト",
+    "証拠.リスト.要素.修飾子.リスト.要素",
+    "証拠リスト要素発症",
+    "証拠リスト要素発症リスト",
+    "証拠リスト要素発症リスト要素",
+    "証拠リスト項目限定語",
+    "証拠リスト要素修飾子なし",
+    "証拠リスト要素参照",
+    "証拠リスト要素参照リスト",
+    "証拠リスト項目\n参考文献リスト項目",
+    "証拠リスト要素性別",
+    "証拠リスト項目リソース"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRUCT<list ARRAY<STRUCT<element STRUCT<aspect STRING, bioCuration STRING, diseaseFromSourceId STRING, diseaseFromSource STRING, diseaseName STRING, evidenceType STRING, frequency STRING, modifiers STRUCT<list ARRAY<STRUCT<element STRING>>>, onset STRUCT<list ARRAY<STRUCT<element STRING>>>, qualifier STRING, qualifierNot BOOL, references STRUCT<list ARRAY<STRUCT<element STRING>>>, sex STRING, resource STRING>>>>",
+    "ARRAY<STRUCT<element STRUCT<aspect STRING, bioCuration STRING, diseaseFromSourceId STRING, diseaseFromSource STRING, diseaseName STRING, evidenceType STRING, frequency STRING, modifiers STRUCT<list ARRAY<STRUCT<element STRING>>>, onset STRUCT<list ARRAY<STRUCT<element STRING>>>, qualifier STRING, qualifierNot BOOL, references STRUCT<list ARRAY<STRUCT<element STRING>>>, sex STRING, resource STRING>>>",
+    "STRUCT<aspect STRING, bioCuration STRING, diseaseFromSourceId STRING, diseaseFromSource STRING, diseaseName STRING, evidenceType STRING, frequency STRING, modifiers STRUCT<list ARRAY<STRUCT<element STRING>>>, onset STRUCT<list ARRAY<STRUCT<element STRING>>>, qualifier STRING, qualifierNot BOOL, references STRUCT<list ARRAY<STRUCT<element STRING>>>, sex STRING, resource STRING>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+    "ARRAY<STRUCT<element STRING>>",
+    "STRING",
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+    "ARRAY<STRUCT<element STRING>>",
+    "STRING",
+    "STRING",
+    "BOOL",
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+    "ARRAY<STRUCT<element STRING>>",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "sample_rows": [
+    {
+      "病気": "Orphanet_552",
+      "表現型": "HP_0001520",
+      "証拠": {
+        "list": "[{'element': {'aspect': 'P', 'bioCuration': 'ORPHA:orphadata[2024-04-24]', 'diseaseFromSourceId': 'ORPHA:552', 'diseaseFromSource': 'MODY', 'diseaseName': 'MODY', 'evidenceType': 'TAS', 'frequency': 'HP_0040283', 'modifiers': None, 'onset': None, 'qualifier': None, 'qualifierNot': False, 'references': {'list': array([{'element': 'ORPHA:552'}], dtype=object)}, 'sex': None, 'resource': 'HPO'}}]"
+      }
+    },
+    {
+      "病気": "Orphanet_552",
+      "表現型": "HP_0004924",
+      "証拠": {
+        "list": "[{'element': {'aspect': 'P', 'bioCuration': 'ORPHA:orphadata[2024-04-24]', 'diseaseFromSourceId': 'ORPHA:552', 'diseaseFromSource': 'MODY', 'diseaseName': 'MODY', 'evidenceType': 'TAS', 'frequency': 'HP_0040282', 'modifiers': None, 'onset': None, 'qualifier': None, 'qualifierNot': False, 'references': {'list': array([{'element': 'ORPHA:552'}], dtype=object)}, 'sex': None, 'resource': 'HPO'}}]"
+      }
+    },
+    {
+      "病気": "Orphanet_552",
+      "表現型": "HP_0000831",
+      "証拠": {
+        "list": "[{'element': {'aspect': 'P', 'bioCuration': 'ORPHA:orphadata[2024-04-24]', 'diseaseFromSourceId': 'ORPHA:552', 'diseaseFromSource': 'MODY', 'diseaseName': 'MODY', 'evidenceType': 'TAS', 'frequency': 'HP_0040283', 'modifiers': None, 'onset': None, 'qualifier': None, 'qualifierNot': False, 'references': {'list': array([{'element': 'ORPHA:552'}], dtype=object)}, 'sex': None, 'resource': 'HPO'}}]"
+      }
+    },
+    {
+      "病気": "Orphanet_552",
+      "表現型": "HP_0000119",
+      "証拠": {
+        "list": "[{'element': {'aspect': 'P', 'bioCuration': 'ORPHA:orphadata[2024-04-24]', 'diseaseFromSourceId': 'ORPHA:552', 'diseaseFromSource': 'MODY', 'diseaseName': 'MODY', 'evidenceType': 'TAS', 'frequency': 'HP_0040284', 'modifiers': None, 'onset': None, 'qualifier': None, 'qualifierNot': False, 'references': {'list': array([{'element': 'ORPHA:552'}], dtype=object)}, 'sex': None, 'resource': 'HPO'}}]"
+      }
+    },
+    {
+      "病気": "Orphanet_552",
+      "表現型": "HP_0003076",
+      "証拠": {
+        "list": "[{'element': {'aspect': 'P', 'bioCuration': 'ORPHA:orphadata[2024-04-24]', 'diseaseFromSourceId': 'ORPHA:552', 'diseaseFromSource': 'MODY', 'diseaseName': 'MODY', 'evidenceType': 'TAS', 'frequency': 'HP_0040282', 'modifiers': None, 'onset': None, 'qualifier': None, 'qualifierNot': False, 'references': {'list': array([{'element': 'ORPHA:552'}], dtype=object)}, 'sex': None, 'resource': 'HPO'}}]"
+      }
+    }
+  ]
+}
