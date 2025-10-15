@@ -1,0 +1,56 @@
+{
+  "table_name": "confidence_score_lookup_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.confidence_score_lookup_30",
+  "column_names": [
+    "置信分数",
+    "描述",
+    "目标映射"
+  ],
+  "column_types": [
+    "INT64",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "置信度得分",
+    "描述",
+    "目标映射"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "0-9分数显示对测定精确分子靶标分配的置信水平",
+    "每个得分对应的目标类型说明",
+    "每个分数对应的目标类型简短描述"
+  ],
+  "sample_rows": [
+    {
+      "置信度得分": 1,
+      "描述": "Target assigned is non-molecular",
+      "目标映射": "Non-molecular"
+    },
+    {
+      "置信度得分": 2,
+      "描述": "Target assigned is subcellular fraction",
+      "目标映射": "Subcellular fraction"
+    },
+    {
+      "置信度得分": 3,
+      "描述": "Target assigned is molecular non-protein target",
+      "目标映射": "Molecular (non-protein)"
+    },
+    {
+      "置信度得分": 4,
+      "描述": "Multiple homologous protein targets may be assigned",
+      "目标映射": "Multiple homologous proteins"
+    },
+    {
+      "置信度得分": 5,
+      "描述": "Multiple direct protein targets may be assigned",
+      "目标映射": "Multiple proteins"
+    }
+  ]
+}

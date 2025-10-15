@@ -1,0 +1,56 @@
+{
+  "table_name": "confidence_score_lookup_33",
+  "table_fullname": "bigquery-public-data.ebi_chembl.confidence_score_lookup_33",
+  "column_names": [
+    "置信分数",
+    "描述",
+    "目标映射"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "置信度",
+    "描述",
+    "目标映射"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    null,
+    null,
+    null
+  ],
+  "sample_rows": [
+    {
+      "置信度": "0",
+      "描述": "Default value - Target unknown or has yet to be assigned",
+      "目标映射": "Unassigned"
+    },
+    {
+      "置信度": "1",
+      "描述": "Target assigned is non-molecular",
+      "目标映射": "Non-molecular"
+    },
+    {
+      "置信度": "2",
+      "描述": "Target assigned is subcellular fraction",
+      "目标映射": "Subcellular fraction"
+    },
+    {
+      "置信度": "3",
+      "描述": "Target assigned is molecular non-protein target",
+      "目标映射": "Molecular (non-protein)"
+    },
+    {
+      "置信度": "4",
+      "描述": "Multiple homologous protein targets may be assigned",
+      "目标映射": "Multiple homologous proteins"
+    }
+  ]
+}
