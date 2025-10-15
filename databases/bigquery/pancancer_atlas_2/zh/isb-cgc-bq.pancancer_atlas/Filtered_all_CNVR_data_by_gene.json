@@ -1,0 +1,126 @@
+{
+  "table_name": "Filtered_all_CNVR_data_by_gene",
+  "table_fullname": "isb-cgc-bq.pancancer_atlas.Filtered_all_CNVR_data_by_gene",
+  "column_names": [
+    "参与者条码",
+    "样本条码",
+    "样本条码",
+    "样本类型字母代码",
+    "样本类型",
+    "研究",
+    "基因符号",
+    "位点编号",
+    "细胞带",
+    "GISTIC 调用"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "STRING",
+    "FLOAT64"
+  ],
+  "nested_column_names": [
+    "参与者条形码",
+    "样本条码",
+    "分装条码",
+    "样品类型字母代码",
+    "样本类型",
+    "研究",
+    "基因符号",
+    "位点ID",
+    "细胞带",
+    "GISTIC 识别"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "STRING",
+    "FLOAT64"
+  ],
+  "description": [
+    "TCGA 条形码标识符，用于研究参与者，例如 TCGA-02-0001",
+    "生物样本条码，例如 TCGA-13-1489-02A",
+    "TCGA 样本条码，例如 TCGA-12-1089-01A-01D-0517-28",
+    "使用 TCGA 标准的样本类型字母代码，例如 TPN、EBV。完整列表可在 https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/sample-type-codes 查看",
+    "血液来源正常  \n原发实体瘤  \n实体组织正常  \n复发实体瘤  \n转移性  \n新增 - 新原发  \n原发血液来源癌症 - 外周血  \n口腔细胞正常  \n额外转移性  \n骨髓正常",
+    "TCGA研究缩写，例如LAML。完整列表可在 https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/tcga-study-abbreviations 查看",
+    "例如 TP53、LRP1B 等（与 Hugo_Symbol 字段相同，但空白代替 Unknown）",
+    "基因座位ID，例如 57380, 100616303",
+    "完整的细胞染色带名称，包括染色体。例如，17p13.2。请参见 https://www.ncbi.nlm.nih.gov/Class/MLACourse/Original8Hour/Genetics/chrombanding.html",
+    "GISTIC 拷贝数调用"
+  ],
+  "sample_rows": [
+    {
+      "参与者条形码": "TCGA-04-1331",
+      "样本条码": "TCGA-04-1331-01A",
+      "分装条码": "TCGA-04-1331-01A-01D-0428-01",
+      "样品类型字母代码": "TP",
+      "样本类型": "Primary solid Tumor",
+      "研究": "OV",
+      "基因符号": "MIR663B",
+      "位点ID": 100313824,
+      "细胞带": "2q21.2",
+      "GISTIC 识别": -0.054
+    },
+    {
+      "参与者条形码": "TCGA-04-1331",
+      "样本条码": "TCGA-04-1331-01A",
+      "分装条码": "TCGA-04-1331-01A-01D-0428-01",
+      "样品类型字母代码": "TP",
+      "样本类型": "Primary solid Tumor",
+      "研究": "OV",
+      "基因符号": "REG4",
+      "位点ID": 83998,
+      "细胞带": "1p12",
+      "GISTIC 识别": 0.13
+    },
+    {
+      "参与者条形码": "TCGA-04-1331",
+      "样本条码": "TCGA-04-1331-01A",
+      "分装条码": "TCGA-04-1331-01A-01D-0428-01",
+      "样品类型字母代码": "TP",
+      "样本类型": "Primary solid Tumor",
+      "研究": "OV",
+      "基因符号": "CABIN1",
+      "位点ID": 23523,
+      "细胞带": "22q11.23",
+      "GISTIC 识别": -0.715
+    },
+    {
+      "参与者条形码": "TCGA-04-1331",
+      "样本条码": "TCGA-04-1331-01A",
+      "分装条码": "TCGA-04-1331-01A-01D-0428-01",
+      "样品类型字母代码": "TP",
+      "样本类型": "Primary solid Tumor",
+      "研究": "OV",
+      "基因符号": "CHRNA7",
+      "位点ID": 1139,
+      "细胞带": "15q13.3",
+      "GISTIC 识别": -0.764
+    },
+    {
+      "参与者条形码": "TCGA-04-1331",
+      "样本条码": "TCGA-04-1331-01A",
+      "分装条码": "TCGA-04-1331-01A-01D-0428-01",
+      "样品类型字母代码": "TP",
+      "样本类型": "Primary solid Tumor",
+      "研究": "OV",
+      "基因符号": "AOC2",
+      "位点ID": 314,
+      "细胞带": "17q21.31",
+      "GISTIC 识别": -0.277
+    }
+  ]
+}

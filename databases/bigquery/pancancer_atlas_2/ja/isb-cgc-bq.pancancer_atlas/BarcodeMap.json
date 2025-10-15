@@ -1,0 +1,76 @@
+{
+  "table_name": "BarcodeMap",
+  "table_fullname": "isb-cgc-bq.pancancer_atlas.BarcodeMap",
+  "column_names": [
+    "参加者バーコード",
+    "サンプルバーコード",
+    "分注バーコード",
+    "研究",
+    "サンプルタイプ文字コード"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "参加者バーコード",
+    "サンプルバーコード",
+    "分注バーコード",
+    "研究",
+    "サンプル種別文字コード"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "研究参加者のTCGAバーコード識別子（例：TCGA-02-0001）",
+    "バイオサンプルのバーコード、例：TCGA-13-1489-02A",
+    "TCGA アリキットバーコード、例：TCGA-12-1089-01A-01D-0517-28",
+    "TCGA研究の略称、例：LAML。完全なリストは https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/tcga-study-abbreviations で確認できます。",
+    "TCGA基準に従ったサンプルタイプの文字コード（例：TPN、EBV）。完全リストは https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/sample-type-codes で確認できます"
+  ],
+  "sample_rows": [
+    {
+      "参加者バーコード": "TCGA-04-1331",
+      "サンプルバーコード": "TCGA-04-1331-10A",
+      "分注バーコード": "TCGA-04-1331-10A-01D-0428-01",
+      "研究": "OV",
+      "サンプル種別文字コード": "NB"
+    },
+    {
+      "参加者バーコード": "TCGA-04-1331",
+      "サンプルバーコード": "TCGA-04-1331-10A",
+      "分注バーコード": "TCGA-04-1331-10A-01D-0429-04",
+      "研究": "OV",
+      "サンプル種別文字コード": "NB"
+    },
+    {
+      "参加者バーコード": "TCGA-04-1331",
+      "サンプルバーコード": "TCGA-04-1331-10A",
+      "分注バーコード": "TCGA-04-1331-10A-01D-0430-06",
+      "研究": "OV",
+      "サンプル種別文字コード": "NB"
+    },
+    {
+      "参加者バーコード": "TCGA-04-1331",
+      "サンプルバーコード": "TCGA-04-1331-10A",
+      "分注バーコード": "TCGA-04-1331-10A-01D-0431-02",
+      "研究": "OV",
+      "サンプル種別文字コード": "NB"
+    },
+    {
+      "参加者バーコード": "TCGA-04-1331",
+      "サンプルバーコード": "TCGA-04-1331-10A",
+      "分注バーコード": "TCGA-04-1331-10A-01D-1036-01",
+      "研究": "OV",
+      "サンプル種別文字コード": "NB"
+    }
+  ]
+}
