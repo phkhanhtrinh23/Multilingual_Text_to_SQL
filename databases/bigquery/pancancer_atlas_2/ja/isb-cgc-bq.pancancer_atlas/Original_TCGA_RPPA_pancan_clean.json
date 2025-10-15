@@ -1,0 +1,66 @@
+{
+  "table_name": "Original_TCGA_RPPA_pancan_clean",
+  "table_fullname": "isb-cgc-bq.pancancer_atlas.Original_TCGA_RPPA_pancan_clean",
+  "column_names": [
+    "試料バーコード",
+    "研究",
+    "タンパク質",
+    "値"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64"
+  ],
+  "nested_column_names": [
+    "分液バーコード",
+    "研究",
+    "タンパク質",
+    "値"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64"
+  ],
+  "description": [
+    "TCGA アリオットバーコード、例：TCGA-12-1089-01A-01D-0517-28",
+    "TCGA研究の略称、例：LAML。完全なリストは https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/tcga-study-abbreviations でご確認ください。",
+    "タンパク質記号とリン酸化状態（該当する場合）、例：P53、JNK_pT183Y185",
+    "逆位相プロテインアレイ（RPPAs）で測定されたタンパク質の発現レベル。例：0.204238725、-0.01826295"
+  ],
+  "sample_rows": [
+    {
+      "分液バーコード": "TCGA-36-1577-01A-21-1558-20",
+      "研究": "OV",
+      "タンパク質": "AR",
+      "値": 1.1373
+    },
+    {
+      "分液バーコード": "TCGA-25-1325-01A-21-1562-20",
+      "研究": "OV",
+      "タンパク質": "AR",
+      "値": -0.0228
+    },
+    {
+      "分液バーコード": "TCGA-61-1899-01A-21-1559-20",
+      "研究": "OV",
+      "タンパク質": "AR",
+      "値": 1.4535
+    },
+    {
+      "分液バーコード": "TCGA-61-1916-01A-21-1559-20",
+      "研究": "OV",
+      "タンパク質": "AR",
+      "値": 0.84167
+    },
+    {
+      "分液バーコード": "TCGA-04-1644-01A-11-1562-20",
+      "研究": "OV",
+      "タンパク質": "AR",
+      "値": -0.15876
+    }
+  ]
+}
