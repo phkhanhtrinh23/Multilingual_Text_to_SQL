@@ -1,0 +1,116 @@
+{
+  "table_name": "Filtered_pancanMiRs_EBadjOnProtocolPlatformWithoutRepsWithUnCorrectMiRs_08_04_16",
+  "table_fullname": "isb-cgc-bq.pancancer_atlas.Filtered_pancanMiRs_EBadjOnProtocolPlatformWithoutRepsWithUnCorrectMiRs_08_04_16",
+  "column_names": [
+    "参与者条码",
+    "样本条码",
+    "分装条码",
+    "样本类型字母码",
+    "样本类型",
+    "学习",
+    "编号",
+    "miRNA表达",
+    "已更正"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "参与者条码",
+    "样本条码",
+    "分装条码",
+    "样本类型字母代码",
+    "样本类型",
+    "研究",
+    "编号",
+    "miRNA表达",
+    "更正"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING"
+  ],
+  "description": [
+    "用于研究参与者的 TCGA 条码标识符，例如 TCGA-02-0001",
+    "生物样本条形码，例如 TCGA-13-1489-02A",
+    "TCGA 样本分离条码，例如 TCGA-12-1089-01A-01D-0517-28",
+    "使用 TCGA 标准的样本类型字母代码，例如 TPN、EBV。完整列表可在 https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/sample-type-codes 查看。",
+    "有10种样本类型：血液来源正常，原发实体瘤，实体组织正常，复发实体瘤，转移性，其他-新原发，原发血液来源癌症-外周血，口腔黏膜细胞正常，额外转移性，骨髓正常",
+    "TCGA研究缩写，例如LAML。完整列表可在 https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/tcga-study-abbreviations 查看",
+    "本表中包含1870个唯一 miRNA id（即符号），例如 hsa-mir-21——相关参考信息可在 isb-cgc:genome_reference 数据集中 miRBase_v20 和 miRBase_v20_hsa_gff3 表中找到。",
+    "归一化丰度（即每百万读数，RPM）",
+    "已校正与未校正指标，指示 miRs 是否已通过 EBN+ 方法校正。更多详情请参见 https://www.synapse.org/#!Synapse:syn6171109"
+  ],
+  "sample_rows": [
+    {
+      "参与者条码": "TCGA-06-0675",
+      "样本条码": "TCGA-06-0675-11A",
+      "分装条码": "TCGA-06-0675-11A-32R-A36C-13",
+      "样本类型字母代码": "NT",
+      "样本类型": "Solid Tissue Normal",
+      "研究": "GBM",
+      "编号": "hsa-miR-655-3p",
+      "miRNA表达": 29.608492,
+      "更正": "Corrected"
+    },
+    {
+      "参与者条码": "TCGA-06-0675",
+      "样本条码": "TCGA-06-0675-11A",
+      "分装条码": "TCGA-06-0675-11A-32R-A36C-13",
+      "样本类型字母代码": "NT",
+      "样本类型": "Solid Tissue Normal",
+      "研究": "GBM",
+      "编号": "hsa-miR-139-5p",
+      "miRNA表达": 4549.497868,
+      "更正": "Corrected"
+    },
+    {
+      "参与者条码": "TCGA-06-0675",
+      "样本条码": "TCGA-06-0675-11A",
+      "分装条码": "TCGA-06-0675-11A-32R-A36C-13",
+      "样本类型字母代码": "NT",
+      "样本类型": "Solid Tissue Normal",
+      "研究": "GBM",
+      "编号": "hsa-miR-202-5p",
+      "miRNA表达": 0.255246,
+      "更正": "Corrected"
+    },
+    {
+      "参与者条码": "TCGA-06-0675",
+      "样本条码": "TCGA-06-0675-11A",
+      "分装条码": "TCGA-06-0675-11A-32R-A36C-13",
+      "样本类型字母代码": "NT",
+      "样本类型": "Solid Tissue Normal",
+      "研究": "GBM",
+      "编号": "hsa-miR-542-3p",
+      "miRNA表达": 204.706984,
+      "更正": "Corrected"
+    },
+    {
+      "参与者条码": "TCGA-06-0675",
+      "样本条码": "TCGA-06-0675-11A",
+      "分装条码": "TCGA-06-0675-11A-32R-A36C-13",
+      "样本类型字母代码": "NT",
+      "样本类型": "Solid Tissue Normal",
+      "研究": "GBM",
+      "编号": "hsa-miR-98-3p",
+      "miRNA表达": 1.276228,
+      "更正": "Corrected"
+    }
+  ]
+}
