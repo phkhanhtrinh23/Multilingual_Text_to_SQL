@@ -1,0 +1,96 @@
+{
+  "table_name": "tissue_dictionary_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.tissue_dictionary_30",
+  "column_names": [
+    "組織ID",
+    "Uberon識別子",
+    "都道府県名",
+    "EFO識別子",
+    "ChEMBL ID",
+    "bto識別子",
+    "カロハID"
+  ],
+  "column_types": [
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "組織ID",
+    "ウベロンID",
+    "都道府県名",
+    "EFO ID",
+    "Chembl ID",
+    "BTO番号",
+    "カロハID"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "主キー、各組織の数値ID",
+    "この組織のUberonオントロジー識別子",
+    "組織の名称（ほとんどの場合はUberon名）",
+    "組織の実験因子オントロジー識別子",
+    "この組織の ChEMBL ID（ウェブインターフェース等で使用）",
+    "BRENDA 組織オントロジー識別子\n\n",
+    "スイスバイオインフォマティクス研究所 CALOHA オントロジーの組織識別子"
+  ],
+  "sample_rows": [
+    {
+      "組織ID": 6,
+      "ウベロンID": "UBERON:0000006",
+      "都道府県名": "Islets of langerhans",
+      "EFO ID": "EFO:0000856",
+      "Chembl ID": "CHEMBL4296343",
+      "BTO番号": "BTO:0000991",
+      "カロハID": "TS-0741"
+    },
+    {
+      "組織ID": 7,
+      "ウベロンID": "UBERON:0000007",
+      "都道府県名": "Pituitary gland",
+      "EFO ID": "EFO:0000857",
+      "Chembl ID": "CHEMBL3638173",
+      "BTO番号": "BTO:0001073",
+      "カロハID": "TS-0798"
+    },
+    {
+      "組織ID": 23,
+      "ウベロンID": "UBERON:0000023",
+      "都道府県名": "Wing",
+      "EFO ID": "EFO:0000885",
+      "Chembl ID": "CHEMBL3988049",
+      "BTO番号": "BTO:0001463",
+      "カロハID": null
+    },
+    {
+      "組織ID": 29,
+      "ウベロンID": "UBERON:0000029",
+      "都道府県名": "Lymph node",
+      "EFO ID": "EFO:0000872",
+      "Chembl ID": "CHEMBL3638175",
+      "BTO番号": "BTO:0000784",
+      "カロハID": "TS-0579"
+    },
+    {
+      "組織ID": 33,
+      "ウベロンID": "UBERON:0000033",
+      "都道府県名": "Head",
+      "EFO ID": "EFO:0000964",
+      "Chembl ID": "CHEMBL3987761",
+      "BTO番号": "BTO:0000282",
+      "カロハID": "TS-0436"
+    }
+  ]
+}
