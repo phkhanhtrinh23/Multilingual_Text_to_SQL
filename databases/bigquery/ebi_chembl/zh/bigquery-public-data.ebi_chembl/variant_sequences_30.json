@@ -1,0 +1,106 @@
+{
+  "table_name": "variant_sequences_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.variant_sequences_30",
+  "column_names": [
+    "变体ID",
+    "突变",
+    "入库",
+    "版本",
+    "同种异构体",
+    "序列",
+    "生物",
+    "税号"
+  ],
+  "column_types": [
+    "INT64",
+    "STRING",
+    "STRING",
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "变体ID",
+    "突变",
+    "接收",
+    "版本",
+    "同种型",
+    "序列",
+    "生物体",
+    "税号"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "STRING",
+    "STRING",
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING",
+    "INT64"
+  ],
+  "description": [
+    "主键，表示每个序列变体的数字 ID。",
+    "所使用变体的详细信息，残基位置已调整以匹配提供的序列。",
+    "UniProt 访问号，用作基序列的代表序列（无变异）",
+    "用于基准序列的 UniProt 序列版本。",
+    "在相关情况下，所使用的UniProt异构体的详细信息。",
+    "基于UniProt基础序列并按指定突变/变异进行调整得到的变体序列。",
+    "获取序列的生物体",
+    "从中获取序列的生物体的 NCBI Tax ID"
+  ],
+  "sample_rows": [
+    {
+      "变体ID": 1628,
+      "突变": "E84Q",
+      "接收": "A2RI47",
+      "版本": null,
+      "同种型": 1,
+      "序列": "MSNSKFNVRLLTEIAFMAALAFIISLIPNTVYGWIIVEIACIPILLLSLRRGLTAGLVGGLIWGILSMITGHAYILSLSQAFLQYLVAPVSLGIAGLFRQKTAPLKLAPVLLGTFVAVLLKYFFHFIAGIIFWSQYAWKGWGAVAYSLAVNGISGILTAIAAFVILIIFVKKFPKLFIHSNY",
+      "生物体": "Lactococcus lactis subsp. cremoris (strain MG1363)",
+      "税号": null
+    },
+    {
+      "变体ID": 1629,
+      "突变": "H125A",
+      "接收": "A2RI47",
+      "版本": null,
+      "同种型": 1,
+      "序列": "MSNSKFNVRLLTEIAFMAALAFIISLIPNTVYGWIIVEIACIPILLLSLRRGLTAGLVGGLIWGILSMITGHAYILSLSQAFLEYLVAPVSLGIAGLFRQKTAPLKLAPVLLGTFVAVLLKYFFAFIAGIIFWSQYAWKGWGAVAYSLAVNGISGILTAIAAFVILIIFVKKFPKLFIHSNY",
+      "生物体": "Lactococcus lactis subsp. cremoris (strain MG1363)",
+      "税号": null
+    },
+    {
+      "变体ID": 1630,
+      "突变": "H125N",
+      "接收": "A2RI47",
+      "版本": null,
+      "同种型": 1,
+      "序列": "MSNSKFNVRLLTEIAFMAALAFIISLIPNTVYGWIIVEIACIPILLLSLRRGLTAGLVGGLIWGILSMITGHAYILSLSQAFLEYLVAPVSLGIAGLFRQKTAPLKLAPVLLGTFVAVLLKYFFNFIAGIIFWSQYAWKGWGAVAYSLAVNGISGILTAIAAFVILIIFVKKFPKLFIHSNY",
+      "生物体": "Lactococcus lactis subsp. cremoris (strain MG1363)",
+      "税号": null
+    },
+    {
+      "变体ID": 1631,
+      "突变": "H125F",
+      "接收": "A2RI47",
+      "版本": null,
+      "同种型": 1,
+      "序列": "MSNSKFNVRLLTEIAFMAALAFIISLIPNTVYGWIIVEIACIPILLLSLRRGLTAGLVGGLIWGILSMITGHAYILSLSQAFLEYLVAPVSLGIAGLFRQKTAPLKLAPVLLGTFVAVLLKYFFFFIAGIIFWSQYAWKGWGAVAYSLAVNGISGILTAIAAFVILIIFVKKFPKLFIHSNY",
+      "生物体": "Lactococcus lactis subsp. cremoris (strain MG1363)",
+      "税号": null
+    },
+    {
+      "变体ID": 1632,
+      "突变": "W34A",
+      "接收": "A2RI47",
+      "版本": null,
+      "同种型": 1,
+      "序列": "MSNSKFNVRLLTEIAFMAALAFIISLIPNTVYGAIIVEIACIPILLLSLRRGLTAGLVGGLIWGILSMITGHAYILSLSQAFLEYLVAPVSLGIAGLFRQKTAPLKLAPVLLGTFVAVLLKYFFHFIAGIIFWSQYAWKGWGAVAYSLAVNGISGILTAIAAFVILIIFVKKFPKLFIHSNY",
+      "生物体": "Lactococcus lactis subsp. cremoris (strain MG1363)",
+      "税号": null
+    }
+  ]
+}
