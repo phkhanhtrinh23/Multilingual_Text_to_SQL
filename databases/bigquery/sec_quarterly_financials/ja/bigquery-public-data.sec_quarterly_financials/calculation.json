@@ -1,0 +1,108 @@
+{
+  "table_name": "calculation",
+  "table_fullname": "bigquery-public-data.sec_quarterly_financials.calculation",
+  "column_names": [
+    "提出番号",
+    "グループ",
+    "弧",
+    "否定的",
+    "親タグ",
+    "親バージョン",
+    "子タグ",
+    "子バージョン",
+    "パーティション時間"
+  ],
+  "column_types": [
+    "STRING",
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "TIMESTAMP"
+  ],
+  "nested_column_names": [
+    "提出番号",
+    "グループ",
+    "弧",
+    "ネガティブ",
+    "親タグ",
+    "親バージョン",
+    "子タグ",
+    "子バージョン"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "アクセス番号。委員会が各EDGAR提出物に割り当てる18桁の番号から構成される20文字の文字列です。submission_number: [adsh]",
+    "提出物でアークをグループ化するための順序番号。グループ: [grp]",
+    "提出物のグループ内アークに対する順序番号",
+    "負のアークであれば-1（TRUE）を示し、通常は+1（FALSE）を示します。",
+    "アークの親に対するタグ parent_tag: [ptag]",
+    "アークの親のタグのバージョン：parent_version: [pversion]",
+    "アーク child_tag の子のタグ: [ctag]",
+    "arc child_versionの子のタグのバージョン: [cversion]"
+  ],
+  "sample_rows": [
+    {
+      "提出番号": "0001019687-14-002604",
+      "グループ": 1,
+      "弧": 1,
+      "ネガティブ": 1,
+      "親タグ": "CashPeriodIncreaseDecrease",
+      "親バージョン": "us-gaap/2014",
+      "子タグ": "CashPeriodIncreaseDecrease",
+      "子バージョン": "us-gaap/2014"
+    },
+    {
+      "提出番号": "0001019687-14-002569",
+      "グループ": 1,
+      "弧": 1,
+      "ネガティブ": 1,
+      "親タグ": "CashPeriodIncreaseDecrease",
+      "親バージョン": "us-gaap/2014",
+      "子タグ": "CashPeriodIncreaseDecrease",
+      "子バージョン": "us-gaap/2014"
+    },
+    {
+      "提出番号": "0000798359-14-000048",
+      "グループ": 1,
+      "弧": 1,
+      "ネガティブ": 1,
+      "親タグ": "DiscontinuedOperationIncomeLossFromDiscontinuedOperationDuringPhaseOutPeriodNetOfTax",
+      "親バージョン": "us-gaap/2014",
+      "子タグ": "DiscontinuedOperationIncomeLossFromDiscontinuedOperationDuringPhaseOutPeriodNetOfTax",
+      "子バージョン": "us-gaap/2014"
+    },
+    {
+      "提出番号": "0001140361-14-026077",
+      "グループ": 1,
+      "弧": 1,
+      "ネガティブ": 1,
+      "親タグ": "AllocatedShareBasedCompensationExpenseNetOfTax",
+      "親バージョン": "us-gaap/2014",
+      "子タグ": "AllocatedShareBasedCompensationExpenseNetOfTax",
+      "子バージョン": "us-gaap/2014"
+    },
+    {
+      "提出番号": "0001140361-14-026435",
+      "グループ": 1,
+      "弧": 1,
+      "ネガティブ": 1,
+      "親タグ": "ContractReceivableDueOneYearOrLess",
+      "親バージョン": "us-gaap/2014",
+      "子タグ": "ContractReceivableDueOneYearOrLess",
+      "子バージョン": "us-gaap/2014"
+    }
+  ]
+}
