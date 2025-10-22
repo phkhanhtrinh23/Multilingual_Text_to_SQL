@@ -1,0 +1,126 @@
+{
+  "table_name": "rel19_caseData",
+  "table_fullname": "isb-cgc.GDC_metadata.rel19_caseData",
+  "column_names": [
+    "症例GDC ID",
+    "プロジェクトDBGapアクセッション番号",
+    "プロジェクト疾患種別",
+    "プロジェクト名",
+    "プログラム dbGaP アクセッション番号",
+    "プログラム名",
+    "プロジェクトID",
+    "ケースバーコード",
+    "レガシーファイル数",
+    "アクティブファイル数"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "ケースGDC ID",
+    "プロジェクト dbGaP アクセッション番号",
+    "プロジェクト疾患タイプ",
+    "プロジェクト名",
+    "プログラムdbGaP受付番号",
+    "プログラム名",
+    "プロジェクトID",
+    "ケースバーコード",
+    "旧ファイル数",
+    "アクティブファイル数"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "INT64"
+  ],
+  "description": [
+    "GDC 一意識別子",
+    "プログラム dbGaP アクセッション番号（例: phs000187）",
+    "プロジェクトで研究対象となる疾患の種類。例：肉腫、乳癌浸潤腫瘍、急性リンパ芽腫性白血病など",
+    "プロジェクト名；頻繁にプロジェクトの疾患タイプと同じか似ていることが多い例：急性リンパ性白血病 - フェーズII、または乳房浸潤性癌など",
+    "Program dbGaP アクセッション番号（例：phs000178）",
+    "プログラム名、例：TCGAまたはTARGET",
+    "プロジェクトID（例：TCGA-BRCA、TARGET-AML など）",
+    "提出者識別子、例：HCC1954、TCGA-ZX-AA5X など",
+    "本件のGDCレガシーアーカイブにおけるファイル総数",
+    "このケースにおけるアクティブ（デフォルト）GDCアーカイブのファイル総数"
+  ],
+  "sample_rows": [
+    {
+      "ケースGDC ID": "942851b0-b554-48f4-84f6-6826902e12d7",
+      "プロジェクト dbGaP アクセッション番号": "CCLE",
+      "プロジェクト疾患タイプ": "Lymphoid Neoplasm Diffuse Large B-cell Lymphoma",
+      "プロジェクト名": "Lymphoid Neoplasm Diffuse Large B-cell Lymphoma",
+      "プログラムdbGaP受付番号": "CCLE",
+      "プログラム名": "CCLE",
+      "プロジェクトID": "CCLE-DLBC",
+      "ケースバーコード": "DB",
+      "旧ファイル数": 1,
+      "アクティブファイル数": 0
+    },
+    {
+      "ケースGDC ID": "aaa8da09-070c-4a31-a99e-720f1a0a964f",
+      "プロジェクト dbGaP アクセッション番号": "CCLE",
+      "プロジェクト疾患タイプ": "Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma",
+      "プロジェクト名": "Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma",
+      "プログラムdbGaP受付番号": "CCLE",
+      "プログラム名": "CCLE",
+      "プロジェクトID": "CCLE-CESC",
+      "ケースバーコード": "EN",
+      "旧ファイル数": 1,
+      "アクティブファイル数": 0
+    },
+    {
+      "ケースGDC ID": "ae4dd9c2-ddba-4da5-a372-4cfdeed0859e",
+      "プロジェクト dbGaP アクセッション番号": "CCLE",
+      "プロジェクト疾患タイプ": "Brain Lower Grade Glioma",
+      "プロジェクト名": "Brain Lower Grade Glioma",
+      "プログラムdbGaP受付番号": "CCLE",
+      "プログラム名": "CCLE",
+      "プロジェクトID": "CCLE-LGG",
+      "ケースバーコード": "H4",
+      "旧ファイル数": 1,
+      "アクティブファイル数": 0
+    },
+    {
+      "ケースGDC ID": "6153a459-2c19-41c9-8815-aa9f6e72712e",
+      "プロジェクト dbGaP アクセッション番号": "CCLE",
+      "プロジェクト疾患タイプ": "Lymphoid Neoplasm Diffuse Large B-cell Lymphoma",
+      "プロジェクト名": "Lymphoid Neoplasm Diffuse Large B-cell Lymphoma",
+      "プログラムdbGaP受付番号": "CCLE",
+      "プログラム名": "CCLE",
+      "プロジェクトID": "CCLE-DLBC",
+      "ケースバーコード": "HH",
+      "旧ファイル数": 1,
+      "アクティブファイル数": 0
+    },
+    {
+      "ケースGDC ID": "7f1968dd-cabb-4fc0-9ae7-76f80f41baa5",
+      "プロジェクト dbGaP アクセッション番号": "CCLE",
+      "プロジェクト疾患タイプ": "Lymphoid Neoplasm Diffuse Large B-cell Lymphoma",
+      "プロジェクト名": "Lymphoid Neoplasm Diffuse Large B-cell Lymphoma",
+      "プログラムdbGaP受付番号": "CCLE",
+      "プログラム名": "CCLE",
+      "プロジェクトID": "CCLE-DLBC",
+      "ケースバーコード": "HT",
+      "旧ファイル数": 2,
+      "アクティブファイル数": 0
+    }
+  ]
+}
