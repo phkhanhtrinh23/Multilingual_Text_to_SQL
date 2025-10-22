@@ -1,0 +1,126 @@
+{
+  "table_name": "rel13_caseData",
+  "table_fullname": "isb-cgc.GDC_metadata.rel13_caseData",
+  "column_names": [
+    "ファイルID",
+    "プロジェクト__dbGaPアクセッション番号",
+    "プロジェクト__疾患タイプ",
+    "プロジェクト名",
+    "プロジェクト__プログラム__DBGaPアクセッション番号",
+    "プロジェクトプログラム名",
+    "プロジェクト__プロジェクトID",
+    "送信者ID",
+    "レガシーファイル数",
+    "アクティブファイル数"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "ファイルID",
+    "プロジェクト__DBGapアクセッション番号",
+    "プロジェクト病気タイプ",
+    "プロジェクト名",
+    "プロジェクト プログラム dbGaPアクセッション番号",
+    "プロジェクト__プログラム__名前",
+    "プロジェクトID",
+    "送信者ID",
+    "レガシーファイル数",
+    "アクティブファイル数"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "INT64"
+  ],
+  "description": [
+    "GDCファイル識別子。これはいくつかのテーブルにある file_gdc_id フィールドの重複です。",
+    "プロジェクト dbGaP アクセッション番号",
+    "プロジェクト 疾患タイプ",
+    "プロジェクトの研究名",
+    "プログラム用のDbGaPアクセッション番号",
+    "プログラム名",
+    "プログラム短名（プロジェクト短名）",
+    "これは提出者の記録内で該当するエントリを特定するために使用できます。GDC は、プロジェクト内の各エンティティに対して submitter_id が一意であることを要求しています。すなわち、[project_id, submitter_id] のタプル（組み合わせ）が一意のキーです。",
+    "GDCレガシーアーカイブにおけるこのケースのファイル総数",
+    "アクティブアーカイブファイル数"
+  ],
+  "sample_rows": [
+    {
+      "ファイルID": "942851b0-b554-48f4-84f6-6826902e12d7",
+      "プロジェクト__DBGapアクセッション番号": "CCLE",
+      "プロジェクト病気タイプ": "Lymphoid Neoplasm Diffuse Large B-cell Lymphoma",
+      "プロジェクト名": "Lymphoid Neoplasm Diffuse Large B-cell Lymphoma",
+      "プロジェクト プログラム dbGaPアクセッション番号": "CCLE",
+      "プロジェクト__プログラム__名前": "CCLE",
+      "プロジェクトID": "CCLE-DLBC",
+      "送信者ID": "DB",
+      "レガシーファイル数": 1,
+      "アクティブファイル数": 0
+    },
+    {
+      "ファイルID": "aaa8da09-070c-4a31-a99e-720f1a0a964f",
+      "プロジェクト__DBGapアクセッション番号": "CCLE",
+      "プロジェクト病気タイプ": "Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma",
+      "プロジェクト名": "Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma",
+      "プロジェクト プログラム dbGaPアクセッション番号": "CCLE",
+      "プロジェクト__プログラム__名前": "CCLE",
+      "プロジェクトID": "CCLE-CESC",
+      "送信者ID": "EN",
+      "レガシーファイル数": 1,
+      "アクティブファイル数": 0
+    },
+    {
+      "ファイルID": "ae4dd9c2-ddba-4da5-a372-4cfdeed0859e",
+      "プロジェクト__DBGapアクセッション番号": "CCLE",
+      "プロジェクト病気タイプ": "Brain Lower Grade Glioma",
+      "プロジェクト名": "Brain Lower Grade Glioma",
+      "プロジェクト プログラム dbGaPアクセッション番号": "CCLE",
+      "プロジェクト__プログラム__名前": "CCLE",
+      "プロジェクトID": "CCLE-LGG",
+      "送信者ID": "H4",
+      "レガシーファイル数": 1,
+      "アクティブファイル数": 0
+    },
+    {
+      "ファイルID": "6153a459-2c19-41c9-8815-aa9f6e72712e",
+      "プロジェクト__DBGapアクセッション番号": "CCLE",
+      "プロジェクト病気タイプ": "Lymphoid Neoplasm Diffuse Large B-cell Lymphoma",
+      "プロジェクト名": "Lymphoid Neoplasm Diffuse Large B-cell Lymphoma",
+      "プロジェクト プログラム dbGaPアクセッション番号": "CCLE",
+      "プロジェクト__プログラム__名前": "CCLE",
+      "プロジェクトID": "CCLE-DLBC",
+      "送信者ID": "HH",
+      "レガシーファイル数": 1,
+      "アクティブファイル数": 0
+    },
+    {
+      "ファイルID": "7f1968dd-cabb-4fc0-9ae7-76f80f41baa5",
+      "プロジェクト__DBGapアクセッション番号": "CCLE",
+      "プロジェクト病気タイプ": "Lymphoid Neoplasm Diffuse Large B-cell Lymphoma",
+      "プロジェクト名": "Lymphoid Neoplasm Diffuse Large B-cell Lymphoma",
+      "プロジェクト プログラム dbGaPアクセッション番号": "CCLE",
+      "プロジェクト__プログラム__名前": "CCLE",
+      "プロジェクトID": "CCLE-DLBC",
+      "送信者ID": "HT",
+      "レガシーファイル数": 2,
+      "アクティブファイル数": 0
+    }
+  ]
+}
