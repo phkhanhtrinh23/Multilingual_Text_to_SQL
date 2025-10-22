@@ -1,0 +1,58 @@
+{
+  "table_name": "dimension",
+  "table_fullname": "bigquery-public-data.sec_quarterly_financials.dimension",
+  "column_names": [
+    "セグメントハッシュ",
+    "区分",
+    "セグメント切り捨て",
+    "パーティション時間"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "BOOL",
+    "TIMESTAMP"
+  ],
+  "nested_column_names": [
+    "セグメントハッシュ",
+    "セグメント",
+    "セグメント切り捨て"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "BOOL"
+  ],
+  "description": [
+    "セグメントフィールドテキストのMD5ハッシュ。MD5は暗号用途に適していませんが、ここでは主キーのサイズを制限するためだけに使用されています。segments_hash: [dimhash]",
+    "XBRL セグメントに表示される軸とメンバーを表すタグ名の連結。  \nタグ名は、先頭に「Statement」、末尾4文字に「Axis」、末尾6文字に「Member」または「Domain」を持ち、出現する位置で切り捨てられる。  \n名前空間とプレフィックスは無視される。EDGAR の検証により、提出ごとにローカル名が一意であることが保証されるため。  \n各ディメンションは「{axis}={member};」というペアで表され、軸は辞書式順で連結される。  \n例: 「LegalEntity=Xyz;Scenario=Restated;」は、ディメンション LegalEntityAxis とメンバー XyzMember、ディメンション StatementScenarioAxis とメンバー RestatedMember を持つ XBRL セグメントを表す。",
+    "トランケーションされていなかった場合、segments フィールドが 1024 文字を超えていたら TRUE、それ以外は FALSE。segment_truncation: [segt]"
+  ],
+  "sample_rows": [
+    {
+      "セグメントハッシュ": "0x00000000",
+      "セグメント": null,
+      "セグメント切り捨て": false
+    },
+    {
+      "セグメントハッシュ": "0x0cfab777bfb97c9c70428f4aa168335c",
+      "セグメント": "PropertyPlantAndEquipmentByType=NonProducingOilAndGasProperties;",
+      "セグメント切り捨て": false
+    },
+    {
+      "セグメントハッシュ": "0x0fbb52a9c45f6b71e15f9014faa85f56",
+      "セグメント": "PropertyPlantAndEquipmentByType=SouthTexasProjectAcreage;",
+      "セグメント切り捨て": false
+    },
+    {
+      "セグメントハッシュ": "0x133ed0334b7713ac9a34d0512f7d9f1a",
+      "セグメント": "DerivativeInstrumentRisk=PutOption;",
+      "セグメント切り捨て": false
+    },
+    {
+      "セグメントハッシュ": "0x1767e6cfc42e170f20b295eb0caaa6cc",
+      "セグメント": "ConsolidationItems=OperatingSegments;BusinessSegments=AllOtherSegments;",
+      "セグメント切り捨て": false
+    }
+  ]
+}
