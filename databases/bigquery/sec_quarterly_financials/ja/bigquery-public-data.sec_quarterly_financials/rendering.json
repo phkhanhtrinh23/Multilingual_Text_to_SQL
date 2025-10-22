@@ -1,0 +1,128 @@
+{
+  "table_name": "rendering",
+  "table_fullname": "bigquery-public-data.sec_quarterly_financials.rendering",
+  "column_names": [
+    "提出番号",
+    "報告",
+    "ファイル種別",
+    "メニューカテゴリ",
+    "略称",
+    "長い名前",
+    "役割",
+    "親ロールURI",
+    "保護者報告",
+    "最終親会社レポート",
+    "パーティション時間"
+  ],
+  "column_types": [
+    "STRING",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "INT64",
+    "TIMESTAMP"
+  ],
+  "nested_column_names": [
+    "提出番号",
+    "報告",
+    "ファイル種別",
+    "メニューカテゴリ",
+    "短縮名",
+    "長い名前",
+    "ロールURI",
+    "親ロールURI",
+    "保護者報告",
+    "最終親会社報告書"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "INT64"
+  ],
+  "description": [
+    "アクセッション番号。SECが各EDGAR提出物に割り当てる18桁の番号から構成される20文字の文字列。提出番号: [adsh]",
+    "レポートのグルーピングを表します。  \n数値はレンダラーが算出し、EDGAR ウェブサイトに投稿した「R ファイル」を指します。  \n一部の場合では数値が飛び越えることがあるのでご注意ください。",
+    "EDGARウェブサイト上で表示されるインタラクティブデータファイルの種類、H = .htmファイル、X = .xmlファイル。file_type: [rfile]",
+    "（利用可能な場合）レンダラーによって計算されたメニューカテゴリーの一つ：  \nC=カバー, S=ステートメント, N=ノート, P=ポリシー, T=テーブル, D=詳細, O=その他, U=未分類。  \nmenu_category: [menucat]",
+    "レンダーメニューで使用される長い名前の一部",
+    "XBRLリンクの「definition」要素コンテンツの空白正規化テキスト。",
+    "ロールの XBRL 「roleuri」",
+    "レンダラーにより算出された、当該ロールに一致するshortnameプレフィックスとより高いレベルのメニューカテゴリを持つロールのXBRL roleuri。",
+    "roleuri がこの parentroleuri と等しいロールの report フィールドの値。",
+    "親報告関係を辿って到達できる最高祖先レポート。ノート（menucat = N）は自分自身が最終親です。ultimate_parent_report: [ultparentrpt]"
+  ],
+  "sample_rows": [
+    {
+      "提出番号": "0001558370-18-000022",
+      "報告": 85,
+      "ファイル種別": "H",
+      "メニューカテゴリ": "D",
+      "短縮名": "STOCKHOLDERS' EQUITY",
+      "長い名前": "41503 - Disclosure - STOCKHOLDERS' EQUITY - Dividends (Details)",
+      "ロールURI": "http://www.lambweston.com/role/DisclosureStockholdersEquityDividendsDetails",
+      "親ロールURI": null,
+      "保護者報告": null,
+      "最終親会社報告書": null
+    },
+    {
+      "提出番号": "0001558370-18-000022",
+      "報告": 86,
+      "ファイル種別": "H",
+      "メニューカテゴリ": "D",
+      "短縮名": "STOCKHOLDERS' EQUITY",
+      "長い名前": "41504 - Disclosure - STOCKHOLDERS' EQUITY - Changes in AOCI (Details)",
+      "ロールURI": "http://www.lambweston.com/role/DisclosureStockholdersEquityChangesInAociDetails",
+      "親ロールURI": null,
+      "保護者報告": null,
+      "最終親会社報告書": null
+    },
+    {
+      "提出番号": "0001558370-18-000022",
+      "報告": 87,
+      "ファイル種別": "H",
+      "メニューカテゴリ": "D",
+      "短縮名": "STOCKHOLDERS' EQUITY",
+      "長い名前": "41505 - Disclosure - STOCKHOLDERS' EQUITY - AOCI - Settlement Gains on Pension and Post-retirement Benefits (Details)",
+      "ロールURI": "http://www.lambweston.com/role/DisclosureStockholdersEquityAociSettlementGainsOnPensionAndPostRetirementBenefitsDetails",
+      "親ロールURI": null,
+      "保護者報告": null,
+      "最終親会社報告書": null
+    },
+    {
+      "提出番号": "0001558370-18-000022",
+      "報告": 88,
+      "ファイル種別": "H",
+      "メニューカテゴリ": "D",
+      "短縮名": "SEGMENTS",
+      "長い名前": "41601 - Disclosure - SEGMENTS - General Information (Details)",
+      "ロールURI": "http://www.lambweston.com/role/DisclosureSegmentsGeneralInformationDetails",
+      "親ロールURI": null,
+      "保護者報告": null,
+      "最終親会社報告書": null
+    },
+    {
+      "提出番号": "0001558370-18-000022",
+      "報告": 89,
+      "ファイル種別": "H",
+      "メニューカテゴリ": "D",
+      "短縮名": "SEGMENTS",
+      "長い名前": "41602 - Disclosure - SEGMENTS - General Financial Information (Details)",
+      "ロールURI": "http://www.lambweston.com/role/DisclosureSegmentsGeneralFinancialInformationDetails",
+      "親ロールURI": null,
+      "保護者報告": null,
+      "最終親会社報告書": null
+    }
+  ]
+}
