@@ -1,0 +1,126 @@
+{
+  "table_name": "rel15_caseData",
+  "table_fullname": "isb-cgc.GDC_metadata.rel15_caseData",
+  "column_names": [
+    "症例_GDC_ID",
+    "プロジェクトDBGap受付番号",
+    "プロジェクトの疾患種別",
+    "プロジェクト名",
+    "プログラムDBGapアクセッション番号",
+    "プログラム名",
+    "プロジェクトID",
+    "ケースバーコード",
+    "レガシーファイル数",
+    "現在のファイル数"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "ケース GDC ID",
+    "プロジェクト dbGaP アクセッション番号",
+    "プロジェクト疾患種別",
+    "プロジェクト名",
+    "プログラム dbGaP アクセッション番号",
+    "プログラム名",
+    "プロジェクトID",
+    "ケースバーコード",
+    "レガシーファイル数",
+    "現在のファイル数"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "INT64"
+  ],
+  "description": [
+    "GDC固有識別子",
+    "プログラムの dbGaP アクセッション番号、例：phs000181",
+    "プロジェクトで研究される疾患の種類。例：肉腫、乳がん浸潤癌、急性リンパ性白血病など",
+    "プロジェクト名; 通常はプロジェクトの疾患タイプと同じ、または類似した名前が付けられます。例：急性リンパ芽球性白血病 - フェーズII、または乳がん浸潤性癌など",
+    "プログラム dbGaP アクセッション番号（例: phs000178）",
+    "プログラム名、例：TCGAまたはTARGET",
+    "プロジェクトID -- 例：TCGA-BRCA、TARGET-AML など",
+    "送信者識別子（例：HCC1954、TCGA-ZX-AA5X など）",
+    "GDCレガシーアーカイブにおけるこのケースのファイル総数",
+    "このケースのアクティブファイル数"
+  ],
+  "sample_rows": [
+    {
+      "ケース GDC ID": "8e20b23c-1e5c-4edc-8263-ec3ec3abf482",
+      "プロジェクト dbGaP アクセッション番号": "phs001179",
+      "プロジェクト疾患種別": "multi",
+      "プロジェクト名": "Foundation Medicine Adult Cancer Clinical Dataset (FM-AD)",
+      "プログラム dbGaP アクセッション番号": null,
+      "プログラム名": "FM",
+      "プロジェクトID": "FM-AD",
+      "ケースバーコード": "AD1",
+      "レガシーファイル数": 0,
+      "現在のファイル数": 5
+    },
+    {
+      "ケース GDC ID": "35818db5-87e9-4c42-9d4c-902bbfaa09ea",
+      "プロジェクト dbGaP アクセッション番号": "phs001179",
+      "プロジェクト疾患種別": "multi",
+      "プロジェクト名": "Foundation Medicine Adult Cancer Clinical Dataset (FM-AD)",
+      "プログラム dbGaP アクセッション番号": null,
+      "プログラム名": "FM",
+      "プロジェクトID": "FM-AD",
+      "ケースバーコード": "AD2",
+      "レガシーファイル数": 0,
+      "現在のファイル数": 5
+    },
+    {
+      "ケース GDC ID": "59b7703e-5bd6-4a2f-b4a6-be80ad6871e9",
+      "プロジェクト dbGaP アクセッション番号": "phs001179",
+      "プロジェクト疾患種別": "multi",
+      "プロジェクト名": "Foundation Medicine Adult Cancer Clinical Dataset (FM-AD)",
+      "プログラム dbGaP アクセッション番号": null,
+      "プログラム名": "FM",
+      "プロジェクトID": "FM-AD",
+      "ケースバーコード": "AD3",
+      "レガシーファイル数": 0,
+      "現在のファイル数": 5
+    },
+    {
+      "ケース GDC ID": "066801c5-7723-473e-af4e-3e227d1a680c",
+      "プロジェクト dbGaP アクセッション番号": "phs001179",
+      "プロジェクト疾患種別": "multi",
+      "プロジェクト名": "Foundation Medicine Adult Cancer Clinical Dataset (FM-AD)",
+      "プログラム dbGaP アクセッション番号": null,
+      "プログラム名": "FM",
+      "プロジェクトID": "FM-AD",
+      "ケースバーコード": "AD4",
+      "レガシーファイル数": 0,
+      "現在のファイル数": 5
+    },
+    {
+      "ケース GDC ID": "e2cf827c-f437-4759-8651-9317dd291fa5",
+      "プロジェクト dbGaP アクセッション番号": "phs001179",
+      "プロジェクト疾患種別": "multi",
+      "プロジェクト名": "Foundation Medicine Adult Cancer Clinical Dataset (FM-AD)",
+      "プログラム dbGaP アクセッション番号": null,
+      "プログラム名": "FM",
+      "プロジェクトID": "FM-AD",
+      "ケースバーコード": "AD5",
+      "レガシーファイル数": 0,
+      "現在のファイル数": 5
+    }
+  ]
+}
