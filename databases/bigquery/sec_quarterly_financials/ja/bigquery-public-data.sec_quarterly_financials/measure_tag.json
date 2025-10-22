@@ -1,0 +1,118 @@
+{
+  "table_name": "measure_tag",
+  "table_fullname": "bigquery-public-data.sec_quarterly_financials.measure_tag",
+  "column_names": [
+    "測定タグ",
+    "バージョン",
+    "カスタム",
+    "要旨",
+    "データ型",
+    "挿入または削除",
+    "クレジットまたはデビット",
+    "タグラベル",
+    "文書",
+    "パーティション時間"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "BOOL",
+    "BOOL",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "TIMESTAMP"
+  ],
+  "nested_column_names": [
+    "測定タグ",
+    "バージョン",
+    "カスタム",
+    "要旨",
+    "データ型",
+    "iまたはd",
+    "クレジットまたはデビット",
+    "タグラベル",
+    "文書"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "BOOL",
+    "BOOL",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "特定のタクソノミーリリースにおけるタグの一意識別子（名前）。measure_tag:[tag]",
+    "標準タグの場合は分類体系の識別子を、そうでない場合はタグが定義されたアクセッション番号を使用します。",
+    "タグがカスタム（version=adsh）の場合は1、標準の場合は0。注：このフラグは、versionおよびadshフィールドと技術的に冗長です。",
+    "タグが数値的な事実を表すために使用されていない場合は 1 です。",
+    "abstract=1の場合はNULL、そうでない場合はタグのデータ型（例：通貨）",
+    "abstract が 1 の場合は NULL とし、そうでない場合は値が時点であれば I、期間であれば D とします。i_or_d: [iord]",
+    "データ型がmonetaryの場合、タグの自然な会計残高は貸借対照表または損益計算書の観点から（借方または貸方）です。定義されていない場合はNULLです。 credit_or_debit: [crdr]",
+    "標準タグであればタクソノミーが提供するラベルテキストを使用し、そうでなければファイラーが提供するテキストを使用します。どちらもないタグはここで NULL 値になります。  \ntag_label: [tlabel]",
+    "タグの詳細定義（2048文字に切り捨て）。標準タグの場合は分類体系が提供するテキスト、そうでない場合はファイラーが割り当てたテキスト。どちらも存在しないタグはこのフィールドがNULLになります。"
+  ],
+  "sample_rows": [
+    {
+      "測定タグ": "InvestmentIdentifierLineItems",
+      "バージョン": "invest/2013",
+      "カスタム": false,
+      "要旨": true,
+      "データ型": null,
+      "iまたはd": null,
+      "クレジットまたはデビット": null,
+      "タグラベル": "Investment Identifier [Line Items]",
+      "文書": "Line items represent reporting concepts included in a table. These concepts are used to disclose reportable information associated with domain members defined in one or many axes to the table."
+    },
+    {
+      "測定タグ": "InvestmentIdentifierTable",
+      "バージョン": "invest/2013",
+      "カスタム": false,
+      "要旨": true,
+      "データ型": null,
+      "iまたはd": null,
+      "クレジットまたはデビット": null,
+      "タグラベル": "Investment Identifier [Table]",
+      "文書": "This table lists the identifiers for the investments. An investment may have more than one identifier. Each identifier is from an identifier scheme."
+    },
+    {
+      "測定タグ": "InvestmentLineItems",
+      "バージョン": "invest/2013",
+      "カスタム": false,
+      "要旨": true,
+      "データ型": null,
+      "iまたはd": null,
+      "クレジットまたはデビット": null,
+      "タグラベル": "Investment [Line Items]",
+      "文書": "Line items represent reporting concepts included in a table. These concepts are used to disclose reportable information associated with domain members defined in one or many axes to the table."
+    },
+    {
+      "測定タグ": "InvestmentMaturityDateRangeAbstract",
+      "バージョン": "invest/2013",
+      "カスタム": false,
+      "要旨": true,
+      "データ型": null,
+      "iまたはd": null,
+      "クレジットまたはデビット": null,
+      "タグラベル": "Investment Maturity Date Range [Abstract]",
+      "文書": "The maturity date range of the underlying investments reported on the Schedule of Investments."
+    },
+    {
+      "測定タグ": "InvestmentTable",
+      "バージョン": "invest/2013",
+      "カスタム": false,
+      "要旨": true,
+      "データ型": null,
+      "iまたはd": null,
+      "クレジットまたはデビット": null,
+      "タグラベル": "Investment [Table]",
+      "文書": "This table lists the investments. The line items identify information about the investment."
+    }
+  ]
+}
