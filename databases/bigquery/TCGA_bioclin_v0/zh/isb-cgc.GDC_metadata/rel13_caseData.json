@@ -1,0 +1,126 @@
+{
+  "table_name": "rel13_caseData",
+  "table_fullname": "isb-cgc.GDC_metadata.rel13_caseData",
+  "column_names": [
+    "文件ID",
+    "项目__dbgap_归属编号",
+    "项目__疾病类型",
+    "项目名称",
+    "项目__计划__dbgap_归档编号",
+    "项目__程序__名称",
+    "项目ID",
+    "提交者ID",
+    "遗留文件数",
+    "活跃文件数"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "文件ID",
+    "项目__dbgap登记号",
+    "项目__疾病类型",
+    "项目名称",
+    "项目__程序__dbGaP 归档编号",
+    "项目__程序__名称",
+    "项目 ID",
+    "提交者ID",
+    "遗留文件数量",
+    "活跃文件数"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "INT64"
+  ],
+  "description": [
+    "GDC 文件标识符。这是某些表中 file_gdc_id 字段的重复。",
+    "项目 dbGaP 访问号",
+    "项目疾病类型",
+    "项目名称研究",
+    "该项目的DbGaP访问号",
+    "程序名称",
+    "程序简称与项目简称",
+    "这可用于在提交者的记录中识别对应条目。GDC 要求 submitter_id 在同一项目内对每个实体都是唯一的：组合（元组）[project_id, submitter_id] 是唯一键。",
+    "该病例在GDC遗留档案中的文件总数",
+    "活跃归档文件计数"
+  ],
+  "sample_rows": [
+    {
+      "文件ID": "942851b0-b554-48f4-84f6-6826902e12d7",
+      "项目__dbgap登记号": "CCLE",
+      "项目__疾病类型": "Lymphoid Neoplasm Diffuse Large B-cell Lymphoma",
+      "项目名称": "Lymphoid Neoplasm Diffuse Large B-cell Lymphoma",
+      "项目__程序__dbGaP 归档编号": "CCLE",
+      "项目__程序__名称": "CCLE",
+      "项目 ID": "CCLE-DLBC",
+      "提交者ID": "DB",
+      "遗留文件数量": 1,
+      "活跃文件数": 0
+    },
+    {
+      "文件ID": "aaa8da09-070c-4a31-a99e-720f1a0a964f",
+      "项目__dbgap登记号": "CCLE",
+      "项目__疾病类型": "Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma",
+      "项目名称": "Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma",
+      "项目__程序__dbGaP 归档编号": "CCLE",
+      "项目__程序__名称": "CCLE",
+      "项目 ID": "CCLE-CESC",
+      "提交者ID": "EN",
+      "遗留文件数量": 1,
+      "活跃文件数": 0
+    },
+    {
+      "文件ID": "ae4dd9c2-ddba-4da5-a372-4cfdeed0859e",
+      "项目__dbgap登记号": "CCLE",
+      "项目__疾病类型": "Brain Lower Grade Glioma",
+      "项目名称": "Brain Lower Grade Glioma",
+      "项目__程序__dbGaP 归档编号": "CCLE",
+      "项目__程序__名称": "CCLE",
+      "项目 ID": "CCLE-LGG",
+      "提交者ID": "H4",
+      "遗留文件数量": 1,
+      "活跃文件数": 0
+    },
+    {
+      "文件ID": "6153a459-2c19-41c9-8815-aa9f6e72712e",
+      "项目__dbgap登记号": "CCLE",
+      "项目__疾病类型": "Lymphoid Neoplasm Diffuse Large B-cell Lymphoma",
+      "项目名称": "Lymphoid Neoplasm Diffuse Large B-cell Lymphoma",
+      "项目__程序__dbGaP 归档编号": "CCLE",
+      "项目__程序__名称": "CCLE",
+      "项目 ID": "CCLE-DLBC",
+      "提交者ID": "HH",
+      "遗留文件数量": 1,
+      "活跃文件数": 0
+    },
+    {
+      "文件ID": "7f1968dd-cabb-4fc0-9ae7-76f80f41baa5",
+      "项目__dbgap登记号": "CCLE",
+      "项目__疾病类型": "Lymphoid Neoplasm Diffuse Large B-cell Lymphoma",
+      "项目名称": "Lymphoid Neoplasm Diffuse Large B-cell Lymphoma",
+      "项目__程序__dbGaP 归档编号": "CCLE",
+      "项目__程序__名称": "CCLE",
+      "项目 ID": "CCLE-DLBC",
+      "提交者ID": "HT",
+      "遗留文件数量": 2,
+      "活跃文件数": 0
+    }
+  ]
+}
