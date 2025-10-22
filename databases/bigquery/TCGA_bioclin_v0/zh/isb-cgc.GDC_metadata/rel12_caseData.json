@@ -1,0 +1,126 @@
+{
+  "table_name": "rel12_caseData",
+  "table_fullname": "isb-cgc.GDC_metadata.rel12_caseData",
+  "column_names": [
+    "文件ID",
+    "项目DBGap 访问号",
+    "项目__疾病类型",
+    "项目名称",
+    "项目__计划__dbgap_归档号",
+    "项目__程序__名称",
+    "项目编号",
+    "提交者ID",
+    "遗留文件数量",
+    "活跃文件数"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "文件 ID",
+    "项目__dbgap_登记号",
+    "项目__疾病类型",
+    "项目名称",
+    "项目__程序__dbgap接入号",
+    "项目__计划__名称",
+    "项目__项目编号",
+    "提交者ID",
+    "遗留文件数量",
+    "活动文件数"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "INT64"
+  ],
+  "description": [
+    "GDC 文件标识符。它是某些表中出现的 file_gdc_id 字段的重复。",
+    "dbGaP 项目访问编号",
+    "项目疾病类型",
+    "项目研究名称",
+    "该项目的DbGaP准入号",
+    "程序名称",
+    "程序简称与项目简称",
+    "这可以用于识别提交者记录中的对应条目。GDC 要求提交者 ID 在项目内对每个实体都唯一：元组（组合）[project_id, submitter_id] 是唯一键。",
+    "此案例在GDC遗留档案中的文件总数",
+    "此案例的活跃文件数"
+  ],
+  "sample_rows": [
+    {
+      "文件 ID": "8e20b23c-1e5c-4edc-8263-ec3ec3abf482",
+      "项目__dbgap_登记号": "phs001179",
+      "项目__疾病类型": "multi",
+      "项目名称": "Foundation Medicine Adult Cancer Clinical Dataset (FM-AD)",
+      "项目__程序__dbgap接入号": null,
+      "项目__计划__名称": "FM",
+      "项目__项目编号": "FM-AD",
+      "提交者ID": "AD1",
+      "遗留文件数量": 0,
+      "活动文件数": 5
+    },
+    {
+      "文件 ID": "35818db5-87e9-4c42-9d4c-902bbfaa09ea",
+      "项目__dbgap_登记号": "phs001179",
+      "项目__疾病类型": "multi",
+      "项目名称": "Foundation Medicine Adult Cancer Clinical Dataset (FM-AD)",
+      "项目__程序__dbgap接入号": null,
+      "项目__计划__名称": "FM",
+      "项目__项目编号": "FM-AD",
+      "提交者ID": "AD2",
+      "遗留文件数量": 0,
+      "活动文件数": 5
+    },
+    {
+      "文件 ID": "59b7703e-5bd6-4a2f-b4a6-be80ad6871e9",
+      "项目__dbgap_登记号": "phs001179",
+      "项目__疾病类型": "multi",
+      "项目名称": "Foundation Medicine Adult Cancer Clinical Dataset (FM-AD)",
+      "项目__程序__dbgap接入号": null,
+      "项目__计划__名称": "FM",
+      "项目__项目编号": "FM-AD",
+      "提交者ID": "AD3",
+      "遗留文件数量": 0,
+      "活动文件数": 5
+    },
+    {
+      "文件 ID": "066801c5-7723-473e-af4e-3e227d1a680c",
+      "项目__dbgap_登记号": "phs001179",
+      "项目__疾病类型": "multi",
+      "项目名称": "Foundation Medicine Adult Cancer Clinical Dataset (FM-AD)",
+      "项目__程序__dbgap接入号": null,
+      "项目__计划__名称": "FM",
+      "项目__项目编号": "FM-AD",
+      "提交者ID": "AD4",
+      "遗留文件数量": 0,
+      "活动文件数": 5
+    },
+    {
+      "文件 ID": "e2cf827c-f437-4759-8651-9317dd291fa5",
+      "项目__dbgap_登记号": "phs001179",
+      "项目__疾病类型": "multi",
+      "项目名称": "Foundation Medicine Adult Cancer Clinical Dataset (FM-AD)",
+      "项目__程序__dbgap接入号": null,
+      "项目__计划__名称": "FM",
+      "项目__项目编号": "FM-AD",
+      "提交者ID": "AD5",
+      "遗留文件数量": 0,
+      "活动文件数": 5
+    }
+  ]
+}
