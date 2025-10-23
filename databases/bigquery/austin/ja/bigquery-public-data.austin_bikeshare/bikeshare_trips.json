@@ -1,0 +1,126 @@
+{
+  "table_name": "bikeshare_trips",
+  "table_fullname": "bigquery-public-data.austin_bikeshare.bikeshare_trips",
+  "column_names": [
+    "旅行ID",
+    "購読者種別",
+    "自転車ID",
+    "自転車種別",
+    "開始時間",
+    "出発駅ID",
+    "出発駅名",
+    "終着駅ID",
+    "終点駅名",
+    "継続時間"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "TIMESTAMP",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "旅行ID",
+    "加入者種別",
+    "自転車ID",
+    "自転車タイプ",
+    "開始時間",
+    "出発駅ID",
+    "出発駅名",
+    "終了駅ID",
+    "終着駅名",
+    "所要時間"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "TIMESTAMP",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64"
+  ],
+  "description": [
+    "自転車トリップの数値ID",
+    "購読者の種類",
+    "使用した自転車のID",
+    "使用した自転車のタイプ",
+    "旅行の開始タイムスタンプ",
+    "スタート駅の数値参照",
+    "出発駅の駅名",
+    "終着駅の数値参照",
+    "終点駅の名前",
+    "旅行時間（分）"
+  ],
+  "sample_rows": [
+    {
+      "旅行ID": "4098781",
+      "加入者種別": "24 Hour Walk Up Pass",
+      "自転車ID": "14",
+      "自転車タイプ": "classic",
+      "開始時間": "2015-03-12 22:24:45+00:00",
+      "出発駅ID": 2546,
+      "出発駅名": "ACC - West & 12th Street",
+      "終了駅ID": "2546",
+      "終着駅名": "ACC - West & 12th Street",
+      "所要時間": 44
+    },
+    {
+      "旅行ID": "4098776",
+      "加入者種別": "24 Hour Walk Up Pass",
+      "自転車ID": "24",
+      "自転車タイプ": "classic",
+      "開始時間": "2015-03-12 22:22:59+00:00",
+      "出発駅ID": 2546,
+      "出発駅名": "ACC - West & 12th Street",
+      "終了駅ID": "2546",
+      "終着駅名": "ACC - West & 12th Street",
+      "所要時間": 46
+    },
+    {
+      "旅行ID": "4098773",
+      "加入者種別": "24 Hour Walk Up Pass",
+      "自転車ID": "789",
+      "自転車タイプ": "classic",
+      "開始時間": "2015-03-12 22:21:57+00:00",
+      "出発駅ID": 2546,
+      "出発駅名": "ACC - West & 12th Street",
+      "終了駅ID": "2546",
+      "終着駅名": "ACC - West & 12th Street",
+      "所要時間": 80
+    },
+    {
+      "旅行ID": "4098766",
+      "加入者種別": "24 Hour Walk Up Pass",
+      "自転車ID": "306",
+      "自転車タイプ": "classic",
+      "開始時間": "2015-03-12 22:20:09+00:00",
+      "出発駅ID": 2546,
+      "出発駅名": "ACC - West & 12th Street",
+      "終了駅ID": "2546",
+      "終着駅名": "ACC - West & 12th Street",
+      "所要時間": 47
+    },
+    {
+      "旅行ID": "4098761",
+      "加入者種別": "24 Hour Walk Up Pass",
+      "自転車ID": "362",
+      "自転車タイプ": "classic",
+      "開始時間": "2015-03-12 22:19:11+00:00",
+      "出発駅ID": 2546,
+      "出発駅名": "ACC - West & 12th Street",
+      "終了駅ID": "2546",
+      "終着駅名": "ACC - West & 12th Street",
+      "所要時間": 47
+    }
+  ]
+}
