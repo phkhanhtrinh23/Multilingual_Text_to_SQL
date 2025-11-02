@@ -1,0 +1,86 @@
+{
+  "table_name": "go_classification",
+  "table_fullname": "bigquery-public-data.ebi_chembl.go_classification",
+  "column_names": [
+    "identificador_de_go",
+    "id_padre_go",
+    "Nombre de preferencia",
+    "Nivel de clase",
+    "aspecto",
+    "camino"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "id de go",
+    "id_padre_go",
+    "Nombre preferido",
+    "nivel de clase",
+    "aspecto",
+    "ruta"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "sample_rows": [
+    {
+      "id de go": "GO:0003674",
+      "id_padre_go": null,
+      "Nombre preferido": "molecular_function",
+      "nivel de clase": "0",
+      "aspecto": "F",
+      "ruta": "molecular_function"
+    },
+    {
+      "id de go": "GO:0005575",
+      "id_padre_go": null,
+      "Nombre preferido": "cellular_component",
+      "nivel de clase": "0",
+      "aspecto": "C",
+      "ruta": "cellular_component"
+    },
+    {
+      "id de go": "GO:0008150",
+      "id_padre_go": null,
+      "Nombre preferido": "biological_process",
+      "nivel de clase": "0",
+      "aspecto": "P",
+      "ruta": "biological_process"
+    },
+    {
+      "id de go": "GO:0000166",
+      "id_padre_go": "GO:0003674",
+      "Nombre preferido": "nucleotide binding",
+      "nivel de clase": "1",
+      "aspecto": "F",
+      "ruta": "molecular_function  nucleotide binding"
+    },
+    {
+      "id de go": "GO:0000988",
+      "id_padre_go": "GO:0003674",
+      "Nombre preferido": "protein binding transcription factor activity",
+      "nivel de clase": "1",
+      "aspecto": "F",
+      "ruta": "molecular_function  protein binding transcription factor activity"
+    }
+  ]
+}
