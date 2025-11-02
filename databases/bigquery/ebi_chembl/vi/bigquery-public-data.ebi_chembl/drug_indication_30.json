@@ -1,0 +1,106 @@
+{
+  "table_name": "drug_indication_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.drug_indication_30",
+  "column_names": [
+    "ID ngành dược",
+    "mã bản ghi",
+    "số đăng ký phân tử",
+    "giai đoạn tối đa cho ngành",
+    "Mã lưới",
+    "Tiêu đề Mesh",
+    "Mã EFO",
+    "Thuật ngữ EFO"
+  ],
+  "column_types": [
+    "INT64",
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "mã thuốc",
+    "mã hồ sơ",
+    "Số đăng ký mol",
+    "Giai đoạn tối đa cho chỉ số",
+    "mã lưới",
+    "tiêu đề lưới",
+    "định danh efo",
+    "thuật ngữ EFO"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "khóa chính",
+    "Khóa ngoại tới bảng compound_records. Liên kết tới bản ghi thuốc mà chỉ định này áp dụng.",
+    "Molregno tương ứng với record_id trong bảng compound_records",
+    "Giai đoạn phát triển tối đa mà thuốc được biết đã đạt được đối với chỉ định cụ thể này",
+    "Mã số bệnh (MeSH) tương ứng với chỉ định",
+    "Thuật ngữ Medical Subject Heading (MeSH) cho ID bệnh",
+    "Định danh bệnh của Experimental Factor Ontology (EFO) tương ứng với chỉ định",
+    "Thuật ngữ Ontology Yếu tố Thử nghiệm cho ID EFO"
+  ],
+  "sample_rows": [
+    {
+      "mã thuốc": 54362,
+      "mã hồ sơ": 1697032,
+      "Số đăng ký mol": 1380217,
+      "Giai đoạn tối đa cho chỉ số": 0,
+      "mã lưới": "D000375",
+      "tiêu đề lưới": "Aging",
+      "định danh efo": "GO:0007568",
+      "thuật ngữ EFO": "aging"
+    },
+    {
+      "mã thuốc": 122845,
+      "mã hồ sơ": 1344486,
+      "Số đăng ký mol": 675637,
+      "Giai đoạn tối đa cho chỉ số": 0,
+      "mã lưới": "D000375",
+      "tiêu đề lưới": "Aging",
+      "định danh efo": "GO:0007568",
+      "thuật ngữ EFO": "aging"
+    },
+    {
+      "mã thuốc": 121760,
+      "mã hồ sơ": 1701733,
+      "Số đăng ký mol": 1377512,
+      "Giai đoạn tối đa cho chỉ số": 0,
+      "mã lưới": "D014549",
+      "tiêu đề lưới": "Urinary Incontinence",
+      "định danh efo": "HP:0000020",
+      "thuật ngữ EFO": "Urinary incontinence"
+    },
+    {
+      "mã thuốc": 130058,
+      "mã hồ sơ": 3460748,
+      "Số đăng ký mol": 1797543,
+      "Giai đoạn tối đa cho chỉ số": 0,
+      "mã lưới": "D014549",
+      "tiêu đề lưới": "Urinary Incontinence",
+      "định danh efo": "HP:0000020",
+      "thuật ngữ EFO": "Urinary incontinence"
+    },
+    {
+      "mã thuốc": 121019,
+      "mã hồ sơ": 1344763,
+      "Số đăng ký mol": 858397,
+      "Giai đoạn tối đa cho chỉ số": 0,
+      "mã lưới": "D051437",
+      "tiêu đề lưới": "Renal Insufficiency",
+      "định danh efo": "HP:0000083",
+      "thuật ngữ EFO": "Renal insufficiency"
+    }
+  ]
+}
