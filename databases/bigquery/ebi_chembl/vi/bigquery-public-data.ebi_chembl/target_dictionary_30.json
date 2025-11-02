@@ -1,0 +1,96 @@
+{
+  "table_name": "target_dictionary_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.target_dictionary_30",
+  "column_names": [
+    "thời gian",
+    "loại mục tiêu",
+    "Tên ưu tiên",
+    "Mã số thuế",
+    "sinh vật",
+    "Mã Chembl",
+    "cờ nhóm loài"
+  ],
+  "column_types": [
+    "INT64",
+    "STRING",
+    "STRING",
+    "INT64",
+    "STRING",
+    "STRING",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "Thời gian",
+    "loại mục tiêu",
+    "Tên tùy chọn",
+    "Mã số thuế",
+    "sinh vật",
+    "Mã Chembl",
+    "cờ nhóm loài"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "STRING",
+    "STRING",
+    "INT64",
+    "STRING",
+    "STRING",
+    "INT64"
+  ],
+  "description": [
+    "ID duy nhất cho mục tiêu",
+    "Mô tả xem mục tiêu là một protein, một sinh vật, một mô, v.v. Khóa ngoại tới bảng TARGET_TYPE.",
+    "Tên mục tiêu ưu tiên: được biên tập thủ công",
+    "ID taxonomy NCBI của mục tiêu",
+    "Cơ quan nguồn gốc của mục tiêu phân tử hoặc mô, hoặc sinh vật mục tiêu nếu hoạt động của hợp chất được báo cáo ở một sinh vật thay vì một protein hoặc mô.",
+    "Định danh ChEMBL cho mục tiêu này (để sử dụng trên giao diện web v.v.)",
+    "Cờ để chỉ ra liệu mục tiêu có đại diện cho một nhóm loài, thay vì một loài riêng lẻ (ví dụ: 'Bacterial DHFR'). Khi được đặt thành 1, cho biết mọi thành phần mục tiêu liên quan sẽ là đại diện, thay vì một tập hợp toàn diện."
+  ],
+  "sample_rows": [
+    {
+      "Thời gian": 22224,
+      "loại mục tiêu": "ADMET",
+      "Tên tùy chọn": "ADMET",
+      "Mã số thuế": null,
+      "sinh vật": null,
+      "Mã Chembl": "CHEMBL612558",
+      "cờ nhóm loài": 0
+    },
+    {
+      "Thời gian": 109711,
+      "loại mục tiêu": "LIPID",
+      "Tên tùy chọn": "Cholesterol ester",
+      "Mã số thuế": null,
+      "sinh vật": null,
+      "Mã Chembl": "CHEMBL3559388",
+      "cờ nhóm loài": 0
+    },
+    {
+      "Thời gian": 109712,
+      "loại mục tiêu": "LIPID",
+      "Tên tùy chọn": "Triglyceride",
+      "Mã số thuế": null,
+      "sinh vật": null,
+      "Mã Chembl": "CHEMBL3559389",
+      "cờ nhóm loài": 0
+    },
+    {
+      "Thời gian": 120037,
+      "loại mục tiêu": "LIPID",
+      "Tên tùy chọn": "Lipid bilayer",
+      "Mã số thuế": null,
+      "sinh vật": null,
+      "Mã Chembl": "CHEMBL4651323",
+      "cờ nhóm loài": 0
+    },
+    {
+      "Thời gian": 109803,
+      "loại mục tiêu": "LIPID",
+      "Tên tùy chọn": "Ganglioside GD3",
+      "Mã số thuế": 9606,
+      "sinh vật": "Homo sapiens",
+      "Mã Chembl": "CHEMBL3580507",
+      "cờ nhóm loài": 0
+    }
+  ]
+}
