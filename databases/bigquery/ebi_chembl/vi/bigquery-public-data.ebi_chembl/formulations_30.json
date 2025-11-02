@@ -1,0 +1,86 @@
+{
+  "table_name": "formulations_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.formulations_30",
+  "column_names": [
+    "mã sản phẩm",
+    "Nguyên liệu",
+    "sức mạnh",
+    "mã hồ sơ",
+    "số đăng ký phân tử",
+    "mã định chế"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "INT64",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "Mã sản phẩm",
+    "nguyên liệu",
+    "sức mạnh",
+    "mã_bản_ghi",
+    "số đăng ký phân tử",
+    "id_công_thức"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "INT64",
+    "INT64"
+  ],
+  "description": [
+    "Định danh duy nhất của sản phẩm. FK tới PRODUCTS",
+    "Tên thành phần đã được phê duyệt trong sản phẩm",
+    "Cường độ liều",
+    "Khóa ngoại tới bảng compound_records.",
+    "Định danh duy nhất của thành phần (FK) tới MOLECULE_DICTIONARY",
+    "Khóa chính"
+  ],
+  "sample_rows": [
+    {
+      "Mã sản phẩm": "PRODUCT_017406_001",
+      "nguyên liệu": "CYANOCOBALAMIN",
+      "sức mạnh": null,
+      "mã_bản_ghi": 1344800,
+      "số đăng ký phân tử": 1383003,
+      "id_công_thức": 148332
+    },
+    {
+      "Mã sản phẩm": "PRODUCT_016089_001",
+      "nguyên liệu": "CYANOCOBALAMIN",
+      "sức mạnh": null,
+      "mã_bản_ghi": 1344800,
+      "số đăng ký phân tử": 1383003,
+      "id_công_thức": 148336
+    },
+    {
+      "Mã sản phẩm": "PRODUCT_016090_001",
+      "nguyên liệu": "CYANOCOBALAMIN",
+      "sức mạnh": null,
+      "mã_bản_ghi": 1344800,
+      "số đăng ký phân tử": 1383003,
+      "id_công_thức": 148340
+    },
+    {
+      "Mã sản phẩm": "PRODUCT_016089_001",
+      "nguyên liệu": "INTRINSIC FACTOR",
+      "sức mạnh": null,
+      "mã_bản_ghi": 1343088,
+      "số đăng ký phân tử": 675455,
+      "id_công_thức": 148338
+    },
+    {
+      "Mã sản phẩm": "PRODUCT_016090_001",
+      "nguyên liệu": "INTRINSIC FACTOR",
+      "sức mạnh": null,
+      "mã_bản_ghi": 1343088,
+      "số đăng ký phân tử": 675455,
+      "id_công_thức": 148342
+    }
+  ]
+}

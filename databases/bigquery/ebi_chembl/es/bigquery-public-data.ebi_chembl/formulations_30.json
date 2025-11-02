@@ -1,0 +1,86 @@
+{
+  "table_name": "formulations_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.formulations_30",
+  "column_names": [
+    "id_producto",
+    "ingrediente",
+    "fuerza",
+    "id_registro",
+    "Número de registro molecular",
+    "id_formulación"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "INT64",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "ID de producto",
+    "ingrediente",
+    "fuerza",
+    "id_registro",
+    "número de registro molecular",
+    "ID de formulación"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "INT64",
+    "INT64"
+  ],
+  "description": [
+    "Identificador único del producto. FK a PRODUCTS",
+    "Nombre del ingrediente aprobado dentro del producto",
+    "Potencia de la dosis",
+    "Clave foránea a la tabla compound_records.",
+    "Identificador único del ingrediente FK a MOLECULE_DICTIONARY",
+    "Clave primaria."
+  ],
+  "sample_rows": [
+    {
+      "ID de producto": "PRODUCT_017406_001",
+      "ingrediente": "CYANOCOBALAMIN",
+      "fuerza": null,
+      "id_registro": 1344800,
+      "número de registro molecular": 1383003,
+      "ID de formulación": 148332
+    },
+    {
+      "ID de producto": "PRODUCT_016089_001",
+      "ingrediente": "CYANOCOBALAMIN",
+      "fuerza": null,
+      "id_registro": 1344800,
+      "número de registro molecular": 1383003,
+      "ID de formulación": 148336
+    },
+    {
+      "ID de producto": "PRODUCT_016090_001",
+      "ingrediente": "CYANOCOBALAMIN",
+      "fuerza": null,
+      "id_registro": 1344800,
+      "número de registro molecular": 1383003,
+      "ID de formulación": 148340
+    },
+    {
+      "ID de producto": "PRODUCT_016089_001",
+      "ingrediente": "INTRINSIC FACTOR",
+      "fuerza": null,
+      "id_registro": 1343088,
+      "número de registro molecular": 675455,
+      "ID de formulación": 148338
+    },
+    {
+      "ID de producto": "PRODUCT_016090_001",
+      "ingrediente": "INTRINSIC FACTOR",
+      "fuerza": null,
+      "id_registro": 1343088,
+      "número de registro molecular": 675455,
+      "ID de formulación": 148342
+    }
+  ]
+}
