@@ -1,0 +1,96 @@
+{
+  "table_name": "tissue_dictionary_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.tissue_dictionary_30",
+  "column_names": [
+    "id_tejido",
+    "id_uberon",
+    "nombre_preferido",
+    "identificador_efo",
+    "ID ChEMBL",
+    "ID de bto",
+    "identificador de caloha"
+  ],
+  "column_types": [
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "id_tejido",
+    "identificador_uberon",
+    "Nombre preferido",
+    "identificador_efo",
+    "identificador ChEMBL",
+    "identificador_bto",
+    "identificación de caloha"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "Clave primaria, ID numérico para cada tejido.",
+    "Identificador de la ontología Uberon para este tejido.",
+    "Nombre del tejido (en la mayoría de los casos, nombre Uberon).",
+    "Identificador de la Ontología de Factores Experimentales para el tejido.",
+    "Identificador ChEMBL para este tejido (para usar en la interfaz web, etc.)",
+    "Identificador de la Ontología de Tejidos de BRENDA para el tejido.",
+    "Instituto Suizo de Bioinformática: Identificador de ontología CALOHA para el tejido."
+  ],
+  "sample_rows": [
+    {
+      "id_tejido": 6,
+      "identificador_uberon": "UBERON:0000006",
+      "Nombre preferido": "Islets of langerhans",
+      "identificador_efo": "EFO:0000856",
+      "identificador ChEMBL": "CHEMBL4296343",
+      "identificador_bto": "BTO:0000991",
+      "identificación de caloha": "TS-0741"
+    },
+    {
+      "id_tejido": 7,
+      "identificador_uberon": "UBERON:0000007",
+      "Nombre preferido": "Pituitary gland",
+      "identificador_efo": "EFO:0000857",
+      "identificador ChEMBL": "CHEMBL3638173",
+      "identificador_bto": "BTO:0001073",
+      "identificación de caloha": "TS-0798"
+    },
+    {
+      "id_tejido": 23,
+      "identificador_uberon": "UBERON:0000023",
+      "Nombre preferido": "Wing",
+      "identificador_efo": "EFO:0000885",
+      "identificador ChEMBL": "CHEMBL3988049",
+      "identificador_bto": "BTO:0001463",
+      "identificación de caloha": null
+    },
+    {
+      "id_tejido": 29,
+      "identificador_uberon": "UBERON:0000029",
+      "Nombre preferido": "Lymph node",
+      "identificador_efo": "EFO:0000872",
+      "identificador ChEMBL": "CHEMBL3638175",
+      "identificador_bto": "BTO:0000784",
+      "identificación de caloha": "TS-0579"
+    },
+    {
+      "id_tejido": 33,
+      "identificador_uberon": "UBERON:0000033",
+      "Nombre preferido": "Head",
+      "identificador_efo": "EFO:0000964",
+      "identificador ChEMBL": "CHEMBL3987761",
+      "identificador_bto": "BTO:0000282",
+      "identificación de caloha": "TS-0436"
+    }
+  ]
+}
