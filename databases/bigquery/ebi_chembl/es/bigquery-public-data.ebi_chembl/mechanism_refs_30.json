@@ -1,0 +1,76 @@
+{
+  "table_name": "mechanism_refs_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.mechanism_refs_30",
+  "column_names": [
+    "id_referencia_medica",
+    "id_máquina",
+    "tipo de referencia",
+    "ID de referencia",
+    "URL de referencia"
+  ],
+  "column_types": [
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "ID de referencia médica",
+    "ID MEC",
+    "tipo de referencia",
+    "id_ref",
+    "URL de referencia"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "Clave primaria",
+    "Clave foránea a la tabla drug_mechanism - indicando el mecanismo al que se refieren las referencias.",
+    "Tipo/fuente de referencia (p.ej., 'PubMed', 'DailyMed')",
+    "Identificador de la referencia en la fuente (por ejemplo, ID de PubMed o setid de DailyMed)",
+    "URL completa que enlaza a la referencia"
+  ],
+  "sample_rows": [
+    {
+      "ID de referencia médica": 15815,
+      "ID MEC": 9092,
+      "tipo de referencia": "BNF",
+      "id_ref": "https://bnf.nice.org.uk/drug/enoximone.html",
+      "URL de referencia": "https://bnf.nice.org.uk/drug/enoximone.html"
+    },
+    {
+      "ID de referencia médica": 14359,
+      "ID MEC": 8478,
+      "tipo de referencia": "BNF",
+      "id_ref": "https://bnf.nice.org.uk/drug/simeticone.html",
+      "URL de referencia": "https://bnf.nice.org.uk/drug/simeticone.html"
+    },
+    {
+      "ID de referencia médica": 15068,
+      "ID MEC": 8036,
+      "tipo de referencia": "BNF",
+      "id_ref": "https://bnf.nice.org.uk/drug/temocillin.html",
+      "URL de referencia": "https://bnf.nice.org.uk/drug/temocillin.html"
+    },
+    {
+      "ID de referencia médica": 14855,
+      "ID MEC": 8429,
+      "tipo de referencia": "BNF",
+      "id_ref": "https://bnf.nice.org.uk/drug/lenograstim.html",
+      "URL de referencia": "https://bnf.nice.org.uk/drug/lenograstim.html"
+    },
+    {
+      "ID de referencia médica": 15664,
+      "ID MEC": 8942,
+      "tipo de referencia": "BNF",
+      "id_ref": "https://bnf.nice.org.uk/drug/quinagolide.html",
+      "URL de referencia": "https://bnf.nice.org.uk/drug/quinagolide.html"
+    }
+  ]
+}
