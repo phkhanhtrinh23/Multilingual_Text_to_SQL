@@ -1,0 +1,86 @@
+{
+  "table_name": "go_classification_28",
+  "table_fullname": "bigquery-public-data.ebi_chembl.go_classification_28",
+  "column_names": [
+    "ID Go",
+    "Mã GO cha",
+    "Tên tùy chọn",
+    "Cấp lớp",
+    "khía cạnh",
+    "đường dẫn"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "mã_go",
+    "định danh cha GO",
+    "Tên tùy chọn",
+    "Mức lớp",
+    "Khía cạnh",
+    "đường dẫn"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "sample_rows": [
+    {
+      "mã_go": "GO:0003674",
+      "định danh cha GO": null,
+      "Tên tùy chọn": "molecular_function",
+      "Mức lớp": "0",
+      "Khía cạnh": "F",
+      "đường dẫn": "molecular_function"
+    },
+    {
+      "mã_go": "GO:0005575",
+      "định danh cha GO": null,
+      "Tên tùy chọn": "cellular_component",
+      "Mức lớp": "0",
+      "Khía cạnh": "C",
+      "đường dẫn": "cellular_component"
+    },
+    {
+      "mã_go": "GO:0008150",
+      "định danh cha GO": null,
+      "Tên tùy chọn": "biological_process",
+      "Mức lớp": "0",
+      "Khía cạnh": "P",
+      "đường dẫn": "biological_process"
+    },
+    {
+      "mã_go": "GO:0000166",
+      "định danh cha GO": "GO:0003674",
+      "Tên tùy chọn": "nucleotide binding",
+      "Mức lớp": "1",
+      "Khía cạnh": "F",
+      "đường dẫn": "molecular_function  nucleotide binding"
+    },
+    {
+      "mã_go": "GO:0000988",
+      "định danh cha GO": "GO:0003674",
+      "Tên tùy chọn": "protein binding transcription factor activity",
+      "Mức lớp": "1",
+      "Khía cạnh": "F",
+      "đường dẫn": "molecular_function  protein binding transcription factor activity"
+    }
+  ]
+}
