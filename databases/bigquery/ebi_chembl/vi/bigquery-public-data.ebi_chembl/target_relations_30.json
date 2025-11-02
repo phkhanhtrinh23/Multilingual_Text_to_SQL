@@ -1,0 +1,66 @@
+{
+  "table_name": "target_relations_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.target_relations_30",
+  "column_names": [
+    "Mã giao dịch",
+    "mối quan hệ",
+    "Mã giao dịch liên quan",
+    "ID mục tiêu liên quan"
+  ],
+  "column_types": [
+    "INT64",
+    "STRING",
+    "INT64",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "Thời gian",
+    "mối quan hệ",
+    "id_liên_quan",
+    "ID Mục Tiêu"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "STRING",
+    "INT64",
+    "INT64"
+  ],
+  "description": [
+    "Định danh cho mục tiêu quan tâm (khóa ngoại tới bảng target_dictionary)",
+    "Mối quan hệ giữa hai mục tiêu (ví dụ: BỘ PHẬN CỦA, BỘ PHẬN MẶN CỦA, NHIỆP NHAU VỚI)",
+    "Định danh cho mục tiêu liên quan đến mục tiêu quan tâm (khóa ngoại tới bảng target_dicitionary)",
+    "Khóa chính"
+  ],
+  "sample_rows": [
+    {
+      "Thời gian": 117043,
+      "mối quan hệ": "SUBSET OF",
+      "id_liên_quan": 118387,
+      "ID Mục Tiêu": 227977
+    },
+    {
+      "Thời gian": 117043,
+      "mối quan hệ": "SUBSET OF",
+      "id_liên_quan": 120269,
+      "ID Mục Tiêu": 227981
+    },
+    {
+      "Thời gian": 104690,
+      "mối quan hệ": "SUBSET OF",
+      "id_liên_quan": 104871,
+      "ID Mục Tiêu": 228004
+    },
+    {
+      "Thời gian": 104897,
+      "mối quan hệ": "SUBSET OF",
+      "id_liên_quan": 119771,
+      "ID Mục Tiêu": 228021
+    },
+    {
+      "Thời gian": 105044,
+      "mối quan hệ": "SUBSET OF",
+      "id_liên_quan": 104844,
+      "ID Mục Tiêu": 228037
+    }
+  ]
+}
