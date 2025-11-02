@@ -1,0 +1,66 @@
+{
+  "table_name": "component_synonyms_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.component_synonyms_30",
+  "column_names": [
+    "Mã tên từ đồng nghĩa",
+    "ID thành phần",
+    "Đồng nghĩa thành phần",
+    "loại đồng nghĩa"
+  ],
+  "column_types": [
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "Mã đồng nghĩa thành phần",
+    "mã thành phần",
+    "từ đồng nghĩa thành phần",
+    "loại đồng nghĩa"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "Khóa chính.",
+    "Khóa ngoại tới bảng component_sequences. Thành phần mà từ đồng nghĩa này áp dụng.",
+    "Từ đồng nghĩa của thành phần.",
+    "Loại hoặc nguồn gốc của từ đồng nghĩa (ví dụ, GENE_SYMBOL)."
+  ],
+  "sample_rows": [
+    {
+      "Mã đồng nghĩa thành phần": 1470665,
+      "mã thành phần": 56,
+      "từ đồng nghĩa thành phần": "NMD-R1",
+      "loại đồng nghĩa": "UNIPROT"
+    },
+    {
+      "Mã đồng nghĩa thành phần": 1471159,
+      "mã thành phần": 17,
+      "từ đồng nghĩa thành phần": "PSK-J3",
+      "loại đồng nghĩa": "UNIPROT"
+    },
+    {
+      "Mã đồng nghĩa thành phần": 1470608,
+      "mã thành phần": 47,
+      "từ đồng nghĩa thành phần": "Gamma-aminobutyric acid receptor subunit beta-2",
+      "loại đồng nghĩa": "UNIPROT"
+    },
+    {
+      "Mã đồng nghĩa thành phần": 1470609,
+      "mã thành phần": 47,
+      "từ đồng nghĩa thành phần": "GABA(A) receptor subunit beta-2",
+      "loại đồng nghĩa": "UNIPROT"
+    },
+    {
+      "Mã đồng nghĩa thành phần": 1470612,
+      "mã thành phần": 48,
+      "từ đồng nghĩa thành phần": "Gamma-aminobutyric acid receptor subunit alpha-1",
+      "loại đồng nghĩa": "UNIPROT"
+    }
+  ]
+}
