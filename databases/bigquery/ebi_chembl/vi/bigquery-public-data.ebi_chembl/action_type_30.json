@@ -1,0 +1,56 @@
+{
+  "table_name": "action_type_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.action_type_30",
+  "column_names": [
+    "loại_hành_dộng",
+    "mô tả",
+    "loại phụ huynh"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "loại hành động",
+    "mô tả",
+    "loại cha"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "Khóa chính. Loại tác động của thuốc, ví dụ: thuốc kích thích, thuốc đối kháng.",
+    "Mô tả cách sử dụng loại hành động",
+    "Nhóm cao cấp hơn của các loại hành động, ví dụ: hành động tích cực so với hành động tiêu cực"
+  ],
+  "sample_rows": [
+    {
+      "loại hành động": "BINDING AGENT",
+      "mô tả": "Binds to a substance such as a cell surface antigen, targetting a drug to that location, but not necessarily affecting the functioning of the substance itself",
+      "loại cha": "OTHER"
+    },
+    {
+      "loại hành động": "CHELATING AGENT",
+      "mô tả": "Binds to a metal, reducing its availability for further interactions",
+      "loại cha": "OTHER"
+    },
+    {
+      "loại hành động": "CROSS-LINKING AGENT",
+      "mô tả": "Induces cross-linking of proteins or nucleic acids",
+      "loại cha": "OTHER"
+    },
+    {
+      "loại hành động": "DISRUPTING AGENT",
+      "mô tả": "Destabilises or disrupts a protein complex, macromolecular assembly, cell membrane etc",
+      "loại cha": "OTHER"
+    },
+    {
+      "loại hành động": "HYDROLYTIC ENZYME",
+      "mô tả": "Hydrolyses a substrate through enzymatic reaction",
+      "loại cha": "OTHER"
+    }
+  ]
+}
