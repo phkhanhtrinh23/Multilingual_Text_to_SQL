@@ -1,0 +1,76 @@
+{
+  "table_name": "component_domains_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.component_domains_30",
+  "column_names": [
+    "Mã hợp chất",
+    "định danh miền",
+    "mã_thanh_phan",
+    "vị trí bắt đầu",
+    "điểm cuối"
+  ],
+  "column_types": [
+    "INT64",
+    "INT64",
+    "INT64",
+    "INT64",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "mã hợp chất",
+    "Mã miền",
+    "Mã thành phần",
+    "vị trí bắt đầu",
+    "vị trí cuối"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "INT64",
+    "INT64",
+    "INT64",
+    "INT64"
+  ],
+  "description": [
+    "Khóa chính.",
+    "Khóa ngoại tới bảng domains, chỉ ra domain được chứa trong thành phần phân tử liên quan.",
+    "Khóa ngoại tới bảng component_sequences, chỉ ra molecular_component có domain đã cho.",
+    "Vị trí bắt đầu của miền trong chuỗi được cho trong bảng component_sequences.",
+    "Vị trí cuối của miền trong chuỗi được cung cấp trong bảng component_sequences."
+  ],
+  "sample_rows": [
+    {
+      "mã hợp chất": 233577,
+      "Mã miền": 2832,
+      "Mã thành phần": 3430,
+      "vị trí bắt đầu": 256,
+      "vị trí cuối": 376
+    },
+    {
+      "mã hợp chất": 229403,
+      "Mã miền": 3351,
+      "Mã thành phần": 649,
+      "vị trí bắt đầu": 256,
+      "vị trí cuối": 695
+    },
+    {
+      "mã hợp chất": 233381,
+      "Mã miền": 3375,
+      "Mã thành phần": 2296,
+      "vị trí bắt đầu": 256,
+      "vị trí cuối": 433
+    },
+    {
+      "mã hợp chất": 243399,
+      "Mã miền": 2630,
+      "Mã thành phần": 7217,
+      "vị trí bắt đầu": 256,
+      "vị trí cuối": 397
+    },
+    {
+      "mã hợp chất": 247929,
+      "Mã miền": 2630,
+      "Mã thành phần": 19683,
+      "vị trí bắt đầu": 256,
+      "vị trí cuối": 397
+    }
+  ]
+}
