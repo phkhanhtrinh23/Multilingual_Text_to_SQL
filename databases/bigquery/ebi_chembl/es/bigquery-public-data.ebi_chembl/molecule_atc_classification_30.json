@@ -1,0 +1,56 @@
+{
+  "table_name": "molecule_atc_classification_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.molecule_atc_classification_30",
+  "column_names": [
+    "id_atc_molecular",
+    "Nivel 5",
+    "Número de registro molecular"
+  ],
+  "column_types": [
+    "INT64",
+    "STRING",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "ID ATC de molécula",
+    "nivel5",
+    "número de registro molecular"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "STRING",
+    "INT64"
+  ],
+  "description": [
+    "clave primaria",
+    "Código ATC (clave foránea a la tabla atc_classification)",
+    "Medicamento al que se aplica el código ATC (clave foránea a la tabla molecule_dictionary)"
+  ],
+  "sample_rows": [
+    {
+      "ID ATC de molécula": 60559,
+      "nivel5": "B01AC06",
+      "número de registro molecular": 1280
+    },
+    {
+      "ID ATC de molécula": 61116,
+      "nivel5": "N02BA01",
+      "número de registro molecular": 1280
+    },
+    {
+      "ID ATC de molécula": 61117,
+      "nivel5": "N02BA51",
+      "número de registro molecular": 1280
+    },
+    {
+      "ID ATC de molécula": 61696,
+      "nivel5": "A01AD05",
+      "número de registro molecular": 1280
+    },
+    {
+      "ID ATC de molécula": 62830,
+      "nivel5": "N02BA71",
+      "número de registro molecular": 1280
+    }
+  ]
+}
