@@ -1,0 +1,66 @@
+{
+  "table_name": "target_components_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.target_components_30",
+  "column_names": [
+    "ID de transacción",
+    "ID de componente",
+    "id_componente_objetivo",
+    "homólogo"
+  ],
+  "column_types": [
+    "INT64",
+    "INT64",
+    "INT64",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "ID de transacción",
+    "id_componente",
+    "id_componente_objetivo",
+    "homólogo"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "INT64",
+    "INT64",
+    "INT64"
+  ],
+  "description": [
+    "Clave foránea a target_dictionary, indicando el objetivo al que pertenecen los componentes.",
+    "Clave externa a la tabla component_sequences, indicando qué componentes pertenecen al objetivo.",
+    "Clave primaria.",
+    "Indica que el componente dado es un homólogo del componente correcto (por ejemplo, de una especie diferente) cuando se establece en 1. Esto puede ocurrir si la secuencia del proteína/ácido nucleico correcto no se encuentra en bases de datos de secuencias. Un valor de 2 indica que la secuencia proporcionada es un representante de un grupo de especies, por ejemplo, una proteína de E. coli para representar el objetivo de un antibiótico de amplio espectro."
+  ],
+  "sample_rows": [
+    {
+      "ID de transacción": 10496,
+      "id_componente": 1361,
+      "id_componente_objetivo": 4530,
+      "homólogo": 0
+    },
+    {
+      "ID de transacción": 10752,
+      "id_componente": 321,
+      "id_componente_objetivo": 2345,
+      "homólogo": 0
+    },
+    {
+      "ID de transacción": 11520,
+      "id_componente": 1491,
+      "id_componente_objetivo": 5341,
+      "homólogo": 0
+    },
+    {
+      "ID de transacción": 12800,
+      "id_componente": 2751,
+      "id_componente_objetivo": 4027,
+      "homólogo": 0
+    },
+    {
+      "ID de transacción": 13056,
+      "id_componente": 2744,
+      "id_componente_objetivo": 4758,
+      "homólogo": 0
+    }
+  ]
+}
