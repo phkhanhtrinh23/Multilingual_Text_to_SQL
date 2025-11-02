@@ -1,0 +1,76 @@
+{
+  "table_name": "indication_refs_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.indication_refs_30",
+  "column_names": [
+    "id_indref",
+    "id_indicador_fármaco",
+    "tipo de referencia",
+    "ID de referencia",
+    "URL de referencia"
+  ],
+  "column_types": [
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "ID de referencia",
+    "id_indicacion_medicamento",
+    "tipo de referencia",
+    "referencia_id",
+    "url_referencia"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "Clave primaria",
+    "Clave foránea a la tabla DRUG_INDICATION, indicando el enlace indicación-medicamento al que se aplica esta referencia.",
+    "Tipo/fuente de referencia",
+    "Identificador de la referencia en la fuente",
+    "URL completa enlazando a la referencia"
+  ],
+  "sample_rows": [
+    {
+      "ID de referencia": 437519,
+      "id_indicacion_medicamento": 50045,
+      "tipo de referencia": "ATC",
+      "referencia_id": "A01AB02",
+      "url_referencia": "http://www.whocc.no/atc_ddd_index/?code=A01AB02"
+    },
+    {
+      "ID de referencia": 495235,
+      "id_indicacion_medicamento": 68675,
+      "tipo de referencia": "ATC",
+      "referencia_id": "A01AB03",
+      "url_referencia": "http://www.whocc.no/atc_ddd_index/?code=A01AB03"
+    },
+    {
+      "ID de referencia": 434491,
+      "id_indicacion_medicamento": 42687,
+      "tipo de referencia": "ATC",
+      "referencia_id": "A01AB04",
+      "url_referencia": "http://www.whocc.no/atc_ddd_index/?code=A01AB04"
+    },
+    {
+      "ID de referencia": 486361,
+      "id_indicacion_medicamento": 50046,
+      "tipo de referencia": "ATC",
+      "referencia_id": "A01AB05",
+      "url_referencia": "http://www.whocc.no/atc_ddd_index/?code=A01AB05"
+    },
+    {
+      "ID de referencia": 493806,
+      "id_indicacion_medicamento": 67819,
+      "tipo de referencia": "ATC",
+      "referencia_id": "A01AB06",
+      "url_referencia": "http://www.whocc.no/atc_ddd_index/?code=A01AB06"
+    }
+  ]
+}

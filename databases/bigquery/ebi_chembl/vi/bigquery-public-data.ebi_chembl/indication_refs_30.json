@@ -1,0 +1,76 @@
+{
+  "table_name": "indication_refs_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.indication_refs_30",
+  "column_names": [
+    "mã tham chiếu chỉ số",
+    "ID định danh thuốc",
+    "Loại tham chiếu",
+    "Mã tham chiếu",
+    "URL tham chiếu"
+  ],
+  "column_types": [
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "Mã tham chiếu chỉ số",
+    "Mã ngành dược",
+    "loại tham chiếu",
+    "Mã tham chiếu",
+    "URL tham khảo"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "Khóa chính",
+    "Khóa ngoại tới bảng DRUG_INDICATION, chỉ ra liên kết thuốc - chỉ định mà tham chiếu này áp dụng.",
+    "Loại / Nguồn tham khảo",
+    "Định danh cho tham chiếu trong nguồn",
+    "URL đầy đủ liên kết tới tham chiếu"
+  ],
+  "sample_rows": [
+    {
+      "Mã tham chiếu chỉ số": 437519,
+      "Mã ngành dược": 50045,
+      "loại tham chiếu": "ATC",
+      "Mã tham chiếu": "A01AB02",
+      "URL tham khảo": "http://www.whocc.no/atc_ddd_index/?code=A01AB02"
+    },
+    {
+      "Mã tham chiếu chỉ số": 495235,
+      "Mã ngành dược": 68675,
+      "loại tham chiếu": "ATC",
+      "Mã tham chiếu": "A01AB03",
+      "URL tham khảo": "http://www.whocc.no/atc_ddd_index/?code=A01AB03"
+    },
+    {
+      "Mã tham chiếu chỉ số": 434491,
+      "Mã ngành dược": 42687,
+      "loại tham chiếu": "ATC",
+      "Mã tham chiếu": "A01AB04",
+      "URL tham khảo": "http://www.whocc.no/atc_ddd_index/?code=A01AB04"
+    },
+    {
+      "Mã tham chiếu chỉ số": 486361,
+      "Mã ngành dược": 50046,
+      "loại tham chiếu": "ATC",
+      "Mã tham chiếu": "A01AB05",
+      "URL tham khảo": "http://www.whocc.no/atc_ddd_index/?code=A01AB05"
+    },
+    {
+      "Mã tham chiếu chỉ số": 493806,
+      "Mã ngành dược": 67819,
+      "loại tham chiếu": "ATC",
+      "Mã tham chiếu": "A01AB06",
+      "URL tham khảo": "http://www.whocc.no/atc_ddd_index/?code=A01AB06"
+    }
+  ]
+}
