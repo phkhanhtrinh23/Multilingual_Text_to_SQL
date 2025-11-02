@@ -1,0 +1,56 @@
+{
+  "table_name": "molecule_frac_classification_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.molecule_frac_classification_30",
+  "column_names": [
+    "identificador_fracción_molar",
+    "idClaseFraccional",
+    "número de registro molecular"
+  ],
+  "column_types": [
+    "INT64",
+    "INT64",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "id_fracción_molar",
+    "id_clase_fraccion",
+    "Número de registro molecular"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "INT64",
+    "INT64"
+  ],
+  "description": [
+    "Clave primaria.",
+    "Clave externa a la tabla frac_classification que muestra la clasificación del mecanismo de acción del compuesto.",
+    "Clave foránea a molecule_dictionary, mostrando el compuesto al que se aplica la clasificación."
+  ],
+  "sample_rows": [
+    {
+      "id_fracción_molar": 139,
+      "id_clase_fraccion": 513,
+      "Número de registro molecular": 1627948
+    },
+    {
+      "id_fracción_molar": 123,
+      "id_clase_fraccion": 514,
+      "Número de registro molecular": 1486302
+    },
+    {
+      "id_fracción_molar": 114,
+      "id_clase_fraccion": 515,
+      "Número de registro molecular": 1461886
+    },
+    {
+      "id_fracción_molar": 29,
+      "id_clase_fraccion": 519,
+      "Número de registro molecular": 435442
+    },
+    {
+      "id_fracción_molar": 131,
+      "id_clase_fraccion": 520,
+      "Número de registro molecular": 1493581
+    }
+  ]
+}
