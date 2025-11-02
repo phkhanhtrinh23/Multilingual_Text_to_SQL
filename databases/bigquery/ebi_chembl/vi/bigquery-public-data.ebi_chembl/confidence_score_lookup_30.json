@@ -1,0 +1,56 @@
+{
+  "table_name": "confidence_score_lookup_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.confidence_score_lookup_30",
+  "column_names": [
+    "điểm độ tin cậy",
+    "mô tả",
+    "bản đồ mục tiêu"
+  ],
+  "column_types": [
+    "INT64",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "điểm tin cậy",
+    "mô tả",
+    "bản đồ mục tiêu"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "Điểm 0-9 cho thấy mức độ tin cậy trong việc xác định mục tiêu phân tử chính xác của xét nghiệm.",
+    "Mô tả các loại mục tiêu được gán với mỗi điểm số",
+    "Mô tả ngắn gọn về các loại mục tiêu được gán cho mỗi điểm số"
+  ],
+  "sample_rows": [
+    {
+      "điểm tin cậy": 1,
+      "mô tả": "Target assigned is non-molecular",
+      "bản đồ mục tiêu": "Non-molecular"
+    },
+    {
+      "điểm tin cậy": 2,
+      "mô tả": "Target assigned is subcellular fraction",
+      "bản đồ mục tiêu": "Subcellular fraction"
+    },
+    {
+      "điểm tin cậy": 3,
+      "mô tả": "Target assigned is molecular non-protein target",
+      "bản đồ mục tiêu": "Molecular (non-protein)"
+    },
+    {
+      "điểm tin cậy": 4,
+      "mô tả": "Multiple homologous protein targets may be assigned",
+      "bản đồ mục tiêu": "Multiple homologous proteins"
+    },
+    {
+      "điểm tin cậy": 5,
+      "mô tả": "Multiple direct protein targets may be assigned",
+      "bản đồ mục tiêu": "Multiple proteins"
+    }
+  ]
+}

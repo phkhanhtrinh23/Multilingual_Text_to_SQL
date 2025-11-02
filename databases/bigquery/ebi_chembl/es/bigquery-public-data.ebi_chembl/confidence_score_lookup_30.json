@@ -1,0 +1,56 @@
+{
+  "table_name": "confidence_score_lookup_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.confidence_score_lookup_30",
+  "column_names": [
+    "puntuación de confianza",
+    "descripción",
+    "Mapeo objetivo"
+  ],
+  "column_types": [
+    "INT64",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "puntuacion_de_confianza",
+    "descripción",
+    "mapeo objetivo"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "Puntuación de 0 a 9 que indica el nivel de confianza en la asignación del objetivo molecular preciso del ensayo.",
+    "Descripción de los tipos de objetivo asignados a cada puntuación",
+    "breve descripción de los tipos de objetivo asignados a cada puntuación"
+  ],
+  "sample_rows": [
+    {
+      "puntuacion_de_confianza": 1,
+      "descripción": "Target assigned is non-molecular",
+      "mapeo objetivo": "Non-molecular"
+    },
+    {
+      "puntuacion_de_confianza": 2,
+      "descripción": "Target assigned is subcellular fraction",
+      "mapeo objetivo": "Subcellular fraction"
+    },
+    {
+      "puntuacion_de_confianza": 3,
+      "descripción": "Target assigned is molecular non-protein target",
+      "mapeo objetivo": "Molecular (non-protein)"
+    },
+    {
+      "puntuacion_de_confianza": 4,
+      "descripción": "Multiple homologous protein targets may be assigned",
+      "mapeo objetivo": "Multiple homologous proteins"
+    },
+    {
+      "puntuacion_de_confianza": 5,
+      "descripción": "Multiple direct protein targets may be assigned",
+      "mapeo objetivo": "Multiple proteins"
+    }
+  ]
+}
