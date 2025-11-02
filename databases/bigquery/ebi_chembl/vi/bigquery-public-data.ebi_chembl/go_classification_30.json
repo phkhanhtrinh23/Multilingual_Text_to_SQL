@@ -1,0 +1,86 @@
+{
+  "table_name": "go_classification_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.go_classification_30",
+  "column_names": [
+    "định danh Go",
+    "mã_cha_go",
+    "tên tùy chọn",
+    "Cấp lớp",
+    "Khía cạnh",
+    "đường dẫn"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "ID GO",
+    "id_cha_go",
+    "tên tùy chọn",
+    "cấp độ lớp",
+    "Khía cạnh",
+    "đường dẫn"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "Khóa chính. Định danh Gene Ontology cho thuật ngữ GO slim",
+    "Mã Gene Ontology của cha của thuật ngữ GO này trong ChEMBL Drug Target GO slim",
+    "Tên Gene Ontology",
+    "Chỉ ra mức độ của thuật ngữ trong slim (L1 = cao nhất)",
+    "Xác định khía cạnh nào của Gene Ontology mà thuật ngữ thuộc về (F = chức năng phân tử, P = quá trình sinh học, C = thành phần tế bào).",
+    "Chỉ ra đường dẫn đầy đủ tới thuật ngữ này trong GO slim"
+  ],
+  "sample_rows": [
+    {
+      "ID GO": "GO:0003674",
+      "id_cha_go": null,
+      "tên tùy chọn": "molecular_function",
+      "cấp độ lớp": 0,
+      "Khía cạnh": "F",
+      "đường dẫn": "molecular_function"
+    },
+    {
+      "ID GO": "GO:0005575",
+      "id_cha_go": null,
+      "tên tùy chọn": "cellular_component",
+      "cấp độ lớp": 0,
+      "Khía cạnh": "C",
+      "đường dẫn": "cellular_component"
+    },
+    {
+      "ID GO": "GO:0008150",
+      "id_cha_go": null,
+      "tên tùy chọn": "biological_process",
+      "cấp độ lớp": 0,
+      "Khía cạnh": "P",
+      "đường dẫn": "biological_process"
+    },
+    {
+      "ID GO": "GO:0000166",
+      "id_cha_go": "GO:0003674",
+      "tên tùy chọn": "nucleotide binding",
+      "cấp độ lớp": 1,
+      "Khía cạnh": "F",
+      "đường dẫn": "molecular_function  nucleotide binding"
+    },
+    {
+      "ID GO": "GO:0000988",
+      "id_cha_go": "GO:0003674",
+      "tên tùy chọn": "protein binding transcription factor activity",
+      "cấp độ lớp": 1,
+      "Khía cạnh": "F",
+      "đường dẫn": "molecular_function  protein binding transcription factor activity"
+    }
+  ]
+}
