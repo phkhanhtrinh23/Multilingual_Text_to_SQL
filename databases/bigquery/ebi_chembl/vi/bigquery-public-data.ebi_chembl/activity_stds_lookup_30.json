@@ -1,0 +1,86 @@
+{
+  "table_name": "activity_stds_lookup_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.activity_stds_lookup_30",
+  "column_names": [
+    "Mã hoạt động tiêu chuẩn",
+    "loại tiêu chuẩn",
+    "định nghĩa",
+    "đơn vị tiêu chuẩn",
+    "giới hạn bình thường tối thiểu",
+    "giá trị tối đa bình thường"
+  ],
+  "column_types": [
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "FLOAT64"
+  ],
+  "nested_column_names": [
+    "ID Hoạt động Tiêu chuẩn",
+    "loại tiêu chuẩn",
+    "định nghĩa",
+    "đơn vị tiêu chuẩn",
+    "giá trị tối thiểu của phạm vi chuẩn",
+    "giá trị tối đa chuẩn"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "FLOAT64"
+  ],
+  "description": [
+    "Khóa chính.",
+    "Định dạng chuẩn mà các loại đã xuất bản khác trong bảng hoạt động đã được chuyển đổi sang.",
+    "Một mô tả/định nghĩa của standard_type.",
+    "Những đơn vị được áp dụng cho loại chuẩn này và các đơn vị đã công bố khác được chuyển đổi sang chúng. Lưu ý rằng một loại chuẩn có thể có nhiều hơn một đơn vị chuẩn cho phép và do đó có nhiều hàng trong bảng này.",
+    "Giá trị thấp nhất cho loại hoạt động này có khả năng là hợp lệ. Đây chỉ là một ước tính, do đó các giá trị thực tế thấp hơn có thể tồn tại, nhưng có thể hữu ích khi xác thực chúng trước khi sử dụng. Với một standard_type/units nhất định, các giá trị trong bảng hoạt động dưới ngưỡng này sẽ được đánh dấu với data_validity_comment là 'Outside typical range'.",
+    "Giá trị cao nhất cho loại hoạt động này có khả năng là hợp lệ.  \nĐây chỉ là một ước tính, vì vậy có thể tồn tại các giá trị hợp lệ cao hơn, nhưng nên xác thực chúng trước khi sử dụng.  \nĐối với một standard_type/đơn vị nhất định, các giá trị trong bảng activities vượt quá ngưỡng này sẽ được đánh dấu với data_validity_comment là “Ngoài giới hạn thường thấy”."
+  ],
+  "sample_rows": [
+    {
+      "ID Hoạt động Tiêu chuẩn": 81,
+      "loại tiêu chuẩn": "HCT",
+      "định nghĩa": "The percentage of a whole blood specimen that is composed of red blood cells (erythrocytes).",
+      "đơn vị tiêu chuẩn": "%",
+      "giá trị tối thiểu của phạm vi chuẩn": null,
+      "giá trị tối đa chuẩn": null
+    },
+    {
+      "ID Hoạt động Tiêu chuẩn": 95,
+      "loại tiêu chuẩn": "MCHC",
+      "định nghĩa": "A quantitative measurement of the mean amount of hemoglobin per erythrocytes in a specified volume of a biological specimen.",
+      "đơn vị tiêu chuẩn": "%",
+      "giá trị tối thiểu của phạm vi chuẩn": null,
+      "giá trị tối đa chuẩn": null
+    },
+    {
+      "ID Hoạt động Tiêu chuẩn": 103,
+      "loại tiêu chuẩn": "EOSLE",
+      "định nghĩa": "A relative measurement (ratio or percentage) of the eosinophils to leukocytes in a biological specimen.",
+      "đơn vị tiêu chuẩn": "%",
+      "giá trị tối thiểu của phạm vi chuẩn": null,
+      "giá trị tối đa chuẩn": null
+    },
+    {
+      "ID Hoạt động Tiêu chuẩn": 104,
+      "loại tiêu chuẩn": "LYMLE",
+      "định nghĩa": "A relative measurement (ratio or percentage) of the lymphocytes to leukocytes in a biological specimen.",
+      "đơn vị tiêu chuẩn": "%",
+      "giá trị tối thiểu của phạm vi chuẩn": null,
+      "giá trị tối đa chuẩn": null
+    },
+    {
+      "ID Hoạt động Tiêu chuẩn": 106,
+      "loại tiêu chuẩn": "BASOLE",
+      "định nghĩa": "A relative measurement (ratio or percentage) of the basophils to leukocytes in a biological specimen.",
+      "đơn vị tiêu chuẩn": "%",
+      "giá trị tối thiểu của phạm vi chuẩn": null,
+      "giá trị tối đa chuẩn": null
+    }
+  ]
+}
