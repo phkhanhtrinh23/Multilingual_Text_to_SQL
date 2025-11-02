@@ -1,0 +1,76 @@
+{
+  "table_name": "predicted_binding_domains_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.predicted_binding_domains_30",
+  "column_names": [
+    "id_preacoplamiento",
+    "identificador de actividad",
+    "ID del sitio",
+    "método de predicción",
+    "confianza"
+  ],
+  "column_types": [
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "ID de predbind",
+    "id_actividad",
+    "id_sitio",
+    "método de predicción",
+    "confianza"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "Clave primaria.",
+    "Clave foránea a la tabla de actividades, indicando la combinación de compuesto/ensayo (+objetivo) para la que se hace esta predicción.",
+    "Clave foránea a la tabla binding_sites, indicando el sitio de unión (dominio) al que se espera que el compuesto se una.",
+    "El método utilizado para asignar el dominio de unión (por ejemplo, 'Dominio único', donde la proteína tiene solo un dominio, 'Dominio múltiple', donde la proteína tiene múltiples dominios, pero solo uno se sabe que se une a pequeñas moléculas en otras proteínas).",
+    "El nivel de confianza asignado a la predicción (alto cuando la proteína tiene solo 1 dominio, medio cuando el compuesto tiene múltiples dominios, pero solo 1 dominio conocido de unión a moléculas pequeñas)."
+  ],
+  "sample_rows": [
+    {
+      "ID de predbind": 7797342,
+      "id_actividad": 22413971,
+      "id_sitio": null,
+      "método de predicción": "Multi domain",
+      "confianza": "medium"
+    },
+    {
+      "ID de predbind": 7899397,
+      "id_actividad": 22433085,
+      "id_sitio": null,
+      "método de predicción": "Multi domain",
+      "confianza": "medium"
+    },
+    {
+      "ID de predbind": 7899403,
+      "id_actividad": 22469714,
+      "id_sitio": null,
+      "método de predicción": "Multi domain",
+      "confianza": "medium"
+    },
+    {
+      "ID de predbind": 7955143,
+      "id_actividad": 22900108,
+      "id_sitio": null,
+      "método de predicción": "Multi domain",
+      "confianza": "medium"
+    },
+    {
+      "ID de predbind": 8002137,
+      "id_actividad": 22414005,
+      "id_sitio": null,
+      "método de predicción": "Multi domain",
+      "confianza": "medium"
+    }
+  ]
+}

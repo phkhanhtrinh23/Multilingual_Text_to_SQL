@@ -1,0 +1,76 @@
+{
+  "table_name": "predicted_binding_domains_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.predicted_binding_domains_30",
+  "column_names": [
+    "id dự đoán liên kết",
+    "mã hoạt động",
+    "mã_site",
+    "phương pháp dự đoán",
+    "độ tin cậy"
+  ],
+  "column_types": [
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "id_liên_kết_dự_đoán",
+    "Mã hoạt động",
+    "Mã địa điểm",
+    "phương pháp dự đoán",
+    "độ tin cậy"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "Khóa chính.",
+    "Khóa ngoại tới bảng activities, chỉ ra sự kết hợp hợp chất/đánh giá (+đích) mà dự đoán này được thực hiện.",
+    "Khóa ngoại tới bảng binding_sites, chỉ ra vị trí liên kết (domain) mà hợp chất dự kiến sẽ liên kết tới.",
+    "Phương pháp được sử dụng để xác định miền liên kết (ví dụ, 'Miền đơn' khi protein chỉ có 1 miền, 'Miền đa' khi protein có nhiều miền, nhưng chỉ 1 miền được biết liên kết với các phân tử nhỏ trong các protein khác).",
+    "Mức độ tin cậy được gán cho dự đoán (cao khi protein chỉ có một domain, trung bình khi hợp chất có nhiều domain, nhưng chỉ có một domain đã biết liên kết với phân tử nhỏ)."
+  ],
+  "sample_rows": [
+    {
+      "id_liên_kết_dự_đoán": 7797342,
+      "Mã hoạt động": 22413971,
+      "Mã địa điểm": null,
+      "phương pháp dự đoán": "Multi domain",
+      "độ tin cậy": "medium"
+    },
+    {
+      "id_liên_kết_dự_đoán": 7899397,
+      "Mã hoạt động": 22433085,
+      "Mã địa điểm": null,
+      "phương pháp dự đoán": "Multi domain",
+      "độ tin cậy": "medium"
+    },
+    {
+      "id_liên_kết_dự_đoán": 7899403,
+      "Mã hoạt động": 22469714,
+      "Mã địa điểm": null,
+      "phương pháp dự đoán": "Multi domain",
+      "độ tin cậy": "medium"
+    },
+    {
+      "id_liên_kết_dự_đoán": 7955143,
+      "Mã hoạt động": 22900108,
+      "Mã địa điểm": null,
+      "phương pháp dự đoán": "Multi domain",
+      "độ tin cậy": "medium"
+    },
+    {
+      "id_liên_kết_dự_đoán": 8002137,
+      "Mã hoạt động": 22414005,
+      "Mã địa điểm": null,
+      "phương pháp dự đoán": "Multi domain",
+      "độ tin cậy": "medium"
+    }
+  ]
+}
