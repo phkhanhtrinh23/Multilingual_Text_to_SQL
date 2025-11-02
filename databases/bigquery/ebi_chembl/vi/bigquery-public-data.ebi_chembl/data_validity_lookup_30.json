@@ -1,0 +1,46 @@
+{
+  "table_name": "data_validity_lookup_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.data_validity_lookup_30",
+  "column_names": [
+    "ghi chú tính hợp lệ dữ liệu",
+    "Mô tả"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "Bình luận độ hợp lệ dữ liệu",
+    "Mô tả"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "Khóa chính. Mô tả ngắn gọn về các loại lỗi/cảnh báo được áp dụng cho giá trị trong bảng hoạt động.",
+    "Định nghĩa các thuật ngữ trong trường data_validity_comment."
+  ],
+  "sample_rows": [
+    {
+      "Bình luận độ hợp lệ dữ liệu": "Manually validated",
+      "Mô tả": "Data have been checked against the publication and are believed to be accurate"
+    },
+    {
+      "Bình luận độ hợp lệ dữ liệu": "Non standard unit for type",
+      "Mô tả": "Units for this activity type are unusual and may be incorrect (or the standard_type may be incorrect)"
+    },
+    {
+      "Bình luận độ hợp lệ dữ liệu": "Outside typical range",
+      "Mô tả": "Values for this activity type are unusually large/small, so may not be accurate"
+    },
+    {
+      "Bình luận độ hợp lệ dữ liệu": "Potential author error",
+      "Mô tả": "Data have been checked against the publication and are as reported - possibly an error was made by the author"
+    },
+    {
+      "Bình luận độ hợp lệ dữ liệu": "Potential missing data",
+      "Mô tả": "No data provided for value, units or activity_comment, needs further investigation"
+    }
+  ]
+}
