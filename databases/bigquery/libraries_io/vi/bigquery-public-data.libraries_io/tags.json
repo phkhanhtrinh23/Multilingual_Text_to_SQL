@@ -1,0 +1,116 @@
+{
+  "table_name": "tags",
+  "table_fullname": "bigquery-public-data.libraries_io.tags",
+  "column_names": [
+    "Mã",
+    "loại máy chủ",
+    "Tên kho chứa với chủ sở hữu",
+    "id_kho_lưu_trữ",
+    "tên thẻ",
+    "SHA của tag Git",
+    "Thời gian xuất bản",
+    "thời gian tạo thẻ",
+    "thời điểm cập nhật thẻ"
+  ],
+  "column_types": [
+    "INT64",
+    "STRING",
+    "STRING",
+    "INT64",
+    "STRING",
+    "STRING",
+    "TIMESTAMP",
+    "TIMESTAMP",
+    "TIMESTAMP"
+  ],
+  "nested_column_names": [
+    "Mã số\nTên\nHọ\nEmail\nGiới tính\nTuổi\nNgày đăng ký\nNgày đăng nhập cuối\nLoại đăng ký\nTiền mua lần cuối",
+    "loại máy chủ",
+    "tên kho có chủ",
+    "Mã kho lưu trữ",
+    "tên thẻ",
+    "SHA của tag Git",
+    "Ngày giờ xuất bản",
+    "mốc thời gian tạo thẻ",
+    "Thời gian cập nhật thẻ"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "STRING",
+    "STRING",
+    "INT64",
+    "STRING",
+    "STRING",
+    "TIMESTAMP",
+    "TIMESTAMP",
+    "TIMESTAMP"
+  ],
+  "description": [
+    "Khoá chính duy nhất của thẻ trong cơ sở dữ liệu Libraries.io.",
+    "Tags repository được lưu trữ trên trang web nào: GitHub, GitLab hay Bitbucket?",
+    "Tên kho lưu trữ và chủ sở hữu được phân tách bằng dấu gạch chéo, cũng được ánh xạ tới slug URL trên máy chủ kho lưu trữ, ví dụ: librariesio/libraries.io.",
+    "Khóa chính duy nhất của kho lưu trữ cho thẻ này trong cơ sở dữ liệu của Libraries.io.",
+    "Tên của thẻ thường là một số phiên bản nhưng cũng có thể là bất kỳ chuỗi tự do nào.",
+    "SHA của đối tượng mà thẻ đang trỏ tới trong kho lưu trữ.",
+    "Thời gian ghi lại khi thẻ được xuất bản.",
+    "Mốc thời gian khi thẻ được lưu lần đầu tiên bởi Libraries.io.",
+    "Thời điểm khi thẻ được lưu lần cuối bởi Libraries.io."
+  ],
+  "sample_rows": [
+    {
+      "Mã số\nTên\nHọ\nEmail\nGiới tính\nTuổi\nNgày đăng ký\nNgày đăng nhập cuối\nLoại đăng ký\nTiền mua lần cuối": 52086629,
+      "loại máy chủ": "GitHub",
+      "tên kho có chủ": "dmpriso/hunter",
+      "Mã kho lưu trữ": 23754342,
+      "tên thẻ": "v0.16.2",
+      "SHA của tag Git": "db87a6c907a822d2c0d3e5df01d74a11330e290d",
+      "Ngày giờ xuất bản": "2016-10-01 00:27:25+00:00",
+      "mốc thời gian tạo thẻ": "2017-05-11 12:17:06+00:00",
+      "Thời gian cập nhật thẻ": "2017-05-11 12:17:06+00:00"
+    },
+    {
+      "Mã số\nTên\nHọ\nEmail\nGiới tính\nTuổi\nNgày đăng ký\nNgày đăng nhập cuối\nLoại đăng ký\nTiền mua lần cuối": 52086654,
+      "loại máy chủ": "GitHub",
+      "tên kho có chủ": "dmpriso/hunter",
+      "Mã kho lưu trữ": 23754342,
+      "tên thẻ": "v0.16.27",
+      "SHA của tag Git": "4b9a51ac24f8c55d0dc28b617c4329f0db582b53",
+      "Ngày giờ xuất bản": "2016-11-13 05:26:20+00:00",
+      "mốc thời gian tạo thẻ": "2017-05-11 12:17:20+00:00",
+      "Thời gian cập nhật thẻ": "2017-05-11 12:17:20+00:00"
+    },
+    {
+      "Mã số\nTên\nHọ\nEmail\nGiới tính\nTuổi\nNgày đăng ký\nNgày đăng nhập cuối\nLoại đăng ký\nTiền mua lần cuối": 52086678,
+      "loại máy chủ": "GitHub",
+      "tên kho có chủ": "dmpriso/hunter",
+      "Mã kho lưu trữ": 23754342,
+      "tên thẻ": "v0.17.14",
+      "SHA của tag Git": "ca3adc81c78cdba67bc1567088d0fba309df2fb8",
+      "Ngày giờ xuất bản": "2017-01-15 04:57:59+00:00",
+      "mốc thời gian tạo thẻ": "2017-05-11 12:17:27+00:00",
+      "Thời gian cập nhật thẻ": "2017-05-11 12:17:27+00:00"
+    },
+    {
+      "Mã số\nTên\nHọ\nEmail\nGiới tính\nTuổi\nNgày đăng ký\nNgày đăng nhập cuối\nLoại đăng ký\nTiền mua lần cuối": 52086709,
+      "loại máy chủ": "GitHub",
+      "tên kho có chủ": "dmpriso/hunter",
+      "Mã kho lưu trữ": 23754342,
+      "tên thẻ": "v0.18.24",
+      "SHA của tag Git": "65fce9666dcb02ac8fbc43bed10680dd86ab758b",
+      "Ngày giờ xuất bản": "2017-03-21 10:26:17+00:00",
+      "mốc thời gian tạo thẻ": "2017-05-11 12:17:36+00:00",
+      "Thời gian cập nhật thẻ": "2017-05-11 12:17:36+00:00"
+    },
+    {
+      "Mã số\nTên\nHọ\nEmail\nGiới tính\nTuổi\nNgày đăng ký\nNgày đăng nhập cuối\nLoại đăng ký\nTiền mua lần cuối": 52086694,
+      "loại máy chủ": "GitHub",
+      "tên kho có chủ": "dmpriso/hunter",
+      "Mã kho lưu trữ": 23754342,
+      "tên thẻ": "v0.18.9",
+      "SHA của tag Git": "87e8fb2e57f4a71b685270d053e94d8706da9bdb",
+      "Ngày giờ xuất bản": "2017-03-04 03:46:31+00:00",
+      "mốc thời gian tạo thẻ": "2017-05-11 12:17:32+00:00",
+      "Thời gian cập nhật thẻ": "2017-05-11 12:17:32+00:00"
+    }
+  ]
+}
