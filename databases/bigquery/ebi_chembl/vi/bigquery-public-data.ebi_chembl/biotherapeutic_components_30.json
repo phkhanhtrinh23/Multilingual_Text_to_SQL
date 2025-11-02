@@ -1,0 +1,56 @@
+{
+  "table_name": "biotherapeutic_components_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.biotherapeutic_components_30",
+  "column_names": [
+    "mã biocomp",
+    "Số đăng ký phân tử",
+    "id_thành_phần"
+  ],
+  "column_types": [
+    "INT64",
+    "INT64",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "mã_biocomp",
+    "Số đăng ký phân tử",
+    "mã thành phần"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "INT64",
+    "INT64"
+  ],
+  "description": [
+    "Khóa chính.",
+    "Khóa ngoại tới bảng biotherapeutics, chỉ ra biotherapeutic nào mà thành phần này thuộc về.",
+    "Khóa ngoại tới bảng bio_component_sequences, chỉ ra thành phần nào là một phần của thuốc sinh học."
+  ],
+  "sample_rows": [
+    {
+      "mã_biocomp": 3,
+      "Số đăng ký phân tử": 1121951,
+      "mã thành phần": 6288
+    },
+    {
+      "mã_biocomp": 4,
+      "Số đăng ký phân tử": 1121907,
+      "mã thành phần": 6289
+    },
+    {
+      "mã_biocomp": 5,
+      "Số đăng ký phân tử": 1121907,
+      "mã thành phần": 6290
+    },
+    {
+      "mã_biocomp": 6,
+      "Số đăng ký phân tử": 1121879,
+      "mã thành phần": 6291
+    },
+    {
+      "mã_biocomp": 7,
+      "Số đăng ký phân tử": 1121879,
+      "mã thành phần": 6292
+    }
+  ]
+}

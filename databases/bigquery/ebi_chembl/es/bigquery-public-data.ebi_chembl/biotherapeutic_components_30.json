@@ -1,0 +1,56 @@
+{
+  "table_name": "biotherapeutic_components_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.biotherapeutic_components_30",
+  "column_names": [
+    "ID biocomp",
+    "número de registro molecular",
+    "id_componente"
+  ],
+  "column_types": [
+    "INT64",
+    "INT64",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "ID biocomp",
+    "número de registro molecular",
+    "ID del componente"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "INT64",
+    "INT64"
+  ],
+  "description": [
+    "Clave primaria.",
+    "Clave foránea a la tabla de bioterapéuticos, indicando a qué bioterapéutico pertenece el componente.",
+    "Clave foránea a la tabla bio_component_sequences, indicando qué componente forma parte del bioterapéutico."
+  ],
+  "sample_rows": [
+    {
+      "ID biocomp": 3,
+      "número de registro molecular": 1121951,
+      "ID del componente": 6288
+    },
+    {
+      "ID biocomp": 4,
+      "número de registro molecular": 1121907,
+      "ID del componente": 6289
+    },
+    {
+      "ID biocomp": 5,
+      "número de registro molecular": 1121907,
+      "ID del componente": 6290
+    },
+    {
+      "ID biocomp": 6,
+      "número de registro molecular": 1121879,
+      "ID del componente": 6291
+    },
+    {
+      "ID biocomp": 7,
+      "número de registro molecular": 1121879,
+      "ID del componente": 6292
+    }
+  ]
+}
