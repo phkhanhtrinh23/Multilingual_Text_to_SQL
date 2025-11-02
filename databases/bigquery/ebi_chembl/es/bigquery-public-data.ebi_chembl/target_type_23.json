@@ -1,0 +1,56 @@
+{
+  "table_name": "target_type_23",
+  "table_fullname": "bigquery-public-data.ebi_chembl.target_type_23",
+  "column_names": [
+    "tipo de objetivo",
+    "objetivo_desc",
+    "Tipo de padre"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "Tipo de objetivo",
+    "descripcion_objetivo",
+    "tipo_padre"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    null,
+    null,
+    null
+  ],
+  "sample_rows": [
+    {
+      "Tipo de objetivo": "UNDEFINED",
+      "descripcion_objetivo": "No target has been defined",
+      "tipo_padre": null
+    },
+    {
+      "Tipo de objetivo": "MOLECULAR",
+      "descripcion_objetivo": "Target has been identified as a defined molecular entity (e.g., protein or nucleic acid)",
+      "tipo_padre": null
+    },
+    {
+      "Tipo de objetivo": "NON-MOLECULAR",
+      "descripcion_objetivo": "Target has not been defined at a molecular level, only the non-molecular entity which is affected (e.g., organism, cell line etc)",
+      "tipo_padre": null
+    },
+    {
+      "Tipo de objetivo": "PROTEIN-PROTEIN INTERACTION",
+      "descripcion_objetivo": "Target is the disruption of a protein-protein interaction",
+      "tipo_padre": "PROTEIN"
+    },
+    {
+      "Tipo de objetivo": "PROTEIN COMPLEX GROUP",
+      "descripcion_objetivo": "Target is a poorly defined protein complex, where subunit composition is unclear (e.g., GABA-A receptor)",
+      "tipo_padre": "PROTEIN"
+    }
+  ]
+}
