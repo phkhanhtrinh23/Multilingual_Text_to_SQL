@@ -1,0 +1,106 @@
+{
+  "table_name": "hrac_classification_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.hrac_classification_30",
+  "column_names": [
+    "id_lớp_hrac",
+    "thành phần hoạt chất",
+    "cấp độ 1",
+    "Mô tả cấp 1",
+    "cấp độ 2",
+    "Mô tả cấp độ 2",
+    "Cấp độ 3",
+    "mã người chơi"
+  ],
+  "column_types": [
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "Mã lớp người chơi",
+    "chất hoạt chất",
+    "Cấp độ 1",
+    "Mô tả cấp độ 1",
+    "Cấp độ 2",
+    "Mô tả cấp độ 2",
+    "cấp độ 3",
+    "mã_người_chơi"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "Khóa chính số duy nhất cho mỗi mã level3",
+    "Tên thành phần hoạt chất (thuốc diệt cỏ) được phân loại bởi HRAC",
+    "Mã nhóm HRAC - chỉ ra cơ chế hoạt động của thuốc trừ cỏ",
+    "Mô tả cơ chế hoạt động được cung cấp bởi HRAC",
+    "Chỉ ra một nhóm hoá học trong một nhóm HRAC cụ thể (số chưa được HRAC gán)",
+    "Mô tả của gia đình hóa học được cung cấp bởi HRAC",
+    "Mã duy nhất được gán cho từng thành phần (dựa trên phân loại HRAC cấp 1 và 2, nhưng không được HRAC gán)",
+    "Mã phân loại HRAC chính thức cho thành phần"
+  ],
+  "sample_rows": [
+    {
+      "Mã lớp người chơi": 2,
+      "chất hoạt chất": "CYHALOFOP-BUTYL",
+      "Cấp độ 1": "A",
+      "Mô tả cấp độ 1": "INHIBITION OF ACETYL COA CARBOXYLASE (ACCASE)",
+      "Cấp độ 2": "A1",
+      "Mô tả cấp độ 2": "ARYLOXYPHENOXY-PROPIONATE 'FOPS'",
+      "cấp độ 3": "A12",
+      "mã_người_chơi": "A"
+    },
+    {
+      "Mã lớp người chơi": 3,
+      "chất hoạt chất": "DICLOFOP-METHYL",
+      "Cấp độ 1": "A",
+      "Mô tả cấp độ 1": "INHIBITION OF ACETYL COA CARBOXYLASE (ACCASE)",
+      "Cấp độ 2": "A1",
+      "Mô tả cấp độ 2": "ARYLOXYPHENOXY-PROPIONATE 'FOPS'",
+      "cấp độ 3": "A13",
+      "mã_người_chơi": "A"
+    },
+    {
+      "Mã lớp người chơi": 4,
+      "chất hoạt chất": "FENOXAPROP-P-ETHYL",
+      "Cấp độ 1": "A",
+      "Mô tả cấp độ 1": "INHIBITION OF ACETYL COA CARBOXYLASE (ACCASE)",
+      "Cấp độ 2": "A1",
+      "Mô tả cấp độ 2": "ARYLOXYPHENOXY-PROPIONATE 'FOPS'",
+      "cấp độ 3": "A14",
+      "mã_người_chơi": "A"
+    },
+    {
+      "Mã lớp người chơi": 5,
+      "chất hoạt chất": "FLUAZIFOP-P-BUTYL",
+      "Cấp độ 1": "A",
+      "Mô tả cấp độ 1": "INHIBITION OF ACETYL COA CARBOXYLASE (ACCASE)",
+      "Cấp độ 2": "A1",
+      "Mô tả cấp độ 2": "ARYLOXYPHENOXY-PROPIONATE 'FOPS'",
+      "cấp độ 3": "A15",
+      "mã_người_chơi": "A"
+    },
+    {
+      "Mã lớp người chơi": 6,
+      "chất hoạt chất": "HALOXYFOP-R-METHYL",
+      "Cấp độ 1": "A",
+      "Mô tả cấp độ 1": "INHIBITION OF ACETYL COA CARBOXYLASE (ACCASE)",
+      "Cấp độ 2": "A1",
+      "Mô tả cấp độ 2": "ARYLOXYPHENOXY-PROPIONATE 'FOPS'",
+      "cấp độ 3": "A16",
+      "mã_người_chơi": "A"
+    }
+  ]
+}
