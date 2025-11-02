@@ -1,0 +1,56 @@
+{
+  "table_name": "molecule_hierarchy_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.molecule_hierarchy_30",
+  "column_names": [
+    "số đăng ký phân tử",
+    "số đăng ký phân tử cha",
+    "Số đăng ký phân tử hoạt động"
+  ],
+  "column_types": [
+    "INT64",
+    "INT64",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "số đăng ký phân tử",
+    "Mã đăng ký phân tử của cha",
+    "Số đăng ký phân tử hoạt động"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "INT64",
+    "INT64"
+  ],
+  "description": [
+    "Khóa ngoại tới bảng hợp chất. Trường này chứa danh sách tất cả các hợp chất ChEMBL có dữ liệu liên quan (ví dụ: thông tin hoạt tính, thuốc đã được chấp thuận). Các hợp chất cha được tạo ra chỉ bằng cách loại bỏ muối, và không có dữ liệu liên quan riêng, sẽ không xuất hiện ở đây.",
+    "Đại diện hợp chất cha của molregno trong trường đầu tiên (tức là được tạo ra bằng cách loại bỏ muối). Khi molregno và parent_molregno trùng nhau, hợp chất ChEMBL ban đầu không chứa thành phần muối, hoặc không thể được xử lý tiếp vì nhiều lý do (ví dụ, hỗn hợp vô cơ). Các hợp chất chỉ được tạo ra bằng cách loại bỏ muối sẽ chỉ xuất hiện trong trường này. Những hợp chất có bất kỳ dữ liệu liên quan nào (ví dụ, dữ liệu hoạt động) hoặc là thuốc đã được đưa ra thị trường cũng sẽ xuất hiện trong trường molregno.",
+    "Khi một hợp chất là pro-đơn thuốc, điều này đại diện cho chất chuyển hoá hoạt động của hợp chất “được liều” được xác định bởi parent_molregno. Nếu parent_molregno và active_molregno giống nhau, hợp chất hiện chưa được biết là pro-đơn thuốc."
+  ],
+  "sample_rows": [
+    {
+      "số đăng ký phân tử": 2,
+      "Mã đăng ký phân tử của cha": 2,
+      "Số đăng ký phân tử hoạt động": 2
+    },
+    {
+      "số đăng ký phân tử": 3,
+      "Mã đăng ký phân tử của cha": 3,
+      "Số đăng ký phân tử hoạt động": 3
+    },
+    {
+      "số đăng ký phân tử": 4,
+      "Mã đăng ký phân tử của cha": 4,
+      "Số đăng ký phân tử hoạt động": 4
+    },
+    {
+      "số đăng ký phân tử": 5,
+      "Mã đăng ký phân tử của cha": 5,
+      "Số đăng ký phân tử hoạt động": 5
+    },
+    {
+      "số đăng ký phân tử": 6,
+      "Mã đăng ký phân tử của cha": 6,
+      "Số đăng ký phân tử hoạt động": 6
+    }
+  ]
+}
