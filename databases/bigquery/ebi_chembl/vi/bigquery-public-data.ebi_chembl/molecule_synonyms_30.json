@@ -1,0 +1,76 @@
+{
+  "table_name": "molecule_synonyms_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.molecule_synonyms_30",
+  "column_names": [
+    "Số đăng ký phân tử",
+    "loại đồng nghĩa",
+    "Mã Molsyn",
+    "định danh cội nguồn",
+    "đồng nghĩa"
+  ],
+  "column_types": [
+    "INT64",
+    "STRING",
+    "INT64",
+    "INT64",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "số đăng ký phân tử",
+    "Loại đồng nghĩa",
+    "định danh molsyn",
+    "Mã gốc tài nguyên",
+    "từ đồng nghĩa"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "STRING",
+    "INT64",
+    "INT64",
+    "STRING"
+  ],
+  "description": [
+    "Khóa ngoại tới molecule_dictionary",
+    "Loại tên/đồng nghĩa (ví dụ, TRADE_NAME, RESEARCH_CODE, USAN)",
+    "Khóa chính.",
+    "Khóa ngoại tới bảng research_stem. Khi một từ đồng nghĩa là mã nghiên cứu, nó liên kết tới thông tin chi tiết hơn về công ty liên quan đến mã đó.",
+    "Từ đồng nghĩa cho hợp chất"
+  ],
+  "sample_rows": [
+    {
+      "số đăng ký phân tử": 97,
+      "Loại đồng nghĩa": "ATC",
+      "định danh molsyn": 2160798,
+      "Mã gốc tài nguyên": null,
+      "từ đồng nghĩa": "Prazosin"
+    },
+    {
+      "số đăng ký phân tử": 115,
+      "Loại đồng nghĩa": "ATC",
+      "định danh molsyn": 2160810,
+      "Mã gốc tài nguyên": null,
+      "từ đồng nghĩa": "Nicotine"
+    },
+    {
+      "số đăng ký phân tử": 146,
+      "Loại đồng nghĩa": "ATC",
+      "định danh molsyn": 2160846,
+      "Mã gốc tài nguyên": null,
+      "từ đồng nghĩa": "Ofloxacin"
+    },
+    {
+      "số đăng ký phân tử": 147,
+      "Loại đồng nghĩa": "ATC",
+      "định danh molsyn": 2160865,
+      "Mã gốc tài nguyên": null,
+      "từ đồng nghĩa": "Nalidixic acid"
+    },
+    {
+      "số đăng ký phân tử": 173,
+      "Loại đồng nghĩa": "ATC",
+      "định danh molsyn": 2160921,
+      "Mã gốc tài nguyên": null,
+      "từ đồng nghĩa": "Indometacin"
+    }
+  ]
+}

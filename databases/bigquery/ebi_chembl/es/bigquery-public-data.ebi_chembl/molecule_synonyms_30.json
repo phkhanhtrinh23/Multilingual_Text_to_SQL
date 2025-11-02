@@ -1,0 +1,76 @@
+{
+  "table_name": "molecule_synonyms_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.molecule_synonyms_30",
+  "column_names": [
+    "número de registro molecular",
+    "tipo de sinónimo",
+    "id_molsyn",
+    "id_raíz_resultado",
+    "sinónimos"
+  ],
+  "column_types": [
+    "INT64",
+    "STRING",
+    "INT64",
+    "INT64",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "número de registro de molécula",
+    "tipo de sinónimo",
+    "identificador_molsyn",
+    "id_raíz_res",
+    "sinónimos"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "STRING",
+    "INT64",
+    "INT64",
+    "STRING"
+  ],
+  "description": [
+    "Clave foránea a molecule_dictionary",
+    "Tipo de nombre/sinónimo (p. ej., TRADE_NAME, RESEARCH_CODE, USAN)",
+    "Clave primaria.",
+    "Clave foránea a la tabla research_stem. Cuando un sinónimo es un código de investigación, esto enlaza con más información sobre la empresa asociada a ese código.",
+    "Sinónimo del compuesto"
+  ],
+  "sample_rows": [
+    {
+      "número de registro de molécula": 97,
+      "tipo de sinónimo": "ATC",
+      "identificador_molsyn": 2160798,
+      "id_raíz_res": null,
+      "sinónimos": "Prazosin"
+    },
+    {
+      "número de registro de molécula": 115,
+      "tipo de sinónimo": "ATC",
+      "identificador_molsyn": 2160810,
+      "id_raíz_res": null,
+      "sinónimos": "Nicotine"
+    },
+    {
+      "número de registro de molécula": 146,
+      "tipo de sinónimo": "ATC",
+      "identificador_molsyn": 2160846,
+      "id_raíz_res": null,
+      "sinónimos": "Ofloxacin"
+    },
+    {
+      "número de registro de molécula": 147,
+      "tipo de sinónimo": "ATC",
+      "identificador_molsyn": 2160865,
+      "id_raíz_res": null,
+      "sinónimos": "Nalidixic acid"
+    },
+    {
+      "número de registro de molécula": 173,
+      "tipo de sinónimo": "ATC",
+      "identificador_molsyn": 2160921,
+      "id_raíz_res": null,
+      "sinónimos": "Indometacin"
+    }
+  ]
+}
