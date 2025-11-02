@@ -1,0 +1,76 @@
+{
+  "table_name": "site_components_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.site_components_30",
+  "column_names": [
+    "ID thành phần trang",
+    "Mã địa điểm",
+    "định danh thành phần",
+    "định danh miền",
+    "chất thừa tại site"
+  ],
+  "column_types": [
+    "INT64",
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "Mã thành phần trang",
+    "id_địa_tiểm",
+    "định danh thành phần",
+    "ID miền",
+    "Chất dư tại địa điểm"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING"
+  ],
+  "description": [
+    "Khóa chính.",
+    "Khóa ngoại tới bảng binding_sites.",
+    "Khóa ngoại tới bảng component_sequences, chỉ ra thành phần phân tử nào của mục tiêu đang tham gia vào địa điểm liên kết.",
+    "Khóa ngoại tới bảng domains, chỉ ra domain nào của thành phần phân tử tham gia trong vị trí liên kết (nếu không biết, domain_id có thể là null).",
+    "Danh sách các residue từ thành phần phân tử đã cho tạo thành vùng liên kết (nếu không biết, sẽ là null)."
+  ],
+  "sample_rows": [
+    {
+      "Mã thành phần trang": 2691,
+      "id_địa_tiểm": 2616,
+      "định danh thành phần": 3269,
+      "ID miền": null,
+      "Chất dư tại địa điểm": null
+    },
+    {
+      "Mã thành phần trang": 2695,
+      "id_địa_tiểm": 2616,
+      "định danh thành phần": 4850,
+      "ID miền": null,
+      "Chất dư tại địa điểm": null
+    },
+    {
+      "Mã thành phần trang": 2700,
+      "id_địa_tiểm": 2617,
+      "định danh thành phần": 3269,
+      "ID miền": null,
+      "Chất dư tại địa điểm": null
+    },
+    {
+      "Mã thành phần trang": 2703,
+      "id_địa_tiểm": 2617,
+      "định danh thành phần": 2363,
+      "ID miền": null,
+      "Chất dư tại địa điểm": null
+    },
+    {
+      "Mã thành phần trang": 2705,
+      "id_địa_tiểm": 2617,
+      "định danh thành phần": 1075,
+      "ID miền": null,
+      "Chất dư tại địa điểm": null
+    }
+  ]
+}
