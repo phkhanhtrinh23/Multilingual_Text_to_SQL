@@ -1,0 +1,106 @@
+{
+  "table_name": "compound_records_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.compound_records_30",
+  "column_names": [
+    "mã bản ghi",
+    "Số đăng ký phân tử",
+    "định danh tài liệu",
+    "khóa hợp nhất",
+    "tên hợp chất",
+    "ID nguồn",
+    "mã hợp chất nguồn",
+    "Chỉ số C"
+  ],
+  "column_types": [
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING",
+    "INT64",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "ID bản ghi",
+    "số đăng ký phân tử",
+    "Mã tài liệu",
+    "khóa_kết_hợp",
+    "tên hợp chất",
+    "ID nguồn",
+    "Mã hợp chất nguồn",
+    "Chỉ số khách hàng"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING",
+    "INT64",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "ID duy nhất cho hợp chất/bản ghi",
+    "Khóa ngoại tới bảng compounds (cấu trúc hợp chất)",
+    "Khóa ngoại tới bảng documents",
+    "Đoạn văn chính xác định thành phần này trong tài liệu khoa học",
+    "Tên của hợp chất này được ghi lại trong tài liệu khoa học",
+    "Khóa ngoại tới bảng nguồn",
+    "Định danh cho hợp chất trong cơ sở dữ liệu nguồn (ví dụ: pubchem SID)",
+    "Định danh hợp nhất do nhà gửi tiền xác định."
+  ],
+  "sample_rows": [
+    {
+      "ID bản ghi": 2530031,
+      "số đăng ký phân tử": 155006,
+      "Mã tài liệu": 94208,
+      "khóa_kết_hợp": "BDBM50130293",
+      "tên hợp chất": "7-{4-[4-(2,3-dichlorophenyl)piperazin-1-yl]butoxy}-3,4-dihydroquinolin-2(1H)-one::ARIPIPRAZOLE::CHEMBL1112::US9018213, aripprazole::US9156822, Aripiprazole",
+      "ID nguồn": 37,
+      "Mã hợp chất nguồn": "BDBM50130293",
+      "Chỉ số khách hàng": "BDBM50130293"
+    },
+    {
+      "ID bản ghi": 2571453,
+      "số đăng ký phân tử": 2027989,
+      "Mã tài liệu": 94464,
+      "khóa_kết_hợp": "BDBM128330",
+      "tên hợp chất": "US8796280, 20",
+      "ID nguồn": 37,
+      "Mã hợp chất nguồn": "BDBM128330",
+      "Chỉ số khách hàng": "BDBM128330"
+    },
+    {
+      "ID bản ghi": 2571438,
+      "số đăng ký phân tử": 2027974,
+      "Mã tài liệu": 94464,
+      "khóa_kết_hợp": "BDBM128315",
+      "tên hợp chất": "US8796280, 4",
+      "ID nguồn": 37,
+      "Mã hợp chất nguồn": "BDBM128315",
+      "Chỉ số khách hàng": "BDBM128315"
+    },
+    {
+      "ID bản ghi": 2571475,
+      "số đăng ký phân tử": 2028011,
+      "Mã tài liệu": 94464,
+      "khóa_kết_hợp": "BDBM128352",
+      "tên hợp chất": "US8796280, 42",
+      "ID nguồn": 37,
+      "Mã hợp chất nguồn": "BDBM128352",
+      "Chỉ số khách hàng": "BDBM128352"
+    },
+    {
+      "ID bản ghi": 2571452,
+      "số đăng ký phân tử": 2027988,
+      "Mã tài liệu": 94464,
+      "khóa_kết_hợp": "BDBM128329",
+      "tên hợp chất": "US8796280, 19",
+      "ID nguồn": 37,
+      "Mã hợp chất nguồn": "BDBM128329",
+      "Chỉ số khách hàng": "BDBM128329"
+    }
+  ]
+}
