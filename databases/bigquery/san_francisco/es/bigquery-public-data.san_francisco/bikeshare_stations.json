@@ -1,0 +1,96 @@
+{
+  "table_name": "bikeshare_stations",
+  "table_fullname": "bigquery-public-data.san_francisco.bikeshare_stations",
+  "column_names": [
+    "id de estación",
+    "nombre",
+    "latitud",
+    "longitud",
+    "conteo de muelles",
+    "hito",
+    "fecha de instalación"
+  ],
+  "column_types": [
+    "INT64",
+    "STRING",
+    "FLOAT64",
+    "FLOAT64",
+    "INT64",
+    "STRING",
+    "DATE"
+  ],
+  "nested_column_names": [
+    "id_estación",
+    "nombre",
+    "Latitud",
+    "longitud",
+    "número de muelles",
+    "hito",
+    "Fecha de instalación"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "STRING",
+    "FLOAT64",
+    "FLOAT64",
+    "INT64",
+    "STRING",
+    "DATE"
+  ],
+  "description": [
+    "Número de identificación de la estación",
+    "Nombre de la estación",
+    "latitud",
+    "Longitud",
+    "Número total de docks en la estación",
+    "Ciudad (San Francisco, Redwood City, Palo Alto, Mountain View, San José)",
+    "Fecha original de instalación de la estación. Si la estación fue trasladada, se indica a continuación."
+  ],
+  "sample_rows": [
+    {
+      "id_estación": 4,
+      "nombre": "Santa Clara at Almaden",
+      "Latitud": 37.333988,
+      "longitud": -121.894902,
+      "número de muelles": 11,
+      "hito": "San Jose",
+      "Fecha de instalación": "2013-08-06"
+    },
+    {
+      "id_estación": 84,
+      "nombre": "Ryland Park",
+      "Latitud": 37.342725,
+      "longitud": -121.895617,
+      "número de muelles": 15,
+      "hito": "San Jose",
+      "Fecha de instalación": "2014-04-09"
+    },
+    {
+      "id_estación": 8,
+      "nombre": "San Salvador at 1st",
+      "Latitud": 37.330165,
+      "longitud": -121.885831,
+      "número de muelles": 15,
+      "hito": "San Jose",
+      "Fecha de instalación": "2013-08-05"
+    },
+    {
+      "id_estación": 9,
+      "nombre": "Japantown",
+      "Latitud": 37.348742,
+      "longitud": -121.894715,
+      "número de muelles": 15,
+      "hito": "San Jose",
+      "Fecha de instalación": "2013-08-05"
+    },
+    {
+      "id_estación": 3,
+      "nombre": "San Jose Civic Center",
+      "Latitud": 37.330698,
+      "longitud": -121.888979,
+      "número de muelles": 15,
+      "hito": "San Jose",
+      "Fecha de instalación": "2013-08-05"
+    }
+  ]
+}
