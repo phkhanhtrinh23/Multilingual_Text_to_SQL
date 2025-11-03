@@ -1,0 +1,96 @@
+{
+  "table_name": "fares",
+  "table_fullname": "bigquery-public-data.san_francisco_transit_muni.fares",
+  "column_names": [
+    "ID de tarifa",
+    "id_pasajero",
+    "Descripción del jinete",
+    "precio",
+    "forma de pago",
+    "transferencias permitidas",
+    "duración de transferencia"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "NUMERIC",
+    "STRING",
+    "STRING",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "id_tarifa",
+    "id_ciclista",
+    "Descripción del pasajero",
+    "precio",
+    "método de pago",
+    "transferencias permitidas",
+    "Duración de la transferencia"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "NUMERIC",
+    "STRING",
+    "STRING",
+    "INT64"
+  ],
+  "description": [
+    "Identificador único de una clase de tarifa.",
+    "Identificador único de una categoría de pasajero. Las categorías de pasajero se utilizan para asignar diferentes precios a distintos grupos de individuos.",
+    "Descripción textual de la categoría de ciclista",
+    "Contiene el precio de la tarifa, en USD",
+    "Indica cuándo se debe pagar la tarifa. Los valores válidos para este campo son: - durante: Indica que la tarifa se paga cuando los pasajeros suben - antes: Indica que la tarifa debe pagarse antes de que los pasajeros suban",
+    "Especifica el número de transferencias permitidas en esta tarifa.  \n- 0: No se permiten transferencias en esta tarifa.  \n- 1: Se permite una transferencia en esta tarifa.  \n- 2: Se permiten dos transferencias en esta tarifa.  \n- NULL: Se permiten transferencias ilimitadas en esta tarifa.",
+    "Especifica la duración, en segundos, antes de que una transferencia expire. Cuando se utiliza con un valor transfers_permitted de 0, el campo transfer_duration indica cuánto tiempo es válido un boleto para una tarifa en la que no se permiten transferencias."
+  ],
+  "sample_rows": [
+    {
+      "id_tarifa": "5398",
+      "id_ciclista": "6",
+      "Descripción del pasajero": "Disabled",
+      "precio": "3.000000000",
+      "método de pago": "0",
+      "transferencias permitidas": null,
+      "Duración de la transferencia": 5400
+    },
+    {
+      "id_tarifa": "5398",
+      "id_ciclista": "5",
+      "Descripción del pasajero": "Youth",
+      "precio": "3.000000000",
+      "método de pago": "0",
+      "transferencias permitidas": null,
+      "Duración de la transferencia": 5400
+    },
+    {
+      "id_tarifa": "5398",
+      "id_ciclista": "3",
+      "Descripción del pasajero": "Child",
+      "precio": "3.000000000",
+      "método de pago": "0",
+      "transferencias permitidas": null,
+      "Duración de la transferencia": 5400
+    },
+    {
+      "id_tarifa": "5398",
+      "id_ciclista": "2",
+      "Descripción del pasajero": "Senior",
+      "precio": "3.000000000",
+      "método de pago": "0",
+      "transferencias permitidas": null,
+      "Duración de la transferencia": 5400
+    },
+    {
+      "id_tarifa": "5399",
+      "id_ciclista": "6",
+      "Descripción del pasajero": "Disabled",
+      "precio": "7.000000000",
+      "método de pago": "0",
+      "transferencias permitidas": "0.0",
+      "Duración de la transferencia": 0
+    }
+  ]
+}

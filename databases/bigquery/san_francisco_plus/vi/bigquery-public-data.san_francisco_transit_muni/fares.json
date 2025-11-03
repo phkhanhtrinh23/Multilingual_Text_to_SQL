@@ -1,0 +1,96 @@
+{
+  "table_name": "fares",
+  "table_fullname": "bigquery-public-data.san_francisco_transit_muni.fares",
+  "column_names": [
+    "định danh giá",
+    "mã_người_cưỡi",
+    "Mô tả người cưỡi",
+    "giá",
+    "phương thức thanh toán",
+    "Chuyển khoản được phép",
+    "thời gian chuyển giao"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "NUMERIC",
+    "STRING",
+    "STRING",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "mã phí",
+    "ID người lái",
+    "Mô tả người cưỡi",
+    "giá",
+    "phương thức thanh toán",
+    "chuyển giao được phép",
+    "thời gian chuyển"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "NUMERIC",
+    "STRING",
+    "STRING",
+    "INT64"
+  ],
+  "description": [
+    "Định danh duy nhất của một lớp cước phí.",
+    "Định danh duy nhất cho một loại người cưỡi xe. Các loại người cưỡi xe được dùng để phân bổ mức giá khác nhau cho các nhóm cá nhân khác nhau.",
+    "Mô tả văn bản của danh mục cưỡi\n\n",
+    "Chứa giá cước, tính bằng USD",
+    "Chỉ ra khi nào phí phải được thanh toán. Các giá trị hợp lệ cho trường này là:\n-  during: Chỉ ra phí được thanh toán khi hành khách lên xe\n-  before: Phí phải được thanh toán trước khi hành khách lên xe",
+    "Xác định số lần chuyển tuyến được phép với mức giá này.  \n- 0: Không được phép chuyển tuyến trong mức giá này.  \n- 1: Được phép một lần chuyển tuyến trong mức giá này.  \n- 2: Được phép hai lần chuyển tuyến trong mức giá này.  \n- NULL: Được phép vô hạn số lần chuyển tuyến trong mức giá này.",
+    "Chỉ định độ dài thời gian, tính bằng giây, trước khi một chuyến chuyển đổi hết hạn. Khi được sử dụng với giá trị transfers_permitted bằng 0, trường transfer_duration cho biết thời gian một vé có hiệu lực cho mức giá mà không cho phép chuyển đổi."
+  ],
+  "sample_rows": [
+    {
+      "mã phí": "5398",
+      "ID người lái": "6",
+      "Mô tả người cưỡi": "Disabled",
+      "giá": "3.000000000",
+      "phương thức thanh toán": "0",
+      "chuyển giao được phép": null,
+      "thời gian chuyển": 5400
+    },
+    {
+      "mã phí": "5398",
+      "ID người lái": "5",
+      "Mô tả người cưỡi": "Youth",
+      "giá": "3.000000000",
+      "phương thức thanh toán": "0",
+      "chuyển giao được phép": null,
+      "thời gian chuyển": 5400
+    },
+    {
+      "mã phí": "5398",
+      "ID người lái": "3",
+      "Mô tả người cưỡi": "Child",
+      "giá": "3.000000000",
+      "phương thức thanh toán": "0",
+      "chuyển giao được phép": null,
+      "thời gian chuyển": 5400
+    },
+    {
+      "mã phí": "5398",
+      "ID người lái": "2",
+      "Mô tả người cưỡi": "Senior",
+      "giá": "3.000000000",
+      "phương thức thanh toán": "0",
+      "chuyển giao được phép": null,
+      "thời gian chuyển": 5400
+    },
+    {
+      "mã phí": "5399",
+      "ID người lái": "6",
+      "Mô tả người cưỡi": "Disabled",
+      "giá": "7.000000000",
+      "phương thức thanh toán": "0",
+      "chuyển giao được phép": "0.0",
+      "thời gian chuyển": 0
+    }
+  ]
+}
