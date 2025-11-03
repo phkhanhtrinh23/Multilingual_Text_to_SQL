@@ -1,0 +1,106 @@
+{
+  "table_name": "Filtered_jhu_usc_edu_PANCAN_HumanMethylation450_betaValue_whitelisted",
+  "table_fullname": "isb-cgc-bq.pancancer_atlas.Filtered_jhu_usc_edu_PANCAN_HumanMethylation450_betaValue_whitelisted",
+  "column_names": [
+    "Código de barras del participante",
+    "Código de barras de muestra",
+    "Código de barras del alícuota",
+    "Código de Letra del Tipo de Muestra",
+    "Tipo de Muestra",
+    "Estudio",
+    "ID",
+    "Beta"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64"
+  ],
+  "nested_column_names": [
+    "Participante Código de barras",
+    "Código de barras de muestra",
+    "Código de Barras del Aliquot",
+    "Código de Letra del Tipo de Muestra",
+    "Tipo de muestra",
+    "Estudio",
+    "Identificación",
+    "Beta"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64"
+  ],
+  "description": [
+    "Identificador de código de barras TCGA para el participante del estudio, por ejemplo TCGA-02-0001",
+    "Código de barras del espécimen biológico, por ejemplo TCGA-13-1489-02A",
+    "Código de barras de alícuota TCGA, p. ej. TCGA-12-1089-01A-01D-0517-28",
+    "Código de letra del tipo de muestra según los estándares TCGA, por ejemplo TPN, EBV. Lista completa disponible en https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/sample-type-codes",
+    "Hay 10 tipos de muestras: Normal derivado de sangre, Tumor sólido primario, Normal de tejido sólido, Tumor sólido recurrente, Metastásico, Adicional - Nuevo Primario, Cáncer primario derivado de sangre - sangre periférica, Normal de célula bucal, Metastásico adicional, Normal de médula ósea",
+    "Abreviatura del estudio TCGA, por ejemplo LAML. Lista completa disponible en https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/tcga-study-abbreviations",
+    "Identificador único de sonda (por ejemplo cg04676771) del array de metilación humana de Illumina -- por favor consulte la tabla de anotaciones (isb-cgc-bq.annotations.methylation_annotation_hg19_illumina_current) para obtener más detalles sobre cualquier sonda en particular.",
+    "Valor beta de metilación del ADN normalizado (entre 0 y 1, donde 0 indica completamente desmetilado y 1 indica completamente metilado)."
+  ],
+  "sample_rows": [
+    {
+      "Participante Código de barras": "TCGA-06-0221",
+      "Código de barras de muestra": "TCGA-06-0221-02A",
+      "Código de Barras del Aliquot": "TCGA-06-0221-02A-11D-2004-05",
+      "Código de Letra del Tipo de Muestra": "TR",
+      "Tipo de muestra": "Recurrent Solid Tumor",
+      "Estudio": "GBM",
+      "Identificación": "cg23731184",
+      "Beta": 0.214408
+    },
+    {
+      "Participante Código de barras": "TCGA-06-0152",
+      "Código de barras de muestra": "TCGA-06-0152-02A",
+      "Código de Barras del Aliquot": "TCGA-06-0152-02A-01D-2004-05",
+      "Código de Letra del Tipo de Muestra": "TR",
+      "Tipo de muestra": "Recurrent Solid Tumor",
+      "Estudio": "GBM",
+      "Identificación": "cg06362729",
+      "Beta": 0.920151
+    },
+    {
+      "Participante Código de barras": "TCGA-06-0152",
+      "Código de barras de muestra": "TCGA-06-0152-02A",
+      "Código de Barras del Aliquot": "TCGA-06-0152-02A-01D-2004-05",
+      "Código de Letra del Tipo de Muestra": "TR",
+      "Tipo de muestra": "Recurrent Solid Tumor",
+      "Estudio": "GBM",
+      "Identificación": "cg10753101",
+      "Beta": 0.95802
+    },
+    {
+      "Participante Código de barras": "TCGA-06-0210",
+      "Código de barras de muestra": "TCGA-06-0210-02A",
+      "Código de Barras del Aliquot": "TCGA-06-0210-02A-01D-2004-05",
+      "Código de Letra del Tipo de Muestra": "TR",
+      "Tipo de muestra": "Recurrent Solid Tumor",
+      "Estudio": "GBM",
+      "Identificación": "cg25832529",
+      "Beta": 0.357678
+    },
+    {
+      "Participante Código de barras": "TCGA-14-0736",
+      "Código de barras de muestra": "TCGA-14-0736-02A",
+      "Código de Barras del Aliquot": "TCGA-14-0736-02A-01D-2004-05",
+      "Código de Letra del Tipo de Muestra": "TR",
+      "Tipo de muestra": "Recurrent Solid Tumor",
+      "Estudio": "GBM",
+      "Identificación": "cg09167779",
+      "Beta": 0.894181
+    }
+  ]
+}
