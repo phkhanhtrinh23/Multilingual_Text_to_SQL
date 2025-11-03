@@ -1,0 +1,106 @@
+{
+  "table_name": "trips",
+  "table_fullname": "bigquery-public-data.san_francisco_transit_muni.trips",
+  "column_names": [
+    "Mã chuyến",
+    "mã tuyến",
+    "Hướng",
+    "mã khối",
+    "danh mục dịch vụ",
+    "điểm đầu chuyến",
+    "mã hình dạng",
+    "hình dạng chuyến đi"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "GEOGRAPHY"
+  ],
+  "nested_column_names": [
+    "id_chuyến_di",
+    "Mã tuyến",
+    "hướng",
+    "ID khối",
+    "danh mục dịch vụ",
+    "điểm hiệu",
+    "định danh hình dạng",
+    "hình dạng chuyến đi"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "GEOGRAPHY"
+  ],
+  "description": [
+    "Mã định danh duy nhất cho mỗi chuyến đi",
+    "Mã định danh duy nhất cho mỗi tuyến đường. Một tuyến đường duy nhất sẽ có nhiều chuyến đi.",
+    "Chỉ ra hướng di chuyển của một chuyến đi. Các giá trị hợp lệ:  \n- O: Chuyến đi ra  \n- I: Chuyến đi vào  \n\nTrường này không được sử dụng trong định tuyến, mà thay vào đó cung cấp cách phân tách chuyến đi theo hướng.",
+    "Xác định khối (block) mà chuyến đi thuộc về.  \nMột khối bao gồm một chuyến đi duy nhất hoặc nhiều chuyến đi liên tiếp được thực hiện bằng cùng một phương tiện.  \nCác chuyến đi được nhóm thành một khối bằng cách sử dụng cùng một ngày dịch vụ và block_id.  \nMột block_id có thể bao gồm các chuyến đi với các ngày dịch vụ khác nhau, điều này tạo ra các khối riêng biệt.  \nĐể biết thêm chi tiết, xem: https://developers.google.com/transit/gtfs/reference/#example-showing-blocks-and-service-day",
+    "Cho biết loại dịch vụ cho chuyến đi này.",
+    "Chứa văn bản xuất hiện trên biển hiệu xác định điểm đến của chuyến đi cho hành khách. Sử dụng trường này để phân biệt các mẫu dịch vụ khác nhau trên cùng một tuyến.",
+    "Mã định danh duy nhất cho hình dạng không gian địa lý mô tả hành trình của phương tiện trong một chuyến đi qua từng điểm. Sử dụng để JOIN với các hình dạng có sẵn trong bảng shapes.",
+    "Biểu diễn địa lý của toàn bộ tuyến đường chuyến đi."
+  ],
+  "sample_rows": [
+    {
+      "id_chuyến_di": "8999876",
+      "Mã tuyến": "83X",
+      "hướng": "O",
+      "ID khối": "8301",
+      "danh mục dịch vụ": null,
+      "điểm hiệu": "Caltrain Depot",
+      "định danh hình dạng": "174188",
+      "hình dạng chuyến đi": null
+    },
+    {
+      "id_chuyến_di": "8999873",
+      "Mã tuyến": "83X",
+      "hướng": "O",
+      "ID khối": "8302",
+      "danh mục dịch vụ": null,
+      "điểm hiệu": "Caltrain Depot",
+      "định danh hình dạng": "174188",
+      "hình dạng chuyến đi": null
+    },
+    {
+      "id_chuyến_di": "8999875",
+      "Mã tuyến": "83X",
+      "hướng": "O",
+      "ID khối": "8301",
+      "danh mục dịch vụ": null,
+      "điểm hiệu": "Caltrain Depot",
+      "định danh hình dạng": "174188",
+      "hình dạng chuyến đi": null
+    },
+    {
+      "id_chuyến_di": "8999872",
+      "Mã tuyến": "83X",
+      "hướng": "O",
+      "ID khối": "8302",
+      "danh mục dịch vụ": null,
+      "điểm hiệu": "Caltrain Depot",
+      "định danh hình dạng": "174188",
+      "hình dạng chuyến đi": null
+    },
+    {
+      "id_chuyến_di": "8999892",
+      "Mã tuyến": "83X",
+      "hướng": "O",
+      "ID khối": "8301",
+      "danh mục dịch vụ": null,
+      "điểm hiệu": "Caltrain Depot",
+      "định danh hình dạng": "174188",
+      "hình dạng chuyến đi": null
+    }
+  ]
+}
