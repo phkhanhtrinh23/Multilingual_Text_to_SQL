@@ -1,0 +1,132 @@
+{
+  "table_name": "diseaseToPhenotype",
+  "table_fullname": "open-targets-prod.platform.diseaseToPhenotype",
+  "column_names": [
+    "bệnh",
+    "Đặc tính hình thái",
+    "bằng chứng"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRUCT<list ARRAY<STRUCT<element STRUCT<aspect STRING, bioCuration STRING, diseaseFromSourceId STRING, diseaseFromSource STRING, diseaseName STRING, evidenceType STRING, frequency STRING, modifiers STRUCT<list ARRAY<STRUCT<element STRING>>>, onset STRUCT<list ARRAY<STRUCT<element STRING>>>, qualifier STRING, qualifierNot BOOL, references STRUCT<list ARRAY<STRUCT<element STRING>>>, sex STRING, resource STRING>>>>"
+  ],
+  "nested_column_names": [
+    "bệnh",
+    "đặc tính hình thái",
+    "bằng chứng",
+    "Danh sách bằng chứng",
+    "mục danh sách bằng chứng",
+    "bằng chứng.danh sách.phần tử.khía cạnh",
+    "bằng chứng danh sách phần tử biocuration",
+    "mã bệnh từ nguồn",
+    "bằng chứng.danh sách.phần tử.bệnh từ nguồn",
+    "Tên bệnh",
+    "Loại bằng chứng",
+    "tần suất phần tử danh sách bằng chứng",
+    "thuộc tính phần tử danh sách bằng chứng",
+    "Danh sách các sửa đổi của phần tử trong danh sách bằng chứng",
+    "bằng chứng danh sách phần tử bộ điều chỉnh danh sách phần tử",
+    "bắt đầu phần tử danh sách bằng chứng",
+    "Danh sách phần tử khởi phát bằng chứng",
+    "bằng chứng danh sách phần tử thời điểm bắt đầu danh sách phần tử",
+    "bằng chứng danh sách phần đặc tả",
+    "đi chứng danh sách phần tử không có tiêu chí",
+    "Tham khảo",
+    "Danh sách tham chiếu phần tử bằng chứng",
+    "bằng chứng.danh sách.mục.tham chiếu.danh sách.mục",
+    "Giới tính",
+    "tài nguyên phần tử danh sách bằng chứng"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRUCT<list ARRAY<STRUCT<element STRUCT<aspect STRING, bioCuration STRING, diseaseFromSourceId STRING, diseaseFromSource STRING, diseaseName STRING, evidenceType STRING, frequency STRING, modifiers STRUCT<list ARRAY<STRUCT<element STRING>>>, onset STRUCT<list ARRAY<STRUCT<element STRING>>>, qualifier STRING, qualifierNot BOOL, references STRUCT<list ARRAY<STRUCT<element STRING>>>, sex STRING, resource STRING>>>>",
+    "ARRAY<STRUCT<element STRUCT<aspect STRING, bioCuration STRING, diseaseFromSourceId STRING, diseaseFromSource STRING, diseaseName STRING, evidenceType STRING, frequency STRING, modifiers STRUCT<list ARRAY<STRUCT<element STRING>>>, onset STRUCT<list ARRAY<STRUCT<element STRING>>>, qualifier STRING, qualifierNot BOOL, references STRUCT<list ARRAY<STRUCT<element STRING>>>, sex STRING, resource STRING>>>",
+    "STRUCT<aspect STRING, bioCuration STRING, diseaseFromSourceId STRING, diseaseFromSource STRING, diseaseName STRING, evidenceType STRING, frequency STRING, modifiers STRUCT<list ARRAY<STRUCT<element STRING>>>, onset STRUCT<list ARRAY<STRUCT<element STRING>>>, qualifier STRING, qualifierNot BOOL, references STRUCT<list ARRAY<STRUCT<element STRING>>>, sex STRING, resource STRING>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+    "ARRAY<STRUCT<element STRING>>",
+    "STRING",
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+    "ARRAY<STRUCT<element STRING>>",
+    "STRING",
+    "STRING",
+    "BOOL",
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+    "ARRAY<STRUCT<element STRING>>",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "sample_rows": [
+    {
+      "bệnh": "Orphanet_552",
+      "đặc tính hình thái": "HP_0001520",
+      "bằng chứng": {
+        "list": "[{'element': {'aspect': 'P', 'bioCuration': 'ORPHA:orphadata[2024-04-24]', 'diseaseFromSourceId': 'ORPHA:552', 'diseaseFromSource': 'MODY', 'diseaseName': 'MODY', 'evidenceType': 'TAS', 'frequency': 'HP_0040283', 'modifiers': None, 'onset': None, 'qualifier': None, 'qualifierNot': False, 'references': {'list': array([{'element': 'ORPHA:552'}], dtype=object)}, 'sex': None, 'resource': 'HPO'}}]"
+      }
+    },
+    {
+      "bệnh": "Orphanet_552",
+      "đặc tính hình thái": "HP_0004924",
+      "bằng chứng": {
+        "list": "[{'element': {'aspect': 'P', 'bioCuration': 'ORPHA:orphadata[2024-04-24]', 'diseaseFromSourceId': 'ORPHA:552', 'diseaseFromSource': 'MODY', 'diseaseName': 'MODY', 'evidenceType': 'TAS', 'frequency': 'HP_0040282', 'modifiers': None, 'onset': None, 'qualifier': None, 'qualifierNot': False, 'references': {'list': array([{'element': 'ORPHA:552'}], dtype=object)}, 'sex': None, 'resource': 'HPO'}}]"
+      }
+    },
+    {
+      "bệnh": "Orphanet_552",
+      "đặc tính hình thái": "HP_0000831",
+      "bằng chứng": {
+        "list": "[{'element': {'aspect': 'P', 'bioCuration': 'ORPHA:orphadata[2024-04-24]', 'diseaseFromSourceId': 'ORPHA:552', 'diseaseFromSource': 'MODY', 'diseaseName': 'MODY', 'evidenceType': 'TAS', 'frequency': 'HP_0040283', 'modifiers': None, 'onset': None, 'qualifier': None, 'qualifierNot': False, 'references': {'list': array([{'element': 'ORPHA:552'}], dtype=object)}, 'sex': None, 'resource': 'HPO'}}]"
+      }
+    },
+    {
+      "bệnh": "Orphanet_552",
+      "đặc tính hình thái": "HP_0000119",
+      "bằng chứng": {
+        "list": "[{'element': {'aspect': 'P', 'bioCuration': 'ORPHA:orphadata[2024-04-24]', 'diseaseFromSourceId': 'ORPHA:552', 'diseaseFromSource': 'MODY', 'diseaseName': 'MODY', 'evidenceType': 'TAS', 'frequency': 'HP_0040284', 'modifiers': None, 'onset': None, 'qualifier': None, 'qualifierNot': False, 'references': {'list': array([{'element': 'ORPHA:552'}], dtype=object)}, 'sex': None, 'resource': 'HPO'}}]"
+      }
+    },
+    {
+      "bệnh": "Orphanet_552",
+      "đặc tính hình thái": "HP_0003076",
+      "bằng chứng": {
+        "list": "[{'element': {'aspect': 'P', 'bioCuration': 'ORPHA:orphadata[2024-04-24]', 'diseaseFromSourceId': 'ORPHA:552', 'diseaseFromSource': 'MODY', 'diseaseName': 'MODY', 'evidenceType': 'TAS', 'frequency': 'HP_0040282', 'modifiers': None, 'onset': None, 'qualifier': None, 'qualifierNot': False, 'references': {'list': array([{'element': 'ORPHA:552'}], dtype=object)}, 'sex': None, 'resource': 'HPO'}}]"
+      }
+    }
+  ]
+}
