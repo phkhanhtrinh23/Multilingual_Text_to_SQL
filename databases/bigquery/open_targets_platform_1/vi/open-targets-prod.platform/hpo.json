@@ -1,0 +1,142 @@
+{
+  "table_name": "hpo",
+  "table_fullname": "open-targets-prod.platform.hpo",
+  "column_names": [
+    "Tham chiếu CSDL",
+    "Mô tả",
+    "định danh",
+    "tên",
+    "tên không gian",
+    "Thuật ngữ lỗi thời",
+    "cha mẹ"
+  ],
+  "column_types": [
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>"
+  ],
+  "nested_column_names": [
+    "Liên kết cơ sở dữ liệu",
+    "Danh sách dbXRefs",
+    "Liên kết dữ liệu danh sách phần tử",
+    "mô tả",
+    "Mã",
+    "Tên",
+    "Không gian tên",
+    "Danh sách không gian tên",
+    "tên không gian\ndanh sách\nphần tử",
+    "thuật ngữ lỗi thời",
+    "Danh sách thuật ngữ lỗi thời",
+    "mục danh sách thuật ngữ lỗi thời",
+    "cha mẹ",
+    "Danh sách phụ huynh",
+    "phần tử danh sách phụ huynh"
+  ],
+  "nested_column_types": [
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+    "ARRAY<STRUCT<element STRING>>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+    "ARRAY<STRUCT<element STRING>>",
+    "STRING",
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+    "ARRAY<STRUCT<element STRING>>",
+    "STRING",
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+    "ARRAY<STRUCT<element STRING>>",
+    "STRING"
+  ],
+  "description": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "sample_rows": [
+    {
+      "Liên kết cơ sở dữ liệu": null,
+      "mô tả": null,
+      "Mã": "CL_1001567",
+      "Tên": "lung endothelial cell",
+      "Không gian tên": {
+        "list": "[{'element': 'cl'}]"
+      },
+      "thuật ngữ lỗi thời": null,
+      "cha mẹ": {
+        "list": "[{'element': 'b43134'} {'element': 'CL_0000082'} {'element': 'CL_0002139'}]"
+      }
+    },
+    {
+      "Liên kết cơ sở dữ liệu": {
+        "list": "[{'element': 'BTO:0001141'}]"
+      },
+      "mô tả": null,
+      "Mã": "CL_1001568",
+      "Tên": "pulmonary artery endothelial cell",
+      "Không gian tên": {
+        "list": "[{'element': 'cl'}]"
+      },
+      "thuật ngữ lỗi thời": null,
+      "cha mẹ": {
+        "list": "[{'element': 'b44524'} {'element': 'CL_1000413'}]"
+      }
+    },
+    {
+      "Liên kết cơ sở dữ liệu": null,
+      "mô tả": "The various hormone- or neurotransmitter-secreting cells present throughout the mucosa of the intestinal tract.",
+      "Mã": "CL_1001516",
+      "Tên": "intestinal enteroendocrine cell",
+      "Không gian tên": {
+        "list": "[{'element': 'cl'}]"
+      },
+      "thuật ngữ lỗi thời": null,
+      "cha mẹ": {
+        "list": "[{'element': 'CL_0002563'} {'element': 'CL_0000164'}]"
+      }
+    },
+    {
+      "Liên kết cơ sở dữ liệu": null,
+      "mô tả": null,
+      "Mã": "BFO_0000019",
+      "Tên": "quality",
+      "Không gian tên": {
+        "list": "[{'element': 'bfo'}]"
+      },
+      "thuật ngữ lỗi thời": null,
+      "cha mẹ": {
+        "list": "[{'element': 'b24511'} {'element': 'BFO_0000020'}]"
+      }
+    },
+    {
+      "Liên kết cơ sở dữ liệu": null,
+      "mô tả": "An independent continuant that is spatially extended whose identity is independent of that of other entities and can be maintained through time.",
+      "Mã": "BFO_0000040",
+      "Tên": "material entity",
+      "Không gian tên": {
+        "list": "[{'element': 'bfo'}]"
+      },
+      "thuật ngữ lỗi thời": null,
+      "cha mẹ": {
+        "list": "[{'element': 'BFO_0000004'}]"
+      }
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "table_name": "hpo",
+  "table_fullname": "open-targets-prod.platform.hpo",
+  "column_names": [
+    "Referencias cruzadas de bases de datos",
+    "descripción",
+    "Identificador",
+    "nombre",
+    "espacio de nombres",
+    "términos obsoletos",
+    "padres"
+  ],
+  "column_types": [
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>"
+  ],
+  "nested_column_names": [
+    "Referencias cruzadas de BD",
+    "ReferenciasBD.lista",
+    "referencias cruzadas de base de datos",
+    "descripción",
+    "Identificación",
+    "nombre",
+    "espacio de nombres",
+    "lista de espacios de nombres",
+    "espacio de nombres\nlista\nelemento",
+    "términos obsoletos",
+    "términos_obsoletos.list",
+    "Elemento de la lista de términos obsoletos",
+    "padres",
+    "lista de padres",
+    "Elemento de la lista de padres"
+  ],
+  "nested_column_types": [
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+    "ARRAY<STRUCT<element STRING>>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+    "ARRAY<STRUCT<element STRING>>",
+    "STRING",
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+    "ARRAY<STRUCT<element STRING>>",
+    "STRING",
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+    "ARRAY<STRUCT<element STRING>>",
+    "STRING"
+  ],
+  "description": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "sample_rows": [
+    {
+      "Referencias cruzadas de BD": null,
+      "descripción": null,
+      "Identificación": "CL_1001567",
+      "nombre": "lung endothelial cell",
+      "espacio de nombres": {
+        "list": "[{'element': 'cl'}]"
+      },
+      "términos obsoletos": null,
+      "padres": {
+        "list": "[{'element': 'b43134'} {'element': 'CL_0000082'} {'element': 'CL_0002139'}]"
+      }
+    },
+    {
+      "Referencias cruzadas de BD": {
+        "list": "[{'element': 'BTO:0001141'}]"
+      },
+      "descripción": null,
+      "Identificación": "CL_1001568",
+      "nombre": "pulmonary artery endothelial cell",
+      "espacio de nombres": {
+        "list": "[{'element': 'cl'}]"
+      },
+      "términos obsoletos": null,
+      "padres": {
+        "list": "[{'element': 'b44524'} {'element': 'CL_1000413'}]"
+      }
+    },
+    {
+      "Referencias cruzadas de BD": null,
+      "descripción": "The various hormone- or neurotransmitter-secreting cells present throughout the mucosa of the intestinal tract.",
+      "Identificación": "CL_1001516",
+      "nombre": "intestinal enteroendocrine cell",
+      "espacio de nombres": {
+        "list": "[{'element': 'cl'}]"
+      },
+      "términos obsoletos": null,
+      "padres": {
+        "list": "[{'element': 'CL_0002563'} {'element': 'CL_0000164'}]"
+      }
+    },
+    {
+      "Referencias cruzadas de BD": null,
+      "descripción": null,
+      "Identificación": "BFO_0000019",
+      "nombre": "quality",
+      "espacio de nombres": {
+        "list": "[{'element': 'bfo'}]"
+      },
+      "términos obsoletos": null,
+      "padres": {
+        "list": "[{'element': 'b24511'} {'element': 'BFO_0000020'}]"
+      }
+    },
+    {
+      "Referencias cruzadas de BD": null,
+      "descripción": "An independent continuant that is spatially extended whose identity is independent of that of other entities and can be maintained through time.",
+      "Identificación": "BFO_0000040",
+      "nombre": "material entity",
+      "espacio de nombres": {
+        "list": "[{'element': 'bfo'}]"
+      },
+      "términos obsoletos": null,
+      "padres": {
+        "list": "[{'element': 'BFO_0000004'}]"
+      }
+    }
+  ]
+}
