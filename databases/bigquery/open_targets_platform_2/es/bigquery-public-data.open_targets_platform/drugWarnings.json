@@ -1,0 +1,177 @@
+{
+  "table_name": "drugWarnings",
+  "table_fullname": "bigquery-public-data.open_targets_platform.drugWarnings",
+  "column_names": [
+    "Identificadores ChEMBL",
+    "clase de toxicidad",
+    "país",
+    "descripción",
+    "identificador",
+    "referencias",
+    "Tipo de advertencia",
+    "año",
+    "término EFO",
+    "id_efo",
+    "ID EFO para clase de advertencia"
+  ],
+  "column_types": [
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "STRUCT<list ARRAY<STRUCT<element STRUCT<ref_id STRING, ref_type STRING, ref_url STRING>>>>",
+    "STRING",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "IDs ChEMBL",
+    "idsChEMBL.lista",
+    "Elemento de la lista de IDs ChEMBL",
+    "clase de toxicidad",
+    "país",
+    "descripción",
+    "identificador",
+    "referencias",
+    "lista de referencias",
+    "Elemento de la lista de referencias",
+    "referencias.lista.elemento.id_ref",
+    "tipo de referencia",
+    "URL de referencia",
+    "Tipo de advertencia",
+    "año",
+    "término EFO",
+    "identificador_efo",
+    "ID de EFO para clase de advertencia"
+  ],
+  "nested_column_types": [
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+    "ARRAY<STRUCT<element STRING>>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "STRUCT<list ARRAY<STRUCT<element STRUCT<ref_id STRING, ref_type STRING, ref_url STRING>>>>",
+    "ARRAY<STRUCT<element STRUCT<ref_id STRING, ref_type STRING, ref_url STRING>>>",
+    "STRUCT<ref_id STRING, ref_type STRING, ref_url STRING>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "sample_rows": [
+    {
+      "IDs ChEMBL": {
+        "list": "[{'element': 'CHEMBL3039594'} {'element': 'CHEMBL3039597'}]"
+      },
+      "clase de toxicidad": null,
+      "país": "United States",
+      "descripción": null,
+      "identificador": 2817,
+      "referencias": {
+        "list": "[]"
+      },
+      "Tipo de advertencia": "Black Box Warning",
+      "año": null,
+      "término EFO": null,
+      "identificador_efo": null,
+      "ID de EFO para clase de advertencia": null
+    },
+    {
+      "IDs ChEMBL": {
+        "list": "[{'element': 'CHEMBL3989677'} {'element': 'CHEMBL1457'}]"
+      },
+      "clase de toxicidad": null,
+      "país": "United States",
+      "descripción": null,
+      "identificador": 2818,
+      "referencias": {
+        "list": "[]"
+      },
+      "Tipo de advertencia": "Black Box Warning",
+      "año": null,
+      "término EFO": null,
+      "identificador_efo": null,
+      "ID de EFO para clase de advertencia": null
+    },
+    {
+      "IDs ChEMBL": {
+        "list": "[{'element': 'CHEMBL2359966'} {'element': 'CHEMBL170'}]"
+      },
+      "clase de toxicidad": null,
+      "país": "United States",
+      "descripción": null,
+      "identificador": 2820,
+      "referencias": {
+        "list": "[]"
+      },
+      "Tipo de advertencia": "Black Box Warning",
+      "año": null,
+      "término EFO": null,
+      "identificador_efo": null,
+      "ID de EFO para clase de advertencia": null
+    },
+    {
+      "IDs ChEMBL": {
+        "list": "[{'element': 'CHEMBL5095051'} {'element': 'CHEMBL637'}]"
+      },
+      "clase de toxicidad": null,
+      "país": "United States",
+      "descripción": null,
+      "identificador": 2864,
+      "referencias": {
+        "list": "[]"
+      },
+      "Tipo de advertencia": "Black Box Warning",
+      "año": null,
+      "término EFO": null,
+      "identificador_efo": null,
+      "ID de EFO para clase de advertencia": null
+    },
+    {
+      "IDs ChEMBL": {
+        "list": "[{'element': 'CHEMBL1742992'}]"
+      },
+      "clase de toxicidad": null,
+      "país": "United States",
+      "descripción": null,
+      "identificador": 221,
+      "referencias": {
+        "list": "[]"
+      },
+      "Tipo de advertencia": "Black Box Warning",
+      "año": null,
+      "término EFO": null,
+      "identificador_efo": null,
+      "ID de EFO para clase de advertencia": null
+    }
+  ]
+}
