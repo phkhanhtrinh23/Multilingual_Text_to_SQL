@@ -1,0 +1,86 @@
+{
+  "table_name": "adjacent_counties",
+  "table_fullname": "bigquery-public-data.geo_us_boundaries.adjacent_counties",
+  "column_names": [
+    "郡",
+    "状態",
+    "郡FIPSコード",
+    "近隣",
+    "隣州",
+    "隣接FIPSコード"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "ARRAY<STRING>",
+    "ARRAY<STRING>",
+    "ARRAY<STRING>"
+  ],
+  "nested_column_names": [
+    "郡",
+    "状態",
+    "郡FIPSコード",
+    "近隣",
+    "隣国の州",
+    "隣接郡のFIPSコード"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "ARRAY<STRING>",
+    "ARRAY<STRING>",
+    "ARRAY<STRING>"
+  ],
+  "description": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "sample_rows": [
+    {
+      "郡": "Audubon County",
+      "状態": "Iowa",
+      "郡FIPSコード": "19009",
+      "近隣": "['Shelby' 'Adair' 'Guthrie' 'Crawford' 'Cass' 'Carroll']",
+      "隣国の州": "['Iowa' 'Iowa' 'Iowa' 'Iowa' 'Iowa' 'Iowa']",
+      "隣接郡のFIPSコード": "['19165' '19001' '19077' '19047' '19029' '19027']"
+    },
+    {
+      "郡": "Boone County",
+      "状態": "Iowa",
+      "郡FIPSコード": "19015",
+      "近隣": "['Polk' 'Dallas' 'Webster' 'Greene' 'Story' 'Hamilton']",
+      "隣国の州": "['Iowa' 'Iowa' 'Iowa' 'Iowa' 'Iowa' 'Iowa']",
+      "隣接郡のFIPSコード": "['19153' '19049' '19187' '19073' '19169' '19079']"
+    },
+    {
+      "郡": "Bremer County",
+      "状態": "Iowa",
+      "郡FIPSコード": "19017",
+      "近隣": "['Floyd' 'Chickasaw' 'Buchanan' 'Butler' 'Fayette' 'Black Hawk']",
+      "隣国の州": "['Iowa' 'Iowa' 'Iowa' 'Iowa' 'Iowa' 'Iowa']",
+      "隣接郡のFIPSコード": "['19067' '19037' '19019' '19023' '19065' '19013']"
+    },
+    {
+      "郡": "Calhoun County",
+      "状態": "Iowa",
+      "郡FIPSコード": "19025",
+      "近隣": "['Sac' 'Carroll' 'Buena Vista' 'Webster' 'Greene' 'Pocahontas']",
+      "隣国の州": "['Iowa' 'Iowa' 'Iowa' 'Iowa' 'Iowa' 'Iowa']",
+      "隣接郡のFIPSコード": "['19161' '19027' '19021' '19187' '19073' '19151']"
+    },
+    {
+      "郡": "Cedar County",
+      "状態": "Iowa",
+      "郡FIPSコード": "19031",
+      "近隣": "['Scott' 'Jones' 'Clinton' 'Johnson' 'Muscatine' 'Linn']",
+      "隣国の州": "['Iowa' 'Iowa' 'Iowa' 'Iowa' 'Iowa' 'Iowa']",
+      "隣接郡のFIPSコード": "['19163' '19105' '19045' '19103' '19139' '19113']"
+    }
+  ]
+}
