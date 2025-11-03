@@ -1,0 +1,86 @@
+{
+  "table_name": "significantAdverseDrugReactions",
+  "table_fullname": "open-targets-prod.platform.significantAdverseDrugReactions",
+  "column_names": [
+    "Mã ChEMBL",
+    "sự kiện",
+    "Số",
+    "Tỷ lệ log xác suất",
+    "giá trị tới hạn",
+    "Mã Meddra"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "INT64",
+    "FLOAT64",
+    "FLOAT64",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "mã Chembl",
+    "sự kiện",
+    "Số lượng",
+    "Tỷ lệ lỗ",
+    "giá trị tới hạn",
+    "Mã MedDRA"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "INT64",
+    "FLOAT64",
+    "FLOAT64",
+    "STRING"
+  ],
+  "description": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "sample_rows": [
+    {
+      "mã Chembl": "CHEMBL2",
+      "sự kiện": "hypotension",
+      "Số lượng": 53,
+      "Tỷ lệ lỗ": 91.35776972666008,
+      "giá trị tới hạn": 6.251299745844193,
+      "Mã MedDRA": "10021097"
+    },
+    {
+      "mã Chembl": "CHEMBL3",
+      "sự kiện": "jaundice neonatal",
+      "Số lượng": 43,
+      "Tỷ lệ lỗ": 155.15858689508605,
+      "giá trị tới hạn": 38.961201902675384,
+      "Mã MedDRA": "10023138"
+    },
+    {
+      "mã Chembl": "CHEMBL3",
+      "sự kiện": "macular degeneration",
+      "Số lượng": 114,
+      "Tỷ lệ lỗ": 388.47462428933795,
+      "giá trị tới hạn": 38.961201902675384,
+      "Mã MedDRA": "10025409"
+    },
+    {
+      "mã Chembl": "CHEMBL3",
+      "sự kiện": "drug abuse",
+      "Số lượng": 83,
+      "Tỷ lệ lỗ": 86.02875766474244,
+      "giá trị tới hạn": 38.961201902675384,
+      "Mã MedDRA": "10013654"
+    },
+    {
+      "mã Chembl": "CHEMBL3",
+      "sự kiện": "premature baby",
+      "Số lượng": 150,
+      "Tỷ lệ lỗ": 299.56098443422525,
+      "giá trị tới hạn": 38.961201902675384,
+      "Mã MedDRA": "10036590"
+    }
+  ]
+}
