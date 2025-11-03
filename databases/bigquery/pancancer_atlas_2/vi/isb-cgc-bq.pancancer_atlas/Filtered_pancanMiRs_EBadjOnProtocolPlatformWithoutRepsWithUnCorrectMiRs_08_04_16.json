@@ -1,0 +1,111 @@
+{
+  "table_name": "Filtered_pancanMiRs_EBadjOnProtocolPlatformWithoutRepsWithUnCorrectMiRs_08_04_16",
+  "table_fullname": "isb-cgc-bq.pancancer_atlas.Filtered_pancanMiRs_EBadjOnProtocolPlatformWithoutRepsWithUnCorrectMiRs_08_04_16",
+  "column_names": [
+    "Mã vạch người tham gia",
+    "Mã vạch mẫu",
+    "Mã vạch mẫu",
+    "Mã ký tự mẫu",
+    "Loại mẫu",
+    "Nghiên cứu",
+    "Mã",
+    "Biểu hiện miRNA",
+    "Đã sửa"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "Mã vạch thành viên",
+    "Mã vạch mẫu",
+    "Mã vạch mẫu",
+    "Mã chữ loại mẫu",
+    "Loại mẫu",
+    "Nghiên cứu",
+    "Mã",
+    "biểu hiện miRNA",
+    "Đã sửa"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING"
+  ],
+  "description": [
+    "Mã vạch TCGA cho người tham gia nghiên cứu, ví dụ TCGA-02-0001",
+    "Mã vạch của mẫu sinh thể, ví dụ TCGA-13-1489-02A",
+    "Mã vạch mẫu TCGA, ví dụ TCGA-12-1089-01A-01D-0517-28",
+    "Mã chữ cái của loại mẫu sử dụng tiêu chuẩn TCGA, ví dụ TPN, EBV. Danh sách đầy đủ có sẵn tại https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/sample-type-codes",
+    "Có 10 loại mẫu: Mẫu bình thường có nguồn gốc từ máu, Khối u rắn nguyên phát, Mẫu mô rắn bình thường, Khối u rắn tái phát, Di căn, Thêm - Khối u mới nguyên phát, Ung thư có nguồn gốc từ máu - Máu ngoại vi, Mẫu tế bào miệng bình thường, Thêm - Di căn, Mẫu tủy xương bình thường",
+    "Viết tắt của nghiên cứu TCGA, ví dụ LAML. Danh sách đầy đủ có sẵn tại https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/tcga-study-abbreviations",
+    "Một trong 1870 mã định danh miRNA (hay còn gọi là ký hiệu) có trong bảng này, ví dụ hsa-mir-21 – thông tin tham khảo liên quan có thể tìm thấy trong bộ dữ liệu isb‑cgc:genome_reference trong các bảng miRBase_v20 và miRBase_v20_hsa_gff3",
+    "Nồng độ chuẩn hóa (tức là đọc trên triệu, RPM)",
+    "Chỉ số Đã sửa và Chưa sửa xác định xem miRs có được chỉnh sửa bằng phương pháp EBN+ hay không. Xem thêm chi tiết tại https://www.synapse.org/#!Synapse:syn6171109"
+  ],
+  "sample_rows": [
+    {
+      "Mã vạch thành viên": "TCGA-06-0675",
+      "Mã vạch mẫu": "TCGA-06-0675-11A-32R-A36C-13",
+      "Mã chữ loại mẫu": "NT",
+      "Loại mẫu": "Solid Tissue Normal",
+      "Nghiên cứu": "GBM",
+      "Mã": "hsa-miR-655-3p",
+      "biểu hiện miRNA": 29.608492,
+      "Đã sửa": "Corrected"
+    },
+    {
+      "Mã vạch thành viên": "TCGA-06-0675",
+      "Mã vạch mẫu": "TCGA-06-0675-11A-32R-A36C-13",
+      "Mã chữ loại mẫu": "NT",
+      "Loại mẫu": "Solid Tissue Normal",
+      "Nghiên cứu": "GBM",
+      "Mã": "hsa-miR-139-5p",
+      "biểu hiện miRNA": 4549.497868,
+      "Đã sửa": "Corrected"
+    },
+    {
+      "Mã vạch thành viên": "TCGA-06-0675",
+      "Mã vạch mẫu": "TCGA-06-0675-11A-32R-A36C-13",
+      "Mã chữ loại mẫu": "NT",
+      "Loại mẫu": "Solid Tissue Normal",
+      "Nghiên cứu": "GBM",
+      "Mã": "hsa-miR-202-5p",
+      "biểu hiện miRNA": 0.255246,
+      "Đã sửa": "Corrected"
+    },
+    {
+      "Mã vạch thành viên": "TCGA-06-0675",
+      "Mã vạch mẫu": "TCGA-06-0675-11A-32R-A36C-13",
+      "Mã chữ loại mẫu": "NT",
+      "Loại mẫu": "Solid Tissue Normal",
+      "Nghiên cứu": "GBM",
+      "Mã": "hsa-miR-542-3p",
+      "biểu hiện miRNA": 204.706984,
+      "Đã sửa": "Corrected"
+    },
+    {
+      "Mã vạch thành viên": "TCGA-06-0675",
+      "Mã vạch mẫu": "TCGA-06-0675-11A-32R-A36C-13",
+      "Mã chữ loại mẫu": "NT",
+      "Loại mẫu": "Solid Tissue Normal",
+      "Nghiên cứu": "GBM",
+      "Mã": "hsa-miR-98-3p",
+      "biểu hiện miRNA": 1.276228,
+      "Đã sửa": "Corrected"
+    }
+  ]
+}
