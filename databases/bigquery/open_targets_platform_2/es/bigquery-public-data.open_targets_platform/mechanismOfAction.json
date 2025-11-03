@@ -1,0 +1,165 @@
+{
+  "table_name": "mechanismOfAction",
+  "table_fullname": "bigquery-public-data.open_targets_platform.mechanismOfAction",
+  "column_names": [
+    "tipo de acción",
+    "Mecanismo de acción",
+    "ID de ChEMBL",
+    "nombreObjetivo",
+    "tipoObjetivo",
+    "objetivos",
+    "referencias"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+    "STRING",
+    "STRING",
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+    "STRUCT<list ARRAY<STRUCT<element STRUCT<source STRING, ids STRUCT<list ARRAY<STRUCT<element STRING>>>, urls STRUCT<list ARRAY<STRUCT<element STRING>>>>>>>"
+  ],
+  "nested_column_names": [
+    "tipo de acción",
+    "Mecanismo de acción",
+    "IDs de Chembl",
+    "idsChEMBL.lista",
+    "elemento de la lista de ids chembl",
+    "nombreObjetivo",
+    "Tipo de objetivo",
+    "objetivos",
+    "lista de objetivos",
+    "objetivos.lista.elemento",
+    "referencias",
+    "lista de referencias",
+    "Elemento de la lista de referencias",
+    "referencias.lista.elemento.fuente",
+    "referencias.lista.elementos.ids",
+    "referencias.lista.elemento.ids.lista",
+    "referencias.lista.elemento.identificadores.lista.elemento",
+    "URLs del elemento de la lista de referencias",
+    "referencias.lista.elemento.urls.lista",
+    "referencias.lista.elemento.enlaces.lista.elemento"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+    "ARRAY<STRUCT<element STRING>>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+    "ARRAY<STRUCT<element STRING>>",
+    "STRING",
+    "STRUCT<list ARRAY<STRUCT<element STRUCT<source STRING, ids STRUCT<list ARRAY<STRUCT<element STRING>>>, urls STRUCT<list ARRAY<STRUCT<element STRING>>>>>>>",
+    "ARRAY<STRUCT<element STRUCT<source STRING, ids STRUCT<list ARRAY<STRUCT<element STRING>>>, urls STRUCT<list ARRAY<STRUCT<element STRING>>>>>>",
+    "STRUCT<source STRING, ids STRUCT<list ARRAY<STRUCT<element STRING>>>, urls STRUCT<list ARRAY<STRUCT<element STRING>>>>",
+    "STRING",
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+    "ARRAY<STRUCT<element STRING>>",
+    "STRING",
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+    "ARRAY<STRUCT<element STRING>>",
+    "STRING"
+  ],
+  "description": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "sample_rows": [
+    {
+      "tipo de acción": "OTHER",
+      "Mecanismo de acción": "CD22 other",
+      "IDs de Chembl": {
+        "list": "[{'element': 'CHEMBL2108228'}]"
+      },
+      "nombreObjetivo": "CD22",
+      "Tipo de objetivo": "single protein",
+      "objetivos": {
+        "list": "[{'element': 'ENSG00000012124'}]"
+      },
+      "referencias": {
+        "list": "[{'element': {'source': 'PubMed', 'ids': {'list': array([{'element': '12537673'}], dtype=object)}, 'urls': {'list': array([{'element': 'http://europepmc.org/abstract/MED/12537673'}],\n       dtype=object)}}}                                                                                                                                                               ]"
+      }
+    },
+    {
+      "tipo de acción": "OTHER",
+      "Mecanismo de acción": "Basigin other",
+      "IDs de Chembl": {
+        "list": "[{'element': 'CHEMBL2109193'}]"
+      },
+      "nombreObjetivo": "Basigin",
+      "Tipo de objetivo": "single protein",
+      "objetivos": {
+        "list": "[{'element': 'ENSG00000172270'}]"
+      },
+      "referencias": {
+        "list": "[{'element': {'source': 'PubMed', 'ids': {'list': array([{'element': '17110457'}], dtype=object)}, 'urls': {'list': array([{'element': 'http://europepmc.org/abstract/MED/17110457'}],\n       dtype=object)}}}                                                                                                                                                               ]"
+      }
+    },
+    {
+      "tipo de acción": "OTHER",
+      "Mecanismo de acción": "Mucin-1 other",
+      "IDs de Chembl": {
+        "list": "[{'element': 'CHEMBL2109637'}]"
+      },
+      "nombreObjetivo": "Mucin-1",
+      "Tipo de objetivo": "single protein",
+      "objetivos": {
+        "list": "[{'element': 'ENSG00000185499'}]"
+      },
+      "referencias": {
+        "list": "[{'element': {'source': 'PubMed', 'ids': {'list': array([{'element': '1391628'}, {'element': '8050089'}], dtype=object)}, 'urls': {'list': array([{'element': 'http://europepmc.org/abstract/MED/1391628'},\n        {'element': 'http://europepmc.org/abstract/MED/8050089'}],\n       dtype=object)}}}                                                                                                                                                                                    ]"
+      }
+    },
+    {
+      "tipo de acción": "OTHER",
+      "Mecanismo de acción": "Mucin-1 other",
+      "IDs de Chembl": {
+        "list": "[{'element': 'CHEMBL2108341'}]"
+      },
+      "nombreObjetivo": "Mucin-1",
+      "Tipo de objetivo": "single protein",
+      "objetivos": {
+        "list": "[{'element': 'ENSG00000185499'}]"
+      },
+      "referencias": {
+        "list": "[{'element': {'source': 'PubMed', 'ids': {'list': array([{'element': '19811637'}, {'element': '21878535'}], dtype=object)}, 'urls': {'list': array([{'element': 'http://europepmc.org/abstract/MED/19811637'},\n        {'element': 'http://europepmc.org/abstract/MED/21878535'}],\n       dtype=object)}}}                                                                                                                                                                                       ]"
+      }
+    },
+    {
+      "tipo de acción": "OTHER",
+      "Mecanismo de acción": "Mucin-1 other",
+      "IDs de Chembl": {
+        "list": "[{'element': 'CHEMBL2109364'}]"
+      },
+      "nombreObjetivo": "Mucin-1",
+      "Tipo de objetivo": "single protein",
+      "objetivos": {
+        "list": "[{'element': 'ENSG00000185499'}]"
+      },
+      "referencias": {
+        "list": "[{'element': {'source': 'PubMed', 'ids': {'list': array([{'element': '11839249'}], dtype=object)}, 'urls': {'list': array([{'element': 'http://europepmc.org/abstract/MED/11839249'}],\n       dtype=object)}}}                                                                                                                                                               ]"
+      }
+    }
+  ]
+}
