@@ -1,0 +1,194 @@
+{
+  "table_name": "interaction",
+  "table_fullname": "bigquery-public-data.open_targets_platform.interaction",
+  "column_names": [
+    "Base de datos origen",
+    "Objetivo A",
+    "entero A",
+    "intARolBiológico",
+    "Objetivo B",
+    "enteroB",
+    "RolBiológicoInterno",
+    "especies A",
+    "especiesB",
+    "conteo",
+    "puntuación"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRUCT<mnemonic STRING, scientific_name STRING, taxon_id INT64>",
+    "STRUCT<mnemonic STRING, scientific_name STRING, taxon_id INT64>",
+    "INT64",
+    "FLOAT64"
+  ],
+  "nested_column_names": [
+    "Base de datos origen",
+    "Objetivo A",
+    "intA",
+    "intARolBiológico",
+    "objetivoB",
+    "Entero B",
+    "RolBiológico",
+    "especie A",
+    "especieA.mnemónico",
+    "nombre científico de la especie A",
+    "especieA.id_taxón",
+    "especies B",
+    "mnemónico de especie B",
+    "especieB.nombre_cientifico",
+    "id del taxón de la especie B",
+    "conteo",
+    "puntuación"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRUCT<mnemonic STRING, scientific_name STRING, taxon_id INT64>",
+    "STRING",
+    "STRING",
+    "INT64",
+    "STRUCT<mnemonic STRING, scientific_name STRING, taxon_id INT64>",
+    "STRING",
+    "STRING",
+    "INT64",
+    "INT64",
+    "FLOAT64"
+  ],
+  "description": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "sample_rows": [
+    {
+      "Base de datos origen": "intact",
+      "Objetivo A": "ENSG00000174132",
+      "intA": "Q8TBP5",
+      "intARolBiológico": "unspecified role",
+      "objetivoB": "ENSG00000111647",
+      "Entero B": "A0JNW5",
+      "RolBiológico": "unspecified role",
+      "especie A": {
+        "mnemonic": "human",
+        "scientific_name": "Homo sapiens",
+        "taxon_id": 9606
+      },
+      "especies B": {
+        "mnemonic": "human",
+        "scientific_name": "Homo sapiens",
+        "taxon_id": 9606
+      },
+      "conteo": 1,
+      "puntuación": 0.35
+    },
+    {
+      "Base de datos origen": "intact",
+      "Objetivo A": "ENSG00000274391",
+      "intA": "P56180-2",
+      "intARolBiológico": "unspecified role",
+      "objetivoB": "ENSG00000105135",
+      "Entero B": "A1L0T0",
+      "RolBiológico": "unspecified role",
+      "especie A": {
+        "mnemonic": "human",
+        "scientific_name": "Homo sapiens",
+        "taxon_id": 9606
+      },
+      "especies B": {
+        "mnemonic": "human",
+        "scientific_name": "Homo sapiens",
+        "taxon_id": 9606
+      },
+      "conteo": 1,
+      "puntuación": 0.35
+    },
+    {
+      "Base de datos origen": "intact",
+      "Objetivo A": "ENSG00000097096",
+      "intA": "Q5VT97-1",
+      "intARolBiológico": "unspecified role",
+      "objetivoB": "ENSG00000126822",
+      "Entero B": "A1L390",
+      "RolBiológico": "unspecified role",
+      "especie A": {
+        "mnemonic": "human",
+        "scientific_name": "Homo sapiens",
+        "taxon_id": 9606
+      },
+      "especies B": {
+        "mnemonic": "human",
+        "scientific_name": "Homo sapiens",
+        "taxon_id": 9606
+      },
+      "conteo": 1,
+      "puntuación": 0.35
+    },
+    {
+      "Base de datos origen": "intact",
+      "Objetivo A": "ENSG00000167770",
+      "intA": "Q96FW1",
+      "intARolBiológico": "unspecified role",
+      "objetivoB": "ENSG00000185888",
+      "Entero B": "A1L453",
+      "RolBiológico": "unspecified role",
+      "especie A": {
+        "mnemonic": "human",
+        "scientific_name": "Homo sapiens",
+        "taxon_id": 9606
+      },
+      "especies B": {
+        "mnemonic": "human",
+        "scientific_name": "Homo sapiens",
+        "taxon_id": 9606
+      },
+      "conteo": 1,
+      "puntuación": 0.35
+    },
+    {
+      "Base de datos origen": "intact",
+      "Objetivo A": "ENSG00000169951",
+      "intA": "Q96H86",
+      "intARolBiológico": "unspecified role",
+      "objetivoB": "ENSG00000174705",
+      "Entero B": "A1X283",
+      "RolBiológico": "unspecified role",
+      "especie A": {
+        "mnemonic": "human",
+        "scientific_name": "Homo sapiens",
+        "taxon_id": 9606
+      },
+      "especies B": {
+        "mnemonic": "human",
+        "scientific_name": "Homo sapiens",
+        "taxon_id": 9606
+      },
+      "conteo": 1,
+      "puntuación": 0.35
+    }
+  ]
+}
