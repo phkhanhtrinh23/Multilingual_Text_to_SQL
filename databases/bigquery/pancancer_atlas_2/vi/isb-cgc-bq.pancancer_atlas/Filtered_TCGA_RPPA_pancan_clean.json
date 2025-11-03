@@ -1,0 +1,101 @@
+{
+  "table_name": "Filtered_TCGA_RPPA_pancan_clean",
+  "table_fullname": "isb-cgc-bq.pancancer_atlas.Filtered_TCGA_RPPA_pancan_clean",
+  "column_names": [
+    "Mã vạch người tham gia",
+    "Mã vạch mẫu",
+    "Mã vạch mẫu",
+    "MãThưLoạiMẫu",
+    "Loại mẫu",
+    "Nghiên cứu",
+    "đạm",
+    "Giá trị"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64"
+  ],
+  "nested_column_names": [
+    "Mã số người tham gia",
+    "Mã vạch mẫu",
+    "Mã vạch mẫu",
+    "Mã chữ ký loại mẫu",
+    "Loại mẫu",
+    "Nghiên cứu",
+    "Đạm",
+    "Giá trị"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64"
+  ],
+  "description": [
+    "Mã vạch TCGA cho người tham gia nghiên cứu, ví dụ TCGA-02-0001",
+    "Mã vạch của mẫu vật sinh học, ví dụ TCGA-13-1489-02A",
+    "Mã vạch mẫu TCGA, ví dụ TCGA-12-1089-01A-01D-0517-28",
+    "Mã chữ cái của loại mẫu sử dụng tiêu chuẩn TCGA, ví dụ TPN, EBV. Danh sách đầy đủ có sẵn tại https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/sample-type-codes",
+    "Có 10 loại mẫu: Mẫu máu bình thường, Khối u rắn nguyên phát, Mẫu mô rắn bình thường, Khối u rắn tái phát, Khối u chuyển hoá, Thêm - Khối u nguyên phát mới, Ung thư nguyên phát từ máu - Máu ngoại vi, Mẫu tế bào miệng bình thường, Thêm - Khối u chuyển hoá, Mẫu bình thường bạch huyết xương",
+    "Viết tắt nghiên cứu TCGA, ví dụ LAML. Danh sách đầy đủ có sẵn tại https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/tcga-study-abbreviations",
+    "Biểu tượng protein và trạng thái phospho (nếu có), ví dụ P53, JNK_pT183Y185",
+    "Mức độ biểu hiện protein như được đo bằng mảng protein pha đảo ngược (RPPAs). Ví dụ: 0.204238725, -0.01826295"
+  ],
+  "sample_rows": [
+    {
+      "Mã số người tham gia": "TCGA-04-1335",
+      "Mã vạch mẫu": "TCGA-04-1335-01A-21-20",
+      "Mã chữ ký loại mẫu": "TP",
+      "Loại mẫu": "Primary solid Tumor",
+      "Nghiên cứu": "OV",
+      "Đạm": "EIF4G",
+      "Giá trị": -0.51629
+    },
+    {
+      "Mã số người tham gia": "TCGA-04-1335",
+      "Mã vạch mẫu": "TCGA-04-1335-01A-21-20",
+      "Mã chữ ký loại mẫu": "TP",
+      "Loại mẫu": "Primary solid Tumor",
+      "Nghiên cứu": "OV",
+      "Đạm": "SF2",
+      "Giá trị": 0.018487
+    },
+    {
+      "Mã số người tham gia": "TCGA-04-1335",
+      "Mã vạch mẫu": "TCGA-04-1335-01A-21-20",
+      "Mã chữ ký loại mẫu": "TP",
+      "Loại mẫu": "Primary solid Tumor",
+      "Nghiên cứu": "OV",
+      "Đạm": "EGFR",
+      "Giá trị": -0.10668
+    },
+    {
+      "Mã số người tham gia": "TCGA-04-1335",
+      "Mã vạch mẫu": "TCGA-04-1335-01A-21-20",
+      "Mã chữ ký loại mẫu": "TP",
+      "Loại mẫu": "Primary solid Tumor",
+      "Nghiên cứu": "OV",
+      "Đạm": "P70S6K_pT389",
+      "Giá trị": 0.022309
+    },
+    {
+      "Mã số người tham gia": "TCGA-04-1335",
+      "Mã vạch mẫu": "TCGA-04-1335-01A-21-20",
+      "Mã chữ ký loại mẫu": "TP",
+      "Loại mẫu": "Primary solid Tumor",
+      "Nghiên cứu": "OV",
+      "Đạm": "PDCD1",
+      "Giá trị": null
+    }
+  ]
+}
