@@ -1,0 +1,86 @@
+{
+  "table_name": "relationship",
+  "table_fullname": "bigquery-public-data.cms_synthetic_patient_data_omop.relationship",
+  "column_names": [
+    "关系ID",
+    "关系名称",
+    "是否分层",
+    "定义血统",
+    "反向关系ID",
+    "关系概念ID"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "关系编号",
+    "关系名称",
+    "是否层级",
+    "定义血统",
+    "反向关系ID",
+    "关系概念ID"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64"
+  ],
+  "description": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "sample_rows": [
+    {
+      "关系编号": "Acc device used by",
+      "关系名称": "Access device used by (SNOMED)",
+      "是否层级": "0",
+      "定义血统": "0",
+      "反向关系ID": "Using acc device",
+      "关系概念ID": 44818895
+    },
+    {
+      "关系编号": "Access of",
+      "关系名称": "Access of (SNOMED)",
+      "是否层级": "0",
+      "定义血统": "0",
+      "反向关系ID": "Has access",
+      "关系概念ID": 44818847
+    },
+    {
+      "关系编号": "Active ing of",
+      "关系名称": "Active ingredient of (SNOMED)",
+      "是否层级": "0",
+      "定义血统": "0",
+      "反向关系ID": "Has active ing",
+      "关系概念ID": 44818859
+    },
+    {
+      "关系编号": "AMP of",
+      "关系名称": "Actual Medicinal Product of (SNOMED)",
+      "是否层级": "0",
+      "定义血统": "0",
+      "反向关系ID": "Has AMP",
+      "关系概念ID": 45905757
+    },
+    {
+      "关系编号": "Answer of",
+      "关系名称": "Answer of (LOINC)",
+      "是否层级": "0",
+      "定义血统": "0",
+      "反向关系ID": "Has Answer",
+      "关系概念ID": 45754684
+    }
+  ]
+}
