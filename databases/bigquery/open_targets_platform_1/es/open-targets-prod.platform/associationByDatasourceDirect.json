@@ -1,0 +1,86 @@
+{
+  "table_name": "associationByDatasourceDirect",
+  "table_fullname": "open-targets-prod.platform.associationByDatasourceDirect",
+  "column_names": [
+    "tipo de dato ID",
+    "ID de fuente de datos",
+    "ID de la enfermedad",
+    "idObjetivo",
+    "Puntuación",
+    "conteo de evidencia"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "idTipoDato",
+    "Identificador de fuente de datos",
+    "idEnfermedad",
+    "identificador de destino",
+    "puntuación",
+    "conteo de evidencias"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "INT64"
+  ],
+  "description": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "sample_rows": [
+    {
+      "idTipoDato": "genetic_association",
+      "Identificador de fuente de datos": "eva",
+      "idEnfermedad": "HP_0000023",
+      "identificador de destino": "ENSG00000049540",
+      "puntuación": 0.19453785523571876,
+      "conteo de evidencias": 1
+    },
+    {
+      "idTipoDato": "genetic_association",
+      "Identificador de fuente de datos": "eva",
+      "idEnfermedad": "HP_0000062",
+      "identificador de destino": "ENSG00000184937",
+      "puntuación": 0.547137717850459,
+      "conteo de evidencias": 1
+    },
+    {
+      "idTipoDato": "genetic_association",
+      "Identificador de fuente de datos": "eva",
+      "idEnfermedad": "HP_0000072",
+      "identificador de destino": "ENSG00000121075",
+      "puntuación": 0.5592963338026914,
+      "conteo de evidencias": 1
+    },
+    {
+      "idTipoDato": "genetic_association",
+      "Identificador de fuente de datos": "eva",
+      "idEnfermedad": "HP_0000079",
+      "identificador de destino": "ENSG00000131778",
+      "puntuación": 0.18237923928348632,
+      "conteo de evidencias": 1
+    },
+    {
+      "idTipoDato": "genetic_association",
+      "Identificador de fuente de datos": "eva",
+      "idEnfermedad": "HP_0000093",
+      "identificador de destino": "ENSG00000107611",
+      "puntuación": 0.42555155832813474,
+      "conteo de evidencias": 1
+    }
+  ]
+}
