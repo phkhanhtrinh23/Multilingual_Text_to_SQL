@@ -1,0 +1,66 @@
+{
+  "table_name": "routes",
+  "table_fullname": "bigquery-public-data.san_francisco_transit_muni.routes",
+  "column_names": [
+    "id_ruta",
+    "nombre_corto_ruta",
+    "nombre_largo_de_la_ruta",
+    "tipo de ruta"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "ID de ruta",
+    "nombre_corto_ruta",
+    "nombre_largo_de_la_ruta",
+    "tipo de ruta"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "Identificador único para cada ruta. Una sola ruta tendrá múltiples viajes.",
+    "Contiene el nombre corto de una ruta. Es un identificador corto y abstracto como 32, 100X o Green que los usuarios usan para identificar una ruta, pero que no da ninguna indicación de qué lugares sirve la ruta.",
+    "Contiene el nombre completo de una ruta. Este nombre es generalmente más descriptivo que el de route_short_name y a menudo incluye el destino o la parada de la ruta.",
+    "Describe el tipo de transporte utilizado en una ruta. Los siguientes valores son válidos para este campo:\n- **light_rail**: Streetcar o tren ligero. Se utiliza para cualquier tren ligero o sistema a nivel de calle dentro de un área metropolitana.\n- **subway**: Metro o tren subterráneo. Se utiliza para cualquier sistema de tren subterráneo dentro de un área metropolitana.\n- **rail**: Se utiliza para viajes interurbanos o de larga distancia.\n- **bus**: Se utiliza para rutas de autobús de corta y larga distancia.\n- **ferry**: Se utiliza para servicios de barco de corta y larga distancia.\n- **cable_car**: Se utiliza para tranvías de nivel callejero donde el cable corre debajo del vehículo.\n- **tram**: Gondola o tranvía suspendido. Se utiliza típicamente para tranvías aéreos donde el vehículo está suspendido del cable.\n- **funicular**: Se utiliza para cualquier sistema ferroviario que se mueve en pendientes pronunciadas con un sistema de tracción por cable."
+  ],
+  "sample_rows": [
+    {
+      "ID de ruta": "83X",
+      "nombre_corto_ruta": "83X",
+      "nombre_largo_de_la_ruta": "MID-MARKET EXPRESS",
+      "tipo de ruta": "3"
+    },
+    {
+      "ID de ruta": "82X",
+      "nombre_corto_ruta": "82X",
+      "nombre_largo_de_la_ruta": "LEVI PLAZA EXPRESS",
+      "tipo de ruta": "3"
+    },
+    {
+      "ID de ruta": "E",
+      "nombre_corto_ruta": "E",
+      "nombre_largo_de_la_ruta": "EMBARCADERO",
+      "tipo de ruta": "0"
+    },
+    {
+      "ID de ruta": "KT",
+      "nombre_corto_ruta": "KT",
+      "nombre_largo_de_la_ruta": "INGLESIDE-THIRD",
+      "tipo de ruta": "0"
+    },
+    {
+      "ID de ruta": "3",
+      "nombre_corto_ruta": "3",
+      "nombre_largo_de_la_ruta": "JACKSON",
+      "tipo de ruta": "3"
+    }
+  ]
+}
