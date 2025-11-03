@@ -1,0 +1,66 @@
+{
+  "table_name": "Original_EBpp_AdjustPANCAN_IlluminaHiSeq_RNASeqV2_genExp",
+  "table_fullname": "isb-cgc-bq.pancancer_atlas.Original_EBpp_AdjustPANCAN_IlluminaHiSeq_RNASeqV2_genExp",
+  "column_names": [
+    "Biểu tượng",
+    "Nhập",
+    "Mã vạch aliquot",
+    "Số đọc trên nghìn cơ sở trên triệu đọc ánh xạ"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64"
+  ],
+  "nested_column_names": [
+    "ký hiệu",
+    "Entrez",
+    "Mã vạch aliquot",
+    "đọc trên mỗi kilobase, mỗi triệu bản đọc"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64"
+  ],
+  "description": [
+    "ví dụ TP53, LRP1B, v.v (giống như trường Hugo_Symbol ngoại trừ trống thay vì Unknown)",
+    "Entrez ID từ NCBI, ví dụ 730971",
+    "Mã vạch aliquot TCGA, ví dụ TCGA-12-1089-01A-01D-0517-28",
+    "Số đọc trên mỗi kilobase của transcript, trên mỗi triệu đọc đã được ánh xạ (RPKM) là một đơn vị chuẩn hóa của mức độ biểu hiện transcript. Nó được điều chỉnh theo độ dài transcript để bù đắp cho thực tế rằng hầu hết các giao thức RNA‑seq sẽ tạo ra nhiều đọc trình tự hơn từ các phân tử RNA dài hơn. Ví dụ: 0.0617, 14.9241, 2.2411"
+  ],
+  "sample_rows": [
+    {
+      "ký hiệu": "A1BG",
+      "Entrez": "1",
+      "Mã vạch aliquot": "TCGA-A2-A0CK-01A-11R-A22K-07",
+      "đọc trên mỗi kilobase, mỗi triệu bản đọc": 296.553
+    },
+    {
+      "ký hiệu": "A1BG",
+      "Entrez": "1",
+      "Mã vạch aliquot": "TCGA-14-0817-01A-01R-1849-01",
+      "đọc trên mỗi kilobase, mỗi triệu bản đọc": 214.163
+    },
+    {
+      "ký hiệu": "A1BG",
+      "Entrez": "1",
+      "Mã vạch aliquot": "TCGA-25-1625-01A-01R-1566-13",
+      "đọc trên mỗi kilobase, mỗi triệu bản đọc": 19.906519436033
+    },
+    {
+      "ký hiệu": "A1BG",
+      "Entrez": "1",
+      "Mã vạch aliquot": "TCGA-AX-A2H2-01A-11R-A180-07",
+      "đọc trên mỗi kilobase, mỗi triệu bản đọc": 62.8848545228859
+    },
+    {
+      "ký hiệu": "A1BG",
+      "Entrez": "1",
+      "Mã vạch aliquot": "TCGA-97-8172-01A-11R-2287-07",
+      "đọc trên mỗi kilobase, mỗi triệu bản đọc": 100.683
+    }
+  ]
+}
