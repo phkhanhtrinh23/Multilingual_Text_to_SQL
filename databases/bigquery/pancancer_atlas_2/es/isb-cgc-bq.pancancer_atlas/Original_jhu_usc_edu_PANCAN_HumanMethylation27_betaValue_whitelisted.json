@@ -1,0 +1,56 @@
+{
+  "table_name": "Original_jhu_usc_edu_PANCAN_HumanMethylation27_betaValue_whitelisted",
+  "table_fullname": "isb-cgc-bq.pancancer_atlas.Original_jhu_usc_edu_PANCAN_HumanMethylation27_betaValue_whitelisted",
+  "column_names": [
+    "Identificador",
+    "Código de Barras del Aliquot",
+    "Beta"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "FLOAT64"
+  ],
+  "nested_column_names": [
+    "Identificador",
+    "Código de Barras de la Muestra",
+    "Beta"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "FLOAT64"
+  ],
+  "description": [
+    "Identificador único de sonda (p. ej., cg04676771) del array de metilación humana Illumina – consulte la tabla de anotaciones (isb-cgc-bq.annotations.methylation_annotation_hg19_illumina_current) para más detalles sobre cualquier sonda en particular",
+    "Código de barras de alíquotas TCGA, por ejemplo TCGA-12-1089-01A-01D-0517-28",
+    "Valor beta de metilación de ADN normalizado (entre 0 y 1, donde 0 indica completamente no metilado y 1 indica totalmente metilado)"
+  ],
+  "sample_rows": [
+    {
+      "Identificador": "cg05679521",
+      "Código de Barras de la Muestra": "TCGA-01-0628-11A-01D-0383-05",
+      "Beta": 0.0290592
+    },
+    {
+      "Identificador": "cg04853151",
+      "Código de Barras de la Muestra": "TCGA-01-0628-11A-01D-0383-05",
+      "Beta": 0.029444
+    },
+    {
+      "Identificador": "cg06162003",
+      "Código de Barras de la Muestra": "TCGA-01-0628-11A-01D-0383-05",
+      "Beta": 0.0111285
+    },
+    {
+      "Identificador": "cg01136458",
+      "Código de Barras de la Muestra": "TCGA-01-0628-11A-01D-0383-05",
+      "Beta": 0.764987
+    },
+    {
+      "Identificador": "cg02132188",
+      "Código de Barras de la Muestra": "TCGA-01-0628-11A-01D-0383-05",
+      "Beta": 0.31103400000000003
+    }
+  ]
+}
