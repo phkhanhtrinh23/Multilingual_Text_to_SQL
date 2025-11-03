@@ -1,0 +1,282 @@
+{
+  "table_name": "knownDrugsAggregated",
+  "table_fullname": "bigquery-public-data.open_targets_platform.knownDrugsAggregated",
+  "column_names": [
+    "Mã thuốc",
+    "Mã mục tiêu",
+    "mã bệnh",
+    "giai đoạn",
+    "tình trạng",
+    "địa chỉ URL",
+    "Tổ tiên",
+    "nhãn",
+    "Biểu tượng đã được phê duyệt",
+    "Tên đã được phê duyệt",
+    "lớp mục tiêu",
+    "Tên tùy chọn",
+    "tên thương mại",
+    "đồng nghĩa",
+    "loại thuốc",
+    "Cơ_mô_hành_dộng",
+    "Tên mục tiêu"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRUCT<list ARRAY<STRUCT<element STRUCT<niceName STRING, url STRING>>>>",
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+    "STRING",
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "mã thuốc",
+    "Mã mục tiêu",
+    "Mã bệnh",
+    "giai đoạn",
+    "trạng thái",
+    "URL",
+    "Danh sách URL",
+    "địa chỉ.danh sách.phần tử",
+    "Tên đẹp",
+    "URL phần tử danh sách",
+    "tổ tiên",
+    "Danh sách tổ tiên",
+    "phần tử danh sách tổ tiên",
+    "Nhãn",
+    "Biểu tượng phê duyệt",
+    "tên được phê duyệt",
+    "Lớp Mục Tiêu",
+    "Danh sách lớp mục tiêu",
+    "Phần tử trong danh sách đối tượng mục tiêu",
+    "Tên tùy chọn",
+    "Tên thương mại",
+    "danh sách tên thương mại",
+    "Tên thương mại danh sách phần tử",
+    "từ đồng nghĩa",
+    "danh sách đồng nghĩa",
+    "từ đồng nghĩa danh sách phần tử",
+    "Loại thuốc",
+    "cơ chế tác động",
+    "Tên mục tiêu"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRUCT<list ARRAY<STRUCT<element STRUCT<niceName STRING, url STRING>>>>",
+    "ARRAY<STRUCT<element STRUCT<niceName STRING, url STRING>>>",
+    "STRUCT<niceName STRING, url STRING>",
+    "STRING",
+    "STRING",
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+    "ARRAY<STRUCT<element STRING>>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+    "ARRAY<STRUCT<element STRING>>",
+    "STRING",
+    "STRING",
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+    "ARRAY<STRUCT<element STRING>>",
+    "STRING",
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+    "ARRAY<STRUCT<element STRING>>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "sample_rows": [
+    {
+      "mã thuốc": "CHEMBL409",
+      "Mã mục tiêu": "ENSG00000169083",
+      "Mã bệnh": "MONDO_0008315",
+      "giai đoạn": 2.0,
+      "trạng thái": "Recruiting",
+      "URL": {
+        "list": "[{'element': {'niceName': 'ClinicalTrials', 'url': 'https://clinicaltrials.gov/study/NCT04025372'}}\n {'element': {'niceName': 'ClinicalTrials', 'url': 'https://clinicaltrials.gov/study/NCT04734730'}}\n {'element': {'niceName': 'ClinicalTrials', 'url': 'https://clinicaltrials.gov/study/NCT03541928'}}]"
+      },
+      "tổ tiên": {
+        "list": "[{'element': 'OTAR_0000017'} {'element': 'EFO_0009555'}\n {'element': 'EFO_0007355'} {'element': 'MONDO_0024582'}\n {'element': 'MONDO_0002149'} {'element': 'MONDO_0023370'}\n {'element': 'EFO_1000051'} {'element': 'EFO_0009602'}\n {'element': 'MONDO_0045024'} {'element': 'MONDO_0021259'}\n {'element': 'MONDO_0004992'} {'element': 'EFO_0000512'}\n {'element': 'EFO_0000616'}]"
+      },
+      "Nhãn": "prostate cancer",
+      "Biểu tượng phê duyệt": "AR",
+      "tên được phê duyệt": "androgen receptor",
+      "Lớp Mục Tiêu": {
+        "list": "[{'element': 'Transcription factor'} {'element': 'Unclassified protein'}]"
+      },
+      "Tên tùy chọn": "BICALUTAMIDE",
+      "Tên thương mại": {
+        "list": "[{'element': 'Bicalutamide'} {'element': 'Calutide'}\n {'element': 'Casodex'} {'element': 'Cosudex'} {'element': 'Kalumid'}]"
+      },
+      "từ đồng nghĩa": {
+        "list": "[{'element': 'Bicalutamide'} {'element': 'Casodex'}\n {'element': 'ICI 176,334'} {'element': 'ICI-176334'}\n {'element': 'ICI176,334-1'} {'element': 'NSC-759816'}]"
+      },
+      "Loại thuốc": "Small molecule",
+      "cơ chế tác động": "Androgen Receptor antagonist",
+      "Tên mục tiêu": "Androgen Receptor"
+    },
+    {
+      "mã thuốc": "CHEMBL409",
+      "Mã mục tiêu": "ENSG00000169083",
+      "Mã bệnh": "EFO_0000196",
+      "giai đoạn": 3.0,
+      "trạng thái": "Completed",
+      "URL": {
+        "list": "[{'element': {'niceName': 'ClinicalTrials', 'url': 'https://clinicaltrials.gov/study/NCT00672282'}}\n {'element': {'niceName': 'ClinicalTrials', 'url': 'https://clinicaltrials.gov/study/NCT00657904'}}\n {'element': {'niceName': 'ClinicalTrials', 'url': 'https://clinicaltrials.gov/study/NCT00673205'}}]"
+      },
+      "tổ tiên": {
+        "list": "[{'element': 'OTAR_0000017'} {'element': 'EFO_0009555'}\n {'element': 'EFO_0007355'} {'element': 'MONDO_0024582'}\n {'element': 'MONDO_0002149'} {'element': 'MONDO_0023370'}\n {'element': 'EFO_1000051'} {'element': 'EFO_0009602'}\n {'element': 'MONDO_0045024'} {'element': 'MONDO_0021259'}\n {'element': 'MONDO_0004992'} {'element': 'MONDO_0008315'}\n {'element': 'EFO_0000512'} {'element': 'EFO_0000313'}\n {'element': 'EFO_0001663'} {'element': 'EFO_0006858'}\n {'element': 'EFO_0000616'}]"
+      },
+      "Nhãn": "metastatic prostate cancer",
+      "Biểu tượng phê duyệt": "AR",
+      "tên được phê duyệt": "androgen receptor",
+      "Lớp Mục Tiêu": {
+        "list": "[{'element': 'Transcription factor'} {'element': 'Unclassified protein'}]"
+      },
+      "Tên tùy chọn": "BICALUTAMIDE",
+      "Tên thương mại": {
+        "list": "[{'element': 'Bicalutamide'} {'element': 'Calutide'}\n {'element': 'Casodex'} {'element': 'Cosudex'} {'element': 'Kalumid'}]"
+      },
+      "từ đồng nghĩa": {
+        "list": "[{'element': 'Bicalutamide'} {'element': 'Casodex'}\n {'element': 'ICI 176,334'} {'element': 'ICI-176334'}\n {'element': 'ICI176,334-1'} {'element': 'NSC-759816'}]"
+      },
+      "Loại thuốc": "Small molecule",
+      "cơ chế tác động": "Androgen Receptor antagonist",
+      "Tên mục tiêu": "Androgen Receptor"
+    },
+    {
+      "mã thuốc": "CHEMBL409",
+      "Mã mục tiêu": "ENSG00000169083",
+      "Mã bệnh": "MONDO_0008315",
+      "giai đoạn": 3.0,
+      "trạng thái": "Terminated",
+      "URL": {
+        "list": "[{'element': {'niceName': 'ClinicalTrials', 'url': 'https://clinicaltrials.gov/study/NCT00014586'}}\n {'element': {'niceName': 'ClinicalTrials', 'url': 'https://clinicaltrials.gov/study/NCT00243646'}}\n {'element': {'niceName': 'ClinicalTrials', 'url': 'https://clinicaltrials.gov/study/NCT00831233'}}\n {'element': {'niceName': 'ClinicalTrials', 'url': 'https://clinicaltrials.gov/study/NCT00388804'}}\n {'element': {'niceName': 'ClinicalTrials', 'url': 'https://clinicaltrials.gov/study/NCT01313273'}}\n {'element': {'niceName': 'ClinicalTrials', 'url': 'https://clinicaltrials.gov/study/NCT00651326'}}]"
+      },
+      "tổ tiên": {
+        "list": "[{'element': 'OTAR_0000017'} {'element': 'EFO_0009555'}\n {'element': 'EFO_0007355'} {'element': 'MONDO_0024582'}\n {'element': 'MONDO_0002149'} {'element': 'MONDO_0023370'}\n {'element': 'EFO_1000051'} {'element': 'EFO_0009602'}\n {'element': 'MONDO_0045024'} {'element': 'MONDO_0021259'}\n {'element': 'MONDO_0004992'} {'element': 'EFO_0000512'}\n {'element': 'EFO_0000616'}]"
+      },
+      "Nhãn": "prostate cancer",
+      "Biểu tượng phê duyệt": "AR",
+      "tên được phê duyệt": "androgen receptor",
+      "Lớp Mục Tiêu": {
+        "list": "[{'element': 'Transcription factor'} {'element': 'Unclassified protein'}]"
+      },
+      "Tên tùy chọn": "BICALUTAMIDE",
+      "Tên thương mại": {
+        "list": "[{'element': 'Bicalutamide'} {'element': 'Calutide'}\n {'element': 'Casodex'} {'element': 'Cosudex'} {'element': 'Kalumid'}]"
+      },
+      "từ đồng nghĩa": {
+        "list": "[{'element': 'Bicalutamide'} {'element': 'Casodex'}\n {'element': 'ICI 176,334'} {'element': 'ICI-176334'}\n {'element': 'ICI176,334-1'} {'element': 'NSC-759816'}]"
+      },
+      "Loại thuốc": "Small molecule",
+      "cơ chế tác động": "Androgen Receptor antagonist",
+      "Tên mục tiêu": "Androgen Receptor"
+    },
+    {
+      "mã thuốc": "CHEMBL409",
+      "Mã mục tiêu": "ENSG00000169083",
+      "Mã bệnh": "EFO_0000305",
+      "giai đoạn": 2.0,
+      "trạng thái": "Active, not recruiting",
+      "URL": {
+        "list": "[{'element': {'niceName': 'ClinicalTrials', 'url': 'https://clinicaltrials.gov/study/NCT03650894'}}]"
+      },
+      "tổ tiên": {
+        "list": "[{'element': 'OTAR_0000017'} {'element': 'MONDO_0021350'}\n {'element': 'MONDO_0000653'} {'element': 'MONDO_0023370'}\n {'element': 'MONDO_0007254'} {'element': 'MONDO_0045024'}\n {'element': 'MONDO_0004992'} {'element': 'EFO_0009483'}\n {'element': 'MONDO_0003274'} {'element': 'EFO_0003869'}\n {'element': 'EFO_0000313'} {'element': 'EFO_0010285'}\n {'element': 'EFO_0006858'} {'element': 'EFO_0000616'}]"
+      },
+      "Nhãn": "breast carcinoma",
+      "Biểu tượng phê duyệt": "AR",
+      "tên được phê duyệt": "androgen receptor",
+      "Lớp Mục Tiêu": {
+        "list": "[{'element': 'Transcription factor'} {'element': 'Unclassified protein'}]"
+      },
+      "Tên tùy chọn": "BICALUTAMIDE",
+      "Tên thương mại": {
+        "list": "[{'element': 'Bicalutamide'} {'element': 'Calutide'}\n {'element': 'Casodex'} {'element': 'Cosudex'} {'element': 'Kalumid'}]"
+      },
+      "từ đồng nghĩa": {
+        "list": "[{'element': 'Bicalutamide'} {'element': 'Casodex'}\n {'element': 'ICI 176,334'} {'element': 'ICI-176334'}\n {'element': 'ICI176,334-1'} {'element': 'NSC-759816'}]"
+      },
+      "Loại thuốc": "Small molecule",
+      "cơ chế tác động": "Androgen Receptor antagonist",
+      "Tên mục tiêu": "Androgen Receptor"
+    },
+    {
+      "mã thuốc": "CHEMBL409",
+      "Mã mục tiêu": "ENSG00000169083",
+      "Mã bệnh": "MONDO_0007254",
+      "giai đoạn": 2.0,
+      "trạng thái": "Unknown status",
+      "URL": {
+        "list": "[{'element': {'niceName': 'ClinicalTrials', 'url': 'https://clinicaltrials.gov/study/NCT02910050'}}]"
+      },
+      "tổ tiên": {
+        "list": "[{'element': 'EFO_0003869'} {'element': 'OTAR_0000017'}\n {'element': 'MONDO_0021350'} {'element': 'MONDO_0000653'}\n {'element': 'MONDO_0023370'} {'element': 'MONDO_0045024'}\n {'element': 'MONDO_0004992'} {'element': 'EFO_0010285'}\n {'element': 'EFO_0009483'} {'element': 'MONDO_0003274'}\n {'element': 'EFO_0000616'}]"
+      },
+      "Nhãn": "breast cancer",
+      "Biểu tượng phê duyệt": "AR",
+      "tên được phê duyệt": "androgen receptor",
+      "Lớp Mục Tiêu": {
+        "list": "[{'element': 'Transcription factor'} {'element': 'Unclassified protein'}]"
+      },
+      "Tên tùy chọn": "BICALUTAMIDE",
+      "Tên thương mại": {
+        "list": "[{'element': 'Bicalutamide'} {'element': 'Calutide'}\n {'element': 'Casodex'} {'element': 'Cosudex'} {'element': 'Kalumid'}]"
+      },
+      "từ đồng nghĩa": {
+        "list": "[{'element': 'Bicalutamide'} {'element': 'Casodex'}\n {'element': 'ICI 176,334'} {'element': 'ICI-176334'}\n {'element': 'ICI176,334-1'} {'element': 'NSC-759816'}]"
+      },
+      "Loại thuốc": "Small molecule",
+      "cơ chế tác động": "Androgen Receptor antagonist",
+      "Tên mục tiêu": "Androgen Receptor"
+    }
+  ]
+}
