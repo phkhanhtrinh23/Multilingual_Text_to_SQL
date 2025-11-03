@@ -1,0 +1,76 @@
+{
+  "table_name": "BarcodeMap",
+  "table_fullname": "isb-cgc-bq.pancancer_atlas.BarcodeMap",
+  "column_names": [
+    "Código de barras del participante",
+    "Código de muestra",
+    "Código de barras de alíquotas",
+    "Estudio",
+    "Código de Letra del Tipo de Muestra"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "Código del participante",
+    "Código de Barras de Muestra",
+    "Código de barras de alícuota",
+    "Estudio",
+    "Código de letra de tipo de muestra"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "Identificador de código de barras TCGA para el participante del estudio, por ejemplo TCGA-02-0001",
+    "Código de barras de la muestra de bioespecimen, por ejemplo TCGA-13-1489-02A",
+    "código de barras de alíquotas TCGA, p. ej. TCGA-12-1089-01A-01D-0517-28",
+    "Abreviatura del estudio TCGA, p.ej. LAML. Lista completa disponible en https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/tcga-study-abbreviations",
+    "Código de letra del tipo de muestra usando los estándares TCGA, por ejemplo, TPN, EBV. Lista completa disponible en https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/sample-type-codes"
+  ],
+  "sample_rows": [
+    {
+      "Código del participante": "TCGA-04-1331",
+      "Código de Barras de Muestra": "TCGA-04-1331-10A",
+      "Código de barras de alícuota": "TCGA-04-1331-10A-01D-0428-01",
+      "Estudio": "OV",
+      "Código de letra de tipo de muestra": "NB"
+    },
+    {
+      "Código del participante": "TCGA-04-1331",
+      "Código de Barras de Muestra": "TCGA-04-1331-10A",
+      "Código de barras de alícuota": "TCGA-04-1331-10A-01D-0429-04",
+      "Estudio": "OV",
+      "Código de letra de tipo de muestra": "NB"
+    },
+    {
+      "Código del participante": "TCGA-04-1331",
+      "Código de Barras de Muestra": "TCGA-04-1331-10A",
+      "Código de barras de alícuota": "TCGA-04-1331-10A-01D-0430-06",
+      "Estudio": "OV",
+      "Código de letra de tipo de muestra": "NB"
+    },
+    {
+      "Código del participante": "TCGA-04-1331",
+      "Código de Barras de Muestra": "TCGA-04-1331-10A",
+      "Código de barras de alícuota": "TCGA-04-1331-10A-01D-0431-02",
+      "Estudio": "OV",
+      "Código de letra de tipo de muestra": "NB"
+    },
+    {
+      "Código del participante": "TCGA-04-1331",
+      "Código de Barras de Muestra": "TCGA-04-1331-10A",
+      "Código de barras de alícuota": "TCGA-04-1331-10A-01D-1036-01",
+      "Estudio": "OV",
+      "Código de letra de tipo de muestra": "NB"
+    }
+  ]
+}
