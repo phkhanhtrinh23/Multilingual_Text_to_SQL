@@ -1,0 +1,128 @@
+{
+  "table_name": "indication",
+  "table_fullname": "open-targets-prod.platform.indication",
+  "column_names": [
+    "Mã",
+    "Chỉ định",
+    "Chỉ dẫn đã phê duyệt",
+    "Số lượng chỉ dẫn"
+  ],
+  "column_types": [
+    "STRING",
+    "STRUCT<list ARRAY<STRUCT<element STRUCT<disease STRING, efoName STRING, references STRUCT<list ARRAY<STRUCT<element STRUCT<source STRING, ids STRUCT<list ARRAY<STRUCT<element STRING>>>>>>>, maxPhaseForIndication FLOAT64>>>>",
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "mã",
+    "chỉ dẫn",
+    "Danh sách chỉ định",
+    "mục danh sách chỉ dẫn",
+    "Bệnh trong danh sách chỉ định",
+    "Tên EFO",
+    "Chỉ dẫn danh sách phần tử tham chiếu",
+    "chỉ dẫn\ndanh sách\nphần tử\ntham khảo\ndanh sách",
+    "điều kiện.danh sách.mục.tham khảo.danh sách.mục",
+    "điều kiện.danh sách.phần.tham chiếu.danh sách.phần.nguồn",
+    "đề xuất.danh sách.phần tử.tham chiếu.danh sách.phần tử.ID",
+    "Danh sách ID phần tử tham chiếu trong danh sách phần tử của chỉ dẫn",
+    "chỉ định.danh sách.mục.tham chiếu.danh sách.mục.mã.danh sách.mục",
+    "giai đoạn tối đa cho chỉ dẫn",
+    "Đối tượng điều trị đã được phê duyệt",
+    "Chỉ định đã phê duyệt",
+    "Chỉ dẫn đã được phê duyệt.Danh sách.Mục",
+    "Số lần chỉ định"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRUCT<list ARRAY<STRUCT<element STRUCT<disease STRING, efoName STRING, references STRUCT<list ARRAY<STRUCT<element STRUCT<source STRING, ids STRUCT<list ARRAY<STRUCT<element STRING>>>>>>>, maxPhaseForIndication FLOAT64>>>>",
+    "ARRAY<STRUCT<element STRUCT<disease STRING, efoName STRING, references STRUCT<list ARRAY<STRUCT<element STRUCT<source STRING, ids STRUCT<list ARRAY<STRUCT<element STRING>>>>>>>, maxPhaseForIndication FLOAT64>>>",
+    "STRUCT<disease STRING, efoName STRING, references STRUCT<list ARRAY<STRUCT<element STRUCT<source STRING, ids STRUCT<list ARRAY<STRUCT<element STRING>>>>>>>, maxPhaseForIndication FLOAT64>",
+    "STRING",
+    "STRING",
+    "STRUCT<list ARRAY<STRUCT<element STRUCT<source STRING, ids STRUCT<list ARRAY<STRUCT<element STRING>>>>>>>",
+    "ARRAY<STRUCT<element STRUCT<source STRING, ids STRUCT<list ARRAY<STRUCT<element STRING>>>>>>",
+    "STRUCT<source STRING, ids STRUCT<list ARRAY<STRUCT<element STRING>>>>",
+    "STRING",
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+    "ARRAY<STRUCT<element STRING>>",
+    "STRING",
+    "FLOAT64",
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+    "ARRAY<STRUCT<element STRING>>",
+    "STRING",
+    "INT64"
+  ],
+  "description": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "sample_rows": [
+    {
+      "mã": "CHEMBL500826",
+      "chỉ dẫn": {
+        "list": "[{'element': {'disease': 'EFO_1001888', 'efoName': 'eye infection', 'references': {'list': array([{'element': {'source': 'ATC', 'ids': {'list': array([{'element': 'S01AX10'}], dtype=object)}}}],\n       dtype=object)}, 'maxPhaseForIndication': 2.0}}                                                                                                                                             ]"
+      },
+      "Đối tượng điều trị đã được phê duyệt": {
+        "list": "[]"
+      },
+      "Số lần chỉ định": 1
+    },
+    {
+      "mã": "CHEMBL3989504",
+      "chỉ dẫn": {
+        "list": "[{'element': {'disease': 'EFO_0000771', 'efoName': 'bacterial disease', 'references': {'list': array([{'element': {'source': 'ATC', 'ids': {'list': array([{'element': 'J01MA21'}], dtype=object)}}}],\n       dtype=object)}, 'maxPhaseForIndication': 2.0}}                                                                                                                                                 ]"
+      },
+      "Đối tượng điều trị đã được phê duyệt": {
+        "list": "[]"
+      },
+      "Số lần chỉ định": 1
+    },
+    {
+      "mã": "CHEMBL36633",
+      "chỉ dẫn": {
+        "list": "[{'element': {'disease': 'EFO_0003888', 'efoName': 'attention deficit hyperactivity disorder', 'references': {'list': array([{'element': {'source': 'ATC', 'ids': {'list': array([{'element': 'N06BX07'}], dtype=object)}}}],\n       dtype=object)}, 'maxPhaseForIndication': 2.0}}                                                                                                                                                                        ]"
+      },
+      "Đối tượng điều trị đã được phê duyệt": {
+        "list": "[]"
+      },
+      "Số lần chỉ định": 1
+    },
+    {
+      "mã": "CHEMBL3989705",
+      "chỉ dẫn": {
+        "list": "[{'element': {'disease': 'EFO_1001888', 'efoName': 'eye infection', 'references': {'list': array([{'element': {'source': 'ATC', 'ids': {'list': array([{'element': 'S01AX10'}], dtype=object)}}}],\n       dtype=object)}, 'maxPhaseForIndication': 2.0}}                                                                                                                                             ]"
+      },
+      "Đối tượng điều trị đã được phê duyệt": {
+        "list": "[]"
+      },
+      "Số lần chỉ định": 1
+    },
+    {
+      "mã": "CHEMBL3989444",
+      "chỉ dẫn": {
+        "list": "[{'element': {'disease': 'EFO_0000319', 'efoName': 'cardiovascular disease', 'references': {'list': array([{'element': {'source': 'ATC', 'ids': {'list': array([{'element': 'C04AX24'}], dtype=object)}}}],\n       dtype=object)}, 'maxPhaseForIndication': 2.0}}                                                                                                                                                      ]"
+      },
+      "Đối tượng điều trị đã được phê duyệt": {
+        "list": "[]"
+      },
+      "Số lần chỉ định": 1
+    }
+  ]
+}
