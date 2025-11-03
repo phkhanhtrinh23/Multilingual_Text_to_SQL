@@ -1,0 +1,76 @@
+{
+  "table_name": "icd10_procedures_2019",
+  "table_fullname": "bigquery-public-data.cms_codes.icd10_procedures_2019",
+  "column_names": [
+    "订单编号",
+    "pcs代码",
+    "是否为表头代码",
+    "简短描述",
+    "详细描述"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "BOOL",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "订单号",
+    "pcs编码",
+    "是否为标题代码",
+    "简短描述",
+    "详细描述"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "BOOL",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "唯一标识符，使用户更容易交流一系列代码",
+    "程序代码",
+    "TRUE - 该代码是头部代码，不适用于受 HIPAA 覆盖的交易。FALSE - 该代码适用于提交受 HIPAA 覆盖的交易。",
+    "程序的简短文字描述",
+    "程序的完整文本描述"
+  ],
+  "sample_rows": [
+    {
+      "订单号": "67369",
+      "pcs编码": "0XH",
+      "是否为标题代码": null,
+      "简短描述": null,
+      "详细描述": null
+    },
+    {
+      "订单号": "67514",
+      "pcs编码": "0XJ",
+      "是否为标题代码": null,
+      "简短描述": null,
+      "详细描述": null
+    },
+    {
+      "订单号": "67579",
+      "pcs编码": "0XM",
+      "是否为标题代码": null,
+      "简短描述": null,
+      "详细描述": null
+    },
+    {
+      "订单号": "67608",
+      "pcs编码": "0XP",
+      "是否为标题代码": null,
+      "简短描述": null,
+      "详细描述": null
+    },
+    {
+      "订单号": "67665",
+      "pcs编码": "0XQ",
+      "是否为标题代码": null,
+      "简短描述": null,
+      "详细描述": null
+    }
+  ]
+}
