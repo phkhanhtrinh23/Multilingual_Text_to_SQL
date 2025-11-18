@@ -1,0 +1,126 @@
+{
+  "table_name": "rel16_caseData",
+  "table_fullname": "isb-cgc.GDC_metadata.rel16_caseData",
+  "column_names": [
+    "mã trường hợp GDC",
+    "số đăng ký dbGaP của dự án",
+    "Loại bệnh dự án",
+    "ten_du_an",
+    "số đăng ký DBGap của chương trình",
+    "tên chương trình",
+    "Mã dự án",
+    "mã vạch hộp",
+    "số_tệp_kế_thừa",
+    "số tập tin đang hoạt động"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "id_trường_hợp_gdc",
+    "số_truy_cập_dbgap_của_dự_án",
+    "Loại bệnh dự án",
+    "tên dự án",
+    "số truy cập DBGap của chương trình",
+    "tên chương trình",
+    "Mã dự án",
+    "mã vạch hồ sơ",
+    "số_lượng_tệp_cũ",
+    "Số tệp hoạt động"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "INT64"
+  ],
+  "description": [
+    "định danh duy nhất GDC",
+    "Số truy cập chương trình dbGaP, ví dụ phs000184",
+    "Loại bệnh được nghiên cứu trong dự án; ví dụ: Sarcoma, Breast Invasive Carcinoma, Acute Lymphoblastic Leukemia, v.v.",
+    "Tên dự án; thường giống hoặc tương tự với loại bệnh của dự án, ví dụ: Acute Lymphoblastic Leukemia - Phase II hoặc Breast Invasive Carcinoma, v.v.",
+    "Số truy cập dbGaP của chương trình, ví dụ phs000178",
+    "Tên chương trình, ví dụ TCGA hoặc TARGET",
+    "ID của dự án -- ví dụ: TCGA-BRCA, TARGET-AML, v.v.",
+    "Định danh người nộp, ví dụ HCC1954, TCGA-ZX-AA5X, v.v.",
+    "Tổng số tệp cho trường hợp này trong kho lưu trữ GDC legacy",
+    "Tổng số tập tin cho trường hợp này trong kho lưu trữ GDC đang hoạt động (mặc định)"
+  ],
+  "sample_rows": [
+    {
+      "id_trường_hợp_gdc": "8e20b23c-1e5c-4edc-8263-ec3ec3abf482",
+      "số_truy_cập_dbgap_của_dự_án": "phs001179",
+      "Loại bệnh dự án": "multi",
+      "tên dự án": "Foundation Medicine Adult Cancer Clinical Dataset (FM-AD)",
+      "số truy cập DBGap của chương trình": null,
+      "tên chương trình": "FM",
+      "Mã dự án": "FM-AD",
+      "mã vạch hồ sơ": "AD1",
+      "số_lượng_tệp_cũ": 0,
+      "Số tệp hoạt động": 5
+    },
+    {
+      "id_trường_hợp_gdc": "35818db5-87e9-4c42-9d4c-902bbfaa09ea",
+      "số_truy_cập_dbgap_của_dự_án": "phs001179",
+      "Loại bệnh dự án": "multi",
+      "tên dự án": "Foundation Medicine Adult Cancer Clinical Dataset (FM-AD)",
+      "số truy cập DBGap của chương trình": null,
+      "tên chương trình": "FM",
+      "Mã dự án": "FM-AD",
+      "mã vạch hồ sơ": "AD2",
+      "số_lượng_tệp_cũ": 0,
+      "Số tệp hoạt động": 5
+    },
+    {
+      "id_trường_hợp_gdc": "59b7703e-5bd6-4a2f-b4a6-be80ad6871e9",
+      "số_truy_cập_dbgap_của_dự_án": "phs001179",
+      "Loại bệnh dự án": "multi",
+      "tên dự án": "Foundation Medicine Adult Cancer Clinical Dataset (FM-AD)",
+      "số truy cập DBGap của chương trình": null,
+      "tên chương trình": "FM",
+      "Mã dự án": "FM-AD",
+      "mã vạch hồ sơ": "AD3",
+      "số_lượng_tệp_cũ": 0,
+      "Số tệp hoạt động": 5
+    },
+    {
+      "id_trường_hợp_gdc": "066801c5-7723-473e-af4e-3e227d1a680c",
+      "số_truy_cập_dbgap_của_dự_án": "phs001179",
+      "Loại bệnh dự án": "multi",
+      "tên dự án": "Foundation Medicine Adult Cancer Clinical Dataset (FM-AD)",
+      "số truy cập DBGap của chương trình": null,
+      "tên chương trình": "FM",
+      "Mã dự án": "FM-AD",
+      "mã vạch hồ sơ": "AD4",
+      "số_lượng_tệp_cũ": 0,
+      "Số tệp hoạt động": 5
+    },
+    {
+      "id_trường_hợp_gdc": "e2cf827c-f437-4759-8651-9317dd291fa5",
+      "số_truy_cập_dbgap_của_dự_án": "phs001179",
+      "Loại bệnh dự án": "multi",
+      "tên dự án": "Foundation Medicine Adult Cancer Clinical Dataset (FM-AD)",
+      "số truy cập DBGap của chương trình": null,
+      "tên chương trình": "FM",
+      "Mã dự án": "FM-AD",
+      "mã vạch hồ sơ": "AD5",
+      "số_lượng_tệp_cũ": 0,
+      "Số tệp hoạt động": 5
+    }
+  ]
+}
