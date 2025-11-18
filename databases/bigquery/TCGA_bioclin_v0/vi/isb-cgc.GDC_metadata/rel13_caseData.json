@@ -1,0 +1,126 @@
+{
+  "table_name": "rel13_caseData",
+  "table_fullname": "isb-cgc.GDC_metadata.rel13_caseData",
+  "column_names": [
+    "ID tệp",
+    "Mã truy cập dbgap của dự án",
+    "dự án__loại_bệnh",
+    "tên dự án",
+    "Số truy cập Dbgap của chương trình dự án",
+    "tên chương trình dự án",
+    "Mã dự án",
+    "ID người gửi",
+    "số tệp cũ",
+    "số tệp tin hoạt động"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "Mã tệp",
+    "số truy cập dbgap của dự án",
+    "loại bệnh dự án",
+    "tên dự án",
+    "mã nhận dạng dbGap của dự án và chương trình",
+    "Tên chương trình dự án",
+    "mã dự án",
+    "ID người nộp",
+    "số_tệp_lưu_trữ",
+    "số_tệp_đang_hoạt_dộng"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "INT64"
+  ],
+  "description": [
+    "Định danh tệp GDC. Đây là bản sao của trường file_gdc_id được tìm thấy trong một số bảng.",
+    "Số truy cập dự án dbGaP",
+    "Loại bệnh dự án",
+    "Nghiên cứu tên của dự án",
+    "Số truy cập dbGaP cho chương trình",
+    "Tên chương trình",
+    "Tên ngắn của chương trình với tên ngắn của dự án",
+    "Điều này có thể được sử dụng để xác định một mục ghi tương ứng trong hồ sơ của người nộp. GDC yêu cầu rằng submitter_id phải duy nhất cho mỗi thực thể trong một dự án: cặp (kết hợp) của [ project_id, submitter_id ] là một khóa duy nhất.",
+    "Tổng số tệp cho trường hợp này trong kho lưu trữ GDC legacy",
+    "Số lượng tệp lưu trữ đang hoạt động"
+  ],
+  "sample_rows": [
+    {
+      "Mã tệp": "942851b0-b554-48f4-84f6-6826902e12d7",
+      "số truy cập dbgap của dự án": "CCLE",
+      "loại bệnh dự án": "Lymphoid Neoplasm Diffuse Large B-cell Lymphoma",
+      "tên dự án": "Lymphoid Neoplasm Diffuse Large B-cell Lymphoma",
+      "mã nhận dạng dbGap của dự án và chương trình": "CCLE",
+      "Tên chương trình dự án": "CCLE",
+      "mã dự án": "CCLE-DLBC",
+      "ID người nộp": "DB",
+      "số_tệp_lưu_trữ": 1,
+      "số_tệp_đang_hoạt_dộng": 0
+    },
+    {
+      "Mã tệp": "aaa8da09-070c-4a31-a99e-720f1a0a964f",
+      "số truy cập dbgap của dự án": "CCLE",
+      "loại bệnh dự án": "Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma",
+      "tên dự án": "Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma",
+      "mã nhận dạng dbGap của dự án và chương trình": "CCLE",
+      "Tên chương trình dự án": "CCLE",
+      "mã dự án": "CCLE-CESC",
+      "ID người nộp": "EN",
+      "số_tệp_lưu_trữ": 1,
+      "số_tệp_đang_hoạt_dộng": 0
+    },
+    {
+      "Mã tệp": "ae4dd9c2-ddba-4da5-a372-4cfdeed0859e",
+      "số truy cập dbgap của dự án": "CCLE",
+      "loại bệnh dự án": "Brain Lower Grade Glioma",
+      "tên dự án": "Brain Lower Grade Glioma",
+      "mã nhận dạng dbGap của dự án và chương trình": "CCLE",
+      "Tên chương trình dự án": "CCLE",
+      "mã dự án": "CCLE-LGG",
+      "ID người nộp": "H4",
+      "số_tệp_lưu_trữ": 1,
+      "số_tệp_đang_hoạt_dộng": 0
+    },
+    {
+      "Mã tệp": "6153a459-2c19-41c9-8815-aa9f6e72712e",
+      "số truy cập dbgap của dự án": "CCLE",
+      "loại bệnh dự án": "Lymphoid Neoplasm Diffuse Large B-cell Lymphoma",
+      "tên dự án": "Lymphoid Neoplasm Diffuse Large B-cell Lymphoma",
+      "mã nhận dạng dbGap của dự án và chương trình": "CCLE",
+      "Tên chương trình dự án": "CCLE",
+      "mã dự án": "CCLE-DLBC",
+      "ID người nộp": "HH",
+      "số_tệp_lưu_trữ": 1,
+      "số_tệp_đang_hoạt_dộng": 0
+    },
+    {
+      "Mã tệp": "7f1968dd-cabb-4fc0-9ae7-76f80f41baa5",
+      "số truy cập dbgap của dự án": "CCLE",
+      "loại bệnh dự án": "Lymphoid Neoplasm Diffuse Large B-cell Lymphoma",
+      "tên dự án": "Lymphoid Neoplasm Diffuse Large B-cell Lymphoma",
+      "mã nhận dạng dbGap của dự án và chương trình": "CCLE",
+      "Tên chương trình dự án": "CCLE",
+      "mã dự án": "CCLE-DLBC",
+      "ID người nộp": "HT",
+      "số_tệp_lưu_trữ": 2,
+      "số_tệp_đang_hoạt_dộng": 0
+    }
+  ]
+}
