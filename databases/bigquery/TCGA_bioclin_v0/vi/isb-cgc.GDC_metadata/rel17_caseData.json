@@ -1,0 +1,126 @@
+{
+  "table_name": "rel17_caseData",
+  "table_fullname": "isb-cgc.GDC_metadata.rel17_caseData",
+  "column_names": [
+    "ID GDC của trường hợp",
+    "số truy cập dbGaP của dự án",
+    "đề_án_bệnh_loại",
+    "tên dự án",
+    "số truy cập chương trình DBGap",
+    "tên chương trình",
+    "mã dự án",
+    "mã vạch hồ sơ",
+    "số_tệp_kế_thừa",
+    "số tệp đang hoạt động"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "id_gdc_trường_hợp",
+    "Số nhận dạng dự án dbGaP",
+    "loại_bệnh_dự_án",
+    "tên dự án",
+    "số tiếp nhận chương trình DBGap",
+    "tên chương trình",
+    "Mã dự án",
+    "Mã vạch hồ sơ",
+    "số_tệp_lưu_trữ",
+    "đếm_tệp_hoạt_dụng"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "INT64"
+  ],
+  "description": [
+    "định danh duy nhất GDC",
+    "Số truy cập dbGaP của chương trình, ví dụ phs000187",
+    "Loại bệnh được nghiên cứu trong dự án; ví dụ: Sarcoma, Ung thư vú dạng thâm nhập, Bạch cầu lymphoblast nhanh, vv",
+    "Tên Dự Án; thường giống hoặc tương tự với loại bệnh của dự án, ví dụ: Acute Lymphoblastic Leukemia - Giai đoạn II hoặc Breast Invasive Carcinoma v.v.",
+    "Số truy cập dbGaP của chương trình, ví dụ: phs000178",
+    "Tên chương trình, ví dụ TCGA hoặc TARGET",
+    "ID của Dự án -- ví dụ: TCGA-BRCA, TARGET-AML, vv",
+    "Định danh người nộp, ví dụ HCC1954, TCGA-ZX-AA5X, vv",
+    "Tổng số tập tin cho trường hợp này trong kho lưu trữ legacy của GDC",
+    "Tổng số tệp cho trường hợp này trong kho lưu trữ GDC đang hoạt động (mặc định)"
+  ],
+  "sample_rows": [
+    {
+      "id_gdc_trường_hợp": "8e20b23c-1e5c-4edc-8263-ec3ec3abf482",
+      "Số nhận dạng dự án dbGaP": "phs001179",
+      "loại_bệnh_dự_án": "multi",
+      "tên dự án": "Foundation Medicine Adult Cancer Clinical Dataset (FM-AD)",
+      "số tiếp nhận chương trình DBGap": null,
+      "tên chương trình": "FM",
+      "Mã dự án": "FM-AD",
+      "Mã vạch hồ sơ": "AD1",
+      "số_tệp_lưu_trữ": 0,
+      "đếm_tệp_hoạt_dụng": 5
+    },
+    {
+      "id_gdc_trường_hợp": "35818db5-87e9-4c42-9d4c-902bbfaa09ea",
+      "Số nhận dạng dự án dbGaP": "phs001179",
+      "loại_bệnh_dự_án": "multi",
+      "tên dự án": "Foundation Medicine Adult Cancer Clinical Dataset (FM-AD)",
+      "số tiếp nhận chương trình DBGap": null,
+      "tên chương trình": "FM",
+      "Mã dự án": "FM-AD",
+      "Mã vạch hồ sơ": "AD2",
+      "số_tệp_lưu_trữ": 0,
+      "đếm_tệp_hoạt_dụng": 5
+    },
+    {
+      "id_gdc_trường_hợp": "59b7703e-5bd6-4a2f-b4a6-be80ad6871e9",
+      "Số nhận dạng dự án dbGaP": "phs001179",
+      "loại_bệnh_dự_án": "multi",
+      "tên dự án": "Foundation Medicine Adult Cancer Clinical Dataset (FM-AD)",
+      "số tiếp nhận chương trình DBGap": null,
+      "tên chương trình": "FM",
+      "Mã dự án": "FM-AD",
+      "Mã vạch hồ sơ": "AD3",
+      "số_tệp_lưu_trữ": 0,
+      "đếm_tệp_hoạt_dụng": 5
+    },
+    {
+      "id_gdc_trường_hợp": "066801c5-7723-473e-af4e-3e227d1a680c",
+      "Số nhận dạng dự án dbGaP": "phs001179",
+      "loại_bệnh_dự_án": "multi",
+      "tên dự án": "Foundation Medicine Adult Cancer Clinical Dataset (FM-AD)",
+      "số tiếp nhận chương trình DBGap": null,
+      "tên chương trình": "FM",
+      "Mã dự án": "FM-AD",
+      "Mã vạch hồ sơ": "AD4",
+      "số_tệp_lưu_trữ": 0,
+      "đếm_tệp_hoạt_dụng": 5
+    },
+    {
+      "id_gdc_trường_hợp": "e2cf827c-f437-4759-8651-9317dd291fa5",
+      "Số nhận dạng dự án dbGaP": "phs001179",
+      "loại_bệnh_dự_án": "multi",
+      "tên dự án": "Foundation Medicine Adult Cancer Clinical Dataset (FM-AD)",
+      "số tiếp nhận chương trình DBGap": null,
+      "tên chương trình": "FM",
+      "Mã dự án": "FM-AD",
+      "Mã vạch hồ sơ": "AD5",
+      "số_tệp_lưu_trữ": 0,
+      "đếm_tệp_hoạt_dụng": 5
+    }
+  ]
+}
