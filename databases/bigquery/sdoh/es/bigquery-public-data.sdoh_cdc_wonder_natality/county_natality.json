@@ -1,0 +1,126 @@
+{
+  "table_name": "county_natality",
+  "table_fullname": "bigquery-public-data.sdoh_cdc_wonder_natality.county_natality",
+  "column_names": [
+    "Año",
+    "Condado de Residencia",
+    "FIPS del condado de residencia",
+    "Nacimientos",
+    "Promedio_Edad_Madre",
+    "Promedio OE Edad Gestacional Semanas",
+    "Edad gestacional media de la última menstruación en semanas",
+    "Peso de nacimiento de ave (g)",
+    "Promedio de IMC pre-embarazo",
+    "Promedio número de semanas prenatales"
+  ],
+  "column_types": [
+    "DATE",
+    "STRING",
+    "STRING",
+    "INT64",
+    "FLOAT64",
+    "FLOAT64",
+    "FLOAT64",
+    "FLOAT64",
+    "FLOAT64",
+    "FLOAT64"
+  ],
+  "nested_column_names": [
+    "Año",
+    "Condado de residencia",
+    "FIPS del condado de residencia",
+    "Nacimientos",
+    "Edad Promedio de la Madre",
+    "Promedio OE Edad Gestacional Semanas",
+    "Edad gestacional media (semanas)",
+    "Promedio de peso al nacer (g)",
+    "Promedio IMC preembarazo",
+    "Promedio_Número_de_Semanas_Prenatales"
+  ],
+  "nested_column_types": [
+    "DATE",
+    "STRING",
+    "STRING",
+    "INT64",
+    "FLOAT64",
+    "FLOAT64",
+    "FLOAT64",
+    "FLOAT64",
+    "FLOAT64",
+    "FLOAT64"
+  ],
+  "description": [
+    "Año",
+    "Condado de residencia",
+    "Código de condado de residencia",
+    "Número de nacimientos",
+    "Edad promedio de la madre (años)",
+    "Promedio OE Edad Gestacional (semanas)",
+    "Edad gestacional promedio según la última menstruación (semanas)",
+    "Peso medio al nacer (gramos)",
+    "IMC promedio previo al embarazo",
+    "Número promedio de visitas prenatales"
+  ],
+  "sample_rows": [
+    {
+      "Año": "2018-01-01",
+      "Condado de residencia": "Calhoun County, AL",
+      "FIPS del condado de residencia": "01015",
+      "Nacimientos": 1265,
+      "Edad Promedio de la Madre": 26.67,
+      "Promedio OE Edad Gestacional Semanas": 38.11,
+      "Edad gestacional media (semanas)": 38.25,
+      "Promedio de peso al nacer (g)": 3168.14,
+      "Promedio IMC preembarazo": 28.85,
+      "Promedio_Número_de_Semanas_Prenatales": 10.45
+    },
+    {
+      "Año": "2018-01-01",
+      "Condado de residencia": "Tulsa County, OK",
+      "FIPS del condado de residencia": "40143",
+      "Nacimientos": 8933,
+      "Edad Promedio de la Madre": 28.13,
+      "Promedio OE Edad Gestacional Semanas": 38.18,
+      "Edad gestacional media (semanas)": 38.25,
+      "Promedio de peso al nacer (g)": 3243.39,
+      "Promedio IMC preembarazo": 27.58,
+      "Promedio_Número_de_Semanas_Prenatales": 11.04
+    },
+    {
+      "Año": "2018-01-01",
+      "Condado de residencia": "Carroll County, GA",
+      "FIPS del condado de residencia": "13045",
+      "Nacimientos": 1540,
+      "Edad Promedio de la Madre": 27.2,
+      "Promedio OE Edad Gestacional Semanas": 38.5,
+      "Edad gestacional media (semanas)": 38.5,
+      "Promedio de peso al nacer (g)": 3253.35,
+      "Promedio IMC preembarazo": 27.98,
+      "Promedio_Número_de_Semanas_Prenatales": 10.75
+    },
+    {
+      "Año": "2018-01-01",
+      "Condado de residencia": "Saginaw County, MI",
+      "FIPS del condado de residencia": "26145",
+      "Nacimientos": 2182,
+      "Edad Promedio de la Madre": 27.41,
+      "Promedio OE Edad Gestacional Semanas": 38.75,
+      "Edad gestacional media (semanas)": 38.5,
+      "Promedio de peso al nacer (g)": 3226.9,
+      "Promedio IMC preembarazo": 28.85,
+      "Promedio_Número_de_Semanas_Prenatales": 11.58
+    },
+    {
+      "Año": "2018-01-01",
+      "Condado de residencia": "Hillsborough County, FL",
+      "FIPS del condado de residencia": "12057",
+      "Nacimientos": 17126,
+      "Edad Promedio de la Madre": 28.97,
+      "Promedio OE Edad Gestacional Semanas": 38.41,
+      "Edad gestacional media (semanas)": 38.5,
+      "Promedio de peso al nacer (g)": 3230.36,
+      "Promedio IMC preembarazo": 26.75,
+      "Promedio_Número_de_Semanas_Prenatales": 10.64
+    }
+  ]
+}
