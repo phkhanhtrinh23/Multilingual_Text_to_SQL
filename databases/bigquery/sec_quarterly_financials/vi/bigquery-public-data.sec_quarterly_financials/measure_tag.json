@@ -1,0 +1,118 @@
+{
+  "table_name": "measure_tag",
+  "table_fullname": "bigquery-public-data.sec_quarterly_financials.measure_tag",
+  "column_names": [
+    "thẻ đo",
+    "phiên bản",
+    "tùy chỉnh",
+    "tóm tắt",
+    "kiểu dữ liệu",
+    "i hoặc d",
+    "nợ hay có",
+    "Nhãn thẻ",
+    "tài liệu",
+    "Thời gian phân vùng"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "BOOL",
+    "BOOL",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "TIMESTAMP"
+  ],
+  "nested_column_names": [
+    "thẻ đo",
+    "phiên bản",
+    "Tùy chỉnh",
+    "tóm tắt",
+    "kiểu dữ liệu",
+    "Thêm hoặc Xóa",
+    "nợ hoặc có",
+    "nhãn thẻ",
+    "Tài liệu"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "BOOL",
+    "BOOL",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "Bộ nhận dạng duy nhất (tên) cho một thẻ trong một phiên bản phân loại cụ thể. measure_tag:[tag]",
+    "Đối với một thẻ tiêu chuẩn, một mã định danh cho hệ thống phân loại; nếu không, số truy cập nơi thẻ được định nghĩa.",
+    "1 nếu tag là tùy chỉnh (version=adsh), 0 nếu nó là chuẩn. Lưu ý: Cờ này thực tế là thừa với các trường version và adsh.",
+    "1 nếu thẻ không được sử dụng để biểu diễn một số liệu.",
+    "Nếu abstract=1, thì NULL, nếu không thì kiểu dữ liệu (ví dụ: tiền tệ) cho thẻ.",
+    "Nếu abstract=1, thì NULL; nếu không, I nếu giá trị là một điểm thời gian, hoặc D nếu giá trị là một khoảng thời gian. i_or_d: [iord]",
+    "Nếu datatype = tiền tệ, thì số dư kế toán tự nhiên của thẻ từ góc độ bảng cân đối hoặc báo cáo thu nhập (nợ hoặc có); nếu chưa xác định, thì NULL. credit_or_debit: [crdr]",
+    "Nếu là thẻ chuẩn, thì văn bản nhãn được cung cấp bởi hệ thống phân loại, nếu không thì là văn bản được cung cấp bởi người nộp. Một thẻ không có cả hai sẽ có giá trị NULL ở đây. tag_label: [tlabel]",
+    "Định nghĩa chi tiết cho thẻ, đã được cắt ngắn thành 2048 ký tự. Nếu là thẻ chuẩn, thì văn bản được cung cấp bởi hệ thống phân loại, nếu không thì văn bản được gán bởi người gửi. Một số thẻ không có cả hai, trong trường hợp này trường này là NULL."
+  ],
+  "sample_rows": [
+    {
+      "thẻ đo": "InvestmentIdentifierLineItems",
+      "phiên bản": "invest/2013",
+      "Tùy chỉnh": false,
+      "tóm tắt": true,
+      "kiểu dữ liệu": null,
+      "Thêm hoặc Xóa": null,
+      "nợ hoặc có": null,
+      "nhãn thẻ": "Investment Identifier [Line Items]",
+      "Tài liệu": "Line items represent reporting concepts included in a table. These concepts are used to disclose reportable information associated with domain members defined in one or many axes to the table."
+    },
+    {
+      "thẻ đo": "InvestmentIdentifierTable",
+      "phiên bản": "invest/2013",
+      "Tùy chỉnh": false,
+      "tóm tắt": true,
+      "kiểu dữ liệu": null,
+      "Thêm hoặc Xóa": null,
+      "nợ hoặc có": null,
+      "nhãn thẻ": "Investment Identifier [Table]",
+      "Tài liệu": "This table lists the identifiers for the investments. An investment may have more than one identifier. Each identifier is from an identifier scheme."
+    },
+    {
+      "thẻ đo": "InvestmentLineItems",
+      "phiên bản": "invest/2013",
+      "Tùy chỉnh": false,
+      "tóm tắt": true,
+      "kiểu dữ liệu": null,
+      "Thêm hoặc Xóa": null,
+      "nợ hoặc có": null,
+      "nhãn thẻ": "Investment [Line Items]",
+      "Tài liệu": "Line items represent reporting concepts included in a table. These concepts are used to disclose reportable information associated with domain members defined in one or many axes to the table."
+    },
+    {
+      "thẻ đo": "InvestmentMaturityDateRangeAbstract",
+      "phiên bản": "invest/2013",
+      "Tùy chỉnh": false,
+      "tóm tắt": true,
+      "kiểu dữ liệu": null,
+      "Thêm hoặc Xóa": null,
+      "nợ hoặc có": null,
+      "nhãn thẻ": "Investment Maturity Date Range [Abstract]",
+      "Tài liệu": "The maturity date range of the underlying investments reported on the Schedule of Investments."
+    },
+    {
+      "thẻ đo": "InvestmentTable",
+      "phiên bản": "invest/2013",
+      "Tùy chỉnh": false,
+      "tóm tắt": true,
+      "kiểu dữ liệu": null,
+      "Thêm hoặc Xóa": null,
+      "nợ hoặc có": null,
+      "nhãn thẻ": "Investment [Table]",
+      "Tài liệu": "This table lists the investments. The line items identify information about the investment."
+    }
+  ]
+}
