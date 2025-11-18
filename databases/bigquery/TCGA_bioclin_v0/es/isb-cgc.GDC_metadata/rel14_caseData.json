@@ -1,0 +1,126 @@
+{
+  "table_name": "rel14_caseData",
+  "table_fullname": "isb-cgc.GDC_metadata.rel14_caseData",
+  "column_names": [
+    "id_gdc_caso",
+    "Número de acceso del proyecto dbGaP",
+    "tipo_de_enfermedad_del_proyecto",
+    "nombre del proyecto",
+    "Número de acceso de dbGaP del programa",
+    "nombre_del_programa",
+    "ID del proyecto",
+    "código de barras del caso",
+    "total_archivos_legados",
+    "número de archivos actuales"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "id_caso_gdc",
+    "Número de acceso dbGaP del proyecto",
+    "Tipo de enfermedad del proyecto",
+    "nombre del proyecto",
+    "número de acceso del programa dbGap",
+    "nombre del programa",
+    "id_proyecto",
+    "código de barras del caso",
+    "cantidad_archivos_legados",
+    "número actual de archivos"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "INT64"
+  ],
+  "description": [
+    "identificador único de GDC",
+    "Número de acceso dbGaP del programa, por ejemplo phs000178",
+    "El tipo de enfermedad estudiado por el proyecto; p. ej.: Sarcoma, carcinoma invasivo de mama, leucemia linfoblástica aguda, etc.",
+    "Nombre del Proyecto; con frecuencia es el mismo o similar al tipo de enfermedad del proyecto, por ejemplo: Leucemia Linfoblástica Aguda - Fase II o Carcinoma Invasivo de Mama, etc",
+    "Número de acceso del programa dbGaP, por ejemplo phs000178",
+    "Nombre del programa, por ejemplo, TCGA o TARGET",
+    "ID del proyecto -- por ejemplo, TCGA-BRCA, TARGET-AML, etc.",
+    "Identificador del remitente, por ejemplo HCC1954, TCGA-ZX-AA5X, etc",
+    "Número total de archivos para este caso en el archivo legado de GDC",
+    "Número total de archivos para este caso en el archivo GDC predeterminado/actual"
+  ],
+  "sample_rows": [
+    {
+      "id_caso_gdc": "8e20b23c-1e5c-4edc-8263-ec3ec3abf482",
+      "Número de acceso dbGaP del proyecto": "phs001179",
+      "Tipo de enfermedad del proyecto": "multi",
+      "nombre del proyecto": "Foundation Medicine Adult Cancer Clinical Dataset (FM-AD)",
+      "número de acceso del programa dbGap": null,
+      "nombre del programa": "FM",
+      "id_proyecto": "FM-AD",
+      "código de barras del caso": "AD1",
+      "cantidad_archivos_legados": 0,
+      "número actual de archivos": 5
+    },
+    {
+      "id_caso_gdc": "35818db5-87e9-4c42-9d4c-902bbfaa09ea",
+      "Número de acceso dbGaP del proyecto": "phs001179",
+      "Tipo de enfermedad del proyecto": "multi",
+      "nombre del proyecto": "Foundation Medicine Adult Cancer Clinical Dataset (FM-AD)",
+      "número de acceso del programa dbGap": null,
+      "nombre del programa": "FM",
+      "id_proyecto": "FM-AD",
+      "código de barras del caso": "AD2",
+      "cantidad_archivos_legados": 0,
+      "número actual de archivos": 5
+    },
+    {
+      "id_caso_gdc": "59b7703e-5bd6-4a2f-b4a6-be80ad6871e9",
+      "Número de acceso dbGaP del proyecto": "phs001179",
+      "Tipo de enfermedad del proyecto": "multi",
+      "nombre del proyecto": "Foundation Medicine Adult Cancer Clinical Dataset (FM-AD)",
+      "número de acceso del programa dbGap": null,
+      "nombre del programa": "FM",
+      "id_proyecto": "FM-AD",
+      "código de barras del caso": "AD3",
+      "cantidad_archivos_legados": 0,
+      "número actual de archivos": 5
+    },
+    {
+      "id_caso_gdc": "066801c5-7723-473e-af4e-3e227d1a680c",
+      "Número de acceso dbGaP del proyecto": "phs001179",
+      "Tipo de enfermedad del proyecto": "multi",
+      "nombre del proyecto": "Foundation Medicine Adult Cancer Clinical Dataset (FM-AD)",
+      "número de acceso del programa dbGap": null,
+      "nombre del programa": "FM",
+      "id_proyecto": "FM-AD",
+      "código de barras del caso": "AD4",
+      "cantidad_archivos_legados": 0,
+      "número actual de archivos": 5
+    },
+    {
+      "id_caso_gdc": "e2cf827c-f437-4759-8651-9317dd291fa5",
+      "Número de acceso dbGaP del proyecto": "phs001179",
+      "Tipo de enfermedad del proyecto": "multi",
+      "nombre del proyecto": "Foundation Medicine Adult Cancer Clinical Dataset (FM-AD)",
+      "número de acceso del programa dbGap": null,
+      "nombre del programa": "FM",
+      "id_proyecto": "FM-AD",
+      "código de barras del caso": "AD5",
+      "cantidad_archivos_legados": 0,
+      "número actual de archivos": 5
+    }
+  ]
+}
