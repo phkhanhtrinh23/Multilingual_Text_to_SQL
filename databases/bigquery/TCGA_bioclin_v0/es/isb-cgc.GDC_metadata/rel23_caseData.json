@@ -1,0 +1,126 @@
+{
+  "table_name": "rel23_caseData",
+  "table_fullname": "isb-cgc.GDC_metadata.rel23_caseData",
+  "column_names": [
+    "id_gdc_del_caso",
+    "número de acceso del proyecto dbgap",
+    "tipo de enfermedad del proyecto",
+    "nombre_del_proyecto",
+    "Número de acceso de dbGaP del programa",
+    "nombre del programa",
+    "id_proyecto",
+    "código de barras del caso",
+    "cantidad_archivos_legado",
+    "número de archivos activos"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "ID de caso GDC",
+    "número de acceso del proyecto dbgap",
+    "tipo de enfermedad del proyecto",
+    "nombre del proyecto",
+    "Número de acceso del programa dbGaP",
+    "nombre del programa",
+    "id_proyecto",
+    "código de barras del caso",
+    "conteo_archivos_legado",
+    "cantidad de archivos activos"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "INT64"
+  ],
+  "description": [
+    "identificador único de GDC",
+    "Número de acceso dbGaP del programa, ej. phs000187",
+    "El tipo de enfermedad estudiado por el proyecto; p. ej., Sarcoma, Carcinoma invasivo de mama, Leucemia linfoblástica aguda, etc.",
+    "Nombre del Proyecto; suele ser el mismo o similar al tipo de enfermedad del proyecto, por ejemplo, Leucemia Linfoblástica Aguda - Fase II o Carcinoma Invasivo de Mama, etc",
+    "Número de acceso dbGaP del programa, p. ej. phs000178",
+    "Nombre del programa, por ejemplo TCGA o TARGET",
+    "ID del Proyecto -- por ejemplo, TCGA-BRCA, TARGET-AML, etc",
+    "Identificador del remitente, por ejemplo HCC1954, TCGA-ZX-AA5X, etc.",
+    "Número total de archivos para este caso en el archivo legado de GDC",
+    "Número total de archivos para este caso en el archivo GDC activo (predeterminado)"
+  ],
+  "sample_rows": [
+    {
+      "ID de caso GDC": "7f36eff2-aa69-4c4d-8101-8801c812a36b",
+      "número de acceso del proyecto dbgap": null,
+      "tipo de enfermedad del proyecto": "Cystic, Mucinous and Serous Neoplasms;Not Reported",
+      "nombre del proyecto": "Ovarian Serous Cystadenocarcinoma",
+      "Número de acceso del programa dbGaP": "phs000178",
+      "nombre del programa": "TCGA",
+      "id_proyecto": "TCGA-OV",
+      "código de barras del caso": "TCGA-13-0914",
+      "conteo_archivos_legado": 9,
+      "cantidad de archivos activos": 20
+    },
+    {
+      "ID de caso GDC": "78821fb5-0669-42c7-b62b-b61d6b7d7ac6",
+      "número de acceso del proyecto dbgap": null,
+      "tipo de enfermedad del proyecto": "Cystic, Mucinous and Serous Neoplasms;Not Reported",
+      "nombre del proyecto": "Ovarian Serous Cystadenocarcinoma",
+      "Número de acceso del programa dbGaP": "phs000178",
+      "nombre del programa": "TCGA",
+      "id_proyecto": "TCGA-OV",
+      "código de barras del caso": "TCGA-13-0922",
+      "conteo_archivos_legado": 9,
+      "cantidad de archivos activos": 20
+    },
+    {
+      "ID de caso GDC": "f88560c8-3475-47f2-9d48-4b8311bc1132",
+      "número de acceso del proyecto dbgap": null,
+      "tipo de enfermedad del proyecto": "Cystic, Mucinous and Serous Neoplasms;Not Reported",
+      "nombre del proyecto": "Ovarian Serous Cystadenocarcinoma",
+      "Número de acceso del programa dbGaP": "phs000178",
+      "nombre del programa": "TCGA",
+      "id_proyecto": "TCGA-OV",
+      "código de barras del caso": "TCGA-01-0628",
+      "conteo_archivos_legado": 41,
+      "cantidad de archivos activos": 21
+    },
+    {
+      "ID de caso GDC": "dc9b4616-e815-43c8-9ec4-720a32868541",
+      "número de acceso del proyecto dbgap": null,
+      "tipo de enfermedad del proyecto": "Cystic, Mucinous and Serous Neoplasms;Not Reported",
+      "nombre del proyecto": "Ovarian Serous Cystadenocarcinoma",
+      "Número de acceso del programa dbGaP": "phs000178",
+      "nombre del programa": "TCGA",
+      "id_proyecto": "TCGA-OV",
+      "código de barras del caso": "TCGA-01-0630",
+      "conteo_archivos_legado": 41,
+      "cantidad de archivos activos": 21
+    },
+    {
+      "ID de caso GDC": "3a7b22b5-0847-46df-92bf-cacc3f11deef",
+      "número de acceso del proyecto dbgap": null,
+      "tipo de enfermedad del proyecto": "Cystic, Mucinous and Serous Neoplasms;Not Reported",
+      "nombre del proyecto": "Ovarian Serous Cystadenocarcinoma",
+      "Número de acceso del programa dbGaP": "phs000178",
+      "nombre del programa": "TCGA",
+      "id_proyecto": "TCGA-OV",
+      "código de barras del caso": "TCGA-01-0631",
+      "conteo_archivos_legado": 41,
+      "cantidad de archivos activos": 21
+    }
+  ]
+}

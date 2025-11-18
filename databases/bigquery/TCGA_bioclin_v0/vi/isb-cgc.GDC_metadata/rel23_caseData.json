@@ -1,0 +1,126 @@
+{
+  "table_name": "rel23_caseData",
+  "table_fullname": "isb-cgc.GDC_metadata.rel23_caseData",
+  "column_names": [
+    "ID GDC của trường hợp",
+    "Số truy cập DBGap dự án",
+    "loại_bệnh_dự_án",
+    "tên dự án",
+    "số truy cập chương trình dbgap",
+    "tên chương trình",
+    "Mã dự án",
+    "Mã vạch hồ sơ",
+    "số tệp legacy",
+    "số tệp đang hoạt động"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "ID trường hợp GDC",
+    "số truy nhập dự án dbgap",
+    "loại_bệnh_dự_hoàn",
+    "tên dự án",
+    "số truy nhập chương trình dbGaP",
+    "tên chương trình",
+    "Mã dự án",
+    "mã vạch hộp",
+    "số_tệp_cũ",
+    "số_tệp_đang_hoạt_dụng"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "INT64"
+  ],
+  "description": [
+    "Định danh duy nhất GDC",
+    "Số truy cập dbGaP của chương trình, ví dụ phs000187",
+    "Loại bệnh được nghiên cứu trong dự án; ví dụ: Sarcoma, Ung thư vảy tuyến vú xâm lấn, Bạch cầu lymphoblastic cấp tính, v.v.",
+    "Tên Dự Án; thường là cùng hoặc tương tự với loại bệnh trong dự án, ví dụ: Acute Lymphoblastic Leukemia - Phase II hoặc Breast Invasive Carcinoma v.v.",
+    "Số truy cập chương trình dbGaP, ví dụ phs000178",
+    "Tên chương trình, ví dụ: TCGA hoặc TARGET",
+    "ID của dự án -- ví dụ như TCGA-BRCA, TARGET-AML, v.v.",
+    "Định danh người nộp, ví dụ HCC1954, TCGA-ZX-AA5X, v.v.",
+    "Tổng số tệp cho trường hợp này trong kho lưu trữ legacy của GDC",
+    "Số lượng tổng cộng tệp tin cho trường hợp này trong kho lưu trữ GDC đang hoạt động (mặc định)"
+  ],
+  "sample_rows": [
+    {
+      "ID trường hợp GDC": "7f36eff2-aa69-4c4d-8101-8801c812a36b",
+      "số truy nhập dự án dbgap": null,
+      "loại_bệnh_dự_hoàn": "Cystic, Mucinous and Serous Neoplasms;Not Reported",
+      "tên dự án": "Ovarian Serous Cystadenocarcinoma",
+      "số truy nhập chương trình dbGaP": "phs000178",
+      "tên chương trình": "TCGA",
+      "Mã dự án": "TCGA-OV",
+      "mã vạch hộp": "TCGA-13-0914",
+      "số_tệp_cũ": 9,
+      "số_tệp_đang_hoạt_dụng": 20
+    },
+    {
+      "ID trường hợp GDC": "78821fb5-0669-42c7-b62b-b61d6b7d7ac6",
+      "số truy nhập dự án dbgap": null,
+      "loại_bệnh_dự_hoàn": "Cystic, Mucinous and Serous Neoplasms;Not Reported",
+      "tên dự án": "Ovarian Serous Cystadenocarcinoma",
+      "số truy nhập chương trình dbGaP": "phs000178",
+      "tên chương trình": "TCGA",
+      "Mã dự án": "TCGA-OV",
+      "mã vạch hộp": "TCGA-13-0922",
+      "số_tệp_cũ": 9,
+      "số_tệp_đang_hoạt_dụng": 20
+    },
+    {
+      "ID trường hợp GDC": "f88560c8-3475-47f2-9d48-4b8311bc1132",
+      "số truy nhập dự án dbgap": null,
+      "loại_bệnh_dự_hoàn": "Cystic, Mucinous and Serous Neoplasms;Not Reported",
+      "tên dự án": "Ovarian Serous Cystadenocarcinoma",
+      "số truy nhập chương trình dbGaP": "phs000178",
+      "tên chương trình": "TCGA",
+      "Mã dự án": "TCGA-OV",
+      "mã vạch hộp": "TCGA-01-0628",
+      "số_tệp_cũ": 41,
+      "số_tệp_đang_hoạt_dụng": 21
+    },
+    {
+      "ID trường hợp GDC": "dc9b4616-e815-43c8-9ec4-720a32868541",
+      "số truy nhập dự án dbgap": null,
+      "loại_bệnh_dự_hoàn": "Cystic, Mucinous and Serous Neoplasms;Not Reported",
+      "tên dự án": "Ovarian Serous Cystadenocarcinoma",
+      "số truy nhập chương trình dbGaP": "phs000178",
+      "tên chương trình": "TCGA",
+      "Mã dự án": "TCGA-OV",
+      "mã vạch hộp": "TCGA-01-0630",
+      "số_tệp_cũ": 41,
+      "số_tệp_đang_hoạt_dụng": 21
+    },
+    {
+      "ID trường hợp GDC": "3a7b22b5-0847-46df-92bf-cacc3f11deef",
+      "số truy nhập dự án dbgap": null,
+      "loại_bệnh_dự_hoàn": "Cystic, Mucinous and Serous Neoplasms;Not Reported",
+      "tên dự án": "Ovarian Serous Cystadenocarcinoma",
+      "số truy nhập chương trình dbGaP": "phs000178",
+      "tên chương trình": "TCGA",
+      "Mã dự án": "TCGA-OV",
+      "mã vạch hộp": "TCGA-01-0631",
+      "số_tệp_cũ": 41,
+      "số_tệp_đang_hoạt_dụng": 21
+    }
+  ]
+}
