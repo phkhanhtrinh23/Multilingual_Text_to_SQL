@@ -1,0 +1,126 @@
+{
+  "table_name": "bikeshare_trips",
+  "table_fullname": "bigquery-public-data.austin_bikeshare.bikeshare_trips",
+  "column_names": [
+    "mã chuyến đi",
+    "loại đăng ký",
+    "mã xe đạp",
+    "loại xe đạp",
+    "thời gian bắt đầu",
+    "mã_trạm_bắt_đầu",
+    "tên trạm xuất phát",
+    "mã trạm cuối",
+    "tên trạm cuối",
+    "độ dài (phút)"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "TIMESTAMP",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "Mã chuyến",
+    "loại đăng ký",
+    "mã xe đạp",
+    "loại xe",
+    "thời gian bắt đầu",
+    "mã_trạm_xuất_phát",
+    "tên trạm xuất phát",
+    "id_trạm_chuối",
+    "Tên trạm cuối",
+    "độ dài (phút)"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "TIMESTAMP",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64"
+  ],
+  "description": [
+    "ID số của chuyến đi xe đạp",
+    "Loại người đăng ký",
+    "ID của xe đạp đã dùng",
+    "Loại xe đạp được sử dụng",
+    "Dấu thời gian bắt đầu chuyến đi",
+    "Tham chiếu số cho ga xuất phát",
+    "Tên trạm cho trạm khởi đầu",
+    "Tham chiếu số cho ga cuối",
+    "Tên trạm cuối",
+    "Thời gian chuyến đi tính bằng phút"
+  ],
+  "sample_rows": [
+    {
+      "Mã chuyến": "4098781",
+      "loại đăng ký": "24 Hour Walk Up Pass",
+      "mã xe đạp": "14",
+      "loại xe": "classic",
+      "thời gian bắt đầu": "2015-03-12 22:24:45+00:00",
+      "mã_trạm_xuất_phát": 2546,
+      "tên trạm xuất phát": "ACC - West & 12th Street",
+      "id_trạm_chuối": "2546",
+      "Tên trạm cuối": "ACC - West & 12th Street",
+      "độ dài (phút)": 44
+    },
+    {
+      "Mã chuyến": "4098776",
+      "loại đăng ký": "24 Hour Walk Up Pass",
+      "mã xe đạp": "24",
+      "loại xe": "classic",
+      "thời gian bắt đầu": "2015-03-12 22:22:59+00:00",
+      "mã_trạm_xuất_phát": 2546,
+      "tên trạm xuất phát": "ACC - West & 12th Street",
+      "id_trạm_chuối": "2546",
+      "Tên trạm cuối": "ACC - West & 12th Street",
+      "độ dài (phút)": 46
+    },
+    {
+      "Mã chuyến": "4098773",
+      "loại đăng ký": "24 Hour Walk Up Pass",
+      "mã xe đạp": "789",
+      "loại xe": "classic",
+      "thời gian bắt đầu": "2015-03-12 22:21:57+00:00",
+      "mã_trạm_xuất_phát": 2546,
+      "tên trạm xuất phát": "ACC - West & 12th Street",
+      "id_trạm_chuối": "2546",
+      "Tên trạm cuối": "ACC - West & 12th Street",
+      "độ dài (phút)": 80
+    },
+    {
+      "Mã chuyến": "4098766",
+      "loại đăng ký": "24 Hour Walk Up Pass",
+      "mã xe đạp": "306",
+      "loại xe": "classic",
+      "thời gian bắt đầu": "2015-03-12 22:20:09+00:00",
+      "mã_trạm_xuất_phát": 2546,
+      "tên trạm xuất phát": "ACC - West & 12th Street",
+      "id_trạm_chuối": "2546",
+      "Tên trạm cuối": "ACC - West & 12th Street",
+      "độ dài (phút)": 47
+    },
+    {
+      "Mã chuyến": "4098761",
+      "loại đăng ký": "24 Hour Walk Up Pass",
+      "mã xe đạp": "362",
+      "loại xe": "classic",
+      "thời gian bắt đầu": "2015-03-12 22:19:11+00:00",
+      "mã_trạm_xuất_phát": 2546,
+      "tên trạm xuất phát": "ACC - West & 12th Street",
+      "id_trạm_chuối": "2546",
+      "Tên trạm cuối": "ACC - West & 12th Street",
+      "độ dài (phút)": 47
+    }
+  ]
+}
