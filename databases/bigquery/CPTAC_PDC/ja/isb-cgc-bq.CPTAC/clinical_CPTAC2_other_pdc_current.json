@@ -1,0 +1,106 @@
+{
+  "table_name": "clinical_CPTAC2_other_pdc_current",
+  "table_fullname": "isb-cgc-bq.CPTAC.clinical_CPTAC2_other_pdc_current",
+  "column_names": [
+    "ケースID",
+    "ケース提出者ID",
+    "プロジェクト提出者ID",
+    "疾患種別",
+    "人口統計ID",
+    "人口統計提出者ID",
+    "診断ID",
+    "診断提出者ID"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "ケースID",
+    "ケース提出者ID",
+    "プロジェクト提出者ID",
+    "疾患タイプ",
+    "人口統計ID",
+    "人口統計送信者ID",
+    "診断ID",
+    "診断提出者ID"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "特定の患者に関連付けられた一意の識別子（例: 24cb0fcb-63d6-11e8-bcf1-0a2705229b82）",
+    "データ提出者から派生した、特定の患者に関連付けられた一意の識別子（例：05BR016）",
+    "データ提出者から派生した、特定のプロジェクト（例：CPTAC3-Discovery）に関連付けられたユニークな識別子",
+    "世界保健機関（WHO）の国際がん疾病分類（ICD-O）で分類された悪性疾患の種類を表すために使用されるテキスト用語",
+    "患者の特性を年齢・性別・人種などで人口をセグメント化して表現するデータに付与されるユニーク識別子（例：848b480c-0f56-11e9-a064-0a9c39d33490）",
+    "データ提出者から派生したユニーク識別子で、年齢、性別、人種などで人口をセグメント化して患者の特性を付与するためにデータに属性付けされるもの（例：P001-DM）",
+    "調査、解析、および表現された兆候や症状から病気・状態・怪我の存在と性質を認識するためのデータのユニーク識別子；また、あらゆる種類の科学的判断；そのような調査の簡潔な結果（例：e8dd475b-693a-11ea-b1fd-0aad30af8a83）",
+    "データ提出者から派生し、調査・分析および表現された兆候・症状から病気・状態・損傷の有無と性質を認識するためのデータに帰属する一意識別子；また、いかなる種類の科学的判断も含む；そのような調査の簡潔な結果（例：33‑DX）"
+  ],
+  "sample_rows": [
+    {
+      "ケースID": "221c00a5-5af5-4793-988d-223263ecfb38",
+      "ケース提出者ID": "WHIM30",
+      "プロジェクト提出者ID": "CPTAC2-Other",
+      "疾患タイプ": "Other",
+      "人口統計ID": "34907ec2-932a-4752-8219-63083ec3093b",
+      "人口統計送信者ID": "WHIM30-DM",
+      "診断ID": "364cd5ec-54cd-4c01-af96-bea6c4dda74c",
+      "診断提出者ID": "WHIM30-DX"
+    },
+    {
+      "ケースID": "5d66255e-9161-42b2-a59f-4764a4e7b570",
+      "ケース提出者ID": "WHIM27",
+      "プロジェクト提出者ID": "CPTAC2-Other",
+      "疾患タイプ": "Other",
+      "人口統計ID": "78fc2a0c-6f77-413e-b9b1-15cff02ee45e",
+      "人口統計送信者ID": "WHIM27-DM",
+      "診断ID": "0dbfa6eb-7865-4bc1-bcad-bda770d71212",
+      "診断提出者ID": "WHIM27-DX"
+    },
+    {
+      "ケースID": "8e984f66-c1db-4588-bd01-691870ba0225",
+      "ケース提出者ID": "HumanIR",
+      "プロジェクト提出者ID": "CPTAC2-Other",
+      "疾患タイプ": "Other",
+      "人口統計ID": "b63884c6-1208-4c33-ab1b-92c4ec7c1973",
+      "人口統計送信者ID": "HumanIR-DM",
+      "診断ID": "3dda7dd9-ad98-4ca3-bdde-c9076696767e",
+      "診断提出者ID": "HumanIR-DX"
+    },
+    {
+      "ケースID": "35adc129-34de-4a9e-8243-caece2a6c6d2",
+      "ケース提出者ID": "WHIM11",
+      "プロジェクト提出者ID": "CPTAC2-Other",
+      "疾患タイプ": "Other",
+      "人口統計ID": "784e6e74-32f1-4c9f-bed1-90e955d5d3d8",
+      "人口統計送信者ID": "WHIM11-DM",
+      "診断ID": "b6a05087-83c4-4c4b-bd8b-5a32d83a20a0",
+      "診断提出者ID": "WHIM11-DX"
+    },
+    {
+      "ケースID": "adfe3073-938e-4789-bb6e-3e18c0c226ee",
+      "ケース提出者ID": "WHIM46",
+      "プロジェクト提出者ID": "CPTAC2-Other",
+      "疾患タイプ": "Other",
+      "人口統計ID": "ab9d86c4-72a3-4d9d-9567-fa60187cff39",
+      "人口統計送信者ID": "WHIM46-DM",
+      "診断ID": "52d7eeaa-3dab-45b7-9ebc-c31fee11bad7",
+      "診断提出者ID": "WHIM46-DX"
+    }
+  ]
+}
