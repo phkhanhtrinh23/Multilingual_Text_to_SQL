@@ -1,0 +1,126 @@
+{
+  "table_name": "population_evaluation_type",
+  "table_fullname": "bigquery-public-data.usfs_fia.population_evaluation_type",
+  "column_names": [
+    "número de secuencia del tipo de evaluación",
+    "numero_de_secuencia_del_grupo_de_evaluación",
+    "número de secuencia de evaluación",
+    "tipo de evaluación",
+    "Tipo de evaluación creado por",
+    "Fecha de creación del tipo de evaluación",
+    "Tipo de evaluación creado en la instancia",
+    "evaluación_tipo_modificado_por",
+    "fecha de modificación del tipo de evaluación",
+    "tipo de evaluación modificado en instancia"
+  ],
+  "column_types": [
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING",
+    "DATE",
+    "INT64",
+    "STRING",
+    "DATE",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "número de secuencia de tipo de evaluación",
+    "Número de secuencia del grupo de evaluación",
+    "Número de secuencia de evaluación",
+    "tipo_evaluación",
+    "tipo de evaluación creado por",
+    "Fecha de creación del tipo de evaluación",
+    "Tipo de evaluación creado en la instancia",
+    "tipo de evaluación modificado por",
+    "fecha de modificación del tipo de evaluación",
+    "Tipo de evaluación modificado en la instancia"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING",
+    "DATE",
+    "INT64",
+    "STRING",
+    "DATE",
+    "INT64"
+  ],
+  "description": [
+    "Un número de secuencia único usado para identificar un registro de tipo de evaluación poblacional.",
+    "Clave foránea que enlaza el registro de evaluación de población con el registro del grupo de evaluación de población.",
+    "Clave foránea que enlaza el registro de la unidad de estimación con el registro de la evaluación.",
+    "Describe el tipo de evaluación. El tipo de evaluación es necesario para generar informes resumidos de un inventario. Por ejemplo, una evaluación específica está asociada con la evaluación del volumen de árboles (EXPVOL). En la actualidad, se pueden producir nueve tipos de evaluaciones. Consulte también la tabla REF_POP_EVAL_TYP_DESCR.",
+    "Ver la descripción de SURVEY.CREATED_BY para la definición.",
+    "Ver la descripción de SURVEY.CREATED_DATE para la definición",
+    "Ver la descripción de SURVEY.CREATED_IN_INSTANCE para la definición.",
+    "Véase la descripción de SURVEY.MODIFIED_BY para la definición.",
+    "Véase la descripción de SURVEY.MODIFIED_DATE para la definición.",
+    "Véase la descripción de SURVEY.MODIFIED_IN_INSTANCE para la definición."
+  ],
+  "sample_rows": [
+    {
+      "número de secuencia de tipo de evaluación": 247340670010854,
+      "Número de secuencia del grupo de evaluación": 246589849010854,
+      "Número de secuencia de evaluación": 247334062010854,
+      "tipo_evaluación": "EXPGROW",
+      "tipo de evaluación creado por": null,
+      "Fecha de creación del tipo de evaluación": "2010-08-27",
+      "Tipo de evaluación creado en la instancia": 10854,
+      "tipo de evaluación modificado por": null,
+      "fecha de modificación del tipo de evaluación": "NaT",
+      "Tipo de evaluación modificado en la instancia": null
+    },
+    {
+      "número de secuencia de tipo de evaluación": 247340671010854,
+      "Número de secuencia del grupo de evaluación": 246589849010854,
+      "Número de secuencia de evaluación": 247334062010854,
+      "tipo_evaluación": "EXPREMV",
+      "tipo de evaluación creado por": null,
+      "Fecha de creación del tipo de evaluación": "2010-08-27",
+      "Tipo de evaluación creado en la instancia": 10854,
+      "tipo de evaluación modificado por": null,
+      "fecha de modificación del tipo de evaluación": "NaT",
+      "Tipo de evaluación modificado en la instancia": null
+    },
+    {
+      "número de secuencia de tipo de evaluación": 247340672010854,
+      "Número de secuencia del grupo de evaluación": 246589849010854,
+      "Número de secuencia de evaluación": 247334062010854,
+      "tipo_evaluación": "EXPMORT",
+      "tipo de evaluación creado por": null,
+      "Fecha de creación del tipo de evaluación": "2010-08-27",
+      "Tipo de evaluación creado en la instancia": 10854,
+      "tipo de evaluación modificado por": null,
+      "fecha de modificación del tipo de evaluación": "NaT",
+      "Tipo de evaluación modificado en la instancia": null
+    },
+    {
+      "número de secuencia de tipo de evaluación": 215078424010854,
+      "Número de secuencia del grupo de evaluación": 209643348010854,
+      "Número de secuencia de evaluación": 209643345010854,
+      "tipo_evaluación": "EXPCURR",
+      "tipo de evaluación creado por": null,
+      "Fecha de creación del tipo de evaluación": "2009-12-15",
+      "Tipo de evaluación creado en la instancia": 10854,
+      "tipo de evaluación modificado por": null,
+      "fecha de modificación del tipo de evaluación": "NaT",
+      "Tipo de evaluación modificado en la instancia": null
+    },
+    {
+      "número de secuencia de tipo de evaluación": 215078427010854,
+      "Número de secuencia del grupo de evaluación": 209643348010854,
+      "Número de secuencia de evaluación": 209643346010854,
+      "tipo_evaluación": "EXPVOL",
+      "tipo de evaluación creado por": null,
+      "Fecha de creación del tipo de evaluación": "2009-12-15",
+      "Tipo de evaluación creado en la instancia": 10854,
+      "tipo de evaluación modificado por": null,
+      "fecha de modificación del tipo de evaluación": "NaT",
+      "Tipo de evaluación modificado en la instancia": null
+    }
+  ]
+}
