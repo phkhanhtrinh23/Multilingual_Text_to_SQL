@@ -1,0 +1,126 @@
+{
+  "table_name": "population_evaluation_type",
+  "table_fullname": "bigquery-public-data.usfs_fia.population_evaluation_type",
+  "column_names": [
+    "số thứ tự loại đánh giá",
+    "số thứ tự nhóm đánh giá",
+    "số thứ tự đánh giá",
+    "Loại đánh giá",
+    "Loại đánh giá được tạo bởi",
+    "loại_đánh_giá_ngày_tạo",
+    "loại đánh giá được tạo trong thực thể",
+    "người sửa loại đánh giá",
+    "ngày sửa đổi loại đánh giá",
+    "Loại đánh giá đã được sửa đổi trong trường hợp"
+  ],
+  "column_types": [
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING",
+    "DATE",
+    "INT64",
+    "STRING",
+    "DATE",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "loại_đánh_giá_số_thứ_tự",
+    "Số thứ tự nhóm đánh giá",
+    "số thứ tự đánh giá",
+    "loại đánh giá",
+    "Loại đánh giá được tạo bởi",
+    "ngày tạo loại đánh giá",
+    "loại đánh giá được tạo trong instance",
+    "Loại đánh giá đã được sửa bởi",
+    "ngày_chỉnh_sửa_loại_đánh_giá",
+    "loại đánh giá đã sửa đổi trong trường hợp"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING",
+    "DATE",
+    "INT64",
+    "STRING",
+    "DATE",
+    "INT64"
+  ],
+  "description": [
+    "Một số thứ tự duy nhất được sử dụng để xác định một bản ghi loại đánh giá dân số.",
+    "Khóa ngoại liên kết bản ghi đánh giá dân số với bản ghi nhóm đánh giá dân số.",
+    "Khóa ngoại liên kết bản ghi đơn vị ước lượng với bản ghi đánh giá.",
+    "Miêu tả loại đánh giá. Loại đánh giá cần thiết để tạo báo cáo tổng hợp cho một kho. Ví dụ, một đánh giá cụ thể được liên kết với đánh giá thể tích cây (EXPVOL). Hiện tại, có thể sản xuất được chín loại đánh giá. Xem thêm bảng REF_POP_EVAL_TYP_DESCR.",
+    "Xem mô tả SURVEY.CREATED_BY để biết định nghĩa.",
+    "Xem mô tả SURVEY.CREATED_DATE để biết định nghĩa",
+    "Xem mô tả SURVEY.CREATED_IN_INSTANCE để biết định nghĩa.",
+    "Xem mô tả SURVEY.MODIFIED_BY để biết định nghĩa.",
+    "Xem mô tả SURVEY.MODIFIED_DATE để biết định nghĩa.",
+    "Xem mô tả SURVEY.MODIFIED_IN_INSTANCE để biết định nghĩa."
+  ],
+  "sample_rows": [
+    {
+      "loại_đánh_giá_số_thứ_tự": 247340670010854,
+      "Số thứ tự nhóm đánh giá": 246589849010854,
+      "số thứ tự đánh giá": 247334062010854,
+      "loại đánh giá": "EXPGROW",
+      "Loại đánh giá được tạo bởi": null,
+      "ngày tạo loại đánh giá": "2010-08-27",
+      "loại đánh giá được tạo trong instance": 10854,
+      "Loại đánh giá đã được sửa bởi": null,
+      "ngày_chỉnh_sửa_loại_đánh_giá": "NaT",
+      "loại đánh giá đã sửa đổi trong trường hợp": null
+    },
+    {
+      "loại_đánh_giá_số_thứ_tự": 247340671010854,
+      "Số thứ tự nhóm đánh giá": 246589849010854,
+      "số thứ tự đánh giá": 247334062010854,
+      "loại đánh giá": "EXPREMV",
+      "Loại đánh giá được tạo bởi": null,
+      "ngày tạo loại đánh giá": "2010-08-27",
+      "loại đánh giá được tạo trong instance": 10854,
+      "Loại đánh giá đã được sửa bởi": null,
+      "ngày_chỉnh_sửa_loại_đánh_giá": "NaT",
+      "loại đánh giá đã sửa đổi trong trường hợp": null
+    },
+    {
+      "loại_đánh_giá_số_thứ_tự": 247340672010854,
+      "Số thứ tự nhóm đánh giá": 246589849010854,
+      "số thứ tự đánh giá": 247334062010854,
+      "loại đánh giá": "EXPMORT",
+      "Loại đánh giá được tạo bởi": null,
+      "ngày tạo loại đánh giá": "2010-08-27",
+      "loại đánh giá được tạo trong instance": 10854,
+      "Loại đánh giá đã được sửa bởi": null,
+      "ngày_chỉnh_sửa_loại_đánh_giá": "NaT",
+      "loại đánh giá đã sửa đổi trong trường hợp": null
+    },
+    {
+      "loại_đánh_giá_số_thứ_tự": 215078424010854,
+      "Số thứ tự nhóm đánh giá": 209643348010854,
+      "số thứ tự đánh giá": 209643345010854,
+      "loại đánh giá": "EXPCURR",
+      "Loại đánh giá được tạo bởi": null,
+      "ngày tạo loại đánh giá": "2009-12-15",
+      "loại đánh giá được tạo trong instance": 10854,
+      "Loại đánh giá đã được sửa bởi": null,
+      "ngày_chỉnh_sửa_loại_đánh_giá": "NaT",
+      "loại đánh giá đã sửa đổi trong trường hợp": null
+    },
+    {
+      "loại_đánh_giá_số_thứ_tự": 215078427010854,
+      "Số thứ tự nhóm đánh giá": 209643348010854,
+      "số thứ tự đánh giá": 209643346010854,
+      "loại đánh giá": "EXPVOL",
+      "Loại đánh giá được tạo bởi": null,
+      "ngày tạo loại đánh giá": "2009-12-15",
+      "loại đánh giá được tạo trong instance": 10854,
+      "Loại đánh giá đã được sửa bởi": null,
+      "ngày_chỉnh_sửa_loại_đánh_giá": "NaT",
+      "loại đánh giá đã sửa đổi trong trường hợp": null
+    }
+  ]
+}
