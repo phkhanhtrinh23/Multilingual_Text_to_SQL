@@ -1,0 +1,116 @@
+{
+  "table_name": "quant_phosphoproteome_AML_ex_vivo_drug_response_combination_treatment_pdc_current",
+  "table_fullname": "isb-cgc-bq.CPTAC.quant_phosphoproteome_AML_ex_vivo_drug_response_combination_treatment_pdc_current",
+  "column_names": [
+    "ケースID",
+    "サンプルID",
+    "分注ID",
+    "サンプル提出者ID",
+    "アリクォート実行メタデータID",
+    "研究名",
+    "タンパク質濃度対数2比",
+    "参照配列ID",
+    "リン酸化部位"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "案件ID",
+    "サンプルID",
+    "アリクォットID",
+    "サンプル提出者ID",
+    "試料分割実行メタデータID",
+    "研究名",
+    "タンパク質濃度対数2比",
+    "参照配列ID",
+    "リン酸化部位"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "特定の患者に関連付けられたユニーク識別子（例：24cb0fcb-63d6-11e8-bcf1-0a2705229b82）",
+    "このサンプルのユニークなPDC識別子（例：e8d83eb9-693a-11ea-b1fd-0aad30af8a83）",
+    "このアリオットのユニークなPDC識別子（例：e8db124a-693a-11ea-b1fd-0aad30af8a83）",
+    "プログラムにより割り当てられたアリクオット提出者ID（例：T14）",
+    "実験中の使用方法（ラベル付け試薬や/または生物学的複製に基づく）によって、アルイオットを一意に識別します",
+    "研究名（例：小児脳腫瘍パイロット研究 - フォスフォプロテオーム）",
+    "特定の生物サンプルから取得されたデータにおける、遺伝子に関連するペプチドイオンのサンプルレポーターイオンと共通リファレンスの平均対数比",
+    "NCBI RefSeqデータベース内の配列に付与されるユニーク識別子",
+    "リン酸化されたアミノ酸の単一文字コードとタンパク質配列位置（例：t304s310、t59）"
+  ],
+  "sample_rows": [
+    {
+      "案件ID": "e4796a23-6e79-4159-8547-d7fbe13098c9",
+      "サンプルID": "dddc3c0f-af7c-453b-9929-fe6896297df1",
+      "アリクォットID": "cc445b9a-5a06-48cc-854e-7a7611bf7b22",
+      "サンプル提出者ID": "15-00756-1",
+      "試料分割実行メタデータID": "0b52440e-7094-4574-926d-b2720e6abc40",
+      "研究名": "AML Ex Vivo Drug Response - Combination Treatment - Phosphoproteome",
+      "タンパク質濃度対数2比": -1.0824,
+      "参照配列ID": "NP_000170.1",
+      "リン酸化部位": "s252s261"
+    },
+    {
+      "案件ID": "e4796a23-6e79-4159-8547-d7fbe13098c9",
+      "サンプルID": "dddc3c0f-af7c-453b-9929-fe6896297df1",
+      "アリクォットID": "cc445b9a-5a06-48cc-854e-7a7611bf7b22",
+      "サンプル提出者ID": "15-00756-1",
+      "試料分割実行メタデータID": "0b52440e-7094-4574-926d-b2720e6abc40",
+      "研究名": "AML Ex Vivo Drug Response - Combination Treatment - Phosphoproteome",
+      "タンパク質濃度対数2比": -1.9697,
+      "参照配列ID": "NP_000876.3",
+      "リン酸化部位": "s1021"
+    },
+    {
+      "案件ID": "e4796a23-6e79-4159-8547-d7fbe13098c9",
+      "サンプルID": "dddc3c0f-af7c-453b-9929-fe6896297df1",
+      "アリクォットID": "cc445b9a-5a06-48cc-854e-7a7611bf7b22",
+      "サンプル提出者ID": "15-00756-1",
+      "試料分割実行メタデータID": "0b52440e-7094-4574-926d-b2720e6abc40",
+      "研究名": "AML Ex Vivo Drug Response - Combination Treatment - Phosphoproteome",
+      "タンパク質濃度対数2比": 1.322,
+      "参照配列ID": "NP_000876.3",
+      "リン酸化部位": "s424"
+    },
+    {
+      "案件ID": "e4796a23-6e79-4159-8547-d7fbe13098c9",
+      "サンプルID": "dddc3c0f-af7c-453b-9929-fe6896297df1",
+      "アリクォットID": "cc445b9a-5a06-48cc-854e-7a7611bf7b22",
+      "サンプル提出者ID": "15-00756-1",
+      "試料分割実行メタデータID": "0b52440e-7094-4574-926d-b2720e6abc40",
+      "研究名": "AML Ex Vivo Drug Response - Combination Treatment - Phosphoproteome",
+      "タンパク質濃度対数2比": -1.7199,
+      "参照配列ID": "NP_000959.2",
+      "リン酸化部位": "s365"
+    },
+    {
+      "案件ID": "e4796a23-6e79-4159-8547-d7fbe13098c9",
+      "サンプルID": "dddc3c0f-af7c-453b-9929-fe6896297df1",
+      "アリクォットID": "cc445b9a-5a06-48cc-854e-7a7611bf7b22",
+      "サンプル提出者ID": "15-00756-1",
+      "試料分割実行メタデータID": "0b52440e-7094-4574-926d-b2720e6abc40",
+      "研究名": "AML Ex Vivo Drug Response - Combination Treatment - Phosphoproteome",
+      "タンパク質濃度対数2比": -0.387,
+      "参照配列ID": "NP_001001998.1",
+      "リン酸化部位": "s13"
+    }
+  ]
+}
