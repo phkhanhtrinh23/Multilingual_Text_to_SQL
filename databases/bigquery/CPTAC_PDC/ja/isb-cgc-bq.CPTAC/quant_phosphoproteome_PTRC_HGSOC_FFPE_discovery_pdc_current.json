@@ -1,0 +1,116 @@
+{
+  "table_name": "quant_phosphoproteome_PTRC_HGSOC_FFPE_discovery_pdc_current",
+  "table_fullname": "isb-cgc-bq.CPTAC.quant_phosphoproteome_PTRC_HGSOC_FFPE_discovery_pdc_current",
+  "column_names": [
+    "案件ID",
+    "サンプルID",
+    "標本ID",
+    "アリクォート提出者ID",
+    "試料実行メタデータID",
+    "研究名",
+    "タンパク質発現量対数2比",
+    "リファレンスシーケンスID",
+    "リン酸化部位"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "案件ID",
+    "サンプルID",
+    "アリクオットID",
+    "サンプル送信者ID",
+    "アリクオート実行メタデータID",
+    "研究名",
+    "タンパク質発現量対数2比",
+    "リファレンスシーケンスID",
+    "リン酸化部位"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "特定の患者に関連付けられた一意の識別子（例：24cb0fcb-63d6-11e8-bcf1-0a2705229b82）",
+    "このサンプルのユニークなPDC識別子（例：e8d83eb9-693a-11ea-b1fd-0aad30af8a83）",
+    "このアリコットのユニークなPDC識別子（例：e8db124a-693a-11ea-b1fd-0aad30af8a83）",
+    "アリクォート送信者IDはプログラムにより割り当てられます（例：T14）",
+    "実験での使用方法（ラベル付け試薬や/または生物学的コピーに基づく）によって、分注を一意に識別します。",
+    "研究名（例：小児脳癌パイロット研究 - フォスフォプロテオーム）",
+    "特定の生物サンプルから取得されたデータにおける、遺伝子に関連付けられたペプチドイオンのサンプルレポーターイオンと共通参照の平均対数比",
+    "NCBI RefSeqデータベースの配列に付与される一意の識別子",
+    "リン酸化アミノ酸の単一文字コードとタンパク質配列上の位置（例：t304s310、t59）"
+  ],
+  "sample_rows": [
+    {
+      "案件ID": "6dc777d4-4a5b-4387-9ed2-0d2fa9f4ff72",
+      "サンプルID": "16d7cf28-d501-4845-af50-581879c46b79",
+      "アリクオットID": "47b273c2-d4a5-4cf6-8ed8-551cd6c5fe0c",
+      "サンプル送信者ID": "Frozen-bridge",
+      "アリクオート実行メタデータID": "00b4ad2e-0b60-4edb-8d1f-1f4d6d8b9e45",
+      "研究名": "PTRC HGSOC FFPE Discovery - Phosphoproteome",
+      "タンパク質発現量対数2比": -0.4584,
+      "リファレンスシーケンスID": "NP_001032752.1",
+      "リン酸化部位": "s106"
+    },
+    {
+      "案件ID": "6dc777d4-4a5b-4387-9ed2-0d2fa9f4ff72",
+      "サンプルID": "16d7cf28-d501-4845-af50-581879c46b79",
+      "アリクオットID": "47b273c2-d4a5-4cf6-8ed8-551cd6c5fe0c",
+      "サンプル送信者ID": "Frozen-bridge",
+      "アリクオート実行メタデータID": "00b4ad2e-0b60-4edb-8d1f-1f4d6d8b9e45",
+      "研究名": "PTRC HGSOC FFPE Discovery - Phosphoproteome",
+      "タンパク質発現量対数2比": 0.2839,
+      "リファレンスシーケンスID": "NP_001121689.1",
+      "リン酸化部位": "s129"
+    },
+    {
+      "案件ID": "6dc777d4-4a5b-4387-9ed2-0d2fa9f4ff72",
+      "サンプルID": "16d7cf28-d501-4845-af50-581879c46b79",
+      "アリクオットID": "47b273c2-d4a5-4cf6-8ed8-551cd6c5fe0c",
+      "サンプル送信者ID": "Frozen-bridge",
+      "アリクオート実行メタデータID": "00b4ad2e-0b60-4edb-8d1f-1f4d6d8b9e45",
+      "研究名": "PTRC HGSOC FFPE Discovery - Phosphoproteome",
+      "タンパク質発現量対数2比": 0.9428,
+      "リファレンスシーケンスID": "NP_001127836.1",
+      "リン酸化部位": "s636"
+    },
+    {
+      "案件ID": "6dc777d4-4a5b-4387-9ed2-0d2fa9f4ff72",
+      "サンプルID": "16d7cf28-d501-4845-af50-581879c46b79",
+      "アリクオットID": "47b273c2-d4a5-4cf6-8ed8-551cd6c5fe0c",
+      "サンプル送信者ID": "Frozen-bridge",
+      "アリクオート実行メタデータID": "00b4ad2e-0b60-4edb-8d1f-1f4d6d8b9e45",
+      "研究名": "PTRC HGSOC FFPE Discovery - Phosphoproteome",
+      "タンパク質発現量対数2比": -1.1168,
+      "リファレンスシーケンスID": "NP_001128409.1",
+      "リン酸化部位": "s486"
+    },
+    {
+      "案件ID": "6dc777d4-4a5b-4387-9ed2-0d2fa9f4ff72",
+      "サンプルID": "16d7cf28-d501-4845-af50-581879c46b79",
+      "アリクオットID": "47b273c2-d4a5-4cf6-8ed8-551cd6c5fe0c",
+      "サンプル送信者ID": "Frozen-bridge",
+      "アリクオート実行メタデータID": "00b4ad2e-0b60-4edb-8d1f-1f4d6d8b9e45",
+      "研究名": "PTRC HGSOC FFPE Discovery - Phosphoproteome",
+      "タンパク質発現量対数2比": -0.7,
+      "リファレンスシーケンスID": "NP_001139019.1",
+      "リン酸化部位": "s155"
+    }
+  ]
+}
