@@ -1,0 +1,116 @@
+{
+  "table_name": "quant_phosphoproteome_CPTAC_HNSCC_discovery_study_pdc_current",
+  "table_fullname": "isb-cgc-bq.CPTAC.quant_phosphoproteome_CPTAC_HNSCC_discovery_study_pdc_current",
+  "column_names": [
+    "案件编号",
+    "样本编号",
+    "分装ID",
+    "样本提交人ID",
+    "样本分配运行元数据ID",
+    "研究名称",
+    "蛋白质丰度对数2比值",
+    "参考序列编号",
+    "磷酸化位点"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "案例编号",
+    "样本编号",
+    "分装编号",
+    "分装提交者ID",
+    "分装运行元数据ID",
+    "研究名称",
+    "蛋白质丰度对数二比值",
+    "参考序列编号",
+    "磷酸化位点"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "与特定患者关联的唯一标识符（例如 24cb0fcb-63d6-11e8-bcf1-0a2705229b82）",
+    "此样本的唯一 PDC 标识符（例如 e8d83eb9-693a-11ea-b1fd-0aad30af8a83）",
+    "此样本的唯一 PDC 标识符（例如 e8db124a-693a-11ea-b1fd-0aad30af8a83）",
+    "分装提交者ID（由程序分配，例如 T14）",
+    "根据在实验中使用的方式（基于标记试剂和/或生物学重复）唯一识别等份。",
+    "研究名称（例如：儿科脑癌试点研究 - 磷酸化蛋白组）",
+    "来自特定生物样本的采集中，基因相关肽离子样本报告离子与共同参考离子之比的对数平均值。",
+    "在 NCBI RefSeq 数据库中分配给序列的唯一标识符",
+    "磷酸化氨基酸的单字母代码和蛋白质序列位置（例如 t304s310, t59）"
+  ],
+  "sample_rows": [
+    {
+      "案例编号": "df4ea6f3-8f98-11ea-b1fd-0aad30af8a83",
+      "样本编号": "df4f5bdb-8f98-11ea-b1fd-0aad30af8a83",
+      "分装编号": "df507d6a-8f98-11ea-b1fd-0aad30af8a83",
+      "分装提交者ID": "CPT0278700002",
+      "分装运行元数据ID": "422c0f92-8fab-11ea-bc9a-0a16d369a41f",
+      "研究名称": "CPTAC HNSCC Discovery Study - Phosphoproteome",
+      "蛋白质丰度对数二比值": 0.3506438760398335,
+      "参考序列编号": "NP_004577.1",
+      "磷酸化位点": "y234"
+    },
+    {
+      "案例编号": "df4eac21-8f98-11ea-b1fd-0aad30af8a83",
+      "样本编号": "df4f6605-8f98-11ea-b1fd-0aad30af8a83",
+      "分装编号": "df508537-8f98-11ea-b1fd-0aad30af8a83",
+      "分装提交者ID": "CPT0248520003",
+      "分装运行元数据ID": "422c12c8-8fab-11ea-bc9a-0a16d369a41f",
+      "研究名称": "CPTAC HNSCC Discovery Study - Phosphoproteome",
+      "蛋白质丰度对数二比值": -0.23414133269041515,
+      "参考序列编号": "NP_002017.1",
+      "磷酸化位点": "t524y525"
+    },
+    {
+      "案例编号": "df4ea6f3-8f98-11ea-b1fd-0aad30af8a83",
+      "样本编号": "df4f5bdb-8f98-11ea-b1fd-0aad30af8a83",
+      "分装编号": "df507d6a-8f98-11ea-b1fd-0aad30af8a83",
+      "分装提交者ID": "CPT0278700002",
+      "分装运行元数据ID": "422c0f92-8fab-11ea-bc9a-0a16d369a41f",
+      "研究名称": "CPTAC HNSCC Discovery Study - Phosphoproteome",
+      "蛋白质丰度对数二比值": -0.2008295081473152,
+      "参考序列编号": "NP_055953.3",
+      "磷酸化位点": "s697"
+    },
+    {
+      "案例编号": "df4efdf1-8f98-11ea-b1fd-0aad30af8a83",
+      "样本编号": "df4ffeb8-8f98-11ea-b1fd-0aad30af8a83",
+      "分装编号": "df51044b-8f98-11ea-b1fd-0aad30af8a83",
+      "分装提交者ID": "CPT0246590003",
+      "分装运行元数据ID": "422c19e5-8fab-11ea-bc9a-0a16d369a41f",
+      "研究名称": "CPTAC HNSCC Discovery Study - Phosphoproteome",
+      "蛋白质丰度对数二比值": -0.7727531217649894,
+      "参考序列编号": "NP_001136202.1",
+      "磷酸化位点": "s551"
+    },
+    {
+      "案例编号": "df4f1830-8f98-11ea-b1fd-0aad30af8a83",
+      "样本编号": "df502f10-8f98-11ea-b1fd-0aad30af8a83",
+      "分装编号": "df512dbf-8f98-11ea-b1fd-0aad30af8a83",
+      "分装提交者ID": "CPT0222360003",
+      "分装运行元数据ID": "422c0e8b-8fab-11ea-bc9a-0a16d369a41f",
+      "研究名称": "CPTAC HNSCC Discovery Study - Phosphoproteome",
+      "蛋白质丰度对数二比值": 0.5247810525842279,
+      "参考序列编号": "NP_000539.2",
+      "磷酸化位点": "s1411"
+    }
+  ]
+}
