@@ -1,0 +1,116 @@
+{
+  "table_name": "quant_phosphoproteome_CPTAC_HNSCC_discovery_study_pdc_current",
+  "table_fullname": "isb-cgc-bq.CPTAC.quant_phosphoproteome_CPTAC_HNSCC_discovery_study_pdc_current",
+  "column_names": [
+    "ケースID",
+    "サンプルID",
+    "分液ID",
+    "アリコート提出者ID",
+    "アルキュート実行メタデータID",
+    "研究名",
+    "タンパク質濃度対数2比",
+    "参照配列ID",
+    "リン酸化部位"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "ケースID",
+    "サンプルID",
+    "アリクオットID",
+    "アリクオット提出者ID",
+    "アリクオート実行メタデータID",
+    "研究名",
+    "タンパク質発現量対数2比",
+    "参照配列ID",
+    "リン酸化部位"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "特定の患者に関連付けられたユニークな識別子（例：24cb0fcb-63d6-11e8-bcf1-0a2705229b82）",
+    "このサンプルのユニークなPDC識別子（例：e8d83eb9-693a-11ea-b1fd-0aad30af8a83）",
+    "このアリクォートのユニークPDC識別子（例：e8db124a-693a-11ea-b1fd-0aad30af8a83）",
+    "プログラムによって割り当てられるアリオット送信者ID（例：T14）",
+    "試験での使用方法（ラベル付け試薬および/または生物学的リプリケートに基づく）により、アリオットをユニークに識別します。",
+    "研究名（例：小児脳腫瘍パイロット研究 - フォスフォプロテオーム）",
+    "特定の生物サンプルから取得されたアクイジションにおいて、対象遺伝子に関連するペプチドイオンに対するサンプルレポーターイオンと共通リファレンスの平均対数比",
+    "NCBI RefSeqデータベースで配列に付与される一意の識別子",
+    "リン酸化アミノ酸の単一文字コードとタンパク質配列位置（例：t304s310、t59）"
+  ],
+  "sample_rows": [
+    {
+      "ケースID": "df4ea6f3-8f98-11ea-b1fd-0aad30af8a83",
+      "サンプルID": "df4f5bdb-8f98-11ea-b1fd-0aad30af8a83",
+      "アリクオットID": "df507d6a-8f98-11ea-b1fd-0aad30af8a83",
+      "アリクオット提出者ID": "CPT0278700002",
+      "アリクオート実行メタデータID": "422c0f92-8fab-11ea-bc9a-0a16d369a41f",
+      "研究名": "CPTAC HNSCC Discovery Study - Phosphoproteome",
+      "タンパク質発現量対数2比": 0.3506438760398335,
+      "参照配列ID": "NP_004577.1",
+      "リン酸化部位": "y234"
+    },
+    {
+      "ケースID": "df4eac21-8f98-11ea-b1fd-0aad30af8a83",
+      "サンプルID": "df4f6605-8f98-11ea-b1fd-0aad30af8a83",
+      "アリクオットID": "df508537-8f98-11ea-b1fd-0aad30af8a83",
+      "アリクオット提出者ID": "CPT0248520003",
+      "アリクオート実行メタデータID": "422c12c8-8fab-11ea-bc9a-0a16d369a41f",
+      "研究名": "CPTAC HNSCC Discovery Study - Phosphoproteome",
+      "タンパク質発現量対数2比": -0.23414133269041515,
+      "参照配列ID": "NP_002017.1",
+      "リン酸化部位": "t524y525"
+    },
+    {
+      "ケースID": "df4ea6f3-8f98-11ea-b1fd-0aad30af8a83",
+      "サンプルID": "df4f5bdb-8f98-11ea-b1fd-0aad30af8a83",
+      "アリクオットID": "df507d6a-8f98-11ea-b1fd-0aad30af8a83",
+      "アリクオット提出者ID": "CPT0278700002",
+      "アリクオート実行メタデータID": "422c0f92-8fab-11ea-bc9a-0a16d369a41f",
+      "研究名": "CPTAC HNSCC Discovery Study - Phosphoproteome",
+      "タンパク質発現量対数2比": -0.2008295081473152,
+      "参照配列ID": "NP_055953.3",
+      "リン酸化部位": "s697"
+    },
+    {
+      "ケースID": "df4efdf1-8f98-11ea-b1fd-0aad30af8a83",
+      "サンプルID": "df4ffeb8-8f98-11ea-b1fd-0aad30af8a83",
+      "アリクオットID": "df51044b-8f98-11ea-b1fd-0aad30af8a83",
+      "アリクオット提出者ID": "CPT0246590003",
+      "アリクオート実行メタデータID": "422c19e5-8fab-11ea-bc9a-0a16d369a41f",
+      "研究名": "CPTAC HNSCC Discovery Study - Phosphoproteome",
+      "タンパク質発現量対数2比": -0.7727531217649894,
+      "参照配列ID": "NP_001136202.1",
+      "リン酸化部位": "s551"
+    },
+    {
+      "ケースID": "df4f1830-8f98-11ea-b1fd-0aad30af8a83",
+      "サンプルID": "df502f10-8f98-11ea-b1fd-0aad30af8a83",
+      "アリクオットID": "df512dbf-8f98-11ea-b1fd-0aad30af8a83",
+      "アリクオット提出者ID": "CPT0222360003",
+      "アリクオート実行メタデータID": "422c0e8b-8fab-11ea-bc9a-0a16d369a41f",
+      "研究名": "CPTAC HNSCC Discovery Study - Phosphoproteome",
+      "タンパク質発現量対数2比": 0.5247810525842279,
+      "参照配列ID": "NP_000539.2",
+      "リン酸化部位": "s1411"
+    }
+  ]
+}
