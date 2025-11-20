@@ -1,0 +1,96 @@
+{
+  "table_name": "products",
+  "table_fullname": "data-to-insights.ecommerce.products",
+  "column_names": [
+    "SKU",
+    "名前",
+    "注文数量",
+    "在庫レベル",
+    "再入荷リードタイム",
+    "感情スコア",
+    "感情強度"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "INT64",
+    "INT64",
+    "INT64",
+    "FLOAT64",
+    "FLOAT64"
+  ],
+  "nested_column_names": [
+    "在庫管理番号",
+    "名前",
+    "注文数量",
+    "在庫レベル",
+    "在庫補充リードタイム",
+    "感情スコア",
+    "感情強度"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "INT64",
+    "INT64",
+    "INT64",
+    "FLOAT64",
+    "FLOAT64"
+  ],
+  "description": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "sample_rows": [
+    {
+      "在庫管理番号": "GGADFBSBKS42347",
+      "名前": "PC gaming speakers",
+      "注文数量": 0,
+      "在庫レベル": 100,
+      "在庫補充リードタイム": 1,
+      "感情スコア": null,
+      "感情強度": null
+    },
+    {
+      "在庫管理番号": "GGOEGAAX0581",
+      "名前": " Women's Colorblock Tee White",
+      "注文数量": 0,
+      "在庫レベル": 0,
+      "在庫補充リードタイム": 8,
+      "感情スコア": 0.8,
+      "感情強度": 2.0
+    },
+    {
+      "在庫管理番号": "GGOEGAAX0596",
+      "名前": " Men's Quilted Insulated Vest Black",
+      "注文数量": 26,
+      "在庫レベル": 32,
+      "在庫補充リードタイム": 8,
+      "感情スコア": 0.8,
+      "感情強度": 2.0
+    },
+    {
+      "在庫管理番号": "GGOEGAAX0591",
+      "名前": " Men's Short Sleeve Performance Badge Tee Pewter",
+      "注文数量": 27,
+      "在庫レベル": 29,
+      "在庫補充リードタイム": 15,
+      "感情スコア": 0.6,
+      "感情強度": 1.7
+    },
+    {
+      "在庫管理番号": "GGOEGAAX0605",
+      "名前": " Women's Quilted Insulated Vest White",
+      "注文数量": 10,
+      "在庫レベル": 16,
+      "在庫補充リードタイム": 9,
+      "感情スコア": 0.6,
+      "感情強度": 1.6
+    }
+  ]
+}
