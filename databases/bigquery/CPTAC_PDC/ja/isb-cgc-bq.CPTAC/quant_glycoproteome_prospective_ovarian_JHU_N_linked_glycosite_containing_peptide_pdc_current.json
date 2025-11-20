@@ -1,0 +1,116 @@
+{
+  "table_name": "quant_glycoproteome_prospective_ovarian_JHU_N_linked_glycosite_containing_peptide_pdc_current",
+  "table_fullname": "isb-cgc-bq.CPTAC.quant_glycoproteome_prospective_ovarian_JHU_N_linked_glycosite_containing_peptide_pdc_current",
+  "column_names": [
+    "ケースID",
+    "サンプルID",
+    "アリオットID",
+    "サブミット者ID",
+    "分注実行メタデータID",
+    "研究名",
+    "タンパク質発現量対数2比",
+    "参照配列ID",
+    "糖鎖付加部位"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "ケースID",
+    "サンプルID",
+    "試料ID",
+    "サブサンプル提出者ID",
+    "サンプル実験メタデータID",
+    "研究名",
+    "タンパク質濃度のlog2比",
+    "参照配列ID",
+    "糖鎖付加部位"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "特定の患者に関連付けられた一意の識別子（例：24cb0fcb-63d6-11e8-bcf1-0a2705229b82）",
+    "このサンプルの一意のPDC識別子（例：e8d83eb9-693a-11ea-b1fd-0aad30af8a83）",
+    "このサンプルのユニーク PDC 識別子 (例：e8db124a-693a-11ea-b1fd-0aad30af8a83)",
+    "プログラムにより割り当てられたアリオクット送信者ID（例：T14）",
+    "アリオットは、実験中にどのように使用されたか（ラベル付け試薬および/または生物学的リプリケートに基づく）により、ユニークに識別されます。",
+    "研究名（例：小児脳腫瘍パイロット研究 - フォスフォプロテオーム）",
+    "特定の生物サンプルから取得されたデータにおける、遺伝子に関連するペプチドイオンの共通参照に対するサンプルレポーターイオンの平均対数比",
+    "NCBI RefSeqデータベース内の配列に付与される一意の識別子",
+    "グリコシル化アミノ酸の単一文字コードとタンパク質配列位置（例：n113n119、n57）"
+  ],
+  "sample_rows": [
+    {
+      "ケースID": "526a3222-0881-11eb-bc0e-0aad30af8a83",
+      "サンプルID": "526ab38d-0881-11eb-bc0e-0aad30af8a83",
+      "試料ID": "526b6147-0881-11eb-bc0e-0aad30af8a83",
+      "サブサンプル提出者ID": "1abbcb28-f221-4cd4-8c01-37b9bb_D1_D2",
+      "サンプル実験メタデータID": "732221d6-f151-4d24-8797-0367bd7aec38",
+      "研究名": "Prospective Ovarian JHU N-linked Glycosite-containing peptide",
+      "タンパク質濃度のlog2比": 1.783,
+      "参照配列ID": "NP_000033.2",
+      "糖鎖付加部位": "n162"
+    },
+    {
+      "ケースID": "526a3222-0881-11eb-bc0e-0aad30af8a83",
+      "サンプルID": "526ab38d-0881-11eb-bc0e-0aad30af8a83",
+      "試料ID": "526b6147-0881-11eb-bc0e-0aad30af8a83",
+      "サブサンプル提出者ID": "1abbcb28-f221-4cd4-8c01-37b9bb_D1_D2",
+      "サンプル実験メタデータID": "732221d6-f151-4d24-8797-0367bd7aec38",
+      "研究名": "Prospective Ovarian JHU N-linked Glycosite-containing peptide",
+      "タンパク質濃度のlog2比": 1.9974,
+      "参照配列ID": "NP_000623.2",
+      "糖鎖付加部位": "n940n946"
+    },
+    {
+      "ケースID": "526a3222-0881-11eb-bc0e-0aad30af8a83",
+      "サンプルID": "526ab38d-0881-11eb-bc0e-0aad30af8a83",
+      "試料ID": "526b6147-0881-11eb-bc0e-0aad30af8a83",
+      "サブサンプル提出者ID": "1abbcb28-f221-4cd4-8c01-37b9bb_D1_D2",
+      "サンプル実験メタデータID": "732221d6-f151-4d24-8797-0367bd7aec38",
+      "研究名": "Prospective Ovarian JHU N-linked Glycosite-containing peptide",
+      "タンパク質濃度のlog2比": -0.2042,
+      "参照配列ID": "NP_001103973.1",
+      "糖鎖付加部位": "n127"
+    },
+    {
+      "ケースID": "526a3222-0881-11eb-bc0e-0aad30af8a83",
+      "サンプルID": "526ab38d-0881-11eb-bc0e-0aad30af8a83",
+      "試料ID": "526b6147-0881-11eb-bc0e-0aad30af8a83",
+      "サブサンプル提出者ID": "1abbcb28-f221-4cd4-8c01-37b9bb_D1_D2",
+      "サンプル実験メタデータID": "732221d6-f151-4d24-8797-0367bd7aec38",
+      "研究名": "Prospective Ovarian JHU N-linked Glycosite-containing peptide",
+      "タンパク質濃度のlog2比": 1.3774,
+      "参照配列ID": "NP_001289418.1",
+      "糖鎖付加部位": "n239"
+    },
+    {
+      "ケースID": "526a3222-0881-11eb-bc0e-0aad30af8a83",
+      "サンプルID": "526ab38d-0881-11eb-bc0e-0aad30af8a83",
+      "試料ID": "526b6147-0881-11eb-bc0e-0aad30af8a83",
+      "サブサンプル提出者ID": "1abbcb28-f221-4cd4-8c01-37b9bb_D1_D2",
+      "サンプル実験メタデータID": "732221d6-f151-4d24-8797-0367bd7aec38",
+      "研究名": "Prospective Ovarian JHU N-linked Glycosite-containing peptide",
+      "タンパク質濃度のlog2比": -2.5768,
+      "参照配列ID": "NP_004451.2",
+      "糖鎖付加部位": "n49"
+    }
+  ]
+}
