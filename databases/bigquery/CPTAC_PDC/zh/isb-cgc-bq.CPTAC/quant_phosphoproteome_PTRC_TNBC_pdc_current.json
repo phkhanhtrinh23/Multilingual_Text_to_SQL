@@ -1,0 +1,111 @@
+{
+  "table_name": "quant_phosphoproteome_PTRC_TNBC_pdc_current",
+  "table_fullname": "isb-cgc-bq.CPTAC.quant_phosphoproteome_PTRC_TNBC_pdc_current",
+  "column_names": [
+    "案件编号",
+    "样本ID",
+    "分样编号",
+    "样本提交者ID",
+    "分装运行元数据ID",
+    "研究名称",
+    "蛋白丰度 log2 比值",
+    "RefSeq编号",
+    "磷酸化位点"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "案例编号",
+    "样本编号",
+    "样本编号",
+    "样本分离提交者ID",
+    "分装运行元数据编号",
+    "研究名称",
+    "蛋白丰度log2比值",
+    "参考序列编号",
+    "磷酸化位点"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "与特定患者相关的唯一标识符（例如 24cb0fcb-63d6-11e8-bcf1-0a2705229b82）",
+    "此样本的唯一 PDC 标识符（例如 e8d83eb9-693a-11ea-b1fd-0aad30af8a83）",
+    "该分装的唯一 PDC 标识符（例如 e8db124a-693a-11ea-b1fd-0aad30af8a83）",
+    "由程序分配的Aliquot提交者ID（例如 T14）",
+    "通过实验中的使用方式（基于标记试剂和/或生物学复制）唯一标识该分装样本",
+    "研究名称（例如：儿科脑癌试点研究 - 磷酸化蛋白组）",
+    "特定生物样本中，关联基因的肽离子相对于公共参考离子的样本报告离子的平均对数比值",
+    "在 NCBI RefSeq 数据库中为序列分配的唯一标识符",
+    "磷酸化氨基酸的单字母代码和蛋白质序列位置（例如 t304s310，t59）"
+  ],
+  "sample_rows": [
+    {
+      "案例编号": "961fcdab-129c-4ae9-8abc-2ec9ae61c866",
+      "样本编号": "064b6ce5-2964-4ed0-b258-121db8ceab0d",
+      "样本分离提交者ID": "NTN089_Baseline",
+      "分装运行元数据编号": "630f5dd6-091d-469f-8cc5-1ed43dfccdb7",
+      "研究名称": "PTRC TNBC - Phosphoproteome",
+      "蛋白丰度log2比值": 1.2257,
+      "参考序列编号": "NP_000114.2",
+      "磷酸化位点": "s384"
+    },
+    {
+      "案例编号": "961fcdab-129c-4ae9-8abc-2ec9ae61c866",
+      "样本编号": "064b6ce5-2964-4ed0-b258-121db8ceab0d",
+      "样本分离提交者ID": "NTN089_Baseline",
+      "分装运行元数据编号": "630f5dd6-091d-469f-8cc5-1ed43dfccdb7",
+      "研究名称": "PTRC TNBC - Phosphoproteome",
+      "蛋白丰度log2比值": 0.9393,
+      "参考序列编号": "NP_001002909.1",
+      "磷酸化位点": "s1035"
+    },
+    {
+      "案例编号": "961fcdab-129c-4ae9-8abc-2ec9ae61c866",
+      "样本编号": "064b6ce5-2964-4ed0-b258-121db8ceab0d",
+      "样本分离提交者ID": "NTN089_Baseline",
+      "分装运行元数据编号": "630f5dd6-091d-469f-8cc5-1ed43dfccdb7",
+      "研究名称": "PTRC TNBC - Phosphoproteome",
+      "蛋白丰度log2比值": 1.6176,
+      "参考序列编号": "NP_001003698.1",
+      "磷酸化位点": "s161"
+    },
+    {
+      "案例编号": "961fcdab-129c-4ae9-8abc-2ec9ae61c866",
+      "样本编号": "064b6ce5-2964-4ed0-b258-121db8ceab0d",
+      "样本分离提交者ID": "NTN089_Baseline",
+      "分装运行元数据编号": "630f5dd6-091d-469f-8cc5-1ed43dfccdb7",
+      "研究名称": "PTRC TNBC - Phosphoproteome",
+      "蛋白丰度log2比值": 0.7767,
+      "参考序列编号": "NP_001011553.2",
+      "磷酸化位点": "s333"
+    },
+    {
+      "案例编号": "961fcdab-129c-4ae9-8abc-2ec9ae61c866",
+      "样本编号": "064b6ce5-2964-4ed0-b258-121db8ceab0d",
+      "样本分离提交者ID": "NTN089_Baseline",
+      "分装运行元数据编号": "630f5dd6-091d-469f-8cc5-1ed43dfccdb7",
+      "研究名称": "PTRC TNBC - Phosphoproteome",
+      "蛋白丰度log2比值": 0.8599,
+      "参考序列编号": "NP_001017368.1",
+      "磷酸化位点": "s226"
+    }
+  ]
+}

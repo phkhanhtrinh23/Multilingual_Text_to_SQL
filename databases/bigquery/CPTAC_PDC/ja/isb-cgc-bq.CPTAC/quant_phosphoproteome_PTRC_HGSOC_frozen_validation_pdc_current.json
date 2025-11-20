@@ -1,0 +1,116 @@
+{
+  "table_name": "quant_phosphoproteome_PTRC_HGSOC_frozen_validation_pdc_current",
+  "table_fullname": "isb-cgc-bq.CPTAC.quant_phosphoproteome_PTRC_HGSOC_frozen_validation_pdc_current",
+  "column_names": [
+    "ケースID",
+    "サンプルID",
+    "分注ID",
+    "アリクオット提出者ID",
+    "アリオク実行メタデータID",
+    "研究名",
+    "タンパク質濃度対数2比",
+    "参照配列ID",
+    "リン酸化部位"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "ケース番号",
+    "サンプルID",
+    "アリクオットID",
+    "サンプル分割提出者ID",
+    "小分け実行メタデータID",
+    "研究名",
+    "タンパク質発現量のlog2比",
+    "リファレンス配列ID",
+    "リン酸化部位"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "特定の患者に関連付けられた一意の識別子（例：24cb0fcb-63d6-11e8-bcf1-0a2705229b82）",
+    "このサンプルのユニークなPDC識別子（例: e8d83eb9-693a-11ea-b1fd-0aad30af8a83）",
+    "このアリオットのユニークPDC識別子（例：e8db124a-693a-11ea-b1fd-0aad30af8a83）",
+    "アリオクート提出者IDはプログラムにより割り当てられます（例：T14）",
+    "アリオットを、実験での使用方法（ラベル付け試薬および/または生物学的リプリケートに基づく）で一意に特定します",
+    "研究名（例：小児脳腫瘍パイロット研究 - ホスホプロテオーム）",
+    "特定の生物学的サンプルのアクイジションにおける、遺伝子に関連するペプチドイオンのサンプルリポーターイオンと共通リファレンスとの平均対数比",
+    "NCBI RefSeq データベース内の配列に付与される一意の識別子",
+    "リン酸化アミノ酸の単文字コードとタンパク質配列位置（例：t304s310、t59）"
+  ],
+  "sample_rows": [
+    {
+      "ケース番号": "00cb6713-234c-465c-9c2e-397168bb3bca",
+      "サンプルID": "8d9c5933-055c-4b1f-8d81-a7749af94d03",
+      "アリクオットID": "47130988-7848-40fc-9076-cb545b4ca065",
+      "サンプル分割提出者ID": "589667",
+      "小分け実行メタデータID": "05da500b-8226-4f6d-bfb8-34d76ab3693f",
+      "研究名": "PTRC HGSOC Frozen Validation - Phosphoproteome",
+      "タンパク質発現量のlog2比": -0.2788,
+      "リファレンス配列ID": "NP_000436.2",
+      "リン酸化部位": "s1611"
+    },
+    {
+      "ケース番号": "00cb6713-234c-465c-9c2e-397168bb3bca",
+      "サンプルID": "8d9c5933-055c-4b1f-8d81-a7749af94d03",
+      "アリクオットID": "47130988-7848-40fc-9076-cb545b4ca065",
+      "サンプル分割提出者ID": "589667",
+      "小分け実行メタデータID": "05da500b-8226-4f6d-bfb8-34d76ab3693f",
+      "研究名": "PTRC HGSOC Frozen Validation - Phosphoproteome",
+      "タンパク質発現量のlog2比": 1.3858,
+      "リファレンス配列ID": "NP_001001522.1",
+      "リン酸化部位": "y193"
+    },
+    {
+      "ケース番号": "00cb6713-234c-465c-9c2e-397168bb3bca",
+      "サンプルID": "8d9c5933-055c-4b1f-8d81-a7749af94d03",
+      "アリクオットID": "47130988-7848-40fc-9076-cb545b4ca065",
+      "サンプル分割提出者ID": "589667",
+      "小分け実行メタデータID": "05da500b-8226-4f6d-bfb8-34d76ab3693f",
+      "研究名": "PTRC HGSOC Frozen Validation - Phosphoproteome",
+      "タンパク質発現量のlog2比": 0.6129,
+      "リファレンス配列ID": "NP_001007103.1",
+      "リン酸化部位": "s645"
+    },
+    {
+      "ケース番号": "00cb6713-234c-465c-9c2e-397168bb3bca",
+      "サンプルID": "8d9c5933-055c-4b1f-8d81-a7749af94d03",
+      "アリクオットID": "47130988-7848-40fc-9076-cb545b4ca065",
+      "サンプル分割提出者ID": "589667",
+      "小分け実行メタデータID": "05da500b-8226-4f6d-bfb8-34d76ab3693f",
+      "研究名": "PTRC HGSOC Frozen Validation - Phosphoproteome",
+      "タンパク質発現量のlog2比": -2.5995,
+      "リファレンス配列ID": "NP_001008709.1",
+      "リン酸化部位": "s336"
+    },
+    {
+      "ケース番号": "00cb6713-234c-465c-9c2e-397168bb3bca",
+      "サンプルID": "8d9c5933-055c-4b1f-8d81-a7749af94d03",
+      "アリクオットID": "47130988-7848-40fc-9076-cb545b4ca065",
+      "サンプル分割提出者ID": "589667",
+      "小分け実行メタデータID": "05da500b-8226-4f6d-bfb8-34d76ab3693f",
+      "研究名": "PTRC HGSOC Frozen Validation - Phosphoproteome",
+      "タンパク質発現量のlog2比": -0.9138,
+      "リファレンス配列ID": "NP_001011713.2",
+      "リン酸化部位": "s39"
+    }
+  ]
+}
