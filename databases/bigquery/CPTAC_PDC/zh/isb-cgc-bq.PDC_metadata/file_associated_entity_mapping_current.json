@@ -1,0 +1,76 @@
+{
+  "table_name": "file_associated_entity_mapping_current",
+  "table_fullname": "isb-cgc-bq.PDC_metadata.file_associated_entity_mapping_current",
+  "column_names": [
+    "文件ID",
+    "案件编号",
+    "实体ID",
+    "实体提交者ID",
+    "实体类型"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "文件ID",
+    "案例编号",
+    "实体ID",
+    "实体提交者ID",
+    "实体类型"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "用于在 PDC 中唯一识别文件的标识符（UUID），例如 795dd383-5efd-484b-9c2f-f061ae617fc7",
+    "与特定患者相关的唯一标识符（例如 24cb0fcb-63d6-11e8-bcf1-0a2705229b82）",
+    "一个唯一标识符（UUID），用于在 PDC 中唯一标识实体（例如 2a6b4244-6428-11e8-bcf1-0a2705229b82，指代一个分样）。",
+    "唯一标识符，源自数据提交者，用于关联特定实体（例如：TCGA-61-1911-01A-32-2224-29）",
+    "关联实体类型（例如：样本或案件）"
+  ],
+  "sample_rows": [
+    {
+      "文件ID": "ef9f2ec8-8de6-453a-9848-4f8ac587644f",
+      "案例编号": "0067a0e0-63d8-11e8-bcf1-0a2705229b82",
+      "实体ID": "2a6b4244-6428-11e8-bcf1-0a2705229b82",
+      "实体提交者ID": "TCGA-61-1911-01A-32-2224-29",
+      "实体类型": "aliquot"
+    },
+    {
+      "文件ID": "26a67215-9cf0-46cb-aef8-1938df733d2b",
+      "案例编号": "0067a0e0-63d8-11e8-bcf1-0a2705229b82",
+      "实体ID": "2a6b4244-6428-11e8-bcf1-0a2705229b82",
+      "实体提交者ID": "TCGA-61-1911-01A-32-2224-29",
+      "实体类型": "aliquot"
+    },
+    {
+      "文件ID": "b8cb61c9-68bb-4fc0-9e70-3e39ea3e2976",
+      "案例编号": "0067a0e0-63d8-11e8-bcf1-0a2705229b82",
+      "实体ID": "2a6b4244-6428-11e8-bcf1-0a2705229b82",
+      "实体提交者ID": "TCGA-61-1911-01A-32-2224-29",
+      "实体类型": "aliquot"
+    },
+    {
+      "文件ID": "e32baef6-7002-47db-a43d-cb74e752ee4f",
+      "案例编号": "0067a0e0-63d8-11e8-bcf1-0a2705229b82",
+      "实体ID": "2a6b4244-6428-11e8-bcf1-0a2705229b82",
+      "实体提交者ID": "TCGA-61-1911-01A-32-2224-29",
+      "实体类型": "aliquot"
+    },
+    {
+      "文件ID": "7535654e-5a22-420a-9fdf-93fb44f7c421",
+      "案例编号": "0067a0e0-63d8-11e8-bcf1-0a2705229b82",
+      "实体ID": "2a6b4244-6428-11e8-bcf1-0a2705229b82",
+      "实体提交者ID": "TCGA-61-1911-01A-32-2224-29",
+      "实体类型": "aliquot"
+    }
+  ]
+}
