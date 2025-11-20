@@ -1,0 +1,111 @@
+{
+  "table_name": "quant_phosphoproteome_prospective_breast_BI_pdc_current",
+  "table_fullname": "isb-cgc-bq.CPTAC.quant_phosphoproteome_prospective_breast_BI_pdc_current",
+  "column_names": [
+    "案件ID",
+    "サンプルID",
+    "分注ID",
+    "サンプル提出者ID",
+    "サンプル実行メタデータID",
+    "研究名",
+    "タンパク質発現量対数2比",
+    "リファレンスシーケンスID",
+    "リン酸化部位"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "ケースID",
+    "サンプルID",
+    "サンプルID",
+    "サンプル提出者ID",
+    "分注実行メタデータID",
+    "研究名",
+    "タンパク質発現量の対数ベース2比率",
+    "参照配列ID",
+    "リン酸化部位"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "特定の患者に関連付けられた一意識別子（例：24cb0fcb-63d6-11e8-bcf1-0a2705229b82）",
+    "このサンプルの一意のPDC識別子（例：e8d83eb9-693a-11ea-b1fd-0aad30af8a83）",
+    "このアリクオトのユニークなPDC識別子（例：e8db124a-693a-11ea-b1fd-0aad30af8a83）",
+    "アリクオット提出者IDはプログラムにより割り当てられます（例：T14）",
+    "aliquot を、実験での使用方法（ラベリング試薬および/または生物学的反復）に基づいて一意に識別します。",
+    "研究名（例：小児脳腫瘍パイロット研究 - フォスフォプロテオーム）",
+    "特定の生物サンプルから取得されたデータにおける、遺伝子に関連するペプチドイオンのサンプルリポーターイオンと共通リファレンスの平均対数比",
+    "NCBI RefSeq データベース内のシーケンスに付与される一意の識別子",
+    "リン酸化されたアミノ酸の単一文字コードとタンパク質配列上の位置（例：t304s310、t59）"
+  ],
+  "sample_rows": [
+    {
+      "ケースID": "327fdb81-0a5d-11eb-bc0e-0aad30af8a83",
+      "サンプルID": "32819972-0a5d-11eb-bc0e-0aad30af8a83",
+      "サンプル提出者ID": "fb526979-ee2d-4edf-b41d-01074f_D2",
+      "分注実行メタデータID": "01664b47-04c1-42e2-a421-49c51c4b5ff3",
+      "研究名": "Prospective Breast BI Phosphoproteome",
+      "タンパク質発現量の対数ベース2比率": null,
+      "参照配列ID": "NP_001306007.1",
+      "リン酸化部位": "s9"
+    },
+    {
+      "ケースID": "327fdb81-0a5d-11eb-bc0e-0aad30af8a83",
+      "サンプルID": "32819972-0a5d-11eb-bc0e-0aad30af8a83",
+      "サンプル提出者ID": "fb526979-ee2d-4edf-b41d-01074f_D2",
+      "分注実行メタデータID": "01664b47-04c1-42e2-a421-49c51c4b5ff3",
+      "研究名": "Prospective Breast BI Phosphoproteome",
+      "タンパク質発現量の対数ベース2比率": null,
+      "参照配列ID": "NP_003174.3",
+      "リン酸化部位": "t735"
+    },
+    {
+      "ケースID": "327fdb81-0a5d-11eb-bc0e-0aad30af8a83",
+      "サンプルID": "32819972-0a5d-11eb-bc0e-0aad30af8a83",
+      "サンプル提出者ID": "fb526979-ee2d-4edf-b41d-01074f_D2",
+      "分注実行メタデータID": "01664b47-04c1-42e2-a421-49c51c4b5ff3",
+      "研究名": "Prospective Breast BI Phosphoproteome",
+      "タンパク質発現量の対数ベース2比率": null,
+      "参照配列ID": "NP_001342366.1",
+      "リン酸化部位": "s2117"
+    },
+    {
+      "ケースID": "327fdb81-0a5d-11eb-bc0e-0aad30af8a83",
+      "サンプルID": "32819972-0a5d-11eb-bc0e-0aad30af8a83",
+      "サンプル提出者ID": "fb526979-ee2d-4edf-b41d-01074f_D2",
+      "分注実行メタデータID": "01664b47-04c1-42e2-a421-49c51c4b5ff3",
+      "研究名": "Prospective Breast BI Phosphoproteome",
+      "タンパク質発現量の対数ベース2比率": null,
+      "参照配列ID": "NP_001234935.1",
+      "リン酸化部位": "s455"
+    },
+    {
+      "ケースID": "327fdb81-0a5d-11eb-bc0e-0aad30af8a83",
+      "サンプルID": "32819972-0a5d-11eb-bc0e-0aad30af8a83",
+      "サンプル提出者ID": "fb526979-ee2d-4edf-b41d-01074f_D2",
+      "分注実行メタデータID": "01664b47-04c1-42e2-a421-49c51c4b5ff3",
+      "研究名": "Prospective Breast BI Phosphoproteome",
+      "タンパク質発現量の対数ベース2比率": null,
+      "参照配列ID": "NP_001273683.1",
+      "リン酸化部位": "s1107"
+    }
+  ]
+}
