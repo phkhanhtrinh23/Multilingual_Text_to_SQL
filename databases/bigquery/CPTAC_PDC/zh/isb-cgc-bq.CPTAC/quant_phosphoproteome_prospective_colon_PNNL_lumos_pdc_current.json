@@ -1,0 +1,116 @@
+{
+  "table_name": "quant_phosphoproteome_prospective_colon_PNNL_lumos_pdc_current",
+  "table_fullname": "isb-cgc-bq.CPTAC.quant_phosphoproteome_prospective_colon_PNNL_lumos_pdc_current",
+  "column_names": [
+    "案件编号",
+    "样本编号",
+    "分样编号",
+    "样本分装提交者ID",
+    "分装运行元数据ID",
+    "研究名称",
+    "蛋白丰度log2比值",
+    "参考序列ID",
+    "磷酸化位点"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "案例编号",
+    "样本ID",
+    "样本编号",
+    "样本分离提交者ID",
+    "分装运行元数据ID",
+    "研究名称",
+    "蛋白丰度log2比值",
+    "参考序列编号",
+    "磷酸化位点"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "与特定患者关联的唯一标识符（例如 24cb0fcb-63d6-11e8-bcf1-0a2705229b82）",
+    "此样本的唯一 PDC 标识符（例如 e8d83eb9-693a-11ea-b1fd-0aad30af8a83）",
+    "该分样的唯一 PDC 标识符（例如 e8db124a-693a-11ea-b1fd-0aad30af8a83）",
+    "样本提交者ID由程序分配（例如 T14）",
+    "通过它在实验中的使用方式（基于标记试剂和/或生物学重复）唯一识别该分装样本。",
+    "研究名称（例如：儿科脑癌试点研究 – 磷酸化蛋白组）",
+    "针对特定生物样本获取中与基因相关的肽离子，样本报告离子与公共参考离子的平均对数比值",
+    "分配给NCBI RefSeq数据库中序列的唯一标识符",
+    "磷酸化氨基酸的单字母代码和蛋白质序列位置（例如 t304s310，t59）"
+  ],
+  "sample_rows": [
+    {
+      "案例编号": "0bc46cbd-63d6-11e8-bcf1-0a2705229b82",
+      "样本ID": "4f9db1ce-641b-11e8-bcf1-0a2705229b82",
+      "样本编号": "263c66c0-642a-11e8-bcf1-0a2705229b82",
+      "样本分离提交者ID": "cc271b3d-ed33-481f-9d23-15f2f6_D2",
+      "分装运行元数据ID": "868fb8e6-5737-11e8-b664-00a098d917f8",
+      "研究名称": "Prospective Colon PNNL Phosphoproteome Lumos",
+      "蛋白丰度log2比值": -1.9183,
+      "参考序列编号": "NP_116204.3",
+      "磷酸化位点": "s90s92"
+    },
+    {
+      "案例编号": "0bc46cbd-63d6-11e8-bcf1-0a2705229b82",
+      "样本ID": "4f9db1ce-641b-11e8-bcf1-0a2705229b82",
+      "样本编号": "263c66c0-642a-11e8-bcf1-0a2705229b82",
+      "样本分离提交者ID": "cc271b3d-ed33-481f-9d23-15f2f6_D2",
+      "分装运行元数据ID": "868fb8e6-5737-11e8-b664-00a098d917f8",
+      "研究名称": "Prospective Colon PNNL Phosphoproteome Lumos",
+      "蛋白丰度log2比值": 0.5338,
+      "参考序列编号": "NP_001294951.1",
+      "磷酸化位点": "s445"
+    },
+    {
+      "案例编号": "0bc46cbd-63d6-11e8-bcf1-0a2705229b82",
+      "样本ID": "4f9db1ce-641b-11e8-bcf1-0a2705229b82",
+      "样本编号": "263c66c0-642a-11e8-bcf1-0a2705229b82",
+      "样本分离提交者ID": "cc271b3d-ed33-481f-9d23-15f2f6_D2",
+      "分装运行元数据ID": "868fb8e6-5737-11e8-b664-00a098d917f8",
+      "研究名称": "Prospective Colon PNNL Phosphoproteome Lumos",
+      "蛋白丰度log2比值": -2.2728,
+      "参考序列编号": "NP_001269554.1",
+      "磷酸化位点": "t19s22"
+    },
+    {
+      "案例编号": "0bc46cbd-63d6-11e8-bcf1-0a2705229b82",
+      "样本ID": "4f9db1ce-641b-11e8-bcf1-0a2705229b82",
+      "样本编号": "263c66c0-642a-11e8-bcf1-0a2705229b82",
+      "样本分离提交者ID": "cc271b3d-ed33-481f-9d23-15f2f6_D2",
+      "分装运行元数据ID": "868fb8e6-5737-11e8-b664-00a098d917f8",
+      "研究名称": "Prospective Colon PNNL Phosphoproteome Lumos",
+      "蛋白丰度log2比值": -0.3971,
+      "参考序列编号": "NP_001186064.1",
+      "磷酸化位点": "s357"
+    },
+    {
+      "案例编号": "0bc46cbd-63d6-11e8-bcf1-0a2705229b82",
+      "样本ID": "4f9db1ce-641b-11e8-bcf1-0a2705229b82",
+      "样本编号": "263c66c0-642a-11e8-bcf1-0a2705229b82",
+      "样本分离提交者ID": "cc271b3d-ed33-481f-9d23-15f2f6_D2",
+      "分装运行元数据ID": "868fb8e6-5737-11e8-b664-00a098d917f8",
+      "研究名称": "Prospective Colon PNNL Phosphoproteome Lumos",
+      "蛋白丰度log2比值": 0.0208,
+      "参考序列编号": "NP_573571.1",
+      "磷酸化位点": "s266"
+    }
+  ]
+}
