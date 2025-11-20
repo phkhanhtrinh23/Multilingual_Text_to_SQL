@@ -1,0 +1,116 @@
+{
+  "table_name": "quant_acetylome_prospective_breast_BI_pdc_current",
+  "table_fullname": "isb-cgc-bq.CPTAC.quant_acetylome_prospective_breast_BI_pdc_current",
+  "column_names": [
+    "案例编号",
+    "样本编号",
+    "样本编号",
+    "样本切片提交者ID",
+    "分装运行元数据ID",
+    "研究名称",
+    "蛋白质丰度对数比值",
+    "RefSeq 标识符",
+    "乙酰化位点"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "案例编号",
+    "样本编号",
+    "取样编号",
+    "样本提交者ID",
+    "分装运行元数据ID",
+    "研究名称",
+    "蛋白质丰度log2比值",
+    "参考序列ID",
+    "乙酰化位点"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "与特定患者相关的唯一标识符（例如 24cb0fcb-63d6-11e8-bcf1-0a2705229b82）",
+    "此样本的唯一 PDC 标识符（例如 e8d83eb9-693a-11ea-b1fd-0aad30af8a83）",
+    "该分样的唯一 PDC 标识符（例如 e8db124a-693a-11ea-b1fd-0aad30af8a83）",
+    "样本分割提交者ID，由程序分配（例如T14）",
+    "通过其在实验中的使用方式（基于标记试剂和/或生物学复制）唯一识别该分装样本",
+    "研究名称（例如：儿科脑癌先导研究 - 磷酸蛋白组学）",
+    "来自特定生物样本的获取中，与基因相关的肽离子的样本报告离子与公共参考离子之间的平均对数比值",
+    "NCBI RefSeq 数据库中分配给序列的唯一标识符",
+    "酰化氨基酸的单字母代码及蛋白质序列位置（例如 k12k16，k21）"
+  ],
+  "sample_rows": [
+    {
+      "案例编号": "327f7599-0a5d-11eb-bc0e-0aad30af8a83",
+      "样本编号": "32803c33-0a5d-11eb-bc0e-0aad30af8a83",
+      "取样编号": "32814606-0a5d-11eb-bc0e-0aad30af8a83",
+      "样本提交者ID": "01f203fd-e664-4d78-bea0-7c40cf_D2",
+      "分装运行元数据ID": "9fb38e9b-0df6-11eb-b456-0aad30af8a83",
+      "研究名称": "Prospective Breast BI Acetylome",
+      "蛋白质丰度log2比值": 0.0569,
+      "参考序列ID": "NP_001008564.1",
+      "乙酰化位点": "k276"
+    },
+    {
+      "案例编号": "327f7599-0a5d-11eb-bc0e-0aad30af8a83",
+      "样本编号": "32803c33-0a5d-11eb-bc0e-0aad30af8a83",
+      "取样编号": "32814606-0a5d-11eb-bc0e-0aad30af8a83",
+      "样本提交者ID": "01f203fd-e664-4d78-bea0-7c40cf_D2",
+      "分装运行元数据ID": "9fb38e9b-0df6-11eb-b456-0aad30af8a83",
+      "研究名称": "Prospective Breast BI Acetylome",
+      "蛋白质丰度log2比值": -0.2117,
+      "参考序列ID": "NP_005508.1",
+      "乙酰化位点": "k14"
+    },
+    {
+      "案例编号": "327f7599-0a5d-11eb-bc0e-0aad30af8a83",
+      "样本编号": "32803c33-0a5d-11eb-bc0e-0aad30af8a83",
+      "取样编号": "32814606-0a5d-11eb-bc0e-0aad30af8a83",
+      "样本提交者ID": "01f203fd-e664-4d78-bea0-7c40cf_D2",
+      "分装运行元数据ID": "9fb38e9b-0df6-11eb-b456-0aad30af8a83",
+      "研究名称": "Prospective Breast BI Acetylome",
+      "蛋白质丰度log2比值": -1.4144,
+      "参考序列ID": "NP_056991.2",
+      "乙酰化位点": "k79"
+    },
+    {
+      "案例编号": "327f7599-0a5d-11eb-bc0e-0aad30af8a83",
+      "样本编号": "32803c33-0a5d-11eb-bc0e-0aad30af8a83",
+      "取样编号": "32814606-0a5d-11eb-bc0e-0aad30af8a83",
+      "样本提交者ID": "01f203fd-e664-4d78-bea0-7c40cf_D2",
+      "分装运行元数据ID": "9fb38e9b-0df6-11eb-b456-0aad30af8a83",
+      "研究名称": "Prospective Breast BI Acetylome",
+      "蛋白质丰度log2比值": -0.9088,
+      "参考序列ID": "NP_001531.1",
+      "乙酰化位点": "k123"
+    },
+    {
+      "案例编号": "327f7599-0a5d-11eb-bc0e-0aad30af8a83",
+      "样本编号": "32803c33-0a5d-11eb-bc0e-0aad30af8a83",
+      "取样编号": "32814606-0a5d-11eb-bc0e-0aad30af8a83",
+      "样本提交者ID": "01f203fd-e664-4d78-bea0-7c40cf_D2",
+      "分装运行元数据ID": "9fb38e9b-0df6-11eb-b456-0aad30af8a83",
+      "研究名称": "Prospective Breast BI Acetylome",
+      "蛋白质丰度log2比值": -0.0986,
+      "参考序列ID": "NP_006861.1",
+      "乙酰化位点": "k19"
+    }
+  ]
+}
