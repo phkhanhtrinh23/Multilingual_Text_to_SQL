@@ -1,0 +1,111 @@
+{
+  "table_name": "quant_phosphoproteome_CPTAC_PDA_discovery_study_pdc_current",
+  "table_fullname": "isb-cgc-bq.CPTAC.quant_phosphoproteome_CPTAC_PDA_discovery_study_pdc_current",
+  "column_names": [
+    "ケースID",
+    "サンプルID",
+    "サンプルID",
+    "アリクオット提出者ID",
+    "分注実行メタデータID",
+    "研究名",
+    "タンパク質発現量対数2比",
+    "参照配列ID",
+    "リン酸化部位"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "ケース番号",
+    "サンプルID",
+    "サンプルID",
+    "サブサンプル提出者ID",
+    "標本実行メタデータID",
+    "研究名",
+    "タンパク質濃度対数2比",
+    "リファレンスシーケンスID",
+    "リン酸化部位"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "特定の患者に関連付けられた一意の識別子（例：24cb0fcb-63d6-11e8-bcf1-0a2705229b82）",
+    "このサンプルのユニークなPDC識別子（例: e8d83eb9-693a-11ea-b1fd-0aad30af8a83）",
+    "この分液に対するユニークなPDC識別子（例：e8db124a-693a-11ea-b1fd-0aad30af8a83）",
+    "プログラムにより割り当てられたアリオット送信者ID（例：T14）",
+    "実験での使用方法（ラベル付け試薬および/または生物学的複製に基づく）によって、各分注をユニークに特定する。",
+    "研究の名前（例：小児脳腫瘍パイロット研究 - フォスフォプロテオーム）",
+    "特定の生物サンプルから取得されたアクイジションにおける、遺伝子に関連するペプチドイオンのサンプルレポーターイオンと共通リファレンスとの平均対数比",
+    "NCBI RefSeq データベースでシーケンスに付与される一意の識別子",
+    "リン酸化されたアミノ酸の単一文字コードとタンパク質配列位置（例：t304s310、t59）"
+  ],
+  "sample_rows": [
+    {
+      "ケース番号": "54bd49cd-0642-47b7-b56c-70c1dc358435",
+      "サンプルID": "27b66033-20cc-498f-ae88-b475ed63348d",
+      "サブサンプル提出者ID": "QC1",
+      "標本実行メタデータID": "d77b875f-53f5-4cb1-aa58-e4aa5d9af097",
+      "研究名": "CPTAC PDA Discovery Study - Phosphoproteome",
+      "タンパク質濃度対数2比": 0.3407,
+      "リファレンスシーケンスID": "NP_001186326.1",
+      "リン酸化部位": "s865"
+    },
+    {
+      "ケース番号": "54bd49cd-0642-47b7-b56c-70c1dc358435",
+      "サンプルID": "27b66033-20cc-498f-ae88-b475ed63348d",
+      "サブサンプル提出者ID": "QC1",
+      "標本実行メタデータID": "d77b875f-53f5-4cb1-aa58-e4aa5d9af097",
+      "研究名": "CPTAC PDA Discovery Study - Phosphoproteome",
+      "タンパク質濃度対数2比": 0.7406,
+      "リファレンスシーケンスID": "NP_001012339.2",
+      "リン酸化部位": "s15"
+    },
+    {
+      "ケース番号": "54bd49cd-0642-47b7-b56c-70c1dc358435",
+      "サンプルID": "27b66033-20cc-498f-ae88-b475ed63348d",
+      "サブサンプル提出者ID": "QC1",
+      "標本実行メタデータID": "d77b875f-53f5-4cb1-aa58-e4aa5d9af097",
+      "研究名": "CPTAC PDA Discovery Study - Phosphoproteome",
+      "タンパク質濃度対数2比": -0.0488,
+      "リファレンスシーケンスID": "XP_006714818.1",
+      "リン酸化部位": "s263"
+    },
+    {
+      "ケース番号": "54bd49cd-0642-47b7-b56c-70c1dc358435",
+      "サンプルID": "27b66033-20cc-498f-ae88-b475ed63348d",
+      "サブサンプル提出者ID": "QC1",
+      "標本実行メタデータID": "d77b875f-53f5-4cb1-aa58-e4aa5d9af097",
+      "研究名": "CPTAC PDA Discovery Study - Phosphoproteome",
+      "タンパク質濃度対数2比": 1.4821,
+      "リファレンスシーケンスID": "NP_001136086.1",
+      "リン酸化部位": "s401"
+    },
+    {
+      "ケース番号": "54bd49cd-0642-47b7-b56c-70c1dc358435",
+      "サンプルID": "27b66033-20cc-498f-ae88-b475ed63348d",
+      "サブサンプル提出者ID": "QC1",
+      "標本実行メタデータID": "d77b875f-53f5-4cb1-aa58-e4aa5d9af097",
+      "研究名": "CPTAC PDA Discovery Study - Phosphoproteome",
+      "タンパク質濃度対数2比": 0.3266,
+      "リファレンスシーケンスID": "NP_001291744.1",
+      "リン酸化部位": "s780"
+    }
+  ]
+}
