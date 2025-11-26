@@ -1,0 +1,76 @@
+{
+  "table_name": "adjacent_states",
+  "table_fullname": "bigquery-public-data.geo_us_boundaries.adjacent_states",
+  "column_names": [
+    "trạng thái",
+    "tên bang",
+    "mã FIPS bang",
+    "tình trạng hàng xóm",
+    "mã FIPS lân cận"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "ARRAY<STRING>",
+    "ARRAY<STRING>"
+  ],
+  "nested_column_names": [
+    "trạng thái",
+    "tên bang",
+    "mã FIPS bang",
+    "Trạng thái hàng xóm",
+    "mã FIPS của các hàng xóm"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "ARRAY<STRING>",
+    "ARRAY<STRING>"
+  ],
+  "description": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "sample_rows": [
+    {
+      "trạng thái": "AL",
+      "tên bang": "Alabama",
+      "mã FIPS bang": "01",
+      "Trạng thái hàng xóm": "['Florida' 'Georgia' 'Mississippi' 'Tennessee']",
+      "mã FIPS của các hàng xóm": "['12' '13' '28' '47']"
+    },
+    {
+      "trạng thái": "AR",
+      "tên bang": "Arkansas",
+      "mã FIPS bang": "05",
+      "Trạng thái hàng xóm": "['Tennessee' 'Texas' 'Missouri' 'Mississippi' 'Louisiana' 'Oklahoma']",
+      "mã FIPS của các hàng xóm": "['47' '48' '29' '28' '22' '40']"
+    },
+    {
+      "trạng thái": "AZ",
+      "tên bang": "Arizona",
+      "mã FIPS bang": "04",
+      "Trạng thái hàng xóm": "['Nevada' 'New Mexico' 'Colorado' 'California' 'Utah']",
+      "mã FIPS của các hàng xóm": "['32' '35' '08' '06' '49']"
+    },
+    {
+      "trạng thái": "CA",
+      "tên bang": "California",
+      "mã FIPS bang": "06",
+      "Trạng thái hàng xóm": "['Arizona' 'Nevada' 'Oregon']",
+      "mã FIPS của các hàng xóm": "['04' '32' '41']"
+    },
+    {
+      "trạng thái": "CO",
+      "tên bang": "Colorado",
+      "mã FIPS bang": "08",
+      "Trạng thái hàng xóm": "['Kansas' 'New Mexico' 'Nebraska' 'Utah' 'Wyoming' 'Arizona' 'Oklahoma']",
+      "mã FIPS của các hàng xóm": "['20' '35' '31' '49' '56' '04' '40']"
+    }
+  ]
+}
