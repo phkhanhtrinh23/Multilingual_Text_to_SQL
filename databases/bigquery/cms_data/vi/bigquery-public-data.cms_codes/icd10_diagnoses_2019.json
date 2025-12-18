@@ -1,0 +1,76 @@
+{
+  "table_name": "icd10_diagnoses_2019",
+  "table_fullname": "bigquery-public-data.cms_codes.icd10_diagnoses_2019",
+  "column_names": [
+    "số đơn hàng",
+    "mã CM",
+    "có_mã_đầu_mục",
+    "Mô tả ngắn",
+    "Mô tả chi tiết"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "BOOL",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "số đơn hàng",
+    "Mã CM",
+    "mã tiêu đề",
+    "mô tả ngắn",
+    "Mô tả chi tiết"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "BOOL",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "Mã tiêu đề duy nhất giúp người dùng dễ dàng truyền đạt một dải mã",
+    "Mã chẩn đoán",
+    "ĐÚNG - Mã này là mã “header” và không hợp lệ cho các giao dịch được bảo vệ bởi HIPAA.  \nSAI - Mã này hợp lệ để nộp cho các giao dịch được bảo vệ bởi HIPAA.",
+    "Mô tả ngắn gọn về chẩn đoán",
+    "Mô tả toàn văn của chẩn đoán"
+  ],
+  "sample_rows": [
+    {
+      "số đơn hàng": "00004",
+      "Mã CM": "A009",
+      "mã tiêu đề": false,
+      "mô tả ngắn": "Cholera, unspecified",
+      "Mô tả chi tiết": "Cholera, unspecified"
+    },
+    {
+      "số đơn hàng": "01543",
+      "Mã CM": "C4339",
+      "mã tiêu đề": false,
+      "mô tả ngắn": "Malignant melanoma of other parts of face",
+      "Mô tả chi tiết": "Malignant melanoma of other parts of face"
+    },
+    {
+      "số đơn hàng": "03541",
+      "Mã CM": "D696",
+      "mã tiêu đề": false,
+      "mô tả ngắn": "Thrombocytopenia, unspecified",
+      "Mô tả chi tiết": "Thrombocytopenia, unspecified"
+    },
+    {
+      "số đơn hàng": "03955",
+      "Mã CM": "E093593",
+      "mã tiêu đề": false,
+      "mô tả ngắn": "Drug/chem diab with prolif diab rtnop without mclr edema, bi",
+      "Mô tả chi tiết": "Drug or chemical induced diabetes mellitus with proliferative diabetic retinopathy without macular edema, bilateral"
+    },
+    {
+      "số đơn hàng": "05041",
+      "Mã CM": "F12129",
+      "mã tiêu đề": false,
+      "mô tả ngắn": "Cannabis abuse with intoxication, unspecified",
+      "Mô tả chi tiết": "Cannabis abuse with intoxication, unspecified"
+    }
+  ]
+}
