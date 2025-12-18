@@ -1,0 +1,86 @@
+{
+  "table_name": "relationship",
+  "table_fullname": "bigquery-public-data.cms_synthetic_patient_data_omop.relationship",
+  "column_names": [
+    "id_relación",
+    "nombre de la relación",
+    "Jerárquico",
+    "define_ascendencia",
+    "id_relación_inversa",
+    "id_concepto_relación"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "relación_id",
+    "nombre_relación",
+    "es jerárquico",
+    "Define la ascendencia",
+    "id_relación_inversa",
+    "id_concepto_relación"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64"
+  ],
+  "description": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "sample_rows": [
+    {
+      "relación_id": "Acc device used by",
+      "nombre_relación": "Access device used by (SNOMED)",
+      "es jerárquico": "0",
+      "Define la ascendencia": "0",
+      "id_relación_inversa": "Using acc device",
+      "id_concepto_relación": 44818895
+    },
+    {
+      "relación_id": "Access of",
+      "nombre_relación": "Access of (SNOMED)",
+      "es jerárquico": "0",
+      "Define la ascendencia": "0",
+      "id_relación_inversa": "Has access",
+      "id_concepto_relación": 44818847
+    },
+    {
+      "relación_id": "Active ing of",
+      "nombre_relación": "Active ingredient of (SNOMED)",
+      "es jerárquico": "0",
+      "Define la ascendencia": "0",
+      "id_relación_inversa": "Has active ing",
+      "id_concepto_relación": 44818859
+    },
+    {
+      "relación_id": "AMP of",
+      "nombre_relación": "Actual Medicinal Product of (SNOMED)",
+      "es jerárquico": "0",
+      "Define la ascendencia": "0",
+      "id_relación_inversa": "Has AMP",
+      "id_concepto_relación": 45905757
+    },
+    {
+      "relación_id": "Answer of",
+      "nombre_relación": "Answer of (LOINC)",
+      "es jerárquico": "0",
+      "Define la ascendencia": "0",
+      "id_relación_inversa": "Has Answer",
+      "id_concepto_relación": 45754684
+    }
+  ]
+}
