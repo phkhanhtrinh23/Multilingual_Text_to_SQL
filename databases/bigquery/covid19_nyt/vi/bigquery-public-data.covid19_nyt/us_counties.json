@@ -1,0 +1,86 @@
+{
+  "table_name": "us_counties",
+  "table_fullname": "bigquery-public-data.covid19_nyt.us_counties",
+  "column_names": [
+    "Ngày",
+    "tỉnh",
+    "tên bang",
+    "Mã FIPS huyện",
+    "đã xác nhận",
+    "Tử vong"
+  ],
+  "column_types": [
+    "DATE",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "ngày",
+    "Quận",
+    "tên bang",
+    "mã FIPS quận",
+    "đã xác nhận",
+    "tử vong"
+  ],
+  "nested_column_types": [
+    "DATE",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "INT64"
+  ],
+  "description": [
+    "Ngày báo cáo",
+    "Quận trong bang được chỉ định",
+    "Tình trạng đã được báo cáo",
+    "Mã định danh địa lý chuẩn cho huyện",
+    "Tổng số ca nhiễm COVID-19 đã được xác nhận",
+    "Tổng số ca tử vong đã được xác nhận của COVID-19"
+  ],
+  "sample_rows": [
+    {
+      "ngày": "2022-01-01",
+      "Quận": "Autauga",
+      "tên bang": "Alabama",
+      "mã FIPS quận": "01001",
+      "đã xác nhận": 11018,
+      "tử vong": 160
+    },
+    {
+      "ngày": "2022-01-01",
+      "Quận": "Baldwin",
+      "tên bang": "Alabama",
+      "mã FIPS quận": "01003",
+      "đã xác nhận": 39911,
+      "tử vong": 593
+    },
+    {
+      "ngày": "2022-01-01",
+      "Quận": "Barbour",
+      "tên bang": "Alabama",
+      "mã FIPS quận": "01005",
+      "đã xác nhận": 3860,
+      "tử vong": 81
+    },
+    {
+      "ngày": "2022-01-01",
+      "Quận": "Bibb",
+      "tên bang": "Alabama",
+      "mã FIPS quận": "01007",
+      "đã xác nhận": 4533,
+      "tử vong": 95
+    },
+    {
+      "ngày": "2022-01-01",
+      "Quận": "Blount",
+      "tên bang": "Alabama",
+      "mã FIPS quận": "01009",
+      "đã xác nhận": 11256,
+      "tử vong": 198
+    }
+  ]
+}
