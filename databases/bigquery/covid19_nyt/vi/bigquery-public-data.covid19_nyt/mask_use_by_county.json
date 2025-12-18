@@ -1,0 +1,86 @@
+{
+  "table_name": "mask_use_by_county",
+  "table_fullname": "bigquery-public-data.covid19_nyt.mask_use_by_county",
+  "column_names": [
+    "huyện_mã_FIPS",
+    "không bao giờ",
+    "hiếm khi",
+    "đôi khi",
+    "thường xuyên",
+    "luôn"
+  ],
+  "column_types": [
+    "STRING",
+    "FLOAT64",
+    "FLOAT64",
+    "FLOAT64",
+    "FLOAT64",
+    "FLOAT64"
+  ],
+  "nested_column_names": [
+    "Mã FIPS quận",
+    "không bao giờ",
+    "hiếm khi",
+    "thỉnh thoảng",
+    "thường xuyên",
+    "luôn"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "FLOAT64",
+    "FLOAT64",
+    "FLOAT64",
+    "FLOAT64",
+    "FLOAT64"
+  ],
+  "description": [
+    "Mã địa lý tiêu chuẩn cho quận",
+    "Tỷ lệ ước tính của người dân trong hạt này sẽ trả lời “không bao giờ” khi được hỏi “Bạn thường xuyên mặc khẩu trang trong công cộng khi dự đoán sẽ ở trong vòng sáu feet (khoảng 1,8m) của người khác là bao nhiêu?”",
+    "Tỷ lệ ước tính của người trong quận này sẽ nói là hiếm khi",
+    "Số phần trăm ước tính của người dân trong quận này sẽ nói “đôi khi”.",
+    "Tỷ lệ ước tính của người dân trong hạt này sẽ nói thường xuyên",
+    "Tỷ lệ ước tính của người dân trong hạt này sẽ nói luôn"
+  ],
+  "sample_rows": [
+    {
+      "Mã FIPS quận": "08117",
+      "không bao giờ": 0.0,
+      "hiếm khi": 0.001,
+      "thỉnh thoảng": 0.064,
+      "thường xuyên": 0.151,
+      "luôn": 0.784
+    },
+    {
+      "Mã FIPS quận": "48255",
+      "không bao giờ": 0.0,
+      "hiếm khi": 0.001,
+      "thỉnh thoảng": 0.104,
+      "thường xuyên": 0.145,
+      "luôn": 0.75
+    },
+    {
+      "Mã FIPS quận": "48493",
+      "không bao giờ": 0.0,
+      "hiếm khi": 0.003,
+      "thỉnh thoảng": 0.072,
+      "thường xuyên": 0.208,
+      "luôn": 0.716
+    },
+    {
+      "Mã FIPS quận": "36123",
+      "không bao giờ": 0.0,
+      "hiếm khi": 0.006,
+      "thỉnh thoảng": 0.023,
+      "thường xuyên": 0.087,
+      "luôn": 0.884
+    },
+    {
+      "Mã FIPS quận": "48209",
+      "không bao giờ": 0.0,
+      "hiếm khi": 0.007,
+      "thỉnh thoảng": 0.022,
+      "thường xuyên": 0.115,
+      "luôn": 0.855
+    }
+  ]
+}
