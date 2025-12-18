@@ -1,0 +1,76 @@
+{
+  "table_name": "icd10_procedures_2019",
+  "table_fullname": "bigquery-public-data.cms_codes.icd10_procedures_2019",
+  "column_names": [
+    "número de pedido",
+    "codigo_pcs",
+    "es_cabecera_codigo",
+    "descripción corta",
+    "descripción larga"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "BOOL",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "orden_número",
+    "código PCS",
+    "código de encabezado",
+    "breve descripción",
+    "descripción larga"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "BOOL",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "Identificador único que facilita a los usuarios la comunicación de una variedad de códigos",
+    "Código de procedimiento",
+    "VERDADERO - El código es un código de encabezado y no es válido para transacciones cubiertas por HIPAA. FALSO - El código es válido para la presentación de transacciones cubiertas por HIPAA.",
+    "Breve descripción del procedimiento",
+    "Descripción completa del procedimiento"
+  ],
+  "sample_rows": [
+    {
+      "orden_número": "67369",
+      "código PCS": "0XH",
+      "código de encabezado": null,
+      "breve descripción": null,
+      "descripción larga": null
+    },
+    {
+      "orden_número": "67514",
+      "código PCS": "0XJ",
+      "código de encabezado": null,
+      "breve descripción": null,
+      "descripción larga": null
+    },
+    {
+      "orden_número": "67579",
+      "código PCS": "0XM",
+      "código de encabezado": null,
+      "breve descripción": null,
+      "descripción larga": null
+    },
+    {
+      "orden_número": "67608",
+      "código PCS": "0XP",
+      "código de encabezado": null,
+      "breve descripción": null,
+      "descripción larga": null
+    },
+    {
+      "orden_número": "67665",
+      "código PCS": "0XQ",
+      "código de encabezado": null,
+      "breve descripción": null,
+      "descripción larga": null
+    }
+  ]
+}
