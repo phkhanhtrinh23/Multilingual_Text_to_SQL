@@ -1,0 +1,96 @@
+{
+  "table_name": "dose_era",
+  "table_fullname": "bigquery-public-data.cms_synthetic_patient_data_omop.dose_era",
+  "column_names": [
+    "id_era_dosis",
+    "id_persona",
+    "id_concepto_fármaco",
+    "id_concepto_unidad",
+    "valor_dosis",
+    "fecha_inicio_era_dosis",
+    "fecha_fin_era_dosis"
+  ],
+  "column_types": [
+    "INT64",
+    "INT64",
+    "INT64",
+    "INT64",
+    "FLOAT64",
+    "DATE",
+    "DATE"
+  ],
+  "nested_column_names": [
+    "id_era_dosis",
+    "id_persona",
+    "id_concepto_medicamento",
+    "id_concepto_unidad",
+    "valor_dosis",
+    "fecha_inicio_era_dosis",
+    "fecha_final_era_dosis"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "INT64",
+    "INT64",
+    "INT64",
+    "FLOAT64",
+    "DATE",
+    "DATE"
+  ],
+  "description": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "sample_rows": [
+    {
+      "id_era_dosis": 250310791,
+      "id_persona": 110152,
+      "id_concepto_medicamento": 738818,
+      "id_concepto_unidad": 40239104,
+      "valor_dosis": 0.0,
+      "fecha_inicio_era_dosis": "2010-03-11",
+      "fecha_final_era_dosis": "2010-04-10"
+    },
+    {
+      "id_era_dosis": 318756987,
+      "id_persona": 1412749,
+      "id_concepto_medicamento": 738818,
+      "id_concepto_unidad": 40239104,
+      "valor_dosis": 0.0,
+      "fecha_inicio_era_dosis": "2009-08-29",
+      "fecha_final_era_dosis": "2009-09-28"
+    },
+    {
+      "id_era_dosis": 302001803,
+      "id_persona": 1093359,
+      "id_concepto_medicamento": 990678,
+      "id_concepto_unidad": 40173824,
+      "valor_dosis": 0.0,
+      "fecha_inicio_era_dosis": "2008-06-23",
+      "fecha_final_era_dosis": "2008-07-23"
+    },
+    {
+      "id_era_dosis": 310309084,
+      "id_persona": 1252066,
+      "id_concepto_medicamento": 990678,
+      "id_concepto_unidad": 40173824,
+      "valor_dosis": 0.0,
+      "fecha_inicio_era_dosis": "2008-06-01",
+      "fecha_final_era_dosis": "2008-07-01"
+    },
+    {
+      "id_era_dosis": 361608255,
+      "id_persona": 2228193,
+      "id_concepto_medicamento": 990678,
+      "id_concepto_unidad": 40173824,
+      "valor_dosis": 0.0,
+      "fecha_inicio_era_dosis": "2009-12-18",
+      "fecha_final_era_dosis": "2010-01-07"
+    }
+  ]
+}
