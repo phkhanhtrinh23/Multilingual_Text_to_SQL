@@ -1,0 +1,116 @@
+{
+  "table_name": "quant_phosphoproteome_PTRC_HGSOC_FFPE_discovery_pdc_current",
+  "table_fullname": "isb-cgc-bq.CPTAC.quant_phosphoproteome_PTRC_HGSOC_FFPE_discovery_pdc_current",
+  "column_names": [
+    "định danh trường hợp",
+    "mã mẫu",
+    "id mẫu thử",
+    "Mã người nộp mẫu",
+    "id_dữ_liệu_chạy_aliquot",
+    "Tên nghiên cứu",
+    "tỷ lệ log2 độ lớn protein",
+    "ID RefSeq",
+    "điểm fosporyl"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "Mã vụ",
+    "mã mẫu",
+    "Mã aliquot",
+    "ID người nộp mẫu",
+    "ID siêu dữ liệu chạy aliquot",
+    "Tên nghiên cứu",
+    "tỷ lệ log2 nồng độ protein",
+    "Mã refseq",
+    "điểm phosphoryl"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "Định danh duy nhất liên quan đến một bệnh nhân cụ thể (ví dụ 24cb0fcb-63d6-11e8-bcf1-0a2705229b82)",
+    "Định danh PDC duy nhất cho mẫu này (ví dụ e8d83eb9-693a-11ea-b1fd-0aad30af8a83)",
+    "Định danh PDC duy nhất cho mẫu này (ví dụ e8db124a-693a-11ea-b1fd-0aad30af8a83)",
+    "ID người gửi aliquot được cấp bởi chương trình (ví dụ: T14)",
+    "Xác định duy nhất phần mẫu bằng cách sử dụng trong thí nghiệm (tùy thuộc vào chất dán nhãn và/hoặc bản sao sinh học).",
+    "Tên nghiên cứu (ví dụ: Nghiên cứu Thử nghiệm Bệnh ung thư não trẻ - Phosphoproteome)",
+    "Tỷ lệ log trung bình giữa ion báo cáo mẫu và tham chiếu chung của các ion peptide liên quan đến gene trong các dữ liệu thu thập từ một mẫu sinh học cụ thể.",
+    "Định danh duy nhất được cấp cho một chuỗi trong cơ sở dữ liệu NCBI RefSeq",
+    "Mã chữ cái đơn và vị trí chuỗi protein của các axit amin đã được phosphory (ví dụ: t304s310, t59)"
+  ],
+  "sample_rows": [
+    {
+      "Mã vụ": "6dc777d4-4a5b-4387-9ed2-0d2fa9f4ff72",
+      "mã mẫu": "16d7cf28-d501-4845-af50-581879c46b79",
+      "Mã aliquot": "47b273c2-d4a5-4cf6-8ed8-551cd6c5fe0c",
+      "ID người nộp mẫu": "Frozen-bridge",
+      "ID siêu dữ liệu chạy aliquot": "00b4ad2e-0b60-4edb-8d1f-1f4d6d8b9e45",
+      "Tên nghiên cứu": "PTRC HGSOC FFPE Discovery - Phosphoproteome",
+      "tỷ lệ log2 nồng độ protein": -0.4584,
+      "Mã refseq": "NP_001032752.1",
+      "điểm phosphoryl": "s106"
+    },
+    {
+      "Mã vụ": "6dc777d4-4a5b-4387-9ed2-0d2fa9f4ff72",
+      "mã mẫu": "16d7cf28-d501-4845-af50-581879c46b79",
+      "Mã aliquot": "47b273c2-d4a5-4cf6-8ed8-551cd6c5fe0c",
+      "ID người nộp mẫu": "Frozen-bridge",
+      "ID siêu dữ liệu chạy aliquot": "00b4ad2e-0b60-4edb-8d1f-1f4d6d8b9e45",
+      "Tên nghiên cứu": "PTRC HGSOC FFPE Discovery - Phosphoproteome",
+      "tỷ lệ log2 nồng độ protein": 0.2839,
+      "Mã refseq": "NP_001121689.1",
+      "điểm phosphoryl": "s129"
+    },
+    {
+      "Mã vụ": "6dc777d4-4a5b-4387-9ed2-0d2fa9f4ff72",
+      "mã mẫu": "16d7cf28-d501-4845-af50-581879c46b79",
+      "Mã aliquot": "47b273c2-d4a5-4cf6-8ed8-551cd6c5fe0c",
+      "ID người nộp mẫu": "Frozen-bridge",
+      "ID siêu dữ liệu chạy aliquot": "00b4ad2e-0b60-4edb-8d1f-1f4d6d8b9e45",
+      "Tên nghiên cứu": "PTRC HGSOC FFPE Discovery - Phosphoproteome",
+      "tỷ lệ log2 nồng độ protein": 0.9428,
+      "Mã refseq": "NP_001127836.1",
+      "điểm phosphoryl": "s636"
+    },
+    {
+      "Mã vụ": "6dc777d4-4a5b-4387-9ed2-0d2fa9f4ff72",
+      "mã mẫu": "16d7cf28-d501-4845-af50-581879c46b79",
+      "Mã aliquot": "47b273c2-d4a5-4cf6-8ed8-551cd6c5fe0c",
+      "ID người nộp mẫu": "Frozen-bridge",
+      "ID siêu dữ liệu chạy aliquot": "00b4ad2e-0b60-4edb-8d1f-1f4d6d8b9e45",
+      "Tên nghiên cứu": "PTRC HGSOC FFPE Discovery - Phosphoproteome",
+      "tỷ lệ log2 nồng độ protein": -1.1168,
+      "Mã refseq": "NP_001128409.1",
+      "điểm phosphoryl": "s486"
+    },
+    {
+      "Mã vụ": "6dc777d4-4a5b-4387-9ed2-0d2fa9f4ff72",
+      "mã mẫu": "16d7cf28-d501-4845-af50-581879c46b79",
+      "Mã aliquot": "47b273c2-d4a5-4cf6-8ed8-551cd6c5fe0c",
+      "ID người nộp mẫu": "Frozen-bridge",
+      "ID siêu dữ liệu chạy aliquot": "00b4ad2e-0b60-4edb-8d1f-1f4d6d8b9e45",
+      "Tên nghiên cứu": "PTRC HGSOC FFPE Discovery - Phosphoproteome",
+      "tỷ lệ log2 nồng độ protein": -0.7,
+      "Mã refseq": "NP_001139019.1",
+      "điểm phosphoryl": "s155"
+    }
+  ]
+}
