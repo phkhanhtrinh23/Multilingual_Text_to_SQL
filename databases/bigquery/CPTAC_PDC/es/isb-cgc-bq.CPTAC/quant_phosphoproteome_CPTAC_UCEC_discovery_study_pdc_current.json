@@ -1,0 +1,116 @@
+{
+  "table_name": "quant_phosphoproteome_CPTAC_UCEC_discovery_study_pdc_current",
+  "table_fullname": "isb-cgc-bq.CPTAC.quant_phosphoproteome_CPTAC_UCEC_discovery_study_pdc_current",
+  "column_names": [
+    "ID de caso",
+    "id de muestra",
+    "id_aliquota",
+    "identificador del remitente de la alícuota",
+    "id_metadatos_aliquota_ejecucion",
+    "nombre del estudio",
+    "razón log2 de abundancia de proteína",
+    "id_refseq",
+    "sitios de fosforilación"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "ID de caso",
+    "ID de muestra",
+    "id_porción",
+    "id_del_remitente_de_la_muestra",
+    "id_de_metadatos_de_la_ejecución_de_aliquot",
+    "nombre del estudio",
+    "proteína_abundancia_log2ratio",
+    "ID RefSeq",
+    "sitios de fosforilación"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "Identificador único asociado a un paciente específico (p. ej. 24cb0fcb-63d6-11e8-bcf1-0a2705229b82)",
+    "Identificador único de PDC para esta muestra (por ejemplo, e8d83eb9-693a-11ea-b1fd-0aad30af8a83)",
+    "Identificador único PDC para esta alícuota (p. ej. e8db124a-693a-11ea-b1fd-0aad30af8a83)",
+    "ID del remitente de la alícuota asignado por el programa (p. ej., T14)",
+    "Identifica de forma única la alícuota según cómo se utilizó en el experimento (basado en el reactivo de etiquetado y/o el replicado biológico).",
+    "Nombre del estudio (p. ej. Estudio Piloto de Cáncer Cerebral Pediátrico - Fosforproteoma)",
+    "Promedio del log-ratio de iones reporteros de la muestra con respecto a una referencia común de iones peptídicos asociados con el gen en adquisiciones de una muestra biológica específica.",
+    "Identificador único asignado a una secuencia en la base de datos NCBI RefSeq",
+    "Códigos de una sola letra y posiciones de la secuencia proteica de los aminoácidos fosforilados (por ejemplo, t304s310, t59)"
+  ],
+  "sample_rows": [
+    {
+      "ID de caso": "d4cd4b91-118a-11e9-afb9-0a9c39d33490",
+      "ID de muestra": "15cf94d2-125a-11e9-afb9-0a9c39d33490",
+      "id_porción": "4110039b-1272-11e9-afb9-0a9c39d33490",
+      "id_del_remitente_de_la_muestra": "NX1",
+      "id_de_metadatos_de_la_ejecución_de_aliquot": "5e91b4c9-1597-11e9-a0e1-0a80fada099c",
+      "nombre del estudio": "CPTAC UCEC Discovery Study - Phosphoproteome",
+      "proteína_abundancia_log2ratio": -0.0203,
+      "ID RefSeq": "NP_683692.2",
+      "sitios de fosforilación": "s2964"
+    },
+    {
+      "ID de caso": "d4cd4b91-118a-11e9-afb9-0a9c39d33490",
+      "ID de muestra": "15cf94d2-125a-11e9-afb9-0a9c39d33490",
+      "id_porción": "4110039b-1272-11e9-afb9-0a9c39d33490",
+      "id_del_remitente_de_la_muestra": "NX1",
+      "id_de_metadatos_de_la_ejecución_de_aliquot": "5e91b4c9-1597-11e9-a0e1-0a80fada099c",
+      "nombre del estudio": "CPTAC UCEC Discovery Study - Phosphoproteome",
+      "proteína_abundancia_log2ratio": 0.3662,
+      "ID RefSeq": "NP_005383.3",
+      "sitios de fosforilación": "s853"
+    },
+    {
+      "ID de caso": "d4cd4b91-118a-11e9-afb9-0a9c39d33490",
+      "ID de muestra": "15cf94d2-125a-11e9-afb9-0a9c39d33490",
+      "id_porción": "4110039b-1272-11e9-afb9-0a9c39d33490",
+      "id_del_remitente_de_la_muestra": "NX1",
+      "id_de_metadatos_de_la_ejecución_de_aliquot": "5e91b4c9-1597-11e9-a0e1-0a80fada099c",
+      "nombre del estudio": "CPTAC UCEC Discovery Study - Phosphoproteome",
+      "proteína_abundancia_log2ratio": 0.5647,
+      "ID RefSeq": "NP_001307366.1",
+      "sitios de fosforilación": "s101t106"
+    },
+    {
+      "ID de caso": "d4cd4b91-118a-11e9-afb9-0a9c39d33490",
+      "ID de muestra": "15cf94d2-125a-11e9-afb9-0a9c39d33490",
+      "id_porción": "4110039b-1272-11e9-afb9-0a9c39d33490",
+      "id_del_remitente_de_la_muestra": "NX1",
+      "id_de_metadatos_de_la_ejecución_de_aliquot": "5e91b4c9-1597-11e9-a0e1-0a80fada099c",
+      "nombre del estudio": "CPTAC UCEC Discovery Study - Phosphoproteome",
+      "proteína_abundancia_log2ratio": 0.2334,
+      "ID RefSeq": "NP_061981.2",
+      "sitios de fosforilación": "t64"
+    },
+    {
+      "ID de caso": "d4cd4b91-118a-11e9-afb9-0a9c39d33490",
+      "ID de muestra": "15cf94d2-125a-11e9-afb9-0a9c39d33490",
+      "id_porción": "4110039b-1272-11e9-afb9-0a9c39d33490",
+      "id_del_remitente_de_la_muestra": "NX1",
+      "id_de_metadatos_de_la_ejecución_de_aliquot": "5e91b4c9-1597-11e9-a0e1-0a80fada099c",
+      "nombre del estudio": "CPTAC UCEC Discovery Study - Phosphoproteome",
+      "proteína_abundancia_log2ratio": 0.1652,
+      "ID RefSeq": "NP_001273295.1",
+      "sitios de fosforilación": "s512s516"
+    }
+  ]
+}

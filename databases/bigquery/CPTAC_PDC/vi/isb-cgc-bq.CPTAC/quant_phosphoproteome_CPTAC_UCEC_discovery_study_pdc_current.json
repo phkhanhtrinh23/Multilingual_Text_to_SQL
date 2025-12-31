@@ -1,0 +1,111 @@
+{
+  "table_name": "quant_phosphoproteome_CPTAC_UCEC_discovery_study_pdc_current",
+  "table_fullname": "isb-cgc-bq.CPTAC.quant_phosphoproteome_CPTAC_UCEC_discovery_study_pdc_current",
+  "column_names": [
+    "id_điều_kiện",
+    "mã mẫu",
+    "Mã aliquot",
+    "ID người nộp mẫu",
+    "id_siêu_dữ_liệu_chạy_liệu_mẫu",
+    "tên nghiên cứu",
+    "tỷ lệ log2 mức độ protein",
+    "ID RefSeq",
+    "điểm tri-phốt"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "mã_trường_hợp",
+    "mã mẫu",
+    "mã mẫu",
+    "Mã người gửi mẫu",
+    "mã_siêu_dữ_liệu_chạy_aliquot",
+    "Tên nghiên cứu",
+    "tỷ lệ log2 độ dày protein",
+    "mã_refseq",
+    "địa điểm phosphoryl hóa"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "Định danh duy nhất liên kết với một bệnh nhân cụ thể (ví dụ: 24cb0fcb-63d6-11e8-bcf1-0a2705229b82)",
+    "Định danh PDC duy nhất cho mẫu này (ví dụ: e8d83eb9-693a-11ea-b1fd-0aad30af8a83)",
+    "Định danh PDC duy nhất cho mẫu này (ví dụ: e8db124a-693a-11ea-b1fd-0aad30af8a83)",
+    "ID người gửi aliquot được gán bởi chương trình (ví dụ: T14)",
+    "Định danh duy nhất mẫu aliquot dựa trên cách nó được sử dụng trong thí nghiệm (tùy theo chất dán nhãn và/hoặc bản sao sinh học).",
+    "Tên nghiên cứu (ví dụ: Nghiên cứu Thử nghiệm đầu tiên ung thư não nhi khoa - Phosphoproteome)",
+    "Tỷ lệ log trung bình của ion báo cáo mẫu so với tham chiếu chung của ion peptide liên quan tới gen trong các lần thu thập từ một mẫu sinh học cụ thể.",
+    "Mã định danh duy nhất được gán cho một chuỗi trong cơ sở dữ liệu NCBI RefSeq.",
+    "Mã chữ đơn và vị trí chuỗi protein của các axit amin được phospho hóa (ví dụ: t304s310, t59)"
+  ],
+  "sample_rows": [
+    {
+      "mã_trường_hợp": "d4cd4b91-118a-11e9-afb9-0a9c39d33490",
+      "mã mẫu": "4110039b-1272-11e9-afb9-0a9c39d33490",
+      "Mã người gửi mẫu": "NX1",
+      "mã_siêu_dữ_liệu_chạy_aliquot": "5e91b4c9-1597-11e9-a0e1-0a80fada099c",
+      "Tên nghiên cứu": "CPTAC UCEC Discovery Study - Phosphoproteome",
+      "tỷ lệ log2 độ dày protein": -0.0203,
+      "mã_refseq": "NP_683692.2",
+      "địa điểm phosphoryl hóa": "s2964"
+    },
+    {
+      "mã_trường_hợp": "d4cd4b91-118a-11e9-afb9-0a9c39d33490",
+      "mã mẫu": "4110039b-1272-11e9-afb9-0a9c39d33490",
+      "Mã người gửi mẫu": "NX1",
+      "mã_siêu_dữ_liệu_chạy_aliquot": "5e91b4c9-1597-11e9-a0e1-0a80fada099c",
+      "Tên nghiên cứu": "CPTAC UCEC Discovery Study - Phosphoproteome",
+      "tỷ lệ log2 độ dày protein": 0.3662,
+      "mã_refseq": "NP_005383.3",
+      "địa điểm phosphoryl hóa": "s853"
+    },
+    {
+      "mã_trường_hợp": "d4cd4b91-118a-11e9-afb9-0a9c39d33490",
+      "mã mẫu": "4110039b-1272-11e9-afb9-0a9c39d33490",
+      "Mã người gửi mẫu": "NX1",
+      "mã_siêu_dữ_liệu_chạy_aliquot": "5e91b4c9-1597-11e9-a0e1-0a80fada099c",
+      "Tên nghiên cứu": "CPTAC UCEC Discovery Study - Phosphoproteome",
+      "tỷ lệ log2 độ dày protein": 0.5647,
+      "mã_refseq": "NP_001307366.1",
+      "địa điểm phosphoryl hóa": "s101t106"
+    },
+    {
+      "mã_trường_hợp": "d4cd4b91-118a-11e9-afb9-0a9c39d33490",
+      "mã mẫu": "4110039b-1272-11e9-afb9-0a9c39d33490",
+      "Mã người gửi mẫu": "NX1",
+      "mã_siêu_dữ_liệu_chạy_aliquot": "5e91b4c9-1597-11e9-a0e1-0a80fada099c",
+      "Tên nghiên cứu": "CPTAC UCEC Discovery Study - Phosphoproteome",
+      "tỷ lệ log2 độ dày protein": 0.2334,
+      "mã_refseq": "NP_061981.2",
+      "địa điểm phosphoryl hóa": "t64"
+    },
+    {
+      "mã_trường_hợp": "d4cd4b91-118a-11e9-afb9-0a9c39d33490",
+      "mã mẫu": "4110039b-1272-11e9-afb9-0a9c39d33490",
+      "Mã người gửi mẫu": "NX1",
+      "mã_siêu_dữ_liệu_chạy_aliquot": "5e91b4c9-1597-11e9-a0e1-0a80fada099c",
+      "Tên nghiên cứu": "CPTAC UCEC Discovery Study - Phosphoproteome",
+      "tỷ lệ log2 độ dày protein": 0.1652,
+      "mã_refseq": "NP_001273295.1",
+      "địa điểm phosphoryl hóa": "s512s516"
+    }
+  ]
+}
