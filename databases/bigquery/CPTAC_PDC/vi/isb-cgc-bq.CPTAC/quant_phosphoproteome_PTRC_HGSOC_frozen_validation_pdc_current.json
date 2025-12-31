@@ -1,0 +1,111 @@
+{
+  "table_name": "quant_phosphoproteome_PTRC_HGSOC_frozen_validation_pdc_current",
+  "table_fullname": "isb-cgc-bq.CPTAC.quant_phosphoproteome_PTRC_HGSOC_frozen_validation_pdc_current",
+  "column_names": [
+    "mã_trường_hợp",
+    "mã mẫu",
+    "mã_liệu_tích",
+    "Mã người gửi mẫu",
+    "mã siêu dữ liệu chạy mẫu",
+    "Tên nghiên cứu",
+    "tỷ lệ log2 nồng độ protein",
+    "ID chuỗi tham chiếu",
+    "địa điểm fosforyl"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "id_vụ",
+    "mã mẫu",
+    "mã mẫu",
+    "mã người nộp mẫu",
+    "id_siêu_dữ_liệu_chạy_lượng_mẫu",
+    "Tên nghiên cứu",
+    "tỷ lệ log2 nồng độ protein",
+    "ID chuỗi tham chiếu",
+    "điểm tổng hoá"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "Mã định danh duy nhất liên quan đến một bệnh nhân cụ thể (ví dụ: 24cb0fcb-63d6-11e8-bcf1-0a2705229b82)",
+    "ID duy nhất PDC cho mẫu này (ví dụ: e8d83eb9-693a-11ea-b1fd-0aad30af8a83)",
+    "Định danh PDC duy nhất cho mẫu này (ví dụ: e8db124a-693a-11ea-b1fd-0aad30af8a83)",
+    "ID người nộp mẫu phân ly được gán bởi chương trình (ví dụ: T14)",
+    "Xác định duy nhất mẫu aliquot theo cách nó được sử dụng trong thí nghiệm (dựa trên chất dán nhãn và/hoặc bản sao sinh học).",
+    "Tên nghiên cứu (ví dụ: Nghiên cứu Thử nghiệm về ung thư não trẻ em - Phosphoproteome)",
+    "Tỷ lệ log trung bình của ion báo cáo mẫu so với tham chiếu chung của ion peptide liên quan đến gen trong các lần thu thập từ một mẫu sinh học cụ thể",
+    "Mã định danh duy nhất được cấp cho một chuỗi trong cơ sở dữ liệu NCBI RefSeq",
+    "Mã chữ cái đơn và vị trí trong chuỗi protein của các axit amin đã được phosphoryl hóa (ví dụ: t304s310, t59)"
+  ],
+  "sample_rows": [
+    {
+      "id_vụ": "00cb6713-234c-465c-9c2e-397168bb3bca",
+      "mã mẫu": "47130988-7848-40fc-9076-cb545b4ca065",
+      "mã người nộp mẫu": "589667",
+      "id_siêu_dữ_liệu_chạy_lượng_mẫu": "05da500b-8226-4f6d-bfb8-34d76ab3693f",
+      "Tên nghiên cứu": "PTRC HGSOC Frozen Validation - Phosphoproteome",
+      "tỷ lệ log2 nồng độ protein": -0.2788,
+      "ID chuỗi tham chiếu": "NP_000436.2",
+      "điểm tổng hoá": "s1611"
+    },
+    {
+      "id_vụ": "00cb6713-234c-465c-9c2e-397168bb3bca",
+      "mã mẫu": "47130988-7848-40fc-9076-cb545b4ca065",
+      "mã người nộp mẫu": "589667",
+      "id_siêu_dữ_liệu_chạy_lượng_mẫu": "05da500b-8226-4f6d-bfb8-34d76ab3693f",
+      "Tên nghiên cứu": "PTRC HGSOC Frozen Validation - Phosphoproteome",
+      "tỷ lệ log2 nồng độ protein": 1.3858,
+      "ID chuỗi tham chiếu": "NP_001001522.1",
+      "điểm tổng hoá": "y193"
+    },
+    {
+      "id_vụ": "00cb6713-234c-465c-9c2e-397168bb3bca",
+      "mã mẫu": "47130988-7848-40fc-9076-cb545b4ca065",
+      "mã người nộp mẫu": "589667",
+      "id_siêu_dữ_liệu_chạy_lượng_mẫu": "05da500b-8226-4f6d-bfb8-34d76ab3693f",
+      "Tên nghiên cứu": "PTRC HGSOC Frozen Validation - Phosphoproteome",
+      "tỷ lệ log2 nồng độ protein": 0.6129,
+      "ID chuỗi tham chiếu": "NP_001007103.1",
+      "điểm tổng hoá": "s645"
+    },
+    {
+      "id_vụ": "00cb6713-234c-465c-9c2e-397168bb3bca",
+      "mã mẫu": "47130988-7848-40fc-9076-cb545b4ca065",
+      "mã người nộp mẫu": "589667",
+      "id_siêu_dữ_liệu_chạy_lượng_mẫu": "05da500b-8226-4f6d-bfb8-34d76ab3693f",
+      "Tên nghiên cứu": "PTRC HGSOC Frozen Validation - Phosphoproteome",
+      "tỷ lệ log2 nồng độ protein": -2.5995,
+      "ID chuỗi tham chiếu": "NP_001008709.1",
+      "điểm tổng hoá": "s336"
+    },
+    {
+      "id_vụ": "00cb6713-234c-465c-9c2e-397168bb3bca",
+      "mã mẫu": "47130988-7848-40fc-9076-cb545b4ca065",
+      "mã người nộp mẫu": "589667",
+      "id_siêu_dữ_liệu_chạy_lượng_mẫu": "05da500b-8226-4f6d-bfb8-34d76ab3693f",
+      "Tên nghiên cứu": "PTRC HGSOC Frozen Validation - Phosphoproteome",
+      "tỷ lệ log2 nồng độ protein": -0.9138,
+      "ID chuỗi tham chiếu": "NP_001011713.2",
+      "điểm tổng hoá": "s39"
+    }
+  ]
+}
