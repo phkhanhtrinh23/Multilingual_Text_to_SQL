@@ -1,0 +1,116 @@
+{
+  "table_name": "quant_phosphoproteome_AML_ex_vivo_drug_response_sorafenib_treatment_pdc_current",
+  "table_fullname": "isb-cgc-bq.CPTAC.quant_phosphoproteome_AML_ex_vivo_drug_response_sorafenib_treatment_pdc_current",
+  "column_names": [
+    "id_caso",
+    "identificador de muestra",
+    "id_aliquota",
+    "identificador del remitente de la alícuota",
+    "id_metadatos_ejecucion_aliquota",
+    "nombre_estudio",
+    "razón_log2_abundancia_proteína",
+    "ID RefSeq",
+    "sitios de fosforilación"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "id_del_caso",
+    "id_muestra",
+    "id_aliquota",
+    "id_solicitante_aliquota",
+    "id_metadatos_ejecucion_muestra",
+    "Nombre del estudio",
+    "log2 de la abundancia de proteínas",
+    "id_refseq",
+    "sitios de fosforilación"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "Identificador único asociado con un paciente específico (por ejemplo, 24cb0fcb-63d6-11e8-bcf1-0a2705229b82)",
+    "Identificador único de PDC para esta muestra (por ejemplo, e8d83eb9-693a-11ea-b1fd-0aad30af8a83)",
+    "Identificador único de PDC para esta aliquota (p.ej. e8db124a-693a-11ea-b1fd-0aad30af8a83)",
+    "ID del remitente de fracción asignado por el programa (p. ej., T14)",
+    "Identifica de forma única el alícuota según cómo se utilizó en el experimento (basado en el reactivo de etiquetado y/o la réplica biológica).",
+    "Nombre del estudio (p. ej., Estudio piloto de cáncer cerebral pediátrico - Fosproteoma)",
+    "Promedio del log-ratio entre los iones reporteros de la muestra y los iones de referencia comunes de los iones de péptidos asociados con el gen en adquisiciones de una muestra biológica específica.",
+    "Identificador único asignado a una secuencia en la base de datos NCBI RefSeq",
+    "Códigos de una sola letra y posiciones de la secuencia de proteínas de los aminoácidos fosforilados (por ejemplo, t304s310, t59)"
+  ],
+  "sample_rows": [
+    {
+      "id_del_caso": "ecbde1d1-d1d9-4de5-913d-090a0571edd9",
+      "id_muestra": "c00046d2-ffee-43d8-a72f-64a187590a7b",
+      "id_aliquota": "d9a038c8-92b3-4fff-afeb-799d93b97841",
+      "id_solicitante_aliquota": "15-00276-1",
+      "id_metadatos_ejecucion_muestra": "0c7495c0-2773-4f0a-aef6-ad497c9e1249",
+      "Nombre del estudio": "AML Ex Vivo Drug Response - Sorafenib Treatment - Phosphoproteome",
+      "log2 de la abundancia de proteínas": -2.4666,
+      "id_refseq": "NP_000436.2",
+      "sitios de fosforilación": "s1622"
+    },
+    {
+      "id_del_caso": "ecbde1d1-d1d9-4de5-913d-090a0571edd9",
+      "id_muestra": "c00046d2-ffee-43d8-a72f-64a187590a7b",
+      "id_aliquota": "d9a038c8-92b3-4fff-afeb-799d93b97841",
+      "id_solicitante_aliquota": "15-00276-1",
+      "id_metadatos_ejecucion_muestra": "0c7495c0-2773-4f0a-aef6-ad497c9e1249",
+      "Nombre del estudio": "AML Ex Vivo Drug Response - Sorafenib Treatment - Phosphoproteome",
+      "log2 de la abundancia de proteínas": -4.905,
+      "id_refseq": "NP_000923.1",
+      "sitios de fosforilación": "s537"
+    },
+    {
+      "id_del_caso": "ecbde1d1-d1d9-4de5-913d-090a0571edd9",
+      "id_muestra": "c00046d2-ffee-43d8-a72f-64a187590a7b",
+      "id_aliquota": "d9a038c8-92b3-4fff-afeb-799d93b97841",
+      "id_solicitante_aliquota": "15-00276-1",
+      "id_metadatos_ejecucion_muestra": "0c7495c0-2773-4f0a-aef6-ad497c9e1249",
+      "Nombre del estudio": "AML Ex Vivo Drug Response - Sorafenib Treatment - Phosphoproteome",
+      "log2 de la abundancia de proteínas": -4.0065,
+      "id_refseq": "NP_001001.2",
+      "sitios de fosforilación": "s235s236"
+    },
+    {
+      "id_del_caso": "ecbde1d1-d1d9-4de5-913d-090a0571edd9",
+      "id_muestra": "c00046d2-ffee-43d8-a72f-64a187590a7b",
+      "id_aliquota": "d9a038c8-92b3-4fff-afeb-799d93b97841",
+      "id_solicitante_aliquota": "15-00276-1",
+      "id_metadatos_ejecucion_muestra": "0c7495c0-2773-4f0a-aef6-ad497c9e1249",
+      "Nombre del estudio": "AML Ex Vivo Drug Response - Sorafenib Treatment - Phosphoproteome",
+      "log2 de la abundancia de proteínas": -3.9549,
+      "id_refseq": "NP_001005751.1",
+      "sitios de fosforilación": "s1114"
+    },
+    {
+      "id_del_caso": "ecbde1d1-d1d9-4de5-913d-090a0571edd9",
+      "id_muestra": "c00046d2-ffee-43d8-a72f-64a187590a7b",
+      "id_aliquota": "d9a038c8-92b3-4fff-afeb-799d93b97841",
+      "id_solicitante_aliquota": "15-00276-1",
+      "id_metadatos_ejecucion_muestra": "0c7495c0-2773-4f0a-aef6-ad497c9e1249",
+      "Nombre del estudio": "AML Ex Vivo Drug Response - Sorafenib Treatment - Phosphoproteome",
+      "log2 de la abundancia de proteínas": -3.2762,
+      "id_refseq": "NP_001007027.1",
+      "sitios de fosforilación": "s739s746s748"
+    }
+  ]
+}
