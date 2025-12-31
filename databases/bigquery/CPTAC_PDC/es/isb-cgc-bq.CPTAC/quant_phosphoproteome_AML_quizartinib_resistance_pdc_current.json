@@ -1,0 +1,116 @@
+{
+  "table_name": "quant_phosphoproteome_AML_quizartinib_resistance_pdc_current",
+  "table_fullname": "isb-cgc-bq.CPTAC.quant_phosphoproteome_AML_quizartinib_resistance_pdc_current",
+  "column_names": [
+    "ID de caso",
+    "id_muestra",
+    "id_aliquota",
+    "id_del_remitente_de_la_porción",
+    "id_metadatos_de_ejecución_de_aliquota",
+    "nombre del estudio",
+    "razón log2 de abundancia de proteína",
+    "identificador_refseq",
+    "sitios de fosforilación"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "id_caso",
+    "id_muestra",
+    "id_aliquota",
+    "ID del remitente de la muestra",
+    "id_métadatos_de_ejecución_de_aliquota",
+    "nombre del estudio",
+    "razón_log2_abundancia_proteica",
+    "identificador_refseq",
+    "sitios de fosforilación"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "Identificador único asociado a un paciente específico (por ejemplo, 24cb0fcb-63d6-11e8-bcf1-0a2705229b82)",
+    "Identificador único PDC para esta muestra (por ejemplo e8d83eb9-693a-11ea-b1fd-0aad30af8a83)",
+    "Identificador único de PDC para esta alícuota (p. ej., e8db124a-693a-11ea-b1fd-0aad30af8a83)",
+    "ID del remitente de la alícuota asignado por el programa (p. ej., T14)",
+    "Identifica de manera única la alíquot según su uso en el experimento (basado en el reactivo de etiquetado y/o réplica biológica).",
+    "Nombre del estudio (p. ej. Estudio piloto de cáncer cerebral pediátrico - Fosforoma)",
+    "Promedio del log-ratio entre el ion de reportero de la muestra y la referencia común de iones de péptidos asociados con el gen en adquisiciones de una muestra biológica específica",
+    "Identificador único asignado a una secuencia en la base de datos RefSeq de NCBI",
+    "Códigos de una sola letra y posiciones de la secuencia proteica de los aminoácidos fosforilados (p. ej., t304s310, t59)"
+  ],
+  "sample_rows": [
+    {
+      "id_caso": "4a4b2172-550c-4dbd-adad-8b3425f3ddea",
+      "id_muestra": "baf671ff-e1b6-4cd9-9dfd-5d263db4f5df",
+      "id_aliquota": "8dc69c53-9a45-4b6d-a3c1-4f3637f26440",
+      "ID del remitente de la muestra": "PTRC_exp12_P5-1",
+      "id_métadatos_de_ejecución_de_aliquota": "dfdf5e29-db86-48bd-83e9-009e078627ea",
+      "nombre del estudio": "AML Quizartinib Resistance -  Phosphoproteome",
+      "razón_log2_abundancia_proteica": -1.6904,
+      "identificador_refseq": "NP_000356.1",
+      "sitios de fosforilación": "s80"
+    },
+    {
+      "id_caso": "4a4b2172-550c-4dbd-adad-8b3425f3ddea",
+      "id_muestra": "baf671ff-e1b6-4cd9-9dfd-5d263db4f5df",
+      "id_aliquota": "8dc69c53-9a45-4b6d-a3c1-4f3637f26440",
+      "ID del remitente de la muestra": "PTRC_exp12_P5-1",
+      "id_métadatos_de_ejecución_de_aliquota": "dfdf5e29-db86-48bd-83e9-009e078627ea",
+      "nombre del estudio": "AML Quizartinib Resistance -  Phosphoproteome",
+      "razón_log2_abundancia_proteica": -0.6829,
+      "identificador_refseq": "NP_001001436.1",
+      "sitios de fosforilación": "s91"
+    },
+    {
+      "id_caso": "4a4b2172-550c-4dbd-adad-8b3425f3ddea",
+      "id_muestra": "baf671ff-e1b6-4cd9-9dfd-5d263db4f5df",
+      "id_aliquota": "8dc69c53-9a45-4b6d-a3c1-4f3637f26440",
+      "ID del remitente de la muestra": "PTRC_exp12_P5-1",
+      "id_métadatos_de_ejecución_de_aliquota": "dfdf5e29-db86-48bd-83e9-009e078627ea",
+      "nombre del estudio": "AML Quizartinib Resistance -  Phosphoproteome",
+      "razón_log2_abundancia_proteica": -1.3169,
+      "identificador_refseq": "NP_001006635.1",
+      "sitios de fosforilación": "s484"
+    },
+    {
+      "id_caso": "4a4b2172-550c-4dbd-adad-8b3425f3ddea",
+      "id_muestra": "baf671ff-e1b6-4cd9-9dfd-5d263db4f5df",
+      "id_aliquota": "8dc69c53-9a45-4b6d-a3c1-4f3637f26440",
+      "ID del remitente de la muestra": "PTRC_exp12_P5-1",
+      "id_métadatos_de_ejecución_de_aliquota": "dfdf5e29-db86-48bd-83e9-009e078627ea",
+      "nombre del estudio": "AML Quizartinib Resistance -  Phosphoproteome",
+      "razón_log2_abundancia_proteica": -0.4732,
+      "identificador_refseq": "NP_001007027.1",
+      "sitios de fosforilación": "s34"
+    },
+    {
+      "id_caso": "4a4b2172-550c-4dbd-adad-8b3425f3ddea",
+      "id_muestra": "baf671ff-e1b6-4cd9-9dfd-5d263db4f5df",
+      "id_aliquota": "8dc69c53-9a45-4b6d-a3c1-4f3637f26440",
+      "ID del remitente de la muestra": "PTRC_exp12_P5-1",
+      "id_métadatos_de_ejecución_de_aliquota": "dfdf5e29-db86-48bd-83e9-009e078627ea",
+      "nombre del estudio": "AML Quizartinib Resistance -  Phosphoproteome",
+      "razón_log2_abundancia_proteica": -0.3275,
+      "identificador_refseq": "NP_001008697.1",
+      "sitios de fosforilación": "s59"
+    }
+  ]
+}
