@@ -1,0 +1,116 @@
+{
+  "table_name": "quant_phosphoproteome_prospective_ovarian_PNNL_lumos_pdc_current",
+  "table_fullname": "isb-cgc-bq.CPTAC.quant_phosphoproteome_prospective_ovarian_PNNL_lumos_pdc_current",
+  "column_names": [
+    "ID vụ đơn",
+    "mã mẫu",
+    "Mã mẫu thử",
+    "mã người gửi mẫu",
+    "mã_siêu_dữ_liệu_chạy_mẫu",
+    "Tên nghiên cứu",
+    "tỷ lệ log2 nồng độ protein",
+    "mã refseq",
+    "địa điểm tri-phốt"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "Mã vụ",
+    "Mã mẫu",
+    "Mã số aliquot",
+    "id_người_nộp_lượng_mẫu",
+    "id_siêu_dữ_liệu_chạy_liều_mẫu",
+    "tên_đề_tài",
+    "tỷ lệ log2 độ dồi dào protein",
+    "Mã RefSeq",
+    "địa điểm phosphoryl hóa"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "Mã định danh duy nhất liên quan đến một bệnh nhân cụ thể (ví dụ: 24cb0fcb-63d6-11e8-bcf1-0a2705229b82)",
+    "Định danh PDC duy nhất cho mẫu này (ví dụ e8d83eb9-693a-11ea-b1fd-0aad30af8a83)",
+    "Định danh PDC duy nhất cho mẫu này (ví dụ: e8db124a-693a-11ea-b1fd-0aad30af8a83)",
+    "ID người nộp aliquot được gán bởi chương trình (ví dụ T14)",
+    "Xác định duy nhất aliquot bằng cách mà nó được sử dụng trong thí nghiệm (dựa trên chất dán nhãn và/hoặc bản sao sinh học).",
+    "Tên nghiên cứu (ví dụ: Nghiên cứu Thử nghiệm Ung thư não bẩm sinh - Phosphoproteome)",
+    "Tỷ lệ log trung bình của ion báo cáo mẫu so với tham chiếu chung của ion peptide liên quan đến gen trong các lần thu thập từ một mẫu sinh học cụ thể",
+    "Mã định danh duy nhất được cấp cho một chuỗi trong cơ sở dữ liệu NCBI RefSeq",
+    "Mã ký tự đơn và vị trí trong chuỗi protein của các axit amin đã bị phosphoryl (ví dụ t304s310, t59)"
+  ],
+  "sample_rows": [
+    {
+      "Mã vụ": "526a8712-0881-11eb-bc0e-0aad30af8a83",
+      "Mã mẫu": "0633de6c-641d-11e8-bcf1-0a2705229b82",
+      "Mã số aliquot": "e56ea641-6424-11e8-bcf1-0a2705229b82",
+      "id_người_nộp_lượng_mẫu": "665f4f0f-130c-4b09-9762-cd0696_D2",
+      "id_siêu_dữ_liệu_chạy_liều_mẫu": "096069d2-5738-11e8-b664-00a098d917f8",
+      "tên_đề_tài": "Prospective Ovarian PNNL Phosphoproteome Lumos",
+      "tỷ lệ log2 độ dồi dào protein": -2.4217,
+      "Mã RefSeq": "NP_057417.3",
+      "địa điểm phosphoryl hóa": "s1691t1698"
+    },
+    {
+      "Mã vụ": "526a8712-0881-11eb-bc0e-0aad30af8a83",
+      "Mã mẫu": "0633de6c-641d-11e8-bcf1-0a2705229b82",
+      "Mã số aliquot": "e56ea641-6424-11e8-bcf1-0a2705229b82",
+      "id_người_nộp_lượng_mẫu": "665f4f0f-130c-4b09-9762-cd0696_D2",
+      "id_siêu_dữ_liệu_chạy_liều_mẫu": "096069d2-5738-11e8-b664-00a098d917f8",
+      "tên_đề_tài": "Prospective Ovarian PNNL Phosphoproteome Lumos",
+      "tỷ lệ log2 độ dồi dào protein": -0.3629,
+      "Mã RefSeq": "NP_000042.3",
+      "địa điểm phosphoryl hóa": "t1885"
+    },
+    {
+      "Mã vụ": "526a8712-0881-11eb-bc0e-0aad30af8a83",
+      "Mã mẫu": "0633de6c-641d-11e8-bcf1-0a2705229b82",
+      "Mã số aliquot": "e56ea641-6424-11e8-bcf1-0a2705229b82",
+      "id_người_nộp_lượng_mẫu": "665f4f0f-130c-4b09-9762-cd0696_D2",
+      "id_siêu_dữ_liệu_chạy_liều_mẫu": "096069d2-5738-11e8-b664-00a098d917f8",
+      "tên_đề_tài": "Prospective Ovarian PNNL Phosphoproteome Lumos",
+      "tỷ lệ log2 độ dồi dào protein": -0.0056,
+      "Mã RefSeq": "XP_011511944.1",
+      "địa điểm phosphoryl hóa": "s1544"
+    },
+    {
+      "Mã vụ": "526a8712-0881-11eb-bc0e-0aad30af8a83",
+      "Mã mẫu": "0633de6c-641d-11e8-bcf1-0a2705229b82",
+      "Mã số aliquot": "e56ea641-6424-11e8-bcf1-0a2705229b82",
+      "id_người_nộp_lượng_mẫu": "665f4f0f-130c-4b09-9762-cd0696_D2",
+      "id_siêu_dữ_liệu_chạy_liều_mẫu": "096069d2-5738-11e8-b664-00a098d917f8",
+      "tên_đề_tài": "Prospective Ovarian PNNL Phosphoproteome Lumos",
+      "tỷ lệ log2 độ dồi dào protein": -1.304,
+      "Mã RefSeq": "NP_060889.1",
+      "địa điểm phosphoryl hóa": "s70"
+    },
+    {
+      "Mã vụ": "526a8712-0881-11eb-bc0e-0aad30af8a83",
+      "Mã mẫu": "0633de6c-641d-11e8-bcf1-0a2705229b82",
+      "Mã số aliquot": "e56ea641-6424-11e8-bcf1-0a2705229b82",
+      "id_người_nộp_lượng_mẫu": "665f4f0f-130c-4b09-9762-cd0696_D2",
+      "id_siêu_dữ_liệu_chạy_liều_mẫu": "096069d2-5738-11e8-b664-00a098d917f8",
+      "tên_đề_tài": "Prospective Ovarian PNNL Phosphoproteome Lumos",
+      "tỷ lệ log2 độ dồi dào protein": -0.5937,
+      "Mã RefSeq": "NP_001139438.1",
+      "địa điểm phosphoryl hóa": "t2029"
+    }
+  ]
+}
