@@ -1,0 +1,116 @@
+{
+  "table_name": "quant_phosphoproteome_AML_gilteritinib_timecourse_pdc_current",
+  "table_fullname": "isb-cgc-bq.CPTAC.quant_phosphoproteome_AML_gilteritinib_timecourse_pdc_current",
+  "column_names": [
+    "id_caso",
+    "id_muestra",
+    "id_aliquota",
+    "id_solicitante_de_alíquotas",
+    "aliquota_carrera_metadatos_id",
+    "nombre del estudio",
+    "razon_log2_abundancia_proteina",
+    "identificador_refseq",
+    "sitios de fosforilación"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "identificador de caso",
+    "id_muestra",
+    "id_alíquot",
+    "id_remitente_de_la_fracción",
+    "id_métadatos_aliquot_run",
+    "nombre del estudio",
+    "relación_log2_abundancia_de_proteínas",
+    "ID de RefSeq",
+    "sitios de fosforilación"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "Identificador único asociado con un paciente específico (por ejemplo, 24cb0fcb-63d6-11e8-bcf1-0a2705229b82)",
+    "Identificador único de PDC para esta muestra (p. ej. e8d83eb9-693a-11ea-b1fd-0aad30af8a83)",
+    "Identificador único PDC para esta alícuota (p. ej. e8db124a-693a-11ea-b1fd-0aad30af8a83)",
+    "ID del remitente de la alícuota asignado por el programa (p. ej. T14)",
+    "Identifica de manera única la alícuota según su uso en el experimento (basado en el reactivo de etiquetado y/o el replicado biológico).",
+    "Nombre del estudio (p. ej. Estudio piloto de cáncer cerebral pediátrico - Fosfoproteoma)",
+    "Promedio del logaritmo de la razón entre el ión reportero de la muestra y el ión de referencia común de los iones peptídicos asociados con el gen en adquisiciones de una muestra biológica específica.",
+    "Identificador único asignado a una secuencia en la base de datos RefSeq de NCBI.",
+    "Códigos de una sola letra y posiciones de la secuencia proteica de los aminoácidos fosforilados (por ejemplo t304s310, t59)"
+  ],
+  "sample_rows": [
+    {
+      "identificador de caso": "4a4b2172-550c-4dbd-adad-8b3425f3ddea",
+      "id_muestra": "1c1f661c-e8d8-44f0-971b-863c32c9ef59",
+      "id_alíquot": "2e2c8318-db8c-4131-aaa4-72a8dbfdb229",
+      "id_remitente_de_la_fracción": "PTRC_Ex8_P1",
+      "id_métadatos_aliquot_run": "a44d66b4-e0bf-4c65-afa0-e90f5ef0c6ff",
+      "nombre del estudio": "AML Gilteritinib TimeCourse -  Phosphoproteome",
+      "relación_log2_abundancia_de_proteínas": -0.8623,
+      "ID de RefSeq": "NP_000539.2",
+      "sitios de fosforilación": "s1346"
+    },
+    {
+      "identificador de caso": "4a4b2172-550c-4dbd-adad-8b3425f3ddea",
+      "id_muestra": "1c1f661c-e8d8-44f0-971b-863c32c9ef59",
+      "id_alíquot": "2e2c8318-db8c-4131-aaa4-72a8dbfdb229",
+      "id_remitente_de_la_fracción": "PTRC_Ex8_P1",
+      "id_métadatos_aliquot_run": "a44d66b4-e0bf-4c65-afa0-e90f5ef0c6ff",
+      "nombre del estudio": "AML Gilteritinib TimeCourse -  Phosphoproteome",
+      "relación_log2_abundancia_de_proteínas": -0.2265,
+      "ID de RefSeq": "NP_001001973.1",
+      "sitios de fosforilación": "s146"
+    },
+    {
+      "identificador de caso": "4a4b2172-550c-4dbd-adad-8b3425f3ddea",
+      "id_muestra": "1c1f661c-e8d8-44f0-971b-863c32c9ef59",
+      "id_alíquot": "2e2c8318-db8c-4131-aaa4-72a8dbfdb229",
+      "id_remitente_de_la_fracción": "PTRC_Ex8_P1",
+      "id_métadatos_aliquot_run": "a44d66b4-e0bf-4c65-afa0-e90f5ef0c6ff",
+      "nombre del estudio": "AML Gilteritinib TimeCourse -  Phosphoproteome",
+      "relación_log2_abundancia_de_proteínas": -0.2676,
+      "ID de RefSeq": "NP_001005271.2",
+      "sitios de fosforilación": "s132s138"
+    },
+    {
+      "identificador de caso": "4a4b2172-550c-4dbd-adad-8b3425f3ddea",
+      "id_muestra": "1c1f661c-e8d8-44f0-971b-863c32c9ef59",
+      "id_alíquot": "2e2c8318-db8c-4131-aaa4-72a8dbfdb229",
+      "id_remitente_de_la_fracción": "PTRC_Ex8_P1",
+      "id_métadatos_aliquot_run": "a44d66b4-e0bf-4c65-afa0-e90f5ef0c6ff",
+      "nombre del estudio": "AML Gilteritinib TimeCourse -  Phosphoproteome",
+      "relación_log2_abundancia_de_proteínas": 0.0293,
+      "ID de RefSeq": "NP_001005498.2",
+      "sitios de fosforilación": "s84"
+    },
+    {
+      "identificador de caso": "4a4b2172-550c-4dbd-adad-8b3425f3ddea",
+      "id_muestra": "1c1f661c-e8d8-44f0-971b-863c32c9ef59",
+      "id_alíquot": "2e2c8318-db8c-4131-aaa4-72a8dbfdb229",
+      "id_remitente_de_la_fracción": "PTRC_Ex8_P1",
+      "id_métadatos_aliquot_run": "a44d66b4-e0bf-4c65-afa0-e90f5ef0c6ff",
+      "nombre del estudio": "AML Gilteritinib TimeCourse -  Phosphoproteome",
+      "relación_log2_abundancia_de_proteínas": -0.9234,
+      "ID de RefSeq": "NP_001005751.1",
+      "sitios de fosforilación": "s802"
+    }
+  ]
+}
