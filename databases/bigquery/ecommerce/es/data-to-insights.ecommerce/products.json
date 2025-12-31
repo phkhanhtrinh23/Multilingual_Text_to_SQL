@@ -1,0 +1,96 @@
+{
+  "table_name": "products",
+  "table_fullname": "data-to-insights.ecommerce.products",
+  "column_names": [
+    "Código de referencia",
+    "nombre",
+    "CantidadOrdenada",
+    "Nivel de existencias",
+    "Tiempo de reposición",
+    "puntuación de sentimiento",
+    "magnitud del sentimiento"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "INT64",
+    "INT64",
+    "INT64",
+    "FLOAT64",
+    "FLOAT64"
+  ],
+  "nested_column_names": [
+    "Código SKU",
+    "nombre",
+    "cantidad pedida",
+    "nivel de existencias",
+    "tiempo de reposición",
+    "puntuación de sentimiento",
+    "magnitud de sentimiento"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "INT64",
+    "INT64",
+    "INT64",
+    "FLOAT64",
+    "FLOAT64"
+  ],
+  "description": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "sample_rows": [
+    {
+      "Código SKU": "GGADFBSBKS42347",
+      "nombre": "PC gaming speakers",
+      "cantidad pedida": 0,
+      "nivel de existencias": 100,
+      "tiempo de reposición": 1,
+      "puntuación de sentimiento": null,
+      "magnitud de sentimiento": null
+    },
+    {
+      "Código SKU": "GGOEGAAX0581",
+      "nombre": " Women's Colorblock Tee White",
+      "cantidad pedida": 0,
+      "nivel de existencias": 0,
+      "tiempo de reposición": 8,
+      "puntuación de sentimiento": 0.8,
+      "magnitud de sentimiento": 2.0
+    },
+    {
+      "Código SKU": "GGOEGAAX0596",
+      "nombre": " Men's Quilted Insulated Vest Black",
+      "cantidad pedida": 26,
+      "nivel de existencias": 32,
+      "tiempo de reposición": 8,
+      "puntuación de sentimiento": 0.8,
+      "magnitud de sentimiento": 2.0
+    },
+    {
+      "Código SKU": "GGOEGAAX0591",
+      "nombre": " Men's Short Sleeve Performance Badge Tee Pewter",
+      "cantidad pedida": 27,
+      "nivel de existencias": 29,
+      "tiempo de reposición": 15,
+      "puntuación de sentimiento": 0.6,
+      "magnitud de sentimiento": 1.7
+    },
+    {
+      "Código SKU": "GGOEGAAX0605",
+      "nombre": " Women's Quilted Insulated Vest White",
+      "cantidad pedida": 10,
+      "nivel de existencias": 16,
+      "tiempo de reposición": 9,
+      "puntuación de sentimiento": 0.6,
+      "magnitud de sentimiento": 1.6
+    }
+  ]
+}
