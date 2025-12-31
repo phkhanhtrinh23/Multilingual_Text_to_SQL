@@ -1,0 +1,66 @@
+{
+  "table_name": "refseq_mapping_current",
+  "table_fullname": "isb-cgc-bq.PDC_metadata.refseq_mapping_current",
+  "column_names": [
+    "Mã Uniprot",
+    "trạng thái được xem xét",
+    "ký hiệu gen",
+    "Mã refseq"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "Mã Uniprot",
+    "trạng thái đánh giá UniProt",
+    "ký hiệu gen",
+    "mã RefSeq"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "Định danh duy nhất được gán cho một chuỗi bởi UniProt, thường chứa thông tin có liên quan sinh học.",
+    "Bản ghi 'unreviewed' chứa các chuỗi protein có liên quan đến chú thích được tạo ra bằng tính toán và phân tích chức năng quy mô lớn; bản ghi 'reviewed' có chất lượng cao, được chú thích thủ công và không thừa.",
+    "Biểu tượng gen, được lấy bởi PDC từ NCBI",
+    "Định danh duy nhất được cấp cho một chuỗi trong cơ sở dữ liệu NCBI RefSeq"
+  ],
+  "sample_rows": [
+    {
+      "Mã Uniprot": "A0JNW5-1",
+      "trạng thái đánh giá UniProt": "reviewed",
+      "ký hiệu gen": "BLTP3B",
+      "mã RefSeq": "NP_055869.1"
+    },
+    {
+      "Mã Uniprot": "A0JNW5-2",
+      "trạng thái đánh giá UniProt": "reviewed",
+      "ký hiệu gen": "BLTP3B",
+      "mã RefSeq": "NP_001006948.1"
+    },
+    {
+      "Mã Uniprot": "A0JP26-1",
+      "trạng thái đánh giá UniProt": "reviewed",
+      "ký hiệu gen": "POTEB3",
+      "mã RefSeq": "XP_011542097.1"
+    },
+    {
+      "Mã Uniprot": "A0JP26-1",
+      "trạng thái đánh giá UniProt": "reviewed",
+      "ký hiệu gen": "POTEB3",
+      "mã RefSeq": "NP_997238.2"
+    },
+    {
+      "Mã Uniprot": "A1A519-2",
+      "trạng thái đánh giá UniProt": "reviewed",
+      "ký hiệu gen": "FAM170A",
+      "mã RefSeq": "NP_877438.2"
+    }
+  ]
+}
