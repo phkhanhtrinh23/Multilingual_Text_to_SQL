@@ -1,0 +1,116 @@
+{
+  "table_name": "quant_phosphoproteome_CPTAC_PDA_discovery_study_pdc_current",
+  "table_fullname": "isb-cgc-bq.CPTAC.quant_phosphoproteome_CPTAC_PDA_discovery_study_pdc_current",
+  "column_names": [
+    "Mã trường hợp",
+    "Mã mẫu",
+    "Mã mẫu",
+    "ID người nộp mẫu",
+    "ID siêu dữ liệu chạy aliquot",
+    "Tên nghiên cứu",
+    "tỷ lệ log2 độ dồi dào protein",
+    "Mã RefSeq",
+    "điểm lức phos"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "Mã vụ",
+    "Mã mẫu",
+    "định danh mẫu",
+    "ID người nộp mẫu con",
+    "id siêu dữ liệu chạy aliquot",
+    "Tên nghiên cứu",
+    "tỷ lệ log2 hàm lượng protein",
+    "Mã số RefSeq",
+    "địa điểm fosphoryl"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "Định danh duy nhất liên quan đến một bệnh nhân cụ thể (ví dụ: 24cb0fcb-63d6-11e8-bcf1-0a2705229b82)",
+    "Mã định danh PDC duy nhất cho mẫu này (ví dụ: e8d83eb9-693a-11ea-b1fd-0aad30af8a83)",
+    "Định danh PDC duy nhất cho mẫu này (ví dụ: e8db124a-693a-11ea-b1fd-0aad30af8a83)",
+    "ID người nộp aliquot được gán bởi chương trình (ví dụ: T14)",
+    "Định danh duy nhất mẫu aliquot theo cách nó được sử dụng trong thí nghiệm (dựa trên chất đánh dấu và/hoặc bản sao sinh học).",
+    "Tên nghiên cứu (ví dụ: Nghiên cứu Thử nghiệm Ung thư Não Trẻ - Phosphoproteome)",
+    "Tỷ lệ log trung bình của ion báo cáo mẫu so với tham chiếu chung của ion peptide liên quan đến gen trong các lần thu thập từ một mẫu sinh học cụ thể",
+    "Định danh duy nhất được cấp cho một chuỗi trong cơ sở dữ liệu RefSeq của NCBI",
+    "Mã chữ cái đơn và vị trí chuỗi protein của các axit amin đã được fosforyl hóa (ví dụ: t304s310, t59)"
+  ],
+  "sample_rows": [
+    {
+      "Mã vụ": "54bd49cd-0642-47b7-b56c-70c1dc358435",
+      "Mã mẫu": "3dfe6ae9-d5bf-4cb2-ad54-5bea84386e4c",
+      "định danh mẫu": "27b66033-20cc-498f-ae88-b475ed63348d",
+      "ID người nộp mẫu con": "QC1",
+      "id siêu dữ liệu chạy aliquot": "d77b875f-53f5-4cb1-aa58-e4aa5d9af097",
+      "Tên nghiên cứu": "CPTAC PDA Discovery Study - Phosphoproteome",
+      "tỷ lệ log2 hàm lượng protein": 0.3407,
+      "Mã số RefSeq": "NP_001186326.1",
+      "địa điểm fosphoryl": "s865"
+    },
+    {
+      "Mã vụ": "54bd49cd-0642-47b7-b56c-70c1dc358435",
+      "Mã mẫu": "3dfe6ae9-d5bf-4cb2-ad54-5bea84386e4c",
+      "định danh mẫu": "27b66033-20cc-498f-ae88-b475ed63348d",
+      "ID người nộp mẫu con": "QC1",
+      "id siêu dữ liệu chạy aliquot": "d77b875f-53f5-4cb1-aa58-e4aa5d9af097",
+      "Tên nghiên cứu": "CPTAC PDA Discovery Study - Phosphoproteome",
+      "tỷ lệ log2 hàm lượng protein": 0.7406,
+      "Mã số RefSeq": "NP_001012339.2",
+      "địa điểm fosphoryl": "s15"
+    },
+    {
+      "Mã vụ": "54bd49cd-0642-47b7-b56c-70c1dc358435",
+      "Mã mẫu": "3dfe6ae9-d5bf-4cb2-ad54-5bea84386e4c",
+      "định danh mẫu": "27b66033-20cc-498f-ae88-b475ed63348d",
+      "ID người nộp mẫu con": "QC1",
+      "id siêu dữ liệu chạy aliquot": "d77b875f-53f5-4cb1-aa58-e4aa5d9af097",
+      "Tên nghiên cứu": "CPTAC PDA Discovery Study - Phosphoproteome",
+      "tỷ lệ log2 hàm lượng protein": -0.0488,
+      "Mã số RefSeq": "XP_006714818.1",
+      "địa điểm fosphoryl": "s263"
+    },
+    {
+      "Mã vụ": "54bd49cd-0642-47b7-b56c-70c1dc358435",
+      "Mã mẫu": "3dfe6ae9-d5bf-4cb2-ad54-5bea84386e4c",
+      "định danh mẫu": "27b66033-20cc-498f-ae88-b475ed63348d",
+      "ID người nộp mẫu con": "QC1",
+      "id siêu dữ liệu chạy aliquot": "d77b875f-53f5-4cb1-aa58-e4aa5d9af097",
+      "Tên nghiên cứu": "CPTAC PDA Discovery Study - Phosphoproteome",
+      "tỷ lệ log2 hàm lượng protein": 1.4821,
+      "Mã số RefSeq": "NP_001136086.1",
+      "địa điểm fosphoryl": "s401"
+    },
+    {
+      "Mã vụ": "54bd49cd-0642-47b7-b56c-70c1dc358435",
+      "Mã mẫu": "3dfe6ae9-d5bf-4cb2-ad54-5bea84386e4c",
+      "định danh mẫu": "27b66033-20cc-498f-ae88-b475ed63348d",
+      "ID người nộp mẫu con": "QC1",
+      "id siêu dữ liệu chạy aliquot": "d77b875f-53f5-4cb1-aa58-e4aa5d9af097",
+      "Tên nghiên cứu": "CPTAC PDA Discovery Study - Phosphoproteome",
+      "tỷ lệ log2 hàm lượng protein": 0.3266,
+      "Mã số RefSeq": "NP_001291744.1",
+      "địa điểm fosphoryl": "s780"
+    }
+  ]
+}
