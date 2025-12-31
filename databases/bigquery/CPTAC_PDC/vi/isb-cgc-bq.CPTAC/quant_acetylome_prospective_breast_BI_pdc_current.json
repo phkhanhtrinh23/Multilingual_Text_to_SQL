@@ -1,0 +1,111 @@
+{
+  "table_name": "quant_acetylome_prospective_breast_BI_pdc_current",
+  "table_fullname": "isb-cgc-bq.CPTAC.quant_acetylome_prospective_breast_BI_pdc_current",
+  "column_names": [
+    "mã_trường_hợp",
+    "Mã mẫu",
+    "Mã aliquot",
+    "mã người gửi mẫu liều",
+    "id_siêu_dữ_liệu_chạy_lượng_mẫu",
+    "Tên nghiên cứu",
+    "tỷ lệ log2 nồng độ protein",
+    "mã_refseq",
+    "địa điểm acetyl hóa"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "mã_điều_viên",
+    "Mã mẫu",
+    "Mã mẫu",
+    "mã người nộp mẫu",
+    "mã_thông_tin_aliquot_lần_chạy",
+    "Tên nghiên cứu",
+    "tỷ lệ log2 hàm lượng protein",
+    "ID chuỗi tham chiếu",
+    "địa điểm acetylation"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "Định danh duy nhất liên quan đến một bệnh nhân cụ thể (ví dụ 24cb0fcb-63d6-11e8-bcf1-0a2705229b82)",
+    "Định danh PDC duy nhất cho mẫu này (ví dụ: e8d83eb9-693a-11ea-b1fd-0aad30af8a83)",
+    "Định danh PDC duy nhất cho mẫu này (ví dụ: e8db124a-693a-11ea-b1fd-0aad30af8a83)",
+    "ID người nộp aliquot được gán bởi chương trình (ví dụ: T14)",
+    "Xác định duy nhất phần mẫu bằng cách nó được sử dụng trong thí nghiệm (dựa trên chất dán nhãn và/hoặc mẫu sinh học lặp lại).",
+    "Tên nghiên cứu (ví dụ: Nghiên cứu Thí điểm ung thư não bào nhi - Phosphoproteome)",
+    "Tỷ lệ log trung bình của ion báo cáo mẫu so với tham chiếu chung của ion peptide liên quan tới gen trong các lần thu thập từ một mẫu sinh học cụ thể.",
+    "Định danh duy nhất được gán cho một chuỗi trong cơ sở dữ liệu NCBI RefSeq",
+    "Các mã ký tự đơn và vị trí trong chuỗi protein của các axit amin acetylated (ví dụ k12k16, k21)"
+  ],
+  "sample_rows": [
+    {
+      "mã_điều_viên": "327f7599-0a5d-11eb-bc0e-0aad30af8a83",
+      "Mã mẫu": "32814606-0a5d-11eb-bc0e-0aad30af8a83",
+      "mã người nộp mẫu": "01f203fd-e664-4d78-bea0-7c40cf_D2",
+      "mã_thông_tin_aliquot_lần_chạy": "9fb38e9b-0df6-11eb-b456-0aad30af8a83",
+      "Tên nghiên cứu": "Prospective Breast BI Acetylome",
+      "tỷ lệ log2 hàm lượng protein": 0.0569,
+      "ID chuỗi tham chiếu": "NP_001008564.1",
+      "địa điểm acetylation": "k276"
+    },
+    {
+      "mã_điều_viên": "327f7599-0a5d-11eb-bc0e-0aad30af8a83",
+      "Mã mẫu": "32814606-0a5d-11eb-bc0e-0aad30af8a83",
+      "mã người nộp mẫu": "01f203fd-e664-4d78-bea0-7c40cf_D2",
+      "mã_thông_tin_aliquot_lần_chạy": "9fb38e9b-0df6-11eb-b456-0aad30af8a83",
+      "Tên nghiên cứu": "Prospective Breast BI Acetylome",
+      "tỷ lệ log2 hàm lượng protein": -0.2117,
+      "ID chuỗi tham chiếu": "NP_005508.1",
+      "địa điểm acetylation": "k14"
+    },
+    {
+      "mã_điều_viên": "327f7599-0a5d-11eb-bc0e-0aad30af8a83",
+      "Mã mẫu": "32814606-0a5d-11eb-bc0e-0aad30af8a83",
+      "mã người nộp mẫu": "01f203fd-e664-4d78-bea0-7c40cf_D2",
+      "mã_thông_tin_aliquot_lần_chạy": "9fb38e9b-0df6-11eb-b456-0aad30af8a83",
+      "Tên nghiên cứu": "Prospective Breast BI Acetylome",
+      "tỷ lệ log2 hàm lượng protein": -1.4144,
+      "ID chuỗi tham chiếu": "NP_056991.2",
+      "địa điểm acetylation": "k79"
+    },
+    {
+      "mã_điều_viên": "327f7599-0a5d-11eb-bc0e-0aad30af8a83",
+      "Mã mẫu": "32814606-0a5d-11eb-bc0e-0aad30af8a83",
+      "mã người nộp mẫu": "01f203fd-e664-4d78-bea0-7c40cf_D2",
+      "mã_thông_tin_aliquot_lần_chạy": "9fb38e9b-0df6-11eb-b456-0aad30af8a83",
+      "Tên nghiên cứu": "Prospective Breast BI Acetylome",
+      "tỷ lệ log2 hàm lượng protein": -0.9088,
+      "ID chuỗi tham chiếu": "NP_001531.1",
+      "địa điểm acetylation": "k123"
+    },
+    {
+      "mã_điều_viên": "327f7599-0a5d-11eb-bc0e-0aad30af8a83",
+      "Mã mẫu": "32814606-0a5d-11eb-bc0e-0aad30af8a83",
+      "mã người nộp mẫu": "01f203fd-e664-4d78-bea0-7c40cf_D2",
+      "mã_thông_tin_aliquot_lần_chạy": "9fb38e9b-0df6-11eb-b456-0aad30af8a83",
+      "Tên nghiên cứu": "Prospective Breast BI Acetylome",
+      "tỷ lệ log2 hàm lượng protein": -0.0986,
+      "ID chuỗi tham chiếu": "NP_006861.1",
+      "địa điểm acetylation": "k19"
+    }
+  ]
+}
