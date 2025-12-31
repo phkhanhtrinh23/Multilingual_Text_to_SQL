@@ -1,0 +1,116 @@
+{
+  "table_name": "quant_phosphoproteome_CPTAC_LUAD_discovery_study_pdc_current",
+  "table_fullname": "isb-cgc-bq.CPTAC.quant_phosphoproteome_CPTAC_LUAD_discovery_study_pdc_current",
+  "column_names": [
+    "Mã vụ",
+    "mã mẫu",
+    "mã mẫu",
+    "ID người gửi mẫu",
+    "id_siêu_dữ_liệu_chạy_định_mẫu",
+    "tên nghiên cứu",
+    "tỷ lệ log2 nồng độ protein",
+    "Mã RefSeq",
+    "địa điểm lưỡng hóa"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "Mã trường hợp",
+    "mã mẫu",
+    "Mã aliquot",
+    "Mã người nộp mẫu",
+    "id_siêu_dữ_liệu_chạy_aliquot",
+    "tên nghiên cứu",
+    "tỷ_lệ_log2_của_số_lượng_protein",
+    "ID chuỗi tham chiếu",
+    "địa điểm fosfor hóa"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "Định danh duy nhất liên quan đến một bệnh nhân cụ thể (ví dụ: 24cb0fcb-63d6-11e8-bcf1-0a2705229b82)",
+    "Định danh PDC duy nhất cho mẫu này (ví dụ: e8d83eb9-693a-11ea-b1fd-0aad30af8a83)",
+    "Định danh PDC duy nhất cho mẫu này (ví dụ: e8db124a-693a-11ea-b1fd-0aad30af8a83)",
+    "ID người nộp mẫu được gán bởi chương trình (ví dụ: T14)",
+    "Định danh duy nhất aliquot theo cách nó được sử dụng trong thí nghiệm (dựa trên chất dán nhãn và/hoặc bản sao sinh học).",
+    "Tên nghiên cứu (ví dụ: Nghiên cứu Thí điểm Ung thư não Trẻ em - Phosphoproteome)",
+    "Tỷ lệ log trung bình của ion báo cáo mẫu so với tham chiếu chung của ion peptide liên quan tới gen trong các lần thu thập từ một mẫu sinh học cụ thể",
+    "Mã định danh duy nhất được gán cho một trình tự trong cơ sở dữ liệu NCBI RefSeq",
+    "Mã chữ cái đơn và vị trí trong chuỗi protein của các amino acid đã được phosphorylate (ví dụ: t304s310, t59)"
+  ],
+  "sample_rows": [
+    {
+      "Mã trường hợp": "f1ed884e-cf1e-11e9-9a07-0a80fada099c",
+      "mã mẫu": "98c196c9-d0a6-11e9-9a07-0a80fada099c",
+      "Mã aliquot": "5022ebd4-d0b0-11e9-9a07-0a80fada099c",
+      "Mã người nộp mẫu": "CPT0053040004",
+      "id_siêu_dữ_liệu_chạy_aliquot": "4642fe4b-becc-11e9-9a07-0a80fada099c",
+      "tên nghiên cứu": "CPTAC LUAD Discovery Study - Phosphoproteome",
+      "tỷ_lệ_log2_của_số_lượng_protein": 0.9994,
+      "ID chuỗi tham chiếu": "NP_071934.3",
+      "địa điểm fosfor hóa": "t1199"
+    },
+    {
+      "Mã trường hợp": "f1ed884e-cf1e-11e9-9a07-0a80fada099c",
+      "mã mẫu": "98c196c9-d0a6-11e9-9a07-0a80fada099c",
+      "Mã aliquot": "5022ebd4-d0b0-11e9-9a07-0a80fada099c",
+      "Mã người nộp mẫu": "CPT0053040004",
+      "id_siêu_dữ_liệu_chạy_aliquot": "4642fe4b-becc-11e9-9a07-0a80fada099c",
+      "tên nghiên cứu": "CPTAC LUAD Discovery Study - Phosphoproteome",
+      "tỷ_lệ_log2_của_số_lượng_protein": -0.1381,
+      "ID chuỗi tham chiếu": "NP_001127909.1",
+      "địa điểm fosfor hóa": "s411s414"
+    },
+    {
+      "Mã trường hợp": "f1ed884e-cf1e-11e9-9a07-0a80fada099c",
+      "mã mẫu": "98c196c9-d0a6-11e9-9a07-0a80fada099c",
+      "Mã aliquot": "5022ebd4-d0b0-11e9-9a07-0a80fada099c",
+      "Mã người nộp mẫu": "CPT0053040004",
+      "id_siêu_dữ_liệu_chạy_aliquot": "4642fe4b-becc-11e9-9a07-0a80fada099c",
+      "tên nghiên cứu": "CPTAC LUAD Discovery Study - Phosphoproteome",
+      "tỷ_lệ_log2_của_số_lượng_protein": -0.6238,
+      "ID chuỗi tham chiếu": "NP_001185712.1",
+      "địa điểm fosfor hóa": "s382"
+    },
+    {
+      "Mã trường hợp": "f1ed884e-cf1e-11e9-9a07-0a80fada099c",
+      "mã mẫu": "98c196c9-d0a6-11e9-9a07-0a80fada099c",
+      "Mã aliquot": "5022ebd4-d0b0-11e9-9a07-0a80fada099c",
+      "Mã người nộp mẫu": "CPT0053040004",
+      "id_siêu_dữ_liệu_chạy_aliquot": "4642fe4b-becc-11e9-9a07-0a80fada099c",
+      "tên nghiên cứu": "CPTAC LUAD Discovery Study - Phosphoproteome",
+      "tỷ_lệ_log2_của_số_lượng_protein": 0.6082,
+      "ID chuỗi tham chiếu": "NP_116222.4",
+      "địa điểm fosfor hóa": "s508"
+    },
+    {
+      "Mã trường hợp": "f1ed884e-cf1e-11e9-9a07-0a80fada099c",
+      "mã mẫu": "98c196c9-d0a6-11e9-9a07-0a80fada099c",
+      "Mã aliquot": "5022ebd4-d0b0-11e9-9a07-0a80fada099c",
+      "Mã người nộp mẫu": "CPT0053040004",
+      "id_siêu_dữ_liệu_chạy_aliquot": "4642fe4b-becc-11e9-9a07-0a80fada099c",
+      "tên nghiên cứu": "CPTAC LUAD Discovery Study - Phosphoproteome",
+      "tỷ_lệ_log2_của_số_lượng_protein": 0.3478,
+      "ID chuỗi tham chiếu": "NP_001257354.1",
+      "địa điểm fosfor hóa": "t174"
+    }
+  ]
+}
