@@ -1,0 +1,106 @@
+{
+  "table_name": "case_metadata_current",
+  "table_fullname": "isb-cgc-bq.PDC_metadata.case_metadata_current",
+  "column_names": [
+    "mã_đơn",
+    "id_người_nộp_đơn",
+    "địa điểm chính",
+    "loại bệnh",
+    "Tên dự án",
+    "tên chương trình",
+    "Mã dự án",
+    "số_tệp"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "mã_trường_hợp",
+    "id_người_nộp",
+    "địa điểm chính",
+    "loại bệnh",
+    "tên dự án",
+    "Tên chương trình",
+    "Mã dự án",
+    "số_tệp"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64"
+  ],
+  "description": [
+    "Mã nhận dạng duy nhất được liên kết với một bệnh nhân cụ thể (ví dụ: 24cb0fcb-63d6-11e8-bcf1-0a2705229b82)",
+    "Mã định danh duy nhất xuất phát từ người nộp dữ liệu, liên quan đến bệnh nhân cụ thể (ví dụ: 05BR016)",
+    "Thuật ngữ văn bản được dùng để mô tả vị trí chung của bệnh ác tính, theo phân loại của Tổ chức Y tế Thế giới (WHO) trong Phân loại Quốc tế Các bệnh (ICD‑O) chuyên ngành ung thư.",
+    "Thuật ngữ văn bản được sử dụng để mô tả loại bệnh ác tính, theo phân loại của Tổ chức Y tế Thế giới (WHO) Bảng phân loại quốc tế bệnh lý học về ung thư (ICD‑O).",
+    "Tên dự án (ví dụ: CPTAC-2)",
+    "Tên chương trình nguồn dữ liệu",
+    "UUID dự án PDC (ví dụ: edb4ca56-f1e8-11e9-9a07-0a80fada099c)",
+    "Số tệp liên quan đến một case_id nhất định"
+  ],
+  "sample_rows": [
+    {
+      "mã_trường_hợp": "48a488d1-88bf-4eb4-809f-eba13c7b3537",
+      "id_người_nộp": "C224967",
+      "địa điểm chính": null,
+      "loại bệnh": "Complex Epithelial Neoplasms",
+      "tên dự án": "CPTAC3 Discovery and Confirmatory",
+      "Tên chương trình": "Clinical Proteomic Tumor Analysis Consortium",
+      "Mã dự án": "267d6671-0e78-11e9-a064-0a9c39d33490",
+      "số_tệp": 168
+    },
+    {
+      "mã_trường_hợp": "6ca38436-0581-4f2c-b2b3-5bded49d35c8",
+      "id_người_nộp": "C283515",
+      "địa điểm chính": "Brain",
+      "loại bệnh": "Meningiomas",
+      "tên dự án": "CPTAC3 Discovery and Confirmatory",
+      "Tên chương trình": "Clinical Proteomic Tumor Analysis Consortium",
+      "Mã dự án": "267d6671-0e78-11e9-a064-0a9c39d33490",
+      "số_tệp": 172
+    },
+    {
+      "mã_trường_hợp": "1ac99f68-ba13-4ab7-bc0e-53556cfdba1d",
+      "id_người_nộp": "C524103",
+      "địa điểm chính": "Other and unspecified urinary organs",
+      "loại bệnh": "Skin Cutaneous Melanoma",
+      "tên dự án": "CPTAC3 Discovery and Confirmatory",
+      "Tên chương trình": "Clinical Proteomic Tumor Analysis Consortium",
+      "Mã dự án": "267d6671-0e78-11e9-a064-0a9c39d33490",
+      "số_tệp": 168
+    },
+    {
+      "mã_trường_hợp": "9ff8dc1d-111a-43a0-9264-abb3adf5d1f3",
+      "id_người_nộp": "C223491",
+      "địa điểm chính": "Uterus, NOS",
+      "loại bệnh": "Uterine Adenocarcinoma",
+      "tên dự án": "CPTAC3 Discovery and Confirmatory",
+      "Tên chương trình": "Clinical Proteomic Tumor Analysis Consortium",
+      "Mã dự án": "267d6671-0e78-11e9-a064-0a9c39d33490",
+      "số_tệp": 168
+    },
+    {
+      "mã_trường_hợp": "2c4089f4-44ae-40b9-9ede-405a88cc5c51",
+      "id_người_nộp": "C621273",
+      "địa điểm chính": "Colon",
+      "loại bệnh": "Epithelial Neoplasms, NOS",
+      "tên dự án": "CPTAC3 Discovery and Confirmatory",
+      "Tên chương trình": "Clinical Proteomic Tumor Analysis Consortium",
+      "Mã dự án": "267d6671-0e78-11e9-a064-0a9c39d33490",
+      "số_tệp": 168
+    }
+  ]
+}
