@@ -1,0 +1,106 @@
+{
+  "table_name": "clinical_CPTAC2_other_pdc_current",
+  "table_fullname": "isb-cgc-bq.CPTAC.clinical_CPTAC2_other_pdc_current",
+  "column_names": [
+    "id_caso",
+    "id_del_solicitante_de_caso",
+    "ID del remitente del proyecto",
+    "tipo_de_enfermedad",
+    "id_demográfico",
+    "id_solicitante_demográfico",
+    "id_diagnóstico",
+    "id_del_solicitante_de_diagnóstico"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "identificador del caso",
+    "ID del remitente del caso",
+    "id_del_solicitante_del_proyecto",
+    "tipo de enfermedad",
+    "id_demográfico",
+    "id_solicitante_demográfico",
+    "id_diagnóstico",
+    "diagnóstico_remitente_id"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "Identificador único asociado a un paciente específico (por ejemplo, 24cb0fcb-63d6-11e8-bcf1-0a2705229b82)",
+    "Identificador único derivado del remitente de datos que está asociado con un paciente específico (p. ej., 05BR016)",
+    "Identificador único derivado del remitente de datos que está asociado con un proyecto específico (por ejemplo, CPTAC3-Discovery)",
+    "El término textual utilizado para describir el tipo de enfermedad maligna, según la Clasificación Internacional de Enfermedades de Oncología (ICD‑O) de la Organización Mundial de la Salud (OMS).",
+    "Identificador único atribuido a los datos para la caracterización del paciente mediante la segmentación de la población, por ejemplo, caracterización por edad, sexo o raza (por ejemplo, 848b480c-0f56-11e9-a064-0a9c39d33490)",
+    "Identificador único derivado del remitente de datos que se atribuye a los datos para la caracterización del paciente mediante la segmentación de la población (por ejemplo, caracterización por edad, sexo o raza) (por ejemplo, P001-DM)",
+    "Identificador único para datos de la investigación, análisis y reconocimiento de la presencia y naturaleza de enfermedad, condición o lesión a partir de signos y síntomas expresados; también, la determinación científica de cualquier tipo; los resultados concisos de dicha investigación (p. ej. e8dd475b-693a-11ea-b1fd-0aad30af8a83)",
+    "Identificador único derivado del remitente de datos atribuido a los datos de la investigación, análisis y reconocimiento de la presencia y naturaleza de enfermedad, condición o lesión a partir de signos y síntomas expresados; también, la determinación científica de cualquier tipo; los resultados concisos de dicha investigación (p. ej., 33-DX)"
+  ],
+  "sample_rows": [
+    {
+      "identificador del caso": "221c00a5-5af5-4793-988d-223263ecfb38",
+      "ID del remitente del caso": "WHIM30",
+      "id_del_solicitante_del_proyecto": "CPTAC2-Other",
+      "tipo de enfermedad": "Other",
+      "id_demográfico": "34907ec2-932a-4752-8219-63083ec3093b",
+      "id_solicitante_demográfico": "WHIM30-DM",
+      "id_diagnóstico": "364cd5ec-54cd-4c01-af96-bea6c4dda74c",
+      "diagnóstico_remitente_id": "WHIM30-DX"
+    },
+    {
+      "identificador del caso": "5d66255e-9161-42b2-a59f-4764a4e7b570",
+      "ID del remitente del caso": "WHIM27",
+      "id_del_solicitante_del_proyecto": "CPTAC2-Other",
+      "tipo de enfermedad": "Other",
+      "id_demográfico": "78fc2a0c-6f77-413e-b9b1-15cff02ee45e",
+      "id_solicitante_demográfico": "WHIM27-DM",
+      "id_diagnóstico": "0dbfa6eb-7865-4bc1-bcad-bda770d71212",
+      "diagnóstico_remitente_id": "WHIM27-DX"
+    },
+    {
+      "identificador del caso": "8e984f66-c1db-4588-bd01-691870ba0225",
+      "ID del remitente del caso": "HumanIR",
+      "id_del_solicitante_del_proyecto": "CPTAC2-Other",
+      "tipo de enfermedad": "Other",
+      "id_demográfico": "b63884c6-1208-4c33-ab1b-92c4ec7c1973",
+      "id_solicitante_demográfico": "HumanIR-DM",
+      "id_diagnóstico": "3dda7dd9-ad98-4ca3-bdde-c9076696767e",
+      "diagnóstico_remitente_id": "HumanIR-DX"
+    },
+    {
+      "identificador del caso": "35adc129-34de-4a9e-8243-caece2a6c6d2",
+      "ID del remitente del caso": "WHIM11",
+      "id_del_solicitante_del_proyecto": "CPTAC2-Other",
+      "tipo de enfermedad": "Other",
+      "id_demográfico": "784e6e74-32f1-4c9f-bed1-90e955d5d3d8",
+      "id_solicitante_demográfico": "WHIM11-DM",
+      "id_diagnóstico": "b6a05087-83c4-4c4b-bd8b-5a32d83a20a0",
+      "diagnóstico_remitente_id": "WHIM11-DX"
+    },
+    {
+      "identificador del caso": "adfe3073-938e-4789-bb6e-3e18c0c226ee",
+      "ID del remitente del caso": "WHIM46",
+      "id_del_solicitante_del_proyecto": "CPTAC2-Other",
+      "tipo de enfermedad": "Other",
+      "id_demográfico": "ab9d86c4-72a3-4d9d-9567-fa60187cff39",
+      "id_solicitante_demográfico": "WHIM46-DM",
+      "id_diagnóstico": "52d7eeaa-3dab-45b7-9ebc-c31fee11bad7",
+      "diagnóstico_remitente_id": "WHIM46-DX"
+    }
+  ]
+}
