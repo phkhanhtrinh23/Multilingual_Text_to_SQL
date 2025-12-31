@@ -1,0 +1,111 @@
+{
+  "table_name": "quant_phosphoproteome_AML_ex_vivo_drug_response_combination_treatment_pdc_current",
+  "table_fullname": "isb-cgc-bq.CPTAC.quant_phosphoproteome_AML_ex_vivo_drug_response_combination_treatment_pdc_current",
+  "column_names": [
+    "Mã vụ",
+    "mã mẫu",
+    "mã số mẫu",
+    "id_người_gửi_mẫu",
+    "mã_thông_tin_chạy_mẫu",
+    "tên nghiên cứu",
+    "tỷ lệ log2 độ dày protein",
+    "id_refseq",
+    "điểm fосphoryl hóa"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "Mã số vụ",
+    "Mã mẫu",
+    "Mã mẫu",
+    "mã_đăng_ký_aliquot",
+    "Mã metadata chạy mẫu",
+    "tên nghiên cứu",
+    "tỷ lệ log2 nồng độ protein",
+    "Mã refseq",
+    "địa điểm foshphoryl"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "Định danh duy nhất liên quan đến một bệnh nhân cụ thể (ví dụ: 24cb0fcb-63d6-11e8-bcf1-0a2705229b82)",
+    "Định danh PDC duy nhất cho mẫu này (ví dụ e8d83eb9-693a-11ea-b1fd-0aad30af8a83)",
+    "Định danh PDC duy nhất cho mẫu này (ví dụ e8db124a-693a-11ea-b1fd-0aad30af8a83)",
+    "ID người gửi aliquot được gán bởi chương trình (ví dụ T14)",
+    "Định danh duy nhất từng phần mẫu dựa trên cách nó được sử dụng trong thí nghiệm (dựa trên chất dán nhãn và/hoặc bản sao sinh học).",
+    "Tên nghiên cứu (ví dụ: Nghiên cứu Thí điểm Ung thư não Trẻ em - Phosphoproteome)",
+    "Tỷ lệ log trung bình của ion báo cáo mẫu so với tham chiếu chung của ion peptide liên quan đến gen trong các lần thu thập từ một mẫu sinh học cụ thể",
+    "Mã định danh duy nhất được cấp cho một chuỗi trong cơ sở dữ liệu NCBI RefSeq.",
+    "Mã chữ cái đơn và vị trí chuỗi protein của các axit amin đã được fosphoryl hóa (ví dụ: t304s310, t59)"
+  ],
+  "sample_rows": [
+    {
+      "Mã số vụ": "e4796a23-6e79-4159-8547-d7fbe13098c9",
+      "Mã mẫu": "cc445b9a-5a06-48cc-854e-7a7611bf7b22",
+      "mã_đăng_ký_aliquot": "15-00756-1",
+      "Mã metadata chạy mẫu": "0b52440e-7094-4574-926d-b2720e6abc40",
+      "tên nghiên cứu": "AML Ex Vivo Drug Response - Combination Treatment - Phosphoproteome",
+      "tỷ lệ log2 nồng độ protein": -1.0824,
+      "Mã refseq": "NP_000170.1",
+      "địa điểm foshphoryl": "s252s261"
+    },
+    {
+      "Mã số vụ": "e4796a23-6e79-4159-8547-d7fbe13098c9",
+      "Mã mẫu": "cc445b9a-5a06-48cc-854e-7a7611bf7b22",
+      "mã_đăng_ký_aliquot": "15-00756-1",
+      "Mã metadata chạy mẫu": "0b52440e-7094-4574-926d-b2720e6abc40",
+      "tên nghiên cứu": "AML Ex Vivo Drug Response - Combination Treatment - Phosphoproteome",
+      "tỷ lệ log2 nồng độ protein": -1.9697,
+      "Mã refseq": "NP_000876.3",
+      "địa điểm foshphoryl": "s1021"
+    },
+    {
+      "Mã số vụ": "e4796a23-6e79-4159-8547-d7fbe13098c9",
+      "Mã mẫu": "cc445b9a-5a06-48cc-854e-7a7611bf7b22",
+      "mã_đăng_ký_aliquot": "15-00756-1",
+      "Mã metadata chạy mẫu": "0b52440e-7094-4574-926d-b2720e6abc40",
+      "tên nghiên cứu": "AML Ex Vivo Drug Response - Combination Treatment - Phosphoproteome",
+      "tỷ lệ log2 nồng độ protein": 1.322,
+      "Mã refseq": "NP_000876.3",
+      "địa điểm foshphoryl": "s424"
+    },
+    {
+      "Mã số vụ": "e4796a23-6e79-4159-8547-d7fbe13098c9",
+      "Mã mẫu": "cc445b9a-5a06-48cc-854e-7a7611bf7b22",
+      "mã_đăng_ký_aliquot": "15-00756-1",
+      "Mã metadata chạy mẫu": "0b52440e-7094-4574-926d-b2720e6abc40",
+      "tên nghiên cứu": "AML Ex Vivo Drug Response - Combination Treatment - Phosphoproteome",
+      "tỷ lệ log2 nồng độ protein": -1.7199,
+      "Mã refseq": "NP_000959.2",
+      "địa điểm foshphoryl": "s365"
+    },
+    {
+      "Mã số vụ": "e4796a23-6e79-4159-8547-d7fbe13098c9",
+      "Mã mẫu": "cc445b9a-5a06-48cc-854e-7a7611bf7b22",
+      "mã_đăng_ký_aliquot": "15-00756-1",
+      "Mã metadata chạy mẫu": "0b52440e-7094-4574-926d-b2720e6abc40",
+      "tên nghiên cứu": "AML Ex Vivo Drug Response - Combination Treatment - Phosphoproteome",
+      "tỷ lệ log2 nồng độ protein": -0.387,
+      "Mã refseq": "NP_001001998.1",
+      "địa điểm foshphoryl": "s13"
+    }
+  ]
+}

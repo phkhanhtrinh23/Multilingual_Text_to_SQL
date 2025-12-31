@@ -1,0 +1,116 @@
+{
+  "table_name": "quant_phosphoproteome_AML_ex_vivo_drug_response_combination_treatment_pdc_current",
+  "table_fullname": "isb-cgc-bq.CPTAC.quant_phosphoproteome_AML_ex_vivo_drug_response_combination_treatment_pdc_current",
+  "column_names": [
+    "identificador del caso",
+    "id_muestra",
+    "ID alícuota",
+    "id_solicitante_aliquota",
+    "id_ejecucion_metadatos_aliquot",
+    "nombre del estudio",
+    "abundancia_de_proteína_log2ratio",
+    "id_refseq",
+    "sitios de fosforilación"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "identificador de caso",
+    "id_muestra",
+    "id_aliquota",
+    "id_del_solicitante_de_aliquota",
+    "id_metadatos_ejecucion_aliquota",
+    "nombre del estudio",
+    "razón log2 de abundancia de proteína",
+    "ID RefSeq",
+    "sitios_fósforilación"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "Identificador único asociado con un paciente específico (por ejemplo, 24cb0fcb-63d6-11e8-bcf1-0a2705229b82)",
+    "Identificador único PDC para esta muestra (p. ej. e8d83eb9-693a-11ea-b1fd-0aad30af8a83)",
+    "Identificador único PDC para esta fracción (p. ej. e8db124a-693a-11ea-b1fd-0aad30af8a83)",
+    "ID del remitente de alícuotas asignado por el programa (p. ej. T14)",
+    "Identifica de forma única la alícuota por cómo se utilizó en el experimento (basado en el reactivo de etiquetado y/o el replicado biológico).",
+    "Nombre del estudio (p. ej., Estudio piloto de cáncer cerebral pediátrico - Fosforproteoma)",
+    "Promedio del log-ratio entre el ion reporter de la muestra y la referencia común de iones peptídicos asociados al gen en adquisiciones de una muestra biológica específica.",
+    "Identificador único asignado a una secuencia en la base de datos RefSeq de NCBI",
+    "códigos de una sola letra y posiciones en la secuencia de proteínas de los aminoácidos fosforilados (por ejemplo, t304s310, t59)"
+  ],
+  "sample_rows": [
+    {
+      "identificador de caso": "e4796a23-6e79-4159-8547-d7fbe13098c9",
+      "id_muestra": "dddc3c0f-af7c-453b-9929-fe6896297df1",
+      "id_aliquota": "cc445b9a-5a06-48cc-854e-7a7611bf7b22",
+      "id_del_solicitante_de_aliquota": "15-00756-1",
+      "id_metadatos_ejecucion_aliquota": "0b52440e-7094-4574-926d-b2720e6abc40",
+      "nombre del estudio": "AML Ex Vivo Drug Response - Combination Treatment - Phosphoproteome",
+      "razón log2 de abundancia de proteína": -1.0824,
+      "ID RefSeq": "NP_000170.1",
+      "sitios_fósforilación": "s252s261"
+    },
+    {
+      "identificador de caso": "e4796a23-6e79-4159-8547-d7fbe13098c9",
+      "id_muestra": "dddc3c0f-af7c-453b-9929-fe6896297df1",
+      "id_aliquota": "cc445b9a-5a06-48cc-854e-7a7611bf7b22",
+      "id_del_solicitante_de_aliquota": "15-00756-1",
+      "id_metadatos_ejecucion_aliquota": "0b52440e-7094-4574-926d-b2720e6abc40",
+      "nombre del estudio": "AML Ex Vivo Drug Response - Combination Treatment - Phosphoproteome",
+      "razón log2 de abundancia de proteína": -1.9697,
+      "ID RefSeq": "NP_000876.3",
+      "sitios_fósforilación": "s1021"
+    },
+    {
+      "identificador de caso": "e4796a23-6e79-4159-8547-d7fbe13098c9",
+      "id_muestra": "dddc3c0f-af7c-453b-9929-fe6896297df1",
+      "id_aliquota": "cc445b9a-5a06-48cc-854e-7a7611bf7b22",
+      "id_del_solicitante_de_aliquota": "15-00756-1",
+      "id_metadatos_ejecucion_aliquota": "0b52440e-7094-4574-926d-b2720e6abc40",
+      "nombre del estudio": "AML Ex Vivo Drug Response - Combination Treatment - Phosphoproteome",
+      "razón log2 de abundancia de proteína": 1.322,
+      "ID RefSeq": "NP_000876.3",
+      "sitios_fósforilación": "s424"
+    },
+    {
+      "identificador de caso": "e4796a23-6e79-4159-8547-d7fbe13098c9",
+      "id_muestra": "dddc3c0f-af7c-453b-9929-fe6896297df1",
+      "id_aliquota": "cc445b9a-5a06-48cc-854e-7a7611bf7b22",
+      "id_del_solicitante_de_aliquota": "15-00756-1",
+      "id_metadatos_ejecucion_aliquota": "0b52440e-7094-4574-926d-b2720e6abc40",
+      "nombre del estudio": "AML Ex Vivo Drug Response - Combination Treatment - Phosphoproteome",
+      "razón log2 de abundancia de proteína": -1.7199,
+      "ID RefSeq": "NP_000959.2",
+      "sitios_fósforilación": "s365"
+    },
+    {
+      "identificador de caso": "e4796a23-6e79-4159-8547-d7fbe13098c9",
+      "id_muestra": "dddc3c0f-af7c-453b-9929-fe6896297df1",
+      "id_aliquota": "cc445b9a-5a06-48cc-854e-7a7611bf7b22",
+      "id_del_solicitante_de_aliquota": "15-00756-1",
+      "id_metadatos_ejecucion_aliquota": "0b52440e-7094-4574-926d-b2720e6abc40",
+      "nombre del estudio": "AML Ex Vivo Drug Response - Combination Treatment - Phosphoproteome",
+      "razón log2 de abundancia de proteína": -0.387,
+      "ID RefSeq": "NP_001001998.1",
+      "sitios_fósforilación": "s13"
+    }
+  ]
+}
