@@ -1,0 +1,126 @@
+{
+  "table_name": "scRNAseq_VUMC_HTAN_DIS_EPI_V2_r2",
+  "table_fullname": "isb-cgc-bq.HTAN_versioned.scRNAseq_VUMC_HTAN_DIS_EPI_V2_r2",
+  "column_names": [
+    "观测",
+    "iVar",
+    "X值",
+    "细胞条码编号",
+    "HTAN_父级数据文件_ID",
+    "HTAN_生物样本_ID",
+    "细胞类型",
+    "组织亚型",
+    "组织类型",
+    "基因名称"
+  ],
+  "column_types": [
+    "INT64",
+    "INT64",
+    "FLOAT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "i观测",
+    "iVar",
+    "X值",
+    "细胞条码编号",
+    "HTAN_父级数据文件_ID",
+    "HTAN 生物样本 ID",
+    "细胞类型",
+    "组织亚型",
+    "组织类型",
+    "基因名称"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "INT64",
+    "FLOAT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "细胞条码索引",
+    "基因ID索引",
+    "给定基因和细胞的表达值",
+    "在测序过程中，用于每个包含细胞的液滴的条形码。",
+    "HTAN 数据文件标识符，指示这些文件来自哪些文件。",
+    "根据 HTAN ID SOP（例如 HTANx_yyy_zzz）关联的生物样本 HTAN ID",
+    "ABS = 吸收细胞\nTUF = 纤毛细胞\nEE = 肠内分泌细胞\nASC = 腺瘤特异性细胞\nTAC = 暂时性放大细胞\nCT = 洞顶细胞\nGOB = 杯状细胞\nSSC = 锯齿特异性细胞\nSTM = 干细胞",
+    "TA = 管状腺瘤, HP = 过度增生性息肉, TVA = 管状乳头状腺瘤, SSL = 侧向锯齿状病变, UNC = 未分类, NL = 正常",
+    "AD = 传统腺瘤，SER = 锯齿状息肉，UNC = 未分类，NL = 正常",
+    "测量基因"
+  ],
+  "sample_rows": [
+    {
+      "i观测": 28085,
+      "iVar": 8423,
+      "X值": 31.0,
+      "细胞条码编号": "GAGAAAGACCTTCGCTGG-45",
+      "HTAN_父级数据文件_ID": "HTA11_5363_200000101113111",
+      "HTAN 生物样本 ID": "HTA11_5363_2000001011",
+      "细胞类型": "CT",
+      "组织亚型": "SSL",
+      "组织类型": "SER",
+      "基因名称": "EEF1A1"
+    },
+    {
+      "i观测": 38856,
+      "iVar": 8423,
+      "X值": 15.0,
+      "细胞条码编号": "CTTTCTTTATGGAAAT-60",
+      "HTAN_父级数据文件_ID": "HTA11_2992_200000101113111",
+      "HTAN 生物样本 ID": "HTA11_2992_2000001011",
+      "细胞类型": "CT",
+      "组织亚型": "HP",
+      "组织类型": "SER",
+      "基因名称": "EEF1A1"
+    },
+    {
+      "i观测": 28085,
+      "iVar": 3160,
+      "X值": 2.0,
+      "细胞条码编号": "GAGAAAGACCTTCGCTGG-45",
+      "HTAN_父级数据文件_ID": "HTA11_5363_200000101113111",
+      "HTAN 生物样本 ID": "HTA11_5363_2000001011",
+      "细胞类型": "CT",
+      "组织亚型": "SSL",
+      "组织类型": "SER",
+      "基因名称": "ATP5B"
+    },
+    {
+      "i观测": 39073,
+      "iVar": 4832,
+      "X值": 2.0,
+      "细胞条码编号": "TGATATTGCCTTTCACATA-60",
+      "HTAN_父级数据文件_ID": "HTA11_2992_200000101113111",
+      "HTAN 生物样本 ID": "HTA11_2992_2000001011",
+      "细胞类型": "CT",
+      "组织亚型": "HP",
+      "组织类型": "SER",
+      "基因名称": "CDC42"
+    },
+    {
+      "i观测": 39043,
+      "iVar": 30074,
+      "X值": 2.0,
+      "细胞条码编号": "AGTCAAAGAGAATTCGT-60",
+      "HTAN_父级数据文件_ID": "HTA11_2992_200000101113111",
+      "HTAN 生物样本 ID": "HTA11_2992_2000001011",
+      "细胞类型": "CT",
+      "组织亚型": "HP",
+      "组织类型": "SER",
+      "基因名称": "SF1"
+    }
+  ]
+}
