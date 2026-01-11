@@ -1,0 +1,126 @@
+{
+  "table_name": "scRNAseq_VUMC_HTAN_VAL_EPI_V2_r2",
+  "table_fullname": "isb-cgc-bq.HTAN_versioned.scRNAseq_VUMC_HTAN_VAL_EPI_V2_r2",
+  "column_names": [
+    "i观测",
+    "iVar",
+    "X值",
+    "细胞条码编号",
+    "HTAN父级数据文件ID",
+    "HTAN生物样本编号",
+    "细胞类型",
+    "组织亚型",
+    "组织类型",
+    "基因名称"
+  ],
+  "column_types": [
+    "INT64",
+    "INT64",
+    "FLOAT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "观测",
+    "iVar",
+    "X值",
+    "细胞条码编号",
+    "HTAN_父级数据文件_ID",
+    "HTAN_生物样本编号",
+    "细胞类型",
+    "组织亚型",
+    "组织类型",
+    "基因名称"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "INT64",
+    "FLOAT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "细胞条形码索引",
+    "基因 ID 索引",
+    "给定基因和细胞的表达值",
+    "测序过程中用于每个含细胞液滴的条码",
+    "HTAN 数据文件标识符，指示这些文件派生自哪些文件。",
+    "根据 HTAN ID SOP（如 HTANx_yyy_zzz）关联的生物样本 HTAN ID",
+    "ABS = 吸收细胞, TUF = 花冠细胞, EE = 肠内分泌细胞, ASC = 腺瘤特异细胞, TAC = 间歇增殖细胞, CT = 洞顶细胞, GOB = 魁状细胞, SSC= 锯齿特异细胞, STM = 干细胞",
+    "TA = 管状腺瘤, HP = 纤维性息肉, TVA = 管状-乳头状腺瘤, SSL = 端状锯齿状病变, UNC = 未分类, NL = 正常",
+    "AD = 常规腺瘤， SER = 锯齿状息肉， UNC = 未分类， NL = 正常",
+    "已测定基因"
+  ],
+  "sample_rows": [
+    {
+      "观测": 49352,
+      "iVar": 25903,
+      "X值": 12.0,
+      "细胞条码编号": "TGAAGGATTCACTACGAGC-12-5898",
+      "HTAN_父级数据文件_ID": "HTA11_11156_200000102113111",
+      "HTAN_生物样本编号": "HTA11_11156_2000001021",
+      "细胞类型": "ABS",
+      "组织亚型": "TA",
+      "组织类型": "AD",
+      "基因名称": "RPLP2"
+    },
+    {
+      "观测": 50116,
+      "iVar": 7756,
+      "X值": 21.0,
+      "细胞条码编号": "AGCACCACAAACGCCT-14-5898",
+      "HTAN_父级数据文件_ID": "HTA11_11156_200000101113111",
+      "HTAN_生物样本编号": "HTA11_11156_2000001011",
+      "细胞类型": "ABS",
+      "组织亚型": "TA",
+      "组织类型": "AD",
+      "基因名称": "EEF1A1"
+    },
+    {
+      "观测": 50183,
+      "iVar": 14514,
+      "X值": 40.0,
+      "细胞条码编号": "TGACTGGTGCAGAGTTTCG-14-5898",
+      "HTAN_父级数据文件_ID": "HTA11_11156_200000101113111",
+      "HTAN_生物样本编号": "HTA11_11156_2000001011",
+      "细胞类型": "ABS",
+      "组织亚型": "TA",
+      "组织类型": "AD",
+      "基因名称": "MT-ND4"
+    },
+    {
+      "观测": 47332,
+      "iVar": 16431,
+      "X值": 59.0,
+      "细胞条码编号": "ACTTAGGTATCCAGTCC-9-5898",
+      "HTAN_父级数据文件_ID": "HTA11_6182_200000202113111",
+      "HTAN_生物样本编号": "HTA11_6182_2000002021",
+      "细胞类型": "ABS",
+      "组织亚型": "NL",
+      "组织类型": "NL",
+      "基因名称": "PHGR1"
+    },
+    {
+      "观测": 50176,
+      "iVar": 25693,
+      "X值": 97.0,
+      "细胞条码编号": "GAGAATACGCATATACCT-14-5898",
+      "HTAN_父级数据文件_ID": "HTA11_11156_200000101113111",
+      "HTAN_生物样本编号": "HTA11_11156_2000001011",
+      "细胞类型": "ABS",
+      "组织亚型": "TA",
+      "组织类型": "AD",
+      "基因名称": "RP5-857K21.4"
+    }
+  ]
+}
