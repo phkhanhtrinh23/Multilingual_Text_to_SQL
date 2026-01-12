@@ -1,0 +1,121 @@
+{
+  "table_name": "schema_r2",
+  "table_fullname": "isb-cgc-bq.HTAN_versioned.schema_r2",
+  "column_names": [
+    "属性",
+    "描述",
+    "有效值",
+    "依赖于",
+    "属性",
+    "必填",
+    "父母",
+    "依赖组件",
+    "来源",
+    "验证规则"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "属性",
+    "描述",
+    "有效值",
+    "依赖于",
+    "属性",
+    "必需",
+    "父母",
+    "依赖组件",
+    "来源",
+    "验证规则"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "我们想将测定的关键特征 X、相关协议或下游数据记录为元数据特征。",
+    "请提供属性X的定义或包含其定义的参考文献。最好在定义之外还提供源本体链接或代码。若最终描述仍在待定中，请留空。",
+    "属性 X 的范围：可以分配给属性 X 的值；这些值可以包含/是其他属性（即列在 “Attribute” 列中的属性）本身。用逗号分隔。如果没有提供，则任何非空值都适用于属性 X。",
+    "如果已指定属性 X，则需要记录为元数据特征的重要特性（如有）。这些特性可以是属性本身或属性的属性（即它们列在 'Attribute' 列和/或 'Properties' 列下）。逗号分隔。",
+    "与特定属性相关的属性；请注意，属性本身也可能是属性（即列在“属性”列中）。",
+    "指明属性 X 的值是否默认必须指定或可选。设置为 TRUE 或 FALSE。若为 TRUE，则数据贡献者必须为属性 X 提供一个值（例如，在“Valid Values”中指定的有效值之一）。若为 FALSE，则数据贡献者可在“Not Applicable”（不适用）或“Not Specified”（未指定）之间选择作为属性 X 的值。请注意，某属性默认可能不是必需的（即 “Required” 设置为 FALSE），但它可能因是另一个必需属性的子属性而变为必需（例如参见 ERCC）。",
+    "该属性的父类 - 即将此属性“挂钩”到现有模式中的位置。请注意，这假设只有一个现有模式/一个 JSON-LD 模式上下文；如果我们需要支持跨多个模式/JSON-LD 上下文定义的类/属性/属性，我们需要添加一个 schema/context 列，用来指定每个属性的上下文（如果与该属性父级的上下文不同）。",
+    "每个组件都是一个高级本体类，实体/对象在其中被分类/组件化；一个组件本身就是一个实体，需要在模式中定义。",
+    "该术语描述的来源，通常是一个 URI。本体可作为来源。例如，Library Construction Method 的来源是：http://purl.obolibrary.org/obo/OBI_0000711",
+    "在 Valid Values 列中允许什么类型的数据？仅当该行不存在 Valid Values 时才相关，例如字符串、列表、整数。"
+  ],
+  "sample_rows": [
+    {
+      "属性": null,
+      "描述": "Format of a file (e.g. txt, csv, fastq, bam, etc.)",
+      "有效值": "hdf5, bedgraph, idx, idat, bam, bai, excel, powerpoint, tif, tiff, OME-TIFF, png, doc, pdf, fasta, fastq, sam, vcf, bcf, maf, bed, chp, cel, sif, tsv, csv, txt, plink, bigwig, wiggle, gct, bgzip, zip, seg, html, mov, hyperlink, svs, md, flagstat, gtf, raw, msf, rmd, bed narrowPeak, bed broadPeak, bed gappedPeak, avi, pzfx, fig, xml, tar, R script, abf, bpm, dat, jpg, locs, Sentrix descriptor file, Python script, sav, gzip, sdf, RData, hic, ab1, 7z, gff3, json, sqlite, svg, sra, recal, tranches, mtx, tagAlign, dup, DICOM, czi, mex, cloupe, am, cell am, mpg, m, mzML",
+      "依赖于": null,
+      "必需": "TRUE",
+      "父母": null,
+      "依赖组件": null,
+      "来源": "http://example.org/htan/fileFormat",
+      "验证规则": null
+    },
+    {
+      "属性": null,
+      "描述": "Type of imaging assay",
+      "有效值": "H&E, CyCIF, t-CyCIF, IHC, mIHC, MxIF, SABER, IMC, CODEX, GeoMX-DSP, MIBI, MERFISH, ExSeq, Not Applicable",
+      "依赖于": null,
+      "必需": "TRUE",
+      "父母": "Imaging Level 2",
+      "依赖组件": null,
+      "来源": null,
+      "验证规则": null
+    },
+    {
+      "属性": null,
+      "描述": "Did all channels pass QC (if not add free text Comment)",
+      "有效值": "Yes, No - Channels QC",
+      "依赖于": null,
+      "必需": "TRUE",
+      "父母": "Imaging Level 2",
+      "依赖组件": null,
+      "来源": null,
+      "验证规则": null
+    },
+    {
+      "属性": null,
+      "描述": "The order in which the individual planes of data are interleaved.",
+      "有效值": "XYZCT, XYZTC, XYCTZ, XYCZT, XYTZC, ZYX",
+      "依赖于": null,
+      "必需": "TRUE",
+      "父母": "Imaging Level 2",
+      "依赖组件": null,
+      "来源": null,
+      "验证规则": null
+    },
+    {
+      "属性": null,
+      "描述": "Boolean (True/False)",
+      "有效值": "True, False",
+      "依赖于": null,
+      "必需": "TRUE",
+      "父母": "Imaging Level 2",
+      "依赖组件": null,
+      "来源": null,
+      "验证规则": null
+    }
+  ]
+}
