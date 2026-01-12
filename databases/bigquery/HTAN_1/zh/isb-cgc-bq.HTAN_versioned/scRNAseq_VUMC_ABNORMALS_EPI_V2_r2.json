@@ -1,0 +1,116 @@
+{
+  "table_name": "scRNAseq_VUMC_ABNORMALS_EPI_V2_r2",
+  "table_fullname": "isb-cgc-bq.HTAN_versioned.scRNAseq_VUMC_ABNORMALS_EPI_V2_r2",
+  "column_names": [
+    "观测值",
+    "iVar",
+    "X值",
+    "细胞条码编号",
+    "HTAN 父级数据文件 ID",
+    "HTAN生物样本编号",
+    "组织亚型",
+    "组织类型",
+    "基因名称"
+  ],
+  "column_types": [
+    "INT64",
+    "INT64",
+    "FLOAT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "i观测",
+    "实例变量",
+    "X值",
+    "细胞条码编号",
+    "HTAN 父级数据文件 ID",
+    "HTAN 生物样本 ID",
+    "组织亚型",
+    "组织类型",
+    "基因名称"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "INT64",
+    "FLOAT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "细胞条码索引",
+    "基因ID索引",
+    "给定基因和细胞的表达值",
+    "在测序过程中用于每个包含细胞的微滴的条形码",
+    "HTAN 数据文件标识符，指示这些文件来源的文件。",
+    "根据 HTAN ID SOP，HTAN ID 与生物样本关联（例如 HTANx_yyy_zzz）",
+    "TA = 管状腺瘤, HP = 增生性息肉, TVA = 管状乳头状腺瘤, SSL = 黏膜下锯齿状病变, MSI‑H = 微卫星不稳定高型结直肠癌, MSS = 微卫星稳定型结直肠癌",
+    "AD = 传统腺瘤，SER = 锯齿状息肉，MSI-H = 微卫星不稳定性高结直肠癌，MSS = 微卫星稳定结直肠癌",
+    "已测定基因"
+  ],
+  "sample_rows": [
+    {
+      "i观测": 18053,
+      "实例变量": 24826,
+      "X值": 9.0,
+      "细胞条码编号": "GAGGACTTCCAGCGCGAT-2-5779-Polyp-2021",
+      "HTAN 父级数据文件 ID": "HTA11_9408_200000101113111",
+      "HTAN 生物样本 ID": "HTA11_9408_2000001011",
+      "组织亚型": "TA",
+      "组织类型": "AD",
+      "基因名称": "RPS21"
+    },
+    {
+      "i观测": 17094,
+      "实例变量": 24751,
+      "X值": 17.0,
+      "细胞条码编号": "GTACCTTGAAACAGGG-0-5607-Polyp-2021",
+      "HTAN 父级数据文件 ID": "HTA11_10167_200000101113111",
+      "HTAN 生物样本 ID": "HTA11_10167_2000001011",
+      "组织亚型": "SSL",
+      "组织类型": "SER",
+      "基因名称": "RPL14"
+    },
+    {
+      "i观测": 8012,
+      "实例变量": 14959,
+      "X值": 9.0,
+      "细胞条码编号": "TTCCGCTCGAGCGGTA-67",
+      "HTAN 父级数据文件 ID": "HTA11_2112_200000101113211",
+      "HTAN 生物样本 ID": "HTA11_2112_2000001011",
+      "组织亚型": "HP",
+      "组织类型": "SER",
+      "基因名称": "NR3C2"
+    },
+    {
+      "i观测": 19038,
+      "实例变量": 24819,
+      "X值": 29.0,
+      "细胞条码编号": "TGAAACCCTTGTGTGCTCA-9-5779-Polyp-2021",
+      "HTAN 父级数据文件 ID": "HTA11_7663_200000101113211",
+      "HTAN 生物样本 ID": "HTA11_7663_2000001011",
+      "组织亚型": "SSL",
+      "组织类型": "SER",
+      "基因名称": "RPS16"
+    },
+    {
+      "i观测": 19479,
+      "实例变量": 1835,
+      "X值": 16.0,
+      "细胞条码编号": "GACAAGAGGGGAGTTCAC-19-5779-Polyp-2021",
+      "HTAN 父级数据文件 ID": "HTA11_6801_200000102113111",
+      "HTAN 生物样本 ID": "HTA11_6801_2000001021",
+      "组织亚型": "TA",
+      "组织类型": "AD",
+      "基因名称": "ALDOA"
+    }
+  ]
+}
