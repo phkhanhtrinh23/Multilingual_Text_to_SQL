@@ -1,0 +1,96 @@
+{
+  "table_name": "candidate_committee_2016",
+  "table_fullname": "bigquery-public-data.fec.candidate_committee_2016",
+  "column_names": [
+    "id_ứng_viên",
+    "năm bầu cử ứng viên",
+    "năm bầu cử FEC",
+    "mã_ủy ban",
+    "loại ủy ban",
+    "định danh ủy ban",
+    "Mã liên kết"
+  ],
+  "column_types": [
+    "STRING",
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "mã ứng viên",
+    "năm bầu cử ứng viên",
+    "năm bầu cử FEC",
+    "Mã ủy ban",
+    "Loại ủy ban",
+    "thiết kế ủy ban",
+    "id liên kết"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64"
+  ],
+  "description": [
+    "Xác định ứng viên",
+    "Năm bầu cử của ứng viên",
+    "Năm bầu cử FEC",
+    "Xác định ủy ban",
+    "Loại ủy ban",
+    "Tên ủy ban",
+    "ID Liên Kết"
+  ],
+  "sample_rows": [
+    {
+      "mã ứng viên": "P40003204",
+      "năm bầu cử ứng viên": 2004,
+      "năm bầu cử FEC": 2016,
+      "Mã ủy ban": "C00625483",
+      "Loại ủy ban": "P",
+      "thiết kế ủy ban": null,
+      "id liên kết": 212219
+    },
+    {
+      "mã ứng viên": "H4NY04059",
+      "năm bầu cử ứng viên": 2004,
+      "năm bầu cử FEC": 2016,
+      "Mã ủy ban": "C00392506",
+      "Loại ủy ban": "H",
+      "thiết kế ủy ban": "A",
+      "id liên kết": 203831
+    },
+    {
+      "mã ứng viên": "P60000452",
+      "năm bầu cử ứng viên": 2004,
+      "năm bầu cử FEC": 2016,
+      "Mã ủy ban": "C00171538",
+      "Loại ủy ban": "P",
+      "thiết kế ủy ban": "A",
+      "id liên kết": 204809
+    },
+    {
+      "mã ứng viên": "P60000452",
+      "năm bầu cử ứng viên": 2004,
+      "năm bầu cử FEC": 2016,
+      "Mã ủy ban": "C00329706",
+      "Loại ủy ban": "P",
+      "thiết kế ủy ban": "A",
+      "id liên kết": 204811
+    },
+    {
+      "mã ứng viên": "P60000452",
+      "năm bầu cử ứng viên": 2004,
+      "năm bầu cử FEC": 2016,
+      "Mã ủy ban": "C00188888",
+      "Loại ủy ban": "P",
+      "thiết kế ủy ban": "A",
+      "id liên kết": 204810
+    }
+  ]
+}
