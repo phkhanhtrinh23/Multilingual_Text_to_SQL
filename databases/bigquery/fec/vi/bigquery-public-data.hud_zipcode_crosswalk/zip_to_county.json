@@ -1,0 +1,86 @@
+{
+  "table_name": "zip_to_county",
+  "table_fullname": "bigquery-public-data.hud_zipcode_crosswalk.zip_to_county",
+  "column_names": [
+    "Mã ZIP",
+    "Mã địa lý quận",
+    "tỉ lệ nhà ở",
+    "Tỷ lệ kinh doanh",
+    "tỷ lệ khác",
+    "tổng tỷ lệ"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "NUMERIC",
+    "NUMERIC",
+    "NUMERIC",
+    "NUMERIC"
+  ],
+  "nested_column_names": [
+    "Mã bưu chính",
+    "Mã GEOID của huyện",
+    "tỷ lệ nhà ở",
+    "tỷ lệ kinh doanh",
+    "tỷ lệ khác",
+    "tổng tỷ lệ"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "NUMERIC",
+    "NUMERIC",
+    "NUMERIC",
+    "NUMERIC"
+  ],
+  "description": [
+    "Mã ZIP 5 chữ số của USPS.",
+    "ID GEOID quận gồm 5 chữ số duy nhất (từ kỳ 2000 hoặc 2010), được tạo thành từ mã FIPS của bang + mã FIPS của quận. Các ID này có thể ánh xạ tới nhiều mã bưu chính USPS. Chúng được ánh xạ vào trường 'geo_id' trong các bảng chứa dữ liệu quận.",
+    "Tỷ lệ các địa chỉ nhà ở trong phần ZIP của quận so với tổng số địa chỉ nhà ở trong toàn bộ ZIP.",
+    "Tỷ lệ các địa chỉ doanh nghiệp trong phần ZIP - Quận so với tổng số địa chỉ doanh nghiệp trong toàn bộ ZIP.",
+    "Tỷ lệ các địa chỉ khác trong phần ZIP - County so với tổng số địa chỉ doanh nghiệp trong toàn bộ ZIP.",
+    "Tỷ lệ của tất cả địa chỉ trong phần Quận của ZIP so với tổng số địa chỉ doanh nghiệp trong toàn bộ ZIP."
+  ],
+  "sample_rows": [
+    {
+      "Mã bưu chính": "36758",
+      "Mã GEOID của huyện": "01001",
+      "tỷ lệ nhà ở": "0.194743130",
+      "tỷ lệ kinh doanh": "0.090909091",
+      "tỷ lệ khác": "0E-9",
+      "tổng tỷ lệ": "0.191860465"
+    },
+    {
+      "Mã bưu chính": "36006",
+      "Mã GEOID của huyện": "01001",
+      "tỷ lệ nhà ở": "0.711048159",
+      "tỷ lệ kinh doanh": "0.529411765",
+      "tỷ lệ khác": "0.555555556",
+      "tổng tỷ lệ": "0.704918033"
+    },
+    {
+      "Mã bưu chính": "36022",
+      "Mã GEOID của huyện": "01001",
+      "tỷ lệ nhà ở": "0.366555925",
+      "tỷ lệ kinh doanh": "0.242990654",
+      "tỷ lệ khác": "0.350000000",
+      "tổng tỷ lệ": "0.364454094"
+    },
+    {
+      "Mã bưu chính": "36066",
+      "Mã GEOID của huyện": "01001",
+      "tỷ lệ nhà ở": "0.898141493",
+      "tỷ lệ kinh doanh": "0.723684211",
+      "tỷ lệ khác": "0.743002545",
+      "tổng tỷ lệ": "0.880370914"
+    },
+    {
+      "Mã bưu chính": "36749",
+      "Mã GEOID của huyện": "01001",
+      "tỷ lệ nhà ở": "0.595273264",
+      "tỷ lệ kinh doanh": "0.333333333",
+      "tỷ lệ khác": "0.388888889",
+      "tổng tỷ lệ": "0.586647727"
+    }
+  ]
+}
