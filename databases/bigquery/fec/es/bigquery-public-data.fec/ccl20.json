@@ -1,0 +1,96 @@
+{
+  "table_name": "ccl20",
+  "table_fullname": "bigquery-public-data.fec.ccl20",
+  "column_names": [
+    "ID de candidato",
+    "año de elección del candidato",
+    "fec_ano_eleccion",
+    "ID de comité",
+    "Tipo de comité",
+    "designación del comité",
+    "id_vinculación"
+  ],
+  "column_types": [
+    "STRING",
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "id_candidato",
+    "año de elección del candidato",
+    "año de elección FEC",
+    "id_comité",
+    "tipo de comité",
+    "diseño_del_comité",
+    "identificador_de_enlace"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64"
+  ],
+  "description": [
+    "Identificación de Candidatos",
+    "Año de la elección del candidato",
+    "Año de Elección del FEC",
+    "Identificación del Comité",
+    "Tipo de Comité",
+    "Designación del Comité",
+    "ID de enlace"
+  ],
+  "sample_rows": [
+    {
+      "id_candidato": "S2ND00040",
+      "año de elección del candidato": 2010,
+      "año de elección FEC": 2020,
+      "id_comité": "C00143438",
+      "tipo de comité": "N",
+      "diseño_del_comité": "B",
+      "identificador_de_enlace": 222161
+    },
+    {
+      "id_candidato": "H6WA06021",
+      "año de elección del candidato": 2012,
+      "año de elección FEC": 2020,
+      "id_comité": "C00037606",
+      "tipo de comité": "Q",
+      "diseño_del_comité": "B",
+      "identificador_de_enlace": 223061
+    },
+    {
+      "id_candidato": "S6NV00218",
+      "año de elección del candidato": 2016,
+      "año de elección FEC": 2020,
+      "id_comité": "C00580688",
+      "tipo de comité": "N",
+      "diseño_del_comité": "B",
+      "identificador_de_enlace": 222911
+    },
+    {
+      "id_candidato": "H0FL05147",
+      "año de elección del candidato": 2020,
+      "año de elección FEC": 2020,
+      "id_comité": "C00724005",
+      "tipo de comité": "N",
+      "diseño_del_comité": "B",
+      "identificador_de_enlace": 230270
+    },
+    {
+      "id_candidato": "P00015214",
+      "año de elección del candidato": 2020,
+      "año de elección FEC": 2020,
+      "id_comité": "C00746487",
+      "tipo de comité": "P",
+      "diseño_del_comité": "B",
+      "identificador_de_enlace": 233122
+    }
+  ]
+}
