@@ -1,0 +1,1978 @@
+{
+  "table_name": "patient",
+  "table_fullname": "bigquery-public-data.fhir_synthea.patient",
+  "column_names": [
+    "activo",
+    "animal",
+    "contacto",
+    "Médico general",
+    "reglas implícitas",
+    "idioma",
+    "enlace",
+    "Organismo Gestor",
+    "foto",
+    "Lugar de nacimiento",
+    "años de vida ajustados por discapacidad",
+    "nombre de soltera de la madre del paciente",
+    "años de vida ajustados por calidad",
+    "Extensión de personaje ficticio del actor shr",
+    "Extensión del número de Seguro Social",
+    "extensión del nombre del padre",
+    "extensión de entidad persona",
+    "us_core_sexo_de_nacimiento",
+    "etnicidad",
+    "raza",
+    "dirección",
+    "fecha de nacimiento",
+    "comunicación",
+    "fallecido",
+    "género",
+    "Identificación",
+    "identificador",
+    "estado civil",
+    "Meta",
+    "Nacimiento múltiple",
+    "Nombre",
+    "telecomunicaciones",
+    ""
+  ],
+  "column_types": [
+    "BOOL",
+    "STRUCT<species STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>, breed STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>, genderStatus STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>>",
+    "ARRAY<STRUCT<relationship ARRAY<STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>>, name STRUCT<use STRING, text STRING, family STRING, given ARRAY<STRING>, prefix ARRAY<STRING>, suffix ARRAY<STRING>, period STRUCT<start STRING, `end` STRING>>, telecom ARRAY<STRUCT<system STRING, value STRING, use STRING, rank INT64, period STRUCT<start STRING, `end` STRING>>>, address STRUCT<use STRING, type STRING, text STRING, line ARRAY<STRING>, city STRING, district STRING, state STRING, postalCode STRING, country STRING, period STRUCT<start STRING, `end` STRING>>, gender STRING, organization STRUCT<organizationId STRING, reference STRING, identifier STRUCT<use STRING, type STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>, system STRING, value STRING, period STRUCT<start STRING, `end` STRING>, assigner STRUCT<organizationId STRING, reference STRING, identifier STRUCT<use STRING, type STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>, system STRING, value STRING, period STRUCT<start STRING, `end` STRING>, assigner STRUCT<organizationId STRING, reference STRING, display STRING>>, display STRING>>, display STRING>, period STRUCT<start STRING, `end` STRING>>>",
+    "ARRAY<STRUCT<organizationId STRING, practitionerId STRING, reference STRING, identifier STRUCT<use STRING, type STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>, system STRING, value STRING, period STRUCT<start STRING, `end` STRING>, assigner STRUCT<organizationId STRING, reference STRING, identifier STRUCT<use STRING, type STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>, system STRING, value STRING, period STRUCT<start STRING, `end` STRING>, assigner STRUCT<organizationId STRING, reference STRING, display STRING>>, display STRING>>, display STRING>>",
+    "STRING",
+    "STRING",
+    "ARRAY<STRUCT<other STRUCT<patientId STRING, relatedPersonId STRING, reference STRING, identifier STRUCT<use STRING, type STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>, system STRING, value STRING, period STRUCT<start STRING, `end` STRING>, assigner STRUCT<organizationId STRING, reference STRING, identifier STRUCT<use STRING, type STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>, system STRING, value STRING, period STRUCT<start STRING, `end` STRING>, assigner STRUCT<organizationId STRING, reference STRING, display STRING>>, display STRING>>, display STRING>, type STRING>>",
+    "STRUCT<organizationId STRING, reference STRING, identifier STRUCT<use STRING, type STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>, system STRING, value STRING, period STRUCT<start STRING, `end` STRING>, assigner STRUCT<organizationId STRING, reference STRING, identifier STRUCT<use STRING, type STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>, system STRING, value STRING, period STRUCT<start STRING, `end` STRING>, assigner STRUCT<organizationId STRING, reference STRING, display STRING>>, display STRING>>, display STRING>",
+    "ARRAY<STRUCT<contentType STRING, language STRING, data STRING, url STRING, size INT64, `hash` STRING, title STRING, creation STRING>>",
+    "STRUCT<value STRUCT<address STRUCT<city STRING, country STRING, state STRING>>>",
+    "STRUCT<value STRUCT<decimal FLOAT64>>",
+    "STRUCT<value STRUCT<string STRING>>",
+    "STRUCT<value STRUCT<decimal FLOAT64>>",
+    "STRUCT<value STRUCT<boolean BOOL>>",
+    "STRUCT<value STRUCT<string STRING>>",
+    "STRUCT<value STRUCT<humanName STRUCT<text STRING>>>",
+    "STRUCT<value STRUCT<reference STRUCT<basicId STRING>>>",
+    "STRUCT<value STRUCT<code STRING>>",
+    "STRUCT<ombCategory STRUCT<value STRUCT<coding STRUCT<code STRING, display STRING, system STRING>>>, text STRUCT<value STRUCT<string STRING>>>",
+    "STRUCT<ombCategory STRUCT<value STRUCT<coding STRUCT<code STRING, display STRING, system STRING>>>, text STRUCT<value STRUCT<string STRING>>>",
+    "ARRAY<STRUCT<district STRING, period STRUCT<start STRING, `end` STRING>, text STRING, type STRING, use STRING, geolocation STRUCT<latitude STRUCT<value STRUCT<decimal FLOAT64>>, longitude STRUCT<value STRUCT<decimal FLOAT64>>>, city STRING, country STRING, line ARRAY<STRING>, postalCode STRING, state STRING>>",
+    "STRING",
+    "ARRAY<STRUCT<preferred BOOL, language STRUCT<coding ARRAY<STRUCT<userSelected BOOL, version STRING, code STRING, display STRING, system STRING>>, text STRING>>>",
+    "STRUCT<boolean BOOL, dateTime STRING>",
+    "STRING",
+    "STRING",
+    "ARRAY<STRUCT<assigner STRUCT<organizationId STRING, reference STRING, identifier STRUCT<use STRING, type STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>, system STRING, value STRING, period STRUCT<start STRING, `end` STRING>, assigner STRUCT<organizationId STRING, reference STRING, display STRING>>, display STRING>, period STRUCT<start STRING, `end` STRING>, use STRING, system STRING, type STRUCT<coding ARRAY<STRUCT<userSelected BOOL, version STRING, code STRING, display STRING, system STRING>>, text STRING>, value STRING>>",
+    "STRUCT<coding ARRAY<STRUCT<userSelected BOOL, version STRING, code STRING, display STRING, system STRING>>, text STRING>",
+    "STRUCT<lastUpdated TIMESTAMP, security ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, tag ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, versionId STRING, profile ARRAY<STRING>>",
+    "STRUCT<boolean BOOL, integer INT64>",
+    "ARRAY<STRUCT<period STRUCT<start STRING, `end` STRING>, text STRING, family STRING, given ARRAY<STRING>, prefix ARRAY<STRING>, suffix ARRAY<STRING>, use STRING>>",
+    "ARRAY<STRUCT<period STRUCT<start STRING, `end` STRING>, rank INT64, system STRING, use STRING, value STRING>>",
+    "STRUCT<div STRING, status STRING>"
+  ],
+  "nested_column_names": [
+    "Activo",
+    "animal",
+    "especie de animal",
+    "animal.especie.codificación",
+    "sistema de codificación de especies animales",
+    "animal.especie.codificación.versión",
+    "animal.especie.codificación.codigo",
+    "animal.especie.codificación.visualización",
+    "animal.especie.código.usuarioSeleccionado",
+    "Especie de animal",
+    "animal.raza",
+    "animal.raza.código",
+    "animal.raza.codificación.sistema",
+    "animal.raza.codificación.versión",
+    "animal.raza.codificación.código",
+    "animal.raza.codificación.visualización",
+    "animal.raza.codificación.usuarioSeleccionado",
+    "animal raza texto",
+    "Estado de género del animal",
+    "animal.estadoGénero.codificación",
+    "animal.estadoGenero.codificacion.sistema",
+    "versión de codificación del estado de género del animal",
+    "animal.estado de género.codificación.código",
+    "animal.estadoGenero.codificacion.visualizacion",
+    "animal.estadoGénero.codificación.seleccionadoPorUsuario",
+    "Estado de género del animal",
+    "Contacto",
+    "relación del contacto",
+    "contacto.relación.código",
+    "sistema de codificación de la relación de contacto",
+    "versión de codificación de la relación de contacto",
+    "Código de codificación de la relación del contacto",
+    "contacto.relación.código.visualización",
+    "contacto.relación.codificación.usuarioSeleccionado",
+    "texto de la relación del contacto",
+    "nombre del contacto",
+    "Uso del nombre del contacto",
+    "Texto del nombre de contacto",
+    "contacto.nombre.apellido",
+    "Nombre",
+    "contacto.nombre.prefijo",
+    "contacto.nombre.sufijo",
+    "contacto.nombre.periodo",
+    "contacto.nombre.periodo.inicio",
+    "contacto.nombre.periodo.final",
+    "contacto.telecom",
+    "contacto.telecomunicaciones.sistema",
+    "contacto.telecomunicaciones.valor",
+    "Uso de telecomunicaciones del contacto",
+    "contacto.telecom.rango",
+    "contacto.telecomunicaciones.periodo",
+    "contacto.telecomunicaciones.periodo.inicio",
+    "contacto.telecom.periodo.fin",
+    "Dirección de contacto",
+    "Usar dirección de contacto",
+    "tipo de dirección de contacto",
+    "contacto.direccion.texto",
+    "contacto.dirección.línea",
+    "contacto.dirección.ciudad",
+    "contacto.direccion.distrito",
+    "contacto.dirección.estado",
+    "contacto.dirección.código postal",
+    "País",
+    "contacto.direccion.periodo",
+    "inicio del período de la dirección de contacto",
+    "final del período de la dirección de contacto",
+    "contacto.género",
+    "Organización de contacto",
+    "contacto.organización.idOrganizacion",
+    "Referencia de la organización",
+    "identificador de la organización de contacto",
+    "Uso del identificador de organización de contacto",
+    "tipo de identificador de organización de contacto",
+    "contacto.organización.identificador.tipo.codificación",
+    "contacto.organización.identificador.tipo.codificación.sistema",
+    "Versión de la codificación del tipo de identificador de la organización de contacto",
+    "contacto.organización.identificador.tipo.codificación.código",
+    "contacto.organización.identificador.tipo.codificación.visualización",
+    "contacto.organización.identificador.tipo.codificación.seleccionado_por_usuario",
+    "texto del tipo de identificador de la organización de contacto",
+    "contacto.organización.identificador.sistema",
+    "valor del identificador de la organización de contacto",
+    "contacto.organización.identificador.período",
+    "contacto.organización.identificador.periodo.inicio",
+    "fin del periodo del identificador de la organización de contacto",
+    "contacto.organización.identificador.asignador",
+    "contacto.organización.identificador.asignador.idOrganización",
+    "contacto.organización.identificador.asignador.referencia",
+    "identificador del asignador del identificador de la organización de contacto",
+    "uso del identificador del asignador del identificador de la organización de contacto",
+    "contacto.organización.identificador.asignador.identificador.tipo",
+    "contacto.organización.identificador.asignador.identificador.tipo.codificación",
+    "contacto.organización.identificador.asignador.identificador.tipo.codificación.sistema",
+    "contacto.organización.identificador.asignador.identificador.tipo.codificación.version",
+    "Código de codificación del tipo de identificador del asignador del identificador de la organización de contacto",
+    "contacto.organización.identificador.asignador.identificador.tipo.codificación.visualización",
+    "contacto.organización.identificador.asignador.identificador.tipo.codificación.usuarioSeleccionado",
+    "contacto.organización.identificador.asignador.identificador.tipo.texto",
+    "contacto.organización.identificador.asignador.identificador.sistema",
+    "contacto.organización.identificador.asignador.identificador.valor",
+    "contacto.organización.identificador.asignador.identificador.período",
+    "contacto.organización.identificador.asignador.identificador.período.inicio",
+    "contacto.organización.identificador.asignador.identificador.período.fin",
+    "contacto.organización.identificador.asignador.identificador.asignador",
+    "contacto.organización.identificador.asignador.identificador.asignador.idOrganización",
+    "contacto.organización.identificador.asignador.identificador.asignador.referencia",
+    "contacto.organización.identificador.asignador.visualización",
+    "contacto.organización.identificador.asignador.mostrar",
+    "mostrar organización del contacto",
+    "periodo de contacto",
+    "inicio del período de contacto",
+    "Fin del período de contacto",
+    "médico de cabecera",
+    "identificador de organización del médico general",
+    "ID del médico general",
+    "referencia del médico general",
+    "identificador_del_médico_general",
+    "uso del identificador del médico general",
+    "tipo de identificador del médico general",
+    "código de tipo de identificador del médico general",
+    "sistema de codificación del tipo de identificador del médico general",
+    "médico general.identificador.tipo.codificación.versión",
+    "médicoGeneral.identificador.tipo.codificación.código",
+    "visualización de codificación del tipo de identificador del médico general",
+    "médicoGeneral.identificador.tipo.codificación.seleccionadoPorUsuario",
+    "médicoGeneral.identificador.tipo.texto",
+    "médico general.identificador.sistema",
+    "médicoGeneral.identificador.valor",
+    "periodo del identificador del médico general",
+    "médico general.identificador.periodo.inicio",
+    "médico de atención primaria.identificador.período.final",
+    "médico general.identificador.asignador",
+    "médicoGeneral.identificador.asignador.idOrganización",
+    "médicoGeneral.identificador.asignador.referencia",
+    "médico general.identificador.asignador.identificador",
+    "uso del identificador del asignador del identificador del médico general",
+    "Tipo de identificador del asignador del identificador del médico general",
+    "médico general.identificador.asignador.identificador.tipo.codificación",
+    "sistema de codificación del tipo del identificador del asignador del identificador del médico general",
+    "médicoGeneral.identificador.asignador.identificador.tipo.codificación.versión",
+    "médico general identificador asignador identificador tipo codificación código",
+    "médico general identificador asignador identificador tipo codificación visualización",
+    "Médico General\nIdentificador\nAsignador\nIdentificador\nTipo\nCodificación\nSeleccionado por el usuario",
+    "medicoGeneral.identificador.asignador.identificador.tipo.texto",
+    "médicoGeneral.identificador.asignador.identificador.sistema",
+    "valor del identificador del asignador del identificador del médico general",
+    "periodo del identificador del asignador del identificador del profesional general",
+    "médico general.identificador.asignador.identificador.período.inicio",
+    "final del período del identificador del asignador del identificador del médico general",
+    "identificador del asignador del identificador del asignador del médico general",
+    "medicoGeneral.identificador.asignador.identificador.asignador.idOrganizacion",
+    "médicoDeCabecera.identificador.asignador.identificador.asignador.referencia",
+    "médicoGeneral.identificador.asignador.identificador.asignador.visualización",
+    "médicoGeneral.identificador.asignador.visualización",
+    "Médico de Atención Primaria",
+    "reglas implícitas",
+    "idioma",
+    "enlace",
+    "Otro enlace",
+    "ID del otro paciente",
+    "enlace.otro.idPersonaRelacionada",
+    "Referencia de otro enlace",
+    "enlace.otro.identificador",
+    "enlace a uso de otro identificador",
+    "tipo de identificador externo de enlace",
+    "enlace.otro.identificador.tipo.codificación",
+    "enlace.otro.identificador.tipo.codificación.sistema",
+    "enlace.otro.identificador.tipo.codificación.versión",
+    "Código de codificación del tipo de identificador de enlace externo",
+    "visualización de la codificación del tipo de identificador externo",
+    "enlace.otro.identificador.tipo.codificacion.usuarioSeleccionado",
+    "enlace.otro.identificador.tipo.texto",
+    "Enlace al sistema de identificador externo",
+    "valor del identificador del otro enlace",
+    "enlace.otro.identificador.periodo",
+    "Inicio de período del identificador alterno",
+    "enlace.otro.identificador.periodo.final",
+    "enlace.otro.identificador.asignador",
+    "enlace.otro.identificador.asignador.id de organización",
+    "referencia del asignador del identificador de otro enlace",
+    "enlace.otro.identificador.asignador.identificador",
+    "enlace.otro.identificador.asignador.identificador.uso",
+    "enlace.otro.identificador.asignador.identificador.tipo",
+    "enlace otro identificador asignador identificador tipo codificación",
+    "enlace.otro.identificador.asignador.identificador.tipo.codificación.sistema",
+    "versión de codificación del tipo de identificador del asignador del identificador del enlace",
+    "enlace.otro.identificador.asignador.identificador.tipo.codificación.código",
+    "enlace.otro.identificador.asignador.identificador.tipo.codificacion.visualizacion",
+    "enlace.otro.identificador.asignador.identificador.tipo.codificación.seleccionado por el usuario",
+    "texto del tipo del identificador del asignador del identificador del otro enlace",
+    "enlace.otro.identificador.asignador.identificador.sistema",
+    "valor del identificador del asignador del identificador del enlace",
+    "enlace.otro.identificador.asignador.identificador.periodo",
+    "enlace.otro.identificador.asignador.identificador.periodo.inicio",
+    "enlace.otro.identificador.asignador.identificador.periodo.final",
+    "enlace.otro.identificador.asignador.identificador.asignador",
+    "enlace.otro.identificador.asignador.identificador.asignador.idOrganizacion",
+    "enlace.otro.identificador.asignador.identificador.asignador.referencia",
+    "enlace.otro.identificador.asignador.identificador.asignador.visualización",
+    "Visualización del asignador de identificador externo",
+    "Enlace a otro",
+    "tipo de enlace",
+    "organización gestora",
+    "organizaciónGestora.idOrganizacion",
+    "referencia de la organización de gestión",
+    "identificadorOrganizacionGestora",
+    "organización de gestión.identificador.uso",
+    "tipo de identificador de la organización de gestión",
+    "organizaciónResponsable.identificador.tipo.codificación",
+    "organizaciónGestora.identificador.tipo.codificación.sistema",
+    "organizaciónGestora.identificador.tipo.codificación.versión",
+    "organizaciónResponsable.identificador.tipo.codificación.código",
+    "organización gestionadora.identificador.tipo.codificación.visualización",
+    "organizaciónGestora.identificador.tipo.codificación.seleccionadoPorUsuario",
+    "organizaciónGestora.identificador.tipo.texto",
+    "sistema del identificador de la organización de gestión",
+    "organizaciónResponsable.identificador.valor",
+    "organización de gestión.identificador.período",
+    "organizaciongestora.identificador.periodo.inicio",
+    "fin del período del identificador de la organización gestora",
+    "organizacionGestora.identificador.asignador",
+    "organizacionGestora.identificador.asignador.idOrganizacion",
+    "organizaciónGestora.identificador.asignador.referencia",
+    "organizacionGestora.identificador.asignador.identificador",
+    "organizaciónResponsable.identificador.asignador.identificador.uso",
+    "organizacionGestora.identificador.asignador.identificador.tipo",
+    "organización de gestión.identificador.asignador.identificador.tipo.codificación",
+    "sistema de codificación del tipo de identificador del asignador del identificador de la organización que gestiona",
+    "versión de codificación del tipo de asignador del identificador de la organización de gestión",
+    "organización de gestión.identificador.asignador.identificador.tipo.codificación.código",
+    "organización de gestión.identificador.asignador.identificador.tipo.codificación.visualización",
+    "organizacionGestionadora.identificador.asignador.identificador.tipo.codificacion.usuarioSeleccionado",
+    "organizacionresponsable.identificador.asignador.identificador.tipo.texto",
+    "organizaciónGestora.identificador.asignador.identificador.sistema",
+    "organizaciónGestora.identificador.asignador.identificador.valor",
+    "organizacionResponsable.identificador.asignador.identificador.periodo",
+    "organizaciónGestora.identificador.asignador.identificador.período.inicio",
+    "organizaciónGestora.identificador.asignador.identificador.período.final",
+    "organizacionGestionadora.identificador.asignador.identificador.asignador",
+    "organizaciónGestora.identificador.asignador.identificador.asignador.idOrganización",
+    "organizaciónGestora.identificador.asignador.identificador.asignador.referencia",
+    "organizaciónGestora.identificador.asignador.identificador.asignador.mostrar",
+    "organizaciónGestora.identificador.asignador.visualización",
+    "organización responsable",
+    "foto",
+    "tipo de contenido",
+    "foto\nidioma",
+    "datos de la foto",
+    "foto.url",
+    "Tamaño de foto",
+    "Hash de foto",
+    "título de foto",
+    "foto.creación",
+    "Lugar de nacimiento",
+    "Lugar de nacimiento",
+    "ubicación de nacimiento.valor.dirección",
+    "lugarNacimiento.valor.dirección.ciudad",
+    "País de nacimiento",
+    "Estado de la dirección del lugar de nacimiento",
+    "años de vida ajustados por discapacidad",
+    "años_ajustados_de_vida_discapacidad.valor",
+    "años de vida ajustados por discapacidad.valor.decimal",
+    "Apellido de soltera de la madre del paciente",
+    "nombreMadreSoltera",
+    "nombre de soltera de la madre del paciente",
+    "años de vida ajustados por calidad",
+    "años de vida ajustados por calidad.valor",
+    "años_lengua_ajustados_de_calidad_valor_decimal",
+    "Extensión de Personaje Ficticio",
+    "shr_actor_PersonajeFicticio_extensión.valor",
+    "shr_actor_PersonaFicticia_extensión.valor.booleano",
+    "shr_demographics_Extensión_del_número_de_seguro_social",
+    "shr_demográficos_Número de Seguro Social_extensión.valor",
+    "Número de Seguro Social",
+    "extensión del nombre del padre",
+    "Valor de la extensión del nombre del padre",
+    "shr_entidad_nombrePadre_extension.valor.nombreHumano",
+    "Nombre del padre",
+    "shr_entidad_Persona_extensión",
+    "Valor de la extensión de la persona de la entidad SHR",
+    "shr_entidad_persona_extensión.valor.referencia",
+    "Id básico de referencia del valor de la extensión de la entidad Persona SHR",
+    "sexo de nacimiento",
+    "valor_sexo_nacimiento",
+    "Código de valor de sexo de nacimiento US Core",
+    "Etnicidad",
+    "Categoría OMB de etnicidad US Core",
+    "us_core_etnicidad.categoriaOMB.valor",
+    "código de valor de categoría OMB de etnicidad",
+    "código de codificación del valor de la categoría OMB de etnicidad",
+    "us_core_etnicidad.categoría_omb.valor.codificación.visualización",
+    "us_core_etnicidad.categoria_omb.valor.codificacion.sistema",
+    "texto de etnicidad",
+    "valor de la etnicidad us_core",
+    "texto del valor de etnicidad",
+    "Raza",
+    "us_core_race.categoríaOMB",
+    "valor_categoria_omb_raza_usa_core",
+    "raza_us_core.categoríaOMB.valor.codificación",
+    "raza_us_core.categoría_omb.valor.codificación.código",
+    "Valor de codificación de la categoría OMB de la raza",
+    "raza_us_core.categoría_omb.valor.codificación.sistema",
+    "us_core_raza.text",
+    "valor del texto de la raza us_core",
+    "us_core_raza.texto.valor.cadena",
+    "dirección",
+    "distrito",
+    "Período de dirección",
+    "inicio del período de la dirección",
+    "dirección.período.final",
+    "dirección",
+    "tipo de dirección",
+    "Usar dirección",
+    "dirección.geolocalización",
+    "latitud",
+    "dirección.geolocalización.latitud.valor",
+    "dirección.geolocalización.latitud.valor.decimal",
+    "dirección.geolocalización.longitud",
+    "valor de longitud de geolocalización de la dirección",
+    "dirección.geolocalización.longitud.valor.decimal",
+    "ciudad",
+    "país",
+    "Línea de dirección",
+    "dirección.código postal",
+    "Estado",
+    "fecha de nacimiento",
+    "comunicación",
+    "comunicación preferida",
+    "Idioma de comunicación",
+    "comunicación.lenguaje.codificación",
+    "Codificación de idioma de comunicación seleccionada por el usuario",
+    "comunicación.idioma.codificación.versión",
+    "código de codificación de idioma de comunicación",
+    "comunicación.lenguaje.codificación.visualizar",
+    "comunicación\nlenguaje\ncodificación\nsistema",
+    "texto del idioma de comunicación",
+    "fallecido",
+    "fallecido.boolean",
+    "fechaHoraFallecimiento",
+    "género",
+    "identificador",
+    "identificador",
+    "identificador.asignador",
+    "identificador.asignador.id de organización",
+    "identificador.asignador.referencia",
+    "identificador.asignador.identificador",
+    "identificador.asignador.identificador.uso",
+    "tipo de identificador del asignador",
+    "identificador asignador identificador tipo codificación",
+    "identificador.asignador.identificador.tipo.codificación.sistema",
+    "identificador.asignador.identificador.tipo.codificación.versión",
+    "identificador.asignador.identificador.tipo.codificación.código",
+    "identificador.asignador.identificador.tipo.codificación.visualización",
+    "identificador.asignador.identificador.tipo.codificacion.seleccionadoPorUsuario",
+    "identificador.asignador.identificador.tipo.texto",
+    "identificador.asignador.identificador.sistema",
+    "identificador.asignador.identificador.valor",
+    "identificador asignador periodo",
+    "identificador.asignador.identificador.periodo.inicio",
+    "identificador.asignador.identificador.periodo.final",
+    "identificador.asignador.identificador.asignador",
+    "identificador.asignador.identificador.asignador.idOrganizacion",
+    "identificador.asignador.identificador.asignador.referencia",
+    "identificador.asignador.identificador.asignador.visualización",
+    "identificador.asignador.visualización",
+    "identificador de periodo",
+    "identificador.periodo.inicio",
+    "identificador.periodo.final",
+    "Uso del identificador",
+    "identificador del sistema",
+    "tipo de identificador",
+    "identificador.tipo.codificación",
+    "identificador.tipo.codificación.usuarioSeleccionado",
+    "identificador.tipo.codificacion.versión",
+    "identificador.tipo.codificación.código",
+    "identificador.tipo.codificación.visualización",
+    "identificador.tipo.codificación.sistema",
+    "identificador.tipo.texto",
+    "identificador.valor",
+    "Estado civil",
+    "EstadoCivil.Codificación",
+    "Estado civil codificado seleccionado por el usuario",
+    "Versión de codificación del estado civil",
+    "estadoCivil.codificación.código",
+    "Estado civil.código.mostrar",
+    "estado civil.código.sistema",
+    "Estado Civil",
+    "meta",
+    "meta.últimaActualización",
+    "seguridad meta",
+    "meta.seguridad.sistema",
+    "meta.seguridad.versión",
+    "Código de seguridad meta",
+    "Pantalla de seguridad",
+    "metadatos.seguridad.usuarioSeleccionado",
+    "meta.etiqueta",
+    "sistema de etiquetas meta",
+    "meta.etiqueta.versión",
+    "meta.etiqueta.código",
+    "Mostrar etiqueta meta",
+    "Etiqueta meta de usuario seleccionada",
+    "idVersiónMeta",
+    "Perfil Meta",
+    "nacimiento múltiple",
+    "nacimiento múltiple.boolean",
+    "nacimiento múltiple.entero",
+    "nombre",
+    "nombre período",
+    "inicio del período",
+    "nombre.periodo.final",
+    "nombre.texto",
+    "apellido",
+    "nombre",
+    "prefijo",
+    "sufijo del nombre",
+    "Uso del nombre",
+    "telecomunicaciones",
+    "periodo telecom",
+    "inicio_periodo_telecom",
+    "fin del período de telecomunicaciones",
+    "Ranking de telecomunicaciones",
+    "sistema de telecomunicaciones",
+    "Uso de telecomunicaciones",
+    "valor_telecom",
+    "texto",
+    "texto.div",
+    "estado del texto"
+  ],
+  "nested_column_types": [
+    "BOOL",
+    "STRUCT<species STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>, breed STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>, genderStatus STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>>",
+    "STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>",
+    "ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "BOOL",
+    "STRING",
+    "STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>",
+    "ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "BOOL",
+    "STRING",
+    "STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>",
+    "ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "BOOL",
+    "STRING",
+    "ARRAY<STRUCT<relationship ARRAY<STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>>, name STRUCT<use STRING, text STRING, family STRING, given ARRAY<STRING>, prefix ARRAY<STRING>, suffix ARRAY<STRING>, period STRUCT<start STRING, `end` STRING>>, telecom ARRAY<STRUCT<system STRING, value STRING, use STRING, rank INT64, period STRUCT<start STRING, `end` STRING>>>, address STRUCT<use STRING, type STRING, text STRING, line ARRAY<STRING>, city STRING, district STRING, state STRING, postalCode STRING, country STRING, period STRUCT<start STRING, `end` STRING>>, gender STRING, organization STRUCT<organizationId STRING, reference STRING, identifier STRUCT<use STRING, type STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>, system STRING, value STRING, period STRUCT<start STRING, `end` STRING>, assigner STRUCT<organizationId STRING, reference STRING, identifier STRUCT<use STRING, type STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>, system STRING, value STRING, period STRUCT<start STRING, `end` STRING>, assigner STRUCT<organizationId STRING, reference STRING, display STRING>>, display STRING>>, display STRING>, period STRUCT<start STRING, `end` STRING>>>",
+    "ARRAY<STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>>",
+    "ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "BOOL",
+    "STRING",
+    "STRUCT<use STRING, text STRING, family STRING, given ARRAY<STRING>, prefix ARRAY<STRING>, suffix ARRAY<STRING>, period STRUCT<start STRING, `end` STRING>>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "ARRAY<STRING>",
+    "ARRAY<STRING>",
+    "ARRAY<STRING>",
+    "STRUCT<start STRING, `end` STRING>",
+    "STRING",
+    "STRING",
+    "ARRAY<STRUCT<system STRING, value STRING, use STRING, rank INT64, period STRUCT<start STRING, `end` STRING>>>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "STRUCT<start STRING, `end` STRING>",
+    "STRING",
+    "STRING",
+    "STRUCT<use STRING, type STRING, text STRING, line ARRAY<STRING>, city STRING, district STRING, state STRING, postalCode STRING, country STRING, period STRUCT<start STRING, `end` STRING>>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "ARRAY<STRING>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRUCT<start STRING, `end` STRING>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRUCT<organizationId STRING, reference STRING, identifier STRUCT<use STRING, type STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>, system STRING, value STRING, period STRUCT<start STRING, `end` STRING>, assigner STRUCT<organizationId STRING, reference STRING, identifier STRUCT<use STRING, type STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>, system STRING, value STRING, period STRUCT<start STRING, `end` STRING>, assigner STRUCT<organizationId STRING, reference STRING, display STRING>>, display STRING>>, display STRING>",
+    "STRING",
+    "STRING",
+    "STRUCT<use STRING, type STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>, system STRING, value STRING, period STRUCT<start STRING, `end` STRING>, assigner STRUCT<organizationId STRING, reference STRING, identifier STRUCT<use STRING, type STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>, system STRING, value STRING, period STRUCT<start STRING, `end` STRING>, assigner STRUCT<organizationId STRING, reference STRING, display STRING>>, display STRING>>",
+    "STRING",
+    "STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>",
+    "ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "BOOL",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRUCT<start STRING, `end` STRING>",
+    "STRING",
+    "STRING",
+    "STRUCT<organizationId STRING, reference STRING, identifier STRUCT<use STRING, type STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>, system STRING, value STRING, period STRUCT<start STRING, `end` STRING>, assigner STRUCT<organizationId STRING, reference STRING, display STRING>>, display STRING>",
+    "STRING",
+    "STRING",
+    "STRUCT<use STRING, type STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>, system STRING, value STRING, period STRUCT<start STRING, `end` STRING>, assigner STRUCT<organizationId STRING, reference STRING, display STRING>>",
+    "STRING",
+    "STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>",
+    "ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "BOOL",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRUCT<start STRING, `end` STRING>",
+    "STRING",
+    "STRING",
+    "STRUCT<organizationId STRING, reference STRING, display STRING>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRUCT<start STRING, `end` STRING>",
+    "STRING",
+    "STRING",
+    "ARRAY<STRUCT<organizationId STRING, practitionerId STRING, reference STRING, identifier STRUCT<use STRING, type STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>, system STRING, value STRING, period STRUCT<start STRING, `end` STRING>, assigner STRUCT<organizationId STRING, reference STRING, identifier STRUCT<use STRING, type STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>, system STRING, value STRING, period STRUCT<start STRING, `end` STRING>, assigner STRUCT<organizationId STRING, reference STRING, display STRING>>, display STRING>>, display STRING>>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRUCT<use STRING, type STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>, system STRING, value STRING, period STRUCT<start STRING, `end` STRING>, assigner STRUCT<organizationId STRING, reference STRING, identifier STRUCT<use STRING, type STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>, system STRING, value STRING, period STRUCT<start STRING, `end` STRING>, assigner STRUCT<organizationId STRING, reference STRING, display STRING>>, display STRING>>",
+    "STRING",
+    "STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>",
+    "ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "BOOL",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRUCT<start STRING, `end` STRING>",
+    "STRING",
+    "STRING",
+    "STRUCT<organizationId STRING, reference STRING, identifier STRUCT<use STRING, type STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>, system STRING, value STRING, period STRUCT<start STRING, `end` STRING>, assigner STRUCT<organizationId STRING, reference STRING, display STRING>>, display STRING>",
+    "STRING",
+    "STRING",
+    "STRUCT<use STRING, type STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>, system STRING, value STRING, period STRUCT<start STRING, `end` STRING>, assigner STRUCT<organizationId STRING, reference STRING, display STRING>>",
+    "STRING",
+    "STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>",
+    "ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "BOOL",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRUCT<start STRING, `end` STRING>",
+    "STRING",
+    "STRING",
+    "STRUCT<organizationId STRING, reference STRING, display STRING>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "ARRAY<STRUCT<other STRUCT<patientId STRING, relatedPersonId STRING, reference STRING, identifier STRUCT<use STRING, type STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>, system STRING, value STRING, period STRUCT<start STRING, `end` STRING>, assigner STRUCT<organizationId STRING, reference STRING, identifier STRUCT<use STRING, type STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>, system STRING, value STRING, period STRUCT<start STRING, `end` STRING>, assigner STRUCT<organizationId STRING, reference STRING, display STRING>>, display STRING>>, display STRING>, type STRING>>",
+    "STRUCT<patientId STRING, relatedPersonId STRING, reference STRING, identifier STRUCT<use STRING, type STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>, system STRING, value STRING, period STRUCT<start STRING, `end` STRING>, assigner STRUCT<organizationId STRING, reference STRING, identifier STRUCT<use STRING, type STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>, system STRING, value STRING, period STRUCT<start STRING, `end` STRING>, assigner STRUCT<organizationId STRING, reference STRING, display STRING>>, display STRING>>, display STRING>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRUCT<use STRING, type STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>, system STRING, value STRING, period STRUCT<start STRING, `end` STRING>, assigner STRUCT<organizationId STRING, reference STRING, identifier STRUCT<use STRING, type STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>, system STRING, value STRING, period STRUCT<start STRING, `end` STRING>, assigner STRUCT<organizationId STRING, reference STRING, display STRING>>, display STRING>>",
+    "STRING",
+    "STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>",
+    "ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "BOOL",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRUCT<start STRING, `end` STRING>",
+    "STRING",
+    "STRING",
+    "STRUCT<organizationId STRING, reference STRING, identifier STRUCT<use STRING, type STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>, system STRING, value STRING, period STRUCT<start STRING, `end` STRING>, assigner STRUCT<organizationId STRING, reference STRING, display STRING>>, display STRING>",
+    "STRING",
+    "STRING",
+    "STRUCT<use STRING, type STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>, system STRING, value STRING, period STRUCT<start STRING, `end` STRING>, assigner STRUCT<organizationId STRING, reference STRING, display STRING>>",
+    "STRING",
+    "STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>",
+    "ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "BOOL",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRUCT<start STRING, `end` STRING>",
+    "STRING",
+    "STRING",
+    "STRUCT<organizationId STRING, reference STRING, display STRING>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRUCT<organizationId STRING, reference STRING, identifier STRUCT<use STRING, type STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>, system STRING, value STRING, period STRUCT<start STRING, `end` STRING>, assigner STRUCT<organizationId STRING, reference STRING, identifier STRUCT<use STRING, type STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>, system STRING, value STRING, period STRUCT<start STRING, `end` STRING>, assigner STRUCT<organizationId STRING, reference STRING, display STRING>>, display STRING>>, display STRING>",
+    "STRING",
+    "STRING",
+    "STRUCT<use STRING, type STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>, system STRING, value STRING, period STRUCT<start STRING, `end` STRING>, assigner STRUCT<organizationId STRING, reference STRING, identifier STRUCT<use STRING, type STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>, system STRING, value STRING, period STRUCT<start STRING, `end` STRING>, assigner STRUCT<organizationId STRING, reference STRING, display STRING>>, display STRING>>",
+    "STRING",
+    "STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>",
+    "ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "BOOL",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRUCT<start STRING, `end` STRING>",
+    "STRING",
+    "STRING",
+    "STRUCT<organizationId STRING, reference STRING, identifier STRUCT<use STRING, type STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>, system STRING, value STRING, period STRUCT<start STRING, `end` STRING>, assigner STRUCT<organizationId STRING, reference STRING, display STRING>>, display STRING>",
+    "STRING",
+    "STRING",
+    "STRUCT<use STRING, type STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>, system STRING, value STRING, period STRUCT<start STRING, `end` STRING>, assigner STRUCT<organizationId STRING, reference STRING, display STRING>>",
+    "STRING",
+    "STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>",
+    "ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "BOOL",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRUCT<start STRING, `end` STRING>",
+    "STRING",
+    "STRING",
+    "STRUCT<organizationId STRING, reference STRING, display STRING>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "ARRAY<STRUCT<contentType STRING, language STRING, data STRING, url STRING, size INT64, `hash` STRING, title STRING, creation STRING>>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRUCT<value STRUCT<address STRUCT<city STRING, country STRING, state STRING>>>",
+    "STRUCT<address STRUCT<city STRING, country STRING, state STRING>>",
+    "STRUCT<city STRING, country STRING, state STRING>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRUCT<value STRUCT<decimal FLOAT64>>",
+    "STRUCT<decimal FLOAT64>",
+    "FLOAT64",
+    "STRUCT<value STRUCT<string STRING>>",
+    "STRUCT<string STRING>",
+    "STRING",
+    "STRUCT<value STRUCT<decimal FLOAT64>>",
+    "STRUCT<decimal FLOAT64>",
+    "FLOAT64",
+    "STRUCT<value STRUCT<boolean BOOL>>",
+    "STRUCT<boolean BOOL>",
+    "BOOL",
+    "STRUCT<value STRUCT<string STRING>>",
+    "STRUCT<string STRING>",
+    "STRING",
+    "STRUCT<value STRUCT<humanName STRUCT<text STRING>>>",
+    "STRUCT<humanName STRUCT<text STRING>>",
+    "STRUCT<text STRING>",
+    "STRING",
+    "STRUCT<value STRUCT<reference STRUCT<basicId STRING>>>",
+    "STRUCT<reference STRUCT<basicId STRING>>",
+    "STRUCT<basicId STRING>",
+    "STRING",
+    "STRUCT<value STRUCT<code STRING>>",
+    "STRUCT<code STRING>",
+    "STRING",
+    "STRUCT<ombCategory STRUCT<value STRUCT<coding STRUCT<code STRING, display STRING, system STRING>>>, text STRUCT<value STRUCT<string STRING>>>",
+    "STRUCT<value STRUCT<coding STRUCT<code STRING, display STRING, system STRING>>>",
+    "STRUCT<coding STRUCT<code STRING, display STRING, system STRING>>",
+    "STRUCT<code STRING, display STRING, system STRING>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRUCT<value STRUCT<string STRING>>",
+    "STRUCT<string STRING>",
+    "STRING",
+    "STRUCT<ombCategory STRUCT<value STRUCT<coding STRUCT<code STRING, display STRING, system STRING>>>, text STRUCT<value STRUCT<string STRING>>>",
+    "STRUCT<value STRUCT<coding STRUCT<code STRING, display STRING, system STRING>>>",
+    "STRUCT<coding STRUCT<code STRING, display STRING, system STRING>>",
+    "STRUCT<code STRING, display STRING, system STRING>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRUCT<value STRUCT<string STRING>>",
+    "STRUCT<string STRING>",
+    "STRING",
+    "ARRAY<STRUCT<district STRING, period STRUCT<start STRING, `end` STRING>, text STRING, type STRING, use STRING, geolocation STRUCT<latitude STRUCT<value STRUCT<decimal FLOAT64>>, longitude STRUCT<value STRUCT<decimal FLOAT64>>>, city STRING, country STRING, line ARRAY<STRING>, postalCode STRING, state STRING>>",
+    "STRING",
+    "STRUCT<start STRING, `end` STRING>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRUCT<latitude STRUCT<value STRUCT<decimal FLOAT64>>, longitude STRUCT<value STRUCT<decimal FLOAT64>>>",
+    "STRUCT<value STRUCT<decimal FLOAT64>>",
+    "STRUCT<decimal FLOAT64>",
+    "FLOAT64",
+    "STRUCT<value STRUCT<decimal FLOAT64>>",
+    "STRUCT<decimal FLOAT64>",
+    "FLOAT64",
+    "STRING",
+    "STRING",
+    "ARRAY<STRING>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "ARRAY<STRUCT<preferred BOOL, language STRUCT<coding ARRAY<STRUCT<userSelected BOOL, version STRING, code STRING, display STRING, system STRING>>, text STRING>>>",
+    "BOOL",
+    "STRUCT<coding ARRAY<STRUCT<userSelected BOOL, version STRING, code STRING, display STRING, system STRING>>, text STRING>",
+    "ARRAY<STRUCT<userSelected BOOL, version STRING, code STRING, display STRING, system STRING>>",
+    "BOOL",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRUCT<boolean BOOL, dateTime STRING>",
+    "BOOL",
+    "STRING",
+    "STRING",
+    "STRING",
+    "ARRAY<STRUCT<assigner STRUCT<organizationId STRING, reference STRING, identifier STRUCT<use STRING, type STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>, system STRING, value STRING, period STRUCT<start STRING, `end` STRING>, assigner STRUCT<organizationId STRING, reference STRING, display STRING>>, display STRING>, period STRUCT<start STRING, `end` STRING>, use STRING, system STRING, type STRUCT<coding ARRAY<STRUCT<userSelected BOOL, version STRING, code STRING, display STRING, system STRING>>, text STRING>, value STRING>>",
+    "STRUCT<organizationId STRING, reference STRING, identifier STRUCT<use STRING, type STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>, system STRING, value STRING, period STRUCT<start STRING, `end` STRING>, assigner STRUCT<organizationId STRING, reference STRING, display STRING>>, display STRING>",
+    "STRING",
+    "STRING",
+    "STRUCT<use STRING, type STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>, system STRING, value STRING, period STRUCT<start STRING, `end` STRING>, assigner STRUCT<organizationId STRING, reference STRING, display STRING>>",
+    "STRING",
+    "STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>",
+    "ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "BOOL",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRUCT<start STRING, `end` STRING>",
+    "STRING",
+    "STRING",
+    "STRUCT<organizationId STRING, reference STRING, display STRING>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRUCT<start STRING, `end` STRING>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRUCT<coding ARRAY<STRUCT<userSelected BOOL, version STRING, code STRING, display STRING, system STRING>>, text STRING>",
+    "ARRAY<STRUCT<userSelected BOOL, version STRING, code STRING, display STRING, system STRING>>",
+    "BOOL",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRUCT<coding ARRAY<STRUCT<userSelected BOOL, version STRING, code STRING, display STRING, system STRING>>, text STRING>",
+    "ARRAY<STRUCT<userSelected BOOL, version STRING, code STRING, display STRING, system STRING>>",
+    "BOOL",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRUCT<lastUpdated TIMESTAMP, security ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, tag ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, versionId STRING, profile ARRAY<STRING>>",
+    "TIMESTAMP",
+    "ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "BOOL",
+    "ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "BOOL",
+    "STRING",
+    "ARRAY<STRING>",
+    "STRUCT<boolean BOOL, integer INT64>",
+    "BOOL",
+    "INT64",
+    "ARRAY<STRUCT<period STRUCT<start STRING, `end` STRING>, text STRING, family STRING, given ARRAY<STRING>, prefix ARRAY<STRING>, suffix ARRAY<STRING>, use STRING>>",
+    "STRUCT<start STRING, `end` STRING>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "ARRAY<STRING>",
+    "ARRAY<STRING>",
+    "ARRAY<STRING>",
+    "STRING",
+    "ARRAY<STRUCT<period STRUCT<start STRING, `end` STRING>, rank INT64, system STRING, use STRING, value STRING>>",
+    "STRUCT<start STRING, `end` STRING>",
+    "STRING",
+    "STRING",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRUCT<div STRING, status STRING>",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "sample_rows": [
+    {
+      "Activo": null,
+      "animal": null,
+      "Contacto": "[]",
+      "médico de cabecera": "[]",
+      "reglas implícitas": null,
+      "idioma": null,
+      "enlace": "[]",
+      "organización gestora": null,
+      "foto": "[]",
+      "Lugar de nacimiento": {
+        "value": {
+          "address": {
+            "city": "Salvador",
+            "country": "BR",
+            "state": "Bahia"
+          }
+        }
+      },
+      "años de vida ajustados por discapacidad": {
+        "value": {
+          "decimal": 0.07162991009081023
+        }
+      },
+      "Apellido de soltera de la madre del paciente": {
+        "value": {
+          "string": "Vikki110 Dooley940"
+        }
+      },
+      "años de vida ajustados por calidad": {
+        "value": {
+          "decimal": 8.92837008990919
+        }
+      },
+      "Extensión de Personaje Ficticio": {
+        "value": {
+          "boolean": true
+        }
+      },
+      "shr_demographics_Extensión_del_número_de_seguro_social": {
+        "value": {
+          "string": "999-99-6784"
+        }
+      },
+      "extensión del nombre del padre": {
+        "value": {
+          "humanName": {
+            "text": "Willis868 Hane680"
+          }
+        }
+      },
+      "shr_entidad_Persona_extensión": {
+        "value": {
+          "reference": {
+            "basicId": "de73637e-4e27-4943-b9fa-1287662cb110"
+          }
+        }
+      },
+      "sexo de nacimiento": {
+        "value": {
+          "code": "F"
+        }
+      },
+      "Etnicidad": {
+        "ombCategory": {
+          "value": {
+            "coding": {
+              "code": "2186-5",
+              "display": "Not Hispanic or Latino",
+              "system": "urn:oid:2.16.840.1.113883.6.238"
+            }
+          }
+        },
+        "text": {
+          "value": {
+            "string": "Not Hispanic or Latino"
+          }
+        }
+      },
+      "Raza": {
+        "ombCategory": {
+          "value": {
+            "coding": {
+              "code": "2135-2",
+              "display": "Other",
+              "system": "urn:oid:2.16.840.1.113883.6.238"
+            }
+          }
+        },
+        "text": {
+          "value": {
+            "string": "Other"
+          }
+        }
+      },
+      "dirección": "[{'district': None, 'period': None, 'text': None, 'type': None, 'use': None, 'geolocation': {'latitude': {'value': {'decimal': 42.559673}}, 'longitude': {'value': {'decimal': -71.260947}}}, 'city': 'Billerica', 'country': 'US', 'line': array(['657 Jacobs Avenue Apt 21'], dtype=object), 'postalCode': '01821', 'state': 'Massachusetts'}]",
+      "fecha de nacimiento": "2009-08-14",
+      "comunicación": "[{'preferred': None, 'language': {'coding': array([{'userSelected': None, 'version': None, 'code': 'pt', 'display': 'Portuguese', 'system': 'urn:ietf:bcp:47'}],\n       dtype=object), 'text': 'Portuguese'}}                                                                                                                    ]",
+      "fallecido": null,
+      "género": "female",
+      "identificador": "[{'assigner': None, 'period': None, 'use': None, 'system': 'https://github.com/synthetichealth/synthea', 'type': None, 'value': 'fd8f3fbb-fe9e-4b22-aa39-c3ed495358ec'}\n {'assigner': None, 'period': None, 'use': None, 'system': 'http://hospital.smarthealthit.org', 'type': {'coding': array([{'userSelected': None, 'version': None, 'code': 'MR', 'display': 'Medical Record Number', 'system': 'http://hl7.org/fhir/v2/0203'}],\n       dtype=object), 'text': 'Medical Record Number'}, 'value': 'fd8f3fbb-fe9e-4b22-aa39-c3ed495358ec'}\n {'assigner': None, 'period': None, 'use': None, 'system': 'http://hl7.org/fhir/sid/us-ssn', 'type': {'coding': array([{'userSelected': None, 'version': None, 'code': 'SB', 'display': 'Social Security Number', 'system': 'http://hl7.org/fhir/identifier-type'}],\n       dtype=object), 'text': 'Social Security Number'}, 'value': '999-99-6784'}                                                                                                                                                                                    ]",
+      "Estado civil": {
+        "coding": "[{'userSelected': None, 'version': None, 'code': 'S', 'display': 'Never Married', 'system': 'http://hl7.org/fhir/v3/MaritalStatus'}]",
+        "text": "Never Married"
+      },
+      "meta": {
+        "lastUpdated": null,
+        "security": "[]",
+        "tag": "[]",
+        "versionId": null,
+        "profile": "['http://standardhealthrecord.org/fhir/StructureDefinition/shr-entity-Patient']"
+      },
+      "nacimiento múltiple": {
+        "boolean": false,
+        "integer": null
+      },
+      "nombre": "[{'period': None, 'text': None, 'family': 'Hane680', 'given': array(['Dionne995'], dtype=object), 'prefix': array([], dtype=object), 'suffix': array([], dtype=object), 'use': 'official'}]",
+      "telecomunicaciones": "[{'period': None, 'rank': None, 'system': 'phone', 'use': 'home', 'value': '555-883-4271'}]",
+      "texto": {
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Generated by <a href=\"https://github.com/synthetichealth/synthea\">Synthea</a>.Version identifier: 6c40ee7\n .   Person seed: -4911662287620229450  Population seed: 123</div>",
+        "status": "generated"
+      }
+    },
+    {
+      "Activo": null,
+      "animal": null,
+      "Contacto": "[]",
+      "médico de cabecera": "[]",
+      "reglas implícitas": null,
+      "idioma": null,
+      "enlace": "[]",
+      "organización gestora": null,
+      "foto": "[]",
+      "Lugar de nacimiento": {
+        "value": {
+          "address": {
+            "city": "Salvador",
+            "country": "BR",
+            "state": "Bahia"
+          }
+        }
+      },
+      "años de vida ajustados por discapacidad": {
+        "value": {
+          "decimal": 0.14212593094348847
+        }
+      },
+      "Apellido de soltera de la madre del paciente": {
+        "value": {
+          "string": "Amy965 Walter473"
+        }
+      },
+      "años de vida ajustados por calidad": {
+        "value": {
+          "decimal": 5.857874069056511
+        }
+      },
+      "Extensión de Personaje Ficticio": {
+        "value": {
+          "boolean": true
+        }
+      },
+      "shr_demographics_Extensión_del_número_de_seguro_social": {
+        "value": {
+          "string": "999-35-5498"
+        }
+      },
+      "extensión del nombre del padre": {
+        "value": {
+          "humanName": {
+            "text": "Palmer257 Stark857"
+          }
+        }
+      },
+      "shr_entidad_Persona_extensión": {
+        "value": {
+          "reference": {
+            "basicId": "a7c79443-55ba-40c9-a025-ccd06ca71575"
+          }
+        }
+      },
+      "sexo de nacimiento": {
+        "value": {
+          "code": "F"
+        }
+      },
+      "Etnicidad": {
+        "ombCategory": {
+          "value": {
+            "coding": {
+              "code": "2186-5",
+              "display": "Not Hispanic or Latino",
+              "system": "urn:oid:2.16.840.1.113883.6.238"
+            }
+          }
+        },
+        "text": {
+          "value": {
+            "string": "Not Hispanic or Latino"
+          }
+        }
+      },
+      "Raza": {
+        "ombCategory": {
+          "value": {
+            "coding": {
+              "code": "2135-2",
+              "display": "Other",
+              "system": "urn:oid:2.16.840.1.113883.6.238"
+            }
+          }
+        },
+        "text": {
+          "value": {
+            "string": "Other"
+          }
+        }
+      },
+      "dirección": "[{'district': None, 'period': None, 'text': None, 'type': None, 'use': None, 'geolocation': {'latitude': {'value': {'decimal': 42.585541}}, 'longitude': {'value': {'decimal': -71.44025}}}, 'city': 'Westford', 'country': 'US', 'line': array(['457 McDermott Station Apt 25'], dtype=object), 'postalCode': '01886', 'state': 'Massachusetts'}]",
+      "fecha de nacimiento": "2012-04-30",
+      "comunicación": "[{'preferred': None, 'language': {'coding': array([{'userSelected': None, 'version': None, 'code': 'pt', 'display': 'Portuguese', 'system': 'urn:ietf:bcp:47'}],\n       dtype=object), 'text': 'Portuguese'}}                                                                                                                    ]",
+      "fallecido": null,
+      "género": "female",
+      "identificador": "[{'assigner': None, 'period': None, 'use': None, 'system': 'https://github.com/synthetichealth/synthea', 'type': None, 'value': '29ae1c3c-f67c-4ee6-a819-82a2eeeab136'}\n {'assigner': None, 'period': None, 'use': None, 'system': 'http://hospital.smarthealthit.org', 'type': {'coding': array([{'userSelected': None, 'version': None, 'code': 'MR', 'display': 'Medical Record Number', 'system': 'http://hl7.org/fhir/v2/0203'}],\n       dtype=object), 'text': 'Medical Record Number'}, 'value': '29ae1c3c-f67c-4ee6-a819-82a2eeeab136'}\n {'assigner': None, 'period': None, 'use': None, 'system': 'http://hl7.org/fhir/sid/us-ssn', 'type': {'coding': array([{'userSelected': None, 'version': None, 'code': 'SB', 'display': 'Social Security Number', 'system': 'http://hl7.org/fhir/identifier-type'}],\n       dtype=object), 'text': 'Social Security Number'}, 'value': '999-35-5498'}                                                                                                                                                                                    ]",
+      "Estado civil": {
+        "coding": "[{'userSelected': None, 'version': None, 'code': 'S', 'display': 'Never Married', 'system': 'http://hl7.org/fhir/v3/MaritalStatus'}]",
+        "text": "Never Married"
+      },
+      "meta": {
+        "lastUpdated": null,
+        "security": "[]",
+        "tag": "[]",
+        "versionId": null,
+        "profile": "['http://standardhealthrecord.org/fhir/StructureDefinition/shr-entity-Patient']"
+      },
+      "nacimiento múltiple": {
+        "boolean": false,
+        "integer": null
+      },
+      "nombre": "[{'period': None, 'text': None, 'family': 'Stark857', 'given': array(['Ignacia942'], dtype=object), 'prefix': array([], dtype=object), 'suffix': array([], dtype=object), 'use': 'official'}]",
+      "telecomunicaciones": "[{'period': None, 'rank': None, 'system': 'phone', 'use': 'home', 'value': '555-208-6528'}]",
+      "texto": {
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Generated by <a href=\"https://github.com/synthetichealth/synthea\">Synthea</a>.Version identifier: 6c40ee7\n .   Person seed: 2002838425913787930  Population seed: 123</div>",
+        "status": "generated"
+      }
+    },
+    {
+      "Activo": null,
+      "animal": null,
+      "Contacto": "[]",
+      "médico de cabecera": "[]",
+      "reglas implícitas": null,
+      "idioma": null,
+      "enlace": "[]",
+      "organización gestora": null,
+      "foto": "[]",
+      "Lugar de nacimiento": {
+        "value": {
+          "address": {
+            "city": "Salvador",
+            "country": "BR",
+            "state": "Bahia"
+          }
+        }
+      },
+      "años de vida ajustados por discapacidad": {
+        "value": {
+          "decimal": 1.3627977422566502
+        }
+      },
+      "Apellido de soltera de la madre del paciente": {
+        "value": {
+          "string": "Isabela97 Pedroza523"
+        }
+      },
+      "años de vida ajustados por calidad": {
+        "value": {
+          "decimal": 14.63720225774335
+        }
+      },
+      "Extensión de Personaje Ficticio": {
+        "value": {
+          "boolean": true
+        }
+      },
+      "shr_demographics_Extensión_del_número_de_seguro_social": {
+        "value": {
+          "string": "999-80-8869"
+        }
+      },
+      "extensión del nombre del padre": {
+        "value": {
+          "humanName": {
+            "text": "Pablo44 Torres807"
+          }
+        }
+      },
+      "shr_entidad_Persona_extensión": {
+        "value": {
+          "reference": {
+            "basicId": "d3542085-e1c8-4977-8d6c-87ba22e0a83f"
+          }
+        }
+      },
+      "sexo de nacimiento": {
+        "value": {
+          "code": "F"
+        }
+      },
+      "Etnicidad": {
+        "ombCategory": {
+          "value": {
+            "coding": {
+              "code": "2186-5",
+              "display": "Not Hispanic or Latino",
+              "system": "urn:oid:2.16.840.1.113883.6.238"
+            }
+          }
+        },
+        "text": {
+          "value": {
+            "string": "Not Hispanic or Latino"
+          }
+        }
+      },
+      "Raza": {
+        "ombCategory": {
+          "value": {
+            "coding": {
+              "code": "2135-2",
+              "display": "Other",
+              "system": "urn:oid:2.16.840.1.113883.6.238"
+            }
+          }
+        },
+        "text": {
+          "value": {
+            "string": "Other"
+          }
+        }
+      },
+      "dirección": "[{'district': None, 'period': None, 'text': None, 'type': None, 'use': None, 'geolocation': {'latitude': {'value': {'decimal': 42.648044}}, 'longitude': {'value': {'decimal': -71.161751}}}, 'city': 'Andover', 'country': 'US', 'line': array(['477 Feeney Mall Suite 79'], dtype=object), 'postalCode': '01810', 'state': 'Massachusetts'}]",
+      "fecha de nacimiento": "2002-02-27",
+      "comunicación": "[{'preferred': None, 'language': {'coding': array([{'userSelected': None, 'version': None, 'code': 'es', 'display': 'Spanish', 'system': 'urn:ietf:bcp:47'}],\n       dtype=object), 'text': 'Spanish'}}                                                                                                                    ]",
+      "fallecido": null,
+      "género": "female",
+      "identificador": "[{'assigner': None, 'period': None, 'use': None, 'system': 'https://github.com/synthetichealth/synthea', 'type': None, 'value': '85589343-83c5-4edb-b67a-f0828e42500e'}\n {'assigner': None, 'period': None, 'use': None, 'system': 'http://hospital.smarthealthit.org', 'type': {'coding': array([{'userSelected': None, 'version': None, 'code': 'MR', 'display': 'Medical Record Number', 'system': 'http://hl7.org/fhir/v2/0203'}],\n       dtype=object), 'text': 'Medical Record Number'}, 'value': '85589343-83c5-4edb-b67a-f0828e42500e'}\n {'assigner': None, 'period': None, 'use': None, 'system': 'http://hl7.org/fhir/sid/us-ssn', 'type': {'coding': array([{'userSelected': None, 'version': None, 'code': 'SB', 'display': 'Social Security Number', 'system': 'http://hl7.org/fhir/identifier-type'}],\n       dtype=object), 'text': 'Social Security Number'}, 'value': '999-80-8869'}\n {'assigner': None, 'period': None, 'use': None, 'system': 'urn:oid:2.16.840.1.113883.4.3.25', 'type': {'coding': array([{'userSelected': None, 'version': None, 'code': 'DL', 'display': \"Driver's License\", 'system': 'http://hl7.org/fhir/v2/0203'}],\n       dtype=object), 'text': \"Driver's License\"}, 'value': 'S99963205'}                                                                                                                                                                                ]",
+      "Estado civil": {
+        "coding": "[{'userSelected': None, 'version': None, 'code': 'S', 'display': 'Never Married', 'system': 'http://hl7.org/fhir/v3/MaritalStatus'}]",
+        "text": "Never Married"
+      },
+      "meta": {
+        "lastUpdated": null,
+        "security": "[]",
+        "tag": "[]",
+        "versionId": null,
+        "profile": "['http://standardhealthrecord.org/fhir/StructureDefinition/shr-entity-Patient']"
+      },
+      "nacimiento múltiple": {
+        "boolean": false,
+        "integer": null
+      },
+      "nombre": "[{'period': None, 'text': None, 'family': 'Torres807', 'given': array(['Carmen818'], dtype=object), 'prefix': array([], dtype=object), 'suffix': array([], dtype=object), 'use': 'official'}]",
+      "telecomunicaciones": "[{'period': None, 'rank': None, 'system': 'phone', 'use': 'home', 'value': '555-385-6320'}]",
+      "texto": {
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Generated by <a href=\"https://github.com/synthetichealth/synthea\">Synthea</a>.Version identifier: 6c40ee7\n .   Person seed: 5764817557819838613  Population seed: 123</div>",
+        "status": "generated"
+      }
+    },
+    {
+      "Activo": null,
+      "animal": null,
+      "Contacto": "[]",
+      "médico de cabecera": "[]",
+      "reglas implícitas": null,
+      "idioma": null,
+      "enlace": "[]",
+      "organización gestora": null,
+      "foto": "[]",
+      "Lugar de nacimiento": {
+        "value": {
+          "address": {
+            "city": "Salvador",
+            "country": "BR",
+            "state": "Bahia"
+          }
+        }
+      },
+      "años de vida ajustados por discapacidad": {
+        "value": {
+          "decimal": 1.3694965916465773
+        }
+      },
+      "Apellido de soltera de la madre del paciente": {
+        "value": {
+          "string": "María Elena653 Padilla483"
+        }
+      },
+      "años de vida ajustados por calidad": {
+        "value": {
+          "decimal": 14.630503408353423
+        }
+      },
+      "Extensión de Personaje Ficticio": {
+        "value": {
+          "boolean": true
+        }
+      },
+      "shr_demographics_Extensión_del_número_de_seguro_social": {
+        "value": {
+          "string": "999-61-3507"
+        }
+      },
+      "extensión del nombre del padre": {
+        "value": {
+          "humanName": {
+            "text": "Claudio955 Acosta403"
+          }
+        }
+      },
+      "shr_entidad_Persona_extensión": {
+        "value": {
+          "reference": {
+            "basicId": "a9882980-ecde-47d9-b17d-de0718dfcd3f"
+          }
+        }
+      },
+      "sexo de nacimiento": {
+        "value": {
+          "code": "F"
+        }
+      },
+      "Etnicidad": {
+        "ombCategory": {
+          "value": {
+            "coding": {
+              "code": "2186-5",
+              "display": "Not Hispanic or Latino",
+              "system": "urn:oid:2.16.840.1.113883.6.238"
+            }
+          }
+        },
+        "text": {
+          "value": {
+            "string": "Not Hispanic or Latino"
+          }
+        }
+      },
+      "Raza": {
+        "ombCategory": {
+          "value": {
+            "coding": {
+              "code": "2135-2",
+              "display": "Other",
+              "system": "urn:oid:2.16.840.1.113883.6.238"
+            }
+          }
+        },
+        "text": {
+          "value": {
+            "string": "Other"
+          }
+        }
+      },
+      "dirección": "[{'district': None, 'period': None, 'text': None, 'type': None, 'use': None, 'geolocation': {'latitude': {'value': {'decimal': 42.388921}}, 'longitude': {'value': {'decimal': -71.24226800000002}}}, 'city': 'Waltham', 'country': 'US', 'line': array(['409 Crooks Fort Suite 60'], dtype=object), 'postalCode': '02451', 'state': 'Massachusetts'}]",
+      "fecha de nacimiento": "2002-05-23",
+      "comunicación": "[{'preferred': None, 'language': {'coding': array([{'userSelected': None, 'version': None, 'code': 'es', 'display': 'Spanish', 'system': 'urn:ietf:bcp:47'}],\n       dtype=object), 'text': 'Spanish'}}                                                                                                                    ]",
+      "fallecido": null,
+      "género": "female",
+      "identificador": "[{'assigner': None, 'period': None, 'use': None, 'system': 'https://github.com/synthetichealth/synthea', 'type': None, 'value': 'f19870ba-fd41-4a15-8286-0dec951a80c0'}\n {'assigner': None, 'period': None, 'use': None, 'system': 'http://hospital.smarthealthit.org', 'type': {'coding': array([{'userSelected': None, 'version': None, 'code': 'MR', 'display': 'Medical Record Number', 'system': 'http://hl7.org/fhir/v2/0203'}],\n       dtype=object), 'text': 'Medical Record Number'}, 'value': 'f19870ba-fd41-4a15-8286-0dec951a80c0'}\n {'assigner': None, 'period': None, 'use': None, 'system': 'http://hl7.org/fhir/sid/us-ssn', 'type': {'coding': array([{'userSelected': None, 'version': None, 'code': 'SB', 'display': 'Social Security Number', 'system': 'http://hl7.org/fhir/identifier-type'}],\n       dtype=object), 'text': 'Social Security Number'}, 'value': '999-61-3507'}\n {'assigner': None, 'period': None, 'use': None, 'system': 'urn:oid:2.16.840.1.113883.4.3.25', 'type': {'coding': array([{'userSelected': None, 'version': None, 'code': 'DL', 'display': \"Driver's License\", 'system': 'http://hl7.org/fhir/v2/0203'}],\n       dtype=object), 'text': \"Driver's License\"}, 'value': 'S99921209'}                                                                                                                                                                                ]",
+      "Estado civil": {
+        "coding": "[{'userSelected': None, 'version': None, 'code': 'S', 'display': 'Never Married', 'system': 'http://hl7.org/fhir/v3/MaritalStatus'}]",
+        "text": "Never Married"
+      },
+      "meta": {
+        "lastUpdated": null,
+        "security": "[]",
+        "tag": "[]",
+        "versionId": null,
+        "profile": "['http://standardhealthrecord.org/fhir/StructureDefinition/shr-entity-Patient']"
+      },
+      "nacimiento múltiple": {
+        "boolean": false,
+        "integer": null
+      },
+      "nombre": "[{'period': None, 'text': None, 'family': 'Acosta403', 'given': array(['Norma469'], dtype=object), 'prefix': array([], dtype=object), 'suffix': array([], dtype=object), 'use': 'official'}]",
+      "telecomunicaciones": "[{'period': None, 'rank': None, 'system': 'phone', 'use': 'home', 'value': '555-703-9415'}]",
+      "texto": {
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Generated by <a href=\"https://github.com/synthetichealth/synthea\">Synthea</a>.Version identifier: 6c40ee7\n .   Person seed: -4598146656519237832  Population seed: 123</div>",
+        "status": "generated"
+      }
+    },
+    {
+      "Activo": null,
+      "animal": null,
+      "Contacto": "[]",
+      "médico de cabecera": "[]",
+      "reglas implícitas": null,
+      "idioma": null,
+      "enlace": "[]",
+      "organización gestora": null,
+      "foto": "[]",
+      "Lugar de nacimiento": {
+        "value": {
+          "address": {
+            "city": "Salvador",
+            "country": "BR",
+            "state": "Bahia"
+          }
+        }
+      },
+      "años de vida ajustados por discapacidad": {
+        "value": {
+          "decimal": 0.5475243506844482
+        }
+      },
+      "Apellido de soltera de la madre del paciente": {
+        "value": {
+          "string": "Isabela97 Tejada731"
+        }
+      },
+      "años de vida ajustados por calidad": {
+        "value": {
+          "decimal": 13.452475649315552
+        }
+      },
+      "Extensión de Personaje Ficticio": {
+        "value": {
+          "boolean": true
+        }
+      },
+      "shr_demographics_Extensión_del_número_de_seguro_social": {
+        "value": {
+          "string": "999-10-9895"
+        }
+      },
+      "extensión del nombre del padre": {
+        "value": {
+          "humanName": {
+            "text": "Luis923 Araña824"
+          }
+        }
+      },
+      "shr_entidad_Persona_extensión": {
+        "value": {
+          "reference": {
+            "basicId": "982947a4-4a49-4d76-91f3-6de3a00bd8cc"
+          }
+        }
+      },
+      "sexo de nacimiento": {
+        "value": {
+          "code": "M"
+        }
+      },
+      "Etnicidad": {
+        "ombCategory": {
+          "value": {
+            "coding": {
+              "code": "2186-5",
+              "display": "Not Hispanic or Latino",
+              "system": "urn:oid:2.16.840.1.113883.6.238"
+            }
+          }
+        },
+        "text": {
+          "value": {
+            "string": "Not Hispanic or Latino"
+          }
+        }
+      },
+      "Raza": {
+        "ombCategory": {
+          "value": {
+            "coding": {
+              "code": "2135-2",
+              "display": "Other",
+              "system": "urn:oid:2.16.840.1.113883.6.238"
+            }
+          }
+        },
+        "text": {
+          "value": {
+            "string": "Other"
+          }
+        }
+      },
+      "dirección": "[{'district': None, 'period': None, 'text': None, 'type': None, 'use': None, 'geolocation': {'latitude': {'value': {'decimal': 42.311693}}, 'longitude': {'value': {'decimal': -71.940282}}}, 'city': 'Paxton', 'country': 'US', 'line': array(['512 Harber Hollow'], dtype=object), 'postalCode': '01612', 'state': 'Massachusetts'}]",
+      "fecha de nacimiento": "2004-04-07",
+      "comunicación": "[{'preferred': None, 'language': {'coding': array([{'userSelected': None, 'version': None, 'code': 'es', 'display': 'Spanish', 'system': 'urn:ietf:bcp:47'}],\n       dtype=object), 'text': 'Spanish'}}                                                                                                                    ]",
+      "fallecido": null,
+      "género": "male",
+      "identificador": "[{'assigner': None, 'period': None, 'use': None, 'system': 'https://github.com/synthetichealth/synthea', 'type': None, 'value': 'c2f57eca-e5f9-4c1e-9637-f2b0a8d6582f'}\n {'assigner': None, 'period': None, 'use': None, 'system': 'http://hospital.smarthealthit.org', 'type': {'coding': array([{'userSelected': None, 'version': None, 'code': 'MR', 'display': 'Medical Record Number', 'system': 'http://hl7.org/fhir/v2/0203'}],\n       dtype=object), 'text': 'Medical Record Number'}, 'value': 'c2f57eca-e5f9-4c1e-9637-f2b0a8d6582f'}\n {'assigner': None, 'period': None, 'use': None, 'system': 'http://hl7.org/fhir/sid/us-ssn', 'type': {'coding': array([{'userSelected': None, 'version': None, 'code': 'SB', 'display': 'Social Security Number', 'system': 'http://hl7.org/fhir/identifier-type'}],\n       dtype=object), 'text': 'Social Security Number'}, 'value': '999-10-9895'}                                                                                                                                                                                    ]",
+      "Estado civil": {
+        "coding": "[{'userSelected': None, 'version': None, 'code': 'S', 'display': 'Never Married', 'system': 'http://hl7.org/fhir/v3/MaritalStatus'}]",
+        "text": "Never Married"
+      },
+      "meta": {
+        "lastUpdated": null,
+        "security": "[]",
+        "tag": "[]",
+        "versionId": null,
+        "profile": "['http://standardhealthrecord.org/fhir/StructureDefinition/shr-entity-Patient']"
+      },
+      "nacimiento múltiple": {
+        "boolean": false,
+        "integer": null
+      },
+      "nombre": "[{'period': None, 'text': None, 'family': 'Araña824', 'given': array(['Gonzalo160'], dtype=object), 'prefix': array([], dtype=object), 'suffix': array([], dtype=object), 'use': 'official'}]",
+      "telecomunicaciones": "[{'period': None, 'rank': None, 'system': 'phone', 'use': 'home', 'value': '555-669-9953'}]",
+      "texto": {
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Generated by <a href=\"https://github.com/synthetichealth/synthea\">Synthea</a>.Version identifier: 6c40ee7\n .   Person seed: 6043276679047189457  Population seed: 123</div>",
+        "status": "generated"
+      }
+    }
+  ]
+}

@@ -1,0 +1,1983 @@
+{
+  "table_name": "patient",
+  "table_fullname": "bigquery-public-data.fhir_synthea.patient",
+  "column_names": [
+    "Hoạt động",
+    "động vật",
+    "Liên hệ",
+    "Bác sĩ tổng quát",
+    "Quy tắc ngầm",
+    "ngôn ngữ",
+    "liên kết",
+    "đơn vị quản lý",
+    "Ảnh",
+    "Nơi sinh",
+    "năm sống điều chỉnh khuyết tật",
+    "Tên gốc của mẹ",
+    "năm sống điều chỉnh chất lượng",
+    "Mở rộng nhân vật hư cấu",
+    "Số An Sinh Xã Hội - Phần Mở Rộng",
+    "Mở rộng tên cha",
+    "Phần mở rộng Người",
+    "giới tính sinh",
+    "dân tộc US Core",
+    "Chủng tộc US Core",
+    "địa chỉ",
+    "ngày sinh",
+    "truyền thông",
+    "đã qua",
+    "giới tính",
+    "Mã",
+    "định danh",
+    "Tình trạng hôn nhân",
+    "Meta",
+    "sinh nhiều",
+    "Tên",
+    "viễn thông",
+    "văn bản"
+  ],
+  "column_types": [
+    "BOOL",
+    "STRUCT<species STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>, breed STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>, genderStatus STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>>",
+    "ARRAY<STRUCT<relationship ARRAY<STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>>, name STRUCT<use STRING, text STRING, family STRING, given ARRAY<STRING>, prefix ARRAY<STRING>, suffix ARRAY<STRING>, period STRUCT<start STRING, `end` STRING>>, telecom ARRAY<STRUCT<system STRING, value STRING, use STRING, rank INT64, period STRUCT<start STRING, `end` STRING>>>, address STRUCT<use STRING, type STRING, text STRING, line ARRAY<STRING>, city STRING, district STRING, state STRING, postalCode STRING, country STRING, period STRUCT<start STRING, `end` STRING>>, gender STRING, organization STRUCT<organizationId STRING, reference STRING, identifier STRUCT<use STRING, type STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>, system STRING, value STRING, period STRUCT<start STRING, `end` STRING>, assigner STRUCT<organizationId STRING, reference STRING, identifier STRUCT<use STRING, type STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>, system STRING, value STRING, period STRUCT<start STRING, `end` STRING>, assigner STRUCT<organizationId STRING, reference STRING, display STRING>>, display STRING>>, display STRING>, period STRUCT<start STRING, `end` STRING>>>",
+    "ARRAY<STRUCT<organizationId STRING, practitionerId STRING, reference STRING, identifier STRUCT<use STRING, type STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>, system STRING, value STRING, period STRUCT<start STRING, `end` STRING>, assigner STRUCT<organizationId STRING, reference STRING, identifier STRUCT<use STRING, type STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>, system STRING, value STRING, period STRUCT<start STRING, `end` STRING>, assigner STRUCT<organizationId STRING, reference STRING, display STRING>>, display STRING>>, display STRING>>",
+    "STRING",
+    "STRING",
+    "ARRAY<STRUCT<other STRUCT<patientId STRING, relatedPersonId STRING, reference STRING, identifier STRUCT<use STRING, type STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>, system STRING, value STRING, period STRUCT<start STRING, `end` STRING>, assigner STRUCT<organizationId STRING, reference STRING, identifier STRUCT<use STRING, type STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>, system STRING, value STRING, period STRUCT<start STRING, `end` STRING>, assigner STRUCT<organizationId STRING, reference STRING, display STRING>>, display STRING>>, display STRING>, type STRING>>",
+    "STRUCT<organizationId STRING, reference STRING, identifier STRUCT<use STRING, type STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>, system STRING, value STRING, period STRUCT<start STRING, `end` STRING>, assigner STRUCT<organizationId STRING, reference STRING, identifier STRUCT<use STRING, type STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>, system STRING, value STRING, period STRUCT<start STRING, `end` STRING>, assigner STRUCT<organizationId STRING, reference STRING, display STRING>>, display STRING>>, display STRING>",
+    "ARRAY<STRUCT<contentType STRING, language STRING, data STRING, url STRING, size INT64, `hash` STRING, title STRING, creation STRING>>",
+    "STRUCT<value STRUCT<address STRUCT<city STRING, country STRING, state STRING>>>",
+    "STRUCT<value STRUCT<decimal FLOAT64>>",
+    "STRUCT<value STRUCT<string STRING>>",
+    "STRUCT<value STRUCT<decimal FLOAT64>>",
+    "STRUCT<value STRUCT<boolean BOOL>>",
+    "STRUCT<value STRUCT<string STRING>>",
+    "STRUCT<value STRUCT<humanName STRUCT<text STRING>>>",
+    "STRUCT<value STRUCT<reference STRUCT<basicId STRING>>>",
+    "STRUCT<value STRUCT<code STRING>>",
+    "STRUCT<ombCategory STRUCT<value STRUCT<coding STRUCT<code STRING, display STRING, system STRING>>>, text STRUCT<value STRUCT<string STRING>>>",
+    "STRUCT<ombCategory STRUCT<value STRUCT<coding STRUCT<code STRING, display STRING, system STRING>>>, text STRUCT<value STRUCT<string STRING>>>",
+    "ARRAY<STRUCT<district STRING, period STRUCT<start STRING, `end` STRING>, text STRING, type STRING, use STRING, geolocation STRUCT<latitude STRUCT<value STRUCT<decimal FLOAT64>>, longitude STRUCT<value STRUCT<decimal FLOAT64>>>, city STRING, country STRING, line ARRAY<STRING>, postalCode STRING, state STRING>>",
+    "STRING",
+    "ARRAY<STRUCT<preferred BOOL, language STRUCT<coding ARRAY<STRUCT<userSelected BOOL, version STRING, code STRING, display STRING, system STRING>>, text STRING>>>",
+    "STRUCT<boolean BOOL, dateTime STRING>",
+    "STRING",
+    "STRING",
+    "ARRAY<STRUCT<assigner STRUCT<organizationId STRING, reference STRING, identifier STRUCT<use STRING, type STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>, system STRING, value STRING, period STRUCT<start STRING, `end` STRING>, assigner STRUCT<organizationId STRING, reference STRING, display STRING>>, display STRING>, period STRUCT<start STRING, `end` STRING>, use STRING, system STRING, type STRUCT<coding ARRAY<STRUCT<userSelected BOOL, version STRING, code STRING, display STRING, system STRING>>, text STRING>, value STRING>>",
+    "STRUCT<coding ARRAY<STRUCT<userSelected BOOL, version STRING, code STRING, display STRING, system STRING>>, text STRING>",
+    "STRUCT<lastUpdated TIMESTAMP, security ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, tag ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, versionId STRING, profile ARRAY<STRING>>",
+    "STRUCT<boolean BOOL, integer INT64>",
+    "ARRAY<STRUCT<period STRUCT<start STRING, `end` STRING>, text STRING, family STRING, given ARRAY<STRING>, prefix ARRAY<STRING>, suffix ARRAY<STRING>, use STRING>>",
+    "ARRAY<STRUCT<period STRUCT<start STRING, `end` STRING>, rank INT64, system STRING, use STRING, value STRING>>",
+    "STRUCT<div STRING, status STRING>"
+  ],
+  "nested_column_names": [
+    "Hoạt động",
+    "động vật",
+    "loài động vật",
+    "động vật.loài.mã",
+    "Hệ thống mã hoá loài động vật",
+    "động vật.loài.định mã.phiên bản",
+    "Mã hoá loài động vật",
+    "Hiển thị mã loài động vật",
+    "đã chọn mã định danh loài động vật",
+    "động vật.loài.văn bản",
+    "động vật.loài",
+    "động vật.loài.lập trình",
+    "động vật\ngiống\nmã\nhệ thống",
+    "động vật\nhọ\nmã\nphiên bản",
+    "động vật\ngiống\nmã hoá\nmã",
+    "động vật.giống.mã.hiển thị",
+    "động vật.loài.mã.được chọn bởi người dùng",
+    "Mô tả giống động vật",
+    "Giới tính động vật",
+    "Mã trạng thái giới tính động vật",
+    "động vật.trạng thái giới tính.mã.hệ thống",
+    "Động vật trạng thái giới tính mã hóa phiên bản",
+    "động vật.trạng thái giới tính.đánh mã.mã",
+    "Hiển thị mã trạng thái giới tính động vật",
+    "động vật trạng thái giới tính mã được chọn bởi người dùng",
+    "Giới tính động vật",
+    "Liên hệ",
+    "Quan hệ liên lạc",
+    "mã quan hệ liên hệ",
+    "hệ thống mã hóa quan hệ liên hệ",
+    "liên hệ.mối quan hệ.mã hóa.phiên bản",
+    "mã định danh mối quan hệ liên lạc",
+    "liên hệ.mối quan hệ.mã hóa.hiển thị",
+    "Mã hóa quan hệ liên hệ được chọn bởi người dùng",
+    "Mô tả mối quan hệ",
+    "Tên liên hệ",
+    "Sử dụng tên liên hệ",
+    "Tên liên hệ",
+    "Họ",
+    "Tên",
+    "đầu xưng",
+    "liên hệ.tên.hậu tố",
+    "Tên liên hệ thời gian",
+    "Bắt đầu kỳ của tên liên hệ",
+    "Ngày kết thúc tên liên hệ",
+    "điện thoại",
+    "liên hệ.viễn thông.hệ thống",
+    "giá trị liên lạc viễn thông",
+    "Sử dụng liên lạc điện tử",
+    "liên hệ viễn thông hạng",
+    "khoảng thời gian liên hệ viễn thông",
+    "Bắt đầu thời gian liên hệ điện thoại",
+    "Ngày kết thúc kỳ viễn thông",
+    "địa chỉ",
+    "Sử dụng địa chỉ liên hệ",
+    "Loại địa chỉ",
+    "Địa chỉ liên hệ",
+    "địa chỉ liên hệ",
+    "địa chỉ thành phố liên hệ",
+    "quận",
+    "Tỉnh",
+    "địa chỉ mã bưu chính",
+    "Quốc gia",
+    "Liên hệ Địa chỉ Kỳ",
+    "Ngày bắt đầu địa chỉ liên lạc",
+    "kết thúc thời hạn địa chỉ liên hệ",
+    "giới tính",
+    "đơn vị liên hệ",
+    "định danh tổ chức liên hệ",
+    "Mã tổ chức liên hệ",
+    "định danh tổ chức liên hệ",
+    "Sử dụng mã định danh tổ chức liên hệ",
+    "liên hệ.tổ chức.định danh.loại",
+    "Mã định danh loại tổ chức liên hệ",
+    "liên hệ tổ chức định danh loại mã hệ thống",
+    "phiên bản mã hoá loại định danh tổ chức liên hệ",
+    "mã loại mã hóa định danh tổ chức liên hệ",
+    "Hiển thị mã hóa loại định danh tổ chức liên hệ",
+    "Liên hệ tổ chức định danh loại mã hoá được người dùng chọn",
+    "loại định danh tổ chức liên hệ",
+    "Hệ thống định danh tổ chức liên hệ",
+    "liên hệ.đơn vị.mã.giá trị",
+    "định danh thời gian của tổ chức liên hệ",
+    "bắt đầu thời gian mã tổ chức liên hệ",
+    "Kết thúc thời hạn mã tổ chức liên hệ",
+    "liên hệ.đơn vị.định danh.người cấp",
+    "liên hệ.đơn vị.định danh.người giao.mã tổ chức",
+    "Liên hệ.Tổ chức.Mã định danh.Người giao.Tham chiếu",
+    "định danh người giao cho trong tổ chức liên hệ",
+    "sử dụng bộ nhận dạng người giao cho bộ nhận dạng tổ chức trong liên hệ",
+    "Loại định danh người cấp cho tổ chức liên hệ",
+    "Mã loại định danh người chỉ định tổ chức liên hệ",
+    "hệ thống mã của kiểu định danh người phân công trong tổ chức liên hệ",
+    "phiên bản mã hóa loại định danh người giao phó định danh tổ chức liên lạc",
+    "liên hệ.tổ chức.định danh.người cấp.định danh.loại.mã hóa.mã",
+    "Tên hiển thị của mã dạng loại định danh của người chỉ định trong định danh của tổ chức liên hệ",
+    "định danh tổ chức của liên hệ người chỉ định kiểu mã hóa đã chọn bởi người dùng",
+    "Loại văn bản danh tính người giao cho tổ chức trong thông tin liên hệ",
+    "Hệ thống ID của người chỉ định trong định danh tổ chức liên hệ",
+    "Giá trị của định danh người giao định danh tổ chức liên hệ",
+    "liên hệ\ntổ chức\nđịnh danh\nngười cấp\nđịnh danh\nkhoảng thời gian",
+    "liên hệ tổ chức định danh người giao định danh thời gian bắt đầu",
+    "Kết thúc thời gian phân công người chỉ định danh tính tổ chức liên hệ",
+    "liên hệ.tổ chức.định danh.người giao.định danh.người giao",
+    "Liên hệ.Tổ chức.Định danh.Người giao.Định danh.Người giao.Mã tổ chức",
+    "liên hệ.tổ chức.định danh.người giao.định danh.người giao.tham chiếu",
+    "liên hệ.tổ chức.định danh.người giao.định danh.người giao.hiển thị",
+    "Hiển thị người chỉ định mã định danh tổ chức liên lạc",
+    "Tên tổ chức liên hệ",
+    "Thời gian liên hệ",
+    "Thời gian bắt đầu liên lạc",
+    "kết thúc kỳ liên lạc",
+    "bác sĩ đa khoa",
+    "ID tổ chức của bác sĩ tổng quát",
+    "mã bác sĩ tổng quát",
+    "tham chiếu bác sĩ chung",
+    "định danh bác sĩ đa khoa",
+    "sử dụng mã định danh bác sĩ tổng quát",
+    "loại định danh bác sĩ đa khoa",
+    "bác sĩ tổng quát.định danh.loại.mã hoá",
+    "Bác sĩ tổng quát.định danh.loại.định mã.hệ thống",
+    "Phiên bản của mã hoá loại định danh bác sĩ tổng quát",
+    "bác sĩ đa khoa định danh loại mã hóa mã",
+    "bác sĩ điều trị chung.định danh.loại.định mã.hiển thị",
+    "Bác sĩ đa khoa định danh loại mã được chọn bởi người dùng",
+    "Bác sĩ điều trị chung.định danh.loại.văn bản",
+    "bác sĩ tổng quát.định danh.hệ thống",
+    "bác sĩ tổng quát.định danh.giá trị",
+    "bác sĩ đa khoa.định danh.thời gian",
+    "bắt đầu kỳ hạn định danh của bác sĩ tổng quát",
+    "Bác sĩ tổng quát định danh thời gian kết thúc",
+    "bác sĩ tổng quát.định danh.người cấp",
+    "Mã tổ chức của người giao nhận định danh bác sĩ tổng quát",
+    "bác sĩ đa khoa.định danh.người giao.tham chiếu",
+    "Bác sĩ tổng quát.định danh.đơn vị giao.định danh",
+    "cách sử dụng định danh người giao nhận của định danh bác sĩ tổng quát",
+    "loại mã người giao của bác sĩ tổng quát",
+    "bác sĩ điều trị chung.identifier.người phân công.identifier.loại.mã hóa",
+    "Bác sĩ đa khoa.định danh.người giao.định danh.loại.mã hoá.hệ thống",
+    "Phiên bản mã của loại mã của người chỉ định định danh bác sĩ chuyên khoa chung",
+    "mã định dạng kiểu của định danh người cấp định danh bác sĩ chung",
+    "Hiển thị phân loại mã của định danh người giao nhận cho bác sĩ thường trú",
+    "bác sĩ đa khoa.định danh.người giao.định danh.loại.mã.được người dùng chọn",
+    "bác sĩ tổng quát.nhận dạng.người giao.nhận dạng.loại.văn bản",
+    "Hệ thống định danh của người giao định danh của bác sĩ điều trị chung",
+    "giá trị định danh của người giao nhận của định danh bác sĩ điều trị chung",
+    "bác sĩ tổng quát.định danh.người giao.định danh.khoảng thời gian",
+    "Bác sĩ đa khoa.định danh.người chỉ định.định danh.khoảng thời gian.bắt đầu",
+    "bác sĩ tổng quát.định danh.đơn vị cấp.định danh.khoảng thời gian.kết thúc",
+    "Bác sĩ đa khoa.định danh.người cấp.định danh.người cấp",
+    "bác sĩ tổng quát.mã số.người giao.mã số.người giao.mã tổ chức",
+    "bác sĩ đa khoa.định danh.người giao.định danh.người giao.tham chiếu",
+    "Bác sĩ tổng quát.định danh.người chỉ định.định danh.người chỉ định.hiển thị",
+    "bác sĩ đa khoa.định danh.người cung cấp.hiển thị",
+    "Bác sĩ tổng quát",
+    "Quy tắc ngụ ý",
+    "ngôn ngữ",
+    "liên kết",
+    "Liên kết khác",
+    "mã bệnh nhân khác",
+    "id người liên quan khác",
+    "Liên kết tham khảo khác",
+    "định danh liên kết khác",
+    "Sử dụng liên kết nhận dạng khác",
+    "loại định danh liên kết khác",
+    "mã loại định danh liên kết khác",
+    "Liên Kết Khác Định Danh Loại Mã Hệ Thống",
+    "liên kết khác định danh loại mã hóa phiên bản",
+    "mã định dạng loại định danh liên kết khác",
+    "liên kết khác định danh loại đánh mã hiển thị",
+    "Đã chọn mã hóa kiểu nhận dạng khác",
+    "Văn bản liên kết kiểu định danh khác",
+    "Liên kết hệ thống định danh khác",
+    "giá trị định danh liên kết khác",
+    "Khoảng thời gian liên kết ID khác",
+    "liên kết khác định danh khoảng thời gian bắt đầu",
+    "kết thúc kỳ hạn liên kết định danh khác",
+    "người phân công định danh khác",
+    "Liên kết khác định danh người gán ID tổ chức",
+    "liên kết khác định danh người tạo tham chiếu",
+    "định danh người chỉ định",
+    "Sử dụng định danh của người gán liên kết khác",
+    "loại định danh của người cấp định danh liên kết khác",
+    "liên kết.khác.định danh.người chỉ định.định danh.loại.mã",
+    "liên kết.khác.định danh.người gán.định danh.loại.mã.hệ thống",
+    "phiên bản mã hóa loại định danh người giao định danh khác liên kết",
+    "liên kết khác định danh người cung cấp định danh loại mã hóa mã",
+    "liên kết khác.định danh.ủy quyền.định danh.loại.coding.hiển thị",
+    "Liên kết định danh khác của người giao định danh loại mã được chọn bởi người dùng",
+    "liên kết.khác.định danh.người cấp.định danh.loại.văn bản",
+    "liên kết khác định danh người phân công định danh hệ thống",
+    "Giá trị ID của người cấp trong liên kết khác",
+    "khoảng thời gian của định danh người cấp liên kết với định danh khác",
+    "thời gian bắt đầu của định danh người giao nhận",
+    "kết thúc thời kỳ của định danh người phân công",
+    "liên kết\nkhác\nđịnh danh\nngười giao\nđịnh danh\nngười giao",
+    "liên kết khác định danh người giao định danh người giao mã tổ chức",
+    "liên kết.khác.định danh.nhà cấp.định danh.nhà cấp.tham chiếu",
+    "liên kết khác định danh người tạo định danh người tạo hiển thị",
+    "Tên hiển thị người giao định danh khác",
+    "Liên kết khác hiển thị",
+    "loại liên kết",
+    "đơn vị quản lý",
+    "đơn_vị_quản_lý.định_nhĩa_tổ_chức",
+    "Tham chiếu tổ chức quản lý",
+    "định danh tổ chức quản lý",
+    "định danh tổ chức quản lý: sử dụng",
+    "Loại nhận dạng của tổ chức quản lý",
+    "đơn vị quản lý.mã định danh.loại.mã",
+    "hệ thống mã của loại định danh tổ chức quản lý",
+    "đơn vị quản lý.định danh.loại.mã hoá.phiên bản",
+    "đơn vị quản lý.định danh.loại.định mã.mã",
+    "Tổ chức quản lý.định danh.loại.định mã.hiển thị",
+    "đơn vị quản lý.định danh.loại.định mã.được người dùng chọn",
+    "đơn vị quản lý.định danh.kiểu.văn bản",
+    "hệ thống định danh của tổ chức quản lý",
+    "giá trị định danh đơn vị quản lý",
+    "đơn vị quản lý.định danh.khoảng thời gian",
+    "ngày bắt đầu của khoảng thời gian định danh của tổ chức quản lý",
+    "kết thúc thời gian định danh của tổ chức quản lý",
+    "đơn vị quản lý.định danh.người cấp",
+    "tổ chức quản lý.định danh.người chỉ định.định danh tổ chức",
+    "đơn vị quản lý định danh người giao tham chiếu",
+    "đơn vị quản lý.mã.người giao.mã",
+    "đơn vị quản lý.định danh.người giao.định danh.sử dụng",
+    "loại định danh của người giao định danh của tổ chức quản lý",
+    "đơn vị quản lý.định danh.người gán.định danh.loại.mã hóa",
+    "Tổ chức quản lý.định danh.người giao.định danh.loại.định danh mã.hệ thống",
+    "phiên bản mã hóa loại định danh của người giao nhận cho định danh của tổ chức quản lý",
+    "tổ chức quản lý.định danh.người giao.định danh.loại.mã hoá.mã",
+    "đơn vị quản lý định danh người chỉ định định danh loại mã hóa hiển thị",
+    "Tổ chức quản lý.định danh.người cấp.định danh.loại.mã.được người dùng chọn",
+    "loại văn bản của định danh người giao trong tổ chức quản lý",
+    "tổ chức quản lý.định danh.người giao.định danh.hệ thống",
+    "giá trị định danh người gán của tổ chức quản lý",
+    "đơn vị quản lý.định danh.người cấp.định danh.khoảng thời gian",
+    "bắt đầu thời gian định danh của người cấp định danh tổ chức quản lý",
+    "kết thúc kỳ hạn của định danh người giao nhận tổ chức quản lý",
+    "đơn vị quản lý.định danh.đại lý.định danh.đại lý",
+    "đơn vị quản lý.định danh.người cấp.định danh.người cấp.mã tổ chức",
+    "đơn vị quản lý.định danh.người cấp.định danh.người cấp.tham chiếu",
+    "đơn vị quản lý.định danh.người giao.định danh.người giao.hiển thị",
+    "Hiển thị người giao cứng của định danh tổ chức quản lý",
+    "Tên tổ chức quản lý",
+    "Ảnh",
+    "loại nội dung ảnh",
+    "Ngôn ngữ ảnh",
+    "dữ liệu ảnh",
+    "địa chỉ ảnh",
+    "Kích thước ảnh",
+    "băm ảnh",
+    "Tiêu đề ảnh",
+    "tạo ảnh",
+    "Nơi sinh",
+    "địa điểm sinh",
+    "địa chỉ nơi sinh",
+    "Nơi sinh.giá trị.địa chỉ.thành phố",
+    "Nơi sinh.Giá trị.Địa chỉ.Quốc gia",
+    "địa điểm sinh.giá trị.địa chỉ.tỉnh",
+    "năm sống điều chỉnh khuyết tật",
+    "giá trị năm sống điều chỉnh khuyết tật",
+    "năm_sống_khuyết_tật.giá_trị.phân_thập",
+    "Tên chưa kết hôn của mẹ bệnh nhân",
+    "Giá trị tên gọi trước khi kết hôn của mẹ bệnh nhân",
+    "tên mẹ trước khi kết hôn của bệnh nhân.giá trị.chuỗi",
+    "năm đời điều chỉnh chất lượng",
+    "giá trị năm sống điều chỉnh chất lượng",
+    "năm_sống_được_điều_chỉnh_theo_chất_lượng.giá_trị.thập_phân",
+    "Mở rộng Nhân vật hư cấu shr_actor",
+    "giá trị mở rộng nhân vật hư cấu",
+    "Giá trị boolean của phần mở rộng Nhân vật hư cấu của shr_actor",
+    "Mã số an sinh xã hội mở rộng",
+    "Giá trị mở rộng số an sinh xã hội",
+    "Thông tin dân số SHR – Mã số an sinh xã hội (khu mở rộng) – Giá trị chuỗi",
+    "Tên cha bổ sung",
+    "Giá trị mở rộng tên cha",
+    "Tên cha (phần mở rộng) - Giá trị - Tên hiển thị",
+    "shr_entity_TênBố_extension.value.humanName.text",
+    "shr_thực_thể_Người_phần_mở_rộng",
+    "giá trị mở rộng Person trong thực thể shr",
+    "Giá trị tham chiếu mở rộng Person của SHR",
+    "ID tham chiếu cơ bản",
+    "giới tính lúc sinh",
+    "Giá trị giới tính",
+    "Giá trị mã Giới tính khi sinh",
+    "đặc điểm dân tộc",
+    "Mã danh mục OMB của dân tộc US Core",
+    "Giá trị hạng mục OMB của danh mục dân tộc US Core",
+    "Dân tộc - Loại OMB - Mã giá trị",
+    "mã_định_giữ_dân_tộc_us_core_loại_OMB_giá_trị",
+    "thuộc tính chủng tộc theo US core.loại OMB.giá trị.định mã.hiển thị",
+    "dân_tộc_us_core.loại_OMB.giá_trị.mã_hóa.hệ_thống",
+    "Văn bản mô tả dân tộc US Core",
+    "Giá trị văn bản chủng tộc US Core",
+    "Chủng tộc US đoạn văn giá trị chuỗi",
+    "đánh giá chủng tộc US Core",
+    "loại OMB của chủng tộc US core",
+    "giá trị danh mục OMB của chủng tộc US Core",
+    "định_danh_dân_tộc_US_Core.hạng_mục_OMB.giá_trị.định_mã",
+    "Mã giá trị phân loại OMB của dân tộc US Core",
+    "Hiển thị định danh giá trị danh mục OMB của chủng tộc US Core",
+    "Hệ thống mã cho giá trị OMB Category của chủng tộc US Core",
+    "Chủng tộc (văn bản)",
+    "giá trị văn bản của chủng tộc US Core",
+    "văn bản giá trị chuỗi Dân tộc US Core",
+    "Địa chỉ",
+    "Quận",
+    "thời gian địa chỉ",
+    "địa chỉ.khoảng thời gian.bắt đầu",
+    "kết thúc kỳ địa chỉ",
+    "địa chỉ",
+    "Loại địa chỉ",
+    "địa chỉ sử dụng",
+    "địa chỉ địa lý",
+    "địa chỉ.địa điểm.vĩ độ",
+    "địa chỉ.vị trí địa lý.vĩ độ.giá trị",
+    "địa chỉ tọa độ vĩ độ giá trị thập phân",
+    "địa chỉ.định vị.độ kinh tuyến",
+    "địa chỉ giá trị kinh độ",
+    "địa chỉ.định vị.kinh độ.giá trị.thập phân",
+    "địa chỉ.thành phố",
+    "địa_chi.quốc_gia",
+    "địa_chỉ.đường",
+    "địa chỉ.mã bưu chính",
+    "địa chỉ.tỉnh",
+    "Ngày sinh",
+    "giao tiếp",
+    "phương thức liên lạc ưu tiên",
+    "Ngôn ngữ giao tiếp",
+    "giao tiếp\nngôn ngữ\nmã hoá",
+    "Mã ngôn ngữ giao tiếp được người dùng chọn",
+    "giao tiếp ngôn ngữ mã hoá phiên bản",
+    "giao tiếp.ngôn ngữ.viết mã.mã",
+    "Giao tiếp.Ngôn ngữ.Viết mã.Hiển thị",
+    "giao tiếp.ngôn ngữ.mã hóa.hệ thống",
+    "Văn bản ngôn ngữ giao tiếp",
+    "Đã mất",
+    "đã qua",
+    "Ngày giờ qua đời",
+    "giới tính",
+    "Mã",
+    "định danh",
+    "người giao định danh",
+    "định danh.người giao.mã tổ chức",
+    "định danh.người gán.tham chiếu",
+    "định danh.người gán.định danh",
+    "định danh.người giao.định danh.sử dụng",
+    "Loại định danh của người giao",
+    "định danh.người giao.định danh.loại.mã",
+    "hệ thống mã phân loại định danh người cấp",
+    "phiên bản mã loại định danh của người giao",
+    "định danh.người giao.định danh.loại.định mã.mã",
+    "định danh.người giao.định danh.loại.định mã.hiển thị",
+    "định danh người phân công định danh loại mã hóa được chọn bởi người dùng",
+    "định danh.người giao.định danh.loại.văn bản",
+    "định danh người giao định danh hệ thống",
+    "giá trị định danh của người cấp",
+    "định danh.người giao.định danh.thời gian",
+    "định danh.người giao.định danh.khoảng thời gian.bắt đầu",
+    "định danh.người giao.định danh.khoảng thời gian.kết thúc",
+    "định danh. người giao. định danh. người giao",
+    "Mã tổ chức của người giao của định danh",
+    "định danh\nngười chỉ định\nđịnh danh\nngười chỉ định\ntham chiếu",
+    "định danh người giao hiển thị",
+    "định danh người giao hiển thị",
+    "định danh.thời kỳ",
+    "định danh.định kỳ.bắt đầu",
+    "định danh cuối kỳ",
+    "Sử dụng định danh",
+    "Hệ thống định danh",
+    "Kiểu định danh",
+    "mã định danh loại",
+    "định danh loại mã được chọn bởi người dùng",
+    "phiên bản mã hóa loại định danh",
+    "định danh.kiểu.định dạng mã.mã",
+    "Hiển thị mã định danh loại",
+    "định danh.loại.mã.hệ thống",
+    "định danh.kiểu.văn bản",
+    "giá trị định danh",
+    "Tình trạng hôn nhân",
+    "Mã tình trạng hôn nhân",
+    "tình trạng hôn nhân.đánh mã.được chọn bởi người dùng",
+    "phiên bản mã hóa trạng thái hôn nhân",
+    "Mã tình trạng hôn nhân",
+    "Tình trạng hôn nhân - Hiển thị mã",
+    "hệ thống mã trạng thái hôn nhân",
+    "Tình trạng hôn nhân",
+    "siêu dữ liệu",
+    "cập nhật lần cuối",
+    "bảo mật",
+    "Hệ thống bảo mật",
+    "Phiên bản Meta Bảo mật",
+    "mã bảo mật",
+    "Hiển thị bảo mật Meta",
+    "siêu dữ liệu.bảo mật.người dùng đã chọn",
+    "thẻ meta",
+    "Hệ thống thẻ meta",
+    "Phiên bản thẻ meta",
+    "meta.thẻ.mã",
+    "hiển thị thẻ meta",
+    "Người dùng đã chọn",
+    "định danh phiên bản",
+    "Hồ sơ meta",
+    "sinh nhiều",
+    "sinh nhiều con.boolean",
+    "Số lần sinh nhiều",
+    "Tên",
+    "tên.thời gian",
+    "Tên kỳ bắt đầu",
+    "tên.thời_kỳ.kết_thúc",
+    "Tên văn bản",
+    "Họ",
+    "tên",
+    "Tiền tố",
+    "Tên hậu tố",
+    "tên.sử dụng",
+    "viễn thông",
+    "khoảng thời gian viễn thông",
+    "bắt đầu thời kỳ viễn thông",
+    "Kết thúc kỳ viễn thông",
+    "thứ hạng viễn thông",
+    "hệ thống viễn thông",
+    "Sử dụng Viễn Thông",
+    "giá trị viễn thông",
+    "đoạn văn",
+    "Khối văn bản",
+    "trạng thái"
+  ],
+  "nested_column_types": [
+    "BOOL",
+    "STRUCT<species STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>, breed STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>, genderStatus STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>>",
+    "STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>",
+    "ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "BOOL",
+    "STRING",
+    "STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>",
+    "ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "BOOL",
+    "STRING",
+    "STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>",
+    "ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "BOOL",
+    "STRING",
+    "ARRAY<STRUCT<relationship ARRAY<STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>>, name STRUCT<use STRING, text STRING, family STRING, given ARRAY<STRING>, prefix ARRAY<STRING>, suffix ARRAY<STRING>, period STRUCT<start STRING, `end` STRING>>, telecom ARRAY<STRUCT<system STRING, value STRING, use STRING, rank INT64, period STRUCT<start STRING, `end` STRING>>>, address STRUCT<use STRING, type STRING, text STRING, line ARRAY<STRING>, city STRING, district STRING, state STRING, postalCode STRING, country STRING, period STRUCT<start STRING, `end` STRING>>, gender STRING, organization STRUCT<organizationId STRING, reference STRING, identifier STRUCT<use STRING, type STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>, system STRING, value STRING, period STRUCT<start STRING, `end` STRING>, assigner STRUCT<organizationId STRING, reference STRING, identifier STRUCT<use STRING, type STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>, system STRING, value STRING, period STRUCT<start STRING, `end` STRING>, assigner STRUCT<organizationId STRING, reference STRING, display STRING>>, display STRING>>, display STRING>, period STRUCT<start STRING, `end` STRING>>>",
+    "ARRAY<STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>>",
+    "ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "BOOL",
+    "STRING",
+    "STRUCT<use STRING, text STRING, family STRING, given ARRAY<STRING>, prefix ARRAY<STRING>, suffix ARRAY<STRING>, period STRUCT<start STRING, `end` STRING>>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "ARRAY<STRING>",
+    "ARRAY<STRING>",
+    "ARRAY<STRING>",
+    "STRUCT<start STRING, `end` STRING>",
+    "STRING",
+    "STRING",
+    "ARRAY<STRUCT<system STRING, value STRING, use STRING, rank INT64, period STRUCT<start STRING, `end` STRING>>>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "STRUCT<start STRING, `end` STRING>",
+    "STRING",
+    "STRING",
+    "STRUCT<use STRING, type STRING, text STRING, line ARRAY<STRING>, city STRING, district STRING, state STRING, postalCode STRING, country STRING, period STRUCT<start STRING, `end` STRING>>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "ARRAY<STRING>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRUCT<start STRING, `end` STRING>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRUCT<organizationId STRING, reference STRING, identifier STRUCT<use STRING, type STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>, system STRING, value STRING, period STRUCT<start STRING, `end` STRING>, assigner STRUCT<organizationId STRING, reference STRING, identifier STRUCT<use STRING, type STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>, system STRING, value STRING, period STRUCT<start STRING, `end` STRING>, assigner STRUCT<organizationId STRING, reference STRING, display STRING>>, display STRING>>, display STRING>",
+    "STRING",
+    "STRING",
+    "STRUCT<use STRING, type STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>, system STRING, value STRING, period STRUCT<start STRING, `end` STRING>, assigner STRUCT<organizationId STRING, reference STRING, identifier STRUCT<use STRING, type STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>, system STRING, value STRING, period STRUCT<start STRING, `end` STRING>, assigner STRUCT<organizationId STRING, reference STRING, display STRING>>, display STRING>>",
+    "STRING",
+    "STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>",
+    "ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "BOOL",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRUCT<start STRING, `end` STRING>",
+    "STRING",
+    "STRING",
+    "STRUCT<organizationId STRING, reference STRING, identifier STRUCT<use STRING, type STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>, system STRING, value STRING, period STRUCT<start STRING, `end` STRING>, assigner STRUCT<organizationId STRING, reference STRING, display STRING>>, display STRING>",
+    "STRING",
+    "STRING",
+    "STRUCT<use STRING, type STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>, system STRING, value STRING, period STRUCT<start STRING, `end` STRING>, assigner STRUCT<organizationId STRING, reference STRING, display STRING>>",
+    "STRING",
+    "STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>",
+    "ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "BOOL",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRUCT<start STRING, `end` STRING>",
+    "STRING",
+    "STRING",
+    "STRUCT<organizationId STRING, reference STRING, display STRING>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRUCT<start STRING, `end` STRING>",
+    "STRING",
+    "STRING",
+    "ARRAY<STRUCT<organizationId STRING, practitionerId STRING, reference STRING, identifier STRUCT<use STRING, type STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>, system STRING, value STRING, period STRUCT<start STRING, `end` STRING>, assigner STRUCT<organizationId STRING, reference STRING, identifier STRUCT<use STRING, type STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>, system STRING, value STRING, period STRUCT<start STRING, `end` STRING>, assigner STRUCT<organizationId STRING, reference STRING, display STRING>>, display STRING>>, display STRING>>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRUCT<use STRING, type STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>, system STRING, value STRING, period STRUCT<start STRING, `end` STRING>, assigner STRUCT<organizationId STRING, reference STRING, identifier STRUCT<use STRING, type STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>, system STRING, value STRING, period STRUCT<start STRING, `end` STRING>, assigner STRUCT<organizationId STRING, reference STRING, display STRING>>, display STRING>>",
+    "STRING",
+    "STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>",
+    "ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "BOOL",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRUCT<start STRING, `end` STRING>",
+    "STRING",
+    "STRING",
+    "STRUCT<organizationId STRING, reference STRING, identifier STRUCT<use STRING, type STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>, system STRING, value STRING, period STRUCT<start STRING, `end` STRING>, assigner STRUCT<organizationId STRING, reference STRING, display STRING>>, display STRING>",
+    "STRING",
+    "STRING",
+    "STRUCT<use STRING, type STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>, system STRING, value STRING, period STRUCT<start STRING, `end` STRING>, assigner STRUCT<organizationId STRING, reference STRING, display STRING>>",
+    "STRING",
+    "STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>",
+    "ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "BOOL",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRUCT<start STRING, `end` STRING>",
+    "STRING",
+    "STRING",
+    "STRUCT<organizationId STRING, reference STRING, display STRING>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "ARRAY<STRUCT<other STRUCT<patientId STRING, relatedPersonId STRING, reference STRING, identifier STRUCT<use STRING, type STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>, system STRING, value STRING, period STRUCT<start STRING, `end` STRING>, assigner STRUCT<organizationId STRING, reference STRING, identifier STRUCT<use STRING, type STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>, system STRING, value STRING, period STRUCT<start STRING, `end` STRING>, assigner STRUCT<organizationId STRING, reference STRING, display STRING>>, display STRING>>, display STRING>, type STRING>>",
+    "STRUCT<patientId STRING, relatedPersonId STRING, reference STRING, identifier STRUCT<use STRING, type STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>, system STRING, value STRING, period STRUCT<start STRING, `end` STRING>, assigner STRUCT<organizationId STRING, reference STRING, identifier STRUCT<use STRING, type STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>, system STRING, value STRING, period STRUCT<start STRING, `end` STRING>, assigner STRUCT<organizationId STRING, reference STRING, display STRING>>, display STRING>>, display STRING>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRUCT<use STRING, type STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>, system STRING, value STRING, period STRUCT<start STRING, `end` STRING>, assigner STRUCT<organizationId STRING, reference STRING, identifier STRUCT<use STRING, type STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>, system STRING, value STRING, period STRUCT<start STRING, `end` STRING>, assigner STRUCT<organizationId STRING, reference STRING, display STRING>>, display STRING>>",
+    "STRING",
+    "STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>",
+    "ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "BOOL",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRUCT<start STRING, `end` STRING>",
+    "STRING",
+    "STRING",
+    "STRUCT<organizationId STRING, reference STRING, identifier STRUCT<use STRING, type STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>, system STRING, value STRING, period STRUCT<start STRING, `end` STRING>, assigner STRUCT<organizationId STRING, reference STRING, display STRING>>, display STRING>",
+    "STRING",
+    "STRING",
+    "STRUCT<use STRING, type STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>, system STRING, value STRING, period STRUCT<start STRING, `end` STRING>, assigner STRUCT<organizationId STRING, reference STRING, display STRING>>",
+    "STRING",
+    "STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>",
+    "ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "BOOL",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRUCT<start STRING, `end` STRING>",
+    "STRING",
+    "STRING",
+    "STRUCT<organizationId STRING, reference STRING, display STRING>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRUCT<organizationId STRING, reference STRING, identifier STRUCT<use STRING, type STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>, system STRING, value STRING, period STRUCT<start STRING, `end` STRING>, assigner STRUCT<organizationId STRING, reference STRING, identifier STRUCT<use STRING, type STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>, system STRING, value STRING, period STRUCT<start STRING, `end` STRING>, assigner STRUCT<organizationId STRING, reference STRING, display STRING>>, display STRING>>, display STRING>",
+    "STRING",
+    "STRING",
+    "STRUCT<use STRING, type STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>, system STRING, value STRING, period STRUCT<start STRING, `end` STRING>, assigner STRUCT<organizationId STRING, reference STRING, identifier STRUCT<use STRING, type STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>, system STRING, value STRING, period STRUCT<start STRING, `end` STRING>, assigner STRUCT<organizationId STRING, reference STRING, display STRING>>, display STRING>>",
+    "STRING",
+    "STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>",
+    "ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "BOOL",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRUCT<start STRING, `end` STRING>",
+    "STRING",
+    "STRING",
+    "STRUCT<organizationId STRING, reference STRING, identifier STRUCT<use STRING, type STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>, system STRING, value STRING, period STRUCT<start STRING, `end` STRING>, assigner STRUCT<organizationId STRING, reference STRING, display STRING>>, display STRING>",
+    "STRING",
+    "STRING",
+    "STRUCT<use STRING, type STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>, system STRING, value STRING, period STRUCT<start STRING, `end` STRING>, assigner STRUCT<organizationId STRING, reference STRING, display STRING>>",
+    "STRING",
+    "STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>",
+    "ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "BOOL",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRUCT<start STRING, `end` STRING>",
+    "STRING",
+    "STRING",
+    "STRUCT<organizationId STRING, reference STRING, display STRING>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "ARRAY<STRUCT<contentType STRING, language STRING, data STRING, url STRING, size INT64, `hash` STRING, title STRING, creation STRING>>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRUCT<value STRUCT<address STRUCT<city STRING, country STRING, state STRING>>>",
+    "STRUCT<address STRUCT<city STRING, country STRING, state STRING>>",
+    "STRUCT<city STRING, country STRING, state STRING>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRUCT<value STRUCT<decimal FLOAT64>>",
+    "STRUCT<decimal FLOAT64>",
+    "FLOAT64",
+    "STRUCT<value STRUCT<string STRING>>",
+    "STRUCT<string STRING>",
+    "STRING",
+    "STRUCT<value STRUCT<decimal FLOAT64>>",
+    "STRUCT<decimal FLOAT64>",
+    "FLOAT64",
+    "STRUCT<value STRUCT<boolean BOOL>>",
+    "STRUCT<boolean BOOL>",
+    "BOOL",
+    "STRUCT<value STRUCT<string STRING>>",
+    "STRUCT<string STRING>",
+    "STRING",
+    "STRUCT<value STRUCT<humanName STRUCT<text STRING>>>",
+    "STRUCT<humanName STRUCT<text STRING>>",
+    "STRUCT<text STRING>",
+    "STRING",
+    "STRUCT<value STRUCT<reference STRUCT<basicId STRING>>>",
+    "STRUCT<reference STRUCT<basicId STRING>>",
+    "STRUCT<basicId STRING>",
+    "STRING",
+    "STRUCT<value STRUCT<code STRING>>",
+    "STRUCT<code STRING>",
+    "STRING",
+    "STRUCT<ombCategory STRUCT<value STRUCT<coding STRUCT<code STRING, display STRING, system STRING>>>, text STRUCT<value STRUCT<string STRING>>>",
+    "STRUCT<value STRUCT<coding STRUCT<code STRING, display STRING, system STRING>>>",
+    "STRUCT<coding STRUCT<code STRING, display STRING, system STRING>>",
+    "STRUCT<code STRING, display STRING, system STRING>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRUCT<value STRUCT<string STRING>>",
+    "STRUCT<string STRING>",
+    "STRING",
+    "STRUCT<ombCategory STRUCT<value STRUCT<coding STRUCT<code STRING, display STRING, system STRING>>>, text STRUCT<value STRUCT<string STRING>>>",
+    "STRUCT<value STRUCT<coding STRUCT<code STRING, display STRING, system STRING>>>",
+    "STRUCT<coding STRUCT<code STRING, display STRING, system STRING>>",
+    "STRUCT<code STRING, display STRING, system STRING>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRUCT<value STRUCT<string STRING>>",
+    "STRUCT<string STRING>",
+    "STRING",
+    "ARRAY<STRUCT<district STRING, period STRUCT<start STRING, `end` STRING>, text STRING, type STRING, use STRING, geolocation STRUCT<latitude STRUCT<value STRUCT<decimal FLOAT64>>, longitude STRUCT<value STRUCT<decimal FLOAT64>>>, city STRING, country STRING, line ARRAY<STRING>, postalCode STRING, state STRING>>",
+    "STRING",
+    "STRUCT<start STRING, `end` STRING>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRUCT<latitude STRUCT<value STRUCT<decimal FLOAT64>>, longitude STRUCT<value STRUCT<decimal FLOAT64>>>",
+    "STRUCT<value STRUCT<decimal FLOAT64>>",
+    "STRUCT<decimal FLOAT64>",
+    "FLOAT64",
+    "STRUCT<value STRUCT<decimal FLOAT64>>",
+    "STRUCT<decimal FLOAT64>",
+    "FLOAT64",
+    "STRING",
+    "STRING",
+    "ARRAY<STRING>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "ARRAY<STRUCT<preferred BOOL, language STRUCT<coding ARRAY<STRUCT<userSelected BOOL, version STRING, code STRING, display STRING, system STRING>>, text STRING>>>",
+    "BOOL",
+    "STRUCT<coding ARRAY<STRUCT<userSelected BOOL, version STRING, code STRING, display STRING, system STRING>>, text STRING>",
+    "ARRAY<STRUCT<userSelected BOOL, version STRING, code STRING, display STRING, system STRING>>",
+    "BOOL",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRUCT<boolean BOOL, dateTime STRING>",
+    "BOOL",
+    "STRING",
+    "STRING",
+    "STRING",
+    "ARRAY<STRUCT<assigner STRUCT<organizationId STRING, reference STRING, identifier STRUCT<use STRING, type STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>, system STRING, value STRING, period STRUCT<start STRING, `end` STRING>, assigner STRUCT<organizationId STRING, reference STRING, display STRING>>, display STRING>, period STRUCT<start STRING, `end` STRING>, use STRING, system STRING, type STRUCT<coding ARRAY<STRUCT<userSelected BOOL, version STRING, code STRING, display STRING, system STRING>>, text STRING>, value STRING>>",
+    "STRUCT<organizationId STRING, reference STRING, identifier STRUCT<use STRING, type STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>, system STRING, value STRING, period STRUCT<start STRING, `end` STRING>, assigner STRUCT<organizationId STRING, reference STRING, display STRING>>, display STRING>",
+    "STRING",
+    "STRING",
+    "STRUCT<use STRING, type STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>, system STRING, value STRING, period STRUCT<start STRING, `end` STRING>, assigner STRUCT<organizationId STRING, reference STRING, display STRING>>",
+    "STRING",
+    "STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>",
+    "ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "BOOL",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRUCT<start STRING, `end` STRING>",
+    "STRING",
+    "STRING",
+    "STRUCT<organizationId STRING, reference STRING, display STRING>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRUCT<start STRING, `end` STRING>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRUCT<coding ARRAY<STRUCT<userSelected BOOL, version STRING, code STRING, display STRING, system STRING>>, text STRING>",
+    "ARRAY<STRUCT<userSelected BOOL, version STRING, code STRING, display STRING, system STRING>>",
+    "BOOL",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRUCT<coding ARRAY<STRUCT<userSelected BOOL, version STRING, code STRING, display STRING, system STRING>>, text STRING>",
+    "ARRAY<STRUCT<userSelected BOOL, version STRING, code STRING, display STRING, system STRING>>",
+    "BOOL",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRUCT<lastUpdated TIMESTAMP, security ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, tag ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, versionId STRING, profile ARRAY<STRING>>",
+    "TIMESTAMP",
+    "ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "BOOL",
+    "ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "BOOL",
+    "STRING",
+    "ARRAY<STRING>",
+    "STRUCT<boolean BOOL, integer INT64>",
+    "BOOL",
+    "INT64",
+    "ARRAY<STRUCT<period STRUCT<start STRING, `end` STRING>, text STRING, family STRING, given ARRAY<STRING>, prefix ARRAY<STRING>, suffix ARRAY<STRING>, use STRING>>",
+    "STRUCT<start STRING, `end` STRING>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "ARRAY<STRING>",
+    "ARRAY<STRING>",
+    "ARRAY<STRING>",
+    "STRING",
+    "ARRAY<STRUCT<period STRUCT<start STRING, `end` STRING>, rank INT64, system STRING, use STRING, value STRING>>",
+    "STRUCT<start STRING, `end` STRING>",
+    "STRING",
+    "STRING",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRUCT<div STRING, status STRING>",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "sample_rows": [
+    {
+      "Hoạt động": null,
+      "động vật": null,
+      "Liên hệ": "[]",
+      "bác sĩ đa khoa": "[]",
+      "Quy tắc ngụ ý": null,
+      "ngôn ngữ": null,
+      "liên kết": "[]",
+      "đơn vị quản lý": null,
+      "Ảnh": "[]",
+      "Nơi sinh": {
+        "value": {
+          "address": {
+            "city": "Salvador",
+            "country": "BR",
+            "state": "Bahia"
+          }
+        }
+      },
+      "năm sống điều chỉnh khuyết tật": {
+        "value": {
+          "decimal": 0.07162991009081023
+        }
+      },
+      "Tên chưa kết hôn của mẹ bệnh nhân": {
+        "value": {
+          "string": "Vikki110 Dooley940"
+        }
+      },
+      "năm đời điều chỉnh chất lượng": {
+        "value": {
+          "decimal": 8.92837008990919
+        }
+      },
+      "Mở rộng Nhân vật hư cấu shr_actor": {
+        "value": {
+          "boolean": true
+        }
+      },
+      "Mã số an sinh xã hội mở rộng": {
+        "value": {
+          "string": "999-99-6784"
+        }
+      },
+      "Tên cha bổ sung": {
+        "value": {
+          "humanName": {
+            "text": "Willis868 Hane680"
+          }
+        }
+      },
+      "shr_thực_thể_Người_phần_mở_rộng": {
+        "value": {
+          "reference": {
+            "basicId": "de73637e-4e27-4943-b9fa-1287662cb110"
+          }
+        }
+      },
+      "giới tính lúc sinh": {
+        "value": {
+          "code": "F"
+        }
+      },
+      "đặc điểm dân tộc": {
+        "ombCategory": {
+          "value": {
+            "coding": {
+              "code": "2186-5",
+              "display": "Not Hispanic or Latino",
+              "system": "urn:oid:2.16.840.1.113883.6.238"
+            }
+          }
+        },
+        "text": {
+          "value": {
+            "string": "Not Hispanic or Latino"
+          }
+        }
+      },
+      "đánh giá chủng tộc US Core": {
+        "ombCategory": {
+          "value": {
+            "coding": {
+              "code": "2135-2",
+              "display": "Other",
+              "system": "urn:oid:2.16.840.1.113883.6.238"
+            }
+          }
+        },
+        "text": {
+          "value": {
+            "string": "Other"
+          }
+        }
+      },
+      "Địa chỉ": "[{'district': None, 'period': None, 'text': None, 'type': None, 'use': None, 'geolocation': {'latitude': {'value': {'decimal': 42.559673}}, 'longitude': {'value': {'decimal': -71.260947}}}, 'city': 'Billerica', 'country': 'US', 'line': array(['657 Jacobs Avenue Apt 21'], dtype=object), 'postalCode': '01821', 'state': 'Massachusetts'}]",
+      "Ngày sinh": "2009-08-14",
+      "giao tiếp": "[{'preferred': None, 'language': {'coding': array([{'userSelected': None, 'version': None, 'code': 'pt', 'display': 'Portuguese', 'system': 'urn:ietf:bcp:47'}],\n       dtype=object), 'text': 'Portuguese'}}                                                                                                                    ]",
+      "Đã mất": null,
+      "giới tính": "female",
+      "Mã": "9dd9d906-558d-4ef6-8392-12d7600a5249",
+      "định danh": "[{'assigner': None, 'period': None, 'use': None, 'system': 'https://github.com/synthetichealth/synthea', 'type': None, 'value': 'fd8f3fbb-fe9e-4b22-aa39-c3ed495358ec'}\n {'assigner': None, 'period': None, 'use': None, 'system': 'http://hospital.smarthealthit.org', 'type': {'coding': array([{'userSelected': None, 'version': None, 'code': 'MR', 'display': 'Medical Record Number', 'system': 'http://hl7.org/fhir/v2/0203'}],\n       dtype=object), 'text': 'Medical Record Number'}, 'value': 'fd8f3fbb-fe9e-4b22-aa39-c3ed495358ec'}\n {'assigner': None, 'period': None, 'use': None, 'system': 'http://hl7.org/fhir/sid/us-ssn', 'type': {'coding': array([{'userSelected': None, 'version': None, 'code': 'SB', 'display': 'Social Security Number', 'system': 'http://hl7.org/fhir/identifier-type'}],\n       dtype=object), 'text': 'Social Security Number'}, 'value': '999-99-6784'}                                                                                                                                                                                    ]",
+      "Tình trạng hôn nhân": {
+        "coding": "[{'userSelected': None, 'version': None, 'code': 'S', 'display': 'Never Married', 'system': 'http://hl7.org/fhir/v3/MaritalStatus'}]",
+        "text": "Never Married"
+      },
+      "siêu dữ liệu": {
+        "lastUpdated": null,
+        "security": "[]",
+        "tag": "[]",
+        "versionId": null,
+        "profile": "['http://standardhealthrecord.org/fhir/StructureDefinition/shr-entity-Patient']"
+      },
+      "sinh nhiều": {
+        "boolean": false,
+        "integer": null
+      },
+      "Tên": "[{'period': None, 'text': None, 'family': 'Hane680', 'given': array(['Dionne995'], dtype=object), 'prefix': array([], dtype=object), 'suffix': array([], dtype=object), 'use': 'official'}]",
+      "viễn thông": "[{'period': None, 'rank': None, 'system': 'phone', 'use': 'home', 'value': '555-883-4271'}]",
+      "đoạn văn": {
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Generated by <a href=\"https://github.com/synthetichealth/synthea\">Synthea</a>.Version identifier: 6c40ee7\n .   Person seed: -4911662287620229450  Population seed: 123</div>",
+        "status": "generated"
+      }
+    },
+    {
+      "Hoạt động": null,
+      "động vật": null,
+      "Liên hệ": "[]",
+      "bác sĩ đa khoa": "[]",
+      "Quy tắc ngụ ý": null,
+      "ngôn ngữ": null,
+      "liên kết": "[]",
+      "đơn vị quản lý": null,
+      "Ảnh": "[]",
+      "Nơi sinh": {
+        "value": {
+          "address": {
+            "city": "Salvador",
+            "country": "BR",
+            "state": "Bahia"
+          }
+        }
+      },
+      "năm sống điều chỉnh khuyết tật": {
+        "value": {
+          "decimal": 0.14212593094348847
+        }
+      },
+      "Tên chưa kết hôn của mẹ bệnh nhân": {
+        "value": {
+          "string": "Amy965 Walter473"
+        }
+      },
+      "năm đời điều chỉnh chất lượng": {
+        "value": {
+          "decimal": 5.857874069056511
+        }
+      },
+      "Mở rộng Nhân vật hư cấu shr_actor": {
+        "value": {
+          "boolean": true
+        }
+      },
+      "Mã số an sinh xã hội mở rộng": {
+        "value": {
+          "string": "999-35-5498"
+        }
+      },
+      "Tên cha bổ sung": {
+        "value": {
+          "humanName": {
+            "text": "Palmer257 Stark857"
+          }
+        }
+      },
+      "shr_thực_thể_Người_phần_mở_rộng": {
+        "value": {
+          "reference": {
+            "basicId": "a7c79443-55ba-40c9-a025-ccd06ca71575"
+          }
+        }
+      },
+      "giới tính lúc sinh": {
+        "value": {
+          "code": "F"
+        }
+      },
+      "đặc điểm dân tộc": {
+        "ombCategory": {
+          "value": {
+            "coding": {
+              "code": "2186-5",
+              "display": "Not Hispanic or Latino",
+              "system": "urn:oid:2.16.840.1.113883.6.238"
+            }
+          }
+        },
+        "text": {
+          "value": {
+            "string": "Not Hispanic or Latino"
+          }
+        }
+      },
+      "đánh giá chủng tộc US Core": {
+        "ombCategory": {
+          "value": {
+            "coding": {
+              "code": "2135-2",
+              "display": "Other",
+              "system": "urn:oid:2.16.840.1.113883.6.238"
+            }
+          }
+        },
+        "text": {
+          "value": {
+            "string": "Other"
+          }
+        }
+      },
+      "Địa chỉ": "[{'district': None, 'period': None, 'text': None, 'type': None, 'use': None, 'geolocation': {'latitude': {'value': {'decimal': 42.585541}}, 'longitude': {'value': {'decimal': -71.44025}}}, 'city': 'Westford', 'country': 'US', 'line': array(['457 McDermott Station Apt 25'], dtype=object), 'postalCode': '01886', 'state': 'Massachusetts'}]",
+      "Ngày sinh": "2012-04-30",
+      "giao tiếp": "[{'preferred': None, 'language': {'coding': array([{'userSelected': None, 'version': None, 'code': 'pt', 'display': 'Portuguese', 'system': 'urn:ietf:bcp:47'}],\n       dtype=object), 'text': 'Portuguese'}}                                                                                                                    ]",
+      "Đã mất": null,
+      "giới tính": "female",
+      "Mã": "c273f951-2295-4c35-b721-c9abd5c30805",
+      "định danh": "[{'assigner': None, 'period': None, 'use': None, 'system': 'https://github.com/synthetichealth/synthea', 'type': None, 'value': '29ae1c3c-f67c-4ee6-a819-82a2eeeab136'}\n {'assigner': None, 'period': None, 'use': None, 'system': 'http://hospital.smarthealthit.org', 'type': {'coding': array([{'userSelected': None, 'version': None, 'code': 'MR', 'display': 'Medical Record Number', 'system': 'http://hl7.org/fhir/v2/0203'}],\n       dtype=object), 'text': 'Medical Record Number'}, 'value': '29ae1c3c-f67c-4ee6-a819-82a2eeeab136'}\n {'assigner': None, 'period': None, 'use': None, 'system': 'http://hl7.org/fhir/sid/us-ssn', 'type': {'coding': array([{'userSelected': None, 'version': None, 'code': 'SB', 'display': 'Social Security Number', 'system': 'http://hl7.org/fhir/identifier-type'}],\n       dtype=object), 'text': 'Social Security Number'}, 'value': '999-35-5498'}                                                                                                                                                                                    ]",
+      "Tình trạng hôn nhân": {
+        "coding": "[{'userSelected': None, 'version': None, 'code': 'S', 'display': 'Never Married', 'system': 'http://hl7.org/fhir/v3/MaritalStatus'}]",
+        "text": "Never Married"
+      },
+      "siêu dữ liệu": {
+        "lastUpdated": null,
+        "security": "[]",
+        "tag": "[]",
+        "versionId": null,
+        "profile": "['http://standardhealthrecord.org/fhir/StructureDefinition/shr-entity-Patient']"
+      },
+      "sinh nhiều": {
+        "boolean": false,
+        "integer": null
+      },
+      "Tên": "[{'period': None, 'text': None, 'family': 'Stark857', 'given': array(['Ignacia942'], dtype=object), 'prefix': array([], dtype=object), 'suffix': array([], dtype=object), 'use': 'official'}]",
+      "viễn thông": "[{'period': None, 'rank': None, 'system': 'phone', 'use': 'home', 'value': '555-208-6528'}]",
+      "đoạn văn": {
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Generated by <a href=\"https://github.com/synthetichealth/synthea\">Synthea</a>.Version identifier: 6c40ee7\n .   Person seed: 2002838425913787930  Population seed: 123</div>",
+        "status": "generated"
+      }
+    },
+    {
+      "Hoạt động": null,
+      "động vật": null,
+      "Liên hệ": "[]",
+      "bác sĩ đa khoa": "[]",
+      "Quy tắc ngụ ý": null,
+      "ngôn ngữ": null,
+      "liên kết": "[]",
+      "đơn vị quản lý": null,
+      "Ảnh": "[]",
+      "Nơi sinh": {
+        "value": {
+          "address": {
+            "city": "Salvador",
+            "country": "BR",
+            "state": "Bahia"
+          }
+        }
+      },
+      "năm sống điều chỉnh khuyết tật": {
+        "value": {
+          "decimal": 1.3627977422566502
+        }
+      },
+      "Tên chưa kết hôn của mẹ bệnh nhân": {
+        "value": {
+          "string": "Isabela97 Pedroza523"
+        }
+      },
+      "năm đời điều chỉnh chất lượng": {
+        "value": {
+          "decimal": 14.63720225774335
+        }
+      },
+      "Mở rộng Nhân vật hư cấu shr_actor": {
+        "value": {
+          "boolean": true
+        }
+      },
+      "Mã số an sinh xã hội mở rộng": {
+        "value": {
+          "string": "999-80-8869"
+        }
+      },
+      "Tên cha bổ sung": {
+        "value": {
+          "humanName": {
+            "text": "Pablo44 Torres807"
+          }
+        }
+      },
+      "shr_thực_thể_Người_phần_mở_rộng": {
+        "value": {
+          "reference": {
+            "basicId": "d3542085-e1c8-4977-8d6c-87ba22e0a83f"
+          }
+        }
+      },
+      "giới tính lúc sinh": {
+        "value": {
+          "code": "F"
+        }
+      },
+      "đặc điểm dân tộc": {
+        "ombCategory": {
+          "value": {
+            "coding": {
+              "code": "2186-5",
+              "display": "Not Hispanic or Latino",
+              "system": "urn:oid:2.16.840.1.113883.6.238"
+            }
+          }
+        },
+        "text": {
+          "value": {
+            "string": "Not Hispanic or Latino"
+          }
+        }
+      },
+      "đánh giá chủng tộc US Core": {
+        "ombCategory": {
+          "value": {
+            "coding": {
+              "code": "2135-2",
+              "display": "Other",
+              "system": "urn:oid:2.16.840.1.113883.6.238"
+            }
+          }
+        },
+        "text": {
+          "value": {
+            "string": "Other"
+          }
+        }
+      },
+      "Địa chỉ": "[{'district': None, 'period': None, 'text': None, 'type': None, 'use': None, 'geolocation': {'latitude': {'value': {'decimal': 42.648044}}, 'longitude': {'value': {'decimal': -71.161751}}}, 'city': 'Andover', 'country': 'US', 'line': array(['477 Feeney Mall Suite 79'], dtype=object), 'postalCode': '01810', 'state': 'Massachusetts'}]",
+      "Ngày sinh": "2002-02-27",
+      "giao tiếp": "[{'preferred': None, 'language': {'coding': array([{'userSelected': None, 'version': None, 'code': 'es', 'display': 'Spanish', 'system': 'urn:ietf:bcp:47'}],\n       dtype=object), 'text': 'Spanish'}}                                                                                                                    ]",
+      "Đã mất": null,
+      "giới tính": "female",
+      "Mã": "f29d639e-b55a-42a7-9fe7-b3bf4f61e5a6",
+      "định danh": "[{'assigner': None, 'period': None, 'use': None, 'system': 'https://github.com/synthetichealth/synthea', 'type': None, 'value': '85589343-83c5-4edb-b67a-f0828e42500e'}\n {'assigner': None, 'period': None, 'use': None, 'system': 'http://hospital.smarthealthit.org', 'type': {'coding': array([{'userSelected': None, 'version': None, 'code': 'MR', 'display': 'Medical Record Number', 'system': 'http://hl7.org/fhir/v2/0203'}],\n       dtype=object), 'text': 'Medical Record Number'}, 'value': '85589343-83c5-4edb-b67a-f0828e42500e'}\n {'assigner': None, 'period': None, 'use': None, 'system': 'http://hl7.org/fhir/sid/us-ssn', 'type': {'coding': array([{'userSelected': None, 'version': None, 'code': 'SB', 'display': 'Social Security Number', 'system': 'http://hl7.org/fhir/identifier-type'}],\n       dtype=object), 'text': 'Social Security Number'}, 'value': '999-80-8869'}\n {'assigner': None, 'period': None, 'use': None, 'system': 'urn:oid:2.16.840.1.113883.4.3.25', 'type': {'coding': array([{'userSelected': None, 'version': None, 'code': 'DL', 'display': \"Driver's License\", 'system': 'http://hl7.org/fhir/v2/0203'}],\n       dtype=object), 'text': \"Driver's License\"}, 'value': 'S99963205'}                                                                                                                                                                                ]",
+      "Tình trạng hôn nhân": {
+        "coding": "[{'userSelected': None, 'version': None, 'code': 'S', 'display': 'Never Married', 'system': 'http://hl7.org/fhir/v3/MaritalStatus'}]",
+        "text": "Never Married"
+      },
+      "siêu dữ liệu": {
+        "lastUpdated": null,
+        "security": "[]",
+        "tag": "[]",
+        "versionId": null,
+        "profile": "['http://standardhealthrecord.org/fhir/StructureDefinition/shr-entity-Patient']"
+      },
+      "sinh nhiều": {
+        "boolean": false,
+        "integer": null
+      },
+      "Tên": "[{'period': None, 'text': None, 'family': 'Torres807', 'given': array(['Carmen818'], dtype=object), 'prefix': array([], dtype=object), 'suffix': array([], dtype=object), 'use': 'official'}]",
+      "viễn thông": "[{'period': None, 'rank': None, 'system': 'phone', 'use': 'home', 'value': '555-385-6320'}]",
+      "đoạn văn": {
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Generated by <a href=\"https://github.com/synthetichealth/synthea\">Synthea</a>.Version identifier: 6c40ee7\n .   Person seed: 5764817557819838613  Population seed: 123</div>",
+        "status": "generated"
+      }
+    },
+    {
+      "Hoạt động": null,
+      "động vật": null,
+      "Liên hệ": "[]",
+      "bác sĩ đa khoa": "[]",
+      "Quy tắc ngụ ý": null,
+      "ngôn ngữ": null,
+      "liên kết": "[]",
+      "đơn vị quản lý": null,
+      "Ảnh": "[]",
+      "Nơi sinh": {
+        "value": {
+          "address": {
+            "city": "Salvador",
+            "country": "BR",
+            "state": "Bahia"
+          }
+        }
+      },
+      "năm sống điều chỉnh khuyết tật": {
+        "value": {
+          "decimal": 1.3694965916465773
+        }
+      },
+      "Tên chưa kết hôn của mẹ bệnh nhân": {
+        "value": {
+          "string": "María Elena653 Padilla483"
+        }
+      },
+      "năm đời điều chỉnh chất lượng": {
+        "value": {
+          "decimal": 14.630503408353423
+        }
+      },
+      "Mở rộng Nhân vật hư cấu shr_actor": {
+        "value": {
+          "boolean": true
+        }
+      },
+      "Mã số an sinh xã hội mở rộng": {
+        "value": {
+          "string": "999-61-3507"
+        }
+      },
+      "Tên cha bổ sung": {
+        "value": {
+          "humanName": {
+            "text": "Claudio955 Acosta403"
+          }
+        }
+      },
+      "shr_thực_thể_Người_phần_mở_rộng": {
+        "value": {
+          "reference": {
+            "basicId": "a9882980-ecde-47d9-b17d-de0718dfcd3f"
+          }
+        }
+      },
+      "giới tính lúc sinh": {
+        "value": {
+          "code": "F"
+        }
+      },
+      "đặc điểm dân tộc": {
+        "ombCategory": {
+          "value": {
+            "coding": {
+              "code": "2186-5",
+              "display": "Not Hispanic or Latino",
+              "system": "urn:oid:2.16.840.1.113883.6.238"
+            }
+          }
+        },
+        "text": {
+          "value": {
+            "string": "Not Hispanic or Latino"
+          }
+        }
+      },
+      "đánh giá chủng tộc US Core": {
+        "ombCategory": {
+          "value": {
+            "coding": {
+              "code": "2135-2",
+              "display": "Other",
+              "system": "urn:oid:2.16.840.1.113883.6.238"
+            }
+          }
+        },
+        "text": {
+          "value": {
+            "string": "Other"
+          }
+        }
+      },
+      "Địa chỉ": "[{'district': None, 'period': None, 'text': None, 'type': None, 'use': None, 'geolocation': {'latitude': {'value': {'decimal': 42.388921}}, 'longitude': {'value': {'decimal': -71.24226800000002}}}, 'city': 'Waltham', 'country': 'US', 'line': array(['409 Crooks Fort Suite 60'], dtype=object), 'postalCode': '02451', 'state': 'Massachusetts'}]",
+      "Ngày sinh": "2002-05-23",
+      "giao tiếp": "[{'preferred': None, 'language': {'coding': array([{'userSelected': None, 'version': None, 'code': 'es', 'display': 'Spanish', 'system': 'urn:ietf:bcp:47'}],\n       dtype=object), 'text': 'Spanish'}}                                                                                                                    ]",
+      "Đã mất": null,
+      "giới tính": "female",
+      "Mã": "00c509b2-d139-4f28-94b1-7710b36a7bc9",
+      "định danh": "[{'assigner': None, 'period': None, 'use': None, 'system': 'https://github.com/synthetichealth/synthea', 'type': None, 'value': 'f19870ba-fd41-4a15-8286-0dec951a80c0'}\n {'assigner': None, 'period': None, 'use': None, 'system': 'http://hospital.smarthealthit.org', 'type': {'coding': array([{'userSelected': None, 'version': None, 'code': 'MR', 'display': 'Medical Record Number', 'system': 'http://hl7.org/fhir/v2/0203'}],\n       dtype=object), 'text': 'Medical Record Number'}, 'value': 'f19870ba-fd41-4a15-8286-0dec951a80c0'}\n {'assigner': None, 'period': None, 'use': None, 'system': 'http://hl7.org/fhir/sid/us-ssn', 'type': {'coding': array([{'userSelected': None, 'version': None, 'code': 'SB', 'display': 'Social Security Number', 'system': 'http://hl7.org/fhir/identifier-type'}],\n       dtype=object), 'text': 'Social Security Number'}, 'value': '999-61-3507'}\n {'assigner': None, 'period': None, 'use': None, 'system': 'urn:oid:2.16.840.1.113883.4.3.25', 'type': {'coding': array([{'userSelected': None, 'version': None, 'code': 'DL', 'display': \"Driver's License\", 'system': 'http://hl7.org/fhir/v2/0203'}],\n       dtype=object), 'text': \"Driver's License\"}, 'value': 'S99921209'}                                                                                                                                                                                ]",
+      "Tình trạng hôn nhân": {
+        "coding": "[{'userSelected': None, 'version': None, 'code': 'S', 'display': 'Never Married', 'system': 'http://hl7.org/fhir/v3/MaritalStatus'}]",
+        "text": "Never Married"
+      },
+      "siêu dữ liệu": {
+        "lastUpdated": null,
+        "security": "[]",
+        "tag": "[]",
+        "versionId": null,
+        "profile": "['http://standardhealthrecord.org/fhir/StructureDefinition/shr-entity-Patient']"
+      },
+      "sinh nhiều": {
+        "boolean": false,
+        "integer": null
+      },
+      "Tên": "[{'period': None, 'text': None, 'family': 'Acosta403', 'given': array(['Norma469'], dtype=object), 'prefix': array([], dtype=object), 'suffix': array([], dtype=object), 'use': 'official'}]",
+      "viễn thông": "[{'period': None, 'rank': None, 'system': 'phone', 'use': 'home', 'value': '555-703-9415'}]",
+      "đoạn văn": {
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Generated by <a href=\"https://github.com/synthetichealth/synthea\">Synthea</a>.Version identifier: 6c40ee7\n .   Person seed: -4598146656519237832  Population seed: 123</div>",
+        "status": "generated"
+      }
+    },
+    {
+      "Hoạt động": null,
+      "động vật": null,
+      "Liên hệ": "[]",
+      "bác sĩ đa khoa": "[]",
+      "Quy tắc ngụ ý": null,
+      "ngôn ngữ": null,
+      "liên kết": "[]",
+      "đơn vị quản lý": null,
+      "Ảnh": "[]",
+      "Nơi sinh": {
+        "value": {
+          "address": {
+            "city": "Salvador",
+            "country": "BR",
+            "state": "Bahia"
+          }
+        }
+      },
+      "năm sống điều chỉnh khuyết tật": {
+        "value": {
+          "decimal": 0.5475243506844482
+        }
+      },
+      "Tên chưa kết hôn của mẹ bệnh nhân": {
+        "value": {
+          "string": "Isabela97 Tejada731"
+        }
+      },
+      "năm đời điều chỉnh chất lượng": {
+        "value": {
+          "decimal": 13.452475649315552
+        }
+      },
+      "Mở rộng Nhân vật hư cấu shr_actor": {
+        "value": {
+          "boolean": true
+        }
+      },
+      "Mã số an sinh xã hội mở rộng": {
+        "value": {
+          "string": "999-10-9895"
+        }
+      },
+      "Tên cha bổ sung": {
+        "value": {
+          "humanName": {
+            "text": "Luis923 Araña824"
+          }
+        }
+      },
+      "shr_thực_thể_Người_phần_mở_rộng": {
+        "value": {
+          "reference": {
+            "basicId": "982947a4-4a49-4d76-91f3-6de3a00bd8cc"
+          }
+        }
+      },
+      "giới tính lúc sinh": {
+        "value": {
+          "code": "M"
+        }
+      },
+      "đặc điểm dân tộc": {
+        "ombCategory": {
+          "value": {
+            "coding": {
+              "code": "2186-5",
+              "display": "Not Hispanic or Latino",
+              "system": "urn:oid:2.16.840.1.113883.6.238"
+            }
+          }
+        },
+        "text": {
+          "value": {
+            "string": "Not Hispanic or Latino"
+          }
+        }
+      },
+      "đánh giá chủng tộc US Core": {
+        "ombCategory": {
+          "value": {
+            "coding": {
+              "code": "2135-2",
+              "display": "Other",
+              "system": "urn:oid:2.16.840.1.113883.6.238"
+            }
+          }
+        },
+        "text": {
+          "value": {
+            "string": "Other"
+          }
+        }
+      },
+      "Địa chỉ": "[{'district': None, 'period': None, 'text': None, 'type': None, 'use': None, 'geolocation': {'latitude': {'value': {'decimal': 42.311693}}, 'longitude': {'value': {'decimal': -71.940282}}}, 'city': 'Paxton', 'country': 'US', 'line': array(['512 Harber Hollow'], dtype=object), 'postalCode': '01612', 'state': 'Massachusetts'}]",
+      "Ngày sinh": "2004-04-07",
+      "giao tiếp": "[{'preferred': None, 'language': {'coding': array([{'userSelected': None, 'version': None, 'code': 'es', 'display': 'Spanish', 'system': 'urn:ietf:bcp:47'}],\n       dtype=object), 'text': 'Spanish'}}                                                                                                                    ]",
+      "Đã mất": null,
+      "giới tính": "male",
+      "Mã": "ea2cfc82-6db8-4ecb-94d4-f2357d537d1a",
+      "định danh": "[{'assigner': None, 'period': None, 'use': None, 'system': 'https://github.com/synthetichealth/synthea', 'type': None, 'value': 'c2f57eca-e5f9-4c1e-9637-f2b0a8d6582f'}\n {'assigner': None, 'period': None, 'use': None, 'system': 'http://hospital.smarthealthit.org', 'type': {'coding': array([{'userSelected': None, 'version': None, 'code': 'MR', 'display': 'Medical Record Number', 'system': 'http://hl7.org/fhir/v2/0203'}],\n       dtype=object), 'text': 'Medical Record Number'}, 'value': 'c2f57eca-e5f9-4c1e-9637-f2b0a8d6582f'}\n {'assigner': None, 'period': None, 'use': None, 'system': 'http://hl7.org/fhir/sid/us-ssn', 'type': {'coding': array([{'userSelected': None, 'version': None, 'code': 'SB', 'display': 'Social Security Number', 'system': 'http://hl7.org/fhir/identifier-type'}],\n       dtype=object), 'text': 'Social Security Number'}, 'value': '999-10-9895'}                                                                                                                                                                                    ]",
+      "Tình trạng hôn nhân": {
+        "coding": "[{'userSelected': None, 'version': None, 'code': 'S', 'display': 'Never Married', 'system': 'http://hl7.org/fhir/v3/MaritalStatus'}]",
+        "text": "Never Married"
+      },
+      "siêu dữ liệu": {
+        "lastUpdated": null,
+        "security": "[]",
+        "tag": "[]",
+        "versionId": null,
+        "profile": "['http://standardhealthrecord.org/fhir/StructureDefinition/shr-entity-Patient']"
+      },
+      "sinh nhiều": {
+        "boolean": false,
+        "integer": null
+      },
+      "Tên": "[{'period': None, 'text': None, 'family': 'Araña824', 'given': array(['Gonzalo160'], dtype=object), 'prefix': array([], dtype=object), 'suffix': array([], dtype=object), 'use': 'official'}]",
+      "viễn thông": "[{'period': None, 'rank': None, 'system': 'phone', 'use': 'home', 'value': '555-669-9953'}]",
+      "đoạn văn": {
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Generated by <a href=\"https://github.com/synthetichealth/synthea\">Synthea</a>.Version identifier: 6c40ee7\n .   Person seed: 6043276679047189457  Population seed: 123</div>",
+        "status": "generated"
+      }
+    }
+  ]
+}
