@@ -1,0 +1,86 @@
+{
+  "table_name": " drimpair_2019",
+  "table_fullname": "bigquery-public-data.nhtsa_traffic_fatalities. drimpair_2019",
+  "column_names": [
+    "州编号",
+    "州名",
+    "连续编号",
+    "车辆编号",
+    "事故时司机状态受损",
+    "事故时驾驶员受损状态名称"
+  ],
+  "column_types": [
+    "INT64",
+    "STRING",
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "州编号",
+    "州名",
+    "连续编号",
+    "车辆编号",
+    "驾驶员事故时状况受损",
+    "事故时司机受损状态名称"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "STRING",
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING"
+  ],
+  "description": [
+    "此数据元素识别事故发生的州。该代码来自美国总务管理局（GSA）发布的全球地理位置代码（GLC）。有关代码的更多信息，请参阅 PDF 中的 <C1/V1/D1/PC1/P1/NM1 州编号> 部分：https://crashstats.nhtsa.dot.gov/Api/Public/ViewPublication/812315",
+    "该数据元素识别事故发生所在的州。代码来自美国总务管理局（GSA）发布的全球地理位置代码（GLC）。",
+    "该数据元素是分配给每起事故的唯一案例编号。它出现在每个数据文件中，并用于将各数据文件中的信息合并。xxxxxx：州代码两位字符，后跟案例编号四位字符",
+    "此数据元素是为案件中每辆车分配的连续编号。此数据元素出现在每个车辆级别数据文件中，并与 ST_CASE 数据元素一起使用，以合并车辆级别数据文件中的信息。000-999 分配的机动车编号",
+    "此数据元素用于识别执法部门认定的可能导致事故的驾驶员身体功能障碍。有关编码的更多信息，请查看PDF中的<D23 Condition (Impairment) at Time of Crash- Driver>章节：https://crashstats.nhtsa.dot.gov/Api/Public/ViewPublication/812315",
+    "该数据元素识别执法部门认为可能导致事故的驾驶员身体残疾。"
+  ],
+  "sample_rows": [
+    {
+      "州编号": 1,
+      "州名": "Alabama",
+      "连续编号": 10390,
+      "车辆编号": 5,
+      "驾驶员事故时状况受损": 0,
+      "事故时司机受损状态名称": "None/Apparently Normal"
+    },
+    {
+      "州编号": 1,
+      "州名": "Alabama",
+      "连续编号": 10532,
+      "车辆编号": 5,
+      "驾驶员事故时状况受损": 0,
+      "事故时司机受损状态名称": "None/Apparently Normal"
+    },
+    {
+      "州编号": 4,
+      "州名": "Arizona",
+      "连续编号": 40037,
+      "车辆编号": 5,
+      "驾驶员事故时状况受损": 0,
+      "事故时司机受损状态名称": "None/Apparently Normal"
+    },
+    {
+      "州编号": 4,
+      "州名": "Arizona",
+      "连续编号": 40257,
+      "车辆编号": 5,
+      "驾驶员事故时状况受损": 0,
+      "事故时司机受损状态名称": "None/Apparently Normal"
+    },
+    {
+      "州编号": 4,
+      "州名": "Arizona",
+      "连续编号": 40257,
+      "车辆编号": 6,
+      "驾驶员事故时状况受损": 0,
+      "事故时司机受损状态名称": "None/Apparently Normal"
+    }
+  ]
+}
