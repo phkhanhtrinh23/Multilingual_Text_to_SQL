@@ -1,0 +1,86 @@
+{
+  "table_name": " maneuver_2016",
+  "table_fullname": "bigquery-public-data.nhtsa_traffic_fatalities. maneuver_2016",
+  "column_names": [
+    "州编号",
+    "州名",
+    "连续编号",
+    "车辆编号",
+    "驾驶员已躲避",
+    "驾驶员规避名称"
+  ],
+  "column_types": [
+    "INT64",
+    "STRING",
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "州编号",
+    "州名",
+    "连续编号",
+    "车辆编号",
+    "司机规避",
+    "司机为躲避名称而操作"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "STRING",
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING"
+  ],
+  "description": [
+    "此数据元素标识事故发生所在的州。该代码来自美国总务管理局（GSA）发布的全球地理位置代码（GLC）。有关代码的更多信息，请查看 pdf 中的 <C1/V1/D1/PC1/P1/NM1 State Number> 部分： https://crashstats.nhtsa.dot.gov/Api/Public/ViewPublication/812315",
+    "该数据元素标识了事故发生所在的州。  \n这些代码来自美国总务管理局（GSA）发布的全球地理位置代码（GLC）。",
+    "该数据元素是分配给每起事故的唯一案例编号。它出现在每个数据文件中，并用于合并来自各数据文件的信息。xxxxxx 两个字符为州代码，随后是四个字符为案例编号",
+    "此数据元素是分配给案件中每辆车的连续编号。该数据元素出现在每个车辆级别数据文件中，并与 ST_CASE 数据元素配合使用，以合并车辆级别数据文件中的信息。000-999 机动车分配编号",
+    "此数据元素标识驾驶员在车辆行驶于道路段时，在该车辆首次有害事件发生前试图避免的对象（物体）。有关代码的更多信息，请参阅 PDF 中的 <PC15 Driver Maneuvered to Avoid> 章节：https://crashstats.nhtsa.dot.gov/Api/Public/ViewPublication/812315",
+    "此数据元素标识驾驶员在车辆位于道路段时试图躲避的事物，这些事物发生在该车辆首次出现有害事件之前。"
+  ],
+  "sample_rows": [
+    {
+      "州编号": 1,
+      "州名": "Alabama",
+      "连续编号": 10264,
+      "车辆编号": 5,
+      "司机规避": 0,
+      "司机为躲避名称而操作": "Driver Did Not Maneuver to Avoid"
+    },
+    {
+      "州编号": 1,
+      "州名": "Alabama",
+      "连续编号": 10762,
+      "车辆编号": 5,
+      "司机规避": 0,
+      "司机为躲避名称而操作": "Driver Did Not Maneuver to Avoid"
+    },
+    {
+      "州编号": 1,
+      "州名": "Alabama",
+      "连续编号": 10762,
+      "车辆编号": 6,
+      "司机规避": 0,
+      "司机为躲避名称而操作": "Driver Did Not Maneuver to Avoid"
+    },
+    {
+      "州编号": 1,
+      "州名": "Alabama",
+      "连续编号": 10845,
+      "车辆编号": 5,
+      "司机规避": 0,
+      "司机为躲避名称而操作": "Driver Did Not Maneuver to Avoid"
+    },
+    {
+      "州编号": 1,
+      "州名": "Alabama",
+      "连续编号": 10878,
+      "车辆编号": 5,
+      "司机规避": 0,
+      "司机为躲避名称而操作": "Driver Did Not Maneuver to Avoid"
+    }
+  ]
+}
