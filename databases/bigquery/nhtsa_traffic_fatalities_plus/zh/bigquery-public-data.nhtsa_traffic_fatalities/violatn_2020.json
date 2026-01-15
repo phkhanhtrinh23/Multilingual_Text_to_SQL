@@ -1,0 +1,86 @@
+{
+  "table_name": " violatn_2020",
+  "table_fullname": "bigquery-public-data.nhtsa_traffic_fatalities. violatn_2020",
+  "column_names": [
+    "州编号",
+    "州名",
+    "连续编号",
+    "车辆编号",
+    "违规收费",
+    "违规指控名称"
+  ],
+  "column_types": [
+    "INT64",
+    "STRING",
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "州编号",
+    "州名",
+    "连续编号",
+    "车辆编号",
+    "违规计费",
+    "违规被指控人姓名"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "STRING",
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "此数据元素用于标识事故发生所在的州。  \n这些代码来自美国总务管理局（GSA）发布的全球地理位置代码（GLC）。  \n如需了解更多代码信息，请查看 PDF 中的 <C1/V1/D1/PC1/P1/NM1 State Number> 部分： https://crashstats.nhtsa.dot.gov/Api/Public/ViewPublication/812315",
+    "此数据元素识别事故发生所在州。该代码来自美国总务管理局（GSA）发布的全球地理位置代码（GLC）。",
+    "此数据元素是分配给每起事故的唯一案件编号。它出现在每个数据文件中，并用于将各个数据文件的信息合并在一起。xxxxxx（先两字符为州代码，后四字符为案件编号）",
+    "此数据元素是对案件中每辆车连续分配的编号。该数据元素出现在每个车辆级别数据文件中，并与 ST_CASE 数据元素结合使用，以合并车辆级别数据文件中的信息。000-999 分配给机动车的编号",
+    "该数据元素标识该司机所被指控的所有违规行为。有关代码的更多信息，请查看 PDF 中的 <D21 Violations Charged> 部分：https://crashstats.nhtsa.dot.gov/Api/Public/ViewPublication/812315",
+    "该数据元素识别所有归咎于该驾驶员的违规行为。有关代码的更多信息，请查看PDF中的<D21 归咎违规>章节：https://crashstats.nhtsa.dot.gov/Api/Public/ViewPublication/812315"
+  ],
+  "sample_rows": [
+    {
+      "州编号": 1,
+      "州名": "Alabama",
+      "连续编号": 10049,
+      "车辆编号": 5,
+      "违规计费": "0",
+      "违规被指控人姓名": "None"
+    },
+    {
+      "州编号": 1,
+      "州名": "Alabama",
+      "连续编号": 10106,
+      "车辆编号": 5,
+      "违规计费": "0",
+      "违规被指控人姓名": "None"
+    },
+    {
+      "州编号": 1,
+      "州名": "Alabama",
+      "连续编号": 10367,
+      "车辆编号": 5,
+      "违规计费": "0",
+      "违规被指控人姓名": "None"
+    },
+    {
+      "州编号": 1,
+      "州名": "Alabama",
+      "连续编号": 10571,
+      "车辆编号": 5,
+      "违规计费": "0",
+      "违规被指控人姓名": "None"
+    },
+    {
+      "州编号": 1,
+      "州名": "Alabama",
+      "连续编号": 10572,
+      "车辆编号": 5,
+      "违规计费": "0",
+      "违规被指控人姓名": "None"
+    }
+  ]
+}
