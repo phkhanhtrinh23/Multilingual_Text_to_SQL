@@ -1,0 +1,126 @@
+{
+  "table_name": "hail_reports",
+  "table_fullname": "bigquery-public-data.noaa_historic_severe_storms.hail_reports",
+  "column_names": [
+    "时间戳",
+    "时间",
+    "尺寸",
+    "位置",
+    "县",
+    "州",
+    "纬度",
+    "经度",
+    "评论",
+    "报告点"
+  ],
+  "column_types": [
+    "TIMESTAMP",
+    "STRING",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "FLOAT64",
+    "STRING",
+    "GEOGRAPHY"
+  ],
+  "nested_column_names": [
+    "时间戳",
+    "时间",
+    "大小",
+    "位置",
+    "县",
+    "状态",
+    "纬度",
+    "经度",
+    "评论",
+    "报告点"
+  ],
+  "nested_column_types": [
+    "TIMESTAMP",
+    "STRING",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "FLOAT64",
+    "STRING",
+    "GEOGRAPHY"
+  ],
+  "description": [
+    "UTC 时间戳",
+    "UTC小时",
+    "尺寸（以1/100英寸计，175 = 1.75英寸）",
+    "报告位置",
+    "",
+    "",
+    "纬度保留到两位小数",
+    "经度保留两位小数",
+    "",
+    ""
+  ],
+  "sample_rows": [
+    {
+      "时间戳": "2021-04-09 15:01:00+00:00",
+      "时间": "1501",
+      "大小": 150,
+      "位置": "4 ESE MARBURY",
+      "县": "AUTAUGA",
+      "状态": "AL",
+      "纬度": 32.67,
+      "经度": -86.42,
+      "评论": "FORWARDED BY BROADCAST MEDIA VIA SOCIAL MEDIA. (BMX)",
+      "报告点": "POINT(-86.42 32.67)"
+    },
+    {
+      "时间戳": "2021-05-03 23:30:00+00:00",
+      "时间": "2330",
+      "大小": 100,
+      "位置": "3 NNE PRATTVILLE",
+      "县": "AUTAUGA",
+      "状态": "AL",
+      "纬度": 32.5,
+      "经度": -86.44,
+      "评论": "QUARTER SIZE HAIL WAS REPORTED ON OLD RIDGE ROAD NORTH OF PRATTVILLE. (BMX)",
+      "报告点": "POINT(-86.44 32.5)"
+    },
+    {
+      "时间戳": "2021-04-10 08:20:00+00:00",
+      "时间": "0820",
+      "大小": 400,
+      "位置": "1 SSW ORANGE BEACH",
+      "县": "BALDWIN",
+      "状态": "AL",
+      "纬度": 30.27,
+      "经度": -87.59,
+      "评论": "TWO SEPARATE PHOTOS SHOW HAIL NEAR SOFTBALL SIZE IN ORANGE BEACH. SIGNIFICANT HAIL DAMAGE REPORTED TO NUMEROUS VEHICLES AND METALS ROOFS IN THE AREA. (MOB)",
+      "报告点": "POINT(-87.59 30.27)"
+    },
+    {
+      "时间戳": "2021-04-10 08:40:00+00:00",
+      "时间": "0840",
+      "大小": 200,
+      "位置": "4 SW LILLIAN",
+      "县": "BALDWIN",
+      "状态": "AL",
+      "纬度": 30.38,
+      "经度": -87.48,
+      "评论": "REPORT OF 2 INCH SIZE HAIL FURTHER INLAND (SOUTHWEST OF LILLIAN). (MOB)",
+      "报告点": "POINT(-87.48 30.38)"
+    },
+    {
+      "时间戳": "2021-04-15 12:56:00+00:00",
+      "时间": "1256",
+      "大小": 100,
+      "位置": "2 WSW FOLEY",
+      "县": "BALDWIN",
+      "状态": "AL",
+      "纬度": 30.39,
+      "经度": -87.72,
+      "评论": "CORRECTS PREVIOUS HAIL REPORT FROM 2 WSW FOLEY. REPORT OF QUARTER-SIZE HAIL IN SOUTHWEST FOLEY. TIME AND LOCATION GIVEN BY LOCAL POLICE. (MOB)",
+      "报告点": "POINT(-87.72 30.39)"
+    }
+  ]
+}
