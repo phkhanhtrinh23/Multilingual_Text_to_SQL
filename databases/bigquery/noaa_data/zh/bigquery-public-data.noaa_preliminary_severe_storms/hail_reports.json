@@ -1,0 +1,126 @@
+{
+  "table_name": "hail_reports",
+  "table_fullname": "bigquery-public-data.noaa_preliminary_severe_storms.hail_reports",
+  "column_names": [
+    "时间戳",
+    "时间",
+    "尺寸",
+    "地点",
+    "县",
+    "状态",
+    "纬度",
+    "经度",
+    "评论",
+    "报告点"
+  ],
+  "column_types": [
+    "TIMESTAMP",
+    "STRING",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "FLOAT64",
+    "STRING",
+    "GEOGRAPHY"
+  ],
+  "nested_column_names": [
+    "时间戳",
+    "时间",
+    "大小",
+    "位置",
+    "县",
+    "状态",
+    "纬度",
+    "经度",
+    "评论",
+    "报告点"
+  ],
+  "nested_column_types": [
+    "TIMESTAMP",
+    "STRING",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "FLOAT64",
+    "STRING",
+    "GEOGRAPHY"
+  ],
+  "description": [
+    "UTC 时间戳",
+    "UTC 小时",
+    "尺寸（以英寸的1/100为单位）（175 = 1.75英寸）",
+    "报告位置",
+    "",
+    "",
+    "纬度保留两位小数",
+    "经度保留两位小数",
+    "",
+    ""
+  ],
+  "sample_rows": [
+    {
+      "时间戳": "2021-05-26 23:28:00+00:00",
+      "时间": "2328",
+      "大小": 200,
+      "位置": "10 WEST HEMINGFORD",
+      "县": "BOX BUTTE",
+      "状态": "N",
+      "纬度": 4.23,
+      "经度": -10.32,
+      "评论": "PHOTO ON SOCIAL MEDIA READING 2.14 INCHES FOR DIAMETER. (CYS",
+      "报告点": "POINT(-10.32 4.23)"
+    },
+    {
+      "时间戳": "2021-04-24 21:22:00+00:00",
+      "时间": "2122",
+      "大小": 125,
+      "位置": "1 SSW EW SHELL FISHERIE",
+      "县": "LEE",
+      "状态": "AL",
+      "纬度": 32.67,
+      "经度": -85.51,
+      "评论": "VIA SOCIAL MEDIA. (BMX)",
+      "报告点": "POINT(-85.51 32.67)"
+    },
+    {
+      "时间戳": "2021-12-30 20:05:00+00:00",
+      "时间": "2005",
+      "大小": 100,
+      "位置": "1 W LOACHAPOKA",
+      "县": "LEE",
+      "状态": "AL",
+      "纬度": 32.6,
+      "经度": -85.61,
+      "评论": "QUARTER SIZE HAIL IN LOACHAPOKA. (BMX)",
+      "报告点": "POINT(-85.61 32.6)"
+    },
+    {
+      "时间戳": "2021-12-30 20:28:00+00:00",
+      "时间": "2028",
+      "大小": 150,
+      "位置": "BEAUREGARD",
+      "县": "LEE",
+      "状态": "AL",
+      "纬度": 32.54,
+      "经度": -85.37,
+      "评论": "SILVER DOLLAR SIZE HAIL IN BEAUREGARD. (BMX)",
+      "报告点": "POINT(-85.37 32.54)"
+    },
+    {
+      "时间戳": "2021-12-30 20:47:00+00:00",
+      "时间": "2047",
+      "大小": 175,
+      "位置": "SMITHS STATION",
+      "县": "LEE",
+      "状态": "AL",
+      "纬度": 32.54,
+      "经度": -85.09,
+      "评论": "GOLF BALL SIZE HAIL IN SMITHS STATION. (BMX)",
+      "报告点": "POINT(-85.09 32.54)"
+    }
+  ]
+}
