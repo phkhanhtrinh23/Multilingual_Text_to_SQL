@@ -1,0 +1,126 @@
+{
+  "table_name": "wind_reports",
+  "table_fullname": "bigquery-public-data.noaa_preliminary_severe_storms.wind_reports",
+  "column_names": [
+    "时间戳",
+    "时间",
+    "速度",
+    "位置",
+    "县",
+    "状态",
+    "纬度",
+    "经度",
+    "评论",
+    "报告点"
+  ],
+  "column_types": [
+    "TIMESTAMP",
+    "STRING",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "FLOAT64",
+    "STRING",
+    "GEOGRAPHY"
+  ],
+  "nested_column_names": [
+    "时间戳",
+    "时间",
+    "速度",
+    "位置",
+    "县",
+    "状态",
+    "纬度",
+    "经度",
+    "评论",
+    "报告点"
+  ],
+  "nested_column_types": [
+    "TIMESTAMP",
+    "STRING",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "FLOAT64",
+    "STRING",
+    "GEOGRAPHY"
+  ],
+  "description": [
+    "UTC时间戳",
+    "UTC小时",
+    "速度（英里/小时）",
+    "报告位置",
+    "",
+    "",
+    "纬度保留两位小数",
+    "经度保留两位小数",
+    "",
+    ""
+  ],
+  "sample_rows": [
+    {
+      "时间戳": "2019-01-19 22:54:00+00:00",
+      "时间": "2254",
+      "速度": null,
+      "位置": "2 N CRAWFORD",
+      "县": "LEE",
+      "状态": "AL",
+      "纬度": 32.49,
+      "经度": -85.18,
+      "评论": "TREES DOWN NEAR THE INTERSECTION OF LEE RD 440 AND LEE RD 179. ALSO REPORT OF TREES DOWN JUST TO THE EAST NEAR THE INTERSECTION OF LEE RD 240 AND LEE RD 212. TIME ESTIM (BMX)",
+      "报告点": "POINT(-85.18 32.49)"
+    },
+    {
+      "时间戳": "2019-02-12 18:11:00+00:00",
+      "时间": "1811",
+      "速度": null,
+      "位置": "3 SW MONTEREY HEIGHTS",
+      "县": "LEE",
+      "状态": "AL",
+      "纬度": 32.49,
+      "经度": -85.13,
+      "评论": "REPORTS OF TREES DOWN IN VARIOUS LOCATIONS IN EASTERN LEE COUNTY FROM BOWING STORM SEGMENT. TIME ESTIMATED. (BMX)",
+      "报告点": "POINT(-85.13 32.49)"
+    },
+    {
+      "时间戳": "2019-03-03 20:22:00+00:00",
+      "时间": "2022",
+      "速度": null,
+      "位置": "SMITH'S STATION",
+      "县": "LEE",
+      "状态": "AL",
+      "纬度": 32.6,
+      "经度": -85.24,
+      "评论": "CORRECTS PREVIOUS TORNADO REPORT FROM SALEM. US HWY 280 BLOCKED BY DOWNED CELL TOWER ACROSS HWY. (BMX)",
+      "报告点": "POINT(-85.24 32.6)"
+    },
+    {
+      "时间戳": "2019-03-26 00:13:00+00:00",
+      "时间": "0013",
+      "速度": null,
+      "位置": "1 NNW SMITHS STATION",
+      "县": "LEE",
+      "状态": "AL",
+      "纬度": 32.55,
+      "经度": -85.1,
+      "评论": "A TREE WAS DOWNED ONTO A HOME. (BMX)",
+      "报告点": "POINT(-85.1 32.55)"
+    },
+    {
+      "时间戳": "2019-06-07 17:56:00+00:00",
+      "时间": "1756",
+      "速度": null,
+      "位置": "1 SSE ROBERT G. PITTS A",
+      "县": "LEE",
+      "状态": "AL",
+      "纬度": 32.6,
+      "经度": -85.42,
+      "评论": "TREE DOWN ON A HOME. TIME ESTIMATED FROM RADAR. (BMX)",
+      "报告点": "POINT(-85.42 32.6)"
+    }
+  ]
+}
