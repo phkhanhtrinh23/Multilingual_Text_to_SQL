@@ -1,0 +1,102 @@
+{
+  "table_name": "ALL_CNVR_DATA_BY_GENE_FILTERED",
+  "table_fullname": "PANCANCER_ATLAS_1.PANCANCER_ATLAS_FILTERED.ALL_CNVR_DATA_BY_GENE_FILTERED",
+  "column_names": [
+    "样本类型",
+    "样本条码",
+    "参与者条码",
+    "GISTIC 调用",
+    "位点ID",
+    "研究",
+    "分装条码",
+    "染色体带",
+    "样本类型字母代码",
+    "基因符号"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "FLOAT",
+    "NUMBER",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "共有10种样本类型：血液来源正常样本、原发实体瘤、实体组织正常样本、复发实体瘤、转移样本、附加-新原发样本、原发血液来源癌症-外周血、口腔黏膜细胞正常样本、附加转移样本、骨髓正常样本",
+    "生物样本条码，例如 TCGA-13-1489-02A",
+    "研究参与者的 TCGA 条码标识符，例如 TCGA-02-0001",
+    "GISTIC 拷贝数调用",
+    "基因位点ID，例如 57380，100616303",
+    "TCGA 研究缩写，例如 LAML。完整列表可在 https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/tcga-study-abbreviations 查看",
+    "TCGA 样本条码，例如 TCGA-12-1089-01A-01D-0517-28",
+    "完整的细胞带名称，包括染色体。例如，17p13.2。参见 https://www.ncbi.nlm.nih.gov/Class/MLACourse/Original8Hour/Genetics/chrombanding.html",
+    "使用 TCGA 标准的样本类型字母代码，例如 TPN、EBV。完整列表可在 https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/sample-type-codes 查看。",
+    "例如 TP53、LRP1B 等（与 Hugo_Symbol 字段相同，但将 Unknown 替换为空白）。"
+  ],
+  "sample_rows": [
+    {
+      "参与者条码": "TCGA-04-1331",
+      "样本条码": "TCGA-04-1331-01A",
+      "分装条码": "TCGA-04-1331-01A-01D-0428-01",
+      "样本类型字母代码": "TP",
+      "样本类型": "Primary solid Tumor",
+      "研究": "OV",
+      "基因符号": "SLC44A3",
+      "位点ID": 126969,
+      "染色体带": "1p21.3",
+      "GISTIC 调用": 0.038
+    },
+    {
+      "参与者条码": "TCGA-04-1331",
+      "样本条码": "TCGA-04-1331-01A",
+      "分装条码": "TCGA-04-1331-01A-01D-0428-01",
+      "样本类型字母代码": "TP",
+      "样本类型": "Primary solid Tumor",
+      "研究": "OV",
+      "基因符号": "FEZF2",
+      "位点ID": 55079,
+      "染色体带": "3p14.2",
+      "GISTIC 调用": 0.052
+    },
+    {
+      "参与者条码": "TCGA-04-1331",
+      "样本条码": "TCGA-04-1331-01A",
+      "分装条码": "TCGA-04-1331-01A-01D-0428-01",
+      "样本类型字母代码": "TP",
+      "样本类型": "Primary solid Tumor",
+      "研究": "OV",
+      "基因符号": "SNORD55",
+      "位点ID": 26811,
+      "染色体带": "1p34.1",
+      "GISTIC 调用": 0.062
+    },
+    {
+      "参与者条码": "TCGA-04-1331",
+      "样本条码": "TCGA-04-1331-01A",
+      "分装条码": "TCGA-04-1331-01A-01D-0428-01",
+      "样本类型字母代码": "TP",
+      "样本类型": "Primary solid Tumor",
+      "研究": "OV",
+      "基因符号": "FLT4",
+      "位点ID": 2324,
+      "染色体带": "5q35.3",
+      "GISTIC 调用": 0.06
+    },
+    {
+      "参与者条码": "TCGA-04-1331",
+      "样本条码": "TCGA-04-1331-01A",
+      "分装条码": "TCGA-04-1331-01A-01D-0428-01",
+      "样本类型字母代码": "TP",
+      "样本类型": "Primary solid Tumor",
+      "研究": "OV",
+      "基因符号": "RP11-701P16.5",
+      "位点ID": 731424,
+      "染色体带": "4q35.1",
+      "GISTIC 调用": -0.61
+    }
+  ]
+}
