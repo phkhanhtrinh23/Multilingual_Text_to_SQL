@@ -1,0 +1,81 @@
+{
+  "table_name": "JHU_USC_EDU_PANCAN_HUMANMETHYLATION450_BETAVALUE_WHITELISTED_FILTERED",
+  "table_fullname": "PANCANCER_ATLAS_1.PANCANCER_ATLAS_FILTERED.JHU_USC_EDU_PANCAN_HUMANMETHYLATION450_BETAVALUE_WHITELISTED_FILTERED",
+  "column_names": [
+    "参与者条码",
+    "研究",
+    "编号",
+    "样本条码",
+    "样本条码",
+    "样本类型",
+    "贝塔",
+    "样本类型字母代码"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "FLOAT",
+    "TEXT"
+  ],
+  "description": [
+    "TCGA条码标识符，用于研究参与者，例如 TCGA-02-0001",
+    "TCGA 研究缩写，例如 LAML。完整列表可在 https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/tcga-study-abbreviations 查看",
+    "来自 Illumina 人类甲基化阵列的唯一探针标识符（例如 cg04676771）——请参阅注释表 (isb-cgc:platform_reference.methylation_annotation) 以获取关于任何特定探针的更多详细信息",
+    "TCGA 切样条形码，例如 TCGA-12-1089-01A-01D-0517-28",
+    "生物样本的条形码，例如 TCGA-13-1489-02A",
+    "共有10种样本类型：  \n1. 血液来源正常样本  \n2. 原发实体瘤  \n3. 实体组织正常样本  \n4. 复发实体瘤  \n5. 转移瘤  \n6. 追加 - 新原发  \n7. 原发血液来源癌症 - 外周血  \n8. 口腔细胞正常  \n9. 追加转移  \n10. 骨髓正常",
+    "标准化的 DNA 甲基化 β 值（介于 0 到 1 之间，0 表示完全未甲基化，1 表示完全甲基化）",
+    "使用 TCGA 标准的样本类型字母代码，例如 TPN、EBV。完整列表请访问 https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/sample-type-codes"
+  ],
+  "sample_rows": [
+    {
+      "参与者条码": "TCGA-06-AABW",
+      "样本条码": "TCGA-06-AABW-11A-31D-A368-05",
+      "样本类型字母代码": "NT",
+      "样本类型": "Solid Tissue Normal",
+      "研究": "GBM",
+      "编号": "cg13326914",
+      "贝塔": 0.828217
+    },
+    {
+      "参与者条码": "TCGA-06-AABW",
+      "样本条码": "TCGA-06-AABW-11A-31D-A368-05",
+      "样本类型字母代码": "NT",
+      "样本类型": "Solid Tissue Normal",
+      "研究": "GBM",
+      "编号": "cg20566904",
+      "贝塔": 0.8990459999999999
+    },
+    {
+      "参与者条码": "TCGA-06-AABW",
+      "样本条码": "TCGA-06-AABW-11A-31D-A368-05",
+      "样本类型字母代码": "NT",
+      "样本类型": "Solid Tissue Normal",
+      "研究": "GBM",
+      "编号": "cg20795891",
+      "贝塔": 0.0311908
+    },
+    {
+      "参与者条码": "TCGA-06-AABW",
+      "样本条码": "TCGA-06-AABW-11A-31D-A368-05",
+      "样本类型字母代码": "NT",
+      "样本类型": "Solid Tissue Normal",
+      "研究": "GBM",
+      "编号": "cg11608893",
+      "贝塔": 0.948874
+    },
+    {
+      "参与者条码": "TCGA-06-AABW",
+      "样本条码": "TCGA-06-AABW-11A-31D-A368-05",
+      "样本类型字母代码": "NT",
+      "样本类型": "Solid Tissue Normal",
+      "研究": "GBM",
+      "编号": "cg03895496",
+      "贝塔": 0.291718
+    }
+  ]
+}
