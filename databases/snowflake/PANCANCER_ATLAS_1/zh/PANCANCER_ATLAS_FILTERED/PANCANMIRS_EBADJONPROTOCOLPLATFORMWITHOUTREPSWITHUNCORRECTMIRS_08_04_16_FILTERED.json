@@ -1,0 +1,89 @@
+{
+  "table_name": "PANCANMIRS_EBADJONPROTOCOLPLATFORMWITHOUTREPSWITHUNCORRECTMIRS_08_04_16_FILTERED",
+  "table_fullname": "PANCANCER_ATLAS_1.PANCANCER_ATLAS_FILTERED.PANCANMIRS_EBADJONPROTOCOLPLATFORMWITHOUTREPSWITHUNCORRECTMIRS_08_04_16_FILTERED",
+  "column_names": [
+    "参与者条码",
+    "学习",
+    "编号",
+    "样本类型",
+    "样本类型字母码",
+    "miRNA表达",
+    "样本条码",
+    "更正",
+    "样本条码"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "FLOAT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "用于研究参与者的 TCGA 条码标识符，例如 TCGA-02-0001",
+    "TCGA 研究缩写，例如 LAML。完整列表可在 https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/tcga-study-abbreviations 查看",
+    "本表包含1870个独特的 miRNA ID（又称符号），例如 hsa-mir-21 —— 相关参考信息可在 isb-cgc:genome_reference 数据集的 miRBase_v20 和 miRBase_v20_hsa_gff3 表中找到",
+    "血液来源正常  \n原发实体瘤  \n实体组织正常  \n复发实体瘤  \n转移  \n追加 - 新原发  \n原发血液来源癌症 - 外周血  \n颊部细胞正常  \n追加转移  \n骨髓正常",
+    "使用 TCGA 标准的样本类型字母代码，例如 TPN、EBV。完整列表请参阅 https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/sample-type-codes",
+    "归一化丰度（即每百万读数，RPM）",
+    "TCGA 样本分区条码，例如 TCGA-12-1089-01A-01D-0517-28",
+    "已校正和未校正指标，用于说明 miRs 是否已通过 EBN+ 方法校正。请参阅更多细节：https://www.synapse.org/#!Synapse:syn6171109",
+    "生物样本条码，例如 TCGA-13-1489-02A"
+  ],
+  "sample_rows": [
+    {
+      "参与者条码": "TCGA-04-1331",
+      "样本条码": "TCGA-04-1331-01A-01R-1569-13",
+      "样本类型字母码": "TP",
+      "样本类型": "Primary solid Tumor",
+      "学习": "OV",
+      "编号": "hsa-miR-129-2-3p",
+      "miRNA表达": 1.924155,
+      "更正": "Corrected"
+    },
+    {
+      "参与者条码": "TCGA-04-1331",
+      "样本条码": "TCGA-04-1331-01A-01R-1569-13",
+      "样本类型字母码": "TP",
+      "样本类型": "Primary solid Tumor",
+      "学习": "OV",
+      "编号": "hsa-miR-3130-5p",
+      "miRNA表达": 35.184554,
+      "更正": "Corrected"
+    },
+    {
+      "参与者条码": "TCGA-04-1331",
+      "样本条码": "TCGA-04-1331-01A-01R-1569-13",
+      "样本类型字母码": "TP",
+      "样本类型": "Primary solid Tumor",
+      "学习": "OV",
+      "编号": "hsa-miR-454-3p",
+      "miRNA表达": 0.274879,
+      "更正": "Corrected"
+    },
+    {
+      "参与者条码": "TCGA-04-1331",
+      "样本条码": "TCGA-04-1331-01A-01R-1569-13",
+      "样本类型字母码": "TP",
+      "样本类型": "Primary solid Tumor",
+      "学习": "OV",
+      "编号": "hsa-miR-501-5p",
+      "miRNA表达": 7.696621,
+      "更正": "Corrected"
+    },
+    {
+      "参与者条码": "TCGA-04-1331",
+      "样本条码": "TCGA-04-1331-01A-01R-1569-13",
+      "样本类型字母码": "TP",
+      "样本类型": "Primary solid Tumor",
+      "学习": "OV",
+      "编号": "hsa-miR-3613-3p",
+      "miRNA表达": 1.099517,
+      "更正": "Corrected"
+    }
+  ]
+}
