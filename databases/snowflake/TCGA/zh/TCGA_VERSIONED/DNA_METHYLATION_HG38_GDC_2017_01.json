@@ -1,0 +1,102 @@
+{
+  "table_name": "DNA_METHYLATION_HG38_GDC_2017_01",
+  "table_fullname": "TCGA.TCGA_VERSIONED.DNA_METHYLATION_HG38_GDC_2017_01",
+  "column_names": [
+    "样本_gdc_id",
+    "文件_GDC_ID",
+    "病例 GDC ID",
+    "样本GDC ID",
+    "贝塔值",
+    "探针编号",
+    "盒子条码",
+    "分装条码",
+    "样本条码",
+    "平台"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "FLOAT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "此样本的唯一GDC标识符（对应sample_barcode），例如 a1ec9279-c1a6-4e58-97ed-9ec1f36187c5 -- 可用于从GDC数据门户获取更多信息",
+    "此文件的唯一 GDC 标识符（对应于 file_barcode）——可用于访问 GDC 数据门户中的更多信息，例如： https://portal.gdc.cancer.gov/files/c21b332c-06c6-4403-9032-f91c8f407ba18",
+    "此病例的唯一 GDC 标识符（对应于 case_barcode）。可用于通过 GDC 数据门户访问更多信息，例如： https://portal.gdc.cancer.gov/files/c21b332c-06c6-4403-9032-f91c8f407ba11",
+    "该样本的唯一 GDC 标识符（对应于 aliquot_barcode），例如 7fbfdb3e-1fd2-4206-8d2e-7f68e4a15844  --  该标识符可用于从 GDC 数据门户获取更多信息",
+    "表示甲基化阵列强度与总阵列强度之比，取值在0（甲基化水平较低）到1（甲基化水平较高）之间",
+    "与 CpG 位点关联的阵列探针唯一 ID",
+    "原始 TCGA 病例条码，例如 TCGA-DX-A8BN",
+    "TCGA 样本条码，例如 TCGA-12-1089-01A-01D-0517-03",
+    "TCGA 样本条形码，例如 TCGA-12-1089-01A。一个样本可能对应多个 CN 分割集，分别对应不同的分装；在查询中请适当使用 GROUP BY。",
+    "用于生成此数据的平台——HumanMethylation450 或 HumanMethylation27"
+  ],
+  "sample_rows": [
+    {
+      "盒子条码": "TCGA-12-1601",
+      "样本条码": "TCGA-12-1601-01A",
+      "分装条码": "TCGA-12-1601-01A-01D-0595-05",
+      "探针编号": "cg21301440",
+      "贝塔值": 0.0751595945504393,
+      "平台": null,
+      "文件_GDC_ID": "5cd6f2f6-7278-4757-be8e-a8ae3a7a81d3",
+      "病例 GDC ID": "cc1459be-de8f-482e-9efe-65937db9dc45",
+      "样本_gdc_id": "b02fd704-03a6-44c4-b224-f5f457e733f3",
+      "样本GDC ID": "aa761ca4-e8f0-4a43-8262-bd84eedb459a"
+    },
+    {
+      "盒子条码": "TCGA-32-2498",
+      "样本条码": "TCGA-32-2498-01A",
+      "分装条码": "TCGA-32-2498-01A-01D-1228-05",
+      "探针编号": "cg26937148",
+      "贝塔值": 0.0170167426879892,
+      "平台": null,
+      "文件_GDC_ID": "6db4187c-5e48-45ac-8ae3-6b55198ff65a",
+      "病例 GDC ID": "0d5e5a6b-5113-43f2-836c-776207b21b56",
+      "样本_gdc_id": "58af038c-bd40-4123-a6d3-11061f0d38e1",
+      "样本GDC ID": "6e65d823-0d94-4d26-b60a-2f168cbe2ba8"
+    },
+    {
+      "盒子条码": "TCGA-BR-4190",
+      "样本条码": "TCGA-BR-4190-01A",
+      "分装条码": "TCGA-BR-4190-01A-01D-1129-05",
+      "探针编号": "cg17328659",
+      "贝塔值": 0.059841189365929,
+      "平台": null,
+      "文件_GDC_ID": "16a7391b-41d8-4b4a-9296-fcbec012a2e7",
+      "病例 GDC ID": "282e979d-4ad9-4d42-8ffa-7487a94fa1f3",
+      "样本_gdc_id": "0486af5d-6d7c-4409-81e9-2fc4a38225c4",
+      "样本GDC ID": "77f0ac56-827e-47da-bbfd-ca438b9fa222"
+    },
+    {
+      "盒子条码": "TCGA-BR-4196",
+      "样本条码": "TCGA-BR-4196-01A",
+      "分装条码": "TCGA-BR-4196-01A-01D-1129-05",
+      "探针编号": "cg24719984",
+      "贝塔值": 0.511344267679468,
+      "平台": null,
+      "文件_GDC_ID": "67c47269-a491-4704-bdf0-89d359ee2e6b",
+      "病例 GDC ID": "c23e0eb6-e332-4a3b-9ffd-0d8f019f8ace",
+      "样本_gdc_id": "b8c1c145-64dd-421c-ab37-bad415acf7f6",
+      "样本GDC ID": "f4c5ade8-56ca-4500-a770-8892c847acae"
+    },
+    {
+      "盒子条码": "TCGA-BR-4199",
+      "样本条码": "TCGA-BR-4199-01A",
+      "分装条码": "TCGA-BR-4199-01A-01D-1129-05",
+      "探针编号": "cg03309721",
+      "贝塔值": 0.0126778311062202,
+      "平台": null,
+      "文件_GDC_ID": "d5f03724-7f86-4d36-aa04-7985211d878d",
+      "病例 GDC ID": "a73a0dc5-ac20-466b-ad11-d5cbbe9af2f7",
+      "样本_gdc_id": "819809df-2c46-4829-b229-c1ccd7f68584",
+      "样本GDC ID": "d09709f4-ec6f-4ec6-ac9b-e8002a72ea0d"
+    }
+  ]
+}
