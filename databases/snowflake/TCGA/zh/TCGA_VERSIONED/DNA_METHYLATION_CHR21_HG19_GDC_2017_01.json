@@ -1,0 +1,78 @@
+{
+  "table_name": "DNA_METHYLATION_CHR21_HG19_GDC_2017_01",
+  "table_fullname": "TCGA.TCGA_VERSIONED.DNA_METHYLATION_CHR21_HG19_GDC_2017_01",
+  "column_names": [
+    "案例条码",
+    "平台",
+    "探针ID",
+    "项目简称",
+    "样本条码",
+    "贝塔值",
+    "分样条码"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "FLOAT",
+    "TEXT"
+  ],
+  "description": [
+    "原始 TCGA 病例条码，例如 TCGA-12-1089 -- 请注意，每个病例通常有一个原发肿瘤样本和一个匹配的正常样本（血液或相邻组织）；有关更多详细信息，请参阅 TCGA 生物样本表。",
+    "用于生成此数据的平台名称——HumanMethylation450 或 HumanMethylation27",
+    "来自 Illumina Human Methylation 芯片的唯一探针标识符（例如 cg04676771）——请参阅注释表（isb-cgc:platform_reference.methylation_annotation）了解任何特定探针的更多细节。",
+    "项目名称缩写；程序名称后附加项目名称缩写；例如：TCGA-OV 等。",
+    "原始 TCGA 样本条码，例如 TCGA-12-1089-01A",
+    "归一化 DNA 甲基化 β 值（取值范围 0–1，其中 0 表示完全未甲基化，1 表示完全甲基化）",
+    "原始 TCGA 取样条码，例如 TCGA-12-1089-01A-01D-0517-01"
+  ],
+  "sample_rows": [
+    {
+      "项目简称": "TCGA-OV",
+      "案例条码": "TCGA-01-0628",
+      "样本条码": "TCGA-01-0628-11A",
+      "分样条码": "TCGA-01-0628-11A-01D-0383-05",
+      "探针ID": "cg12638745",
+      "贝塔值": 0.14,
+      "平台": "HumanMethylation27"
+    },
+    {
+      "项目简称": "TCGA-OV",
+      "案例条码": "TCGA-01-0628",
+      "样本条码": "TCGA-01-0628-11A",
+      "分样条码": "TCGA-01-0628-11A-01D-0383-05",
+      "探针ID": "cg00544557",
+      "贝塔值": 0.96,
+      "平台": "HumanMethylation27"
+    },
+    {
+      "项目简称": "TCGA-OV",
+      "案例条码": "TCGA-01-0628",
+      "样本条码": "TCGA-01-0628-11A",
+      "分样条码": "TCGA-01-0628-11A-01D-0383-05",
+      "探针ID": "cg01962969",
+      "贝塔值": 0.01,
+      "平台": "HumanMethylation27"
+    },
+    {
+      "项目简称": "TCGA-OV",
+      "案例条码": "TCGA-01-0631",
+      "样本条码": "TCGA-01-0631-11A",
+      "分样条码": "TCGA-01-0631-11A-01D-0383-05",
+      "探针ID": "cg19946699",
+      "贝塔值": 0.47,
+      "平台": "HumanMethylation27"
+    },
+    {
+      "项目简称": "TCGA-OV",
+      "案例条码": "TCGA-01-0631",
+      "样本条码": "TCGA-01-0631-11A",
+      "分样条码": "TCGA-01-0631-11A-01D-0383-05",
+      "探针ID": "cg00695416",
+      "贝塔值": 0.01,
+      "平台": "HumanMethylation27"
+    }
+  ]
+}
