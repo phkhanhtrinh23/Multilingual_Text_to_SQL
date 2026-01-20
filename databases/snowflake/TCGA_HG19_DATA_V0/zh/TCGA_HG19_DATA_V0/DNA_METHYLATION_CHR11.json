@@ -1,0 +1,78 @@
+{
+  "table_name": "DNA_METHYLATION_CHR11",
+  "table_fullname": "TCGA_HG19_DATA_V0.TCGA_HG19_DATA_V0.DNA_METHYLATION_CHR11",
+  "column_names": [
+    "分装条码",
+    "探针编号",
+    "beta值",
+    "项目简称",
+    "案例条码",
+    "样本条码",
+    "平台"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "FLOAT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "原始 TCGA 分液条码，例如 TCGA-12-1089-01A-01D-0517-01",
+    "来自 Illumina 人类甲基化芯片的唯一探针标识符（如 cg04676771）——请参阅注释表（isb-cgc:platform_reference.methylation_annotation）以获取关于任何特定探针的更多详细信息",
+    "归一化 DNA 甲基化 β 值（介于 0 与 1 之间，0 表示完全未甲基化，1 表示完全甲基化）",
+    "项目名称缩写；程序名称后接项目名称缩写；例如 TCGA-OV 等。",
+    "原始 TCGA 病例条码，例如 TCGA-12-1089  -- 请注意，每个病例通常有一个原发肿瘤样本和一个匹配的正常样本（血液或邻近组织）；更多详细信息请参阅 TCGA 生物样本表",
+    "原始 TCGA 样本条码，例如 TCGA-12-1089-01A——请注意，一个样本可能有多个分块（aliquots），因此会有多组 CN 分割；请在查询中适当使用 GROUP BY。",
+    "用于生成此数据的平台名称——可为 HumanMethylation450 或 HumanMethylation27"
+  ],
+  "sample_rows": [
+    {
+      "项目简称": "TCGA-OV",
+      "案例条码": "TCGA-01-0628",
+      "样本条码": "TCGA-01-0628-11A",
+      "分装条码": "TCGA-01-0628-11A-01D-0383-05",
+      "探针编号": "cg04581377",
+      "beta值": 0.01,
+      "平台": "HumanMethylation27"
+    },
+    {
+      "项目简称": "TCGA-OV",
+      "案例条码": "TCGA-01-0628",
+      "样本条码": "TCGA-01-0628-11A",
+      "分装条码": "TCGA-01-0628-11A-01D-0383-05",
+      "探针编号": "cg03826976",
+      "beta值": 0.26,
+      "平台": "HumanMethylation27"
+    },
+    {
+      "项目简称": "TCGA-OV",
+      "案例条码": "TCGA-01-0628",
+      "样本条码": "TCGA-01-0628-11A",
+      "分装条码": "TCGA-01-0628-11A-01D-0383-05",
+      "探针编号": "cg08596000",
+      "beta值": 0.08,
+      "平台": "HumanMethylation27"
+    },
+    {
+      "项目简称": "TCGA-OV",
+      "案例条码": "TCGA-01-0628",
+      "样本条码": "TCGA-01-0628-11A",
+      "分装条码": "TCGA-01-0628-11A-01D-0383-05",
+      "探针编号": "cg16463460",
+      "beta值": 0.09,
+      "平台": "HumanMethylation27"
+    },
+    {
+      "项目简称": "TCGA-OV",
+      "案例条码": "TCGA-01-0628",
+      "样本条码": "TCGA-01-0628-11A",
+      "分装条码": "TCGA-01-0628-11A-01D-0383-05",
+      "探针编号": "cg02360776",
+      "beta值": 0.02,
+      "平台": "HumanMethylation27"
+    }
+  ]
+}
