@@ -1,0 +1,94 @@
+{
+  "table_name": "RNASEQ_HG19_GDC_2017_02",
+  "table_fullname": "TCGA.TCGA_VERSIONED.RNASEQ_HG19_GDC_2017_02",
+  "column_names": [
+    "原始基因符号",
+    "案件条形码",
+    "HGNC基因符号",
+    "标准化计数",
+    "基因编号",
+    "样本条码",
+    "取样条码",
+    "项目简称",
+    "平台"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "FLOAT",
+    "NUMBER",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "来自原始数据文件的基因符号，如果批准的基因符号已更改，则可能不同，例如 C11orf17 已改为 AKIP1",
+    "原始 TCGA 病例条形码，例如 TCGA-12-1089  --  请注意，每个病例通常都有一个原发肿瘤样本和一个匹配的正常（血液或邻近组织）样本；请参阅 TCGA Biospecimen 表以获取更多详细信息",
+    "HUGO基因命名委员会基因符号，基于原始数据文件中的gene_id，例如AMY1A。若找不到基因符号则为Null（有关ETL的更多细节请参阅文档）http://isb-cancer-genomics-cloud.readthedocs.io/en/latest/sections/data/data2/ETL_mRNAexpression.html",
+    "来自原始 rsem.genes.normalized_results 文件的标准化基因表达",
+    "基因符号。在此表中，基因符号即为基因名称，例如 ENSG00000251562。",
+    "原始 TCGA 样本条形码，例如 TCGA-12-1089-01A",
+    "原始 TCGA 切片条码，例如 TCGA-12-1089-01A-01D-0517-01",
+    "项目名称缩写；程序名称附加项目名称缩写；例如 TCGA-OV 等。",
+    "生成数据所用平台：Illumina HiSeq（约93%样本）或 Illumina GA"
+  ],
+  "sample_rows": [
+    {
+      "项目简称": "TCGA-OV",
+      "案件条形码": "TCGA-04-1348",
+      "样本条码": "TCGA-04-1348-01A",
+      "取样条码": "TCGA-04-1348-01A-01R-1565-13",
+      "HGNC基因符号": "C1orf189",
+      "基因编号": 388701,
+      "标准化计数": 0.0,
+      "原始基因符号": "C1orf189",
+      "平台": "IlluminaHiSeq"
+    },
+    {
+      "项目简称": "TCGA-OV",
+      "案件条形码": "TCGA-04-1348",
+      "样本条码": "TCGA-04-1348-01A",
+      "取样条码": "TCGA-04-1348-01A-01R-1565-13",
+      "HGNC基因符号": "NEURL2",
+      "基因编号": 140825,
+      "标准化计数": 124.6706,
+      "原始基因符号": "NEURL2",
+      "平台": "IlluminaHiSeq"
+    },
+    {
+      "项目简称": "TCGA-OV",
+      "案件条形码": "TCGA-04-1348",
+      "样本条码": "TCGA-04-1348-01A",
+      "取样条码": "TCGA-04-1348-01A-01R-1565-13",
+      "HGNC基因符号": "WRNIP1",
+      "基因编号": 56897,
+      "标准化计数": 2187.1471,
+      "原始基因符号": "WRNIP1",
+      "平台": "IlluminaHiSeq"
+    },
+    {
+      "项目简称": "TCGA-OV",
+      "案件条形码": "TCGA-04-1348",
+      "样本条码": "TCGA-04-1348-01A",
+      "取样条码": "TCGA-04-1348-01A-01R-1565-13",
+      "HGNC基因符号": "JSRP1",
+      "基因编号": 126306,
+      "标准化计数": 53.2401,
+      "原始基因符号": "JSRP1",
+      "平台": "IlluminaHiSeq"
+    },
+    {
+      "项目简称": "TCGA-OV",
+      "案件条形码": "TCGA-04-1348",
+      "样本条码": "TCGA-04-1348-01A",
+      "取样条码": "TCGA-04-1348-01A-01R-1565-13",
+      "HGNC基因符号": "ZNF569",
+      "基因编号": 148266,
+      "标准化计数": 269.5778,
+      "原始基因符号": "ZNF569",
+      "平台": "IlluminaHiSeq"
+    }
+  ]
+}
