@@ -1,0 +1,89 @@
+{
+  "table_name": "RNASEQ_HG19_GDC_2017_02",
+  "table_fullname": "TCGA_MITELMAN.TCGA_VERSIONED.RNASEQ_HG19_GDC_2017_02",
+  "column_names": [
+    "原始基因符号",
+    "箱子条码",
+    "HGNC 基因符号",
+    "标准化计数",
+    "基因ID",
+    "样本条码",
+    "样本条码",
+    "项目简称",
+    "平台"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "FLOAT",
+    "NUMBER",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "原始数据文件中的基因符号，如果批准的基因符号已更改，则会不同，例如 C11orf17 改为 AKIP1",
+    "原始 TCGA 病例条形码，例如 TCGA-12-1089 —— 请注意，每个病例通常都有一个原发肿瘤样本和一个匹配的正常样本（血液或邻近组织样本）；更多细节请参阅 TCGA 生物样本表",
+    "HUGO 基因命名委员会基因符号，基于原始数据文件中的 gene_id，例如 AMY1A。如果未能找到基因符号，则为 Null（请参阅有关 ETL 的更多详细信息的文档）http://isb-cancer-genomics-cloud.readthedocs.io/en/latest/sections/data/data2/ETL_mRNAexpression.html",
+    "来自原始 rsem.genes.normalized_results 文件的归一化基因表达",
+    "基因符号。在此表格中，基因符号即基因名称，例如 ENSG00000251562",
+    "原始 TCGA 样本条码，例如 TCGA-12-1089-01A",
+    "原始 TCGA 试管条码，例如 TCGA-12-1089-01A-01D-0517-01",
+    "项目名称缩写；程序名称后附项目名称缩写；例如，TCGA-OV 等。",
+    "用于生成数据的平台；要么是 Illumina HiSeq（占约 93% 的样本），要么是 Illumina GA。"
+  ],
+  "sample_rows": [
+    {
+      "项目简称": "TCGA-OV",
+      "箱子条码": "TCGA-04-1348",
+      "样本条码": "TCGA-04-1348-01A-01R-1565-13",
+      "HGNC 基因符号": "CASP5",
+      "基因ID": 838,
+      "标准化计数": 9.4111,
+      "原始基因符号": "CASP5",
+      "平台": "IlluminaHiSeq"
+    },
+    {
+      "项目简称": "TCGA-OV",
+      "箱子条码": "TCGA-04-1348",
+      "样本条码": "TCGA-04-1348-01A-01R-1565-13",
+      "HGNC 基因符号": "ITGB3",
+      "基因ID": 3690,
+      "标准化计数": 50.5512,
+      "原始基因符号": "ITGB3",
+      "平台": "IlluminaHiSeq"
+    },
+    {
+      "项目简称": "TCGA-OV",
+      "箱子条码": "TCGA-04-1348",
+      "样本条码": "TCGA-04-1348-01A-01R-1565-13",
+      "HGNC 基因符号": "USP4",
+      "基因ID": 7375,
+      "标准化计数": 2135.5203,
+      "原始基因符号": "USP4",
+      "平台": "IlluminaHiSeq"
+    },
+    {
+      "项目简称": "TCGA-OV",
+      "箱子条码": "TCGA-04-1348",
+      "样本条码": "TCGA-04-1348-01A-01R-1565-13",
+      "HGNC 基因符号": "RPL15",
+      "基因ID": 6138,
+      "标准化计数": 25928.2065,
+      "原始基因符号": "RPL15",
+      "平台": "IlluminaHiSeq"
+    },
+    {
+      "项目简称": "TCGA-OV",
+      "箱子条码": "TCGA-04-1348",
+      "样本条码": "TCGA-04-1348-01A-01R-1565-13",
+      "HGNC 基因符号": null,
+      "基因ID": 440040,
+      "标准化计数": 0.0,
+      "原始基因符号": "LOC440040",
+      "平台": "IlluminaHiSeq"
+    }
+  ]
+}
