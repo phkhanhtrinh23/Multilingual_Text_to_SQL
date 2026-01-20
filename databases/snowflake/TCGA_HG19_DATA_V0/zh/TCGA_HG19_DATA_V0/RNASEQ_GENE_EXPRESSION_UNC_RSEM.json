@@ -1,0 +1,94 @@
+{
+  "table_name": "RNASEQ_GENE_EXPRESSION_UNC_RSEM",
+  "table_fullname": "TCGA_HG19_DATA_V0.TCGA_HG19_DATA_V0.RNASEQ_GENE_EXPRESSION_UNC_RSEM",
+  "column_names": [
+    "案件条码",
+    "标准化计数",
+    "平台",
+    "基因编号",
+    "项目简称",
+    "样本条形码",
+    "样本条码",
+    "HGNC 基因符号",
+    "原始基因符号"
+  ],
+  "column_types": [
+    "TEXT",
+    "FLOAT",
+    "TEXT",
+    "NUMBER",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "原始 TCGA 病例条形码，例如 TCGA-12-1089 -- 请注意，每个病例通常都有一个原发肿瘤样本和一个匹配的正常样本（血液或邻近组织）；如需更多细节，请参阅 TCGA 生物样本表。",
+    "来自原始 rsem.genes.normalized_results 文件的标准化基因表达",
+    "用于生成数据的平台：IlluminaHiSeq（约占93%的样本）或 IlluminaGA",
+    "基因符号。在此表中，基因符号即基因名称，例如 ENSG00000251562",
+    "项目名称缩写；程序名称附加项目名称缩写；例如 TCGA-OV 等。",
+    "原始 TCGA 分离物条码，例如 TCGA-12-1089-01A-01D-0517-01",
+    "原始 TCGA 样本条形码，例如 TCGA-12-1089-01A",
+    "HUGO基因命名委员会基因符号，基于原始数据文件中的gene_id，例如 AMY1A。若未找到基因符号，则为 Null（有关 ETL 的更多详细信息，请参阅文档）http://isb-cancer-genomics-cloud.readthedocs.io/en/latest/sections/data/data2/ETL_mRNAexpression.html",
+    "原始数据文件中的基因符号，如果已批准的基因符号自此已更改，则会有所不同，例如 C11orf17 变为 AKIP1"
+  ],
+  "sample_rows": [
+    {
+      "项目简称": "TCGA-OV",
+      "案件条码": "TCGA-04-1348",
+      "样本条码": "TCGA-04-1348-01A",
+      "样本条形码": "TCGA-04-1348-01A-01R-1565-13",
+      "HGNC 基因符号": "CACNG7",
+      "基因编号": 59284,
+      "标准化计数": 0.0,
+      "原始基因符号": "CACNG7",
+      "平台": "IlluminaHiSeq"
+    },
+    {
+      "项目简称": "TCGA-OV",
+      "案件条码": "TCGA-04-1348",
+      "样本条码": "TCGA-04-1348-01A",
+      "样本条形码": "TCGA-04-1348-01A-01R-1565-13",
+      "HGNC 基因符号": "TTTY19",
+      "基因编号": 252952,
+      "标准化计数": 0.0,
+      "原始基因符号": "TTTY19",
+      "平台": "IlluminaHiSeq"
+    },
+    {
+      "项目简称": "TCGA-OV",
+      "案件条码": "TCGA-04-1348",
+      "样本条码": "TCGA-04-1348-01A",
+      "样本条形码": "TCGA-04-1348-01A-01R-1565-13",
+      "HGNC 基因符号": "PALM2-AKAP2",
+      "基因编号": 445815,
+      "标准化计数": 428.3356,
+      "原始基因符号": "PALM2-AKAP2",
+      "平台": "IlluminaHiSeq"
+    },
+    {
+      "项目简称": "TCGA-OV",
+      "案件条码": "TCGA-04-1348",
+      "样本条码": "TCGA-04-1348-01A",
+      "样本条形码": "TCGA-04-1348-01A-01R-1565-13",
+      "HGNC 基因符号": "SHISA3",
+      "基因编号": 152573,
+      "标准化计数": 0.5378,
+      "原始基因符号": "SHISA3",
+      "平台": "IlluminaHiSeq"
+    },
+    {
+      "项目简称": "TCGA-OV",
+      "案件条码": "TCGA-04-1348",
+      "样本条码": "TCGA-04-1348-01A",
+      "样本条形码": "TCGA-04-1348-01A-01R-1565-13",
+      "HGNC 基因符号": "F10",
+      "基因编号": 2159,
+      "标准化计数": 6.9911,
+      "原始基因符号": "F10",
+      "平台": "IlluminaHiSeq"
+    }
+  ]
+}
