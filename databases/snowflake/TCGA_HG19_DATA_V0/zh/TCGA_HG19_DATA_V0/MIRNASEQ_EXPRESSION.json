@@ -1,0 +1,113 @@
+{
+  "table_name": "MIRNASEQ_EXPRESSION",
+  "table_fullname": "TCGA_HG19_DATA_V0.TCGA_HG19_DATA_V0.MIRNASEQ_EXPRESSION",
+  "column_names": [
+    "病例 GDC 编号",
+    "样本条码",
+    "切片 GDC 编号",
+    "阅读次数",
+    "交叉映射",
+    "样本 GDC ID",
+    "文件_GDC_ID",
+    "项目简称",
+    "已比对miRNA的每百万读取数",
+    "miRNA编号",
+    "箱子条码",
+    "样本条码"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "NUMBER",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "FLOAT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "GDC 唯一标识符（对应 case_barcode），例如 6d10d4ee-6331-4bba-93bc-a7b64cc0b22a——可以用来从 GDC 数据门户访问更多信息，例如： https://portal.gdc.cancer.gov/cases/6d10d4ee-6331-4bba-93bc-a7b64cc0b22a",
+    "原始 TCGA 切片条码，例如 TCGA-12-1089-01A-01D-0517-01",
+    "此样本的唯一 GDC 标识符（对应于 aliquot_barcode），例如 7fbfdb3e-1fd2-4206-8d2e-7f68e4a15844 -- 可用于从 GDC 数据门户获取更多信息",
+    "映射到该 mirna_id 的读取数",
+    "短的 isomiR 读取可能完全匹配成熟链，其序列相似但不完全相同，当读取序列未包含区分这些 miRNA 的碱基时（例如位于 6q13 的 hsa-mir-30a 与位于 1p34.2 的 hsa-mir-30e，在第 18 位上不同）。我们将此类读取报告为 <line_feed> 交叉映射，并为其映射到的每个 MIMAT 增加读取计数。答案为 Y 或 N —— 其中 Y 的比例不到 2%。",
+    "此样本的唯一 GDC 标识符（对应 sample_barcode），例如 a1ec9279-c1a6-4e58-97ed-9ec1f36187c5  -- 可用于从 GDC 数据门户获取更多信息",
+    "此文件的唯一 GDC 标识符（对应文件条码）——可用于从 GDC 数据门户访问更多信息，例如：https://portal.gdc.cancer.gov/files/c21b332c-06c6-4403-9032-f91c8f407ba17",
+    "项目名称缩写；程序名称后附项目名称缩写；例如 TCGA-OV 等。",
+    "按总测序映射读数归一化并除以一百万后的读数计数",
+    "该表中包含 1870 个独特的 miRNA ID（亦即符号），例如 hsa-mir-21——相关参考信息可在 isb-cgc:genome_reference 数据集中的 miRBase_v20 和 miRBase_v20_hsa_gff3 表中找到。",
+    "原始 TCGA 病例条码，例如 TCGA-12-1089——请注意，每个病例通常包含一个原发肿瘤样本和一个匹配的正常样本（血液或邻近组织）；如需更多细节，请参阅 TCGA 生物样本表。",
+    "原始 TCGA 样本条码，例如 TCGA-12-1089-01A -- 请注意，一个样本可能有多个分离物，因此有多个 CN 分割集合；请确保在查询中适当地使用 GROUP BY。"
+  ],
+  "sample_rows": [
+    {
+      "项目简称": "TCGA-GBM",
+      "箱子条码": "TCGA-06-0675",
+      "样本条码": "TCGA-06-0675-11A-32R-A36C-13",
+      "miRNA编号": "hsa-mir-372",
+      "阅读次数": 4,
+      "已比对miRNA的每百万读取数": 1.020801,
+      "交叉映射": "N",
+      "文件_GDC_ID": "7d0722bf-3ea1-44f5-a758-56b23ed881a8",
+      "病例 GDC 编号": "16242ba1-42fd-4fae-bd2e-433b97fc95c6",
+      "样本 GDC ID": "0874982d-929b-433c-b5f6-76df7ea2abf0",
+      "切片 GDC 编号": "95028c7a-9ccd-40da-89e9-3e467372cef0"
+    },
+    {
+      "项目简称": "TCGA-GBM",
+      "箱子条码": "TCGA-06-0675",
+      "样本条码": "TCGA-06-0675-11A-32R-A36C-13",
+      "miRNA编号": "hsa-mir-4274",
+      "阅读次数": 0,
+      "已比对miRNA的每百万读取数": 0.0,
+      "交叉映射": "N",
+      "文件_GDC_ID": "7d0722bf-3ea1-44f5-a758-56b23ed881a8",
+      "病例 GDC 编号": "16242ba1-42fd-4fae-bd2e-433b97fc95c6",
+      "样本 GDC ID": "0874982d-929b-433c-b5f6-76df7ea2abf0",
+      "切片 GDC 编号": "95028c7a-9ccd-40da-89e9-3e467372cef0"
+    },
+    {
+      "项目简称": "TCGA-GBM",
+      "箱子条码": "TCGA-06-0675",
+      "样本条码": "TCGA-06-0675-11A-32R-A36C-13",
+      "miRNA编号": "hsa-mir-4314",
+      "阅读次数": 0,
+      "已比对miRNA的每百万读取数": 0.0,
+      "交叉映射": "N",
+      "文件_GDC_ID": "7d0722bf-3ea1-44f5-a758-56b23ed881a8",
+      "病例 GDC 编号": "16242ba1-42fd-4fae-bd2e-433b97fc95c6",
+      "样本 GDC ID": "0874982d-929b-433c-b5f6-76df7ea2abf0",
+      "切片 GDC 编号": "95028c7a-9ccd-40da-89e9-3e467372cef0"
+    },
+    {
+      "项目简称": "TCGA-GBM",
+      "箱子条码": "TCGA-06-0675",
+      "样本条码": "TCGA-06-0675-11A-32R-A36C-13",
+      "miRNA编号": "hsa-mir-764",
+      "阅读次数": 3,
+      "已比对miRNA的每百万读取数": 0.765601,
+      "交叉映射": "N",
+      "文件_GDC_ID": "7d0722bf-3ea1-44f5-a758-56b23ed881a8",
+      "病例 GDC 编号": "16242ba1-42fd-4fae-bd2e-433b97fc95c6",
+      "样本 GDC ID": "0874982d-929b-433c-b5f6-76df7ea2abf0",
+      "切片 GDC 编号": "95028c7a-9ccd-40da-89e9-3e467372cef0"
+    },
+    {
+      "项目简称": "TCGA-GBM",
+      "箱子条码": "TCGA-06-0675",
+      "样本条码": "TCGA-06-0675-11A-32R-A36C-13",
+      "miRNA编号": "hsa-mir-632",
+      "阅读次数": 1,
+      "已比对miRNA的每百万读取数": 0.2552,
+      "交叉映射": "N",
+      "文件_GDC_ID": "7d0722bf-3ea1-44f5-a758-56b23ed881a8",
+      "病例 GDC 编号": "16242ba1-42fd-4fae-bd2e-433b97fc95c6",
+      "样本 GDC ID": "0874982d-929b-433c-b5f6-76df7ea2abf0",
+      "切片 GDC 编号": "95028c7a-9ccd-40da-89e9-3e467372cef0"
+    }
+  ]
+}
