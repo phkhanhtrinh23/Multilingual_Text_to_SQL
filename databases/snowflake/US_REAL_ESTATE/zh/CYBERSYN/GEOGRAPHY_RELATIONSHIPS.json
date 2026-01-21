@@ -1,0 +1,78 @@
+{
+  "sample_rows": [
+    {
+      "地理名称": "Black Oak",
+      "地理编号": "geoId/0506610",
+      "等级": "City",
+      "相关地理名称": "72414",
+      "相关地理ID": "zip/72414",
+      "相关级别": "CensusZipCodeTabulationArea",
+      "关系类型": "Overlaps"
+    },
+    {
+      "地理名称": "Census Tract 9506, Ouachita County, Arkansas",
+      "地理编号": "geoId/05103950600",
+      "等级": "CensusTract",
+      "相关地理名称": "Block Group 5; Census Tract 9506; Ouachita County; Arkansas",
+      "相关地理ID": "censusBlockGroup/051039506005",
+      "相关级别": "CensusBlockGroup",
+      "关系类型": "Contains"
+    },
+    {
+      "地理名称": "Census Tract 701, McDonald County, Missouri",
+      "地理编号": "geoId/29119070100",
+      "等级": "CensusTract",
+      "相关地理名称": "Block Group 2, Census Tract 701, McDonald County, Missouri",
+      "相关地理ID": "censusBlockGroup/291190701002",
+      "相关级别": "CensusBlockGroup",
+      "关系类型": "Contains"
+    },
+    {
+      "地理名称": "Illinois",
+      "地理编号": "geoId/17",
+      "等级": "State",
+      "相关地理名称": "Millstadt Township",
+      "相关地理ID": "geoId/1749399",
+      "相关级别": "City",
+      "关系类型": "Contains"
+    },
+    {
+      "地理名称": "Denton County",
+      "地理编号": "geoId/48121",
+      "等级": "County",
+      "相关地理名称": "Block Group 4, Census Tract 216.15, Denton County, Texas",
+      "相关地理ID": "censusBlockGroup/481210216154",
+      "相关级别": "CensusBlockGroup",
+      "关系类型": "Contains"
+    }
+  ],
+  "table_name": "GEOGRAPHY_RELATIONSHIPS",
+  "table_fullname": "US_REAL_ESTATE.CYBERSYN.GEOGRAPHY_RELATIONSHIPS",
+  "column_names": [
+    "相关地理名称",
+    "相关级别",
+    "相关地理ID",
+    "关系类型",
+    "地理编号",
+    "地理名称",
+    "等级"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "与GEO_NAME相关地点的名称。该地点与主要地理区域重叠或包含在其内（例如：州内的城市）",
+    "相关地点的地理层级或层次结构（例如：国家、州、省、市、大洲、国家子区域等）",
+    "与 GEOGRAPHY_INDEX 表可连接的相关地点的唯一标识符",
+    "两个地点之间的关系。Contains 表示 RELATED_GEO_ID 完全包含在 GEO_ID 内（例如州与城市的关系），而 Overlaps 表示 GEO_ID 是 RELATED_GEO_ID 的子部分（例如城市与州的关系）。",
+    "与 GEOGRAPHY_INDEX 表关联的地点唯一标识符",
+    "地点的全名",
+    "地理层级或层级结构（例如：国家、州、县、市、洲、国家子区域等）"
+  ]
+}
