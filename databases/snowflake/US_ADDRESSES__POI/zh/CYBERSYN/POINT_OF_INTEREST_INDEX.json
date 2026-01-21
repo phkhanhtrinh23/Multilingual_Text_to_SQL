@@ -1,0 +1,54 @@
+{
+  "sample_rows": [
+    {
+      "兴趣点编号": "08f2aad4446520ec03e1f001780831d4",
+      "兴趣点名称": "Bk Rentals",
+      "主分类": "Party Equipment Rental",
+      "备用类别": "[\n  \"Party Supply\",\n  \"Retail\"\n]"
+    },
+    {
+      "兴趣点编号": "08f44a112860108a03b33ba25948478f",
+      "兴趣点名称": "Amethyst Law Group",
+      "主分类": "Lawyer",
+      "备用类别": null
+    },
+    {
+      "兴趣点编号": "08f2986ab4d3447503b83560c1fe48ad",
+      "兴趣点名称": "Iglesia Cristiana Mi Refugio",
+      "主分类": "Church Cathedral",
+      "备用类别": "[\n  \"Religious Organization\"\n]"
+    },
+    {
+      "兴趣点编号": "08f2832b99aed21203072dc6cbb35c3b",
+      "兴趣点名称": "Jass Gardening",
+      "主分类": null,
+      "备用类别": null
+    },
+    {
+      "兴趣点编号": "08f2a33cd328310e0331f178e0caa82b",
+      "兴趣点名称": "Pampered By G",
+      "主分类": null,
+      "备用类别": null
+    }
+  ],
+  "table_name": "POINT_OF_INTEREST_INDEX",
+  "table_fullname": "US_ADDRESSES__POI.CYBERSYN.POINT_OF_INTEREST_INDEX",
+  "column_names": [
+    "主分类",
+    "兴趣点名称",
+    "备用类别",
+    "兴趣点编号"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "ARRAY",
+    "TEXT"
+  ],
+  "description": [
+    "POI的主要类别或分类",
+    "该POI的地点、商家或地标名称",
+    "POI 的备用类别。一个 POI 可能符合多种类别（例如：餐厅、汉堡餐厅、快餐餐厅），此时会将其中一个类别记录为 CATEGORY_MAIN，其余类别则以列表形式记录在 CATEGORY_ALTERNATE 下。",
+    "基于描述和位置的兴趣点（如公园、快餐连锁、酒店等）的唯一标识符。它可以与 POINT_OF_INTEREST_ADDRESSES_RELATIONSHIPS 表关联，用于将兴趣点链接到地址。"
+  ]
+}
