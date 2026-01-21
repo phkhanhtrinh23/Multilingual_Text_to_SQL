@@ -1,0 +1,78 @@
+{
+  "sample_rows": [
+    {
+      "地理编号": "zip/47578",
+      "变量": "Total_income_-_Amount,_AGI_bin:_$100,000_under_$200,000",
+      "变量名称": "Total income - Amount, AGI bin: $100,000 under $200,000",
+      "日期": "2018-12-31",
+      "值": 5096000.0,
+      "单位": "USD",
+      "已压制": false
+    },
+    {
+      "地理编号": "zip/88337",
+      "变量": "Total_taxes_paid_-_Number_of_returns,_AGI_bin:_$100,000_under_$200,000",
+      "变量名称": "Total taxes paid - Number of returns, AGI bin: $100,000 under $200,000",
+      "日期": "2011-12-31",
+      "值": 69.0,
+      "单位": "Returns",
+      "已压制": false
+    },
+    {
+      "地理编号": "zip/50167",
+      "变量": "Total_premium_tax_credit_-_Amount,_AGI_bin:_$100,000_under_$200,000",
+      "变量名称": "Total premium tax credit - Amount, AGI bin: $100,000 under $200,000",
+      "日期": "2017-12-31",
+      "值": 0.0,
+      "单位": "USD",
+      "已压制": false
+    },
+    {
+      "地理编号": "zip/50543",
+      "变量": "Taxable_income_-_Amount,_AGI_bin:_$200,000_or_more",
+      "变量名称": "Taxable income - Amount, AGI bin: $200,000 or more",
+      "日期": "2017-12-31",
+      "值": null,
+      "单位": "USD",
+      "已压制": true
+    },
+    {
+      "地理编号": "zip/50643",
+      "变量": "Child_tax_credit_-_Amount,_AGI_bin:_$75,000_under_$100,000",
+      "变量名称": "Child tax credit - Amount, AGI bin: $75,000 under $100,000",
+      "日期": "2017-12-31",
+      "值": 128000.0,
+      "单位": "USD",
+      "已压制": false
+    }
+  ],
+  "table_name": "IRS_INDIVIDUAL_INCOME_TIMESERIES",
+  "table_fullname": "US_REAL_ESTATE.CYBERSYN.IRS_INDIVIDUAL_INCOME_TIMESERIES",
+  "column_names": [
+    "已压制",
+    "日期",
+    "变量",
+    "变量名称",
+    "地理编号",
+    "单位",
+    "值"
+  ],
+  "column_types": [
+    "BOOLEAN",
+    "DATE",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "FLOAT"
+  ],
+  "description": [
+    "布尔值，用于指示该值是否已在基础数据中因隐私目的而被屏蔽。屏蔽的值显示为 NULL",
+    "该值对应的日期，对于个人收入邮政编码数据，它是所报告年份的最后一天。",
+    "可与属性表关联的变量唯一标识符",
+    "变量的人类可读名称",
+    "一个可与 geography_index/relationships 表关联的唯一地点标识符（州、县、邮政编码）",
+    "数值的计量单位，例如：USD、回报、个人、受抚养人",
+    "该变量的实际数值。被抑制的值为 Null。"
+  ]
+}
