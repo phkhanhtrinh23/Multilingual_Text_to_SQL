@@ -1,0 +1,86 @@
+{
+  "sample_rows": [
+    {
+      "地理编号": "padDistrict/04",
+      "出口商地理编号": null,
+      "进口商地理编号": null,
+      "变量": "refinery_and_blender_net_production_of_kerosene_mbbl_monthly",
+      "变量名": "Refinery and Blender Net Production of Kerosene, MBBL (Monthly)",
+      "日期": "2002-04-30",
+      "值": 10.0,
+      "单位": "MBBL"
+    },
+    {
+      "地理编号": "geoId/56",
+      "出口商地理编号": null,
+      "进口商地理编号": null,
+      "变量": "natural_gas_in_underground_storage_base_gas_mmcf_monthly",
+      "变量名": "Natural Gas in Underground Storage Base Gas, MMCF (Monthly)",
+      "日期": "1997-01-31",
+      "值": 60697.0,
+      "单位": "MMCF"
+    },
+    {
+      "地理编号": "padDistrict/02",
+      "出口商地理编号": null,
+      "进口商地理编号": null,
+      "变量": "refinery_net_production_of_paraffinic_lubricants_mbbl_per_day_monthly",
+      "变量名": "Refinery Net Production of Paraffinic Lubricants, MBBL per day (Monthly)",
+      "日期": "2002-10-31",
+      "值": 13.0,
+      "单位": "MBBL per day"
+    },
+    {
+      "地理编号": "padDistrict/05",
+      "出口商地理编号": null,
+      "进口商地理编号": null,
+      "变量": "imports_of_reformulated_rbob_with_alcohol_gasoline_blending_components_mbbl_per_day_weekly",
+      "变量名": "Imports of Reformulated RBOB with Alcohol Gasoline Blending Components, MBBL per day (Weekly)",
+      "日期": "2008-12-26",
+      "值": 0.0,
+      "单位": "MBBL per day"
+    },
+    {
+      "地理编号": "geoId/37",
+      "出口商地理编号": null,
+      "进口商地理编号": null,
+      "变量": "natural_gas_delivered_to_consumers_mmcf_monthly",
+      "变量名": "Natural Gas Delivered to Consumers, MMCF (Monthly)",
+      "日期": "2021-10-31",
+      "值": 46759.0,
+      "单位": "MMCF"
+    }
+  ],
+  "table_name": "EIA_ENERGY_TIMESERIES",
+  "table_fullname": "WEATHER__ENVIRONMENT.CYBERSYN.EIA_ENERGY_TIMESERIES",
+  "column_names": [
+    "变量名",
+    "单位",
+    "进口商地理编号",
+    "出口商地理编号",
+    "值",
+    "变量",
+    "日期",
+    "地理编号"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "FLOAT",
+    "TEXT",
+    "DATE",
+    "TEXT"
+  ],
+  "description": [
+    "变量的可读唯一名称。",
+    "报告值的计量单位。",
+    "自然资源进口商的唯一标识符。可与其他地理表连接，包括 GEOGRAPHY_INDEX、GEOGRAPHY_RELATIONSHIPS 和 GEOGRAPHY_CHARACTERISTICS。",
+    "自然资源出口商的唯一标识符。可与其他地理表关联，包括 GEOGRAPHY_INDEX、GEOGRAPHY_RELATIONSHIPS 和 GEOGRAPHY_CHARACTERISTICS。",
+    "变量的报告值",
+    "变量的唯一标识符，可与时间序列表关联。",
+    "与该值关联的日期。",
+    "一个地点的唯一标识符。可与其他地理表连接，包括 GEOGRAPHY_INDEX、GEOGRAPHY_RELATIONSHIPS 和 GEOGRAPHY_CHARACTERISTICS。"
+  ]
+}
