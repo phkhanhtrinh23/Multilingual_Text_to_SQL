@@ -1,0 +1,62 @@
+{
+  "sample_rows": [
+    {
+      "兴趣点ID": "08f269606d84474b0383b1e7e8c016f0",
+      "地址ID": "addressId/98b58eaa8ec6d4166d2e181b221bdc78",
+      "关系类型": "Overlaps",
+      "关系开始日期": null,
+      "关系结束日期": null
+    },
+    {
+      "兴趣点ID": "08f268cda876e7840399de7cbe47424a",
+      "地址ID": "addressId/b68bf965318c97738ef54e952fdb7d3e",
+      "关系类型": "Overlaps",
+      "关系开始日期": null,
+      "关系结束日期": null
+    },
+    {
+      "兴趣点ID": "08f283409da358d9038afebdd8a48370",
+      "地址ID": "addressId/cfe743ff143eb73171361acd2c67b640",
+      "关系类型": "Overlaps",
+      "关系开始日期": null,
+      "关系结束日期": null
+    },
+    {
+      "兴趣点ID": "08f44ac08654024c03d93bb8f3f122fd",
+      "地址ID": "addressId/f7b067ec19a8c4e0d252a3534be6c2cd",
+      "关系类型": "Overlaps",
+      "关系开始日期": null,
+      "关系结束日期": null
+    },
+    {
+      "兴趣点ID": "08f4413390635c1903c4104e6338a78f",
+      "地址ID": "addressId/24274acb391d5356cf97a99ee9da08bb",
+      "关系类型": "Overlaps",
+      "关系开始日期": null,
+      "关系结束日期": null
+    }
+  ],
+  "table_name": "POINT_OF_INTEREST_ADDRESSES_RELATIONSHIPS",
+  "table_fullname": "US_ADDRESSES__POI.CYBERSYN.POINT_OF_INTEREST_ADDRESSES_RELATIONSHIPS",
+  "column_names": [
+    "兴趣点ID",
+    "关系类型",
+    "关系开始日期",
+    "关系结束日期",
+    "地址ID"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "DATE",
+    "DATE",
+    "TEXT"
+  ],
+  "description": [
+    "基于描述和位置的兴趣点（如公园、快餐连锁店分店、酒店等）的唯一标识符。它可与 point_of_interest_index 表关联。",
+    "两者之间的关系。我们使用“Overlaps”来表示 POI_ID 是 ADDRESS_ID 的子部分（例如，公寓与公寓楼的关系，因为同一地址可能有多个兴趣点，尤其是当数据缺乏准确的单元信息时）。",
+    "该关系的起始日期。例如，如果某个 POI_ID 对应地点的 NAME 在 2023-04-01 发生更改，则将该关系的起始日期设为 2023-04-01。然而，目前该列中的所有值都是 NULL，因为它只包含最近的属性，没有历史变更。",
+    "该关系生效的日期。例如，如果在给定的 POI_ID 上地点的 NAME 在 2023-04-01 发生更改，则该 POI_ID 的 NAME 关系结束日期设置为 2023-03-31。然而，目前该列中的所有值均为 NULL，因为它仅包含最新特征而没有历史更改。",
+    "一个基于街道地址的唯一标识符，可与 us_addresses 表关联。"
+  ]
+}

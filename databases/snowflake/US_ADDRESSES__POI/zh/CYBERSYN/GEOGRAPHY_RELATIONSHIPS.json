@@ -1,0 +1,78 @@
+{
+  "sample_rows": [
+    {
+      "地理名称": "35300541",
+      "地理编号": "statcanId/S051235300541",
+      "级别": "DisseminationArea",
+      "相关地理名称": "Northern America",
+      "相关地理ID": "countrySubRegion/021",
+      "相关级别": "CountrySubRegion",
+      "关系类型": "Overlaps"
+    },
+    {
+      "地理名称": "47878",
+      "地理编号": "zip/47878",
+      "级别": "CensusZipCodeTabulationArea",
+      "相关地理名称": "Northern America",
+      "相关地理ID": "countrySubRegion/021",
+      "相关级别": "CountrySubRegion",
+      "关系类型": "Overlaps"
+    },
+    {
+      "地理名称": "48139",
+      "地理编号": "zip/48139",
+      "级别": "CensusZipCodeTabulationArea",
+      "相关地理名称": "United States",
+      "相关地理ID": "country/USA",
+      "相关级别": "Country",
+      "关系类型": "Overlaps"
+    },
+    {
+      "地理名称": "Massachusetts",
+      "地理编号": "geoId/25",
+      "级别": "State",
+      "相关地理名称": "Block Group 5, Census Tract 3703, Middlesex County, Massachusetts",
+      "相关地理ID": "censusBlockGroup/250173703005",
+      "相关级别": "CensusBlockGroup",
+      "关系类型": "Contains"
+    },
+    {
+      "地理名称": "West Virginia",
+      "地理编号": "geoId/54",
+      "级别": "State",
+      "相关地理名称": "26040",
+      "相关地理ID": "zip/26040",
+      "相关级别": "CensusZipCodeTabulationArea",
+      "关系类型": "Contains"
+    }
+  ],
+  "table_name": "GEOGRAPHY_RELATIONSHIPS",
+  "table_fullname": "US_ADDRESSES__POI.CYBERSYN.GEOGRAPHY_RELATIONSHIPS",
+  "column_names": [
+    "相关地理名称",
+    "相关地理ID",
+    "相关级别",
+    "关系类型",
+    "地理编号",
+    "地理名称",
+    "级别"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "与 GEO_NAME 相关的地点名称。该地点与主要地理区域重叠或被其包含（例如州内的城市）。",
+    "用于与 GEOGRAPHY_INDEX 表关联的相关地点的唯一标识符",
+    "与相关地点的地理层级或层次结构（例如：国家、州、县、市、洲、国家子区域等）",
+    "两个地方之间的关系。包含表示 RELATED_GEO_ID 完全包含在 GEO_ID 内（例如州与城市的关系），而重叠表示 GEO_ID 是 RELATED_GEO_ID 的子部分（例如城市与州的关系）",
+    "一个可与 GEOGRAPHY_INDEX 表关联的地点唯一标识符",
+    "地点的全名",
+    "地理层级或层级结构（例如：国家、州、县、市、大洲、国家子区域等）"
+  ]
+}
