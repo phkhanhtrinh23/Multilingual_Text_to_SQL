@@ -1,0 +1,78 @@
+{
+  "sample_rows": [
+    {
+      "NOAA气象站编号": "US1ALSH0043",
+      "变量": "precipitation",
+      "变量名称": "Precipitation",
+      "日期": "2012-09-10",
+      "日期时间": "2012-09-10 00:00:00",
+      "价值": "0.000000",
+      "单位": "Millimeters"
+    },
+    {
+      "NOAA气象站编号": "USW00094994",
+      "变量": "precipitation",
+      "变量名称": "Precipitation",
+      "日期": "2023-04-03",
+      "日期时间": "2023-04-03 00:00:00",
+      "价值": "0.800000",
+      "单位": "Millimeters"
+    },
+    {
+      "NOAA气象站编号": "USS0011C01S",
+      "变量": "minimum_temperature",
+      "变量名称": "Minimum Temperature",
+      "日期": "2008-11-28",
+      "日期时间": "2008-11-28 00:00:00",
+      "价值": "-5.100000",
+      "单位": "Degrees Celsius"
+    },
+    {
+      "NOAA气象站编号": "RSM00028275",
+      "变量": "snow_depth",
+      "变量名称": "Snow Depth",
+      "日期": "2004-03-25",
+      "日期时间": "2004-03-25 00:00:00",
+      "价值": "351.000000",
+      "单位": "Millimeters"
+    },
+    {
+      "NOAA气象站编号": "USW00093720",
+      "变量": "direction_of_fastest_2_minute_wind",
+      "变量名称": "Direction of Fastest 2-Minute Wind",
+      "日期": "2011-04-20",
+      "日期时间": "2011-04-20 00:00:00",
+      "价值": "210.000000",
+      "单位": "Degrees"
+    }
+  ],
+  "table_name": "NOAA_WEATHER_METRICS_TIMESERIES",
+  "table_fullname": "WEATHER__ENVIRONMENT.CYBERSYN.NOAA_WEATHER_METRICS_TIMESERIES",
+  "column_names": [
+    "变量",
+    "价值",
+    "NOAA气象站编号",
+    "日期",
+    "日期时间",
+    "单位",
+    "变量名称"
+  ],
+  "column_types": [
+    "TEXT",
+    "NUMBER",
+    "TEXT",
+    "DATE",
+    "TIMESTAMP_NTZ",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "用于与时间序列表关联的唯一变量标识符。",
+    "变量的报告值",
+    "全球历史气候网络日数据集（GHCNd）中土地表面天气站的唯一标识符，由 FIPS 国家代码（前两个字符）、网络代码（第三个字符）以及实际站点 ID（剩余的八个字符）组成。",
+    "与该值关联的日期",
+    "与该值相关的日期时间",
+    "报告值的计量单位",
+    "变量的可读名称"
+  ]
+}
