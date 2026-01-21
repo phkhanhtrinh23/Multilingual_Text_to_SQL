@@ -1,0 +1,70 @@
+{
+  "sample_rows": [
+    {
+      "地理ID": "country/USA",
+      "变量": "FRM_30_YR",
+      "变量名称": "30-Year Fixed Rate Mortgage Rate, National Average",
+      "日期": "2024-08-29",
+      "价值": 0.0635,
+      "单位": "Percent"
+    },
+    {
+      "地理ID": "geoId/31",
+      "变量": "INDEX_SA",
+      "变量名称": "Freddie Mac House Price Index (Seasonally adjusted)",
+      "日期": "2020-07-31",
+      "价值": 172.7589483,
+      "单位": "Index"
+    },
+    {
+      "地理ID": "geoId/32",
+      "变量": "INDEX_NSA",
+      "变量名称": "Freddie Mac House Price Index (Not seasonally adjusted)",
+      "日期": "1976-09-30",
+      "价值": 31.93893565,
+      "单位": "Index"
+    },
+    {
+      "地理ID": "geoId/10",
+      "变量": "INDEX_SA",
+      "变量名称": "Freddie Mac House Price Index (Seasonally adjusted)",
+      "日期": "1996-08-31",
+      "价值": 83.36771622,
+      "单位": "Index"
+    },
+    {
+      "地理ID": "geoId/25",
+      "变量": "INDEX_NSA",
+      "变量名称": "Freddie Mac House Price Index (Not seasonally adjusted)",
+      "日期": "2021-05-31",
+      "价值": 225.5959953,
+      "单位": "Index"
+    }
+  ],
+  "table_name": "FREDDIE_MAC_HOUSING_TIMESERIES",
+  "table_fullname": "US_REAL_ESTATE.CYBERSYN.FREDDIE_MAC_HOUSING_TIMESERIES",
+  "column_names": [
+    "价值",
+    "变量名称",
+    "日期",
+    "地理ID",
+    "单位",
+    "变量"
+  ],
+  "column_types": [
+    "FLOAT",
+    "TEXT",
+    "DATE",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "变量报告的值。",
+    "变量的人类可读唯一名称",
+    "与该值相关的日期。",
+    "地点的唯一标识符。可与其他地理表关联，包括 GEOGRAPHY_INDEX、GEOGRAPHY_RELATIONSHIPS 和 GEOGRAPHY_CHARACTERISTICS。",
+    "报告值的计量单位.",
+    "变量的唯一标识符，可与时间序列表关联。"
+  ]
+}
