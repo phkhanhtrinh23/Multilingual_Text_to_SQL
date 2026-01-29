@@ -1,0 +1,110 @@
+{
+  "sample_rows": [
+    {
+      "后继者ID": 3076453,
+      "继任者姓名": "California Bank of Commerce, National Association",
+      "现任继任者": true,
+      "类别后继者": "Bank",
+      "ID_RSSD_前驱": 3302312,
+      "前任姓名": "Bank of Santa Clarita",
+      "活跃前置": true,
+      "前置类别": "Branch",
+      "交易日期": "2021-10-02",
+      "变换类型": "Charter Discontinued",
+      "合并会计方法采用": "Purchase/Acquisition"
+    },
+    {
+      "后继者ID": 139656,
+      "继任者姓名": "Equity Bank",
+      "现任继任者": true,
+      "类别后继者": "Bank",
+      "ID_RSSD_前驱": 422059,
+      "前任姓名": "KansasLand Bank",
+      "活跃前置": false,
+      "前置类别": "Branch",
+      "交易日期": "2024-07-02",
+      "变换类型": "Charter Discontinued",
+      "合并会计方法采用": "Purchase/Acquisition"
+    },
+    {
+      "后继者ID": 3076453,
+      "继任者姓名": "California Bank of Commerce, National Association",
+      "现任继任者": true,
+      "类别后继者": "Bank",
+      "ID_RSSD_前驱": 2704740,
+      "前任姓名": "Frontier Bank, FSB",
+      "活跃前置": false,
+      "前置类别": "Bank",
+      "交易日期": "2014-11-08",
+      "变换类型": "Failure",
+      "合并会计方法采用": null
+    },
+    {
+      "后继者ID": 213248,
+      "继任者姓名": "Firstar Bank Council Bluffs",
+      "现任继任者": false,
+      "类别后继者": "Branch",
+      "ID_RSSD_前驱": 467649,
+      "前任姓名": "Firstar Bank Red Oak, National Association",
+      "活跃前置": false,
+      "前置类别": "Branch",
+      "交易日期": "1995-08-28",
+      "变换类型": "Charter Discontinued",
+      "合并会计方法采用": "Pooling of interests or entities under common control."
+    },
+    {
+      "后继者ID": 363835,
+      "继任者姓名": "First of America Bank-Illinois, National Association",
+      "现任继任者": false,
+      "类别后继者": "Branch",
+      "ID_RSSD_前驱": 794130,
+      "前任姓名": "First of America Bank - Grayslake, National Association",
+      "活跃前置": false,
+      "前置类别": "Branch",
+      "交易日期": "1989-06-04",
+      "变换类型": "Charter Discontinued",
+      "合并会计方法采用": null
+    }
+  ],
+  "table_name": "FINANCIAL_INSTITUTION_EVENTS",
+  "table_fullname": "FINANCE__ECONOMICS.CYBERSYN.FINANCIAL_INSTITUTION_EVENTS",
+  "column_names": [
+    "继任者姓名",
+    "变换类型",
+    "类别后继者",
+    "前置类别",
+    "前任姓名",
+    "合并会计方法采用",
+    "现任继任者",
+    "ID_RSSD_前驱",
+    "交易日期",
+    "后继者ID",
+    "活跃前置"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "BOOLEAN",
+    "NUMBER",
+    "DATE",
+    "NUMBER",
+    "BOOLEAN"
+  ],
+  "description": [
+    "继任实体的名称",
+    "转变描述",
+    "后继实体法律结构的高级类别",
+    "前身实体法律结构的高级分类",
+    "前身实体名称",
+    "用于解决非失败合并的会计方法",
+    "指示后继是否活跃的标志",
+    "与实体表关联的前置实体唯一标识符",
+    "交易日期",
+    "与 entities 表关联的后继实体的唯一标识符",
+    "指示前身是否激活的标记"
+  ]
+}
