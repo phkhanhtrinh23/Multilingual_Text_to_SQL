@@ -1,0 +1,78 @@
+{
+  "sample_rows": [
+    {
+      "地理编号": "geoId/C41740",
+      "变量": "Annual_%_of_Appraisals_Above_Contract_Price_Ratio_of_Tract_Med._Inc._to_MSA_Med._Inc._Purchase_Missing",
+      "变量名": "Annual % of Appraisals Above Contract Price Ratio of Tract Med. Inc. to MSA Med. Inc. Purchase Missing",
+      "日期": "2015-12-31",
+      "价值": 0.51,
+      "单位": "Percent",
+      "已压制": false
+    },
+    {
+      "地理编号": "geoId/M19804",
+      "变量": "Quarterly_25%_Quartile_of_Appraised_Value_Year_Built_Purchase_1980_to_1989",
+      "变量名": "Quarterly 25% Quartile of Appraised Value Year Built Purchase 1980 to 1989",
+      "日期": "2023-12-31",
+      "价值": 264000.0,
+      "单位": "USD",
+      "已压制": false
+    },
+    {
+      "地理编号": "geoId/C36540",
+      "变量": "Annual_Mean_Comps_Adjustment_Percent_Effective_Age_Purchase_&_Refinance_6_to_10_years",
+      "变量名": "Annual Mean Comps Adjustment Percent Effective Age Purchase & Refinance 6 to 10 years",
+      "日期": "2023-12-31",
+      "价值": 0.004,
+      "单位": "Percent",
+      "已压制": false
+    },
+    {
+      "地理编号": "geoId/39153502101",
+      "变量": "Annual_25%_Quartile_of_Appraised_Value_Refinance_All_Appraisals",
+      "变量名": "Annual 25% Quartile of Appraised Value Refinance All Appraisals",
+      "日期": "2021-12-31",
+      "价值": 95500.0,
+      "单位": "USD",
+      "已压制": false
+    },
+    {
+      "地理编号": "geoId/M33874",
+      "变量": "Quarterly_Mean_Distance_to_Comps_Number_of_Rooms_Above_Grade_Refinance_7_Rooms",
+      "变量名": "Quarterly Mean Distance to Comps Number of Rooms Above Grade Refinance 7 Rooms",
+      "日期": "2021-03-31",
+      "价值": 0.83,
+      "单位": "Miles",
+      "已压制": false
+    }
+  ],
+  "table_name": "FHFA_UNIFORM_APPRAISAL_TIMESERIES",
+  "table_fullname": "FINANCE__ECONOMICS.CYBERSYN.FHFA_UNIFORM_APPRAISAL_TIMESERIES",
+  "column_names": [
+    "单位",
+    "变量名",
+    "变量",
+    "地理编号",
+    "已压制",
+    "日期",
+    "价值"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "BOOLEAN",
+    "DATE",
+    "FLOAT"
+  ],
+  "description": [
+    "变量的计量单位（例如：计数、百分比、比率、美元）",
+    "变量的人类可读描述",
+    "用于过滤的、可与属性表关联的变量的唯一标识符",
+    "一个可与 geography_index/relationships 表关联的唯一地理标识符",
+    "布尔值，表示该值是否已在底层数据中被抑制以保护隐私。被抑制的值将显示为 NULL。",
+    "与该值关联的日期",
+    "该变量和日期的报告数值"
+  ]
+}
