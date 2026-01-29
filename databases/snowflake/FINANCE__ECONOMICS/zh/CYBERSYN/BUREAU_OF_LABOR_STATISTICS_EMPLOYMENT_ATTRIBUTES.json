@@ -1,0 +1,94 @@
+{
+  "sample_rows": [
+    {
+      "变量": "JOLTS:_Quits,_Total_private,_1_to_9_employees,_Not_seasonally_adjusted,_Monthly,_Level",
+      "变量名称": "JOLTS: Quits, Total private, 1 to 9 employees, Not seasonally adjusted, Monthly, Level",
+      "季节性调整": false,
+      "频率": "Monthly",
+      "单位": "Level",
+      "报告": "JOLTS",
+      "测量": "Quits",
+      "行业": "Total private",
+      "机构规模": "1 to 9 employees"
+    },
+    {
+      "变量": "JOLTS:_Quits,_Arts,_entertainment,_and_recreation,_All_size_classes,_Not_seasonally_adjusted,_Annual,_Percent",
+      "变量名称": "JOLTS: Quits, Arts, entertainment, and recreation, All size classes, Not seasonally adjusted, Annual, Percent",
+      "季节性调整": false,
+      "频率": "Annual",
+      "单位": "Percent",
+      "报告": "JOLTS",
+      "测量": "Quits",
+      "行业": "Arts, entertainment, and recreation",
+      "机构规模": "All size classes"
+    },
+    {
+      "变量": "JOLTS:_Quits,_Total_private,_All_size_classes,_Not_seasonally_adjusted,_Monthly,_Percent",
+      "变量名称": "JOLTS: Quits, Total private, All size classes, Not seasonally adjusted, Monthly, Percent",
+      "季节性调整": false,
+      "频率": "Monthly",
+      "单位": "Percent",
+      "报告": "JOLTS",
+      "测量": "Quits",
+      "行业": "Total private",
+      "机构规模": "All size classes"
+    },
+    {
+      "变量": "JOLTS:_Job_openings,_Leisure_and_hospitality,_All_size_classes,_Seasonally_adjusted,_Monthly,_Percent",
+      "变量名称": "JOLTS: Job openings, Leisure and hospitality, All size classes, Seasonally adjusted, Monthly, Percent",
+      "季节性调整": true,
+      "频率": "Monthly",
+      "单位": "Percent",
+      "报告": "JOLTS",
+      "测量": "Job openings",
+      "行业": "Leisure and hospitality",
+      "机构规模": "All size classes"
+    },
+    {
+      "变量": "JOLTS:_Quits,_Education_and_health_services,_All_size_classes,_Seasonally_adjusted,_Monthly,_Percent",
+      "变量名称": "JOLTS: Quits, Education and health services, All size classes, Seasonally adjusted, Monthly, Percent",
+      "季节性调整": true,
+      "频率": "Monthly",
+      "单位": "Percent",
+      "报告": "JOLTS",
+      "测量": "Quits",
+      "行业": "Education and health services",
+      "机构规模": "All size classes"
+    }
+  ],
+  "table_name": "BUREAU_OF_LABOR_STATISTICS_EMPLOYMENT_ATTRIBUTES",
+  "table_fullname": "FINANCE__ECONOMICS.CYBERSYN.BUREAU_OF_LABOR_STATISTICS_EMPLOYMENT_ATTRIBUTES",
+  "column_names": [
+    "测量",
+    "行业",
+    "季节性调整",
+    "变量名称",
+    "报告",
+    "单位",
+    "机构规模",
+    "频率",
+    "变量"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "BOOLEAN",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "时间序列所提供统计类型的描述",
+    "时间序列的行业或子行业",
+    "布尔变量，表示值是否已季节性调整",
+    "变量的人类可读名称",
+    "BLS 数据集中的时间序列来源于",
+    "值的计量单位",
+    "提供变量的机构规模",
+    "变量测量的频率",
+    "用于可与时间序列表关联的变量的唯一标识符"
+  ]
+}
