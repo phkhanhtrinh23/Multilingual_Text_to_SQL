@@ -1,0 +1,110 @@
+{
+  "sample_rows": [
+    {
+      "公司编号": "9cee45c58a4fdb6bb265552a0db62a00",
+      "公司名称": "VENDERA RESOURCES VI-A LP",
+      "实体级别": "Corporate",
+      "雇主识别号": null,
+      "CIK 编号": "0002011467",
+      "法律实体识别码": null,
+      "公司永久编号": "5087020389",
+      "主股票代码": null,
+      "主交易所代码": null,
+      "主交易所名称": null,
+      "全球股票代码": null
+    },
+    {
+      "公司编号": "7766ef904f8648e8b8ac520b7267d5b5",
+      "公司名称": "RT-AI I LLC",
+      "实体级别": "Corporate",
+      "雇主识别号": null,
+      "CIK 编号": "0002018929",
+      "法律实体识别码": null,
+      "公司永久编号": "5087193531",
+      "主股票代码": null,
+      "主交易所代码": null,
+      "主交易所名称": null,
+      "全球股票代码": null
+    },
+    {
+      "公司编号": "bfd8994995275e9917290bc423536fd6",
+      "公司名称": "PANTHEON GLOBAL SECONDARY FUND III B L P",
+      "实体级别": "Corporate",
+      "雇主识别号": null,
+      "CIK 编号": "0001371639",
+      "法律实体识别码": null,
+      "公司永久编号": "4297623383",
+      "主股票代码": null,
+      "主交易所代码": null,
+      "主交易所名称": null,
+      "全球股票代码": null
+    },
+    {
+      "公司编号": "878d19cbba19e94e8645afbabd4a14c2",
+      "公司名称": "SCI NEW CAP WEST",
+      "实体级别": "Corporate",
+      "雇主识别号": null,
+      "CIK 编号": null,
+      "法律实体识别码": null,
+      "公司永久编号": "5057843478",
+      "主股票代码": null,
+      "主交易所代码": null,
+      "主交易所名称": null,
+      "全球股票代码": null
+    },
+    {
+      "公司编号": "fcff55343666f5399f3e288f4c38c46b",
+      "公司名称": "MADCAP MOTEL LOS ANGELES LLC",
+      "实体级别": "Corporate",
+      "雇主识别号": null,
+      "CIK 编号": "0001766936",
+      "法律实体识别码": null,
+      "公司永久编号": "5067944874",
+      "主股票代码": null,
+      "主交易所代码": null,
+      "主交易所名称": null,
+      "全球股票代码": null
+    }
+  ],
+  "table_name": "COMPANY_INDEX",
+  "table_fullname": "FINANCE__ECONOMICS.CYBERSYN.COMPANY_INDEX",
+  "column_names": [
+    "主交易所名称",
+    "主股票代码",
+    "实体级别",
+    "公司永久编号",
+    "法律实体识别码",
+    "公司编号",
+    "雇主识别号",
+    "主交易所代码",
+    "全球股票代码",
+    "公司名称",
+    "CIK 编号"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "ARRAY",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "ARRAY",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "证券主要交易场所的交易所名称",
+    "证券主要交易场所的代码。如果证券在多个交易所交易或拥有多个代码，则尝试选择本土市场的代码。",
+    "描述实体的类型或级别以增加便利。目前，所有实体均为公司实体，标记为“Corporate”。",
+    "永久标识符（Permanent Identifier），是Refinitiv（通过PermID）提供的一种标识符，用于唯一识别一家公司。",
+    "法律实体识别码（Legal Entity Identifier，简称LEI），由GLEIF发放的唯一识别码，用于识别参与金融交易的法律实体。",
+    "Cybersyn为每家公司分配的唯一标识符。",
+    "雇主识别号（Employer Identification Number，EIN）是美国国税局（IRS）分配给企业的唯一识别号码。",
+    "证券主要交易场所的交易所代码",
+    "证券可在全球所有交易所以一系列股票代码进行交易。",
+    "公司的名称。",
+    "Central Index Key（中央索引键），是美国证券交易委员会（SEC）注册公司的唯一识别码。"
+  ]
+}
