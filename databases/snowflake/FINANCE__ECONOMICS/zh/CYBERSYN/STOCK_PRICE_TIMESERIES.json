@@ -1,0 +1,86 @@
+{
+  "sample_rows": [
+    {
+      "股票代码": "FAMI",
+      "资产类别": "Common Shares",
+      "主交易所代码": "NAS",
+      "主交易所名称": "NASDAQ CAPITAL MARKET",
+      "变量": "all-day_high",
+      "变量名": "All-Day High",
+      "日期": "2022-08-08",
+      "值": 1.19
+    },
+    {
+      "股票代码": "TIPT",
+      "资产类别": "Equity",
+      "主交易所代码": "NAS",
+      "主交易所名称": "NASDAQ CAPITAL MARKET",
+      "变量": "nasdaq_volume",
+      "变量名": "Nasdaq Volume",
+      "日期": "2023-02-16",
+      "值": 17249.0
+    },
+    {
+      "股票代码": "BLK",
+      "资产类别": "Equity",
+      "主交易所代码": "NYS",
+      "主交易所名称": "NEW YORK STOCK EXCHANGE",
+      "变量": "post-market_close",
+      "变量名": "Post-Market Close",
+      "日期": "2021-04-26",
+      "值": 817.51
+    },
+    {
+      "股票代码": "BRN",
+      "资产类别": "Equity",
+      "主交易所代码": "ASE",
+      "主交易所名称": "NYSE MKT LLC",
+      "变量": "nasdaq_volume",
+      "变量名": "Nasdaq Volume",
+      "日期": "2018-09-18",
+      "值": 2028.0
+    },
+    {
+      "股票代码": "XLP",
+      "资产类别": "ETF-Index Fund Shares",
+      "主交易所代码": "PSE",
+      "主交易所名称": "NYSE ARCA",
+      "变量": "nasdaq_volume",
+      "变量名": "Nasdaq Volume",
+      "日期": "2023-11-16",
+      "值": 2373734.0
+    }
+  ],
+  "table_name": "STOCK_PRICE_TIMESERIES",
+  "table_fullname": "FINANCE__ECONOMICS.CYBERSYN.STOCK_PRICE_TIMESERIES",
+  "column_names": [
+    "主交易所名称",
+    "资产类别",
+    "值",
+    "主交易所代码",
+    "变量",
+    "日期",
+    "变量名",
+    "股票代码"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "FLOAT",
+    "TEXT",
+    "TEXT",
+    "DATE",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "证券主要交易场所的交易所名称",
+    "安全类型",
+    "变量的报告值。",
+    "证券主要交易场所的交易所代码",
+    "变量的唯一标识符，可与时间序列表关联。",
+    "与该值相关的日期。",
+    "变量的可读唯一名称",
+    "代表NASDAQ交易所上市的特定公开交易证券的字母数字代码。"
+  ]
+}
