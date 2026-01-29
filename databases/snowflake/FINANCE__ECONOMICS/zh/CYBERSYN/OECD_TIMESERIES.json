@@ -1,0 +1,70 @@
+{
+  "sample_rows": [
+    {
+      "地理ID": "country/CAN",
+      "变量": "BAL_OF_PAY_D_IN2_USD_EXC__Z_Q_N",
+      "变量名": "Balance of payments to rest of the world: expenditure from secondary income in US dollars, exchange rate converted, Quarterly",
+      "日期": "2007-03-31",
+      "价值": 3361249000.0,
+      "单位": "USD"
+    },
+    {
+      "地理ID": "country/LTU",
+      "变量": "BAL_OF_PAY_C_NP_XDC_EUR_Q_N",
+      "变量名": "Balance of payments to rest of the world: revenue from gross acquisitions / disposals of nonproduced nonfinancial assets in Euro, Quarterly",
+      "日期": "2011-03-31",
+      "价值": 0.0,
+      "单位": "EUR"
+    },
+    {
+      "地理ID": "country/EST",
+      "变量": "CLI_H_CCICP__Z_IX__Z_IX_M_AA",
+      "变量名": "OECD harmonised Composite Consumer Confidence, Index, Monthly (Amplitude adjusted)",
+      "日期": "2012-06-30",
+      "价值": 98.93938,
+      "单位": "Index"
+    },
+    {
+      "地理ID": "country/GBR",
+      "变量": "CLI_H_BCICP__Z_IX__Z_IX_M_AA",
+      "变量名": "OECD harmonised Composite Business Confidence, Index, Monthly (Amplitude adjusted)",
+      "日期": "1991-03-31",
+      "价值": 94.93137,
+      "单位": "Index"
+    },
+    {
+      "地理ID": "country/KOR",
+      "变量": "BAL_OF_PAY_C_IN2_USD_EXC__Z_M_Y",
+      "变量名": "Balance of payments to rest of the world: revenue from secondary income in US dollars, exchange rate converted, Monthly (Calendar and seasonally adjusted)",
+      "日期": "1999-06-30",
+      "价值": 333100000.0,
+      "单位": "USD"
+    }
+  ],
+  "table_name": "OECD_TIMESERIES",
+  "table_fullname": "FINANCE__ECONOMICS.CYBERSYN.OECD_TIMESERIES",
+  "column_names": [
+    "价值",
+    "变量名",
+    "单位",
+    "地理ID",
+    "变量",
+    "日期"
+  ],
+  "column_types": [
+    "FLOAT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "DATE"
+  ],
+  "description": [
+    "报告的变量值",
+    "变量的可读唯一名称",
+    "报告值的计量单位",
+    "一个地点的唯一标识符。可与其他地理表连接，包括 GEOGRAPHY_INDEX、GEOGRAPHY_RELATIONSHIPS 和 GEOGRAPHY_CHARACTERISTICS。",
+    "变量的唯一标识符，可与时间序列表关联。",
+    "与该值相关联的日期。"
+  ]
+}
