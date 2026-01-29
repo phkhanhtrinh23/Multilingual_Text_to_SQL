@@ -1,0 +1,62 @@
+{
+  "sample_rows": [
+    {
+      "地理编号": "censusRegion/03",
+      "变量": "Average_Price:_All_Ham_(Excluding_Canned_Ham_and_Luncheon_Slices),_per_lb._(453.6_gm)",
+      "变量名": "Average Price: All Ham (Excluding Canned Ham and Luncheon Slices), per lb. (453.6 gm)",
+      "值": 2.093,
+      "日期": "2001-06-30"
+    },
+    {
+      "地理编号": "censusRegion/01",
+      "变量": "Average_Price:_American_processed_cheese,_per_lb._(453.6_gm)",
+      "变量名": "Average Price: American processed cheese, per lb. (453.6 gm)",
+      "值": 4.556,
+      "日期": "2007-08-31"
+    },
+    {
+      "地理编号": "censusDivision/05",
+      "变量": "CPI:_Services_less_rent_of_shelter,_Not_seasonally_adjusted,_Semi-annual,_2017-12_Index_Date",
+      "变量名": "CPI: Services less rent of shelter, Not seasonally adjusted, Semi-annual, 2017-12 Index Date",
+      "值": 126.853,
+      "日期": "2024-06-30"
+    },
+    {
+      "地理编号": "geoId/C42660",
+      "变量": "CPI:_All_items_less_energy,_Not_seasonally_adjusted,_Semi-annual",
+      "变量名": "CPI: All items less energy, Not seasonally adjusted, Semi-annual",
+      "值": 153.3,
+      "日期": "1994-12-31"
+    },
+    {
+      "地理编号": "censusRegion/03",
+      "变量": "CPI:_Gasoline,_unleaded_regular,_Not_seasonally_adjusted,_Monthly",
+      "变量名": "CPI: Gasoline, unleaded regular, Not seasonally adjusted, Monthly",
+      "值": 98.0,
+      "日期": "1990-08-31"
+    }
+  ],
+  "table_name": "BUREAU_OF_LABOR_STATISTICS_PRICE_TIMESERIES",
+  "table_fullname": "FINANCE__ECONOMICS.CYBERSYN.BUREAU_OF_LABOR_STATISTICS_PRICE_TIMESERIES",
+  "column_names": [
+    "地理编号",
+    "值",
+    "变量",
+    "变量名",
+    "日期"
+  ],
+  "column_types": [
+    "TEXT",
+    "FLOAT",
+    "TEXT",
+    "TEXT",
+    "DATE"
+  ],
+  "description": [
+    "用于标识地点的唯一标识符，可与 geography_index/relationships 表关联",
+    "度量值",
+    "可与属性表关联的唯一标识符",
+    "变量的可读名称",
+    "与该值相关联的日期，该日期设置为报告期的最后一天"
+  ]
+}
