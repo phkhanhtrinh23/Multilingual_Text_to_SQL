@@ -1,0 +1,78 @@
+{
+  "sample_rows": [
+    {
+      "航空母舰编号": "01212_11",
+      "承运人名称": "Paklook Air, Inc d/b/a/ Airlift Alaska (2017 - 2017)",
+      "承运人世界区域代码": 1,
+      "承运人类型": "Domestic Carrier",
+      "OAI 载波类型": "Large Regional Carrier - $20-100M in revenue",
+      "州地理编号": "geoId/02",
+      "国家地理编号": "country/USA"
+    },
+    {
+      "航空母舰编号": "01006_31",
+      "承运人名称": "Virgin America (2007 - 2018)",
+      "承运人世界区域代码": 10,
+      "承运人类型": "Domestic Carrier",
+      "OAI 载波类型": "Major Carrier - $1B+ in revenue",
+      "州地理编号": null,
+      "国家地理编号": null
+    },
+    {
+      "航空母舰编号": "06993_51",
+      "承运人名称": "Bellair Inc. (1) (Domestic)",
+      "承运人世界区域代码": 10,
+      "承运人类型": "Domestic Carrier",
+      "OAI 载波类型": "Small Certified Carrier",
+      "州地理编号": null,
+      "国家地理编号": null
+    },
+    {
+      "航空母舰编号": "16770 (1)_11",
+      "承运人名称": "Reliant Airlines (1998 - 2003)",
+      "承运人世界区域代码": 10,
+      "承运人类型": "Domestic Carrier",
+      "OAI 载波类型": "Large Regional Carrier - $20-100M in revenue",
+      "州地理编号": null,
+      "国家地理编号": null
+    },
+    {
+      "航空母舰编号": "06752_11",
+      "承运人名称": "Pan American Airways Corp. (1999 - 2004)",
+      "承运人世界区域代码": 10,
+      "承运人类型": "Domestic Carrier",
+      "OAI 载波类型": "Large Regional Carrier - $20-100M in revenue",
+      "州地理编号": null,
+      "国家地理编号": null
+    }
+  ],
+  "table_name": "AIRCRAFT_CARRIER_INDEX",
+  "table_fullname": "GLOBAL_GOVERNMENT.CYBERSYN.AIRCRAFT_CARRIER_INDEX",
+  "column_names": [
+    "承运人世界区域代码",
+    "航空母舰编号",
+    "承运人类型",
+    "承运人名称",
+    "国家地理编号",
+    "OAI 载波类型",
+    "州地理编号"
+  ],
+  "column_types": [
+    "NUMBER",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "承运人所在地区的美国运输部识别码",
+    "航空母舰的唯一ID",
+    "按其主要运营特征划分的承运人类型。",
+    "机场承运人名称",
+    "一个唯一标识符，用于识别国家，可与 GEOGRAPHY_INDEX 表关联，表示该变量的主要地理区域。",
+    "运营航空承运人（OAC）类型，提供对承运人所开展运营类型的详细分类。",
+    "州的唯一标识符，可与 GEOGRAPHY_INDEX 表关联，表示该变量的主要地理。"
+  ]
+}
