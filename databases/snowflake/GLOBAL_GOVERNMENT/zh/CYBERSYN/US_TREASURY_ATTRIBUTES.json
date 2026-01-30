@@ -1,0 +1,78 @@
+{
+  "sample_rows": [
+    {
+      "变量": "paper_savings_bonds_outstanding_series_i",
+      "变量名": "Paper Savings Bonds Outstanding: Series I",
+      "测量": "Paper Savings Bonds",
+      "单位": "Count",
+      "频率": "Monthly",
+      "测量类型": "Series I",
+      "税种": null
+    },
+    {
+      "变量": "treasurydirect_sales_by_term_amount_marketable_security_tips_5_years_from_certificates_of_indebtedness",
+      "变量名": "TreasuryDirect Sales by Term Amount: Marketable Security TIPS (5 years) (From Certificates of Indebtedness)",
+      "测量": "TreasuryDirect Sales by Term",
+      "单位": "USD",
+      "频率": "Monthly",
+      "测量类型": "Marketable Security TIPS (5 years) (From Certificates of Indebtedness)",
+      "税种": null
+    },
+    {
+      "变量": "paper_savings_bonds_redeemed_series_j",
+      "变量名": "Paper Savings Bonds Redeemed: Series J",
+      "测量": "Paper Savings Bonds",
+      "单位": "Count",
+      "频率": "Monthly",
+      "测量类型": "Series J",
+      "税种": null
+    },
+    {
+      "变量": "matured_unredeemed_debt_bonds_outstanding_series_j",
+      "变量名": "Matured Unredeemed Debt: Bonds Outstanding, Series J",
+      "测量": "Matured Unredeemed Debt",
+      "单位": "Count",
+      "频率": "Monthly",
+      "测量类型": "Series J",
+      "税种": null
+    },
+    {
+      "变量": "treasurydirect_sales_by_term_count_marketable_series_bill_7_weeks_from_certificates_of_indebtedness",
+      "变量名": "TreasuryDirect Sales by Term Count: Marketable Series Bill (7 weeks) (From Certificates of Indebtedness)",
+      "测量": "TreasuryDirect Sales by Term",
+      "单位": "Count",
+      "频率": "Monthly",
+      "测量类型": "Marketable Series Bill (7 weeks) (From Certificates of Indebtedness)",
+      "税种": null
+    }
+  ],
+  "table_name": "US_TREASURY_ATTRIBUTES",
+  "table_fullname": "GLOBAL_GOVERNMENT.CYBERSYN.US_TREASURY_ATTRIBUTES",
+  "column_names": [
+    "变量",
+    "测量",
+    "变量名",
+    "频率",
+    "税种",
+    "测量类型",
+    "单位"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "变量的唯一标识符，可与时间序列表关联。",
+    "可量化的属性或主体；正在记录内容的描述。",
+    "变量的可读唯一名称",
+    "聚合频率",
+    "税种类别按美国财政部报告，彼此不互斥。税种类别总计包含非税和美国国税局（IRS）税额之和。五个类别为：1. 非税 - IRS-非税与非税（非IRS非税）之和。2. IRS非税 - 以2009开头的机构地点代码（ALC）的收款，但不包括任何IRS服务中心。3. IRS税 - IRS服务中心ALC的收款。4. 非税（非IRS非税） - 不以ALC 2009开头的收款。5. IRS税与IRS非税 - IRS非税与IRS税之和。",
+    "测量的美国国债工具类型（例如：储蓄债券系列 E）",
+    "报告值的计量单位"
+  ]
+}
