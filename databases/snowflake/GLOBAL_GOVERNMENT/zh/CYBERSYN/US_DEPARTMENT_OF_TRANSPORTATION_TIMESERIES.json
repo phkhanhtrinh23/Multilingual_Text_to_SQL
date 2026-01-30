@@ -1,0 +1,110 @@
+{
+  "sample_rows": [
+    {
+      "航班类型ID": "28ad3b116a705f65fd2a9df6bec3f49f",
+      "航空母舰ID": "06964_12",
+      "飞机编号": "3501",
+      "起点机场编号": "90530OOK",
+      "目的地机场编号": "10360BET",
+      "服务类别": "Non-Scheduled Civilian Passenger Service",
+      "变量": "RAMP_IN_MINUTES",
+      "变量名": "Ramp to Ramp Time",
+      "日期": "2010-08-31",
+      "值": 56.0,
+      "单位": "Minutes"
+    },
+    {
+      "航班类型ID": "cf4b7309ce4884368d51a7e51942e1b9",
+      "航空母舰ID": "06820_32",
+      "飞机编号": "67761",
+      "起点机场编号": "33342MKE",
+      "目的地机场编号": "30977ORD",
+      "服务类别": "Scheduled Passenger/Cargo Service",
+      "变量": "RAMP_IN_MINUTES",
+      "变量名": "Ramp to Ramp Time",
+      "日期": "2022-08-31",
+      "值": 129.0,
+      "单位": "Minutes"
+    },
+    {
+      "航班类型ID": "f367e322ca9c2659c07cc794f71f1d91",
+      "航空母舰ID": "07028_22",
+      "飞机编号": "3161",
+      "起点机场编号": "30781BTR",
+      "目的地机场编号": "31057CLT",
+      "服务类别": "Scheduled Passenger/Cargo Service",
+      "变量": "AVAILABLE_CAPACITY_PAYLOAD_POUNDS",
+      "变量名": "Available Payload",
+      "日期": "2018-12-31",
+      "值": 17600.0,
+      "单位": "Pounds"
+    },
+    {
+      "航班类型ID": "c9dd4f9fc360815254514841363591c7",
+      "航空母舰ID": "01220_31",
+      "飞机编号": "61661",
+      "起点机场编号": "31703EWR",
+      "目的地机场编号": "30792BUF",
+      "服务类别": "Scheduled Passenger/Cargo Service",
+      "变量": "DEPARTURES_PERFORMED",
+      "变量名": "Departures Performed",
+      "日期": "2001-02-28",
+      "值": 17.0,
+      "单位": "Count"
+    },
+    {
+      "航班类型ID": "43c78ee4a763fae537e32de92c688134",
+      "航空母舰ID": "06860_12",
+      "飞机编号": "41641",
+      "起点机场编号": "32122HGZ",
+      "目的地机场编号": "32214HSL",
+      "服务类别": "Scheduled Passenger/Cargo Service",
+      "变量": "MAIL_TRANSPORTED",
+      "变量名": "Non-Stop Segment Mail Transported",
+      "日期": "2003-06-30",
+      "值": 1121.0,
+      "单位": "Pounds"
+    }
+  ],
+  "table_name": "US_DEPARTMENT_OF_TRANSPORTATION_TIMESERIES",
+  "table_fullname": "GLOBAL_GOVERNMENT.CYBERSYN.US_DEPARTMENT_OF_TRANSPORTATION_TIMESERIES",
+  "column_names": [
+    "航班类型ID",
+    "飞机编号",
+    "目的地机场编号",
+    "单位",
+    "值",
+    "日期",
+    "服务类别",
+    "变量名",
+    "起点机场编号",
+    "变量",
+    "航空母舰ID"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "FLOAT",
+    "DATE",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "用于起点和终点机场、航空母舰及飞机组合的唯一哈希值。反映航班模式的主键。",
+    "机型ID，制造商指定的独特型号。",
+    "航班测量路径中目的地机场的 ID，由该机场的 DOT 唯一代码和官方三字 OAG 代码组合而成。",
+    "报告值的计量单位",
+    "该变量的报告值。",
+    "与该值关联的日期。",
+    "航空公司在特定航班上提供的服务类型，区分定期与非定期服务及服务种类。",
+    "变量的可读唯一名称",
+    "用于测量航班路线的起始机场的 ID，由该机场的 DOT 唯一代码和官方 3 字母 OAG 代码组合而成。",
+    "用于关联时间序列表的变量唯一标识符。",
+    "航空母舰的ID"
+  ]
+}
