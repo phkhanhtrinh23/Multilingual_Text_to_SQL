@@ -1,0 +1,97 @@
+{
+  "table_name": "SCHEMA_CURRENT",
+  "table_fullname": "HTAN_2.HTAN.SCHEMA_CURRENT",
+  "column_names": [
+    "属性",
+    "验证规则",
+    "依赖于",
+    "依赖组件",
+    "必填",
+    "属性",
+    "有效值",
+    "描述",
+    "家长",
+    "来源"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "我们想将检测、相关协议或下游数据的关键特征 X 记录为元数据特征。",
+    "在 Valid Values 列中允许哪些类型的数据？仅当行中未包含 Valid Values 时才相关。例如：字符串、列表、整数。",
+    "重要特征，如果有的话，对于已指定的属性 X，需要记录为元数据特征。这些特征可能是属性本身或属性的属性（即它们列在“属性”列和/或“属性”列下）。用逗号分隔。",
+    "每个组件都是一个高级本体类，其中实体/对象被分类/组件化；一个组件本身是一个实体，需要在模式中定义。",
+    "请指明属性X的值是否默认必填或可选。设为TRUE或FALSE。若为TRUE，数据贡献者必须为属性X提供一个值（例如，如果有指定“有效值”，则需选择其中之一）。若为FALSE，数据贡献者可以在“未适用”或“未指定”之间选择作为属性X的值。请注意，某些属性默认可能不必填（即“Required”设为FALSE），但它可能因为是另一个必填属性的子属性而被要求填写（例如参见ERCC）。",
+    "针对特定属性的属性；请注意，属性也可能是属性本身（即列在“属性”列下）。",
+    "属性 X 的取值范围：可赋给属性 X 的值；这些值可以是其他属性（即列在“属性”列中的属性）本身。用逗号分隔。如果未提供任何值，则属性 X 的任意非空值都是有效的。",
+    "请提供属性 X 的定义或包含该定义的参考。最好提供源本体链接或代码，以及定义。如果最终描述待定，请留空。",
+    "该属性的父类——即将此属性“挂钩”到现有模式的位置。请注意，这假设只有一个现有模式/单一的 json-ld 模式上下文；如果需要支持跨多个模式/JSON-LD 上下文定义的类/属性/字段，我们需要添加一个 schema/context 列，指定每个属性的上下文（若与属性父类的上下文不同）。",
+    "该术语描述的来源，通常是一个 URI。本体可用作来源。例如，Library Construction Method 的来源是：http://purl.obolibrary.org/obo/OBI_0000711"
+  ],
+  "sample_rows": [
+    {
+      "属性": null,
+      "描述": "Category of metadata (e.g. Diagnosis, Biospecimen, scRNA-seq Level 1, etc.); provide the same one for all items/rows.",
+      "有效值": null,
+      "依赖于": null,
+      "必填": "TRUE",
+      "家长": null,
+      "依赖组件": null,
+      "来源": "https://w3id.org/biolink/vocab/category",
+      "验证规则": null
+    },
+    {
+      "属性": null,
+      "描述": "The final concentration or dilution (for commercial sets) of the spike in mix [PMID:21816910]",
+      "有效值": null,
+      "依赖于": null,
+      "必填": "TRUE",
+      "家长": "ERCC",
+      "依赖组件": null,
+      "来源": "https://www.ncbi.nlm.nih.gov/pubmed/21816910",
+      "验证规则": null
+    },
+    {
+      "属性": null,
+      "描述": "HTAN Data File Identifier indicating the file(s) from which these files were derived",
+      "有效值": null,
+      "依赖于": null,
+      "必填": "TRUE",
+      "家长": "File",
+      "依赖组件": null,
+      "来源": null,
+      "验证规则": null
+    },
+    {
+      "属性": null,
+      "描述": "The units of the physical size of a pixel. See OME enumeration of allowed values for the UnitsLength attribute -- default: microns (um)",
+      "有效值": "cm, mm, µm, nm, Å",
+      "依赖于": null,
+      "必填": "TRUE",
+      "家长": "Imaging",
+      "依赖组件": null,
+      "来源": "https://www.miti-consortium.org/",
+      "验证规则": null
+    },
+    {
+      "属性": null,
+      "描述": "Free text description of object class [string]",
+      "有效值": null,
+      "依赖于": null,
+      "必填": "TRUE",
+      "家长": "Imaging",
+      "依赖组件": null,
+      "来源": "https://www.miti-consortium.org/",
+      "验证规则": null
+    }
+  ]
+}
