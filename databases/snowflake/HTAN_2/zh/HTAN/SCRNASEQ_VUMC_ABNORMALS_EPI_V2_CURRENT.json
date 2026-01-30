@@ -1,0 +1,94 @@
+{
+  "table_name": "SCRNASEQ_VUMC_ABNORMALS_EPI_V2_CURRENT",
+  "table_fullname": "HTAN_2.HTAN.SCRNASEQ_VUMC_ABNORMALS_EPI_V2_CURRENT",
+  "column_names": [
+    "观察",
+    "基因名称",
+    "HTAN 生物样本 ID",
+    "HTAN_父级_数据_文件_ID",
+    "X值",
+    "组织类型",
+    "组织亚型",
+    "细胞条码号",
+    "iVar"
+  ],
+  "column_types": [
+    "NUMBER",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "FLOAT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "NUMBER"
+  ],
+  "description": [
+    "细胞条码索引",
+    "已测量基因",
+    "基于 HTAN ID SOP 的生物样本关联的 HTAN ID（例如 HTANx_yyy_zzz）",
+    "HTAN 数据文件标识符，指示这些文件所来源的文件",
+    "给定基因和细胞的表达值。",
+    "AD = 传统腺瘤，SER = 锯齿状息肉，MSI-H = 微卫星不稳定高型结直肠癌，MSS = 微卫星稳定型结直肠癌",
+    "TA = 管状腺瘤, HP = 过度增生性息肉, TVA = 管状-绒毛腺瘤, SSL = 扁平黏液样病变, MSI-H = 微卫星不稳定高水平结直肠癌, MSS = 微卫星稳定型结直肠癌",
+    "用于每个含有细胞的微滴的条形码，在测序过程中",
+    "基因ID索引"
+  ],
+  "sample_rows": [
+    {
+      "观察": 2304,
+      "iVar": 16972,
+      "X值": 3.0,
+      "细胞条码号": "AATGTTGGCAATCGGGT-10",
+      "HTAN_父级_数据_文件_ID": "HTA11_78_200000101113111",
+      "HTAN 生物样本 ID": "HTA11_78_2000001011",
+      "组织亚型": "TA",
+      "组织类型": "AD",
+      "基因名称": "PTMA"
+    },
+    {
+      "观察": 2304,
+      "iVar": 14665,
+      "X值": 1.0,
+      "细胞条码号": "AATGTTGGCAATCGGGT-10",
+      "HTAN_父级_数据_文件_ID": "HTA11_78_200000101113111",
+      "HTAN 生物样本 ID": "HTA11_78_2000001011",
+      "组织亚型": "TA",
+      "组织类型": "AD",
+      "基因名称": "NFE2L2"
+    },
+    {
+      "观察": 2305,
+      "iVar": 26425,
+      "X值": 1.0,
+      "细胞条码号": "TGAGCGCATTCTCCTTATT-10",
+      "HTAN_父级_数据_文件_ID": "HTA11_78_200000101113111",
+      "HTAN 生物样本 ID": "HTA11_78_2000001011",
+      "组织亚型": "TA",
+      "组织类型": "AD",
+      "基因名称": "SPATA6L"
+    },
+    {
+      "观察": 2306,
+      "iVar": 14673,
+      "X值": 1.0,
+      "细胞条码号": "TGAAAACAGGGTCCCTGAT-10",
+      "HTAN_父级_数据_文件_ID": "HTA11_78_200000101113111",
+      "HTAN 生物样本 ID": "HTA11_78_2000001011",
+      "组织亚型": "TA",
+      "组织类型": "AD",
+      "基因名称": "NFKB1"
+    },
+    {
+      "观察": 2307,
+      "iVar": 13788,
+      "X值": 1.0,
+      "细胞条码号": "TGCGACAGGTCTCTCT-10",
+      "HTAN_父级_数据_文件_ID": "HTA11_78_200000101113111",
+      "HTAN 生物样本 ID": "HTA11_78_2000001011",
+      "组织亚型": "TA",
+      "组织类型": "AD",
+      "基因名称": "MLXIP"
+    }
+  ]
+}
