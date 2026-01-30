@@ -1,0 +1,78 @@
+{
+  "sample_rows": [
+    {
+      "地理名称": "Bureau County",
+      "地理编号": "geoId/17011",
+      "级别": "County",
+      "相关地理名称": "61317",
+      "相关地理ID": "zip/61317",
+      "相关级别": "CensusZipCodeTabulationArea",
+      "关系类型": "Contains"
+    },
+    {
+      "地理名称": "Census Tract 8, Geary County, Kansas",
+      "地理编号": "geoId/20061000800",
+      "级别": "CensusTract",
+      "相关地理名称": "67487",
+      "相关地理ID": "zip/67487",
+      "相关级别": "CensusZipCodeTabulationArea",
+      "关系类型": "Overlaps"
+    },
+    {
+      "地理名称": "Canada",
+      "地理编号": "country/CAN",
+      "级别": "Country",
+      "相关地理名称": "24180065",
+      "相关地理ID": "statcanId/S051224180065",
+      "相关级别": "DisseminationArea",
+      "关系类型": "Contains"
+    },
+    {
+      "地理名称": "California",
+      "地理编号": "geoId/06",
+      "级别": "State",
+      "相关地理名称": "Census Tract 4087.07, Los Angeles County, California",
+      "相关地理ID": "geoId/06037408707",
+      "相关级别": "CensusTract",
+      "关系类型": "Contains"
+    },
+    {
+      "地理名称": "04346",
+      "地理编号": "zip/04346",
+      "级别": "CensusZipCodeTabulationArea",
+      "相关地理名称": "United States",
+      "相关地理ID": "country/USA",
+      "相关级别": "Country",
+      "关系类型": "Overlaps"
+    }
+  ],
+  "table_name": "GEOGRAPHY_RELATIONSHIPS",
+  "table_fullname": "GLOBAL_GOVERNMENT.CYBERSYN.GEOGRAPHY_RELATIONSHIPS",
+  "column_names": [
+    "相关地理名称",
+    "相关级别",
+    "关系类型",
+    "相关地理ID",
+    "地理编号",
+    "级别",
+    "地理名称"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "与 GEO_NAME 相关地点的名称。这是一个与主要地理范围重叠或包含在其中的地点（例如，州内的城市）。",
+    "相关地点的地理层级或层次（例如：国家、州、省、县、城市、大洲、国家子区域等）",
+    "两地之间的关系。Contains 表示 RELATED_GEO_ID 完全包含在 GEO_ID 内（例如州对城市的关系），而 Overlaps 表示 GEO_ID 是 RELATED_GEO_ID 的子部分（例如城市对州的关系）。",
+    "用于与 GEOGRAPHY_INDEX 表关联的相关地点的唯一标识符",
+    "可与 GEOGRAPHY_INDEX 表关联的地点唯一标识符",
+    "地理级别或层级（例如：国家、州、县、市、大洲、国家子区域等）",
+    "地点的全名"
+  ]
+}
