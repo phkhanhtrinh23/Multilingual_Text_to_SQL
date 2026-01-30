@@ -1,0 +1,70 @@
+{
+  "sample_rows": [
+    {
+      "地理编号": "country/LIE",
+      "ISO两字母代码": "LI",
+      "日期": "1970-12-24",
+      "节日名称": "Heiliger Abend",
+      "分区": null,
+      "是否财务": false
+    },
+    {
+      "地理编号": "country/LIE",
+      "ISO两字母代码": "LI",
+      "日期": "1971-01-02",
+      "节日名称": "Berchtoldstag",
+      "分区": null,
+      "是否财务": false
+    },
+    {
+      "地理编号": "country/LIE",
+      "ISO两字母代码": "LI",
+      "日期": "1971-04-11",
+      "节日名称": "Ostersonntag",
+      "分区": null,
+      "是否财务": false
+    },
+    {
+      "地理编号": "country/LIE",
+      "ISO两字母代码": "LI",
+      "日期": "1971-04-12",
+      "节日名称": "Ostermontag",
+      "分区": null,
+      "是否财务": true
+    },
+    {
+      "地理编号": "country/LIE",
+      "ISO两字母代码": "LI",
+      "日期": "1971-09-08",
+      "节日名称": "Maria Geburt",
+      "分区": null,
+      "是否财务": false
+    }
+  ],
+  "table_name": "PUBLIC_HOLIDAY_CALENDAR",
+  "table_fullname": "GLOBAL_GOVERNMENT.CYBERSYN.PUBLIC_HOLIDAY_CALENDAR",
+  "column_names": [
+    "分区",
+    "节日名称",
+    "ISO两字母代码",
+    "是否财务",
+    "日期",
+    "地理编号"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "BOOLEAN",
+    "DATE",
+    "TEXT"
+  ],
+  "description": [
+    "与节日相关的州、省或其他基础地理信息",
+    "假日名称",
+    "来自国际标准化组织的两字母国家代码",
+    "表示给定地区股市停盘的布尔值",
+    "与事件相关的日期",
+    "GEO_ID 来自 GEOGRAPHY_INDEX 表"
+  ]
+}
