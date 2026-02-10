@@ -1,0 +1,121 @@
+{
+  "table_name": "scRNAseq_VUMC_HTAN_DIS_EPI_V2_r2",
+  "table_fullname": "isb-cgc-bq.HTAN_versioned.scRNAseq_VUMC_HTAN_DIS_EPI_V2_r2",
+  "column_names": [
+    "Quan sát i",
+    "iVar",
+    "Giá trị X",
+    "Số mã vạch tế bào",
+    "Mã Tệp Dữ Liệu Cha HTAN",
+    "HTAN_Mã_Mẫu_Sinh_Học",
+    "Loại tế bào",
+    "Loại mô",
+    "Loại mô",
+    "Tên Gene"
+  ],
+  "column_types": [
+    "INT64",
+    "INT64",
+    "FLOAT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "iQuan sát",
+    "Biến thực thể",
+    "Giá trị X",
+    "Số Mã Vạch Tế Bào",
+    "ID Tệp Dữ Liệu Cha HTAN",
+    "HTAN_MẫuSinhHọc_Mã",
+    "Loại tế bào",
+    "Loại mô",
+    "Loại mô",
+    "Tên gene"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "INT64",
+    "FLOAT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "Chỉ mục tới mã vạch tế bào.",
+    "Chỉ mục các ID gene",
+    "Giá trị biểu hiện cho một gen và một tế bào nhất định.",
+    "Mã vạch được sử dụng cho mỗi giọt chứa tế bào trong quá trình trình tự.",
+    "Định danh tệp dữ liệu HTAN, chỉ ra tệp (các tệp) mà các tệp này được dẫn xuất từ.",
+    "ID HTAN liên quan đến một mẫu sinh học dựa trên SOP ID HTAN (ví dụ HTANx_yyy_zzz)",
+    "ABS = tế bào hấp thu, TUF = tế bào tuft, EE = tế bào nội tiết đại tràng, ASC = tế bào đặc hiệu adenoma, TAC = tế bào tăng nhân tạm thời, CT = tế bào đầu lỗ ngấm, GOB = tế bào goblet, SSC = tế bào đặc hiệu serrated, STM = tế bào gốc",
+    "TA = adenoma ống, HP = nốt bướm tăng sinh, TVA = adenoma tubulovillus, SSL = tổn thương dẹt lưới, UNC = chưa phân loại, NL = bình thường",
+    "AD = adenoma truyền thống, SER = polyp răng lưỡi, UNC = chưa phân loại, NL = bình thường",
+    "Gene đã đo"
+  ],
+  "sample_rows": [
+    {
+      "iQuan sát": 28085,
+      "Biến thực thể": 8423,
+      "Giá trị X": 31.0,
+      "Số Mã Vạch Tế Bào": "GAGAAAGACCTTCGCTGG-45",
+      "ID Tệp Dữ Liệu Cha HTAN": "HTA11_5363_200000101113111",
+      "HTAN_MẫuSinhHọc_Mã": "HTA11_5363_2000001011",
+      "Loại tế bào": "CT",
+      "Loại mô": "SER",
+      "Tên gene": "EEF1A1"
+    },
+    {
+      "iQuan sát": 38856,
+      "Biến thực thể": 8423,
+      "Giá trị X": 15.0,
+      "Số Mã Vạch Tế Bào": "CTTTCTTTATGGAAAT-60",
+      "ID Tệp Dữ Liệu Cha HTAN": "HTA11_2992_200000101113111",
+      "HTAN_MẫuSinhHọc_Mã": "HTA11_2992_2000001011",
+      "Loại tế bào": "CT",
+      "Loại mô": "SER",
+      "Tên gene": "EEF1A1"
+    },
+    {
+      "iQuan sát": 28085,
+      "Biến thực thể": 3160,
+      "Giá trị X": 2.0,
+      "Số Mã Vạch Tế Bào": "GAGAAAGACCTTCGCTGG-45",
+      "ID Tệp Dữ Liệu Cha HTAN": "HTA11_5363_200000101113111",
+      "HTAN_MẫuSinhHọc_Mã": "HTA11_5363_2000001011",
+      "Loại tế bào": "CT",
+      "Loại mô": "SER",
+      "Tên gene": "ATP5B"
+    },
+    {
+      "iQuan sát": 39073,
+      "Biến thực thể": 4832,
+      "Giá trị X": 2.0,
+      "Số Mã Vạch Tế Bào": "TGATATTGCCTTTCACATA-60",
+      "ID Tệp Dữ Liệu Cha HTAN": "HTA11_2992_200000101113111",
+      "HTAN_MẫuSinhHọc_Mã": "HTA11_2992_2000001011",
+      "Loại tế bào": "CT",
+      "Loại mô": "SER",
+      "Tên gene": "CDC42"
+    },
+    {
+      "iQuan sát": 39043,
+      "Biến thực thể": 30074,
+      "Giá trị X": 2.0,
+      "Số Mã Vạch Tế Bào": "AGTCAAAGAGAATTCGT-60",
+      "ID Tệp Dữ Liệu Cha HTAN": "HTA11_2992_200000101113111",
+      "HTAN_MẫuSinhHọc_Mã": "HTA11_2992_2000001011",
+      "Loại tế bào": "CT",
+      "Loại mô": "SER",
+      "Tên gene": "SF1"
+    }
+  ]
+}
