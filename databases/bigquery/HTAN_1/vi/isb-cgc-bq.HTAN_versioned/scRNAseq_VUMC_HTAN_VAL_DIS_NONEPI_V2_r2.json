@@ -1,0 +1,121 @@
+{
+  "table_name": "scRNAseq_VUMC_HTAN_VAL_DIS_NONEPI_V2_r2",
+  "table_fullname": "isb-cgc-bq.HTAN_versioned.scRNAseq_VUMC_HTAN_VAL_DIS_NONEPI_V2_r2",
+  "column_names": [
+    "Thứ tự quan sát",
+    "iVar",
+    "Giá trị X",
+    "Số mã vạch tế bào",
+    "HTAN_ID_Tệp_Cha_Dữ_Lượng",
+    "HTAN_Mã_Mẫu_Sinh_Học",
+    "Loại tế bào",
+    "Tiểu loại mô",
+    "Loại mô",
+    "Tên gen"
+  ],
+  "column_types": [
+    "INT64",
+    "INT64",
+    "FLOAT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "iQuanSát",
+    "Biến i",
+    "giá trị X",
+    "Số mã vạch tế bào",
+    "HTAN_ID_Tệp_Dữ_Liệu_Cha",
+    "Mã số mẫu sinh học HTAN",
+    "Loại tế bào",
+    "Loại mô",
+    "Loại mô",
+    "Tên_gen"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "INT64",
+    "FLOAT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "Chỉ mục mã vạch tế bào",
+    "Chỉ mục tới ID gen.",
+    "Giá trị biểu hiện cho một gen và tế bào nhất định.",
+    "Mã vạch được sử dụng cho mỗi giọt chứa tế bào trong quá trình trình tự",
+    "Định danh Tệp dữ liệu HTAN chỉ ra tệp (các tệp) mà các tệp này được tạo ra từ.",
+    "HTAN ID liên kết với một mẫu sinh học dựa trên HTAN ID SOP (ví dụ HTANx_yyy_zzz)",
+    "B = tế bào B, T = tế bào T, END = tế bào nội mô, FIB = tế bào bào phổi, MAS = tế bào mast, MYE = tế bào myeloid, PLA = huyết tương",
+    "TA = adenoma xoắn ống, HP = đa lồi tăng sinh hyperplastic, TVA = adenoma xoắn lỗ, SSL = tổn thương tráng lưới, NL = bình thường, MSI-H = ung thư đại trực tràng bất ổn vi khuẩn dải nhỏ cao, MSS = ung thư đại trực tràng ổn định vi khuẩn dải nhỏ",
+    "AD = adenoma truyền thống, SER = poly cưa cưa, NL = bình thường, MSI-H = ung thư đại trực tràng có mất ổn định microsatellite cao, MSS = ung thư đại trực tràng ổn định microsatellite",
+    "Gene được đo"
+  ],
+  "sample_rows": [
+    {
+      "iQuanSát": 2827,
+      "Biến i": 15691,
+      "giá trị X": 2.0,
+      "Số mã vạch tế bào": "ATGCTCCGTTTGGATCG-54",
+      "HTAN_ID_Tệp_Dữ_Liệu_Cha": "HTA11_6310_200000202113111",
+      "Mã số mẫu sinh học HTAN": "HTA11_6310_2000002021",
+      "Loại tế bào": "B",
+      "Loại mô": "NL",
+      "Tên_gen": "PCNP"
+    },
+    {
+      "iQuanSát": 6875,
+      "Biến i": 27125,
+      "giá trị X": 2.0,
+      "Số mã vạch tế bào": "TGCGTATCAGCTACGG-16-5607",
+      "HTAN_ID_Tệp_Dữ_Liệu_Cha": "HTA11_8099_200000201113111",
+      "Mã số mẫu sinh học HTAN": "HTA11_8099_2000002011",
+      "Loại tế bào": "B",
+      "Loại mô": "NL",
+      "Tên_gen": "TBC1D5"
+    },
+    {
+      "iQuanSát": 5768,
+      "Biến i": 28591,
+      "giá trị X": 2.0,
+      "Số mã vạch tế bào": "TGACGTAGAAGCTACTTGT-4-5607",
+      "HTAN_ID_Tệp_Dữ_Liệu_Cha": "HTA11_10167_200000202113111",
+      "Mã số mẫu sinh học HTAN": "HTA11_10167_2000002021",
+      "Loại tế bào": "B",
+      "Loại mô": "NL",
+      "Tên_gen": "UBC"
+    },
+    {
+      "iQuanSát": 3238,
+      "Biến i": 4200,
+      "giá trị X": 2.0,
+      "Số mã vạch tế bào": "TGAGTCCATGTATCCCACG-54",
+      "HTAN_ID_Tệp_Dữ_Liệu_Cha": "HTA11_6310_200000202113111",
+      "Mã số mẫu sinh học HTAN": "HTA11_6310_2000002021",
+      "Loại tế bào": "B",
+      "Loại mô": "NL",
+      "Tên_gen": "CCSER1"
+    },
+    {
+      "iQuanSát": 2796,
+      "Biến i": 26484,
+      "giá trị X": 13.0,
+      "Số mã vạch tế bào": "TGACGTATCGGCGCTCTCA-54",
+      "HTAN_ID_Tệp_Dữ_Liệu_Cha": "HTA11_6310_200000202113111",
+      "Mã số mẫu sinh học HTAN": "HTA11_6310_2000002021",
+      "Loại tế bào": "B",
+      "Loại mô": "NL",
+      "Tên_gen": "SPICE1"
+    }
+  ]
+}

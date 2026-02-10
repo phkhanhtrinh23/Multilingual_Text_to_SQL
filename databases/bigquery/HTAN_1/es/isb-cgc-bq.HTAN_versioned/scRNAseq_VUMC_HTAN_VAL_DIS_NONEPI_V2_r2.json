@@ -1,0 +1,126 @@
+{
+  "table_name": "scRNAseq_VUMC_HTAN_VAL_DIS_NONEPI_V2_r2",
+  "table_fullname": "isb-cgc-bq.HTAN_versioned.scRNAseq_VUMC_HTAN_VAL_DIS_NONEPI_V2_r2",
+  "column_names": [
+    "Observaciones internas",
+    "iVar",
+    "Valor X",
+    "Número de código de barras de la célula",
+    "ID del Archivo de Datos Padre",
+    "HTAN_Muestra_Biologica_ID",
+    "Tipo de célula",
+    "Tipo de tejido",
+    "Tipo de Tejido",
+    "Nombre del gen"
+  ],
+  "column_types": [
+    "INT64",
+    "INT64",
+    "FLOAT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "iObs",
+    "variable de instancia",
+    "Valor X",
+    "Número de código de barras de la célula",
+    "HTAN_Padre_Datos_Archivo_ID",
+    "ID del Biospecimen HTAN",
+    "Tipo de célula",
+    "Subtipo de tejido",
+    "Tipo de tejido",
+    "Nombre del gen"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "INT64",
+    "FLOAT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "Índice de códigos de barras de células",
+    "Índice a los IDs de genes.",
+    "Valor de expresión para un gen y una célula determinados.",
+    "Códigos de barras usados para cada gota que contiene la célula en el proceso de secuenciación",
+    "Identificador de archivo de datos HTAN que indica los archivos de los cuales se derivaron estos archivos",
+    "ID de HTAN asociado con una muestra biológica según el SOP de ID de HTAN (p. ej., HTANx_yyy_zzz)",
+    "B = célula B, T = célula T, END = endotelial, FIB = fibroblasto, MAS = mastocito, MYE = mieloide, PLA = plasma",
+    "TA = adenoma tubular, HP = pólipo hiperplásico, TVA = adenoma tubulovícuo, SSL = lesión serrada sessile, NL = normal, MSI-H = cáncer colorrectal con alta inestabilidad de microsatélites, MSS = cáncer colorrectal estable de microsatélites",
+    "AD = adenoma convencional, SER = pólipo serrado, NL = normal, MSI-H = inestabilidad de microsatélites alta en cáncer colorrectal, MSS = inestabilidad de microsatélites estable en cáncer colorrectal",
+    "gen medido"
+  ],
+  "sample_rows": [
+    {
+      "iObs": 2827,
+      "variable de instancia": 15691,
+      "Valor X": 2.0,
+      "Número de código de barras de la célula": "ATGCTCCGTTTGGATCG-54",
+      "HTAN_Padre_Datos_Archivo_ID": "HTA11_6310_200000202113111",
+      "ID del Biospecimen HTAN": "HTA11_6310_2000002021",
+      "Tipo de célula": "B",
+      "Subtipo de tejido": "NL",
+      "Tipo de tejido": "NL",
+      "Nombre del gen": "PCNP"
+    },
+    {
+      "iObs": 6875,
+      "variable de instancia": 27125,
+      "Valor X": 2.0,
+      "Número de código de barras de la célula": "TGCGTATCAGCTACGG-16-5607",
+      "HTAN_Padre_Datos_Archivo_ID": "HTA11_8099_200000201113111",
+      "ID del Biospecimen HTAN": "HTA11_8099_2000002011",
+      "Tipo de célula": "B",
+      "Subtipo de tejido": "NL",
+      "Tipo de tejido": "NL",
+      "Nombre del gen": "TBC1D5"
+    },
+    {
+      "iObs": 5768,
+      "variable de instancia": 28591,
+      "Valor X": 2.0,
+      "Número de código de barras de la célula": "TGACGTAGAAGCTACTTGT-4-5607",
+      "HTAN_Padre_Datos_Archivo_ID": "HTA11_10167_200000202113111",
+      "ID del Biospecimen HTAN": "HTA11_10167_2000002021",
+      "Tipo de célula": "B",
+      "Subtipo de tejido": "NL",
+      "Tipo de tejido": "NL",
+      "Nombre del gen": "UBC"
+    },
+    {
+      "iObs": 3238,
+      "variable de instancia": 4200,
+      "Valor X": 2.0,
+      "Número de código de barras de la célula": "TGAGTCCATGTATCCCACG-54",
+      "HTAN_Padre_Datos_Archivo_ID": "HTA11_6310_200000202113111",
+      "ID del Biospecimen HTAN": "HTA11_6310_2000002021",
+      "Tipo de célula": "B",
+      "Subtipo de tejido": "NL",
+      "Tipo de tejido": "NL",
+      "Nombre del gen": "CCSER1"
+    },
+    {
+      "iObs": 2796,
+      "variable de instancia": 26484,
+      "Valor X": 13.0,
+      "Número de código de barras de la célula": "TGACGTATCGGCGCTCTCA-54",
+      "HTAN_Padre_Datos_Archivo_ID": "HTA11_6310_200000202113111",
+      "ID del Biospecimen HTAN": "HTA11_6310_2000002021",
+      "Tipo de célula": "B",
+      "Subtipo de tejido": "NL",
+      "Tipo de tejido": "NL",
+      "Nombre del gen": "SPICE1"
+    }
+  ]
+}
