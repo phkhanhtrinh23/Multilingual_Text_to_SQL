@@ -1,0 +1,126 @@
+{
+  "table_name": "scRNAseq_VUMC_HTAN_VAL_EPI_V2_r2",
+  "table_fullname": "isb-cgc-bq.HTAN_versioned.scRNAseq_VUMC_HTAN_VAL_EPI_V2_r2",
+  "column_names": [
+    "Observaciones",
+    "iVar",
+    "Valor X",
+    "Número de código de barras de célula",
+    "ID de Archivo de Datos Padre",
+    "ID_Especimen_Biológico_HTAN",
+    "Tipo de célula",
+    "Subtipo de tejido",
+    "Tipo de tejido",
+    "Nombre del gen"
+  ],
+  "column_types": [
+    "INT64",
+    "INT64",
+    "FLOAT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "Observaciones",
+    "ivar",
+    "Valor de X",
+    "Número de código de barras de la célula",
+    "HTAN_ID_Archivo_Padre_Datos",
+    "ID de Muestra Biológica HTAN",
+    "Tipo de célula",
+    "Subtipo de tejido",
+    "Tipo de tejido",
+    "Nombre del gen"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "INT64",
+    "FLOAT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "Índice de códigos de barras de células",
+    "Índice a los IDs de genes",
+    "Valor de expresión para un gen y una célula determinados.",
+    "Códigos de barras utilizados para cada gota que contiene la célula en el proceso de secuenciación.",
+    "Identificador de archivo de datos HTAN que indica el/los archivo(s) de los cuales se derivaron estos archivos.",
+    "ID de HTAN asociado a una muestra biológica según el SOP de ID de HTAN (por ejemplo HTANx_yyy_zzz)",
+    "ABS = células absorptoras  \nTUF = células tuft  \nEE = células enteroendocrinas  \nASC = células específicas de adenoma  \nTAC = células de amplificación transitoria  \nCT = células del extremo superior de la cript  \nGOB = células goblet  \nSSC = células específicas serradas  \nSTM = células madre",
+    "TA = adenoma tubular, HP = pólipo hiperplásico, TVA = adenoma tubulovílar, SSL = lesión serrada sesil, UNC = no clasificado, NL = normal",
+    "AD = adenoma convencional, SER = pólipo serrado, UNC = no clasificado, NL = normal",
+    "gen medido"
+  ],
+  "sample_rows": [
+    {
+      "Observaciones": 49352,
+      "ivar": 25903,
+      "Valor de X": 12.0,
+      "Número de código de barras de la célula": "TGAAGGATTCACTACGAGC-12-5898",
+      "HTAN_ID_Archivo_Padre_Datos": "HTA11_11156_200000102113111",
+      "ID de Muestra Biológica HTAN": "HTA11_11156_2000001021",
+      "Tipo de célula": "ABS",
+      "Subtipo de tejido": "TA",
+      "Tipo de tejido": "AD",
+      "Nombre del gen": "RPLP2"
+    },
+    {
+      "Observaciones": 50116,
+      "ivar": 7756,
+      "Valor de X": 21.0,
+      "Número de código de barras de la célula": "AGCACCACAAACGCCT-14-5898",
+      "HTAN_ID_Archivo_Padre_Datos": "HTA11_11156_200000101113111",
+      "ID de Muestra Biológica HTAN": "HTA11_11156_2000001011",
+      "Tipo de célula": "ABS",
+      "Subtipo de tejido": "TA",
+      "Tipo de tejido": "AD",
+      "Nombre del gen": "EEF1A1"
+    },
+    {
+      "Observaciones": 50183,
+      "ivar": 14514,
+      "Valor de X": 40.0,
+      "Número de código de barras de la célula": "TGACTGGTGCAGAGTTTCG-14-5898",
+      "HTAN_ID_Archivo_Padre_Datos": "HTA11_11156_200000101113111",
+      "ID de Muestra Biológica HTAN": "HTA11_11156_2000001011",
+      "Tipo de célula": "ABS",
+      "Subtipo de tejido": "TA",
+      "Tipo de tejido": "AD",
+      "Nombre del gen": "MT-ND4"
+    },
+    {
+      "Observaciones": 47332,
+      "ivar": 16431,
+      "Valor de X": 59.0,
+      "Número de código de barras de la célula": "ACTTAGGTATCCAGTCC-9-5898",
+      "HTAN_ID_Archivo_Padre_Datos": "HTA11_6182_200000202113111",
+      "ID de Muestra Biológica HTAN": "HTA11_6182_2000002021",
+      "Tipo de célula": "ABS",
+      "Subtipo de tejido": "NL",
+      "Tipo de tejido": "NL",
+      "Nombre del gen": "PHGR1"
+    },
+    {
+      "Observaciones": 50176,
+      "ivar": 25693,
+      "Valor de X": 97.0,
+      "Número de código de barras de la célula": "GAGAATACGCATATACCT-14-5898",
+      "HTAN_ID_Archivo_Padre_Datos": "HTA11_11156_200000101113111",
+      "ID de Muestra Biológica HTAN": "HTA11_11156_2000001011",
+      "Tipo de célula": "ABS",
+      "Subtipo de tejido": "TA",
+      "Tipo de tejido": "AD",
+      "Nombre del gen": "RP5-857K21.4"
+    }
+  ]
+}
