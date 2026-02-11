@@ -1,0 +1,56 @@
+{
+  "table_name": "AuthorReference",
+  "table_fullname": "mitelman-db.prod.AuthorReference",
+  "column_names": [
+    "Número de referencia",
+    "Nombre",
+    "Orden de nombre"
+  ],
+  "column_types": [
+    "INT64",
+    "STRING",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "Número de referencia",
+    "Nombre",
+    "Orden de nombre"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "STRING",
+    "INT64"
+  ],
+  "description": [
+    "este número de referencia siempre es un entero, entre 1 y 50000",
+    "ej. 'Mitelman F', o 'Rowley JD'",
+    "un entero entre 1 y 228, que indica la posición del nombre de este autor en la lista de autores de esta referencia"
+  ],
+  "sample_rows": [
+    {
+      "Número de referencia": 1,
+      "Nombre": "LUND UNPUBLISHED",
+      "Orden de nombre": 1
+    },
+    {
+      "Número de referencia": 1,
+      "Nombre": "LUND UNPUBLISHED",
+      "Orden de nombre": 1
+    },
+    {
+      "Número de referencia": 10,
+      "Nombre": "Hayata I",
+      "Orden de nombre": 1
+    },
+    {
+      "Número de referencia": 11,
+      "Nombre": "Hayata I",
+      "Orden de nombre": 1
+    },
+    {
+      "Número de referencia": 12,
+      "Nombre": "Muldal S",
+      "Orden de nombre": 1
+    }
+  ]
+}
