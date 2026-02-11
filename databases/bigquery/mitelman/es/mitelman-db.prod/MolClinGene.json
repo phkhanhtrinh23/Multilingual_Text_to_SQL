@@ -1,0 +1,96 @@
+{
+  "table_name": "MolClinGene",
+  "table_fullname": "mitelman-db.prod.MolClinGene",
+  "column_names": [
+    "MolClin",
+    "Número de referencia",
+    "Número de factura",
+    "Número de pedido",
+    "prefijo",
+    "gen",
+    "Sufijo"
+  ],
+  "column_types": [
+    "STRING",
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "Clínica Molecular",
+    "Número de referencia",
+    "Número de factura",
+    "Número de Pedido",
+    "prefijo",
+    "Gen",
+    "Sufijo"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "bandera que indica ya sea molecular 'M' o clínico 'C'",
+    "número de referencia, ej. '15563'",
+    "número de investigación, normalmente entre 1 y 10",
+    "Número de orden, entre 1 y 15",
+    "cadena de prefijo -- ya sea vacía o '+'",
+    "símbolo(s) génico(s), p. ej. 'KMT2A' o 'BCR/ABL1'",
+    "cadena de sufijo -- ya sea en blanco o '+'."
+  ],
+  "sample_rows": [
+    {
+      "Clínica Molecular": "C",
+      "Número de referencia": 3967,
+      "Número de factura": 1,
+      "Número de Pedido": 1,
+      "prefijo": null,
+      "Gen": "BCR::ABL1",
+      "Sufijo": null
+    },
+    {
+      "Clínica Molecular": "C",
+      "Número de referencia": 3976,
+      "Número de factura": 1,
+      "Número de Pedido": 1,
+      "prefijo": null,
+      "Gen": "BCR::ABL1",
+      "Sufijo": null
+    },
+    {
+      "Clínica Molecular": "C",
+      "Número de referencia": 3976,
+      "Número de factura": 2,
+      "Número de Pedido": 1,
+      "prefijo": null,
+      "Gen": "BCR::ABL1",
+      "Sufijo": null
+    },
+    {
+      "Clínica Molecular": "C",
+      "Número de referencia": 4541,
+      "Número de factura": 1,
+      "Número de Pedido": 1,
+      "prefijo": null,
+      "Gen": "PML::RARA",
+      "Sufijo": null
+    },
+    {
+      "Clínica Molecular": "C",
+      "Número de referencia": 4624,
+      "Número de factura": 1,
+      "Número de Pedido": 1,
+      "prefijo": null,
+      "Gen": "BCR::ABL1",
+      "Sufijo": null
+    }
+  ]
+}
