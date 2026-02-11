@@ -1,0 +1,126 @@
+{
+  "table_name": "RecurrentData",
+  "table_fullname": "mitelman-db.prod.RecurrentData",
+  "column_names": [
+    "Cromosoma",
+    "Brazo",
+    "Banda",
+    "Anormalidad",
+    "Transformación",
+    "Superior",
+    "Casos Totales",
+    "Gen",
+    "Orden cromosómico",
+    "Tipo"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "Cromosoma",
+    "Brazo",
+    "Banda",
+    "Anormalidad",
+    "Transformar",
+    "Topología",
+    "Casos Totales",
+    "gen",
+    "Orden de Cromosoma",
+    "Tipo"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "STRING"
+  ],
+  "description": [
+    "número de cromosoma (1-22, X o Y)",
+    "brazo del cromosoma (p o q)",
+    "posición del gen en el brazo p o q",
+    "descripción de la anomalía, ej. 'add(19)(q13)' o 'del(20)(q11q13)'",
+    "código de morfología, por ejemplo '1602'",
+    "código topográfico, ej. '0902' (o vacío)",
+    "número total de casos (hasta 2150)",
+    "símbolo(s) génico(s), por ejemplo 'KMT2A+' o 'BCR/ABL1' o dejar en blanco",
+    "orden numérico del cromosoma",
+    "indicar equilibrado ('B') o desequilibrado ('U')"
+  ],
+  "sample_rows": [
+    {
+      "Cromosoma": "Y",
+      "Brazo": "q",
+      "Banda": "10",
+      "Anormalidad": "i(Y)(q10)",
+      "Transformar": "1820",
+      "Topología": null,
+      "Casos Totales": "2",
+      "gen": null,
+      "Orden de Cromosoma": 24,
+      "Tipo": "U"
+    },
+    {
+      "Cromosoma": "1",
+      "Brazo": "q",
+      "Banda": "10",
+      "Anormalidad": "der(1;2)(q10;p10)",
+      "Transformar": "1702",
+      "Topología": null,
+      "Casos Totales": "2",
+      "gen": null,
+      "Orden de Cromosoma": 1,
+      "Tipo": "U"
+    },
+    {
+      "Cromosoma": "1",
+      "Brazo": "q",
+      "Banda": "10",
+      "Anormalidad": "der(1;2)(q10;q10)",
+      "Transformar": "8804",
+      "Topología": "0801",
+      "Casos Totales": "2",
+      "gen": null,
+      "Orden de Cromosoma": 1,
+      "Tipo": "U"
+    },
+    {
+      "Cromosoma": "1",
+      "Brazo": "q",
+      "Banda": "10",
+      "Anormalidad": "der(1;3)(q10;q10)",
+      "Transformar": "1702",
+      "Topología": null,
+      "Casos Totales": "2",
+      "gen": null,
+      "Orden de Cromosoma": 1,
+      "Tipo": "U"
+    },
+    {
+      "Cromosoma": "1",
+      "Brazo": "q",
+      "Banda": "10",
+      "Anormalidad": "der(1;3)(q10;q10)",
+      "Transformar": "3111",
+      "Topología": "0401",
+      "Casos Totales": "2",
+      "gen": null,
+      "Orden de Cromosoma": 1,
+      "Tipo": "U"
+    }
+  ]
+}
