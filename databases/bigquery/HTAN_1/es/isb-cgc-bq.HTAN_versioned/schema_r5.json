@@ -1,0 +1,126 @@
+{
+  "table_name": "schema_r5",
+  "table_fullname": "isb-cgc-bq.HTAN_versioned.schema_r5",
+  "column_names": [
+    "Atributo",
+    "Descripción",
+    "Valores válidos",
+    "DependeDe",
+    "Propiedades",
+    "Requerido",
+    "Padre",
+    "Dependencia_Comp",
+    "Fuente",
+    "Reglas de validación"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "Atributo",
+    "Descripción",
+    "Valores válidos",
+    "DependeDe",
+    "Propiedades",
+    "Requerido",
+    "Padre",
+    "DependeDe_Componente",
+    "Fuente",
+    "Reglas de validación"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "Característica clave X del ensayo, protocolo relacionado o datos posteriores que deseamos registrar como característica de metadatos.",
+    "Could you specify which attribute X you’re looking for?",
+    "El rango del atributo X: los valores que pueden asignarse al atributo X; estos valores pueden incluir ser otros atributos (es decir, listados en las columnas 'Atributo') mismos. Separados por comas. Si no se proporciona ninguno, cualquier valor no nulo es válido para el atributo X.",
+    "Características importantes, si las hay, del atributo X que deben registrarse como características de metadatos dado que el atributo X está especificado. Estas características podrían ser atributos o propiedades de atributos (es decir, están listadas en la columna 'Attribute' y/o bajo la columna 'Properties'). Separadas por comas.",
+    "Propiedades específicas de un atributo particular; tenga en cuenta que las propiedades podrían ser atributos por sí mismas (es decir, listadas bajo la columna 'Attributes').",
+    "Indique si especificar un valor para el atributo X es obligatorio o opcional por defecto. Establecer a TRUE o FALSE. Si es TRUE, un contribuyente de datos debe proporcionar un valor para el atributo X (por ejemplo, uno de los valores válidos en 'Valid Values', si se especifican). Si es FALSE, un contribuyente de datos puede seleccionar entre 'Not Applicable' o 'Not Specified' como valor para el atributo X. Tenga en cuenta que un atributo puede no ser requerido por defecto (es decir, 'Required' está establecido en FALSE), pero podría ser requerido por virtud de ser un atributo de otro atributo requerido (por ejemplo, ver ERCC).",
+    "Clase padre de este atributo - es decir, dónde «enganchar» este atributo en un esquema existente. Tenga en cuenta que esto asume un único esquema existente/un único contexto de esquema json‑ld; si necesitamos soportar clases/atributos/propiedades definidas a través de múltiples esquemas/contextos json‑ld, tendríamos que añadir una columna de esquema/contexto que especifique el contexto de cada atributo, si es diferente del contexto del padre del atributo.",
+    "Cada componente es una clase de ontología de alto nivel en la que las entidades/objetos se categorizan/componentizan; un componente es una entidad por sí mismo que necesita ser definida en el esquema",
+    "La fuente de la descripción del término, generalmente una URI. Las ontologías pueden usarse como fuentes. Por ejemplo, Library Construction Method tiene fuente: http://purl.obolibrary.org/obo/OBI_0000711",
+    "¿Qué tipo de datos se permite en la columna de Valores válidos? Sólo es relevante si no hay Valores válidos en la fila. Por ejemplo, cadena, lista, entero."
+  ],
+  "sample_rows": [
+    {
+      "Atributo": "scRNA-seq Level 1",
+      "Descripción": "Single-cell RNA-seq [EFO_0008913]",
+      "Valores válidos": null,
+      "DependeDe": "Component, Filename, File Format, HTAN Parent Biospecimen ID, HTAN Data File ID, Nucleic Acid Source, Cryopreserved Cells in Sample, Single Cell Isolation Method, Dissociation Method, Library Construction Method, Read Indicator, Read1, Read2, End Bias, Reverse Transcription Primer, Spike In, Sequencing Platform, Total Number of Input Cells, Input Cells and Nuclei, Library Preparation Days from Index, Single Cell Dissociation Days from Index, Sequencing Library Construction Days from Index, Nucleic Acid Capture Days from Index, Protocol Link, Technical Replicate Group",
+      "Propiedades": null,
+      "Requerido": "FALSE",
+      "Padre": "Sequencing",
+      "DependeDe_Componente": "Biospecimen",
+      "Fuente": "http://www.ebi.ac.uk/efo/EFO_0008913",
+      "Reglas de validación": null
+    },
+    {
+      "Atributo": "Bulk RNA-seq Level 1",
+      "Descripción": "Bulk RNA-seq [EFO_0003738]",
+      "Valores válidos": null,
+      "DependeDe": "Component, Filename, File Format, HTAN Parent Biospecimen ID, HTAN Data File ID, Library Layout, Read Indicator, Nucleic Acid Source, Micro-region Seq Platform, ROI Tag, Sequencing Platform, Sequencing Batch ID, Read Length, Library Selection Method, Library Preparation Kit Name, Library Preparation Kit Vendor, Library Preparation Kit Version, Library Preparation Days from Index, Spike In, Adapter Name, Adapter Sequence, Base Caller Name, Base Caller Version, Flow Cell Barcode, Fragment Maximum Length, Fragment Mean Length, Fragment Minimum Length, Fragment Standard Deviation Length, Lane Number, Library Strand, Multiplex Barcode, Size Selection Range, Target Depth, To Trim Adapter Sequence, Transcript Integrity Number, RIN, DV200, Adapter Content, Basic Statistics, Encoding, Kmer Content, Overrepresented Sequences, Per Base N Content, Per Base Sequence Content, Per Base Sequence Quality, Per Sequence GC Content, Per Sequence Quality Score, Per Tile Sequence Quality, Percent GC Content, Sequence Duplication Levels, Sequence Length Distribution, Total Reads, QC Workflow Type, QC Workflow Version, QC Workflow Link",
+      "Propiedades": null,
+      "Requerido": "FALSE",
+      "Padre": "Sequencing",
+      "DependeDe_Componente": "Biospecimen",
+      "Fuente": "http://www.ebi.ac.uk/efo/EFO_0003738",
+      "Reglas de validación": null
+    },
+    {
+      "Atributo": "Feature barcoding",
+      "Descripción": "A method for adding extra channels of information to cells by running single-cell gene expression in parallel with other assays [https://support.10xgenomics.com/single-cell-gene-expression/software/pipelines/latest/feature-bc]",
+      "Valores válidos": null,
+      "DependeDe": "Feature Reference Id",
+      "Propiedades": null,
+      "Requerido": "FALSE",
+      "Padre": "scRNA-seq Level 1",
+      "DependeDe_Componente": null,
+      "Fuente": "https://support.10xgenomics.com/single-cell-gene-expression/software/pipelines/latest/feature-bc",
+      "Reglas de validación": null
+    },
+    {
+      "Atributo": "Analyte Biospecimen Type",
+      "Descripción": "A molecular derivative (I.e. RNA / DNA / Protein Lysate) obtained from a specimen",
+      "Valores válidos": null,
+      "DependeDe": "Analyte Type, Fixation Duration, Slide Charge Type, Section Thickness Value, Sectioning Days from Index, Shipping Condition Type, Ischemic Time, Ischemic Temperature",
+      "Propiedades": null,
+      "Requerido": "FALSE",
+      "Padre": "Biospecimen",
+      "DependeDe_Componente": null,
+      "Fuente": "https://cadsr.cancer.gov/onedata/dmdirect/NIH/NCI/CO/CDEDD?filter=CDEDD.ITEM_ID=2513915&version=2.0",
+      "Reglas de validación": null
+    },
+    {
+      "Atributo": "Total Volume",
+      "Descripción": "Numeric value for the total amount of sample or specimen",
+      "Valores válidos": null,
+      "DependeDe": "Total Volume Unit",
+      "Propiedades": null,
+      "Requerido": "FALSE",
+      "Padre": "Biospecimen",
+      "DependeDe_Componente": null,
+      "Fuente": "https://cadsr.cancer.gov/onedata/dmdirect/NIH/NCI/CO/CDEDD?filter=CDEDD.ITEM_ID=3005019&version=1.0",
+      "Reglas de validación": null
+    }
+  ]
+}
