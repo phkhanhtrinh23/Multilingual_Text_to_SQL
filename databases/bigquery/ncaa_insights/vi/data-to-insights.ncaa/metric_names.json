@@ -1,0 +1,96 @@
+{
+  "table_name": "metric_names",
+  "table_fullname": "data-to-insights.ncaa.metric_names",
+  "column_names": [
+    "tên thống kê",
+    "Nhãn",
+    "tên khái niệm",
+    "tấn công hay phòng thủ",
+    "hạng tăng dần",
+    "Nghiên cứu & Phát triển Tháng 12",
+    "tên_thống_kê_tấn_công_phòng_thủ"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "BOOL",
+    "INT64",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "tên thống kê",
+    "Nhãn",
+    "tên khái niệm",
+    "tấn công hoặc phòng thủ",
+    "Xếp hạng tăng",
+    "Đọc tháng 12",
+    "Tên thống kê tấn công/phòng thủ"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "BOOL",
+    "INT64",
+    "STRING"
+  ],
+  "description": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "sample_rows": [
+    {
+      "tên thống kê": "tm_to_pct",
+      "Nhãn": "TO%",
+      "tên khái niệm": "Turnovers",
+      "tấn công hoặc phòng thủ": "Off",
+      "Xếp hạng tăng": true,
+      "Đọc tháng 12": 1,
+      "Tên thống kê tấn công/phòng thủ": "off_to_pct"
+    },
+    {
+      "tên thống kê": "opp_to_pct",
+      "Nhãn": "TO%",
+      "tên khái niệm": "Turnovers",
+      "tấn công hoặc phòng thủ": "Def",
+      "Xếp hạng tăng": false,
+      "Đọc tháng 12": 1,
+      "Tên thống kê tấn công/phòng thủ": "def_to_pct"
+    },
+    {
+      "tên thống kê": "tm_drb_pct",
+      "Nhãn": "DRB%",
+      "tên khái niệm": "Rebounding",
+      "tấn công hoặc phòng thủ": "Def",
+      "Xếp hạng tăng": false,
+      "Đọc tháng 12": 1,
+      "Tên thống kê tấn công/phòng thủ": "drb_pct"
+    },
+    {
+      "tên thống kê": "tm_orb_pct",
+      "Nhãn": "ORB%",
+      "tên khái niệm": "Rebounding",
+      "tấn công hoặc phòng thủ": "Off",
+      "Xếp hạng tăng": false,
+      "Đọc tháng 12": 1,
+      "Tên thống kê tấn công/phòng thủ": "orb_pct"
+    },
+    {
+      "tên thống kê": "tm_efg_pct",
+      "Nhãn": "eFG%",
+      "tên khái niệm": "Shooting",
+      "tấn công hoặc phòng thủ": "Off",
+      "Xếp hạng tăng": false,
+      "Đọc tháng 12": 1,
+      "Tên thống kê tấn công/phòng thủ": "off_efg_pct"
+    }
+  ]
+}
