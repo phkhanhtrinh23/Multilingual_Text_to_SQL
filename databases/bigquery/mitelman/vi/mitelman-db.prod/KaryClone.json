@@ -1,0 +1,126 @@
+{
+  "table_name": "KaryClone",
+  "table_fullname": "mitelman-db.prod.KaryClone",
+  "column_names": [
+    "Số tham chiếu",
+    "Số hồ sơ",
+    "Số Hóa Đơn",
+    "Số Clone",
+    "ChromoMin",
+    "ChromoMax",
+    "Clone ngắn",
+    "CloneLong",
+    "Chiều dài bản sao",
+    "Đế"
+  ],
+  "column_types": [
+    "INT64",
+    "STRING",
+    "INT64",
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING",
+    "INT64",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "Số tham chiếu",
+    "Số vụ",
+    "Số Hóa Đơn",
+    "Số Clone",
+    "ChromoMin",
+    "ChromoMax",
+    "Tên tắt",
+    "Sao chép Long",
+    "Chiều dài clone",
+    "đế"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "STRING",
+    "INT64",
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING",
+    "INT64",
+    "STRING"
+  ],
+  "description": [
+    "số tham chiếu, ví dụ '14620'",
+    "số trường hợp, thường nằm trong khoảng từ 1 đến 10, nhưng cũng có thể là một chuỗi tùy ý, ví dụ 'A11'",
+    "số điều tra, từ 1 đến 9",
+    "số clone, từ 1 đến 58",
+    "Các giá trị phổ biến nhất nằm trong khoảng '42' và '51', nhưng giá trị tối thiểu là '0' và giá trị tối đa là '409'.",
+    "Hầu hết các giá trị thường gặp nằm trong khoảng '43' và '52', nhưng giá trị tối thiểu là '0' và giá trị tối đa là '409'.",
+    "mô tả clone ngắn hơn, đôi khi bị rút gọn, ví dụ '45,X,-Y' hoặc '46,Xy,t(8;21)(q22;q22)'",
+    "thường trống, nhưng nếu mô tả clone rất dài, chuỗi đó sẽ được lưu ở đây",
+    "độ dài chuỗi mô tả clone -- thường từ 8 đến 24 ký tự, nhưng có thể lên tới 2199 ký tự",
+    "Cờ T/F chỉ ra xem đây có phải là bất thường duy nhất hay không"
+  ],
+  "sample_rows": [
+    {
+      "Số tham chiếu": 3822,
+      "Số vụ": "1",
+      "Số Hóa Đơn": 1,
+      "Số Clone": 5,
+      "ChromoMin": 45,
+      "ChromoMax": 45,
+      "Tên tắt": "45,X,-X",
+      "Sao chép Long": null,
+      "Chiều dài clone": 7,
+      "đế": "T"
+    },
+    {
+      "Số tham chiếu": 4018,
+      "Số vụ": "33",
+      "Số Hóa Đơn": 1,
+      "Số Clone": 6,
+      "ChromoMin": 45,
+      "ChromoMax": 45,
+      "Tên tắt": "45,X,-X",
+      "Sao chép Long": null,
+      "Chiều dài clone": 7,
+      "đế": "T"
+    },
+    {
+      "Số tham chiếu": 8240,
+      "Số vụ": "8B",
+      "Số Hóa Đơn": 1,
+      "Số Clone": 7,
+      "ChromoMin": 45,
+      "ChromoMax": 45,
+      "Tên tắt": "45,X,-X",
+      "Sao chép Long": null,
+      "Chiều dài clone": 7,
+      "đế": "T"
+    },
+    {
+      "Số tham chiếu": 11389,
+      "Số vụ": "8",
+      "Số Hóa Đơn": 1,
+      "Số Clone": 5,
+      "ChromoMin": 45,
+      "ChromoMax": 45,
+      "Tên tắt": "45,X,-X",
+      "Sao chép Long": null,
+      "Chiều dài clone": 7,
+      "đế": "T"
+    },
+    {
+      "Số tham chiếu": 9341,
+      "Số vụ": "5",
+      "Số Hóa Đơn": 1,
+      "Số Clone": 9,
+      "ChromoMin": 45,
+      "ChromoMax": 45,
+      "Tên tắt": "45,X,-Y",
+      "Sao chép Long": null,
+      "Chiều dài clone": 7,
+      "đế": "T"
+    }
+  ]
+}
