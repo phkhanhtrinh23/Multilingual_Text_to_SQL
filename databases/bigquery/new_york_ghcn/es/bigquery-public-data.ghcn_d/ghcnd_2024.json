@@ -1,0 +1,126 @@
+{
+  "table_name": "ghcnd_2024",
+  "table_fullname": "bigquery-public-data.ghcn_d.ghcnd_2024",
+  "column_names": [
+    "identificador",
+    "fecha",
+    "elemento",
+    "valor",
+    "bandera",
+    "Bandera de calidad",
+    "bandera de estado",
+    "tiempo",
+    "URL de origen",
+    "marca de tiempo ETL"
+  ],
+  "column_types": [
+    "STRING",
+    "DATE",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "TIMESTAMP"
+  ],
+  "nested_column_names": [
+    "identificador",
+    "fecha",
+    "elemento",
+    "valor",
+    "bandera modificada",
+    "bandera",
+    "bandera S",
+    "tiempo",
+    "URL de origen",
+    "fecha_hora_etl"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "DATE",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "TIMESTAMP"
+  ],
+  "description": [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "Fuente",
+    "Tiempo de carga para esta fila de datos"
+  ],
+  "sample_rows": [
+    {
+      "identificador": "US1TXWM0336",
+      "fecha": "2024-01-01",
+      "elemento": "DAPR",
+      "valor": 6.0,
+      "bandera modificada": null,
+      "bandera": null,
+      "bandera S": "N",
+      "tiempo": "1500",
+      "URL de origen": "http://www.ncei.noaa.gov/pub/data/ghcn/daily/by_year/2024.csv.gz",
+      "fecha_hora_etl": "2024-09-25 02:38:47.483765+00:00"
+    },
+    {
+      "identificador": "US1CALK0014",
+      "fecha": "2024-01-05",
+      "elemento": "DAPR",
+      "valor": 4.0,
+      "bandera modificada": null,
+      "bandera": null,
+      "bandera S": "N",
+      "tiempo": "1555",
+      "URL de origen": "http://www.ncei.noaa.gov/pub/data/ghcn/daily/by_year/2024.csv.gz",
+      "fecha_hora_etl": "2024-09-25 02:38:47.483765+00:00"
+    },
+    {
+      "identificador": "US1WAPR0093",
+      "fecha": "2024-01-05",
+      "elemento": "DAPR",
+      "valor": 3.0,
+      "bandera modificada": null,
+      "bandera": null,
+      "bandera S": "N",
+      "tiempo": "0953",
+      "URL de origen": "http://www.ncei.noaa.gov/pub/data/ghcn/daily/by_year/2024.csv.gz",
+      "fecha_hora_etl": "2024-09-25 02:38:47.483765+00:00"
+    },
+    {
+      "identificador": "US1ILKN0125",
+      "fecha": "2024-01-05",
+      "elemento": "DAPR",
+      "valor": 5.0,
+      "bandera modificada": null,
+      "bandera": null,
+      "bandera S": "N",
+      "tiempo": "0530",
+      "URL de origen": "http://www.ncei.noaa.gov/pub/data/ghcn/daily/by_year/2024.csv.gz",
+      "fecha_hora_etl": "2024-09-25 02:38:47.483765+00:00"
+    },
+    {
+      "identificador": "US1PABR0047",
+      "fecha": "2024-01-05",
+      "elemento": "DAPR",
+      "valor": 7.0,
+      "bandera modificada": null,
+      "bandera": null,
+      "bandera S": "N",
+      "tiempo": "0930",
+      "URL de origen": "http://www.ncei.noaa.gov/pub/data/ghcn/daily/by_year/2024.csv.gz",
+      "fecha_hora_etl": "2024-09-25 02:38:47.483765+00:00"
+    }
+  ]
+}
