@@ -1,0 +1,76 @@
+{
+  "table_name": "adjacent_states",
+  "table_fullname": "bigquery-public-data.geo_us_boundaries.adjacent_states",
+  "column_names": [
+    "estado",
+    "nombre del estado",
+    "código FIPS del estado",
+    "estado de vecinos",
+    "código FIPS de vecinos"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "ARRAY<STRING>",
+    "ARRAY<STRING>"
+  ],
+  "nested_column_names": [
+    "estado",
+    "nombre del estado",
+    "código_fips_estado",
+    "Estado de los vecinos",
+    "código FIPS de los vecinos"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "ARRAY<STRING>",
+    "ARRAY<STRING>"
+  ],
+  "description": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "sample_rows": [
+    {
+      "estado": "AL",
+      "nombre del estado": "Alabama",
+      "código_fips_estado": "01",
+      "Estado de los vecinos": "['Florida' 'Georgia' 'Mississippi' 'Tennessee']",
+      "código FIPS de los vecinos": "['12' '13' '28' '47']"
+    },
+    {
+      "estado": "AR",
+      "nombre del estado": "Arkansas",
+      "código_fips_estado": "05",
+      "Estado de los vecinos": "['Tennessee' 'Texas' 'Missouri' 'Mississippi' 'Louisiana' 'Oklahoma']",
+      "código FIPS de los vecinos": "['47' '48' '29' '28' '22' '40']"
+    },
+    {
+      "estado": "AZ",
+      "nombre del estado": "Arizona",
+      "código_fips_estado": "04",
+      "Estado de los vecinos": "['Nevada' 'New Mexico' 'Colorado' 'California' 'Utah']",
+      "código FIPS de los vecinos": "['32' '35' '08' '06' '49']"
+    },
+    {
+      "estado": "CA",
+      "nombre del estado": "California",
+      "código_fips_estado": "06",
+      "Estado de los vecinos": "['Arizona' 'Nevada' 'Oregon']",
+      "código FIPS de los vecinos": "['04' '32' '41']"
+    },
+    {
+      "estado": "CO",
+      "nombre del estado": "Colorado",
+      "código_fips_estado": "08",
+      "Estado de los vecinos": "['Kansas' 'New Mexico' 'Nebraska' 'Utah' 'Wyoming' 'Arizona' 'Oklahoma']",
+      "código FIPS de los vecinos": "['20' '35' '31' '49' '56' '04' '40']"
+    }
+  ]
+}
