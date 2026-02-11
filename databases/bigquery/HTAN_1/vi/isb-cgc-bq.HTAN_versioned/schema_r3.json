@@ -1,0 +1,121 @@
+{
+  "table_name": "schema_r3",
+  "table_fullname": "isb-cgc-bq.HTAN_versioned.schema_r3",
+  "column_names": [
+    "Thuộc tính",
+    "Mô tả",
+    "Giá trị hợp lệ",
+    "Phụ thuộc vào",
+    "Thuộc tính",
+    "Bắt buộc",
+    "Cha mẹ",
+    "Phụ thuộc_Thành phần",
+    "Nguồn",
+    "Quy tắc xác thực"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "Thuộc tính",
+    "Mô tả",
+    "Giá trị hợp lệ",
+    "Phụ thuộc",
+    "Thuộc tính",
+    "Bắt buộc",
+    "Cha mẹ",
+    "Phụ thuộc thành phần",
+    "Nguồn",
+    "Quy tắc xác thực"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "Đặc tính chính X của phép thử, giao thức liên quan hoặc dữ liệu downstream mà chúng ta muốn ghi lại dưới dạng đặc tính metadata.",
+    "Cung cấp một định nghĩa hoặc một tài liệu tham chiếu chứa định nghĩa của thuộc tính X. Ưu tiên cung cấp liên kết đến ontology nguồn hoặc mã cùng với định nghĩa. Để trống nếu mô tả cuối cùng đang chờ.",
+    "Phạm vi của thuộc tính X: các giá trị có thể được gán cho thuộc tính X; các giá trị này có thể bao gồm/bằng các thuộc tính khác (tức là được liệt kê trong cột 'Attribute') chính chúng. Ngăn cách bằng dấu phẩy. Nếu không cung cấp, bất kỳ giá trị không rỗng nào cũng hợp lệ cho thuộc tính X.",
+    "Những đặc điểm quan trọng, nếu có, của thuộc tính X cần được ghi lại dưới dạng các đặc tính metadata khi thuộc tính X được xác định. Những đặc điểm này có thể là thuộc tính hoặc đặc tính của các thuộc tính (tức là chúng được liệt kê trong cột 'Attribute' và/hoặc dưới cột 'Properties'). Tách bằng dấu phẩy.",
+    "Thuộc tính cụ thể cho một thuộc tính nhất định; lưu ý rằng các thuộc tính có thể là thuộc tính riêng lẻ (tức là được liệt kê dưới cột 'Attributes').",
+    "Chỉ ra việc xác định giá trị cho thuộc tính X có bắt buộc hay tùy chọn theo mặc định. Đặt thành TRUE hoặc FALSE. Nếu TRUE, nhà đóng góp dữ liệu phải cung cấp giá trị cho thuộc tính X (ví dụ: một trong các giá trị hợp lệ trong 'Valid Values', nếu có được chỉ định). Nếu FALSE, nhà đóng góp dữ liệu có thể chọn giữa 'Not Applicable' hoặc 'Not Specified' làm giá trị cho thuộc tính X. Lưu ý rằng một thuộc tính có thể không bắt buộc theo mặc định (tức là 'Required' được đặt thành FALSE), nhưng có thể bắt buộc do là thuộc tính của một thuộc tính bắt buộc khác (ví dụ: xem ERCC).",
+    "Nhóm cha của thuộc tính này - tức là nơi để “đính kèm” thuộc tính này vào một sơ đồ hiện có. Lưu ý rằng điều này giả định có một sơ đồ hiện có duy nhất/ một ngữ cảnh json‑ld duy nhất; nếu chúng ta cần hỗ trợ các lớp/thuộc tính/đặc tính được định nghĩa qua nhiều sơ đồ/ngữ cảnh json‑ld, chúng ta sẽ cần thêm một cột schema/context chỉ định ngữ cảnh của mỗi thuộc tính, nếu khác với ngữ cảnh của cha của thuộc tính đó.",
+    "Mỗi thành phần là một lớp ontologi cấp cao, trong đó các thực thể/đối tượng được phân loại/được thành phần; một thành phần là một thực thể riêng lẻ cần được định nghĩa trong sơ đồ.",
+    "Nguồn cho mô tả của thuật ngữ, thường là một URI. Các ontology có thể được sử dụng làm nguồn. Ví dụ, Library Construction Method có nguồn: http://purl.obolibrary.org/obo/OBI_0000711",
+    "Loại dữ liệu nào được phép trong cột Giá trị hợp lệ. Chỉ liên quan nếu không có Giá trị hợp lệ trong hàng. Ví dụ: chuỗi, danh sách, số nguyên."
+  ],
+  "sample_rows": [
+    {
+      "Thuộc tính": null,
+      "Mô tả": "Process which results in the creation of a library from fragments of DNA using cloning vectors or oligonucleotides with the role of adaptors [OBI_0000711]",
+      "Giá trị hợp lệ": "Smart-seq2, Smart-SeqV4, 10xV1.0, 10xV1.1, 10xV2, 10xV3,10xV3.1, CEL-seq2, Drop-seq, inDropsV2, inDropsV3, TruDrop, sci-ATAC-seq",
+      "Phụ thuộc": null,
+      "Bắt buộc": "TRUE",
+      "Cha mẹ": "Sequencing",
+      "Phụ thuộc thành phần": null,
+      "Nguồn": "http://purl.obolibrary.org/obo/OBI_0000711",
+      "Quy tắc xác thực": null
+    },
+    {
+      "Thuộc tính": null,
+      "Mô tả": "An oligo to which new deoxyribonucleotides can be added by DNA polymerase [SO_0000112]. The type of primer used for reverse transcription, e.g. oligo-dT or random primer. This allows users to identify content of the cDNA library input e.g. enriched for mRNA",
+      "Giá trị hợp lệ": "Oligo-dT, Poly-dT, Feature barcoding, Random",
+      "Phụ thuộc": null,
+      "Bắt buộc": "TRUE",
+      "Cha mẹ": "scRNA-seq Level 1",
+      "Phụ thuộc thành phần": null,
+      "Nguồn": "http://www.sequenceontology.org/so_wiki/index.php/Category:SO:0000112_!_primer",
+      "Quy tắc xác thực": null
+    },
+    {
+      "Thuộc tính": null,
+      "Mô tả": "Generic name for the workflow used to analyze a data set.",
+      "Giá trị hợp lệ": "BWA, BWA with BQSR, BWA-aln, BWA-mem, BWA with Mark Duplicates and BQSR, STAR 2-Pass, STAR 2-Pass Chimeric, STAR 2-Pass Genome, STAR 2-Pass Transcriptome, Bowtie, Bismark, GSNAP, BSMAP, BSmooth, BS-Seeker2, BS-Seeker, RMAP, MethylCoder, BRAT-BW, Pash, Segemehl, Bisulfighter, BatMeth, LAST, ERNE-BS5, B-SOLANA, SOCS-B, BWA-meth, Other Alignment Workflow, None",
+      "Phụ thuộc": null,
+      "Bắt buộc": "TRUE",
+      "Cha mẹ": "Sequencing",
+      "Phụ thuộc thành phần": null,
+      "Nguồn": "https://docs.gdc.cancer.gov/Data_Dictionary/viewer/#?view=table-definition-view&id=alignment_workflow",
+      "Quy tắc xác thực": null
+    },
+    {
+      "Thuộc tính": null,
+      "Mô tả": "Specific content type of the data file.",
+      "Giá trị hợp lệ": "Gene Expression, Transcript Expression, Exon Expression Quantification, Gene Expression Quantification, Isoform Expression Quantification, Splice Junction Quantification, Other",
+      "Phụ thuộc": null,
+      "Bắt buộc": "TRUE",
+      "Cha mẹ": "Sequencing",
+      "Phụ thuộc thành phần": null,
+      "Nguồn": "https://docs.gdc.cancer.gov/Data_Dictionary/viewer/#?view=table-definition-view&id=gene_expression",
+      "Quy tắc xác thực": null
+    },
+    {
+      "Thuộc tính": null,
+      "Mô tả": "The kind of molecular specimen analyte: a molecular derivative (I.e. RNA / DNA / Protein Lysate) obtained from a specimen",
+      "Giá trị hợp lệ": "cfDNA Analyte, DNA Analyte, RNA Analyte, Total RNA Analyte, Tissue Block Analyte, Tissue Section Analyte, PBMCs or Plasma or Serum Analyte, cDNA Libraries Analyte, PBMCs, Plasma, Serum Analyte",
+      "Phụ thuộc": null,
+      "Bắt buộc": "TRUE",
+      "Cha mẹ": "Biospecimen",
+      "Phụ thuộc thành phần": null,
+      "Nguồn": "https://cdebrowser.nci.nih.gov/cdebrowserClient/cdeBrowser.html#/search?publicId=2513915&version=2.0",
+      "Quy tắc xác thực": null
+    }
+  ]
+}
