@@ -1,0 +1,96 @@
+{
+  "table_name": " nmprior_2020",
+  "table_fullname": "bigquery-public-data.nhtsa_traffic_fatalities. nmprior_2020",
+  "column_names": [
+    "số trạng thái",
+    "tên bang",
+    "số liên tiếp",
+    "Số xe",
+    "số người",
+    "Tình huống hành động người không lái xe",
+    "Tên hoàn cảnh hành động phi lái xe"
+  ],
+  "column_types": [
+    "INT64",
+    "STRING",
+    "INT64",
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "số điện thoại",
+    "tên trạng thái",
+    "số liên tiếp",
+    "số xe",
+    "Số người",
+    "điều kiện hành động của người không lái xe",
+    "Tên tình huống hành động của người không lái xe"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "STRING",
+    "INT64",
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING"
+  ],
+  "description": [
+    "Phần tử dữ liệu này xác định bang nơi xảy ra tai nạn. Các mã được lấy từ ấn phẩm Cục Dịch vụ Tổng quát (GSA) về Mã Vị trí Địa lý Toàn cầu (GLC). Để biết thêm thông tin về các mã, vui lòng xem phần <C1/V1/D1/PC1/P1/NM1 State Number> trong tài liệu pdf: https://crashstats.nhtsa.dot.gov/Api/Public/ViewPublication/812315",
+    "Yếu tố dữ liệu này xác định bang nơi xảy ra tai nạn. Các mã được lấy từ ấn phẩm của Tổng cục Dịch vụ Chung (GSA) về Mã Vị trí Địa lý Toàn cầu (GLC).",
+    "Yếu tố dữ liệu này là số trường hợp duy nhất được gán cho mỗi vụ tai nạn.  \nNó xuất hiện trên mỗi tập tin dữ liệu và được sử dụng để kết hợp thông tin từ các tập tin dữ liệu lại với nhau.  \nxxxxxx Hai ký tự cho Mã Bang theo sau bởi Bốn ký tự cho Số trường hợp",
+    "Phần dữ liệu này là số liên tiếp được gán cho mỗi phương tiện trong vụ án. Phần dữ liệu này xuất hiện trong mỗi tệp dữ liệu cấp phương tiện và được sử dụng kết hợp với phần dữ liệu ST_CASE để hợp nhất thông tin từ các tệp dữ liệu cấp phương tiện. 000-999 Số đã gán của phương tiện giao thông",
+    "Đây là phần tử dữ liệu là số thứ tự liên tiếp được cấp cho mỗi người trong vụ việc (tức là mỗi hành khách, người đi bộ hoặc người không điều khiển xe tham gia tai nạn). Phần tử dữ liệu này xuất hiện trong từng tệp dữ liệu cấp độ người và được sử dụng cùng với phần tử dữ liệu ST_CASE (và đôi khi phần tử dữ liệu VEH_NO) để kết hợp thông tin từ các tệp dữ liệu cấp độ người. 001-999 Số người được cấp",
+    "Yếu tố dữ liệu này mô tả hành động của người không lái xe ngay trước khi họ tham gia vào vụ va chạm. Để biết thêm thông tin về các mã, vui lòng xem mục <NM11 Hành động/Thường trình của người không lái xe> trong tài liệu pdf: https://crashstats.nhtsa.dot.gov/Api/Public/ViewPublication/812315",
+    "Phần dữ liệu này mô tả hành động của người không lái xe ngay trước khi họ tham gia vào vụ tai nạn."
+  ],
+  "sample_rows": [
+    {
+      "số điện thoại": 10,
+      "tên trạng thái": "Delaware",
+      "số liên tiếp": 100081,
+      "số xe": 0,
+      "Số người": 1,
+      "điều kiện hành động của người không lái xe": 1,
+      "Tên tình huống hành động của người không lái xe": "Going To or From School (K-12)"
+    },
+    {
+      "số điện thoại": 26,
+      "tên trạng thái": "Michigan",
+      "số liên tiếp": 260597,
+      "số xe": 0,
+      "Số người": 1,
+      "điều kiện hành động của người không lái xe": 1,
+      "Tên tình huống hành động của người không lái xe": "Going To or From School (K-12)"
+    },
+    {
+      "số điện thoại": 55,
+      "tên trạng thái": "Wisconsin",
+      "số liên tiếp": 550050,
+      "số xe": 0,
+      "Số người": 2,
+      "điều kiện hành động của người không lái xe": 1,
+      "Tên tình huống hành động của người không lái xe": "Going To or From School (K-12)"
+    },
+    {
+      "số điện thoại": 55,
+      "tên trạng thái": "Wisconsin",
+      "số liên tiếp": 550398,
+      "số xe": 0,
+      "Số người": 1,
+      "điều kiện hành động của người không lái xe": 1,
+      "Tên tình huống hành động của người không lái xe": "Going To or From School (K-12)"
+    },
+    {
+      "số điện thoại": 4,
+      "tên trạng thái": "Arizona",
+      "số liên tiếp": 40038,
+      "số xe": 0,
+      "Số người": 1,
+      "điều kiện hành động của người không lái xe": 2,
+      "Tên tình huống hành động của người không lái xe": "Waiting to Cross Roadway"
+    }
+  ]
+}
