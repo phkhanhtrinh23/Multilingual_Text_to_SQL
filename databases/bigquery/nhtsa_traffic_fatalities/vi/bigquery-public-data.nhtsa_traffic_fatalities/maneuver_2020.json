@@ -1,0 +1,86 @@
+{
+  "table_name": " maneuver_2020",
+  "table_fullname": "bigquery-public-data.nhtsa_traffic_fatalities. maneuver_2020",
+  "column_names": [
+    "số trạng thái",
+    "tên bang",
+    "số liên tiếp",
+    "số xe",
+    "điều khiển tránh",
+    "điều khiển tránh tên"
+  ],
+  "column_types": [
+    "INT64",
+    "STRING",
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "Số trạng thái",
+    "Tên bang",
+    "số liên tiếp",
+    "số xe",
+    "tài_xe_tiến_lộ_tránh",
+    "người lái đã điều khiển để tránh tên"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "STRING",
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING"
+  ],
+  "description": [
+    "Phần tử dữ liệu này xác định bang nơi xảy ra vụ tai nạn. Các mã được lấy từ ấn phẩm Địa Chỉ Địa Hình Toàn Cầu (GLC) của Tổng Cục Dịch vụ Công (GSA). Để biết thêm thông tin về các mã, vui lòng tham khảo phần <C1/V1/D1/PC1/P1/NM1 State Number> trong tài liệu PDF: https://crashstats.nhtsa.dot.gov/Api/Public/ViewPublication/812315",
+    "Phần dữ liệu này xác định bang nơi xảy ra vụ tai nạn. Các mã được lấy từ ấn phẩm của Cơ quan Dịch vụ Tổng hợp (GSA) về Mã Địa lý Toàn cầu (GLC).",
+    "Phần tử dữ liệu này là số trường hợp duy nhất được gán cho mỗi vụ tai nạn. Nó xuất hiện trên mỗi tệp dữ liệu và được sử dụng để hợp nhất thông tin từ các tệp dữ liệu với nhau. xxxxxx Hai ký tự cho Mã bang theo sau bởi bốn ký tự cho Số trường hợp",
+    "Yếu tố dữ liệu này là số thứ tự liên tiếp được gán cho mỗi phương tiện trong vụ án. Yếu tố dữ liệu này xuất hiện trong mỗi tệp dữ liệu cấp phương tiện và được sử dụng kết hợp với yếu tố dữ liệu ST_CASE để hợp nhất thông tin từ các tệp dữ liệu cấp phương tiện. 000-999 Số được gán của phương tiện ô tô",
+    "Phần tử dữ liệu này xác định những thứ mà tài xế này cố gắng tránh khi xe đang trên phần đường bộ của lộ trình giao thông, ngay trước sự kiện gây hại đầu tiên đối với xe này. Để biết thêm thông tin về các mã, vui lòng xem phần <PC15 Driver Maneuvered to Avoid> trong tệp pdf: https://crashstats.nhtsa.dot.gov/Api/Public/ViewPublication/812315",
+    "Phần tử dữ liệu này xác định những đối tượng mà người lái cố gắng tránh khi phương tiện đang trên phần đường của lộ trình giao thông, ngay trước sự kiện có hại đầu tiên xảy ra đối với phương tiện này."
+  ],
+  "sample_rows": [
+    {
+      "Số trạng thái": 6,
+      "Tên bang": "California",
+      "số liên tiếp": 60647,
+      "số xe": 5,
+      "tài_xe_tiến_lộ_tránh": 1,
+      "người lái đã điều khiển để tránh tên": "Object"
+    },
+    {
+      "Số trạng thái": 6,
+      "Tên bang": "California",
+      "số liên tiếp": 61872,
+      "số xe": 5,
+      "tài_xe_tiến_lộ_tránh": 1,
+      "người lái đã điều khiển để tránh tên": "Object"
+    },
+    {
+      "Số trạng thái": 48,
+      "Tên bang": "Texas",
+      "số liên tiếp": 481405,
+      "số xe": 6,
+      "tài_xe_tiến_lộ_tránh": 1,
+      "người lái đã điều khiển để tránh tên": "Object"
+    },
+    {
+      "Số trạng thái": 1,
+      "Tên bang": "Alabama",
+      "số liên tiếp": 10049,
+      "số xe": 5,
+      "tài_xe_tiến_lộ_tránh": 98,
+      "người lái đã điều khiển để tránh tên": "Not Reported"
+    },
+    {
+      "Số trạng thái": 1,
+      "Tên bang": "Alabama",
+      "số liên tiếp": 10572,
+      "số xe": 5,
+      "tài_xe_tiến_lộ_tránh": 98,
+      "người lái đã điều khiển để tránh tên": "Not Reported"
+    }
+  ]
+}
