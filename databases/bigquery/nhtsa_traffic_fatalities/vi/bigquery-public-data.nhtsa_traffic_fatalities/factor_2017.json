@@ -1,0 +1,86 @@
+{
+  "table_name": " factor_2017",
+  "table_fullname": "bigquery-public-data.nhtsa_traffic_fatalities. factor_2017",
+  "column_names": [
+    "số trạng thái",
+    "tên bang",
+    "số liên tiếp",
+    "Số xe",
+    "điều kiện góp phần xe cơ giới",
+    "Tên xe cộ liên quan"
+  ],
+  "column_types": [
+    "INT64",
+    "STRING",
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "số bang",
+    "tên bang",
+    "Số liên tiếp",
+    "Số xe",
+    "điều kiện góp phần của phương tiện ô tô",
+    "Tên xe ô tô"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "STRING",
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING"
+  ],
+  "description": [
+    "Phần tử dữ liệu này xác định bang nơi vụ tai nạn xảy ra. Các mã được lấy từ ấn phẩm của Tổng hành chính Dịch vụ Chung (GSA) về Mã Vị trí Địa lý Toàn cầu (GLC). Để biết thêm thông tin về các mã, vui lòng xem phần <C1/V1/D1/PC1/P1/NM1 State Number> trong tài liệu PDF: https://crashstats.nhtsa.dot.gov/Api/Public/ViewPublication/812315",
+    "Yếu tố dữ liệu này xác định bang nơi tai nạn đã xảy ra. Các mã được lấy từ ấn phẩm của Cục Quản lý Dịch vụ Chung (GSA) về Mã Địa điểm Địa lý Toàn cầu (GLC).",
+    "Phần tử dữ liệu này là số vụ duy nhất được gán cho mỗi tai nạn. Nó xuất hiện trên mỗi tệp dữ liệu và được sử dụng để hợp nhất thông tin từ các tệp dữ liệu lại với nhau. xxxxxx Hai ký tự cho Mã Bang, tiếp theo là bốn ký tự cho Số Vụ",
+    "Phần tử dữ liệu này là số thứ tự liên tiếp được gán cho mỗi phương tiện trong vụ án. Phần tử dữ liệu này xuất hiện trong mỗi tệp dữ liệu cấp độ phương tiện và được sử dụng cùng với phần tử dữ liệu ST_CASE để hợp nhất thông tin từ các tệp dữ liệu cấp độ phương tiện. 000-999 Số gán của phương tiện cơ giới",
+    "Phần tử dữ liệu này mô tả các khuyết điểm hoặc điều kiện bảo trì có thể đã tồn tại trước đó của xe có thể đã góp phần vào vụ tai nạn. Để biết thêm thông tin về các mã, vui lòng xem phần <PC4 Tình trạng góp phần, Xe cộ> trong PDF: https://crashstats.nhtsa.dot.gov/Api/Public/ViewPublication/812315",
+    "Yếu tố dữ liệu này mô tả các khuyết điểm hoặc điều kiện bảo trì có thể đã tồn tại trước đó và có thể đã góp phần vào vụ tai nạn."
+  ],
+  "sample_rows": [
+    {
+      "số bang": 1,
+      "tên bang": "Alabama",
+      "Số liên tiếp": 10477,
+      "Số xe": 5,
+      "điều kiện góp phần của phương tiện ô tô": 0,
+      "Tên xe ô tô": "None"
+    },
+    {
+      "số bang": 4,
+      "tên bang": "Arizona",
+      "Số liên tiếp": 40164,
+      "Số xe": 5,
+      "điều kiện góp phần của phương tiện ô tô": 0,
+      "Tên xe ô tô": "None"
+    },
+    {
+      "số bang": 4,
+      "tên bang": "Arizona",
+      "Số liên tiếp": 40164,
+      "Số xe": 6,
+      "điều kiện góp phần của phương tiện ô tô": 0,
+      "Tên xe ô tô": "None"
+    },
+    {
+      "số bang": 4,
+      "tên bang": "Arizona",
+      "Số liên tiếp": 40164,
+      "Số xe": 7,
+      "điều kiện góp phần của phương tiện ô tô": 0,
+      "Tên xe ô tô": "None"
+    },
+    {
+      "số bang": 4,
+      "tên bang": "Arizona",
+      "Số liên tiếp": 40453,
+      "Số xe": 5,
+      "điều kiện góp phần của phương tiện ô tô": 0,
+      "Tên xe ô tô": "None"
+    }
+  ]
+}
