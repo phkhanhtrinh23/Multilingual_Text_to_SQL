@@ -1,0 +1,86 @@
+{
+  "table_name": " violatn_2020",
+  "table_fullname": "bigquery-public-data.nhtsa_traffic_fatalities. violatn_2020",
+  "column_names": [
+    "số trạng thái",
+    "tên bang",
+    "số liên tiếp",
+    "số xe",
+    "vi phạm đã được truy tố",
+    "Tên bị cáo"
+  ],
+  "column_types": [
+    "INT64",
+    "STRING",
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "số trạng thái",
+    "tên bang",
+    "số liên tiếp",
+    "Số xe",
+    "vi phạm đã bị cáo buộc",
+    "Tên người bị truy tố vi phạm"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "STRING",
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "Yếu tố dữ liệu này xác định bang nơi vụ tai nạn đã xảy ra. Các mã được lấy từ ấn bản của Cục Dịch vụ Chung (GSA) về Mã Vị trí Địa lý Toàn cầu (GLC). Để biết thêm thông tin về các mã, vui lòng xem phần <C1/V1/D1/PC1/P1/NM1 State Number> trong tài liệu PDF: https://crashstats.nhtsa.dot.gov/Api/Public/ViewPublication/812315",
+    "Mục dữ liệu này xác định bang nơi xảy ra tai nạn. Các mã được lấy từ ấn phẩm của Cơ quan Dịch vụ Chung (GSA) về Mã Vị trí Địa lý Toàn cầu (GLC).",
+    "Yếu tố dữ liệu này là số vụ duy nhất được chỉ định cho mỗi tai nạn. Nó xuất hiện trên mỗi tập dữ liệu và được sử dụng để hợp nhất thông tin từ các tập dữ liệu lại với nhau. xx xxxx Hai ký tự cho Mã bang, được theo sau bởi bốn ký tự cho số vụ.",
+    "Thành phần dữ liệu này là số thứ tự liên tục được gán cho mỗi phương tiện trong trường hợp. Thành phần dữ liệu này xuất hiện trên mỗi tệp dữ liệu cấp độ phương tiện và được sử dụng cùng với thành phần dữ liệu ST_CASE để hợp nhất thông tin từ các tệp dữ liệu cấp độ phương tiện. 000-999 Số được gán của phương tiện ô tô",
+    "Thành phần dữ liệu này xác định tất cả các vi phạm đã bị cáo buộc với tài xế này. Để biết thêm thông tin về các mã, vui lòng xem phần <D21 Vi phạm Được Đề Nghị> trong file pdf: https://crashstats.nhtsa.dot.gov/Api/Public/ViewPublication/812315",
+    "Phần tử dữ liệu này xác định tất cả các vi phạm được ghi nhận cho tài xế này. Để biết thêm thông tin về các mã, vui lòng xem phần <D21 Violations Charged> trong PDF: https://crashstats.nhtsa.dot.gov/Api/Public/ViewPublication/812315"
+  ],
+  "sample_rows": [
+    {
+      "số trạng thái": 1,
+      "tên bang": "Alabama",
+      "số liên tiếp": 10049,
+      "Số xe": 5,
+      "vi phạm đã bị cáo buộc": "0",
+      "Tên người bị truy tố vi phạm": "None"
+    },
+    {
+      "số trạng thái": 1,
+      "tên bang": "Alabama",
+      "số liên tiếp": 10106,
+      "Số xe": 5,
+      "vi phạm đã bị cáo buộc": "0",
+      "Tên người bị truy tố vi phạm": "None"
+    },
+    {
+      "số trạng thái": 1,
+      "tên bang": "Alabama",
+      "số liên tiếp": 10367,
+      "Số xe": 5,
+      "vi phạm đã bị cáo buộc": "0",
+      "Tên người bị truy tố vi phạm": "None"
+    },
+    {
+      "số trạng thái": 1,
+      "tên bang": "Alabama",
+      "số liên tiếp": 10571,
+      "Số xe": 5,
+      "vi phạm đã bị cáo buộc": "0",
+      "Tên người bị truy tố vi phạm": "None"
+    },
+    {
+      "số trạng thái": 1,
+      "tên bang": "Alabama",
+      "số liên tiếp": 10572,
+      "Số xe": 5,
+      "vi phạm đã bị cáo buộc": "0",
+      "Tên người bị truy tố vi phạm": "None"
+    }
+  ]
+}
