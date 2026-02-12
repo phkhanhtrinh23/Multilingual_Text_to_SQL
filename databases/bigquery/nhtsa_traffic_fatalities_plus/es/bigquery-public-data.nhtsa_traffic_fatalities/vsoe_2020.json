@@ -1,0 +1,116 @@
+{
+  "table_name": " vsoe_2020",
+  "table_fullname": "bigquery-public-data.nhtsa_traffic_fatalities. vsoe_2020",
+  "column_names": [
+    "número de estado",
+    "nombre_estado",
+    "número consecutivo",
+    "número_vehículo",
+    "numero_evento_vehiculo",
+    "secuencia_de_eventos",
+    "nombre_de_la_secuencia_de_eventos",
+    "área de impacto asociada con el evento",
+    "área_de_impacto_asociada_con_el_nombre_del_evento"
+  ],
+  "column_types": [
+    "INT64",
+    "STRING",
+    "INT64",
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING",
+    "INT64",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "número de estado",
+    "nombre del estado",
+    "número consecutivo",
+    "número de vehículo",
+    "número de evento de vehículo",
+    "secuencia_de_eventos",
+    "nombre_de_secuencia_de_eventos",
+    "área de impacto asociada con el evento",
+    "Área de impacto asociada al nombre del evento"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "STRING",
+    "INT64",
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING",
+    "INT64",
+    "STRING"
+  ],
+  "description": [
+    "Este elemento de datos identifica el estado en el que ocurrió el accidente. Los códigos provienen de la publicación de la Administración de Servicios Generales (GSA) de los Códigos de Localización Geográfica (GLC) a nivel mundial. Para obtener más información sobre los códigos, consulte la sección <C1/V1/D1/PC1/P1/NM1 State Number> en el pdf: https://crashstats.nhtsa.dot.gov/Api/Public/ViewPublication/812315",
+    "Este elemento de datos identifica el estado en el que ocurrió el accidente. Los códigos provienen de la publicación de la Administración de Servicios Generales (GSA) de los Códigos de Ubicación Geográfica (GLC) de todo el mundo.",
+    "Este elemento de datos es el número de caso único asignado a cada accidente. Aparece en cada archivo de datos y se utiliza para fusionar la información de los archivos de datos. xxxxxx Dos caracteres para el código de estado seguidos de cuatro caracteres para el número de caso",
+    "Este elemento de datos es el número consecutivo asignado a cada vehículo en el caso. Este elemento de datos aparece en cada archivo de datos a nivel de vehículo y se utiliza en conjunto con el elemento de datos ST_CASE para combinar información de los archivos de datos a nivel de vehículo. 000-999 Número asignado de vehículo de motor",
+    "Este elemento de datos es el número consecutivo asignado a cada evento perjudicial y no perjudicial para este vehículo, en orden cronológico. 001-999 Número de Evento del Vehículo",
+    "Este elemento de datos describe este evento. Un accidente de tráfico con vehículo motorizado es una serie de eventos resultantes de una situación no estabilizada. Esta serie de eventos dañinos y no dañinos se registra en orden cronológico basado en la narrativa y el diagrama PAR. Para más información sobre los códigos, consulte la sección <V31 Secuencia de Eventos> en el pdf: https://crashstats.nhtsa.dot.gov/Api/Public/ViewPublication/812315",
+    "Este elemento de datos describe este evento. Un choque de tráfico de vehículos motorizados es una serie de eventos resultantes de una situación inestable. Esta serie de eventos dañinos y no dañinos se registra en orden cronológico basado en la narrativa y el diagrama PAR. Para más información sobre los códigos, consulte la sección <V31 Secuencia de Eventos> en el pdf: https://crashstats.nhtsa.dot.gov/Api/Public/ViewPublication/812315",
+    "Este elemento de datos identifica el punto de impacto, si lo hay, en este vehículo de motor en tránsito que produjo daños a la propiedad o lesiones personales en este evento. Para más información sobre los códigos, consulte la sección <C18 Área de Impacto Asociada con el Evento> en el pdf: https://crashstats.nhtsa.dot.gov/Api/Public/ViewPublication/812315",
+    "Este elemento de datos identifica el punto de impacto, si lo hay, en este vehículo en tránsito que produjo daños a la propiedad o lesiones personales en este evento. Para más información sobre los códigos, consulte la sección <C18 Área de Impacto Asociada al Evento> en el pdf: https://crashstats.nhtsa.dot.gov/Api/Public/ViewPublication/812315"
+  ],
+  "sample_rows": [
+    {
+      "número de estado": 1,
+      "nombre del estado": "Alabama",
+      "número consecutivo": 10001,
+      "número de vehículo": 1,
+      "número de evento de vehículo": 4,
+      "secuencia_de_eventos": 1,
+      "nombre_de_secuencia_de_eventos": "Rollover/Overturn",
+      "área de impacto asociada con el evento": 0,
+      "Área de impacto asociada al nombre del evento": "Non-Collision"
+    },
+    {
+      "número de estado": 1,
+      "nombre del estado": "Alabama",
+      "número consecutivo": 10004,
+      "número de vehículo": 1,
+      "número de evento de vehículo": 7,
+      "secuencia_de_eventos": 1,
+      "nombre_de_secuencia_de_eventos": "Rollover/Overturn",
+      "área de impacto asociada con el evento": 0,
+      "Área de impacto asociada al nombre del evento": "Non-Collision"
+    },
+    {
+      "número de estado": 1,
+      "nombre del estado": "Alabama",
+      "número consecutivo": 10022,
+      "número de vehículo": 1,
+      "número de evento de vehículo": 3,
+      "secuencia_de_eventos": 1,
+      "nombre_de_secuencia_de_eventos": "Rollover/Overturn",
+      "área de impacto asociada con el evento": 0,
+      "Área de impacto asociada al nombre del evento": "Non-Collision"
+    },
+    {
+      "número de estado": 1,
+      "nombre del estado": "Alabama",
+      "número consecutivo": 10030,
+      "número de vehículo": 2,
+      "número de evento de vehículo": 3,
+      "secuencia_de_eventos": 1,
+      "nombre_de_secuencia_de_eventos": "Rollover/Overturn",
+      "área de impacto asociada con el evento": 0,
+      "Área de impacto asociada al nombre del evento": "Non-Collision"
+    },
+    {
+      "número de estado": 1,
+      "nombre del estado": "Alabama",
+      "número consecutivo": 10033,
+      "número de vehículo": 1,
+      "número de evento de vehículo": 3,
+      "secuencia_de_eventos": 1,
+      "nombre_de_secuencia_de_eventos": "Rollover/Overturn",
+      "área de impacto asociada con el evento": 0,
+      "Área de impacto asociada al nombre del evento": "Non-Collision"
+    }
+  ]
+}
