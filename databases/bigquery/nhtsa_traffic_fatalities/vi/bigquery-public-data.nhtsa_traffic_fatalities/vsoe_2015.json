@@ -1,0 +1,116 @@
+{
+  "table_name": " vsoe_2015",
+  "table_fullname": "bigquery-public-data.nhtsa_traffic_fatalities. vsoe_2015",
+  "column_names": [
+    "số_trạng_thái",
+    "tên bang",
+    "số liên tiếp",
+    "số xe",
+    "số sự kiện xe",
+    "day_su_kien",
+    "Tên dãy sự kiện",
+    "Khu vực tác động của sự kiện",
+    "Khu vực ảnh hưởng liên quan đến tên sự kiện"
+  ],
+  "column_types": [
+    "INT64",
+    "STRING",
+    "INT64",
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING",
+    "INT64",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "số trạng thái",
+    "tên bang",
+    "số liên tiếp",
+    "số xe",
+    "số_sự_kiện_xe",
+    "chuỗi_sự_kh",
+    "Tên chuỗi sự kiện",
+    "Khu vực ảnh hưởng liên quan đến sự kiện",
+    "khu_vuc_tac_dong_lien_quan_den_ten_su_kien"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "STRING",
+    "INT64",
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING",
+    "INT64",
+    "STRING"
+  ],
+  "description": [
+    "Thành phần dữ liệu này xác định bang nơi vụ va chạm đã xảy ra. Các mã được lấy từ bản phát hành của General Services Administration (GSA) về Mã Địa điểm Địa lý toàn cầu (GLC). Để biết thêm thông tin về các mã, vui lòng xem phần <C1/V1/D1/PC1/P1/NM1 State Number> trong tài liệu PDF: https://crashstats.nhtsa.dot.gov/Api/Public/ViewPublication/812315",
+    "Phần dữ liệu này xác định bang nơi vụ tai nạn xảy ra. Các mã được lấy từ ấn phẩm của Cục Quản lý Dịch vụ Tổng hợp (GSA) về Mã Địa điểm Địa lý Toàn cầu (GLC).",
+    "Phần tử dữ liệu này là số vụ duy nhất được gán cho mỗi vụ tai nạn. Nó xuất hiện trong từng tệp dữ liệu và được sử dụng để kết hợp thông tin từ các tệp dữ liệu với nhau. xxxxxx Hai ký tự cho Mã Bang theo sau bởi Bốn ký tự cho Số Vụ",
+    "Yếu tố dữ liệu này là số thứ tự liên tiếp được gán cho mỗi phương tiện trong vụ án. Yếu tố dữ liệu này xuất hiện trên mỗi tập tin dữ liệu cấp xe và được sử dụng cùng với yếu tố dữ liệu ST_CASE để hợp nhất thông tin từ các tập tin dữ liệu cấp xe. 000-999 Số đã gán của phương tiện ô tô",
+    "Phần tử dữ liệu này là số thứ tự liên tiếp được gán cho mỗi sự kiện có hại và không có hại của phương tiện này, theo thứ tự thời gian. 001-999 Số Sự Kiện Xe",
+    "Phần tử dữ liệu này mô tả sự kiện này. Một vụ tai nạn giao thông phương tiện ô tô là một chuỗi sự kiện phát sinh từ tình huống chưa được ổn định. Chuỗi các sự kiện có hại và không có hại này được ghi lại theo thứ tự thời gian dựa trên câu chuyện và sơ đồ PAR. Để biết thêm thông tin về các mã, vui lòng xem phần <V31 Chuỗi sự kiện> trong pdf: https://crashstats.nhtsa.dot.gov/Api/Public/ViewPublication/812315",
+    "Mục dữ liệu này mô tả sự kiện này. Một vụ tai nạn giao thông xe hơi là một chuỗi các sự kiện phát sinh từ tình trạng chưa ổn định. Chuỗi các sự kiện có hại và không có hại này được ghi lại theo thứ tự thời gian dựa trên kịch bản và sơ đồ PAR. Để biết thêm thông tin về các mã, vui lòng xem mục <V31 Sequence of Events> trong pdf: https://crashstats.nhtsa.dot.gov/Api/Public/ViewPublication/812315",
+    "Yếu tố dữ liệu này xác định điểm va chạm, nếu có, trên phương tiện ô tô đang di chuyển này đã gây thiệt hại tài sản hoặc thương tích cá nhân trong sự kiện này. Để biết thêm thông tin về các mã, vui lòng xem phần <C18 Area of Impact Associated with the Event> trong tệp PDF: https://crashstats.nhtsa.dot.gov/Api/Public/ViewPublication/812315",
+    "Phần tử dữ liệu này xác định điểm va chạm, nếu có, trên chiếc xe ô tô đang di chuyển gây thiệt hại tài sản hoặc thương tích cá nhân trong sự kiện này. Để biết thêm thông tin về các mã, vui lòng xem phần <C18 Khu vực va chạm liên quan đến sự kiện> trong tệp pdf: https://crashstats.nhtsa.dot.gov/Api/Public/ViewPublication/812315"
+  ],
+  "sample_rows": [
+    {
+      "số trạng thái": 6,
+      "tên bang": "California",
+      "số liên tiếp": 60089,
+      "số xe": 2,
+      "số_sự_kiện_xe": 5,
+      "chuỗi_sự_kh": 8,
+      "Tên chuỗi sự kiện": "Pedestrian",
+      "Khu vực ảnh hưởng liên quan đến sự kiện": 13,
+      "khu_vuc_tac_dong_lien_quan_den_ten_su_kien": "Top"
+    },
+    {
+      "số trạng thái": 6,
+      "tên bang": "California",
+      "số liên tiếp": 63077,
+      "số xe": 1,
+      "số_sự_kiện_xe": 1,
+      "chuỗi_sự_kh": 8,
+      "Tên chuỗi sự kiện": "Pedestrian",
+      "Khu vực ảnh hưởng liên quan đến sự kiện": 13,
+      "khu_vuc_tac_dong_lien_quan_den_ten_su_kien": "Top"
+    },
+    {
+      "số trạng thái": 36,
+      "tên bang": "New York",
+      "số liên tiếp": 360374,
+      "số xe": 1,
+      "số_sự_kiện_xe": 5,
+      "chuỗi_sự_kh": 8,
+      "Tên chuỗi sự kiện": "Pedestrian",
+      "Khu vực ảnh hưởng liên quan đến sự kiện": 13,
+      "khu_vuc_tac_dong_lien_quan_den_ten_su_kien": "Top"
+    },
+    {
+      "số trạng thái": 39,
+      "tên bang": "Ohio",
+      "số liên tiếp": 390200,
+      "số xe": 1,
+      "số_sự_kiện_xe": 1,
+      "chuỗi_sự_kh": 8,
+      "Tên chuỗi sự kiện": "Pedestrian",
+      "Khu vực ảnh hưởng liên quan đến sự kiện": 13,
+      "khu_vuc_tac_dong_lien_quan_den_ten_su_kien": "Top"
+    },
+    {
+      "số trạng thái": 55,
+      "tên bang": "Wisconsin",
+      "số liên tiếp": 550479,
+      "số xe": 1,
+      "số_sự_kiện_xe": 3,
+      "chuỗi_sự_kh": 8,
+      "Tên chuỗi sự kiện": "Pedestrian",
+      "Khu vực ảnh hưởng liên quan đến sự kiện": 13,
+      "khu_vuc_tac_dong_lien_quan_den_ten_su_kien": "Top"
+    }
+  ]
+}
