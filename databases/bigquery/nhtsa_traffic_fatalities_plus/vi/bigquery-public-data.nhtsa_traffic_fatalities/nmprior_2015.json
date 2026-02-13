@@ -1,0 +1,96 @@
+{
+  "table_name": " nmprior_2015",
+  "table_fullname": "bigquery-public-data.nhtsa_traffic_fatalities. nmprior_2015",
+  "column_names": [
+    "số trạng thái",
+    "tên tiểu bang",
+    "số liên tiếp",
+    "Số xe",
+    "số người",
+    "điều kiện hành động của người không lái xe",
+    "Tên hoàn cảnh hành động người không lái xe"
+  ],
+  "column_types": [
+    "INT64",
+    "STRING",
+    "INT64",
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "số trạng thái",
+    "tên bang",
+    "số liên tiếp",
+    "số xe",
+    "Số người",
+    "Tình huống hành động của người không lái xe",
+    "Tên điều kiện hành động của người không lái xe"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "STRING",
+    "INT64",
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING"
+  ],
+  "description": [
+    "Phần tử dữ liệu này xác định bang nơi xảy ra vụ tai nạn. Các mã được lấy từ bản phát hành của Cơ quan Dịch vụ Chung (GSA) về Mã Vị trí Địa lý toàn cầu (GLC). Để biết thêm thông tin về các mã, vui lòng xem phần <C1/V1/D1/PC1/P1/NM1 State Number> trong tài liệu pdf: https://crashstats.nhtsa.dot.gov/Api/Public/ViewPublication/812315",
+    "Yếu tố dữ liệu này xác định bang nơi xảy ra tai nạn. Các mã được lấy từ ấn phẩm của Cục Dịch vụ Tổng hợp (GSA) về Mã Địa điểm Địa lý Toàn cầu (GLC).",
+    "Phần dữ liệu này là số vụ duy nhất được gán cho mỗi vụ tai nạn. Nó xuất hiện trên mỗi tệp dữ liệu và được dùng để gộp thông tin từ các tệp dữ liệu lại với nhau. xxxxxx Hai ký tự cho Mã Bang theo sau bởi bốn ký tự cho Số Vụ",
+    "Thành phần dữ liệu này là số thứ tự liên tiếp được gán cho mỗi phương tiện trong vụ án.  \nThành phần dữ liệu này xuất hiện trong từng tập tin dữ liệu cấp độ phương tiện và được sử dụng cùng với thành phần dữ liệu ST_CASE để hợp nhất thông tin từ các tập tin dữ liệu cấp độ phương tiện.  \n000-999 Số Ghi Nhận của Phương tiện Ô Tô",
+    "Yếu tố dữ liệu này là số liên tiếp được chỉ định cho mỗi người trong vụ việc (tức là mỗi người ngồi, người đi bộ hoặc người không điều khiển phương tiện tham gia vào vụ tai nạn). Yếu tố dữ liệu này xuất hiện trong mỗi tệp dữ liệu cấp độ cá nhân và được sử dụng kết hợp với yếu tố dữ liệu ST_CASE (và đôi khi với yếu tố dữ liệu VEH_NO) để hợp nhất thông tin từ các tệp dữ liệu cấp độ cá nhân. 001-999 Số Người Đã Gán",
+    "Phần dữ liệu này mô tả hành động của người không lái xe ngay trước khi họ tham gia vào vụ tai nạn. Để biết thêm thông tin về các mã, vui lòng xem phần <NM11 Hành động/Thành cảnh của Người không lái xe> trong tài liệu pdf: https://crashstats.nhtsa.dot.gov/Api/Public/ViewPublication/812315",
+    "Yếu tố dữ liệu này mô tả hành động của người không lái xe ngay trước khi họ tham gia vào vụ tai nạn."
+  ],
+  "sample_rows": [
+    {
+      "số trạng thái": 13,
+      "tên bang": "Georgia",
+      "số liên tiếp": 130830,
+      "số xe": 0,
+      "Số người": 1,
+      "Tình huống hành động của người không lái xe": 1,
+      "Tên điều kiện hành động của người không lái xe": "Going To or From School (K-12)"
+    },
+    {
+      "số trạng thái": 20,
+      "tên bang": "Kansas",
+      "số liên tiếp": 200273,
+      "số xe": 0,
+      "Số người": 1,
+      "Tình huống hành động của người không lái xe": 1,
+      "Tên điều kiện hành động của người không lái xe": "Going To or From School (K-12)"
+    },
+    {
+      "số trạng thái": 21,
+      "tên bang": "Kentucky",
+      "số liên tiếp": 210469,
+      "số xe": 0,
+      "Số người": 1,
+      "Tình huống hành động của người không lái xe": 1,
+      "Tên điều kiện hành động của người không lái xe": "Going To or From School (K-12)"
+    },
+    {
+      "số trạng thái": 49,
+      "tên bang": "Utah",
+      "số liên tiếp": 490258,
+      "số xe": 0,
+      "Số người": 1,
+      "Tình huống hành động của người không lái xe": 1,
+      "Tên điều kiện hành động của người không lái xe": "Going To or From School (K-12)"
+    },
+    {
+      "số trạng thái": 56,
+      "tên bang": "Wyoming",
+      "số liên tiếp": 560042,
+      "số xe": 0,
+      "Số người": 1,
+      "Tình huống hành động của người không lái xe": 1,
+      "Tên điều kiện hành động của người không lái xe": "Going To or From School (K-12)"
+    }
+  ]
+}
