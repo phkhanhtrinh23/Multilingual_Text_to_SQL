@@ -1,0 +1,121 @@
+{
+  "table_name": "wind_reports",
+  "table_fullname": "bigquery-public-data.noaa_historic_severe_storms.wind_reports",
+  "column_names": [
+    "thời gian",
+    "thời gian",
+    "tốc độ",
+    "Vị trí",
+    "hạt",
+    "trạng thái",
+    "vĩ độ",
+    "kinh độ",
+    "bình luận",
+    "điểm báo cáo"
+  ],
+  "column_types": [
+    "TIMESTAMP",
+    "STRING",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "FLOAT64",
+    "STRING",
+    "GEOGRAPHY"
+  ],
+  "nested_column_names": [
+    "điểm thời gian",
+    "thời gian",
+    "tốc độ",
+    "địa điểm",
+    "hạt",
+    "trạng thái",
+    "kinh độ",
+    "kinh độ",
+    "bình luận",
+    "điểm báo cáo"
+  ],
+  "nested_column_types": [
+    "TIMESTAMP",
+    "STRING",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "FLOAT64",
+    "STRING",
+    "GEOGRAPHY"
+  ],
+  "description": [
+    "Mốc thời gian theo UTC",
+    "Giờ UTC",
+    "Tốc độ tính bằng Miles per hour",
+    "Vị trí của báo cáo",
+    "",
+    "",
+    "Vĩ độ đến hai chữ số thập phân",
+    "Kinh độ đến hai chữ số thập phân",
+    "",
+    ""
+  ],
+  "sample_rows": [
+    {
+      "điểm thời gian": "2019-01-19 20:17:00+00:00",
+      "thời gian": "2017",
+      "tốc độ": null,
+      "địa điểm": "3 NNW BOOTH",
+      "hạt": "AUTAUGA",
+      "trạng thái": "AL",
+      "kinh độ": -86.6,
+      "bình luận": "DAMAGE TO A MOBILE HOME REPORTED BY EMA. PROBABLE TORNADO. (BMX)",
+      "điểm báo cáo": "POINT(-86.6 32.54)"
+    },
+    {
+      "điểm thời gian": "2019-02-12 16:36:00+00:00",
+      "thời gian": "1636",
+      "tốc độ": null,
+      "địa điểm": "PRATTVILLE",
+      "hạt": "AUTAUGA",
+      "trạng thái": "AL",
+      "kinh độ": -86.45,
+      "bình luận": "CORRECTS PREVIOUS TSTM WND DMG REPORT FROM PRATTVILLE. 5 TREES WERE SNAPPED OFF IN THE CAMELLIA ESTATES NEIGHBORHOOD IN PRATTVILLE. AT LEAST ONE RESIDENCE SUSTAINED ROO (BMX)",
+      "điểm báo cáo": "POINT(-86.45 32.46)"
+    },
+    {
+      "điểm thời gian": "2019-03-03 19:25:00+00:00",
+      "thời gian": "1925",
+      "tốc độ": null,
+      "địa điểm": "4 NNW AUTAUGAVILLE",
+      "hạt": "AUTAUGA",
+      "trạng thái": "AL",
+      "kinh độ": -86.69,
+      "bình luận": "TREES DOWN ALONG CR 19 NORTH OF AUTAUGAVILLE. (BMX)",
+      "điểm báo cáo": "POINT(-86.69 32.49)"
+    },
+    {
+      "điểm thời gian": "2019-06-26 03:15:00+00:00",
+      "thời gian": "0315",
+      "tốc độ": null,
+      "địa điểm": "1 E PRATTVILLE",
+      "hạt": "AUTAUGA",
+      "trạng thái": "AL",
+      "kinh độ": -86.43,
+      "bình luận": "TREE DOWN ON SUMMER LN. WINDS ESTIMATED AT 40-50 MPH AS SUGGESTED BY RADAR AND NEARBY SURFACE OB AT K1A9. (BMX)",
+      "điểm báo cáo": "POINT(-86.43 32.46)"
+    },
+    {
+      "điểm thời gian": "2019-04-19 00:33:00+00:00",
+      "thời gian": "0033",
+      "tốc độ": null,
+      "địa điểm": "SEMINOLE",
+      "hạt": "BALDWIN",
+      "trạng thái": "AL",
+      "kinh độ": -87.47,
+      "bình luận": "REPORTS OF DOWNED POWER LINES NEAR SEMINOLE. TIME ESTIMATED BY RADAR. (MOB)",
+      "điểm báo cáo": "POINT(-87.47 30.52)"
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "table_name": "wind_reports",
+  "table_fullname": "bigquery-public-data.noaa_historic_severe_storms.wind_reports",
+  "column_names": [
+    "marca de tiempo",
+    "tiempo",
+    "velocidad",
+    "ubicación",
+    "condado",
+    "estado",
+    "latitud",
+    "longitud",
+    "Comentarios",
+    "punto de informe"
+  ],
+  "column_types": [
+    "TIMESTAMP",
+    "STRING",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "FLOAT64",
+    "STRING",
+    "GEOGRAPHY"
+  ],
+  "nested_column_names": [
+    "marca de tiempo",
+    "tiempo",
+    "velocidad",
+    "ubicación",
+    "condado",
+    "estado",
+    "latitud",
+    "longitud",
+    "comentarios",
+    "punto de informe"
+  ],
+  "nested_column_types": [
+    "TIMESTAMP",
+    "STRING",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "FLOAT64",
+    "STRING",
+    "GEOGRAPHY"
+  ],
+  "description": [
+    "Marca de tiempo en UTC",
+    "Hora en UTC",
+    "Velocidad en millas por hora",
+    "Ubicación del informe",
+    "",
+    "",
+    "Latitud a dos decimales",
+    "Longitud con dos decimales",
+    "",
+    ""
+  ],
+  "sample_rows": [
+    {
+      "marca de tiempo": "2019-01-19 20:17:00+00:00",
+      "tiempo": "2017",
+      "velocidad": null,
+      "ubicación": "3 NNW BOOTH",
+      "condado": "AUTAUGA",
+      "estado": "AL",
+      "latitud": 32.54,
+      "longitud": -86.6,
+      "comentarios": "DAMAGE TO A MOBILE HOME REPORTED BY EMA. PROBABLE TORNADO. (BMX)",
+      "punto de informe": "POINT(-86.6 32.54)"
+    },
+    {
+      "marca de tiempo": "2019-02-12 16:36:00+00:00",
+      "tiempo": "1636",
+      "velocidad": null,
+      "ubicación": "PRATTVILLE",
+      "condado": "AUTAUGA",
+      "estado": "AL",
+      "latitud": 32.46,
+      "longitud": -86.45,
+      "comentarios": "CORRECTS PREVIOUS TSTM WND DMG REPORT FROM PRATTVILLE. 5 TREES WERE SNAPPED OFF IN THE CAMELLIA ESTATES NEIGHBORHOOD IN PRATTVILLE. AT LEAST ONE RESIDENCE SUSTAINED ROO (BMX)",
+      "punto de informe": "POINT(-86.45 32.46)"
+    },
+    {
+      "marca de tiempo": "2019-03-03 19:25:00+00:00",
+      "tiempo": "1925",
+      "velocidad": null,
+      "ubicación": "4 NNW AUTAUGAVILLE",
+      "condado": "AUTAUGA",
+      "estado": "AL",
+      "latitud": 32.49,
+      "longitud": -86.69,
+      "comentarios": "TREES DOWN ALONG CR 19 NORTH OF AUTAUGAVILLE. (BMX)",
+      "punto de informe": "POINT(-86.69 32.49)"
+    },
+    {
+      "marca de tiempo": "2019-06-26 03:15:00+00:00",
+      "tiempo": "0315",
+      "velocidad": null,
+      "ubicación": "1 E PRATTVILLE",
+      "condado": "AUTAUGA",
+      "estado": "AL",
+      "latitud": 32.46,
+      "longitud": -86.43,
+      "comentarios": "TREE DOWN ON SUMMER LN. WINDS ESTIMATED AT 40-50 MPH AS SUGGESTED BY RADAR AND NEARBY SURFACE OB AT K1A9. (BMX)",
+      "punto de informe": "POINT(-86.43 32.46)"
+    },
+    {
+      "marca de tiempo": "2019-04-19 00:33:00+00:00",
+      "tiempo": "0033",
+      "velocidad": null,
+      "ubicación": "SEMINOLE",
+      "condado": "BALDWIN",
+      "estado": "AL",
+      "latitud": 30.52,
+      "longitud": -87.47,
+      "comentarios": "REPORTS OF DOWNED POWER LINES NEAR SEMINOLE. TIME ESTIMATED BY RADAR. (MOB)",
+      "punto de informe": "POINT(-87.47 30.52)"
+    }
+  ]
+}
