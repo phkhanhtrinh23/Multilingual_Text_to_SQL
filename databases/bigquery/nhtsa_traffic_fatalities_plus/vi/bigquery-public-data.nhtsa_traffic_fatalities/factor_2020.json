@@ -1,0 +1,86 @@
+{
+  "table_name": " factor_2020",
+  "table_fullname": "bigquery-public-data.nhtsa_traffic_fatalities. factor_2020",
+  "column_names": [
+    "Số trạng thái",
+    "tên bang",
+    "số liên tiếp",
+    "số xe",
+    "điều kiện góp phần xe cơ giới",
+    "Tên phương tiện liên quan"
+  ],
+  "column_types": [
+    "INT64",
+    "STRING",
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "số_trạng_thái",
+    "tên bang",
+    "số liên tiếp",
+    "số xe",
+    "điều kiện góp phần xe cơ giới",
+    "Tên xe cộ góp phần"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "STRING",
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING"
+  ],
+  "description": [
+    "Phần tử dữ liệu này xác định bang nơi xảy ra tai nạn. Các mã được lấy từ ấn phẩm của Cơ quan Dịch vụ Tổng hợp (GSA) về Mã Vị trí Địa lý Toàn cầu (GLC). Để biết thêm thông tin về các mã, vui lòng xem mục <C1/V1/D1/PC1/P1/NM1 State Number> trong tệp pdf: https://crashstats.nhtsa.dot.gov/Api/Public/ViewPublication/812315",
+    "Yếu tố dữ liệu này xác định bang nơi tai nạn đã xảy ra. Các mã được lấy từ ấn phẩm của Cục Dịch vụ Chung (GSA) về Mã Địa điểm Địa lý Toàn cầu (GLC).",
+    "Phần tử dữ liệu này là số trường hợp duy nhất được gán cho mỗi vụ tai nạn. Nó xuất hiện trong mỗi tệp dữ liệu và được sử dụng để hợp nhất thông tin từ các tệp dữ liệu với nhau. xxxxxx Hai ký tự cho Mã Bang, tiếp theo bốn ký tự cho Số Trường hợp",
+    "Phần tử dữ liệu này là số liên tiếp được gán cho mỗi phương tiện trong trường hợp. Phần tử dữ liệu này xuất hiện trong mỗi tệp dữ liệu cấp độ phương tiện và được sử dụng cùng với phần tử dữ liệu ST_CASE để hợp nhất thông tin từ các tệp dữ liệu cấp độ phương tiện. 000-999 Số đã được gán của xe ô tô",
+    "Phần tử dữ liệu này mô tả các lỗi hoặc điều kiện bảo dưỡng có thể đã tồn tại trước đây của xe có thể đã góp phần vào vụ tai nạn. Để biết thêm thông tin về các mã, vui lòng xem phần <PC4 Tình huống có phần góp phần, Xe hơi> trong file pdf: https://crashstats.nhtsa.dot.gov/Api/Public/ViewPublication/812315",
+    "Phần dữ liệu này mô tả những khuyết tật hoặc điều kiện bảo trì có sẵn trước đó của phương tiện này có thể đã góp phần vào vụ tai nạn."
+  ],
+  "sample_rows": [
+    {
+      "số_trạng_thái": 1,
+      "tên bang": "Alabama",
+      "số liên tiếp": 10049,
+      "số xe": 5,
+      "điều kiện góp phần xe cơ giới": 0,
+      "Tên xe cộ góp phần": "None Noted"
+    },
+    {
+      "số_trạng_thái": 1,
+      "tên bang": "Alabama",
+      "số liên tiếp": 10106,
+      "số xe": 5,
+      "điều kiện góp phần xe cơ giới": 0,
+      "Tên xe cộ góp phần": "None Noted"
+    },
+    {
+      "số_trạng_thái": 1,
+      "tên bang": "Alabama",
+      "số liên tiếp": 10367,
+      "số xe": 5,
+      "điều kiện góp phần xe cơ giới": 0,
+      "Tên xe cộ góp phần": "None Noted"
+    },
+    {
+      "số_trạng_thái": 1,
+      "tên bang": "Alabama",
+      "số liên tiếp": 10571,
+      "số xe": 5,
+      "điều kiện góp phần xe cơ giới": 0,
+      "Tên xe cộ góp phần": "None Noted"
+    },
+    {
+      "số_trạng_thái": 1,
+      "tên bang": "Alabama",
+      "số liên tiếp": 10572,
+      "số xe": 5,
+      "điều kiện góp phần xe cơ giới": 0,
+      "Tên xe cộ góp phần": "None Noted"
+    }
+  ]
+}
