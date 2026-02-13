@@ -1,0 +1,96 @@
+{
+  "table_name": " nmcrash_2018",
+  "table_fullname": "bigquery-public-data.nhtsa_traffic_fatalities. nmcrash_2018",
+  "column_names": [
+    "Số trạng thái",
+    "tên bang",
+    "số liên tiếp",
+    "số xe",
+    "Số người",
+    "điều kiện góp phần của người không lái xe",
+    "Tên hoàn cảnh góp phần của người không lái xe"
+  ],
+  "column_types": [
+    "INT64",
+    "STRING",
+    "INT64",
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "Số trạng thái",
+    "tên bang",
+    "số liên tiếp",
+    "Số xe",
+    "số người",
+    "điều kiện góp phần của người không lái xe",
+    "Tên các tình huống góp phần của người không lái xe"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "STRING",
+    "INT64",
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING"
+  ],
+  "description": [
+    "Phần tử dữ liệu này xác định bang nơi vụ tai nạn xảy ra. Các mã được lấy từ ấn phẩm của Cơ quan Dịch vụ Tổng hợp (GSA) về Mã Địa điểm Địa lý Toàn cầu (GLC). Để biết thêm thông tin về các mã, vui lòng xem mục <C1/V1/D1/PC1/P1/NM1 State Number> trong tài liệu PDF: https://crashstats.nhtsa.dot.gov/Api/Public/ViewPublication/812315",
+    "Phần tử dữ liệu này xác định bang nơi tai nạn xảy ra. Các mã được lấy từ ấn phẩm của Cục Dịch vụ Tổng quát (GSA) về Mã Vị trí Địa lý Toàn cầu (GLC).",
+    "Phần tử dữ liệu này là số trường hợp duy nhất được gán cho mỗi vụ tai nạn.  \nNó xuất hiện trong từng tập tin dữ liệu và được sử dụng để kết hợp thông tin từ các tập tin dữ liệu lại với nhau.  \nxxxxxx Hai ký tự cho Mã Bang theo sau bởi Bốn ký tự cho Số trường hợp",
+    "Yếu tố dữ liệu này là số thứ tự liên tiếp được gán cho mỗi phương tiện trong trường hợp. Yếu tố dữ liệu này xuất hiện trong mỗi tệp dữ liệu cấp phương tiện và được sử dụng kết hợp với yếu tố dữ liệu ST_CASE để hợp nhất thông tin từ các tệp dữ liệu cấp phương tiện. 000-999 Số được gán cho phương tiện",
+    "Phần tử dữ liệu này là số thứ tự liên tiếp được gán cho mỗi người trong vụ việc (tức là mỗi cư dân, người đi bộ hoặc người không lái xe tham gia vụ tai nạn). Phần tử dữ liệu này xuất hiện trên mỗi tệp dữ liệu cấp cá nhân và được sử dụng kết hợp với phần tử dữ liệu ST_CASE (và đôi khi phần tử dữ liệu VEH_NO) để kết hợp thông tin từ các tệp dữ liệu cấp cá nhân. 001-999 Số người đã được gán",
+    "Phần tử dữ liệu này mô tả hành động và/hoặc hoàn cảnh của người không lái xe này mà cơ quan thực thi pháp luật cho rằng có thể đã góp phần vào tai nạn. Để biết thêm thông tin về các mã, vui lòng xem phần <NM12 Non-Motorist Contributing Circumstances> trong tệp pdf: https://crashstats.nhtsa.dot.gov/Api/Public/ViewPublication/812315",
+    "Thành phần dữ liệu này mô tả hành động và/hoặc hoàn cảnh của người không lái xe mà lực lượng công an đã chỉ ra có thể đã góp phần vào vụ tai nạn."
+  ],
+  "sample_rows": [
+    {
+      "Số trạng thái": 1,
+      "tên bang": "Alabama",
+      "số liên tiếp": 10006,
+      "Số xe": 0,
+      "số người": 1,
+      "điều kiện góp phần của người không lái xe": 0,
+      "Tên các tình huống góp phần của người không lái xe": "None Noted"
+    },
+    {
+      "Số trạng thái": 1,
+      "tên bang": "Alabama",
+      "số liên tiếp": 10008,
+      "Số xe": 0,
+      "số người": 1,
+      "điều kiện góp phần của người không lái xe": 0,
+      "Tên các tình huống góp phần của người không lái xe": "None Noted"
+    },
+    {
+      "Số trạng thái": 1,
+      "tên bang": "Alabama",
+      "số liên tiếp": 10080,
+      "Số xe": 0,
+      "số người": 1,
+      "điều kiện góp phần của người không lái xe": 0,
+      "Tên các tình huống góp phần của người không lái xe": "None Noted"
+    },
+    {
+      "Số trạng thái": 1,
+      "tên bang": "Alabama",
+      "số liên tiếp": 10113,
+      "Số xe": 0,
+      "số người": 1,
+      "điều kiện góp phần của người không lái xe": 0,
+      "Tên các tình huống góp phần của người không lái xe": "None Noted"
+    },
+    {
+      "Số trạng thái": 1,
+      "tên bang": "Alabama",
+      "số liên tiếp": 10115,
+      "Số xe": 0,
+      "số người": 1,
+      "điều kiện góp phần của người không lái xe": 0,
+      "Tên các tình huống góp phần của người không lái xe": "None Noted"
+    }
+  ]
+}
