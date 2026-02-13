@@ -1,0 +1,86 @@
+{
+  "table_name": " damage_2017",
+  "table_fullname": "bigquery-public-data.nhtsa_traffic_fatalities. damage_2017",
+  "column_names": [
+    "số trạng thái",
+    "tên bang",
+    "số liên tiếp",
+    "số xe",
+    "vùng thiệt hại",
+    "tên vùng hư tổn"
+  ],
+  "column_types": [
+    "INT64",
+    "STRING",
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "số_trạng_thái",
+    "tên bang",
+    "số liên tiếp",
+    "số xe",
+    "Khu vực hư hỏng",
+    "Tên vùng bị hư hỏng"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "STRING",
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING"
+  ],
+  "description": [
+    "Thành phần dữ liệu này xác định bang nơi tai nạn đã xảy ra. Các mã được lấy từ bản phát hành của Quản lý Dịch vụ Tổng quát (GSA) về Mã Địa điểm Địa lý Toàn cầu (GLC). Để biết thêm thông tin về các mã, vui lòng xem phần <C1/V1/D1/PC1/P1/NM1 State Number> trong tài liệu PDF: https://crashstats.nhtsa.dot.gov/Api/Public/ViewPublication/812315",
+    "Thành phần dữ liệu này xác định bang nơi xảy ra tai nạn. Các mã được lấy từ tài liệu của Tổng cục Dịch vụ Công (GSA) về Mã Vị trí Địa lý Toàn cầu (GLC).",
+    "Phần tử dữ liệu này là số vụ duy nhất được gán cho mỗi vụ tai nạn.  \nNó xuất hiện trên mỗi tệp dữ liệu và được dùng để hợp nhất thông tin từ các tệp dữ liệu với nhau.  \nxxxxxx Hai ký tự cho mã bang theo sau là bốn ký tự cho số vụ.",
+    "Yếu tố dữ liệu này là số thứ tự liên tiếp được gán cho mỗi phương tiện trong vụ án. Yếu tố dữ liệu này xuất hiện trên mỗi tệp dữ liệu cấp phương tiện và được sử dụng kết hợp với yếu tố dữ liệu ST_CASE để hợp nhất thông tin từ các tệp dữ liệu cấp phương tiện. 000-999 Số đã gán của phương tiện giao thông",
+    "Yếu tố dữ liệu này xác định tất cả các khu vực trên phương tiện này đã bị hư hỏng trong vụ va chạm như được phản ánh trong tài liệu vụ việc. 1-12 Các điểm giờ 13 Đỉnh 14 Phần dưới 15 Không hư hỏng 99 Không xác định",
+    "Yếu tố dữ liệu này xác định tất cả các khu vực trên phương tiện này đã bị hư hỏng trong vụ tai nạn như được phản ánh trong tài liệu vụ việc."
+  ],
+  "sample_rows": [
+    {
+      "số_trạng_thái": 4,
+      "tên bang": "Arizona",
+      "số liên tiếp": 40715,
+      "số xe": 6,
+      "Khu vực hư hỏng": 15,
+      "Tên vùng bị hư hỏng": "No Damage"
+    },
+    {
+      "số_trạng_thái": 4,
+      "tên bang": "Arizona",
+      "số liên tiếp": 40715,
+      "số xe": 9,
+      "Khu vực hư hỏng": 15,
+      "Tên vùng bị hư hỏng": "No Damage"
+    },
+    {
+      "số_trạng_thái": 4,
+      "tên bang": "Arizona",
+      "số liên tiếp": 40715,
+      "số xe": 10,
+      "Khu vực hư hỏng": 15,
+      "Tên vùng bị hư hỏng": "No Damage"
+    },
+    {
+      "số_trạng_thái": 4,
+      "tên bang": "Arizona",
+      "số liên tiếp": 40715,
+      "số xe": 11,
+      "Khu vực hư hỏng": 15,
+      "Tên vùng bị hư hỏng": "No Damage"
+    },
+    {
+      "số_trạng_thái": 6,
+      "tên bang": "California",
+      "số liên tiếp": 60018,
+      "số xe": 5,
+      "Khu vực hư hỏng": 15,
+      "Tên vùng bị hư hỏng": "No Damage"
+    }
+  ]
+}
