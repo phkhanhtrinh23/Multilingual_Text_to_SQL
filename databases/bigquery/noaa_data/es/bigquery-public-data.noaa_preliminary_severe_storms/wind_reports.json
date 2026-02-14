@@ -1,0 +1,126 @@
+{
+  "table_name": "wind_reports",
+  "table_fullname": "bigquery-public-data.noaa_preliminary_severe_storms.wind_reports",
+  "column_names": [
+    "marca de tiempo",
+    "tiempo",
+    "velocidad",
+    "ubicación",
+    "condado",
+    "estado",
+    "latitud",
+    "longitud",
+    "comentarios",
+    "punto de reporte"
+  ],
+  "column_types": [
+    "TIMESTAMP",
+    "STRING",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "FLOAT64",
+    "STRING",
+    "GEOGRAPHY"
+  ],
+  "nested_column_names": [
+    "marca de tiempo",
+    "tiempo",
+    "velocidad",
+    "Ubicación",
+    "condado",
+    "estado",
+    "latitud",
+    "longitud",
+    "comentarios",
+    "punto de reporte"
+  ],
+  "nested_column_types": [
+    "TIMESTAMP",
+    "STRING",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "FLOAT64",
+    "STRING",
+    "GEOGRAPHY"
+  ],
+  "description": [
+    "Marca de tiempo en UTC",
+    "Hora en UTC",
+    "Velocidad en millas por hora",
+    "Ubicación del informe",
+    "",
+    "",
+    "Latitud a dos decimales",
+    "Longitud a dos decimales",
+    "",
+    ""
+  ],
+  "sample_rows": [
+    {
+      "marca de tiempo": "2019-01-19 22:54:00+00:00",
+      "tiempo": "2254",
+      "velocidad": null,
+      "Ubicación": "2 N CRAWFORD",
+      "condado": "LEE",
+      "estado": "AL",
+      "latitud": 32.49,
+      "longitud": -85.18,
+      "comentarios": "TREES DOWN NEAR THE INTERSECTION OF LEE RD 440 AND LEE RD 179. ALSO REPORT OF TREES DOWN JUST TO THE EAST NEAR THE INTERSECTION OF LEE RD 240 AND LEE RD 212. TIME ESTIM (BMX)",
+      "punto de reporte": "POINT(-85.18 32.49)"
+    },
+    {
+      "marca de tiempo": "2019-02-12 18:11:00+00:00",
+      "tiempo": "1811",
+      "velocidad": null,
+      "Ubicación": "3 SW MONTEREY HEIGHTS",
+      "condado": "LEE",
+      "estado": "AL",
+      "latitud": 32.49,
+      "longitud": -85.13,
+      "comentarios": "REPORTS OF TREES DOWN IN VARIOUS LOCATIONS IN EASTERN LEE COUNTY FROM BOWING STORM SEGMENT. TIME ESTIMATED. (BMX)",
+      "punto de reporte": "POINT(-85.13 32.49)"
+    },
+    {
+      "marca de tiempo": "2019-03-03 20:22:00+00:00",
+      "tiempo": "2022",
+      "velocidad": null,
+      "Ubicación": "SMITH'S STATION",
+      "condado": "LEE",
+      "estado": "AL",
+      "latitud": 32.6,
+      "longitud": -85.24,
+      "comentarios": "CORRECTS PREVIOUS TORNADO REPORT FROM SALEM. US HWY 280 BLOCKED BY DOWNED CELL TOWER ACROSS HWY. (BMX)",
+      "punto de reporte": "POINT(-85.24 32.6)"
+    },
+    {
+      "marca de tiempo": "2019-03-26 00:13:00+00:00",
+      "tiempo": "0013",
+      "velocidad": null,
+      "Ubicación": "1 NNW SMITHS STATION",
+      "condado": "LEE",
+      "estado": "AL",
+      "latitud": 32.55,
+      "longitud": -85.1,
+      "comentarios": "A TREE WAS DOWNED ONTO A HOME. (BMX)",
+      "punto de reporte": "POINT(-85.1 32.55)"
+    },
+    {
+      "marca de tiempo": "2019-06-07 17:56:00+00:00",
+      "tiempo": "1756",
+      "velocidad": null,
+      "Ubicación": "1 SSE ROBERT G. PITTS A",
+      "condado": "LEE",
+      "estado": "AL",
+      "latitud": 32.6,
+      "longitud": -85.42,
+      "comentarios": "TREE DOWN ON A HOME. TIME ESTIMATED FROM RADAR. (BMX)",
+      "punto de reporte": "POINT(-85.42 32.6)"
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "table_name": "wind_reports",
+  "table_fullname": "bigquery-public-data.noaa_preliminary_severe_storms.wind_reports",
+  "column_names": [
+    "thời điểm",
+    "thời gian",
+    "tốc độ",
+    "Địa điểm",
+    "quận",
+    "Bang",
+    "vĩ độ",
+    "kinh độ",
+    "bình luận",
+    "điểm báo cáo"
+  ],
+  "column_types": [
+    "TIMESTAMP",
+    "STRING",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "FLOAT64",
+    "STRING",
+    "GEOGRAPHY"
+  ],
+  "nested_column_names": [
+    "mốc thời gian",
+    "Thời gian",
+    "tốc độ",
+    "Địa điểm",
+    "quận",
+    "Trạng thái",
+    "vĩ độ",
+    "độ kinh độ",
+    "Bình luận",
+    "điểm báo cáo"
+  ],
+  "nested_column_types": [
+    "TIMESTAMP",
+    "STRING",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "FLOAT64",
+    "STRING",
+    "GEOGRAPHY"
+  ],
+  "description": [
+    "Mốc thời gian trong UTC",
+    "Giờ UTC",
+    "Tốc độ (đơn vị Miles per hour)",
+    "Vị trí của báo cáo",
+    "",
+    "",
+    "Vĩ độ tới hai chữ số thập phân",
+    "Kinh độ tới hai chữ số thập phân",
+    "",
+    ""
+  ],
+  "sample_rows": [
+    {
+      "mốc thời gian": "2019-01-19 22:54:00+00:00",
+      "Thời gian": "2254",
+      "tốc độ": null,
+      "Địa điểm": "2 N CRAWFORD",
+      "quận": "LEE",
+      "Trạng thái": "AL",
+      "vĩ độ": 32.49,
+      "độ kinh độ": -85.18,
+      "Bình luận": "TREES DOWN NEAR THE INTERSECTION OF LEE RD 440 AND LEE RD 179. ALSO REPORT OF TREES DOWN JUST TO THE EAST NEAR THE INTERSECTION OF LEE RD 240 AND LEE RD 212. TIME ESTIM (BMX)",
+      "điểm báo cáo": "POINT(-85.18 32.49)"
+    },
+    {
+      "mốc thời gian": "2019-02-12 18:11:00+00:00",
+      "Thời gian": "1811",
+      "tốc độ": null,
+      "Địa điểm": "3 SW MONTEREY HEIGHTS",
+      "quận": "LEE",
+      "Trạng thái": "AL",
+      "vĩ độ": 32.49,
+      "độ kinh độ": -85.13,
+      "Bình luận": "REPORTS OF TREES DOWN IN VARIOUS LOCATIONS IN EASTERN LEE COUNTY FROM BOWING STORM SEGMENT. TIME ESTIMATED. (BMX)",
+      "điểm báo cáo": "POINT(-85.13 32.49)"
+    },
+    {
+      "mốc thời gian": "2019-03-03 20:22:00+00:00",
+      "Thời gian": "2022",
+      "tốc độ": null,
+      "Địa điểm": "SMITH'S STATION",
+      "quận": "LEE",
+      "Trạng thái": "AL",
+      "vĩ độ": 32.6,
+      "độ kinh độ": -85.24,
+      "Bình luận": "CORRECTS PREVIOUS TORNADO REPORT FROM SALEM. US HWY 280 BLOCKED BY DOWNED CELL TOWER ACROSS HWY. (BMX)",
+      "điểm báo cáo": "POINT(-85.24 32.6)"
+    },
+    {
+      "mốc thời gian": "2019-03-26 00:13:00+00:00",
+      "Thời gian": "0013",
+      "tốc độ": null,
+      "Địa điểm": "1 NNW SMITHS STATION",
+      "quận": "LEE",
+      "Trạng thái": "AL",
+      "vĩ độ": 32.55,
+      "độ kinh độ": -85.1,
+      "Bình luận": "A TREE WAS DOWNED ONTO A HOME. (BMX)",
+      "điểm báo cáo": "POINT(-85.1 32.55)"
+    },
+    {
+      "mốc thời gian": "2019-06-07 17:56:00+00:00",
+      "Thời gian": "1756",
+      "tốc độ": null,
+      "Địa điểm": "1 SSE ROBERT G. PITTS A",
+      "quận": "LEE",
+      "Trạng thái": "AL",
+      "vĩ độ": 32.6,
+      "độ kinh độ": -85.42,
+      "Bình luận": "TREE DOWN ON A HOME. TIME ESTIMATED FROM RADAR. (BMX)",
+      "điểm báo cáo": "POINT(-85.42 32.6)"
+    }
+  ]
+}
