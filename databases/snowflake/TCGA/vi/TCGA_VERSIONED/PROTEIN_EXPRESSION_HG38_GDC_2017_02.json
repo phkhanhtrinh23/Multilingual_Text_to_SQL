@@ -1,0 +1,110 @@
+{
+  "table_name": "PROTEIN_EXPRESSION_HG38_GDC_2017_02",
+  "table_fullname": "TCGA.TCGA_VERSIONED.PROTEIN_EXPRESSION_HG38_GDC_2017_02",
+  "column_names": [
+    "Tên ngắn",
+    "tên protein",
+    "mã vạch mẫu",
+    "trạng thái xác thực",
+    "tên protein cơ bản",
+    "phốt pho",
+    "mã vạch hồ sơ",
+    "nguồn kháng thể",
+    "định lượng protein",
+    "tên_gen",
+    "mã vạch aliquot"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "FLOAT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Viết tắt tên dự án; tên chương trình được nối với viết tắt tên dự án; ví dụ: TCGA-OV, v.v.",
+    "Biểu tượng protein với trạng thái phosphoryl hóa, ví dụ ACC_pS79",
+    "Bảng mã mẫu TCGA, ví dụ TCGA-12-1089-01A. Một mẫu có thể có nhiều bộ phân đoạn CN tương ứng với nhiều mẫu cắt; hãy sử dụng GROUP BY thích hợp trong truy vấn.",
+    "Tình trạng xác nhận kháng thể qua sự tương quan dữ liệu RPPA với Western blot, V E C (https://bioinformatics.mdanderson.org/public-software/mclp/)",
+    "Tên protein, ví dụ AR, MAPK",
+    "Nếu kháng thể nhắm mục tiêu vào một protein đã được fosphoryl hóa, trường này sẽ chứa thông tin đó, ví dụ pS473 -- nếu không, trường này sẽ là null",
+    "Mã vạch trường hợp TCGA gốc, ví dụ: TCGA-DX-A8BN",
+    "Động vật nguồn gốc cho kháng thể M (Chuột), R (Thỏ), G (Dê)",
+    "Mức độ biểu hiện của protein được đo bằng mảng protein pha ngược.  \nhttps://bioinformatics.mdanderson.org/public-software/tcpa/",
+    "Tên gene, ví dụ: TTN, DDR1, v.v.",
+    "Mã vạch aliquot TCGA, ví dụ TCGA-12-1089-01A-01D-0517-30"
+  ],
+  "sample_rows": [
+    {
+      "Tên ngắn": "TCGA-CHOL",
+      "mã vạch hồ sơ": "TCGA-W5-AA2Q",
+      "mã vạch mẫu": "TCGA-W5-AA2Q-01A",
+      "mã vạch aliquot": "TCGA-W5-AA2Q-01A-21-A45N-20",
+      "tên_gen": "AR",
+      "tên protein cơ bản": "AR",
+      "phốt pho": null,
+      "tên protein": "AR",
+      "định lượng protein": -0.000939914500000028,
+      "nguồn kháng thể": "R",
+      "trạng thái xác thực": "V"
+    },
+    {
+      "Tên ngắn": "TCGA-DLBC",
+      "mã vạch hồ sơ": "TCGA-FA-A4BB",
+      "mã vạch mẫu": "TCGA-FA-A4BB-01A",
+      "mã vạch aliquot": "TCGA-FA-A4BB-01A-21-A45K-20",
+      "tên_gen": "AR",
+      "tên protein cơ bản": "AR",
+      "phốt pho": null,
+      "tên protein": "AR",
+      "định lượng protein": -0.220865179,
+      "nguồn kháng thể": "R",
+      "trạng thái xác thực": "V"
+    },
+    {
+      "Tên ngắn": "TCGA-CHOL",
+      "mã vạch hồ sơ": "TCGA-ZH-A8Y5",
+      "mã vạch mẫu": "TCGA-ZH-A8Y5-01A",
+      "mã vạch aliquot": "TCGA-ZH-A8Y5-01A-21-A45N-20",
+      "tên_gen": "AR",
+      "tên protein cơ bản": "AR",
+      "phốt pho": null,
+      "tên protein": "AR",
+      "định lượng protein": -0.0669507032500001,
+      "nguồn kháng thể": "R",
+      "trạng thái xác thực": "V"
+    },
+    {
+      "Tên ngắn": "TCGA-CHOL",
+      "mã vạch hồ sơ": "TCGA-ZH-A8Y8",
+      "mã vạch mẫu": "TCGA-ZH-A8Y8-01A",
+      "mã vạch aliquot": "TCGA-ZH-A8Y8-01A-41-A45N-20",
+      "tên_gen": "AR",
+      "tên protein cơ bản": "AR",
+      "phốt pho": null,
+      "tên protein": "AR",
+      "định lượng protein": -0.0626679845,
+      "nguồn kháng thể": "R",
+      "trạng thái xác thực": "V"
+    },
+    {
+      "Tên ngắn": "TCGA-CHOL",
+      "mã vạch hồ sơ": "TCGA-W5-AA38",
+      "mã vạch mẫu": "TCGA-W5-AA38-01A",
+      "mã vạch aliquot": "TCGA-W5-AA38-01A-21-A45N-20",
+      "tên_gen": "AR",
+      "tên protein cơ bản": "AR",
+      "phốt pho": null,
+      "tên protein": "AR",
+      "định lượng protein": -0.11153598675,
+      "nguồn kháng thể": "R",
+      "trạng thái xác thực": "V"
+    }
+  ]
+}
