@@ -1,0 +1,94 @@
+{
+  "table_name": "STOP_TIMES",
+  "table_fullname": "SAN_FRANCISCO_PLUS.SAN_FRANCISCO_TRANSIT_MUNI.STOP_TIMES",
+  "column_names": [
+    "thời gian đến",
+    "điểm thời gian chính xác",
+    "dãy dừng",
+    "Mã dừng",
+    "đến ngày hôm sau",
+    "Mã chuyến đi",
+    "giờ khởi hành",
+    "loại giao hàng",
+    "đi vào ngày hôm sau"
+  ],
+  "column_types": [
+    "TIME",
+    "BOOLEAN",
+    "NUMBER",
+    "NUMBER",
+    "BOOLEAN",
+    "NUMBER",
+    "TIME",
+    "TEXT",
+    "BOOLEAN"
+  ],
+  "description": [
+    "Xác định thời gian dự kiến đến tại một trạm cụ thể cho một chuyến đi cụ thể trên tuyến.",
+    "Chỉ ra xem thời gian đến và đi được chỉ định cho một điểm dừng có được tuân thủ nghiêm ngặt bởi phương tiện giao thông công cộng hay không, hoặc nếu chúng thay vào đó là thời gian xấp xỉ hoặc tính trung gian.",
+    "Xác định thứ tự các dừng cho một chuyến đi cụ thể. Giá trị của stop_sequence phải tăng dần trong suốt chuyến đi nhưng không nhất thiết phải liên tiếp.",
+    "Xác định điểm dừng được phục vụ. Nhiều tuyến có thể sử dụng cùng một điểm dừng.",
+    "Một số tuyến bắt đầu trước nửa đêm, với dịch vụ tiếp tục suốt đêm. Biến này chỉ ra liệu arrival_time xảy ra sau nửa đêm vào ngày hôm sau của ngày đã được lên lịch. Điều này hữu ích để xác định các tuyến bắt đầu một ngày và kết thúc vào ngày tiếp theo.",
+    "Xác định một chuyến đi. Nhiều chuyến đi có thể có cùng một điểm dừng.",
+    "Xác định thời gian khởi hành theo lịch trình tại một điểm dừng cụ thể cho một chuyến đi cụ thể trên tuyến đường.",
+    "Chỉ ra liệu hành khách có được dỡ xuống tại một điểm dừng theo lịch trình bình thường hay không, hoặc liệu việc dỡ xuống tại điểm dừng không khả dụng.\n\nCác tùy chọn có sẵn:\n- thường xuyên\n- không\n- điện thoại (chỉ ra phải gọi điện cho công ty để sắp xếp việc dỡ xuống)\n- tài xế (chỉ ra phải phối hợp với tài xế để sắp xếp việc dỡ xuống)",
+    "Nhiều tuyến bắt đầu trước nửa đêm, dịch vụ tiếp tục suốt đêm.  \nBiến này chỉ ra liệu departure_time có xảy ra sau nửa đêm ngày hôm sau của ngày đã lên lịch không.  \nĐiều này hữu ích trong việc xác định các tuyến bắt đầu vào một ngày và kết thúc vào ngày hôm sau."
+  ],
+  "sample_rows": [
+    {
+      "Mã dừng": 15759,
+      "Mã chuyến đi": 8951406,
+      "dãy dừng": 51,
+      "thời gian đến": "06:54:55",
+      "đến ngày hôm sau": false,
+      "giờ khởi hành": "06:54:55",
+      "đi vào ngày hôm sau": false,
+      "loại giao hàng": "regular",
+      "điểm thời gian chính xác": false
+    },
+    {
+      "Mã dừng": 15761,
+      "Mã chuyến đi": 8951406,
+      "dãy dừng": 52,
+      "thời gian đến": "06:55:33",
+      "đến ngày hôm sau": false,
+      "giờ khởi hành": "06:55:33",
+      "đi vào ngày hôm sau": false,
+      "loại giao hàng": "regular",
+      "điểm thời gian chính xác": false
+    },
+    {
+      "Mã dừng": 15759,
+      "Mã chuyến đi": 8951253,
+      "dãy dừng": 51,
+      "thời gian đến": "06:54:55",
+      "đến ngày hôm sau": false,
+      "giờ khởi hành": "06:54:55",
+      "đi vào ngày hôm sau": false,
+      "loại giao hàng": "regular",
+      "điểm thời gian chính xác": false
+    },
+    {
+      "Mã dừng": 15761,
+      "Mã chuyến đi": 8951253,
+      "dãy dừng": 52,
+      "thời gian đến": "06:55:33",
+      "đến ngày hôm sau": false,
+      "giờ khởi hành": "06:55:33",
+      "đi vào ngày hôm sau": false,
+      "loại giao hàng": "regular",
+      "điểm thời gian chính xác": false
+    },
+    {
+      "Mã dừng": 15828,
+      "Mã chuyến đi": 8951253,
+      "dãy dừng": 54,
+      "thời gian đến": "06:57:00",
+      "đến ngày hôm sau": false,
+      "giờ khởi hành": "06:57:00",
+      "đi vào ngày hôm sau": false,
+      "loại giao hàng": "regular",
+      "điểm thời gian chính xác": true
+    }
+  ]
+}

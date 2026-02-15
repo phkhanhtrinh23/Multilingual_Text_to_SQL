@@ -1,0 +1,86 @@
+{
+  "table_name": "TRIPS",
+  "table_fullname": "SAN_FRANCISCO_PLUS.SAN_FRANCISCO_TRANSIT_MUNI.TRIPS",
+  "column_names": [
+    "letrero de destino",
+    "id de viaje",
+    "ID de bloque",
+    "id_ruta",
+    "id_forma",
+    "forma de viaje",
+    "categoría de servicio",
+    "dirección"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "BINARY",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Contiene el texto que aparece en la señalización que identifica el destino del viaje a los usuarios. Utilice este campo para distinguir entre diferentes patrones de servicio en la misma ruta.",
+    "Identificador único para cada viaje",
+    "Identifica el bloque al que pertenece la viaje. Un bloque consta de un único viaje o varios viajes secuenciales realizados con el mismo vehículo. Los viajes se agrupan en un bloque mediante el uso de un día de servicio compartido y block_id. Un block_id puede incluir viajes con diferentes días de servicio, lo que luego genera bloques distintos. Para más detalles, ver: https://developers.google.com/transit/gtfs/reference/#example-showing-blocks-and-service-day",
+    "Identificador único para cada ruta. Una sola ruta tendrá varios viajes.",
+    "Identificador único para la forma geoespacial que describe el recorrido del vehículo a lo largo de puntos individuales. Se usa para UNIR con las formas disponibles en la tabla de formas.",
+    "Representación geográfica de la ruta completa del viaje.",
+    "Indica el tipo de servicio para este viaje",
+    "Indica la dirección del viaje. Los siguientes valores son válidos:\n - O: Viaje de salida\n - I: Viaje de llegada\nEste campo no se utiliza en la ruta, sino que ofrece una forma de separar los viajes por dirección."
+  ],
+  "sample_rows": [
+    {
+      "id de viaje": "8999873",
+      "id_ruta": "83X",
+      "dirección": "O",
+      "ID de bloque": "8302",
+      "categoría de servicio": null,
+      "letrero de destino": "Caltrain Depot",
+      "id_forma": "174188",
+      "forma de viaje": null
+    },
+    {
+      "id de viaje": "8999875",
+      "id_ruta": "83X",
+      "dirección": "O",
+      "ID de bloque": "8301",
+      "categoría de servicio": null,
+      "letrero de destino": "Caltrain Depot",
+      "id_forma": "174188",
+      "forma de viaje": null
+    },
+    {
+      "id de viaje": "8999872",
+      "id_ruta": "83X",
+      "dirección": "O",
+      "ID de bloque": "8302",
+      "categoría de servicio": null,
+      "letrero de destino": "Caltrain Depot",
+      "id_forma": "174188",
+      "forma de viaje": null
+    },
+    {
+      "id de viaje": "8999871",
+      "id_ruta": "83X",
+      "dirección": "O",
+      "ID de bloque": "8301",
+      "categoría de servicio": null,
+      "letrero de destino": "Caltrain Depot",
+      "id_forma": "174188",
+      "forma de viaje": null
+    },
+    {
+      "id de viaje": "8999893",
+      "id_ruta": "83X",
+      "dirección": "O",
+      "ID de bloque": "8302",
+      "categoría de servicio": null,
+      "letrero de destino": "Caltrain Depot",
+      "id_forma": "174188",
+      "forma de viaje": null
+    }
+  ]
+}
