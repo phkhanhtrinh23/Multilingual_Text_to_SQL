@@ -1,0 +1,89 @@
+{
+  "table_name": "RNASEQ_GENE_EXPRESSION_UNC_RSEM",
+  "table_fullname": "TCGA_HG19_DATA_V0.TCGA_HG19_DATA_V0.RNASEQ_GENE_EXPRESSION_UNC_RSEM",
+  "column_names": [
+    "Mã vạch hồ sơ",
+    "số lượng chuẩn hóa",
+    "nền tảng",
+    "mã gen",
+    "Tên ngắn dự án",
+    "mã vạch mẫu",
+    "mã vạch mẫu",
+    "Ký hiệu gene HGNC",
+    "ký_tự_gene_gốc"
+  ],
+  "column_types": [
+    "TEXT",
+    "FLOAT",
+    "TEXT",
+    "NUMBER",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Barcode trường hợp TCGA gốc, ví dụ TCGA-12-1089 -- lưu ý rằng mỗi trường hợp thường có một mẫu khối u chính và một mẫu bình thường khớp (máu hoặc mô lân cận); vui lòng tham khảo bảng Biospecimen của TCGA để biết thêm chi tiết",
+    "Biểu hiện gen đã chuẩn hóa từ tệp gốc rsem.genes.normalized_results",
+    "Nền tảng được sử dụng để tạo dữ liệu; hoặc Illumina HiSeq (gần 93% mẫu) hoặc Illumina GA",
+    "Biểu tượng gene. Trong bảng này, biểu tượng gene là tên gene, ví dụ: ENSG00000251562",
+    "Viết tắt tên dự án; tên chương trình được bổ sung với viết tắt tên dự án; ví dụ: TCGA-OV, vv.",
+    "Mã khối mẫu TCGA gốc, ví dụ TCGA-12-1089-01A-01D-0517-01",
+    "Mã vạch mẫu TCGA gốc, ví dụ TCGA-12-1089-01A",
+    "Ký hiệu gen của HUGO Gene Nomenclature Committee, dựa trên gene_id trong file dữ liệu gốc, ví dụ AMY1A. Null nếu không tìm thấy ký hiệu gen (xem tài liệu để biết thêm chi tiết về ETL) http://isb-cancer-genomics-cloud.readthedocs.io/en/latest/sections/data/data2/ETL_mRNAexpression.html",
+    "Ký hiệu gen từ tệp dữ liệu gốc, khác nhau nếu ký hiệu gen đã được phê duyệt đã thay đổi, ví dụ C11orf17 đã trở thành AKIP1."
+  ],
+  "sample_rows": [
+    {
+      "Tên ngắn dự án": "TCGA-OV",
+      "Mã vạch hồ sơ": "TCGA-04-1348",
+      "mã vạch mẫu": "TCGA-04-1348-01A-01R-1565-13",
+      "Ký hiệu gene HGNC": "CACNG7",
+      "mã gen": 59284,
+      "số lượng chuẩn hóa": 0.0,
+      "ký_tự_gene_gốc": "CACNG7",
+      "nền tảng": "IlluminaHiSeq"
+    },
+    {
+      "Tên ngắn dự án": "TCGA-OV",
+      "Mã vạch hồ sơ": "TCGA-04-1348",
+      "mã vạch mẫu": "TCGA-04-1348-01A-01R-1565-13",
+      "Ký hiệu gene HGNC": "TTTY19",
+      "mã gen": 252952,
+      "số lượng chuẩn hóa": 0.0,
+      "ký_tự_gene_gốc": "TTTY19",
+      "nền tảng": "IlluminaHiSeq"
+    },
+    {
+      "Tên ngắn dự án": "TCGA-OV",
+      "Mã vạch hồ sơ": "TCGA-04-1348",
+      "mã vạch mẫu": "TCGA-04-1348-01A-01R-1565-13",
+      "Ký hiệu gene HGNC": "PALM2-AKAP2",
+      "mã gen": 445815,
+      "số lượng chuẩn hóa": 428.3356,
+      "ký_tự_gene_gốc": "PALM2-AKAP2",
+      "nền tảng": "IlluminaHiSeq"
+    },
+    {
+      "Tên ngắn dự án": "TCGA-OV",
+      "Mã vạch hồ sơ": "TCGA-04-1348",
+      "mã vạch mẫu": "TCGA-04-1348-01A-01R-1565-13",
+      "Ký hiệu gene HGNC": "SHISA3",
+      "mã gen": 152573,
+      "số lượng chuẩn hóa": 0.5378,
+      "ký_tự_gene_gốc": "SHISA3",
+      "nền tảng": "IlluminaHiSeq"
+    },
+    {
+      "Tên ngắn dự án": "TCGA-OV",
+      "Mã vạch hồ sơ": "TCGA-04-1348",
+      "mã vạch mẫu": "TCGA-04-1348-01A-01R-1565-13",
+      "Ký hiệu gene HGNC": "F10",
+      "mã gen": 2159,
+      "số lượng chuẩn hóa": 6.9911,
+      "ký_tự_gene_gốc": "F10",
+      "nền tảng": "IlluminaHiSeq"
+    }
+  ]
+}
