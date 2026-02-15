@@ -1,0 +1,86 @@
+{
+  "table_name": "CLINICAL_DIAGNOSES_TREATMENTS_GDC_R25",
+  "table_fullname": "TCGA.TCGA_VERSIONED.CLINICAL_DIAGNOSES_TREATMENTS_GDC_R25",
+  "column_names": [
+    "tipo de tratamiento",
+    "diagnóstico_tratamiento_fecha_creada",
+    "diagnóstico_tratamiento_estado",
+    "id_caso",
+    "diagnóstico_tratamiento_fecha_hora_actualizada",
+    "id_diagnóstico",
+    "id_tratamiento_diagnostico",
+    "diagnóstico__tratamiento__tratamiento_o_terapia"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Término textual que describe el tipo de tratamiento administrado.",
+    "Una combinación de fecha y hora del día en el formato [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm]",
+    "El estado actual del objeto.",
+    "El identificador único de GDC para este caso (corresponde al case_barcode) — se puede usar para acceder a más información del portal de datos GDC de la siguiente manera: https://portal.gdc.cancer.gov/files/c21b332c-06c6-4403-9032-f91c8f407ba9.",
+    "Una combinación de fecha y hora del día en la forma [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm]",
+    "Identificador asignado por GDC para el diagnóstico de un caso.",
+    "Identificador asignado por GDC para los datos de tratamiento de un caso.",
+    "Un indicador de sí/no/desconocido/no aplicable relacionado con la administración de agentes terapéuticos recibidos."
+  ],
+  "sample_rows": [
+    {
+      "id_tratamiento_diagnostico": "0405431f-fac3-50cb-8307-a3c7dbef8be8",
+      "id_diagnóstico": "40020d0b-b6bb-552f-99e8-85eadef3f5f0",
+      "id_caso": "e76cf9a0-061e-4a7d-ba28-5a40b8da54b8",
+      "tipo de tratamiento": "Radiation Therapy, NOS",
+      "diagnóstico__tratamiento__tratamiento_o_terapia": "no",
+      "diagnóstico_tratamiento_estado": "released",
+      "diagnóstico_tratamiento_fecha_creada": null,
+      "diagnóstico_tratamiento_fecha_hora_actualizada": "2019-07-31T15:13:01.792606-05:00"
+    },
+    {
+      "id_tratamiento_diagnostico": "03717e80-db7a-5510-9526-82d559f25e82",
+      "id_diagnóstico": "04142a14-7125-57a9-93be-24468968e6e3",
+      "id_caso": "f978cb0f-d319-4c01-b4c5-23ae1403a106",
+      "tipo de tratamiento": "Radiation Therapy, NOS",
+      "diagnóstico__tratamiento__tratamiento_o_terapia": "no",
+      "diagnóstico_tratamiento_estado": "released",
+      "diagnóstico_tratamiento_fecha_creada": null,
+      "diagnóstico_tratamiento_fecha_hora_actualizada": "2019-07-31T15:13:04.690821-05:00"
+    },
+    {
+      "id_tratamiento_diagnostico": "dcc231f7-90bc-513c-9045-5f1d0782dbad",
+      "id_diagnóstico": "2ac56abc-1dc9-5582-af8e-7da4d87cf5d4",
+      "id_caso": "18478121-f1d1-4bdd-9511-8ab22f4a0660",
+      "tipo de tratamiento": "Radiation Therapy, NOS",
+      "diagnóstico__tratamiento__tratamiento_o_terapia": "no",
+      "diagnóstico_tratamiento_estado": "released",
+      "diagnóstico_tratamiento_fecha_creada": null,
+      "diagnóstico_tratamiento_fecha_hora_actualizada": "2019-07-31T15:13:10.219711-05:00"
+    },
+    {
+      "id_tratamiento_diagnostico": "0b96f79a-4462-5e72-aefa-6348be6e3983",
+      "id_diagnóstico": "dfc14ce8-e9f1-502e-9757-cf37f4378325",
+      "id_caso": "b3164f7b-c826-4e08-9ee6-8ff96d29b913",
+      "tipo de tratamiento": "Radiation Therapy, NOS",
+      "diagnóstico__tratamiento__tratamiento_o_terapia": "no",
+      "diagnóstico_tratamiento_estado": "released",
+      "diagnóstico_tratamiento_fecha_creada": null,
+      "diagnóstico_tratamiento_fecha_hora_actualizada": "2019-07-31T15:13:16.696280-05:00"
+    },
+    {
+      "id_tratamiento_diagnostico": "e3e0b394-5073-5d1d-8d3b-5d69baf62283",
+      "id_diagnóstico": "a1f150f4-32f7-51db-964a-15e0a8b30b1c",
+      "id_caso": "5f3e2974-f1df-47a2-8a8a-29bb525eeef6",
+      "tipo de tratamiento": "Radiation Therapy, NOS",
+      "diagnóstico__tratamiento__tratamiento_o_terapia": "no",
+      "diagnóstico_tratamiento_estado": "released",
+      "diagnóstico_tratamiento_fecha_creada": null,
+      "diagnóstico_tratamiento_fecha_hora_actualizada": "2019-07-31T15:13:19.758772-05:00"
+    }
+  ]
+}
