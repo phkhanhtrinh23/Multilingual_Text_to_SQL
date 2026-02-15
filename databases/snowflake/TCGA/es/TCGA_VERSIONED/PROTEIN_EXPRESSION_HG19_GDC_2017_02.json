@@ -1,0 +1,110 @@
+{
+  "table_name": "PROTEIN_EXPRESSION_HG19_GDC_2017_02",
+  "table_fullname": "TCGA.TCGA_VERSIONED.PROTEIN_EXPRESSION_HG19_GDC_2017_02",
+  "column_names": [
+    "código de barras del caso",
+    "nombre de proteína",
+    "expresión de proteínas",
+    "nombre_corto_del_proyecto",
+    "fosfato",
+    "nombre del gen",
+    "Fuente de anticuerpos",
+    "estado de validación",
+    "nombre_base_de_proteína",
+    "muestra_código_de_barras",
+    "código de barras de alíquot"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "FLOAT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Código de caso original de TCGA, por ejemplo TCGA-12-1089  --  observe que cada caso típicamente tiene una muestra de tumor primario y una muestra normal emparejada (sangre o tejido adyacente); consulte la tabla de biospecímenes de TCGA para más detalles",
+    "Símbolo de proteína con estado de fosforilación, por ejemplo ACC_pS79",
+    "Nivel de expresión de la proteína medida por matrices de fase inversa. https://bioinformatics.mdanderson.org/public-software/tcpa/",
+    "Abreviatura del nombre del proyecto; el nombre del programa con la abreviatura del proyecto adjunta; ej. TCGA-OV, etc.",
+    "Si el anticuerpo se dirige a una proteína fosforilada, este campo contendrá esa información, por ejemplo pS473 -- de lo contrario, el campo será nulo",
+    "Nombre del gen, por ejemplo TTN, DDR1, etc.",
+    "Animal de origen para el anticuerpo M (Ratón), R (Conejo), G (Cabra)",
+    "Estado de validación del anticuerpo mediante correlación de datos RPPA con Western blot: V, E, C. Para más información: https://bioinformatics.mdanderson.org/public-software/mclp/",
+    "Nombre de la proteína, p. ej. AR, MAPK",
+    "Código de muestra original de TCGA, por ejemplo TCGA-12-1089-01A -- nota que una muestra puede tener múltiples alícuotas y, por lo tanto, múltiples conjuntos de segmentaciones de CN; así que asegúrate de usar GROUP BY adecuadamente en tus consultas.",
+    "Código de lote original de TCGA, por ejemplo TCGA-12-1089-01A-01D-0517-01"
+  ],
+  "sample_rows": [
+    {
+      "nombre_corto_del_proyecto": "TCGA-CHOL",
+      "código de barras del caso": "TCGA-ZH-A8Y1",
+      "muestra_código_de_barras": "TCGA-ZH-A8Y1-01A",
+      "código de barras de alíquot": "TCGA-ZH-A8Y1-01A-21-A45N-20",
+      "nombre del gen": "AR",
+      "nombre_base_de_proteína": "AR",
+      "fosfato": null,
+      "nombre de proteína": "AR",
+      "expresión de proteínas": -0.260880929,
+      "Fuente de anticuerpos": "R",
+      "estado de validación": "V"
+    },
+    {
+      "nombre_corto_del_proyecto": "TCGA-CHOL",
+      "código de barras del caso": "TCGA-W5-AA2Q",
+      "muestra_código_de_barras": "TCGA-W5-AA2Q-01A",
+      "código de barras de alíquot": "TCGA-W5-AA2Q-01A-21-A45N-20",
+      "nombre del gen": "AR",
+      "nombre_base_de_proteína": "AR",
+      "fosfato": null,
+      "nombre de proteína": "AR",
+      "expresión de proteínas": -0.000939914500000028,
+      "Fuente de anticuerpos": "R",
+      "estado de validación": "V"
+    },
+    {
+      "nombre_corto_del_proyecto": "TCGA-CHOL",
+      "código de barras del caso": "TCGA-W5-AA31",
+      "muestra_código_de_barras": "TCGA-W5-AA31-01A",
+      "código de barras de alíquot": "TCGA-W5-AA31-01A-21-A45N-20",
+      "nombre del gen": "AR",
+      "nombre_base_de_proteína": "AR",
+      "fosfato": null,
+      "nombre de proteína": "AR",
+      "expresión de proteínas": -0.14716832275,
+      "Fuente de anticuerpos": "R",
+      "estado de validación": "V"
+    },
+    {
+      "nombre_corto_del_proyecto": "TCGA-DLBC",
+      "código de barras del caso": "TCGA-FF-A7CR",
+      "muestra_código_de_barras": "TCGA-FF-A7CR-01A",
+      "código de barras de alíquot": "TCGA-FF-A7CR-01A-21-A45K-20",
+      "nombre del gen": "AR",
+      "nombre_base_de_proteína": "AR",
+      "fosfato": null,
+      "nombre de proteína": "AR",
+      "expresión de proteínas": 0.1369039475,
+      "Fuente de anticuerpos": "R",
+      "estado de validación": "V"
+    },
+    {
+      "nombre_corto_del_proyecto": "TCGA-CHOL",
+      "código de barras del caso": "TCGA-W5-AA2R",
+      "muestra_código_de_barras": "TCGA-W5-AA2R-01A",
+      "código de barras de alíquot": "TCGA-W5-AA2R-01A-21-A45N-20",
+      "nombre del gen": "AR",
+      "nombre_base_de_proteína": "AR",
+      "fosfato": null,
+      "nombre de proteína": "AR",
+      "expresión de proteínas": -0.0339963165,
+      "Fuente de anticuerpos": "R",
+      "estado de validación": "V"
+    }
+  ]
+}
