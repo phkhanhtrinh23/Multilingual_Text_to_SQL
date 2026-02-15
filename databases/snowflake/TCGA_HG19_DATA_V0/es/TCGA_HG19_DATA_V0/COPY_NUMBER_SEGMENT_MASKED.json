@@ -1,0 +1,102 @@
+{
+  "table_name": "COPY_NUMBER_SEGMENT_MASKED",
+  "table_fullname": "TCGA_HG19_DATA_V0.TCGA_HG19_DATA_V0.COPY_NUMBER_SEGMENT_MASKED",
+  "column_names": [
+    "posición inicial",
+    "nombre corto del proyecto",
+    "código de barras de muestra",
+    "plataforma",
+    "cromosoma",
+    "media_segmento",
+    "número de sondas",
+    "código de caso",
+    "código de alícuota",
+    "posición final"
+  ],
+  "column_types": [
+    "NUMBER",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "FLOAT",
+    "NUMBER",
+    "TEXT",
+    "TEXT",
+    "NUMBER"
+  ],
+  "description": [
+    "posición de inicio del cromosoma basada en 1 del segmento CN",
+    "Acrónimo del nombre del proyecto; el nombre del programa se añade con un acrónimo del nombre del proyecto; por ejemplo, TCGA-OV, etc.",
+    "Código de muestra original de TCGA, por ejemplo TCGA-12-1089-01A -- tenga en cuenta que una muestra puede tener múltiples alíquotas y, por lo tanto, múltiples conjuntos de segmentaciones de CN; así que asegúrese de usar GROUP BY apropiadamente en sus consultas",
+    "Plataforma utilizada para generar estos datos (Genome_Wide_SNP_6 para estos datos)",
+    "Cromosoma, valores posibles: chr1-22 y chrX",
+    "Valor medio CN para este segmento -- el valor es log base 2 (CN/2), centrado en 0",
+    "Número de sondas en el array de SNP utilizado para inferir este segmento CN",
+    "Original TCGA case barcode, p. ej. TCGA-12-1089 -- nota que cada caso típicamente tiene una muestra de tumor primario y una muestra normal emparejada (sangre o tejido adyacente); por favor consulte la tabla de Biospecimen del TCGA para más detalles.",
+    "Código de barras original del alíquot TCGA, por ejemplo TCGA-12-1089-01A-01D-0517-01",
+    "posición cromosómica final del segmento CN (basada en 1)"
+  ],
+  "sample_rows": [
+    {
+      "nombre corto del proyecto": "TCGA-OV",
+      "código de caso": "TCGA-01-0628",
+      "código de barras de muestra": "TCGA-01-0628-11A",
+      "código de alícuota": "TCGA-01-0628-11A-01D-0356-01",
+      "cromosoma": "1",
+      "posición inicial": 152953552,
+      "posición final": 247813706,
+      "número de sondas": 59997,
+      "media_segmento": 0.0045,
+      "plataforma": "Genome_Wide_SNP_6"
+    },
+    {
+      "nombre corto del proyecto": "TCGA-OV",
+      "código de caso": "TCGA-01-0628",
+      "código de barras de muestra": "TCGA-01-0628-11A",
+      "código de alícuota": "TCGA-01-0628-11A-01D-0356-01",
+      "cromosoma": "11",
+      "posición inicial": 56499756,
+      "posición final": 60754876,
+      "número de sondas": 2427,
+      "media_segmento": 0.0092,
+      "plataforma": "Genome_Wide_SNP_6"
+    },
+    {
+      "nombre corto del proyecto": "TCGA-OV",
+      "código de caso": "TCGA-01-0628",
+      "código de barras de muestra": "TCGA-01-0628-11A",
+      "código de alícuota": "TCGA-01-0628-11A-01D-0356-01",
+      "cromosoma": "X",
+      "posición inicial": 3157107,
+      "posición final": 154905589,
+      "número de sondas": 63813,
+      "media_segmento": 0.0008,
+      "plataforma": "Genome_Wide_SNP_6"
+    },
+    {
+      "nombre corto del proyecto": "TCGA-OV",
+      "código de caso": "TCGA-01-0628",
+      "código de barras de muestra": "TCGA-01-0628-11A",
+      "código de alícuota": "TCGA-01-0628-11A-01D-0356-01",
+      "cromosoma": "18",
+      "posición inicial": 73514932,
+      "posición final": 73515359,
+      "número de sondas": 4,
+      "media_segmento": -1.0792,
+      "plataforma": "Genome_Wide_SNP_6"
+    },
+    {
+      "nombre corto del proyecto": "TCGA-OV",
+      "código de caso": "TCGA-01-0628",
+      "código de barras de muestra": "TCGA-01-0628-11A",
+      "código de alícuota": "TCGA-01-0628-11A-01D-0356-01",
+      "cromosoma": "17",
+      "posición inicial": 80535946,
+      "posición final": 80536311,
+      "número de sondas": 7,
+      "media_segmento": -0.6716,
+      "plataforma": "Genome_Wide_SNP_6"
+    }
+  ]
+}

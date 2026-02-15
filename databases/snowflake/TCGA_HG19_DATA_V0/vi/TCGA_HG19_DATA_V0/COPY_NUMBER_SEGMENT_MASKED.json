@@ -1,0 +1,102 @@
+{
+  "table_name": "COPY_NUMBER_SEGMENT_MASKED",
+  "table_fullname": "TCGA_HG19_DATA_V0.TCGA_HG19_DATA_V0.COPY_NUMBER_SEGMENT_MASKED",
+  "column_names": [
+    "vị_trí_bắt_đầu",
+    "Tên dự án ngắn",
+    "mã vạch mẫu",
+    "Nền tảng",
+    "đại thực thể",
+    "trung bình đoạn",
+    "số lần dò",
+    "mã vạch",
+    "mã vạch aliquot",
+    "điểm cuối"
+  ],
+  "column_types": [
+    "NUMBER",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "FLOAT",
+    "NUMBER",
+    "TEXT",
+    "TEXT",
+    "NUMBER"
+  ],
+  "description": [
+    "Vị trí bắt đầu nhiễm sắc thể theo hệ thống 1 của đoạn CN start-position",
+    "Viết tắt tên dự án; tên chương trình được nối với viết tắt tên dự án; ví dụ: TCGA-OV, vv.",
+    "Barcode mẫu TCGA gốc, ví dụ TCGA-12-1089-01A -- lưu ý rằng một mẫu có thể có nhiều nắm lấy mẫu (aliquot) và do đó có nhiều bộ phân đoạn CN; vì vậy hãy chắc chắn sử dụng GROUP BY đúng cách trong các truy vấn của bạn.",
+    "Nền tảng được sử dụng để tạo ra dữ liệu này (Genome_Wide_SNP_6 cho dữ liệu này)",
+    "Chromosome, các giá trị có thể: chr1-22, và chrX",
+    "Giá trị trung bình CN cho đoạn này -- giá trị là logarit cơ số 2 (CN/2), được trùng tâm tại 0",
+    "Số lượng probe trong mảng SNP được dùng để suy ra đoạn CN này",
+    "Bảng mã trường hợp TCGA gốc, ví dụ TCGA-12-1089  --  Lưu ý rằng mỗi trường hợp thường có mẫu khối u chính và mẫu bình thường tương ứng (máu hoặc mô lân cận); vui lòng tham khảo bảng TCGA Biospecimen để biết thêm chi tiết",
+    "Mã mẫu TCGA gốc, ví dụ TCGA-12-1089-01A-01D-0517-01",
+    "Vị trí cuối của đoạn CN trên nhiễm sắc thể (đánh số bắt đầu từ 1)"
+  ],
+  "sample_rows": [
+    {
+      "Tên dự án ngắn": "TCGA-OV",
+      "mã vạch": "TCGA-01-0628",
+      "mã vạch mẫu": "TCGA-01-0628-11A",
+      "mã vạch aliquot": "TCGA-01-0628-11A-01D-0356-01",
+      "đại thực thể": "1",
+      "vị_trí_bắt_đầu": 152953552,
+      "điểm cuối": 247813706,
+      "số lần dò": 59997,
+      "trung bình đoạn": 0.0045,
+      "Nền tảng": "Genome_Wide_SNP_6"
+    },
+    {
+      "Tên dự án ngắn": "TCGA-OV",
+      "mã vạch": "TCGA-01-0628",
+      "mã vạch mẫu": "TCGA-01-0628-11A",
+      "mã vạch aliquot": "TCGA-01-0628-11A-01D-0356-01",
+      "đại thực thể": "11",
+      "vị_trí_bắt_đầu": 56499756,
+      "điểm cuối": 60754876,
+      "số lần dò": 2427,
+      "trung bình đoạn": 0.0092,
+      "Nền tảng": "Genome_Wide_SNP_6"
+    },
+    {
+      "Tên dự án ngắn": "TCGA-OV",
+      "mã vạch": "TCGA-01-0628",
+      "mã vạch mẫu": "TCGA-01-0628-11A",
+      "mã vạch aliquot": "TCGA-01-0628-11A-01D-0356-01",
+      "đại thực thể": "X",
+      "vị_trí_bắt_đầu": 3157107,
+      "điểm cuối": 154905589,
+      "số lần dò": 63813,
+      "trung bình đoạn": 0.0008,
+      "Nền tảng": "Genome_Wide_SNP_6"
+    },
+    {
+      "Tên dự án ngắn": "TCGA-OV",
+      "mã vạch": "TCGA-01-0628",
+      "mã vạch mẫu": "TCGA-01-0628-11A",
+      "mã vạch aliquot": "TCGA-01-0628-11A-01D-0356-01",
+      "đại thực thể": "18",
+      "vị_trí_bắt_đầu": 73514932,
+      "điểm cuối": 73515359,
+      "số lần dò": 4,
+      "trung bình đoạn": -1.0792,
+      "Nền tảng": "Genome_Wide_SNP_6"
+    },
+    {
+      "Tên dự án ngắn": "TCGA-OV",
+      "mã vạch": "TCGA-01-0628",
+      "mã vạch mẫu": "TCGA-01-0628-11A",
+      "mã vạch aliquot": "TCGA-01-0628-11A-01D-0356-01",
+      "đại thực thể": "17",
+      "vị_trí_bắt_đầu": 80535946,
+      "điểm cuối": 80536311,
+      "số lần dò": 7,
+      "trung bình đoạn": -0.6716,
+      "Nền tảng": "Genome_Wide_SNP_6"
+    }
+  ]
+}
