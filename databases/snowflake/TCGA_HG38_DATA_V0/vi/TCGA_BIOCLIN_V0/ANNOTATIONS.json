@@ -1,0 +1,113 @@
+{
+  "table_name": "ANNOTATIONS",
+  "table_fullname": "TCGA_HG38_DATA_V0.TCGA_BIOCLIN_V0.ANNOTATIONS",
+  "column_names": [
+    "ngày tạo",
+    "mã vạch hộp",
+    "loại thực thể",
+    "Ghi chú",
+    "loại",
+    "Mã vạch thực thể",
+    "mã vạch mẫu",
+    "Tên_ngắn_dự_án",
+    "mã vạch mẫu",
+    "Mã GDC của trường hợp",
+    "phân loại",
+    "Ngày chỉnh sửa"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Ngày mà ghi chú này được tạo ra ban đầu; bao gồm dấu thời gian và múi giờ, ví dụ 2011-03-14T18:00:42-04:00  --  các ngày nằm trong khoảng từ tháng 3 năm 2009 đến tháng 6 năm 2016",
+    "Mã vạch bệnh nhân/case TCGA; ví dụ: TCGA-06-0119",
+    "Loại thực thể mà chú thích này áp dụng; ví dụ: Phần Đã Gửi, Aliquot, Bệnh nhân (có cùng ý nghĩa như Trường hợp), Phân tử phân tích, v.v.",
+    "Văn bản mô tả dài hơn về chú thích này",
+    "Loại chú thích; một trong danh sách ngắn các cụm từ từ từ vựng được kiểm soát; ví dụ: Mục không chuẩn, Mục được đánh dấu DNU, Ung thư trước đó, v.v.",
+    "Mã vạch của thực thể mà ghi chú này áp dụng; thường giống với mã vạch của hồ sơ",
+    "Mã vạch mẫu TCGA; ví dụ: TCGA-06-0119-01A (lưu ý rằng trường này sẽ trống nếu ghi chú áp dụng ở cấp độ cao hơn mẫu)",
+    "Viết tắt tên dự án; tên chương trình được gắn kèm với viết tắt tên dự án; ví dụ: TCGA-OV, v.v.",
+    "Mã vạch aliquot TCGA; ví dụ: TCGA-06-0119-01A-08D-0216-06 (lưu ý rằng trường này sẽ là null nếu ghi chú áp dụng ở cấp độ cao hơn so với aliquot)",
+    "Định danh trường hợp GDC cho bệnh nhân/trường hợp liên quan đến chú thích cụ thể này",
+    "Phân loại chú thích; ví dụ: Notification, CenterNotification, Observation, hoặc Redaction",
+    "Ghi chú thường không được chỉnh sửa, nhưng nếu có (ít hơn 10 trong hơn 6000 ghi chú tổng cộng), trường này chỉ ra ngày đã được chỉnh sửa."
+  ],
+  "sample_rows": [
+    {
+      "Tên_ngắn_dự_án": "TCGA-ACC",
+      "Mã vạch thực thể": "TCGA-OR-A5KP",
+      "loại thực thể": "Patient",
+      "loại": "Item is noncanonical",
+      "phân loại": "Notification",
+      "Ghi chú": "Extension set. Only DNA from tumor  and normal shipped.",
+      "ngày tạo": "2014-07-16T16:26:32-04:00",
+      "Ngày chỉnh sửa": null,
+      "Mã GDC của trường hợp": "653f1d34-73e9-4216-b40b-e25c1cfc7943",
+      "mã vạch hộp": "TCGA-OR-A5KP",
+      "mã vạch mẫu": null
+    },
+    {
+      "Tên_ngắn_dự_án": "TCGA-ACC",
+      "Mã vạch thực thể": "TCGA-OR-A5L2",
+      "loại thực thể": "Patient",
+      "loại": "Item is noncanonical",
+      "phân loại": "Notification",
+      "Ghi chú": "Extension set. Only DNA from tumor  and normal shipped.",
+      "ngày tạo": "2014-07-16T16:26:47-04:00",
+      "Ngày chỉnh sửa": null,
+      "Mã GDC của trường hợp": "a26b6f97-fd7e-4b96-bdf5-9df4f9233726",
+      "mã vạch hộp": "TCGA-OR-A5L2",
+      "mã vạch mẫu": null
+    },
+    {
+      "Tên_ngắn_dự_án": "TCGA-ACC",
+      "Mã vạch thực thể": "TCGA-OR-A5LH-10A-01D-A29K-01",
+      "loại thực thể": "Aliquot",
+      "loại": "Item flagged DNU",
+      "phân loại": "CenterNotification",
+      "Ghi chú": "The aliquot failed Broad pipeline QC and not all files are suitable for use. Consult the SDRF file to determine which files are usable.",
+      "ngày tạo": "2015-09-28T13:50:31-04:00",
+      "Ngày chỉnh sửa": null,
+      "Mã GDC của trường hợp": "cf327482-199b-4604-ac19-c8b68d91c5d9",
+      "mã vạch hộp": "TCGA-OR-A5LH",
+      "mã vạch mẫu": "TCGA-OR-A5LH-10A-01D-A29K-01"
+    },
+    {
+      "Tên_ngắn_dự_án": "TCGA-ACC",
+      "Mã vạch thực thể": "TCGA-OR-A5LI",
+      "loại thực thể": "Patient",
+      "loại": "Item is noncanonical",
+      "phân loại": "Notification",
+      "Ghi chú": "Extension set. Only DNA from tumor  and normal shipped.",
+      "ngày tạo": "2014-07-16T16:25:55-04:00",
+      "Ngày chỉnh sửa": null,
+      "Mã GDC của trường hợp": "ec9c3efe-af61-4deb-b047-dcf7ee735fd2",
+      "mã vạch hộp": "TCGA-OR-A5LI",
+      "mã vạch mẫu": null
+    },
+    {
+      "Tên_ngắn_dự_án": "TCGA-ACC",
+      "Mã vạch thực thể": "TCGA-P6-A5OG",
+      "loại thực thể": "Patient",
+      "loại": "History of unacceptable prior treatment related to a prior/other malignancy",
+      "phân loại": "Notification",
+      "Ghi chú": "Prior Osteosarcoma with Cisplatin, Methotrexate, and Adriamycin given to patient prior to TCGA specimen.",
+      "ngày tạo": "2014-06-12T11:28:35-04:00",
+      "Ngày chỉnh sửa": null,
+      "Mã GDC của trường hợp": "0824b246-9fa2-4a8b-ad4c-1ffc7731bf7d",
+      "mã vạch hộp": "TCGA-P6-A5OG",
+      "mã vạch mẫu": null
+    }
+  ]
+}
