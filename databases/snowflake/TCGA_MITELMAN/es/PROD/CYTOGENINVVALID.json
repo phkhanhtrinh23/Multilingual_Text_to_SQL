@@ -1,0 +1,94 @@
+{
+  "table_name": "CYTOGENINVVALID",
+  "table_fullname": "TCGA_MITELMAN.PROD.CYTOGENINVVALID",
+  "column_names": [
+    "Número de caso",
+    "Motivo",
+    "Número de Factura",
+    "KaryCorto",
+    "KaryLong",
+    "Entrada CytoConv",
+    "Número de referencia",
+    "Mensaje",
+    "LongitudKary"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "NUMBER",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "NUMBER",
+    "TEXT",
+    "NUMBER"
+  ],
+  "description": [
+    "número de caso -- generalmente un entero, pero también puede ser una cadena arbitraria",
+    "Mensajes de error",
+    "número de investigación -- siempre un entero entre 1 y 9",
+    "descripción corta (posiblemente truncada) del cariotipo",
+    "si la descripción del cariótipo excede cierta longitud, la cadena completa está en esta columna; en caso contrario, este campo es nulo",
+    "Un valor completo de cariotipo ajustado para funcionar con la herramienta de CytoConverter",
+    "número de referencia",
+    "Indica si el cariotipo ha sido corregido por el verificador de sintaxis.",
+    "longitud de la descripción del cariotipo -- puede ser tan larga como miles de caracteres, pero suele ser < 30"
+  ],
+  "sample_rows": [
+    {
+      "Número de referencia": 17264,
+      "Número de caso": "403",
+      "Número de Factura": 1,
+      "LongitudKary": 256,
+      "KaryCorto": "45,XY,der(4)t(4;11)(p15;q21)t(4;11)(q13;q21)t(4;11)(q13;q14),der(5)t(5;17)(q11;q11),del(7)(q22q36),der(9)t(9;15)(q34;q26),r(11)(p11q11),der(15)t(11;15)(q14;p11)t(11;15)(q14;q14),der(16)t(15;16)(q21;q24)t(12;15)(q24;q21),del(17)(q11),der(20)t(4;20)(p15;p11",
+      "KaryLong": "45,XY,der(4)t(4;11)(p15;q21)t(4;11)(q13;q21)t(4;11)(q13;q14),der(5)t(5;17)(q11;q11),del(7)(q22q36),der(9)t(9;15)(q34;q26),r(11)(p11q11),der(15)t(11;15)(q14;p11)t(11;15)(q14;q14),der(16)t(15;16)(q21;q24)t(12;15)(q24;q21),del(17)(q11),der(20)t(4;20)(p15;p11)",
+      "Mensaje": "Original",
+      "Motivo": " ",
+      "Entrada CytoConv": "45,XY,der(4)t(4;11)(p15;q21)t(4;11)(q13;q21)t(4;11)(q13;q14),der(5)t(5;17)(q11;q11),del(7)(q22q36),der(9)t(9;15)(q34;q26),r(11)(p11q11),der(15)t(11;15)(q14;p11)t(11;15)(q14;q14),der(16)t(15;16)(q21;q24)t(12;15)(q24;q21),del(17)(q11),der(20)t(4;20)(p15;p11)"
+    },
+    {
+      "Número de referencia": 12035,
+      "Número de caso": "7",
+      "Número de Factura": 1,
+      "LongitudKary": 0,
+      "KaryCorto": " ",
+      "KaryLong": " ",
+      "Mensaje": "Original",
+      "Motivo": " ",
+      "Entrada CytoConv": " "
+    },
+    {
+      "Número de referencia": 2651,
+      "Número de caso": "4",
+      "Número de Factura": 1,
+      "LongitudKary": 0,
+      "KaryCorto": " ",
+      "KaryLong": " ",
+      "Mensaje": "Original",
+      "Motivo": " ",
+      "Entrada CytoConv": " "
+    },
+    {
+      "Número de referencia": 1625,
+      "Número de caso": "90",
+      "Número de Factura": 1,
+      "LongitudKary": 0,
+      "KaryCorto": " ",
+      "KaryLong": " ",
+      "Mensaje": "Original",
+      "Motivo": " ",
+      "Entrada CytoConv": " "
+    },
+    {
+      "Número de referencia": 2093,
+      "Número de caso": "1",
+      "Número de Factura": 1,
+      "LongitudKary": 0,
+      "KaryCorto": " ",
+      "KaryLong": " ",
+      "Mensaje": "Original",
+      "Motivo": " ",
+      "Entrada CytoConv": " "
+    }
+  ]
+}
