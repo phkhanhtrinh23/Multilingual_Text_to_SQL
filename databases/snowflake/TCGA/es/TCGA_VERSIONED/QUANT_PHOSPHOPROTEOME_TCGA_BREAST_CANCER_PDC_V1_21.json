@@ -1,0 +1,94 @@
+{
+  "table_name": "QUANT_PHOSPHOPROTEOME_TCGA_BREAST_CANCER_PDC_V1_21",
+  "table_fullname": "TCGA.TCGA_VERSIONED.QUANT_PHOSPHOPROTEOME_TCGA_BREAST_CANCER_PDC_V1_21",
+  "column_names": [
+    "id_del_caso",
+    "id_muestra",
+    "id_alícuota",
+    "id_métadatos_ejecución_aliquotas",
+    "ID del remitente de la alícuota",
+    "identificador_refseq",
+    "razón_log2_de_abundancia_de_proteína",
+    "sitios_fosforilación",
+    "nombre del estudio"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "FLOAT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Identificador único asociado a un paciente específico (por ejemplo, 24cb0fcb-63d6-11e8-bcf1-0a2705229b82)",
+    "Identificador único de PDC para esta muestra (p. ej., e8d83eb9-693a-11ea-b1fd-0aad30af8a83)",
+    "Identificador único de PDC para esta alícuota (p. ej. e8db124a-693a-11ea-b1fd-0aad30af8a83)",
+    "Identifica de forma única la alícuota según su uso en el experimento (basado en el reactivo de etiquetado y/o el replicado biológico).",
+    "ID del remitente de alícuota asignado por el programa (por ejemplo, T14)",
+    "Identificador único asignado a una secuencia en la base de datos NCBI RefSeq.",
+    "Promedio del log-ratio de iones de reportero de muestra a iones de referencia comunes de iones de péptidos asociados con el gen en adquisiciones de una muestra biológica específica.",
+    "Códigos de una sola letra y posiciones de la secuencia de proteínas de los aminoácidos fosforilados (ej. t304s310, t59)",
+    "Nombre del estudio (p. ej. Estudio piloto de cáncer cerebral pediátrico - Fosforproteoma)"
+  ],
+  "sample_rows": [
+    {
+      "id_del_caso": "010df72d-63d9-11e8-bcf1-0a2705229b82",
+      "id_muestra": "9532a8b4-6420-11e8-bcf1-0a2705229b82",
+      "id_alícuota": "410a1984-6429-11e8-bcf1-0a2705229b82",
+      "ID del remitente de la alícuota": "TCGA-E2-A10A-01A-12-A21V-30",
+      "id_métadatos_ejecución_aliquotas": "27c280fc-5730-11e8-b664-00a098d917f8",
+      "nombre del estudio": "TCGA Breast Cancer Phosphoproteome",
+      "razón_log2_de_abundancia_de_proteína": 0.5801,
+      "identificador_refseq": "NP_055949.2",
+      "sitios_fosforilación": "s797"
+    },
+    {
+      "id_del_caso": "010df72d-63d9-11e8-bcf1-0a2705229b82",
+      "id_muestra": "9532a8b4-6420-11e8-bcf1-0a2705229b82",
+      "id_alícuota": "410a1984-6429-11e8-bcf1-0a2705229b82",
+      "ID del remitente de la alícuota": "TCGA-E2-A10A-01A-12-A21V-30",
+      "id_métadatos_ejecución_aliquotas": "27c280fc-5730-11e8-b664-00a098d917f8",
+      "nombre del estudio": "TCGA Breast Cancer Phosphoproteome",
+      "razón_log2_de_abundancia_de_proteína": -0.9613,
+      "identificador_refseq": "NP_006187.2",
+      "sitios_fosforilación": "s273"
+    },
+    {
+      "id_del_caso": "010df72d-63d9-11e8-bcf1-0a2705229b82",
+      "id_muestra": "9532a8b4-6420-11e8-bcf1-0a2705229b82",
+      "id_alícuota": "410a1984-6429-11e8-bcf1-0a2705229b82",
+      "ID del remitente de la alícuota": "TCGA-E2-A10A-01A-12-A21V-30",
+      "id_métadatos_ejecución_aliquotas": "27c280fc-5730-11e8-b664-00a098d917f8",
+      "nombre del estudio": "TCGA Breast Cancer Phosphoproteome",
+      "razón_log2_de_abundancia_de_proteína": -3.7612,
+      "identificador_refseq": "NP_061916.3",
+      "sitios_fosforilación": "s529"
+    },
+    {
+      "id_del_caso": "010df72d-63d9-11e8-bcf1-0a2705229b82",
+      "id_muestra": "9532a8b4-6420-11e8-bcf1-0a2705229b82",
+      "id_alícuota": "410a1984-6429-11e8-bcf1-0a2705229b82",
+      "ID del remitente de la alícuota": "TCGA-E2-A10A-01A-12-A21V-30",
+      "id_métadatos_ejecución_aliquotas": "27c280fc-5730-11e8-b664-00a098d917f8",
+      "nombre del estudio": "TCGA Breast Cancer Phosphoproteome",
+      "razón_log2_de_abundancia_de_proteína": -1.0397,
+      "identificador_refseq": "NP_004175.2",
+      "sitios_fosforilación": "s351"
+    },
+    {
+      "id_del_caso": "010df72d-63d9-11e8-bcf1-0a2705229b82",
+      "id_muestra": "9532a8b4-6420-11e8-bcf1-0a2705229b82",
+      "id_alícuota": "410a1984-6429-11e8-bcf1-0a2705229b82",
+      "ID del remitente de la alícuota": "TCGA-E2-A10A-01A-12-A21V-30",
+      "id_métadatos_ejecución_aliquotas": "27c280fc-5730-11e8-b664-00a098d917f8",
+      "nombre del estudio": "TCGA Breast Cancer Phosphoproteome",
+      "razón_log2_de_abundancia_de_proteína": -0.9837,
+      "identificador_refseq": "NP_115971.2",
+      "sitios_fosforilación": "s1366"
+    }
+  ]
+}
