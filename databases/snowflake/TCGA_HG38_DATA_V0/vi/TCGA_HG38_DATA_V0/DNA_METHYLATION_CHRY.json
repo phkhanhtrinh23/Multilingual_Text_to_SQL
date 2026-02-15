@@ -1,0 +1,97 @@
+{
+  "table_name": "DNA_METHYLATION_CHRY",
+  "table_fullname": "TCGA_HG38_DATA_V0.TCGA_HG38_DATA_V0.DNA_METHYLATION_CHRY",
+  "column_names": [
+    "mã_tập_tin_gdc",
+    "mã GDC của trường hợp",
+    "mã_gdc_mẫu",
+    "nền tảng",
+    "giá trị beta",
+    "Mã vạch hộp",
+    "mã vạch mẫu",
+    "mã vạch mẫu",
+    "ID mẫu GDC",
+    "mã đầu dò"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "FLOAT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "",
+    "",
+    "",
+    "Nền tảng được sử dụng để tạo dữ liệu này – có thể là HumanMethylation450 hoặc HumanMethylation27",
+    "Giá trị beta của metylation DNA được chuẩn hóa (giữa 0 và 1, trong đó 0 cho thấy hoàn toàn chưa bị metyl hóa và 1 cho thấy hoàn toàn bị metyl hóa)",
+    "Mã vạch case TCGA gốc, ví dụ TCGA-12-1089 – lưu ý rằng mỗi case thường có một mẫu khối u chính và một mẫu bình thường tương ứng (máu hoặc mô lân cận); vui lòng tham khảo bảng TCGA Biospecimen để biết thêm chi tiết",
+    "Mã vạch mẫu TCGA gốc, ví dụ TCGA-12-1089-01A",
+    "Mã vạch mẫu TCGA gốc, ví dụ: TCGA-12-1089-01A-01D-0517-01",
+    "",
+    "Định danh duy nhất của mạch dò (ví dụ cg04676771) từ bộ sưu tập Methylation của Illumina Human -- vui lòng tham khảo bảng chú thích (isb-cgc:platform_reference.methylation_annotation) để biết thêm chi tiết về bất kỳ mạch dò nào."
+  ],
+  "sample_rows": [
+    {
+      "Mã vạch hộp": "TCGA-A6-2670",
+      "mã vạch mẫu": "TCGA-A6-2670-01A-02D-0820-05",
+      "mã đầu dò": "cg22415432",
+      "giá trị beta": 0.612371930828832,
+      "nền tảng": null,
+      "mã_tập_tin_gdc": "cdd5e1a9-1ce8-4361-9fca-61ccb7098b25",
+      "mã GDC của trường hợp": "65bb7520-f055-43a8-b735-1152fa2c9e04",
+      "ID mẫu GDC": "724072ae-40b5-45cc-b339-e24f1cb6fbcf",
+      "mã_gdc_mẫu": "b8074b70-ad2b-49e5-b70a-c6e8a6681830"
+    },
+    {
+      "Mã vạch hộp": "TCGA-BR-4190",
+      "mã vạch mẫu": "TCGA-BR-4190-11A-01D-1129-05",
+      "mã đầu dò": "cg22415432",
+      "giá trị beta": 0.419433730790018,
+      "nền tảng": null,
+      "mã_tập_tin_gdc": "ef8d43d7-1393-4e56-b434-ccc10ffef2aa",
+      "mã GDC của trường hợp": "282e979d-4ad9-4d42-8ffa-7487a94fa1f3",
+      "ID mẫu GDC": "78ca8f7f-2466-4681-81eb-e3611ac9b442",
+      "mã_gdc_mẫu": "938a46a0-f08b-470a-bc72-b24048de06ee"
+    },
+    {
+      "Mã vạch hộp": "TCGA-BR-4194",
+      "mã vạch mẫu": "TCGA-BR-4194-01A-02D-1129-05",
+      "mã đầu dò": "cg03515901",
+      "giá trị beta": 0.724155855850361,
+      "nền tảng": null,
+      "mã_tập_tin_gdc": "259704ee-25e4-4a52-a9b5-89b7f04656de",
+      "mã GDC của trường hợp": "2c650fe1-48b0-4f88-bc11-04096be48571",
+      "ID mẫu GDC": "2977c578-6a36-4ce5-9601-3f023e7e8b6b",
+      "mã_gdc_mẫu": "2782b675-2239-4b17-a7a4-17c5cbac5083"
+    },
+    {
+      "Mã vạch hộp": "TCGA-BR-4194",
+      "mã vạch mẫu": "TCGA-BR-4194-11A-01D-1129-05",
+      "mã đầu dò": "cg08455548",
+      "giá trị beta": 0.277063709223331,
+      "nền tảng": null,
+      "mã_tập_tin_gdc": "2c8ae27f-bf3c-4fda-b718-c6491c4fd8df",
+      "mã GDC của trường hợp": "2c650fe1-48b0-4f88-bc11-04096be48571",
+      "ID mẫu GDC": "1cf42373-411f-41fd-8705-c829800c2c55",
+      "mã_gdc_mẫu": "02b7a23d-34b9-4dfc-a1e5-800819501377"
+    },
+    {
+      "Mã vạch hộp": "TCGA-BR-4195",
+      "mã vạch mẫu": "TCGA-BR-4195-01A-01D-1129-05",
+      "mã đầu dò": "cg20401549",
+      "giá trị beta": 0.0287675822184472,
+      "nền tảng": null,
+      "mã_tập_tin_gdc": "3cdb39db-dbac-4f9c-9762-739adaa54e0c",
+      "mã GDC của trường hợp": "7917234c-63be-4320-b7af-535381f99d99",
+      "ID mẫu GDC": "dcbfb5b8-6216-4c85-a66e-0d95bf0853da",
+      "mã_gdc_mẫu": "3bc44cb4-b523-4ed9-bf8b-fc9f0961f45e"
+    }
+  ]
+}

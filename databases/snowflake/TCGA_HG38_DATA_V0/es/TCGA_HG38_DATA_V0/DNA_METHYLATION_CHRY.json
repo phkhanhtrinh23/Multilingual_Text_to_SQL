@@ -1,0 +1,102 @@
+{
+  "table_name": "DNA_METHYLATION_CHRY",
+  "table_fullname": "TCGA_HG38_DATA_V0.TCGA_HG38_DATA_V0.DNA_METHYLATION_CHRY",
+  "column_names": [
+    "ID del archivo GDC",
+    "id_gdc_caso",
+    "id_aliquota_gdc",
+    "plataforma",
+    "valor_beta",
+    "Código de barras del caso",
+    "código_muestra",
+    "código de alícuota",
+    "ID de muestra GDC",
+    "ID de sonda"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "FLOAT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "",
+    "",
+    "",
+    "Plataforma utilizada para generar estos datos: HumanMethylation450 o HumanMethylation27",
+    "Valor beta normalizado de metilación de ADN (entre 0 y 1, donde 0 indica completamente desmetilado y 1 indica totalmente metilado).",
+    "Código de caso original de TCGA, p.ej. TCGA-12-1089  --  tenga en cuenta que cada caso normalmente tiene una muestra de tumor primario y una muestra normal coincidente (sangre o tejido adyacente); consulte la tabla de Biospecimens de TCGA para más detalles",
+    "Código de muestra TCGA original, p.ej. TCGA-12-1089-01A",
+    "Código original de alícuota TCGA, p.ej. TCGA-12-1089-01A-01D-0517-01",
+    "",
+    "Identificador único de sonda (ej. cg04676771) del array de metilación humana de Illumina — por favor, consulte la tabla de anotaciones (isb-cgc:platform_reference.methylation_annotation) para más detalles sobre cualquier sonda en particular."
+  ],
+  "sample_rows": [
+    {
+      "Código de barras del caso": "TCGA-A6-2670",
+      "código_muestra": "TCGA-A6-2670-01A",
+      "código de alícuota": "TCGA-A6-2670-01A-02D-0820-05",
+      "ID de sonda": "cg22415432",
+      "valor_beta": 0.612371930828832,
+      "plataforma": null,
+      "ID del archivo GDC": "cdd5e1a9-1ce8-4361-9fca-61ccb7098b25",
+      "id_gdc_caso": "65bb7520-f055-43a8-b735-1152fa2c9e04",
+      "ID de muestra GDC": "724072ae-40b5-45cc-b339-e24f1cb6fbcf",
+      "id_aliquota_gdc": "b8074b70-ad2b-49e5-b70a-c6e8a6681830"
+    },
+    {
+      "Código de barras del caso": "TCGA-BR-4190",
+      "código_muestra": "TCGA-BR-4190-11A",
+      "código de alícuota": "TCGA-BR-4190-11A-01D-1129-05",
+      "ID de sonda": "cg22415432",
+      "valor_beta": 0.419433730790018,
+      "plataforma": null,
+      "ID del archivo GDC": "ef8d43d7-1393-4e56-b434-ccc10ffef2aa",
+      "id_gdc_caso": "282e979d-4ad9-4d42-8ffa-7487a94fa1f3",
+      "ID de muestra GDC": "78ca8f7f-2466-4681-81eb-e3611ac9b442",
+      "id_aliquota_gdc": "938a46a0-f08b-470a-bc72-b24048de06ee"
+    },
+    {
+      "Código de barras del caso": "TCGA-BR-4194",
+      "código_muestra": "TCGA-BR-4194-01A",
+      "código de alícuota": "TCGA-BR-4194-01A-02D-1129-05",
+      "ID de sonda": "cg03515901",
+      "valor_beta": 0.724155855850361,
+      "plataforma": null,
+      "ID del archivo GDC": "259704ee-25e4-4a52-a9b5-89b7f04656de",
+      "id_gdc_caso": "2c650fe1-48b0-4f88-bc11-04096be48571",
+      "ID de muestra GDC": "2977c578-6a36-4ce5-9601-3f023e7e8b6b",
+      "id_aliquota_gdc": "2782b675-2239-4b17-a7a4-17c5cbac5083"
+    },
+    {
+      "Código de barras del caso": "TCGA-BR-4194",
+      "código_muestra": "TCGA-BR-4194-11A",
+      "código de alícuota": "TCGA-BR-4194-11A-01D-1129-05",
+      "ID de sonda": "cg08455548",
+      "valor_beta": 0.277063709223331,
+      "plataforma": null,
+      "ID del archivo GDC": "2c8ae27f-bf3c-4fda-b718-c6491c4fd8df",
+      "id_gdc_caso": "2c650fe1-48b0-4f88-bc11-04096be48571",
+      "ID de muestra GDC": "1cf42373-411f-41fd-8705-c829800c2c55",
+      "id_aliquota_gdc": "02b7a23d-34b9-4dfc-a1e5-800819501377"
+    },
+    {
+      "Código de barras del caso": "TCGA-BR-4195",
+      "código_muestra": "TCGA-BR-4195-01A",
+      "código de alícuota": "TCGA-BR-4195-01A-01D-1129-05",
+      "ID de sonda": "cg20401549",
+      "valor_beta": 0.0287675822184472,
+      "plataforma": null,
+      "ID del archivo GDC": "3cdb39db-dbac-4f9c-9762-739adaa54e0c",
+      "id_gdc_caso": "7917234c-63be-4320-b7af-535381f99d99",
+      "ID de muestra GDC": "dcbfb5b8-6216-4c85-a66e-0d95bf0853da",
+      "id_aliquota_gdc": "3bc44cb4-b523-4ed9-bf8b-fc9f0961f45e"
+    }
+  ]
+}
