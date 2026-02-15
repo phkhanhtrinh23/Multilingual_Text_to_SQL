@@ -1,0 +1,102 @@
+{
+  "table_name": "KARYCLONE",
+  "table_fullname": "TCGA_MITELMAN.PROD.KARYCLONE",
+  "column_names": [
+    "Longitud del clon",
+    "Número de caso",
+    "ChromoMin",
+    "Clon Largo",
+    "Número de factura",
+    "ClonCorto",
+    "Número de referencia",
+    "Número de Clone",
+    "ChromoMax",
+    "Solo"
+  ],
+  "column_types": [
+    "NUMBER",
+    "TEXT",
+    "NUMBER",
+    "TEXT",
+    "NUMBER",
+    "TEXT",
+    "NUMBER",
+    "NUMBER",
+    "NUMBER",
+    "TEXT"
+  ],
+  "description": [
+    "longitud de la cadena de descripción del clon -- normalmente entre 8 y 24 caracteres, pero puede llegar a 2199 caracteres",
+    "número de caso, generalmente entre 1 y 10, pero también puede ser una cadena arbitraria, p. ej. 'A11'",
+    "Los valores más comunes están entre '42' y '51', pero el valor mínimo es '0' y el máximo es '409'.",
+    "Normalmente vacío, pero si la descripción del clon es muy larga, esa cadena se guardará aquí.",
+    "número de investigación, entre 1 y 9",
+    "descripción de clon más corta, a veces truncada, por ejemplo '45,X,-Y' o '46,Xy,t(8;21)(q22;q22)'",
+    "número de referencia, por ejemplo '14620'",
+    "número de clon, entre 1 y 58",
+    "Los valores más comunes están entre '43' y '52', pero el valor mínimo es '0' y el máximo es '409'.",
+    "Bandera T/F que indica si es o no la única anomalía"
+  ],
+  "sample_rows": [
+    {
+      "Número de referencia": 3822,
+      "Número de caso": "1",
+      "Número de factura": 1,
+      "Número de Clone": 5,
+      "ChromoMin": 45,
+      "ChromoMax": 45,
+      "ClonCorto": "45,X,-X",
+      "Clon Largo": null,
+      "Longitud del clon": 7,
+      "Solo": "T"
+    },
+    {
+      "Número de referencia": 4018,
+      "Número de caso": "33",
+      "Número de factura": 1,
+      "Número de Clone": 6,
+      "ChromoMin": 45,
+      "ChromoMax": 45,
+      "ClonCorto": "45,X,-X",
+      "Clon Largo": null,
+      "Longitud del clon": 7,
+      "Solo": "T"
+    },
+    {
+      "Número de referencia": 9341,
+      "Número de caso": "5",
+      "Número de factura": 1,
+      "Número de Clone": 9,
+      "ChromoMin": 45,
+      "ChromoMax": 45,
+      "ClonCorto": "45,X,-Y",
+      "Clon Largo": null,
+      "Longitud del clon": 7,
+      "Solo": "T"
+    },
+    {
+      "Número de referencia": 7668,
+      "Número de caso": "28",
+      "Número de factura": 1,
+      "Número de Clone": 13,
+      "ChromoMin": 45,
+      "ChromoMax": 45,
+      "ClonCorto": "45,X,-Y",
+      "Clon Largo": null,
+      "Longitud del clon": 7,
+      "Solo": "T"
+    },
+    {
+      "Número de referencia": 5150,
+      "Número de caso": "18",
+      "Número de factura": 1,
+      "Número de Clone": 5,
+      "ChromoMin": 45,
+      "ChromoMax": 45,
+      "ClonCorto": "45,X,-Y",
+      "Clon Largo": null,
+      "Longitud del clon": 7,
+      "Solo": "T"
+    }
+  ]
+}
