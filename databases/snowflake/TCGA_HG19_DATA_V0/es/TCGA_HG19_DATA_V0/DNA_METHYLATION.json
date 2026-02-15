@@ -1,0 +1,78 @@
+{
+  "table_name": "DNA_METHYLATION",
+  "table_fullname": "TCGA_HG19_DATA_V0.TCGA_HG19_DATA_V0.DNA_METHYLATION",
+  "column_names": [
+    "nombre_corto_del_proyecto",
+    "código de alícuota",
+    "código de muestra",
+    "ID de sonda",
+    "código de barras del caso",
+    "plataforma",
+    "valor beta"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "FLOAT"
+  ],
+  "description": [
+    "Abreviatura del nombre del proyecto; el nombre del programa con la abreviatura del nombre del proyecto; p.ej. TCGA-OV, etc.",
+    "Código de barras original de la muestra TCGA, por ejemplo TCGA-12-1089-01A-01D-0517-01",
+    "Código de muestra original de TCGA, por ejemplo TCGA-12-1089-01A",
+    "Identificador único de sondeo (p. ej., cg04676771) del array de metilación humana de Illumina — por favor, consulte la tabla de anotaciones (isb‑cgc:platform_reference.methylation_annotation) para más detalles sobre cualquier sondeo en particular.",
+    "Código de caso original TCGA, por ejemplo TCGA-12-1089 -- tenga en cuenta que cada caso suele tener una muestra de tumor primario y una muestra normal emparejada (sangre o tejido adyacente); consulte la tabla de biospecímenes TCGA para más detalles",
+    "Nombre de la plataforma utilizada para generar estos datos -- HumanMethylation450 o HumanMethylation27",
+    "Valor beta de metilación del ADN normalizado (entre 0 y 1, donde 0 indica completamente no metilado y 1 indica completamente metilado)"
+  ],
+  "sample_rows": [
+    {
+      "nombre_corto_del_proyecto": "TCGA-OV",
+      "código de barras del caso": "TCGA-01-0628",
+      "código de muestra": "TCGA-01-0628-11A",
+      "código de alícuota": "TCGA-01-0628-11A-01D-0383-05",
+      "ID de sonda": "cg13005002",
+      "valor beta": 0.7,
+      "plataforma": "HumanMethylation27"
+    },
+    {
+      "nombre_corto_del_proyecto": "TCGA-OV",
+      "código de barras del caso": "TCGA-01-0628",
+      "código de muestra": "TCGA-01-0628-11A",
+      "código de alícuota": "TCGA-01-0628-11A-01D-0383-05",
+      "ID de sonda": "cg08461397",
+      "valor beta": 0.03,
+      "plataforma": "HumanMethylation27"
+    },
+    {
+      "nombre_corto_del_proyecto": "TCGA-OV",
+      "código de barras del caso": "TCGA-01-0630",
+      "código de muestra": "TCGA-01-0630-11A",
+      "código de alícuota": "TCGA-01-0630-11A-01D-0383-05",
+      "ID de sonda": "cg09339301",
+      "valor beta": 0.0,
+      "plataforma": "HumanMethylation27"
+    },
+    {
+      "nombre_corto_del_proyecto": "TCGA-OV",
+      "código de barras del caso": "TCGA-01-0630",
+      "código de muestra": "TCGA-01-0630-11A",
+      "código de alícuota": "TCGA-01-0630-11A-01D-0383-05",
+      "ID de sonda": "cg25567232",
+      "valor beta": 0.95,
+      "plataforma": "HumanMethylation27"
+    },
+    {
+      "nombre_corto_del_proyecto": "TCGA-OV",
+      "código de barras del caso": "TCGA-01-0630",
+      "código de muestra": "TCGA-01-0630-11A",
+      "código de alícuota": "TCGA-01-0630-11A-01D-0383-05",
+      "ID de sonda": "cg10660136",
+      "valor beta": 0.01,
+      "plataforma": "HumanMethylation27"
+    }
+  ]
+}
