@@ -1,0 +1,86 @@
+{
+  "table_name": "MIRNASEQ_HG38_GDC_R14",
+  "table_fullname": "TCGA.TCGA_VERSIONED.MIRNASEQ_HG38_GDC_R14",
+  "column_names": [
+    "lecturas por millón de miRNA mapeadas",
+    "código de barras de alícuota",
+    "acoplado cruzado",
+    "conteo_de_lecturas",
+    "id_mirna",
+    "código de barras de muestra",
+    "código de barras del caso",
+    "nombre_corto_proyecto"
+  ],
+  "column_types": [
+    "FLOAT",
+    "TEXT",
+    "TEXT",
+    "NUMBER",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Conteo de lecturas normalizado por el total de lecturas mapeadas dividido por 1 millón",
+    "Código de barras de alícuota TCGA, ej. TCGA-12-1089-01A-01D-0517-28",
+    "Una lectura corta de isomiR puede mapear exactamente a las hebras maduras cuyas secuencias son similares pero no idénticas, cuando la secuencia de la lectura no captura las bases que distinguen a estos miRNAs (por ejemplo, hsa-mir-30a en 6q13 y hsa-mir-30e en 1p34.2, que difieren en la posición 18).  \nInformamos tal <line_feed> lectura como cruzada, y aumentamos el conteo de lecturas para cada MIMAT al que se ha mapeado.  \nYa sea Y o N -- menos del 2% son Y",
+    "Número de lecturas que se asignaron a este mirna_id",
+    "Id único de miRNA (también conocido como símbolo), por ejemplo hsa-mir-21 — la información de referencia relevante se puede encontrar en el conjunto de datos isb-cgc:genome_reference en las tablas miRBase_v21 y miRBase_v21_hsa_gff3",
+    "Código de barras de muestra TCGA, por ejemplo TCGA-12-1089-01A. Una muestra puede tener múltiples conjuntos de segmentaciones de CN correspondientes a múltiples alícuotas; utilice GROUP BY adecuadamente en las consultas.",
+    "Código de barras original de caso TCGA, por ejemplo TCGA-DX-A8BN",
+    "Abreviatura del nombre del proyecto; el nombre del programa anexado con una abreviatura del nombre del proyecto; ej. TCGA-OV, etc."
+  ],
+  "sample_rows": [
+    {
+      "nombre_corto_proyecto": "TCGA-OV",
+      "código de barras del caso": "TCGA-04-1331",
+      "código de barras de muestra": "TCGA-04-1331-01A",
+      "código de barras de alícuota": "TCGA-04-1331-01A-01R-1569-13",
+      "id_mirna": "hsa-mir-6803",
+      "conteo_de_lecturas": 10,
+      "lecturas por millón de miRNA mapeadas": 2.874773,
+      "acoplado cruzado": "N"
+    },
+    {
+      "nombre_corto_proyecto": "TCGA-OV",
+      "código de barras del caso": "TCGA-04-1331",
+      "código de barras de muestra": "TCGA-04-1331-01A",
+      "código de barras de alícuota": "TCGA-04-1331-01A-01R-1569-13",
+      "id_mirna": "hsa-mir-223",
+      "conteo_de_lecturas": 477,
+      "lecturas por millón de miRNA mapeadas": 137.126693,
+      "acoplado cruzado": "N"
+    },
+    {
+      "nombre_corto_proyecto": "TCGA-OV",
+      "código de barras del caso": "TCGA-04-1331",
+      "código de barras de muestra": "TCGA-04-1331-01A",
+      "código de barras de alícuota": "TCGA-04-1331-01A-01R-1569-13",
+      "id_mirna": "hsa-mir-8085",
+      "conteo_de_lecturas": 1,
+      "lecturas por millón de miRNA mapeadas": 0.287477,
+      "acoplado cruzado": "N"
+    },
+    {
+      "nombre_corto_proyecto": "TCGA-OV",
+      "código de barras del caso": "TCGA-04-1331",
+      "código de barras de muestra": "TCGA-04-1331-01A",
+      "código de barras de alícuota": "TCGA-04-1331-01A-01R-1569-13",
+      "id_mirna": "hsa-mir-151a",
+      "conteo_de_lecturas": 8868,
+      "lecturas por millón de miRNA mapeadas": 2549.349079,
+      "acoplado cruzado": "N"
+    },
+    {
+      "nombre_corto_proyecto": "TCGA-OV",
+      "código de barras del caso": "TCGA-04-1331",
+      "código de barras de muestra": "TCGA-04-1331-01A",
+      "código de barras de alícuota": "TCGA-04-1331-01A-01R-1569-13",
+      "id_mirna": "hsa-mir-425",
+      "conteo_de_lecturas": 1174,
+      "lecturas por millón de miRNA mapeadas": 337.498401,
+      "acoplado cruzado": "N"
+    }
+  ]
+}
