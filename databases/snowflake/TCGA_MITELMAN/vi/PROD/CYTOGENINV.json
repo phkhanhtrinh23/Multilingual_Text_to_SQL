@@ -1,0 +1,102 @@
+{
+  "table_name": "CYTOGENINV",
+  "table_fullname": "TCGA_MITELMAN.PROD.CYTOGENINV",
+  "column_names": [
+    "tế mô",
+    "Kary Long",
+    "Tên ngắn",
+    "Số Tham Chiếu",
+    "Trình tự vụ",
+    "Nhân bản",
+    "Số Hóa Đơn",
+    "Chiều dài karyotype",
+    "Ngày hoá đơn",
+    "Số hồ sơ"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "NUMBER",
+    "TEXT",
+    "NUMBER",
+    "NUMBER",
+    "NUMBER",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "một trong các: 'BM', 'TB', 'LN', 'EX', hoặc 'CSF' hoặc (hiếm khi) trống",
+    "Nếu mô tả karyotype vượt quá một độ dài nhất định, chuỗi đầy đủ sẽ nằm trong cột này; ngược lại, trường này là null.",
+    "mô tả nhiễm sắc thể ngắn (có thể bị cắt ngắn)",
+    "số tham chiếu",
+    "trường số nguyên chưa biết giữa 0 và 9638369",
+    "Một số nguyên giữa 1 và 58",
+    "số điều tra -- luôn là một số nguyên từ 1 đến 9",
+    "độ dài của mô tả kiểu nhiễm sắc thể -- có thể dài tới hàng ngàn ký tự, nhưng thường dưới 30",
+    "ngày điều tra -- ví dụ '19730327' hoặc '20170627', nhưng cũng có thể để trống hoặc chỉ '1'.",
+    "số trường hợp -- thường là một số nguyên, nhưng cũng có thể là một chuỗi tùy ý"
+  ],
+  "sample_rows": [
+    {
+      "Số Tham Chiếu": 48,
+      "Số hồ sơ": "1",
+      "Số Hóa Đơn": 1,
+      "Ngày hoá đơn": "1",
+      "tế mô": "BM",
+      "Nhân bản": 1,
+      "Chiều dài karyotype": 80,
+      "Tên ngắn": "52-54,XY,+3,+6,+7,+8,t(9;22)(q34;q11),+19,+21,+der(22)t(9;22)(q34;q11)x2,+1-3mar",
+      "Kary Long": null,
+      "Trình tự vụ": "1"
+    },
+    {
+      "Số Tham Chiếu": 96,
+      "Số hồ sơ": "1",
+      "Số Hóa Đơn": 1,
+      "Ngày hoá đơn": "1",
+      "tế mô": "LN",
+      "Nhân bản": 1,
+      "Chiều dài karyotype": 80,
+      "Tên ngắn": "48,XX,del(1)(q22q25),+ider(1)(q10)del(1)(q22q25),+5,del(12)(p12),dup(14)(q24q32)",
+      "Kary Long": null,
+      "Trình tự vụ": "1"
+    },
+    {
+      "Số Tham Chiếu": 120,
+      "Số hồ sơ": "1",
+      "Số Hóa Đơn": 1,
+      "Ngày hoá đơn": "1",
+      "tế mô": "BM",
+      "Nhân bản": 1,
+      "Chiều dài karyotype": 75,
+      "Tên ngắn": "46,XY,t(1;13)(p36;q13),del(3)(p21),-5,inv(7)(p11q22),t(16;16)(q22;q24),+mar",
+      "Kary Long": null,
+      "Trình tự vụ": "1"
+    },
+    {
+      "Số Tham Chiếu": 127,
+      "Số hồ sơ": "1",
+      "Số Hóa Đơn": 1,
+      "Ngày hoá đơn": "1",
+      "tế mô": "EX",
+      "Nhân bản": 1,
+      "Chiều dài karyotype": 153,
+      "Tên ngắn": "61,XX,del(X)(q22),del(1)(p12),-2,-4,del(5)(p21),del(7)(q31),-8,-9,+12,-13,-14,der(14)t(14;18)(q11;q11),-15,-15,-18,add(18)(q?),-19,-21,-22,i(22)(q10),inc",
+      "Kary Long": null,
+      "Trình tự vụ": "1"
+    },
+    {
+      "Số Tham Chiếu": 160,
+      "Số hồ sơ": "1",
+      "Số Hóa Đơn": 1,
+      "Ngày hoá đơn": "1",
+      "tế mô": "BM",
+      "Nhân bản": 1,
+      "Chiều dài karyotype": 77,
+      "Tên ngắn": "47,XX,add(1)(p?),der(5),-6,add(12)(p?),-13,-14,-16,-17,-17,-21,+22,+7mar,dmin",
+      "Kary Long": null,
+      "Trình tự vụ": "1"
+    }
+  ]
+}
