@@ -1,0 +1,113 @@
+{
+  "table_name": "MIRNASEQ_HG19_GDC_2017_03",
+  "table_fullname": "TCGA.TCGA_VERSIONED.MIRNASEQ_HG19_GDC_2017_03",
+  "column_names": [
+    "định danh mẫu phụ GDC",
+    "Tên ngắn dự án",
+    "mã_trường_hợp_gdc",
+    "đã ánh xạ chéo",
+    "đọc mỗi triệu miRNA ánh xạ",
+    "mã mẫu GDC",
+    "mã vạch mẫu",
+    "mã vạch mẫu",
+    "mã vạch kiện",
+    "số lượt đọc",
+    "mã miRNA",
+    "ID tệp GDC"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "FLOAT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "NUMBER",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Định danh GDC duy nhất cho mẫu này (tương ứng với mã vạch mẫu), ví dụ 7fbfdb3e-1fd2-4206-8d2e-7f68e4a15844  --  có thể được sử dụng để truy cập thêm thông tin từ cổng dữ liệu GDC",
+    "Viết tắt tên dự án; tên chương trình được thêm vào bằng viết tắt tên dự án; ví dụ: TCGA-OV, v.v.",
+    "Định danh duy nhất GDC cho trường hợp này (tương ứng với case_barcode), ví dụ 6d10d4ee-6331-4bba-93bc-a7b64cc0b22a -- điều này có thể được sử dụng để truy cập thêm thông tin từ cổng dữ liệu GDC như thế này: https://portal.gdc.cancer.gov/cases/6d10d4ee-6331-4bba-93bc-a7b64cc0b22a",
+    "Một đọc isomiR ngắn có thể ánh xạ chính xác vào các sợi trưởng thành có chuỗi tương tự nhưng không giống nhau, khi chuỗi đọc không bao gồm các base phân biệt các miRNA này (ví dụ hsa-mir-30a tại 6q13 và hsa-mir-30e tại 1p34.2, có sự khác nhau tại vị trí 18). Chúng tôi báo cáo một đọc như vậy <line_feed> dưới dạng đã được ánh xạ chéo, và chúng tôi tăng số lượng đọc cho mỗi MIMAT mà nó đã ánh xạ tới. Dùng Y hoặc N -- ít hơn 2% là Y",
+    "Số đọc được chuẩn hóa theo tổng số đọc được ánh xạ, chia cho 1 triệu",
+    "Định danh GDC duy nhất cho mẫu này (đối ứng với mã vạch mẫu), ví dụ a1ec9279-c1a6-4e58-97ed-9ec1f36187c5  --  có thể được dùng để truy cập thêm thông tin từ cổng dữ liệu GDC",
+    "Bảng mã mẫu TCGA gốc, ví dụ: TCGA-12-1089-01A-01D-0517-01",
+    "Mã vạch mẫu TCGA gốc, ví dụ TCGA-12-1089-01A – lưu ý rằng một mẫu có thể có nhiều phần lẻ (aliquots) và do đó có nhiều bộ phân đoạn CN; vì vậy hãy đảm bảo sử dụng GROUP BY đúng cách trong các truy vấn của bạn.",
+    "Mã vạch trường hợp TCGA gốc, ví dụ TCGA-12-1089 -- lưu ý rằng mỗi trường hợp thường có một mẫu khối u chính và một mẫu bình thường phù hợp (máu hoặc mô lân cận); vui lòng tham khảo bảng BioSpecimen của TCGA để biết thêm chi tiết",
+    "Số reads đã được ánh xạ tới mirna_id này",
+    "Một trong 1870 mã miRNA duy nhất (hay còn gọi là biểu tượng) có trong bảng này, ví dụ hsa-mir-21 — thông tin tham khảo liên quan có thể được tìm thấy trong bộ dữ liệu isb-cgc:genome_reference trong các bảng miRBase_v20 và miRBase_v20_hsa_gff3",
+    "Định danh duy nhất GDC cho tệp này (tương ứng với file_barcode)  --  điều này có thể được sử dụng để truy cập thêm thông tin từ cổng dữ liệu GDC như sau: https://portal.gdc.cancer.gov/files/c21b332c-06c6-4403-9032-f91c8f407ba17"
+  ],
+  "sample_rows": [
+    {
+      "Tên ngắn dự án": "TCGA-OV",
+      "mã vạch kiện": "TCGA-04-1331",
+      "mã vạch mẫu": "TCGA-04-1331-01A-01R-1569-13",
+      "mã miRNA": "hsa-mir-4535",
+      "số lượt đọc": 0,
+      "đọc mỗi triệu miRNA ánh xạ": 0.0,
+      "đã ánh xạ chéo": "N",
+      "ID tệp GDC": "ca1bc2d9-4a9c-4190-9dd0-57186110af60",
+      "mã_trường_hợp_gdc": "6d10d4ee-6331-4bba-93bc-a7b64cc0b22a",
+      "mã mẫu GDC": "a1ec9279-c1a6-4e58-97ed-9ec1f36187c5",
+      "định danh mẫu phụ GDC": "7fbfdb3e-1fd2-4206-8d2e-7f68e4a15844"
+    },
+    {
+      "Tên ngắn dự án": "TCGA-OV",
+      "mã vạch kiện": "TCGA-04-1331",
+      "mã vạch mẫu": "TCGA-04-1331-01A-01R-1569-13",
+      "mã miRNA": "hsa-mir-6743",
+      "số lượt đọc": 1,
+      "đọc mỗi triệu miRNA ánh xạ": 0.27432,
+      "đã ánh xạ chéo": "N",
+      "ID tệp GDC": "ca1bc2d9-4a9c-4190-9dd0-57186110af60",
+      "mã_trường_hợp_gdc": "6d10d4ee-6331-4bba-93bc-a7b64cc0b22a",
+      "mã mẫu GDC": "a1ec9279-c1a6-4e58-97ed-9ec1f36187c5",
+      "định danh mẫu phụ GDC": "7fbfdb3e-1fd2-4206-8d2e-7f68e4a15844"
+    },
+    {
+      "Tên ngắn dự án": "TCGA-OV",
+      "mã vạch kiện": "TCGA-04-1331",
+      "mã vạch mẫu": "TCGA-04-1331-01A-01R-1569-13",
+      "mã miRNA": "hsa-mir-888",
+      "số lượt đọc": 0,
+      "đọc mỗi triệu miRNA ánh xạ": 0.0,
+      "đã ánh xạ chéo": "N",
+      "ID tệp GDC": "ca1bc2d9-4a9c-4190-9dd0-57186110af60",
+      "mã_trường_hợp_gdc": "6d10d4ee-6331-4bba-93bc-a7b64cc0b22a",
+      "mã mẫu GDC": "a1ec9279-c1a6-4e58-97ed-9ec1f36187c5",
+      "định danh mẫu phụ GDC": "7fbfdb3e-1fd2-4206-8d2e-7f68e4a15844"
+    },
+    {
+      "Tên ngắn dự án": "TCGA-OV",
+      "mã vạch kiện": "TCGA-04-1331",
+      "mã vạch mẫu": "TCGA-04-1331-01A-01R-1569-13",
+      "mã miRNA": "hsa-mir-4677",
+      "số lượt đọc": 1,
+      "đọc mỗi triệu miRNA ánh xạ": 0.27432,
+      "đã ánh xạ chéo": "N",
+      "ID tệp GDC": "ca1bc2d9-4a9c-4190-9dd0-57186110af60",
+      "mã_trường_hợp_gdc": "6d10d4ee-6331-4bba-93bc-a7b64cc0b22a",
+      "mã mẫu GDC": "a1ec9279-c1a6-4e58-97ed-9ec1f36187c5",
+      "định danh mẫu phụ GDC": "7fbfdb3e-1fd2-4206-8d2e-7f68e4a15844"
+    },
+    {
+      "Tên ngắn dự án": "TCGA-OV",
+      "mã vạch kiện": "TCGA-04-1331",
+      "mã vạch mẫu": "TCGA-04-1331-01A-01R-1569-13",
+      "mã miRNA": "hsa-mir-548t",
+      "số lượt đọc": 2,
+      "đọc mỗi triệu miRNA ánh xạ": 0.54864,
+      "đã ánh xạ chéo": "N",
+      "ID tệp GDC": "ca1bc2d9-4a9c-4190-9dd0-57186110af60",
+      "mã_trường_hợp_gdc": "6d10d4ee-6331-4bba-93bc-a7b64cc0b22a",
+      "mã mẫu GDC": "a1ec9279-c1a6-4e58-97ed-9ec1f36187c5",
+      "định danh mẫu phụ GDC": "7fbfdb3e-1fd2-4206-8d2e-7f68e4a15844"
+    }
+  ]
+}
