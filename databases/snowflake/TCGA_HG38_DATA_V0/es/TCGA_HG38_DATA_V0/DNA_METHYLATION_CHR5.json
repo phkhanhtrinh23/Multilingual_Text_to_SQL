@@ -1,0 +1,97 @@
+{
+  "table_name": "DNA_METHYLATION_CHR5",
+  "table_fullname": "TCGA_HG38_DATA_V0.TCGA_HG38_DATA_V0.DNA_METHYLATION_CHR5",
+  "column_names": [
+    "código de muestra",
+    "id_muestra_gdc",
+    "identificador de sonda",
+    "identificador_archivo_gdc",
+    "plataforma",
+    "valor beta",
+    "código de barras del caso",
+    "código de alícuota",
+    "id_muestra_gdc",
+    "id_caso_gdc"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "FLOAT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Código de barras original de muestra TCGA, p. ej. TCGA-12-1089-01A",
+    "",
+    "Identificador único de sonda (p. ej. cg04676771) del array de metilación humana de Illumina -- por favor consulte la tabla de anotaciones (isb-cgc:platform_reference.methylation_annotation) para más detalles sobre cualquier sonda en particular.",
+    "",
+    "Nombre de la plataforma utilizada para generar estos datos -- ya sea HumanMethylation450 o HumanMethylation27",
+    "Valor beta de metilación del ADN normalizado (entre 0 y 1, donde 0 indica completamente desmetilado y 1 indica completamente metilado)",
+    "Código de caso original de TCGA, por ejemplo TCGA-12-1089 -- Tenga en cuenta que cada caso suele tener una muestra de tumor primario y una muestra normal emparejada (sangre o tejido adyacente); por favor, consulte la tabla de Biospecimen de TCGA para más detalles",
+    "Código de barras original de alíquotas de TCGA, ej. TCGA-12-1089-01A-01D-0517-01",
+    "",
+    ""
+  ],
+  "sample_rows": [
+    {
+      "código de barras del caso": "TCGA-12-1601",
+      "código de muestra": "TCGA-12-1601-01A",
+      "código de alícuota": "TCGA-12-1601-01A-01D-0595-05",
+      "identificador de sonda": "cg14523284",
+      "valor beta": 0.922618516522014,
+      "plataforma": null,
+      "identificador_archivo_gdc": "5cd6f2f6-7278-4757-be8e-a8ae3a7a81d3",
+      "id_caso_gdc": "cc1459be-de8f-482e-9efe-65937db9dc45",
+      "id_muestra_gdc": "aa761ca4-e8f0-4a43-8262-bd84eedb459a"
+    },
+    {
+      "código de barras del caso": "TCGA-12-1601",
+      "código de muestra": "TCGA-12-1601-01A",
+      "código de alícuota": "TCGA-12-1601-01A-01D-0595-05",
+      "identificador de sonda": "cg04883450",
+      "valor beta": 0.0241474134763057,
+      "plataforma": null,
+      "identificador_archivo_gdc": "5cd6f2f6-7278-4757-be8e-a8ae3a7a81d3",
+      "id_caso_gdc": "cc1459be-de8f-482e-9efe-65937db9dc45",
+      "id_muestra_gdc": "aa761ca4-e8f0-4a43-8262-bd84eedb459a"
+    },
+    {
+      "código de barras del caso": "TCGA-32-2498",
+      "código de muestra": "TCGA-32-2498-01A",
+      "código de alícuota": "TCGA-32-2498-01A-01D-1228-05",
+      "identificador de sonda": "cg20492933",
+      "valor beta": 0.0772303560101683,
+      "plataforma": null,
+      "identificador_archivo_gdc": "6db4187c-5e48-45ac-8ae3-6b55198ff65a",
+      "id_caso_gdc": "0d5e5a6b-5113-43f2-836c-776207b21b56",
+      "id_muestra_gdc": "6e65d823-0d94-4d26-b60a-2f168cbe2ba8"
+    },
+    {
+      "código de barras del caso": "TCGA-32-2498",
+      "código de muestra": "TCGA-32-2498-01A",
+      "código de alícuota": "TCGA-32-2498-01A-01D-1228-05",
+      "identificador de sonda": "cg17820459",
+      "valor beta": 0.0317968886636332,
+      "plataforma": null,
+      "identificador_archivo_gdc": "6db4187c-5e48-45ac-8ae3-6b55198ff65a",
+      "id_caso_gdc": "0d5e5a6b-5113-43f2-836c-776207b21b56",
+      "id_muestra_gdc": "6e65d823-0d94-4d26-b60a-2f168cbe2ba8"
+    },
+    {
+      "código de barras del caso": "TCGA-32-2498",
+      "código de muestra": "TCGA-32-2498-01A",
+      "código de alícuota": "TCGA-32-2498-01A-01D-1228-05",
+      "identificador de sonda": "cg26747293",
+      "valor beta": 0.033811697362978,
+      "plataforma": null,
+      "identificador_archivo_gdc": "6db4187c-5e48-45ac-8ae3-6b55198ff65a",
+      "id_caso_gdc": "0d5e5a6b-5113-43f2-836c-776207b21b56",
+      "id_muestra_gdc": "6e65d823-0d94-4d26-b60a-2f168cbe2ba8"
+    }
+  ]
+}
