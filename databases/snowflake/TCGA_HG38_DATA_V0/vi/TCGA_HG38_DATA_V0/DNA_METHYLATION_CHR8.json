@@ -1,0 +1,102 @@
+{
+  "table_name": "DNA_METHYLATION_CHR8",
+  "table_fullname": "TCGA_HG38_DATA_V0.TCGA_HG38_DATA_V0.DNA_METHYLATION_CHR8",
+  "column_names": [
+    "giá trị beta",
+    "mã tệp GDC",
+    "ID mẫu GDC",
+    "Mã ID GDC",
+    "nền tảng",
+    "Mã vạch hồ sơ",
+    "định danh máy dò",
+    "Mã GDC mẫu",
+    "Mã vạch mẫu",
+    "mã vạch aliquot"
+  ],
+  "column_types": [
+    "FLOAT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Giá trị beta của methylation DNA đã được chuẩn hóa (giữa 0 và 1, trong đó 0 biểu thị hoàn toàn chưa methyl và 1 biểu thị hoàn toàn methyl)",
+    "",
+    "",
+    "",
+    "Nền tảng được sử dụng để tạo dữ liệu này — HumanMethylation450 hoặc HumanMethylation27",
+    "Bảng mã trường hợp TCGA gốc, ví dụ TCGA-12-1089  --  lưu ý rằng mỗi trường hợp thường có một mẫu khối u chính và một mẫu bình thường phù hợp (máu hoặc mô lân cận); vui lòng tham khảo bảng Biospecimen của TCGA để biết thêm chi tiết.",
+    "Định danh duy nhất của probe (ví dụ cg04676771) từ mảng methylation người Illumina – vui lòng tham khảo bảng chú thích (isb-cgc:platform_reference.methylation_annotation) để biết thêm chi tiết về bất kỳ probe nào.",
+    "",
+    "Barcode mẫu TCGA gốc, ví dụ TCGA-12-1089-01A -- lưu ý rằng một mẫu có thể có nhiều mẻ và do đó có nhiều bộ phân đoạn CN; vì vậy hãy chắc chắn sử dụng GROUP BY phù hợp trong các truy vấn của bạn",
+    "Mã vạch mẫu gốc TCGA, ví dụ TCGA-12-1089-01A-01D-0517-01"
+  ],
+  "sample_rows": [
+    {
+      "Mã vạch hồ sơ": "TCGA-12-1601",
+      "Mã vạch mẫu": "TCGA-12-1601-01A",
+      "mã vạch aliquot": "TCGA-12-1601-01A-01D-0595-05",
+      "định danh máy dò": "cg23338195",
+      "giá trị beta": 0.588982742365272,
+      "nền tảng": null,
+      "mã tệp GDC": "5cd6f2f6-7278-4757-be8e-a8ae3a7a81d3",
+      "Mã ID GDC": "cc1459be-de8f-482e-9efe-65937db9dc45",
+      "ID mẫu GDC": "b02fd704-03a6-44c4-b224-f5f457e733f3",
+      "Mã GDC mẫu": "aa761ca4-e8f0-4a43-8262-bd84eedb459a"
+    },
+    {
+      "Mã vạch hồ sơ": "TCGA-12-1601",
+      "Mã vạch mẫu": "TCGA-12-1601-01A",
+      "mã vạch aliquot": "TCGA-12-1601-01A-01D-0595-05",
+      "định danh máy dò": "cg05751979",
+      "giá trị beta": 0.00954396869489938,
+      "nền tảng": null,
+      "mã tệp GDC": "5cd6f2f6-7278-4757-be8e-a8ae3a7a81d3",
+      "Mã ID GDC": "cc1459be-de8f-482e-9efe-65937db9dc45",
+      "ID mẫu GDC": "b02fd704-03a6-44c4-b224-f5f457e733f3",
+      "Mã GDC mẫu": "aa761ca4-e8f0-4a43-8262-bd84eedb459a"
+    },
+    {
+      "Mã vạch hồ sơ": "TCGA-12-1601",
+      "Mã vạch mẫu": "TCGA-12-1601-01A",
+      "mã vạch aliquot": "TCGA-12-1601-01A-01D-0595-05",
+      "định danh máy dò": "cg00155167",
+      "giá trị beta": 0.0189853034727912,
+      "nền tảng": null,
+      "mã tệp GDC": "5cd6f2f6-7278-4757-be8e-a8ae3a7a81d3",
+      "Mã ID GDC": "cc1459be-de8f-482e-9efe-65937db9dc45",
+      "ID mẫu GDC": "b02fd704-03a6-44c4-b224-f5f457e733f3",
+      "Mã GDC mẫu": "aa761ca4-e8f0-4a43-8262-bd84eedb459a"
+    },
+    {
+      "Mã vạch hồ sơ": "TCGA-32-2498",
+      "Mã vạch mẫu": "TCGA-32-2498-01A",
+      "mã vạch aliquot": "TCGA-32-2498-01A-01D-1228-05",
+      "định danh máy dò": "cg04598121",
+      "giá trị beta": 0.157746928755865,
+      "nền tảng": null,
+      "mã tệp GDC": "6db4187c-5e48-45ac-8ae3-6b55198ff65a",
+      "Mã ID GDC": "0d5e5a6b-5113-43f2-836c-776207b21b56",
+      "ID mẫu GDC": "58af038c-bd40-4123-a6d3-11061f0d38e1",
+      "Mã GDC mẫu": "6e65d823-0d94-4d26-b60a-2f168cbe2ba8"
+    },
+    {
+      "Mã vạch hồ sơ": "TCGA-32-2498",
+      "Mã vạch mẫu": "TCGA-32-2498-01A",
+      "mã vạch aliquot": "TCGA-32-2498-01A-01D-1228-05",
+      "định danh máy dò": "cg25824226",
+      "giá trị beta": 0.0212621000547741,
+      "nền tảng": null,
+      "mã tệp GDC": "6db4187c-5e48-45ac-8ae3-6b55198ff65a",
+      "Mã ID GDC": "0d5e5a6b-5113-43f2-836c-776207b21b56",
+      "ID mẫu GDC": "58af038c-bd40-4123-a6d3-11061f0d38e1",
+      "Mã GDC mẫu": "6e65d823-0d94-4d26-b60a-2f168cbe2ba8"
+    }
+  ]
+}
