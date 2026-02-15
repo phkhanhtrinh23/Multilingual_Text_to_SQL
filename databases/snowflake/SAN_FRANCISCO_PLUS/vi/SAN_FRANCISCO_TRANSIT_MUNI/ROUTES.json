@@ -1,0 +1,54 @@
+{
+  "table_name": "ROUTES",
+  "table_fullname": "SAN_FRANCISCO_PLUS.SAN_FRANCISCO_TRANSIT_MUNI.ROUTES",
+  "column_names": [
+    "Loại tuyến",
+    "tên tuyến đường",
+    "tên_ngắn_đường",
+    "mã tuyến đường"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Miêu tả loại phương tiện được sử dụng trên một tuyến đường. Các giá trị hợp lệ cho trường này bao gồm:  \n- **light_rail**: Xe điện nhẹ hoặc đường sắt nhẹ. Dùng cho bất kỳ hệ thống đường sắt nhẹ hoặc xe điện mặt đường nào trong khu vực đô thị.  \n- **subway**: Tún điện hoặc metro. Dùng cho bất kỳ hệ thống đường sắt ngầm nào trong khu vực đô thị.  \n- **rail**: Dùng cho chuyến đi giữa các thành phố hoặc đường dài.  \n- **bus**: Dùng cho các tuyến xe buýt ngắn và dài.  \n- **ferry**: Dùng cho dịch vụ phà ngắn và dài.  \n- **cable_car**: Dùng cho xe cáp tầng mặt đường, nơi dây cáp chạy dưới xe.  \n- **tram**: Xe gondola hoặc xe cáp treo. Thường được dùng cho xe cáp trên không, nơi xe được treo từ dây cáp.  \n- **funicular**: Dùng cho bất kỳ hệ thống đường sắt nào di chuyển trên dốc gồ ghề với hệ thống kéo cáp.",
+    "Chứa tên đầy đủ của tuyến đường. Tên này thường mô tả chi tiết hơn so với tên từ route_short_name và thường bao gồm điểm đến hoặc điểm dừng của tuyến.",
+    "Chứa tên ngắn của tuyến đường. Đây là một định danh ngắn, trừu tượng như 32, 100X hoặc Green mà hành khách sử dụng để nhận dạng một tuyến đường, nhưng không cho biết những nơi tuyến đường đi qua.",
+    "Định danh duy nhất cho mỗi tuyến đường. Một tuyến đường sẽ có nhiều chuyến."
+  ],
+  "sample_rows": [
+    {
+      "mã tuyến đường": "83X",
+      "tên_ngắn_đường": "83X",
+      "tên tuyến đường": "MID-MARKET EXPRESS",
+      "Loại tuyến": "3"
+    },
+    {
+      "mã tuyến đường": "E",
+      "tên_ngắn_đường": "E",
+      "tên tuyến đường": "EMBARCADERO",
+      "Loại tuyến": "0"
+    },
+    {
+      "mã tuyến đường": "3",
+      "tên_ngắn_đường": "3",
+      "tên tuyến đường": "JACKSON",
+      "Loại tuyến": "3"
+    },
+    {
+      "mã tuyến đường": "M",
+      "tên_ngắn_đường": "M",
+      "tên tuyến đường": "OCEAN VIEW",
+      "Loại tuyến": "0"
+    },
+    {
+      "mã tuyến đường": "8AX",
+      "tên_ngắn_đường": "8AX",
+      "tên tuyến đường": "BAYSHORE A EXPRESS",
+      "Loại tuyến": "3"
+    }
+  ]
+}

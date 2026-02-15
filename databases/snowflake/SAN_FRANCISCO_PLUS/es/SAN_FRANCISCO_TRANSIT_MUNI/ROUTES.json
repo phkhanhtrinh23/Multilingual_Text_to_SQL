@@ -1,0 +1,54 @@
+{
+  "table_name": "ROUTES",
+  "table_fullname": "SAN_FRANCISCO_PLUS.SAN_FRANCISCO_TRANSIT_MUNI.ROUTES",
+  "column_names": [
+    "tipo_de_ruta",
+    "nombre largo de ruta",
+    "nombre_corto_de_la_ruta",
+    "identificador de ruta"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Describe el tipo de transporte utilizado en una ruta. Los siguientes valores son válidos para este campo:\n\n- light_rail: Tranvía o tren ligero. Se usa para cualquier sistema de tren ligero o a nivel de calle dentro de un área metropolitana.  \n- subway: Subte o metro. Se usa para cualquier sistema de tren subterráneo dentro de un área metropolitana.  \n- rail: Se usa para viajes interurbanos o de larga distancia.  \n- bus: Se usa para rutas de autobuses de corta y larga distancia.  \n- ferry: Se usa para servicios de barco de corta y larga distancia.  \n- cable_car: Se usa para tranvías a nivel de calle donde el cable corre debajo del vehículo.  \n- tram: Gondola o tranvía suspendido. Se usa típicamente para tranvías aéreos donde el vehículo está suspendido del cable.  \n- funicular: Se usa para cualquier sistema ferroviario que se mueve en pendientes empinadas con un sistema de tracción por cable.",
+    "Contiene el nombre completo de una ruta. Este nombre suele ser más descriptivo que el nombre de route_short_name y a menudo incluye el destino o la parada de la ruta.",
+    "Contiene el nombre corto de una ruta. Este es un identificador corto y abstracto como 32, 100X o Green que los usuarios usan para identificar una ruta, pero que no indica qué lugares sirve la ruta.",
+    "Identificador único para cada ruta. Una sola ruta tendrá múltiples viajes."
+  ],
+  "sample_rows": [
+    {
+      "identificador de ruta": "83X",
+      "nombre_corto_de_la_ruta": "83X",
+      "nombre largo de ruta": "MID-MARKET EXPRESS",
+      "tipo_de_ruta": "3"
+    },
+    {
+      "identificador de ruta": "E",
+      "nombre_corto_de_la_ruta": "E",
+      "nombre largo de ruta": "EMBARCADERO",
+      "tipo_de_ruta": "0"
+    },
+    {
+      "identificador de ruta": "3",
+      "nombre_corto_de_la_ruta": "3",
+      "nombre largo de ruta": "JACKSON",
+      "tipo_de_ruta": "3"
+    },
+    {
+      "identificador de ruta": "M",
+      "nombre_corto_de_la_ruta": "M",
+      "nombre largo de ruta": "OCEAN VIEW",
+      "tipo_de_ruta": "0"
+    },
+    {
+      "identificador de ruta": "8AX",
+      "nombre_corto_de_la_ruta": "8AX",
+      "nombre largo de ruta": "BAYSHORE A EXPRESS",
+      "tipo_de_ruta": "3"
+    }
+  ]
+}
