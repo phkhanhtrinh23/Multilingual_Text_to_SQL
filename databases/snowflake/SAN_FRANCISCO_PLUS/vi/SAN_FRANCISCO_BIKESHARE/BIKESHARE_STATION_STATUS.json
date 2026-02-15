@@ -1,0 +1,110 @@
+{
+  "table_name": "BIKESHARE_STATION_STATUS",
+  "table_fullname": "SAN_FRANCISCO_PLUS.SAN_FRANCISCO_BIKESHARE.BIKESHARE_STATION_STATUS",
+  "column_names": [
+    "đang thuê",
+    "đã cài đặt",
+    "mã trạm",
+    "số_xe_đạp_có_sẵn",
+    "eightd_có_khóa_sẵn",
+    "Số cốp ngưng hoạt động",
+    "báo cáo cuối cùng",
+    "đang_trở_lại",
+    "số_xe_điện_đang_có",
+    "số xe đạp không hoạt động",
+    "số_lượng_giấy_trống"
+  ],
+  "column_types": [
+    "BOOLEAN",
+    "BOOLEAN",
+    "TEXT",
+    "NUMBER",
+    "BOOLEAN",
+    "NUMBER",
+    "NUMBER",
+    "BOOLEAN",
+    "NUMBER",
+    "NUMBER",
+    "NUMBER"
+  ],
+  "description": [
+    "1/0 boolean - trạm hiện đang cho thuê xe đạp hay không (dù trạm trống, nếu được thiết lập để cho phép thuê, giá trị này phải là 1)",
+    "1/0 boolean - trạm có đang trên đường không",
+    "Định danh duy nhất của một trạm",
+    "Số lượng xe đạp có sẵn cho thuê",
+    "",
+    "Số lượng điểm đỗ rỗng nhưng đã bị vô hiệu hóa tại trạm. Giá trị này vẫn là một phần của bản mô tả vì nó có thể hữu ích trong quá trình phát triển.",
+    "Số nguyên POSIX timestamp chỉ thời gian cuối cùng trạm này đã báo cáo trạng thái lên backend",
+    "1/0 boolean - trạm có nhận trả xe đạp hay không (nếu trạm đầy nhưng vẫn cho phép trả nếu chưa đầy thì giá trị này phải là 1)",
+    "",
+    "Số xe đạp bị hỏng tại trạm. Nhà cung cấp không muốn công bố số xe đạp hoặc bến bị hỏng trong hệ thống của họ có thể chọn bỏ qua dung lượng trạm (trong station_information), num_bikes_disabled và num_docks_disabled. Nếu dung lượng trạm được công bố thì có thể suy ra các bến/xe đạp bị hỏng (mặc dù không rõ chính xác liệu giảm dung lượng là do xe đạp hay bến bị hỏng).",
+    "Số điểm đỗ xe đạp nhận trả"
+  ],
+  "sample_rows": [
+    {
+      "mã trạm": "46b4ef45-b06b-40eb-9fdf-9bc8ff104a4f",
+      "số_xe_đạp_có_sẵn": 0,
+      "số xe đạp không hoạt động": 0,
+      "số_lượng_giấy_trống": 15,
+      "Số cốp ngưng hoạt động": 0,
+      "đã cài đặt": true,
+      "đang thuê": true,
+      "đang_trở_lại": true,
+      "báo cáo cuối cùng": 1729209514,
+      "số_xe_điện_đang_có": 0,
+      "eightd_có_khóa_sẵn": false
+    },
+    {
+      "mã trạm": "bb54f5c8-5578-4167-9599-8e55154de4fd",
+      "số_xe_đạp_có_sẵn": 0,
+      "số xe đạp không hoạt động": 0,
+      "số_lượng_giấy_trống": 27,
+      "Số cốp ngưng hoạt động": 0,
+      "đã cài đặt": true,
+      "đang thuê": true,
+      "đang_trở_lại": true,
+      "báo cáo cuối cùng": 1729209462,
+      "số_xe_điện_đang_có": 0,
+      "eightd_có_khóa_sẵn": false
+    },
+    {
+      "mã trạm": "63b2136c-c947-473e-977e-8cc0e6347699",
+      "số_xe_đạp_có_sẵn": 0,
+      "số xe đạp không hoạt động": 0,
+      "số_lượng_giấy_trống": 19,
+      "Số cốp ngưng hoạt động": 0,
+      "đã cài đặt": true,
+      "đang thuê": true,
+      "đang_trở_lại": true,
+      "báo cáo cuối cùng": 1729209551,
+      "số_xe_điện_đang_có": 0,
+      "eightd_có_khóa_sẵn": false
+    },
+    {
+      "mã trạm": "7dd926da-25ee-48fd-9de7-ad59a83f94a8",
+      "số_xe_đạp_có_sẵn": 0,
+      "số xe đạp không hoạt động": 0,
+      "số_lượng_giấy_trống": 31,
+      "Số cốp ngưng hoạt động": 0,
+      "đã cài đặt": true,
+      "đang thuê": true,
+      "đang_trở_lại": true,
+      "báo cáo cuối cùng": 1729209544,
+      "số_xe_điện_đang_có": 0,
+      "eightd_có_khóa_sẵn": false
+    },
+    {
+      "mã trạm": "e70c8987-0178-46f2-941f-1fd0eb306ed9",
+      "số_xe_đạp_có_sẵn": 0,
+      "số xe đạp không hoạt động": 0,
+      "số_lượng_giấy_trống": 19,
+      "Số cốp ngưng hoạt động": 0,
+      "đã cài đặt": true,
+      "đang thuê": true,
+      "đang_trở_lại": true,
+      "báo cáo cuối cùng": 1729209503,
+      "số_xe_điện_đang_có": 0,
+      "eightd_có_khóa_sẵn": false
+    }
+  ]
+}

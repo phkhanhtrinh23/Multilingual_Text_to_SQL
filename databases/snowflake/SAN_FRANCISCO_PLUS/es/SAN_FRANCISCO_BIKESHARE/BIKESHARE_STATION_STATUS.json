@@ -1,0 +1,110 @@
+{
+  "table_name": "BIKESHARE_STATION_STATUS",
+  "table_fullname": "SAN_FRANCISCO_PLUS.SAN_FRANCISCO_BIKESHARE.BIKESHARE_STATION_STATUS",
+  "column_names": [
+    "En alquiler",
+    "instalado",
+    "id_estacion",
+    "num_bicicletas_disponibles",
+    "eightd_tiene_llaves_disponibles",
+    "número de muelles deshabilitados",
+    "último reportado",
+    "devuelve",
+    "número de bicicletas eléctricas disponibles",
+    "número de bicicletas inactivas",
+    "número de puntos de estacionamiento disponibles"
+  ],
+  "column_types": [
+    "BOOLEAN",
+    "BOOLEAN",
+    "TEXT",
+    "NUMBER",
+    "BOOLEAN",
+    "NUMBER",
+    "NUMBER",
+    "BOOLEAN",
+    "NUMBER",
+    "NUMBER",
+    "NUMBER"
+  ],
+  "description": [
+    "1/0 booleano - indica si la estación está alquilando bicicletas en este momento (incluso si la estación está vacía, si está configurada para permitir alquileres, este valor debe ser 1)",
+    "booleano 1/0 - ¿está la estación actualmente en la calle?",
+    "Identificador único de la estación",
+    "Número de bicicletas disponibles para alquilar",
+    "",
+    "Número de puntos de atraque vacíos pero deshabilitados en la estación. Este valor permanece como parte de la especificación, ya que puede ser útil durante el desarrollo.",
+    "Entero de marca de tiempo POSIX que indica la última vez que esta estación reportó su estado al backend",
+    "1/0 booleano - ¿la estación está aceptando devoluciones de bicicletas? (si la estación está llena pero permitiría una devolución si no estuviera llena, entonces este valor debería ser 1)",
+    "",
+    "Número de bicicletas fuera de servicio en la estación. Los vendedores que no quieren publicitar el número de bicicletas o puestos fuera de servicio en su sistema pueden optar por omitir la capacidad de la estación (en station_information), num_bikes_disabled y num_docks_disabled. Si se publica la capacidad de la estación, se pueden inferir los puestos o bicicletas fuera de servicio (aunque no se especifica si la disminución de la capacidad se debe a una bicicleta o un puesto fuera de servicio).",
+    "Número de estaciones que aceptan devoluciones de bicicletas"
+  ],
+  "sample_rows": [
+    {
+      "id_estacion": "46b4ef45-b06b-40eb-9fdf-9bc8ff104a4f",
+      "num_bicicletas_disponibles": 0,
+      "número de bicicletas inactivas": 0,
+      "número de puntos de estacionamiento disponibles": 15,
+      "número de muelles deshabilitados": 0,
+      "instalado": true,
+      "En alquiler": true,
+      "devuelve": true,
+      "último reportado": 1729209514,
+      "número de bicicletas eléctricas disponibles": 0,
+      "eightd_tiene_llaves_disponibles": false
+    },
+    {
+      "id_estacion": "bb54f5c8-5578-4167-9599-8e55154de4fd",
+      "num_bicicletas_disponibles": 0,
+      "número de bicicletas inactivas": 0,
+      "número de puntos de estacionamiento disponibles": 27,
+      "número de muelles deshabilitados": 0,
+      "instalado": true,
+      "En alquiler": true,
+      "devuelve": true,
+      "último reportado": 1729209462,
+      "número de bicicletas eléctricas disponibles": 0,
+      "eightd_tiene_llaves_disponibles": false
+    },
+    {
+      "id_estacion": "63b2136c-c947-473e-977e-8cc0e6347699",
+      "num_bicicletas_disponibles": 0,
+      "número de bicicletas inactivas": 0,
+      "número de puntos de estacionamiento disponibles": 19,
+      "número de muelles deshabilitados": 0,
+      "instalado": true,
+      "En alquiler": true,
+      "devuelve": true,
+      "último reportado": 1729209551,
+      "número de bicicletas eléctricas disponibles": 0,
+      "eightd_tiene_llaves_disponibles": false
+    },
+    {
+      "id_estacion": "7dd926da-25ee-48fd-9de7-ad59a83f94a8",
+      "num_bicicletas_disponibles": 0,
+      "número de bicicletas inactivas": 0,
+      "número de puntos de estacionamiento disponibles": 31,
+      "número de muelles deshabilitados": 0,
+      "instalado": true,
+      "En alquiler": true,
+      "devuelve": true,
+      "último reportado": 1729209544,
+      "número de bicicletas eléctricas disponibles": 0,
+      "eightd_tiene_llaves_disponibles": false
+    },
+    {
+      "id_estacion": "e70c8987-0178-46f2-941f-1fd0eb306ed9",
+      "num_bicicletas_disponibles": 0,
+      "número de bicicletas inactivas": 0,
+      "número de puntos de estacionamiento disponibles": 19,
+      "número de muelles deshabilitados": 0,
+      "instalado": true,
+      "En alquiler": true,
+      "devuelve": true,
+      "último reportado": 1729209503,
+      "número de bicicletas eléctricas disponibles": 0,
+      "eightd_tiene_llaves_disponibles": false
+    }
+  ]
+}
