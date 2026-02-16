@@ -1,0 +1,78 @@
+{
+  "sample_rows": [
+    {
+      "NOMBRE_GEOGRÁFICO": "Black Oak",
+      "ID Geográfico": "geoId/0506610",
+      "NIVEL": "City",
+      "NOMBRE_GEO_RELACIONADO": "72414",
+      "ID Geográfico Relacionado": "zip/72414",
+      "Nivel relacionado": "CensusZipCodeTabulationArea",
+      "Tipo de relación": "Overlaps"
+    },
+    {
+      "NOMBRE_GEOGRÁFICO": "Census Tract 9506, Ouachita County, Arkansas",
+      "ID Geográfico": "geoId/05103950600",
+      "NIVEL": "CensusTract",
+      "NOMBRE_GEO_RELACIONADO": "Block Group 5; Census Tract 9506; Ouachita County; Arkansas",
+      "ID Geográfico Relacionado": "censusBlockGroup/051039506005",
+      "Nivel relacionado": "CensusBlockGroup",
+      "Tipo de relación": "Contains"
+    },
+    {
+      "NOMBRE_GEOGRÁFICO": "Census Tract 701, McDonald County, Missouri",
+      "ID Geográfico": "geoId/29119070100",
+      "NIVEL": "CensusTract",
+      "NOMBRE_GEO_RELACIONADO": "Block Group 2, Census Tract 701, McDonald County, Missouri",
+      "ID Geográfico Relacionado": "censusBlockGroup/291190701002",
+      "Nivel relacionado": "CensusBlockGroup",
+      "Tipo de relación": "Contains"
+    },
+    {
+      "NOMBRE_GEOGRÁFICO": "Illinois",
+      "ID Geográfico": "geoId/17",
+      "NIVEL": "State",
+      "NOMBRE_GEO_RELACIONADO": "Millstadt Township",
+      "ID Geográfico Relacionado": "geoId/1749399",
+      "Nivel relacionado": "City",
+      "Tipo de relación": "Contains"
+    },
+    {
+      "NOMBRE_GEOGRÁFICO": "Denton County",
+      "ID Geográfico": "geoId/48121",
+      "NIVEL": "County",
+      "NOMBRE_GEO_RELACIONADO": "Block Group 4, Census Tract 216.15, Denton County, Texas",
+      "ID Geográfico Relacionado": "censusBlockGroup/481210216154",
+      "Nivel relacionado": "CensusBlockGroup",
+      "Tipo de relación": "Contains"
+    }
+  ],
+  "table_name": "GEOGRAPHY_RELATIONSHIPS",
+  "table_fullname": "US_REAL_ESTATE.CYBERSYN.GEOGRAPHY_RELATIONSHIPS",
+  "column_names": [
+    "NOMBRE_GEO_RELACIONADO",
+    "Nivel relacionado",
+    "ID Geográfico Relacionado",
+    "Tipo de relación",
+    "ID Geográfico",
+    "NOMBRE_GEOGRÁFICO",
+    "NIVEL"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Nombre del lugar relacionado con GEO_NAME. Este es un lugar que se superpone o está contenido dentro del geo principal (por ejemplo, ciudad dentro de un estado).",
+    "Nivel geográfico o jerarquía del lugar relacionado (p. ej., país, estado, condado, ciudad, continente, subregión del país, etc.)",
+    "Un identificador único para el lugar relacionado que se puede unir a la tabla GEOGRAPHY_INDEX.",
+    "Relación entre los dos lugares. “Contiene” significa que el RELATED_GEO_ID está completamente contenido dentro del GEO_ID (por ejemplo, relación de estado a ciudad), mientras que “Superpone” indica que el GEO_ID es una subparte del RELATED_GEO_ID (por ejemplo, relación de ciudad a estado).",
+    "Un identificador único para un lugar que se pueda unir a la tabla GEOGRAPHY_INDEX",
+    "Nombre completo del lugar",
+    "Nivel geográfico o jerarquía (por ejemplo, País, Estado, Condado, Ciudad, Continente, CountrySubRegion, etc.)"
+  ]
+}
