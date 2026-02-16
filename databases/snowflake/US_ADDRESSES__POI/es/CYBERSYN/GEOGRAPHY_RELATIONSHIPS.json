@@ -1,0 +1,78 @@
+{
+  "sample_rows": [
+    {
+      "NOMBRE_GEOGRÁFICO": "35300541",
+      "Identificador Geográfico": "statcanId/S051235300541",
+      "Nivel": "DisseminationArea",
+      "NOMBRE_GEO_RELACIONADO": "Northern America",
+      "ID geográfico relacionado": "countrySubRegion/021",
+      "Nivel relacionado": "CountrySubRegion",
+      "Tipo de relación": "Overlaps"
+    },
+    {
+      "NOMBRE_GEOGRÁFICO": "47878",
+      "Identificador Geográfico": "zip/47878",
+      "Nivel": "CensusZipCodeTabulationArea",
+      "NOMBRE_GEO_RELACIONADO": "Northern America",
+      "ID geográfico relacionado": "countrySubRegion/021",
+      "Nivel relacionado": "CountrySubRegion",
+      "Tipo de relación": "Overlaps"
+    },
+    {
+      "NOMBRE_GEOGRÁFICO": "48139",
+      "Identificador Geográfico": "zip/48139",
+      "Nivel": "CensusZipCodeTabulationArea",
+      "NOMBRE_GEO_RELACIONADO": "United States",
+      "ID geográfico relacionado": "country/USA",
+      "Nivel relacionado": "Country",
+      "Tipo de relación": "Overlaps"
+    },
+    {
+      "NOMBRE_GEOGRÁFICO": "Massachusetts",
+      "Identificador Geográfico": "geoId/25",
+      "Nivel": "State",
+      "NOMBRE_GEO_RELACIONADO": "Block Group 5, Census Tract 3703, Middlesex County, Massachusetts",
+      "ID geográfico relacionado": "censusBlockGroup/250173703005",
+      "Nivel relacionado": "CensusBlockGroup",
+      "Tipo de relación": "Contains"
+    },
+    {
+      "NOMBRE_GEOGRÁFICO": "West Virginia",
+      "Identificador Geográfico": "geoId/54",
+      "Nivel": "State",
+      "NOMBRE_GEO_RELACIONADO": "26040",
+      "ID geográfico relacionado": "zip/26040",
+      "Nivel relacionado": "CensusZipCodeTabulationArea",
+      "Tipo de relación": "Contains"
+    }
+  ],
+  "table_name": "GEOGRAPHY_RELATIONSHIPS",
+  "table_fullname": "US_ADDRESSES__POI.CYBERSYN.GEOGRAPHY_RELATIONSHIPS",
+  "column_names": [
+    "NOMBRE_GEO_RELACIONADO",
+    "ID geográfico relacionado",
+    "Nivel relacionado",
+    "Tipo de relación",
+    "Identificador Geográfico",
+    "NOMBRE_GEOGRÁFICO",
+    "Nivel"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Nombre del lugar relacionado con GEO_NAME. Este es un lugar que se superpone o está contenido dentro del geo principal (por ejemplo, ciudad dentro de un estado).",
+    "Un identificador único para el lugar relacionado que se puede unir a la tabla GEOGRAPHY_INDEX.",
+    "Nivel geográfico o jerarquía del lugar relacionado (p. ej., País, Estado, Condado, Ciudad, Continente, Subregión del país, etc.)",
+    "Relación entre los dos lugares. “Contains” significa que el RELATED_GEO_ID está completamente contenido dentro del GEO_ID (por ejemplo, relación de un estado a una ciudad), mientras que “Overlaps” indica que el GEO_ID es una subparte del RELATED_GEO_ID (por ejemplo, relación de una ciudad a un estado).",
+    "Un identificador único para un lugar que se pueda unir a la tabla GEOGRAPHY_INDEX.",
+    "Nombre completo del lugar",
+    "Nivel geográfico o jerarquía (por ejemplo, País, Estado, Condado, Ciudad, Continente, Subregión de país, etc.)"
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "sample_rows": [
+    {
+      "Tên địa danh": "35300541",
+      "Mã địa lý": "statcanId/S051235300541",
+      "CẤP": "DisseminationArea",
+      "Tên địa lý liên quan": "Northern America",
+      "Mã Địa Lý Liên Quan": "countrySubRegion/021",
+      "Cấp độ liên quan": "CountrySubRegion",
+      "Loại mối quan hệ": "Overlaps"
+    },
+    {
+      "Tên địa danh": "47878",
+      "Mã địa lý": "zip/47878",
+      "CẤP": "CensusZipCodeTabulationArea",
+      "Tên địa lý liên quan": "Northern America",
+      "Mã Địa Lý Liên Quan": "countrySubRegion/021",
+      "Cấp độ liên quan": "CountrySubRegion",
+      "Loại mối quan hệ": "Overlaps"
+    },
+    {
+      "Tên địa danh": "48139",
+      "Mã địa lý": "zip/48139",
+      "CẤP": "CensusZipCodeTabulationArea",
+      "Tên địa lý liên quan": "United States",
+      "Mã Địa Lý Liên Quan": "country/USA",
+      "Cấp độ liên quan": "Country",
+      "Loại mối quan hệ": "Overlaps"
+    },
+    {
+      "Tên địa danh": "Massachusetts",
+      "Mã địa lý": "geoId/25",
+      "CẤP": "State",
+      "Tên địa lý liên quan": "Block Group 5, Census Tract 3703, Middlesex County, Massachusetts",
+      "Mã Địa Lý Liên Quan": "censusBlockGroup/250173703005",
+      "Cấp độ liên quan": "CensusBlockGroup",
+      "Loại mối quan hệ": "Contains"
+    },
+    {
+      "Tên địa danh": "West Virginia",
+      "Mã địa lý": "geoId/54",
+      "CẤP": "State",
+      "Tên địa lý liên quan": "26040",
+      "Mã Địa Lý Liên Quan": "zip/26040",
+      "Cấp độ liên quan": "CensusZipCodeTabulationArea",
+      "Loại mối quan hệ": "Contains"
+    }
+  ],
+  "table_name": "GEOGRAPHY_RELATIONSHIPS",
+  "table_fullname": "US_ADDRESSES__POI.CYBERSYN.GEOGRAPHY_RELATIONSHIPS",
+  "column_names": [
+    "Tên địa lý liên quan",
+    "Mã Địa Lý Liên Quan",
+    "Cấp độ liên quan",
+    "Loại mối quan hệ",
+    "Mã địa lý",
+    "Tên địa danh",
+    "CẤP"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Tên của địa điểm liên quan đến GEO_NAME. Đây là một địa điểm chồng lấp hoặc nằm trong vùng địa lý chính (ví dụ: thành phố trong một bang).",
+    "Một định danh duy nhất cho địa điểm liên quan có thể kết nối với bảng GEOGRAPHY_INDEX.",
+    "Mức độ địa lý hoặc cấp độ phân cấp của địa điểm liên quan (ví dụ: Quốc gia, Bang, Hạt, Thành phố, Châu lục, Khu vực phụ của quốc gia, v.v.)",
+    "Mối quan hệ giữa hai địa điểm. Contains có nghĩa là RELATED_GEO_ID hoàn toàn nằm trong GEO_ID (ví dụ: mối quan hệ của bang tới thành phố) trong khi Overlaps cho biết GEO_ID là một phần của RELATED_GEO_ID (ví dụ: mối quan hệ của thành phố tới bang)",
+    "Một mã định danh duy nhất cho một địa điểm có thể liên kết với bảng GEOGRAPHY_INDEX",
+    "Tên đầy đủ của nơi",
+    "Mức độ địa lý hoặc phân cấp (ví dụ: Quốc gia, Bang, Hạt, Thành phố, Vĩ nguyên, Phân vùng con của quốc gia, v.v.)"
+  ]
+}
