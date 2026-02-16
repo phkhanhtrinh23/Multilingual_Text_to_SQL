@@ -1,0 +1,70 @@
+{
+  "sample_rows": [
+    {
+      "Mã địa lý": "zip/55032",
+      "Tên địa danh": "55032",
+      "biến": "outbound_address_changes_temporary",
+      "Tên biến": "Outbound Address Changes, Temporary",
+      "Ngày": "2020-08-31",
+      "Giá trị": 0
+    },
+    {
+      "Mã địa lý": "geoId/2555745",
+      "Tên địa danh": "Quincy",
+      "biến": "inbound_address_changes_permanent",
+      "Tên biến": "Inbound Address Changes, Permanent",
+      "Ngày": "2023-06-30",
+      "Giá trị": 582
+    },
+    {
+      "Mã địa lý": "geoId/3362500",
+      "Tên địa danh": "Plaistow",
+      "biến": "net_address_changes_individuals",
+      "Tên biến": "Net Address Changes, Individuals",
+      "Ngày": "2021-08-31",
+      "Giá trị": 4
+    },
+    {
+      "Mã địa lý": "zip/72132",
+      "Tên địa danh": "72132",
+      "biến": "inbound_address_changes_businesses",
+      "Tên biến": "Inbound Address Changes, Businesses",
+      "Ngày": "2022-12-31",
+      "Giá trị": 0
+    },
+    {
+      "Mã địa lý": "geoId/3703960",
+      "Tên địa danh": "Bayboro",
+      "biến": "outbound_address_changes_families",
+      "Tên biến": "Outbound Address Changes, Families",
+      "Ngày": "2023-02-28",
+      "Giá trị": 0
+    }
+  ],
+  "table_name": "USPS_ADDRESS_CHANGE_TIMESERIES",
+  "table_fullname": "US_REAL_ESTATE.CYBERSYN.USPS_ADDRESS_CHANGE_TIMESERIES",
+  "column_names": [
+    "Tên biến",
+    "Ngày",
+    "biến",
+    "Tên địa danh",
+    "Mã địa lý",
+    "Giá trị"
+  ],
+  "column_types": [
+    "TEXT",
+    "DATE",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "NUMBER"
+  ],
+  "description": [
+    "Mô tả có thể đọc được của biến",
+    "Ngày tương ứng với điểm dữ liệu. Lưu ý rằng các ngày được ghi lại là ngày kết thúc kỳ khi khoảng thời gian đo lường > 1 ngày.",
+    "Một định danh duy nhất có thể kết nối với bảng thuộc tính",
+    "Tên địa điểm của bang, thành phố hoặc mã ZIP",
+    "Một mã định danh duy nhất cho một địa điểm (ví dụ: bang, thành phố, mã bưu điện, v.v.). Có thể kết nối với các bảng geography_index/relationships để lọc tổng hợp vùng.",
+    "Giá trị số của biến được báo cáo"
+  ]
+}

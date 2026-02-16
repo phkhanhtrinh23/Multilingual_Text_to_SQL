@@ -1,0 +1,70 @@
+{
+  "sample_rows": [
+    {
+      "ID_GEO": "zip/55032",
+      "Nombre geográfico": "55032",
+      "VARIABLE": "outbound_address_changes_temporary",
+      "Nombre de variable": "Outbound Address Changes, Temporary",
+      "Fecha": "2020-08-31",
+      "VALOR": 0
+    },
+    {
+      "ID_GEO": "geoId/2555745",
+      "Nombre geográfico": "Quincy",
+      "VARIABLE": "inbound_address_changes_permanent",
+      "Nombre de variable": "Inbound Address Changes, Permanent",
+      "Fecha": "2023-06-30",
+      "VALOR": 582
+    },
+    {
+      "ID_GEO": "geoId/3362500",
+      "Nombre geográfico": "Plaistow",
+      "VARIABLE": "net_address_changes_individuals",
+      "Nombre de variable": "Net Address Changes, Individuals",
+      "Fecha": "2021-08-31",
+      "VALOR": 4
+    },
+    {
+      "ID_GEO": "zip/72132",
+      "Nombre geográfico": "72132",
+      "VARIABLE": "inbound_address_changes_businesses",
+      "Nombre de variable": "Inbound Address Changes, Businesses",
+      "Fecha": "2022-12-31",
+      "VALOR": 0
+    },
+    {
+      "ID_GEO": "geoId/3703960",
+      "Nombre geográfico": "Bayboro",
+      "VARIABLE": "outbound_address_changes_families",
+      "Nombre de variable": "Outbound Address Changes, Families",
+      "Fecha": "2023-02-28",
+      "VALOR": 0
+    }
+  ],
+  "table_name": "USPS_ADDRESS_CHANGE_TIMESERIES",
+  "table_fullname": "US_REAL_ESTATE.CYBERSYN.USPS_ADDRESS_CHANGE_TIMESERIES",
+  "column_names": [
+    "Nombre de variable",
+    "Fecha",
+    "VARIABLE",
+    "Nombre geográfico",
+    "ID_GEO",
+    "VALOR"
+  ],
+  "column_types": [
+    "TEXT",
+    "DATE",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "NUMBER"
+  ],
+  "description": [
+    "Una descripción legible por humanos de la variable",
+    "Fecha correspondiente al punto de datos. Tenga en cuenta que las fechas se registran como la fecha de finalización del período cuando el período de medición es mayor a 1 día.",
+    "Un identificador único enlazable a la tabla de atributos",
+    "Nombre de la ubicación del estado, ciudad o código postal",
+    "Un identificador único para un lugar (por ejemplo, estado, ciudad, código postal, etc.). Se puede unir a las tablas geography_index/relationships para filtrar la agregación regional.",
+    "El valor numérico de la variable reportada"
+  ]
+}
