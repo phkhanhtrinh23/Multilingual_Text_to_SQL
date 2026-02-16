@@ -1,0 +1,78 @@
+{
+  "sample_rows": [
+    {
+      "biến": "FHFA_HPI_traditional_purchase-only_monthly_NSA",
+      "Tên biến": "FHFA_HPI traditional purchase-only monthly Not Seasonally Adjusted",
+      "PHÂN LOẠI TÀI SẢN": "traditional",
+      "Loại chỉ mục": "purchase-only",
+      "tần suất": "MONTHLY",
+      "điều chỉnh theo mùa": false,
+      "Đơn vị": "Index"
+    },
+    {
+      "biến": "FHFA_HPI_traditional_purchase-only_quarterly_NSA",
+      "Tên biến": "FHFA_HPI traditional purchase-only quarterly Not Seasonally Adjusted",
+      "PHÂN LOẠI TÀI SẢN": "traditional",
+      "Loại chỉ mục": "purchase-only",
+      "tần suất": "QUARTERLY",
+      "điều chỉnh theo mùa": false,
+      "Đơn vị": "Index"
+    },
+    {
+      "biến": "FHFA_HPI_traditional_purchase-only_monthly_SA",
+      "Tên biến": "FHFA_HPI traditional purchase-only monthly Seasonally Adjusted",
+      "PHÂN LOẠI TÀI SẢN": "traditional",
+      "Loại chỉ mục": "purchase-only",
+      "tần suất": "MONTHLY",
+      "điều chỉnh theo mùa": true,
+      "Đơn vị": "Index"
+    },
+    {
+      "biến": "FHFA_HPI_non-metro_all-transactions_quarterly_NSA",
+      "Tên biến": "FHFA_HPI non-metro all-transactions quarterly Not Seasonally Adjusted",
+      "PHÂN LOẠI TÀI SẢN": "non-metro",
+      "Loại chỉ mục": "all-transactions",
+      "tần suất": "QUARTERLY",
+      "điều chỉnh theo mùa": false,
+      "Đơn vị": "Index"
+    },
+    {
+      "biến": "FHFA_HPI_traditional_purchase-only_quarterly_SA",
+      "Tên biến": "FHFA_HPI traditional purchase-only quarterly Seasonally Adjusted",
+      "PHÂN LOẠI TÀI SẢN": "traditional",
+      "Loại chỉ mục": "purchase-only",
+      "tần suất": "QUARTERLY",
+      "điều chỉnh theo mùa": true,
+      "Đơn vị": "Index"
+    }
+  ],
+  "table_name": "FHFA_HOUSE_PRICE_ATTRIBUTES",
+  "table_fullname": "US_REAL_ESTATE.CYBERSYN.FHFA_HOUSE_PRICE_ATTRIBUTES",
+  "column_names": [
+    "PHÂN LOẠI TÀI SẢN",
+    "Tên biến",
+    "điều chỉnh theo mùa",
+    "Loại chỉ mục",
+    "biến",
+    "tần suất",
+    "Đơn vị"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "BOOLEAN",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Phân loại Chỉ số Giá Nhà (truyền thống, không có khó khăn, không thuộc vùng đô thị)",
+    "Mô tả dễ đọc cho biến",
+    "Trường Boolean cho biết liệu một chuỗi có được điều chỉnh theo mùa hay không",
+    "Loại Chỉ số Giá Nhà được đo trong chỉ số (tất cả giao dịch, chỉ mua, dữ liệu mở rộng)",
+    "Một mã nhận dạng duy nhất cho một biến có thể kết nối với bảng chuỗi thời gian để lọc",
+    "Tần suất đo lường biến (ví dụ: Hàng ngày, Hàng tháng, Hàng quý)",
+    "Đơn vị đo cho biến: (ví dụ, Chỉ số)"
+  ]
+}
