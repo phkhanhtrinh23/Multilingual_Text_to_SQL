@@ -1,0 +1,78 @@
+{
+  "sample_rows": [
+    {
+      "ID nguồn địa lý": "geoId/37081",
+      "ID Địa hình Đến": "geoId/08031",
+      "Tên biến": "Number of Individuals",
+      "NGÀY": "2012-12-31",
+      "Giá trị": 16,
+      "Đơn vị": "Individuals",
+      "Đã bị đàn áp": 0
+    },
+    {
+      "ID nguồn địa lý": "geoId/12021",
+      "ID Địa hình Đến": "geoId/12031",
+      "Tên biến": "Number of Returns",
+      "NGÀY": "2020-12-31",
+      "Giá trị": 40,
+      "Đơn vị": "Returns",
+      "Đã bị đàn áp": 0
+    },
+    {
+      "ID nguồn địa lý": "geoId/40011",
+      "ID Địa hình Đến": "geoId/40039",
+      "Tên biến": "Adjusted Gross Income",
+      "NGÀY": "2019-12-31",
+      "Giá trị": 1826000,
+      "Đơn vị": "USD",
+      "Đã bị đàn áp": 0
+    },
+    {
+      "ID nguồn địa lý": "geoId/36071",
+      "ID Địa hình Đến": "geoId/12009",
+      "Tên biến": "Number of Returns",
+      "NGÀY": "2018-12-31",
+      "Giá trị": 32,
+      "Đơn vị": "Returns",
+      "Đã bị đàn áp": 0
+    },
+    {
+      "ID nguồn địa lý": "geoId/48113",
+      "ID Địa hình Đến": "geoId/06053",
+      "Tên biến": "Number of Returns",
+      "NGÀY": "2012-12-31",
+      "Giá trị": 12,
+      "Đơn vị": "Returns",
+      "Đã bị đàn áp": 0
+    }
+  ],
+  "table_name": "IRS_ORIGIN_DESTINATION_MIGRATION_TIMESERIES",
+  "table_fullname": "US_REAL_ESTATE.CYBERSYN.IRS_ORIGIN_DESTINATION_MIGRATION_TIMESERIES",
+  "column_names": [
+    "Đã bị đàn áp",
+    "ID nguồn địa lý",
+    "Tên biến",
+    "ID Địa hình Đến",
+    "Đơn vị",
+    "NGÀY",
+    "Giá trị"
+  ],
+  "column_types": [
+    "NUMBER",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "DATE",
+    "NUMBER"
+  ],
+  "description": [
+    "Boolean cho biết liệu giá trị đã bị ẩn trong dữ liệu gốc vì lý do bảo mật hay chưa. Các giá trị bị ẩn xuất hiện là NULL",
+    "Mã định danh duy nhất cho một địa điểm (tiểu bang, hạt) từ nơi mà biến xuất phát trong năm đầu tiên.",
+    "Tên dễ đọc cho biến",
+    "Một mã định danh duy nhất cho một địa điểm (bang, quận) mà biến chuyển sang trong năm thứ hai.",
+    "Đơn vị đo lường cho giá trị, ví dụ: lợi tức, cá nhân, USD",
+    "Ngày liên quan đến giá trị, đối với dữ liệu lưu vào, là ngày cuối cùng của năm thứ hai đang được báo cáo.",
+    "Giá trị số thực của biến. Các giá trị bị ẩn là Null."
+  ]
+}
