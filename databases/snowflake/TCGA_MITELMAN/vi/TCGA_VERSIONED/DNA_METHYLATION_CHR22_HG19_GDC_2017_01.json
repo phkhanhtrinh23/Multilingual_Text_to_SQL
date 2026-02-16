@@ -1,0 +1,78 @@
+{
+  "table_name": "DNA_METHYLATION_CHR22_HG19_GDC_2017_01",
+  "table_fullname": "TCGA_MITELMAN.TCGA_VERSIONED.DNA_METHYLATION_CHR22_HG19_GDC_2017_01",
+  "column_names": [
+    "mã vạch hồ sơ",
+    "Giá trị beta",
+    "định danh thiết bị",
+    "mã vạch mẫu",
+    "nền tảng",
+    "Mã vạch aliquot",
+    "Tên dự án ngắn"
+  ],
+  "column_types": [
+    "TEXT",
+    "FLOAT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Mã số trường hợp TCGA gốc, ví dụ TCGA-12-1089 – lưu ý rằng mỗi trường hợp thường có một mẫu khối u chính và một mẫu bình thường khớp (máu hoặc mô lân cận); vui lòng tham khảo bảng Mẫu sinh học (Biospecimen) của TCGA để biết thêm chi tiết.",
+    "Giá trị beta phân tử methyl hóa DNA đã chuẩn hóa (giữa 0 và 1, trong đó 0 biểu thị hoàn toàn chưa methyl và 1 biểu thị hoàn toàn methyl)",
+    "Mã số duy nhất của probe (ví dụ cg04676771) từ Illumina Human Methylation array – vui lòng tham khảo bảng chú thích (isb-cgc:platform_reference.methylation_annotation) để biết thêm chi tiết về bất kỳ probe cụ thể nào.",
+    "Bảng mã mẫu TCGA gốc, ví dụ TCGA-12-1089-01A  --  lưu ý rằng một mẫu có thể có nhiều phần lô và do đó nhiều bộ phân đoạn CN; vì vậy hãy đảm bảo sử dụng GROUP BY một cách thích hợp trong các truy vấn của bạn",
+    "Tên nền tảng được dùng để tạo dữ liệu này – hoặc HumanMethylation450 hoặc HumanMethylation27",
+    "Mã vạch mẫu TCGA gốc, ví dụ: TCGA-12-1089-01A-01D-0517-01",
+    "Tên viết tắt của dự án; tên chương trình được nối với tên viết tắt của dự án; ví dụ: TCGA-OV, v.v."
+  ],
+  "sample_rows": [
+    {
+      "Tên dự án ngắn": "TCGA-OV",
+      "mã vạch hồ sơ": "TCGA-01-0628",
+      "mã vạch mẫu": "TCGA-01-0628-11A",
+      "Mã vạch aliquot": "TCGA-01-0628-11A-01D-0383-05",
+      "định danh thiết bị": "cg27416437",
+      "Giá trị beta": 0.01,
+      "nền tảng": "HumanMethylation27"
+    },
+    {
+      "Tên dự án ngắn": "TCGA-OV",
+      "mã vạch hồ sơ": "TCGA-01-0628",
+      "mã vạch mẫu": "TCGA-01-0628-11A",
+      "Mã vạch aliquot": "TCGA-01-0628-11A-01D-0383-05",
+      "định danh thiết bị": "cg05593780",
+      "Giá trị beta": 0.02,
+      "nền tảng": "HumanMethylation27"
+    },
+    {
+      "Tên dự án ngắn": "TCGA-OV",
+      "mã vạch hồ sơ": "TCGA-01-0628",
+      "mã vạch mẫu": "TCGA-01-0628-11A",
+      "Mã vạch aliquot": "TCGA-01-0628-11A-01D-0383-05",
+      "định danh thiết bị": "cg20715219",
+      "Giá trị beta": 0.01,
+      "nền tảng": "HumanMethylation27"
+    },
+    {
+      "Tên dự án ngắn": "TCGA-OV",
+      "mã vạch hồ sơ": "TCGA-01-0628",
+      "mã vạch mẫu": "TCGA-01-0628-11A",
+      "Mã vạch aliquot": "TCGA-01-0628-11A-01D-0383-05",
+      "định danh thiết bị": "cg04280480",
+      "Giá trị beta": 0.01,
+      "nền tảng": "HumanMethylation27"
+    },
+    {
+      "Tên dự án ngắn": "TCGA-OV",
+      "mã vạch hồ sơ": "TCGA-01-0628",
+      "mã vạch mẫu": "TCGA-01-0628-11A",
+      "Mã vạch aliquot": "TCGA-01-0628-11A-01D-0383-05",
+      "định danh thiết bị": "cg20439022",
+      "Giá trị beta": 0.52,
+      "nền tảng": "HumanMethylation27"
+    }
+  ]
+}
