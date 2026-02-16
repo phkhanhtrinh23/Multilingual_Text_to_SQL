@@ -1,0 +1,78 @@
+{
+  "sample_rows": [
+    {
+      "Mã địa lý": "geoId/36",
+      "Biến": "Quarterly_75%_Quartile_of_Appraised_Value_Number_of_Stories_Purchase_&_Refinance_More_than_1_Story",
+      "Tên biến": "Quarterly 75% Quartile of Appraised Value Number of Stories Purchase & Refinance More than 1 Story",
+      "Ngày": "2020-09-30",
+      "Giá trị": 695000.0,
+      "Đơn vị": "USD",
+      "đã bị ức chế": false
+    },
+    {
+      "Mã địa lý": "geoId/C31140",
+      "Biến": "Quarterly_25%_Quartile_of_Appraised_Value_Updated_in_the_last_15_years_Purchase_Yes",
+      "Tên biến": "Quarterly 25% Quartile of Appraised Value Updated in the last 15 years Purchase Yes",
+      "Ngày": "2016-09-30",
+      "Giá trị": 139000.0,
+      "Đơn vị": "USD",
+      "đã bị ức chế": false
+    },
+    {
+      "Mã địa lý": "geoId/C37100",
+      "Biến": "Quarterly_Mean_Comps_Adjustment_Percent_Number_of_Bathrooms_Above_Grade_Purchase_&_Refinance_2_Full_Bathrooms",
+      "Tên biến": "Quarterly Mean Comps Adjustment Percent Number of Bathrooms Above Grade Purchase & Refinance 2 Full Bathrooms",
+      "Ngày": "2015-06-30",
+      "Giá trị": -0.007,
+      "Đơn vị": "Percent",
+      "đã bị ức chế": false
+    },
+    {
+      "Mã địa lý": "geoId/C49180",
+      "Biến": "Quarterly_Mean_Appraised_Value_Duty_to_Serve_Rural_Area_Purchase_Rural",
+      "Tên biến": "Quarterly Mean Appraised Value Duty to Serve Rural Area Purchase Rural",
+      "Ngày": "2018-06-30",
+      "Giá trị": 190500.0,
+      "Đơn vị": "USD",
+      "đã bị ức chế": false
+    },
+    {
+      "Mã địa lý": "geoId/06007001602",
+      "Biến": "Annual_Count_of_Appraisals_Purchase_&_Refinance_All_Appraisals",
+      "Tên biến": "Annual Count of Appraisals Purchase & Refinance All Appraisals",
+      "Ngày": "2015-12-31",
+      "Giá trị": 86.0,
+      "Đơn vị": "Count",
+      "đã bị ức chế": false
+    }
+  ],
+  "table_name": "FHFA_UNIFORM_APPRAISAL_TIMESERIES",
+  "table_fullname": "US_REAL_ESTATE.CYBERSYN.FHFA_UNIFORM_APPRAISAL_TIMESERIES",
+  "column_names": [
+    "Đơn vị",
+    "Tên biến",
+    "Mã địa lý",
+    "Biến",
+    "đã bị ức chế",
+    "Giá trị",
+    "Ngày"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "BOOLEAN",
+    "FLOAT",
+    "DATE"
+  ],
+  "description": [
+    "Đơn vị đo lường cho biến (ví dụ: Đếm, Phần trăm, Tỷ lệ, USD)",
+    "Mô tả dễ đọc cho biến",
+    "Một định danh địa lý duy nhất có thể được kết nối tới các bảng geography_index/relationships",
+    "Một định danh duy nhất cho một biến có thể liên kết với bảng thuộc tính để lọc.",
+    "Boolean chỉ ra liệu giá trị đã bị ẩn trong dữ liệu gốc vì mục đích bảo mật hay chưa. Giá trị bị ẩn xuất hiện dưới dạng NULL.",
+    "Giá trị số được báo cáo cho biến và ngày",
+    "Ngày liên quan đến giá trị"
+  ]
+}
