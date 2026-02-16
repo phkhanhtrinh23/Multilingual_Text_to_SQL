@@ -1,0 +1,62 @@
+{
+  "sample_rows": [
+    {
+      "ID de Punto de Interés": "08f269606d84474b0383b1e7e8c016f0",
+      "ID de dirección": "addressId/98b58eaa8ec6d4166d2e181b221bdc78",
+      "Tipo de relación": "Overlaps",
+      "FECHA_INICIO_RELACIÓN": null,
+      "Fecha de fin de relación": null
+    },
+    {
+      "ID de Punto de Interés": "08f268cda876e7840399de7cbe47424a",
+      "ID de dirección": "addressId/b68bf965318c97738ef54e952fdb7d3e",
+      "Tipo de relación": "Overlaps",
+      "FECHA_INICIO_RELACIÓN": null,
+      "Fecha de fin de relación": null
+    },
+    {
+      "ID de Punto de Interés": "08f283409da358d9038afebdd8a48370",
+      "ID de dirección": "addressId/cfe743ff143eb73171361acd2c67b640",
+      "Tipo de relación": "Overlaps",
+      "FECHA_INICIO_RELACIÓN": null,
+      "Fecha de fin de relación": null
+    },
+    {
+      "ID de Punto de Interés": "08f44ac08654024c03d93bb8f3f122fd",
+      "ID de dirección": "addressId/f7b067ec19a8c4e0d252a3534be6c2cd",
+      "Tipo de relación": "Overlaps",
+      "FECHA_INICIO_RELACIÓN": null,
+      "Fecha de fin de relación": null
+    },
+    {
+      "ID de Punto de Interés": "08f4413390635c1903c4104e6338a78f",
+      "ID de dirección": "addressId/24274acb391d5356cf97a99ee9da08bb",
+      "Tipo de relación": "Overlaps",
+      "FECHA_INICIO_RELACIÓN": null,
+      "Fecha de fin de relación": null
+    }
+  ],
+  "table_name": "POINT_OF_INTEREST_ADDRESSES_RELATIONSHIPS",
+  "table_fullname": "US_ADDRESSES__POI.CYBERSYN.POINT_OF_INTEREST_ADDRESSES_RELATIONSHIPS",
+  "column_names": [
+    "ID de Punto de Interés",
+    "Tipo de relación",
+    "FECHA_INICIO_RELACIÓN",
+    "Fecha de fin de relación",
+    "ID de dirección"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "DATE",
+    "DATE",
+    "TEXT"
+  ],
+  "description": [
+    "Un identificador único para un punto de interés (como un parque, una sucursal de una cadena de comida rápida, un hotel, etc.) basado en su descripción y ubicación. Se puede unir a la tabla point_of_interest_index.",
+    "Relación entre los dos lugares. Usamos 'Overlaps' para indicar que el POI_ID es una subparte del ADDRESS_ID (por ejemplo, la relación entre un apartamento y un edificio de apartamentos, ya que podrían existir varios puntos de interés en la misma dirección, especialmente si los datos carecen de información precisa sobre la unidad).",
+    "La fecha a partir de la cual una relación dada es válida. Por ejemplo, si el NAME de un lugar en un POI_ID dado cambió el 2023‑04‑01, entonces se asigna relationship_start_date de 2023‑04‑01. Sin embargo, actualmente todos los valores en esta columna son NULL, ya que solo contiene las características más recientes sin cambios históricos.",
+    "La fecha a partir de la cual una relación dada es válida. Por ejemplo, si el NOMBRE de un lugar en un POI_ID dado cambió el 2023‑04‑01, entonces se asigna a ese NOMBRE para ese POI_ID un relationship_end_date de 2023‑03‑31. Sin embargo, actualmente, todos los valores en esta columna son NULL ya que solo contiene las características más recientes sin cambios históricos.",
+    "Un identificador único para una dirección basado en la dirección de la calle que se puede unir a la tabla us_addresses."
+  ]
+}
