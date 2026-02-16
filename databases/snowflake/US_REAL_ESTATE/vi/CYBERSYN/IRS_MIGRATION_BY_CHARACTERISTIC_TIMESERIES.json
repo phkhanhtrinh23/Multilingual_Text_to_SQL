@@ -1,0 +1,70 @@
+{
+  "sample_rows": [
+    {
+      "Mã địa lý": "geoId/24",
+      "biến": "Outflow_Returns_-_number_of_returns,_primary_taxpayers_ages_35_under_45,_All_AGI_classes",
+      "Tên biến": "Outflow Returns - number of returns, primary taxpayers ages 35 under 45, All AGI classes",
+      "Ngày": "2022-12-31",
+      "giá trị": 17022,
+      "đơn vị": "Returns"
+    },
+    {
+      "Mã địa lý": "geoId/02",
+      "biến": "Outflow_Returns_–_adjusted_gross_income_from_Year_2,_primary_taxpayers_ages_26_under_35,_AGI_bin:_$50,000_under_$75,000",
+      "Tên biến": "Outflow Returns – adjusted gross income from Year 2, primary taxpayers ages 26 under 35, AGI bin: $50,000 under $75,000",
+      "Ngày": "2014-12-31",
+      "giá trị": 61403000,
+      "đơn vị": "USD"
+    },
+    {
+      "Mã địa lý": "geoId/35",
+      "biến": "Total_Returns_-_number_of_returns,_primary_taxpayers_ages_26_under,_All_AGI_classes",
+      "Tên biến": "Total Returns - number of returns, primary taxpayers ages 26 under, All AGI classes",
+      "Ngày": "2019-12-31",
+      "giá trị": 141322,
+      "đơn vị": "Returns"
+    },
+    {
+      "Mã địa lý": "geoId/26",
+      "biến": "Same_State_Returns_–_number_of_individuals,_primary_taxpayers_ages_45_under_55,_AGI_bin:_$25,000_under_$50,000",
+      "Tên biến": "Same State Returns – number of individuals, primary taxpayers ages 45 under 55, AGI bin: $25,000 under $50,000",
+      "Ngày": "2018-12-31",
+      "giá trị": 8097,
+      "đơn vị": "Individuals"
+    },
+    {
+      "Mã địa lý": "geoId/47",
+      "biến": "Inflow_Returns_–_adjusted_gross_income_from_Year_2,_primary_taxpayers_ages_26_under_35,_AGI_bin:_$50,000_under_$75,000",
+      "Tên biến": "Inflow Returns – adjusted gross income from Year 2, primary taxpayers ages 26 under 35, AGI bin: $50,000 under $75,000",
+      "Ngày": "2019-12-31",
+      "giá trị": 296221000,
+      "đơn vị": "USD"
+    }
+  ],
+  "table_name": "IRS_MIGRATION_BY_CHARACTERISTIC_TIMESERIES",
+  "table_fullname": "US_REAL_ESTATE.CYBERSYN.IRS_MIGRATION_BY_CHARACTERISTIC_TIMESERIES",
+  "column_names": [
+    "Tên biến",
+    "biến",
+    "đơn vị",
+    "Ngày",
+    "giá trị",
+    "Mã địa lý"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "DATE",
+    "NUMBER",
+    "TEXT"
+  ],
+  "description": [
+    "Tên có thể đọc được của biến",
+    "Một định danh duy nhất cho một biến có thể nối với bảng thuộc tính.",
+    "Đơn vị đo lường cho giá trị, ví dụ: USD, lợi nhuận, cá nhân",
+    "Ngày liên quan đến giá trị, đối với dữ liệu di cư tổng, nó là ngày cuối cùng của năm thứ hai được báo cáo.",
+    "Giá trị số thực của biến",
+    "Một mã định danh duy nhất cho một địa điểm (tiểu bang, quận, mã bưu chính) có thể liên kết với các bảng geography_index/relationships"
+  ]
+}

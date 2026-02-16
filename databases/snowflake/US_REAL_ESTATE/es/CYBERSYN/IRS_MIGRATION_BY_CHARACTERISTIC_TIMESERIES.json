@@ -1,0 +1,70 @@
+{
+  "sample_rows": [
+    {
+      "ID Geográfico": "geoId/24",
+      "VARIABLE": "Outflow_Returns_-_number_of_returns,_primary_taxpayers_ages_35_under_45,_All_AGI_classes",
+      "NOMBRE_VARIABLE": "Outflow Returns - number of returns, primary taxpayers ages 35 under 45, All AGI classes",
+      "fecha": "2022-12-31",
+      "Valor": 17022,
+      "unidad": "Returns"
+    },
+    {
+      "ID Geográfico": "geoId/02",
+      "VARIABLE": "Outflow_Returns_–_adjusted_gross_income_from_Year_2,_primary_taxpayers_ages_26_under_35,_AGI_bin:_$50,000_under_$75,000",
+      "NOMBRE_VARIABLE": "Outflow Returns – adjusted gross income from Year 2, primary taxpayers ages 26 under 35, AGI bin: $50,000 under $75,000",
+      "fecha": "2014-12-31",
+      "Valor": 61403000,
+      "unidad": "USD"
+    },
+    {
+      "ID Geográfico": "geoId/35",
+      "VARIABLE": "Total_Returns_-_number_of_returns,_primary_taxpayers_ages_26_under,_All_AGI_classes",
+      "NOMBRE_VARIABLE": "Total Returns - number of returns, primary taxpayers ages 26 under, All AGI classes",
+      "fecha": "2019-12-31",
+      "Valor": 141322,
+      "unidad": "Returns"
+    },
+    {
+      "ID Geográfico": "geoId/26",
+      "VARIABLE": "Same_State_Returns_–_number_of_individuals,_primary_taxpayers_ages_45_under_55,_AGI_bin:_$25,000_under_$50,000",
+      "NOMBRE_VARIABLE": "Same State Returns – number of individuals, primary taxpayers ages 45 under 55, AGI bin: $25,000 under $50,000",
+      "fecha": "2018-12-31",
+      "Valor": 8097,
+      "unidad": "Individuals"
+    },
+    {
+      "ID Geográfico": "geoId/47",
+      "VARIABLE": "Inflow_Returns_–_adjusted_gross_income_from_Year_2,_primary_taxpayers_ages_26_under_35,_AGI_bin:_$50,000_under_$75,000",
+      "NOMBRE_VARIABLE": "Inflow Returns – adjusted gross income from Year 2, primary taxpayers ages 26 under 35, AGI bin: $50,000 under $75,000",
+      "fecha": "2019-12-31",
+      "Valor": 296221000,
+      "unidad": "USD"
+    }
+  ],
+  "table_name": "IRS_MIGRATION_BY_CHARACTERISTIC_TIMESERIES",
+  "table_fullname": "US_REAL_ESTATE.CYBERSYN.IRS_MIGRATION_BY_CHARACTERISTIC_TIMESERIES",
+  "column_names": [
+    "NOMBRE_VARIABLE",
+    "VARIABLE",
+    "unidad",
+    "fecha",
+    "Valor",
+    "ID Geográfico"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "DATE",
+    "NUMBER",
+    "TEXT"
+  ],
+  "description": [
+    "Nombre legible por humanos para la variable",
+    "Un identificador único para una variable que se pueda unir a la tabla de atributos",
+    "Unidad de medida para el valor, ejemplos: USD, retornos, individuos",
+    "Fecha asociada con el valor, para datos de migración bruta es el último día del segundo año que se está reportando",
+    "El valor numérico real para la variable",
+    "Un identificador único para un lugar (estado, condado, código postal) que se pueda unir a las tablas geography_index/relationships."
+  ]
+}
