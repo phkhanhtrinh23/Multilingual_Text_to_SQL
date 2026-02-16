@@ -1,0 +1,54 @@
+{
+  "sample_rows": [
+    {
+      "Mã_POI": "08f26c862279d1150352e1060f847671",
+      "Tên điểm tham quan": "Redbox",
+      "Danh mục chính": "Video And Video Game Rentals",
+      "Thể loại thay thế": "[\n  \"Books Mags Music And Video\",\n  \"Rental Kiosks\"\n]"
+    },
+    {
+      "Mã_POI": "08f27490544e86b1036967efcd70720e",
+      "Tên điểm tham quan": "Hudson Place",
+      "Danh mục chính": "Retirement Home",
+      "Thể loại thay thế": "[\n  \"Health And Medical\",\n  \"Public Service And Government\"\n]"
+    },
+    {
+      "Mã_POI": "08f275d740d8184e03d67542272d1020",
+      "Tên điểm tham quan": "One Source Construction Corp.",
+      "Danh mục chính": "Construction Services",
+      "Thể loại thay thế": "[\n  \"Commercial Industrial\",\n  \"Contractor\"\n]"
+    },
+    {
+      "Mã_POI": "08f26c18910da49303ca27a9af04b9cf",
+      "Tên điểm tham quan": "Council Road",
+      "Danh mục chính": "Church Cathedral",
+      "Thể loại thay thế": "[\n  \"Baptist Church\",\n  \"Religious Organization\"\n]"
+    },
+    {
+      "Mã_POI": "08f2a94d0592d19c0352b1ade5f7bfe8",
+      "Tên điểm tham quan": "Impact Employment Solutions",
+      "Danh mục chính": "Employment Agencies",
+      "Thể loại thay thế": "[\n  \"Information Technology Company\",\n  \"Professional Services\"\n]"
+    }
+  ],
+  "table_name": "POINT_OF_INTEREST_INDEX",
+  "table_fullname": "US_REAL_ESTATE.CYBERSYN.POINT_OF_INTEREST_INDEX",
+  "column_names": [
+    "Danh mục chính",
+    "Tên điểm tham quan",
+    "Thể loại thay thế",
+    "Mã_POI"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "ARRAY",
+    "TEXT"
+  ],
+  "description": [
+    "Thể loại chính hoặc lớp của địa điểm đối với POI.",
+    "Tên địa điểm, người bán hoặc địa danh cho POI cụ thể.",
+    "Các danh mục thay thế của POI. Một POI có thể phù hợp với nhiều danh mục (ví dụ: Nhà hàng, Nhà hàng Burger, Nhà hàng Ăn nhanh), trong trường hợp đó, một danh mục sẽ được ghi lại dưới dạng CATEGORY_MAIN và các danh mục còn lại sẽ được ghi lại trong danh sách dưới CATEGORY_ALTERNATE.",
+    "Một mã nhận diện duy nhất cho một điểm quan tâm (như công viên, chuỗi thực phẩm nhanh, khách sạn, vv) dựa trên mô tả và vị trí của nó. Điều này có thể được liên kết với bảng POINT_OF_INTEREST_ADDRESSES_RELATIONSHIPS, được dùng để kết nối POI với địa chỉ."
+  ]
+}

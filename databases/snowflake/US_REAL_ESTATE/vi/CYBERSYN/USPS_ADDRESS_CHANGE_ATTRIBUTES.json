@@ -1,0 +1,70 @@
+{
+  "sample_rows": [
+    {
+      "BIẾN": "inbound_address_changes_permanent",
+      "Tên biến": "Inbound Address Changes, Permanent",
+      "Đo lường": "Inbound Address Changes",
+      "Loại yêu cầu": "Permanent",
+      "Đơn vị": "Count",
+      "Tần suất": "Month"
+    },
+    {
+      "BIẾN": "inbound_address_changes_total",
+      "Tên biến": "Inbound Address Changes, Total",
+      "Đo lường": "Inbound Address Changes",
+      "Loại yêu cầu": "Total",
+      "Đơn vị": "Count",
+      "Tần suất": "Month"
+    },
+    {
+      "BIẾN": "inbound_address_changes_businesses",
+      "Tên biến": "Inbound Address Changes, Businesses",
+      "Đo lường": "Inbound Address Changes",
+      "Loại yêu cầu": "Businesses",
+      "Đơn vị": "Count",
+      "Tần suất": "Month"
+    },
+    {
+      "BIẾN": "net_address_changes_individuals",
+      "Tên biến": "Net Address Changes, Individuals",
+      "Đo lường": "Net Address Changes",
+      "Loại yêu cầu": "Individuals",
+      "Đơn vị": "Count",
+      "Tần suất": "Month"
+    },
+    {
+      "BIẾN": "outbound_address_changes_temporary",
+      "Tên biến": "Outbound Address Changes, Temporary",
+      "Đo lường": "Outbound Address Changes",
+      "Loại yêu cầu": "Temporary",
+      "Đơn vị": "Count",
+      "Tần suất": "Month"
+    }
+  ],
+  "table_name": "USPS_ADDRESS_CHANGE_ATTRIBUTES",
+  "table_fullname": "US_REAL_ESTATE.CYBERSYN.USPS_ADDRESS_CHANGE_ATTRIBUTES",
+  "column_names": [
+    "Tên biến",
+    "Đơn vị",
+    "Loại yêu cầu",
+    "Đo lường",
+    "Tần suất",
+    "BIẾN"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Mô tả có thể đọc được bằng con người của biến",
+    "Đơn vị đo lường, tức là số lượng yêu cầu thay đổi địa chỉ",
+    "Phân loại yêu cầu. Các loại yêu cầu được nhóm theo thời gian (vĩnh viễn hoặc tạm thời), loại người yêu cầu (gia đình, cá nhân, doanh nghiệp) hoặc tổng thể.",
+    "Loại thay đổi địa chỉ đang được báo cáo: Nhập - người di chuyển vào vùng địa lý; Xuất - người rời khỏi vùng địa lý; Ròng - nhập trừ xuất",
+    "Tần suất mà giá trị được báo cáo",
+    "Một ID duy nhất có thể liên kết với bảng chuỗi thời gian"
+  ]
+}
