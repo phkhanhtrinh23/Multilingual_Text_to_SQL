@@ -1,0 +1,70 @@
+{
+  "sample_rows": [
+    {
+      "ID_Geográfico": "country/NIU",
+      "VARIABLE": "72380_ 1052_3050_E",
+      "NOMBRE_VARIABLE": "Manure left on pasture (N content) of Chickens, layers (FAO Estimated value)",
+      "Fecha": "1975-12-31",
+      "VALOR": 145.4598,
+      "Unidad": "Kilograms"
+    },
+    {
+      "ID_Geográfico": "country/IMN",
+      "VARIABLE": "7273_ 6991_3050_E",
+      "NOMBRE_VARIABLE": "Emissions (CO2) of Agrifood Systems Waste Disposal (FAO Estimated value)",
+      "Fecha": "1990-12-31",
+      "VALOR": 0.0,
+      "Unidad": "Kilotonnes"
+    },
+    {
+      "ID_Geográfico": "countryGroup/X31",
+      "VARIABLE": "723113_ 6507_E",
+      "NOMBRE_VARIABLE": "Emissions (CO2eq) of Food Processing (Estimated value)",
+      "Fecha": "2014-12-31",
+      "VALOR": 1363.663426,
+      "Unidad": "Kilotonnes"
+    },
+    {
+      "ID_Geográfico": "country/AND",
+      "VARIABLE": "7230_ 6824_3050_E",
+      "NOMBRE_VARIABLE": "Emissions (N2O) of Agriculture, Forestry and Other Land Use (FAO Estimated value)",
+      "Fecha": "2008-12-31",
+      "VALOR": 0.0,
+      "Unidad": "Kilotonnes"
+    },
+    {
+      "ID_Geográfico": "countryGroup/ANZ",
+      "VARIABLE": "72380_ 976_3050_E",
+      "NOMBRE_VARIABLE": "Manure left on pasture (N content) of Sheep (FAO Estimated value)",
+      "Fecha": "1971-12-31",
+      "VALOR": 4734986352.9836,
+      "Unidad": "Kilograms"
+    }
+  ],
+  "table_name": "FOOD_AGRICULTURE_ORGANIZATION_TIMESERIES",
+  "table_fullname": "WEATHER__ENVIRONMENT.CYBERSYN.FOOD_AGRICULTURE_ORGANIZATION_TIMESERIES",
+  "column_names": [
+    "NOMBRE_VARIABLE",
+    "Unidad",
+    "ID_Geográfico",
+    "VARIABLE",
+    "Fecha",
+    "VALOR"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "FLOAT"
+  ],
+  "description": [
+    "Nombre único legible por humanos para la variable.",
+    "Unidad de medida del valor informado.",
+    "Un identificador único para un lugar. Puede unirse a otras tablas de geografía, incluidas GEOGRAPHY_INDEX, GEOGRAPHY_RELATIONSHIPS y GEOGRAPHY_CHARACTERISTICS.",
+    "Identificador único para una variable, que se puede unir a la tabla de series temporales.",
+    "Fecha asociada con el valor.",
+    "Valor reportado para la variable."
+  ]
+}
