@@ -1,0 +1,70 @@
+{
+  "sample_rows": [
+    {
+      "ID geográfico": "geoId/17",
+      "VARIABLE": "Percent_30_or_60_Days_Past_Due_Date_Other Conventional Market",
+      "Nombre de variable": "Percent 30 or 60 Days Past Due Date - Other Conventional Market",
+      "Fecha": "2024-03-31",
+      "VALOR": 0.016,
+      "Unidad": "Percent"
+    },
+    {
+      "ID geográfico": "geoId/C12940",
+      "VARIABLE": "Percent_90_to_180_Days_Past_Due_Date_Government / Non-Conventional",
+      "Nombre de variable": "Percent 90 to 180 Days Past Due Date - Government / Non-Conventional",
+      "Fecha": "2023-12-31",
+      "VALOR": 0.026000000000000002,
+      "Unidad": "Percent"
+    },
+    {
+      "ID geográfico": "geoId/C40140",
+      "VARIABLE": "Percent_90_to_180_Days_Past_Due_Date_Enterprise Acquisitions",
+      "Nombre de variable": "Percent 90 to 180 Days Past Due Date - Enterprise Acquisitions",
+      "Fecha": "2024-03-31",
+      "VALOR": 0.003,
+      "Unidad": "Percent"
+    },
+    {
+      "ID geográfico": "geoId/C13820",
+      "VARIABLE": "Percent_in_Forbearance_Government / Non-Conventional",
+      "Nombre de variable": "Percent in Forbearance - Government / Non-Conventional",
+      "Fecha": "2022-12-31",
+      "VALOR": 0.013999999999999999,
+      "Unidad": "Percent"
+    },
+    {
+      "ID geográfico": "geoId/56",
+      "VARIABLE": "Percent_90_to_180_Days_Past_Due_Date_Other Conventional Market",
+      "Nombre de variable": "Percent 90 to 180 Days Past Due Date - Other Conventional Market",
+      "Fecha": "2023-12-31",
+      "VALOR": 0.003,
+      "Unidad": "Percent"
+    }
+  ],
+  "table_name": "FHFA_MORTGAGE_PERFORMANCE_TIMESERIES",
+  "table_fullname": "US_REAL_ESTATE.CYBERSYN.FHFA_MORTGAGE_PERFORMANCE_TIMESERIES",
+  "column_names": [
+    "Fecha",
+    "Unidad",
+    "ID geográfico",
+    "Nombre de variable",
+    "VARIABLE",
+    "VALOR"
+  ],
+  "column_types": [
+    "DATE",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "FLOAT"
+  ],
+  "description": [
+    "Fecha asociada con el valor",
+    "Unidad de medida para la variable (p. ej., Porcentaje)",
+    "Un identificador geográfico único que se puede unir a las tablas geography_index/relationships",
+    "Descripción legible por humanos de la variable",
+    "Un identificador único para una variable que se pueda unir a la tabla de atributos para filtrado.",
+    "El valor numérico reportado para la variable y la fecha"
+  ]
+}
