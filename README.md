@@ -1,6 +1,8 @@
 [![arXiv](https://img.shields.io/badge/arXiv-2509.24405-b31b1b.svg)](https://arxiv.org/abs/2509.24405)
 ![visitors](https://visitor-badge.laobi.icu/badge?page_id=phkhanhtrinh23.Multilingual_Text_to_SQL)
 
+[UPDATE]: This paper has been accepted in ADC2025: [Link](https://link.springer.com/chapter/10.1007/978-981-95-6196-4_8).
+
 # Multilingual Text-to-SQL - MultiSpider 2.0
 
 Multilingual Text-to-SQL provides datasets and schemas for evaluating and developing multilingual text-to-SQL systems. It supports 8 languages and multiple database engines, making it useful for research and benchmarking.
