@@ -1,0 +1,46 @@
+{
+  "sample_rows": [
+    {
+      "Mã bưu điện nguồn": "11721",
+      "Mã khu vực điều tra bang-huyện đích": "36103111300",
+      "Tỷ lệ ánh xạ khu dân cư ZT": "0.271000000000000"
+    },
+    {
+      "Mã bưu điện nguồn": "12551",
+      "Mã khu vực điều tra bang-huyện đích": "36071000400",
+      "Tỷ lệ ánh xạ khu dân cư ZT": "1.000000000000000"
+    },
+    {
+      "Mã bưu điện nguồn": "13495",
+      "Mã khu vực điều tra bang-huyện đích": "36065023400",
+      "Tỷ lệ ánh xạ khu dân cư ZT": "0.114837398373984"
+    },
+    {
+      "Mã bưu điện nguồn": "13495",
+      "Mã khu vực điều tra bang-huyện đích": "36065023300",
+      "Tỷ lệ ánh xạ khu dân cư ZT": "0.885162601626016"
+    },
+    {
+      "Mã bưu điện nguồn": "12160",
+      "Mã khu vực điều tra bang-huyện đích": "36095740100",
+      "Tỷ lệ ánh xạ khu dân cư ZT": "0.424882629107981"
+    }
+  ],
+  "table_name": "Xref_ZipToTract_Residential",
+  "table_fullname": "CENSUS_GALAXY__AIML_MODEL_DATA_ENRICHMENT_SAMPLE.PUBLIC.Xref_ZipToTract_Residential",
+  "column_names": [
+    "Mã bưu điện nguồn",
+    "Mã khu vực điều tra bang-huyện đích",
+    "Tỷ lệ ánh xạ khu dân cư ZT"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "NUMBER"
+  ],
+  "description": [
+    "Mã ZIP của USPS liên quan đến StateCountyTractID dựa trên tỷ lệ cư dân ở khu vực địa lý đó. Nhiều Tract có thể chồng lên các phần của mã ZIP, và nhiều mã ZIP có thể chồng lên các phần của Tract.",
+    "Một khóa ghép định danh duy nhất sử dụng StateFIPS, CountyFIPS và Tract cho một khu vực địa lý cụ thể. Trường này (và bảng) dành cho các chỉ số lăn và các giá trị từ mã ZIP đến cấp độ nhóm khối Census hoặc Tract.",
+    "Các tỷ lệ cư dân ở mỗi mã ZIP do Tract liên kết đó chiếm. Dấu phụ \"ZT\" chỉ định hướng của dữ liệu, từ mã ZIP đến Tract (thường từ các đa giác lớn hơn xuống các đa giác nhỏ hơn)."
+  ]
+}
