@@ -1,0 +1,126 @@
+{
+  "table_name": "irac_classification_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.irac_classification_30",
+  "column_names": [
+    "mã lớp irac",
+    "Chất hoạt động",
+    "Cấp độ 1",
+    "Mô tả cấp độ 1",
+    "Cấp độ 2",
+    "Mô tả cấp độ 2",
+    "cấp độ 3",
+    "Mô tả cấp 3",
+    "Cấp độ 4",
+    "Mã IRAC"
+  ],
+  "column_types": [
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "mã lớp IRAC",
+    "chất hoạt tính",
+    "Cấp 1",
+    "Mô tả cấp độ 1",
+    "cấp độ 2",
+    "Mô tả cấp 2",
+    "Cấp độ 3",
+    "Mô tả cấp độ 3",
+    "Cấp độ 4",
+    "mã_irac"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "Khóa chính số duy nhất cho mỗi mã cấp 4",
+    "Tên thành phần hoạt chất (chống côn trùng) được phân loại theo IRAC",
+    "Loại tác động, ví dụ: tác động thần kinh, chuyển hoá năng lượng (mã chưa được IRAC phân công)",
+    "Mô tả của loại hành động, như được cung cấp bởi IRAC",
+    "Mã nhóm chính IRAC chỉ định vị trí chính / cơ chế tác động",
+    "Mô tả vị trí / cơ chế tác động được cung cấp bởi IRAC",
+    "Mã nhóm con IRAC chỉ định lớp hóa chất của thuốc trừ sâu",
+    "Mô tả lớp hóa chất hoặc thành phần ví dụ được cung cấp bởi IRAC",
+    "Một mã số duy nhất được gán cho mỗi thành phần (dựa trên phân loại IRAC cấp độ 1, 2 và 3, nhưng không được IRAC cấp phát)",
+    "Mã phân loại IRAC chính thức cho thành phần"
+  ],
+  "sample_rows": [
+    {
+      "mã lớp IRAC": 13,
+      "chất hoạt tính": "BENSULTAP",
+      "Cấp 1": "A",
+      "Mô tả cấp độ 1": "NERVE ACTION",
+      "cấp độ 2": "A14",
+      "Mô tả cấp 2": "NICOTINIC ACETYLCHOLINE RECEPTOR (NACHR) CHANNEL BLOCKERS",
+      "Cấp độ 3": "A1414A",
+      "Mô tả cấp độ 3": "NEREISTOXIN ANALOGUES",
+      "Cấp độ 4": "A1414A1",
+      "mã_irac": "14"
+    },
+    {
+      "mã lớp IRAC": 14,
+      "chất hoạt tính": "CARTAP HYDROCHLORIDE",
+      "Cấp 1": "A",
+      "Mô tả cấp độ 1": "NERVE ACTION",
+      "cấp độ 2": "A14",
+      "Mô tả cấp 2": "NICOTINIC ACETYLCHOLINE RECEPTOR (NACHR) CHANNEL BLOCKERS",
+      "Cấp độ 3": "A1414A",
+      "Mô tả cấp độ 3": "NEREISTOXIN ANALOGUES",
+      "Cấp độ 4": "A1414A2",
+      "mã_irac": "14"
+    },
+    {
+      "mã lớp IRAC": 15,
+      "chất hoạt tính": "THIOCYCLAM",
+      "Cấp 1": "A",
+      "Mô tả cấp độ 1": "NERVE ACTION",
+      "cấp độ 2": "A14",
+      "Mô tả cấp 2": "NICOTINIC ACETYLCHOLINE RECEPTOR (NACHR) CHANNEL BLOCKERS",
+      "Cấp độ 3": "A1414A",
+      "Mô tả cấp độ 3": "NEREISTOXIN ANALOGUES",
+      "Cấp độ 4": "A1414A3",
+      "mã_irac": "14"
+    },
+    {
+      "mã lớp IRAC": 16,
+      "chất hoạt tính": "THIOSULTAP-SODIUM",
+      "Cấp 1": "A",
+      "Mô tả cấp độ 1": "NERVE ACTION",
+      "cấp độ 2": "A14",
+      "Mô tả cấp 2": "NICOTINIC ACETYLCHOLINE RECEPTOR (NACHR) CHANNEL BLOCKERS",
+      "Cấp độ 3": "A1414A",
+      "Mô tả cấp độ 3": "NEREISTOXIN ANALOGUES",
+      "Cấp độ 4": "A1414A4",
+      "mã_irac": "14"
+    },
+    {
+      "mã lớp IRAC": 34,
+      "chất hoạt tính": "AMITRAZ",
+      "Cấp 1": "A",
+      "Mô tả cấp độ 1": "NERVE ACTION",
+      "cấp độ 2": "A19",
+      "Mô tả cấp 2": "OCTOPAMINE RECEPTOR AGONISTS",
+      "Cấp độ 3": "A1919A",
+      "Mô tả cấp độ 3": "AMITRAZ",
+      "Cấp độ 4": "A1919A1",
+      "mã_irac": "19"
+    }
+  ]
+}

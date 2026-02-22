@@ -1,0 +1,126 @@
+{
+  "table_name": "component_sequences_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.component_sequences_30",
+  "column_names": [
+    "id_do_componente",
+    "tipo_de_componente",
+    "accession",
+    "sequencia",
+    "sequence_md5sum",
+    "descricao",
+    "tax_id",
+    "organismo",
+    "fonte_do_banco",
+    "versao_do_banco"
+  ],
+  "column_types": [
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "id_do_componente",
+    "tipo_de_componente",
+    "accession",
+    "sequencia",
+    "sequence_md5sum",
+    "descricao",
+    "tax_id",
+    "organismo",
+    "fonte_do_banco",
+    "versao_do_banco"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "Chave primária. Identificador único para o componente.",
+    "Tipo de componente molecular representado (por exemplo, 'PROTEIN', 'DNA', 'RNA').",
+    "Acesso para a sequência no banco de dados de origem do qual foi extraído (por exemplo, acesso UniProt para proteínas).",
+    "Uma sequência representativa para o componente molecular, conforme dado no banco de dados de sequência de origem (não necessariamente a sequência exata usada no ensaio).",
+    "MD5 checksum da sequência.",
+    "Descrição/nome para o componente molecular, geralmente extraído do banco de dados de sequência de origem.",
+    "ID de taxonomia do NCBI para a sequência no banco de dados de origem (ou seja, espécie de onde vem a sequência de proteína/ácido nucleico).",
+    "Nome do organismo de onde vem a sequência.",
+    "Nome do banco de dados de sequência de origem do qual as sequências/acessos são extraídos. Para proteínas UniProt, este campo indica se a sequência é do SWISS-PROT ou TREMBL.",
+    "Versão do banco de dados de sequência de origem do qual as sequências/acessos foram atualizados pela última vez."
+  ],
+  "sample_rows": [
+    {
+      "id_do_componente": 7819,
+      "tipo_de_componente": "RNA",
+      "accession": "ENSG00000084674",
+      "sequencia": null,
+      "sequence_md5sum": null,
+      "descricao": "Apo-B 100 mRNA",
+      "tax_id": 9606,
+      "organismo": "Homo sapiens",
+      "fonte_do_banco": "Manual",
+      "versao_do_banco": null
+    },
+    {
+      "id_do_componente": 17009,
+      "tipo_de_componente": "RNA",
+      "accession": "ENSG00000198947",
+      "sequencia": null,
+      "sequence_md5sum": null,
+      "descricao": "Dystrophin pre-mRNA",
+      "tax_id": 9606,
+      "organismo": "Homo sapiens",
+      "fonte_do_banco": "Manual",
+      "versao_do_banco": null
+    },
+    {
+      "id_do_componente": 17014,
+      "tipo_de_componente": "RNA",
+      "accession": "ENSG00000205571",
+      "sequencia": null,
+      "sequence_md5sum": null,
+      "descricao": "SMN2 delta7 pre-mRNA",
+      "tax_id": 9606,
+      "organismo": "Homo sapiens",
+      "fonte_do_banco": "Manual",
+      "versao_do_banco": null
+    },
+    {
+      "id_do_componente": 17103,
+      "tipo_de_componente": "RNA",
+      "accession": "ENSG00000142168",
+      "sequencia": null,
+      "sequence_md5sum": null,
+      "descricao": "SOD1 mRNA",
+      "tax_id": 9606,
+      "organismo": "Homo sapiens",
+      "fonte_do_banco": "Manual",
+      "versao_do_banco": null
+    },
+    {
+      "id_do_componente": 17551,
+      "tipo_de_componente": "RNA",
+      "accession": null,
+      "sequencia": null,
+      "sequence_md5sum": null,
+      "descricao": "18S RNA",
+      "tax_id": 9606,
+      "organismo": "Homo sapiens",
+      "fonte_do_banco": "Manual",
+      "versao_do_banco": null
+    }
+  ]
+}

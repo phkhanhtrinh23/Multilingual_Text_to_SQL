@@ -1,0 +1,126 @@
+{
+  "table_name": "rel12_caseData",
+  "table_fullname": "isb-cgc.GDC_metadata.rel12_caseData",
+  "column_names": [
+    "id_do_arquivo",
+    "project__dbgap_accession_number",
+    "project__tipo_de_doenca",
+    "project__nome",
+    "project__program__dbgap_accession_number",
+    "project__program__nome",
+    "project__id_do_projeto",
+    "id_do_remetente",
+    "legado_contagem_de_arquivos",
+    "contagem_de_arquivos_ativos"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "id_do_arquivo",
+    "project__dbgap_accession_number",
+    "project__tipo_de_doenca",
+    "project__nome",
+    "project__program__dbgap_accession_number",
+    "project__program__nome",
+    "project__id_do_projeto",
+    "id_do_submetente",
+    "legacy_file_count",
+    "active_file_count"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "INT64"
+  ],
+  "description": [
+    "Identificador do arquivo GDC. Este é um duplicado do campo file_gdc_id encontrado em algumas tabelas.",
+    "Número de acesso dbGaP do projeto",
+    "Tipo de doença do projeto",
+    "Nome do estudo do projeto",
+    "Número de acesso dbGaP do programa",
+    "Nome do programa",
+    "Nome curto do programa com nome curto do projeto",
+    "Isso pode ser usado para identificar uma entrada correspondente nos registros do submetedor. O GDC exige que o submitter_id seja único para cada entidade dentro de um projeto: a tupla (combinação) de [ project_id, submitter_id ] é uma chave única.",
+    "Número total de arquivos para este caso no arquivo legado do GDC",
+    "Contagem de arquivos ativos para este caso"
+  ],
+  "sample_rows": [
+    {
+      "id_do_arquivo": "8e20b23c-1e5c-4edc-8263-ec3ec3abf482",
+      "project__dbgap_accession_number": "phs001179",
+      "project__tipo_de_doenca": "multi",
+      "project__nome": "Foundation Medicine Adult Cancer Clinical Dataset (FM-AD)",
+      "project__program__dbgap_accession_number": null,
+      "project__program__nome": "FM",
+      "project__id_do_projeto": "FM-AD",
+      "id_do_submetente": "AD1",
+      "legacy_file_count": 0,
+      "active_file_count": 5
+    },
+    {
+      "id_do_arquivo": "35818db5-87e9-4c42-9d4c-902bbfaa09ea",
+      "project__dbgap_accession_number": "phs001179",
+      "project__tipo_de_doenca": "multi",
+      "project__nome": "Foundation Medicine Adult Cancer Clinical Dataset (FM-AD)",
+      "project__program__dbgap_accession_number": null,
+      "project__program__nome": "FM",
+      "project__id_do_projeto": "FM-AD",
+      "id_do_submetente": "AD2",
+      "legacy_file_count": 0,
+      "active_file_count": 5
+    },
+    {
+      "id_do_arquivo": "59b7703e-5bd6-4a2f-b4a6-be80ad6871e9",
+      "project__dbgap_accession_number": "phs001179",
+      "project__tipo_de_doenca": "multi",
+      "project__nome": "Foundation Medicine Adult Cancer Clinical Dataset (FM-AD)",
+      "project__program__dbgap_accession_number": null,
+      "project__program__nome": "FM",
+      "project__id_do_projeto": "FM-AD",
+      "id_do_submetente": "AD3",
+      "legacy_file_count": 0,
+      "active_file_count": 5
+    },
+    {
+      "id_do_arquivo": "066801c5-7723-473e-af4e-3e227d1a680c",
+      "project__dbgap_accession_number": "phs001179",
+      "project__tipo_de_doenca": "multi",
+      "project__nome": "Foundation Medicine Adult Cancer Clinical Dataset (FM-AD)",
+      "project__program__dbgap_accession_number": null,
+      "project__program__nome": "FM",
+      "project__id_do_projeto": "FM-AD",
+      "id_do_submetente": "AD4",
+      "legacy_file_count": 0,
+      "active_file_count": 5
+    },
+    {
+      "id_do_arquivo": "e2cf827c-f437-4759-8651-9317dd291fa5",
+      "project__dbgap_accession_number": "phs001179",
+      "project__tipo_de_doenca": "multi",
+      "project__nome": "Foundation Medicine Adult Cancer Clinical Dataset (FM-AD)",
+      "project__program__dbgap_accession_number": null,
+      "project__program__nome": "FM",
+      "project__id_do_projeto": "FM-AD",
+      "id_do_submetente": "AD5",
+      "legacy_file_count": 0,
+      "active_file_count": 5
+    }
+  ]
+}

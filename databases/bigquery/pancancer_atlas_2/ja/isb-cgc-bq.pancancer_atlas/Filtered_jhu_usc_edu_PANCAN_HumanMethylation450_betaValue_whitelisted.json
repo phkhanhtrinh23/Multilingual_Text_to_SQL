@@ -1,0 +1,101 @@
+{
+  "table_name": "Filtered_jhu_usc_edu_PANCAN_HumanMethylation450_betaValue_whitelisted",
+  "table_fullname": "isb-cgc-bq.pancancer_atlas.Filtered_jhu_usc_edu_PANCAN_HumanMethylation450_betaValue_whitelisted",
+  "column_names": [
+    "参加者バーコード",
+    "サンプルバーコード",
+    "サンプルバーコード",
+    "サンプル種別文字コード",
+    "サンプル種別",
+    "研究",
+    "ID",
+    "ベータ"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64"
+  ],
+  "nested_column_names": [
+    "参加者バーコード",
+    "サンプルバーコード",
+    "サンプルバーコード",
+    "サンプル種別文字コード",
+    "サンプル種別",
+    "研究",
+    "ID",
+    "ベータ"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64"
+  ],
+  "description": [
+    "研究参加者のTCGAバーコード識別子（例：TCGA-02-0001）",
+    "バイオサンプルのバーコード（例：TCGA-13-1489-02A）",
+    "TCGA アリオットバーコード、例：TCGA-12-1089-01A-01D-0517-28",
+    "TCGA標準に従ったサンプルタイプのレターコード（例：TPN、EBV）。完全なリストは https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/sample-type-codes でご確認ください",
+    "血液由来正常, 原発性固形腫瘍, 固形組織正常, 再発固形腫瘍, 転移, 追加 - 新しい原発性, 原発性血液由来癌 - 外周血, 口腔粘膜細胞正常, 追加転移, 骨髄正常",
+    "TCGA研究の略称、例：LAML。完全なリストは https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/tcga-study-abbreviations で確認できます。",
+    "Illumina Human Methylation アレイからの一意のプローブ識別子（例: cg04676771）— 特定のプローブについての詳細は、アノテーションテーブル (isb-cgc-bq.annotations.methylation_annotation_hg19_illumina_current) を参照してください",
+    "正規化されたDNAメチル化ベータ値（0〜1の範囲で、0は完全にメチル化されていないことを示し、1は完全にメチル化されていることを示す）"
+  ],
+  "sample_rows": [
+    {
+      "参加者バーコード": "TCGA-06-0221",
+      "サンプルバーコード": "TCGA-06-0221-02A-11D-2004-05",
+      "サンプル種別文字コード": "TR",
+      "サンプル種別": "Recurrent Solid Tumor",
+      "研究": "GBM",
+      "ID": "cg23731184",
+      "ベータ": 0.214408
+    },
+    {
+      "参加者バーコード": "TCGA-06-0152",
+      "サンプルバーコード": "TCGA-06-0152-02A-01D-2004-05",
+      "サンプル種別文字コード": "TR",
+      "サンプル種別": "Recurrent Solid Tumor",
+      "研究": "GBM",
+      "ID": "cg06362729",
+      "ベータ": 0.920151
+    },
+    {
+      "参加者バーコード": "TCGA-06-0152",
+      "サンプルバーコード": "TCGA-06-0152-02A-01D-2004-05",
+      "サンプル種別文字コード": "TR",
+      "サンプル種別": "Recurrent Solid Tumor",
+      "研究": "GBM",
+      "ID": "cg10753101",
+      "ベータ": 0.95802
+    },
+    {
+      "参加者バーコード": "TCGA-06-0210",
+      "サンプルバーコード": "TCGA-06-0210-02A-01D-2004-05",
+      "サンプル種別文字コード": "TR",
+      "サンプル種別": "Recurrent Solid Tumor",
+      "研究": "GBM",
+      "ID": "cg25832529",
+      "ベータ": 0.357678
+    },
+    {
+      "参加者バーコード": "TCGA-14-0736",
+      "サンプルバーコード": "TCGA-14-0736-02A-01D-2004-05",
+      "サンプル種別文字コード": "TR",
+      "サンプル種別": "Recurrent Solid Tumor",
+      "研究": "GBM",
+      "ID": "cg09167779",
+      "ベータ": 0.894181
+    }
+  ]
+}

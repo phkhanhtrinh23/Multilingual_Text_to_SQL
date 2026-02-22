@@ -1,0 +1,106 @@
+{
+  "table_name": "case_metadata_current",
+  "table_fullname": "isb-cgc-bq.PDC_metadata.case_metadata_current",
+  "column_names": [
+    "案件编号",
+    "案件提交者ID",
+    "原发部位",
+    "疾病类型",
+    "项目名称",
+    "程序名称",
+    "项目ID",
+    "文件数量"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "案件编号",
+    "案件提交者ID",
+    "原发部位",
+    "疾病类型",
+    "项目名称",
+    "程序名称",
+    "项目编号",
+    "文件数"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64"
+  ],
+  "description": [
+    "与特定患者相关联的唯一标识符（例如 24cb0fcb-63d6-11e8-bcf1-0a2705229b82）",
+    "由数据提交者得出的唯一标识符，关联特定患者（例如 05BR016）",
+    "用于描述恶性疾病一般位置的文本术语，按世界卫生组织（WHO）国际癌症疾病分类（ICD‑O）进行分类。",
+    "用于描述恶性疾病类型的文本术语，按世界卫生组织（WHO）的肿瘤国际疾病分类（ICD-O）进行分类",
+    "项目名称（例如 CPTAC-2）",
+    "数据源程序名称",
+    "PDC 项目 UUID（例如 edb4ca56-f1e8-11e9-9a07-0a80fada099c）",
+    "与特定 case_id 相关的文件数量"
+  ],
+  "sample_rows": [
+    {
+      "案件编号": "48a488d1-88bf-4eb4-809f-eba13c7b3537",
+      "案件提交者ID": "C224967",
+      "原发部位": null,
+      "疾病类型": "Complex Epithelial Neoplasms",
+      "项目名称": "CPTAC3 Discovery and Confirmatory",
+      "程序名称": "Clinical Proteomic Tumor Analysis Consortium",
+      "项目编号": "267d6671-0e78-11e9-a064-0a9c39d33490",
+      "文件数": 168
+    },
+    {
+      "案件编号": "6ca38436-0581-4f2c-b2b3-5bded49d35c8",
+      "案件提交者ID": "C283515",
+      "原发部位": "Brain",
+      "疾病类型": "Meningiomas",
+      "项目名称": "CPTAC3 Discovery and Confirmatory",
+      "程序名称": "Clinical Proteomic Tumor Analysis Consortium",
+      "项目编号": "267d6671-0e78-11e9-a064-0a9c39d33490",
+      "文件数": 172
+    },
+    {
+      "案件编号": "1ac99f68-ba13-4ab7-bc0e-53556cfdba1d",
+      "案件提交者ID": "C524103",
+      "原发部位": "Other and unspecified urinary organs",
+      "疾病类型": "Skin Cutaneous Melanoma",
+      "项目名称": "CPTAC3 Discovery and Confirmatory",
+      "程序名称": "Clinical Proteomic Tumor Analysis Consortium",
+      "项目编号": "267d6671-0e78-11e9-a064-0a9c39d33490",
+      "文件数": 168
+    },
+    {
+      "案件编号": "9ff8dc1d-111a-43a0-9264-abb3adf5d1f3",
+      "案件提交者ID": "C223491",
+      "原发部位": "Uterus, NOS",
+      "疾病类型": "Uterine Adenocarcinoma",
+      "项目名称": "CPTAC3 Discovery and Confirmatory",
+      "程序名称": "Clinical Proteomic Tumor Analysis Consortium",
+      "项目编号": "267d6671-0e78-11e9-a064-0a9c39d33490",
+      "文件数": 168
+    },
+    {
+      "案件编号": "2c4089f4-44ae-40b9-9ede-405a88cc5c51",
+      "案件提交者ID": "C621273",
+      "原发部位": "Colon",
+      "疾病类型": "Epithelial Neoplasms, NOS",
+      "项目名称": "CPTAC3 Discovery and Confirmatory",
+      "程序名称": "Clinical Proteomic Tumor Analysis Consortium",
+      "项目编号": "267d6671-0e78-11e9-a064-0a9c39d33490",
+      "文件数": 168
+    }
+  ]
+}

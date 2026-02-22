@@ -1,0 +1,102 @@
+{
+  "table_name": "DNA_METHYLATION_CHR3_HG38_GDC_2017_01",
+  "table_fullname": "TCGA_MITELMAN.TCGA_VERSIONED.DNA_METHYLATION_CHR3_HG38_GDC_2017_01",
+  "column_names": [
+    "Stichproben_Strichcode",
+    "Sondier_id",
+    "Plattform",
+    "Fall_Strichcode",
+    "Datei_gdc_id",
+    "Beta_Wert",
+    "Stichproben_gdc_id",
+    "Fall_gdc_id",
+    "Aliquot_gdc_id",
+    "Aliquot_Strichcode"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "FLOAT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "TCGA-Stichproben-Strichcode, z. B. TCGA-12-1089-01A. Eine Stichprobe kann mehrere Sätze von CN-Segmentierungen entsprechend mehreren Aliquots haben; verwenden Sie `GROUP BY` entsprechend in Abfragen",
+    "Eindeutige ID für die Array-Sonde, die mit einem CpG-Standort verknüpft ist",
+    "Plattform, die zur Generierung dieser Daten verwendet wird -- entweder `HumanMethylation450` oder `HumanMethylation27`",
+    "Originaler TCGA-Fall-Strichcode, z. B. TCGA-DX-A8BN",
+    "Eindeutiger GDC-Identifikator für diese Datei (entspricht der `file_barcode`)  --  dieser kann verwendet werden, um weitere Informationen vom GDC-Datenportal abzurufen, wie z. B.: https://portal.gdc.cancer.gov/files/c21b332c-06c6-4403-9032-f91c8f407ba34",
+    "Stellt das Verhältnis zwischen der methylisierten Array-Intensität und der gesamten Array-Intensität dar, liegt zwischen 0 (niedrigere Methylierungsgrade) und 1 (höhere Methylierungsgrade)",
+    "Eindeutiger GDC-Identifikator für diese Stichprobe (entspricht der `sample_barcode`), z. B. a1ec9279-c1a6-4e58-97ed-9ec1f36187c5  --  dieser kann verwendet werden, um weitere Informationen vom GDC-Datenportal abzurufen",
+    "Eindeutiger GDC-Identifikator für diesen Fall (entspricht der `case_barcode`). Kann verwendet werden, um weitere Informationen vom GDC-Datenportal abzurufen, wie z. B.:   https://portal.gdc.cancer.gov/files/c21b332c-06c6-4403-9032-f91c8f407ba27",
+    "Eindeutiger GDC-Identifikator für diesen Aliquot (entspricht der `aliquot_barcode`), z. B. 7fbfdb3e-1fd2-4206-8d2e-7f68e4a15844  --  dieser kann verwendet werden, um weitere Informationen vom GDC-Datenportal abzurufen",
+    "TCGA-Aliquot-Strichcode, z. B. TCGA-12-1089-01A-01D-0517-19"
+  ],
+  "sample_rows": [
+    {
+      "Fall_Strichcode": "TCGA-12-1601",
+      "Stichproben_Strichcode": "TCGA-12-1601-01A",
+      "Aliquot_Strichcode": "TCGA-12-1601-01A-01D-0595-05",
+      "Sondier_id": "cg18759346",
+      "Beta_Wert": 0.01425742531329,
+      "Plattform": null,
+      "Datei_gdc_id": "5cd6f2f6-7278-4757-be8e-a8ae3a7a81d3",
+      "Fall_gdc_id": "cc1459be-de8f-482e-9efe-65937db9dc45",
+      "Stichproben_gdc_id": "b02fd704-03a6-44c4-b224-f5f457e733f3",
+      "Aliquot_gdc_id": "aa761ca4-e8f0-4a43-8262-bd84eedb459a"
+    },
+    {
+      "Fall_Strichcode": "TCGA-12-1601",
+      "Stichproben_Strichcode": "TCGA-12-1601-01A",
+      "Aliquot_Strichcode": "TCGA-12-1601-01A-01D-0595-05",
+      "Sondier_id": "cg13745870",
+      "Beta_Wert": 0.117312875111575,
+      "Plattform": null,
+      "Datei_gdc_id": "5cd6f2f6-7278-4757-be8e-a8ae3a7a81d3",
+      "Fall_gdc_id": "cc1459be-de8f-482e-9efe-65937db9dc45",
+      "Stichproben_gdc_id": "b02fd704-03a6-44c4-b224-f5f457e733f3",
+      "Aliquot_gdc_id": "aa761ca4-e8f0-4a43-8262-bd84eedb459a"
+    },
+    {
+      "Fall_Strichcode": "TCGA-12-1601",
+      "Stichproben_Strichcode": "TCGA-12-1601-01A",
+      "Aliquot_Strichcode": "TCGA-12-1601-01A-01D-0595-05",
+      "Sondier_id": "cg04627663",
+      "Beta_Wert": 0.431058628295249,
+      "Plattform": null,
+      "Datei_gdc_id": "5cd6f2f6-7278-4757-be8e-a8ae3a7a81d3",
+      "Fall_gdc_id": "cc1459be-de8f-482e-9efe-65937db9dc45",
+      "Stichproben_gdc_id": "b02fd704-03a6-44c4-b224-f5f457e733f3",
+      "Aliquot_gdc_id": "aa761ca4-e8f0-4a43-8262-bd84eedb459a"
+    },
+    {
+      "Fall_Strichcode": "TCGA-12-1601",
+      "Stichproben_Strichcode": "TCGA-12-1601-01A",
+      "Aliquot_Strichcode": "TCGA-12-1601-01A-01D-0595-05",
+      "Sondier_id": "cg18331396",
+      "Beta_Wert": 0.009074954090536,
+      "Plattform": null,
+      "Datei_gdc_id": "5cd6f2f6-7278-4757-be8e-a8ae3a7a81d3",
+      "Fall_gdc_id": "cc1459be-de8f-482e-9efe-65937db9dc45",
+      "Stichproben_gdc_id": "b02fd704-03a6-44c4-b224-f5f457e733f3",
+      "Aliquot_gdc_id": "aa761ca4-e8f0-4a43-8262-bd84eedb459a"
+    },
+    {
+      "Fall_Strichcode": "TCGA-12-1601",
+      "Stichproben_Strichcode": "TCGA-12-1601-01A",
+      "Aliquot_Strichcode": "TCGA-12-1601-01A-01D-0595-05",
+      "Sondier_id": "cg22613010",
+      "Beta_Wert": 0.0150373576144508,
+      "Plattform": null,
+      "Datei_gdc_id": "5cd6f2f6-7278-4757-be8e-a8ae3a7a81d3",
+      "Fall_gdc_id": "cc1459be-de8f-482e-9efe-65937db9dc45",
+      "Stichproben_gdc_id": "b02fd704-03a6-44c4-b224-f5f457e733f3",
+      "Aliquot_gdc_id": "aa761ca4-e8f0-4a43-8262-bd84eedb459a"
+    }
+  ]
+}

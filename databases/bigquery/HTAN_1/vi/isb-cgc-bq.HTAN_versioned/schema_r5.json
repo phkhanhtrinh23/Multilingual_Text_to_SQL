@@ -1,0 +1,121 @@
+{
+  "table_name": "schema_r5",
+  "table_fullname": "isb-cgc-bq.HTAN_versioned.schema_r5",
+  "column_names": [
+    "Thuộc tính",
+    "Mô tả",
+    "Giá trị hợp lệ",
+    "Phụ thuộc vào",
+    "Thuộc tính",
+    "Bắt buộc",
+    "Phụ huynh",
+    "Thành phần phụ thuộc",
+    "Nguồn",
+    "Quy tắc xác thực"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "Thuộc tính",
+    "Mô tả",
+    "Giá trị hợp lệ",
+    "Phụ thuộc vào",
+    "Thuộc tính",
+    "Bắt buộc",
+    "Cha Mẹ",
+    "Thành phần phụ thuộc",
+    "Nguồn",
+    "Quy tắc xác thực"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "Đặc tính chính X của phép thử, giao thức liên quan hoặc dữ liệu downstream mà chúng ta muốn ghi lại dưới dạng tính năng metadata.",
+    "Cung cấp một định nghĩa hoặc một tài liệu tham chiếu chứa định nghĩa của thuộc tính X. Ưu tiên cung cấp liên kết nguồn ontology hoặc mã nguồn kèm theo định nghĩa. Để trống nếu mô tả cuối cùng đang chờ.",
+    "Phạm vi thuộc tính X: các giá trị có thể được gán cho thuộc tính X; những giá trị này có thể bao gồm các thuộc tính khác (tức là được liệt kê trong cột 'Attribute') chính chúng. Tách bằng dấu phẩy. Nếu không cung cấp, bất kỳ giá trị không null nào cũng hợp lệ cho thuộc tính X.",
+    "Các đặc tính quan trọng, nếu có, của thuộc tính X cần được ghi lại dưới dạng đặc trưng metadata khi thuộc tính X được xác định. Các đặc tính này có thể là các thuộc tính hoặc đặc tính của các thuộc tính (tức là chúng được liệt kê trong cột 'Attribute' và/hoặc trong cột 'Properties'). Ngăn cách bằng dấu phẩy.",
+    "Các thuộc tính đặc thù của một thuộc tính cụ thể; lưu ý rằng các thuộc tính có thể là các thuộc tính chính nó (tức là được liệt kê trong cột 'Attributes').",
+    "Xác định xem việc cung cấp giá trị cho thuộc tính X có bắt buộc hay tùy chọn theo mặc định. Đặt thành TRUE hoặc FALSE.  \nNếu TRUE, người đóng góp dữ liệu phải cung cấp giá trị cho thuộc tính X (ví dụ: một trong các giá trị hợp lệ trong 'Valid Values', nếu có được chỉ định).  \nNếu FALSE, người đóng góp dữ liệu có thể chọn giữa 'Not Applicable' hoặc 'Not Specified' làm giá trị cho thuộc tính X.  \nLưu ý rằng một thuộc tính có thể không được yêu cầu theo mặc định (tức là 'Required' được đặt thành FALSE), nhưng nó có thể được yêu cầu vì là thuộc tính của một thuộc tính yêu cầu khác (ví dụ: xem ERCC).",
+    "Loại cha của thuộc tính này - tức là nơi để 'gắn' thuộc tính này vào một schema hiện có. Lưu ý rằng điều này giả định một schema duy nhất/ một context schema json‑ld duy nhất; nếu chúng ta cần hỗ trợ các lớp/thuộc tính/đặc tính được định nghĩa qua nhiều schema/context json‑ld, chúng ta sẽ cần thêm một cột schema/context chỉ định context của mỗi thuộc tính, nếu khác với context của cha của thuộc tính.",
+    "Mỗi thành phần là một lớp ontologi cấp cao, trong đó các thực thể/đối tượng được phân loại thành phần; một thành phần là một thực thể riêng lẻ cần được định nghĩa trong schema.",
+    "Nguồn của mô tả thuật ngữ, thường là một URI. Các học thuyết có thể được sử dụng làm nguồn. Ví dụ: Library Construction Method có nguồn: http://purl.obolibrary.org/obo/OBI_0000711",
+    "Loại dữ liệu nào được phép trong cột Valid Values.  \nChỉ liên quan nếu không có giá trị hợp lệ trong hàng.  \nVí dụ: chuỗi, danh sách, số nguyên."
+  ],
+  "sample_rows": [
+    {
+      "Thuộc tính": null,
+      "Mô tả": "Single-cell RNA-seq [EFO_0008913]",
+      "Giá trị hợp lệ": null,
+      "Phụ thuộc vào": "Component, Filename, File Format, HTAN Parent Biospecimen ID, HTAN Data File ID, Nucleic Acid Source, Cryopreserved Cells in Sample, Single Cell Isolation Method, Dissociation Method, Library Construction Method, Read Indicator, Read1, Read2, End Bias, Reverse Transcription Primer, Spike In, Sequencing Platform, Total Number of Input Cells, Input Cells and Nuclei, Library Preparation Days from Index, Single Cell Dissociation Days from Index, Sequencing Library Construction Days from Index, Nucleic Acid Capture Days from Index, Protocol Link, Technical Replicate Group",
+      "Bắt buộc": "FALSE",
+      "Cha Mẹ": "Sequencing",
+      "Thành phần phụ thuộc": "Biospecimen",
+      "Nguồn": "http://www.ebi.ac.uk/efo/EFO_0008913",
+      "Quy tắc xác thực": null
+    },
+    {
+      "Thuộc tính": null,
+      "Mô tả": "Bulk RNA-seq [EFO_0003738]",
+      "Giá trị hợp lệ": null,
+      "Phụ thuộc vào": "Component, Filename, File Format, HTAN Parent Biospecimen ID, HTAN Data File ID, Library Layout, Read Indicator, Nucleic Acid Source, Micro-region Seq Platform, ROI Tag, Sequencing Platform, Sequencing Batch ID, Read Length, Library Selection Method, Library Preparation Kit Name, Library Preparation Kit Vendor, Library Preparation Kit Version, Library Preparation Days from Index, Spike In, Adapter Name, Adapter Sequence, Base Caller Name, Base Caller Version, Flow Cell Barcode, Fragment Maximum Length, Fragment Mean Length, Fragment Minimum Length, Fragment Standard Deviation Length, Lane Number, Library Strand, Multiplex Barcode, Size Selection Range, Target Depth, To Trim Adapter Sequence, Transcript Integrity Number, RIN, DV200, Adapter Content, Basic Statistics, Encoding, Kmer Content, Overrepresented Sequences, Per Base N Content, Per Base Sequence Content, Per Base Sequence Quality, Per Sequence GC Content, Per Sequence Quality Score, Per Tile Sequence Quality, Percent GC Content, Sequence Duplication Levels, Sequence Length Distribution, Total Reads, QC Workflow Type, QC Workflow Version, QC Workflow Link",
+      "Bắt buộc": "FALSE",
+      "Cha Mẹ": "Sequencing",
+      "Thành phần phụ thuộc": "Biospecimen",
+      "Nguồn": "http://www.ebi.ac.uk/efo/EFO_0003738",
+      "Quy tắc xác thực": null
+    },
+    {
+      "Thuộc tính": null,
+      "Mô tả": "A method for adding extra channels of information to cells by running single-cell gene expression in parallel with other assays [https://support.10xgenomics.com/single-cell-gene-expression/software/pipelines/latest/feature-bc]",
+      "Giá trị hợp lệ": null,
+      "Phụ thuộc vào": "Feature Reference Id",
+      "Bắt buộc": "FALSE",
+      "Cha Mẹ": "scRNA-seq Level 1",
+      "Thành phần phụ thuộc": null,
+      "Nguồn": "https://support.10xgenomics.com/single-cell-gene-expression/software/pipelines/latest/feature-bc",
+      "Quy tắc xác thực": null
+    },
+    {
+      "Thuộc tính": null,
+      "Mô tả": "A molecular derivative (I.e. RNA / DNA / Protein Lysate) obtained from a specimen",
+      "Giá trị hợp lệ": null,
+      "Phụ thuộc vào": "Analyte Type, Fixation Duration, Slide Charge Type, Section Thickness Value, Sectioning Days from Index, Shipping Condition Type, Ischemic Time, Ischemic Temperature",
+      "Bắt buộc": "FALSE",
+      "Cha Mẹ": "Biospecimen",
+      "Thành phần phụ thuộc": null,
+      "Nguồn": "https://cadsr.cancer.gov/onedata/dmdirect/NIH/NCI/CO/CDEDD?filter=CDEDD.ITEM_ID=2513915&version=2.0",
+      "Quy tắc xác thực": null
+    },
+    {
+      "Thuộc tính": null,
+      "Mô tả": "Numeric value for the total amount of sample or specimen",
+      "Giá trị hợp lệ": null,
+      "Phụ thuộc vào": "Total Volume Unit",
+      "Bắt buộc": "FALSE",
+      "Cha Mẹ": "Biospecimen",
+      "Thành phần phụ thuộc": null,
+      "Nguồn": "https://cadsr.cancer.gov/onedata/dmdirect/NIH/NCI/CO/CDEDD?filter=CDEDD.ITEM_ID=3005019&version=1.0",
+      "Quy tắc xác thực": null
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "sample_rows": [
+    {
+      "ID_DO_POI": "08f26c862279d1150352e1060f847671",
+      "NOME_DO_POI": "Redbox",
+      "CATEGORIA_PRINCIPAL": "Video And Video Game Rentals",
+      "CATEGORIA_ALTERNATIVA": "[\n  \"Books Mags Music And Video\",\n  \"Rental Kiosks\"\n]"
+    },
+    {
+      "ID_DO_POI": "08f27490544e86b1036967efcd70720e",
+      "NOME_DO_POI": "Hudson Place",
+      "CATEGORIA_PRINCIPAL": "Retirement Home",
+      "CATEGORIA_ALTERNATIVA": "[\n  \"Health And Medical\",\n  \"Public Service And Government\"\n]"
+    },
+    {
+      "ID_DO_POI": "08f275d740d8184e03d67542272d1020",
+      "NOME_DO_POI": "One Source Construction Corp.",
+      "CATEGORIA_PRINCIPAL": "Construction Services",
+      "CATEGORIA_ALTERNATIVA": "[\n  \"Commercial Industrial\",\n  \"Contractor\"\n]"
+    },
+    {
+      "ID_DO_POI": "08f26c18910da49303ca27a9af04b9cf",
+      "NOME_DO_POI": "Council Road",
+      "CATEGORIA_PRINCIPAL": "Church Cathedral",
+      "CATEGORIA_ALTERNATIVA": "[\n  \"Baptist Church\",\n  \"Religious Organization\"\n]"
+    },
+    {
+      "ID_DO_POI": "08f2a94d0592d19c0352b1ade5f7bfe8",
+      "NOME_DO_POI": "Impact Employment Solutions",
+      "CATEGORIA_PRINCIPAL": "Employment Agencies",
+      "CATEGORIA_ALTERNATIVA": "[\n  \"Information Technology Company\",\n  \"Professional Services\"\n]"
+    }
+  ],
+  "table_name": "POINT_OF_INTEREST_INDEX",
+  "table_fullname": "US_REAL_ESTATE.CYBERSYN.POINT_OF_INTEREST_INDEX",
+  "column_names": [
+    "CATEGORIA_PRINCIPAL",
+    "NOME_DO_POI",
+    "CATEGORIA_ALTERNATIVA",
+    "ID_DO_POI"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "ARRAY",
+    "TEXT"
+  ],
+  "description": [
+    "Categoria primária ou classe de local para o POI.",
+    "Nome do local, comerciante ou ponto de referência para o POI específico.",
+    "Categorias alternativas do POI. Um POI pode se encaixar em múltiplas categorias (por exemplo, Restaurante, Restaurante de Hamburguer, Restaurante de Fast Food), caso em que uma categoria seria registrada como CATEGORY_MAIN e as categorias restantes seriam registradas em uma lista sob CATEGORY_ALTERNATE.",
+    "Um identificador único para um ponto de interesse (como um parque, cadeia de fast food, hotel, etc.) com base em sua descrição e localização. Isso pode ser unido à tabela POINT_OF_INTEREST_ADDRESSES_RELATIONSHIPS, que pode ser usada para vincular POIs a endereços."
+  ]
+}

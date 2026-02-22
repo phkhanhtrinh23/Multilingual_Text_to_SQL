@@ -1,0 +1,177 @@
+{
+  "table_name": "drugWarnings",
+  "table_fullname": "bigquery-public-data.open_targets_platform.drugWarnings",
+  "column_names": [
+    "idsChembl",
+    "classeDeToxicidade",
+    "pais",
+    "descricao",
+    "id",
+    "referencias",
+    "tipoDeAlerta",
+    "ano",
+    "termoEfo",
+    "idEfo",
+    "idEfoParaClasseDeAlerta"
+  ],
+  "column_types": [
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "STRUCT<list ARRAY<STRUCT<element STRUCT<ref_id STRING, ref_type STRING, ref_url STRING>>>>",
+    "STRING",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "idsChembl",
+    "listaIdsChembl",
+    "elementoListaIdsChembl",
+    "classeDeToxicidade",
+    "pais",
+    "descricao",
+    "id",
+    "referencias",
+    "listaReferencias",
+    "elementoListaReferencias",
+    "idRefElementoListaReferencias",
+    "tipoRefElementoListaReferencias",
+    "urlRefElementoListaReferencias",
+    "tipoDeAlerta",
+    "ano",
+    "termoEfo",
+    "idEfo",
+    "idEfoParaClasseDeAlerta"
+  ],
+  "nested_column_types": [
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+    "ARRAY<STRUCT<element STRING>>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "STRUCT<list ARRAY<STRUCT<element STRUCT<ref_id STRING, ref_type STRING, ref_url STRING>>>>",
+    "ARRAY<STRUCT<element STRUCT<ref_id STRING, ref_type STRING, ref_url STRING>>>",
+    "STRUCT<ref_id STRING, ref_type STRING, ref_url STRING>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "sample_rows": [
+    {
+      "idsChembl": {
+        "list": "[{'element': 'CHEMBL3039594'} {'element': 'CHEMBL3039597'}]"
+      },
+      "classeDeToxicidade": null,
+      "pais": "United States",
+      "descricao": null,
+      "id": 2817,
+      "referencias": {
+        "list": "[]"
+      },
+      "tipoDeAlerta": "Black Box Warning",
+      "ano": null,
+      "termoEfo": null,
+      "idEfo": null,
+      "idEfoParaClasseDeAlerta": null
+    },
+    {
+      "idsChembl": {
+        "list": "[{'element': 'CHEMBL3989677'} {'element': 'CHEMBL1457'}]"
+      },
+      "classeDeToxicidade": null,
+      "pais": "United States",
+      "descricao": null,
+      "id": 2818,
+      "referencias": {
+        "list": "[]"
+      },
+      "tipoDeAlerta": "Black Box Warning",
+      "ano": null,
+      "termoEfo": null,
+      "idEfo": null,
+      "idEfoParaClasseDeAlerta": null
+    },
+    {
+      "idsChembl": {
+        "list": "[{'element': 'CHEMBL2359966'} {'element': 'CHEMBL170'}]"
+      },
+      "classeDeToxicidade": null,
+      "pais": "United States",
+      "descricao": null,
+      "id": 2820,
+      "referencias": {
+        "list": "[]"
+      },
+      "tipoDeAlerta": "Black Box Warning",
+      "ano": null,
+      "termoEfo": null,
+      "idEfo": null,
+      "idEfoParaClasseDeAlerta": null
+    },
+    {
+      "idsChembl": {
+        "list": "[{'element': 'CHEMBL5095051'} {'element': 'CHEMBL637'}]"
+      },
+      "classeDeToxicidade": null,
+      "pais": "United States",
+      "descricao": null,
+      "id": 2864,
+      "referencias": {
+        "list": "[]"
+      },
+      "tipoDeAlerta": "Black Box Warning",
+      "ano": null,
+      "termoEfo": null,
+      "idEfo": null,
+      "idEfoParaClasseDeAlerta": null
+    },
+    {
+      "idsChembl": {
+        "list": "[{'element': 'CHEMBL1742992'}]"
+      },
+      "classeDeToxicidade": null,
+      "pais": "United States",
+      "descricao": null,
+      "id": 221,
+      "referencias": {
+        "list": "[]"
+      },
+      "tipoDeAlerta": "Black Box Warning",
+      "ano": null,
+      "termoEfo": null,
+      "idEfo": null,
+      "idEfoParaClasseDeAlerta": null
+    }
+  ]
+}

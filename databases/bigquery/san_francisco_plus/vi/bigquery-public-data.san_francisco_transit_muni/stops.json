@@ -1,0 +1,71 @@
+{
+  "table_name": "stops",
+  "table_fullname": "bigquery-public-data.san_francisco_transit_muni.stops",
+  "column_names": [
+    "mã điểm dừng",
+    "tên điểm dừng",
+    "vĩ độ",
+    "độ kinh độ",
+    "địa hình dừng"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "FLOAT64",
+    "GEOGRAPHY"
+  ],
+  "nested_column_names": [
+    "mã_đoàn",
+    "Tên dừng",
+    "vĩ độ trạm",
+    "vĩ độ trạm",
+    "địa hình điểm dừng"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "FLOAT64",
+    "GEOGRAPHY"
+  ],
+  "description": [
+    "Định danh duy nhất cho mỗi điểm dừng",
+    "Tên đầy đủ của điểm dừng giao thông",
+    "Vĩ độ của điểm dừng",
+    "Kinh độ của điểm dừng",
+    "Biểu diễn địa lý vị trí của điểm dừng"
+  ],
+  "sample_rows": [
+    {
+      "mã_đoàn": "15829",
+      "Tên dừng": "100 O'Shaughnessy Blvd",
+      "vĩ độ trạm": -122.450678,
+      "địa hình điểm dừng": "POINT(-122.450678 37.744481)"
+    },
+    {
+      "mã_đoàn": "14343",
+      "Tên dừng": "101 Dakota St",
+      "vĩ độ trạm": -122.39565,
+      "địa hình điểm dừng": "POINT(-122.39565 37.75374)"
+    },
+    {
+      "mã_đoàn": "14122",
+      "Tên dừng": "1095 CONNECTICUT ST",
+      "vĩ độ trạm": -122.397341,
+      "địa hình điểm dừng": "POINT(-122.397341 37.753902)"
+    },
+    {
+      "mã_đoàn": "13230",
+      "Tên dừng": "10th Ave & Ortega St",
+      "vĩ độ trạm": -122.466502,
+      "địa hình điểm dừng": "POINT(-122.466502 37.752724)"
+    },
+    {
+      "mã_đoàn": "13231",
+      "Tên dừng": "10th Ave & Pacheco St",
+      "vĩ độ trạm": -122.466376,
+      "địa hình điểm dừng": "POINT(-122.466376 37.75086)"
+    }
+  ]
+}

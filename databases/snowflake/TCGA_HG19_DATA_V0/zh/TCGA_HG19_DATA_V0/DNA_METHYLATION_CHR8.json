@@ -1,0 +1,78 @@
+{
+  "table_name": "DNA_METHYLATION_CHR8",
+  "table_fullname": "TCGA_HG19_DATA_V0.TCGA_HG19_DATA_V0.DNA_METHYLATION_CHR8",
+  "column_names": [
+    "探针编号",
+    "案件条码",
+    "项目简称",
+    "分装条码",
+    "平台",
+    "样本条码",
+    "beta值"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "FLOAT"
+  ],
+  "description": [
+    "来自 Illumina 人类甲基化阵列的唯一探针标识符（如 cg04676771）— 如需了解任何特定探针的更多信息，请参阅注释表（isb-cgc:platform_reference.methylation_annotation）。",
+    "原始 TCGA 病例条码，例如 TCGA-12-1089 ——请注意，每个病例通常都有一个原发肿瘤样本和一个匹配的正常样本（血液或相邻组织）；请参阅 TCGA 生物样本表以获取更多细节",
+    "项目名称缩写；程序名称后附项目名称缩写，例如 TCGA-OV 等。",
+    "原始 TCGA 试剂条形码，例如 TCGA-12-1089-01A-01D-0517-01",
+    "用于生成此数据的平台——HumanMethylation450 或 HumanMethylation27",
+    "原始 TCGA 样本条码，例如 TCGA-12-1089-01A  -- 请注意，一个样本可能有多个分装，因此会有多组 CN 分割；请确保在查询中恰当地使用 GROUP BY",
+    "归一化的 DNA 甲基化 β 值（介于 0 与 1 之间，0 表示完全未甲基化，1 表示完全甲基化）"
+  ],
+  "sample_rows": [
+    {
+      "项目简称": "TCGA-OV",
+      "案件条码": "TCGA-01-0628",
+      "样本条码": "TCGA-01-0628-11A",
+      "分装条码": "TCGA-01-0628-11A-01D-0383-05",
+      "探针编号": "cg15042080",
+      "beta值": 0.02,
+      "平台": "HumanMethylation27"
+    },
+    {
+      "项目简称": "TCGA-OV",
+      "案件条码": "TCGA-01-0630",
+      "样本条码": "TCGA-01-0630-11A",
+      "分装条码": "TCGA-01-0630-11A-01D-0383-05",
+      "探针编号": "cg24981018",
+      "beta值": 0.44,
+      "平台": "HumanMethylation27"
+    },
+    {
+      "项目简称": "TCGA-OV",
+      "案件条码": "TCGA-01-0631",
+      "样本条码": "TCGA-01-0631-11A",
+      "分装条码": "TCGA-01-0631-11A-01D-0383-05",
+      "探针编号": "cg07005767",
+      "beta值": 0.86,
+      "平台": "HumanMethylation27"
+    },
+    {
+      "项目简称": "TCGA-OV",
+      "案件条码": "TCGA-01-0631",
+      "样本条码": "TCGA-01-0631-11A",
+      "分装条码": "TCGA-01-0631-11A-01D-0383-05",
+      "探针编号": "cg22610305",
+      "beta值": 0.01,
+      "平台": "HumanMethylation27"
+    },
+    {
+      "项目简称": "TCGA-OV",
+      "案件条码": "TCGA-01-0631",
+      "样本条码": "TCGA-01-0631-11A",
+      "分装条码": "TCGA-01-0631-11A-01D-0383-05",
+      "探针编号": "cg00311768",
+      "beta值": 0.55,
+      "平台": "HumanMethylation27"
+    }
+  ]
+}

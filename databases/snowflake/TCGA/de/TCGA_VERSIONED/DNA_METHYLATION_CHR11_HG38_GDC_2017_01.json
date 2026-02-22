@@ -1,0 +1,102 @@
+{
+  "table_name": "DNA_METHYLATION_CHR11_HG38_GDC_2017_01",
+  "table_fullname": "TCGA.TCGA_VERSIONED.DNA_METHYLATION_CHR11_HG38_GDC_2017_01",
+  "column_names": [
+    "aliquot_gdc_id",
+    "file_gdc_id",
+    "sonde_id",
+    "fall_nummer",
+    "aliquot_nummer",
+    "probe_gdc_id",
+    "plattform",
+    "fall_gdc_id",
+    "probe_nummer",
+    "beta_wert"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "FLOAT"
+  ],
+  "description": [
+    "Eindeutiger GDC-Identifikator für diesen Aliquot (entspricht dem `aliquot_barcode`), z. B. 7fbfdb3e-1fd2-4206-8d2e-7f68e4a15844  --  dieser kann verwendet werden, um weitere Informationen vom GDC-Datenportal abzurufen",
+    "Eindeutiger GDC-Identifikator für diese Datei (entspricht dem `file_barcode`)  --  dieser kann verwendet werden, um weitere Informationen vom GDC-Datenportal abzurufen, wie z. B.: https://portal.gdc.cancer.gov/files/c21b332c-06c6-4403-9032-f91c8f407ba21",
+    "Eindeutige ID für die Array-Sonde, die mit einem CpG-Standort verknüpft ist",
+    "Original-TCGA-Fall-Strichcode, z. B. TCGA-DX-A8BN",
+    "TCGA-Aliquot-Strichcode, z. B. TCGA-12-1089-01A-01D-0517-06",
+    "Eindeutiger GDC-Identifikator für diese Probe (entspricht dem `sample_barcode`), z. B. a1ec9279-c1a6-4e58-97ed-9ec1f36187c5  --  dieser kann verwendet werden, um weitere Informationen vom GDC-Datenportal abzurufen",
+    "Plattform, die zur Generierung dieser Daten verwendet wurde -- entweder HumanMethylation450 oder HumanMethylation27",
+    "Eindeutiger GDC-Identifikator für diesen Fall (entspricht dem `case_barcode`). Kann verwendet werden, um weitere Informationen vom GDC-Datenportal abzurufen, wie z. B.:   https://portal.gdc.cancer.gov/files/c21b332c-06c6-4403-9032-f91c8f407ba14",
+    "TCGA-Probe-Strichcode, z. B. TCGA-12-1089-01A. Eine Probe kann mehrere Sätze von CN-Segmentierungen haben, die mehreren Aliquots entsprechen; verwenden Sie daher GROUP BY entsprechend in Abfragen",
+    "Stellt das Verhältnis zwischen der methylisierten Array-Intensität und der Gesamt-Array-Intensität dar, liegt zwischen 0 (niedrigere Methylierungsniveaus) und 1 (höhere Methylierungsniveaus)"
+  ],
+  "sample_rows": [
+    {
+      "fall_nummer": "TCGA-12-1601",
+      "probe_nummer": "TCGA-12-1601-01A",
+      "aliquot_nummer": "TCGA-12-1601-01A-01D-0595-05",
+      "sonde_id": "cg21421501",
+      "beta_wert": 0.02136212751041,
+      "plattform": null,
+      "file_gdc_id": "5cd6f2f6-7278-4757-be8e-a8ae3a7a81d3",
+      "fall_gdc_id": "cc1459be-de8f-482e-9efe-65937db9dc45",
+      "probe_gdc_id": "b02fd704-03a6-44c4-b224-f5f457e733f3",
+      "aliquot_gdc_id": "aa761ca4-e8f0-4a43-8262-bd84eedb459a"
+    },
+    {
+      "fall_nummer": "TCGA-12-1601",
+      "probe_nummer": "TCGA-12-1601-01A",
+      "aliquot_nummer": "TCGA-12-1601-01A-01D-0595-05",
+      "sonde_id": "cg14037413",
+      "beta_wert": 0.00647595805290028,
+      "plattform": null,
+      "file_gdc_id": "5cd6f2f6-7278-4757-be8e-a8ae3a7a81d3",
+      "fall_gdc_id": "cc1459be-de8f-482e-9efe-65937db9dc45",
+      "probe_gdc_id": "b02fd704-03a6-44c4-b224-f5f457e733f3",
+      "aliquot_gdc_id": "aa761ca4-e8f0-4a43-8262-bd84eedb459a"
+    },
+    {
+      "fall_nummer": "TCGA-12-1601",
+      "probe_nummer": "TCGA-12-1601-01A",
+      "aliquot_nummer": "TCGA-12-1601-01A-01D-0595-05",
+      "sonde_id": "cg10403260",
+      "beta_wert": 0.011022635985196,
+      "plattform": null,
+      "file_gdc_id": "5cd6f2f6-7278-4757-be8e-a8ae3a7a81d3",
+      "fall_gdc_id": "cc1459be-de8f-482e-9efe-65937db9dc45",
+      "probe_gdc_id": "b02fd704-03a6-44c4-b224-f5f457e733f3",
+      "aliquot_gdc_id": "aa761ca4-e8f0-4a43-8262-bd84eedb459a"
+    },
+    {
+      "fall_nummer": "TCGA-32-2498",
+      "probe_nummer": "TCGA-32-2498-01A",
+      "aliquot_nummer": "TCGA-32-2498-01A-01D-1228-05",
+      "sonde_id": "cg17213552",
+      "beta_wert": 0.0104374106638675,
+      "plattform": null,
+      "file_gdc_id": "6db4187c-5e48-45ac-8ae3-6b55198ff65a",
+      "fall_gdc_id": "0d5e5a6b-5113-43f2-836c-776207b21b56",
+      "probe_gdc_id": "58af038c-bd40-4123-a6d3-11061f0d38e1",
+      "aliquot_gdc_id": "6e65d823-0d94-4d26-b60a-2f168cbe2ba8"
+    },
+    {
+      "fall_nummer": "TCGA-32-2498",
+      "probe_nummer": "TCGA-32-2498-01A",
+      "aliquot_nummer": "TCGA-32-2498-01A-01D-1228-05",
+      "sonde_id": "cg02477931",
+      "beta_wert": 0.90776584680452,
+      "plattform": null,
+      "file_gdc_id": "6db4187c-5e48-45ac-8ae3-6b55198ff65a",
+      "fall_gdc_id": "0d5e5a6b-5113-43f2-836c-776207b21b56",
+      "probe_gdc_id": "58af038c-bd40-4123-a6d3-11061f0d38e1",
+      "aliquot_gdc_id": "6e65d823-0d94-4d26-b60a-2f168cbe2ba8"
+    }
+  ]
+}

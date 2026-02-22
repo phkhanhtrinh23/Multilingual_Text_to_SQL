@@ -1,0 +1,86 @@
+{
+  "table_name": "adjacent_counties",
+  "table_fullname": "bigquery-public-data.geo_us_boundaries.adjacent_counties",
+  "column_names": [
+    "quận",
+    "Tình trạng",
+    "Mã FIPS huyện",
+    "Hàng xóm",
+    "trạng thái lân cận",
+    "mã FIPS lân cận"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "ARRAY<STRING>",
+    "ARRAY<STRING>",
+    "ARRAY<STRING>"
+  ],
+  "nested_column_names": [
+    "quận",
+    "tiểu bang",
+    "Mã FIPS của huyện",
+    "người hàng xóm",
+    "trạng thái láng giềng",
+    "mã FIPS của hàng xóm"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "ARRAY<STRING>",
+    "ARRAY<STRING>",
+    "ARRAY<STRING>"
+  ],
+  "description": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "sample_rows": [
+    {
+      "quận": "Audubon County",
+      "tiểu bang": "Iowa",
+      "Mã FIPS của huyện": "19009",
+      "người hàng xóm": "['Shelby' 'Adair' 'Guthrie' 'Crawford' 'Cass' 'Carroll']",
+      "trạng thái láng giềng": "['Iowa' 'Iowa' 'Iowa' 'Iowa' 'Iowa' 'Iowa']",
+      "mã FIPS của hàng xóm": "['19165' '19001' '19077' '19047' '19029' '19027']"
+    },
+    {
+      "quận": "Boone County",
+      "tiểu bang": "Iowa",
+      "Mã FIPS của huyện": "19015",
+      "người hàng xóm": "['Polk' 'Dallas' 'Webster' 'Greene' 'Story' 'Hamilton']",
+      "trạng thái láng giềng": "['Iowa' 'Iowa' 'Iowa' 'Iowa' 'Iowa' 'Iowa']",
+      "mã FIPS của hàng xóm": "['19153' '19049' '19187' '19073' '19169' '19079']"
+    },
+    {
+      "quận": "Bremer County",
+      "tiểu bang": "Iowa",
+      "Mã FIPS của huyện": "19017",
+      "người hàng xóm": "['Floyd' 'Chickasaw' 'Buchanan' 'Butler' 'Fayette' 'Black Hawk']",
+      "trạng thái láng giềng": "['Iowa' 'Iowa' 'Iowa' 'Iowa' 'Iowa' 'Iowa']",
+      "mã FIPS của hàng xóm": "['19067' '19037' '19019' '19023' '19065' '19013']"
+    },
+    {
+      "quận": "Calhoun County",
+      "tiểu bang": "Iowa",
+      "Mã FIPS của huyện": "19025",
+      "người hàng xóm": "['Sac' 'Carroll' 'Buena Vista' 'Webster' 'Greene' 'Pocahontas']",
+      "trạng thái láng giềng": "['Iowa' 'Iowa' 'Iowa' 'Iowa' 'Iowa' 'Iowa']",
+      "mã FIPS của hàng xóm": "['19161' '19027' '19021' '19187' '19073' '19151']"
+    },
+    {
+      "quận": "Cedar County",
+      "tiểu bang": "Iowa",
+      "Mã FIPS của huyện": "19031",
+      "người hàng xóm": "['Scott' 'Jones' 'Clinton' 'Johnson' 'Muscatine' 'Linn']",
+      "trạng thái láng giềng": "['Iowa' 'Iowa' 'Iowa' 'Iowa' 'Iowa' 'Iowa']",
+      "mã FIPS của hàng xóm": "['19163' '19105' '19045' '19103' '19139' '19113']"
+    }
+  ]
+}

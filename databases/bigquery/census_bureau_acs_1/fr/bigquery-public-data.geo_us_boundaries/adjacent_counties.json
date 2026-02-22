@@ -1,0 +1,86 @@
+{
+  "table_name": "adjacent_counties",
+  "table_fullname": "bigquery-public-data.geo_us_boundaries.adjacent_counties",
+  "column_names": [
+    "comté",
+    "état",
+    "county_fips_code",
+    "voisins",
+    "neighbors_state",
+    "neighbors_fips_code"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "ARRAY<STRING>",
+    "ARRAY<STRING>",
+    "ARRAY<STRING>"
+  ],
+  "nested_column_names": [
+    "comté",
+    "état",
+    "county_fips_code",
+    "voisins",
+    "neighbors_state",
+    "neighbors_fips_code"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "ARRAY<STRING>",
+    "ARRAY<STRING>",
+    "ARRAY<STRING>"
+  ],
+  "description": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "sample_rows": [
+    {
+      "comté": "Audubon County",
+      "état": "Iowa",
+      "county_fips_code": "19009",
+      "voisins": "['Shelby' 'Adair' 'Guthrie' 'Crawford' 'Cass' 'Carroll']",
+      "neighbors_state": "['Iowa' 'Iowa' 'Iowa' 'Iowa' 'Iowa' 'Iowa']",
+      "neighbors_fips_code": "['19165' '19001' '19077' '19047' '19029' '19027']"
+    },
+    {
+      "comté": "Boone County",
+      "état": "Iowa",
+      "county_fips_code": "19015",
+      "voisins": "['Polk' 'Dallas' 'Webster' 'Greene' 'Story' 'Hamilton']",
+      "neighbors_state": "['Iowa' 'Iowa' 'Iowa' 'Iowa' 'Iowa' 'Iowa']",
+      "neighbors_fips_code": "['19153' '19049' '19187' '19073' '19169' '19079']"
+    },
+    {
+      "comté": "Bremer County",
+      "état": "Iowa",
+      "county_fips_code": "19017",
+      "voisins": "['Floyd' 'Chickasaw' 'Buchanan' 'Butler' 'Fayette' 'Black Hawk']",
+      "neighbors_state": "['Iowa' 'Iowa' 'Iowa' 'Iowa' 'Iowa' 'Iowa']",
+      "neighbors_fips_code": "['19067' '19037' '19019' '19023' '19065' '19013']"
+    },
+    {
+      "comté": "Calhoun County",
+      "état": "Iowa",
+      "county_fips_code": "19025",
+      "voisins": "['Sac' 'Carroll' 'Buena Vista' 'Webster' 'Greene' 'Pocahontas']",
+      "neighbors_state": "['Iowa' 'Iowa' 'Iowa' 'Iowa' 'Iowa' 'Iowa']",
+      "neighbors_fips_code": "['19161' '19027' '19021' '19187' '19073' '19151']"
+    },
+    {
+      "comté": "Cedar County",
+      "état": "Iowa",
+      "county_fips_code": "19031",
+      "voisins": "['Scott' 'Jones' 'Clinton' 'Johnson' 'Muscatine' 'Linn']",
+      "neighbors_state": "['Iowa' 'Iowa' 'Iowa' 'Iowa' 'Iowa' 'Iowa']",
+      "neighbors_fips_code": "['19163' '19105' '19045' '19103' '19139' '19113']"
+    }
+  ]
+}

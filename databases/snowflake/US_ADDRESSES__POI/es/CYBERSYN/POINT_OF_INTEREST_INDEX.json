@@ -1,0 +1,54 @@
+{
+  "sample_rows": [
+    {
+      "ID_PuntoDeInterés": "08f2aad4446520ec03e1f001780831d4",
+      "Nombre del punto de interés": "Bk Rentals",
+      "Categoría principal": "Party Equipment Rental",
+      "CATEGORÍA ALTERNATIVA": "[\n  \"Party Supply\",\n  \"Retail\"\n]"
+    },
+    {
+      "ID_PuntoDeInterés": "08f44a112860108a03b33ba25948478f",
+      "Nombre del punto de interés": "Amethyst Law Group",
+      "Categoría principal": "Lawyer",
+      "CATEGORÍA ALTERNATIVA": null
+    },
+    {
+      "ID_PuntoDeInterés": "08f2986ab4d3447503b83560c1fe48ad",
+      "Nombre del punto de interés": "Iglesia Cristiana Mi Refugio",
+      "Categoría principal": "Church Cathedral",
+      "CATEGORÍA ALTERNATIVA": "[\n  \"Religious Organization\"\n]"
+    },
+    {
+      "ID_PuntoDeInterés": "08f2832b99aed21203072dc6cbb35c3b",
+      "Nombre del punto de interés": "Jass Gardening",
+      "Categoría principal": null,
+      "CATEGORÍA ALTERNATIVA": null
+    },
+    {
+      "ID_PuntoDeInterés": "08f2a33cd328310e0331f178e0caa82b",
+      "Nombre del punto de interés": "Pampered By G",
+      "Categoría principal": null,
+      "CATEGORÍA ALTERNATIVA": null
+    }
+  ],
+  "table_name": "POINT_OF_INTEREST_INDEX",
+  "table_fullname": "US_ADDRESSES__POI.CYBERSYN.POINT_OF_INTEREST_INDEX",
+  "column_names": [
+    "Categoría principal",
+    "Nombre del punto de interés",
+    "CATEGORÍA ALTERNATIVA",
+    "ID_PuntoDeInterés"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "ARRAY",
+    "TEXT"
+  ],
+  "description": [
+    "Categoría principal o clase de lugar para el POI.",
+    "Nombre del lugar, comerciante o punto de referencia del POI en particular.",
+    "Categorías alternativas del POI. Un POI puede encajar en varias categorías (por ejemplo, Restaurante, Restaurante de Hamburguesas, Restaurante de Comida Rápida), en cuyo caso una categoría se registraría como CATEGORY_MAIN y las categorías restantes se registrarían en una lista bajo CATEGORY_ALTERNATE.",
+    "Un identificador único para un punto de interés (como un parque, cadena de comida rápida, hotel, etc.) basado en su descripción y ubicación. Este se puede unir a la tabla POINT_OF_INTEREST_ADDRESSES_RELATIONSHIPS, la cual se puede usar para vincular los POIs con direcciones."
+  ]
+}

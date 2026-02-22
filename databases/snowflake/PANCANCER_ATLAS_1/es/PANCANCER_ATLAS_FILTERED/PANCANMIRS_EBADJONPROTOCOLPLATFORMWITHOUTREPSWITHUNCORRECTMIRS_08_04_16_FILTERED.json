@@ -1,0 +1,94 @@
+{
+  "table_name": "PANCANMIRS_EBADJONPROTOCOLPLATFORMWITHOUTREPSWITHUNCORRECTMIRS_08_04_16_FILTERED",
+  "table_fullname": "PANCANCER_ATLAS_1.PANCANCER_ATLAS_FILTERED.PANCANMIRS_EBADJONPROTOCOLPLATFORMWITHOUTREPSWITHUNCORRECTMIRS_08_04_16_FILTERED",
+  "column_names": [
+    "Código de Barras del Participante",
+    "Estudio",
+    "Identificación",
+    "Tipo de muestra",
+    "Código de letra del tipo de muestra",
+    "expresión de miRNA",
+    "Código de alícuota",
+    "Corregido",
+    "Código de barras de muestra"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "FLOAT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Identificador de código de barras TCGA del participante del estudio, por ejemplo TCGA-02-0001",
+    "Abreviatura de estudio TCGA, por ejemplo LAML. Lista completa disponible en https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/tcga-study-abbreviations",
+    "Uno de los 1870 identificadores únicos de miRNA (también conocidos como símbolos) contenidos en esta tabla, por ejemplo hsa-mir-21, la información de referencia relevante se puede encontrar en el conjunto de datos isb-cgc:genome_reference en las tablas miRBase_v20 y miRBase_v20_hsa_gff3.",
+    "Normal derivado de sangre, Tumor sólido primario, Normal de tejido sólido, Tumor sólido recurrente, Metastásico, Adicional - Nuevo Primario, Cáncer primario derivado de sangre - Sangre periférica, Normal de célula bucal, Metastásico adicional, Normal de médula ósea",
+    "Código de letras del tipo de muestra según los estándares TCGA, p. ej. TPN, EBV. Lista completa disponible en https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/sample-type-codes",
+    "Abundancia normalizada (es decir, lecturas por millón, RPM)",
+    "Código de barras de alícuota TCGA, por ejemplo TCGA-12-1089-01A-01D-0517-28",
+    "Indicador corregido y no corregido que especifica si los miRs fueron corregidos por el método EBN+. Ver más detalles en https://www.synapse.org/#!Synapse:syn6171109",
+    "Código de barras de la muestra de biospecimen, por ejemplo TCGA-13-1489-02A"
+  ],
+  "sample_rows": [
+    {
+      "Código de Barras del Participante": "TCGA-04-1331",
+      "Código de barras de muestra": "TCGA-04-1331-01A",
+      "Código de alícuota": "TCGA-04-1331-01A-01R-1569-13",
+      "Código de letra del tipo de muestra": "TP",
+      "Tipo de muestra": "Primary solid Tumor",
+      "Estudio": "OV",
+      "Identificación": "hsa-miR-129-2-3p",
+      "expresión de miRNA": 1.924155,
+      "Corregido": "Corrected"
+    },
+    {
+      "Código de Barras del Participante": "TCGA-04-1331",
+      "Código de barras de muestra": "TCGA-04-1331-01A",
+      "Código de alícuota": "TCGA-04-1331-01A-01R-1569-13",
+      "Código de letra del tipo de muestra": "TP",
+      "Tipo de muestra": "Primary solid Tumor",
+      "Estudio": "OV",
+      "Identificación": "hsa-miR-3130-5p",
+      "expresión de miRNA": 35.184554,
+      "Corregido": "Corrected"
+    },
+    {
+      "Código de Barras del Participante": "TCGA-04-1331",
+      "Código de barras de muestra": "TCGA-04-1331-01A",
+      "Código de alícuota": "TCGA-04-1331-01A-01R-1569-13",
+      "Código de letra del tipo de muestra": "TP",
+      "Tipo de muestra": "Primary solid Tumor",
+      "Estudio": "OV",
+      "Identificación": "hsa-miR-454-3p",
+      "expresión de miRNA": 0.274879,
+      "Corregido": "Corrected"
+    },
+    {
+      "Código de Barras del Participante": "TCGA-04-1331",
+      "Código de barras de muestra": "TCGA-04-1331-01A",
+      "Código de alícuota": "TCGA-04-1331-01A-01R-1569-13",
+      "Código de letra del tipo de muestra": "TP",
+      "Tipo de muestra": "Primary solid Tumor",
+      "Estudio": "OV",
+      "Identificación": "hsa-miR-501-5p",
+      "expresión de miRNA": 7.696621,
+      "Corregido": "Corrected"
+    },
+    {
+      "Código de Barras del Participante": "TCGA-04-1331",
+      "Código de barras de muestra": "TCGA-04-1331-01A",
+      "Código de alícuota": "TCGA-04-1331-01A-01R-1569-13",
+      "Código de letra del tipo de muestra": "TP",
+      "Tipo de muestra": "Primary solid Tumor",
+      "Estudio": "OV",
+      "Identificación": "hsa-miR-3613-3p",
+      "expresión de miRNA": 1.099517,
+      "Corregido": "Corrected"
+    }
+  ]
+}

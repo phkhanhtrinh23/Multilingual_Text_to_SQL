@@ -1,0 +1,194 @@
+{
+  "table_name": "interaction",
+  "table_fullname": "bigquery-public-data.open_targets_platform.interaction",
+  "column_names": [
+    "源数据库",
+    "目标A",
+    "整数A",
+    "intA 生物角色",
+    "目标B",
+    "整型B",
+    "生物角色ID",
+    "物种A",
+    "物种B",
+    "计数",
+    "得分"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRUCT<mnemonic STRING, scientific_name STRING, taxon_id INT64>",
+    "STRUCT<mnemonic STRING, scientific_name STRING, taxon_id INT64>",
+    "INT64",
+    "FLOAT64"
+  ],
+  "nested_column_names": [
+    "来源数据库",
+    "目标A",
+    "整数A",
+    "整数A生物角色",
+    "目标B",
+    "整数B",
+    "生物角色编号",
+    "物种A",
+    "物种A助记符",
+    "speciesA 学名",
+    "物种A.分类编号",
+    "物种B",
+    "物种B.助记词",
+    "物种B学名",
+    "物种B分类单元ID",
+    "计数",
+    "得分"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRUCT<mnemonic STRING, scientific_name STRING, taxon_id INT64>",
+    "STRING",
+    "STRING",
+    "INT64",
+    "STRUCT<mnemonic STRING, scientific_name STRING, taxon_id INT64>",
+    "STRING",
+    "STRING",
+    "INT64",
+    "INT64",
+    "FLOAT64"
+  ],
+  "description": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "sample_rows": [
+    {
+      "来源数据库": "intact",
+      "目标A": "ENSG00000174132",
+      "整数A": "Q8TBP5",
+      "整数A生物角色": "unspecified role",
+      "目标B": "ENSG00000111647",
+      "整数B": "A0JNW5",
+      "生物角色编号": "unspecified role",
+      "物种A": {
+        "mnemonic": "human",
+        "scientific_name": "Homo sapiens",
+        "taxon_id": 9606
+      },
+      "物种B": {
+        "mnemonic": "human",
+        "scientific_name": "Homo sapiens",
+        "taxon_id": 9606
+      },
+      "计数": 1,
+      "得分": 0.35
+    },
+    {
+      "来源数据库": "intact",
+      "目标A": "ENSG00000274391",
+      "整数A": "P56180-2",
+      "整数A生物角色": "unspecified role",
+      "目标B": "ENSG00000105135",
+      "整数B": "A1L0T0",
+      "生物角色编号": "unspecified role",
+      "物种A": {
+        "mnemonic": "human",
+        "scientific_name": "Homo sapiens",
+        "taxon_id": 9606
+      },
+      "物种B": {
+        "mnemonic": "human",
+        "scientific_name": "Homo sapiens",
+        "taxon_id": 9606
+      },
+      "计数": 1,
+      "得分": 0.35
+    },
+    {
+      "来源数据库": "intact",
+      "目标A": "ENSG00000097096",
+      "整数A": "Q5VT97-1",
+      "整数A生物角色": "unspecified role",
+      "目标B": "ENSG00000126822",
+      "整数B": "A1L390",
+      "生物角色编号": "unspecified role",
+      "物种A": {
+        "mnemonic": "human",
+        "scientific_name": "Homo sapiens",
+        "taxon_id": 9606
+      },
+      "物种B": {
+        "mnemonic": "human",
+        "scientific_name": "Homo sapiens",
+        "taxon_id": 9606
+      },
+      "计数": 1,
+      "得分": 0.35
+    },
+    {
+      "来源数据库": "intact",
+      "目标A": "ENSG00000167770",
+      "整数A": "Q96FW1",
+      "整数A生物角色": "unspecified role",
+      "目标B": "ENSG00000185888",
+      "整数B": "A1L453",
+      "生物角色编号": "unspecified role",
+      "物种A": {
+        "mnemonic": "human",
+        "scientific_name": "Homo sapiens",
+        "taxon_id": 9606
+      },
+      "物种B": {
+        "mnemonic": "human",
+        "scientific_name": "Homo sapiens",
+        "taxon_id": 9606
+      },
+      "计数": 1,
+      "得分": 0.35
+    },
+    {
+      "来源数据库": "intact",
+      "目标A": "ENSG00000169951",
+      "整数A": "Q96H86",
+      "整数A生物角色": "unspecified role",
+      "目标B": "ENSG00000174705",
+      "整数B": "A1X283",
+      "生物角色编号": "unspecified role",
+      "物种A": {
+        "mnemonic": "human",
+        "scientific_name": "Homo sapiens",
+        "taxon_id": 9606
+      },
+      "物种B": {
+        "mnemonic": "human",
+        "scientific_name": "Homo sapiens",
+        "taxon_id": 9606
+      },
+      "计数": 1,
+      "得分": 0.35
+    }
+  ]
+}

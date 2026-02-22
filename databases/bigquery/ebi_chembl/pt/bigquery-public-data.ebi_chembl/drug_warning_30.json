@@ -1,0 +1,106 @@
+{
+  "table_name": "drug_warning_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.drug_warning_30",
+  "column_names": [
+    "id_de_aviso",
+    "id_de_registro",
+    "molregno",
+    "tipo_de_aviso",
+    "classe_de_aviso",
+    "descricao_do_aviso",
+    "pais_do_aviso",
+    "ano_do_aviso"
+  ],
+  "column_types": [
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "id_de_aviso",
+    "id_de_registro",
+    "molregno",
+    "tipo_de_aviso",
+    "classe_de_aviso",
+    "descricao_do_aviso",
+    "pais_do_aviso",
+    "ano_do_aviso"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64"
+  ],
+  "description": [
+    "Chave primária para o aviso do medicamento",
+    "Chave estrangeira para a tabela compound_records",
+    "Chave estrangeira para a tabela molecule_dictionary",
+    "Descrição do tipo de aviso do medicamento (por exemplo, retirado vs aviso de caixa preta)",
+    "Classe de alto nível do aviso do medicamento",
+    "Descrição do aviso do medicamento",
+    "Lista de países/regiões associados ao aviso do medicamento",
+    "Ano em que o medicamento foi mostrado com o aviso pela primeira vez"
+  ],
+  "sample_rows": [
+    {
+      "id_de_aviso": 5,
+      "id_de_registro": 1344548,
+      "molregno": 237298,
+      "tipo_de_aviso": "Black Box Warning",
+      "classe_de_aviso": null,
+      "descricao_do_aviso": null,
+      "pais_do_aviso": "United States",
+      "ano_do_aviso": null
+    },
+    {
+      "id_de_aviso": 11,
+      "id_de_registro": 1697433,
+      "molregno": 1380836,
+      "tipo_de_aviso": "Black Box Warning",
+      "classe_de_aviso": null,
+      "descricao_do_aviso": null,
+      "pais_do_aviso": "United States",
+      "ano_do_aviso": null
+    },
+    {
+      "id_de_aviso": 33,
+      "id_de_registro": 1344035,
+      "molregno": 675482,
+      "tipo_de_aviso": "Black Box Warning",
+      "classe_de_aviso": null,
+      "descricao_do_aviso": null,
+      "pais_do_aviso": "United States",
+      "ano_do_aviso": null
+    },
+    {
+      "id_de_aviso": 47,
+      "id_de_registro": 1343607,
+      "molregno": 864943,
+      "tipo_de_aviso": "Black Box Warning",
+      "classe_de_aviso": null,
+      "descricao_do_aviso": null,
+      "pais_do_aviso": "United States",
+      "ano_do_aviso": null
+    },
+    {
+      "id_de_aviso": 221,
+      "id_de_registro": 1392876,
+      "molregno": 1121863,
+      "tipo_de_aviso": "Black Box Warning",
+      "classe_de_aviso": null,
+      "descricao_do_aviso": null,
+      "pais_do_aviso": "United States",
+      "ano_do_aviso": null
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "table_name": "compound_records_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.compound_records_30",
+  "column_names": [
+    "id del registro",
+    "registro_mol",
+    "id_documento",
+    "clave compuesta",
+    "nombre del compuesto",
+    "id_origen",
+    "origen_compuesto_id",
+    "ID del cliente"
+  ],
+  "column_types": [
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING",
+    "INT64",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "id_registro",
+    "número de registro molecular",
+    "id_documento",
+    "clave_compuesta",
+    "nombre_compuesto",
+    "id_fuente",
+    "id_compuesto_fuente",
+    "Índice acumulado"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING",
+    "INT64",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "ID único para un compuesto/registro",
+    "clave foránea a la tabla de compuestos (estructura del compuesto)",
+    "Clave externa a la tabla de documentos",
+    "Texto clave que identifica este compuesto en el documento científico",
+    "Nombre de este compuesto registrado en el documento científico",
+    "Clave foránea a la tabla de origen",
+    "Identificador del compuesto en la base de datos de origen (p. ej., SID de PubChem)",
+    "El Identificador compuesto definido por el depositante."
+  ],
+  "sample_rows": [
+    {
+      "id_registro": 2530031,
+      "número de registro molecular": 155006,
+      "id_documento": 94208,
+      "clave_compuesta": "BDBM50130293",
+      "nombre_compuesto": "7-{4-[4-(2,3-dichlorophenyl)piperazin-1-yl]butoxy}-3,4-dihydroquinolin-2(1H)-one::ARIPIPRAZOLE::CHEMBL1112::US9018213, aripprazole::US9156822, Aripiprazole",
+      "id_fuente": 37,
+      "id_compuesto_fuente": "BDBM50130293",
+      "Índice acumulado": "BDBM50130293"
+    },
+    {
+      "id_registro": 2571453,
+      "número de registro molecular": 2027989,
+      "id_documento": 94464,
+      "clave_compuesta": "BDBM128330",
+      "nombre_compuesto": "US8796280, 20",
+      "id_fuente": 37,
+      "id_compuesto_fuente": "BDBM128330",
+      "Índice acumulado": "BDBM128330"
+    },
+    {
+      "id_registro": 2571438,
+      "número de registro molecular": 2027974,
+      "id_documento": 94464,
+      "clave_compuesta": "BDBM128315",
+      "nombre_compuesto": "US8796280, 4",
+      "id_fuente": 37,
+      "id_compuesto_fuente": "BDBM128315",
+      "Índice acumulado": "BDBM128315"
+    },
+    {
+      "id_registro": 2571475,
+      "número de registro molecular": 2028011,
+      "id_documento": 94464,
+      "clave_compuesta": "BDBM128352",
+      "nombre_compuesto": "US8796280, 42",
+      "id_fuente": 37,
+      "id_compuesto_fuente": "BDBM128352",
+      "Índice acumulado": "BDBM128352"
+    },
+    {
+      "id_registro": 2571452,
+      "número de registro molecular": 2027988,
+      "id_documento": 94464,
+      "clave_compuesta": "BDBM128329",
+      "nombre_compuesto": "US8796280, 19",
+      "id_fuente": 37,
+      "id_compuesto_fuente": "BDBM128329",
+      "Índice acumulado": "BDBM128329"
+    }
+  ]
+}

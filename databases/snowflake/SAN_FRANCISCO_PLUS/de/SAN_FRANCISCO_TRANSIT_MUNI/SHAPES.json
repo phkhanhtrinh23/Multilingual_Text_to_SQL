@@ -1,0 +1,70 @@
+{
+  "table_name": "SHAPES",
+  "table_fullname": "SAN_FRANCISCO_PLUS.SAN_FRANCISCO_TRANSIT_MUNI.SHAPES",
+  "column_names": [
+    "Punktfolgeform",
+    "Punktformgeometrie",
+    "Form_ID",
+    "Punktformbreite",
+    "Punktformlänge",
+    "zurückgelegte_Formdistanz"
+  ],
+  "column_types": [
+    "NUMBER",
+    "BINARY",
+    "TEXT",
+    "FLOAT",
+    "FLOAT",
+    "FLOAT"
+  ],
+  "description": [
+    "Ordnet die Breite und Länge eines Formpunkts seiner Reihenfolge entlang der Form zu. Die Werte für `shape_pt_sequence` müssen während der Fahrt ansteigen, müssen aber nicht aufeinander folgen.",
+    "Geografische Darstellung der Punkte Breite und Länge",
+    "Identifiziert jede Form eindeutig",
+    "Ordnet die Breite eines Formpunkts mit einer Form-ID zu.",
+    "Ordnet die Länge eines Formpunkts mit einer Form-ID zu.",
+    "Stellt die tatsächlich zurückgelegte Entfernung entlang der Form vom ersten Formpunkt bis zum in diesem Datensatz angegebenen Punkt bereit. Diese Informationen ermöglichen es dem Fahrtplaner zu bestimmen, wie viel der Form zu zeichnen ist, wenn sie einen Teil einer Fahrt auf der Karte anzeigen. Die für `shape_dist_traveled` verwendeten Werte müssen zusammen mit `shape_pt_sequence` ansteigen: sie können nicht verwendet werden, um eine Rückfahrt entlang einer Route anzuzeigen."
+  ],
+  "sample_rows": [
+    {
+      "Form_ID": "173976",
+      "Punktfolgeform": 195,
+      "Punktformbreite": 37.715079,
+      "Punktformlänge": -122.424956,
+      "Punktformgeometrie": "bytearray(b'\\x01\\x01\\x00\\x00\\x00K\\x8f\\xa6z2\\x9b^\\xc08\\x87k\\xb5\\x87\\xdbB@')",
+      "zurückgelegte_Formdistanz": 14391.0
+    },
+    {
+      "Form_ID": "174271",
+      "Punktfolgeform": 92,
+      "Punktformbreite": 37.760837,
+      "Punktformlänge": -122.440596,
+      "Punktformgeometrie": "bytearray(b'\\x01\\x01\\x00\\x00\\x00\\xe7\\xaf\\x90\\xb92\\x9c^\\xc0\\x1bKX\\x1bc\\xe1B@')",
+      "zurückgelegte_Formdistanz": 5348.0
+    },
+    {
+      "Form_ID": "174272",
+      "Punktfolgeform": 185,
+      "Punktformbreite": 37.760837,
+      "Punktformlänge": -122.440596,
+      "Punktformgeometrie": "bytearray(b'\\x01\\x01\\x00\\x00\\x00\\xe7\\xaf\\x90\\xb92\\x9c^\\xc0\\x1bKX\\x1bc\\xe1B@')",
+      "zurückgelegte_Formdistanz": 6161.0
+    },
+    {
+      "Form_ID": "174273",
+      "Punktfolgeform": 92,
+      "Punktformbreite": 37.760837,
+      "Punktformlänge": -122.440596,
+      "Punktformgeometrie": "bytearray(b'\\x01\\x01\\x00\\x00\\x00\\xe7\\xaf\\x90\\xb92\\x9c^\\xc0\\x1bKX\\x1bc\\xe1B@')",
+      "zurückgelegte_Formdistanz": 5348.0
+    },
+    {
+      "Form_ID": "174274",
+      "Punktfolgeform": 232,
+      "Punktformbreite": 37.760837,
+      "Punktformlänge": -122.440596,
+      "Punktformgeometrie": "bytearray(b'\\x01\\x01\\x00\\x00\\x00\\xe7\\xaf\\x90\\xb92\\x9c^\\xc0\\x1bKX\\x1bc\\xe1B@')",
+      "zurückgelegte_Formdistanz": 10989.0
+    }
+  ]
+}

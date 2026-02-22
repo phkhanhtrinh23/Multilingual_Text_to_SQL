@@ -1,0 +1,116 @@
+{
+  "table_name": "quant_phosphoproteome_CPTAC_GBM_discovery_study_pdc_current",
+  "table_fullname": "isb-cgc-bq.CPTAC.quant_phosphoproteome_CPTAC_GBM_discovery_study_pdc_current",
+  "column_names": [
+    "Mã trường hợp",
+    "Mã mẫu",
+    "mã mẫu con",
+    "mã_aliquot_người_gửi",
+    "id siêu dữ liệu chạy mẫu",
+    "tên nghiên cứu",
+    "tỷ lệ log2 hàm lượng protein",
+    "Mã RefSeq",
+    "điểm phosphoryl"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "mã_trường_hợp",
+    "mã_mẫu",
+    "mã mẫu",
+    "mã người nộp aliquot",
+    "id_siêu_dữ_liệu_đo_mẫu",
+    "tên nghiên cứu",
+    "tỷ lệ log2 mức độ protein",
+    "Mã trình tự tham chiếu",
+    "điểm fosphoryl hóa"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "Định danh duy nhất liên quan đến một bệnh nhân cụ thể (ví dụ: 24cb0fcb-63d6-11e8-bcf1-0a2705229b82)",
+    "Định danh PDC duy nhất cho mẫu này (ví dụ e8d83eb9-693a-11ea-b1fd-0aad30af8a83)",
+    "Định danh PDC duy nhất cho mẫu này (ví dụ e8db124a-693a-11ea-b1fd-0aad30af8a83)",
+    "ID người nộp mẫu aliquot được gán bởi chương trình (ví dụ: T14)",
+    "Xác định duy nhất phần mẫu dựa trên cách sử dụng trong thí nghiệm (dựa trên chất dán nhãn và/hoặc bản sao sinh học).",
+    "Tên nghiên cứu (ví dụ: Nghiên cứu Thí điểm Ung thư Não Trẻ - Phosphoproteome)",
+    "Tỷ lệ log trung bình của ion báo cáo mẫu so với tham chiếu chung của ion peptide liên quan đến gene trong các lần thu thập từ một mẫu sinh học cụ thể",
+    "Mã định danh duy nhất được cấp cho một trình tự trong cơ sở dữ liệu NCBI RefSeq",
+    "Mã chữ cái đơn và vị trí chuỗi protein của các axit amin bị fosforyl hóa (ví dụ: t304s310, t59)"
+  ],
+  "sample_rows": [
+    {
+      "mã_trường_hợp": "104c0406-2139-11ea-aee1-0e1aae319e49",
+      "mã_mẫu": "104c98ce-2139-11ea-aee1-0e1aae319e49",
+      "mã mẫu": "104d4cd6-2139-11ea-aee1-0e1aae319e49",
+      "mã người nộp aliquot": "CPT0092440003",
+      "id_siêu_dữ_liệu_đo_mẫu": "54d82185-2167-11ea-8856-0aee84e6d0d3",
+      "tên nghiên cứu": "CPTAC GBM Discovery Study - Phosphoproteome",
+      "tỷ lệ log2 mức độ protein": 0.2915,
+      "Mã trình tự tham chiếu": "NP_001129108.1",
+      "điểm fosphoryl hóa": "s448"
+    },
+    {
+      "mã_trường_hợp": "104c0406-2139-11ea-aee1-0e1aae319e49",
+      "mã_mẫu": "104c98ce-2139-11ea-aee1-0e1aae319e49",
+      "mã mẫu": "104d4cd6-2139-11ea-aee1-0e1aae319e49",
+      "mã người nộp aliquot": "CPT0092440003",
+      "id_siêu_dữ_liệu_đo_mẫu": "54d82185-2167-11ea-8856-0aee84e6d0d3",
+      "tên nghiên cứu": "CPTAC GBM Discovery Study - Phosphoproteome",
+      "tỷ lệ log2 mức độ protein": -0.0832,
+      "Mã trình tự tham chiếu": "NP_001449.3",
+      "điểm fosphoryl hóa": "s1527"
+    },
+    {
+      "mã_trường_hợp": "104c0406-2139-11ea-aee1-0e1aae319e49",
+      "mã_mẫu": "104c98ce-2139-11ea-aee1-0e1aae319e49",
+      "mã mẫu": "104d4cd6-2139-11ea-aee1-0e1aae319e49",
+      "mã người nộp aliquot": "CPT0092440003",
+      "id_siêu_dữ_liệu_đo_mẫu": "54d82185-2167-11ea-8856-0aee84e6d0d3",
+      "tên nghiên cứu": "CPTAC GBM Discovery Study - Phosphoproteome",
+      "tỷ lệ log2 mức độ protein": 0.5382,
+      "Mã trình tự tham chiếu": "NP_001278928.1",
+      "điểm fosphoryl hóa": "s85s89"
+    },
+    {
+      "mã_trường_hợp": "104c0406-2139-11ea-aee1-0e1aae319e49",
+      "mã_mẫu": "104c98ce-2139-11ea-aee1-0e1aae319e49",
+      "mã mẫu": "104d4cd6-2139-11ea-aee1-0e1aae319e49",
+      "mã người nộp aliquot": "CPT0092440003",
+      "id_siêu_dữ_liệu_đo_mẫu": "54d82185-2167-11ea-8856-0aee84e6d0d3",
+      "tên nghiên cứu": "CPTAC GBM Discovery Study - Phosphoproteome",
+      "tỷ lệ log2 mức độ protein": 0.4233,
+      "Mã trình tự tham chiếu": "NP_003194.3",
+      "điểm fosphoryl hóa": "s19"
+    },
+    {
+      "mã_trường_hợp": "104c0406-2139-11ea-aee1-0e1aae319e49",
+      "mã_mẫu": "104c98ce-2139-11ea-aee1-0e1aae319e49",
+      "mã mẫu": "104d4cd6-2139-11ea-aee1-0e1aae319e49",
+      "mã người nộp aliquot": "CPT0092440003",
+      "id_siêu_dữ_liệu_đo_mẫu": "54d82185-2167-11ea-8856-0aee84e6d0d3",
+      "tên nghiên cứu": "CPTAC GBM Discovery Study - Phosphoproteome",
+      "tỷ lệ log2 mức độ protein": 1.3674,
+      "Mã trình tự tham chiếu": "NP_958786.1",
+      "điểm fosphoryl hóa": "s1417"
+    }
+  ]
+}

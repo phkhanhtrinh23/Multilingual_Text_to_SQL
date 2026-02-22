@@ -1,0 +1,102 @@
+{
+  "table_name": "ALL_CNVR_DATA_BY_GENE_FILTERED",
+  "table_fullname": "PANCANCER_ATLAS_1.PANCANCER_ATLAS_FILTERED.ALL_CNVR_DATA_BY_GENE_FILTERED",
+  "column_names": [
+    "TypeDechantillon",
+    "CodeBarresDechantillon",
+    "CodeBarresParticipant",
+    "AppelsGISTIC",
+    "IDLocus",
+    "Etude",
+    "CodeBarresAliot",
+    "Cytobande",
+    "CodeLettreTypeDechantillon",
+    "SymboleGene"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "FLOAT",
+    "NUMBER",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Il existe 10 types d'échantillons : Sang Dérivé Normal, Tumeur solide primaire, Tissu solide normal, Tumeur solide récurrente, Métastatique, Nouveau primaire - Nouvel échantillon, Cancer dérivé du sang primaire - Sang périphérique, Cellule buccale normale, Métastatique additionnel, Moelle osseuse normale",
+    "Code à barres de l'échantillon de biospécimen, par exemple TCGA-13-1489-02A",
+    "Identifiant de code à barres TCGA pour le participant à l'étude, par exemple TCGA-02-0001",
+    "Appels de numéros de copie Gistic",
+    "ID de locus de gène, par exemple 57380, 100616303",
+    "Abréviation d'étude TCGA, par exemple LAML. Liste complète disponible à https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/tcga-study-abbreviations",
+    "Code à barres d'aliquote TCGA, par exemple TCGA-12-1089-01A-01D-0517-28",
+    "Nom complet de la cyto-bande, y compris le chromosome. Par exemple, 17p13.2 Voir https://www.ncbi.nlm.nih.gov/Class/MLACourse/Original8Hour/Genetics/chrombanding.html",
+    "Code lettre du type d'échantillon en utilisant les normes TCGA, par exemple TPN, EBV. Liste complète disponible à https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/sample-type-codes",
+    "par exemple TP53, LRP1B, etc (même que le champ Hugo_Symbol à l'exception de blanc au lieu de Inconnu"
+  ],
+  "sample_rows": [
+    {
+      "CodeBarresParticipant": "TCGA-04-1331",
+      "CodeBarresDechantillon": "TCGA-04-1331-01A",
+      "CodeBarresAliot": "TCGA-04-1331-01A-01D-0428-01",
+      "CodeLettreTypeDechantillon": "TP",
+      "TypeDechantillon": "Primary solid Tumor",
+      "Etude": "OV",
+      "SymboleGene": "SLC44A3",
+      "IDLocus": 126969,
+      "Cytobande": "1p21.3",
+      "AppelsGISTIC": 0.038
+    },
+    {
+      "CodeBarresParticipant": "TCGA-04-1331",
+      "CodeBarresDechantillon": "TCGA-04-1331-01A",
+      "CodeBarresAliot": "TCGA-04-1331-01A-01D-0428-01",
+      "CodeLettreTypeDechantillon": "TP",
+      "TypeDechantillon": "Primary solid Tumor",
+      "Etude": "OV",
+      "SymboleGene": "FEZF2",
+      "IDLocus": 55079,
+      "Cytobande": "3p14.2",
+      "AppelsGISTIC": 0.052
+    },
+    {
+      "CodeBarresParticipant": "TCGA-04-1331",
+      "CodeBarresDechantillon": "TCGA-04-1331-01A",
+      "CodeBarresAliot": "TCGA-04-1331-01A-01D-0428-01",
+      "CodeLettreTypeDechantillon": "TP",
+      "TypeDechantillon": "Primary solid Tumor",
+      "Etude": "OV",
+      "SymboleGene": "SNORD55",
+      "IDLocus": 26811,
+      "Cytobande": "1p34.1",
+      "AppelsGISTIC": 0.062
+    },
+    {
+      "CodeBarresParticipant": "TCGA-04-1331",
+      "CodeBarresDechantillon": "TCGA-04-1331-01A",
+      "CodeBarresAliot": "TCGA-04-1331-01A-01D-0428-01",
+      "CodeLettreTypeDechantillon": "TP",
+      "TypeDechantillon": "Primary solid Tumor",
+      "Etude": "OV",
+      "SymboleGene": "FLT4",
+      "IDLocus": 2324,
+      "Cytobande": "5q35.3",
+      "AppelsGISTIC": 0.06
+    },
+    {
+      "CodeBarresParticipant": "TCGA-04-1331",
+      "CodeBarresDechantillon": "TCGA-04-1331-01A",
+      "CodeBarresAliot": "TCGA-04-1331-01A-01D-0428-01",
+      "CodeLettreTypeDechantillon": "TP",
+      "TypeDechantillon": "Primary solid Tumor",
+      "Etude": "OV",
+      "SymboleGene": "RP11-701P16.5",
+      "IDLocus": 731424,
+      "Cytobande": "4q35.1",
+      "AppelsGISTIC": -0.61
+    }
+  ]
+}

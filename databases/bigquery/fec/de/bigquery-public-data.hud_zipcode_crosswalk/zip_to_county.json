@@ -1,0 +1,86 @@
+{
+  "table_name": "zip_to_county",
+  "table_fullname": "bigquery-public-data.hud_zipcode_crosswalk.zip_to_county",
+  "column_names": [
+    "Postleitzahl",
+    "Kreis-Geoid",
+    "Wohnanteil",
+    "Gewerbeanteil",
+    "Sonstiger Anteil",
+    "Gesamtanteil"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "NUMERIC",
+    "NUMERIC",
+    "NUMERIC",
+    "NUMERIC"
+  ],
+  "nested_column_names": [
+    "Postleitzahl",
+    "Kreis-Geoid",
+    "Wohnanteil",
+    "Gewerbeanteil",
+    "Sonstanteil",
+    "Gesamtanteil"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "NUMERIC",
+    "NUMERIC",
+    "NUMERIC",
+    "NUMERIC"
+  ],
+  "description": [
+    "5-stellige USPS-Postleitzahl.",
+    "5-stellige eindeutige GEOID des Countys der Volkszählung 2000 oder 2010, bestehend aus State-FIPS + County-FIPS. Diese können auf mehrere USPS ZIP-Codes abgebildet werden. Wird auf 'geo_id' in Tabellen mit County-Daten abgebildet.",
+    "Das Verhältnis der Wohnadressen im ZIP-County-Teil zur Gesamtzahl der Wohnadressen im gesamten ZIP.",
+    "Das Verhältnis der Geschäftsadressen im ZIP-County-Teil zur Gesamtzahl der Geschäftsadressen im gesamten ZIP.",
+    "Das Verhältnis der anderen Adressen im ZIP-County-Teil zur Gesamtzahl der Geschäftsadressen im gesamten ZIP.",
+    "Das Verhältnis aller Adressen im ZIP-County-Teil zur Gesamtzahl der Geschäftsadressen im gesamten ZIP."
+  ],
+  "sample_rows": [
+    {
+      "Postleitzahl": "36758",
+      "Kreis-Geoid": "01001",
+      "Wohnanteil": "0.194743130",
+      "Gewerbeanteil": "0.090909091",
+      "Sonstanteil": "0E-9",
+      "Gesamtanteil": "0.191860465"
+    },
+    {
+      "Postleitzahl": "36006",
+      "Kreis-Geoid": "01001",
+      "Wohnanteil": "0.711048159",
+      "Gewerbeanteil": "0.529411765",
+      "Sonstanteil": "0.555555556",
+      "Gesamtanteil": "0.704918033"
+    },
+    {
+      "Postleitzahl": "36022",
+      "Kreis-Geoid": "01001",
+      "Wohnanteil": "0.366555925",
+      "Gewerbeanteil": "0.242990654",
+      "Sonstanteil": "0.350000000",
+      "Gesamtanteil": "0.364454094"
+    },
+    {
+      "Postleitzahl": "36066",
+      "Kreis-Geoid": "01001",
+      "Wohnanteil": "0.898141493",
+      "Gewerbeanteil": "0.723684211",
+      "Sonstanteil": "0.743002545",
+      "Gesamtanteil": "0.880370914"
+    },
+    {
+      "Postleitzahl": "36749",
+      "Kreis-Geoid": "01001",
+      "Wohnanteil": "0.595273264",
+      "Gewerbeanteil": "0.333333333",
+      "Sonstanteil": "0.388888889",
+      "Gesamtanteil": "0.586647727"
+    }
+  ]
+}

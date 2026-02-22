@@ -1,0 +1,76 @@
+{
+  "table_name": "chembl_id_lookup_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.chembl_id_lookup_30",
+  "column_names": [
+    "Mã Chembl",
+    "loại thực thể",
+    "ID thực thể",
+    "Trạng thái",
+    "Hoạt động lần cuối"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "INT64",
+    "STRING",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "Mã ChEMBL",
+    "loại thực thể",
+    "ID thực thể",
+    "Trạng thái",
+    "Lần cuối hoạt động"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "INT64",
+    "STRING",
+    "INT64"
+  ],
+  "description": [
+    "định danh ChEMBL",
+    "Loại thực thể (ví dụ, COMPOUND, ASSAY, TARGET)",
+    "Khóa chính cho thực thể đó trong bảng tương ứng (ví dụ: molregno cho hợp chất, tid cho mục tiêu)",
+    "Xác định trạng thái của thực thể trong cơ sở dữ liệu: HOẠT ĐỘNG, KHÔNG HOẠT ĐỘNG (đã giảm cấp), OBS (cũ/đã xóa).",
+    "đề cập đến phiên bản ChEMBL cuối cùng mà CHEMBL_ID đã hoạt động"
+  ],
+  "sample_rows": [
+    {
+      "Mã ChEMBL": "CHEMBL1075036",
+      "loại thực thể": "TARGET",
+      "ID thực thể": 102994,
+      "Trạng thái": "OBS",
+      "Lần cuối hoạt động": 20
+    },
+    {
+      "Mã ChEMBL": "CHEMBL1075114",
+      "loại thực thể": "TARGET",
+      "ID thực thể": 103040,
+      "Trạng thái": "OBS",
+      "Lần cuối hoạt động": 16
+    },
+    {
+      "Mã ChEMBL": "CHEMBL1075122",
+      "loại thực thể": "TARGET",
+      "ID thực thể": 103049,
+      "Trạng thái": "OBS",
+      "Lần cuối hoạt động": 16
+    },
+    {
+      "Mã ChEMBL": "CHEMBL1075123",
+      "loại thực thể": "TARGET",
+      "ID thực thể": 103050,
+      "Trạng thái": "OBS",
+      "Lần cuối hoạt động": 16
+    },
+    {
+      "Mã ChEMBL": "CHEMBL1075124",
+      "loại thực thể": "TARGET",
+      "ID thực thể": 103051,
+      "Trạng thái": "OBS",
+      "Lần cuối hoạt động": 16
+    }
+  ]
+}

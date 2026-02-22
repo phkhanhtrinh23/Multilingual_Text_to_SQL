@@ -1,0 +1,86 @@
+{
+  "table_name": "MIRNASEQ_EXPRESSION",
+  "table_fullname": "TCGA_HG38_DATA_V0.TCGA_HG38_DATA_V0.MIRNASEQ_EXPRESSION",
+  "column_names": [
+    "codigo_de_barras_do_aliquota",
+    "mapeado_cruzado",
+    "nome_curto_do_projeto",
+    "codigo_de_barras_do_caso",
+    "leituras_por_milhao_miRNA_mapeado",
+    "contagem_de_leituras",
+    "id_miRNA",
+    "codigo_de_barras_da_amostra"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "FLOAT",
+    "NUMBER",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Código de barras de aliquota TCGA original, por exemplo, TCGA-12-1089-01A-01D-0517-01",
+    "Uma leitura curta de isomiR pode mapear exatamente as cadeias maduras cujas sequências são semelhantes, mas não idênticas, quando a sequência de leitura não captura as bases que distinguem esses miRNAs (por exemplo, `hsa-mir-30a` em 6q13 e `hsa-mir-30e` em 1p34.2, que diferem na posição 18). Relatamos uma leitura dessas como mapeada cruzadamente e incrementamos a contagem de leituras para cada MIMAT ao qual ela foi mapeada. Ou Y ou N -- menos de 2% são Y",
+    "Abreviação do nome do projeto; o nome do programa anexado a uma abreviação do nome do projeto; por exemplo, TCGA-OV, etc.",
+    "Código de barras de caso TCGA original, por exemplo, TCGA-12-1089 -- observe que cada caso geralmente tem uma amostra de tumor primário e uma amostra normal correspondente (sangue ou tecido adjacente); por favor, consulte a tabela de Biospecimen do TCGA para mais detalhes",
+    "Contagem de leituras normalizada pelo total de leituras mapeadas dividido por 1 milhão",
+    "Número de leituras que foram mapeadas para este `mirna_id`",
+    "Uma das 1870 ids de miRNA únicas (também conhecidas como símbolos) contidas nesta tabela, por exemplo, `hsa-mir-21` -- informações de referência relevantes podem ser encontradas no conjunto de dados `isb-cgc:genome_reference` nas tabelas `miRBase_v20` e `miRBase_v20_hsa_gff3`",
+    "Código de barras de amostra TCGA original, por exemplo, TCGA-12-1089-01A -- observe que uma amostra pode ter vários aliquotes e, portanto, vários conjuntos de segmentações de CN; então, certifique-se de usar GROUP BY apropriadamente em suas consultas"
+  ],
+  "sample_rows": [
+    {
+      "nome_curto_do_projeto": "TCGA-OV",
+      "codigo_de_barras_do_caso": "TCGA-04-1331",
+      "codigo_de_barras_da_amostra": "TCGA-04-1331-01A",
+      "codigo_de_barras_do_aliquota": "TCGA-04-1331-01A-01R-1569-13",
+      "id_miRNA": "hsa-mir-9-3",
+      "contagem_de_leituras": 15,
+      "leituras_por_milhao_miRNA_mapeado": 4.31216,
+      "mapeado_cruzado": "N"
+    },
+    {
+      "nome_curto_do_projeto": "TCGA-OV",
+      "codigo_de_barras_do_caso": "TCGA-04-1331",
+      "codigo_de_barras_da_amostra": "TCGA-04-1331-01A",
+      "codigo_de_barras_do_aliquota": "TCGA-04-1331-01A-01R-1569-13",
+      "id_miRNA": "hsa-mir-3143",
+      "contagem_de_leituras": 2,
+      "leituras_por_milhao_miRNA_mapeado": 0.574955,
+      "mapeado_cruzado": "N"
+    },
+    {
+      "nome_curto_do_projeto": "TCGA-OV",
+      "codigo_de_barras_do_caso": "TCGA-04-1331",
+      "codigo_de_barras_da_amostra": "TCGA-04-1331-01A",
+      "codigo_de_barras_do_aliquota": "TCGA-04-1331-01A-01R-1569-13",
+      "id_miRNA": "hsa-mir-544b",
+      "contagem_de_leituras": 2,
+      "leituras_por_milhao_miRNA_mapeado": 0.574955,
+      "mapeado_cruzado": "N"
+    },
+    {
+      "nome_curto_do_projeto": "TCGA-OV",
+      "codigo_de_barras_do_caso": "TCGA-04-1331",
+      "codigo_de_barras_da_amostra": "TCGA-04-1331-01A",
+      "codigo_de_barras_do_aliquota": "TCGA-04-1331-01A-01R-1569-13",
+      "id_miRNA": "hsa-mir-105-2",
+      "contagem_de_leituras": 5,
+      "leituras_por_milhao_miRNA_mapeado": 1.437387,
+      "mapeado_cruzado": "N"
+    },
+    {
+      "nome_curto_do_projeto": "TCGA-OV",
+      "codigo_de_barras_do_caso": "TCGA-04-1331",
+      "codigo_de_barras_da_amostra": "TCGA-04-1331-01A",
+      "codigo_de_barras_do_aliquota": "TCGA-04-1331-01A-01R-1569-13",
+      "id_miRNA": "hsa-mir-210",
+      "contagem_de_leituras": 191,
+      "leituras_por_milhao_miRNA_mapeado": 54.908173,
+      "mapeado_cruzado": "N"
+    }
+  ]
+}

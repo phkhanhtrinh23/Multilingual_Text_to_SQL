@@ -1,0 +1,42 @@
+{
+  "table_name": "FARES",
+  "table_fullname": "SAN_FRANCISCO_PLUS.SAN_FRANCISCO_TRANSIT_MUNI.FARES",
+  "column_names": [
+    "传输时长",
+    "骑手ID",
+    "允许转账",
+    "支付方式",
+    "骑手描述",
+    "票价ID",
+    "价格"
+  ],
+  "column_types": [
+    "NUMBER",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "NUMBER"
+  ],
+  "description": [
+    "指定在转乘到期前的秒数。当与 transfers_permitted 值为 0 一起使用时，transfer_duration 字段表示在不允许转乘的票价下，票的有效时间长度。",
+    "骑乘者类别的唯一标识符  \n骑乘者类别用于为不同的个人群体分配不同的定价。",
+    "指定此票价允许的换乘次数。  \n- 0：此票价不允许换乘。  \n- 1：此票价允许一次换乘。  \n- 2：此票价允许两次换乘。  \n- NULL：此票价允许无限次换乘。",
+    "表示必须支付票价的时间。该字段的有效值如下：- during：表示乘客上车时支付票价 - before：表示乘客上车前必须支付票价",
+    "骑手类别的文字描述",
+    "票价类别的唯一标识符",
+    "包含运费，以美元计。"
+  ],
+  "sample_rows": [
+    {
+      "票价ID": "5398",
+      "骑手ID": "2",
+      "骑手描述": "Senior",
+      "价格": "3.000000000",
+      "支付方式": "0",
+      "允许转账": null,
+      "传输时长": 5400
+    }
+  ]
+}

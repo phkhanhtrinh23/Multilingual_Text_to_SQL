@@ -1,0 +1,66 @@
+{
+  "table_name": "protein_class_synonyms_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.protein_class_synonyms_30",
+  "column_names": [
+    "Protein-Klassen-Synonym-ID",
+    "Protein-Klassen-ID",
+    "Protein-Klassen-Synonym",
+    "Synonymtyp"
+  ],
+  "column_types": [
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "Proteinklasse-Synonym-ID",
+    "Proteinklasse-ID",
+    "Proteinklasse-Synonym",
+    "Synonym-Typ"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "Primary key.",
+    "Foreign key zur PROTEIN_CLASSIFICATION-Tabelle. Der protein_class, auf den dieses Synonym zutrifft.",
+    "Das Synonym für die Proteinklasse.",
+    "Der Typ oder Ursprung des Synonyms (z. B. ChEMBL, Concept Wiki, UMLS)."
+  ],
+  "sample_rows": [
+    {
+      "Proteinklasse-Synonym-ID": 33670,
+      "Proteinklasse-ID": 1,
+      "Proteinklasse-Synonym": "Biocatalysts",
+      "Synonym-Typ": "UMLS"
+    },
+    {
+      "Proteinklasse-Synonym-ID": 33671,
+      "Proteinklasse-ID": 1,
+      "Proteinklasse-Synonym": "Enzymes",
+      "Synonym-Typ": "UMLS"
+    },
+    {
+      "Proteinklasse-Synonym-ID": 33680,
+      "Proteinklasse-ID": 10,
+      "Proteinklasse-Synonym": "Dehydrogenases",
+      "Synonym-Typ": "UMLS"
+    },
+    {
+      "Proteinklasse-Synonym-ID": 33681,
+      "Proteinklasse-ID": 10,
+      "Proteinklasse-Synonym": "Reductases",
+      "Synonym-Typ": "UMLS"
+    },
+    {
+      "Proteinklasse-Synonym-ID": 33682,
+      "Proteinklasse-ID": 10,
+      "Proteinklasse-Synonym": "Reductase",
+      "Synonym-Typ": "UMLS"
+    }
+  ]
+}

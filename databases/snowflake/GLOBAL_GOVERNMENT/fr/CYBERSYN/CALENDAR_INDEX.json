@@ -1,0 +1,70 @@
+{
+  "sample_rows": [
+    {
+      "ID_DE_CALENDRIER": "day",
+      "NOM_DE_CALENDRIER": "Day",
+      "DATE_DE_DEBUT_DE_PERIODE": "2017-02-03",
+      "DATE_DE_FIN_DE_PERIODE": "2017-02-03",
+      "PERIODE_ANNUAL": 2017,
+      "POSITION_ORDINALE_DANS_LA_PERIODE_ANNUAL": 34
+    },
+    {
+      "ID_DE_CALENDRIER": "week_monday_start",
+      "NOM_DE_CALENDRIER": "Week - Monday Start",
+      "DATE_DE_DEBUT_DE_PERIODE": "2023-06-12",
+      "DATE_DE_FIN_DE_PERIODE": "2023-06-18",
+      "PERIODE_ANNUAL": 2023,
+      "POSITION_ORDINALE_DANS_LA_PERIODE_ANNUAL": 24
+    },
+    {
+      "ID_DE_CALENDRIER": "day",
+      "NOM_DE_CALENDRIER": "Day",
+      "DATE_DE_DEBUT_DE_PERIODE": "2023-06-26",
+      "DATE_DE_FIN_DE_PERIODE": "2023-06-26",
+      "PERIODE_ANNUAL": 2023,
+      "POSITION_ORDINALE_DANS_LA_PERIODE_ANNUAL": 177
+    },
+    {
+      "ID_DE_CALENDRIER": "day",
+      "NOM_DE_CALENDRIER": "Day",
+      "DATE_DE_DEBUT_DE_PERIODE": "2019-11-09",
+      "DATE_DE_FIN_DE_PERIODE": "2019-11-09",
+      "PERIODE_ANNUAL": 2019,
+      "POSITION_ORDINALE_DANS_LA_PERIODE_ANNUAL": 313
+    },
+    {
+      "ID_DE_CALENDRIER": "day",
+      "NOM_DE_CALENDRIER": "Day",
+      "DATE_DE_DEBUT_DE_PERIODE": "2018-11-09",
+      "DATE_DE_FIN_DE_PERIODE": "2018-11-09",
+      "PERIODE_ANNUAL": 2018,
+      "POSITION_ORDINALE_DANS_LA_PERIODE_ANNUAL": 313
+    }
+  ],
+  "table_name": "CALENDAR_INDEX",
+  "table_fullname": "GLOBAL_GOVERNMENT.CYBERSYN.CALENDAR_INDEX",
+  "column_names": [
+    "NOM_DE_CALENDRIER",
+    "ID_DE_CALENDRIER",
+    "POSITION_ORDINALE_DANS_LA_PERIODE_ANNUAL",
+    "DATE_DE_FIN_DE_PERIODE",
+    "DATE_DE_DEBUT_DE_PERIODE",
+    "PERIODE_ANNUAL"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "NUMBER",
+    "DATE",
+    "DATE",
+    "NUMBER"
+  ],
+  "description": [
+    "Nom lisible par l'homme pour le type de calendrier.",
+    "ID unique indiquant un type de calendrier (par exemple, Mois, Trimestre, Mois retail 4-5-4).",
+    "La position ordonnée de la période au sein de la période annuelle.",
+    "Le dernier jour de la période.",
+    "Le premier jour de la période.",
+    "Le numéro d'année lié au calendrier annuel pour la période, qui reflète l'année civile pour les périodes de calendrier et l'année retail 4-5-4 pour les périodes de détail."
+  ]
+}

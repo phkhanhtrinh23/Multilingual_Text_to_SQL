@@ -1,0 +1,116 @@
+{
+  "table_name": "quant_acetylome_CPTAC_LUAD_discovery_study_pdc_current",
+  "table_fullname": "isb-cgc-bq.CPTAC.quant_acetylome_CPTAC_LUAD_discovery_study_pdc_current",
+  "column_names": [
+    "id_de_cas",
+    "id_d_echantillon",
+    "id_d_aliquote",
+    "id_de_soumission_d_aliquote",
+    "id_de_metadonnees_d_execution_d_aliquote",
+    "nom_d_etude",
+    "abundance_de_proteine_log2ratio",
+    "id_refseq",
+    "sites_d_acetylation"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "id_de_cas",
+    "id_d_echantillon",
+    "id_d_aliquot",
+    "id_de_soumission_d_aliquot",
+    "id_de_metadonnees_d_execution_d_aliquot",
+    "nom_d_etude",
+    "abundance_de_proteine_log2ratio",
+    "id_refseq",
+    "sites_d_acetylation"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "Identifiant unique associé à un patient spécifique (e.g. 24cb0fcb-63d6-11e8-bcf1-0a2705229b82)",
+    "Identifiant PDC unique pour cet échantillon (e.g. e8d83eb9-693a-11ea-b1fd-0aad30af8a83)",
+    "Identifiant PDC unique pour cet aliquot (e.g. e8db124a-693a-11ea-b1fd-0aad30af8a83)",
+    "ID de soumission d'aliquot attribué par le programme (e.g. T14)",
+    "Identifie de manière unique l'aliquot en fonction de son utilisation dans l'expérience (en fonction du réactif d'étiquetage et/ou de la répétition biologique)",
+    "Nom de l'étude (e.g. Étude pilote sur le cancer du cerveau pédiatrique - Phosphoprotéome)",
+    "Rapport log-moyen des ions rapporteurs d'échantillon par rapport à la référence commune des ions de peptides associés au gène dans les acquisitions d'un échantillon biologique spécifique",
+    "Identifiant unique donné à une séquence dans la base de données NCBI RefSeq",
+    "Codes à lettre unique et positions de séquence de protéine des acides aminés acétylés (e.g. k12k16, k21)"
+  ],
+  "sample_rows": [
+    {
+      "id_de_cas": "f1ee18d4-cf1e-11e9-9a07-0a80fada099c",
+      "id_d_echantillon": "a679f850-d0a6-11e9-9a07-0a80fada099c",
+      "id_d_aliquot": "6345781b-d0b0-11e9-9a07-0a80fada099c",
+      "id_de_soumission_d_aliquot": "CPT0105230003",
+      "id_de_metadonnees_d_execution_d_aliquot": "966e76b2-bfbf-11ea-b1fd-0aad30af8a83",
+      "nom_d_etude": "CPTAC LUAD Discovery Study - Acetylome",
+      "abundance_de_proteine_log2ratio": 0.3146,
+      "id_refseq": "NP_006588.1",
+      "sites_d_acetylation": "k583"
+    },
+    {
+      "id_de_cas": "f1ee18d4-cf1e-11e9-9a07-0a80fada099c",
+      "id_d_echantillon": "a679f850-d0a6-11e9-9a07-0a80fada099c",
+      "id_d_aliquot": "6345781b-d0b0-11e9-9a07-0a80fada099c",
+      "id_de_soumission_d_aliquot": "CPT0105230003",
+      "id_de_metadonnees_d_execution_d_aliquot": "966e76b2-bfbf-11ea-b1fd-0aad30af8a83",
+      "nom_d_etude": "CPTAC LUAD Discovery Study - Acetylome",
+      "abundance_de_proteine_log2ratio": 1.0567,
+      "id_refseq": "NP_003364.1",
+      "sites_d_acetylation": "k387"
+    },
+    {
+      "id_de_cas": "f1ee18d4-cf1e-11e9-9a07-0a80fada099c",
+      "id_d_echantillon": "a679f850-d0a6-11e9-9a07-0a80fada099c",
+      "id_d_aliquot": "6345781b-d0b0-11e9-9a07-0a80fada099c",
+      "id_de_soumission_d_aliquot": "CPT0105230003",
+      "id_de_metadonnees_d_execution_d_aliquot": "966e76b2-bfbf-11ea-b1fd-0aad30af8a83",
+      "nom_d_etude": "CPTAC LUAD Discovery Study - Acetylome",
+      "abundance_de_proteine_log2ratio": -0.208,
+      "id_refseq": "NP_001307.2",
+      "sites_d_acetylation": "k440"
+    },
+    {
+      "id_de_cas": "f1ee18d4-cf1e-11e9-9a07-0a80fada099c",
+      "id_d_echantillon": "a679f850-d0a6-11e9-9a07-0a80fada099c",
+      "id_d_aliquot": "6345781b-d0b0-11e9-9a07-0a80fada099c",
+      "id_de_soumission_d_aliquot": "CPT0105230003",
+      "id_de_metadonnees_d_execution_d_aliquot": "966e76b2-bfbf-11ea-b1fd-0aad30af8a83",
+      "nom_d_etude": "CPTAC LUAD Discovery Study - Acetylome",
+      "abundance_de_proteine_log2ratio": -0.4761,
+      "id_refseq": "NP_003818.2",
+      "sites_d_acetylation": "k93"
+    },
+    {
+      "id_de_cas": "f1ee18d4-cf1e-11e9-9a07-0a80fada099c",
+      "id_d_echantillon": "a679f850-d0a6-11e9-9a07-0a80fada099c",
+      "id_d_aliquot": "6345781b-d0b0-11e9-9a07-0a80fada099c",
+      "id_de_soumission_d_aliquot": "CPT0105230003",
+      "id_de_metadonnees_d_execution_d_aliquot": "966e76b2-bfbf-11ea-b1fd-0aad30af8a83",
+      "nom_d_etude": "CPTAC LUAD Discovery Study - Acetylome",
+      "abundance_de_proteine_log2ratio": -0.1728,
+      "id_refseq": "NP_001186040.1",
+      "sites_d_acetylation": "k143"
+    }
+  ]
+}

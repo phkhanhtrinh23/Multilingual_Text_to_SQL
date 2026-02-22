@@ -1,0 +1,94 @@
+{
+  "table_name": "RNASEQ_HG19_GDC_2017_02",
+  "table_fullname": "TCGA.TCGA_VERSIONED.RNASEQ_HG19_GDC_2017_02",
+  "column_names": [
+    "symbole_de_gene_original",
+    "barcode_de_cas",
+    "symbole_de_gene_HGNC",
+    "comptage_normalise",
+    "id_de_gene",
+    "barcode_d_echantillon",
+    "barcode_d_aliquot",
+    "nom_court_de_projet",
+    "plateforme"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "FLOAT",
+    "NUMBER",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Symbole de gène à partir du fichier de données d'origine, diffère si le symbole de gène approuvé a changé depuis, par exemple C11orf17 est devenu AKIP1",
+    "Code à barres de cas TCGA d'origine, par exemple TCGA-12-1089 -- notez que chaque cas possède généralement un échantillon de tumeur primaire et un échantillon normal apparié (sang ou tissu adjacent) ; veuillez consulter la table TCGA Biospecimen pour plus de détails",
+    "Symbole de gène du Comité de nomenclature des gènes HUGO, basé sur gene_id dans le fichier de données d'origine, par exemple AMY1A. Null si aucun symbole de gène n'a pu être trouvé (voir la documentation pour plus de détails sur ETL) http://isb-cancer-genomics-cloud.readthedocs.io/en/latest/sections/data/data2/ETL_mRNAexpression.html",
+    "Expression génique normalisée à partir du fichier rsem.genes.normalized_results d'origine",
+    "Le symbole de gène. Dans cette table, le symbole de gène est le nom de gène, par exemple ENSG00000251562",
+    "Code à barres d'échantillon TCGA d'origine, par exemple TCGA-12-1089-01A",
+    "Code à barres d'aliquote TCGA d'origine, par exemple TCGA-12-1089-01A-01D-0517-01",
+    "Abréviation du nom de projet ; le nom du programme suivi d'une abréviation de nom de projet ; par exemple TCGA-OV, etc.",
+    "Plate-forme utilisée pour générer les données ; soit IlluminaHiSeq (pour environ 93 % des échantillons) ou IlluminaGA"
+  ],
+  "sample_rows": [
+    {
+      "nom_court_de_projet": "TCGA-OV",
+      "barcode_de_cas": "TCGA-04-1348",
+      "barcode_d_echantillon": "TCGA-04-1348-01A",
+      "barcode_d_aliquot": "TCGA-04-1348-01A-01R-1565-13",
+      "symbole_de_gene_HGNC": "C1orf189",
+      "id_de_gene": 388701,
+      "comptage_normalise": 0.0,
+      "symbole_de_gene_original": "C1orf189",
+      "plateforme": "IlluminaHiSeq"
+    },
+    {
+      "nom_court_de_projet": "TCGA-OV",
+      "barcode_de_cas": "TCGA-04-1348",
+      "barcode_d_echantillon": "TCGA-04-1348-01A",
+      "barcode_d_aliquot": "TCGA-04-1348-01A-01R-1565-13",
+      "symbole_de_gene_HGNC": "NEURL2",
+      "id_de_gene": 140825,
+      "comptage_normalise": 124.6706,
+      "symbole_de_gene_original": "NEURL2",
+      "plateforme": "IlluminaHiSeq"
+    },
+    {
+      "nom_court_de_projet": "TCGA-OV",
+      "barcode_de_cas": "TCGA-04-1348",
+      "barcode_d_echantillon": "TCGA-04-1348-01A",
+      "barcode_d_aliquot": "TCGA-04-1348-01A-01R-1565-13",
+      "symbole_de_gene_HGNC": "WRNIP1",
+      "id_de_gene": 56897,
+      "comptage_normalise": 2187.1471,
+      "symbole_de_gene_original": "WRNIP1",
+      "plateforme": "IlluminaHiSeq"
+    },
+    {
+      "nom_court_de_projet": "TCGA-OV",
+      "barcode_de_cas": "TCGA-04-1348",
+      "barcode_d_echantillon": "TCGA-04-1348-01A",
+      "barcode_d_aliquot": "TCGA-04-1348-01A-01R-1565-13",
+      "symbole_de_gene_HGNC": "JSRP1",
+      "id_de_gene": 126306,
+      "comptage_normalise": 53.2401,
+      "symbole_de_gene_original": "JSRP1",
+      "plateforme": "IlluminaHiSeq"
+    },
+    {
+      "nom_court_de_projet": "TCGA-OV",
+      "barcode_de_cas": "TCGA-04-1348",
+      "barcode_d_echantillon": "TCGA-04-1348-01A",
+      "barcode_d_aliquot": "TCGA-04-1348-01A-01R-1565-13",
+      "symbole_de_gene_HGNC": "ZNF569",
+      "id_de_gene": 148266,
+      "comptage_normalise": 269.5778,
+      "symbole_de_gene_original": "ZNF569",
+      "plateforme": "IlluminaHiSeq"
+    }
+  ]
+}

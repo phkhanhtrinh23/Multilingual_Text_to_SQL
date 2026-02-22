@@ -1,0 +1,78 @@
+{
+  "sample_rows": [
+    {
+      "VON_GEO_ID": "geoId/37081",
+      "ZU_GEO_ID": "geoId/08031",
+      "VARIABLE_NAME": "Number of Individuals",
+      "DATUM": "2012-12-31",
+      "WERT": 16,
+      "EINHEIT": "Individuals",
+      "UNTERDRÜCKT": 0
+    },
+    {
+      "VON_GEO_ID": "geoId/12021",
+      "ZU_GEO_ID": "geoId/12031",
+      "VARIABLE_NAME": "Number of Returns",
+      "DATUM": "2020-12-31",
+      "WERT": 40,
+      "EINHEIT": "Returns",
+      "UNTERDRÜCKT": 0
+    },
+    {
+      "VON_GEO_ID": "geoId/40011",
+      "ZU_GEO_ID": "geoId/40039",
+      "VARIABLE_NAME": "Adjusted Gross Income",
+      "DATUM": "2019-12-31",
+      "WERT": 1826000,
+      "EINHEIT": "USD",
+      "UNTERDRÜCKT": 0
+    },
+    {
+      "VON_GEO_ID": "geoId/36071",
+      "ZU_GEO_ID": "geoId/12009",
+      "VARIABLE_NAME": "Number of Returns",
+      "DATUM": "2018-12-31",
+      "WERT": 32,
+      "EINHEIT": "Returns",
+      "UNTERDRÜCKT": 0
+    },
+    {
+      "VON_GEO_ID": "geoId/48113",
+      "ZU_GEO_ID": "geoId/06053",
+      "VARIABLE_NAME": "Number of Returns",
+      "DATUM": "2012-12-31",
+      "WERT": 12,
+      "EINHEIT": "Returns",
+      "UNTERDRÜCKT": 0
+    }
+  ],
+  "table_name": "IRS_ORIGIN_DESTINATION_MIGRATION_TIMESERIES",
+  "table_fullname": "US_REAL_ESTATE.CYBERSYN.IRS_ORIGIN_DESTINATION_MIGRATION_TIMESERIES",
+  "column_names": [
+    "UNTERDRÜCKT",
+    "VON_GEO_ID",
+    "VARIABLE_NAME",
+    "ZU_GEO_ID",
+    "EINHEIT",
+    "DATUM",
+    "WERT"
+  ],
+  "column_types": [
+    "NUMBER",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "DATE",
+    "NUMBER"
+  ],
+  "description": [
+    "Boolescher Wert, der angibt, ob der Wert in den zugrunde liegenden Daten aus Gründen des Datenschutzes unterdrückt wurde. Unterdrückte Werte erscheinen als NULL",
+    "Eindeutiger Identifikator für einen Ort (Bundesland, County), von dem die Variable im ersten Jahr stammt",
+    "Menschlich lesbarer Name für die Variable",
+    "Eindeutiger Identifikator für einen Ort (Bundesland, County), zu dem die Variable im zweiten Jahr wechselt",
+    "Einheit der Messung für den Wert, Beispiele: `returns`, `individuals`, `USD`",
+    "Datum, das mit dem Wert verknüpft ist, bei Zuwahrtsdaten ist es der letzte Tag des zweiten Berichtsjahres",
+    "Der tatsächliche numerische Wert für die Variable. Unterdrückte Werte sind Null."
+  ]
+}

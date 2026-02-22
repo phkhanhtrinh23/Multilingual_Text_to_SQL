@@ -1,0 +1,56 @@
+{
+  "table_name": "confidence_score_lookup",
+  "table_fullname": "bigquery-public-data.ebi_chembl.confidence_score_lookup",
+  "column_names": [
+    "pontuacao_de_confianca",
+    "descricao",
+    "mapeamento_de_alvo"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "pontuacao_de_confiabilidade",
+    "descricao",
+    "mapeamento_de_destino"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    null,
+    null,
+    null
+  ],
+  "sample_rows": [
+    {
+      "pontuacao_de_confiabilidade": "0",
+      "descricao": "Default value - Target unknown or has yet to be assigned",
+      "mapeamento_de_destino": "Unassigned"
+    },
+    {
+      "pontuacao_de_confiabilidade": "1",
+      "descricao": "Target assigned is non-molecular",
+      "mapeamento_de_destino": "Non-molecular"
+    },
+    {
+      "pontuacao_de_confiabilidade": "2",
+      "descricao": "Target assigned is subcellular fraction",
+      "mapeamento_de_destino": "Subcellular fraction"
+    },
+    {
+      "pontuacao_de_confiabilidade": "3",
+      "descricao": "Target assigned is molecular non-protein target",
+      "mapeamento_de_destino": "Molecular (non-protein)"
+    },
+    {
+      "pontuacao_de_confiabilidade": "4",
+      "descricao": "Multiple homologous protein targets may be assigned",
+      "mapeamento_de_destino": "Multiple homologous proteins"
+    }
+  ]
+}

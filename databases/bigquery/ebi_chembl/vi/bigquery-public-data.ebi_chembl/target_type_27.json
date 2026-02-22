@@ -1,0 +1,56 @@
+{
+  "table_name": "target_type_27",
+  "table_fullname": "bigquery-public-data.ebi_chembl.target_type_27",
+  "column_names": [
+    "loại mục tiêu",
+    "Mô tả mục tiêu",
+    "loại cha"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "loại mục tiêu",
+    "mô tả mục tiêu",
+    "loại cha mẹ"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    null,
+    null,
+    null
+  ],
+  "sample_rows": [
+    {
+      "loại mục tiêu": "MOLECULAR",
+      "mô tả mục tiêu": "Target has been identified as a defined molecular entity (e.g., protein or nucleic acid)",
+      "loại cha mẹ": null
+    },
+    {
+      "loại mục tiêu": "NON-MOLECULAR",
+      "mô tả mục tiêu": "Target has not been defined at a molecular level, only the non-molecular entity which is affected (e.g., organism, cell line etc)",
+      "loại cha mẹ": null
+    },
+    {
+      "loại mục tiêu": "UNDEFINED",
+      "mô tả mục tiêu": "No target has been defined",
+      "loại cha mẹ": null
+    },
+    {
+      "loại mục tiêu": "CHIMERIC PROTEIN",
+      "mô tả mục tiêu": "Target is a fusion of two different proteins, either a synthetic construct or naturally occurring fusion protein",
+      "loại cha mẹ": "PROTEIN"
+    },
+    {
+      "loại mục tiêu": "PROTEIN COMPLEX",
+      "mô tả mục tiêu": "Target is a defined protein complex, consisting of multiple subunits",
+      "loại cha mẹ": "PROTEIN"
+    }
+  ]
+}

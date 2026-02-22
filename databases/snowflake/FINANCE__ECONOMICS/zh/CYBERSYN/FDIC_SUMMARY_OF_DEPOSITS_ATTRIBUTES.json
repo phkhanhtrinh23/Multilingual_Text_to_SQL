@@ -1,0 +1,70 @@
+{
+  "sample_rows": [
+    {
+      "变量": "ASSET",
+      "变量名": "Institutional Assets",
+      "测量": "Assets Owned",
+      "单位": "USD",
+      "频率": "Annual",
+      "测量类型": "Institution"
+    },
+    {
+      "变量": "DEPDOM",
+      "变量名": "Institutional Domestic Deposits",
+      "测量": "Domestic Deposits",
+      "单位": "USD",
+      "频率": "Annual",
+      "测量类型": "Institution"
+    },
+    {
+      "变量": "DEPSUM",
+      "变量名": "Institutional Deposits",
+      "测量": "Deposits",
+      "单位": "USD",
+      "频率": "Annual",
+      "测量类型": "Institution"
+    },
+    {
+      "变量": "DEPSUMBR",
+      "变量名": "Branch Deposits",
+      "测量": "Deposits",
+      "单位": "USD",
+      "频率": "Annual",
+      "测量类型": "Branch"
+    },
+    {
+      "变量": "ESCROW",
+      "变量名": "Escrow Deposits",
+      "测量": "Escrow Deposits",
+      "单位": "USD",
+      "频率": "Annual",
+      "测量类型": "Institution"
+    }
+  ],
+  "table_name": "FDIC_SUMMARY_OF_DEPOSITS_ATTRIBUTES",
+  "table_fullname": "FINANCE__ECONOMICS.CYBERSYN.FDIC_SUMMARY_OF_DEPOSITS_ATTRIBUTES",
+  "column_names": [
+    "变量名",
+    "单位",
+    "测量",
+    "变量",
+    "测量类型",
+    "频率"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "FDIC 跟踪的金融数据变量的易读描述",
+    "记录度量的单位（例如：USD YTD）",
+    "正在记录的可量化属性（例如，国内存款）。",
+    "用于跟踪财务数据的唯一 FDIC 标识符",
+    "分类表明 FDIC 对该变量的追踪层级，是“机构”还是“分支”级别。",
+    "数据聚合的频率（例如：年度）"
+  ]
+}

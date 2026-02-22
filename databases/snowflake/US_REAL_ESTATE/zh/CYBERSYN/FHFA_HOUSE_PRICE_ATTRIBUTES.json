@@ -1,0 +1,78 @@
+{
+  "sample_rows": [
+    {
+      "变量": "FHFA_HPI_traditional_purchase-only_monthly_NSA",
+      "变量名": "FHFA_HPI traditional purchase-only monthly Not Seasonally Adjusted",
+      "物业分类": "traditional",
+      "索引类型": "purchase-only",
+      "频率": "MONTHLY",
+      "季节性调整": false,
+      "单位": "Index"
+    },
+    {
+      "变量": "FHFA_HPI_traditional_purchase-only_quarterly_NSA",
+      "变量名": "FHFA_HPI traditional purchase-only quarterly Not Seasonally Adjusted",
+      "物业分类": "traditional",
+      "索引类型": "purchase-only",
+      "频率": "QUARTERLY",
+      "季节性调整": false,
+      "单位": "Index"
+    },
+    {
+      "变量": "FHFA_HPI_traditional_purchase-only_monthly_SA",
+      "变量名": "FHFA_HPI traditional purchase-only monthly Seasonally Adjusted",
+      "物业分类": "traditional",
+      "索引类型": "purchase-only",
+      "频率": "MONTHLY",
+      "季节性调整": true,
+      "单位": "Index"
+    },
+    {
+      "变量": "FHFA_HPI_non-metro_all-transactions_quarterly_NSA",
+      "变量名": "FHFA_HPI non-metro all-transactions quarterly Not Seasonally Adjusted",
+      "物业分类": "non-metro",
+      "索引类型": "all-transactions",
+      "频率": "QUARTERLY",
+      "季节性调整": false,
+      "单位": "Index"
+    },
+    {
+      "变量": "FHFA_HPI_traditional_purchase-only_quarterly_SA",
+      "变量名": "FHFA_HPI traditional purchase-only quarterly Seasonally Adjusted",
+      "物业分类": "traditional",
+      "索引类型": "purchase-only",
+      "频率": "QUARTERLY",
+      "季节性调整": true,
+      "单位": "Index"
+    }
+  ],
+  "table_name": "FHFA_HOUSE_PRICE_ATTRIBUTES",
+  "table_fullname": "US_REAL_ESTATE.CYBERSYN.FHFA_HOUSE_PRICE_ATTRIBUTES",
+  "column_names": [
+    "物业分类",
+    "变量名",
+    "季节性调整",
+    "索引类型",
+    "变量",
+    "频率",
+    "单位"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "BOOLEAN",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "房价指数分类（传统、无痛、非都市）",
+    "变量的可读性描述",
+    "布尔字段，指示系列是否已季节性调整",
+    "房价指数测量类型（全部交易、仅购买、扩展数据）",
+    "可与时间序列表关联用于筛选的变量的唯一标识符",
+    "变量测量频率（例如：每日、每月、每季度）",
+    "变量的计量单位： (例如，指数)"
+  ]
+}

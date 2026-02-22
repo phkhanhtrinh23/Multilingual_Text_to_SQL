@@ -1,0 +1,162 @@
+{
+  "table_name": "mousePhenotypes",
+  "table_fullname": "open-targets-prod.platform.mousePhenotypes",
+  "column_names": [
+    "mô hình sinh học",
+    "Các lớp đặc tính thể hiện mô hình",
+    "ID đặc tính mô hình",
+    "Nhãn biểu hiện mô hình",
+    "ID Đích Từ Nguồn",
+    "Mục tiêu trong mô hình",
+    "MãEnsemblĐíchTrongMôHình",
+    "ID mục tiêu trong mô hình MGI"
+  ],
+  "column_types": [
+    "STRUCT<list ARRAY<STRUCT<element STRUCT<allelicComposition STRING, geneticBackground STRING, id STRING, literature STRUCT<list ARRAY<STRUCT<element STRING>>>>>>>",
+    "STRUCT<list ARRAY<STRUCT<element STRUCT<id STRING, label STRING>>>>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "mô hình sinh học",
+    "danh sách mô hình sinh học",
+    "phần tử danh sách mô hình sinh học",
+    "Cấu thành allele của phần tử danh sách mô hình sinh học",
+    "Nền gốc di truyền",
+    "ID phần tử danh sách mô hình sinh học",
+    "Tài liệu phần tử danh sách mô hình sinh học",
+    "Danh sách tài liệu tham khảo phần tử mô hình sinh học",
+    "mô hình sinh học danh sách phần tử tài liệu danh sách phần tử",
+    "Các lớp biểu hiện mô hình",
+    "danh sách lớp đặc tính mô hình",
+    "mô hình danh sách phần tử lớp hình thái",
+    "ID phần tử danh sách lớp hình thái mô hình",
+    "Nhãn phần tử danh sách lớp biểu hiện mô hình",
+    "ID hình thái mô hình",
+    "Nhãn đặc tính thể hiện của mô hình",
+    "Mã mục tiêu từ mã nguồn",
+    "Mục tiêu trong mô hình",
+    "ID Ensembl trong mô hình mục tiêu",
+    "Mã MGI trong mô hình mục tiêu"
+  ],
+  "nested_column_types": [
+    "STRUCT<list ARRAY<STRUCT<element STRUCT<allelicComposition STRING, geneticBackground STRING, id STRING, literature STRUCT<list ARRAY<STRUCT<element STRING>>>>>>>",
+    "ARRAY<STRUCT<element STRUCT<allelicComposition STRING, geneticBackground STRING, id STRING, literature STRUCT<list ARRAY<STRUCT<element STRING>>>>>>",
+    "STRUCT<allelicComposition STRING, geneticBackground STRING, id STRING, literature STRUCT<list ARRAY<STRUCT<element STRING>>>>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+    "ARRAY<STRUCT<element STRING>>",
+    "STRING",
+    "STRUCT<list ARRAY<STRUCT<element STRUCT<id STRING, label STRING>>>>",
+    "ARRAY<STRUCT<element STRUCT<id STRING, label STRING>>>",
+    "STRUCT<id STRING, label STRING>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "sample_rows": [
+    {
+      "mô hình sinh học": {
+        "list": "[{'element': {'allelicComposition': 'T/T', 'geneticBackground': 'Not Specified', 'id': 'MGI:2169509', 'literature': {'list': array([{'element': '10617567'}, {'element': '12533796'},\n        {'element': '1218735'}, {'element': '23359409'},\n        {'element': '9383288'}, {'element': '2658196'},\n        {'element': '5906493'}, {'element': '12140191'},\n        {'element': '15384171'}, {'element': '8436292'},\n        {'element': '20809182'}, {'element': '11071760'},\n        {'element': '10723731'}, {'element': '10835400'},\n        {'element': '13575656'}, {'element': '8293872'}], dtype=object)}}}                                                                                                           ]"
+      },
+      "Các lớp biểu hiện mô hình": {
+        "list": "[{'element': {'id': 'MP:0005380', 'label': 'embryo phenotype'}}]"
+      },
+      "ID hình thái mô hình": "MP:0004712",
+      "Nhãn đặc tính thể hiện của mô hình": "notochord degeneration",
+      "Mã mục tiêu từ mã nguồn": "ENSG00000164458",
+      "Mục tiêu trong mô hình": "T",
+      "ID Ensembl trong mô hình mục tiêu": "ENSMUSG00000062327",
+      "Mã MGI trong mô hình mục tiêu": "MGI:98472"
+    },
+    {
+      "mô hình sinh học": {
+        "list": "[{'element': {'allelicComposition': 'T/T', 'geneticBackground': 'Not Specified', 'id': 'MGI:2169509', 'literature': {'list': array([{'element': '10617567'}, {'element': '12533796'},\n        {'element': '1218735'}, {'element': '23359409'},\n        {'element': '9383288'}, {'element': '2658196'},\n        {'element': '5906493'}, {'element': '12140191'},\n        {'element': '15384171'}, {'element': '8436292'},\n        {'element': '20809182'}, {'element': '11071760'},\n        {'element': '10723731'}, {'element': '10835400'},\n        {'element': '13575656'}, {'element': '8293872'}], dtype=object)}}}                                                                                                           ]"
+      },
+      "Các lớp biểu hiện mô hình": {
+        "list": "[{'element': {'id': 'MP:0005376', 'label': 'homeostasis/metabolism phenotype'}}\n {'element': {'id': 'MP:0005385', 'label': 'cardiovascular system phenotype'}}]"
+      },
+      "ID hình thái mô hình": "MP:0005244",
+      "Nhãn đặc tính thể hiện của mô hình": "hemopericardium",
+      "Mã mục tiêu từ mã nguồn": "ENSG00000164458",
+      "Mục tiêu trong mô hình": "T",
+      "ID Ensembl trong mô hình mục tiêu": "ENSMUSG00000062327",
+      "Mã MGI trong mô hình mục tiêu": "MGI:98472"
+    },
+    {
+      "mô hình sinh học": {
+        "list": "[{'element': {'allelicComposition': 'T/T', 'geneticBackground': 'Not Specified', 'id': 'MGI:2169509', 'literature': {'list': array([{'element': '10617567'}, {'element': '12533796'},\n        {'element': '1218735'}, {'element': '23359409'},\n        {'element': '9383288'}, {'element': '2658196'},\n        {'element': '5906493'}, {'element': '12140191'},\n        {'element': '15384171'}, {'element': '8436292'},\n        {'element': '20809182'}, {'element': '11071760'},\n        {'element': '10723731'}, {'element': '10835400'},\n        {'element': '13575656'}, {'element': '8293872'}], dtype=object)}}}                                                                                                           ]"
+      },
+      "Các lớp biểu hiện mô hình": {
+        "list": "[{'element': {'id': 'MP:0005385', 'label': 'cardiovascular system phenotype'}}]"
+      },
+      "ID hình thái mô hình": "MP:0012082",
+      "Nhãn đặc tính thể hiện của mô hình": "delayed heart development",
+      "Mã mục tiêu từ mã nguồn": "ENSG00000164458",
+      "Mục tiêu trong mô hình": "T",
+      "ID Ensembl trong mô hình mục tiêu": "ENSMUSG00000062327",
+      "Mã MGI trong mô hình mục tiêu": "MGI:98472"
+    },
+    {
+      "mô hình sinh học": {
+        "list": "[{'element': {'allelicComposition': 'T/T', 'geneticBackground': 'Not Specified', 'id': 'MGI:2169509', 'literature': {'list': array([{'element': '10617567'}, {'element': '12533796'},\n        {'element': '1218735'}, {'element': '23359409'},\n        {'element': '9383288'}, {'element': '2658196'},\n        {'element': '5906493'}, {'element': '12140191'},\n        {'element': '15384171'}, {'element': '8436292'},\n        {'element': '20809182'}, {'element': '11071760'},\n        {'element': '10723731'}, {'element': '10835400'},\n        {'element': '13575656'}, {'element': '8293872'}], dtype=object)}}}                                                                                                           ]"
+      },
+      "Các lớp biểu hiện mô hình": {
+        "list": "[{'element': {'id': 'MP:0010771', 'label': 'integument phenotype'}}]"
+      },
+      "ID hình thái mô hình": "MP:0008854",
+      "Nhãn đặc tính thể hiện của mô hình": "bleb",
+      "Mã mục tiêu từ mã nguồn": "ENSG00000164458",
+      "Mục tiêu trong mô hình": "T",
+      "ID Ensembl trong mô hình mục tiêu": "ENSMUSG00000062327",
+      "Mã MGI trong mô hình mục tiêu": "MGI:98472"
+    },
+    {
+      "mô hình sinh học": {
+        "list": "[{'element': {'allelicComposition': 'T/T', 'geneticBackground': 'Not Specified', 'id': 'MGI:2169509', 'literature': {'list': array([{'element': '10617567'}, {'element': '12533796'},\n        {'element': '1218735'}, {'element': '23359409'},\n        {'element': '9383288'}, {'element': '2658196'},\n        {'element': '5906493'}, {'element': '12140191'},\n        {'element': '15384171'}, {'element': '8436292'},\n        {'element': '20809182'}, {'element': '11071760'},\n        {'element': '10723731'}, {'element': '10835400'},\n        {'element': '13575656'}, {'element': '8293872'}], dtype=object)}}}                                                                                                           ]"
+      },
+      "Các lớp biểu hiện mô hình": {
+        "list": "[{'element': {'id': 'MP:0005380', 'label': 'embryo phenotype'}}\n {'element': {'id': 'MP:0005378', 'label': 'growth/size/body region phenotype'}}]"
+      },
+      "ID hình thái mô hình": "MP:0001698",
+      "Nhãn đặc tính thể hiện của mô hình": "decreased embryo size",
+      "Mã mục tiêu từ mã nguồn": "ENSG00000164458",
+      "Mục tiêu trong mô hình": "T",
+      "ID Ensembl trong mô hình mục tiêu": "ENSMUSG00000062327",
+      "Mã MGI trong mô hình mục tiêu": "MGI:98472"
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "table_name": "TRIPS",
+  "table_fullname": "SAN_FRANCISCO_PLUS.SAN_FRANCISCO_TRANSIT_MUNI.TRIPS",
+  "column_names": [
+    "Fahrtrichtungsschild",
+    "Fahrt_ID",
+    "Block_ID",
+    "Linien_ID",
+    "Form_ID",
+    "Fahrt_Form",
+    "Dienstklasse",
+    "Richtung"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "BINARY",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Enthält den Text, der auf Schildern erscheint, die den Zielort der Fahrt für die Fahrgäste identifizieren. Verwenden Sie dieses Feld, um zwischen verschiedenen Betriebsmustern auf der gleichen Route zu unterscheiden.",
+    "Eindeutiger Identifikator für jede Fahrt",
+    "Identifiziert den Block, dem die Fahrt angehört. Ein Block besteht aus einer einzelnen Fahrt oder mehreren aufeinanderfolgenden Fahrten, die mit dem gleichen Fahrzeug durchgeführt werden. Die Fahrten werden durch die Verwendung eines gemeinsamen `service_day` und `block_id` in einen Block gruppiert. Ein `block_id` kann Fahrten mit unterschiedlichen `service_days` enthalten, was dann separate Blöcke ergibt. Für weitere Details siehe: https://developers.google.com/transit/gtfs/reference/#example-showing-blocks-and-service-day",
+    "Eindeutiger Identifikator für jede Route. Eine einzelne Route hat mehrere Fahrten",
+    "Eindeutiger Identifikator für die geospatialen Formen, die die Fahrzeugbewegung für eine Fahrt entlang einzelner Punkte beschreiben. Verwenden Sie zum JOIN mit den Formen, die in der `shapes`-Tabelle verfügbar sind",
+    "Geografische Darstellung der gesamten Route der Fahrt.",
+    "Gibt den Typ des Dienstes für diese Fahrt an",
+    "\"Gibt die Richtung der Fahrt an. Die folgenden Werte sind gültig:   -  O: Auswärtsfahrt -  I: Einwärtsfahrt  Dieses Feld wird nicht für die Routenfindung verwendet, sondern bietet eine Möglichkeit, Fahrten nach Richtung zu trennen\""
+  ],
+  "sample_rows": [
+    {
+      "Fahrt_ID": "8999873",
+      "Linien_ID": "83X",
+      "Richtung": "O",
+      "Block_ID": "8302",
+      "Dienstklasse": null,
+      "Fahrtrichtungsschild": "Caltrain Depot",
+      "Form_ID": "174188",
+      "Fahrt_Form": null
+    },
+    {
+      "Fahrt_ID": "8999875",
+      "Linien_ID": "83X",
+      "Richtung": "O",
+      "Block_ID": "8301",
+      "Dienstklasse": null,
+      "Fahrtrichtungsschild": "Caltrain Depot",
+      "Form_ID": "174188",
+      "Fahrt_Form": null
+    },
+    {
+      "Fahrt_ID": "8999872",
+      "Linien_ID": "83X",
+      "Richtung": "O",
+      "Block_ID": "8302",
+      "Dienstklasse": null,
+      "Fahrtrichtungsschild": "Caltrain Depot",
+      "Form_ID": "174188",
+      "Fahrt_Form": null
+    },
+    {
+      "Fahrt_ID": "8999871",
+      "Linien_ID": "83X",
+      "Richtung": "O",
+      "Block_ID": "8301",
+      "Dienstklasse": null,
+      "Fahrtrichtungsschild": "Caltrain Depot",
+      "Form_ID": "174188",
+      "Fahrt_Form": null
+    },
+    {
+      "Fahrt_ID": "8999893",
+      "Linien_ID": "83X",
+      "Richtung": "O",
+      "Block_ID": "8302",
+      "Dienstklasse": null,
+      "Fahrtrichtungsschild": "Caltrain Depot",
+      "Form_ID": "174188",
+      "Fahrt_Form": null
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "sample_rows": [
+    {
+      "VARIABLE": "JOLTS:_Quits,_Total_private,_1_to_9_employees,_Not_seasonally_adjusted,_Monthly,_Level",
+      "VARIABLE_NAME": "JOLTS: Quits, Total private, 1 to 9 employees, Not seasonally adjusted, Monthly, Level",
+      "AJUSTE_SAISSONNIER": false,
+      "FREQUENCE": "Monthly",
+      "UNITE": "Level",
+      "RAPPORT": "JOLTS",
+      "MESURE": "Quits",
+      "INDUSTRIE": "Total private",
+      "ESTABLISHMENT_SIZE": "1 to 9 employees"
+    },
+    {
+      "VARIABLE": "JOLTS:_Quits,_Arts,_entertainment,_and_recreation,_All_size_classes,_Not_seasonally_adjusted,_Annual,_Percent",
+      "VARIABLE_NAME": "JOLTS: Quits, Arts, entertainment, and recreation, All size classes, Not seasonally adjusted, Annual, Percent",
+      "AJUSTE_SAISSONNIER": false,
+      "FREQUENCE": "Annual",
+      "UNITE": "Percent",
+      "RAPPORT": "JOLTS",
+      "MESURE": "Quits",
+      "INDUSTRIE": "Arts, entertainment, and recreation",
+      "ESTABLISHMENT_SIZE": "All size classes"
+    },
+    {
+      "VARIABLE": "JOLTS:_Quits,_Total_private,_All_size_classes,_Not_seasonally_adjusted,_Monthly,_Percent",
+      "VARIABLE_NAME": "JOLTS: Quits, Total private, All size classes, Not seasonally adjusted, Monthly, Percent",
+      "AJUSTE_SAISSONNIER": false,
+      "FREQUENCE": "Monthly",
+      "UNITE": "Percent",
+      "RAPPORT": "JOLTS",
+      "MESURE": "Quits",
+      "INDUSTRIE": "Total private",
+      "ESTABLISHMENT_SIZE": "All size classes"
+    },
+    {
+      "VARIABLE": "JOLTS:_Job_openings,_Leisure_and_hospitality,_All_size_classes,_Seasonally_adjusted,_Monthly,_Percent",
+      "VARIABLE_NAME": "JOLTS: Job openings, Leisure and hospitality, All size classes, Seasonally adjusted, Monthly, Percent",
+      "AJUSTE_SAISSONNIER": true,
+      "FREQUENCE": "Monthly",
+      "UNITE": "Percent",
+      "RAPPORT": "JOLTS",
+      "MESURE": "Job openings",
+      "INDUSTRIE": "Leisure and hospitality",
+      "ESTABLISHMENT_SIZE": "All size classes"
+    },
+    {
+      "VARIABLE": "JOLTS:_Quits,_Education_and_health_services,_All_size_classes,_Seasonally_adjusted,_Monthly,_Percent",
+      "VARIABLE_NAME": "JOLTS: Quits, Education and health services, All size classes, Seasonally adjusted, Monthly, Percent",
+      "AJUSTE_SAISSONNIER": true,
+      "FREQUENCE": "Monthly",
+      "UNITE": "Percent",
+      "RAPPORT": "JOLTS",
+      "MESURE": "Quits",
+      "INDUSTRIE": "Education and health services",
+      "ESTABLISHMENT_SIZE": "All size classes"
+    }
+  ],
+  "table_name": "BUREAU_OF_LABOR_STATISTICS_EMPLOYMENT_ATTRIBUTES",
+  "table_fullname": "FINANCE__ECONOMICS.CYBERSYN.BUREAU_OF_LABOR_STATISTICS_EMPLOYMENT_ATTRIBUTES",
+  "column_names": [
+    "MESURE",
+    "INDUSTRIE",
+    "AJUSTE_SAISSONNIER",
+    "VARIABLE_NAME",
+    "RAPPORT",
+    "UNITE",
+    "ESTABLISHMENT_SIZE",
+    "FREQUENCE",
+    "VARIABLE"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "BOOLEAN",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Description du type de statistique fournie par la série chronologique",
+    "Industrie ou sous-industrie de la série chronologique",
+    "Variable booléenne indiquant si la valeur est ajustée aux saisons",
+    "Nom lisible par l'homme pour une variable",
+    "Jeu de données BLS dont provient la série chronologique",
+    "Unité de mesure pour la valeur",
+    "Taille de l'entreprise pour la variable fournie",
+    "Fréquence de la mesure de la variable",
+    "Un identifiant unique pour une variable joignable à la table `timeseries`"
+  ]
+}

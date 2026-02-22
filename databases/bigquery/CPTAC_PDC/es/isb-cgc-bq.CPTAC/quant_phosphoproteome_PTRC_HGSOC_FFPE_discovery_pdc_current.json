@@ -1,0 +1,116 @@
+{
+  "table_name": "quant_phosphoproteome_PTRC_HGSOC_FFPE_discovery_pdc_current",
+  "table_fullname": "isb-cgc-bq.CPTAC.quant_phosphoproteome_PTRC_HGSOC_FFPE_discovery_pdc_current",
+  "column_names": [
+    "id_del_caso",
+    "identificador de muestra",
+    "ID de alícuota",
+    "id_solicitante_de_aliquot",
+    "id_metadatos_ejecución_aliquota",
+    "nombre del estudio",
+    "log2_relación_abundancia_proteínas",
+    "ID RefSeq",
+    "sitios de fosforilación"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "id_caso",
+    "id_muestra",
+    "id_aliquota",
+    "id_remitente_aliquota",
+    "id_metadatos_ejecucion_porcion",
+    "nombre del estudio",
+    "razón_log2_abundancia_de_proteínas",
+    "identificador_refseq",
+    "sitios de fosforilación"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "Identificador único asociado con un paciente específico (p. ej. 24cb0fcb-63d6-11e8-bcf1-0a2705229b82)",
+    "Identificador único de PDC para esta muestra (por ejemplo, e8d83eb9-693a-11ea-b1fd-0aad30af8a83)",
+    "Identificador único de PDC para esta alícuota (por ejemplo, e8db124a-693a-11ea-b1fd-0aad30af8a83)",
+    "ID del remitente de la alícuota asignado por el programa (p. ej., T14)",
+    "Identifica de manera única la alícuota según cómo se utilizó en el experimento (basado en el reactivo de etiquetado y/o el replicado biológico).",
+    "Nombre del estudio (p. ej., Estudio Piloto de Cáncer Cerebral Pediátrico - Fosforoma)",
+    "Promedio de la razón logarítmica entre el ion reportero de la muestra y la referencia común de iones peptídicos asociados al gen en adquisiciones de una muestra biológica específica",
+    "Identificador único asignado a una secuencia en la base de datos NCBI RefSeq",
+    "Códigos de una sola letra y posiciones de la secuencia proteica de los aminoácidos fosforilados (p. ej. t304s310, t59)"
+  ],
+  "sample_rows": [
+    {
+      "id_caso": "6dc777d4-4a5b-4387-9ed2-0d2fa9f4ff72",
+      "id_muestra": "16d7cf28-d501-4845-af50-581879c46b79",
+      "id_aliquota": "47b273c2-d4a5-4cf6-8ed8-551cd6c5fe0c",
+      "id_remitente_aliquota": "Frozen-bridge",
+      "id_metadatos_ejecucion_porcion": "00b4ad2e-0b60-4edb-8d1f-1f4d6d8b9e45",
+      "nombre del estudio": "PTRC HGSOC FFPE Discovery - Phosphoproteome",
+      "razón_log2_abundancia_de_proteínas": -0.4584,
+      "identificador_refseq": "NP_001032752.1",
+      "sitios de fosforilación": "s106"
+    },
+    {
+      "id_caso": "6dc777d4-4a5b-4387-9ed2-0d2fa9f4ff72",
+      "id_muestra": "16d7cf28-d501-4845-af50-581879c46b79",
+      "id_aliquota": "47b273c2-d4a5-4cf6-8ed8-551cd6c5fe0c",
+      "id_remitente_aliquota": "Frozen-bridge",
+      "id_metadatos_ejecucion_porcion": "00b4ad2e-0b60-4edb-8d1f-1f4d6d8b9e45",
+      "nombre del estudio": "PTRC HGSOC FFPE Discovery - Phosphoproteome",
+      "razón_log2_abundancia_de_proteínas": 0.2839,
+      "identificador_refseq": "NP_001121689.1",
+      "sitios de fosforilación": "s129"
+    },
+    {
+      "id_caso": "6dc777d4-4a5b-4387-9ed2-0d2fa9f4ff72",
+      "id_muestra": "16d7cf28-d501-4845-af50-581879c46b79",
+      "id_aliquota": "47b273c2-d4a5-4cf6-8ed8-551cd6c5fe0c",
+      "id_remitente_aliquota": "Frozen-bridge",
+      "id_metadatos_ejecucion_porcion": "00b4ad2e-0b60-4edb-8d1f-1f4d6d8b9e45",
+      "nombre del estudio": "PTRC HGSOC FFPE Discovery - Phosphoproteome",
+      "razón_log2_abundancia_de_proteínas": 0.9428,
+      "identificador_refseq": "NP_001127836.1",
+      "sitios de fosforilación": "s636"
+    },
+    {
+      "id_caso": "6dc777d4-4a5b-4387-9ed2-0d2fa9f4ff72",
+      "id_muestra": "16d7cf28-d501-4845-af50-581879c46b79",
+      "id_aliquota": "47b273c2-d4a5-4cf6-8ed8-551cd6c5fe0c",
+      "id_remitente_aliquota": "Frozen-bridge",
+      "id_metadatos_ejecucion_porcion": "00b4ad2e-0b60-4edb-8d1f-1f4d6d8b9e45",
+      "nombre del estudio": "PTRC HGSOC FFPE Discovery - Phosphoproteome",
+      "razón_log2_abundancia_de_proteínas": -1.1168,
+      "identificador_refseq": "NP_001128409.1",
+      "sitios de fosforilación": "s486"
+    },
+    {
+      "id_caso": "6dc777d4-4a5b-4387-9ed2-0d2fa9f4ff72",
+      "id_muestra": "16d7cf28-d501-4845-af50-581879c46b79",
+      "id_aliquota": "47b273c2-d4a5-4cf6-8ed8-551cd6c5fe0c",
+      "id_remitente_aliquota": "Frozen-bridge",
+      "id_metadatos_ejecucion_porcion": "00b4ad2e-0b60-4edb-8d1f-1f4d6d8b9e45",
+      "nombre del estudio": "PTRC HGSOC FFPE Discovery - Phosphoproteome",
+      "razón_log2_abundancia_de_proteínas": -0.7,
+      "identificador_refseq": "NP_001139019.1",
+      "sitios de fosforilación": "s155"
+    }
+  ]
+}

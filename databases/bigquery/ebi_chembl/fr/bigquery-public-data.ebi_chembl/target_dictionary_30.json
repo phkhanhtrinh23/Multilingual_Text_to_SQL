@@ -1,0 +1,96 @@
+{
+  "table_name": "target_dictionary_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.target_dictionary_30",
+  "column_names": [
+    "identifiant_transaction",
+    "type_cible",
+    "nom_preferé",
+    "identifiant_fiscal",
+    "organisme",
+    "identifiant_chembl",
+    "indicateur_groupe_espèces"
+  ],
+  "column_types": [
+    "INT64",
+    "STRING",
+    "STRING",
+    "INT64",
+    "STRING",
+    "STRING",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "identifiant_transaction",
+    "type_cible",
+    "nom_preferé",
+    "identifiant_fiscal",
+    "organisme",
+    "identifiant_chembl",
+    "indicateur_groupe_espèces"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "STRING",
+    "STRING",
+    "INT64",
+    "STRING",
+    "STRING",
+    "INT64"
+  ],
+  "description": [
+    "ID unique pour la cible",
+    "Décrit si la cible est une protéine, un organisme, un tissu, etc. Clé étrangère pour la table TARGET_TYPE.",
+    "Nom de cible préféré : curateur manuel",
+    "ID de taxonomie NCBI de la cible",
+    "Organisme source de la cible moléculaire ou du tissu, ou l'organisme cible si l'activité du composé est signalée dans un organisme plutôt que dans une protéine ou un tissu",
+    "Identifiant ChEMBL pour cette cible (pour utilisation sur l'interface web, etc.)",
+    "Indicateur pour indiquer si la cible représente un groupe d'espèces, plutôt qu'une espèce individuelle (par exemple, 'Bacterial DHFR'). Lorsqu'il est défini sur 1, indique que les composants cibles associés seront un représentant, plutôt qu'un ensemble complet."
+  ],
+  "sample_rows": [
+    {
+      "identifiant_transaction": 22224,
+      "type_cible": "ADMET",
+      "nom_preferé": "ADMET",
+      "identifiant_fiscal": null,
+      "organisme": null,
+      "identifiant_chembl": "CHEMBL612558",
+      "indicateur_groupe_espèces": 0
+    },
+    {
+      "identifiant_transaction": 109711,
+      "type_cible": "LIPID",
+      "nom_preferé": "Cholesterol ester",
+      "identifiant_fiscal": null,
+      "organisme": null,
+      "identifiant_chembl": "CHEMBL3559388",
+      "indicateur_groupe_espèces": 0
+    },
+    {
+      "identifiant_transaction": 109712,
+      "type_cible": "LIPID",
+      "nom_preferé": "Triglyceride",
+      "identifiant_fiscal": null,
+      "organisme": null,
+      "identifiant_chembl": "CHEMBL3559389",
+      "indicateur_groupe_espèces": 0
+    },
+    {
+      "identifiant_transaction": 120037,
+      "type_cible": "LIPID",
+      "nom_preferé": "Lipid bilayer",
+      "identifiant_fiscal": null,
+      "organisme": null,
+      "identifiant_chembl": "CHEMBL4651323",
+      "indicateur_groupe_espèces": 0
+    },
+    {
+      "identifiant_transaction": 109803,
+      "type_cible": "LIPID",
+      "nom_preferé": "Ganglioside GD3",
+      "identifiant_fiscal": 9606,
+      "organisme": "Homo sapiens",
+      "identifiant_chembl": "CHEMBL3580507",
+      "indicateur_groupe_espèces": 0
+    }
+  ]
+}

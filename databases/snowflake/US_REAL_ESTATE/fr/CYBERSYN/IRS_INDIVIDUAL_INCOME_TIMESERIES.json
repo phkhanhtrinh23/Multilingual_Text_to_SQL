@@ -1,0 +1,78 @@
+{
+  "sample_rows": [
+    {
+      "GEO_ID": "zip/47578",
+      "VARIABLE": "Total_income_-_Amount,_AGI_bin:_$100,000_under_$200,000",
+      "NOM_DE_VARIABLE": "Total income - Amount, AGI bin: $100,000 under $200,000",
+      "DATE": "2018-12-31",
+      "VALEUR": 5096000.0,
+      "UNIT": "USD",
+      "SUPPRESSED": false
+    },
+    {
+      "GEO_ID": "zip/88337",
+      "VARIABLE": "Total_taxes_paid_-_Number_of_returns,_AGI_bin:_$100,000_under_$200,000",
+      "NOM_DE_VARIABLE": "Total taxes paid - Number of returns, AGI bin: $100,000 under $200,000",
+      "DATE": "2011-12-31",
+      "VALEUR": 69.0,
+      "UNIT": "Returns",
+      "SUPPRESSED": false
+    },
+    {
+      "GEO_ID": "zip/50167",
+      "VARIABLE": "Total_premium_tax_credit_-_Amount,_AGI_bin:_$100,000_under_$200,000",
+      "NOM_DE_VARIABLE": "Total premium tax credit - Amount, AGI bin: $100,000 under $200,000",
+      "DATE": "2017-12-31",
+      "VALEUR": 0.0,
+      "UNIT": "USD",
+      "SUPPRESSED": false
+    },
+    {
+      "GEO_ID": "zip/50543",
+      "VARIABLE": "Taxable_income_-_Amount,_AGI_bin:_$200,000_or_more",
+      "NOM_DE_VARIABLE": "Taxable income - Amount, AGI bin: $200,000 or more",
+      "DATE": "2017-12-31",
+      "VALEUR": null,
+      "UNIT": "USD",
+      "SUPPRESSED": true
+    },
+    {
+      "GEO_ID": "zip/50643",
+      "VARIABLE": "Child_tax_credit_-_Amount,_AGI_bin:_$75,000_under_$100,000",
+      "NOM_DE_VARIABLE": "Child tax credit - Amount, AGI bin: $75,000 under $100,000",
+      "DATE": "2017-12-31",
+      "VALEUR": 128000.0,
+      "UNIT": "USD",
+      "SUPPRESSED": false
+    }
+  ],
+  "table_name": "IRS_INDIVIDUAL_INCOME_TIMESERIES",
+  "table_fullname": "US_REAL_ESTATE.CYBERSYN.IRS_INDIVIDUAL_INCOME_TIMESERIES",
+  "column_names": [
+    "SUPPRESSED",
+    "DATE",
+    "VARIABLE",
+    "NOM_DE_VARIABLE",
+    "GEO_ID",
+    "UNIT",
+    "VALEUR"
+  ],
+  "column_types": [
+    "BOOLEAN",
+    "DATE",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "FLOAT"
+  ],
+  "description": [
+    "Indicateur booléen indiquant si la valeur a été supprimée dans les données sous-jacentes pour des raisons de confidentialité. Les valeurs supprimées apparaissent comme NULL",
+    "Date associée à la valeur, pour les données de code postal de revenu individuel, il s'agit du dernier jour de l'année faisant l'objet du rapport",
+    "Un identifiant unique pour une variable pouvant être jointe à la table `attributes`",
+    "Nom lisible par l'homme pour la variable",
+    "Un identifiant unique pour un lieu (état, comté, code postal) pouvant être joint à la table `geography_index`/`relationships`",
+    "Unité de mesure pour la valeur, exemples : USD, déclarations, individus, personnes à charge",
+    "La valeur numérique réelle pour la variable. Les valeurs supprimées sont Null."
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "table_name": "Filtered_pancanMiRs_EBadjOnProtocolPlatformWithoutRepsWithUnCorrectMiRs_08_04_16",
+  "table_fullname": "isb-cgc-bq.pancancer_atlas.Filtered_pancanMiRs_EBadjOnProtocolPlatformWithoutRepsWithUnCorrectMiRs_08_04_16",
+  "column_names": [
+    "CódigoBarrasDoParticipante",
+    "CódigoBarrasDaAmostra",
+    "CódigoBarrasDaAliquota",
+    "CódigoDeLetraDoTipoDeAmostra",
+    "TipoDeAmostra",
+    "Estudo",
+    "ID",
+    "miRNAexpr",
+    "Corrigido"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "CódigoBarrasDoParticipante",
+    "CódigoBarrasDaAmostra",
+    "CódigoBarrasDaAliquota",
+    "CódigoDeLetraDoTipoDeAmostra",
+    "TipoDeAmostra",
+    "Estudo",
+    "ID",
+    "miRNAexpr",
+    "Corrigido"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING"
+  ],
+  "description": [
+    "Identificador de código de barras TCGA para o participante do estudo, por exemplo, TCGA-02-0001",
+    "Código de barras da amostra de biosspecimen, por exemplo, TCGA-13-1489-02A",
+    "Código de barras do aliquote TCGA, por exemplo, TCGA-12-1089-01A-01D-0517-28",
+    "Código de letra do tipo de amostra usando os padrões TCGA, por exemplo, TPN, EBV. Lista completa disponível em https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/sample-type-codes",
+    "Existem 10 tipos de amostras: Sangue Derivado Normal, Tumor sólido primário, Tecido sólido normal, Tumor sólido recorrente, Metastático, Adicional - Novo primário, Câncer de sangue derivado primário - Sangue periférico, Célula bucal normal, Adicional metastático, Medula óssea normal",
+    "Abreviação do estudo TCGA, por exemplo, LAML. Lista completa disponível em https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/tcga-study-abbreviations",
+    "Uma das 1870 ids de miRNA únicas (também conhecidas como símbolos) contidas nesta tabela, por exemplo, hsa-mir-21 -- informações de referência relevantes podem ser encontradas no conjunto de dados isb-cgc: genome_reference nas tabelas miRBase_v20 e miRBase_v20_hsa_gff3",
+    "Abundância normalizada (ou seja, leituras por milhão, RPM)",
+    "Indicador corrigido e não corrigido que especifica se os miRs foram corrigidos pelo método EBN+. Veja mais detalhes em https://www.synapse.org/#!Synapse:syn6171109"
+  ],
+  "sample_rows": [
+    {
+      "CódigoBarrasDoParticipante": "TCGA-06-0675",
+      "CódigoBarrasDaAmostra": "TCGA-06-0675-11A",
+      "CódigoBarrasDaAliquota": "TCGA-06-0675-11A-32R-A36C-13",
+      "CódigoDeLetraDoTipoDeAmostra": "NT",
+      "TipoDeAmostra": "Solid Tissue Normal",
+      "Estudo": "GBM",
+      "ID": "hsa-miR-655-3p",
+      "miRNAexpr": 29.608492,
+      "Corrigido": "Corrected"
+    },
+    {
+      "CódigoBarrasDoParticipante": "TCGA-06-0675",
+      "CódigoBarrasDaAmostra": "TCGA-06-0675-11A",
+      "CódigoBarrasDaAliquota": "TCGA-06-0675-11A-32R-A36C-13",
+      "CódigoDeLetraDoTipoDeAmostra": "NT",
+      "TipoDeAmostra": "Solid Tissue Normal",
+      "Estudo": "GBM",
+      "ID": "hsa-miR-139-5p",
+      "miRNAexpr": 4549.497868,
+      "Corrigido": "Corrected"
+    },
+    {
+      "CódigoBarrasDoParticipante": "TCGA-06-0675",
+      "CódigoBarrasDaAmostra": "TCGA-06-0675-11A",
+      "CódigoBarrasDaAliquota": "TCGA-06-0675-11A-32R-A36C-13",
+      "CódigoDeLetraDoTipoDeAmostra": "NT",
+      "TipoDeAmostra": "Solid Tissue Normal",
+      "Estudo": "GBM",
+      "ID": "hsa-miR-202-5p",
+      "miRNAexpr": 0.255246,
+      "Corrigido": "Corrected"
+    },
+    {
+      "CódigoBarrasDoParticipante": "TCGA-06-0675",
+      "CódigoBarrasDaAmostra": "TCGA-06-0675-11A",
+      "CódigoBarrasDaAliquota": "TCGA-06-0675-11A-32R-A36C-13",
+      "CódigoDeLetraDoTipoDeAmostra": "NT",
+      "TipoDeAmostra": "Solid Tissue Normal",
+      "Estudo": "GBM",
+      "ID": "hsa-miR-542-3p",
+      "miRNAexpr": 204.706984,
+      "Corrigido": "Corrected"
+    },
+    {
+      "CódigoBarrasDoParticipante": "TCGA-06-0675",
+      "CódigoBarrasDaAmostra": "TCGA-06-0675-11A",
+      "CódigoBarrasDaAliquota": "TCGA-06-0675-11A-32R-A36C-13",
+      "CódigoDeLetraDoTipoDeAmostra": "NT",
+      "TipoDeAmostra": "Solid Tissue Normal",
+      "Estudo": "GBM",
+      "ID": "hsa-miR-98-3p",
+      "miRNAexpr": 1.276228,
+      "Corrigido": "Corrected"
+    }
+  ]
+}

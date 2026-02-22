@@ -1,0 +1,56 @@
+{
+  "table_name": "pe_to_pathway_v77",
+  "table_fullname": "isb-cgc-bq.reactome_versioned.pe_to_pathway_v77",
+  "column_names": [
+    "Protein-Stabile-ID",
+    "Signalweg-Stabile-ID",
+    "Belegcode"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "pe_stable_id",
+    "pathway_stable_id",
+    "evidence_code"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "Stabile Kennung der Reactome-physischen Entität.",
+    "Stabile Kennung des Reactome-Pfades.",
+    "Code, der den Typ des Nachweises angibt, der die Beziehung zwischen der physischen Entität und dem Pfad unterstützt."
+  ],
+  "sample_rows": [
+    {
+      "pe_stable_id": "R-HSA-904852",
+      "pathway_stable_id": "R-HSA-15869",
+      "evidence_code": "IEA"
+    },
+    {
+      "pe_stable_id": "R-HSA-6786263",
+      "pathway_stable_id": "R-HSA-15869",
+      "evidence_code": "IEA"
+    },
+    {
+      "pe_stable_id": "R-HSA-2311338",
+      "pathway_stable_id": "R-HSA-68875",
+      "evidence_code": "IEA"
+    },
+    {
+      "pe_stable_id": "R-HSA-165978",
+      "pathway_stable_id": "R-HSA-68875",
+      "evidence_code": "IEA"
+    },
+    {
+      "pe_stable_id": "R-HSA-2168081",
+      "pathway_stable_id": "R-HSA-68875",
+      "evidence_code": "IEA"
+    }
+  ]
+}

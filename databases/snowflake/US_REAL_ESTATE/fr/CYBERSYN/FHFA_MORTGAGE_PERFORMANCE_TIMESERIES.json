@@ -1,0 +1,70 @@
+{
+  "sample_rows": [
+    {
+      "GEO_ID": "geoId/17",
+      "VARIABLE": "Percent_30_or_60_Days_Past_Due_Date_Other Conventional Market",
+      "NOM_DE_VARIABLE": "Percent 30 or 60 Days Past Due Date - Other Conventional Market",
+      "DATE": "2024-03-31",
+      "VALEUR": 0.016,
+      "UNITÉ": "Percent"
+    },
+    {
+      "GEO_ID": "geoId/C12940",
+      "VARIABLE": "Percent_90_to_180_Days_Past_Due_Date_Government / Non-Conventional",
+      "NOM_DE_VARIABLE": "Percent 90 to 180 Days Past Due Date - Government / Non-Conventional",
+      "DATE": "2023-12-31",
+      "VALEUR": 0.026000000000000002,
+      "UNITÉ": "Percent"
+    },
+    {
+      "GEO_ID": "geoId/C40140",
+      "VARIABLE": "Percent_90_to_180_Days_Past_Due_Date_Enterprise Acquisitions",
+      "NOM_DE_VARIABLE": "Percent 90 to 180 Days Past Due Date - Enterprise Acquisitions",
+      "DATE": "2024-03-31",
+      "VALEUR": 0.003,
+      "UNITÉ": "Percent"
+    },
+    {
+      "GEO_ID": "geoId/C13820",
+      "VARIABLE": "Percent_in_Forbearance_Government / Non-Conventional",
+      "NOM_DE_VARIABLE": "Percent in Forbearance - Government / Non-Conventional",
+      "DATE": "2022-12-31",
+      "VALEUR": 0.013999999999999999,
+      "UNITÉ": "Percent"
+    },
+    {
+      "GEO_ID": "geoId/56",
+      "VARIABLE": "Percent_90_to_180_Days_Past_Due_Date_Other Conventional Market",
+      "NOM_DE_VARIABLE": "Percent 90 to 180 Days Past Due Date - Other Conventional Market",
+      "DATE": "2023-12-31",
+      "VALEUR": 0.003,
+      "UNITÉ": "Percent"
+    }
+  ],
+  "table_name": "FHFA_MORTGAGE_PERFORMANCE_TIMESERIES",
+  "table_fullname": "US_REAL_ESTATE.CYBERSYN.FHFA_MORTGAGE_PERFORMANCE_TIMESERIES",
+  "column_names": [
+    "DATE",
+    "UNITÉ",
+    "GEO_ID",
+    "NOM_DE_VARIABLE",
+    "VARIABLE",
+    "VALEUR"
+  ],
+  "column_types": [
+    "DATE",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "FLOAT"
+  ],
+  "description": [
+    "Date associée à la valeur",
+    "Unité de mesure pour la variable (par exemple, Pourcentage)",
+    "Un identifiant géographique unique pouvant être joint aux tables `geography_index`/`relationships`",
+    "Description lisible par l'homme pour la variable",
+    "Un identifiant unique pour une variable pouvant être joint à la table `attributes` pour le filtrage",
+    "La valeur numérique rapportée pour la variable et la date"
+  ]
+}

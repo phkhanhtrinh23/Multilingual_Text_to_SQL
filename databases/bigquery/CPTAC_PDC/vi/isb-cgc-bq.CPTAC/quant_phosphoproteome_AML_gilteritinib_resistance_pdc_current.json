@@ -1,0 +1,116 @@
+{
+  "table_name": "quant_phosphoproteome_AML_gilteritinib_resistance_pdc_current",
+  "table_fullname": "isb-cgc-bq.CPTAC.quant_phosphoproteome_AML_gilteritinib_resistance_pdc_current",
+  "column_names": [
+    "ID_trường_hợp",
+    "mã mẫu",
+    "Mã mẫu",
+    "ID người gửi mẫu",
+    "id_đặc_tả_chạy_aliquot",
+    "Tên nghiên cứu",
+    "tỷ lệ log2 hàm lượng protein",
+    "Mã RefSeq",
+    "địa điểm fosforyl"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "Mã trường hợp",
+    "Mã mẫu",
+    "mã aliquot",
+    "Mã người nộp mẫu",
+    "Mã siêu dữ liệu chạy phân lô",
+    "tên nghiên cứu",
+    "tỷ lệ log2 lượng protein",
+    "Mã RefSeq",
+    "địa điểm tri-phốt"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "Định danh duy nhất liên quan đến một bệnh nhân cụ thể (ví dụ: 24cb0fcb-63d6-11e8-bcf1-0a2705229b82)",
+    "Định danh PDC duy nhất cho mẫu này (ví dụ e8d83eb9-693a-11ea-b1fd-0aad30af8a83)",
+    "Định danh PDC duy nhất cho mẫu này (ví dụ: e8db124a-693a-11ea-b1fd-0aad30af8a83)",
+    "ID người nộp aliquot được gán bởi chương trình (ví dụ: T14)",
+    "Định danh duy nhất aliquot dựa trên cách nó được sử dụng trong thí nghiệm (dựa trên chất đánh dấu và/hoặc bản sao sinh học).",
+    "Tên nghiên cứu (ví dụ: Nghiên cứu Thí điểm Ung thư Não Trẻ - Phosphoproteome)",
+    "Tỷ lệ log trung bình của ion báo cáo mẫu so với tham chiếu chung của các ion peptide liên quan đến gen trong các lần thu thập từ một mẫu sinh học cụ thể.",
+    "Định danh duy nhất được cấp cho một chuỗi trong cơ sở dữ liệu NCBI RefSeq",
+    "Mã chữ đơn và vị trí chuỗi protein của các axit amin đã được fosforyl hóa (ví dụ: t304s310, t59)"
+  ],
+  "sample_rows": [
+    {
+      "Mã trường hợp": "4a4b2172-550c-4dbd-adad-8b3425f3ddea",
+      "Mã mẫu": "baf671ff-e1b6-4cd9-9dfd-5d263db4f5df",
+      "mã aliquot": "e8cd8b54-b66a-47da-879f-f135582ea0f5",
+      "Mã người nộp mẫu": "PTRC_exp12_01",
+      "Mã siêu dữ liệu chạy phân lô": "85a47ee9-272b-49f0-8f06-eb8ee580eb84",
+      "tên nghiên cứu": "AML Gilteritinib Resistance -  Phosphoproteome",
+      "tỷ lệ log2 lượng protein": -0.1025,
+      "Mã RefSeq": "NP_001005751.1",
+      "địa điểm tri-phốt": "s1075"
+    },
+    {
+      "Mã trường hợp": "4a4b2172-550c-4dbd-adad-8b3425f3ddea",
+      "Mã mẫu": "baf671ff-e1b6-4cd9-9dfd-5d263db4f5df",
+      "mã aliquot": "e8cd8b54-b66a-47da-879f-f135582ea0f5",
+      "Mã người nộp mẫu": "PTRC_exp12_01",
+      "Mã siêu dữ liệu chạy phân lô": "85a47ee9-272b-49f0-8f06-eb8ee580eb84",
+      "tên nghiên cứu": "AML Gilteritinib Resistance -  Phosphoproteome",
+      "tỷ lệ log2 lượng protein": -0.132,
+      "Mã RefSeq": "NP_001005751.1",
+      "địa điểm tri-phốt": "s909"
+    },
+    {
+      "Mã trường hợp": "4a4b2172-550c-4dbd-adad-8b3425f3ddea",
+      "Mã mẫu": "baf671ff-e1b6-4cd9-9dfd-5d263db4f5df",
+      "mã aliquot": "e8cd8b54-b66a-47da-879f-f135582ea0f5",
+      "Mã người nộp mẫu": "PTRC_exp12_01",
+      "Mã siêu dữ liệu chạy phân lô": "85a47ee9-272b-49f0-8f06-eb8ee580eb84",
+      "tên nghiên cứu": "AML Gilteritinib Resistance -  Phosphoproteome",
+      "tỷ lệ log2 lượng protein": 0.1474,
+      "Mã RefSeq": "NP_001014436.1",
+      "địa điểm tri-phốt": "t291"
+    },
+    {
+      "Mã trường hợp": "4a4b2172-550c-4dbd-adad-8b3425f3ddea",
+      "Mã mẫu": "baf671ff-e1b6-4cd9-9dfd-5d263db4f5df",
+      "mã aliquot": "e8cd8b54-b66a-47da-879f-f135582ea0f5",
+      "Mã người nộp mẫu": "PTRC_exp12_01",
+      "Mã siêu dữ liệu chạy phân lô": "85a47ee9-272b-49f0-8f06-eb8ee580eb84",
+      "tên nghiên cứu": "AML Gilteritinib Resistance -  Phosphoproteome",
+      "tỷ lệ log2 lượng protein": -0.5073,
+      "Mã RefSeq": "NP_001014972.1",
+      "địa điểm tri-phốt": "s636"
+    },
+    {
+      "Mã trường hợp": "4a4b2172-550c-4dbd-adad-8b3425f3ddea",
+      "Mã mẫu": "baf671ff-e1b6-4cd9-9dfd-5d263db4f5df",
+      "mã aliquot": "e8cd8b54-b66a-47da-879f-f135582ea0f5",
+      "Mã người nộp mẫu": "PTRC_exp12_01",
+      "Mã siêu dữ liệu chạy phân lô": "85a47ee9-272b-49f0-8f06-eb8ee580eb84",
+      "tên nghiên cứu": "AML Gilteritinib Resistance -  Phosphoproteome",
+      "tỷ lệ log2 lượng protein": 0.6132,
+      "Mã RefSeq": "NP_001025006.1",
+      "địa điểm tri-phốt": "s185"
+    }
+  ]
+}

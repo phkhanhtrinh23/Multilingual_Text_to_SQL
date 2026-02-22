@@ -1,0 +1,162 @@
+{
+  "table_name": "mousePhenotypes",
+  "table_fullname": "bigquery-public-data.open_targets_platform.mousePhenotypes",
+  "column_names": [
+    "生物模型",
+    "模型表型类别",
+    "模型表型ID",
+    "模型表型标签",
+    "目标来源ID",
+    "模型中的目标",
+    "模型中目标 Ensembl ID",
+    "模型中目标的MgiId"
+  ],
+  "column_types": [
+    "STRUCT<list ARRAY<STRUCT<element STRUCT<allelicComposition STRING, geneticBackground STRING, id STRING, literature STRUCT<list ARRAY<STRUCT<element STRING>>>>>>>",
+    "STRUCT<list ARRAY<STRUCT<element STRUCT<id STRING, label STRING>>>>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "生物模型",
+    "生物模型列表",
+    "生物模型列表元素",
+    "生物模型列表元素等位基因组成",
+    "生物模型列表元素遗传背景",
+    "生物模型列表元素编号",
+    "生物模型列表条目文献",
+    "生物模型列表-元素-文献列表",
+    "生物模型列表元素文献列表元素",
+    "模型表型类别",
+    "模型表型类别列表",
+    "模型表型类别列表元素",
+    "模型表型类列表元素ID",
+    "模型表型类列表元素标签",
+    "模型表型编号",
+    "模型表型标签",
+    "目标来源ID",
+    "模型目标",
+    "模型中目标 Ensembl ID",
+    "模型目标MGI ID"
+  ],
+  "nested_column_types": [
+    "STRUCT<list ARRAY<STRUCT<element STRUCT<allelicComposition STRING, geneticBackground STRING, id STRING, literature STRUCT<list ARRAY<STRUCT<element STRING>>>>>>>",
+    "ARRAY<STRUCT<element STRUCT<allelicComposition STRING, geneticBackground STRING, id STRING, literature STRUCT<list ARRAY<STRUCT<element STRING>>>>>>",
+    "STRUCT<allelicComposition STRING, geneticBackground STRING, id STRING, literature STRUCT<list ARRAY<STRUCT<element STRING>>>>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+    "ARRAY<STRUCT<element STRING>>",
+    "STRING",
+    "STRUCT<list ARRAY<STRUCT<element STRUCT<id STRING, label STRING>>>>",
+    "ARRAY<STRUCT<element STRUCT<id STRING, label STRING>>>",
+    "STRUCT<id STRING, label STRING>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "sample_rows": [
+    {
+      "生物模型": {
+        "list": "[{'element': {'allelicComposition': 'T/T', 'geneticBackground': 'Not Specified', 'id': 'MGI:2169509', 'literature': {'list': array([{'element': '10617567'}, {'element': '12533796'},\n        {'element': '1218735'}, {'element': '23359409'},\n        {'element': '9383288'}, {'element': '2658196'},\n        {'element': '5906493'}, {'element': '12140191'},\n        {'element': '15384171'}, {'element': '8436292'},\n        {'element': '20809182'}, {'element': '11071760'},\n        {'element': '10723731'}, {'element': '10835400'},\n        {'element': '13575656'}, {'element': '8293872'}], dtype=object)}}}                                                                                                           ]"
+      },
+      "模型表型类别": {
+        "list": "[{'element': {'id': 'MP:0005380', 'label': 'embryo phenotype'}}]"
+      },
+      "模型表型编号": "MP:0004712",
+      "模型表型标签": "notochord degeneration",
+      "目标来源ID": "ENSG00000164458",
+      "模型目标": "T",
+      "模型中目标 Ensembl ID": "ENSMUSG00000062327",
+      "模型目标MGI ID": "MGI:98472"
+    },
+    {
+      "生物模型": {
+        "list": "[{'element': {'allelicComposition': 'T/T', 'geneticBackground': 'Not Specified', 'id': 'MGI:2169509', 'literature': {'list': array([{'element': '10617567'}, {'element': '12533796'},\n        {'element': '1218735'}, {'element': '23359409'},\n        {'element': '9383288'}, {'element': '2658196'},\n        {'element': '5906493'}, {'element': '12140191'},\n        {'element': '15384171'}, {'element': '8436292'},\n        {'element': '20809182'}, {'element': '11071760'},\n        {'element': '10723731'}, {'element': '10835400'},\n        {'element': '13575656'}, {'element': '8293872'}], dtype=object)}}}                                                                                                           ]"
+      },
+      "模型表型类别": {
+        "list": "[{'element': {'id': 'MP:0005376', 'label': 'homeostasis/metabolism phenotype'}}\n {'element': {'id': 'MP:0005385', 'label': 'cardiovascular system phenotype'}}]"
+      },
+      "模型表型编号": "MP:0005244",
+      "模型表型标签": "hemopericardium",
+      "目标来源ID": "ENSG00000164458",
+      "模型目标": "T",
+      "模型中目标 Ensembl ID": "ENSMUSG00000062327",
+      "模型目标MGI ID": "MGI:98472"
+    },
+    {
+      "生物模型": {
+        "list": "[{'element': {'allelicComposition': 'T/T', 'geneticBackground': 'Not Specified', 'id': 'MGI:2169509', 'literature': {'list': array([{'element': '10617567'}, {'element': '12533796'},\n        {'element': '1218735'}, {'element': '23359409'},\n        {'element': '9383288'}, {'element': '2658196'},\n        {'element': '5906493'}, {'element': '12140191'},\n        {'element': '15384171'}, {'element': '8436292'},\n        {'element': '20809182'}, {'element': '11071760'},\n        {'element': '10723731'}, {'element': '10835400'},\n        {'element': '13575656'}, {'element': '8293872'}], dtype=object)}}}                                                                                                           ]"
+      },
+      "模型表型类别": {
+        "list": "[{'element': {'id': 'MP:0005385', 'label': 'cardiovascular system phenotype'}}]"
+      },
+      "模型表型编号": "MP:0012082",
+      "模型表型标签": "delayed heart development",
+      "目标来源ID": "ENSG00000164458",
+      "模型目标": "T",
+      "模型中目标 Ensembl ID": "ENSMUSG00000062327",
+      "模型目标MGI ID": "MGI:98472"
+    },
+    {
+      "生物模型": {
+        "list": "[{'element': {'allelicComposition': 'T/T', 'geneticBackground': 'Not Specified', 'id': 'MGI:2169509', 'literature': {'list': array([{'element': '10617567'}, {'element': '12533796'},\n        {'element': '1218735'}, {'element': '23359409'},\n        {'element': '9383288'}, {'element': '2658196'},\n        {'element': '5906493'}, {'element': '12140191'},\n        {'element': '15384171'}, {'element': '8436292'},\n        {'element': '20809182'}, {'element': '11071760'},\n        {'element': '10723731'}, {'element': '10835400'},\n        {'element': '13575656'}, {'element': '8293872'}], dtype=object)}}}                                                                                                           ]"
+      },
+      "模型表型类别": {
+        "list": "[{'element': {'id': 'MP:0010771', 'label': 'integument phenotype'}}]"
+      },
+      "模型表型编号": "MP:0008854",
+      "模型表型标签": "bleb",
+      "目标来源ID": "ENSG00000164458",
+      "模型目标": "T",
+      "模型中目标 Ensembl ID": "ENSMUSG00000062327",
+      "模型目标MGI ID": "MGI:98472"
+    },
+    {
+      "生物模型": {
+        "list": "[{'element': {'allelicComposition': 'T/T', 'geneticBackground': 'Not Specified', 'id': 'MGI:2169509', 'literature': {'list': array([{'element': '10617567'}, {'element': '12533796'},\n        {'element': '1218735'}, {'element': '23359409'},\n        {'element': '9383288'}, {'element': '2658196'},\n        {'element': '5906493'}, {'element': '12140191'},\n        {'element': '15384171'}, {'element': '8436292'},\n        {'element': '20809182'}, {'element': '11071760'},\n        {'element': '10723731'}, {'element': '10835400'},\n        {'element': '13575656'}, {'element': '8293872'}], dtype=object)}}}                                                                                                           ]"
+      },
+      "模型表型类别": {
+        "list": "[{'element': {'id': 'MP:0005380', 'label': 'embryo phenotype'}}\n {'element': {'id': 'MP:0005378', 'label': 'growth/size/body region phenotype'}}]"
+      },
+      "模型表型编号": "MP:0001698",
+      "模型表型标签": "decreased embryo size",
+      "目标来源ID": "ENSG00000164458",
+      "模型目标": "T",
+      "模型中目标 Ensembl ID": "ENSMUSG00000062327",
+      "模型目标MGI ID": "MGI:98472"
+    }
+  ]
+}

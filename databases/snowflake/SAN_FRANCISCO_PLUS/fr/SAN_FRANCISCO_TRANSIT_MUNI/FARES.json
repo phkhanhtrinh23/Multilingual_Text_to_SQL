@@ -1,0 +1,42 @@
+{
+  "table_name": "FARES",
+  "table_fullname": "SAN_FRANCISCO_PLUS.SAN_FRANCISCO_TRANSIT_MUNI.FARES",
+  "column_names": [
+    "duree_de_transfert",
+    "id_cavalier",
+    "transferts_permis",
+    "methode_de_paiement",
+    "desc_cavalier",
+    "id_tarif",
+    "prix"
+  ],
+  "column_types": [
+    "NUMBER",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "NUMBER"
+  ],
+  "description": [
+    "Spécifie la durée, en secondes, avant l'expiration d'un transfert. Lorsqu'il est utilisé avec une valeur de transfers_permitted de 0, le champ transfer_duration indique combien de temps un ticket est valable pour un tarif où aucun transfert n'est autorisé.",
+    "Identifiant unique d'une catégorie de cavalier. Les catégories de cavaliers sont utilisées pour attribuer des tarifs différents à différents groupes d'individus",
+    "Spécifie le nombre de transferts autorisés sur ce tarif.  -  0 : Aucun transfert n'est autorisé sur ce tarif. -  1 : Un transfert est autorisé sur ce tarif. -  2 : Deux transferts sont autorisés sur ce tarif. -  NULL : Des transferts illimités sont autorisés sur ce tarif.",
+    "Indique quand le tarif doit être payé. Les valeurs suivantes sont valides pour ce champ : -  during : Indique que le tarif est payé lorsque les cavaliers montent à bord -  before : Indique que le tarif doit être payé avant que les cavaliers montent à bord",
+    "Description textuelle de la catégorie de cavalier",
+    "Identifiant unique d'une classe de tarif.",
+    "Contient le prix du tarif, en USD"
+  ],
+  "sample_rows": [
+    {
+      "id_tarif": "5398",
+      "id_cavalier": "2",
+      "desc_cavalier": "Senior",
+      "prix": "3.000000000",
+      "methode_de_paiement": "0",
+      "transferts_permis": null,
+      "duree_de_transfert": 5400
+    }
+  ]
+}

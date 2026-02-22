@@ -1,0 +1,102 @@
+{
+  "table_name": "DNA_METHYLATION_CHR2",
+  "table_fullname": "TCGA_HG38_DATA_V0.TCGA_HG38_DATA_V0.DNA_METHYLATION_CHR2",
+  "column_names": [
+    "Beta_Wert",
+    "Aliquot_GDC_ID",
+    "Fall_GDC_ID",
+    "Plattform",
+    "Aliquot_Scanbarcodes",
+    "Proben_Scanbarcodes",
+    "Proben_GDC_ID",
+    "Datei_GDC_ID",
+    "Fall_Scanbarcodes",
+    "Sondier_ID"
+  ],
+  "column_types": [
+    "FLOAT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Normalisierter DNA-Methylierungs-Beta-Wert (zwischen 0 und 1, wobei 0 eine vollständig un-methylierte und 1 eine vollständig methylierte `DNA` angibt)",
+    "",
+    "",
+    "Plattformname, der zur Generierung dieser Daten verwendet wurde -- entweder `HumanMethylation450` oder `HumanMethylation27`",
+    "Originaler TCGA-Aliquot-Barcode, z. B. `TCGA-12-1089-01A-01D-0517-01`",
+    "Originaler TCGA-Proben-Barcode, z. B. `TCGA-12-1089-01A`",
+    "",
+    "",
+    "Originaler TCGA-Fall-Barcode, z. B. `TCGA-12-1089`  --  beachten Sie, dass jeder Fall in der Regel eine primäre-Tumor-Probe und eine passende-Normale (Blut oder angrenzendes Gewebe)-Probe hat; bitte verweisen Sie auf die TCGA-Biospecimen-Tabelle für weitere Details",
+    "Eindeutiger `Sonnenstrahl`-Identifikator (z. B. `cg04676771`) aus dem Illumina-Human-Methylierungs-Array -- bitte verweisen Sie auf die Annotation-Tabelle (`isb-cgc:platform_reference.methylation_annotation`) für weitere Details zu einem bestimmten `Sonnenstrahl`"
+  ],
+  "sample_rows": [
+    {
+      "Fall_Scanbarcodes": "TCGA-12-1601",
+      "Proben_Scanbarcodes": "TCGA-12-1601-01A",
+      "Aliquot_Scanbarcodes": "TCGA-12-1601-01A-01D-0595-05",
+      "Sondier_ID": "cg03776464",
+      "Beta_Wert": 0.0106886050093194,
+      "Plattform": null,
+      "Datei_GDC_ID": "5cd6f2f6-7278-4757-be8e-a8ae3a7a81d3",
+      "Fall_GDC_ID": "cc1459be-de8f-482e-9efe-65937db9dc45",
+      "Proben_GDC_ID": "b02fd704-03a6-44c4-b224-f5f457e733f3",
+      "Aliquot_GDC_ID": "aa761ca4-e8f0-4a43-8262-bd84eedb459a"
+    },
+    {
+      "Fall_Scanbarcodes": "TCGA-12-1601",
+      "Proben_Scanbarcodes": "TCGA-12-1601-01A",
+      "Aliquot_Scanbarcodes": "TCGA-12-1601-01A-01D-0595-05",
+      "Sondier_ID": "cg02972551",
+      "Beta_Wert": 0.0163420339283888,
+      "Plattform": null,
+      "Datei_GDC_ID": "5cd6f2f6-7278-4757-be8e-a8ae3a7a81d3",
+      "Fall_GDC_ID": "cc1459be-de8f-482e-9efe-65937db9dc45",
+      "Proben_GDC_ID": "b02fd704-03a6-44c4-b224-f5f457e733f3",
+      "Aliquot_GDC_ID": "aa761ca4-e8f0-4a43-8262-bd84eedb459a"
+    },
+    {
+      "Fall_Scanbarcodes": "TCGA-12-1601",
+      "Proben_Scanbarcodes": "TCGA-12-1601-01A",
+      "Aliquot_Scanbarcodes": "TCGA-12-1601-01A-01D-0595-05",
+      "Sondier_ID": "cg21859434",
+      "Beta_Wert": 0.254199199399332,
+      "Plattform": null,
+      "Datei_GDC_ID": "5cd6f2f6-7278-4757-be8e-a8ae3a7a81d3",
+      "Fall_GDC_ID": "cc1459be-de8f-482e-9efe-65937db9dc45",
+      "Proben_GDC_ID": "b02fd704-03a6-44c4-b224-f5f457e733f3",
+      "Aliquot_GDC_ID": "aa761ca4-e8f0-4a43-8262-bd84eedb459a"
+    },
+    {
+      "Fall_Scanbarcodes": "TCGA-32-2498",
+      "Proben_Scanbarcodes": "TCGA-32-2498-01A",
+      "Aliquot_Scanbarcodes": "TCGA-32-2498-01A-01D-1228-05",
+      "Sondier_ID": "cg06983551",
+      "Beta_Wert": 0.161494430738385,
+      "Plattform": null,
+      "Datei_GDC_ID": "6db4187c-5e48-45ac-8ae3-6b55198ff65a",
+      "Fall_GDC_ID": "0d5e5a6b-5113-43f2-836c-776207b21b56",
+      "Proben_GDC_ID": "58af038c-bd40-4123-a6d3-11061f0d38e1",
+      "Aliquot_GDC_ID": "6e65d823-0d94-4d26-b60a-2f168cbe2ba8"
+    },
+    {
+      "Fall_Scanbarcodes": "TCGA-32-2498",
+      "Proben_Scanbarcodes": "TCGA-32-2498-01A",
+      "Aliquot_Scanbarcodes": "TCGA-32-2498-01A-01D-1228-05",
+      "Sondier_ID": "cg05656364",
+      "Beta_Wert": 0.598420210815746,
+      "Plattform": null,
+      "Datei_GDC_ID": "6db4187c-5e48-45ac-8ae3-6b55198ff65a",
+      "Fall_GDC_ID": "0d5e5a6b-5113-43f2-836c-776207b21b56",
+      "Proben_GDC_ID": "58af038c-bd40-4123-a6d3-11061f0d38e1",
+      "Aliquot_GDC_ID": "6e65d823-0d94-4d26-b60a-2f168cbe2ba8"
+    }
+  ]
+}

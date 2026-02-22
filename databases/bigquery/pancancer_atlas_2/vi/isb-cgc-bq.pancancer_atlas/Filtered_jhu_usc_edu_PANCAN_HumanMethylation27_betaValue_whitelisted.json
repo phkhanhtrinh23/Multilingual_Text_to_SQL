@@ -1,0 +1,101 @@
+{
+  "table_name": "Filtered_jhu_usc_edu_PANCAN_HumanMethylation27_betaValue_whitelisted",
+  "table_fullname": "isb-cgc-bq.pancancer_atlas.Filtered_jhu_usc_edu_PANCAN_HumanMethylation27_betaValue_whitelisted",
+  "column_names": [
+    "Mã vạch người tham gia",
+    "Mã vạch mẫu",
+    "Mã vạch mẫu",
+    "Mã chữ loại mẫu",
+    "Loại mẫu",
+    "Nghiên cứu",
+    "Mã",
+    "Beta"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64"
+  ],
+  "nested_column_names": [
+    "Mã vạch Thành viên",
+    "Mã vạch mẫu",
+    "Mã vạch mẫu",
+    "Mã chữ loại mẫu",
+    "Loại mẫu",
+    "Nghiên cứu",
+    "Mã",
+    "Bêta"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64"
+  ],
+  "description": [
+    "Mã vạch TCGA cho người tham gia nghiên cứu, ví dụ TCGA-02-0001",
+    "Mã vạch của mẫu sinh học, ví dụ TCGA-13-1489-02A",
+    "Mã vạch aliquot TCGA, ví dụ TCGA-12-1089-01A-01D-0517-28",
+    "Mã chữ cái của loại mẫu sử dụng tiêu chuẩn TCGA, ví dụ TPN, EBV. Danh sách đầy đủ có sẵn tại https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/sample-type-codes",
+    "Mẫu bình thường từ máu  \nKhối u rắn gốc  \nMẫu mô rắn bình thường  \nKhối u rắn tái phát  \nKhối u chuyển phát  \nThêm - Khối u gốc mới  \nUng thư gốc từ máu - Máu ngoại vi  \nMẫu tế bào miệng bình thường  \nThêm - Khối u chuyển phát  \nMẫu gân xương bình thường",
+    "Tên viết tắt của nghiên cứu TCGA, ví dụ LAML. Danh sách đầy đủ có sẵn tại https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/tcga-study-abbreviations",
+    "Định danh duy nhất của chuột dò (ví dụ cg04676771) từ bảng xét methylation người Illumina – vui lòng tham khảo bảng chú thích (isb-cgc-bq.annotations.methylation_annotation_hg19_illumina_current) để biết thêm chi tiết về bất kỳ chuột dò cụ thể nào.",
+    "Giá trị beta chuẩn hoá của độ methyl hóa DNA (giữa 0 và 1, trong đó 0 biểu thị hoàn toàn chưa methyl và 1 biểu thị hoàn toàn methyl)."
+  ],
+  "sample_rows": [
+    {
+      "Mã vạch Thành viên": "TCGA-01-0628",
+      "Mã vạch mẫu": "TCGA-01-0628-11A-01D-0383-05",
+      "Mã chữ loại mẫu": "NT",
+      "Loại mẫu": "Solid Tissue Normal",
+      "Nghiên cứu": "OV",
+      "Mã": "cg03882305",
+      "Bêta": 0.20754
+    },
+    {
+      "Mã vạch Thành viên": "TCGA-01-0628",
+      "Mã vạch mẫu": "TCGA-01-0628-11A-01D-0383-05",
+      "Mã chữ loại mẫu": "NT",
+      "Loại mẫu": "Solid Tissue Normal",
+      "Nghiên cứu": "OV",
+      "Mã": "cg05523254",
+      "Bêta": 0.0054853
+    },
+    {
+      "Mã vạch Thành viên": "TCGA-01-0628",
+      "Mã vạch mẫu": "TCGA-01-0628-11A-01D-0383-05",
+      "Mã chữ loại mẫu": "NT",
+      "Loại mẫu": "Solid Tissue Normal",
+      "Nghiên cứu": "OV",
+      "Mã": "cg04798158",
+      "Bêta": 0.0145277
+    },
+    {
+      "Mã vạch Thành viên": "TCGA-01-0628",
+      "Mã vạch mẫu": "TCGA-01-0628-11A-01D-0383-05",
+      "Mã chữ loại mẫu": "NT",
+      "Loại mẫu": "Solid Tissue Normal",
+      "Nghiên cứu": "OV",
+      "Mã": "cg06069731",
+      "Bêta": 0.0129045
+    },
+    {
+      "Mã vạch Thành viên": "TCGA-01-0628",
+      "Mã vạch mẫu": "TCGA-01-0628-11A-01D-0383-05",
+      "Mã chữ loại mẫu": "NT",
+      "Loại mẫu": "Solid Tissue Normal",
+      "Nghiên cứu": "OV",
+      "Mã": "cg00943245",
+      "Bêta": 0.882652
+    }
+  ]
+}

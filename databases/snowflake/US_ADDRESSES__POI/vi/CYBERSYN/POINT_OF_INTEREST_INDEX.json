@@ -1,0 +1,54 @@
+{
+  "sample_rows": [
+    {
+      "Mã điểm tham quan": "08f2aad4446520ec03e1f001780831d4",
+      "Tên điểm tham quan": "Bk Rentals",
+      "Danh mục chính": "Party Equipment Rental",
+      "Danh mục thay thế": "[\n  \"Party Supply\",\n  \"Retail\"\n]"
+    },
+    {
+      "Mã điểm tham quan": "08f44a112860108a03b33ba25948478f",
+      "Tên điểm tham quan": "Amethyst Law Group",
+      "Danh mục chính": "Lawyer",
+      "Danh mục thay thế": null
+    },
+    {
+      "Mã điểm tham quan": "08f2986ab4d3447503b83560c1fe48ad",
+      "Tên điểm tham quan": "Iglesia Cristiana Mi Refugio",
+      "Danh mục chính": "Church Cathedral",
+      "Danh mục thay thế": "[\n  \"Religious Organization\"\n]"
+    },
+    {
+      "Mã điểm tham quan": "08f2832b99aed21203072dc6cbb35c3b",
+      "Tên điểm tham quan": "Jass Gardening",
+      "Danh mục chính": null,
+      "Danh mục thay thế": null
+    },
+    {
+      "Mã điểm tham quan": "08f2a33cd328310e0331f178e0caa82b",
+      "Tên điểm tham quan": "Pampered By G",
+      "Danh mục chính": null,
+      "Danh mục thay thế": null
+    }
+  ],
+  "table_name": "POINT_OF_INTEREST_INDEX",
+  "table_fullname": "US_ADDRESSES__POI.CYBERSYN.POINT_OF_INTEREST_INDEX",
+  "column_names": [
+    "Danh mục chính",
+    "Tên điểm tham quan",
+    "Danh mục thay thế",
+    "Mã điểm tham quan"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "ARRAY",
+    "TEXT"
+  ],
+  "description": [
+    "Thể loại chính hoặc lớp của địa điểm cho POI.",
+    "Tên của địa điểm, người bán hàng hoặc địa danh cho điểm tham quan cụ thể.",
+    "Các danh mục thay thế của POI. Một POI có thể phù hợp với nhiều danh mục (ví dụ: Restaurant, Burger Restaurant, Fast Food Restaurant), trong trường hợp đó một danh mục sẽ được ghi nhận là CATEGORY_MAIN và các danh mục còn lại sẽ được ghi nhận trong danh sách dưới CATEGORY_ALTERNATE.",
+    "Một mã định danh duy nhất cho một điểm quan tâm (chẳng hạn như công viên, chuỗi thức ăn nhanh, khách sạn, v.v.) dựa trên mô tả và vị trí của nó. Điều này có thể được kết nối với bảng POINT_OF_INTEREST_ADDRESSES_RELATIONSHIPS, có thể được sử dụng để liên kết các điểm quan tâm với địa chỉ."
+  ]
+}

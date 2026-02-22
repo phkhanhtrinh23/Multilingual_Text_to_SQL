@@ -1,0 +1,51 @@
+{
+  "table_name": "structural_alert_sets_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.structural_alert_sets_30",
+  "column_names": [
+    "alert_set_id",
+    "set_name",
+    "Priorität"
+  ],
+  "column_types": [
+    "INT64",
+    "STRING",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "Alarmgruppen-ID",
+    "Name der Alarmgruppe",
+    "Priorität"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "STRING",
+    "INT64"
+  ],
+  "description": [
+    "Eindeutige Kennung für das strukturelle Alert-Set",
+    "Name (oder Ursprung) des strukturellen Alert-Sets",
+    "Der dem strukturellen Alert-Set zugewiesene Priorität für die Anzeige in der ChEMBL-Oberfläche (Prioritäten >=4 werden standardmäßig angezeigt)"
+  ],
+  "sample_rows": [
+    {
+      "Alarmgruppen-ID": 2,
+      "Name der Alarmgruppe": "Dundee",
+      "Priorität": 4
+    },
+    {
+      "Alarmgruppen-ID": 3,
+      "Name der Alarmgruppe": "BMS",
+      "Priorität": 7
+    },
+    {
+      "Alarmgruppen-ID": 4,
+      "Name der Alarmgruppe": "PAINS",
+      "Priorität": 6
+    },
+    {
+      "Alarmgruppen-ID": 6,
+      "Name der Alarmgruppe": "MLSMR",
+      "Priorität": 3
+    }
+  ]
+}

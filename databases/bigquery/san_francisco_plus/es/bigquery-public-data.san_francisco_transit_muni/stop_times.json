@@ -1,0 +1,116 @@
+{
+  "table_name": "stop_times",
+  "table_fullname": "bigquery-public-data.san_francisco_transit_muni.stop_times",
+  "column_names": [
+    "id_parada",
+    "id_viaje",
+    "secuencia_de_paradas",
+    "hora_llegada",
+    "llega al día siguiente",
+    "hora de salida",
+    "salida_día_siguiente",
+    "tipo de entrega",
+    "momento_exacto"
+  ],
+  "column_types": [
+    "INT64",
+    "INT64",
+    "INT64",
+    "TIME",
+    "BOOL",
+    "TIME",
+    "BOOL",
+    "STRING",
+    "BOOL"
+  ],
+  "nested_column_names": [
+    "id_parada",
+    "id de viaje",
+    "secuencia de parada",
+    "tiempo de llegada",
+    "llega el día siguiente",
+    "Hora de salida",
+    "sale_al_siguiente_dia",
+    "tipo de entrega",
+    "punto_exacto"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "INT64",
+    "INT64",
+    "TIME",
+    "BOOL",
+    "TIME",
+    "BOOL",
+    "STRING",
+    "BOOL"
+  ],
+  "description": [
+    "Identifica la parada atendida. Varias rutas pueden usar la misma parada.",
+    "Identifica un viaje. Múltiples viajes pueden tener la misma parada.",
+    "Identifica el orden de las paradas para un viaje en particular. Los valores de stop_sequence deben aumentar a lo largo del viaje, pero no es necesario que sean consecutivos.",
+    "Especifica la hora de llegada programada en una parada específica para un viaje específico en una ruta.",
+    "Varias rutas comienzan antes de la medianoche, con el servicio continuando durante toda la noche. Esta variable especifica si el arrival_time ocurre después de la medianoche del día siguiente al día programado. Esto es útil para identificar rutas que comienzan un día y terminan al día siguiente.",
+    "Especifica la hora de salida programada en una parada específica para un viaje concreto en una ruta.",
+    "Varios itinerarios comienzan antes de la medianoche, con el servicio continuando durante toda la noche. Esta variable indica si la hora de salida ocurre después de la medianoche del día siguiente al día programado.  \n\nEsto es útil para identificar rutas que comienzan un día y terminan al día siguiente.",
+    "Indica si los pasajeros son dejados en una parada como parte del horario normal o si el desembarque en la parada no está disponible. Opciones disponibles:  \n- regular  \n- ninguno  \n- teléfono (indica que debe llamar a la agencia para organizar el desembarque)  \n- conductor (indica que debe coordinar con el conductor para organizar el desembarque)",
+    "Indica si los horarios de llegada y salida especificados para una parada son estrictamente cumplidos por el vehículo de tránsito, o si, en su lugar, son tiempos aproximados o interpolados."
+  ],
+  "sample_rows": [
+    {
+      "id_parada": 15759,
+      "id de viaje": 8951406,
+      "secuencia de parada": 51,
+      "tiempo de llegada": "06:54:55",
+      "llega el día siguiente": false,
+      "Hora de salida": "06:54:55",
+      "sale_al_siguiente_dia": false,
+      "tipo de entrega": "regular",
+      "punto_exacto": false
+    },
+    {
+      "id_parada": 15761,
+      "id de viaje": 8951406,
+      "secuencia de parada": 52,
+      "tiempo de llegada": "06:55:33",
+      "llega el día siguiente": false,
+      "Hora de salida": "06:55:33",
+      "sale_al_siguiente_dia": false,
+      "tipo de entrega": "regular",
+      "punto_exacto": false
+    },
+    {
+      "id_parada": 15763,
+      "id de viaje": 8951406,
+      "secuencia de parada": 53,
+      "tiempo de llegada": "06:56:04",
+      "llega el día siguiente": false,
+      "Hora de salida": "06:56:04",
+      "sale_al_siguiente_dia": false,
+      "tipo de entrega": "regular",
+      "punto_exacto": false
+    },
+    {
+      "id_parada": 15828,
+      "id de viaje": 8951406,
+      "secuencia de parada": 54,
+      "tiempo de llegada": "06:57:00",
+      "llega el día siguiente": false,
+      "Hora de salida": "06:57:00",
+      "sale_al_siguiente_dia": false,
+      "tipo de entrega": "regular",
+      "punto_exacto": true
+    },
+    {
+      "id_parada": 15759,
+      "id de viaje": 8951253,
+      "secuencia de parada": 51,
+      "tiempo de llegada": "06:54:55",
+      "llega el día siguiente": false,
+      "Hora de salida": "06:54:55",
+      "sale_al_siguiente_dia": false,
+      "tipo de entrega": "regular",
+      "punto_exacto": false
+    }
+  ]
+}

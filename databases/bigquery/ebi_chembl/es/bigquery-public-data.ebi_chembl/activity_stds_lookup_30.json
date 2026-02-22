@@ -1,0 +1,86 @@
+{
+  "table_name": "activity_stds_lookup_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.activity_stds_lookup_30",
+  "column_names": [
+    "ID de actividad estándar",
+    "tipo estándar",
+    "definición",
+    "unidades_estándar",
+    "rango mínimo normal",
+    "límite superior del rango normal"
+  ],
+  "column_types": [
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "FLOAT64"
+  ],
+  "nested_column_names": [
+    "id_actividad_estándar",
+    "Tipo estándar",
+    "definición",
+    "unidades_estándar",
+    "valor mínimo del rango normal",
+    "máximo del rango normal"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "FLOAT64"
+  ],
+  "description": [
+    "Clave primaria.",
+    "El standard_type al que se han convertido otros published_types en la tabla de actividades.",
+    "Una descripción/definición de standard_type.",
+    "Las unidades que se aplican a este standard_type y a las que se convierten otras published_units. Nota: un standard_type puede tener más de una standard_unit permitida y, por lo tanto, varias filas en esta tabla.",
+    "El valor más bajo para este tipo de actividad que probablemente sea genuino. Esto es solo una aproximación, por lo que pueden existir valores genuinos más bajos, pero puede ser deseable validar estos antes de usarlos. Para un standard_type/unidades dado, los valores en la tabla de actividades por debajo de este umbral se marcan con un data_validity_comment de 'Outside typical range'.",
+    "El valor más alto para este tipo de actividad que probablemente sea genuino.  \nEsta es solo una aproximación, por lo que pueden existir valores genuinos más altos, pero puede resultar deseable validar estos antes de usarlos.  \nPara un standard_type/units determinado, los valores en la tabla de actividades que superan este umbral se marcan con un data_validity_comment de 'Outside typical range'."
+  ],
+  "sample_rows": [
+    {
+      "id_actividad_estándar": 81,
+      "Tipo estándar": "HCT",
+      "definición": "The percentage of a whole blood specimen that is composed of red blood cells (erythrocytes).",
+      "unidades_estándar": "%",
+      "valor mínimo del rango normal": null,
+      "máximo del rango normal": null
+    },
+    {
+      "id_actividad_estándar": 95,
+      "Tipo estándar": "MCHC",
+      "definición": "A quantitative measurement of the mean amount of hemoglobin per erythrocytes in a specified volume of a biological specimen.",
+      "unidades_estándar": "%",
+      "valor mínimo del rango normal": null,
+      "máximo del rango normal": null
+    },
+    {
+      "id_actividad_estándar": 103,
+      "Tipo estándar": "EOSLE",
+      "definición": "A relative measurement (ratio or percentage) of the eosinophils to leukocytes in a biological specimen.",
+      "unidades_estándar": "%",
+      "valor mínimo del rango normal": null,
+      "máximo del rango normal": null
+    },
+    {
+      "id_actividad_estándar": 104,
+      "Tipo estándar": "LYMLE",
+      "definición": "A relative measurement (ratio or percentage) of the lymphocytes to leukocytes in a biological specimen.",
+      "unidades_estándar": "%",
+      "valor mínimo del rango normal": null,
+      "máximo del rango normal": null
+    },
+    {
+      "id_actividad_estándar": 106,
+      "Tipo estándar": "BASOLE",
+      "definición": "A relative measurement (ratio or percentage) of the basophils to leukocytes in a biological specimen.",
+      "unidades_estándar": "%",
+      "valor mínimo del rango normal": null,
+      "máximo del rango normal": null
+    }
+  ]
+}

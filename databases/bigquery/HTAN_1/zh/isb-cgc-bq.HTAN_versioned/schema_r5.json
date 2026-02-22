@@ -1,0 +1,121 @@
+{
+  "table_name": "schema_r5",
+  "table_fullname": "isb-cgc-bq.HTAN_versioned.schema_r5",
+  "column_names": [
+    "属性",
+    "描述",
+    "有效值",
+    "依赖于",
+    "属性",
+    "必填",
+    "父级",
+    "依赖组件",
+    "来源",
+    "验证规则"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "属性",
+    "描述",
+    "有效值",
+    "依赖于",
+    "属性",
+    "必填",
+    "父母",
+    "依赖组件",
+    "来源",
+    "验证规则"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "我们想将测定的关键特征 X、相关协议或下游数据记录为元数据特征。",
+    "请提供属性X的定义或包含该定义的参考资料。最好能附上来源本体链接或代码。若最终描述尚未完成，请留空。",
+    "属性 X 的取值范围：可赋值给属性 X 的值；这些值可以是或包含其他属性（即列在 “Attribute” 列中的属性）自身。以逗号分隔。若未提供任何值，则任何非空值对属性 X 都是有效的。",
+    "若指定属性 X，则需记录为元数据特征的重要特性（如有）。这些特性可以是属性本身或属性的属性（即它们列在“Attribute”列和/或“Properties”列下）。用逗号分隔。",
+    "与某个属性相关的属性；请注意，属性本身也可能是属性（即列在“属性”列下）。",
+    "请指明属性 X 的值是否默认必填或可选。设置为 TRUE 或 FALSE。如果为 TRUE，数据贡献者必须为属性 X 提供一个值（例如，在“Valid Values”中指定的有效值之一）。如果为 FALSE，数据贡献者可以在“Not Applicable”或“Not Specified”之间选择作为属性 X 的值。请注意，某些属性默认可能不需要填写（即“Required”设置为 FALSE），但它们可能因属于其他必填属性而被视为必填（例如参见 ERCC）。",
+    "此属性的父类——即将此属性“挂钩”到现有模式的地方。请注意，这假设只有一个现有模式/一个 json-ld 模式上下文；如果我们需要支持跨多个模式/JSON‑LD 上下文定义的类、属性、属性，则需要添加一个 schema / context 列，用来指定每个属性的上下文，若与该属性父类的上下文不同。",
+    "每个组件都是一个高级本体类，其中实体/对象被分类/组件化；一个组件本身是一个需要在模式中定义的实体。",
+    "该术语描述的来源，通常是一个 URI。本体可以用作来源。例如，Library Construction Method 的来源是 http://purl.obolibrary.org/obo/OBI_0000711",
+    "在“有效值”列中允许什么类型的数据？仅当该行没有提供有效值时相关，例如字符串、列表、整数。"
+  ],
+  "sample_rows": [
+    {
+      "属性": null,
+      "描述": "Single-cell RNA-seq [EFO_0008913]",
+      "有效值": null,
+      "依赖于": "Component, Filename, File Format, HTAN Parent Biospecimen ID, HTAN Data File ID, Nucleic Acid Source, Cryopreserved Cells in Sample, Single Cell Isolation Method, Dissociation Method, Library Construction Method, Read Indicator, Read1, Read2, End Bias, Reverse Transcription Primer, Spike In, Sequencing Platform, Total Number of Input Cells, Input Cells and Nuclei, Library Preparation Days from Index, Single Cell Dissociation Days from Index, Sequencing Library Construction Days from Index, Nucleic Acid Capture Days from Index, Protocol Link, Technical Replicate Group",
+      "必填": "FALSE",
+      "父母": "Sequencing",
+      "依赖组件": "Biospecimen",
+      "来源": "http://www.ebi.ac.uk/efo/EFO_0008913",
+      "验证规则": null
+    },
+    {
+      "属性": null,
+      "描述": "Bulk RNA-seq [EFO_0003738]",
+      "有效值": null,
+      "依赖于": "Component, Filename, File Format, HTAN Parent Biospecimen ID, HTAN Data File ID, Library Layout, Read Indicator, Nucleic Acid Source, Micro-region Seq Platform, ROI Tag, Sequencing Platform, Sequencing Batch ID, Read Length, Library Selection Method, Library Preparation Kit Name, Library Preparation Kit Vendor, Library Preparation Kit Version, Library Preparation Days from Index, Spike In, Adapter Name, Adapter Sequence, Base Caller Name, Base Caller Version, Flow Cell Barcode, Fragment Maximum Length, Fragment Mean Length, Fragment Minimum Length, Fragment Standard Deviation Length, Lane Number, Library Strand, Multiplex Barcode, Size Selection Range, Target Depth, To Trim Adapter Sequence, Transcript Integrity Number, RIN, DV200, Adapter Content, Basic Statistics, Encoding, Kmer Content, Overrepresented Sequences, Per Base N Content, Per Base Sequence Content, Per Base Sequence Quality, Per Sequence GC Content, Per Sequence Quality Score, Per Tile Sequence Quality, Percent GC Content, Sequence Duplication Levels, Sequence Length Distribution, Total Reads, QC Workflow Type, QC Workflow Version, QC Workflow Link",
+      "必填": "FALSE",
+      "父母": "Sequencing",
+      "依赖组件": "Biospecimen",
+      "来源": "http://www.ebi.ac.uk/efo/EFO_0003738",
+      "验证规则": null
+    },
+    {
+      "属性": null,
+      "描述": "A method for adding extra channels of information to cells by running single-cell gene expression in parallel with other assays [https://support.10xgenomics.com/single-cell-gene-expression/software/pipelines/latest/feature-bc]",
+      "有效值": null,
+      "依赖于": "Feature Reference Id",
+      "必填": "FALSE",
+      "父母": "scRNA-seq Level 1",
+      "依赖组件": null,
+      "来源": "https://support.10xgenomics.com/single-cell-gene-expression/software/pipelines/latest/feature-bc",
+      "验证规则": null
+    },
+    {
+      "属性": null,
+      "描述": "A molecular derivative (I.e. RNA / DNA / Protein Lysate) obtained from a specimen",
+      "有效值": null,
+      "依赖于": "Analyte Type, Fixation Duration, Slide Charge Type, Section Thickness Value, Sectioning Days from Index, Shipping Condition Type, Ischemic Time, Ischemic Temperature",
+      "必填": "FALSE",
+      "父母": "Biospecimen",
+      "依赖组件": null,
+      "来源": "https://cadsr.cancer.gov/onedata/dmdirect/NIH/NCI/CO/CDEDD?filter=CDEDD.ITEM_ID=2513915&version=2.0",
+      "验证规则": null
+    },
+    {
+      "属性": null,
+      "描述": "Numeric value for the total amount of sample or specimen",
+      "有效值": null,
+      "依赖于": "Total Volume Unit",
+      "必填": "FALSE",
+      "父母": "Biospecimen",
+      "依赖组件": null,
+      "来源": "https://cadsr.cancer.gov/onedata/dmdirect/NIH/NCI/CO/CDEDD?filter=CDEDD.ITEM_ID=3005019&version=1.0",
+      "验证规则": null
+    }
+  ]
+}

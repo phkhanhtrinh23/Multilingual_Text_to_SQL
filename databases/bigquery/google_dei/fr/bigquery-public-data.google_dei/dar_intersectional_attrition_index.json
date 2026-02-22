@@ -1,0 +1,106 @@
+{
+  "table_name": "dar_intersectional_attrition_index",
+  "table_fullname": "bigquery-public-data.google_dei.dar_intersectional_attrition_index",
+  "column_names": [
+    "effectif",
+    "annee_rapport",
+    "sexe_us",
+    "race_asiatique",
+    "race_noire",
+    "race_hispanique_latinx",
+    "race_autochtone_americaine",
+    "race_blanche"
+  ],
+  "column_types": [
+    "STRING",
+    "INT64",
+    "STRING",
+    "INT64",
+    "INT64",
+    "INT64",
+    "INT64",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "effectif",
+    "annee_rapport",
+    "sexe_us",
+    "race_asiatique",
+    "race_noire",
+    "race_hispanique_latinx",
+    "race_americaine_autochtone",
+    "race_blanche"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "INT64",
+    "STRING",
+    "INT64",
+    "INT64",
+    "INT64",
+    "INT64",
+    "INT64"
+  ],
+  "description": [
+    "Globale et sous-catégories",
+    "L'année de publication du rapport",
+    "Le genre des départs de Googler aux États-Unis",
+    "Le score d'indice d'attrition des Googlers aux États-Unis qui s'identifient comme Asiatiques et zéro ou plusieurs autres races",
+    "Le score d'indice d'attrition des Googlers aux États-Unis qui s'identifient comme Noirs et zéro ou plusieurs autres races",
+    "Le score d'indice d'attrition des Googlers aux États-Unis qui s'identifient comme Hispaniques ou Latinx et zéro ou plusieurs autres races",
+    "Le score d'indice d'attrition des Googlers aux États-Unis qui s'identifient comme Amérindiens et zéro ou plusieurs autres races",
+    "Le score d'indice d'attrition des Googlers aux États-Unis qui s'identifient comme Blancs et zéro ou plusieurs autres races"
+  ],
+  "sample_rows": [
+    {
+      "effectif": "non_tech",
+      "annee_rapport": 2018,
+      "sexe_us": "women",
+      "race_asiatique": 88,
+      "race_noire": 68,
+      "race_hispanique_latinx": 78,
+      "race_americaine_autochtone": 124,
+      "race_blanche": 96
+    },
+    {
+      "effectif": "overall",
+      "annee_rapport": 2018,
+      "sexe_us": "women",
+      "race_asiatique": 73,
+      "race_noire": 90,
+      "race_hispanique_latinx": 92,
+      "race_americaine_autochtone": 100,
+      "race_blanche": 103
+    },
+    {
+      "effectif": "non_tech",
+      "annee_rapport": 2018,
+      "sexe_us": "men",
+      "race_asiatique": 108,
+      "race_noire": 122,
+      "race_hispanique_latinx": 115,
+      "race_americaine_autochtone": 140,
+      "race_blanche": 106
+    },
+    {
+      "effectif": "overall",
+      "annee_rapport": 2018,
+      "sexe_us": "men",
+      "race_asiatique": 92,
+      "race_noire": 145,
+      "race_hispanique_latinx": 117,
+      "race_americaine_autochtone": 140,
+      "race_blanche": 112
+    },
+    {
+      "effectif": "tech",
+      "annee_rapport": 2018,
+      "sexe_us": "women",
+      "race_asiatique": 65,
+      "race_noire": 124,
+      "race_hispanique_latinx": 118,
+      "race_americaine_autochtone": 31,
+      "race_blanche": 102
+    }
+  ]
+}

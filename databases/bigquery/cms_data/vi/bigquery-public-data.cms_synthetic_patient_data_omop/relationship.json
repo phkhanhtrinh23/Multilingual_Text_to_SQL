@@ -1,0 +1,86 @@
+{
+  "table_name": "relationship",
+  "table_fullname": "bigquery-public-data.cms_synthetic_patient_data_omop.relationship",
+  "column_names": [
+    "mã quan hệ",
+    "Tên mối quan hệ",
+    "có cấu trúc phân cấp",
+    "định nghĩa tổ tiên",
+    "id_mối_quan_hệ_ngược",
+    "mã khái niệm mối quan hệ"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "mã mối quan hệ",
+    "tên mối quan hệ",
+    "có cấu trúc phân cấp",
+    "định nghĩa tổ tiên",
+    "id quan hệ ngược",
+    "mã khái niệm mối quan hệ"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64"
+  ],
+  "description": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "sample_rows": [
+    {
+      "mã mối quan hệ": "Acc device used by",
+      "tên mối quan hệ": "Access device used by (SNOMED)",
+      "có cấu trúc phân cấp": "0",
+      "định nghĩa tổ tiên": "0",
+      "id quan hệ ngược": "Using acc device",
+      "mã khái niệm mối quan hệ": 44818895
+    },
+    {
+      "mã mối quan hệ": "Access of",
+      "tên mối quan hệ": "Access of (SNOMED)",
+      "có cấu trúc phân cấp": "0",
+      "định nghĩa tổ tiên": "0",
+      "id quan hệ ngược": "Has access",
+      "mã khái niệm mối quan hệ": 44818847
+    },
+    {
+      "mã mối quan hệ": "Active ing of",
+      "tên mối quan hệ": "Active ingredient of (SNOMED)",
+      "có cấu trúc phân cấp": "0",
+      "định nghĩa tổ tiên": "0",
+      "id quan hệ ngược": "Has active ing",
+      "mã khái niệm mối quan hệ": 44818859
+    },
+    {
+      "mã mối quan hệ": "AMP of",
+      "tên mối quan hệ": "Actual Medicinal Product of (SNOMED)",
+      "có cấu trúc phân cấp": "0",
+      "định nghĩa tổ tiên": "0",
+      "id quan hệ ngược": "Has AMP",
+      "mã khái niệm mối quan hệ": 45905757
+    },
+    {
+      "mã mối quan hệ": "Answer of",
+      "tên mối quan hệ": "Answer of (LOINC)",
+      "có cấu trúc phân cấp": "0",
+      "định nghĩa tổ tiên": "0",
+      "id quan hệ ngược": "Has Answer",
+      "mã khái niệm mối quan hệ": 45754684
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "table_name": "quant_phosphoproteome_prospective_colon_PNNL_lumos_pdc_current",
+  "table_fullname": "isb-cgc-bq.CPTAC.quant_phosphoproteome_prospective_colon_PNNL_lumos_pdc_current",
+  "column_names": [
+    "Mã vụ",
+    "mã_mẫu",
+    "id_liệu_mẫu",
+    "id_người_nộp_mẫu_thử",
+    "ID siêu dữ liệu chạy aliquot",
+    "Tên nghiên cứu",
+    "tỷ lệ log2 của hàm lượng protein",
+    "Mã RefSeq",
+    "địa điểm phosphoryl"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "Mã vụ",
+    "mã mẫu",
+    "mã_aliquot",
+    "ID người gửi mẫu",
+    "Mã số metadata chạy aliquot",
+    "tên nghiên cứu",
+    "tỷ lệ log2 nồng độ protein",
+    "Mã RefSeq",
+    "địa điểm fосphoryl hóa"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "Định danh duy nhất liên quan đến một bệnh nhân cụ thể (ví dụ: 24cb0fcb-63d6-11e8-bcf1-0a2705229b82)",
+    "Định danh PDC duy nhất cho mẫu này (ví dụ: e8d83eb9-693a-11ea-b1fd-0aad30af8a83)",
+    "Định danh PDC duy nhất cho mẫu này (ví dụ: e8db124a-693a-11ea-b1fd-0aad30af8a83)",
+    "ID người nộp aliquot được cấp bởi chương trình (ví dụ: T14)",
+    "Xác định duy nhất aliquot theo cách nó được sử dụng trong thí nghiệm (dựa trên chất dán nhãn và/hoặc bản sao sinh học).",
+    "Tên nghiên cứu (ví dụ: Nghiên cứu Thử nghiệm ung thư não bẩm sinh - Phosphoproteome)",
+    "Tỷ lệ log trung bình của ion báo cáo mẫu so với tham chiếu chung của ion peptide liên quan đến gen trong các lần thu thập từ một mẫu sinh học cụ thể",
+    "Định danh duy nhất được gán cho một chuỗi trong cơ sở dữ liệu NCBI RefSeq",
+    "Các ký hiệu chữ cái đơn và vị trí trong chuỗi protein của các axit amin đã được phosphoryl (ví dụ: t304s310, t59)"
+  ],
+  "sample_rows": [
+    {
+      "Mã vụ": "0bc46cbd-63d6-11e8-bcf1-0a2705229b82",
+      "mã mẫu": "4f9db1ce-641b-11e8-bcf1-0a2705229b82",
+      "mã_aliquot": "263c66c0-642a-11e8-bcf1-0a2705229b82",
+      "ID người gửi mẫu": "cc271b3d-ed33-481f-9d23-15f2f6_D2",
+      "Mã số metadata chạy aliquot": "868fb8e6-5737-11e8-b664-00a098d917f8",
+      "tên nghiên cứu": "Prospective Colon PNNL Phosphoproteome Lumos",
+      "tỷ lệ log2 nồng độ protein": -1.9183,
+      "Mã RefSeq": "NP_116204.3",
+      "địa điểm fосphoryl hóa": "s90s92"
+    },
+    {
+      "Mã vụ": "0bc46cbd-63d6-11e8-bcf1-0a2705229b82",
+      "mã mẫu": "4f9db1ce-641b-11e8-bcf1-0a2705229b82",
+      "mã_aliquot": "263c66c0-642a-11e8-bcf1-0a2705229b82",
+      "ID người gửi mẫu": "cc271b3d-ed33-481f-9d23-15f2f6_D2",
+      "Mã số metadata chạy aliquot": "868fb8e6-5737-11e8-b664-00a098d917f8",
+      "tên nghiên cứu": "Prospective Colon PNNL Phosphoproteome Lumos",
+      "tỷ lệ log2 nồng độ protein": 0.5338,
+      "Mã RefSeq": "NP_001294951.1",
+      "địa điểm fосphoryl hóa": "s445"
+    },
+    {
+      "Mã vụ": "0bc46cbd-63d6-11e8-bcf1-0a2705229b82",
+      "mã mẫu": "4f9db1ce-641b-11e8-bcf1-0a2705229b82",
+      "mã_aliquot": "263c66c0-642a-11e8-bcf1-0a2705229b82",
+      "ID người gửi mẫu": "cc271b3d-ed33-481f-9d23-15f2f6_D2",
+      "Mã số metadata chạy aliquot": "868fb8e6-5737-11e8-b664-00a098d917f8",
+      "tên nghiên cứu": "Prospective Colon PNNL Phosphoproteome Lumos",
+      "tỷ lệ log2 nồng độ protein": -2.2728,
+      "Mã RefSeq": "NP_001269554.1",
+      "địa điểm fосphoryl hóa": "t19s22"
+    },
+    {
+      "Mã vụ": "0bc46cbd-63d6-11e8-bcf1-0a2705229b82",
+      "mã mẫu": "4f9db1ce-641b-11e8-bcf1-0a2705229b82",
+      "mã_aliquot": "263c66c0-642a-11e8-bcf1-0a2705229b82",
+      "ID người gửi mẫu": "cc271b3d-ed33-481f-9d23-15f2f6_D2",
+      "Mã số metadata chạy aliquot": "868fb8e6-5737-11e8-b664-00a098d917f8",
+      "tên nghiên cứu": "Prospective Colon PNNL Phosphoproteome Lumos",
+      "tỷ lệ log2 nồng độ protein": -0.3971,
+      "Mã RefSeq": "NP_001186064.1",
+      "địa điểm fосphoryl hóa": "s357"
+    },
+    {
+      "Mã vụ": "0bc46cbd-63d6-11e8-bcf1-0a2705229b82",
+      "mã mẫu": "4f9db1ce-641b-11e8-bcf1-0a2705229b82",
+      "mã_aliquot": "263c66c0-642a-11e8-bcf1-0a2705229b82",
+      "ID người gửi mẫu": "cc271b3d-ed33-481f-9d23-15f2f6_D2",
+      "Mã số metadata chạy aliquot": "868fb8e6-5737-11e8-b664-00a098d917f8",
+      "tên nghiên cứu": "Prospective Colon PNNL Phosphoproteome Lumos",
+      "tỷ lệ log2 nồng độ protein": 0.0208,
+      "Mã RefSeq": "NP_573571.1",
+      "địa điểm fосphoryl hóa": "s266"
+    }
+  ]
+}

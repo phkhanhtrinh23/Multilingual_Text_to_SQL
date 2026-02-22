@@ -1,0 +1,116 @@
+{
+  "table_name": "quant_phosphoproteome_AML_gilteritinib_timecourse_pdc_current",
+  "table_fullname": "isb-cgc-bq.CPTAC.quant_phosphoproteome_AML_gilteritinib_timecourse_pdc_current",
+  "column_names": [
+    "mã_trường_hợp",
+    "Mã mẫu",
+    "Mã aliquot",
+    "mẫu_người_nộp_id",
+    "id_siêu_dữ_liệu_chạy_aliquot",
+    "Tên nghiên cứu",
+    "tỷ lệ log2 nồng độ protein",
+    "ID dãy tham chiếu",
+    "địa điểm phosphoryl hóa"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "id_vụ_kiện",
+    "Mã mẫu",
+    "mã mẫu",
+    "mã người gửi mẫu",
+    "id_metadata_chạy_aliquot",
+    "tên nghiên cứu",
+    "tỷ lệ log2 số lượng protein",
+    "Mã refseq",
+    "địa điểm phosphoryl hóa"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "Mã định danh duy nhất liên quan đến một bệnh nhân cụ thể (ví dụ: 24cb0fcb-63d6-11e8-bcf1-0a2705229b82)",
+    "Định danh PDC duy nhất cho mẫu này (ví dụ e8d83eb9-693a-11ea-b1fd-0aad30af8a83)",
+    "Định danh PDC duy nhất cho aliquot này (vd. e8db124a-693a-11ea-b1fd-0aad30af8a83)",
+    "ID người nộp Aliquot được gán bởi chương trình (ví dụ: T14)",
+    "Xác định duy nhất phần mẫu (aliquot) dựa trên cách sử dụng trong thí nghiệm (dựa trên chất dán nhãn và/hoặc bản sao sinh học).",
+    "Tên nghiên cứu (ví dụ: Nghiên cứu Thử nghiệm ung thư não trẻ em - Phosphoproteome)",
+    "Tỷ lệ log trung bình của ion báo cáo mẫu so với tham chiếu chung của ion peptide liên quan đến gene trong các lần thu thập từ một mẫu sinh học cụ thể.",
+    "Định danh duy nhất được cấp cho một trình tự trong cơ sở dữ liệu NCBI RefSeq.",
+    "Mã chữ đơn và vị trí trong chuỗi protein của các đam amino đã được phosphoryl hóa (ví dụ t304s310, t59)"
+  ],
+  "sample_rows": [
+    {
+      "id_vụ_kiện": "4a4b2172-550c-4dbd-adad-8b3425f3ddea",
+      "Mã mẫu": "1c1f661c-e8d8-44f0-971b-863c32c9ef59",
+      "mã mẫu": "2e2c8318-db8c-4131-aaa4-72a8dbfdb229",
+      "mã người gửi mẫu": "PTRC_Ex8_P1",
+      "id_metadata_chạy_aliquot": "a44d66b4-e0bf-4c65-afa0-e90f5ef0c6ff",
+      "tên nghiên cứu": "AML Gilteritinib TimeCourse -  Phosphoproteome",
+      "tỷ lệ log2 số lượng protein": -0.8623,
+      "Mã refseq": "NP_000539.2",
+      "địa điểm phosphoryl hóa": "s1346"
+    },
+    {
+      "id_vụ_kiện": "4a4b2172-550c-4dbd-adad-8b3425f3ddea",
+      "Mã mẫu": "1c1f661c-e8d8-44f0-971b-863c32c9ef59",
+      "mã mẫu": "2e2c8318-db8c-4131-aaa4-72a8dbfdb229",
+      "mã người gửi mẫu": "PTRC_Ex8_P1",
+      "id_metadata_chạy_aliquot": "a44d66b4-e0bf-4c65-afa0-e90f5ef0c6ff",
+      "tên nghiên cứu": "AML Gilteritinib TimeCourse -  Phosphoproteome",
+      "tỷ lệ log2 số lượng protein": -0.2265,
+      "Mã refseq": "NP_001001973.1",
+      "địa điểm phosphoryl hóa": "s146"
+    },
+    {
+      "id_vụ_kiện": "4a4b2172-550c-4dbd-adad-8b3425f3ddea",
+      "Mã mẫu": "1c1f661c-e8d8-44f0-971b-863c32c9ef59",
+      "mã mẫu": "2e2c8318-db8c-4131-aaa4-72a8dbfdb229",
+      "mã người gửi mẫu": "PTRC_Ex8_P1",
+      "id_metadata_chạy_aliquot": "a44d66b4-e0bf-4c65-afa0-e90f5ef0c6ff",
+      "tên nghiên cứu": "AML Gilteritinib TimeCourse -  Phosphoproteome",
+      "tỷ lệ log2 số lượng protein": -0.2676,
+      "Mã refseq": "NP_001005271.2",
+      "địa điểm phosphoryl hóa": "s132s138"
+    },
+    {
+      "id_vụ_kiện": "4a4b2172-550c-4dbd-adad-8b3425f3ddea",
+      "Mã mẫu": "1c1f661c-e8d8-44f0-971b-863c32c9ef59",
+      "mã mẫu": "2e2c8318-db8c-4131-aaa4-72a8dbfdb229",
+      "mã người gửi mẫu": "PTRC_Ex8_P1",
+      "id_metadata_chạy_aliquot": "a44d66b4-e0bf-4c65-afa0-e90f5ef0c6ff",
+      "tên nghiên cứu": "AML Gilteritinib TimeCourse -  Phosphoproteome",
+      "tỷ lệ log2 số lượng protein": 0.0293,
+      "Mã refseq": "NP_001005498.2",
+      "địa điểm phosphoryl hóa": "s84"
+    },
+    {
+      "id_vụ_kiện": "4a4b2172-550c-4dbd-adad-8b3425f3ddea",
+      "Mã mẫu": "1c1f661c-e8d8-44f0-971b-863c32c9ef59",
+      "mã mẫu": "2e2c8318-db8c-4131-aaa4-72a8dbfdb229",
+      "mã người gửi mẫu": "PTRC_Ex8_P1",
+      "id_metadata_chạy_aliquot": "a44d66b4-e0bf-4c65-afa0-e90f5ef0c6ff",
+      "tên nghiên cứu": "AML Gilteritinib TimeCourse -  Phosphoproteome",
+      "tỷ lệ log2 số lượng protein": -0.9234,
+      "Mã refseq": "NP_001005751.1",
+      "địa điểm phosphoryl hóa": "s802"
+    }
+  ]
+}

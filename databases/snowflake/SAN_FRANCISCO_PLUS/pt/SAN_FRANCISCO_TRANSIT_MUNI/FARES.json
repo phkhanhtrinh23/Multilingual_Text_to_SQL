@@ -1,0 +1,42 @@
+{
+  "table_name": "FARES",
+  "table_fullname": "SAN_FRANCISCO_PLUS.SAN_FRANCISCO_TRANSIT_MUNI.FARES",
+  "column_names": [
+    "duração_do_transfere",
+    "id_do_ciclista",
+    "transferências_permitidas",
+    "método_de_pagamento",
+    "desc_do_ciclista",
+    "id_da_tarifa",
+    "preço"
+  ],
+  "column_types": [
+    "NUMBER",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "NUMBER"
+  ],
+  "description": [
+    "Especifica o comprimento do tempo, em segundos, antes de uma transferência expirar. Quando usado com um valor de transfers_permitted de 0, o campo `transfer_duration` indica por quanto tempo um bilhete é válido para uma tarifa onde não são permitidas transferências.",
+    "Identificador único de uma categoria de passageiro. As categorias de passageiros são usadas para atribuir preços diferentes a grupos diferentes de indivíduos.",
+    "Especifica o número de transferências permitidas nesta tarifa.  -  0: Nenhuma transferência é permitida nesta tarifa. -  1: Uma transferência é permitida nesta tarifa. -  2: Duas transferências são permitidas nesta tarifa. -  NULL: Transferências ilimitadas são permitidas nesta tarifa.",
+    "Indica quando a tarifa deve ser paga. Os seguintes são valores válidos para este campo: -  during: Indica que a tarifa é paga quando os passageiros embarcam -  before: Indica que a tarifa deve ser paga antes que os passageiros embarquem.",
+    "Descrição de texto da categoria de passageiro.",
+    "Identificador único de uma classe de tarifa.",
+    "Contém o preço da tarifa, em USD."
+  ],
+  "sample_rows": [
+    {
+      "id_da_tarifa": "5398",
+      "id_do_ciclista": "2",
+      "desc_do_ciclista": "Senior",
+      "preço": "3.000000000",
+      "método_de_pagamento": "0",
+      "transferências_permitidas": null,
+      "duração_do_transfere": 5400
+    }
+  ]
+}

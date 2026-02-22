@@ -1,0 +1,70 @@
+{
+  "sample_rows": [
+    {
+      "地理编号": "zip/55032",
+      "地理名称": "55032",
+      "变量": "outbound_address_changes_temporary",
+      "变量名": "Outbound Address Changes, Temporary",
+      "日期": "2020-08-31",
+      "值": 0
+    },
+    {
+      "地理编号": "geoId/2555745",
+      "地理名称": "Quincy",
+      "变量": "inbound_address_changes_permanent",
+      "变量名": "Inbound Address Changes, Permanent",
+      "日期": "2023-06-30",
+      "值": 582
+    },
+    {
+      "地理编号": "geoId/3362500",
+      "地理名称": "Plaistow",
+      "变量": "net_address_changes_individuals",
+      "变量名": "Net Address Changes, Individuals",
+      "日期": "2021-08-31",
+      "值": 4
+    },
+    {
+      "地理编号": "zip/72132",
+      "地理名称": "72132",
+      "变量": "inbound_address_changes_businesses",
+      "变量名": "Inbound Address Changes, Businesses",
+      "日期": "2022-12-31",
+      "值": 0
+    },
+    {
+      "地理编号": "geoId/3703960",
+      "地理名称": "Bayboro",
+      "变量": "outbound_address_changes_families",
+      "变量名": "Outbound Address Changes, Families",
+      "日期": "2023-02-28",
+      "值": 0
+    }
+  ],
+  "table_name": "USPS_ADDRESS_CHANGE_TIMESERIES",
+  "table_fullname": "US_REAL_ESTATE.CYBERSYN.USPS_ADDRESS_CHANGE_TIMESERIES",
+  "column_names": [
+    "变量名",
+    "日期",
+    "变量",
+    "地理名称",
+    "地理编号",
+    "值"
+  ],
+  "column_types": [
+    "TEXT",
+    "DATE",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "NUMBER"
+  ],
+  "description": [
+    "变量的人类可读描述",
+    "对应数据点的日期。请注意，当测量期间超过1天时，日期记录为期间结束日期。",
+    "与属性表关联的唯一标识符",
+    "州、城市或邮政编码的地点名称",
+    "一个地方（例如州、城市、邮政编码等）的唯一标识符。可与 geography_index/relationships 表关联，用于筛选区域聚合。",
+    "已报告变量的数值"
+  ]
+}

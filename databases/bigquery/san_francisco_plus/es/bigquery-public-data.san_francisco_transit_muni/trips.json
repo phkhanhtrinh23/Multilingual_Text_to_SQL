@@ -1,0 +1,106 @@
+{
+  "table_name": "trips",
+  "table_fullname": "bigquery-public-data.san_francisco_transit_muni.trips",
+  "column_names": [
+    "id_viaje",
+    "id_ruta",
+    "dirección",
+    "id_bloque",
+    "categoría de servicio",
+    "título del viaje",
+    "id_forma",
+    "forma del viaje"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "GEOGRAPHY"
+  ],
+  "nested_column_names": [
+    "id_viaje",
+    "ruta_id",
+    "dirección",
+    "id_bloque",
+    "categoría de servicio",
+    "letrero de viaje",
+    "id_forma",
+    "forma de viaje"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "GEOGRAPHY"
+  ],
+  "description": [
+    "Identificador único para cada viaje",
+    "Identificador único para cada ruta. Una sola ruta tendrá múltiples viajes.",
+    "Indica la dirección de viaje para un trayecto. Los siguientes valores son válidos:\n- O: Viaje de salida\n- I: Viaje de regreso\nEste campo no se utiliza en la asignación de rutas, sino que sirve para separar los viajes por dirección",
+    "Identifica el bloque al que pertenece el viaje. Un bloque consiste en un único viaje o varios viajes secuenciales realizados con el mismo vehículo. Los viajes se agrupan en un bloque mediante el uso de un día de servicio compartido y block_id. Un block_id puede incluir viajes con diferentes días de servicio, lo que resulta en bloques distintos. Para más detalles, consulte: https://developers.google.com/transit/gtfs/reference/#example-showing-blocks-and-service-day",
+    "Indica el tipo de servicio para este viaje",
+    "Contiene el texto que aparece en la señalización que identifica el destino del viaje para los pasajeros. Utilice este campo para distinguir entre diferentes patrones de servicio en la misma ruta.",
+    "Identificador único para la forma geoespacial que describe el recorrido del vehículo para un viaje a lo largo de puntos individuales. Utilizar para JOIN con las formas disponibles en la tabla de formas.",
+    "Representación geográfica de la ruta completa del viaje."
+  ],
+  "sample_rows": [
+    {
+      "id_viaje": "8999876",
+      "ruta_id": "83X",
+      "dirección": "O",
+      "id_bloque": "8301",
+      "categoría de servicio": null,
+      "letrero de viaje": "Caltrain Depot",
+      "id_forma": "174188",
+      "forma de viaje": null
+    },
+    {
+      "id_viaje": "8999873",
+      "ruta_id": "83X",
+      "dirección": "O",
+      "id_bloque": "8302",
+      "categoría de servicio": null,
+      "letrero de viaje": "Caltrain Depot",
+      "id_forma": "174188",
+      "forma de viaje": null
+    },
+    {
+      "id_viaje": "8999875",
+      "ruta_id": "83X",
+      "dirección": "O",
+      "id_bloque": "8301",
+      "categoría de servicio": null,
+      "letrero de viaje": "Caltrain Depot",
+      "id_forma": "174188",
+      "forma de viaje": null
+    },
+    {
+      "id_viaje": "8999872",
+      "ruta_id": "83X",
+      "dirección": "O",
+      "id_bloque": "8302",
+      "categoría de servicio": null,
+      "letrero de viaje": "Caltrain Depot",
+      "id_forma": "174188",
+      "forma de viaje": null
+    },
+    {
+      "id_viaje": "8999892",
+      "ruta_id": "83X",
+      "dirección": "O",
+      "id_bloque": "8301",
+      "categoría de servicio": null,
+      "letrero de viaje": "Caltrain Depot",
+      "id_forma": "174188",
+      "forma de viaje": null
+    }
+  ]
+}

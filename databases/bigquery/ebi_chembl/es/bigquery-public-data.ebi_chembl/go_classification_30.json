@@ -1,0 +1,86 @@
+{
+  "table_name": "go_classification_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.go_classification_30",
+  "column_names": [
+    "ID de Go",
+    "id_padre_go",
+    "Nombre preferido",
+    "nivel de clase",
+    "aspecto",
+    "ruta"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "id_de_go",
+    "id_padre_go",
+    "Nombre de preferencia",
+    "nivel de clase",
+    "aspecto",
+    "ruta"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "Clave primaria. Identificador de Ontología Génica para el término GO slim",
+    "Identificador de Gene Ontology del padre de este término GO en el ChEMBL Drug Target GO slim",
+    "Nombre de la Ontología de Genes",
+    "Indica el nivel del término en el slim (L1 = más alto)",
+    "Indica a qué aspecto de la Ontología Génica pertenece el término (F = función molecular, P = proceso biológico, C = componente celular).",
+    "Indica la ruta completa a este término en el GO slim"
+  ],
+  "sample_rows": [
+    {
+      "id_de_go": "GO:0003674",
+      "id_padre_go": null,
+      "Nombre de preferencia": "molecular_function",
+      "nivel de clase": 0,
+      "aspecto": "F",
+      "ruta": "molecular_function"
+    },
+    {
+      "id_de_go": "GO:0005575",
+      "id_padre_go": null,
+      "Nombre de preferencia": "cellular_component",
+      "nivel de clase": 0,
+      "aspecto": "C",
+      "ruta": "cellular_component"
+    },
+    {
+      "id_de_go": "GO:0008150",
+      "id_padre_go": null,
+      "Nombre de preferencia": "biological_process",
+      "nivel de clase": 0,
+      "aspecto": "P",
+      "ruta": "biological_process"
+    },
+    {
+      "id_de_go": "GO:0000166",
+      "id_padre_go": "GO:0003674",
+      "Nombre de preferencia": "nucleotide binding",
+      "nivel de clase": 1,
+      "aspecto": "F",
+      "ruta": "molecular_function  nucleotide binding"
+    },
+    {
+      "id_de_go": "GO:0000988",
+      "id_padre_go": "GO:0003674",
+      "Nombre de preferencia": "protein binding transcription factor activity",
+      "nivel de clase": 1,
+      "aspecto": "F",
+      "ruta": "molecular_function  protein binding transcription factor activity"
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "table_name": "ghcnd_2019",
+  "table_fullname": "bigquery-public-data.ghcn_d.ghcnd_2019",
+  "column_names": [
+    "identificador",
+    "fecha",
+    "elemento",
+    "valor",
+    "Bandera M",
+    "bandera q",
+    "bandera",
+    "tiempo",
+    "URL de origen",
+    "marca_de_tiempo_etl"
+  ],
+  "column_types": [
+    "STRING",
+    "DATE",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "TIMESTAMP"
+  ],
+  "nested_column_names": [
+    "identificador",
+    "fecha",
+    "elemento",
+    "valor",
+    "indicador M",
+    "indicador de calidad",
+    "bandera de estado",
+    "tiempo",
+    "URL de origen",
+    "marca_tiempo_etl"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "DATE",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "TIMESTAMP"
+  ],
+  "description": [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "Fuente",
+    "Tiempo de carga de esta fila de datos"
+  ],
+  "sample_rows": [
+    {
+      "identificador": "USC00116661",
+      "fecha": "2019-01-24",
+      "elemento": "SNWD",
+      "valor": 127.0,
+      "indicador M": null,
+      "indicador de calidad": null,
+      "bandera de estado": "7",
+      "tiempo": "0700",
+      "URL de origen": "ftp://ftp.ncei.noaa.gov/pub/data/ghcn/daily/by_year/2019.csv.gz",
+      "marca_tiempo_etl": "2023-07-19 21:13:26.234378+00:00"
+    },
+    {
+      "identificador": "USC00327027",
+      "fecha": "2019-01-24",
+      "elemento": "TMAX",
+      "valor": -100.0,
+      "indicador M": null,
+      "indicador de calidad": null,
+      "bandera de estado": "7",
+      "tiempo": "0800",
+      "URL de origen": "ftp://ftp.ncei.noaa.gov/pub/data/ghcn/daily/by_year/2019.csv.gz",
+      "marca_tiempo_etl": "2023-07-19 21:13:26.234378+00:00"
+    },
+    {
+      "identificador": "USC00356550",
+      "fecha": "2019-01-24",
+      "elemento": "TMAX",
+      "valor": 111.0,
+      "indicador M": null,
+      "indicador de calidad": null,
+      "bandera de estado": "7",
+      "tiempo": "1000",
+      "URL de origen": "ftp://ftp.ncei.noaa.gov/pub/data/ghcn/daily/by_year/2019.csv.gz",
+      "marca_tiempo_etl": "2023-07-19 21:13:26.234378+00:00"
+    },
+    {
+      "identificador": "USC00358726",
+      "fecha": "2019-01-24",
+      "elemento": "WT01",
+      "valor": 1.0,
+      "indicador M": null,
+      "indicador de calidad": null,
+      "bandera de estado": "7",
+      "tiempo": null,
+      "URL de origen": "ftp://ftp.ncei.noaa.gov/pub/data/ghcn/daily/by_year/2019.csv.gz",
+      "marca_tiempo_etl": "2023-07-19 21:13:26.234378+00:00"
+    },
+    {
+      "identificador": "USC00366886",
+      "fecha": "2019-01-24",
+      "elemento": "SNOW",
+      "valor": 0.0,
+      "indicador M": null,
+      "indicador de calidad": null,
+      "bandera de estado": "7",
+      "tiempo": null,
+      "URL de origen": "ftp://ftp.ncei.noaa.gov/pub/data/ghcn/daily/by_year/2019.csv.gz",
+      "marca_tiempo_etl": "2023-07-19 21:13:26.234378+00:00"
+    }
+  ]
+}

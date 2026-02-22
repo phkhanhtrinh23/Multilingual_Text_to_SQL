@@ -1,0 +1,86 @@
+{
+  "sample_rows": [
+    {
+      "ID_GEO": "country/DEU",
+      "VARIABLE": "ESR_corn_accumulated_exports",
+      "NOM_DE_VARIABLE": "Corn: Accumulated Exports",
+      "DATE": "1999-04-01",
+      "VALEUR": 3505.0,
+      "UNITÉ": "Metric Tons",
+      "ANNÉE_CIVILE": "1970-01-01",
+      "ANNÉE_DE_COMMERCIALISATION": "1999"
+    },
+    {
+      "ID_GEO": "country/BMU",
+      "VARIABLE": "ESR_rice_lg_brown_current_market_year_total_commitment",
+      "NOM_DE_VARIABLE": "Rice-LG Brown: Current Market Year Total Commitment",
+      "DATE": "2009-09-10",
+      "VALEUR": 18.0,
+      "UNITÉ": "Metric Tons",
+      "ANNÉE_CIVILE": "1970-01-01",
+      "ANNÉE_DE_COMMERCIALISATION": "2010"
+    },
+    {
+      "ID_GEO": "country/SEN",
+      "VARIABLE": "PSD-4234000-088",
+      "NOM_DE_VARIABLE": "Peanut Oil: Exports",
+      "DATE": "2015-03-01",
+      "VALEUR": 35000.0,
+      "UNITÉ": "Metric Tons",
+      "ANNÉE_CIVILE": "2020-12-31",
+      "ANNÉE_DE_COMMERCIALISATION": "2015"
+    },
+    {
+      "ID_GEO": "country/JAM",
+      "VARIABLE": "ESR_soybean_cake__meal_next_market_year_outstanding_sales",
+      "NOM_DE_VARIABLE": "Soybean cake & meal: Next Market Year Outstanding Sales",
+      "DATE": "2021-03-25",
+      "VALEUR": 0.0,
+      "UNITÉ": "Metric Tons",
+      "ANNÉE_CIVILE": "1970-01-01",
+      "ANNÉE_DE_COMMERCIALISATION": "2021"
+    },
+    {
+      "ID_GEO": "country/BEL",
+      "VARIABLE": "ESR_all_upland_cotton_weekly_exports",
+      "NOM_DE_VARIABLE": "All Upland Cotton: Weekly Exports",
+      "DATE": "2007-02-08",
+      "VALEUR": 0.0,
+      "UNITÉ": "Running Bales",
+      "ANNÉE_CIVILE": "1970-01-01",
+      "ANNÉE_DE_COMMERCIALISATION": "2007"
+    }
+  ],
+  "table_name": "US_DEPARTMENT_OF_AGRICULTURE_COMMODITIES_TIMESERIES",
+  "table_fullname": "GLOBAL_GOVERNMENT.CYBERSYN.US_DEPARTMENT_OF_AGRICULTURE_COMMODITIES_TIMESERIES",
+  "column_names": [
+    "NOM_DE_VARIABLE",
+    "DATE",
+    "UNITÉ",
+    "ID_GEO",
+    "VARIABLE",
+    "VALEUR",
+    "ANNÉE_DE_COMMERCIALISATION",
+    "ANNÉE_CIVILE"
+  ],
+  "column_types": [
+    "TEXT",
+    "DATE",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "FLOAT",
+    "TEXT",
+    "DATE"
+  ],
+  "description": [
+    "Description lisible par l'homme de l'attribut signalé, y compris le type de marchandise et une description de ce qui est enregistré.",
+    "Date associée à la valeur (par exemple, pour les variables ESR, elle représente la fin de la semaine des ventes). Voir la table ATTRIBUTES pour plus de détails.",
+    "Unité de mesure pour la valeur signalée (ex. tonnes métriques).",
+    "Un identifiant unique pour un pays pouvant être joint à la table GEOGRAPHY_INDEX.",
+    "Identifiant unique pour une variable, qui définit le jeu de données USDA dont proviennent les données (par exemple, ESR - Rapport sur les ventes à l'exportation), la marchandise associée à cette variable, et ce qui est mesuré.",
+    "Valeur signalée pour la variable.",
+    "Année de commercialisation liée aux saisons agricoles et aux périodes de récolte d'une culture spécifique. Une année de commercialisation commence généralement le mois où débute la récolte d'une culture particulière et se termine juste avant le début de la récolte de l'année suivante. Cette période peut varier considérablement entre les différentes cultures et les différents pays.",
+    "Année civile associée à la valeur."
+  ]
+}

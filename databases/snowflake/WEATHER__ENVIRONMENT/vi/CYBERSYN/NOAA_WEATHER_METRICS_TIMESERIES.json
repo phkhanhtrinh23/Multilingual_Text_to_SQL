@@ -1,0 +1,78 @@
+{
+  "sample_rows": [
+    {
+      "Mã trạm khí NOAA": "US1ALSH0043",
+      "Biến": "precipitation",
+      "Tên biến": "Precipitation",
+      "NGÀY": "2012-09-10",
+      "Ngày giờ": "2012-09-10 00:00:00",
+      "Giá trị": "0.000000",
+      "đơn vị": "Millimeters"
+    },
+    {
+      "Mã trạm khí NOAA": "USW00094994",
+      "Biến": "precipitation",
+      "Tên biến": "Precipitation",
+      "NGÀY": "2023-04-03",
+      "Ngày giờ": "2023-04-03 00:00:00",
+      "Giá trị": "0.800000",
+      "đơn vị": "Millimeters"
+    },
+    {
+      "Mã trạm khí NOAA": "USS0011C01S",
+      "Biến": "minimum_temperature",
+      "Tên biến": "Minimum Temperature",
+      "NGÀY": "2008-11-28",
+      "Ngày giờ": "2008-11-28 00:00:00",
+      "Giá trị": "-5.100000",
+      "đơn vị": "Degrees Celsius"
+    },
+    {
+      "Mã trạm khí NOAA": "RSM00028275",
+      "Biến": "snow_depth",
+      "Tên biến": "Snow Depth",
+      "NGÀY": "2004-03-25",
+      "Ngày giờ": "2004-03-25 00:00:00",
+      "Giá trị": "351.000000",
+      "đơn vị": "Millimeters"
+    },
+    {
+      "Mã trạm khí NOAA": "USW00093720",
+      "Biến": "direction_of_fastest_2_minute_wind",
+      "Tên biến": "Direction of Fastest 2-Minute Wind",
+      "NGÀY": "2011-04-20",
+      "Ngày giờ": "2011-04-20 00:00:00",
+      "Giá trị": "210.000000",
+      "đơn vị": "Degrees"
+    }
+  ],
+  "table_name": "NOAA_WEATHER_METRICS_TIMESERIES",
+  "table_fullname": "WEATHER__ENVIRONMENT.CYBERSYN.NOAA_WEATHER_METRICS_TIMESERIES",
+  "column_names": [
+    "Biến",
+    "Giá trị",
+    "Mã trạm khí NOAA",
+    "NGÀY",
+    "Ngày giờ",
+    "đơn vị",
+    "Tên biến"
+  ],
+  "column_types": [
+    "TEXT",
+    "NUMBER",
+    "TEXT",
+    "DATE",
+    "TIMESTAMP_NTZ",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Một định danh duy nhất cho một biến có thể liên kết với bảng chuỗi thời gian.",
+    "Giá trị được báo cáo cho biến",
+    "Định danh duy nhất cho các trạm thời tiết bề mặt đất trong Mạng lưới Khí hậu Lịch sử Toàn cầu hàng ngày (GHCNd), bao gồm mã quốc gia FIPS (hai ký tự đầu tiên), một mã mạng (ký tự thứ ba), và mã trạm thực tế (8 ký tự còn lại).",
+    "Ngày liên kết với giá trị",
+    "Ngày giờ liên quan đến giá trị",
+    "Đơn vị đo lường cho giá trị được báo cáo.",
+    "Tên có thể đọc được bởi con người cho biến."
+  ]
+}

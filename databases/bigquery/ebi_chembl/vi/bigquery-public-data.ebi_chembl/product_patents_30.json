@@ -1,0 +1,116 @@
+{
+  "table_name": "product_patents_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.product_patents_30",
+  "column_names": [
+    "id_bệnh_sản_phẩm",
+    "Mã sản phẩm",
+    "số bằng sáng chế",
+    "ngày hết hạn bằng sáng chế",
+    "cờ chất dược",
+    "cờ_sản_phẩm_thuốc",
+    "mã sử dụng bằng sáng chế",
+    "cờ hủy danh sách",
+    "Ngày nộp"
+  ],
+  "column_types": [
+    "INT64",
+    "STRING",
+    "STRING",
+    "DATETIME",
+    "INT64",
+    "INT64",
+    "STRING",
+    "INT64",
+    "DATETIME"
+  ],
+  "nested_column_names": [
+    "Mã bệnh nhân sản phẩm",
+    "Mã sản phẩm",
+    "Số bằng sáng chế",
+    "ngày hết hạn bằng sáng chế",
+    "cờ_chất_dược",
+    "cờ sản phẩm thuốc",
+    "Mã sử dụng bằng sáng chế",
+    "cờ hủy danh",
+    "ngày nộp"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "STRING",
+    "STRING",
+    "DATETIME",
+    "INT64",
+    "INT64",
+    "STRING",
+    "INT64",
+    "DATETIME"
+  ],
+  "description": [
+    "Khóa chính",
+    "Khóa ngoại tới bảng sản phẩm - số đăng ký FDA cho sản phẩm",
+    "Số bằng sáng chế như đã nộp bởi người nộp đơn cho các bằng sáng chế được bảo hộ theo quy định pháp luật",
+    "Ngày hết hạn bằng cách nộp của người nộp đơn, bao gồm các gia hạn áp dụng.",
+    "Các bằng sáng chế được nộp theo Mẫu 3542 của FDA và được liệt kê sau ngày 18 tháng 8 năm 2003 có thể có cờ “vật chất thuốc” được đặt thành 1, cho thấy nhà tài trợ đã nộp bằng sáng chế với mục đích tuyên bố vật chất thuốc.",
+    "Bằng sáng chế được nộp theo mẫu FDA 3542 và được liệt kê sau ngày 18 tháng 8, 2003 có thể có cờ sản phẩm thuốc được đặt thành 1, cho thấy nhà tài trợ đã nộp bằng sáng chế với mục đích yêu cầu sản phẩm thuốc.",
+    "Mã để chỉ định một bằng sáng chế sử dụng bao phủ chỉ định hoặc cách sử dụng đã được chấp thuận của một sản phẩm thuốc",
+    "Đơn vị nộp theo Điều 505(b)(2) không bắt buộc phải xác nhận các bằng sáng chế khi cờ này được đặt thành 1.",
+    "Ngày FDA nhận được thông tin bản quyền từ người nộp đơn xin thuốc mới (NDA). Định dạng là Mmm d, yyyy"
+  ],
+  "sample_rows": [
+    {
+      "Mã bệnh nhân sản phẩm": 12524,
+      "Mã sản phẩm": "PRODUCT_022569_002",
+      "Số bằng sáng chế": "9078814",
+      "ngày hết hạn bằng sáng chế": "2024-01-08 00:00:00",
+      "cờ_chất_dược": 0,
+      "cờ sản phẩm thuốc": 1,
+      "Mã sử dụng bằng sáng chế": null,
+      "cờ hủy danh": 0,
+      "ngày nộp": "2015-08-11 00:00:00"
+    },
+    {
+      "Mã bệnh nhân sản phẩm": 12841,
+      "Mã sản phẩm": "PRODUCT_022569_001",
+      "Số bằng sáng chế": "9078814",
+      "ngày hết hạn bằng sáng chế": "2024-01-08 00:00:00",
+      "cờ_chất_dược": 0,
+      "cờ sản phẩm thuốc": 1,
+      "Mã sử dụng bằng sáng chế": null,
+      "cờ hủy danh": 0,
+      "ngày nộp": "2015-08-11 00:00:00"
+    },
+    {
+      "Mã bệnh nhân sản phẩm": 19542,
+      "Mã sản phẩm": "PRODUCT_022569_003",
+      "Số bằng sáng chế": "9814705",
+      "ngày hết hạn bằng sáng chế": "2024-01-08 00:00:00",
+      "cờ_chất_dược": 0,
+      "cờ sản phẩm thuốc": 1,
+      "Mã sử dụng bằng sáng chế": null,
+      "cờ hủy danh": 0,
+      "ngày nộp": "2017-12-13 00:00:00"
+    },
+    {
+      "Mã bệnh nhân sản phẩm": 21398,
+      "Mã sản phẩm": "PRODUCT_022569_002",
+      "Số bằng sáng chế": "9814705",
+      "ngày hết hạn bằng sáng chế": "2024-01-08 00:00:00",
+      "cờ_chất_dược": 0,
+      "cờ sản phẩm thuốc": 1,
+      "Mã sử dụng bằng sáng chế": null,
+      "cờ hủy danh": 0,
+      "ngày nộp": "2017-12-13 00:00:00"
+    },
+    {
+      "Mã bệnh nhân sản phẩm": 21415,
+      "Mã sản phẩm": "PRODUCT_022569_001",
+      "Số bằng sáng chế": "9814705",
+      "ngày hết hạn bằng sáng chế": "2024-01-08 00:00:00",
+      "cờ_chất_dược": 0,
+      "cờ sản phẩm thuốc": 1,
+      "Mã sử dụng bằng sáng chế": null,
+      "cờ hủy danh": 0,
+      "ngày nộp": "2017-12-13 00:00:00"
+    }
+  ]
+}

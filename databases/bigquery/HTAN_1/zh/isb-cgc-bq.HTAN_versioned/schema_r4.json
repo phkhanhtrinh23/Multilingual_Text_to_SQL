@@ -1,0 +1,121 @@
+{
+  "table_name": "schema_r4",
+  "table_fullname": "isb-cgc-bq.HTAN_versioned.schema_r4",
+  "column_names": [
+    "属性",
+    "描述",
+    "有效值",
+    "依赖于",
+    "属性",
+    "必填",
+    "父母",
+    "依赖组件",
+    "来源",
+    "验证规则"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "属性",
+    "描述",
+    "有效值",
+    "依赖于",
+    "属性",
+    "必填",
+    "父母",
+    "依赖组件",
+    "来源",
+    "验证规则"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "我们想将检验、相关协议或下游数据的关键特征 X 记录为元数据特征。",
+    "请提供属性 X 的定义或包含其定义的参考资料。最好同时提供源本体链接或代码以补充定义。如果最终描述仍在进行，请留空。",
+    "属性 X 的取值范围：可分配给属性 X 的值；这些值可以包含/本身是其他属性（即在“Attribute”列中列出的属性）。以逗号分隔。如果未提供任何值，则任何非空值都为属性 X 的有效值。",
+    "重要特征（如有），在指定属性 X 时需记录为元数据特征。这些特征可能是属性本身的属性或特性（即列在 'Attribute' 列和/或 'Properties' 列中）。以逗号分隔。",
+    "特定属性的属性；请注意，属性本身可能也是属性（即列在“Attributes”列中）。",
+    "请指明属性 X 的值是否默认必填或可选。设置为 TRUE 或 FALSE。若为 TRUE，数据贡献者必须为属性 X 提供一个值（例如，在 'Valid Values'（若指定）中列出的有效值之一）。若为 FALSE，数据贡献者可在 'Not Applicable' 或 'Not Specified' 之间选择作为属性 X 的值。请注意，某个属性默认可能不被要求（即 'Required' 设置为 FALSE），但它也可能因是另一个必填属性的子属性而被要求（例如，请参阅 ERCC）。",
+    "此属性的父类——即将此属性“挂钩”到现有模式的位置。请注意，这假设只有一个现有模式/单一的 json‑ld 模式上下文；如果我们需要支持跨多个模式/JSON‑LD 上下文定义的类/属性/属性，我们需要添加一个 schema/context 列来指定每个属性的上下文，若与其父属性的上下文不同。",
+    "每个组件都是一个高级本体类，在该类中实体/对象被分类/组件化；一个组件本身是一个实体，需要在模式中定义。",
+    "该术语描述的来源，通常是一个 URI。  \n本体可以用作来源。  \n例如，Library Construction Method 的来源为: http://purl.obolibrary.org/obo/OBI_0000711",
+    "在“有效值”列中允许的数据类型是什么？仅当行中没有有效值时才相关。例如：字符串、列表、整数"
+  ],
+  "sample_rows": [
+    {
+      "属性": null,
+      "描述": "Process which results in the creation of a library from fragments of DNA using cloning vectors or oligonucleotides with the role of adaptors [OBI_0000711]",
+      "有效值": "Smart-seq2, Smart-SeqV4, 10xV1.0, 10xV1.1, 10xV2, 10xV3,10xV3.1, CEL-seq2, Drop-seq, inDropsV2, inDropsV3, TruDrop, sci-ATAC-seq",
+      "依赖于": null,
+      "必填": "TRUE",
+      "父母": "Sequencing",
+      "依赖组件": null,
+      "来源": "http://purl.obolibrary.org/obo/OBI_0000711",
+      "验证规则": null
+    },
+    {
+      "属性": null,
+      "描述": "An oligo to which new deoxyribonucleotides can be added by DNA polymerase [SO_0000112]. The type of primer used for reverse transcription, e.g. oligo-dT or random primer. This allows users to identify content of the cDNA library input e.g. enriched for mRNA",
+      "有效值": "Oligo-dT, Poly-dT, Feature barcoding, Random",
+      "依赖于": null,
+      "必填": "TRUE",
+      "父母": "scRNA-seq Level 1",
+      "依赖组件": null,
+      "来源": "http://www.sequenceontology.org/so_wiki/index.php/Category:SO:0000112_!_primer",
+      "验证规则": null
+    },
+    {
+      "属性": null,
+      "描述": "Generic name for the workflow used to analyze a data set.",
+      "有效值": "BWA, BWA with BQSR, BWA-aln, BWA-mem, BWA with Mark Duplicates and BQSR, STAR 2-Pass, STAR 2-Pass Chimeric, STAR 2-Pass Genome, STAR 2-Pass Transcriptome, Bowtie, Bismark, GSNAP, BSMAP, BSmooth, BS-Seeker2, BS-Seeker, RMAP, MethylCoder, BRAT-BW, Pash, Segemehl, Bisulfighter, BatMeth, LAST, ERNE-BS5, B-SOLANA, SOCS-B, BWA-meth, Other Alignment Workflow, None",
+      "依赖于": null,
+      "必填": "TRUE",
+      "父母": "Sequencing",
+      "依赖组件": null,
+      "来源": "https://docs.gdc.cancer.gov/Data_Dictionary/viewer/#?view=table-definition-view&id=alignment_workflow",
+      "验证规则": null
+    },
+    {
+      "属性": null,
+      "描述": "Specific content type of the data file.",
+      "有效值": "Gene Expression, Transcript Expression, Exon Expression Quantification, Gene Expression Quantification, Isoform Expression Quantification, Splice Junction Quantification, Other",
+      "依赖于": null,
+      "必填": "TRUE",
+      "父母": "Sequencing",
+      "依赖组件": null,
+      "来源": "https://docs.gdc.cancer.gov/Data_Dictionary/viewer/#?view=table-definition-view&id=gene_expression",
+      "验证规则": null
+    },
+    {
+      "属性": null,
+      "描述": "The kind of molecular specimen analyte: a molecular derivative (I.e. RNA / DNA / Protein Lysate) obtained from a specimen",
+      "有效值": "cfDNA Analyte, DNA Analyte, RNA Analyte, Total RNA Analyte, Tissue Block Analyte, Tissue Section Analyte, PBMCs or Plasma or Serum Analyte, cDNA Libraries Analyte, PBMCs, Plasma, Serum Analyte, protein, metabolite, lipid",
+      "依赖于": null,
+      "必填": "TRUE",
+      "父母": "Biospecimen",
+      "依赖组件": null,
+      "来源": "https://cadsr.cancer.gov/onedata/dmdirect/NIH/NCI/CO/CDEDD?filter=CDEDD.ITEM_ID=2513915&version=2.0",
+      "验证规则": null
+    }
+  ]
+}

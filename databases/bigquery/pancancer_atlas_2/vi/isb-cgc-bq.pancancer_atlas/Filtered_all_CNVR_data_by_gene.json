@@ -1,0 +1,126 @@
+{
+  "table_name": "Filtered_all_CNVR_data_by_gene",
+  "table_fullname": "isb-cgc-bq.pancancer_atlas.Filtered_all_CNVR_data_by_gene",
+  "column_names": [
+    "Mã vạch người tham gia",
+    "Mã vạch mẫu",
+    "Mã vạch mẫu con",
+    "Mã chữ loại mẫu",
+    "Loại mẫu",
+    "Nghiên cứu",
+    "Ký hiệu Gen",
+    "Mã vị trí",
+    "Băng tế bào",
+    "GISTIC_Gọi"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "STRING",
+    "FLOAT64"
+  ],
+  "nested_column_names": [
+    "Mã vạch người tham gia",
+    "Mã vạch mẫu",
+    "Mã vạch mẫu rút",
+    "Mã chữ loại mẫu",
+    "Loại mẫu",
+    "Nghiên cứu",
+    "Ký hiệu Gene",
+    "Mã Locus",
+    "đoạn cytoband",
+    "Kết quả GISTIC"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "STRING",
+    "FLOAT64"
+  ],
+  "description": [
+    "Định danh mã vạch TCGA cho người tham gia nghiên cứu, ví dụ TCGA-02-0001",
+    "Mã vạch của mẫu vật liệu sinh học, ví dụ TCGA-13-1489-02A",
+    "Mã vạch aliquot TCGA, ví dụ TCGA-12-1089-01A-01D-0517-28",
+    "Mã chữ cái của loại mẫu sử dụng tiêu chuẩn TCGA, ví dụ TPN, EBV. Danh sách đầy đủ có thể truy cập tại https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/sample-type-codes",
+    "Mẫu bình thường từ máu, Khối u rắn nguyên phát, Tissue rắn bình thường, Khối u rắn tái phát, Mắtu chuyển sang, Thêm - Khối u nguyên phát mới, Ung thư nguyên phát nguồn gốc máu - Máu ngoại vi, Tế bào miệng bình thường, Bổ sung - Mắtu chuyển sang, Mẫu bình thường tủy xương",
+    "Viết tắt của nghiên cứu TCGA, ví dụ LAML. Danh sách đầy đủ có sẵn tại https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/tcga-study-abbreviations",
+    "ví dụ TP53, LRP1B, v.v. (tương tự trường Hugo_Symbol nhưng để trống thay vì Unknown)",
+    "ID vị trí gene, ví dụ. 57380, 100616303",
+    "Tên đầy đủ của cytoband, bao gồm nhiễm sắc thể. Ví dụ, 17p13.2 Xem https://www.ncbi.nlm.nih.gov/Class/MLACourse/Original8Hour/Genetics/chrombanding.html",
+    "Các kết quả số lượng bản sao GISTIC"
+  ],
+  "sample_rows": [
+    {
+      "Mã vạch người tham gia": "TCGA-04-1331",
+      "Mã vạch mẫu": "TCGA-04-1331-01A",
+      "Mã vạch mẫu rút": "TCGA-04-1331-01A-01D-0428-01",
+      "Mã chữ loại mẫu": "TP",
+      "Loại mẫu": "Primary solid Tumor",
+      "Nghiên cứu": "OV",
+      "Ký hiệu Gene": "MIR663B",
+      "Mã Locus": 100313824,
+      "đoạn cytoband": "2q21.2",
+      "Kết quả GISTIC": -0.054
+    },
+    {
+      "Mã vạch người tham gia": "TCGA-04-1331",
+      "Mã vạch mẫu": "TCGA-04-1331-01A",
+      "Mã vạch mẫu rút": "TCGA-04-1331-01A-01D-0428-01",
+      "Mã chữ loại mẫu": "TP",
+      "Loại mẫu": "Primary solid Tumor",
+      "Nghiên cứu": "OV",
+      "Ký hiệu Gene": "REG4",
+      "Mã Locus": 83998,
+      "đoạn cytoband": "1p12",
+      "Kết quả GISTIC": 0.13
+    },
+    {
+      "Mã vạch người tham gia": "TCGA-04-1331",
+      "Mã vạch mẫu": "TCGA-04-1331-01A",
+      "Mã vạch mẫu rút": "TCGA-04-1331-01A-01D-0428-01",
+      "Mã chữ loại mẫu": "TP",
+      "Loại mẫu": "Primary solid Tumor",
+      "Nghiên cứu": "OV",
+      "Ký hiệu Gene": "CABIN1",
+      "Mã Locus": 23523,
+      "đoạn cytoband": "22q11.23",
+      "Kết quả GISTIC": -0.715
+    },
+    {
+      "Mã vạch người tham gia": "TCGA-04-1331",
+      "Mã vạch mẫu": "TCGA-04-1331-01A",
+      "Mã vạch mẫu rút": "TCGA-04-1331-01A-01D-0428-01",
+      "Mã chữ loại mẫu": "TP",
+      "Loại mẫu": "Primary solid Tumor",
+      "Nghiên cứu": "OV",
+      "Ký hiệu Gene": "CHRNA7",
+      "Mã Locus": 1139,
+      "đoạn cytoband": "15q13.3",
+      "Kết quả GISTIC": -0.764
+    },
+    {
+      "Mã vạch người tham gia": "TCGA-04-1331",
+      "Mã vạch mẫu": "TCGA-04-1331-01A",
+      "Mã vạch mẫu rút": "TCGA-04-1331-01A-01D-0428-01",
+      "Mã chữ loại mẫu": "TP",
+      "Loại mẫu": "Primary solid Tumor",
+      "Nghiên cứu": "OV",
+      "Ký hiệu Gene": "AOC2",
+      "Mã Locus": 314,
+      "đoạn cytoband": "17q21.31",
+      "Kết quả GISTIC": -0.277
+    }
+  ]
+}

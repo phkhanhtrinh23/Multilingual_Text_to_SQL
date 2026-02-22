@@ -1,0 +1,70 @@
+{
+  "sample_rows": [
+    {
+      "ID_GEO": "country/CAN",
+      "VARIÁVEL": "BAL_OF_PAY_D_IN2_USD_EXC__Z_Q_N",
+      "NOME_DA_VARIÁVEL": "Balance of payments to rest of the world: expenditure from secondary income in US dollars, exchange rate converted, Quarterly",
+      "DATA": "2007-03-31",
+      "VALOR": 3361249000.0,
+      "UNIDADE": "USD"
+    },
+    {
+      "ID_GEO": "country/LTU",
+      "VARIÁVEL": "BAL_OF_PAY_C_NP_XDC_EUR_Q_N",
+      "NOME_DA_VARIÁVEL": "Balance of payments to rest of the world: revenue from gross acquisitions / disposals of nonproduced nonfinancial assets in Euro, Quarterly",
+      "DATA": "2011-03-31",
+      "VALOR": 0.0,
+      "UNIDADE": "EUR"
+    },
+    {
+      "ID_GEO": "country/EST",
+      "VARIÁVEL": "CLI_H_CCICP__Z_IX__Z_IX_M_AA",
+      "NOME_DA_VARIÁVEL": "OECD harmonised Composite Consumer Confidence, Index, Monthly (Amplitude adjusted)",
+      "DATA": "2012-06-30",
+      "VALOR": 98.93938,
+      "UNIDADE": "Index"
+    },
+    {
+      "ID_GEO": "country/GBR",
+      "VARIÁVEL": "CLI_H_BCICP__Z_IX__Z_IX_M_AA",
+      "NOME_DA_VARIÁVEL": "OECD harmonised Composite Business Confidence, Index, Monthly (Amplitude adjusted)",
+      "DATA": "1991-03-31",
+      "VALOR": 94.93137,
+      "UNIDADE": "Index"
+    },
+    {
+      "ID_GEO": "country/KOR",
+      "VARIÁVEL": "BAL_OF_PAY_C_IN2_USD_EXC__Z_M_Y",
+      "NOME_DA_VARIÁVEL": "Balance of payments to rest of the world: revenue from secondary income in US dollars, exchange rate converted, Monthly (Calendar and seasonally adjusted)",
+      "DATA": "1999-06-30",
+      "VALOR": 333100000.0,
+      "UNIDADE": "USD"
+    }
+  ],
+  "table_name": "OECD_TIMESERIES",
+  "table_fullname": "FINANCE__ECONOMICS.CYBERSYN.OECD_TIMESERIES",
+  "column_names": [
+    "VALOR",
+    "NOME_DA_VARIÁVEL",
+    "UNIDADE",
+    "ID_GEO",
+    "VARIÁVEL",
+    "DATA"
+  ],
+  "column_types": [
+    "FLOAT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "DATE"
+  ],
+  "description": [
+    "Valor relatado para a variável.",
+    "Nome único legível por humanos para a variável.",
+    "Unidade de medida para o valor relatado.",
+    "Um identificador único para um local. Pode ser unido a outras tabelas de geografia, incluindo `GEOGRAPHY_INDEX`, `GEOGRAPHY_RELATIONSHIPS` e `GEOGRAPHY_CHARACTERISTICS`.",
+    "Identificador único para uma variável, pode ser unido à tabela de séries temporais.",
+    "Data associada ao valor."
+  ]
+}

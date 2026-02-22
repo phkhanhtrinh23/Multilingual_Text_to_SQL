@@ -1,0 +1,54 @@
+{
+  "sample_rows": [
+    {
+      "ID_POI": "08f2aad4446520ec03e1f001780831d4",
+      "NOM_POI": "Bk Rentals",
+      "CATEGORIE_PRINCIPALE": "Party Equipment Rental",
+      "CATEGORIE_ALTERNATE": "[\n  \"Party Supply\",\n  \"Retail\"\n]"
+    },
+    {
+      "ID_POI": "08f44a112860108a03b33ba25948478f",
+      "NOM_POI": "Amethyst Law Group",
+      "CATEGORIE_PRINCIPALE": "Lawyer",
+      "CATEGORIE_ALTERNATE": null
+    },
+    {
+      "ID_POI": "08f2986ab4d3447503b83560c1fe48ad",
+      "NOM_POI": "Iglesia Cristiana Mi Refugio",
+      "CATEGORIE_PRINCIPALE": "Church Cathedral",
+      "CATEGORIE_ALTERNATE": "[\n  \"Religious Organization\"\n]"
+    },
+    {
+      "ID_POI": "08f2832b99aed21203072dc6cbb35c3b",
+      "NOM_POI": "Jass Gardening",
+      "CATEGORIE_PRINCIPALE": null,
+      "CATEGORIE_ALTERNATE": null
+    },
+    {
+      "ID_POI": "08f2a33cd328310e0331f178e0caa82b",
+      "NOM_POI": "Pampered By G",
+      "CATEGORIE_PRINCIPALE": null,
+      "CATEGORIE_ALTERNATE": null
+    }
+  ],
+  "table_name": "POINT_OF_INTEREST_INDEX",
+  "table_fullname": "US_ADDRESSES__POI.CYBERSYN.POINT_OF_INTEREST_INDEX",
+  "column_names": [
+    "CATEGORIE_PRINCIPALE",
+    "NOM_POI",
+    "CATEGORIE_ALTERNATE",
+    "ID_POI"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "ARRAY",
+    "TEXT"
+  ],
+  "description": [
+    "Catégorie principale ou classe de lieu pour le POI.",
+    "Nom du lieu, du commerçant ou de la marque pour le POI particulier.",
+    "Catégories alternatives du POI. Un POI peut correspondre à plusieurs catégories (par exemple, Restaurant, Restaurant de burgers, Restaurant de fast food), dans ce cas, une catégorie serait enregistrée comme CATEGORY_MAIN et les catégories restantes seraient enregistrées dans une liste sous CATEGORY_ALTERNATE.",
+    "Un identifiant unique pour un point d'intérêt (comme un parc, une chaîne de restauration rapide, un hôtel, etc.) en fonction de sa description et de son emplacement. Cela peut être joint à la table POINT_OF_INTEREST_ADDRESSES_RELATIONSHIPS qui peut être utilisée pour relier les POI aux adresses."
+  ]
+}

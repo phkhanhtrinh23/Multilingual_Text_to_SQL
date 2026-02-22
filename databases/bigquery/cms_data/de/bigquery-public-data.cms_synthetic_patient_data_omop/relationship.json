@@ -1,0 +1,86 @@
+{
+  "table_name": "relationship",
+  "table_fullname": "bigquery-public-data.cms_synthetic_patient_data_omop.relationship",
+  "column_names": [
+    "beziehung_id",
+    "beziehungsname",
+    "ist_hierarchisch",
+    "definiert_abstammung",
+    "umgekehrte_beziehung_id",
+    "beziehungskonzept_id"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "Beziehungs-ID",
+    "Beziehungsname",
+    "Hierarchisch",
+    "Definiert Abstammung",
+    "Umgekehrte Beziehungs-ID",
+    "Beziehungskonzept-ID"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64"
+  ],
+  "description": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "sample_rows": [
+    {
+      "Beziehungs-ID": "Acc device used by",
+      "Beziehungsname": "Access device used by (SNOMED)",
+      "Hierarchisch": "0",
+      "Definiert Abstammung": "0",
+      "Umgekehrte Beziehungs-ID": "Using acc device",
+      "Beziehungskonzept-ID": 44818895
+    },
+    {
+      "Beziehungs-ID": "Access of",
+      "Beziehungsname": "Access of (SNOMED)",
+      "Hierarchisch": "0",
+      "Definiert Abstammung": "0",
+      "Umgekehrte Beziehungs-ID": "Has access",
+      "Beziehungskonzept-ID": 44818847
+    },
+    {
+      "Beziehungs-ID": "Active ing of",
+      "Beziehungsname": "Active ingredient of (SNOMED)",
+      "Hierarchisch": "0",
+      "Definiert Abstammung": "0",
+      "Umgekehrte Beziehungs-ID": "Has active ing",
+      "Beziehungskonzept-ID": 44818859
+    },
+    {
+      "Beziehungs-ID": "AMP of",
+      "Beziehungsname": "Actual Medicinal Product of (SNOMED)",
+      "Hierarchisch": "0",
+      "Definiert Abstammung": "0",
+      "Umgekehrte Beziehungs-ID": "Has AMP",
+      "Beziehungskonzept-ID": 45905757
+    },
+    {
+      "Beziehungs-ID": "Answer of",
+      "Beziehungsname": "Answer of (LOINC)",
+      "Hierarchisch": "0",
+      "Definiert Abstammung": "0",
+      "Umgekehrte Beziehungs-ID": "Has Answer",
+      "Beziehungskonzept-ID": 45754684
+    }
+  ]
+}

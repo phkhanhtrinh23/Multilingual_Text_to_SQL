@@ -1,0 +1,70 @@
+{
+  "sample_rows": [
+    {
+      "GEO_ID": "country/LIE",
+      "ISO_Alpha2": "LI",
+      "Datum": "1970-12-24",
+      "Feiertagsname": "Heiliger Abend",
+      "Unterteilung": null,
+      "IS_FINANCIAL": false
+    },
+    {
+      "GEO_ID": "country/LIE",
+      "ISO_Alpha2": "LI",
+      "Datum": "1971-01-02",
+      "Feiertagsname": "Berchtoldstag",
+      "Unterteilung": null,
+      "IS_FINANCIAL": false
+    },
+    {
+      "GEO_ID": "country/LIE",
+      "ISO_Alpha2": "LI",
+      "Datum": "1971-04-11",
+      "Feiertagsname": "Ostersonntag",
+      "Unterteilung": null,
+      "IS_FINANCIAL": false
+    },
+    {
+      "GEO_ID": "country/LIE",
+      "ISO_Alpha2": "LI",
+      "Datum": "1971-04-12",
+      "Feiertagsname": "Ostermontag",
+      "Unterteilung": null,
+      "IS_FINANCIAL": true
+    },
+    {
+      "GEO_ID": "country/LIE",
+      "ISO_Alpha2": "LI",
+      "Datum": "1971-09-08",
+      "Feiertagsname": "Maria Geburt",
+      "Unterteilung": null,
+      "IS_FINANCIAL": false
+    }
+  ],
+  "table_name": "PUBLIC_HOLIDAY_CALENDAR",
+  "table_fullname": "GLOBAL_GOVERNMENT.CYBERSYN.PUBLIC_HOLIDAY_CALENDAR",
+  "column_names": [
+    "Unterteilung",
+    "Feiertagsname",
+    "ISO_Alpha2",
+    "IS_FINANCIAL",
+    "Datum",
+    "GEO_ID"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "BOOLEAN",
+    "DATE",
+    "TEXT"
+  ],
+  "description": [
+    "Bundesland, Provinz oder andere zugrunde liegende Geographie, die spezifisch für den Feiertag ist",
+    "Name des Feiertags",
+    "2-Buchstaben-Ländercode von der Internationalen Organisation für Normung",
+    "Boolean, das einen Börsenschluss für die gegebene Region anzeigt",
+    "Datum, das mit dem Ereignis verbunden ist",
+    "GEO_ID aus der `GEOGRAPHY_INDEX`-Tabelle"
+  ]
+}

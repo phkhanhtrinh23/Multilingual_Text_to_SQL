@@ -1,0 +1,86 @@
+{
+  "sample_rows": [
+    {
+      "GEO_ID": "country/DEU",
+      "VARIAVEL": "ESR_corn_accumulated_exports",
+      "NOME_VARIAVEL": "Corn: Accumulated Exports",
+      "DATA": "1999-04-01",
+      "VALOR": 3505.0,
+      "UNIDADE": "Metric Tons",
+      "ANO_DO_CALENDARIO": "1970-01-01",
+      "ANO_DE_MERCADO": "1999"
+    },
+    {
+      "GEO_ID": "country/BMU",
+      "VARIAVEL": "ESR_rice_lg_brown_current_market_year_total_commitment",
+      "NOME_VARIAVEL": "Rice-LG Brown: Current Market Year Total Commitment",
+      "DATA": "2009-09-10",
+      "VALOR": 18.0,
+      "UNIDADE": "Metric Tons",
+      "ANO_DO_CALENDARIO": "1970-01-01",
+      "ANO_DE_MERCADO": "2010"
+    },
+    {
+      "GEO_ID": "country/SEN",
+      "VARIAVEL": "PSD-4234000-088",
+      "NOME_VARIAVEL": "Peanut Oil: Exports",
+      "DATA": "2015-03-01",
+      "VALOR": 35000.0,
+      "UNIDADE": "Metric Tons",
+      "ANO_DO_CALENDARIO": "2020-12-31",
+      "ANO_DE_MERCADO": "2015"
+    },
+    {
+      "GEO_ID": "country/JAM",
+      "VARIAVEL": "ESR_soybean_cake__meal_next_market_year_outstanding_sales",
+      "NOME_VARIAVEL": "Soybean cake & meal: Next Market Year Outstanding Sales",
+      "DATA": "2021-03-25",
+      "VALOR": 0.0,
+      "UNIDADE": "Metric Tons",
+      "ANO_DO_CALENDARIO": "1970-01-01",
+      "ANO_DE_MERCADO": "2021"
+    },
+    {
+      "GEO_ID": "country/BEL",
+      "VARIAVEL": "ESR_all_upland_cotton_weekly_exports",
+      "NOME_VARIAVEL": "All Upland Cotton: Weekly Exports",
+      "DATA": "2007-02-08",
+      "VALOR": 0.0,
+      "UNIDADE": "Running Bales",
+      "ANO_DO_CALENDARIO": "1970-01-01",
+      "ANO_DE_MERCADO": "2007"
+    }
+  ],
+  "table_name": "US_DEPARTMENT_OF_AGRICULTURE_COMMODITIES_TIMESERIES",
+  "table_fullname": "GLOBAL_GOVERNMENT.CYBERSYN.US_DEPARTMENT_OF_AGRICULTURE_COMMODITIES_TIMESERIES",
+  "column_names": [
+    "NOME_VARIAVEL",
+    "DATA",
+    "UNIDADE",
+    "GEO_ID",
+    "VARIAVEL",
+    "VALOR",
+    "ANO_DE_MERCADO",
+    "ANO_DO_CALENDARIO"
+  ],
+  "column_types": [
+    "TEXT",
+    "DATE",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "FLOAT",
+    "TEXT",
+    "DATE"
+  ],
+  "description": [
+    "Descrição legível por humanos do atributo relatado, incluindo o tipo de commodity e uma descrição do que está sendo registrado.",
+    "Data associada ao valor (por exemplo, para variáveis ESR, representa o fim da semana de vendas). Consulte a tabela ATTRIBUTES para mais detalhes.",
+    "Unidade de medida para o valor relatado (ex. Toneladas Métricas).",
+    "Um identificador único para um país que pode ser associado à tabela GEOGRAPHY_INDEX.",
+    "Identificador único para uma variável, que define o conjunto de dados do USDA que origina os dados (por exemplo, ESR - Relatório de Vendas de Exportação), a commodity associada a essa variável e o que está sendo medido.",
+    "Valor relatado para a variável.",
+    "Ano de marketing vinculado às estações agrícolas e períodos de colheita de uma cultura específica. Um ano de marketing geralmente começa no mês em que a colheita de uma cultura específica começa e termina logo antes do início da colheita do próximo ano. Esse período pode variar significativamente entre diferentes culturas e países.",
+    "Ano do calendário associado ao valor."
+  ]
+}

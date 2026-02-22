@@ -1,0 +1,106 @@
+{
+  "table_name": "dar_intersectional_exits_representation",
+  "table_fullname": "bigquery-public-data.google_dei.dar_intersectional_exits_representation",
+  "column_names": [
+    "fuerza laboral",
+    "Año del informe",
+    "género_eeuu",
+    "Asiático",
+    "raza negra",
+    "raza hispano-latina",
+    "raza nativa americana",
+    "raza_blanca"
+  ],
+  "column_types": [
+    "STRING",
+    "INT64",
+    "STRING",
+    "FLOAT64",
+    "FLOAT64",
+    "FLOAT64",
+    "FLOAT64",
+    "FLOAT64"
+  ],
+  "nested_column_names": [
+    "fuerza laboral",
+    "Año de informe",
+    "género",
+    "raza_asiática",
+    "raza negra",
+    "raza_hispana_latina",
+    "raza_nativo_americano",
+    "raza blanca"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "INT64",
+    "STRING",
+    "FLOAT64",
+    "FLOAT64",
+    "FLOAT64",
+    "FLOAT64",
+    "FLOAT64"
+  ],
+  "description": [
+    "General y subcategorías",
+    "El año en que se publicó el informe",
+    "Género de las salidas de Googlers en EE. UU.",
+    "El porcentaje de salidas de Googler en EE. UU. que se identifican como asiático y cero o más otras razas",
+    "El porcentaje de salidas de Googler en EE. UU. que se identifican como negros y de cero o más otras razas",
+    "El porcentaje de salidas de Googlers en EE. UU. que se identifican como hispanos o latinos y cero o más razas adicionales.",
+    "El porcentaje de egresos de Googlers en EE. UU. que se identifican como nativos americanos y cero o más razas adicionales",
+    "El porcentaje de salidas de Googler en EE. UU. que se identifican como blancos y cero o más razas adicionales."
+  ],
+  "sample_rows": [
+    {
+      "fuerza laboral": "non_tech",
+      "Año de informe": 2023,
+      "género": "women",
+      "raza_asiática": 0.12,
+      "raza negra": 0.069,
+      "raza_hispana_latina": 0.041,
+      "raza_nativo_americano": 0.007,
+      "raza blanca": 0.256
+    },
+    {
+      "fuerza laboral": "non_tech",
+      "Año de informe": 2022,
+      "género": "women",
+      "raza_asiática": 0.12,
+      "raza negra": 0.052,
+      "raza_hispana_latina": 0.049,
+      "raza_nativo_americano": 0.004,
+      "raza blanca": 0.268
+    },
+    {
+      "fuerza laboral": "non_tech",
+      "Año de informe": 2024,
+      "género": "men",
+      "raza_asiática": 0.088,
+      "raza negra": 0.062,
+      "raza_hispana_latina": 0.051,
+      "raza_nativo_americano": 0.007,
+      "raza blanca": 0.271
+    },
+    {
+      "fuerza laboral": "non_tech",
+      "Año de informe": 2020,
+      "género": "women",
+      "raza_asiática": 0.109,
+      "raza negra": 0.042,
+      "raza_hispana_latina": 0.048,
+      "raza_nativo_americano": 0.01,
+      "raza blanca": 0.281
+    },
+    {
+      "fuerza laboral": "non_tech",
+      "Año de informe": 2019,
+      "género": "women",
+      "raza_asiática": 0.125,
+      "raza negra": 0.026,
+      "raza_hispana_latina": 0.033,
+      "raza_nativo_americano": 0.007,
+      "raza blanca": 0.29
+    }
+  ]
+}

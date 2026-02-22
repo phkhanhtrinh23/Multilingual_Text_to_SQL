@@ -1,0 +1,76 @@
+{
+  "table_name": "dar_region_non_intersectional_hiring",
+  "table_fullname": "bigquery-public-data.google_dei.dar_region_non_intersectional_hiring",
+  "column_names": [
+    "fuerza laboral",
+    "año de informe",
+    "región",
+    "mujeres",
+    "hombres"
+  ],
+  "column_types": [
+    "STRING",
+    "INT64",
+    "STRING",
+    "FLOAT64",
+    "FLOAT64"
+  ],
+  "nested_column_names": [
+    "fuerza laboral",
+    "Año del informe",
+    "región",
+    "género_mujeres",
+    "hombres"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "INT64",
+    "STRING",
+    "FLOAT64",
+    "FLOAT64"
+  ],
+  "description": [
+    "General y subcategorías",
+    "El año en que se publicó el informe",
+    "Región",
+    "La proporción de Googlers contratados en la región que son mujeres.",
+    "El porcentaje de Googlers contratados en la región que son hombres"
+  ],
+  "sample_rows": [
+    {
+      "fuerza laboral": "leadership",
+      "Año del informe": 2023,
+      "región": "AMERICAS (non-US)",
+      "género_mujeres": null,
+      "hombres": 0.75
+    },
+    {
+      "fuerza laboral": "leadership",
+      "Año del informe": 2022,
+      "región": "AMERICAS (non-US)",
+      "género_mujeres": null,
+      "hombres": null
+    },
+    {
+      "fuerza laboral": "leadership",
+      "Año del informe": 2021,
+      "región": "AMERICAS (non-US)",
+      "género_mujeres": null,
+      "hombres": 0.75
+    },
+    {
+      "fuerza laboral": "leadership",
+      "Año del informe": 2024,
+      "región": "AMERICAS (non-US)",
+      "género_mujeres": null,
+      "hombres": null
+    },
+    {
+      "fuerza laboral": "non_tech",
+      "Año del informe": 2021,
+      "región": "AMERICAS (non-US)",
+      "género_mujeres": 0.41,
+      "hombres": 0.59
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "sample_rows": [
+    {
+      "TICKER": "FAMI",
+      "ANLAGEKLASSE": "Common Shares",
+      "PRIMÄRER_BÖRSENCODE": "NAS",
+      "PRIMÄRER_BÖRSENNAME": "NASDAQ CAPITAL MARKET",
+      "VARIABLE": "all-day_high",
+      "VARIABLENNAME": "All-Day High",
+      "DATUM": "2022-08-08",
+      "WERT": 1.19
+    },
+    {
+      "TICKER": "TIPT",
+      "ANLAGEKLASSE": "Equity",
+      "PRIMÄRER_BÖRSENCODE": "NAS",
+      "PRIMÄRER_BÖRSENNAME": "NASDAQ CAPITAL MARKET",
+      "VARIABLE": "nasdaq_volume",
+      "VARIABLENNAME": "Nasdaq Volume",
+      "DATUM": "2023-02-16",
+      "WERT": 17249.0
+    },
+    {
+      "TICKER": "BLK",
+      "ANLAGEKLASSE": "Equity",
+      "PRIMÄRER_BÖRSENCODE": "NYS",
+      "PRIMÄRER_BÖRSENNAME": "NEW YORK STOCK EXCHANGE",
+      "VARIABLE": "post-market_close",
+      "VARIABLENNAME": "Post-Market Close",
+      "DATUM": "2021-04-26",
+      "WERT": 817.51
+    },
+    {
+      "TICKER": "BRN",
+      "ANLAGEKLASSE": "Equity",
+      "PRIMÄRER_BÖRSENCODE": "ASE",
+      "PRIMÄRER_BÖRSENNAME": "NYSE MKT LLC",
+      "VARIABLE": "nasdaq_volume",
+      "VARIABLENNAME": "Nasdaq Volume",
+      "DATUM": "2018-09-18",
+      "WERT": 2028.0
+    },
+    {
+      "TICKER": "XLP",
+      "ANLAGEKLASSE": "ETF-Index Fund Shares",
+      "PRIMÄRER_BÖRSENCODE": "PSE",
+      "PRIMÄRER_BÖRSENNAME": "NYSE ARCA",
+      "VARIABLE": "nasdaq_volume",
+      "VARIABLENNAME": "Nasdaq Volume",
+      "DATUM": "2023-11-16",
+      "WERT": 2373734.0
+    }
+  ],
+  "table_name": "STOCK_PRICE_TIMESERIES",
+  "table_fullname": "FINANCE__ECONOMICS.CYBERSYN.STOCK_PRICE_TIMESERIES",
+  "column_names": [
+    "PRIMÄRER_BÖRSENNAME",
+    "ANLAGEKLASSE",
+    "WERT",
+    "PRIMÄRER_BÖRSENCODE",
+    "VARIABLE",
+    "DATUM",
+    "VARIABLENNAME",
+    "TICKER"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "FLOAT",
+    "TEXT",
+    "TEXT",
+    "DATE",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Der Börsenname für die primäre Handelsplattform einer Sicherheit.",
+    "Typ der Sicherheit.",
+    "Wert, der für die Variable gemeldet wird.",
+    "Der Börsencode für die primäre Handelsplattform einer Sicherheit.",
+    "Eindeutiger Identifikator für eine Variable, verknüpfbar mit der `timeseries`-Tabelle.",
+    "Datum, das mit dem Wert verbunden ist.",
+    "Menschlich lesbarer eindeutiger Name für die Variable.",
+    "Alphanumerischer Code, der eine bestimmte öffentlich gehandelte Sicherheit an der `NASDAQ`-Börse repräsentiert."
+  ]
+}

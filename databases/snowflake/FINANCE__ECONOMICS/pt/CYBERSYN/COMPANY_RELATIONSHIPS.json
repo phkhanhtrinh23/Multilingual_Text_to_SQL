@@ -1,0 +1,94 @@
+{
+  "sample_rows": [
+    {
+      "ID_DA_EMPRESA": "ca52d8c892a8ffe6e8368f2bd7a5fca7",
+      "NOME_DA_EMPRESA": "WYNN RESORTS LTD",
+      "NIVEL_DA_ENTIDADE": "Corporate",
+      "ID_DA_EMPRESA_RELACIONADA": "5a2aaa890644211a8e69ad206ee9d4de",
+      "NOME_DA_EMPRESA_RELACIONADA": "WYNN LAS VEGAS LLC",
+      "NIVEL_DA_ENTIDADE_RELACIONADA": "Corporate",
+      "TIPO_DE_RELACIONAMENTO": "Parent",
+      "DATA_DE_INICIO_DO_RELACIONAMENTO": null,
+      "DATA_DE_FIM_DO_RELACIONAMENTO": null
+    },
+    {
+      "ID_DA_EMPRESA": "61042fb57d4bc5965ff4f0dfa55f3aa2",
+      "NOME_DA_EMPRESA": "RITZ-CARLTON HOTEL COMPANY LLC",
+      "NIVEL_DA_ENTIDADE": "Corporate",
+      "ID_DA_EMPRESA_RELACIONADA": "d0d371457687b60bbb116b9fc9ae65ea",
+      "NOME_DA_EMPRESA_RELACIONADA": "MARRIOTT INTERNATIONAL INC /MD/",
+      "NIVEL_DA_ENTIDADE_RELACIONADA": "Corporate",
+      "TIPO_DE_RELACIONAMENTO": "Subsidiary",
+      "DATA_DE_INICIO_DO_RELACIONAMENTO": null,
+      "DATA_DE_FIM_DO_RELACIONAMENTO": null
+    },
+    {
+      "ID_DA_EMPRESA": "9d60e1934f9141a0991597d08181e126",
+      "NOME_DA_EMPRESA": "TOWNEPLACE SUITES BY MARRIOTT",
+      "NIVEL_DA_ENTIDADE": "Corporate",
+      "ID_DA_EMPRESA_RELACIONADA": "d0d371457687b60bbb116b9fc9ae65ea",
+      "NOME_DA_EMPRESA_RELACIONADA": "MARRIOTT INTERNATIONAL INC /MD/",
+      "NIVEL_DA_ENTIDADE_RELACIONADA": "Corporate",
+      "TIPO_DE_RELACIONAMENTO": "Subsidiary",
+      "DATA_DE_INICIO_DO_RELACIONAMENTO": null,
+      "DATA_DE_FIM_DO_RELACIONAMENTO": null
+    },
+    {
+      "ID_DA_EMPRESA": "b5647b2c2c12a1b09f5ce31802833f10",
+      "NOME_DA_EMPRESA": "WYNDHAM HOTELS & RESORTS, INC.",
+      "NIVEL_DA_ENTIDADE": "Corporate",
+      "ID_DA_EMPRESA_RELACIONADA": "015a8a998d3e9492c6ff9ed4e452d802",
+      "NOME_DA_EMPRESA_RELACIONADA": "SUPER 8 WORLDWIDE, INC.",
+      "NIVEL_DA_ENTIDADE_RELACIONADA": "Corporate",
+      "TIPO_DE_RELACIONAMENTO": "Parent",
+      "DATA_DE_INICIO_DO_RELACIONAMENTO": null,
+      "DATA_DE_FIM_DO_RELACIONAMENTO": null
+    },
+    {
+      "ID_DA_EMPRESA": "b00320b7fdfbd6ecdbe7379e1e1e1d61",
+      "NOME_DA_EMPRESA": "COMCAST CORP",
+      "NIVEL_DA_ENTIDADE": "Corporate",
+      "ID_DA_EMPRESA_RELACIONADA": "36df5b636ad537c1a94fb35cd7c91f80",
+      "NOME_DA_EMPRESA_RELACIONADA": "FANDANGO MEDIA LLC",
+      "NIVEL_DA_ENTIDADE_RELACIONADA": "Corporate",
+      "TIPO_DE_RELACIONAMENTO": "Parent",
+      "DATA_DE_INICIO_DO_RELACIONAMENTO": null,
+      "DATA_DE_FIM_DO_RELACIONAMENTO": null
+    }
+  ],
+  "table_name": "COMPANY_RELATIONSHIPS",
+  "table_fullname": "FINANCE__ECONOMICS.CYBERSYN.COMPANY_RELATIONSHIPS",
+  "column_names": [
+    "NOME_DA_EMPRESA",
+    "TIPO_DE_RELACIONAMENTO",
+    "DATA_DE_INICIO_DO_RELACIONAMENTO",
+    "DATA_DE_FIM_DO_RELACIONAMENTO",
+    "ID_DA_EMPRESA",
+    "NIVEL_DA_ENTIDADE",
+    "ID_DA_EMPRESA_RELACIONADA",
+    "NIVEL_DA_ENTIDADE_RELACIONADA",
+    "NOME_DA_EMPRESA_RELACIONADA"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "DATE",
+    "DATE",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "O nome da empresa.",
+    "Especifica o tipo de relacionamento entre a empresa e a empresa relacionada. O valor é 'Parent' quando a empresa é a matriz da empresa relacionada e 'Subsidiary' quando a empresa é uma subsidiária da empresa relacionada.",
+    "O início de uma empresa sendo associada à empresa relacionada. Em casos onde a data de início é desconhecida, NULL é atribuído.",
+    "O fim do relacionamento sendo válido para a empresa e a empresa relacionada. Em casos onde um relacionamento é atualmente válido, uma data de fim de NULL é atribuída.",
+    "Identificador único atribuído pela Cybersyn a cada empresa. Pode ser unido à tabela COMPANY_INDEX.",
+    "Descreve o tipo ou nível da entidade para conveniência adicional. Atualmente, todas as entidades são entidades corporativas e são denotadas como 'Corporate'.",
+    "Identificador único atribuído pela Cybersyn à empresa relacionada. Pode ser unido à tabela COMPANY_INDEX.",
+    "Descreve o tipo ou nível da entidade relacionada para conveniência adicional. Atualmente, todas as entidades são entidades corporativas e são denotadas como 'Corporate'.",
+    "O nome da empresa relacionada."
+  ]
+}

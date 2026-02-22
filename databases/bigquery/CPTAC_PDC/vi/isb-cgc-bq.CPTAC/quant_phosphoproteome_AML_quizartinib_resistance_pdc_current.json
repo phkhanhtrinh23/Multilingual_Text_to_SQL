@@ -1,0 +1,116 @@
+{
+  "table_name": "quant_phosphoproteome_AML_quizartinib_resistance_pdc_current",
+  "table_fullname": "isb-cgc-bq.CPTAC.quant_phosphoproteome_AML_quizartinib_resistance_pdc_current",
+  "column_names": [
+    "ID trường hợp",
+    "mã mẫu",
+    "Mã aliquot",
+    "id_người_nộp_mẫu",
+    "mã_metadata_chạy_aliquot",
+    "tên nghiên cứu",
+    "tỷ lệ log2 hàm lượng protein",
+    "Mã RefSeq",
+    "điểm tri-phốt"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "định danh trường hợp",
+    "mã mẫu",
+    "Mã aliquot",
+    "id_người_gửi_alíquot",
+    "id_siêu_dữ_liệu_chạy_bản_mẫu",
+    "Tên nghiên cứu",
+    "tỷ lệ log2 hàm lượng protein",
+    "ID chuỗi tham chiếu",
+    "địa điểm fosphoryl hóa"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "Định danh duy nhất liên quan đến một bệnh nhân cụ thể (ví dụ: 24cb0fcb-63d6-11e8-bcf1-0a2705229b82)",
+    "Định danh PDC duy nhất cho mẫu này (ví dụ: e8d83eb9-693a-11ea-b1fd-0aad30af8a83)",
+    "Định danh PDC duy nhất cho mẫu này (ví dụ e8db124a-693a-11ea-b1fd-0aad30af8a83)",
+    "ID người nộp Aliquot được gán bởi chương trình (ví dụ: T14)",
+    "Xác định duy nhất phần mẫu dựa trên cách nó được sử dụng trong thí nghiệm (dựa trên chất định dán và/hoặc mẫu sinh học trùng lặp).",
+    "Tên nghiên cứu (ví dụ: Nghiên cứu Thí điểm Ung thư Não Trẻ - Phosphoproteome)",
+    "Tỷ lệ log trung bình của ion báo cáo mẫu so với tham chiếu chung của các ion peptide liên quan đến gen trong các lần thu thập từ một mẫu sinh học cụ thể.",
+    "Định danh duy nhất được cấp cho một trình tự trong cơ sở dữ liệu RefSeq của NCBI.",
+    "Mã chữ đơn và vị trí chuỗi protein của các axit amin đã được phosphoryl hóa (ví dụ: t304s310, t59)"
+  ],
+  "sample_rows": [
+    {
+      "định danh trường hợp": "4a4b2172-550c-4dbd-adad-8b3425f3ddea",
+      "mã mẫu": "baf671ff-e1b6-4cd9-9dfd-5d263db4f5df",
+      "Mã aliquot": "8dc69c53-9a45-4b6d-a3c1-4f3637f26440",
+      "id_người_gửi_alíquot": "PTRC_exp12_P5-1",
+      "id_siêu_dữ_liệu_chạy_bản_mẫu": "dfdf5e29-db86-48bd-83e9-009e078627ea",
+      "Tên nghiên cứu": "AML Quizartinib Resistance -  Phosphoproteome",
+      "tỷ lệ log2 hàm lượng protein": -1.6904,
+      "ID chuỗi tham chiếu": "NP_000356.1",
+      "địa điểm fosphoryl hóa": "s80"
+    },
+    {
+      "định danh trường hợp": "4a4b2172-550c-4dbd-adad-8b3425f3ddea",
+      "mã mẫu": "baf671ff-e1b6-4cd9-9dfd-5d263db4f5df",
+      "Mã aliquot": "8dc69c53-9a45-4b6d-a3c1-4f3637f26440",
+      "id_người_gửi_alíquot": "PTRC_exp12_P5-1",
+      "id_siêu_dữ_liệu_chạy_bản_mẫu": "dfdf5e29-db86-48bd-83e9-009e078627ea",
+      "Tên nghiên cứu": "AML Quizartinib Resistance -  Phosphoproteome",
+      "tỷ lệ log2 hàm lượng protein": -0.6829,
+      "ID chuỗi tham chiếu": "NP_001001436.1",
+      "địa điểm fosphoryl hóa": "s91"
+    },
+    {
+      "định danh trường hợp": "4a4b2172-550c-4dbd-adad-8b3425f3ddea",
+      "mã mẫu": "baf671ff-e1b6-4cd9-9dfd-5d263db4f5df",
+      "Mã aliquot": "8dc69c53-9a45-4b6d-a3c1-4f3637f26440",
+      "id_người_gửi_alíquot": "PTRC_exp12_P5-1",
+      "id_siêu_dữ_liệu_chạy_bản_mẫu": "dfdf5e29-db86-48bd-83e9-009e078627ea",
+      "Tên nghiên cứu": "AML Quizartinib Resistance -  Phosphoproteome",
+      "tỷ lệ log2 hàm lượng protein": -1.3169,
+      "ID chuỗi tham chiếu": "NP_001006635.1",
+      "địa điểm fosphoryl hóa": "s484"
+    },
+    {
+      "định danh trường hợp": "4a4b2172-550c-4dbd-adad-8b3425f3ddea",
+      "mã mẫu": "baf671ff-e1b6-4cd9-9dfd-5d263db4f5df",
+      "Mã aliquot": "8dc69c53-9a45-4b6d-a3c1-4f3637f26440",
+      "id_người_gửi_alíquot": "PTRC_exp12_P5-1",
+      "id_siêu_dữ_liệu_chạy_bản_mẫu": "dfdf5e29-db86-48bd-83e9-009e078627ea",
+      "Tên nghiên cứu": "AML Quizartinib Resistance -  Phosphoproteome",
+      "tỷ lệ log2 hàm lượng protein": -0.4732,
+      "ID chuỗi tham chiếu": "NP_001007027.1",
+      "địa điểm fosphoryl hóa": "s34"
+    },
+    {
+      "định danh trường hợp": "4a4b2172-550c-4dbd-adad-8b3425f3ddea",
+      "mã mẫu": "baf671ff-e1b6-4cd9-9dfd-5d263db4f5df",
+      "Mã aliquot": "8dc69c53-9a45-4b6d-a3c1-4f3637f26440",
+      "id_người_gửi_alíquot": "PTRC_exp12_P5-1",
+      "id_siêu_dữ_liệu_chạy_bản_mẫu": "dfdf5e29-db86-48bd-83e9-009e078627ea",
+      "Tên nghiên cứu": "AML Quizartinib Resistance -  Phosphoproteome",
+      "tỷ lệ log2 hàm lượng protein": -0.3275,
+      "ID chuỗi tham chiếu": "NP_001008697.1",
+      "địa điểm fosphoryl hóa": "s59"
+    }
+  ]
+}

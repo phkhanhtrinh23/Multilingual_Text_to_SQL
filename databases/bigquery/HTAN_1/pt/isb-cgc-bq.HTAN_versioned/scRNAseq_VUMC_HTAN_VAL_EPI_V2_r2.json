@@ -1,0 +1,126 @@
+{
+  "table_name": "scRNAseq_VUMC_HTAN_VAL_EPI_V2_r2",
+  "table_fullname": "isb-cgc-bq.HTAN_versioned.scRNAseq_VUMC_HTAN_VAL_EPI_V2_r2",
+  "column_names": [
+    "iObs",
+    "iVar",
+    "X_valor",
+    "Numero_Do_Codigo_De_Celula",
+    "ID_Do_Arquivo_De_Dados_Pai_HTAN",
+    "ID_De_Biosspecimen_HTAN",
+    "Tipo_De_Celula",
+    "Subtipo_De_Tecido",
+    "Tipo_De_Tecido",
+    "Nome_Do_Gene"
+  ],
+  "column_types": [
+    "INT64",
+    "INT64",
+    "FLOAT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "iObs",
+    "iVar",
+    "X_valor",
+    "Numero_Do_Codigo_De_Celula",
+    "ID_Do_Arquivo_De_Dados_Pai_HTAN",
+    "ID_De_Biosspecimen_HTAN",
+    "Tipo_De_Celula",
+    "Subtipo_De_Tecido",
+    "Tipo_De_Tecido",
+    "Nome_Do_Gene"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "INT64",
+    "FLOAT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "Índice para códigos de barras de células.",
+    "Índice para IDs de genes.",
+    "Valor de expressão para um gene e célula determinados.",
+    "Códigos de barras usados para cada gota que contém a célula no processo de sequenciamento",
+    "Identificador de arquivo de dados HTAN que indica o arquivo(s) do qual esses arquivos foram derivados",
+    "ID HTAN associado a uma biosamostra com base na SOP de ID HTAN (por exemplo, HTANx_yyy_zzz)",
+    "ABS = células absorptivas, TUF = células em penacho, EE = células enteroendócrinas, ASC = células específicas de adenoma, TAC = células de amplificação transitória, CT = células do topo da cripta, GOB = células caliciformes, SSC = células específicas de serrilhado, STM = células tronco",
+    "TA = adenoma tubular, HP = pólipo hiperplásico, TVA = adenoma tubuloviloso, SSL = lesão serrilhada sessil, UNC = não classificado, NL = normal",
+    "AD = adenoma convencional, SER = pólipo serrilhado, UNC = não classificado, NL = normal",
+    "Gene medido"
+  ],
+  "sample_rows": [
+    {
+      "iObs": 49352,
+      "iVar": 25903,
+      "X_valor": 12.0,
+      "Numero_Do_Codigo_De_Celula": "TGAAGGATTCACTACGAGC-12-5898",
+      "ID_Do_Arquivo_De_Dados_Pai_HTAN": "HTA11_11156_200000102113111",
+      "ID_De_Biosspecimen_HTAN": "HTA11_11156_2000001021",
+      "Tipo_De_Celula": "ABS",
+      "Subtipo_De_Tecido": "TA",
+      "Tipo_De_Tecido": "AD",
+      "Nome_Do_Gene": "RPLP2"
+    },
+    {
+      "iObs": 50116,
+      "iVar": 7756,
+      "X_valor": 21.0,
+      "Numero_Do_Codigo_De_Celula": "AGCACCACAAACGCCT-14-5898",
+      "ID_Do_Arquivo_De_Dados_Pai_HTAN": "HTA11_11156_200000101113111",
+      "ID_De_Biosspecimen_HTAN": "HTA11_11156_2000001011",
+      "Tipo_De_Celula": "ABS",
+      "Subtipo_De_Tecido": "TA",
+      "Tipo_De_Tecido": "AD",
+      "Nome_Do_Gene": "EEF1A1"
+    },
+    {
+      "iObs": 50183,
+      "iVar": 14514,
+      "X_valor": 40.0,
+      "Numero_Do_Codigo_De_Celula": "TGACTGGTGCAGAGTTTCG-14-5898",
+      "ID_Do_Arquivo_De_Dados_Pai_HTAN": "HTA11_11156_200000101113111",
+      "ID_De_Biosspecimen_HTAN": "HTA11_11156_2000001011",
+      "Tipo_De_Celula": "ABS",
+      "Subtipo_De_Tecido": "TA",
+      "Tipo_De_Tecido": "AD",
+      "Nome_Do_Gene": "MT-ND4"
+    },
+    {
+      "iObs": 47332,
+      "iVar": 16431,
+      "X_valor": 59.0,
+      "Numero_Do_Codigo_De_Celula": "ACTTAGGTATCCAGTCC-9-5898",
+      "ID_Do_Arquivo_De_Dados_Pai_HTAN": "HTA11_6182_200000202113111",
+      "ID_De_Biosspecimen_HTAN": "HTA11_6182_2000002021",
+      "Tipo_De_Celula": "ABS",
+      "Subtipo_De_Tecido": "NL",
+      "Tipo_De_Tecido": "NL",
+      "Nome_Do_Gene": "PHGR1"
+    },
+    {
+      "iObs": 50176,
+      "iVar": 25693,
+      "X_valor": 97.0,
+      "Numero_Do_Codigo_De_Celula": "GAGAATACGCATATACCT-14-5898",
+      "ID_Do_Arquivo_De_Dados_Pai_HTAN": "HTA11_11156_200000101113111",
+      "ID_De_Biosspecimen_HTAN": "HTA11_11156_2000001011",
+      "Tipo_De_Celula": "ABS",
+      "Subtipo_De_Tecido": "TA",
+      "Tipo_De_Tecido": "AD",
+      "Nome_Do_Gene": "RP5-857K21.4"
+    }
+  ]
+}

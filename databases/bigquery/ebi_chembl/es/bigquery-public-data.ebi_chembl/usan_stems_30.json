@@ -1,0 +1,96 @@
+{
+  "table_name": "usan_stems_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.usan_stems_30",
+  "column_names": [
+    "id_usan_raíz",
+    "tallo",
+    "subgrupo",
+    "anotación",
+    "tallo_clase",
+    "Clase principal",
+    "quién_adicional"
+  ],
+  "column_types": [
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "ID del tallo USAN",
+    "tallo",
+    "subgrupo",
+    "anotación",
+    "clase_tallo",
+    "Clase principal",
+    "quién_extra"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64"
+  ],
+  "description": [
+    "clave primaria numérica",
+    "Stem definido para uso en los Nombres Adoptados de Estados Unidos.",
+    "Subgrupo más específico del tallo definido para su uso en los Nombres Adoptados de EE. UU.",
+    "Significado de la raíz (por ejemplo, la clase de compuesto a la que se aplica).",
+    "Indica si la raíz se usa como prefijo, infijo o sufijo.",
+    "Familia de proteínas objetivo de los compuestos de esta clase (p. ej., GPCR, canal iónico, proteasa) donde sea conocido/aplicable.",
+    "El tallo no está representado en la lista USAN, pero se añadió desde la lista de tallos INN de la OMS (donde se establece en 1)."
+  ],
+  "sample_rows": [
+    {
+      "ID del tallo USAN": 16,
+      "tallo": "-adol-",
+      "subgrupo": "-",
+      "anotación": "analgesics (mixed opiate receptor agonists/antagonists)",
+      "clase_tallo": "Infix",
+      "Clase principal": "GPCR",
+      "quién_extra": 0
+    },
+    {
+      "ID del tallo USAN": 32,
+      "tallo": "-nab-",
+      "subgrupo": "-",
+      "anotación": "cannabinol derivatives",
+      "clase_tallo": "Infix",
+      "Clase principal": "GPCR",
+      "quién_extra": 0
+    },
+    {
+      "ID del tallo USAN": 49,
+      "tallo": "-kef-",
+      "subgrupo": "-",
+      "anotación": "enkephalin agonists",
+      "clase_tallo": "Infix",
+      "Clase principal": "GPCR",
+      "quién_extra": 0
+    },
+    {
+      "ID del tallo USAN": 73,
+      "tallo": "-prost-",
+      "subgrupo": "-",
+      "anotación": "prostaglandins",
+      "clase_tallo": "Infix",
+      "Clase principal": "GPCR",
+      "quién_extra": 0
+    },
+    {
+      "ID del tallo USAN": 86,
+      "tallo": "-barb-",
+      "subgrupo": "-",
+      "anotación": "barbituric acid derivatives",
+      "clase_tallo": "Infix",
+      "Clase principal": "ion channel",
+      "quién_extra": 0
+    }
+  ]
+}

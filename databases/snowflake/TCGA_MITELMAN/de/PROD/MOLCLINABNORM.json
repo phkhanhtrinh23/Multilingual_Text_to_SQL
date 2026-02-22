@@ -1,0 +1,62 @@
+{
+  "table_name": "MOLCLINABNORM",
+  "table_fullname": "TCGA_MITELMAN.PROD.MOLCLINABNORM",
+  "column_names": [
+    "RechnungsNr",
+    "BestellNr",
+    "ReferenzNr",
+    "Abnormalität",
+    "MolekularKlinik"
+  ],
+  "column_types": [
+    "NUMBER",
+    "NUMBER",
+    "NUMBER",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Untersuchungsnummer, normalerweise zwischen 1 und 10",
+    "Bestellnummer, zwischen 1 und 54",
+    "Referenznummer, zB '15563'",
+    "Beschreibung der Abnormalität, zB 't(19;19)(p13;p13)' oder 'del(7)(q?)'",
+    "Flag, das molekulare 'M' oder klinische 'C' anzeigt"
+  ],
+  "sample_rows": [
+    {
+      "MolekularKlinik": "C",
+      "ReferenzNr": 1696,
+      "RechnungsNr": 1,
+      "BestellNr": 1,
+      "Abnormalität": "r"
+    },
+    {
+      "MolekularKlinik": "C",
+      "ReferenzNr": 4556,
+      "RechnungsNr": 1,
+      "BestellNr": 11,
+      "Abnormalität": "r"
+    },
+    {
+      "MolekularKlinik": "C",
+      "ReferenzNr": 15564,
+      "RechnungsNr": 1,
+      "BestellNr": 1,
+      "Abnormalität": "r"
+    },
+    {
+      "MolekularKlinik": "C",
+      "ReferenzNr": 15564,
+      "RechnungsNr": 2,
+      "BestellNr": 1,
+      "Abnormalität": "r"
+    },
+    {
+      "MolekularKlinik": "C",
+      "ReferenzNr": 11249,
+      "RechnungsNr": 1,
+      "BestellNr": 2,
+      "Abnormalität": "+1"
+    }
+  ]
+}

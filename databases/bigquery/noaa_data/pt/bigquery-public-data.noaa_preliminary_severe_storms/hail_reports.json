@@ -1,0 +1,126 @@
+{
+  "table_name": "hail_reports",
+  "table_fullname": "bigquery-public-data.noaa_preliminary_severe_storms.hail_reports",
+  "column_names": [
+    "carimbo_de_data_hora",
+    "hora",
+    "tamanho",
+    "localizacao",
+    "condado",
+    "estado",
+    "latitude",
+    "longitude",
+    "comentarios",
+    "ponto_de_relatario"
+  ],
+  "column_types": [
+    "TIMESTAMP",
+    "STRING",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "FLOAT64",
+    "STRING",
+    "GEOGRAPHY"
+  ],
+  "nested_column_names": [
+    "carimbo_de_data_hora",
+    "hora",
+    "tamanho",
+    "localizacao",
+    "condado",
+    "estado",
+    "latitude",
+    "longitude",
+    "comentarios",
+    "ponto_de_relatorio"
+  ],
+  "nested_column_types": [
+    "TIMESTAMP",
+    "STRING",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "FLOAT64",
+    "STRING",
+    "GEOGRAPHY"
+  ],
+  "description": [
+    "Carimbo de data/hora em UTC",
+    "Hora em UTC",
+    "Tamanho em 1/100 de uma polegada (175 = 1,75\")",
+    "Localização do relatório",
+    "",
+    "",
+    "Latitude com duas casas decimais",
+    "Longitude com duas casas decimais",
+    "",
+    ""
+  ],
+  "sample_rows": [
+    {
+      "carimbo_de_data_hora": "2021-05-26 23:28:00+00:00",
+      "hora": "2328",
+      "tamanho": 200,
+      "localizacao": "10 WEST HEMINGFORD",
+      "condado": "BOX BUTTE",
+      "estado": "N",
+      "latitude": 4.23,
+      "longitude": -10.32,
+      "comentarios": "PHOTO ON SOCIAL MEDIA READING 2.14 INCHES FOR DIAMETER. (CYS",
+      "ponto_de_relatorio": "POINT(-10.32 4.23)"
+    },
+    {
+      "carimbo_de_data_hora": "2021-04-24 21:22:00+00:00",
+      "hora": "2122",
+      "tamanho": 125,
+      "localizacao": "1 SSW EW SHELL FISHERIE",
+      "condado": "LEE",
+      "estado": "AL",
+      "latitude": 32.67,
+      "longitude": -85.51,
+      "comentarios": "VIA SOCIAL MEDIA. (BMX)",
+      "ponto_de_relatorio": "POINT(-85.51 32.67)"
+    },
+    {
+      "carimbo_de_data_hora": "2021-12-30 20:05:00+00:00",
+      "hora": "2005",
+      "tamanho": 100,
+      "localizacao": "1 W LOACHAPOKA",
+      "condado": "LEE",
+      "estado": "AL",
+      "latitude": 32.6,
+      "longitude": -85.61,
+      "comentarios": "QUARTER SIZE HAIL IN LOACHAPOKA. (BMX)",
+      "ponto_de_relatorio": "POINT(-85.61 32.6)"
+    },
+    {
+      "carimbo_de_data_hora": "2021-12-30 20:28:00+00:00",
+      "hora": "2028",
+      "tamanho": 150,
+      "localizacao": "BEAUREGARD",
+      "condado": "LEE",
+      "estado": "AL",
+      "latitude": 32.54,
+      "longitude": -85.37,
+      "comentarios": "SILVER DOLLAR SIZE HAIL IN BEAUREGARD. (BMX)",
+      "ponto_de_relatorio": "POINT(-85.37 32.54)"
+    },
+    {
+      "carimbo_de_data_hora": "2021-12-30 20:47:00+00:00",
+      "hora": "2047",
+      "tamanho": 175,
+      "localizacao": "SMITHS STATION",
+      "condado": "LEE",
+      "estado": "AL",
+      "latitude": 32.54,
+      "longitude": -85.09,
+      "comentarios": "GOLF BALL SIZE HAIL IN SMITHS STATION. (BMX)",
+      "ponto_de_relatorio": "POINT(-85.09 32.54)"
+    }
+  ]
+}

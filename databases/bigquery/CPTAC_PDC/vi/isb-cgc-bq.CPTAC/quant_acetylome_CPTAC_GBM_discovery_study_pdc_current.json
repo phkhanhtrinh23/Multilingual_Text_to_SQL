@@ -1,0 +1,111 @@
+{
+  "table_name": "quant_acetylome_CPTAC_GBM_discovery_study_pdc_current",
+  "table_fullname": "isb-cgc-bq.CPTAC.quant_acetylome_CPTAC_GBM_discovery_study_pdc_current",
+  "column_names": [
+    "mã trường hợp",
+    "mã mẫu",
+    "mã_đợt_mẫu",
+    "mã người nộp aliquot",
+    "id_meta_chạy_mẫu_lẻ",
+    "Tên nghiên cứu",
+    "tỷ lệ log2 nồng độ protein",
+    "Mã refseq",
+    "địa điểm acetyl hóa"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "id_trường_hợp",
+    "mã mẫu",
+    "mã mẫu",
+    "Mã người nộp mẫu",
+    "id_metadata_chạy_aliquot",
+    "tên nghiên cứu",
+    "tỷ lệ log2 mức độ protein",
+    "Mã Refseq",
+    "vị trí acetylation"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "Định danh duy nhất liên quan đến một bệnh nhân cụ thể (ví dụ 24cb0fcb-63d6-11e8-bcf1-0a2705229b82)",
+    "Định danh PDC duy nhất cho mẫu này (ví dụ: e8d83eb9-693a-11ea-b1fd-0aad30af8a83)",
+    "Định danh PDC duy nhất cho mẫu này (ví dụ e8db124a-693a-11ea-b1fd-0aad30af8a83)",
+    "ID người nộp mẫu được gán bởi chương trình (ví dụ: T14)",
+    "Định danh duy nhất mẫu aliquot theo cách nó được sử dụng trong thí nghiệm (dựa trên chất dán nhãn và/hoặc bản sao sinh học).",
+    "Tên nghiên cứu (ví dụ: Nghiên cứu Thí điểm Ung Thủy Não Trẻ - Phosphoproteome)",
+    "Tỷ lệ log trung bình của ion báo cáo mẫu so với tham chiếu chung của ion peptide liên quan tới gene trong các lần thu thập từ một mẫu sinh học cụ thể.",
+    "Định danh duy nhất được cấp cho một chuỗi trong cơ sở dữ liệu NCBI RefSeq",
+    "Mã chữ đơn và vị trí trong chuỗi protein của các axit amin được acetyl hóa (ví dụ: k12k16, k21)"
+  ],
+  "sample_rows": [
+    {
+      "id_trường_hợp": "104c0852-2139-11ea-aee1-0e1aae319e49",
+      "mã mẫu": "104d4e99-2139-11ea-aee1-0e1aae319e49",
+      "Mã người nộp mẫu": "CPT0002410011",
+      "id_metadata_chạy_aliquot": "a558cb61-f794-11ea-bc0e-0aad30af8a83",
+      "tên nghiên cứu": "CPTAC GBM Discovery Study - Acetylome",
+      "tỷ lệ log2 mức độ protein": 0.4322,
+      "Mã Refseq": "NP_000087.1",
+      "vị trí acetylation": "k245"
+    },
+    {
+      "id_trường_hợp": "104c0852-2139-11ea-aee1-0e1aae319e49",
+      "mã mẫu": "104d4e99-2139-11ea-aee1-0e1aae319e49",
+      "Mã người nộp mẫu": "CPT0002410011",
+      "id_metadata_chạy_aliquot": "a558cb61-f794-11ea-bc0e-0aad30af8a83",
+      "tên nghiên cứu": "CPTAC GBM Discovery Study - Acetylome",
+      "tỷ lệ log2 mức độ protein": -0.0324,
+      "Mã Refseq": "NP_000099.2",
+      "vị trí acetylation": "k72"
+    },
+    {
+      "id_trường_hợp": "104c0852-2139-11ea-aee1-0e1aae319e49",
+      "mã mẫu": "104d4e99-2139-11ea-aee1-0e1aae319e49",
+      "Mã người nộp mẫu": "CPT0002410011",
+      "id_metadata_chạy_aliquot": "a558cb61-f794-11ea-bc0e-0aad30af8a83",
+      "tên nghiên cứu": "CPTAC GBM Discovery Study - Acetylome",
+      "tỷ lệ log2 mức độ protein": 0.8015,
+      "Mã Refseq": "NP_000161.2",
+      "vị trí acetylation": "k238"
+    },
+    {
+      "id_trường_hợp": "104c0852-2139-11ea-aee1-0e1aae319e49",
+      "mã mẫu": "104d4e99-2139-11ea-aee1-0e1aae319e49",
+      "Mã người nộp mẫu": "CPT0002410011",
+      "id_metadata_chạy_aliquot": "a558cb61-f794-11ea-bc0e-0aad30af8a83",
+      "tên nghiên cứu": "CPTAC GBM Discovery Study - Acetylome",
+      "tỷ lệ log2 mức độ protein": 0.0158,
+      "Mã Refseq": "NP_000280.1",
+      "vị trí acetylation": "k564"
+    },
+    {
+      "id_trường_hợp": "104c0852-2139-11ea-aee1-0e1aae319e49",
+      "mã mẫu": "104d4e99-2139-11ea-aee1-0e1aae319e49",
+      "Mã người nộp mẫu": "CPT0002410011",
+      "id_metadata_chạy_aliquot": "a558cb61-f794-11ea-bc0e-0aad30af8a83",
+      "tên nghiên cứu": "CPTAC GBM Discovery Study - Acetylome",
+      "tỷ lệ log2 mức độ protein": 0.2595,
+      "Mã Refseq": "NP_000282.1",
+      "vị trí acetylation": "k156"
+    }
+  ]
+}

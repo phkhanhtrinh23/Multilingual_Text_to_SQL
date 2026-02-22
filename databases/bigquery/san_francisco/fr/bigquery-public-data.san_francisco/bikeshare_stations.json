@@ -1,0 +1,96 @@
+{
+  "table_name": "bikeshare_stations",
+  "table_fullname": "bigquery-public-data.san_francisco.bikeshare_stations",
+  "column_names": [
+    "id_de_station",
+    "nom",
+    "latitude",
+    "longitude",
+    "nombre_de-bornes",
+    "point_de_reperage",
+    "date_d_installation"
+  ],
+  "column_types": [
+    "INT64",
+    "STRING",
+    "FLOAT64",
+    "FLOAT64",
+    "INT64",
+    "STRING",
+    "DATE"
+  ],
+  "nested_column_names": [
+    "id_de_station",
+    "nom",
+    "latitude",
+    "longitude",
+    "nombre_de-bornes",
+    "point_de_reperage",
+    "date_d_installation"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "STRING",
+    "FLOAT64",
+    "FLOAT64",
+    "INT64",
+    "STRING",
+    "DATE"
+  ],
+  "description": [
+    "Numéro d'identification de la station",
+    "Nom de la station",
+    "Latitude",
+    "Longitude",
+    "Nombre de docks totaux à la station",
+    "Ville (San Francisco, Redwood City, Palo Alto, Mountain View, San Jose)",
+    "Date d'origine à laquelle la station a été installée. Si la station a été déplacée, cela est noté ci-dessous."
+  ],
+  "sample_rows": [
+    {
+      "id_de_station": 4,
+      "nom": "Santa Clara at Almaden",
+      "latitude": 37.333988,
+      "longitude": -121.894902,
+      "nombre_de-bornes": 11,
+      "point_de_reperage": "San Jose",
+      "date_d_installation": "2013-08-06"
+    },
+    {
+      "id_de_station": 84,
+      "nom": "Ryland Park",
+      "latitude": 37.342725,
+      "longitude": -121.895617,
+      "nombre_de-bornes": 15,
+      "point_de_reperage": "San Jose",
+      "date_d_installation": "2014-04-09"
+    },
+    {
+      "id_de_station": 8,
+      "nom": "San Salvador at 1st",
+      "latitude": 37.330165,
+      "longitude": -121.885831,
+      "nombre_de-bornes": 15,
+      "point_de_reperage": "San Jose",
+      "date_d_installation": "2013-08-05"
+    },
+    {
+      "id_de_station": 9,
+      "nom": "Japantown",
+      "latitude": 37.348742,
+      "longitude": -121.894715,
+      "nombre_de-bornes": 15,
+      "point_de_reperage": "San Jose",
+      "date_d_installation": "2013-08-05"
+    },
+    {
+      "id_de_station": 3,
+      "nom": "San Jose Civic Center",
+      "latitude": 37.330698,
+      "longitude": -121.888979,
+      "nombre_de-bornes": 15,
+      "point_de_reperage": "San Jose",
+      "date_d_installation": "2013-08-05"
+    }
+  ]
+}

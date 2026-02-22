@@ -1,0 +1,116 @@
+{
+  "table_name": "Filtered_EBpp_AdjustPANCAN_IlluminaHiSeq_RNASeqV2_genExp",
+  "table_fullname": "isb-cgc-bq.pancancer_atlas.Filtered_EBpp_AdjustPANCAN_IlluminaHiSeq_RNASeqV2_genExp",
+  "column_names": [
+    "Código de barras del participante",
+    "Código de barras de muestra",
+    "Código de alícuota",
+    "Código de Letra del Tipo de Muestra",
+    "Tipo de muestra",
+    "Estudio",
+    "Símbolo",
+    "Entrada",
+    "conteo normalizado"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64"
+  ],
+  "nested_column_names": [
+    "Código de barras del participante",
+    "Código de muestra",
+    "Código de barras de alícuota",
+    "Código de letra del tipo de muestra",
+    "Tipo de muestra",
+    "Estudio",
+    "Símbolo",
+    "Ingresar",
+    "conteo normalizado"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64"
+  ],
+  "description": [
+    "Identificador de código de barras TCGA para el participante del estudio, p. ej. TCGA-02-0001",
+    "Código de barras de la muestra de biospecimen, por ejemplo TCGA-13-1489-02A",
+    "Código de barras de la alícuota TCGA, por ejemplo TCGA-12-1089-01A-01D-0517-28",
+    "Código de letras del tipo de muestra según los estándares TCGA, por ejemplo, TPN, EBV. Lista completa disponible en https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/sample-type-codes",
+    "Normal derivado de sangre\nTumor sólido primario\nTejido sólido normal\nTumor sólido recurrente\nMetastásico\nAdicional - Primario nuevo\nCáncer primario derivado de sangre - Sangre periférica\nCélula bucal normal\nMetastásico adicional\nMédula ósea normal",
+    "Abreviatura del estudio TCGA, por ejemplo LAML. Lista completa disponible en https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/tcga-study-abbreviations",
+    "p.ej. TP53, LRP1B, etc. (lo mismo que el campo Hugo_Symbol, excepto en blanco en lugar de 'Unknown')",
+    "ID de Entrez de NCBI, por ejemplo 730971",
+    "Expresión génica normalizada"
+  ],
+  "sample_rows": [
+    {
+      "Código de barras del participante": "TCGA-06-0675",
+      "Código de muestra": "TCGA-06-0675-11A",
+      "Código de barras de alícuota": "TCGA-06-0675-11A-32R-A36H-07",
+      "Código de letra del tipo de muestra": "NT",
+      "Tipo de muestra": "Solid Tissue Normal",
+      "Estudio": "GBM",
+      "Símbolo": "SNORA3",
+      "Ingresar": "619562",
+      "conteo normalizado": 0.0
+    },
+    {
+      "Código de barras del participante": "TCGA-06-0675",
+      "Código de muestra": "TCGA-06-0675-11A",
+      "Código de barras de alícuota": "TCGA-06-0675-11A-32R-A36H-07",
+      "Código de letra del tipo de muestra": "NT",
+      "Tipo de muestra": "Solid Tissue Normal",
+      "Estudio": "GBM",
+      "Símbolo": "SH3TC1",
+      "Ingresar": "54436",
+      "conteo normalizado": 270.806
+    },
+    {
+      "Código de barras del participante": "TCGA-06-0675",
+      "Código de muestra": "TCGA-06-0675-11A",
+      "Código de barras de alícuota": "TCGA-06-0675-11A-32R-A36H-07",
+      "Código de letra del tipo de muestra": "NT",
+      "Tipo de muestra": "Solid Tissue Normal",
+      "Estudio": "GBM",
+      "Símbolo": "F2RL1",
+      "Ingresar": "2150",
+      "conteo normalizado": 52.6318
+    },
+    {
+      "Código de barras del participante": "TCGA-06-0675",
+      "Código de muestra": "TCGA-06-0675-11A",
+      "Código de barras de alícuota": "TCGA-06-0675-11A-32R-A36H-07",
+      "Código de letra del tipo de muestra": "NT",
+      "Tipo de muestra": "Solid Tissue Normal",
+      "Estudio": "GBM",
+      "Símbolo": "FGF1",
+      "Ingresar": "2246",
+      "conteo normalizado": 1356.73
+    },
+    {
+      "Código de barras del participante": "TCGA-06-0675",
+      "Código de muestra": "TCGA-06-0675-11A",
+      "Código de barras de alícuota": "TCGA-06-0675-11A-32R-A36H-07",
+      "Código de letra del tipo de muestra": "NT",
+      "Tipo de muestra": "Solid Tissue Normal",
+      "Estudio": "GBM",
+      "Símbolo": "LOC728410",
+      "Ingresar": "728410",
+      "conteo normalizado": 0.0
+    }
+  ]
+}

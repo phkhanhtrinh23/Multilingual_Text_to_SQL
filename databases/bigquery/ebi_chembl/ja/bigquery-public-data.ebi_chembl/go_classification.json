@@ -1,0 +1,86 @@
+{
+  "table_name": "go_classification",
+  "table_fullname": "bigquery-public-data.ebi_chembl.go_classification",
+  "column_names": [
+    "ゴールID",
+    "親GO ID",
+    "都道府県名",
+    "クラスレベル",
+    "側面",
+    "パス"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "go ID",
+    "親GO ID",
+    "都道府県名",
+    "クラスレベル",
+    "側面",
+    "パス"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "sample_rows": [
+    {
+      "go ID": "GO:0003674",
+      "親GO ID": null,
+      "都道府県名": "molecular_function",
+      "クラスレベル": "0",
+      "側面": "F",
+      "パス": "molecular_function"
+    },
+    {
+      "go ID": "GO:0005575",
+      "親GO ID": null,
+      "都道府県名": "cellular_component",
+      "クラスレベル": "0",
+      "側面": "C",
+      "パス": "cellular_component"
+    },
+    {
+      "go ID": "GO:0008150",
+      "親GO ID": null,
+      "都道府県名": "biological_process",
+      "クラスレベル": "0",
+      "側面": "P",
+      "パス": "biological_process"
+    },
+    {
+      "go ID": "GO:0000166",
+      "親GO ID": "GO:0003674",
+      "都道府県名": "nucleotide binding",
+      "クラスレベル": "1",
+      "側面": "F",
+      "パス": "molecular_function  nucleotide binding"
+    },
+    {
+      "go ID": "GO:0000988",
+      "親GO ID": "GO:0003674",
+      "都道府県名": "protein binding transcription factor activity",
+      "クラスレベル": "1",
+      "側面": "F",
+      "パス": "molecular_function  protein binding transcription factor activity"
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "table_name": "shapes",
+  "table_fullname": "bigquery-public-data.san_francisco_transit_muni.shapes",
+  "column_names": [
+    "định danh hình dạng",
+    "dãy điểm hình dạng",
+    "vĩ độ điểm hình dạng",
+    "kinh độ điểm hình",
+    "điểm hình dạng",
+    "khoang_cach_da_di"
+  ],
+  "column_types": [
+    "STRING",
+    "INT64",
+    "FLOAT64",
+    "FLOAT64",
+    "GEOGRAPHY",
+    "FLOAT64"
+  ],
+  "nested_column_names": [
+    "mã hình dạng",
+    "dãy điểm hình dạng",
+    "vĩ độ điểm hình dạng",
+    "độ kinh độ điểm hình",
+    "điểm hình học",
+    "khoảng cách đã đi của hình"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "INT64",
+    "FLOAT64",
+    "FLOAT64",
+    "GEOGRAPHY",
+    "FLOAT64"
+  ],
+  "description": [
+    "định danh duy nhất cho mỗi hình dạng",
+    "Liên kết vĩ độ và kinh độ của một điểm hình dạng với thứ tự dãy của nó theo đường viền hình dạng. Các giá trị cho shape_pt_sequence phải tăng dần trong suốt chuyến đi nhưng không cần phải liên tiếp.",
+    "Liên kết vĩ độ của điểm hình với ID hình.",
+    "Liên kết kinh độ của điểm hình dạng với ID hình dạng.",
+    "Bản đồ địa lý của các điểm vĩ độ và kinh độ",
+    "Cung cấp khoảng cách thực tế đã đi qua dọc theo đường hình từ điểm hình đầu tiên đến điểm được chỉ định trong bản ghi này. Thông tin này cho phép người lập kế hoạch chuyến đi xác định phần đường cần vẽ khi họ hiển thị một phần của chuyến đi trên bản đồ. Các giá trị được sử dụng cho shape_dist_traveled phải tăng cùng với shape_pt_sequence: chúng không thể được dùng để hiển thị di chuyển ngược chiều đường."
+  ],
+  "sample_rows": [
+    {
+      "mã hình dạng": "173975",
+      "dãy điểm hình dạng": 197,
+      "vĩ độ điểm hình dạng": 37.715079,
+      "độ kinh độ điểm hình": -122.424956,
+      "điểm hình học": "POINT(-122.424956 37.715079)",
+      "khoảng cách đã đi của hình": 14437.0
+    },
+    {
+      "mã hình dạng": "173976",
+      "dãy điểm hình dạng": 195,
+      "vĩ độ điểm hình dạng": 37.715079,
+      "độ kinh độ điểm hình": -122.424956,
+      "điểm hình học": "POINT(-122.424956 37.715079)",
+      "khoảng cách đã đi của hình": 14391.0
+    },
+    {
+      "mã hình dạng": "174183",
+      "dãy điểm hình dạng": 283,
+      "vĩ độ điểm hình dạng": 37.832971,
+      "độ kinh độ điểm hình": -122.538276,
+      "điểm hình học": "POINT(-122.538276 37.832971)",
+      "khoảng cách đã đi của hình": 21512.0
+    },
+    {
+      "mã hình dạng": "174271",
+      "dãy điểm hình dạng": 92,
+      "vĩ độ điểm hình dạng": 37.760837,
+      "độ kinh độ điểm hình": -122.440596,
+      "điểm hình học": "POINT(-122.440596 37.760837)",
+      "khoảng cách đã đi của hình": 5348.0
+    },
+    {
+      "mã hình dạng": "174272",
+      "dãy điểm hình dạng": 185,
+      "vĩ độ điểm hình dạng": 37.760837,
+      "độ kinh độ điểm hình": -122.440596,
+      "điểm hình học": "POINT(-122.440596 37.760837)",
+      "khoảng cách đã đi của hình": 6161.0
+    }
+  ]
+}

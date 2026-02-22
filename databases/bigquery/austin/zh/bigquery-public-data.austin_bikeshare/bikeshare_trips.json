@@ -1,0 +1,126 @@
+{
+  "table_name": "bikeshare_trips",
+  "table_fullname": "bigquery-public-data.austin_bikeshare.bikeshare_trips",
+  "column_names": [
+    "行程编号",
+    "订阅类型",
+    "自行车编号",
+    "自行车类型",
+    "开始时间",
+    "起始站编号",
+    "起始站名称",
+    "终点站ID",
+    "终点站名称",
+    "时长（分钟）"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "TIMESTAMP",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "行程ID",
+    "订阅类型",
+    "自行车编号",
+    "自行车类型",
+    "开始时间",
+    "起点站ID",
+    "起始站名称",
+    "终点站编号",
+    "终点站名称",
+    "持续时间（分钟）"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "TIMESTAMP",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64"
+  ],
+  "description": [
+    "自行车行程的数字ID",
+    "订阅者类型",
+    "使用的自行车ID",
+    "使用的自行车类型",
+    "行程开始时间戳",
+    "起点站编号",
+    "起点站名称",
+    "终点站数字参考",
+    "终点站名称",
+    "行程时间（分钟）"
+  ],
+  "sample_rows": [
+    {
+      "行程ID": "4098781",
+      "订阅类型": "24 Hour Walk Up Pass",
+      "自行车编号": "14",
+      "自行车类型": "classic",
+      "开始时间": "2015-03-12 22:24:45+00:00",
+      "起点站ID": 2546,
+      "起始站名称": "ACC - West & 12th Street",
+      "终点站编号": "2546",
+      "终点站名称": "ACC - West & 12th Street",
+      "持续时间（分钟）": 44
+    },
+    {
+      "行程ID": "4098776",
+      "订阅类型": "24 Hour Walk Up Pass",
+      "自行车编号": "24",
+      "自行车类型": "classic",
+      "开始时间": "2015-03-12 22:22:59+00:00",
+      "起点站ID": 2546,
+      "起始站名称": "ACC - West & 12th Street",
+      "终点站编号": "2546",
+      "终点站名称": "ACC - West & 12th Street",
+      "持续时间（分钟）": 46
+    },
+    {
+      "行程ID": "4098773",
+      "订阅类型": "24 Hour Walk Up Pass",
+      "自行车编号": "789",
+      "自行车类型": "classic",
+      "开始时间": "2015-03-12 22:21:57+00:00",
+      "起点站ID": 2546,
+      "起始站名称": "ACC - West & 12th Street",
+      "终点站编号": "2546",
+      "终点站名称": "ACC - West & 12th Street",
+      "持续时间（分钟）": 80
+    },
+    {
+      "行程ID": "4098766",
+      "订阅类型": "24 Hour Walk Up Pass",
+      "自行车编号": "306",
+      "自行车类型": "classic",
+      "开始时间": "2015-03-12 22:20:09+00:00",
+      "起点站ID": 2546,
+      "起始站名称": "ACC - West & 12th Street",
+      "终点站编号": "2546",
+      "终点站名称": "ACC - West & 12th Street",
+      "持续时间（分钟）": 47
+    },
+    {
+      "行程ID": "4098761",
+      "订阅类型": "24 Hour Walk Up Pass",
+      "自行车编号": "362",
+      "自行车类型": "classic",
+      "开始时间": "2015-03-12 22:19:11+00:00",
+      "起点站ID": 2546,
+      "起始站名称": "ACC - West & 12th Street",
+      "终点站编号": "2546",
+      "终点站名称": "ACC - West & 12th Street",
+      "持续时间（分钟）": 47
+    }
+  ]
+}

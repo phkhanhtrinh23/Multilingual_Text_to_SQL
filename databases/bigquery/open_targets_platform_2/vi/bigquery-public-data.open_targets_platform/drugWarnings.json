@@ -1,0 +1,177 @@
+{
+  "table_name": "drugWarnings",
+  "table_fullname": "bigquery-public-data.open_targets_platform.drugWarnings",
+  "column_names": [
+    "Mã Chembl",
+    "Lớp độc tính",
+    "Quốc gia",
+    "Mô tả",
+    "Mã",
+    "Tham khảo",
+    "loại cảnh báo",
+    "năm",
+    "Thuật ngữ EFO",
+    "Mã EFO",
+    "mã_efo_cho_lớp_cảnh_báo"
+  ],
+  "column_types": [
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "STRUCT<list ARRAY<STRUCT<element STRUCT<ref_id STRING, ref_type STRING, ref_url STRING>>>>",
+    "STRING",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "IdChEMBL",
+    "Danh sách ID ChEMBL",
+    "Phần tử danh sách ID ChEMBL",
+    "Lớp độc tính",
+    "quốc gia",
+    "mô tả",
+    "Mã",
+    "tham khảo",
+    "danh sách tham khảo",
+    "phần tử danh sách tham chiếu",
+    "tham_khảu_danh_sach_phan_tu_id",
+    "tham chiếu.danh sách.phần tử.loại tham chiếu",
+    "địa chỉ URL của phần tử danh sách tham khảo",
+    "loại cảnh báo",
+    "năm",
+    "thuật ngữ EFO",
+    "Mã EFO",
+    "ID EFO cho lớp cảnh báo"
+  ],
+  "nested_column_types": [
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+    "ARRAY<STRUCT<element STRING>>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "STRUCT<list ARRAY<STRUCT<element STRUCT<ref_id STRING, ref_type STRING, ref_url STRING>>>>",
+    "ARRAY<STRUCT<element STRUCT<ref_id STRING, ref_type STRING, ref_url STRING>>>",
+    "STRUCT<ref_id STRING, ref_type STRING, ref_url STRING>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "sample_rows": [
+    {
+      "IdChEMBL": {
+        "list": "[{'element': 'CHEMBL3039594'} {'element': 'CHEMBL3039597'}]"
+      },
+      "Lớp độc tính": null,
+      "quốc gia": "United States",
+      "mô tả": null,
+      "Mã": 2817,
+      "tham khảo": {
+        "list": "[]"
+      },
+      "loại cảnh báo": "Black Box Warning",
+      "năm": null,
+      "thuật ngữ EFO": null,
+      "Mã EFO": null,
+      "ID EFO cho lớp cảnh báo": null
+    },
+    {
+      "IdChEMBL": {
+        "list": "[{'element': 'CHEMBL3989677'} {'element': 'CHEMBL1457'}]"
+      },
+      "Lớp độc tính": null,
+      "quốc gia": "United States",
+      "mô tả": null,
+      "Mã": 2818,
+      "tham khảo": {
+        "list": "[]"
+      },
+      "loại cảnh báo": "Black Box Warning",
+      "năm": null,
+      "thuật ngữ EFO": null,
+      "Mã EFO": null,
+      "ID EFO cho lớp cảnh báo": null
+    },
+    {
+      "IdChEMBL": {
+        "list": "[{'element': 'CHEMBL2359966'} {'element': 'CHEMBL170'}]"
+      },
+      "Lớp độc tính": null,
+      "quốc gia": "United States",
+      "mô tả": null,
+      "Mã": 2820,
+      "tham khảo": {
+        "list": "[]"
+      },
+      "loại cảnh báo": "Black Box Warning",
+      "năm": null,
+      "thuật ngữ EFO": null,
+      "Mã EFO": null,
+      "ID EFO cho lớp cảnh báo": null
+    },
+    {
+      "IdChEMBL": {
+        "list": "[{'element': 'CHEMBL5095051'} {'element': 'CHEMBL637'}]"
+      },
+      "Lớp độc tính": null,
+      "quốc gia": "United States",
+      "mô tả": null,
+      "Mã": 2864,
+      "tham khảo": {
+        "list": "[]"
+      },
+      "loại cảnh báo": "Black Box Warning",
+      "năm": null,
+      "thuật ngữ EFO": null,
+      "Mã EFO": null,
+      "ID EFO cho lớp cảnh báo": null
+    },
+    {
+      "IdChEMBL": {
+        "list": "[{'element': 'CHEMBL1742992'}]"
+      },
+      "Lớp độc tính": null,
+      "quốc gia": "United States",
+      "mô tả": null,
+      "Mã": 221,
+      "tham khảo": {
+        "list": "[]"
+      },
+      "loại cảnh báo": "Black Box Warning",
+      "năm": null,
+      "thuật ngữ EFO": null,
+      "Mã EFO": null,
+      "ID EFO cho lớp cảnh báo": null
+    }
+  ]
+}

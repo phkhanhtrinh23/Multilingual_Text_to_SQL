@@ -1,0 +1,102 @@
+{
+  "table_name": "DNA_METHYLATION_CHR12",
+  "table_fullname": "TCGA_HG38_DATA_V0.TCGA_HG38_DATA_V0.DNA_METHYLATION_CHR12",
+  "column_names": [
+    "codigo_de_barras_do_aliquota",
+    "id_da_sonda",
+    "codigo_de_barras_da_amostra",
+    "plataforma",
+    "id_gdc_da_amostra",
+    "id_gdc_do_caso",
+    "id_gdc_do_aliquota",
+    "id_gdc_do_arquivo",
+    "codigo_de_barras_do_caso",
+    "valor_beta"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "FLOAT"
+  ],
+  "description": [
+    "Código de barras de alíquota original do TCGA, por exemplo, TCGA-12-1089-01A-01D-0517-01",
+    "Identificador único de sonda (por exemplo, cg04676771) do array de metilação humana da Illumina -- por favor, consulte a tabela de anotação (isb-cgc:platform_reference.methylation_annotation) para obter mais detalhes sobre uma sonda particular",
+    "Código de barras de amostra original do TCGA, por exemplo, TCGA-12-1089-01A",
+    "Nome da plataforma usada para gerar esses dados -- seja HumanMethylation450 ou HumanMethylation27",
+    "",
+    "",
+    "",
+    "",
+    "Código de barras de caso original do TCGA, por exemplo, TCGA-12-1089 -- observe que cada caso geralmente tem uma amostra de tumor primário e uma amostra normal correspondente (sangue ou tecido adjacente); por favor, consulte a tabela de Biospecimen do TCGA para obter mais detalhes",
+    "Valor beta de metilação de DNA normalizado (entre 0 e 1, onde 0 indica completamente não metilado e 1 indica totalmente metilado)"
+  ],
+  "sample_rows": [
+    {
+      "codigo_de_barras_do_caso": "TCGA-12-1601",
+      "codigo_de_barras_da_amostra": "TCGA-12-1601-01A",
+      "codigo_de_barras_do_aliquota": "TCGA-12-1601-01A-01D-0595-05",
+      "id_da_sonda": "cg17197538",
+      "valor_beta": 0.0126707329998659,
+      "plataforma": null,
+      "id_gdc_do_arquivo": "5cd6f2f6-7278-4757-be8e-a8ae3a7a81d3",
+      "id_gdc_do_caso": "cc1459be-de8f-482e-9efe-65937db9dc45",
+      "id_gdc_da_amostra": "b02fd704-03a6-44c4-b224-f5f457e733f3",
+      "id_gdc_do_aliquota": "aa761ca4-e8f0-4a43-8262-bd84eedb459a"
+    },
+    {
+      "codigo_de_barras_do_caso": "TCGA-32-2498",
+      "codigo_de_barras_da_amostra": "TCGA-32-2498-01A",
+      "codigo_de_barras_do_aliquota": "TCGA-32-2498-01A-01D-1228-05",
+      "id_da_sonda": "cg04088433",
+      "valor_beta": 0.579067998314219,
+      "plataforma": null,
+      "id_gdc_do_arquivo": "6db4187c-5e48-45ac-8ae3-6b55198ff65a",
+      "id_gdc_do_caso": "0d5e5a6b-5113-43f2-836c-776207b21b56",
+      "id_gdc_da_amostra": "58af038c-bd40-4123-a6d3-11061f0d38e1",
+      "id_gdc_do_aliquota": "6e65d823-0d94-4d26-b60a-2f168cbe2ba8"
+    },
+    {
+      "codigo_de_barras_do_caso": "TCGA-32-2498",
+      "codigo_de_barras_da_amostra": "TCGA-32-2498-01A",
+      "codigo_de_barras_do_aliquota": "TCGA-32-2498-01A-01D-1228-05",
+      "id_da_sonda": "cg15120925",
+      "valor_beta": 0.0659198279485695,
+      "plataforma": null,
+      "id_gdc_do_arquivo": "6db4187c-5e48-45ac-8ae3-6b55198ff65a",
+      "id_gdc_do_caso": "0d5e5a6b-5113-43f2-836c-776207b21b56",
+      "id_gdc_da_amostra": "58af038c-bd40-4123-a6d3-11061f0d38e1",
+      "id_gdc_do_aliquota": "6e65d823-0d94-4d26-b60a-2f168cbe2ba8"
+    },
+    {
+      "codigo_de_barras_do_caso": "TCGA-32-2498",
+      "codigo_de_barras_da_amostra": "TCGA-32-2498-01A",
+      "codigo_de_barras_do_aliquota": "TCGA-32-2498-01A-01D-1228-05",
+      "id_da_sonda": "cg18982568",
+      "valor_beta": 0.91761133584865,
+      "plataforma": null,
+      "id_gdc_do_arquivo": "6db4187c-5e48-45ac-8ae3-6b55198ff65a",
+      "id_gdc_do_caso": "0d5e5a6b-5113-43f2-836c-776207b21b56",
+      "id_gdc_da_amostra": "58af038c-bd40-4123-a6d3-11061f0d38e1",
+      "id_gdc_do_aliquota": "6e65d823-0d94-4d26-b60a-2f168cbe2ba8"
+    },
+    {
+      "codigo_de_barras_do_caso": "TCGA-A6-2670",
+      "codigo_de_barras_da_amostra": "TCGA-A6-2670-01A",
+      "codigo_de_barras_do_aliquota": "TCGA-A6-2670-01A-02D-0820-05",
+      "id_da_sonda": "cg06437004",
+      "valor_beta": 0.0132113190709737,
+      "plataforma": null,
+      "id_gdc_do_arquivo": "cdd5e1a9-1ce8-4361-9fca-61ccb7098b25",
+      "id_gdc_do_caso": "65bb7520-f055-43a8-b735-1152fa2c9e04",
+      "id_gdc_da_amostra": "724072ae-40b5-45cc-b339-e24f1cb6fbcf",
+      "id_gdc_do_aliquota": "b8074b70-ad2b-49e5-b70a-c6e8a6681830"
+    }
+  ]
+}

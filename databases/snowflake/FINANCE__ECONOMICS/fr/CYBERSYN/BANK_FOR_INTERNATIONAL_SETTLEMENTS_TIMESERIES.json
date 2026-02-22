@@ -1,0 +1,78 @@
+{
+  "sample_rows": [
+    {
+      "ID_GEO": null,
+      "ID_GEO_CONTREPARTIE": "country/TUR",
+      "VARIABLE": "BIS,WS_LBS_D_PUB,1.0,Q.S.L.G.TO3.A.5J.A.5A.N.TR.N",
+      "NOM_VARIABLE": "All reporting countries - Cross-border Total liabilities of banks with headquarters in All countries (total) vis-a-vis residents of Turkey, Non-banks, total (Amounts outstanding / Stocks, Loans and deposits in All currencies (=D+F+U), All currencies excl. core, All reporting banks/institutions (domestic, foreign, consortium and unclassified)",
+      "DATE": "2010-06-30",
+      "VALEUR": 7561000000.0,
+      "UNITE": "USD"
+    },
+    {
+      "ID_GEO": null,
+      "ID_GEO_CONTREPARTIE": "country/MWI",
+      "VARIABLE": "BIS,WS_LBS_D_PUB,1.0,Q.S.C.G.TO1.A.5J.A.5A.B.MW.N",
+      "NOM_VARIABLE": "All reporting countries - Cross-border Total claims of banks with headquarters in All countries (total) vis-a-vis residents of Malawi, Banks, total (Amounts outstanding / Stocks, Loans and deposits in All currencies (=D+F+U), All currencies, All reporting banks/institutions (domestic, foreign, consortium and unclassified)",
+      "DATE": "1998-09-30",
+      "VALEUR": 57000000.0,
+      "UNITE": "USD"
+    },
+    {
+      "ID_GEO": null,
+      "ID_GEO_CONTREPARTIE": "country/ETH",
+      "VARIABLE": "BIS,WS_LBS_D_PUB,1.0,Q.F.L.A.UN9.A.5J.A.5A.A.ET.N",
+      "NOM_VARIABLE": "All reporting countries - Cross-border Total liabilities of banks with headquarters in All countries (total) vis-a-vis residents of Ethiopia, All sectors (FX and break adjusted change (BIS calculated), All instruments in All currencies (=D+F+U), Unallocated currencies, All reporting banks/institutions (domestic, foreign, consortium and unclassified)",
+      "DATE": "1994-03-31",
+      "VALEUR": -1230000.0,
+      "UNITE": "USD"
+    },
+    {
+      "ID_GEO": null,
+      "ID_GEO_CONTREPARTIE": "country/TON",
+      "VARIABLE": "BIS,WS_LBS_D_PUB,1.0,Q.S.L.B.TO1.A.5J.A.5A.A.TO.N",
+      "NOM_VARIABLE": "All reporting countries - Cross-border Total liabilities of banks with headquarters in All countries (total) vis-a-vis residents of Tonga, All sectors (Amounts outstanding / Stocks, Credit (loans & debt securities) in All currencies (=D+F+U), All currencies, All reporting banks/institutions (domestic, foreign, consortium and unclassified)",
+      "DATE": "2009-09-30",
+      "VALEUR": 30000000.0,
+      "UNITE": "USD"
+    },
+    {
+      "ID_GEO": null,
+      "ID_GEO_CONTREPARTIE": "country/AUS",
+      "VARIABLE": "BIS,WS_LBS_D_PUB,1.0,Q.F.C.G.UN9.A.5J.A.5A.B.AU.N",
+      "NOM_VARIABLE": "All reporting countries - Cross-border Total claims of banks with headquarters in All countries (total) vis-a-vis residents of Australia, Banks, total (FX and break adjusted change (BIS calculated), Loans and deposits in All currencies (=D+F+U), Unallocated currencies, All reporting banks/institutions (domestic, foreign, consortium and unclassified)",
+      "DATE": "2010-03-31",
+      "VALEUR": -1417108000.0,
+      "UNITE": "USD"
+    }
+  ],
+  "table_name": "BANK_FOR_INTERNATIONAL_SETTLEMENTS_TIMESERIES",
+  "table_fullname": "FINANCE__ECONOMICS.CYBERSYN.BANK_FOR_INTERNATIONAL_SETTLEMENTS_TIMESERIES",
+  "column_names": [
+    "ID_GEO_CONTREPARTIE",
+    "ID_GEO",
+    "UNITE",
+    "VALEUR",
+    "DATE",
+    "VARIABLE",
+    "NOM_VARIABLE"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "FLOAT",
+    "DATE",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Un identifiant unique pour un pays ou un groupe de pays, joignable à la table GEOGRAPHY_INDEX, représentant la géographie de la contrepartie pour la variable.",
+    "Un identifiant unique pour un pays ou un groupe de pays, joignable à la table GEOGRAPHY_INDEX, représentant la géographie principale pour la variable.",
+    "Unité de mesure pour la valeur rapportée.",
+    "Valeur rapportée pour la variable.",
+    "Date associée à la valeur.",
+    "Identifiant unique pour une variable, joignable à la table timeseries.",
+    "Nom lisible par l'homme pour la variable."
+  ]
+}

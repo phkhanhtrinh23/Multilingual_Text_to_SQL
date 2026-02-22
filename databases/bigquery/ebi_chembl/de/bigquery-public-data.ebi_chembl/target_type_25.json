@@ -1,0 +1,56 @@
+{
+  "table_name": "target_type_25",
+  "table_fullname": "bigquery-public-data.ebi_chembl.target_type_25",
+  "column_names": [
+    "Zieltyp",
+    "Zielbeschreibung",
+    "Elternteiltyp"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "Zieltyp",
+    "Zielbeschreibung",
+    "Elternteiltyp"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    null,
+    null,
+    null
+  ],
+  "sample_rows": [
+    {
+      "Zieltyp": "MOLECULAR",
+      "Zielbeschreibung": "Target has been identified as a defined molecular entity (e.g., protein or nucleic acid)",
+      "Elternteiltyp": null
+    },
+    {
+      "Zieltyp": "NON-MOLECULAR",
+      "Zielbeschreibung": "Target has not been defined at a molecular level, only the non-molecular entity which is affected (e.g., organism, cell line etc)",
+      "Elternteiltyp": null
+    },
+    {
+      "Zieltyp": "UNDEFINED",
+      "Zielbeschreibung": "No target has been defined",
+      "Elternteiltyp": null
+    },
+    {
+      "Zieltyp": "CHIMERIC PROTEIN",
+      "Zielbeschreibung": "Target is a fusion of two different proteins, either a synthetic construct or naturally occurring fusion protein",
+      "Elternteiltyp": "PROTEIN"
+    },
+    {
+      "Zieltyp": "PROTEIN COMPLEX",
+      "Zielbeschreibung": "Target is a defined protein complex, consisting of multiple subunits",
+      "Elternteiltyp": "PROTEIN"
+    }
+  ]
+}

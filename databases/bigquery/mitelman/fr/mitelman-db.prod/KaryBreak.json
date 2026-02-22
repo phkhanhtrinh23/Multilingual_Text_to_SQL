@@ -1,0 +1,86 @@
+{
+  "table_name": "KaryBreak",
+  "table_fullname": "mitelman-db.prod.KaryBreak",
+  "column_names": [
+    "NumRef",
+    "NumDossier",
+    "NumFacture",
+    "NumClone",
+    "NumCommande",
+    "PointDarrêt"
+  ],
+  "column_types": [
+    "INT64",
+    "STRING",
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "NumRef",
+    "NumDossier",
+    "NumFacture",
+    "NumClone",
+    "NumCommande",
+    "PointDarrêt"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "STRING",
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING"
+  ],
+  "description": [
+    "numéro de référence, par exemple '14617'",
+    "numéro de dossier, généralement entre 1 et 10, mais peut également être une chaîne arbitraire, par exemple 'A11'",
+    "numéro d'enquête, entre 1 et 9",
+    "numéro de clone, entre 1 et 58",
+    "numéro de commande, entre 1 et 392",
+    "chaîne arbitraire, par exemple '14q32', ou '9', ou '?10q?11'"
+  ],
+  "sample_rows": [
+    {
+      "NumRef": 4169,
+      "NumDossier": "384",
+      "NumFacture": 1,
+      "NumClone": 1,
+      "NumCommande": 1,
+      "PointDarrêt": "?"
+    },
+    {
+      "NumRef": 5553,
+      "NumDossier": "56",
+      "NumFacture": 1,
+      "NumClone": 2,
+      "NumCommande": 1,
+      "PointDarrêt": "?"
+    },
+    {
+      "NumRef": 7703,
+      "NumDossier": "254",
+      "NumFacture": 1,
+      "NumClone": 2,
+      "NumCommande": 1,
+      "PointDarrêt": "?"
+    },
+    {
+      "NumRef": 8463,
+      "NumDossier": "43",
+      "NumFacture": 1,
+      "NumClone": 1,
+      "NumCommande": 1,
+      "PointDarrêt": "?"
+    },
+    {
+      "NumRef": 8473,
+      "NumDossier": "1B",
+      "NumFacture": 1,
+      "NumClone": 1,
+      "NumCommande": 1,
+      "PointDarrêt": "?"
+    }
+  ]
+}

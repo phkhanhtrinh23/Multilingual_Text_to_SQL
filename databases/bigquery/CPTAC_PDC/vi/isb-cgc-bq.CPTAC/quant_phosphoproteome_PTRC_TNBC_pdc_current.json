@@ -1,0 +1,116 @@
+{
+  "table_name": "quant_phosphoproteome_PTRC_TNBC_pdc_current",
+  "table_fullname": "isb-cgc-bq.CPTAC.quant_phosphoproteome_PTRC_TNBC_pdc_current",
+  "column_names": [
+    "Mã trường hợp",
+    "Mã mẫu",
+    "Mã mẫu",
+    "id_người_nộp_aliquot",
+    "id_siêu_dữ_liệu_chạy_aliquot",
+    "tên nghiên cứu",
+    "tỷ lệ log2 độ dày đặc protein",
+    "định danh refseq",
+    "địa điểm fosphoryl hóa"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "mã_vụ",
+    "Mã mẫu",
+    "Mã liều mẫu",
+    "Mã người gửi mẫu",
+    "mã_siêu_dữ_liệu_vòng_chạy_aliquot",
+    "tên nghiên cứu",
+    "tỷ lệ log2 độ dồi protein",
+    "ID chuỗi tham chiếu",
+    "địa điểm lạp phốt"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "Định danh duy nhất liên kết với một bệnh nhân cụ thể (ví dụ 24cb0fcb-63d6-11e8-bcf1-0a2705229b82)",
+    "Mã định danh PDC duy nhất cho mẫu này (ví dụ e8d83eb9-693a-11ea-b1fd-0aad30af8a83)",
+    "Mã PDC duy nhất cho mẫu này (ví dụ: e8db124a-693a-11ea-b1fd-0aad30af8a83)",
+    "ID người nộp mẫu aliquot được gán bởi chương trình (ví dụ T14)",
+    "Định danh duy nhất aliquot dựa trên cách nó được sử dụng trong thí nghiệm (tùy theo chất dán nhãn và/hoặc bản sao sinh học).",
+    "Tên nghiên cứu (ví dụ: Nghiên cứu Thí điểm Ung thư Não Trẻ - Phosphoproteome)",
+    "Tỷ lệ logarit trung bình của ion báo cáo mẫu so với tham chiếu chung của ion peptide liên quan đến gen trong các lần thu thập từ một mẫu sinh học cụ thể.",
+    "Định danh duy nhất được gán cho một chuỗi trong cơ sở dữ liệu NCBI RefSeq",
+    "Mã ký tự đơn và vị trí chuỗi protein của các axit amin đã được fosphoryl hóa (ví dụ: t304s310, t59)"
+  ],
+  "sample_rows": [
+    {
+      "mã_vụ": "961fcdab-129c-4ae9-8abc-2ec9ae61c866",
+      "Mã mẫu": "ba08cd04-5fa2-4d7a-9c14-b5a572c53efc",
+      "Mã liều mẫu": "064b6ce5-2964-4ed0-b258-121db8ceab0d",
+      "Mã người gửi mẫu": "NTN089_Baseline",
+      "mã_siêu_dữ_liệu_vòng_chạy_aliquot": "630f5dd6-091d-469f-8cc5-1ed43dfccdb7",
+      "tên nghiên cứu": "PTRC TNBC - Phosphoproteome",
+      "tỷ lệ log2 độ dồi protein": 1.2257,
+      "ID chuỗi tham chiếu": "NP_000114.2",
+      "địa điểm lạp phốt": "s384"
+    },
+    {
+      "mã_vụ": "961fcdab-129c-4ae9-8abc-2ec9ae61c866",
+      "Mã mẫu": "ba08cd04-5fa2-4d7a-9c14-b5a572c53efc",
+      "Mã liều mẫu": "064b6ce5-2964-4ed0-b258-121db8ceab0d",
+      "Mã người gửi mẫu": "NTN089_Baseline",
+      "mã_siêu_dữ_liệu_vòng_chạy_aliquot": "630f5dd6-091d-469f-8cc5-1ed43dfccdb7",
+      "tên nghiên cứu": "PTRC TNBC - Phosphoproteome",
+      "tỷ lệ log2 độ dồi protein": 0.9393,
+      "ID chuỗi tham chiếu": "NP_001002909.1",
+      "địa điểm lạp phốt": "s1035"
+    },
+    {
+      "mã_vụ": "961fcdab-129c-4ae9-8abc-2ec9ae61c866",
+      "Mã mẫu": "ba08cd04-5fa2-4d7a-9c14-b5a572c53efc",
+      "Mã liều mẫu": "064b6ce5-2964-4ed0-b258-121db8ceab0d",
+      "Mã người gửi mẫu": "NTN089_Baseline",
+      "mã_siêu_dữ_liệu_vòng_chạy_aliquot": "630f5dd6-091d-469f-8cc5-1ed43dfccdb7",
+      "tên nghiên cứu": "PTRC TNBC - Phosphoproteome",
+      "tỷ lệ log2 độ dồi protein": 1.6176,
+      "ID chuỗi tham chiếu": "NP_001003698.1",
+      "địa điểm lạp phốt": "s161"
+    },
+    {
+      "mã_vụ": "961fcdab-129c-4ae9-8abc-2ec9ae61c866",
+      "Mã mẫu": "ba08cd04-5fa2-4d7a-9c14-b5a572c53efc",
+      "Mã liều mẫu": "064b6ce5-2964-4ed0-b258-121db8ceab0d",
+      "Mã người gửi mẫu": "NTN089_Baseline",
+      "mã_siêu_dữ_liệu_vòng_chạy_aliquot": "630f5dd6-091d-469f-8cc5-1ed43dfccdb7",
+      "tên nghiên cứu": "PTRC TNBC - Phosphoproteome",
+      "tỷ lệ log2 độ dồi protein": 0.7767,
+      "ID chuỗi tham chiếu": "NP_001011553.2",
+      "địa điểm lạp phốt": "s333"
+    },
+    {
+      "mã_vụ": "961fcdab-129c-4ae9-8abc-2ec9ae61c866",
+      "Mã mẫu": "ba08cd04-5fa2-4d7a-9c14-b5a572c53efc",
+      "Mã liều mẫu": "064b6ce5-2964-4ed0-b258-121db8ceab0d",
+      "Mã người gửi mẫu": "NTN089_Baseline",
+      "mã_siêu_dữ_liệu_vòng_chạy_aliquot": "630f5dd6-091d-469f-8cc5-1ed43dfccdb7",
+      "tên nghiên cứu": "PTRC TNBC - Phosphoproteome",
+      "tỷ lệ log2 độ dồi protein": 0.8599,
+      "ID chuỗi tham chiếu": "NP_001017368.1",
+      "địa điểm lạp phốt": "s226"
+    }
+  ]
+}

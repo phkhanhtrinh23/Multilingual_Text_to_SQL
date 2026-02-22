@@ -1,0 +1,106 @@
+{
+  "table_name": "Filtered_jhu_usc_edu_PANCAN_merged_HumanMethylation27_HumanMethylation450_betaValue_whitelisted",
+  "table_fullname": "isb-cgc-bq.pancancer_atlas.Filtered_jhu_usc_edu_PANCAN_merged_HumanMethylation27_HumanMethylation450_betaValue_whitelisted",
+  "column_names": [
+    "Código de Barras del Participante",
+    "Código de barras de muestra",
+    "Código de barras de la muestra",
+    "Código de Tipo de Muestra",
+    "Tipo de muestra",
+    "Estudio",
+    "Identificación",
+    "Beta"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64"
+  ],
+  "nested_column_names": [
+    "Código de barras del participante",
+    "Código de barras de la muestra",
+    "Código de alícuota",
+    "Código de Letra del Tipo de Muestra",
+    "Tipo de muestra",
+    "Estudio",
+    "Identificación",
+    "Beta"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64"
+  ],
+  "description": [
+    "Identificador de código de barras TCGA para el participante del estudio, por ejemplo TCGA-02-0001",
+    "Código de barras del espécimen biológico, por ejemplo TCGA-13-1489-02A",
+    "Código de barras de la alícuota TCGA, p.ej. TCGA-12-1089-01A-01D-0517-28",
+    "Código de letras del tipo de muestra según los estándares TCGA, por ejemplo TPN, EBV. Lista completa disponible en https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/sample-type-codes",
+    "Normal derivado de sangre, Tumor sólido primario, Normal de tejido sólido, Tumor sólido recurrente, Metastásico, Adicional - Nuevo Primario, Cáncer primario derivado de sangre - sangre periférica, Normal de célula bucal, Metastásico adicional, Normal de médula ósea",
+    "Abreviatura de estudio TCGA, por ejemplo LAML. Lista completa disponible en https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/tcga-study-abbreviations",
+    "Identificador único de sonda (p. ej. cg04676771) del array de metilación humana de Illumina – consulte la tabla de anotaciones (isb-cgc-bq.annotations.methylation_annotation_hg19_illumina_current) para más detalles sobre cualquier sonda en particular.",
+    "Valor beta de metilación de ADN normalizado (entre 0 y 1, donde 0 indica ADN completamente desmetilado y 1 indica ADN totalmente metilado)"
+  ],
+  "sample_rows": [
+    {
+      "Código de barras del participante": "TCGA-01-0628",
+      "Código de barras de la muestra": "TCGA-01-0628-11A",
+      "Código de alícuota": "TCGA-01-0628-11A-01D-0383-05",
+      "Código de Letra del Tipo de Muestra": "NT",
+      "Tipo de muestra": "Solid Tissue Normal",
+      "Estudio": "OV",
+      "Identificación": "cg25264554",
+      "Beta": 0.014019597658378
+    },
+    {
+      "Código de barras del participante": "TCGA-01-0628",
+      "Código de barras de la muestra": "TCGA-01-0628-11A",
+      "Código de alícuota": "TCGA-01-0628-11A-01D-0383-05",
+      "Código de Letra del Tipo de Muestra": "NT",
+      "Tipo de muestra": "Solid Tissue Normal",
+      "Estudio": "OV",
+      "Identificación": "cg12269343",
+      "Beta": 0.0197464851425526
+    },
+    {
+      "Código de barras del participante": "TCGA-01-0628",
+      "Código de barras de la muestra": "TCGA-01-0628-11A",
+      "Código de alícuota": "TCGA-01-0628-11A-01D-0383-05",
+      "Código de Letra del Tipo de Muestra": "NT",
+      "Tipo de muestra": "Solid Tissue Normal",
+      "Estudio": "OV",
+      "Identificación": "cg02425732",
+      "Beta": 0.033633891941717
+    },
+    {
+      "Código de barras del participante": "TCGA-01-0628",
+      "Código de barras de la muestra": "TCGA-01-0628-11A",
+      "Código de alícuota": "TCGA-01-0628-11A-01D-0383-05",
+      "Código de Letra del Tipo de Muestra": "NT",
+      "Tipo de muestra": "Solid Tissue Normal",
+      "Estudio": "OV",
+      "Identificación": "cg09852871",
+      "Beta": 0.788843878492672
+    },
+    {
+      "Código de barras del participante": "TCGA-01-0628",
+      "Código de barras de la muestra": "TCGA-01-0628-11A",
+      "Código de alícuota": "TCGA-01-0628-11A-01D-0383-05",
+      "Código de Letra del Tipo de Muestra": "NT",
+      "Tipo de muestra": "Solid Tissue Normal",
+      "Estudio": "OV",
+      "Identificación": "cg23953831",
+      "Beta": 0.864616977642031
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "table_name": "quant_phosphoproteome_PTRC_TNBC_pdc_current",
+  "table_fullname": "isb-cgc-bq.CPTAC.quant_phosphoproteome_PTRC_TNBC_pdc_current",
+  "column_names": [
+    "id_del_caso",
+    "id_muestra",
+    "id_porción",
+    "ID del remitente de alícuota",
+    "id_métadatos_corrida_aliquota",
+    "nombre del estudio",
+    "log2 de abundancia proteica",
+    "identificador_refseq",
+    "sitios de fosforilación"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "caso_id",
+    "id_muestra",
+    "id_alíquota",
+    "identificador_del_solicitante_de_la_submuestra",
+    "id_métadatos_de_ejecución_de_aliquot",
+    "nombre_estudio",
+    "abundancia de proteína (log2)",
+    "identificador_refseq",
+    "sitios de fosforilación"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "Identificador único asociado con un paciente específico (por ejemplo, 24cb0fcb-63d6-11e8-bcf1-0a2705229b82)",
+    "Identificador único PDC para esta muestra (por ejemplo, e8d83eb9-693a-11ea-b1fd-0aad30af8a83)",
+    "Identificador único PDC para esta alícuota (por ejemplo, e8db124a-693a-11ea-b1fd-0aad30af8a83)",
+    "ID del remitente de la alícuota asignado por el programa (p. ej. T14)",
+    "Identifica de manera única la alícuota según su uso en el experimento (basado en el reactivo de etiquetado y/o el replicado biológico)",
+    "Nombre del estudio (por ejemplo, Estudio Piloto de Cáncer Cerebral Pediátrico - Fosforoproteoma)",
+    "Promedio de la razón logarítmica entre el ion reportador de la muestra y la referencia común de iones peptídicos asociados al gen en adquisiciones de una muestra biológica específica.",
+    "Identificador único asignado a una secuencia en la base de datos NCBI RefSeq",
+    "Códigos de una sola letra y posiciones en la secuencia de proteínas de los aminoácidos fosforilados (p. ej. t304s310, t59)"
+  ],
+  "sample_rows": [
+    {
+      "caso_id": "961fcdab-129c-4ae9-8abc-2ec9ae61c866",
+      "id_muestra": "ba08cd04-5fa2-4d7a-9c14-b5a572c53efc",
+      "id_alíquota": "064b6ce5-2964-4ed0-b258-121db8ceab0d",
+      "identificador_del_solicitante_de_la_submuestra": "NTN089_Baseline",
+      "id_métadatos_de_ejecución_de_aliquot": "630f5dd6-091d-469f-8cc5-1ed43dfccdb7",
+      "nombre_estudio": "PTRC TNBC - Phosphoproteome",
+      "abundancia de proteína (log2)": 1.2257,
+      "identificador_refseq": "NP_000114.2",
+      "sitios de fosforilación": "s384"
+    },
+    {
+      "caso_id": "961fcdab-129c-4ae9-8abc-2ec9ae61c866",
+      "id_muestra": "ba08cd04-5fa2-4d7a-9c14-b5a572c53efc",
+      "id_alíquota": "064b6ce5-2964-4ed0-b258-121db8ceab0d",
+      "identificador_del_solicitante_de_la_submuestra": "NTN089_Baseline",
+      "id_métadatos_de_ejecución_de_aliquot": "630f5dd6-091d-469f-8cc5-1ed43dfccdb7",
+      "nombre_estudio": "PTRC TNBC - Phosphoproteome",
+      "abundancia de proteína (log2)": 0.9393,
+      "identificador_refseq": "NP_001002909.1",
+      "sitios de fosforilación": "s1035"
+    },
+    {
+      "caso_id": "961fcdab-129c-4ae9-8abc-2ec9ae61c866",
+      "id_muestra": "ba08cd04-5fa2-4d7a-9c14-b5a572c53efc",
+      "id_alíquota": "064b6ce5-2964-4ed0-b258-121db8ceab0d",
+      "identificador_del_solicitante_de_la_submuestra": "NTN089_Baseline",
+      "id_métadatos_de_ejecución_de_aliquot": "630f5dd6-091d-469f-8cc5-1ed43dfccdb7",
+      "nombre_estudio": "PTRC TNBC - Phosphoproteome",
+      "abundancia de proteína (log2)": 1.6176,
+      "identificador_refseq": "NP_001003698.1",
+      "sitios de fosforilación": "s161"
+    },
+    {
+      "caso_id": "961fcdab-129c-4ae9-8abc-2ec9ae61c866",
+      "id_muestra": "ba08cd04-5fa2-4d7a-9c14-b5a572c53efc",
+      "id_alíquota": "064b6ce5-2964-4ed0-b258-121db8ceab0d",
+      "identificador_del_solicitante_de_la_submuestra": "NTN089_Baseline",
+      "id_métadatos_de_ejecución_de_aliquot": "630f5dd6-091d-469f-8cc5-1ed43dfccdb7",
+      "nombre_estudio": "PTRC TNBC - Phosphoproteome",
+      "abundancia de proteína (log2)": 0.7767,
+      "identificador_refseq": "NP_001011553.2",
+      "sitios de fosforilación": "s333"
+    },
+    {
+      "caso_id": "961fcdab-129c-4ae9-8abc-2ec9ae61c866",
+      "id_muestra": "ba08cd04-5fa2-4d7a-9c14-b5a572c53efc",
+      "id_alíquota": "064b6ce5-2964-4ed0-b258-121db8ceab0d",
+      "identificador_del_solicitante_de_la_submuestra": "NTN089_Baseline",
+      "id_métadatos_de_ejecución_de_aliquot": "630f5dd6-091d-469f-8cc5-1ed43dfccdb7",
+      "nombre_estudio": "PTRC TNBC - Phosphoproteome",
+      "abundancia de proteína (log2)": 0.8599,
+      "identificador_refseq": "NP_001017368.1",
+      "sitios de fosforilación": "s226"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "table_name": "dimension",
+  "table_fullname": "bigquery-public-data.sec_quarterly_financials.dimension",
+  "column_names": [
+    "分段哈希",
+    "段",
+    "截断段",
+    "分区时间"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "BOOL",
+    "TIMESTAMP"
+  ],
+  "nested_column_names": [
+    "段落哈希",
+    "段",
+    "段落截断"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "BOOL"
+  ],
+  "description": [
+    "segments字段文本的MD5哈希。虽然MD5不适合用于加密，但它仅用于此处限制主键的大小。segments_hash: [dimhash]",
+    "对 XBRL 段落中出现的轴和成员的标签名称进行连接。标签名称的首部为 “Statement”，尾部 4 个字符为 “Axis”，尾部 6 个字符为 “Member” 或 “Domain”，在出现时进行截断。由于 EDGAR 验证保证在一次提交中本地名称唯一，因此忽略命名空间和前缀。每个维度表示为 “{axis}={member};” 的键值对，轴按词典顺序连接。示例：'LegalEntity=Xyz;Scenario=Restated;' 表示 XBRL 段落，其中维度 LegalEntityAxis 的成员为 XyzMember，维度 StatementScenarioAxis 的成员为 RestatedMember。",
+    "如果 segments 字段在未被截断的情况下长度超过 1024 个字符，则为 TRUE，否则为 FALSE。segment_truncation: [segt]"
+  ],
+  "sample_rows": [
+    {
+      "段落哈希": "0x00000000",
+      "段": null,
+      "段落截断": false
+    },
+    {
+      "段落哈希": "0x0cfab777bfb97c9c70428f4aa168335c",
+      "段": "PropertyPlantAndEquipmentByType=NonProducingOilAndGasProperties;",
+      "段落截断": false
+    },
+    {
+      "段落哈希": "0x0fbb52a9c45f6b71e15f9014faa85f56",
+      "段": "PropertyPlantAndEquipmentByType=SouthTexasProjectAcreage;",
+      "段落截断": false
+    },
+    {
+      "段落哈希": "0x133ed0334b7713ac9a34d0512f7d9f1a",
+      "段": "DerivativeInstrumentRisk=PutOption;",
+      "段落截断": false
+    },
+    {
+      "段落哈希": "0x1767e6cfc42e170f20b295eb0caaa6cc",
+      "段": "ConsolidationItems=OperatingSegments;BusinessSegments=AllOtherSegments;",
+      "段落截断": false
+    }
+  ]
+}

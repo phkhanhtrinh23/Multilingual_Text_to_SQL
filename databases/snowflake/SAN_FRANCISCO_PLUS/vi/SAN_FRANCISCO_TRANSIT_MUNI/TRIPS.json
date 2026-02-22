@@ -1,0 +1,86 @@
+{
+  "table_name": "TRIPS",
+  "table_fullname": "SAN_FRANCISCO_PLUS.SAN_FRANCISCO_TRANSIT_MUNI.TRIPS",
+  "column_names": [
+    "điểm cuối chuyến",
+    "Mã chuyến đi",
+    "Mã khối",
+    "mã tuyến",
+    "id_hình_định",
+    "hình dạng chuyến đi",
+    "Loại dịch vụ",
+    "Hướng"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "BINARY",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Chứa văn bản hiển thị trên biển báo xác định điểm đến chuyến tàu cho hành khách. Sử dụng trường này để phân biệt các mẫu dịch vụ khác nhau trên cùng tuyến.",
+    "Định danh duy nhất cho mỗi chuyến đi",
+    "Xác định block mà chuyến đi thuộc về.  \nMột block bao gồm một chuyến đi đơn lẻ hoặc nhiều chuyến đi liên tiếp được thực hiện bằng cùng một phương tiện.  \nCác chuyến đi được nhóm vào một block bằng cách sử dụng ngày dịch vụ chung và block_id.  \nblock_id có thể bao gồm các chuyến đi có các ngày dịch vụ khác nhau, điều này tạo ra các block riêng biệt.  \nĐể biết thêm chi tiết, xem: https://developers.google.com/transit/gtfs/reference/#example-showing-blocks-and-service-day",
+    "Định danh duy nhất cho mỗi tuyến. Một tuyến duy nhất sẽ có nhiều chuyến.",
+    "Định danh duy nhất cho hình dạng không gian địa lý mô tả hành trình của phương tiện trong một chuyến đi theo từng điểm. Sử dụng để JOIN với các hình dạng có trong bảng shapes.",
+    "Biểu diễn địa lý của toàn bộ tuyến đường chuyến đi.",
+    "Xác định loại dịch vụ cho chuyến đi này",
+    "Xác định hướng di chuyển của chuyến đi. Các giá trị sau đây là hợp lệ:\n- O: Đi ra\n- I: Đi vào\nTrường này không được sử dụng trong định tuyến, mà thay vào đó cung cấp một cách để phân tách các chuyến đi theo hướng"
+  ],
+  "sample_rows": [
+    {
+      "Mã chuyến đi": "8999873",
+      "mã tuyến": "83X",
+      "Hướng": "O",
+      "Mã khối": "8302",
+      "Loại dịch vụ": null,
+      "điểm cuối chuyến": "Caltrain Depot",
+      "id_hình_định": "174188",
+      "hình dạng chuyến đi": null
+    },
+    {
+      "Mã chuyến đi": "8999875",
+      "mã tuyến": "83X",
+      "Hướng": "O",
+      "Mã khối": "8301",
+      "Loại dịch vụ": null,
+      "điểm cuối chuyến": "Caltrain Depot",
+      "id_hình_định": "174188",
+      "hình dạng chuyến đi": null
+    },
+    {
+      "Mã chuyến đi": "8999872",
+      "mã tuyến": "83X",
+      "Hướng": "O",
+      "Mã khối": "8302",
+      "Loại dịch vụ": null,
+      "điểm cuối chuyến": "Caltrain Depot",
+      "id_hình_định": "174188",
+      "hình dạng chuyến đi": null
+    },
+    {
+      "Mã chuyến đi": "8999871",
+      "mã tuyến": "83X",
+      "Hướng": "O",
+      "Mã khối": "8301",
+      "Loại dịch vụ": null,
+      "điểm cuối chuyến": "Caltrain Depot",
+      "id_hình_định": "174188",
+      "hình dạng chuyến đi": null
+    },
+    {
+      "Mã chuyến đi": "8999893",
+      "mã tuyến": "83X",
+      "Hướng": "O",
+      "Mã khối": "8302",
+      "Loại dịch vụ": null,
+      "điểm cuối chuyến": "Caltrain Depot",
+      "id_hình_định": "174188",
+      "hình dạng chuyến đi": null
+    }
+  ]
+}

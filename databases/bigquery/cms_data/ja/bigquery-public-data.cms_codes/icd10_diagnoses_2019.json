@@ -1,0 +1,76 @@
+{
+  "table_name": "icd10_diagnoses_2019",
+  "table_fullname": "bigquery-public-data.cms_codes.icd10_diagnoses_2019",
+  "column_names": [
+    "注文番号",
+    "コード",
+    "ヘッダーコードの有無",
+    "短い説明",
+    "長い説明"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "BOOL",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "注文番号",
+    "CMコード",
+    "ヘッダーコード",
+    "短い説明",
+    "詳細説明"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "BOOL",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "ユーザーがさまざまなコードをコミュニケーションしやすくするユニークなヘッダーコード",
+    "診断コード",
+    "TRUE - コードは「ヘッダー」コードで、HIPAA対象の取引には有効ではありません。  \nFALSE - コードはHIPAA対象の取引の提出に有効です。",
+    "診断の簡潔なテキスト説明",
+    "診断の全文説明"
+  ],
+  "sample_rows": [
+    {
+      "注文番号": "00004",
+      "CMコード": "A009",
+      "ヘッダーコード": false,
+      "短い説明": "Cholera, unspecified",
+      "詳細説明": "Cholera, unspecified"
+    },
+    {
+      "注文番号": "01543",
+      "CMコード": "C4339",
+      "ヘッダーコード": false,
+      "短い説明": "Malignant melanoma of other parts of face",
+      "詳細説明": "Malignant melanoma of other parts of face"
+    },
+    {
+      "注文番号": "03541",
+      "CMコード": "D696",
+      "ヘッダーコード": false,
+      "短い説明": "Thrombocytopenia, unspecified",
+      "詳細説明": "Thrombocytopenia, unspecified"
+    },
+    {
+      "注文番号": "03955",
+      "CMコード": "E093593",
+      "ヘッダーコード": false,
+      "短い説明": "Drug/chem diab with prolif diab rtnop without mclr edema, bi",
+      "詳細説明": "Drug or chemical induced diabetes mellitus with proliferative diabetic retinopathy without macular edema, bilateral"
+    },
+    {
+      "注文番号": "05041",
+      "CMコード": "F12129",
+      "ヘッダーコード": false,
+      "短い説明": "Cannabis abuse with intoxication, unspecified",
+      "詳細説明": "Cannabis abuse with intoxication, unspecified"
+    }
+  ]
+}

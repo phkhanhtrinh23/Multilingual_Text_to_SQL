@@ -1,0 +1,78 @@
+{
+  "sample_rows": [
+    {
+      "tampon": "2016-11-03 18:02:00",
+      "session": "0CVKaz",
+      "user_id": "U001",
+      "action": "add_cart",
+      "catégorie": "drama",
+      "produits": null,
+      "montant": null
+    },
+    {
+      "tampon": "2016-11-03 18:01:00",
+      "session": "0CVKaz",
+      "user_id": "U001",
+      "action": "add_cart",
+      "catégorie": "drama",
+      "produits": "D002",
+      "montant": null
+    },
+    {
+      "tampon": "2016-11-03 18:10:00",
+      "session": "0CVKaz",
+      "user_id": "U001",
+      "action": "purchase",
+      "catégorie": "drama",
+      "produits": "D001,D002",
+      "montant": 2000.0
+    },
+    {
+      "tampon": null,
+      "session": "1QceiB",
+      "user_id": "U002",
+      "action": "purchase",
+      "catégorie": "action",
+      "produits": "A005,A006",
+      "montant": 1000.0
+    },
+    {
+      "tampon": "2016-11-04 13:00:00",
+      "session": "1QceiB",
+      "user_id": "U002",
+      "action": "purchase",
+      "catégorie": "drama",
+      "produits": "D002",
+      "montant": 1000.0
+    }
+  ],
+  "table_name": "invalid_action_log",
+  "table_fullname": "invalid_action_log",
+  "column_names": [
+    "tampon",
+    "session",
+    "user_id",
+    "action",
+    "catégorie",
+    "produits",
+    "montant"
+  ],
+  "column_types": [
+    "varchar(255)",
+    "varchar(255)",
+    "varchar(255)",
+    "varchar(255)",
+    "varchar(255)",
+    "varchar(255)",
+    "INTEGER"
+  ],
+  "description": [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+  ]
+}

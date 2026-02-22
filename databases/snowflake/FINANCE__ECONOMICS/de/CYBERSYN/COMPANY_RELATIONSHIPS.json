@@ -1,0 +1,94 @@
+{
+  "sample_rows": [
+    {
+      "UNTERNEHMENS_ID": "ca52d8c892a8ffe6e8368f2bd7a5fca7",
+      "UNTERNEHMENSNAME": "WYNN RESORTS LTD",
+      "ENTITÄTENEBENE": "Corporate",
+      "ZUGEHÖRIGES_UNTERNEHMENS_ID": "5a2aaa890644211a8e69ad206ee9d4de",
+      "ZUGEHÖRIGES_UNTERNEHMENSNAME": "WYNN LAS VEGAS LLC",
+      "ZUGEHÖRIGE_ENTITÄTENEBENE": "Corporate",
+      "BEZIEHUNGSTYP": "Parent",
+      "BEZIEHUNGSSTARTDATUM": null,
+      "BEZIEHUNGSENDDATUM": null
+    },
+    {
+      "UNTERNEHMENS_ID": "61042fb57d4bc5965ff4f0dfa55f3aa2",
+      "UNTERNEHMENSNAME": "RITZ-CARLTON HOTEL COMPANY LLC",
+      "ENTITÄTENEBENE": "Corporate",
+      "ZUGEHÖRIGES_UNTERNEHMENS_ID": "d0d371457687b60bbb116b9fc9ae65ea",
+      "ZUGEHÖRIGES_UNTERNEHMENSNAME": "MARRIOTT INTERNATIONAL INC /MD/",
+      "ZUGEHÖRIGE_ENTITÄTENEBENE": "Corporate",
+      "BEZIEHUNGSTYP": "Subsidiary",
+      "BEZIEHUNGSSTARTDATUM": null,
+      "BEZIEHUNGSENDDATUM": null
+    },
+    {
+      "UNTERNEHMENS_ID": "9d60e1934f9141a0991597d08181e126",
+      "UNTERNEHMENSNAME": "TOWNEPLACE SUITES BY MARRIOTT",
+      "ENTITÄTENEBENE": "Corporate",
+      "ZUGEHÖRIGES_UNTERNEHMENS_ID": "d0d371457687b60bbb116b9fc9ae65ea",
+      "ZUGEHÖRIGES_UNTERNEHMENSNAME": "MARRIOTT INTERNATIONAL INC /MD/",
+      "ZUGEHÖRIGE_ENTITÄTENEBENE": "Corporate",
+      "BEZIEHUNGSTYP": "Subsidiary",
+      "BEZIEHUNGSSTARTDATUM": null,
+      "BEZIEHUNGSENDDATUM": null
+    },
+    {
+      "UNTERNEHMENS_ID": "b5647b2c2c12a1b09f5ce31802833f10",
+      "UNTERNEHMENSNAME": "WYNDHAM HOTELS & RESORTS, INC.",
+      "ENTITÄTENEBENE": "Corporate",
+      "ZUGEHÖRIGES_UNTERNEHMENS_ID": "015a8a998d3e9492c6ff9ed4e452d802",
+      "ZUGEHÖRIGES_UNTERNEHMENSNAME": "SUPER 8 WORLDWIDE, INC.",
+      "ZUGEHÖRIGE_ENTITÄTENEBENE": "Corporate",
+      "BEZIEHUNGSTYP": "Parent",
+      "BEZIEHUNGSSTARTDATUM": null,
+      "BEZIEHUNGSENDDATUM": null
+    },
+    {
+      "UNTERNEHMENS_ID": "b00320b7fdfbd6ecdbe7379e1e1e1d61",
+      "UNTERNEHMENSNAME": "COMCAST CORP",
+      "ENTITÄTENEBENE": "Corporate",
+      "ZUGEHÖRIGES_UNTERNEHMENS_ID": "36df5b636ad537c1a94fb35cd7c91f80",
+      "ZUGEHÖRIGES_UNTERNEHMENSNAME": "FANDANGO MEDIA LLC",
+      "ZUGEHÖRIGE_ENTITÄTENEBENE": "Corporate",
+      "BEZIEHUNGSTYP": "Parent",
+      "BEZIEHUNGSSTARTDATUM": null,
+      "BEZIEHUNGSENDDATUM": null
+    }
+  ],
+  "table_name": "COMPANY_RELATIONSHIPS",
+  "table_fullname": "FINANCE__ECONOMICS.CYBERSYN.COMPANY_RELATIONSHIPS",
+  "column_names": [
+    "UNTERNEHMENSNAME",
+    "BEZIEHUNGSTYP",
+    "BEZIEHUNGSSTARTDATUM",
+    "BEZIEHUNGSENDDATUM",
+    "UNTERNEHMENS_ID",
+    "ENTITÄTENEBENE",
+    "ZUGEHÖRIGES_UNTERNEHMENS_ID",
+    "ZUGEHÖRIGE_ENTITÄTENEBENE",
+    "ZUGEHÖRIGES_UNTERNEHMENSNAME"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "DATE",
+    "DATE",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Der Name des Unternehmens.",
+    "Gibt die Art der Beziehung zwischen dem Unternehmen und dem verbundenen Unternehmen an. Der Wert ist 'Parent', wenn das Unternehmen die Muttergesellschaft des verbundenen Unternehmens ist, und 'Subsidiary', wenn das Unternehmen eine Tochtergesellschaft des verbundenen Unternehmens ist.",
+    "Der Beginn der Zuordnung eines Unternehmens zum verbundenen Unternehmen. In Fällen, in denen das Startdatum unbekannt ist, wird NULL zugewiesen.",
+    "Das Ende der Gültigkeit der Beziehung für das Unternehmen und das verbundene Unternehmen. In Fällen, in denen eine Beziehung derzeit gültig ist, wird ein Enddatum von NULL zugewiesen.",
+    "Eindeutiger Identifikator, der von Cybersyn jedem Unternehmen zugewiesen wird. Verknüpfbar mit der `COMPANY_INDEX`-Tabelle.",
+    "Beschreibt den Typ oder die Ebene der Entität zur zusätzlichen Übersicht. Derzeit sind alle Entitäten Unternehmensentitäten und werden als 'Corporate' bezeichnet.",
+    "Eindeutiger Identifikator, der von Cybersyn dem verbundenen Unternehmen zugewiesen wird. Verknüpfbar mit der `COMPANY_INDEX`-Tabelle.",
+    "Beschreibt den Typ oder die Ebene der verbundenen Entität zur zusätzlichen Übersicht. Derzeit sind alle Entitäten Unternehmensentitäten und werden als 'Corporate' bezeichnet.",
+    "Der Name des verbundenen Unternehmens."
+  ]
+}

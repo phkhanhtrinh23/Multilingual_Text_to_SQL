@@ -1,0 +1,70 @@
+{
+  "sample_rows": [
+    {
+      "GEO_ID": "country/USA",
+      "VARIÁVEL": "Z1_FL404090453.Q",
+      "NOME_DA_VARIÁVEL": "Levels: Government-sponsored enterprises; total assets held by Farmer Mac (balance sheet) - Input series with zero seasonal factor, Quarterly (Not seasonally adjusted)",
+      "DATA": "2008-12-31",
+      "VALOR": 5107000000.0,
+      "UNIDADE": "USD"
+    },
+    {
+      "GEO_ID": "country/USA",
+      "VARIÁVEL": "Z1_FU713061113.Q",
+      "NOME_DA_VARIÁVEL": "Transactions: Monetary authority; Treasury bills; asset - Input series with zero seasonal factor, Quarterly (Not seasonally adjusted)",
+      "DATA": "2018-06-30",
+      "VALOR": 0.0,
+      "UNIDADE": "USD"
+    },
+    {
+      "GEO_ID": "country/USA",
+      "VARIÁVEL": "Z1_FU795013035.Q",
+      "NOME_DA_VARIÁVEL": "Transactions: Domestic financial sectors; gross fixed investment, nonresidential software - Computed series, Quarterly (Not seasonally adjusted)",
+      "DATA": "1984-03-31",
+      "VALOR": 1443000000.0,
+      "UNIDADE": "USD"
+    },
+    {
+      "GEO_ID": "country/USA",
+      "VARIÁVEL": "Z1_FU793130205.A",
+      "NOME_DA_VARIÁVEL": "Transactions: Domestic financial sectors; other deposits including time and savings deposits; liability (IMA) - Computed series, Annual (Not seasonally adjusted)",
+      "DATA": "1998-12-31",
+      "VALOR": 259475000000.0,
+      "UNIDADE": "USD"
+    },
+    {
+      "GEO_ID": "country/USA",
+      "VARIÁVEL": "Z1_FA746330075.Q",
+      "NOME_DA_VARIÁVEL": "Transactions: Banks in U.S.-affiliated areas; consumption of fixed capital, nonresidential intellectual property products, current cost basis - Computed series, Quarterly (Seasonally adjusted)",
+      "DATA": "2019-09-30",
+      "VALOR": 83000000.0,
+      "UNIDADE": "USD"
+    }
+  ],
+  "table_name": "FEDERAL_RESERVE_TIMESERIES",
+  "table_fullname": "GLOBAL_GOVERNMENT.CYBERSYN.FEDERAL_RESERVE_TIMESERIES",
+  "column_names": [
+    "DATA",
+    "NOME_DA_VARIÁVEL",
+    "VALOR",
+    "VARIÁVEL",
+    "GEO_ID",
+    "UNIDADE"
+  ],
+  "column_types": [
+    "DATE",
+    "TEXT",
+    "FLOAT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Data associada ao valor.",
+    "Nome legível por humanos único para a variável.",
+    "Valor relatado para a variável.",
+    "Identificador único para uma variável, juntable à tabela `timeseries`.",
+    "Um identificador único para um local. Juntable a outras tabelas de geografia, incluindo `GEOGRAPHY_INDEX`, `GEOGRAPHY_RELATIONSHIPS` e `GEOGRAPHY_CHARACTERISTICS`.",
+    "Unidade de medida para o valor relatado."
+  ]
+}

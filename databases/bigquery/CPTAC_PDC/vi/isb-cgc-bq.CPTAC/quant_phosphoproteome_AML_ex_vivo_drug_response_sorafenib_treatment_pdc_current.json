@@ -1,0 +1,116 @@
+{
+  "table_name": "quant_phosphoproteome_AML_ex_vivo_drug_response_sorafenib_treatment_pdc_current",
+  "table_fullname": "isb-cgc-bq.CPTAC.quant_phosphoproteome_AML_ex_vivo_drug_response_sorafenib_treatment_pdc_current",
+  "column_names": [
+    "Mã số vụ",
+    "Mã mẫu",
+    "mã_định_lượng",
+    "mã_người_nộp_aliquot",
+    "id_siêu_dữ_liệu_chạy_mẫu",
+    "tên nghiên cứu",
+    "tỷ lệ log2 mức độ protein",
+    "định danh refseq",
+    "địa điểm fosphoryl hóa"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "mã trường hợp",
+    "Mã mẫu",
+    "mã_aliquot",
+    "mã_nhà_nộp_mẫu",
+    "ID dữ liệu chạy aliquot",
+    "Tên nghiên cứu",
+    "tỷ lệ log2 lượng protein",
+    "Mã RefSeq",
+    "điểm fосphoryl hóa"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "Định danh duy nhất liên kết với một bệnh nhân cụ thể (ví dụ 24cb0fcb-63d6-11e8-bcf1-0a2705229b82)",
+    "Định danh PDC duy nhất cho mẫu này (ví dụ e8d83eb9-693a-11ea-b1fd-0aad30af8a83)",
+    "Định danh duy nhất PDC cho mẫu này (ví dụ e8db124a-693a-11ea-b1fd-0aad30af8a83)",
+    "ID người nộp mẫu aliquot được gán bởi chương trình (ví dụ T14)",
+    "Định danh duy nhất mẫu aliquot theo cách nó được sử dụng trong thí nghiệm (dựa trên chất dán nhãn và/hoặc mẫu sinh học)",
+    "Tên của nghiên cứu (ví dụ: Nghiên cứu Thí điểm Ung thư Não Trẻ em - Phosphoproteome)",
+    "Tỷ lệ logarit trung bình của ion báo cáo mẫu so với tham chiếu chung của ion peptide liên quan đến gen trong các lần thu thập từ một mẫu sinh học cụ thể.",
+    "Định danh duy nhất được gán cho một chuỗi trong cơ sở dữ liệu NCBI RefSeq.",
+    "Mã ký hiệu chữ đơn và vị trí chuỗi protein của các axit amin đã được fốt hóa (ví dụ: t304s310, t59)"
+  ],
+  "sample_rows": [
+    {
+      "mã trường hợp": "ecbde1d1-d1d9-4de5-913d-090a0571edd9",
+      "Mã mẫu": "c00046d2-ffee-43d8-a72f-64a187590a7b",
+      "mã_aliquot": "d9a038c8-92b3-4fff-afeb-799d93b97841",
+      "mã_nhà_nộp_mẫu": "15-00276-1",
+      "ID dữ liệu chạy aliquot": "0c7495c0-2773-4f0a-aef6-ad497c9e1249",
+      "Tên nghiên cứu": "AML Ex Vivo Drug Response - Sorafenib Treatment - Phosphoproteome",
+      "tỷ lệ log2 lượng protein": -2.4666,
+      "Mã RefSeq": "NP_000436.2",
+      "điểm fосphoryl hóa": "s1622"
+    },
+    {
+      "mã trường hợp": "ecbde1d1-d1d9-4de5-913d-090a0571edd9",
+      "Mã mẫu": "c00046d2-ffee-43d8-a72f-64a187590a7b",
+      "mã_aliquot": "d9a038c8-92b3-4fff-afeb-799d93b97841",
+      "mã_nhà_nộp_mẫu": "15-00276-1",
+      "ID dữ liệu chạy aliquot": "0c7495c0-2773-4f0a-aef6-ad497c9e1249",
+      "Tên nghiên cứu": "AML Ex Vivo Drug Response - Sorafenib Treatment - Phosphoproteome",
+      "tỷ lệ log2 lượng protein": -4.905,
+      "Mã RefSeq": "NP_000923.1",
+      "điểm fосphoryl hóa": "s537"
+    },
+    {
+      "mã trường hợp": "ecbde1d1-d1d9-4de5-913d-090a0571edd9",
+      "Mã mẫu": "c00046d2-ffee-43d8-a72f-64a187590a7b",
+      "mã_aliquot": "d9a038c8-92b3-4fff-afeb-799d93b97841",
+      "mã_nhà_nộp_mẫu": "15-00276-1",
+      "ID dữ liệu chạy aliquot": "0c7495c0-2773-4f0a-aef6-ad497c9e1249",
+      "Tên nghiên cứu": "AML Ex Vivo Drug Response - Sorafenib Treatment - Phosphoproteome",
+      "tỷ lệ log2 lượng protein": -4.0065,
+      "Mã RefSeq": "NP_001001.2",
+      "điểm fосphoryl hóa": "s235s236"
+    },
+    {
+      "mã trường hợp": "ecbde1d1-d1d9-4de5-913d-090a0571edd9",
+      "Mã mẫu": "c00046d2-ffee-43d8-a72f-64a187590a7b",
+      "mã_aliquot": "d9a038c8-92b3-4fff-afeb-799d93b97841",
+      "mã_nhà_nộp_mẫu": "15-00276-1",
+      "ID dữ liệu chạy aliquot": "0c7495c0-2773-4f0a-aef6-ad497c9e1249",
+      "Tên nghiên cứu": "AML Ex Vivo Drug Response - Sorafenib Treatment - Phosphoproteome",
+      "tỷ lệ log2 lượng protein": -3.9549,
+      "Mã RefSeq": "NP_001005751.1",
+      "điểm fосphoryl hóa": "s1114"
+    },
+    {
+      "mã trường hợp": "ecbde1d1-d1d9-4de5-913d-090a0571edd9",
+      "Mã mẫu": "c00046d2-ffee-43d8-a72f-64a187590a7b",
+      "mã_aliquot": "d9a038c8-92b3-4fff-afeb-799d93b97841",
+      "mã_nhà_nộp_mẫu": "15-00276-1",
+      "ID dữ liệu chạy aliquot": "0c7495c0-2773-4f0a-aef6-ad497c9e1249",
+      "Tên nghiên cứu": "AML Ex Vivo Drug Response - Sorafenib Treatment - Phosphoproteome",
+      "tỷ lệ log2 lượng protein": -3.2762,
+      "Mã RefSeq": "NP_001007027.1",
+      "điểm fосphoryl hóa": "s739s746s748"
+    }
+  ]
+}

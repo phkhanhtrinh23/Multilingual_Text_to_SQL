@@ -1,0 +1,102 @@
+{
+  "table_name": "DNA_METHYLATION_CHR8_HG38_GDC_2017_01",
+  "table_fullname": "TCGA.TCGA_VERSIONED.DNA_METHYLATION_CHR8_HG38_GDC_2017_01",
+  "column_names": [
+    "identificador_gdc_amostra",
+    "identificador_gdc_alíquota",
+    "identificador_sonda",
+    "código_de_barras_alíquota",
+    "código_de_barras_caso",
+    "identificador_gdc_caso",
+    "plataforma",
+    "código_de_barras_amostra",
+    "identificador_gdc_arquivo",
+    "valor_beta"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "FLOAT"
+  ],
+  "description": [
+    "Identificador GDC único para esta amostra (corresponde ao sample_barcode), por exemplo, a1ec9279-c1a6-4e58-97ed-9ec1f36187c5  --  isso pode ser usado para acessar mais informações do portal de dados do GDC",
+    "Identificador GDC único para este alíquota (corresponde ao aliquot_barcode), por exemplo, 7fbfdb3e-1fd2-4206-8d2e-7f68e4a15844  --  isso pode ser usado para acessar mais informações do portal de dados do GDC",
+    "ID único para a sonda de array associada a um site CpG",
+    "Código de barras do alíquota TCGA, por exemplo, TCGA-12-1089-01A-01D-0517-24",
+    "Código de barras do caso TCGA original, por exemplo, TCGA-DX-A8BN",
+    "Identificador GDC único para este caso (corresponde ao case_barcode).  Pode ser usado para acessar mais informações do portal de dados do GDC, como este:   https://portal.gdc.cancer.gov/files/c21b332c-06c6-4403-9032-f91c8f407ba32",
+    "Plataforma usada para gerar esses dados -- seja HumanMethylation450 ou HumanMethylation27",
+    "Código de barras da amostra TCGA, por exemplo, TCGA-12-1089-01A. Uma amostra pode ter vários conjuntos de segmentações de CN correspondentes a vários alíquotas; use GROUP BY apropriadamente em consultas",
+    "Identificador GDC único para este arquivo (corresponde ao file_barcode)  --  isso pode ser usado para acessar mais informações do portal de dados do GDC, como este: https://portal.gdc.cancer.gov/files/c21b332c-06c6-4403-9032-f91c8f407ba39",
+    "Representa a razão entre a intensidade da matriz metilada e a intensidade total da matriz, variando entre 0 (níveis mais baixos de metilação) e 1 (níveis mais altos de metilação)"
+  ],
+  "sample_rows": [
+    {
+      "código_de_barras_caso": "TCGA-32-2498",
+      "código_de_barras_amostra": "TCGA-32-2498-01A",
+      "código_de_barras_alíquota": "TCGA-32-2498-01A-01D-1228-05",
+      "identificador_sonda": "cg09155025",
+      "valor_beta": 0.968784738840825,
+      "plataforma": null,
+      "identificador_gdc_arquivo": "6db4187c-5e48-45ac-8ae3-6b55198ff65a",
+      "identificador_gdc_caso": "0d5e5a6b-5113-43f2-836c-776207b21b56",
+      "identificador_gdc_amostra": "58af038c-bd40-4123-a6d3-11061f0d38e1",
+      "identificador_gdc_alíquota": "6e65d823-0d94-4d26-b60a-2f168cbe2ba8"
+    },
+    {
+      "código_de_barras_caso": "TCGA-32-2498",
+      "código_de_barras_amostra": "TCGA-32-2498-01A",
+      "código_de_barras_alíquota": "TCGA-32-2498-01A-01D-1228-05",
+      "identificador_sonda": "cg12508214",
+      "valor_beta": 0.0123000533862858,
+      "plataforma": null,
+      "identificador_gdc_arquivo": "6db4187c-5e48-45ac-8ae3-6b55198ff65a",
+      "identificador_gdc_caso": "0d5e5a6b-5113-43f2-836c-776207b21b56",
+      "identificador_gdc_amostra": "58af038c-bd40-4123-a6d3-11061f0d38e1",
+      "identificador_gdc_alíquota": "6e65d823-0d94-4d26-b60a-2f168cbe2ba8"
+    },
+    {
+      "código_de_barras_caso": "TCGA-A6-2670",
+      "código_de_barras_amostra": "TCGA-A6-2670-01A",
+      "código_de_barras_alíquota": "TCGA-A6-2670-01A-02D-0820-05",
+      "identificador_sonda": "cg12402251",
+      "valor_beta": 0.126155223069031,
+      "plataforma": null,
+      "identificador_gdc_arquivo": "cdd5e1a9-1ce8-4361-9fca-61ccb7098b25",
+      "identificador_gdc_caso": "65bb7520-f055-43a8-b735-1152fa2c9e04",
+      "identificador_gdc_amostra": "724072ae-40b5-45cc-b339-e24f1cb6fbcf",
+      "identificador_gdc_alíquota": "b8074b70-ad2b-49e5-b70a-c6e8a6681830"
+    },
+    {
+      "código_de_barras_caso": "TCGA-BR-4186",
+      "código_de_barras_amostra": "TCGA-BR-4186-01A",
+      "código_de_barras_alíquota": "TCGA-BR-4186-01A-01D-1129-05",
+      "identificador_sonda": "cg20379125",
+      "valor_beta": 0.0148836125077708,
+      "plataforma": null,
+      "identificador_gdc_arquivo": "9f1a5a8a-aa4b-498b-b522-74eec31b203c",
+      "identificador_gdc_caso": "65834878-0e8d-4741-9e4c-2316105ad40d",
+      "identificador_gdc_amostra": "d8919d77-45ab-438a-825d-51bdb1310659",
+      "identificador_gdc_alíquota": "43256bf0-b759-4b49-b76f-6d015376326b"
+    },
+    {
+      "código_de_barras_caso": "TCGA-BR-4186",
+      "código_de_barras_amostra": "TCGA-BR-4186-01A",
+      "código_de_barras_alíquota": "TCGA-BR-4186-01A-01D-1129-05",
+      "identificador_sonda": "cg11196870",
+      "valor_beta": 0.080977461193496,
+      "plataforma": null,
+      "identificador_gdc_arquivo": "9f1a5a8a-aa4b-498b-b522-74eec31b203c",
+      "identificador_gdc_caso": "65834878-0e8d-4741-9e4c-2316105ad40d",
+      "identificador_gdc_amostra": "d8919d77-45ab-438a-825d-51bdb1310659",
+      "identificador_gdc_alíquota": "43256bf0-b759-4b49-b76f-6d015376326b"
+    }
+  ]
+}

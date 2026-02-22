@@ -1,0 +1,96 @@
+{
+  "table_name": "protein_classification",
+  "table_fullname": "bigquery-public-data.ebi_chembl.protein_classification",
+  "column_names": [
+    "id_classe_proteine",
+    "id_parent",
+    "nom_preferentiel",
+    "nom_court",
+    "description_classe_proteine",
+    "definition",
+    "niveau_classe"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "id_classe_proteine",
+    "id_parent",
+    "nom_preferentiel",
+    "nom_court",
+    "description_classe_proteine",
+    "definition",
+    "niveau_classe"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "sample_rows": [
+    {
+      "id_classe_proteine": "0",
+      "id_parent": null,
+      "nom_preferentiel": "Protein class",
+      "nom_court": "Protein class",
+      "description_classe_proteine": "protein class",
+      "definition": "Root of the ChEMBL protein family classification",
+      "niveau_classe": "0"
+    },
+    {
+      "id_classe_proteine": "1",
+      "id_parent": "0",
+      "nom_preferentiel": "Enzyme",
+      "nom_court": "Enzyme",
+      "description_classe_proteine": "enzyme",
+      "definition": "Biological molecules that possess catalytic activity. They may occur naturally or be synthetically created. Enzymes are usually proteins, however CATALYTIC RNA and CATALYTIC DNA molecules have also been identified. [MESH:D004798]",
+      "niveau_classe": "1"
+    },
+    {
+      "id_classe_proteine": "2",
+      "id_parent": "0",
+      "nom_preferentiel": "Adhesion",
+      "nom_court": "Adhesion",
+      "description_classe_proteine": "adhesion",
+      "definition": "Surface ligands, usually glycoproteins, that mediate cell-to-cell adhesion. Their functions include the assembly and interconnection of various vertebrate systems, as well as maintenance of tissue integration, wound healing, morphogenic movements, cellular migrations, and metastasis. [MESH:D015815]",
+      "niveau_classe": "1"
+    },
+    {
+      "id_classe_proteine": "9",
+      "id_parent": "0",
+      "nom_preferentiel": "Surface antigen",
+      "nom_court": "Surface antigen",
+      "description_classe_proteine": "surface antigen",
+      "definition": "Antigens on surfaces of cells, including infectious or foreign cells or viruses. They are usually protein-containing groups on cell membranes or walls and may be isolated. [MESH:D000954]",
+      "niveau_classe": "1"
+    },
+    {
+      "id_classe_proteine": "11",
+      "id_parent": "0",
+      "nom_preferentiel": "Membrane receptor",
+      "nom_court": "Membrane receptor",
+      "description_classe_proteine": "membrane receptor",
+      "definition": "Cell surface proteins that bind signalling molecules external to the cell with high affinity and convert this extracellular event into one or more intracellular signals that alter the behavior of the target cell (From Alberts, Molecular Biology of the Cell, 2nd ed, pp693-5). Cell surface receptors, unlike enzymes, do not chemically alter their ligands. [MESH:D011956]",
+      "niveau_classe": "1"
+    }
+  ]
+}

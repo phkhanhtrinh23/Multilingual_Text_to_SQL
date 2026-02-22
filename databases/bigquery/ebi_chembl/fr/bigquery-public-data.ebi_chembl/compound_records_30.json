@@ -1,0 +1,106 @@
+{
+  "table_name": "compound_records_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.compound_records_30",
+  "column_names": [
+    "identifiant_enregistrement",
+    "molregno",
+    "id_document",
+    "cle_composee",
+    "nom_composee",
+    "id_source",
+    "id_composee_source",
+    "cidx"
+  ],
+  "column_types": [
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING",
+    "INT64",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "identifiant_enregistrement",
+    "molregno",
+    "id_document",
+    "cle_composee",
+    "nom_composee",
+    "id_source",
+    "id_composee_source",
+    "cidx"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING",
+    "INT64",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "ID unique pour un composé/enregistrement",
+    "Clé étrangère pour la table des composés (structure de composé)",
+    "Clé étrangère pour la table des documents",
+    "Texte clé identifiant ce composé dans le document scientifique",
+    "Nom de ce composé enregistré dans le document scientifique",
+    "Clé étrangère pour la table source",
+    "Identifiant du composé dans la base de données source (par exemple, pubchem SID)",
+    "L'identifiant de composé défini par le déposant"
+  ],
+  "sample_rows": [
+    {
+      "identifiant_enregistrement": 2530031,
+      "molregno": 155006,
+      "id_document": 94208,
+      "cle_composee": "BDBM50130293",
+      "nom_composee": "7-{4-[4-(2,3-dichlorophenyl)piperazin-1-yl]butoxy}-3,4-dihydroquinolin-2(1H)-one::ARIPIPRAZOLE::CHEMBL1112::US9018213, aripprazole::US9156822, Aripiprazole",
+      "id_source": 37,
+      "id_composee_source": "BDBM50130293",
+      "cidx": "BDBM50130293"
+    },
+    {
+      "identifiant_enregistrement": 2571453,
+      "molregno": 2027989,
+      "id_document": 94464,
+      "cle_composee": "BDBM128330",
+      "nom_composee": "US8796280, 20",
+      "id_source": 37,
+      "id_composee_source": "BDBM128330",
+      "cidx": "BDBM128330"
+    },
+    {
+      "identifiant_enregistrement": 2571438,
+      "molregno": 2027974,
+      "id_document": 94464,
+      "cle_composee": "BDBM128315",
+      "nom_composee": "US8796280, 4",
+      "id_source": 37,
+      "id_composee_source": "BDBM128315",
+      "cidx": "BDBM128315"
+    },
+    {
+      "identifiant_enregistrement": 2571475,
+      "molregno": 2028011,
+      "id_document": 94464,
+      "cle_composee": "BDBM128352",
+      "nom_composee": "US8796280, 42",
+      "id_source": 37,
+      "id_composee_source": "BDBM128352",
+      "cidx": "BDBM128352"
+    },
+    {
+      "identifiant_enregistrement": 2571452,
+      "molregno": 2027988,
+      "id_document": 94464,
+      "cle_composee": "BDBM128329",
+      "nom_composee": "US8796280, 19",
+      "id_source": 37,
+      "id_composee_source": "BDBM128329",
+      "cidx": "BDBM128329"
+    }
+  ]
+}

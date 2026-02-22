@@ -1,0 +1,116 @@
+{
+  "table_name": "quant_acetylome_prospective_breast_BI_pdc_current",
+  "table_fullname": "isb-cgc-bq.CPTAC.quant_acetylome_prospective_breast_BI_pdc_current",
+  "column_names": [
+    "id_de_caso",
+    "id_muestra",
+    "id_aliquota",
+    "ID del remitente de la porción",
+    "id_metadatos_aliquot",
+    "nombre del estudio",
+    "ratio_log2_abundancia_proteína",
+    "id_refseq",
+    "sitios de acetilación"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "Identificador de caso",
+    "identificación de muestra",
+    "id_alícuota",
+    "id_del_presentador_del_lote",
+    "id_metadatos_ejecucion_aliquot",
+    "Nombre del estudio",
+    "razón_log2_abundancia_proteína",
+    "id_secuencia_referencia",
+    "sitios de acetilación"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "Identificador único asociado con un paciente específico (por ejemplo, 24cb0fcb-63d6-11e8-bcf1-0a2705229b82)",
+    "Identificador único de PDC para esta muestra (por ejemplo, e8d83eb9-693a-11ea-b1fd-0aad30af8a83)",
+    "Identificador único PDC para esta alícuota (por ejemplo, e8db124a-693a-11ea-b1fd-0aad30af8a83)",
+    "ID del remitente de la alícuota asignado por el programa (p. ej., T14)",
+    "Identifica de manera única el alíquot según su uso en el experimento (basado en el reactivo de etiquetado y/o el replicado biológico).",
+    "Nombre del estudio (p.ej. Estudio piloto de cáncer cerebral pediátrico - Fosforoma)",
+    "Logaritmo de la razón promedio entre la ión de reportero de la muestra y la referencia común de iones de péptidos asociados con el gen en adquisiciones de una muestra biológica específica",
+    "Identificador único asignado a una secuencia en la base de datos RefSeq del NCBI",
+    "Códigos de una sola letra y posiciones de la secuencia proteica de los aminoácidos acetilados (por ejemplo, k12k16, k21)"
+  ],
+  "sample_rows": [
+    {
+      "Identificador de caso": "327f7599-0a5d-11eb-bc0e-0aad30af8a83",
+      "identificación de muestra": "32803c33-0a5d-11eb-bc0e-0aad30af8a83",
+      "id_alícuota": "32814606-0a5d-11eb-bc0e-0aad30af8a83",
+      "id_del_presentador_del_lote": "01f203fd-e664-4d78-bea0-7c40cf_D2",
+      "id_metadatos_ejecucion_aliquot": "9fb38e9b-0df6-11eb-b456-0aad30af8a83",
+      "Nombre del estudio": "Prospective Breast BI Acetylome",
+      "razón_log2_abundancia_proteína": 0.0569,
+      "id_secuencia_referencia": "NP_001008564.1",
+      "sitios de acetilación": "k276"
+    },
+    {
+      "Identificador de caso": "327f7599-0a5d-11eb-bc0e-0aad30af8a83",
+      "identificación de muestra": "32803c33-0a5d-11eb-bc0e-0aad30af8a83",
+      "id_alícuota": "32814606-0a5d-11eb-bc0e-0aad30af8a83",
+      "id_del_presentador_del_lote": "01f203fd-e664-4d78-bea0-7c40cf_D2",
+      "id_metadatos_ejecucion_aliquot": "9fb38e9b-0df6-11eb-b456-0aad30af8a83",
+      "Nombre del estudio": "Prospective Breast BI Acetylome",
+      "razón_log2_abundancia_proteína": -0.2117,
+      "id_secuencia_referencia": "NP_005508.1",
+      "sitios de acetilación": "k14"
+    },
+    {
+      "Identificador de caso": "327f7599-0a5d-11eb-bc0e-0aad30af8a83",
+      "identificación de muestra": "32803c33-0a5d-11eb-bc0e-0aad30af8a83",
+      "id_alícuota": "32814606-0a5d-11eb-bc0e-0aad30af8a83",
+      "id_del_presentador_del_lote": "01f203fd-e664-4d78-bea0-7c40cf_D2",
+      "id_metadatos_ejecucion_aliquot": "9fb38e9b-0df6-11eb-b456-0aad30af8a83",
+      "Nombre del estudio": "Prospective Breast BI Acetylome",
+      "razón_log2_abundancia_proteína": -1.4144,
+      "id_secuencia_referencia": "NP_056991.2",
+      "sitios de acetilación": "k79"
+    },
+    {
+      "Identificador de caso": "327f7599-0a5d-11eb-bc0e-0aad30af8a83",
+      "identificación de muestra": "32803c33-0a5d-11eb-bc0e-0aad30af8a83",
+      "id_alícuota": "32814606-0a5d-11eb-bc0e-0aad30af8a83",
+      "id_del_presentador_del_lote": "01f203fd-e664-4d78-bea0-7c40cf_D2",
+      "id_metadatos_ejecucion_aliquot": "9fb38e9b-0df6-11eb-b456-0aad30af8a83",
+      "Nombre del estudio": "Prospective Breast BI Acetylome",
+      "razón_log2_abundancia_proteína": -0.9088,
+      "id_secuencia_referencia": "NP_001531.1",
+      "sitios de acetilación": "k123"
+    },
+    {
+      "Identificador de caso": "327f7599-0a5d-11eb-bc0e-0aad30af8a83",
+      "identificación de muestra": "32803c33-0a5d-11eb-bc0e-0aad30af8a83",
+      "id_alícuota": "32814606-0a5d-11eb-bc0e-0aad30af8a83",
+      "id_del_presentador_del_lote": "01f203fd-e664-4d78-bea0-7c40cf_D2",
+      "id_metadatos_ejecucion_aliquot": "9fb38e9b-0df6-11eb-b456-0aad30af8a83",
+      "Nombre del estudio": "Prospective Breast BI Acetylome",
+      "razón_log2_abundancia_proteína": -0.0986,
+      "id_secuencia_referencia": "NP_006861.1",
+      "sitios de acetilación": "k19"
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "sample_rows": [
+    {
+      "PERMID_证券ID": "8589975674",
+      "主股票代码": "EVN",
+      "证券名称": "EATON VANCE MUNICIPAL INCOME CLOSED FUND",
+      "资产类别": "Other",
+      "主交易所代码": "NYQ",
+      "主交易所名称": "NYSE CONSOLIDATED",
+      "安全状态": "Active",
+      "全球股票代码": "[\n  \"EVN\",\n  \"XEVNX\"\n]",
+      "交易所代码": "[\n  \"NAS\",\n  \"NYQ\"\n]",
+      "Permid 报价编号": "[\n  \"55835369644\",\n  \"55839104515\"\n]"
+    },
+    {
+      "PERMID_证券ID": "8589959375",
+      "主股票代码": "LENb",
+      "证券名称": "LENNAR ORD SHS CLASS B",
+      "资产类别": "Ordinary Shares",
+      "主交易所代码": "ISS",
+      "主交易所名称": "ISE when trading NYSE and AMEX Stocks",
+      "安全状态": "Active",
+      "全球股票代码": "[\n  \"LENB*\",\n  \"LENb\",\n  \"LNN0\"\n]",
+      "交易所代码": "[\n  \"FRA\",\n  \"ISS\",\n  \"MEX\"\n]",
+      "Permid 报价编号": "[\n  \"21627275840\",\n  \"21736829361\",\n  \"55836192793\"\n]"
+    },
+    {
+      "PERMID_证券ID": "18040205046",
+      "主股票代码": "XFSLX",
+      "证券名称": "FIRST EAGLE SENIOR LOAN FUND",
+      "资产类别": "Other",
+      "主交易所代码": "NAS",
+      "主交易所名称": "NASDAQ CAPITAL MARKET",
+      "安全状态": "Inactive",
+      "全球股票代码": "[\n  \"TSLF\",\n  \"XFSLX\"\n]",
+      "交易所代码": "[\n  \"NAS\",\n  \"WCB\"\n]",
+      "Permid 报价编号": "[\n  \"21529763349\",\n  \"21529826402\"\n]"
+    },
+    {
+      "PERMID_证券ID": "8590935543",
+      "主股票代码": "TIF*",
+      "证券名称": "TIFFANY ORD SHS",
+      "资产类别": "Ordinary Shares",
+      "主交易所代码": "MXQ",
+      "主交易所名称": null,
+      "安全状态": "Inactive",
+      "全球股票代码": "[\n  \"0LFD\",\n  \"0LFDl\",\n  \"TIF*\"\n]",
+      "交易所代码": "[\n  \"BCO\",\n  \"LSE\",\n  \"MXQ\"\n]",
+      "Permid 报价编号": "[\n  \"21633621402\",\n  \"21634297966\",\n  \"21667705791\"\n]"
+    },
+    {
+      "PERMID_证券ID": "8590923465",
+      "主股票代码": "RWSl",
+      "证券名称": "RWS HOLDINGS ORD SHS",
+      "资产类别": "Ordinary Shares",
+      "主交易所代码": "BCO",
+      "主交易所名称": "BATS CHI-X Trade Reporting",
+      "安全状态": "Active",
+      "全球股票代码": "[\n  \"RWJ\",\n  \"RWSl\"\n]",
+      "交易所代码": "[\n  \"BCO\",\n  \"TDG\"\n]",
+      "Permid 报价编号": "[\n  \"21475037440\",\n  \"21538768765\"\n]"
+    }
+  ],
+  "table_name": "PERMID_SECURITY_INDEX",
+  "table_fullname": "FINANCE__ECONOMICS.CYBERSYN.PERMID_SECURITY_INDEX",
+  "column_names": [
+    "资产类别",
+    "交易所代码",
+    "主股票代码",
+    "证券名称",
+    "主交易所代码",
+    "安全状态",
+    "全球股票代码",
+    "PERMID_证券ID",
+    "主交易所名称",
+    "Permid 报价编号"
+  ],
+  "column_types": [
+    "TEXT",
+    "ARRAY",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "ARRAY",
+    "TEXT",
+    "TEXT",
+    "ARRAY"
+  ],
+  "description": [
+    "资产的广义类别，例如“普通股”“托管收据”等。",
+    "一个表示该证券交易所代码的数组。空数组表示交易所信息不可用。",
+    "证券主要交易场所的代码。如果证券在多个交易所交易或有多个代码，则尽量选择本土市场的代码。",
+    "证券名称",
+    "证券主要交易场所的交易所代码。",
+    "证券状态，即“Active”或“Inactive”。活跃证券是指具有活跃报价的证券，非活跃证券则没有活跃报价。该状态会随时间变化。",
+    "一组证券在全球所有交易所可交易的股票代码",
+    "该证券的 PermID",
+    "证券主要交易场所的交易所名称。",
+    "每个交易所持有该证券交易的报价的 PermID 数组。空数组表示报价信息不可用。"
+  ]
+}

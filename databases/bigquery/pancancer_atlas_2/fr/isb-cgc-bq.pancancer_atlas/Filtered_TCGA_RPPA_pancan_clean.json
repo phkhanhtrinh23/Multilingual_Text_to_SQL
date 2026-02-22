@@ -1,0 +1,106 @@
+{
+  "table_name": "Filtered_TCGA_RPPA_pancan_clean",
+  "table_fullname": "isb-cgc-bq.pancancer_atlas.Filtered_TCGA_RPPA_pancan_clean",
+  "column_names": [
+    "CodeBarreParticipant",
+    "CodeBarreEchantillon",
+    "CodeBarreAliquot",
+    "CodeLettreTypeEchantillon",
+    "TypeEchantillon",
+    "Etude",
+    "Proteine",
+    "Valeur"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64"
+  ],
+  "nested_column_names": [
+    "CodeBarreParticipant",
+    "CodeBarreEchantillon",
+    "CodeBarreAliquote",
+    "CodeLettreTypeEchantillon",
+    "TypeEchantillon",
+    "Etude",
+    "Proteine",
+    "Valeur"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64"
+  ],
+  "description": [
+    "Identifiant de code à barres TCGA pour le participant à l'étude, par exemple TCGA-02-0001",
+    "Code à barres de l'échantillon de biospécimen, par exemple TCGA-13-1489-02A",
+    "Code à barres de l'aliquote TCGA, par exemple TCGA-12-1089-01A-01D-0517-28",
+    "Code de lettre du type d'échantillon en utilisant les normes TCGA, par exemple TPN, EBV. Liste complète disponible à https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/sample-type-codes",
+    "Il existe 10 types d'échantillons : Sang Dérivé Normal, Tumeur solide primaire, Tissu solide normal, Tumeur solide récurrente, Métastatique, Supplémentaire - Nouveau primaire, Cancer sanguin primaire dérivé du sang - Sang périphérique, Cellule buccale normale, Métastatique supplémentaire, Moelle osseuse normale",
+    "Abréviation d'étude TCGA, par exemple LAML. Liste complète disponible à https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/tcga-study-abbreviations",
+    "Symbole de protéine et statut de phosphorylation (le cas échéant), par exemple P53, JNK_pT183Y185",
+    "Niveau d'expression de la protéine mesuré par des tableaux de protéines à phase inverse (RPPAs). Exemples : 0.204238725, -0.01826295"
+  ],
+  "sample_rows": [
+    {
+      "CodeBarreParticipant": "TCGA-04-1335",
+      "CodeBarreEchantillon": "TCGA-04-1335-01A",
+      "CodeBarreAliquote": "TCGA-04-1335-01A-21-20",
+      "CodeLettreTypeEchantillon": "TP",
+      "TypeEchantillon": "Primary solid Tumor",
+      "Etude": "OV",
+      "Proteine": "EIF4G",
+      "Valeur": -0.51629
+    },
+    {
+      "CodeBarreParticipant": "TCGA-04-1335",
+      "CodeBarreEchantillon": "TCGA-04-1335-01A",
+      "CodeBarreAliquote": "TCGA-04-1335-01A-21-20",
+      "CodeLettreTypeEchantillon": "TP",
+      "TypeEchantillon": "Primary solid Tumor",
+      "Etude": "OV",
+      "Proteine": "SF2",
+      "Valeur": 0.018487
+    },
+    {
+      "CodeBarreParticipant": "TCGA-04-1335",
+      "CodeBarreEchantillon": "TCGA-04-1335-01A",
+      "CodeBarreAliquote": "TCGA-04-1335-01A-21-20",
+      "CodeLettreTypeEchantillon": "TP",
+      "TypeEchantillon": "Primary solid Tumor",
+      "Etude": "OV",
+      "Proteine": "EGFR",
+      "Valeur": -0.10668
+    },
+    {
+      "CodeBarreParticipant": "TCGA-04-1335",
+      "CodeBarreEchantillon": "TCGA-04-1335-01A",
+      "CodeBarreAliquote": "TCGA-04-1335-01A-21-20",
+      "CodeLettreTypeEchantillon": "TP",
+      "TypeEchantillon": "Primary solid Tumor",
+      "Etude": "OV",
+      "Proteine": "P70S6K_pT389",
+      "Valeur": 0.022309
+    },
+    {
+      "CodeBarreParticipant": "TCGA-04-1335",
+      "CodeBarreEchantillon": "TCGA-04-1335-01A",
+      "CodeBarreAliquote": "TCGA-04-1335-01A-21-20",
+      "CodeLettreTypeEchantillon": "TP",
+      "TypeEchantillon": "Primary solid Tumor",
+      "Etude": "OV",
+      "Proteine": "PDCD1",
+      "Valeur": null
+    }
+  ]
+}

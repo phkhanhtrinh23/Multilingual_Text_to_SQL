@@ -1,0 +1,111 @@
+{
+  "table_name": "quant_ubiquitylome_CPTAC_LSCC_discovery_study_pdc_current",
+  "table_fullname": "isb-cgc-bq.CPTAC.quant_ubiquitylome_CPTAC_LSCC_discovery_study_pdc_current",
+  "column_names": [
+    "ケースID",
+    "サンプルID",
+    "サンプルID",
+    "試料送信者ID",
+    "アリクォート走行メタデータID",
+    "研究名",
+    "タンパク質濃度対数2比率",
+    "参照シーケンスID",
+    "ユビキチン化位点"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "ケースID",
+    "サンプルID",
+    "サンプルID",
+    "サンプル提出者ID",
+    "分注実行メタデータID",
+    "研究名",
+    "タンパク質発現量の対数2比",
+    "参照配列ID",
+    "ユビキチン化部位"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "特定の患者に関連付けられたユニーク識別子（例：24cb0fcb-63d6-11e8-bcf1-0a2705229b82）",
+    "このサンプルの一意のPDC識別子（例：e8d83eb9-693a-11ea-b1fd-0aad30af8a83）",
+    "このアリコットのユニークなPDC識別子（例：e8db124a-693a-11ea-b1fd-0aad30af8a83）",
+    "プログラムが割り当てたアリクォート送信者ID（例：T14）",
+    "実験での使用方法（ラベリング試薬や生物学的複製に基づく）により、サンプルを一意に識別します。",
+    "研究名（例：小児脳腫瘍パイロット研究 - フォスフォプロテオーム）",
+    "特定の生物サンプルから取得されたアクイジションにおける、遺伝子に関連するペプチドイオンの、サンプル報告イオンと共通参照イオンの平均対数比",
+    "NCBI RefSeq データベースでシーケンスに付与される一意の識別子",
+    "ユビキチン化されたアミノ酸の単文字コードとタンパク質配列位置"
+  ],
+  "sample_rows": [
+    {
+      "ケースID": "1c6408e5-d028-11ea-b1fd-0aad30af8a83",
+      "サンプルID": "1c6681c3-d028-11ea-b1fd-0aad30af8a83",
+      "サンプル提出者ID": "CPT0232690003",
+      "分注実行メタデータID": "ef747fd5-eecb-11ea-b1fd-0aad30af8a83",
+      "研究名": "CPTAC LSCC Discovery Study - Ubiquitylome",
+      "タンパク質発現量の対数2比": -1.8121,
+      "参照配列ID": "NP_003741.1",
+      "ユビキチン化部位": "k420"
+    },
+    {
+      "ケースID": "1c6408e5-d028-11ea-b1fd-0aad30af8a83",
+      "サンプルID": "1c6681c3-d028-11ea-b1fd-0aad30af8a83",
+      "サンプル提出者ID": "CPT0232690003",
+      "分注実行メタデータID": "ef747fd5-eecb-11ea-b1fd-0aad30af8a83",
+      "研究名": "CPTAC LSCC Discovery Study - Ubiquitylome",
+      "タンパク質発現量の対数2比": -2.3702,
+      "参照配列ID": "NP_005611.1",
+      "ユビキチン化部位": "k23"
+    },
+    {
+      "ケースID": "1c6408e5-d028-11ea-b1fd-0aad30af8a83",
+      "サンプルID": "1c6681c3-d028-11ea-b1fd-0aad30af8a83",
+      "サンプル提出者ID": "CPT0232690003",
+      "分注実行メタデータID": "ef747fd5-eecb-11ea-b1fd-0aad30af8a83",
+      "研究名": "CPTAC LSCC Discovery Study - Ubiquitylome",
+      "タンパク質発現量の対数2比": -0.3914,
+      "参照配列ID": "NP_071766.2",
+      "ユビキチン化部位": "k386"
+    },
+    {
+      "ケースID": "1c6408e5-d028-11ea-b1fd-0aad30af8a83",
+      "サンプルID": "1c6681c3-d028-11ea-b1fd-0aad30af8a83",
+      "サンプル提出者ID": "CPT0232690003",
+      "分注実行メタデータID": "ef747fd5-eecb-11ea-b1fd-0aad30af8a83",
+      "研究名": "CPTAC LSCC Discovery Study - Ubiquitylome",
+      "タンパク質発現量の対数2比": -3.1272,
+      "参照配列ID": "NP_001036041.1",
+      "ユビキチン化部位": "k166"
+    },
+    {
+      "ケースID": "1c6408e5-d028-11ea-b1fd-0aad30af8a83",
+      "サンプルID": "1c6681c3-d028-11ea-b1fd-0aad30af8a83",
+      "サンプル提出者ID": "CPT0232690003",
+      "分注実行メタデータID": "ef747fd5-eecb-11ea-b1fd-0aad30af8a83",
+      "研究名": "CPTAC LSCC Discovery Study - Ubiquitylome",
+      "タンパク質発現量の対数2比": -0.2114,
+      "参照配列ID": "NP_000282.1",
+      "ユビキチン化部位": "k267"
+    }
+  ]
+}

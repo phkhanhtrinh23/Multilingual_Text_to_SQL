@@ -1,0 +1,46 @@
+{
+  "sample_rows": [
+    {
+      "BlockGroupID": "361031471003",
+      "MetrikID": "B11012_009E",
+      "Volkszählungswert": 9.0
+    },
+    {
+      "BlockGroupID": "361031471003",
+      "MetrikID": "B11012_010E",
+      "Volkszählungswert": 0.0
+    },
+    {
+      "BlockGroupID": "361031471003",
+      "MetrikID": "B11012_015E",
+      "Volkszählungswert": 0.0
+    },
+    {
+      "BlockGroupID": "361031471003",
+      "MetrikID": "B11012_016E",
+      "Volkszählungswert": 23.0
+    },
+    {
+      "BlockGroupID": "361031471003",
+      "MetrikID": "B11012_017E",
+      "Volkszählungswert": 0.0
+    }
+  ],
+  "table_name": "Fact_CensusValues_ACS2021",
+  "table_fullname": "CENSUS_GALAXY__ZIP_CODE_TO_BLOCK_GROUP_SAMPLE.PUBLIC.Fact_CensusValues_ACS2021",
+  "column_names": [
+    "Volkszählungswert",
+    "MetrikID",
+    "BlockGroupID"
+  ],
+  "column_types": [
+    "FLOAT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Der Int-Wert für die Beziehung zwischen MetricID und BlockGroupID. Dies kann Aggregations- oder Schätzwerte für Menschen, Haustiere, Haushalte usw. sein. Verweisen Sie auf die Dim_CensusMetrics-Tabelle für die Bedeutung jedes Wertes.",
+    "Ein eindeutiger Identifikator für eine bestimmte Metrik oder Messung innerhalb der American Community Survey oder Volkszählungsdaten.",
+    "Ein eindeutiger Identifikator für eine bestimmte Blockgruppe innerhalb eines geografischen Gebiets."
+  ]
+}

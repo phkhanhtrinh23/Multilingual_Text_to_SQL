@@ -1,0 +1,102 @@
+{
+  "table_name": "RECURRENTDATA",
+  "table_fullname": "TCGA_MITELMAN.PROD.RECURRENTDATA",
+  "column_names": [
+    "Gesamtfälle",
+    "Chromosom",
+    "Arm",
+    "Typ",
+    "Band",
+    "Topo",
+    "Anomalie",
+    "Morph",
+    "Gen",
+    "ChrReihenfolge"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "NUMBER"
+  ],
+  "description": [
+    "Gesamtnummer der Fälle (bis zu 2150)",
+    "Chromosomnummer (1- 22, X oder Y)",
+    "Arm des Chromosoms (p oder q)",
+    "balanciert ('B') oder unbalanciert ('U') angeben",
+    "Position des Gens auf dem p- oder q-Arm",
+    "Topographiecode, z. B. '0902' (oder leer)",
+    "Beschreibung der Anomalie, z. B. 'add(19)(q13)' oder 'del(20)(q11q13)'",
+    "Morphologiecode, z. B. '1602'",
+    "Gen-Symbol(e), z. B. 'KMT2A+' oder 'BCR/ABL1' oder leer",
+    "numerische Reihenfolge des Chromosoms"
+  ],
+  "sample_rows": [
+    {
+      "Chromosom": "Y",
+      "Arm": "q",
+      "Band": "10",
+      "Anomalie": "i(Y)(q10)",
+      "Morph": "1820",
+      "Topo": null,
+      "Gesamtfälle": "2",
+      "Gen": null,
+      "ChrReihenfolge": 24,
+      "Typ": "U"
+    },
+    {
+      "Chromosom": "1",
+      "Arm": "q",
+      "Band": "10",
+      "Anomalie": "der(1;3)(q10;q10)",
+      "Morph": "3121",
+      "Topo": "0203",
+      "Gesamtfälle": "2",
+      "Gen": null,
+      "ChrReihenfolge": 1,
+      "Typ": "U"
+    },
+    {
+      "Chromosom": "1",
+      "Arm": "q",
+      "Band": "10",
+      "Anomalie": "der(1;5)(q10;p10)",
+      "Morph": "1101",
+      "Topo": null,
+      "Gesamtfälle": "2",
+      "Gen": null,
+      "ChrReihenfolge": 1,
+      "Typ": "U"
+    },
+    {
+      "Chromosom": "1",
+      "Arm": "q",
+      "Band": "10",
+      "Anomalie": "der(1;5)(q10;p10)",
+      "Morph": "1702",
+      "Topo": null,
+      "Gesamtfälle": "3",
+      "Gen": null,
+      "ChrReihenfolge": 1,
+      "Typ": "U"
+    },
+    {
+      "Chromosom": "1",
+      "Arm": "q",
+      "Band": "10",
+      "Anomalie": "der(1;5)(q10;q10)",
+      "Morph": "1101",
+      "Topo": null,
+      "Gesamtfälle": "2",
+      "Gen": null,
+      "ChrReihenfolge": 1,
+      "Typ": "U"
+    }
+  ]
+}

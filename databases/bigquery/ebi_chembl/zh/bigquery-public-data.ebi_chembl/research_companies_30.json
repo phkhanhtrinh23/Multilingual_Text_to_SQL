@@ -1,0 +1,76 @@
+{
+  "table_name": "research_companies_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.research_companies_30",
+  "column_names": [
+    "公司根ID",
+    "资源根ID",
+    "公司",
+    "国家",
+    "前雇主"
+  ],
+  "column_types": [
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "公司主干ID",
+    "资源根ID",
+    "公司",
+    "国家",
+    "以前的公司"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "主键",
+    "外键指向 research_stem 表。",
+    "与此研究代码根相关的当前公司名称。",
+    "公司使用此研究代码的国家",
+    "与此研究代码前缀关联公司的之前名称（例如，如果公司已经历收购/合并）。"
+  ],
+  "sample_rows": [
+    {
+      "公司主干ID": 541,
+      "资源根ID": 149,
+      "公司": "Vernalis",
+      "国家": "UK",
+      "以前的公司": "Cita NeuroPharmaceuticals"
+    },
+    {
+      "公司主干ID": 681,
+      "资源根ID": 28,
+      "公司": "GlaxoSmithKline",
+      "国家": "UK",
+      "以前的公司": "Allen & Hanburys"
+    },
+    {
+      "公司主干ID": 683,
+      "资源根ID": 3,
+      "公司": "AstraZeneca",
+      "国家": "UK",
+      "以前的公司": "Astra"
+    },
+    {
+      "公司主干ID": 687,
+      "资源根ID": 106,
+      "公司": "GlaxoSmithKline",
+      "国家": "UK",
+      "以前的公司": "Borroughs Wellcome"
+    },
+    {
+      "公司主干ID": 688,
+      "资源根ID": 77,
+      "公司": "Vernalis",
+      "国家": "UK",
+      "以前的公司": "British Biotech"
+    }
+  ]
+}

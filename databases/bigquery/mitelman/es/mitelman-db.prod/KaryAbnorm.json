@@ -1,0 +1,86 @@
+{
+  "table_name": "KaryAbnorm",
+  "table_fullname": "mitelman-db.prod.KaryAbnorm",
+  "column_names": [
+    "No Ref",
+    "Número de caso",
+    "InvNo",
+    "Número de clon",
+    "Número de Pedido",
+    "Anomalía"
+  ],
+  "column_types": [
+    "INT64",
+    "STRING",
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "Número de referencia",
+    "Número de caso",
+    "Número de factura",
+    "Número de clon",
+    "Número de pedido",
+    "Anormalidad"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "STRING",
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING"
+  ],
+  "description": [
+    "número de referencia, ej. '14620'",
+    "número de caso, con mayor frecuencia un entero entre 1 y 10, pero también puede ser una cadena arbitraria, por ejemplo '11H046'",
+    "número de investigación (entre 1 y 9)",
+    "número de clon (entre 1 y 58)",
+    "Número de orden (entre 1 y 198)",
+    "por ejemplo '46', o 'XY', o 'XX', o '-22', etc."
+  ],
+  "sample_rows": [
+    {
+      "Número de referencia": 401,
+      "Número de caso": "109",
+      "Número de factura": 1,
+      "Número de clon": 1,
+      "Número de pedido": 1,
+      "Anormalidad": "??"
+    },
+    {
+      "Número de referencia": 737,
+      "Número de caso": "105",
+      "Número de factura": 1,
+      "Número de clon": 1,
+      "Número de pedido": 1,
+      "Anormalidad": "??"
+    },
+    {
+      "Número de referencia": 737,
+      "Número de caso": "124",
+      "Número de factura": 1,
+      "Número de clon": 1,
+      "Número de pedido": 1,
+      "Anormalidad": "??"
+    },
+    {
+      "Número de referencia": 737,
+      "Número de caso": "63",
+      "Número de factura": 1,
+      "Número de clon": 1,
+      "Número de pedido": 1,
+      "Anormalidad": "??"
+    },
+    {
+      "Número de referencia": 737,
+      "Número de caso": "66",
+      "Número de factura": 1,
+      "Número de clon": 1,
+      "Número de pedido": 1,
+      "Anormalidad": "??"
+    }
+  ]
+}

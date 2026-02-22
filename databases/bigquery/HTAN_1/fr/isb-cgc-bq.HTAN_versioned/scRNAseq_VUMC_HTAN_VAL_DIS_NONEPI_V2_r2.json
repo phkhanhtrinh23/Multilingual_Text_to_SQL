@@ -1,0 +1,126 @@
+{
+  "table_name": "scRNAseq_VUMC_HTAN_VAL_DIS_NONEPI_V2_r2",
+  "table_fullname": "isb-cgc-bq.HTAN_versioned.scRNAseq_VUMC_HTAN_VAL_DIS_NONEPI_V2_r2",
+  "column_names": [
+    "iObs",
+    "iVar",
+    "X_value",
+    "Numero_Barcode_Cellule",
+    "HTAN_Parent_Data_File_ID",
+    "HTAN_Biospecimen_ID",
+    "Type_Cellule",
+    "Sous_Type_Tissu",
+    "Type_Tissu",
+    "Nom_Gene"
+  ],
+  "column_types": [
+    "INT64",
+    "INT64",
+    "FLOAT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "iObs",
+    "iVar",
+    "X_value",
+    "Numero_Barcode_Cellule",
+    "HTAN_Parent_Data_File_ID",
+    "HTAN_Biospecimen_ID",
+    "Type_Cellule",
+    "Sous_Type_Tissu",
+    "Type_Tissu",
+    "Nom_Gene"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "INT64",
+    "FLOAT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "Index des codes à barres des cellules.",
+    "Index des IDs de gènes.",
+    "Valeur d'expression pour un gène et une cellule donnés.",
+    "Codes à barres utilisés pour chaque gouttelette qui contient la cellule dans le processus de séquençage",
+    "Identifiant de fichier HTAN indiquant le fichier(s) à partir duquel ces fichiers ont été dérivés",
+    "ID HTAN associé à un biospecimen en fonction de la SOP ID HTAN (par exemple HTANx_yyy_zzz)",
+    "B = cellule B, T = cellule T, END = endothélial, FIB = fibroblaste, MAS = cellule mast, MYE = myéloïde, PLA = plasma",
+    "TA = adénome tubulaire, HP = polype hyperplasique, TVA = adénome tubulovilleux, SSL = lésion serrée sessile, NL = normal, MSI-H = instabilité microsatellitaire élevée CRC, MSS = CRC stable microsatellitaire",
+    "AD = adénome conventionnel, SER = polype serré, NL = normal, MSI-H = instabilité microsatellitaire élevée CRC, MSS = CRC stable microsatellitaire",
+    "Gène mesuré"
+  ],
+  "sample_rows": [
+    {
+      "iObs": 2827,
+      "iVar": 15691,
+      "X_value": 2.0,
+      "Numero_Barcode_Cellule": "ATGCTCCGTTTGGATCG-54",
+      "HTAN_Parent_Data_File_ID": "HTA11_6310_200000202113111",
+      "HTAN_Biospecimen_ID": "HTA11_6310_2000002021",
+      "Type_Cellule": "B",
+      "Sous_Type_Tissu": "NL",
+      "Type_Tissu": "NL",
+      "Nom_Gene": "PCNP"
+    },
+    {
+      "iObs": 6875,
+      "iVar": 27125,
+      "X_value": 2.0,
+      "Numero_Barcode_Cellule": "TGCGTATCAGCTACGG-16-5607",
+      "HTAN_Parent_Data_File_ID": "HTA11_8099_200000201113111",
+      "HTAN_Biospecimen_ID": "HTA11_8099_2000002011",
+      "Type_Cellule": "B",
+      "Sous_Type_Tissu": "NL",
+      "Type_Tissu": "NL",
+      "Nom_Gene": "TBC1D5"
+    },
+    {
+      "iObs": 5768,
+      "iVar": 28591,
+      "X_value": 2.0,
+      "Numero_Barcode_Cellule": "TGACGTAGAAGCTACTTGT-4-5607",
+      "HTAN_Parent_Data_File_ID": "HTA11_10167_200000202113111",
+      "HTAN_Biospecimen_ID": "HTA11_10167_2000002021",
+      "Type_Cellule": "B",
+      "Sous_Type_Tissu": "NL",
+      "Type_Tissu": "NL",
+      "Nom_Gene": "UBC"
+    },
+    {
+      "iObs": 3238,
+      "iVar": 4200,
+      "X_value": 2.0,
+      "Numero_Barcode_Cellule": "TGAGTCCATGTATCCCACG-54",
+      "HTAN_Parent_Data_File_ID": "HTA11_6310_200000202113111",
+      "HTAN_Biospecimen_ID": "HTA11_6310_2000002021",
+      "Type_Cellule": "B",
+      "Sous_Type_Tissu": "NL",
+      "Type_Tissu": "NL",
+      "Nom_Gene": "CCSER1"
+    },
+    {
+      "iObs": 2796,
+      "iVar": 26484,
+      "X_value": 13.0,
+      "Numero_Barcode_Cellule": "TGACGTATCGGCGCTCTCA-54",
+      "HTAN_Parent_Data_File_ID": "HTA11_6310_200000202113111",
+      "HTAN_Biospecimen_ID": "HTA11_6310_2000002021",
+      "Type_Cellule": "B",
+      "Sous_Type_Tissu": "NL",
+      "Type_Tissu": "NL",
+      "Nom_Gene": "SPICE1"
+    }
+  ]
+}

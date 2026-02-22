@@ -1,0 +1,116 @@
+{
+  "table_name": "quant_phosphoproteome_AML_ex_vivo_drug_response_combination_treatment_pdc_current",
+  "table_fullname": "isb-cgc-bq.CPTAC.quant_phosphoproteome_AML_ex_vivo_drug_response_combination_treatment_pdc_current",
+  "column_names": [
+    "id_de_cas",
+    "id_d_echantillon",
+    "id_d_aliquote",
+    "id_de_soumission_d_aliquote",
+    "id_de_metadonnees_d_execution_d_aliquote",
+    "nom_d_etude",
+    "abondance_de_proteine_log2ratio",
+    "id_refseq",
+    "sites_de_phosphorylation"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "id_de_cas",
+    "id_d_echantillon",
+    "id_d_aliquote",
+    "id_de_soumission_d_aliquote",
+    "id_de_metadonnees_d_execution_d_aliquote",
+    "nom_d_etude",
+    "abondance_de_proteine_log2ratio",
+    "id_refseq",
+    "sites_de_phosphorylation"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "Identifiant unique associé à un patient spécifique (e.g. 24cb0fcb-63d6-11e8-bcf1-0a2705229b82)",
+    "Identifiant PDC unique pour cet échantillon (e.g. e8d83eb9-693a-11ea-b1fd-0aad30af8a83)",
+    "Identifiant PDC unique pour cet aliquot (e.g. e8db124a-693a-11ea-b1fd-0aad30af8a83)",
+    "ID de soumission d'aliquot attribué par le programme (e.g. T14)",
+    "Identifie de manière unique l'aliquot en fonction de son utilisation dans l'expérience (en fonction du réactif d'étiquetage et/ou de la répétition biologique)",
+    "Nom de l'étude (e.g. Étude pilote sur le cancer du cerveau pédiatrique - Phosphoprotéome)",
+    "Rapport log-moyen des ions rapporteurs d'échantillon par rapport à la référence commune des ions de peptides associés au gène dans les acquisitions d'un échantillon biologique spécifique",
+    "Identifiant unique donné à une séquence dans la base de données NCBI RefSeq",
+    "Codes à lettre unique et positions de séquence de protéine des acides aminés phosphorylés (e.g. t304s310, t59)"
+  ],
+  "sample_rows": [
+    {
+      "id_de_cas": "e4796a23-6e79-4159-8547-d7fbe13098c9",
+      "id_d_echantillon": "dddc3c0f-af7c-453b-9929-fe6896297df1",
+      "id_d_aliquote": "cc445b9a-5a06-48cc-854e-7a7611bf7b22",
+      "id_de_soumission_d_aliquote": "15-00756-1",
+      "id_de_metadonnees_d_execution_d_aliquote": "0b52440e-7094-4574-926d-b2720e6abc40",
+      "nom_d_etude": "AML Ex Vivo Drug Response - Combination Treatment - Phosphoproteome",
+      "abondance_de_proteine_log2ratio": -1.0824,
+      "id_refseq": "NP_000170.1",
+      "sites_de_phosphorylation": "s252s261"
+    },
+    {
+      "id_de_cas": "e4796a23-6e79-4159-8547-d7fbe13098c9",
+      "id_d_echantillon": "dddc3c0f-af7c-453b-9929-fe6896297df1",
+      "id_d_aliquote": "cc445b9a-5a06-48cc-854e-7a7611bf7b22",
+      "id_de_soumission_d_aliquote": "15-00756-1",
+      "id_de_metadonnees_d_execution_d_aliquote": "0b52440e-7094-4574-926d-b2720e6abc40",
+      "nom_d_etude": "AML Ex Vivo Drug Response - Combination Treatment - Phosphoproteome",
+      "abondance_de_proteine_log2ratio": -1.9697,
+      "id_refseq": "NP_000876.3",
+      "sites_de_phosphorylation": "s1021"
+    },
+    {
+      "id_de_cas": "e4796a23-6e79-4159-8547-d7fbe13098c9",
+      "id_d_echantillon": "dddc3c0f-af7c-453b-9929-fe6896297df1",
+      "id_d_aliquote": "cc445b9a-5a06-48cc-854e-7a7611bf7b22",
+      "id_de_soumission_d_aliquote": "15-00756-1",
+      "id_de_metadonnees_d_execution_d_aliquote": "0b52440e-7094-4574-926d-b2720e6abc40",
+      "nom_d_etude": "AML Ex Vivo Drug Response - Combination Treatment - Phosphoproteome",
+      "abondance_de_proteine_log2ratio": 1.322,
+      "id_refseq": "NP_000876.3",
+      "sites_de_phosphorylation": "s424"
+    },
+    {
+      "id_de_cas": "e4796a23-6e79-4159-8547-d7fbe13098c9",
+      "id_d_echantillon": "dddc3c0f-af7c-453b-9929-fe6896297df1",
+      "id_d_aliquote": "cc445b9a-5a06-48cc-854e-7a7611bf7b22",
+      "id_de_soumission_d_aliquote": "15-00756-1",
+      "id_de_metadonnees_d_execution_d_aliquote": "0b52440e-7094-4574-926d-b2720e6abc40",
+      "nom_d_etude": "AML Ex Vivo Drug Response - Combination Treatment - Phosphoproteome",
+      "abondance_de_proteine_log2ratio": -1.7199,
+      "id_refseq": "NP_000959.2",
+      "sites_de_phosphorylation": "s365"
+    },
+    {
+      "id_de_cas": "e4796a23-6e79-4159-8547-d7fbe13098c9",
+      "id_d_echantillon": "dddc3c0f-af7c-453b-9929-fe6896297df1",
+      "id_d_aliquote": "cc445b9a-5a06-48cc-854e-7a7611bf7b22",
+      "id_de_soumission_d_aliquote": "15-00756-1",
+      "id_de_metadonnees_d_execution_d_aliquote": "0b52440e-7094-4574-926d-b2720e6abc40",
+      "nom_d_etude": "AML Ex Vivo Drug Response - Combination Treatment - Phosphoproteome",
+      "abondance_de_proteine_log2ratio": -0.387,
+      "id_refseq": "NP_001001998.1",
+      "sites_de_phosphorylation": "s13"
+    }
+  ]
+}

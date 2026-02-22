@@ -1,0 +1,54 @@
+{
+  "table_name": "ROUTES",
+  "table_fullname": "SAN_FRANCISCO_PLUS.SAN_FRANCISCO_TRANSIT_MUNI.ROUTES",
+  "column_names": [
+    "type_de_trajet",
+    "nom_long_de_trajet",
+    "nom_court_de_trajet",
+    "id_de_trajet"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "\"Décrit le type de transport utilisé sur un itinéraire. Les valeurs suivantes sont valides pour ce champ :  -  light_rail: Tramway ou train léger. Utilisé pour tout système de train léger ou de niveau de rue à l'intérieur d'une zone métropolitaine. -  subway: Métro. Utilisé pour tout système de train souterrain à l'intérieur d'une zone métropolitaine. -  rail: Utilisé pour les voyages interurbains ou de longue distance. -  bus: Utilisé pour les itinéraires de bus de courte et longue distance. -  ferry: Utilisé pour les services de bateau de courte et longue distance. -  cable_car: Utilisé pour les tramways de niveau de rue où le câble se trouve sous le véhicule. -  tram: Télécabine ou funiculaire suspendu. Généralement utilisé pour les télécabines aériennes où le véhicule est suspendu au câble. -  funicular: Utilisé pour tout système de train qui se déplace sur des pentes abruptes avec un système de traction par câble.\"",
+    "Contient le nom complet d'un itinéraire. Ce nom est généralement plus descriptif que le nom de route_short_name et inclut souvent la destination ou l'arrêt de l'itinéraire.",
+    "Contient le nom court d'un itinéraire. Il s'agit d'un identifiant abstrait court comme 32, 100X ou Green que les usagers utilisent pour identifier un itinéraire, mais qui ne donne aucune indication des lieux que l'itinéraire dessert.",
+    "Identifiant unique pour chaque itinéraire. Un seul itinéraire aura plusieurs trips"
+  ],
+  "sample_rows": [
+    {
+      "id_de_trajet": "83X",
+      "nom_court_de_trajet": "83X",
+      "nom_long_de_trajet": "MID-MARKET EXPRESS",
+      "type_de_trajet": "3"
+    },
+    {
+      "id_de_trajet": "E",
+      "nom_court_de_trajet": "E",
+      "nom_long_de_trajet": "EMBARCADERO",
+      "type_de_trajet": "0"
+    },
+    {
+      "id_de_trajet": "3",
+      "nom_court_de_trajet": "3",
+      "nom_long_de_trajet": "JACKSON",
+      "type_de_trajet": "3"
+    },
+    {
+      "id_de_trajet": "M",
+      "nom_court_de_trajet": "M",
+      "nom_long_de_trajet": "OCEAN VIEW",
+      "type_de_trajet": "0"
+    },
+    {
+      "id_de_trajet": "8AX",
+      "nom_court_de_trajet": "8AX",
+      "nom_long_de_trajet": "BAYSHORE A EXPRESS",
+      "type_de_trajet": "3"
+    }
+  ]
+}

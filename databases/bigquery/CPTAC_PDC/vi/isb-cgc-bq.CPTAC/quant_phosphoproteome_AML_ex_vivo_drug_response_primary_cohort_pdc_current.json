@@ -1,0 +1,116 @@
+{
+  "table_name": "quant_phosphoproteome_AML_ex_vivo_drug_response_primary_cohort_pdc_current",
+  "table_fullname": "isb-cgc-bq.CPTAC.quant_phosphoproteome_AML_ex_vivo_drug_response_primary_cohort_pdc_current",
+  "column_names": [
+    "mã trường hợp",
+    "định danh mẫu",
+    "mã aliquot",
+    "mã người gửi mẫu phụ",
+    "id_điều_aliquot",
+    "tên nghiên cứu",
+    "tỷ lệ log2 số lượng protein",
+    "mã RefSeq",
+    "điểm fosfor"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "mã_trường_hợp",
+    "Mã mẫu",
+    "Mã mẫu rắc",
+    "Mã người gửi mẫu",
+    "định danh siêu dữ liệu chạy mẫu thử",
+    "tên_nghiên_cứu",
+    "tỷ lệ log2 mức độ protein",
+    "Mã RefSeq",
+    "địa điểm tri-phos"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "Mã định danh duy nhất liên kết với một bệnh nhân cụ thể (ví dụ: 24cb0fcb-63d6-11e8-bcf1-0a2705229b82)",
+    "Mã định danh PDC duy nhất cho mẫu này (ví dụ e8d83eb9-693a-11ea-b1fd-0aad30af8a83)",
+    "Mã định danh PDC duy nhất cho mẫu này (ví dụ e8db124a-693a-11ea-b1fd-0aad30af8a83)",
+    "ID người nộp aliquot được gán bởi chương trình (ví dụ: T14)",
+    "Xác định duy nhất mẫu lẻ theo cách nó được sử dụng trong thí nghiệm (dựa trên chất dán nhãn và/hoặc bản sao sinh học).",
+    "Tên nghiên cứu (ví dụ: Nghiên cứu Thí điểm Ung thư Não Thiếu nhi - Phosphoproteome)",
+    "Tỷ lệ log trung bình của ion báo cáo mẫu so với tham chiếu chung của ion peptide liên quan đến gen trong các lần thu thập từ một mẫu sinh học cụ thể.",
+    "Mã định danh duy nhất được cấp cho một chuỗi trong cơ sở dữ liệu NCBI RefSeq",
+    "Mã ký tự đơn và vị trí dãy protein của các axit amin bị phosphoryl hóa (ví dụ t304s310, t59)"
+  ],
+  "sample_rows": [
+    {
+      "mã_trường_hợp": "1411a35b-1847-4d87-b57f-993dfb9659f8",
+      "Mã mẫu": "cb883da7-73ff-40b2-8c82-01c85506d538",
+      "Mã mẫu rắc": "597258f0-ff16-45a3-854e-45aa2b1d747b",
+      "Mã người gửi mẫu": "15-00051-1",
+      "định danh siêu dữ liệu chạy mẫu thử": "695a16a9-027b-43c8-86c9-f5538b778a6f",
+      "tên_nghiên_cứu": "AML Ex Vivo Drug Response - Primary Cohort - Phosphoproteome",
+      "tỷ lệ log2 mức độ protein": -1.8348,
+      "Mã RefSeq": "NP_000601.3",
+      "địa điểm tri-phos": "s706"
+    },
+    {
+      "mã_trường_hợp": "1411a35b-1847-4d87-b57f-993dfb9659f8",
+      "Mã mẫu": "cb883da7-73ff-40b2-8c82-01c85506d538",
+      "Mã mẫu rắc": "597258f0-ff16-45a3-854e-45aa2b1d747b",
+      "Mã người gửi mẫu": "15-00051-1",
+      "định danh siêu dữ liệu chạy mẫu thử": "695a16a9-027b-43c8-86c9-f5538b778a6f",
+      "tên_nghiên_cứu": "AML Ex Vivo Drug Response - Primary Cohort - Phosphoproteome",
+      "tỷ lệ log2 mức độ protein": -1.1584,
+      "Mã RefSeq": "NP_001005.1",
+      "địa điểm tri-phos": "s146"
+    },
+    {
+      "mã_trường_hợp": "1411a35b-1847-4d87-b57f-993dfb9659f8",
+      "Mã mẫu": "cb883da7-73ff-40b2-8c82-01c85506d538",
+      "Mã mẫu rắc": "597258f0-ff16-45a3-854e-45aa2b1d747b",
+      "Mã người gửi mẫu": "15-00051-1",
+      "định danh siêu dữ liệu chạy mẫu thử": "695a16a9-027b-43c8-86c9-f5538b778a6f",
+      "tên_nghiên_cứu": "AML Ex Vivo Drug Response - Primary Cohort - Phosphoproteome",
+      "tỷ lệ log2 mức độ protein": -1.3186,
+      "Mã RefSeq": "NP_001011553.2",
+      "địa điểm tri-phos": "t227"
+    },
+    {
+      "mã_trường_hợp": "1411a35b-1847-4d87-b57f-993dfb9659f8",
+      "Mã mẫu": "cb883da7-73ff-40b2-8c82-01c85506d538",
+      "Mã mẫu rắc": "597258f0-ff16-45a3-854e-45aa2b1d747b",
+      "Mã người gửi mẫu": "15-00051-1",
+      "định danh siêu dữ liệu chạy mẫu thử": "695a16a9-027b-43c8-86c9-f5538b778a6f",
+      "tên_nghiên_cứu": "AML Ex Vivo Drug Response - Primary Cohort - Phosphoproteome",
+      "tỷ lệ log2 mức độ protein": -2.225,
+      "Mã RefSeq": "NP_001014972.1",
+      "địa điểm tri-phos": "s1401"
+    },
+    {
+      "mã_trường_hợp": "1411a35b-1847-4d87-b57f-993dfb9659f8",
+      "Mã mẫu": "cb883da7-73ff-40b2-8c82-01c85506d538",
+      "Mã mẫu rắc": "597258f0-ff16-45a3-854e-45aa2b1d747b",
+      "Mã người gửi mẫu": "15-00051-1",
+      "định danh siêu dữ liệu chạy mẫu thử": "695a16a9-027b-43c8-86c9-f5538b778a6f",
+      "tên_nghiên_cứu": "AML Ex Vivo Drug Response - Primary Cohort - Phosphoproteome",
+      "tỷ lệ log2 mức độ protein": -2.4866,
+      "Mã RefSeq": "NP_001025459.1",
+      "địa điểm tri-phos": "s351s355"
+    }
+  ]
+}

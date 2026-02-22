@@ -1,0 +1,111 @@
+{
+  "table_name": "Filtered_EBpp_AdjustPANCAN_IlluminaHiSeq_RNASeqV2_genExp",
+  "table_fullname": "isb-cgc-bq.pancancer_atlas.Filtered_EBpp_AdjustPANCAN_IlluminaHiSeq_RNASeqV2_genExp",
+  "column_names": [
+    "Mã vạch người tham gia",
+    "Mã vạch mẫu",
+    "Mã vạch Aliquot",
+    "Mã ký tự loại mẫu",
+    "Loại mẫu",
+    "Nghiên cứu",
+    "Ký hiệu",
+    "Nhập",
+    "số lượng chuẩn hóa"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64"
+  ],
+  "nested_column_names": [
+    "Mã vạch thành viên",
+    "Mã vạch mẫu",
+    "Mã vạch mẫu",
+    "Mã chữ loại mẫu",
+    "Loại mẫu",
+    "Nghiên cứu",
+    "Biểu tượng",
+    "Nhập",
+    "số lượng đã chuẩn hoá"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64"
+  ],
+  "description": [
+    "Định danh mã vạch TCGA cho người tham gia nghiên cứu, ví dụ TCGA-02-0001",
+    "Mã vạch của mẫu sinh học, ví dụ: TCGA-13-1489-02A",
+    "Mã vạch mẫu TCGA, ví dụ: TCGA-12-1089-01A-01D-0517-28",
+    "Mã chữ cái của loại mẫu sử dụng tiêu chuẩn TCGA, ví dụ TPN, EBV. Danh sách đầy đủ có sẵn tại https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/sample-type-codes",
+    "Có 10 loại mẫu:\n- Mẫu bình thường có nguồn gốc từ máu  \n- Khối u rắn nguyên phát  \n- Mẫu mô rắn bình thường  \n- Khối u rắn tái phát  \n- Khối u di căn  \n- Thêm – Khối u mới  \n- U nguồn gốc từ máu nguyên phát – Máu ngoại vi  \n- Mẫu tế bào miệng bình thường  \n- Mẫu di căn bổ sung  \n- Mẫu tủy xương bình thường",
+    "Viết tắt của nghiên cứu TCGA, ví dụ LAML. Danh sách đầy đủ có sẵn tại https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/tcga-study-abbreviations",
+    "ví dụ TP53, LRP1B, v.v (cùng như trường Hugo_Symbol nhưng trống thay vì Unknown)",
+    "ID Entrez từ NCBI, ví dụ 730971",
+    "Biểu hiện gen chuẩn hóa"
+  ],
+  "sample_rows": [
+    {
+      "Mã vạch thành viên": "TCGA-06-0675",
+      "Mã vạch mẫu": "TCGA-06-0675-11A-32R-A36H-07",
+      "Mã chữ loại mẫu": "NT",
+      "Loại mẫu": "Solid Tissue Normal",
+      "Nghiên cứu": "GBM",
+      "Biểu tượng": "SNORA3",
+      "Nhập": "619562",
+      "số lượng đã chuẩn hoá": 0.0
+    },
+    {
+      "Mã vạch thành viên": "TCGA-06-0675",
+      "Mã vạch mẫu": "TCGA-06-0675-11A-32R-A36H-07",
+      "Mã chữ loại mẫu": "NT",
+      "Loại mẫu": "Solid Tissue Normal",
+      "Nghiên cứu": "GBM",
+      "Biểu tượng": "SH3TC1",
+      "Nhập": "54436",
+      "số lượng đã chuẩn hoá": 270.806
+    },
+    {
+      "Mã vạch thành viên": "TCGA-06-0675",
+      "Mã vạch mẫu": "TCGA-06-0675-11A-32R-A36H-07",
+      "Mã chữ loại mẫu": "NT",
+      "Loại mẫu": "Solid Tissue Normal",
+      "Nghiên cứu": "GBM",
+      "Biểu tượng": "F2RL1",
+      "Nhập": "2150",
+      "số lượng đã chuẩn hoá": 52.6318
+    },
+    {
+      "Mã vạch thành viên": "TCGA-06-0675",
+      "Mã vạch mẫu": "TCGA-06-0675-11A-32R-A36H-07",
+      "Mã chữ loại mẫu": "NT",
+      "Loại mẫu": "Solid Tissue Normal",
+      "Nghiên cứu": "GBM",
+      "Biểu tượng": "FGF1",
+      "Nhập": "2246",
+      "số lượng đã chuẩn hoá": 1356.73
+    },
+    {
+      "Mã vạch thành viên": "TCGA-06-0675",
+      "Mã vạch mẫu": "TCGA-06-0675-11A-32R-A36H-07",
+      "Mã chữ loại mẫu": "NT",
+      "Loại mẫu": "Solid Tissue Normal",
+      "Nghiên cứu": "GBM",
+      "Biểu tượng": "LOC728410",
+      "Nhập": "728410",
+      "số lượng đã chuẩn hoá": 0.0
+    }
+  ]
+}

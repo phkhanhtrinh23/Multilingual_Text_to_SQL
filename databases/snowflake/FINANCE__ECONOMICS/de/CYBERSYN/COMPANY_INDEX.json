@@ -1,0 +1,110 @@
+{
+  "sample_rows": [
+    {
+      "UNTERNEHMENS_ID": "9cee45c58a4fdb6bb265552a0db62a00",
+      "UNTERNEHMENSNAME": "VENDERA RESOURCES VI-A LP",
+      "ENTITÄTENEbene": "Corporate",
+      "EIN": null,
+      "CIK": "0002011467",
+      "LEI": null,
+      "PERMID_UNTERNEHMENS_ID": "5087020389",
+      "PRIMÄR_TICKER": null,
+      "PRIMÄRER_BÖRSEN_CODE": null,
+      "PRIMÄRER_BÖRSENNAME": null,
+      "GLOBALE_TICKER": null
+    },
+    {
+      "UNTERNEHMENS_ID": "7766ef904f8648e8b8ac520b7267d5b5",
+      "UNTERNEHMENSNAME": "RT-AI I LLC",
+      "ENTITÄTENEbene": "Corporate",
+      "EIN": null,
+      "CIK": "0002018929",
+      "LEI": null,
+      "PERMID_UNTERNEHMENS_ID": "5087193531",
+      "PRIMÄR_TICKER": null,
+      "PRIMÄRER_BÖRSEN_CODE": null,
+      "PRIMÄRER_BÖRSENNAME": null,
+      "GLOBALE_TICKER": null
+    },
+    {
+      "UNTERNEHMENS_ID": "bfd8994995275e9917290bc423536fd6",
+      "UNTERNEHMENSNAME": "PANTHEON GLOBAL SECONDARY FUND III B L P",
+      "ENTITÄTENEbene": "Corporate",
+      "EIN": null,
+      "CIK": "0001371639",
+      "LEI": null,
+      "PERMID_UNTERNEHMENS_ID": "4297623383",
+      "PRIMÄR_TICKER": null,
+      "PRIMÄRER_BÖRSEN_CODE": null,
+      "PRIMÄRER_BÖRSENNAME": null,
+      "GLOBALE_TICKER": null
+    },
+    {
+      "UNTERNEHMENS_ID": "878d19cbba19e94e8645afbabd4a14c2",
+      "UNTERNEHMENSNAME": "SCI NEW CAP WEST",
+      "ENTITÄTENEbene": "Corporate",
+      "EIN": null,
+      "CIK": null,
+      "LEI": null,
+      "PERMID_UNTERNEHMENS_ID": "5057843478",
+      "PRIMÄR_TICKER": null,
+      "PRIMÄRER_BÖRSEN_CODE": null,
+      "PRIMÄRER_BÖRSENNAME": null,
+      "GLOBALE_TICKER": null
+    },
+    {
+      "UNTERNEHMENS_ID": "fcff55343666f5399f3e288f4c38c46b",
+      "UNTERNEHMENSNAME": "MADCAP MOTEL LOS ANGELES LLC",
+      "ENTITÄTENEbene": "Corporate",
+      "EIN": null,
+      "CIK": "0001766936",
+      "LEI": null,
+      "PERMID_UNTERNEHMENS_ID": "5067944874",
+      "PRIMÄR_TICKER": null,
+      "PRIMÄRER_BÖRSEN_CODE": null,
+      "PRIMÄRER_BÖRSENNAME": null,
+      "GLOBALE_TICKER": null
+    }
+  ],
+  "table_name": "COMPANY_INDEX",
+  "table_fullname": "FINANCE__ECONOMICS.CYBERSYN.COMPANY_INDEX",
+  "column_names": [
+    "PRIMÄRER_BÖRSENNAME",
+    "PRIMÄR_TICKER",
+    "ENTITÄTENEbene",
+    "PERMID_UNTERNEHMENS_ID",
+    "LEI",
+    "UNTERNEHMENS_ID",
+    "EIN",
+    "PRIMÄRER_BÖRSEN_CODE",
+    "GLOBALE_TICKER",
+    "UNTERNEHMENSNAME",
+    "CIK"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "ARRAY",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "ARRAY",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Der Börsenname für die primäre Handelsplattform einer Sicherheit.",
+    "Der Ticker für die primäre Handelsplattform einer Sicherheit. Wenn eine Sicherheit an mehreren Börsen gehandelt wird oder mehrere Ticker hat, wird versucht, den Ticker aus dem Heimatmarkt auszuwählen.",
+    "Beschreibt den Typ oder das Level der Entität für zusätzliche Bequemlichkeit. Derzeit sind alle Entitäten Unternehmensentitäten und werden als 'Corporate' bezeichnet.",
+    "Permanenter Identifier, der ein Identifier ist, der von Refinitiv (via PermID) bereitgestellt wird, um eine Möglichkeit zu bieten, ein Unternehmen eindeutig zu identifizieren.",
+    "Legal Entity Identifier, ein eindeutiger Identifier von GLEIF, der rechtliche Entitäten identifiziert, die an Finanztransaktionen teilnehmen.",
+    "Eindeutiger Identifier, der von Cybersyn jedem Unternehmen zugewiesen wird.",
+    "Employer Identification Number, eine eindeutige Identifikationsnummer, die einem Unternehmen von der IRS zugewiesen wird.",
+    "Der Börsencode für die primäre Handelsplattform einer Sicherheit.",
+    "Ein Array von Tickersymbole, unter denen die Sicherheit global auf allen Börsen gehandelt werden kann.",
+    "Der Name des Unternehmens.",
+    "Central Index Key, ein eindeutiger Identifier für Unternehmen, die bei der United States Securities and Exchange Commission (SEC) registriert sind."
+  ]
+}

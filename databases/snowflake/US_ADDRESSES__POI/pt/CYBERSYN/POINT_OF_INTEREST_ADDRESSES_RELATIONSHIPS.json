@@ -1,0 +1,62 @@
+{
+  "sample_rows": [
+    {
+      "ID_PONTO_DE_INTERESSE": "08f269606d84474b0383b1e7e8c016f0",
+      "ID_ENDERECO": "addressId/98b58eaa8ec6d4166d2e181b221bdc78",
+      "TIPO_DE_RELACIONAMENTO": "Overlaps",
+      "DATA_DE_INICIO_DO_RELACIONAMENTO": null,
+      "DATA_DE_FIM_DO_RELACIONAMENTO": null
+    },
+    {
+      "ID_PONTO_DE_INTERESSE": "08f268cda876e7840399de7cbe47424a",
+      "ID_ENDERECO": "addressId/b68bf965318c97738ef54e952fdb7d3e",
+      "TIPO_DE_RELACIONAMENTO": "Overlaps",
+      "DATA_DE_INICIO_DO_RELACIONAMENTO": null,
+      "DATA_DE_FIM_DO_RELACIONAMENTO": null
+    },
+    {
+      "ID_PONTO_DE_INTERESSE": "08f283409da358d9038afebdd8a48370",
+      "ID_ENDERECO": "addressId/cfe743ff143eb73171361acd2c67b640",
+      "TIPO_DE_RELACIONAMENTO": "Overlaps",
+      "DATA_DE_INICIO_DO_RELACIONAMENTO": null,
+      "DATA_DE_FIM_DO_RELACIONAMENTO": null
+    },
+    {
+      "ID_PONTO_DE_INTERESSE": "08f44ac08654024c03d93bb8f3f122fd",
+      "ID_ENDERECO": "addressId/f7b067ec19a8c4e0d252a3534be6c2cd",
+      "TIPO_DE_RELACIONAMENTO": "Overlaps",
+      "DATA_DE_INICIO_DO_RELACIONAMENTO": null,
+      "DATA_DE_FIM_DO_RELACIONAMENTO": null
+    },
+    {
+      "ID_PONTO_DE_INTERESSE": "08f4413390635c1903c4104e6338a78f",
+      "ID_ENDERECO": "addressId/24274acb391d5356cf97a99ee9da08bb",
+      "TIPO_DE_RELACIONAMENTO": "Overlaps",
+      "DATA_DE_INICIO_DO_RELACIONAMENTO": null,
+      "DATA_DE_FIM_DO_RELACIONAMENTO": null
+    }
+  ],
+  "table_name": "POINT_OF_INTEREST_ADDRESSES_RELATIONSHIPS",
+  "table_fullname": "US_ADDRESSES__POI.CYBERSYN.POINT_OF_INTEREST_ADDRESSES_RELATIONSHIPS",
+  "column_names": [
+    "ID_PONTO_DE_INTERESSE",
+    "TIPO_DE_RELACIONAMENTO",
+    "DATA_DE_INICIO_DO_RELACIONAMENTO",
+    "DATA_DE_FIM_DO_RELACIONAMENTO",
+    "ID_ENDERECO"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "DATE",
+    "DATE",
+    "TEXT"
+  ],
+  "description": [
+    "Um identificador único para um ponto de interesse (como um parque, uma filial de uma cadeia de fast food, um hotel, etc.) com base em sua descrição e localização. Ele pode ser unido à tabela point_of_interest_index.",
+    "Relação entre os dois lugares. Usamos 'Overlaps' para indicar que o POI_ID é uma subparte do ADDRESS_ID (por exemplo, relação de um apartamento com um prédio de apartamentos, pois pode haver vários pontos de interesse no mesmo endereço, especialmente se os dados estiverem faltando informações de unidade precisas).",
+    "A data a partir da qual uma relação determinada é válida. Por exemplo, se o NAME de um local em um determinado POI_ID mudou em 2023-04-01, então a relationship_start_date de 2023-04-01 é atribuída. No entanto, atualmente, todos os valores nessa coluna são NULL, pois ela só contém características mais recentes sem alterações históricas.",
+    "A data a partir da qual uma relação determinada é válida. Por exemplo, se o NAME de um local em um determinado POI_ID mudou em 2023-04-01, então a relationship_end_date de 2023-03-31 é atribuída ao NAME para esse POI_ID. No entanto, atualmente, todos os valores nessa coluna são NULL, pois ela só contém características mais recentes sem alterações históricas.",
+    "Um identificador único para um endereço com base no endereço de rua que pode ser unido à tabela us_addresses."
+  ]
+}

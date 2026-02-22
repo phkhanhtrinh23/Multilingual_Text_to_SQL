@@ -1,0 +1,126 @@
+{
+  "table_name": "schema_r4",
+  "table_fullname": "isb-cgc-bq.HTAN_versioned.schema_r4",
+  "column_names": [
+    "Atributo",
+    "Descrição",
+    "Valores_Válidos",
+    "Dependente_De",
+    "Propriedades",
+    "Obrigatório",
+    "Pai",
+    "Dependente_Do_Componente",
+    "Fonte",
+    "Regras_De_Validação"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "Atributo",
+    "Descrição",
+    "Valores_Válidos",
+    "Dependente_De",
+    "Propriedades",
+    "Obrigatório",
+    "Pai",
+    "Dependente_Do_Componente",
+    "Fonte",
+    "Regras_De_Validação"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "Característica chave X do ensaio, protocolo relacionado ou dados downstream que desejamos registrar como recurso de metadados.",
+    "Forneça uma definição ou uma referência que contenha a definição do atributo X. Preferencialmente, forneça um link de ontologia de fonte ou código, além da definição. Deixe em branco se a descrição final estiver pendente.",
+    "O intervalo do atributo X: os valores que podem ser atribuídos ao atributo X; esses valores podem incluir/ser outros atributos (i.e., listados nas colunas 'Atributo') em si. Separados por vírgula. Se nenhum forneceu, qualquer valor não nulo é válido para o atributo X.",
+    "Características importantes, se houver, do atributo X que precisam ser registradas como recursos de metadados, dado que o atributo X é especificado. Essas características podem ser atributos ou propriedades de atributos (i.e., listados na coluna 'Atributo' e/ou na coluna 'Propriedades'). Separados por vírgula.",
+    "Propriedades específicas de um atributo particular; observe que as propriedades podem ser atributos em si (i.e., listados na coluna 'Atributos').",
+    "Indique se especificar um valor para o atributo X é obrigatório ou opcional por padrão. Definido como TRUE ou FALSE. Se TRUE, um contribuidor de dados deve fornecer um valor para o atributo X (por exemplo, um dos valores válidos em 'Valores Válidos', se algum for especificado). Se FALSE, um contribuidor de dados pode selecionar entre 'Não Aplicável' ou 'Não Especificado' como um valor para o atributo X. Observe que um atributo pode não ser necessário por padrão (i.e., 'Obrigatório' é definido como FALSE), mas pode ser necessário por virtude de ser um atributo de outro atributo necessário (por exemplo, veja ERCC).",
+    "Classe pai deste atributo - i.e., onde 'conectar' este atributo em um esquema existente. Observe que isso assume um único esquema existente/um único contexto de esquema json-ld; se precisarmos suportar classes/atributos/propriedades definidas em vários esquemas/contextos json-ld, precisaríamos adicionar uma coluna de esquema/contexto que especifique o contexto de cada atributo, se diferente do contexto do atributo pai.",
+    "Cada componente é uma classe de ontologia de alto nível na qual as entidades/objetos são categorizados/componentizados; um componente é uma entidade por si só que precisa ser definida no esquema",
+    "A fonte para a descrição do termo, geralmente um URI. Ontologias podem ser usadas como fontes. Por exemplo, o Método de Construção da Biblioteca tem fonte: http://purl.obolibrary.org/obo/OBI_0000711",
+    "Que tipo de dados é permitido na coluna Valores Válidos. Relevantes apenas se os Valores Válidos não estiverem presentes na linha. Por exemplo, string, lista, inteiro"
+  ],
+  "sample_rows": [
+    {
+      "Atributo": "Library Construction Method",
+      "Descrição": "Process which results in the creation of a library from fragments of DNA using cloning vectors or oligonucleotides with the role of adaptors [OBI_0000711]",
+      "Valores_Válidos": "Smart-seq2, Smart-SeqV4, 10xV1.0, 10xV1.1, 10xV2, 10xV3,10xV3.1, CEL-seq2, Drop-seq, inDropsV2, inDropsV3, TruDrop, sci-ATAC-seq",
+      "Dependente_De": null,
+      "Propriedades": null,
+      "Obrigatório": "TRUE",
+      "Pai": "Sequencing",
+      "Dependente_Do_Componente": null,
+      "Fonte": "http://purl.obolibrary.org/obo/OBI_0000711",
+      "Regras_De_Validação": null
+    },
+    {
+      "Atributo": "Reverse Transcription Primer",
+      "Descrição": "An oligo to which new deoxyribonucleotides can be added by DNA polymerase [SO_0000112]. The type of primer used for reverse transcription, e.g. oligo-dT or random primer. This allows users to identify content of the cDNA library input e.g. enriched for mRNA",
+      "Valores_Válidos": "Oligo-dT, Poly-dT, Feature barcoding, Random",
+      "Dependente_De": null,
+      "Propriedades": null,
+      "Obrigatório": "TRUE",
+      "Pai": "scRNA-seq Level 1",
+      "Dependente_Do_Componente": null,
+      "Fonte": "http://www.sequenceontology.org/so_wiki/index.php/Category:SO:0000112_!_primer",
+      "Regras_De_Validação": null
+    },
+    {
+      "Atributo": "Alignment Workflow Type",
+      "Descrição": "Generic name for the workflow used to analyze a data set.",
+      "Valores_Válidos": "BWA, BWA with BQSR, BWA-aln, BWA-mem, BWA with Mark Duplicates and BQSR, STAR 2-Pass, STAR 2-Pass Chimeric, STAR 2-Pass Genome, STAR 2-Pass Transcriptome, Bowtie, Bismark, GSNAP, BSMAP, BSmooth, BS-Seeker2, BS-Seeker, RMAP, MethylCoder, BRAT-BW, Pash, Segemehl, Bisulfighter, BatMeth, LAST, ERNE-BS5, B-SOLANA, SOCS-B, BWA-meth, Other Alignment Workflow, None",
+      "Dependente_De": null,
+      "Propriedades": null,
+      "Obrigatório": "TRUE",
+      "Pai": "Sequencing",
+      "Dependente_Do_Componente": null,
+      "Fonte": "https://docs.gdc.cancer.gov/Data_Dictionary/viewer/#?view=table-definition-view&id=alignment_workflow",
+      "Regras_De_Validação": null
+    },
+    {
+      "Atributo": "Data Category",
+      "Descrição": "Specific content type of the data file.",
+      "Valores_Válidos": "Gene Expression, Transcript Expression, Exon Expression Quantification, Gene Expression Quantification, Isoform Expression Quantification, Splice Junction Quantification, Other",
+      "Dependente_De": null,
+      "Propriedades": null,
+      "Obrigatório": "TRUE",
+      "Pai": "Sequencing",
+      "Dependente_Do_Componente": null,
+      "Fonte": "https://docs.gdc.cancer.gov/Data_Dictionary/viewer/#?view=table-definition-view&id=gene_expression",
+      "Regras_De_Validação": null
+    },
+    {
+      "Atributo": "Analyte Type",
+      "Descrição": "The kind of molecular specimen analyte: a molecular derivative (I.e. RNA / DNA / Protein Lysate) obtained from a specimen",
+      "Valores_Válidos": "cfDNA Analyte, DNA Analyte, RNA Analyte, Total RNA Analyte, Tissue Block Analyte, Tissue Section Analyte, PBMCs or Plasma or Serum Analyte, cDNA Libraries Analyte, PBMCs, Plasma, Serum Analyte, protein, metabolite, lipid",
+      "Dependente_De": null,
+      "Propriedades": null,
+      "Obrigatório": "TRUE",
+      "Pai": "Biospecimen",
+      "Dependente_Do_Componente": null,
+      "Fonte": "https://cadsr.cancer.gov/onedata/dmdirect/NIH/NCI/CO/CDEDD?filter=CDEDD.ITEM_ID=2513915&version=2.0",
+      "Regras_De_Validação": null
+    }
+  ]
+}

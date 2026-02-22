@@ -1,0 +1,66 @@
+{
+  "table_name": "bikeshare_status",
+  "table_fullname": "bigquery-public-data.san_francisco.bikeshare_status",
+  "column_names": [
+    "Stationskennung",
+    "Verfügbare Fahrräder",
+    "Verfügbare Stellplätze",
+    "Zeitstempel"
+  ],
+  "column_types": [
+    "INT64",
+    "INT64",
+    "INT64",
+    "TIMESTAMP"
+  ],
+  "nested_column_names": [
+    "Stations-ID",
+    "Fahrradverfügbarkeit",
+    "Abstellplatzverfügbarkeit",
+    "time"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "INT64",
+    "INT64",
+    "TIMESTAMP"
+  ],
+  "description": [
+    "Stations-ID-Nummer",
+    "Anzahl der verfügbaren Fahrräder",
+    "Anzahl der verfügbaren Fahrradständer",
+    "Datum und Uhrzeit, PST"
+  ],
+  "sample_rows": [
+    {
+      "Stations-ID": 2,
+      "Fahrradverfügbarkeit": 0,
+      "Abstellplatzverfügbarkeit": 26,
+      "time": "2014-09-10 09:25:02+00:00"
+    },
+    {
+      "Stations-ID": 2,
+      "Fahrradverfügbarkeit": 0,
+      "Abstellplatzverfügbarkeit": 26,
+      "time": "2015-09-12 02:07:02+00:00"
+    },
+    {
+      "Stations-ID": 2,
+      "Fahrradverfügbarkeit": 0,
+      "Abstellplatzverfügbarkeit": 26,
+      "time": "2015-09-11 11:05:02+00:00"
+    },
+    {
+      "Stations-ID": 2,
+      "Fahrradverfügbarkeit": 0,
+      "Abstellplatzverfügbarkeit": 27,
+      "time": "2016-08-30 15:13:47+00:00"
+    },
+    {
+      "Stations-ID": 2,
+      "Fahrradverfügbarkeit": 0,
+      "Abstellplatzverfügbarkeit": 27,
+      "time": "2015-09-24 13:31:02+00:00"
+    }
+  ]
+}

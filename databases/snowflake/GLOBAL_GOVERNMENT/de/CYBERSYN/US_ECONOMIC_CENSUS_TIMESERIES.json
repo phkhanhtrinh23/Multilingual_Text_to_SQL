@@ -1,0 +1,70 @@
+{
+  "sample_rows": [
+    {
+      "Geo_ID": "geoId/C37740",
+      "Variable": "ECTGE100_5324_2017_00_00",
+      "Variablenname": "Establishments with 100 employees or more | Commercial and industrial machinery and equipment rental and leasing (NAICS 2017 code: 5324) | Type of Operation: All establishments | Tax Status: All establishments",
+      "Datum": "2017-12-31",
+      "Wert": 0.0,
+      "Einheit": "Count"
+    },
+    {
+      "Geo_ID": "geoId/4170200",
+      "Variable": "ESTAB_S_5312_2017_00_00",
+      "Variablenname": "Relative standard error of estimate of count of establishments | Offices of real estate agents and brokers (NAICS 2017 code: 5312) | Type of Operation: All establishments | Tax Status: All establishments",
+      "Datum": "2017-12-31",
+      "Wert": 0.0,
+      "Einheit": "Percent"
+    },
+    {
+      "Geo_ID": "geoId/1236550",
+      "Variable": "CSTCNT_722513_2012",
+      "Variablenname": "Cost of contract work | Limited-service restaurants (NAICS 2012 code: 722513)",
+      "Datum": "2012-12-31",
+      "Wert": 0.0,
+      "Einheit": "USD"
+    },
+    {
+      "Geo_ID": "geoId/1711007",
+      "Variable": "EMP_81_2017_00_Y",
+      "Variablenname": "Count of employees | Other services (except public administration) (NAICS 2017 code: 81) | Type of Operation: All establishments | Tax Status: Establishments exempt from federal income tax",
+      "Datum": "2017-12-31",
+      "Wert": 24.0,
+      "Einheit": "Count"
+    },
+    {
+      "Geo_ID": "geoId/3479040",
+      "Variable": "MSCRSLTT_722310_2012",
+      "Variablenname": "Value of resales | Food service contractors (NAICS 2012 code: 722310)",
+      "Datum": "2012-12-31",
+      "Wert": 0.0,
+      "Einheit": "USD"
+    }
+  ],
+  "table_name": "US_ECONOMIC_CENSUS_TIMESERIES",
+  "table_fullname": "GLOBAL_GOVERNMENT.CYBERSYN.US_ECONOMIC_CENSUS_TIMESERIES",
+  "column_names": [
+    "Einheit",
+    "Datum",
+    "Variable",
+    "Wert",
+    "Variablenname",
+    "Geo_ID"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "FLOAT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Einheit der Messung für den gemeldeten Wert.",
+    "Datum, das mit dem Wert verknüpft ist.",
+    "Eindeutiger Identifikator für eine Variable, verknüpfbar mit der `timeseries`-Tabelle.",
+    "Gemeldeter Wert für die Variable.",
+    "Menschlich lesbarer eindeutiger Name für die Variable.",
+    "Eindeutiger Identifikator für einen Ort, verknüpfbar mit anderen Geographie-Tabellen, einschließlich `GEOGRAPHY_INDEX`, `GEOGRAPHY_RELATIONSHIPS` und `GEOGRAPHY_CHARACTERISTICS`."
+  ]
+}

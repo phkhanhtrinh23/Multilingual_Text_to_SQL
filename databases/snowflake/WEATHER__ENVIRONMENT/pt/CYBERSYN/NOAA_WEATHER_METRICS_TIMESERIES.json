@@ -1,0 +1,78 @@
+{
+  "sample_rows": [
+    {
+      "NOAA_WEATHER_STATION_ID": "US1ALSH0043",
+      "VARIÁVEL": "precipitation",
+      "NOME_DA_VARIÁVEL": "Precipitation",
+      "DATA": "2012-09-10",
+      "DATETIME": "2012-09-10 00:00:00",
+      "VALOR": "0.000000",
+      "UNIDADE": "Millimeters"
+    },
+    {
+      "NOAA_WEATHER_STATION_ID": "USW00094994",
+      "VARIÁVEL": "precipitation",
+      "NOME_DA_VARIÁVEL": "Precipitation",
+      "DATA": "2023-04-03",
+      "DATETIME": "2023-04-03 00:00:00",
+      "VALOR": "0.800000",
+      "UNIDADE": "Millimeters"
+    },
+    {
+      "NOAA_WEATHER_STATION_ID": "USS0011C01S",
+      "VARIÁVEL": "minimum_temperature",
+      "NOME_DA_VARIÁVEL": "Minimum Temperature",
+      "DATA": "2008-11-28",
+      "DATETIME": "2008-11-28 00:00:00",
+      "VALOR": "-5.100000",
+      "UNIDADE": "Degrees Celsius"
+    },
+    {
+      "NOAA_WEATHER_STATION_ID": "RSM00028275",
+      "VARIÁVEL": "snow_depth",
+      "NOME_DA_VARIÁVEL": "Snow Depth",
+      "DATA": "2004-03-25",
+      "DATETIME": "2004-03-25 00:00:00",
+      "VALOR": "351.000000",
+      "UNIDADE": "Millimeters"
+    },
+    {
+      "NOAA_WEATHER_STATION_ID": "USW00093720",
+      "VARIÁVEL": "direction_of_fastest_2_minute_wind",
+      "NOME_DA_VARIÁVEL": "Direction of Fastest 2-Minute Wind",
+      "DATA": "2011-04-20",
+      "DATETIME": "2011-04-20 00:00:00",
+      "VALOR": "210.000000",
+      "UNIDADE": "Degrees"
+    }
+  ],
+  "table_name": "NOAA_WEATHER_METRICS_TIMESERIES",
+  "table_fullname": "WEATHER__ENVIRONMENT.CYBERSYN.NOAA_WEATHER_METRICS_TIMESERIES",
+  "column_names": [
+    "VARIÁVEL",
+    "VALOR",
+    "NOAA_WEATHER_STATION_ID",
+    "DATA",
+    "DATETIME",
+    "UNIDADE",
+    "NOME_DA_VARIÁVEL"
+  ],
+  "column_types": [
+    "TEXT",
+    "NUMBER",
+    "TEXT",
+    "DATE",
+    "TIMESTAMP_NTZ",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Um identificador único para uma variável associável à tabela de séries temporais.",
+    "Valor relatado para a variável",
+    "Identificador único para estações meteorológicas de superfície terrestre na Rede Diária de Climatologia Histórica Global (GHCNd), composto pelo código de país FIPS (primeiros 2 caracteres), um código de rede (terceiro caractere) e o ID real da estação (os 8 caracteres restantes).",
+    "Data associada ao valor",
+    "Data e hora associadas ao valor",
+    "Unidade de medida para o valor relatado.",
+    "Nome legível por humanos para a variável."
+  ]
+}

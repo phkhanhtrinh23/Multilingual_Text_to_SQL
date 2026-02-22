@@ -1,0 +1,86 @@
+{
+  "table_name": "CLINICAL_DIAGNOSIS_TREATMENT_GDC_R38",
+  "table_fullname": "TCGA.TCGA_VERSIONED.CLINICAL_DIAGNOSIS_TREATMENT_GDC_R38",
+  "column_names": [
+    "Loại điều trị",
+    "Chẩn đoán__Điều trị__Ngày giờ tạo",
+    "mã_điều_cư",
+    "chẩn đoán__điều trị__trạng thái",
+    "Chẩn đoán, điều trị hoặc liệu pháp",
+    "diag__điều_trị__điều_trị_id",
+    "định_danh_chẩn_đoán",
+    "thời gian cập nhật chẩn đoán và điều trị"
+  ],
+  "column_types": [
+    "TEXT",
+    "NUMBER",
+    "TEXT",
+    "TEXT",
+    "BOOLEAN",
+    "TEXT",
+    "TEXT",
+    "NUMBER"
+  ],
+  "description": [
+    "Thuật ngữ văn bản mô tả loại điều trị được áp dụng.",
+    "Một tổ hợp ngày và giờ trong dạng [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm]",
+    "ID duy nhất GDC cho trường hợp này (đối ứng với case_barcode) – có thể dùng để truy cập thêm thông tin từ cổng dữ liệu GDC theo cách sau: https://portal.gdc.cancer.gov/files/c21b332c-06c6-4403-9032-f91c8f407ba9.",
+    "Tình trạng hiện tại của đối tượng.",
+    "Một chỉ số có/không/không rõ/không áp dụng liên quan đến việc quản trị các chất điều trị đã nhận.",
+    "Mã số được GDC gán cho dữ liệu điều trị của một trường hợp.",
+    "GDC đã phân công mã định danh cho chẩn đoán của một trường hợp.",
+    "Kết hợp ngày và giờ trong ngày theo dạng [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm]"
+  ],
+  "sample_rows": [
+    {
+      "diag__điều_trị__điều_trị_id": "34674e20-dca3-5e9a-bc05-64d8a6ae7100",
+      "định_danh_chẩn_đoán": "cdddbff2-75cb-5952-bdf3-ae41cafd2c44",
+      "mã_điều_cư": "a436f4d7-018e-44e3-a615-9c33fcc1167d",
+      "Loại điều trị": "Pharmaceutical Therapy, NOS",
+      "Chẩn đoán, điều trị hoặc liệu pháp": null,
+      "chẩn đoán__điều trị__trạng thái": "released",
+      "Chẩn đoán__Điều trị__Ngày giờ tạo": 1556472623859466,
+      "thời gian cập nhật chẩn đoán và điều trị": 1564621315107572
+    },
+    {
+      "diag__điều_trị__điều_trị_id": "278be024-2282-5010-aead-5e055c2c87ab",
+      "định_danh_chẩn_đoán": "f8dcf514-12ed-54c3-8772-e7658d035f73",
+      "mã_điều_cư": "2429c7d4-ae27-432d-9adf-1c6d192bf13c",
+      "Loại điều trị": "Pharmaceutical Therapy, NOS",
+      "Chẩn đoán, điều trị hoặc liệu pháp": null,
+      "chẩn đoán__điều trị__trạng thái": "released",
+      "Chẩn đoán__Điều trị__Ngày giờ tạo": 1556481576123655,
+      "thời gian cập nhật chẩn đoán và điều trị": 1564632362128491
+    },
+    {
+      "diag__điều_trị__điều_trị_id": "176bd885-da62-5a69-9a24-84ecef78208d",
+      "định_danh_chẩn_đoán": "af05e776-f247-57d1-9b14-d72d89baebb7",
+      "mã_điều_cư": "90d3c240-5cb6-4601-a852-b5cdfbcd6483",
+      "Loại điều trị": "Pharmaceutical Therapy, NOS",
+      "Chẩn đoán, điều trị hoặc liệu pháp": null,
+      "chẩn đoán__điều trị__trạng thái": "released",
+      "Chẩn đoán__Điều trị__Ngày giờ tạo": 1556471852929904,
+      "thời gian cập nhật chẩn đoán và điều trị": 1564620362980289
+    },
+    {
+      "diag__điều_trị__điều_trị_id": "b7010115-d407-565b-ac50-98d021b54fa8",
+      "định_danh_chẩn_đoán": "0d93597e-1ede-5e03-bc31-4d6d1a215de8",
+      "mã_điều_cư": "b351345a-18c2-42ed-8911-c37267c9cb58",
+      "Loại điều trị": "Pharmaceutical Therapy, NOS",
+      "Chẩn đoán, điều trị hoặc liệu pháp": null,
+      "chẩn đoán__điều trị__trạng thái": "released",
+      "Chẩn đoán__Điều trị__Ngày giờ tạo": 1556472656868474,
+      "thời gian cập nhật chẩn đoán và điều trị": 1564621354529970
+    },
+    {
+      "diag__điều_trị__điều_trị_id": "a4f3f3b0-b7ef-5d47-97cb-22fc8dad1acd",
+      "định_danh_chẩn_đoán": "408ceead-4e49-5a86-b21f-3be85d5d0bfa",
+      "mã_điều_cư": "634c7876-21c1-43ea-aa2e-83e9f627409f",
+      "Loại điều trị": "Pharmaceutical Therapy, NOS",
+      "Chẩn đoán, điều trị hoặc liệu pháp": null,
+      "chẩn đoán__điều trị__trạng thái": "released",
+      "Chẩn đoán__Điều trị__Ngày giờ tạo": 1556465440273793,
+      "thời gian cập nhật chẩn đoán và điều trị": 1564612532079200
+    }
+  ]
+}

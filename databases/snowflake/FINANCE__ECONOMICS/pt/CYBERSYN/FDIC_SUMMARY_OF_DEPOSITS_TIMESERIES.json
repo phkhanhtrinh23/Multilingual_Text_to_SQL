@@ -1,0 +1,78 @@
+{
+  "sample_rows": [
+    {
+      "FDIC_INSTITUTION_ID": "2239",
+      "FDIC_BRANCH_ID": "286466",
+      "VARIÁVEL": "DEPSUMBR",
+      "NOME_DA_VARIÁVEL": "Branch Deposits",
+      "DATA": "2023-06-30",
+      "VALOR": 119632,
+      "UNIDADE": "USD"
+    },
+    {
+      "FDIC_INSTITUTION_ID": "6499",
+      "FDIC_BRANCH_ID": "6499",
+      "VARIÁVEL": "DEPSUMBR",
+      "NOME_DA_VARIÁVEL": "Branch Deposits",
+      "DATA": "2017-06-30",
+      "VALOR": 59230,
+      "UNIDADE": "USD"
+    },
+    {
+      "FDIC_INSTITUTION_ID": "417",
+      "FDIC_BRANCH_ID": "481396",
+      "VARIÁVEL": "DEPSUMBR",
+      "NOME_DA_VARIÁVEL": "Branch Deposits",
+      "DATA": "2014-06-30",
+      "VALOR": 35943,
+      "UNIDADE": "USD"
+    },
+    {
+      "FDIC_INSTITUTION_ID": "3123",
+      "FDIC_BRANCH_ID": "203999",
+      "VARIÁVEL": "DEPSUMBR",
+      "NOME_DA_VARIÁVEL": "Branch Deposits",
+      "DATA": "2016-06-30",
+      "VALOR": 85928,
+      "UNIDADE": "USD"
+    },
+    {
+      "FDIC_INSTITUTION_ID": "745",
+      "FDIC_BRANCH_ID": "745",
+      "VARIÁVEL": "ASSET",
+      "NOME_DA_VARIÁVEL": "Institutional Assets",
+      "DATA": "2007-06-30",
+      "VALOR": 133714,
+      "UNIDADE": "USD"
+    }
+  ],
+  "table_name": "FDIC_SUMMARY_OF_DEPOSITS_TIMESERIES",
+  "table_fullname": "FINANCE__ECONOMICS.CYBERSYN.FDIC_SUMMARY_OF_DEPOSITS_TIMESERIES",
+  "column_names": [
+    "VALOR",
+    "DATA",
+    "FDIC_INSTITUTION_ID",
+    "UNIDADE",
+    "VARIÁVEL",
+    "FDIC_BRANCH_ID",
+    "NOME_DA_VARIÁVEL"
+  ],
+  "column_types": [
+    "NUMBER",
+    "DATE",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Valor relatado para a variável.",
+    "Data associada ao valor.",
+    "ID FDIC único da instituição que possui a agência. É um número único, adicionado sequencialmente ao banco de dados do FDIC para bancos e agências. Este ID é atualizado a cada fusão ou compra de agências para refletir o proprietário mais atual.",
+    "Unidade em que a medida é registrada (por exemplo, USD YTD).",
+    "Identificador FDIC único para dados financeiros rastreados.",
+    "Número único do FDIC para o banco ou instituição de poupança atribuído pelo FDIC para identificar e rastrear. O ID da agência para a agência sede é o mesmo que o ID da agência para todo o banco ou instituição de poupança.",
+    "Descrição legível por humanos das variáveis de dados financeiros rastreadas pelo FDIC."
+  ]
+}

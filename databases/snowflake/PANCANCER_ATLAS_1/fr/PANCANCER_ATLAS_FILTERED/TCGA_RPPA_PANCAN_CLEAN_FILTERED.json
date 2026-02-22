@@ -1,0 +1,86 @@
+{
+  "table_name": "TCGA_RPPA_PANCAN_CLEAN_FILTERED",
+  "table_fullname": "PANCANCER_ATLAS_1.PANCANCER_ATLAS_FILTERED.TCGA_RPPA_PANCAN_CLEAN_FILTERED",
+  "column_names": [
+    "CodeLettreTypeEchantillon",
+    "CodeBarresEchantillon",
+    "CodeBarresAliquot",
+    "Etude",
+    "TypeEchantillon",
+    "CodeBarresParticipant",
+    "Valeur",
+    "Proteine"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "FLOAT",
+    "TEXT"
+  ],
+  "description": [
+    "Code lettre du type d'échantillon en utilisant les normes TCGA, par exemple TPN, EBV. Liste complète disponible à https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/sample-type-codes",
+    "Code à barres du biospecimen, par exemple TCGA-13-1489-02A",
+    "Code à barres de l'aliquote TCGA, par exemple TCGA-12-1089-01A-01D-0517-28",
+    "Abréviation d'étude TCGA, par exemple LAML. Liste complète disponible à https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/tcga-study-abbreviations",
+    "Il existe 10 types d'échantillons : Sang Normal Dérivé, Tumeur solide primaire, Tissu solide normal, Tumeur solide récurrente, Métastatique, Supplémentaire - Nouveau primaire, Cancer sanguin primaire dérivé du sang périphérique, Cellule buccale normale, Métastatique supplémentaire, Moelle osseuse normale",
+    "Identifiant de code à barres TCGA pour le participant à l'étude, par exemple TCGA-02-0001",
+    "Niveau d'expression de la protéine mesuré par des tableaux de protéines à phase inverse (RPPAs). Exemples : 0,204238725, -0,01826295",
+    "Symbole de protéine et statut de phosphorylation (le cas échéant), par exemple P53, JNK_pT183Y185"
+  ],
+  "sample_rows": [
+    {
+      "CodeBarresParticipant": "TCGA-04-1335",
+      "CodeBarresEchantillon": "TCGA-04-1335-01A",
+      "CodeBarresAliquot": "TCGA-04-1335-01A-21-20",
+      "CodeLettreTypeEchantillon": "TP",
+      "TypeEchantillon": "Primary solid Tumor",
+      "Etude": "OV",
+      "Proteine": "PDCD1",
+      "Valeur": null
+    },
+    {
+      "CodeBarresParticipant": "TCGA-04-1335",
+      "CodeBarresEchantillon": "TCGA-04-1335-01A",
+      "CodeBarresAliquot": "TCGA-04-1335-01A-21-20",
+      "CodeLettreTypeEchantillon": "TP",
+      "TypeEchantillon": "Primary solid Tumor",
+      "Etude": "OV",
+      "Proteine": "BCL2",
+      "Valeur": 0.077853
+    },
+    {
+      "CodeBarresParticipant": "TCGA-04-1335",
+      "CodeBarresEchantillon": "TCGA-04-1335-01A",
+      "CodeBarresAliquot": "TCGA-04-1335-01A-21-20",
+      "CodeLettreTypeEchantillon": "TP",
+      "TypeEchantillon": "Primary solid Tumor",
+      "Etude": "OV",
+      "Proteine": "EIF4E",
+      "Valeur": -0.91868
+    },
+    {
+      "CodeBarresParticipant": "TCGA-04-1335",
+      "CodeBarresEchantillon": "TCGA-04-1335-01A",
+      "CodeBarresAliquot": "TCGA-04-1335-01A-21-20",
+      "CodeLettreTypeEchantillon": "TP",
+      "TypeEchantillon": "Primary solid Tumor",
+      "Etude": "OV",
+      "Proteine": "SF2",
+      "Valeur": 0.018487
+    },
+    {
+      "CodeBarresParticipant": "TCGA-04-1335",
+      "CodeBarresEchantillon": "TCGA-04-1335-01A",
+      "CodeBarresAliquot": "TCGA-04-1335-01A-21-20",
+      "CodeLettreTypeEchantillon": "TP",
+      "TypeEchantillon": "Primary solid Tumor",
+      "Etude": "OV",
+      "Proteine": "MYOSINIIA_pS1943",
+      "Valeur": 0.44285
+    }
+  ]
+}

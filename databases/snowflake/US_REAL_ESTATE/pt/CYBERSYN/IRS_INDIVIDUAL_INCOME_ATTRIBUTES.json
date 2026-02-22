@@ -1,0 +1,70 @@
+{
+  "sample_rows": [
+    {
+      "VARIÁVEL": "Total_income_-_Number_of_returns,_AGI_bin:_$100,000_under_$200,000",
+      "NOME_VARIAVEL": "Total income - Number of returns, AGI bin: $100,000 under $200,000",
+      "FAIXA_DE_RENDA": "$100,000 under $200,000",
+      "UNIDADE": "Returns",
+      "AJUSTADO_SAZONALMENTE": false,
+      "FREQUENCIA": "Annual"
+    },
+    {
+      "VARIÁVEL": "Investment_interest_paid_-_Amount,_AGI_bin:_$200,000_or_more",
+      "NOME_VARIAVEL": "Investment interest paid - Amount, AGI bin: $200,000 or more",
+      "FAIXA_DE_RENDA": "$200,000 or more",
+      "UNIDADE": "USD",
+      "AJUSTADO_SAZONALMENTE": false,
+      "FREQUENCIA": "Annual"
+    },
+    {
+      "VARIÁVEL": "Personal_property_taxes_-_Number_of_returns,_AGI_bin:_$25,000_under_$50,000",
+      "NOME_VARIAVEL": "Personal property taxes - Number of returns, AGI bin: $25,000 under $50,000",
+      "FAIXA_DE_RENDA": "$25,000 under $50,000",
+      "UNIDADE": "Returns",
+      "AJUSTADO_SAZONALMENTE": false,
+      "FREQUENCIA": "Annual"
+    },
+    {
+      "VARIÁVEL": "Economic_impact_payment_second_round_[15,_17]_-_Amount,_AGI_bin:_$200,000_or_more",
+      "NOME_VARIAVEL": "Economic impact payment second round [15, 17] - Amount, AGI bin: $200,000 or more",
+      "FAIXA_DE_RENDA": "$200,000 or more",
+      "UNIDADE": "USD",
+      "AJUSTADO_SAZONALMENTE": false,
+      "FREQUENCIA": "Annual"
+    },
+    {
+      "VARIÁVEL": "Domestic_production_activities_deduction_-_Number_of_returns,_AGI_bin:_$75,000_under_$100,000",
+      "NOME_VARIAVEL": "Domestic production activities deduction - Number of returns, AGI bin: $75,000 under $100,000",
+      "FAIXA_DE_RENDA": "$75,000 under $100,000",
+      "UNIDADE": "Returns",
+      "AJUSTADO_SAZONALMENTE": false,
+      "FREQUENCIA": "Annual"
+    }
+  ],
+  "table_name": "IRS_INDIVIDUAL_INCOME_ATTRIBUTES",
+  "table_fullname": "US_REAL_ESTATE.CYBERSYN.IRS_INDIVIDUAL_INCOME_ATTRIBUTES",
+  "column_names": [
+    "NOME_VARIAVEL",
+    "AJUSTADO_SAZONALMENTE",
+    "FAIXA_DE_RENDA",
+    "UNIDADE",
+    "FREQUENCIA",
+    "VARIÁVEL"
+  ],
+  "column_types": [
+    "TEXT",
+    "BOOLEAN",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Nome legível por humanos para a variável",
+    "Indica se o valor é ajustado sazonalmente",
+    "A faixa de renda bruta ajustada dos indivíduos dentro da série",
+    "Unidade de medida para o valor (por exemplo, USD, retornos, indivíduos, dependentes)",
+    "Frequência da medição da variável",
+    "Identificador único para uma variável que pode ser unida à tabela de séries temporais"
+  ]
+}

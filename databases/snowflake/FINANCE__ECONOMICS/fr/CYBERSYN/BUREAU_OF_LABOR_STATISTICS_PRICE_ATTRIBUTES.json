@@ -1,0 +1,86 @@
+{
+  "sample_rows": [
+    {
+      "VARIABLE": "CPI:_Household_furnishings_and_operations,_Not_seasonally_adjusted,_Monthly,_2001-12_Index_Date",
+      "NOM_DE_VARIABLE": "CPI: Household furnishings and operations, Not seasonally adjusted, Monthly, 2001-12 Index Date",
+      "AJUSTE_SAISSONNIER": false,
+      "FREQUENCE": "Monthly",
+      "UNITE": "2001-12 Index Date",
+      "RAPPORT": "Consumer Price Index",
+      "PRODUIT": "Household furnishings and operations",
+      "TYPE_DE_BASE": "Standard Reference Base"
+    },
+    {
+      "VARIABLE": "CPI:_Men's_underwear,_nightwear,_swimwear_and_accessories,_Not_seasonally_adjusted,_Semi-annual",
+      "NOM_DE_VARIABLE": "CPI: Men's underwear, nightwear, swimwear and accessories, Not seasonally adjusted, Semi-annual",
+      "AJUSTE_SAISSONNIER": false,
+      "FREQUENCE": "Semi-annual",
+      "UNITE": "1982-84 Index Date",
+      "RAPPORT": "Consumer Price Index",
+      "PRODUIT": "Men's underwear, nightwear, swimwear and accessories",
+      "TYPE_DE_BASE": "Standard Reference Base"
+    },
+    {
+      "VARIABLE": "CPI:_Utility_(piped)_gas_service,_Not_seasonally_adjusted,_Annual,_2001-12_Index_Date",
+      "NOM_DE_VARIABLE": "CPI: Utility (piped) gas service, Not seasonally adjusted, Annual, 2001-12 Index Date",
+      "AJUSTE_SAISSONNIER": false,
+      "FREQUENCE": "Annual",
+      "UNITE": "2001-12 Index Date",
+      "RAPPORT": "Consumer Price Index",
+      "PRODUIT": "Utility (piped) gas service",
+      "TYPE_DE_BASE": "Standard Reference Base"
+    },
+    {
+      "VARIABLE": "CPI:_Recorded_music_and_music_subscriptions,_Not_seasonally_adjusted,_Annual,_1997-12_Index_Date",
+      "NOM_DE_VARIABLE": "CPI: Recorded music and music subscriptions, Not seasonally adjusted, Annual, 1997-12 Index Date",
+      "AJUSTE_SAISSONNIER": false,
+      "FREQUENCE": "Annual",
+      "UNITE": "1997-12 Index Date",
+      "RAPPORT": "Consumer Price Index",
+      "PRODUIT": "Recorded music and music subscriptions",
+      "TYPE_DE_BASE": "Standard Reference Base"
+    },
+    {
+      "VARIABLE": "CPI:_Dairy_and_related_products,_Not_seasonally_adjusted,_Annual,_1987_Index_Date",
+      "NOM_DE_VARIABLE": "CPI: Dairy and related products, Not seasonally adjusted, Annual, 1987 Index Date",
+      "AJUSTE_SAISSONNIER": false,
+      "FREQUENCE": "Annual",
+      "UNITE": "1987 Index Date",
+      "RAPPORT": "Consumer Price Index",
+      "PRODUIT": "Dairy and related products",
+      "TYPE_DE_BASE": "Standard Reference Base"
+    }
+  ],
+  "table_name": "BUREAU_OF_LABOR_STATISTICS_PRICE_ATTRIBUTES",
+  "table_fullname": "FINANCE__ECONOMICS.CYBERSYN.BUREAU_OF_LABOR_STATISTICS_PRICE_ATTRIBUTES",
+  "column_names": [
+    "AJUSTE_SAISSONNIER",
+    "PRODUIT",
+    "UNITE",
+    "FREQUENCE",
+    "TYPE_DE_BASE",
+    "NOM_DE_VARIABLE",
+    "RAPPORT",
+    "VARIABLE"
+  ],
+  "column_types": [
+    "BOOLEAN",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Variable booléenne indiquant si la valeur est ajustée en fonction de la saison",
+    "Produit consommation mesuré",
+    "Unité de mesure pour la valeur",
+    "Fréquence de la mesure de la variable",
+    "Type de base utilisé pour la mesure CPI, standard ou alternatif",
+    "Nom lisible par l'homme pour une variable",
+    "Ensemble de données BLS à partir duquel provient la série chronologique",
+    "Un identifiant unique pour une variable pouvant être jointe à la table timeseries"
+  ]
+}

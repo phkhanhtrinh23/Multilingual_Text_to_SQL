@@ -1,0 +1,46 @@
+{
+  "sample_rows": [
+    {
+      "Postleitzahl": "12220",
+      "MetrikID": "B25063_019E",
+      "VolkszahlwertNachPostleitzahl": "51.04"
+    },
+    {
+      "Postleitzahl": "14739",
+      "MetrikID": "B08303_011E",
+      "VolkszahlwertNachPostleitzahl": "47.06"
+    },
+    {
+      "Postleitzahl": "14702",
+      "MetrikID": "B25063_014E",
+      "VolkszahlwertNachPostleitzahl": "57.18"
+    },
+    {
+      "Postleitzahl": "13743",
+      "MetrikID": "B08301_017E",
+      "VolkszahlwertNachPostleitzahl": "32.99"
+    },
+    {
+      "Postleitzahl": "14219",
+      "MetrikID": "B08303_012E",
+      "VolkszahlwertNachPostleitzahl": "124.19"
+    }
+  ],
+  "table_name": "Fact_CensusValues_ACS2021_ByZip",
+  "table_fullname": "CENSUS_GALAXY__AIML_MODEL_DATA_ENRICHMENT_SAMPLE.PUBLIC.Fact_CensusValues_ACS2021_ByZip",
+  "column_names": [
+    "VolkszahlwertNachPostleitzahl",
+    "MetrikID",
+    "Postleitzahl"
+  ],
+  "column_types": [
+    "NUMBER",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Der Int-Wert für die Beziehung zwischen MetricID und ZipCode. Dies kann Aggregatwerte oder Schätzungen von Personen, Haustieren, Haushalten usw. sein. Verweisen Sie auf die Dim_CensusMetrics-Tabelle für die Bedeutung jedes Wertes. Alle Werte wurden gemäß den Verhältnissen in der Xref_TractToZip_Residential-Tabelle korrekt zusammengefasst.",
+    "Ein eindeutiger Identifikator für eine bestimmte Metrik oder Messung innerhalb der American Community Survey oder Volkszählungsdaten.",
+    "Ein eindeutiger Zip-Code für einen geografischen Bereich."
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "table_name": " nmimpair_2018",
+  "table_fullname": "bigquery-public-data.nhtsa_traffic_fatalities. nmimpair_2018",
+  "column_names": [
+    "số trạng thái",
+    "tên bang",
+    "số liên tiếp",
+    "số xe",
+    "số người",
+    "tình trạng rối loạn tại thời điểm tai nạn đối với người không lái xe",
+    "tên điều kiện làm giảm năng lực tại thời điểm tai nạn người không phải tài xế"
+  ],
+  "column_types": [
+    "INT64",
+    "STRING",
+    "INT64",
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "số_trạng_thái",
+    "tên bang",
+    "số liên tiếp",
+    "số xe",
+    "Số người",
+    "điều kiện mất cương lực lúc tai nạn người không lái xe",
+    "Tên người không lái xe bị suy giảm năng lực tại thời điểm tai nạn"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "STRING",
+    "INT64",
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING"
+  ],
+  "description": [
+    "Thành phần dữ liệu này xác định bang nơi xảy ra tai nạn. Các mã được lấy từ ấn phẩm của Văn phòng Dịch vụ Chung (GSA) về Mã Địa Điểm Địa Hình Toàn Cầu (GLC). Để biết thêm thông tin về các mã, vui lòng xem phần <C1/V1/D1/PC1/P1/NM1 State Number> trong tệp pdf: https://crashstats.nhtsa.dot.gov/Api/Public/ViewPublication/812315",
+    "Thành phần dữ liệu này xác định bang nơi xảy ra tai nạn. Các mã được lấy từ ấn phẩm của Cơ quan Dịch vụ Chung (GSA) về Mã Vị trí Địa lý Toàn cầu (GLC).",
+    "This data element is the unique case number assigned to each crash. It appears on each data file and is used to merge information from the data files together. xxxxxx Two Characters for State Code followed by Four Characters for Case Number\n\nMục dữ liệu này là số vụ duy nhất được gán cho mỗi tai nạn. Nó xuất hiện trong mỗi tập tin dữ liệu và được sử dụng để hợp nhất thông tin từ các tập tin dữ liệu với nhau. xxxxxx Hai ký tự cho Mã Bang theo sau bởi bốn ký tự cho Số Vụ.",
+    "Yếu tố dữ liệu này là số liên tiếp được gán cho mỗi phương tiện trong vụ việc. Yếu tố dữ liệu này xuất hiện trong mỗi tệp dữ liệu cấp phương tiện và được sử dụng cùng với yếu tố dữ liệu ST_CASE để hợp nhất thông tin từ các tệp dữ liệu cấp phương tiện. 000-999 Số được gán của phương tiện giao thông",
+    "Yếu tố dữ liệu này là số liên tiếp được gán cho mỗi người trong vụ việc (tức là mỗi hành khách, người đi bộ hoặc không lái xe tham gia vào vụ tai nạn). Yếu tố dữ liệu này xuất hiện trong từng tệp dữ liệu cấp cá nhân và được sử dụng kết hợp với yếu tố dữ liệu ST_CASE (và đôi khi với yếu tố dữ liệu VEH_NO) để hợp nhất thông tin từ các tệp dữ liệu cấp cá nhân. 001-999 Số người được gán",
+    "Phần tử dữ liệu này xác định các khuyết tật thể chất đối với người không lái xe có thể đã góp phần vào vụ tai nạn theo như xác định của cơ quan thực thi pháp luật. Để biết thêm thông tin về các mã, vui lòng xem mục <NM14 Điều kiện (Khuyết tật) tại thời điểm tai nạn – Người không lái xe> trong tài liệu PDF: https://crashstats.nhtsa.dot.gov/Api/Public/ViewPublication/812315",
+    "Điểm dữ liệu này xác định các khuyết tật thể chất của người không lái xe này, có thể đã góp phần vào vụ tai nạn như đã được cơ quan thực thi pháp luật xác định."
+  ],
+  "sample_rows": [
+    {
+      "số_trạng_thái": 18,
+      "tên bang": "Indiana",
+      "số liên tiếp": 180490,
+      "số xe": 0,
+      "Số người": 9,
+      "điều kiện mất cương lực lúc tai nạn người không lái xe": 0,
+      "Tên người không lái xe bị suy giảm năng lực tại thời điểm tai nạn": "None/Apparently Normal"
+    },
+    {
+      "số_trạng_thái": 25,
+      "tên bang": "Massachusetts",
+      "số liên tiếp": 250343,
+      "số xe": 0,
+      "Số người": 5,
+      "điều kiện mất cương lực lúc tai nạn người không lái xe": 0,
+      "Tên người không lái xe bị suy giảm năng lực tại thời điểm tai nạn": "None/Apparently Normal"
+    },
+    {
+      "số_trạng_thái": 36,
+      "tên bang": "New York",
+      "số liên tiếp": 360078,
+      "số xe": 0,
+      "Số người": 5,
+      "điều kiện mất cương lực lúc tai nạn người không lái xe": 0,
+      "Tên người không lái xe bị suy giảm năng lực tại thời điểm tai nạn": "None/Apparently Normal"
+    },
+    {
+      "số_trạng_thái": 36,
+      "tên bang": "New York",
+      "số liên tiếp": 360712,
+      "số xe": 0,
+      "Số người": 5,
+      "điều kiện mất cương lực lúc tai nạn người không lái xe": 0,
+      "Tên người không lái xe bị suy giảm năng lực tại thời điểm tai nạn": "None/Apparently Normal"
+    },
+    {
+      "số_trạng_thái": 36,
+      "tên bang": "New York",
+      "số liên tiếp": 360744,
+      "số xe": 0,
+      "Số người": 5,
+      "điều kiện mất cương lực lúc tai nạn người không lái xe": 0,
+      "Tên người không lái xe bị suy giảm năng lực tại thời điểm tai nạn": "None/Apparently Normal"
+    }
+  ]
+}

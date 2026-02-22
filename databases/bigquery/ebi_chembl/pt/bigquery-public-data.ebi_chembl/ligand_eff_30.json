@@ -1,0 +1,76 @@
+{
+  "table_name": "ligand_eff_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.ligand_eff_30",
+  "column_names": [
+    "id_atividade",
+    "bei",
+    "sei",
+    "le",
+    "lle"
+  ],
+  "column_types": [
+    "INT64",
+    "FLOAT64",
+    "FLOAT64",
+    "FLOAT64",
+    "FLOAT64"
+  ],
+  "nested_column_names": [
+    "id_atividade",
+    "bei",
+    "sei",
+    "le",
+    "lle"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "FLOAT64",
+    "FLOAT64",
+    "FLOAT64",
+    "FLOAT64"
+  ],
+  "description": [
+    "Link key para tabela de atividades",
+    "Binding Efficiency Index = p(XC50) *1000/MW_freebase",
+    "Surface Efficiency Index = p(XC50)*100/PSA",
+    "[do artigo DDT de Hopkins 2004]",
+    "Lipophilic Ligand Efficiency = -logKi-ALogP. [do Leeson NRDD 2007]"
+  ],
+  "sample_rows": [
+    {
+      "id_atividade": 31889,
+      "bei": 17.52,
+      "sei": 6.06,
+      "le": 0.59,
+      "lle": 4.7
+    },
+    {
+      "id_atividade": 31890,
+      "bei": 24.0,
+      "sei": 8.3,
+      "le": 0.81,
+      "lle": 6.63
+    },
+    {
+      "id_atividade": 31891,
+      "bei": 21.96,
+      "sei": 7.59,
+      "le": 0.74,
+      "lle": 6.03
+    },
+    {
+      "id_atividade": 31892,
+      "bei": 24.49,
+      "sei": 8.47,
+      "le": 0.83,
+      "lle": 6.78
+    },
+    {
+      "id_atividade": 31893,
+      "bei": 24.51,
+      "sei": 5.2,
+      "le": 0.56,
+      "lle": 8.65
+    }
+  ]
+}

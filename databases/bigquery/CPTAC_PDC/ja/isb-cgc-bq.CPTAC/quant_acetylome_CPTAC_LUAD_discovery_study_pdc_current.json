@@ -1,0 +1,116 @@
+{
+  "table_name": "quant_acetylome_CPTAC_LUAD_discovery_study_pdc_current",
+  "table_fullname": "isb-cgc-bq.CPTAC.quant_acetylome_CPTAC_LUAD_discovery_study_pdc_current",
+  "column_names": [
+    "ケースID",
+    "サンプルID",
+    "アリクォートID",
+    "アリクォット提出者ID",
+    "サンプル実行メタデータID",
+    "研究名",
+    "タンパク質発現量の対数2比率",
+    "リファレンス配列ID",
+    "アセチル化部位"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "ケースID",
+    "サンプルID",
+    "アリクオットID",
+    "サンプル提出者ID",
+    "アリクォート実行メタデータ識別子",
+    "研究名",
+    "タンパク質濃度対数2比",
+    "参照配列ID",
+    "アセチル化部位"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "特定の患者に関連付けられたユニーク識別子（例：24cb0fcb-63d6-11e8-bcf1-0a2705229b82）",
+    "このサンプルのユニークなPDC識別子（例：e8d83eb9-693a-11ea-b1fd-0aad30af8a83）",
+    "このアリオットのユニークなPDC識別子（例：e8db124a-693a-11ea-b1fd-0aad30af8a83）",
+    "プログラムにより割り当てられたアリキュート送信者ID（例：T14）",
+    "実験における使用方法（ラベル付け試薬または生物学的リプリケートに基づく）によって、アリオットを一意に識別する",
+    "研究の名称（例：小児脳腫瘍パイロット研究 - フォスホプロテオーム）",
+    "特定の生物サンプルから取得されたデータにおける、遺伝子に関連するペプチドイオンのサンプルレポーターイオンと共通参照イオンの平均対数比",
+    "NCBI RefSeq データベース内の配列に付与されるユニーク識別子",
+    "アセチル化されたアミノ酸の単一文字コードとタンパク質配列位置（例：k12k16、k21）"
+  ],
+  "sample_rows": [
+    {
+      "ケースID": "f1ee18d4-cf1e-11e9-9a07-0a80fada099c",
+      "サンプルID": "a679f850-d0a6-11e9-9a07-0a80fada099c",
+      "アリクオットID": "6345781b-d0b0-11e9-9a07-0a80fada099c",
+      "サンプル提出者ID": "CPT0105230003",
+      "アリクォート実行メタデータ識別子": "966e76b2-bfbf-11ea-b1fd-0aad30af8a83",
+      "研究名": "CPTAC LUAD Discovery Study - Acetylome",
+      "タンパク質濃度対数2比": 0.3146,
+      "参照配列ID": "NP_006588.1",
+      "アセチル化部位": "k583"
+    },
+    {
+      "ケースID": "f1ee18d4-cf1e-11e9-9a07-0a80fada099c",
+      "サンプルID": "a679f850-d0a6-11e9-9a07-0a80fada099c",
+      "アリクオットID": "6345781b-d0b0-11e9-9a07-0a80fada099c",
+      "サンプル提出者ID": "CPT0105230003",
+      "アリクォート実行メタデータ識別子": "966e76b2-bfbf-11ea-b1fd-0aad30af8a83",
+      "研究名": "CPTAC LUAD Discovery Study - Acetylome",
+      "タンパク質濃度対数2比": 1.0567,
+      "参照配列ID": "NP_003364.1",
+      "アセチル化部位": "k387"
+    },
+    {
+      "ケースID": "f1ee18d4-cf1e-11e9-9a07-0a80fada099c",
+      "サンプルID": "a679f850-d0a6-11e9-9a07-0a80fada099c",
+      "アリクオットID": "6345781b-d0b0-11e9-9a07-0a80fada099c",
+      "サンプル提出者ID": "CPT0105230003",
+      "アリクォート実行メタデータ識別子": "966e76b2-bfbf-11ea-b1fd-0aad30af8a83",
+      "研究名": "CPTAC LUAD Discovery Study - Acetylome",
+      "タンパク質濃度対数2比": -0.208,
+      "参照配列ID": "NP_001307.2",
+      "アセチル化部位": "k440"
+    },
+    {
+      "ケースID": "f1ee18d4-cf1e-11e9-9a07-0a80fada099c",
+      "サンプルID": "a679f850-d0a6-11e9-9a07-0a80fada099c",
+      "アリクオットID": "6345781b-d0b0-11e9-9a07-0a80fada099c",
+      "サンプル提出者ID": "CPT0105230003",
+      "アリクォート実行メタデータ識別子": "966e76b2-bfbf-11ea-b1fd-0aad30af8a83",
+      "研究名": "CPTAC LUAD Discovery Study - Acetylome",
+      "タンパク質濃度対数2比": -0.4761,
+      "参照配列ID": "NP_003818.2",
+      "アセチル化部位": "k93"
+    },
+    {
+      "ケースID": "f1ee18d4-cf1e-11e9-9a07-0a80fada099c",
+      "サンプルID": "a679f850-d0a6-11e9-9a07-0a80fada099c",
+      "アリクオットID": "6345781b-d0b0-11e9-9a07-0a80fada099c",
+      "サンプル提出者ID": "CPT0105230003",
+      "アリクォート実行メタデータ識別子": "966e76b2-bfbf-11ea-b1fd-0aad30af8a83",
+      "研究名": "CPTAC LUAD Discovery Study - Acetylome",
+      "タンパク質濃度対数2比": -0.1728,
+      "参照配列ID": "NP_001186040.1",
+      "アセチル化部位": "k143"
+    }
+  ]
+}

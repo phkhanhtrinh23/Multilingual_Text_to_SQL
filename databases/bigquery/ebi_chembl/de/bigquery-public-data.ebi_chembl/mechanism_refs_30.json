@@ -1,0 +1,76 @@
+{
+  "table_name": "mechanism_refs_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.mechanism_refs_30",
+  "column_names": [
+    "Mecref-ID",
+    "MEC-ID",
+    "Referenztyp",
+    "Referenz-ID",
+    "Referenz-URL"
+  ],
+  "column_types": [
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "Mecref-ID",
+    "Mec-ID",
+    "Referenztyp",
+    "Referenz-ID",
+    "Referenz-URL"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "Primärschlüssel",
+    "Foreign key zur Tabelle drug_mechanism – der Mechanismus, auf den sich die Referenzen beziehen",
+    "Typ/Quelle der Referenz (z. B. 'PubMed','DailyMed')",
+    "Kennung der Referenz in der Quelle (z. B. PubMed-ID oder DailyMed setid)",
+    "Vollständige URL, die auf die Referenz verweist"
+  ],
+  "sample_rows": [
+    {
+      "Mecref-ID": 15815,
+      "Mec-ID": 9092,
+      "Referenztyp": "BNF",
+      "Referenz-ID": "https://bnf.nice.org.uk/drug/enoximone.html",
+      "Referenz-URL": "https://bnf.nice.org.uk/drug/enoximone.html"
+    },
+    {
+      "Mecref-ID": 14359,
+      "Mec-ID": 8478,
+      "Referenztyp": "BNF",
+      "Referenz-ID": "https://bnf.nice.org.uk/drug/simeticone.html",
+      "Referenz-URL": "https://bnf.nice.org.uk/drug/simeticone.html"
+    },
+    {
+      "Mecref-ID": 15068,
+      "Mec-ID": 8036,
+      "Referenztyp": "BNF",
+      "Referenz-ID": "https://bnf.nice.org.uk/drug/temocillin.html",
+      "Referenz-URL": "https://bnf.nice.org.uk/drug/temocillin.html"
+    },
+    {
+      "Mecref-ID": 14855,
+      "Mec-ID": 8429,
+      "Referenztyp": "BNF",
+      "Referenz-ID": "https://bnf.nice.org.uk/drug/lenograstim.html",
+      "Referenz-URL": "https://bnf.nice.org.uk/drug/lenograstim.html"
+    },
+    {
+      "Mecref-ID": 15664,
+      "Mec-ID": 8942,
+      "Referenztyp": "BNF",
+      "Referenz-ID": "https://bnf.nice.org.uk/drug/quinagolide.html",
+      "Referenz-URL": "https://bnf.nice.org.uk/drug/quinagolide.html"
+    }
+  ]
+}

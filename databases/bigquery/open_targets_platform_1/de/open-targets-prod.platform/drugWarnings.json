@@ -1,0 +1,177 @@
+{
+  "table_name": "drugWarnings",
+  "table_fullname": "open-targets-prod.platform.drugWarnings",
+  "column_names": [
+    "chemblIds",
+    "toxicityClass",
+    "Land",
+    "Beschreibung",
+    "Identifikator",
+    "Referenzen",
+    "warningType",
+    "Jahr",
+    "efo_term",
+    "efo_id",
+    "efo_id_for_warning_class"
+  ],
+  "column_types": [
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "STRUCT<list ARRAY<STRUCT<element STRUCT<ref_id STRING, ref_type STRING, ref_url STRING>>>>",
+    "STRING",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "ChEMBL-IDs",
+    "ChEMBL-IDs-Liste",
+    "ChEMBL-IDs-Element",
+    "Toxizitätsklasse",
+    "Land",
+    "Beschreibung",
+    "Identifikator",
+    "Referenzen",
+    "Referenzen-Liste",
+    "Referenzen-Liste-Element",
+    "Referenzen-Liste-Element-Referenz-ID",
+    "Referenztyp",
+    "Referenz-URL",
+    "Warnungstyp",
+    "Jahr",
+    "EFO-Begriff",
+    "EFO-ID",
+    "EFO-ID für Warnungsklasse"
+  ],
+  "nested_column_types": [
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+    "ARRAY<STRUCT<element STRING>>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "STRUCT<list ARRAY<STRUCT<element STRUCT<ref_id STRING, ref_type STRING, ref_url STRING>>>>",
+    "ARRAY<STRUCT<element STRUCT<ref_id STRING, ref_type STRING, ref_url STRING>>>",
+    "STRUCT<ref_id STRING, ref_type STRING, ref_url STRING>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "sample_rows": [
+    {
+      "ChEMBL-IDs": {
+        "list": "[{'element': 'CHEMBL3039594'} {'element': 'CHEMBL3039597'}]"
+      },
+      "Toxizitätsklasse": null,
+      "Land": "United States",
+      "Beschreibung": null,
+      "Identifikator": 2817,
+      "Referenzen": {
+        "list": "[]"
+      },
+      "Warnungstyp": "Black Box Warning",
+      "Jahr": null,
+      "EFO-Begriff": null,
+      "EFO-ID": null,
+      "EFO-ID für Warnungsklasse": null
+    },
+    {
+      "ChEMBL-IDs": {
+        "list": "[{'element': 'CHEMBL3989677'} {'element': 'CHEMBL1457'}]"
+      },
+      "Toxizitätsklasse": null,
+      "Land": "United States",
+      "Beschreibung": null,
+      "Identifikator": 2818,
+      "Referenzen": {
+        "list": "[]"
+      },
+      "Warnungstyp": "Black Box Warning",
+      "Jahr": null,
+      "EFO-Begriff": null,
+      "EFO-ID": null,
+      "EFO-ID für Warnungsklasse": null
+    },
+    {
+      "ChEMBL-IDs": {
+        "list": "[{'element': 'CHEMBL2359966'} {'element': 'CHEMBL170'}]"
+      },
+      "Toxizitätsklasse": null,
+      "Land": "United States",
+      "Beschreibung": null,
+      "Identifikator": 2820,
+      "Referenzen": {
+        "list": "[]"
+      },
+      "Warnungstyp": "Black Box Warning",
+      "Jahr": null,
+      "EFO-Begriff": null,
+      "EFO-ID": null,
+      "EFO-ID für Warnungsklasse": null
+    },
+    {
+      "ChEMBL-IDs": {
+        "list": "[{'element': 'CHEMBL5095051'} {'element': 'CHEMBL637'}]"
+      },
+      "Toxizitätsklasse": null,
+      "Land": "United States",
+      "Beschreibung": null,
+      "Identifikator": 2864,
+      "Referenzen": {
+        "list": "[]"
+      },
+      "Warnungstyp": "Black Box Warning",
+      "Jahr": null,
+      "EFO-Begriff": null,
+      "EFO-ID": null,
+      "EFO-ID für Warnungsklasse": null
+    },
+    {
+      "ChEMBL-IDs": {
+        "list": "[{'element': 'CHEMBL1742992'}]"
+      },
+      "Toxizitätsklasse": null,
+      "Land": "United States",
+      "Beschreibung": null,
+      "Identifikator": 221,
+      "Referenzen": {
+        "list": "[]"
+      },
+      "Warnungstyp": "Black Box Warning",
+      "Jahr": null,
+      "EFO-Begriff": null,
+      "EFO-ID": null,
+      "EFO-ID für Warnungsklasse": null
+    }
+  ]
+}

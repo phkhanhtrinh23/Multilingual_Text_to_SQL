@@ -1,0 +1,128 @@
+{
+  "table_name": "rendering",
+  "table_fullname": "bigquery-public-data.sec_quarterly_financials.rendering",
+  "column_names": [
+    "Einreichungsnummer",
+    "Bericht",
+    "Dateityp",
+    "Menükategorie",
+    "Kurzname",
+    "Langname",
+    "RollenURI",
+    "ElternrollenURI",
+    "Elternbericht",
+    "ObersterElternbericht",
+    "_PARTITIONTIME"
+  ],
+  "column_types": [
+    "STRING",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "INT64",
+    "TIMESTAMP"
+  ],
+  "nested_column_names": [
+    "Einreichungsnummer",
+    "Bericht",
+    "Dateityp",
+    "Menükategorie",
+    "Kurzname",
+    "Langname",
+    "Rollen-URI",
+    "Eltern-Rollen-URI",
+    "Elternbericht",
+    "Oberster Elternbericht"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "INT64"
+  ],
+  "description": [
+    "Zugangsnummer. Die 20-stellige Zeichenkette, die aus der von der Kommission jeder EDGAR-Einreichung zugewiesenen 18-stelligen Zahl gebildet wird. submission_number: [adsh]",
+    "Stellt die Berichtsgruppe dar. Der numerische Wert bezieht sich auf die „R-Datei“, wie vom Renderer berechnet und auf der EDGAR-Website veröffentlicht wird. Beachten Sie, dass in einigen Situationen die Zahlen übersprungen werden.",
+    "Der Typ der auf der EDGAR-Website gerenderten interaktiven Datendatei, H = .htm-Datei, X = .xml-Datei. file_type: [rfile]",
+    "Falls verfügbar, eine der Menü-Kategorien, wie vom Renderer berechnet: C=Cover, S=Statements, N=Notes, P=Policies, T=Tables, D=Details, O=Other und U=Uncategorized. menu_category: [menucat]",
+    "Der Teil des langen Namens, der im Renderer-Menü verwendet wird.",
+    "Der durch Leerzeichen normalisierte Text des Inhalts des XBRL-Link-Elements \"definition\".",
+    "Die XBRL \"roleuri\" der Rolle.",
+    "Die XBRL roleuri einer Rolle, für die diese Rolle ein passendes shortname-Präfix und eine höhere Menü-Kategorie besitzt, wie vom Renderer berechnet.",
+    "Der Wert des Berichtsfelds für die Rolle, bei der roleuri gleich diesem parentroleuri ist.",
+    "Der höchste Vorfahrbericht, der durch das Folgen der parentreport-Beziehungen erreichbar ist. Eine Notiz (menucat = N) ist ihr eigener endgültiger Elternteil. ultimate_parent_report: [ultparentrpt]"
+  ],
+  "sample_rows": [
+    {
+      "Einreichungsnummer": "0001558370-18-000022",
+      "Bericht": 85,
+      "Dateityp": "H",
+      "Menükategorie": "D",
+      "Kurzname": "STOCKHOLDERS' EQUITY",
+      "Langname": "41503 - Disclosure - STOCKHOLDERS' EQUITY - Dividends (Details)",
+      "Rollen-URI": "http://www.lambweston.com/role/DisclosureStockholdersEquityDividendsDetails",
+      "Eltern-Rollen-URI": null,
+      "Elternbericht": null,
+      "Oberster Elternbericht": null
+    },
+    {
+      "Einreichungsnummer": "0001558370-18-000022",
+      "Bericht": 86,
+      "Dateityp": "H",
+      "Menükategorie": "D",
+      "Kurzname": "STOCKHOLDERS' EQUITY",
+      "Langname": "41504 - Disclosure - STOCKHOLDERS' EQUITY - Changes in AOCI (Details)",
+      "Rollen-URI": "http://www.lambweston.com/role/DisclosureStockholdersEquityChangesInAociDetails",
+      "Eltern-Rollen-URI": null,
+      "Elternbericht": null,
+      "Oberster Elternbericht": null
+    },
+    {
+      "Einreichungsnummer": "0001558370-18-000022",
+      "Bericht": 87,
+      "Dateityp": "H",
+      "Menükategorie": "D",
+      "Kurzname": "STOCKHOLDERS' EQUITY",
+      "Langname": "41505 - Disclosure - STOCKHOLDERS' EQUITY - AOCI - Settlement Gains on Pension and Post-retirement Benefits (Details)",
+      "Rollen-URI": "http://www.lambweston.com/role/DisclosureStockholdersEquityAociSettlementGainsOnPensionAndPostRetirementBenefitsDetails",
+      "Eltern-Rollen-URI": null,
+      "Elternbericht": null,
+      "Oberster Elternbericht": null
+    },
+    {
+      "Einreichungsnummer": "0001558370-18-000022",
+      "Bericht": 88,
+      "Dateityp": "H",
+      "Menükategorie": "D",
+      "Kurzname": "SEGMENTS",
+      "Langname": "41601 - Disclosure - SEGMENTS - General Information (Details)",
+      "Rollen-URI": "http://www.lambweston.com/role/DisclosureSegmentsGeneralInformationDetails",
+      "Eltern-Rollen-URI": null,
+      "Elternbericht": null,
+      "Oberster Elternbericht": null
+    },
+    {
+      "Einreichungsnummer": "0001558370-18-000022",
+      "Bericht": 89,
+      "Dateityp": "H",
+      "Menükategorie": "D",
+      "Kurzname": "SEGMENTS",
+      "Langname": "41602 - Disclosure - SEGMENTS - General Financial Information (Details)",
+      "Rollen-URI": "http://www.lambweston.com/role/DisclosureSegmentsGeneralFinancialInformationDetails",
+      "Eltern-Rollen-URI": null,
+      "Elternbericht": null,
+      "Oberster Elternbericht": null
+    }
+  ]
+}

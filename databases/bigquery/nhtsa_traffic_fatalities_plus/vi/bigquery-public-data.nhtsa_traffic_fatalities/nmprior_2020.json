@@ -1,0 +1,96 @@
+{
+  "table_name": " nmprior_2020",
+  "table_fullname": "bigquery-public-data.nhtsa_traffic_fatalities. nmprior_2020",
+  "column_names": [
+    "số trạng thái",
+    "tên bang",
+    "số liên tiếp",
+    "số xe",
+    "số người",
+    "điều kiện hành động người không lái xe",
+    "tên tình huống hành động phi lái xe"
+  ],
+  "column_types": [
+    "INT64",
+    "STRING",
+    "INT64",
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "số bang",
+    "tên bang",
+    "số liên tiếp",
+    "số xe",
+    "Số người",
+    "Tình huống hành động người không lái xe",
+    "Tên tình huống hành động của người không lái xe"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "STRING",
+    "INT64",
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING"
+  ],
+  "description": [
+    "Yếu tố dữ liệu này xác định bang nơi xảy ra tai nạn. Các mã được lấy từ ấn phẩm Cơ quan Dịch vụ Chung (GSA) về Mã Vị trí Địa lý Toàn cầu (GLC). Để biết thêm thông tin về các mã, vui lòng xem phần <C1/V1/D1/PC1/P1/NM1 State Number> trong tài liệu PDF: https://crashstats.nhtsa.dot.gov/Api/Public/ViewPublication/812315",
+    "Phần tử dữ liệu này xác định bang nơi xảy ra tai nạn. Các mã được lấy từ ấn phẩm của Cơ quan Dịch vụ Chung (GSA) về Mã Địa Điểm Địa Lý Toàn Cầu (GLC).",
+    "Phần tử dữ liệu này là số vụ duy nhất được gán cho mỗi tai nạn. Nó xuất hiện trên mỗi tệp dữ liệu và được sử dụng để hợp nhất thông tin từ các tệp dữ liệu cùng nhau. xxxxxx Hai ký tự cho mã bang theo sau bởi Bốn ký tự cho số vụ",
+    "Phần dữ liệu này là số thứ tự liên tiếp được cấp cho mỗi phương tiện trong trường hợp. Phần dữ liệu này xuất hiện trong mỗi tệp dữ liệu cấp độ phương tiện và được sử dụng kết hợp với phần dữ liệu ST_CASE để hợp nhất thông tin từ các tệp dữ liệu cấp độ phương tiện. 000-999 Số được chỉ định của phương tiện ô tô",
+    "Yếu tố dữ liệu này là số thứ tự liên tiếp được cấp cho từng người trong vụ việc (tức là từng hành khách, người đi bộ hoặc người không điều khiển phương tiện tham gia tai nạn). Yếu tố dữ liệu này xuất hiện trong từng tệp dữ liệu cấp độ cá nhân và được sử dụng kết hợp với yếu tố dữ liệu ST_CASE (và đôi khi với yếu tố dữ liệu VEH_NO) để hợp nhất thông tin từ các tệp dữ liệu cấp độ cá nhân. 001-999 Số người được chỉ định",
+    "Yếu tố dữ liệu này mô tả hành động của người không lái xe ngay trước khi họ tham gia vào vụ tai nạn. Để biết thêm thông tin về các mã, vui lòng xem mục <NM11 Hành động/Quy trình của Người không lái xe> trong tài liệu pdf: https://crashstats.nhtsa.dot.gov/Api/Public/ViewPublication/812315",
+    "Phần tử dữ liệu này mô tả hành động của người không lái xe ngay trước khi họ tham gia vào vụ tai nạn."
+  ],
+  "sample_rows": [
+    {
+      "số bang": 10,
+      "tên bang": "Delaware",
+      "số liên tiếp": 100081,
+      "số xe": 0,
+      "Số người": 1,
+      "Tình huống hành động người không lái xe": 1,
+      "Tên tình huống hành động của người không lái xe": "Going To or From School (K-12)"
+    },
+    {
+      "số bang": 26,
+      "tên bang": "Michigan",
+      "số liên tiếp": 260597,
+      "số xe": 0,
+      "Số người": 1,
+      "Tình huống hành động người không lái xe": 1,
+      "Tên tình huống hành động của người không lái xe": "Going To or From School (K-12)"
+    },
+    {
+      "số bang": 55,
+      "tên bang": "Wisconsin",
+      "số liên tiếp": 550050,
+      "số xe": 0,
+      "Số người": 2,
+      "Tình huống hành động người không lái xe": 1,
+      "Tên tình huống hành động của người không lái xe": "Going To or From School (K-12)"
+    },
+    {
+      "số bang": 55,
+      "tên bang": "Wisconsin",
+      "số liên tiếp": 550398,
+      "số xe": 0,
+      "Số người": 1,
+      "Tình huống hành động người không lái xe": 1,
+      "Tên tình huống hành động của người không lái xe": "Going To or From School (K-12)"
+    },
+    {
+      "số bang": 4,
+      "tên bang": "Arizona",
+      "số liên tiếp": 40038,
+      "số xe": 0,
+      "Số người": 1,
+      "Tình huống hành động người không lái xe": 2,
+      "Tên tình huống hành động của người không lái xe": "Waiting to Cross Roadway"
+    }
+  ]
+}

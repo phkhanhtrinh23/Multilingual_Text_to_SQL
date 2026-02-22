@@ -1,0 +1,96 @@
+{
+  "table_name": " nmimpair_2016",
+  "table_fullname": "bigquery-public-data.nhtsa_traffic_fatalities. nmimpair_2016",
+  "column_names": [
+    "Số bang",
+    "tên bang",
+    "số liên tiếp",
+    "số xe",
+    "số người",
+    "điều kiện suy giảm tại thời điểm tai nạn cho người không lái xe",
+    "tên tình trạng suy giảm tại tai nạn người không lái xe"
+  ],
+  "column_types": [
+    "INT64",
+    "STRING",
+    "INT64",
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "số trạng thái",
+    "tên bang",
+    "số liên tiếp",
+    "số xe",
+    "số người",
+    "điều kiện suy giảm năng lực tại thời điểm tai nạn của người không phải là tài xế",
+    "Tên nhân không lái xe bị mất chức năng lúc tai nạn"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "STRING",
+    "INT64",
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING"
+  ],
+  "description": [
+    "Phần tử dữ liệu này xác định bang nơi tai nạn đã xảy ra. Các mã được lấy từ bản in của Cục Dịch vụ Chung (GSA) về Mã Vị trí Địa lý toàn cầu (GLC). Để biết thêm thông tin về các mã, vui lòng xem phần <C1/V1/D1/PC1/P1/NM1 State Number> trong tệp pdf: https://crashstats.nhtsa.dot.gov/Api/Public/ViewPublication/812315",
+    "Yếu tố dữ liệu này xác định bang nơi vụ tai nạn đã xảy ra. Các mã được lấy từ ấn phẩm của Cơ quan Dịch vụ Chung (GSA) về Mã Vị trí Địa lý Toàn cầu (GLC).",
+    "Yếu tố dữ liệu này là số trường hợp duy nhất được gán cho mỗi vụ tai nạn.  \nNó xuất hiện trên mỗi tệp dữ liệu và được sử dụng để hợp nhất thông tin từ các tệp dữ liệu với nhau.  \nxxxxxx Hai ký tự cho Mã Bang theo sau là bốn ký tự cho Số Trường hợp",
+    "Yếu tố dữ liệu này là số liên tiếp được chỉ định cho mỗi phương tiện trong trường hợp. Yếu tố dữ liệu này xuất hiện trong mỗi tập tin dữ liệu cấp độ phương tiện và được sử dụng cùng với yếu tố dữ liệu ST_CASE để hợp nhất thông tin từ các tập tin dữ liệu cấp độ phương tiện. 000-999 Số được chỉ định của phương tiện giao thông",
+    "Thành phần dữ liệu này là số thứ tự liên tiếp được cấp cho mỗi người trong vụ (tức là mỗi người sử dụng phương tiện, người đi bộ hoặc những người không điều khiển phương tiện tham gia tai nạn). Thành phần dữ liệu này xuất hiện trong mỗi tệp dữ liệu cấp người và được sử dụng kết hợp với thành phần dữ liệu ST_CASE (và đôi khi thành phần dữ liệu VEH_NO) để hợp nhất thông tin từ các tệp dữ liệu cấp người. 001-999 Số người được cấp",
+    "Yếu tố dữ liệu này xác định các rối loạn thể chất của người không lái xe này có thể đã góp phần vào vụ tai nạn theo nhận định của cơ quan thực thi pháp luật. Để biết thêm thông tin về các mã, vui lòng xem mục <NM14 Condition (Impairment) at Time of Crash- Non-Motorist> trong tài liệu PDF: https://crashstats.nhtsa.dot.gov/Api/Public/ViewPublication/812315",
+    "Yếu tố dữ liệu này xác định các khuyết tật thể chất của người không lái xe này có thể đã góp phần vào vụ tai nạn như đã được cơ quan thực thi pháp luật xác định."
+  ],
+  "sample_rows": [
+    {
+      "số trạng thái": 1,
+      "tên bang": "Alabama",
+      "số liên tiếp": 10381,
+      "số xe": 0,
+      "số người": 4,
+      "điều kiện suy giảm năng lực tại thời điểm tai nạn của người không phải là tài xế": 0,
+      "Tên nhân không lái xe bị mất chức năng lúc tai nạn": "None/Apparently Normal"
+    },
+    {
+      "số trạng thái": 1,
+      "tên bang": "Alabama",
+      "số liên tiếp": 10381,
+      "số xe": 0,
+      "số người": 5,
+      "điều kiện suy giảm năng lực tại thời điểm tai nạn của người không phải là tài xế": 0,
+      "Tên nhân không lái xe bị mất chức năng lúc tai nạn": "None/Apparently Normal"
+    },
+    {
+      "số trạng thái": 1,
+      "tên bang": "Alabama",
+      "số liên tiếp": 10381,
+      "số xe": 0,
+      "số người": 6,
+      "điều kiện suy giảm năng lực tại thời điểm tai nạn của người không phải là tài xế": 0,
+      "Tên nhân không lái xe bị mất chức năng lúc tai nạn": "None/Apparently Normal"
+    },
+    {
+      "số trạng thái": 1,
+      "tên bang": "Alabama",
+      "số liên tiếp": 10381,
+      "số xe": 0,
+      "số người": 7,
+      "điều kiện suy giảm năng lực tại thời điểm tai nạn của người không phải là tài xế": 0,
+      "Tên nhân không lái xe bị mất chức năng lúc tai nạn": "None/Apparently Normal"
+    },
+    {
+      "số trạng thái": 6,
+      "tên bang": "California",
+      "số liên tiếp": 62503,
+      "số xe": 0,
+      "số người": 4,
+      "điều kiện suy giảm năng lực tại thời điểm tai nạn của người không phải là tài xế": 0,
+      "Tên nhân không lái xe bị mất chức năng lúc tai nạn": "None/Apparently Normal"
+    }
+  ]
+}

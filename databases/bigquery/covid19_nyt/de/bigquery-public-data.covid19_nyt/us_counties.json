@@ -1,0 +1,86 @@
+{
+  "table_name": "us_counties",
+  "table_fullname": "bigquery-public-data.covid19_nyt.us_counties",
+  "column_names": [
+    "Datum",
+    "Kreis",
+    "Bundesstaatsname",
+    "Kreis-FIPS-Code",
+    "Bestätigte Fälle",
+    "Todesfälle"
+  ],
+  "column_types": [
+    "DATE",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "Datum",
+    "Kreis",
+    "Bundesland",
+    "Kreis-FIPS-Code",
+    "BestätigteFälle",
+    "Todesfälle"
+  ],
+  "nested_column_types": [
+    "DATE",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "INT64"
+  ],
+  "description": [
+    "Datum der Meldung",
+    "Kreis im angegebenen Bundesstaat",
+    "Gemeldeter Bundesstaat",
+    "Standardgeografische Kennung des Landkreises",
+    "Die Gesamtzahl der bestätigten COVID-19-Fälle",
+    "Die Gesamtzahl der bestätigten COVID-19-Todesfälle"
+  ],
+  "sample_rows": [
+    {
+      "Datum": "2022-01-01",
+      "Kreis": "Autauga",
+      "Bundesland": "Alabama",
+      "Kreis-FIPS-Code": "01001",
+      "BestätigteFälle": 11018,
+      "Todesfälle": 160
+    },
+    {
+      "Datum": "2022-01-01",
+      "Kreis": "Baldwin",
+      "Bundesland": "Alabama",
+      "Kreis-FIPS-Code": "01003",
+      "BestätigteFälle": 39911,
+      "Todesfälle": 593
+    },
+    {
+      "Datum": "2022-01-01",
+      "Kreis": "Barbour",
+      "Bundesland": "Alabama",
+      "Kreis-FIPS-Code": "01005",
+      "BestätigteFälle": 3860,
+      "Todesfälle": 81
+    },
+    {
+      "Datum": "2022-01-01",
+      "Kreis": "Bibb",
+      "Bundesland": "Alabama",
+      "Kreis-FIPS-Code": "01007",
+      "BestätigteFälle": 4533,
+      "Todesfälle": 95
+    },
+    {
+      "Datum": "2022-01-01",
+      "Kreis": "Blount",
+      "Bundesland": "Alabama",
+      "Kreis-FIPS-Code": "01009",
+      "BestätigteFälle": 11256,
+      "Todesfälle": 198
+    }
+  ]
+}

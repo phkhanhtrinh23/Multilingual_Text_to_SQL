@@ -1,0 +1,70 @@
+{
+  "sample_rows": [
+    {
+      "ID_GEO": "country/FRA",
+      "VARIÁVEL": "balance_of_payments_current_account_primary_income_investment_income_portfolio_investment_investment_income_on_equity_and_investment_fund_shares_investment_income_attributable_to_investment_fund_shareholders_reinvested_earnings_debit_|_usd_|_annual",
+      "NOME_VARIÁVEL": "Balance Of Payments: Current Account, Primary Income, Investment Income, Portfolio Investment, Investment Income on Equity and Investment Fund Shares, Investment Income Attributable to Investment Fund Shareholders, Reinvested Earnings, Debit | USD | Annual",
+      "DATA": "2017-12-31",
+      "VALOR": 2238764366.3715,
+      "UNIDADE": "USD"
+    },
+    {
+      "ID_GEO": "country/LUX",
+      "VARIÁVEL": "balance_of_payments_financial_account_other_investment_loans_net_acquisition_of_financial_assets_deposittaking_corporations_except_the_central_bank_shortterm_|_eur_|_quarterly",
+      "NOME_VARIÁVEL": "Balance Of Payments: Financial Account, Other Investment, Loans, Net Acquisition of Financial Assets, Deposit-taking Corporations, Except the Central Bank, Short-term | EUR | Quarterly",
+      "DATA": "2008-09-30",
+      "VALOR": 0.0,
+      "UNIDADE": "EUR"
+    },
+    {
+      "ID_GEO": "country/GRD",
+      "VARIÁVEL": "international_financial_statistics_fund_accounts_sdr_holdings_as_%_of_allocation_|_percent_percent_per_annum_|_monthly",
+      "NOME_VARIÁVEL": "International Financial Statistics: Fund Accounts, SDR Holdings as % of Allocation | Percent, Percent per annum | Monthly",
+      "DATA": "1994-08-31",
+      "VALOR": 3.33333333333333,
+      "UNIDADE": "Percent"
+    },
+    {
+      "ID_GEO": "country/MAR",
+      "VARIÁVEL": "international_financial_statistics_fiscal_budgetary_central_government_revenue_2001_manual_|_domestic_currency_|_monthly",
+      "NOME_VARIÁVEL": "International Financial Statistics: Fiscal, Budgetary Central Government, Revenue, 2001 Manual | Domestic Currency | Monthly",
+      "DATA": "2011-07-31",
+      "VALOR": 19392718282.8283,
+      "UNIDADE": "Domestic Currency"
+    },
+    {
+      "ID_GEO": "country/RWA",
+      "VARIÁVEL": "international_financial_statistics_exports_of_services_nominal_unadjusted_|_domestic_currency_|_quarterly",
+      "NOME_VARIÁVEL": "International Financial Statistics: Exports of Services, Nominal, Unadjusted | Domestic Currency | Quarterly",
+      "DATA": "2006-12-31",
+      "VALOR": 29000000000.0,
+      "UNIDADE": "Domestic Currency"
+    }
+  ],
+  "table_name": "INTERNATIONAL_MONETARY_FUND_TIMESERIES",
+  "table_fullname": "FINANCE__ECONOMICS.CYBERSYN.INTERNATIONAL_MONETARY_FUND_TIMESERIES",
+  "column_names": [
+    "ID_GEO",
+    "VALOR",
+    "UNIDADE",
+    "DATA",
+    "VARIÁVEL",
+    "NOME_VARIÁVEL"
+  ],
+  "column_types": [
+    "TEXT",
+    "FLOAT",
+    "TEXT",
+    "DATE",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Um identificador único para um local. Pode ser unido a outras tabelas de geografia, incluindo `GEOGRAPHY_INDEX`, `GEOGRAPHY_RELATIONSHIPS` e `GEOGRAPHY_CHARACTERISTICS`.",
+    "Valor relatado para a variável.",
+    "Unidade de medida para o valor relatado.",
+    "Data associada ao valor.",
+    "Identificador único para uma variável, unível à tabela `timeseries`.",
+    "Nome único legível por humanos para a variável."
+  ]
+}

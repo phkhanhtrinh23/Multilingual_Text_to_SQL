@@ -1,0 +1,244 @@
+{
+  "table_name": "studies",
+  "table_fullname": "open-targets-genetics.genetics.studies",
+  "column_names": [
+    "Studien-ID",
+    "Ursprüngliche Herkunft",
+    "Herkunftsreplikation",
+    "Fallzahl",
+    "Anzahl der Anfangsdaten",
+    "Anzahl der Replikationen",
+    "PubMed-ID",
+    "Autoren der Publikation",
+    "Publikationsdatum",
+    "Publikationszeitschrift",
+    "Publikationstitel",
+    "Summenstatistiken vorhanden",
+    "Anzahl assoziierter Loci",
+    "Quelle",
+    "Berichtetes Merkmal",
+    "Merkmal-EFOs",
+    "Merkmalkategorie"
+  ],
+  "column_types": [
+    "STRING",
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "BOOL",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "Studien-ID",
+    "Ursprüngliche Abstammung",
+    "Ursprüngliche Abstammungsliste",
+    "Element der ursprünglichen Abstammungsliste",
+    "Replikation der Abstammung",
+    "Liste der Abstammungsreplikationen",
+    "Element der Abstammungsreplikationsliste",
+    "Fallzahlen",
+    "Anzahl der ursprünglichen Abstammungen",
+    "Anzahl der Replikationen",
+    "PubMed-ID",
+    "Autoren der Publikation",
+    "Publikationsdatum",
+    "Publikationszeitschrift",
+    "Publikationstitel",
+    "Sumstatistiken vorhanden",
+    "Anzahl der assoziierten Loci",
+    "Quelle",
+    "Gemeldetes Merkmal",
+    "Merkmal-EFOs",
+    "Liste der Merkmal-EFOs",
+    "Element der Merkmal-EFO-Liste",
+    "Merkmalskategorie"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+    "ARRAY<STRUCT<element STRING>>",
+    "STRING",
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+    "ARRAY<STRUCT<element STRING>>",
+    "STRING",
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "BOOL",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+    "ARRAY<STRUCT<element STRING>>",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "sample_rows": [
+    {
+      "Studien-ID": "FINNGEN_R6_M13_MYALGIA",
+      "Ursprüngliche Abstammung": {
+        "list": "[{'element': 'European=201546'}]"
+      },
+      "Replikation der Abstammung": {
+        "list": "[]"
+      },
+      "Fallzahlen": 3822,
+      "Anzahl der ursprünglichen Abstammungen": 201546,
+      "Anzahl der Replikationen": 0,
+      "PubMed-ID": null,
+      "Autoren der Publikation": "FINNGEN_R6",
+      "Publikationsdatum": "2022-01-24",
+      "Publikationszeitschrift": null,
+      "Publikationstitel": null,
+      "Sumstatistiken vorhanden": true,
+      "Anzahl der assoziierten Loci": 1,
+      "Quelle": "FINNGEN",
+      "Gemeldetes Merkmal": "Myalgia",
+      "Merkmal-EFOs": {
+        "list": "[{'element': 'HP_0003326'}]"
+      },
+      "Merkmalskategorie": "phenotype"
+    },
+    {
+      "Studien-ID": "FINNGEN_R6_M13_PATELLADISLOCATIO",
+      "Ursprüngliche Abstammung": {
+        "list": "[{'element': 'European=174430'}]"
+      },
+      "Replikation der Abstammung": {
+        "list": "[]"
+      },
+      "Fallzahlen": 1016,
+      "Anzahl der ursprünglichen Abstammungen": 174430,
+      "Anzahl der Replikationen": 0,
+      "PubMed-ID": null,
+      "Autoren der Publikation": "FINNGEN_R6",
+      "Publikationsdatum": "2022-01-24",
+      "Publikationszeitschrift": null,
+      "Publikationstitel": null,
+      "Sumstatistiken vorhanden": true,
+      "Anzahl der assoziierten Loci": 0,
+      "Quelle": "FINNGEN",
+      "Gemeldetes Merkmal": "Recurrent dislocation of patella",
+      "Merkmal-EFOs": {
+        "list": "[{'element': 'HP_0002999'}]"
+      },
+      "Merkmalskategorie": "phenotype"
+    },
+    {
+      "Studien-ID": "FINNGEN_R6_M13_PATHODISLOCATIO",
+      "Ursprüngliche Abstammung": {
+        "list": "[{'element': 'European=175145'}]"
+      },
+      "Replikation der Abstammung": {
+        "list": "[]"
+      },
+      "Fallzahlen": 1731,
+      "Anzahl der ursprünglichen Abstammungen": 175145,
+      "Anzahl der Replikationen": 0,
+      "PubMed-ID": null,
+      "Autoren der Publikation": "FINNGEN_R6",
+      "Publikationsdatum": "2022-01-24",
+      "Publikationszeitschrift": null,
+      "Publikationstitel": null,
+      "Sumstatistiken vorhanden": true,
+      "Anzahl der assoziierten Loci": 0,
+      "Quelle": "FINNGEN",
+      "Gemeldetes Merkmal": "\"Pathological/recurrent dislocation and subluxation of joint, not elsewhere classified\"",
+      "Merkmal-EFOs": {
+        "list": "[{'element': 'HP_0032153'} {'element': 'HP_0001373'}]"
+      },
+      "Merkmalskategorie": "phenotype"
+    },
+    {
+      "Studien-ID": "FINNGEN_R6_M13_RECUDISLOCATIO",
+      "Ursprüngliche Abstammung": {
+        "list": "[{'element': 'European=174889'}]"
+      },
+      "Replikation der Abstammung": {
+        "list": "[]"
+      },
+      "Fallzahlen": 1475,
+      "Anzahl der ursprünglichen Abstammungen": 174889,
+      "Anzahl der Replikationen": 0,
+      "PubMed-ID": null,
+      "Autoren der Publikation": "FINNGEN_R6",
+      "Publikationsdatum": "2022-01-24",
+      "Publikationszeitschrift": null,
+      "Publikationstitel": null,
+      "Sumstatistiken vorhanden": true,
+      "Anzahl der assoziierten Loci": 0,
+      "Quelle": "FINNGEN",
+      "Gemeldetes Merkmal": "Recurrent dislocation and subluxation of joint",
+      "Merkmal-EFOs": {
+        "list": "[{'element': 'HP_0032153'} {'element': 'HP_0001373'}]"
+      },
+      "Merkmalskategorie": "phenotype"
+    },
+    {
+      "Studien-ID": "FINNGEN_R6_M13_SACROILIITIS",
+      "Ursprüngliche Abstammung": {
+        "list": "[{'element': 'European=195058'}]"
+      },
+      "Replikation der Abstammung": {
+        "list": "[]"
+      },
+      "Fallzahlen": 769,
+      "Anzahl der ursprünglichen Abstammungen": 195058,
+      "Anzahl der Replikationen": 0,
+      "PubMed-ID": null,
+      "Autoren der Publikation": "FINNGEN_R6",
+      "Publikationsdatum": "2022-01-24",
+      "Publikationszeitschrift": null,
+      "Publikationstitel": null,
+      "Sumstatistiken vorhanden": true,
+      "Anzahl der assoziierten Loci": 2,
+      "Quelle": "FINNGEN",
+      "Gemeldetes Merkmal": "\"Sacroiliitis, not elsewhere classified\"",
+      "Merkmal-EFOs": {
+        "list": "[{'element': 'HP_0012317'}]"
+      },
+      "Merkmalskategorie": "phenotype"
+    }
+  ]
+}

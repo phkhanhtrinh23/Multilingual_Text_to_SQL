@@ -1,0 +1,116 @@
+{
+  "table_name": "quant_phosphoproteome_AML_ex_vivo_drug_response_sorafenib_treatment_pdc_current",
+  "table_fullname": "isb-cgc-bq.CPTAC.quant_phosphoproteome_AML_ex_vivo_drug_response_sorafenib_treatment_pdc_current",
+  "column_names": [
+    "ケースID",
+    "サンプルID",
+    "分注ID",
+    "サンプル提出者ID",
+    "アリクオート実行メタデータID",
+    "研究名",
+    "タンパク質濃度対数2比",
+    "参照配列ID",
+    "リン酸化部位"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "ケース番号",
+    "サンプルID",
+    "アリオクID",
+    "アリクオット提出者ID",
+    "アリオット実行メタデータID",
+    "研究名",
+    "タンパク質発現量対数2比",
+    "リファレンス配列ID",
+    "リン酸化部位"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "特定の患者に関連付けられた一意の識別子（例：24cb0fcb-63d6-11e8-bcf1-0a2705229b82）",
+    "このサンプルのユニークPDC識別子（例：e8d83eb9-693a-11ea-b1fd-0aad30af8a83）",
+    "この試料のユニークPDC識別子（例：e8db124a-693a-11ea-b1fd-0aad30af8a83）",
+    "プログラムにより割り当てられたアリクオット送信者ID（例：T14）",
+    "実験での使用方法（ラベル付け試薬と/または生物学的複製に基づいて）によって、分注を一意に特定します。",
+    "研究名（例：小児脳腫瘍パイロット研究 - フォスフォプロテオーム）",
+    "特定の生物サンプルから取得されたデータにおける、遺伝子に関連するペプチドイオンのサンプルレポーターイオンと共通リファレンスの平均対数比",
+    "NCBI RefSeq データベースにおけるシーケンスに付与される一意の識別子",
+    "リン酸化アミノ酸の単文字コードとタンパク質配列上の位置（例：t304s310、t59）"
+  ],
+  "sample_rows": [
+    {
+      "ケース番号": "ecbde1d1-d1d9-4de5-913d-090a0571edd9",
+      "サンプルID": "c00046d2-ffee-43d8-a72f-64a187590a7b",
+      "アリオクID": "d9a038c8-92b3-4fff-afeb-799d93b97841",
+      "アリクオット提出者ID": "15-00276-1",
+      "アリオット実行メタデータID": "0c7495c0-2773-4f0a-aef6-ad497c9e1249",
+      "研究名": "AML Ex Vivo Drug Response - Sorafenib Treatment - Phosphoproteome",
+      "タンパク質発現量対数2比": -2.4666,
+      "リファレンス配列ID": "NP_000436.2",
+      "リン酸化部位": "s1622"
+    },
+    {
+      "ケース番号": "ecbde1d1-d1d9-4de5-913d-090a0571edd9",
+      "サンプルID": "c00046d2-ffee-43d8-a72f-64a187590a7b",
+      "アリオクID": "d9a038c8-92b3-4fff-afeb-799d93b97841",
+      "アリクオット提出者ID": "15-00276-1",
+      "アリオット実行メタデータID": "0c7495c0-2773-4f0a-aef6-ad497c9e1249",
+      "研究名": "AML Ex Vivo Drug Response - Sorafenib Treatment - Phosphoproteome",
+      "タンパク質発現量対数2比": -4.905,
+      "リファレンス配列ID": "NP_000923.1",
+      "リン酸化部位": "s537"
+    },
+    {
+      "ケース番号": "ecbde1d1-d1d9-4de5-913d-090a0571edd9",
+      "サンプルID": "c00046d2-ffee-43d8-a72f-64a187590a7b",
+      "アリオクID": "d9a038c8-92b3-4fff-afeb-799d93b97841",
+      "アリクオット提出者ID": "15-00276-1",
+      "アリオット実行メタデータID": "0c7495c0-2773-4f0a-aef6-ad497c9e1249",
+      "研究名": "AML Ex Vivo Drug Response - Sorafenib Treatment - Phosphoproteome",
+      "タンパク質発現量対数2比": -4.0065,
+      "リファレンス配列ID": "NP_001001.2",
+      "リン酸化部位": "s235s236"
+    },
+    {
+      "ケース番号": "ecbde1d1-d1d9-4de5-913d-090a0571edd9",
+      "サンプルID": "c00046d2-ffee-43d8-a72f-64a187590a7b",
+      "アリオクID": "d9a038c8-92b3-4fff-afeb-799d93b97841",
+      "アリクオット提出者ID": "15-00276-1",
+      "アリオット実行メタデータID": "0c7495c0-2773-4f0a-aef6-ad497c9e1249",
+      "研究名": "AML Ex Vivo Drug Response - Sorafenib Treatment - Phosphoproteome",
+      "タンパク質発現量対数2比": -3.9549,
+      "リファレンス配列ID": "NP_001005751.1",
+      "リン酸化部位": "s1114"
+    },
+    {
+      "ケース番号": "ecbde1d1-d1d9-4de5-913d-090a0571edd9",
+      "サンプルID": "c00046d2-ffee-43d8-a72f-64a187590a7b",
+      "アリオクID": "d9a038c8-92b3-4fff-afeb-799d93b97841",
+      "アリクオット提出者ID": "15-00276-1",
+      "アリオット実行メタデータID": "0c7495c0-2773-4f0a-aef6-ad497c9e1249",
+      "研究名": "AML Ex Vivo Drug Response - Sorafenib Treatment - Phosphoproteome",
+      "タンパク質発現量対数2比": -3.2762,
+      "リファレンス配列ID": "NP_001007027.1",
+      "リン酸化部位": "s739s746s748"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "table_name": "component_domains_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.component_domains_30",
+  "column_names": [
+    "id_compd",
+    "id_domínio",
+    "id_componente",
+    "posição_inicial",
+    "posição_final"
+  ],
+  "column_types": [
+    "INT64",
+    "INT64",
+    "INT64",
+    "INT64",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "id_compd",
+    "id_domínio",
+    "id_componente",
+    "posição_inicial",
+    "posição_final"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "INT64",
+    "INT64",
+    "INT64",
+    "INT64"
+  ],
+  "description": [
+    "Chave primária.",
+    "Chave estrangeira para a tabela domains, indicando o domínio que está contido no componente molecular associado.",
+    "Chave estrangeira para a tabela component_sequences, indicando o molecular_component que tem o domínio dado.",
+    "Posição de início do domínio dentro da sequência dada na tabela component_sequences.",
+    "Posição de fim do domínio dentro da sequência dada na tabela component_sequences."
+  ],
+  "sample_rows": [
+    {
+      "id_compd": 233577,
+      "id_domínio": 2832,
+      "id_componente": 3430,
+      "posição_inicial": 256,
+      "posição_final": 376
+    },
+    {
+      "id_compd": 229403,
+      "id_domínio": 3351,
+      "id_componente": 649,
+      "posição_inicial": 256,
+      "posição_final": 695
+    },
+    {
+      "id_compd": 233381,
+      "id_domínio": 3375,
+      "id_componente": 2296,
+      "posição_inicial": 256,
+      "posição_final": 433
+    },
+    {
+      "id_compd": 243399,
+      "id_domínio": 2630,
+      "id_componente": 7217,
+      "posição_inicial": 256,
+      "posição_final": 397
+    },
+    {
+      "id_compd": 247929,
+      "id_domínio": 2630,
+      "id_componente": 19683,
+      "posição_inicial": 256,
+      "posição_final": 397
+    }
+  ]
+}

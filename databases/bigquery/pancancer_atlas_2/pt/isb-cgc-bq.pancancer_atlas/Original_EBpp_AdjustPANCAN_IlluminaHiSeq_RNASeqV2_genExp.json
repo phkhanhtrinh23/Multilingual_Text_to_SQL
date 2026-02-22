@@ -1,0 +1,66 @@
+{
+  "table_name": "Original_EBpp_AdjustPANCAN_IlluminaHiSeq_RNASeqV2_genExp",
+  "table_fullname": "isb-cgc-bq.pancancer_atlas.Original_EBpp_AdjustPANCAN_IlluminaHiSeq_RNASeqV2_genExp",
+  "column_names": [
+    "símbolo",
+    "entrez",
+    "AliquotBarcode",
+    "RPKM"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64"
+  ],
+  "nested_column_names": [
+    "símbolo",
+    "entrez",
+    "AliquotBarcode",
+    "RPKM"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64"
+  ],
+  "description": [
+    "eg TP53, LRP1B, etc (mesmo que o campo Hugo_Symbol, exceto em branco em vez de Unknown",
+    "ID Entrez do NCBI, eg 730971",
+    "Código de barras do aliquote TCGA, eg TCGA-12-1089-01A-01D-0517-28",
+    "Leituras Por Quilobase de transcrito, por Milhão de leituras mapeadas (RPKM) é uma unidade normalizada de expressão de transcrito. Ela dimensiona por comprimento de transcrito para compensar o fato de que a maioria dos protocolos de RNA-seq irá gerar mais leituras de sequenciamento de moléculas de RNA mais longas. Exemplos: 0.0617, 14.9241, 2.2411"
+  ],
+  "sample_rows": [
+    {
+      "símbolo": "A1BG",
+      "entrez": "1",
+      "AliquotBarcode": "TCGA-A2-A0CK-01A-11R-A22K-07",
+      "RPKM": 296.553
+    },
+    {
+      "símbolo": "A1BG",
+      "entrez": "1",
+      "AliquotBarcode": "TCGA-14-0817-01A-01R-1849-01",
+      "RPKM": 214.163
+    },
+    {
+      "símbolo": "A1BG",
+      "entrez": "1",
+      "AliquotBarcode": "TCGA-25-1625-01A-01R-1566-13",
+      "RPKM": 19.906519436033
+    },
+    {
+      "símbolo": "A1BG",
+      "entrez": "1",
+      "AliquotBarcode": "TCGA-AX-A2H2-01A-11R-A180-07",
+      "RPKM": 62.8848545228859
+    },
+    {
+      "símbolo": "A1BG",
+      "entrez": "1",
+      "AliquotBarcode": "TCGA-97-8172-01A-11R-2287-07",
+      "RPKM": 100.683
+    }
+  ]
+}

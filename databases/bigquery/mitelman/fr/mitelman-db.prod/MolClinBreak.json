@@ -1,0 +1,76 @@
+{
+  "table_name": "MolClinBreak",
+  "table_fullname": "mitelman-db.prod.MolClinBreak",
+  "column_names": [
+    "CliniqueMol",
+    "NumRef",
+    "NumInv",
+    "NumCommande",
+    "PointDeCasse"
+  ],
+  "column_types": [
+    "STRING",
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "CliniqueMol",
+    "NumRef",
+    "NumInv",
+    "NumCommande",
+    "PointDeCasse"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING"
+  ],
+  "description": [
+    "indicateur indiquant soit moléculaire 'M', soit clinique 'C'",
+    "numéro de référence, par exemple '15563'",
+    "numéro d'investigation, généralement entre 1 et 10",
+    "numéro de commande, entre 1 et 68",
+    "description du point de rupture, par exemple '19p13' ou '12q2?3', etc"
+  ],
+  "sample_rows": [
+    {
+      "CliniqueMol": "C",
+      "NumRef": 579,
+      "NumInv": 1,
+      "NumCommande": 1,
+      "PointDeCasse": "1"
+    },
+    {
+      "CliniqueMol": "C",
+      "NumRef": 2514,
+      "NumInv": 1,
+      "NumCommande": 1,
+      "PointDeCasse": "1"
+    },
+    {
+      "CliniqueMol": "C",
+      "NumRef": 5581,
+      "NumInv": 1,
+      "NumCommande": 1,
+      "PointDeCasse": "1"
+    },
+    {
+      "CliniqueMol": "C",
+      "NumRef": 6551,
+      "NumInv": 1,
+      "NumCommande": 1,
+      "PointDeCasse": "1"
+    },
+    {
+      "CliniqueMol": "C",
+      "NumRef": 7542,
+      "NumInv": 1,
+      "NumCommande": 1,
+      "PointDeCasse": "1"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "table_name": "icd10_diagnoses_2019",
+  "table_fullname": "bigquery-public-data.cms_codes.icd10_diagnoses_2019",
+  "column_names": [
+    "订单号",
+    "CM代码",
+    "是否为标题码",
+    "简短描述",
+    "长描述"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "BOOL",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "订单号",
+    "CM代码",
+    "是否为头部代码",
+    "简短说明",
+    "长描述"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "BOOL",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "独特的头部代码，方便用户传达一系列代码",
+    "诊断代码",
+    "TRUE - 该代码是一个“header”代码，不适用于 HIPAA 覆盖的交易。 FALSE - 该代码可用于提交 HIPAA 覆盖的交易。",
+    "诊断的简短文字描述",
+    "诊断的完整文本描述"
+  ],
+  "sample_rows": [
+    {
+      "订单号": "00004",
+      "CM代码": "A009",
+      "是否为头部代码": false,
+      "简短说明": "Cholera, unspecified",
+      "长描述": "Cholera, unspecified"
+    },
+    {
+      "订单号": "01543",
+      "CM代码": "C4339",
+      "是否为头部代码": false,
+      "简短说明": "Malignant melanoma of other parts of face",
+      "长描述": "Malignant melanoma of other parts of face"
+    },
+    {
+      "订单号": "03541",
+      "CM代码": "D696",
+      "是否为头部代码": false,
+      "简短说明": "Thrombocytopenia, unspecified",
+      "长描述": "Thrombocytopenia, unspecified"
+    },
+    {
+      "订单号": "03955",
+      "CM代码": "E093593",
+      "是否为头部代码": false,
+      "简短说明": "Drug/chem diab with prolif diab rtnop without mclr edema, bi",
+      "长描述": "Drug or chemical induced diabetes mellitus with proliferative diabetic retinopathy without macular edema, bilateral"
+    },
+    {
+      "订单号": "05041",
+      "CM代码": "F12129",
+      "是否为头部代码": false,
+      "简短说明": "Cannabis abuse with intoxication, unspecified",
+      "长描述": "Cannabis abuse with intoxication, unspecified"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "table_name": "DNA_METHYLATION_CHR14_HG19_GDC_2017_01",
+  "table_fullname": "TCGA_MITELMAN.TCGA_VERSIONED.DNA_METHYLATION_CHR14_HG19_GDC_2017_01",
+  "column_names": [
+    "探针编号",
+    "平台",
+    "盒子条码",
+    "样本条形码",
+    "分样条码",
+    "项目简称",
+    "贝塔值"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "FLOAT"
+  ],
+  "description": [
+    "来自 Illumina Human Methylation array 的唯一探针标识符（例如 cg04676771）-- 请参考注释表（isb-cgc:platform_reference.methylation_annotation）以获取关于任何特定探针的更多详细信息",
+    "用于生成此数据的平台名称——HumanMethylation450 或 HumanMethylation27",
+    "原始 TCGA 病例条码，例如 TCGA-12-1089 -- 请注意，每个病例通常包含一个原发肿瘤样本和一个匹配的正常样本（血液或相邻组织）；请参阅 TCGA 生物样本表以获取更多详细信息",
+    "原始 TCGA 样本条码，例如 TCGA-12-1089-01A",
+    "原始 TCGA 标本条码，例如 TCGA-12-1089-01A-01D-0517-01",
+    "项目名称缩写；程序名称后附项目名称缩写，例如 TCGA-OV 等。",
+    "标准化 DNA 甲基化 β 值（介于 0 与 1 之间，0 表示完全未甲基化，1 表示完全甲基化）"
+  ],
+  "sample_rows": [
+    {
+      "项目简称": "TCGA-OV",
+      "盒子条码": "TCGA-01-0628",
+      "样本条形码": "TCGA-01-0628-11A",
+      "分样条码": "TCGA-01-0628-11A-01D-0383-05",
+      "探针编号": "cg22430790",
+      "贝塔值": 0.1,
+      "平台": "HumanMethylation27"
+    },
+    {
+      "项目简称": "TCGA-OV",
+      "盒子条码": "TCGA-01-0628",
+      "样本条形码": "TCGA-01-0628-11A",
+      "分样条码": "TCGA-01-0628-11A-01D-0383-05",
+      "探针编号": "cg25126812",
+      "贝塔值": 0.01,
+      "平台": "HumanMethylation27"
+    },
+    {
+      "项目简称": "TCGA-OV",
+      "盒子条码": "TCGA-01-0630",
+      "样本条形码": "TCGA-01-0630-11A",
+      "分样条码": "TCGA-01-0630-11A-01D-0383-05",
+      "探针编号": "cg09044738",
+      "贝塔值": 0.93,
+      "平台": "HumanMethylation27"
+    },
+    {
+      "项目简称": "TCGA-OV",
+      "盒子条码": "TCGA-01-0630",
+      "样本条形码": "TCGA-01-0630-11A",
+      "分样条码": "TCGA-01-0630-11A-01D-0383-05",
+      "探针编号": "cg01520924",
+      "贝塔值": 0.21,
+      "平台": "HumanMethylation27"
+    },
+    {
+      "项目简称": "TCGA-OV",
+      "盒子条码": "TCGA-01-0631",
+      "样本条形码": "TCGA-01-0631-11A",
+      "分样条码": "TCGA-01-0631-11A-01D-0383-05",
+      "探针编号": "cg14912575",
+      "贝塔值": 0.83,
+      "平台": "HumanMethylation27"
+    }
+  ]
+}

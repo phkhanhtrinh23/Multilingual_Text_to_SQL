@@ -1,0 +1,76 @@
+{
+  "table_name": "ligand_eff_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.ligand_eff_30",
+  "column_names": [
+    "Aktivitäts-ID",
+    "bei",
+    "sei",
+    "das",
+    "lle"
+  ],
+  "column_types": [
+    "INT64",
+    "FLOAT64",
+    "FLOAT64",
+    "FLOAT64",
+    "FLOAT64"
+  ],
+  "nested_column_names": [
+    "Aktivität",
+    "bei",
+    "sei",
+    "der",
+    "lle"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "FLOAT64",
+    "FLOAT64",
+    "FLOAT64",
+    "FLOAT64"
+  ],
+  "description": [
+    "Verknüpfe den Schlüssel mit der Aktivitäten-Tabelle.",
+    "Bindungseffizienzindex = p(XC50) *1000/MW_freebase",
+    "Oberflächen-Effizienzindex = p(XC50)*100/PSA",
+    "",
+    "Lipophilische Ligandeneffizienz = -logKi-ALogP. [aus Leeson NRDD 2007]"
+  ],
+  "sample_rows": [
+    {
+      "Aktivität": 31889,
+      "bei": 17.52,
+      "sei": 6.06,
+      "der": 0.59,
+      "lle": 4.7
+    },
+    {
+      "Aktivität": 31890,
+      "bei": 24.0,
+      "sei": 8.3,
+      "der": 0.81,
+      "lle": 6.63
+    },
+    {
+      "Aktivität": 31891,
+      "bei": 21.96,
+      "sei": 7.59,
+      "der": 0.74,
+      "lle": 6.03
+    },
+    {
+      "Aktivität": 31892,
+      "bei": 24.49,
+      "sei": 8.47,
+      "der": 0.83,
+      "lle": 6.78
+    },
+    {
+      "Aktivität": 31893,
+      "bei": 24.51,
+      "sei": 5.2,
+      "der": 0.56,
+      "lle": 8.65
+    }
+  ]
+}

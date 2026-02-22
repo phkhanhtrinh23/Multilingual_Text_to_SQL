@@ -1,0 +1,126 @@
+{
+  "table_name": "ghcnd_2020",
+  "table_fullname": "bigquery-public-data.ghcn_d.ghcnd_2020",
+  "column_names": [
+    "identificador",
+    "fecha",
+    "elemento",
+    "valor",
+    "Bandera M",
+    "indicador de calidad",
+    "bandera s",
+    "tiempo",
+    "URL de origen",
+    "marca_de_tiempo_etl"
+  ],
+  "column_types": [
+    "STRING",
+    "DATE",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "TIMESTAMP"
+  ],
+  "nested_column_names": [
+    "Identificador",
+    "fecha",
+    "elemento",
+    "valor",
+    "bandera",
+    "bandera de calidad",
+    "bandera de estado",
+    "tiempo",
+    "URL de origen",
+    "marca de tiempo ETL"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "DATE",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "TIMESTAMP"
+  ],
+  "description": [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "Fuente",
+    "Tiempo de carga para esta fila de datos"
+  ],
+  "sample_rows": [
+    {
+      "Identificador": "USC00142980",
+      "fecha": "2020-06-19",
+      "elemento": "MXPN",
+      "valor": 317.0,
+      "bandera": null,
+      "bandera de calidad": null,
+      "bandera de estado": "7",
+      "tiempo": null,
+      "URL de origen": "ftp://ftp.ncei.noaa.gov/pub/data/ghcn/daily/by_year/2020.csv.gz",
+      "marca de tiempo ETL": "2023-07-19 21:40:33.669021+00:00"
+    },
+    {
+      "Identificador": "USC00248569",
+      "fecha": "2020-06-19",
+      "elemento": "TMIN",
+      "valor": 106.0,
+      "bandera": null,
+      "bandera de calidad": null,
+      "bandera de estado": "7",
+      "tiempo": "2000",
+      "URL de origen": "ftp://ftp.ncei.noaa.gov/pub/data/ghcn/daily/by_year/2020.csv.gz",
+      "marca de tiempo ETL": "2023-07-19 21:40:33.669021+00:00"
+    },
+    {
+      "Identificador": "USC00036920",
+      "fecha": "2020-06-19",
+      "elemento": "TMIN",
+      "valor": 206.0,
+      "bandera": null,
+      "bandera de calidad": null,
+      "bandera de estado": "7",
+      "tiempo": "0800",
+      "URL de origen": "ftp://ftp.ncei.noaa.gov/pub/data/ghcn/daily/by_year/2020.csv.gz",
+      "marca de tiempo ETL": "2023-07-19 21:40:33.669021+00:00"
+    },
+    {
+      "Identificador": "USC00042294",
+      "fecha": "2020-06-19",
+      "elemento": "SX33",
+      "valor": 306.0,
+      "bandera": null,
+      "bandera de calidad": null,
+      "bandera de estado": "7",
+      "tiempo": "0800",
+      "URL de origen": "ftp://ftp.ncei.noaa.gov/pub/data/ghcn/daily/by_year/2020.csv.gz",
+      "marca de tiempo ETL": "2023-07-19 21:40:33.669021+00:00"
+    },
+    {
+      "Identificador": "USC00058860",
+      "fecha": "2020-06-19",
+      "elemento": "TMIN",
+      "valor": 33.0,
+      "bandera": null,
+      "bandera de calidad": null,
+      "bandera de estado": "7",
+      "tiempo": "0700",
+      "URL de origen": "ftp://ftp.ncei.noaa.gov/pub/data/ghcn/daily/by_year/2020.csv.gz",
+      "marca de tiempo ETL": "2023-07-19 21:40:33.669021+00:00"
+    }
+  ]
+}

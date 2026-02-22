@@ -1,0 +1,110 @@
+{
+  "table_name": "PROTEIN_EXPRESSION_HG19_GDC_2017_02",
+  "table_fullname": "TCGA.TCGA_VERSIONED.PROTEIN_EXPRESSION_HG19_GDC_2017_02",
+  "column_names": [
+    "Fall_Strichcode",
+    "Proteinname",
+    "Proteinausdruck",
+    "Projekt_Kurzname",
+    "Phospho",
+    "Genname",
+    "Antikörperquelle",
+    "Validierungsstatus",
+    "Protein_Basistyp",
+    "Proben_Strichcode",
+    "Aliquot_Strichcode"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "FLOAT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Ursprünglicher TCGA-Fall-Strichcode, z. B. TCGA-12-1089  --  beachten Sie, dass jeder Fall in der Regel eine primäre-Tumor-Probe und eine passende-Normal-(Blut- oder angrenzende-Gewebe-)Probe hat; bitte verweisen Sie auf die TCGA-Biospecimen-Tabelle für weitere Details",
+    "Proteinsymbol mit Phosphorylierungsstatus, z. B. ACC_pS79",
+    "Expressionsniveau des Proteins, wie durch reverse-phase-Protein-Arrays gemessen. https://bioinformatics.mdanderson.org/public-software/tcpa/",
+    "Projektname-Abkürzung; der Programmname mit einer Projektname-Abkürzung; z. B. TCGA-OV usw.",
+    "Wenn das Antikörper ein phosphoryliertes Protein anzielt, enthält dieses Feld diese Information, z. B. pS473  --  ansonsten ist dieses Feld null",
+    "Genname, z. B. TTN, DDR1 usw.",
+    "Tier, von dem das Antikörper stammt: M (Maus), R (Kaninchen), G (Ziege)",
+    "Validierungsstatus des Antikörpers durch Korrelation von RPPA-Daten mit Western-Blot: V, E, C. Für weitere Informationen: https://bioinformatics.mdanderson.org/public-software/mclp/",
+    "Proteinnamen, z. B. AR, MAPK",
+    "Ursprünglicher TCGA-Probe-Strichcode, z. B. TCGA-12-1089-01A  --  beachten Sie, dass eine Probe mehrere Aliquote haben kann und daher mehrere Sätze von CN-Segmentierungen; stellen Sie daher sicher, dass Sie GROUP BY entsprechend in Ihren Abfragen verwenden",
+    "Ursprünglicher TCGA-Aliquot-Strichcode, z. B. TCGA-12-1089-01A-01D-0517-01"
+  ],
+  "sample_rows": [
+    {
+      "Projekt_Kurzname": "TCGA-CHOL",
+      "Fall_Strichcode": "TCGA-ZH-A8Y1",
+      "Proben_Strichcode": "TCGA-ZH-A8Y1-01A",
+      "Aliquot_Strichcode": "TCGA-ZH-A8Y1-01A-21-A45N-20",
+      "Genname": "AR",
+      "Protein_Basistyp": "AR",
+      "Phospho": null,
+      "Proteinname": "AR",
+      "Proteinausdruck": -0.260880929,
+      "Antikörperquelle": "R",
+      "Validierungsstatus": "V"
+    },
+    {
+      "Projekt_Kurzname": "TCGA-CHOL",
+      "Fall_Strichcode": "TCGA-W5-AA2Q",
+      "Proben_Strichcode": "TCGA-W5-AA2Q-01A",
+      "Aliquot_Strichcode": "TCGA-W5-AA2Q-01A-21-A45N-20",
+      "Genname": "AR",
+      "Protein_Basistyp": "AR",
+      "Phospho": null,
+      "Proteinname": "AR",
+      "Proteinausdruck": -0.000939914500000028,
+      "Antikörperquelle": "R",
+      "Validierungsstatus": "V"
+    },
+    {
+      "Projekt_Kurzname": "TCGA-CHOL",
+      "Fall_Strichcode": "TCGA-W5-AA31",
+      "Proben_Strichcode": "TCGA-W5-AA31-01A",
+      "Aliquot_Strichcode": "TCGA-W5-AA31-01A-21-A45N-20",
+      "Genname": "AR",
+      "Protein_Basistyp": "AR",
+      "Phospho": null,
+      "Proteinname": "AR",
+      "Proteinausdruck": -0.14716832275,
+      "Antikörperquelle": "R",
+      "Validierungsstatus": "V"
+    },
+    {
+      "Projekt_Kurzname": "TCGA-DLBC",
+      "Fall_Strichcode": "TCGA-FF-A7CR",
+      "Proben_Strichcode": "TCGA-FF-A7CR-01A",
+      "Aliquot_Strichcode": "TCGA-FF-A7CR-01A-21-A45K-20",
+      "Genname": "AR",
+      "Protein_Basistyp": "AR",
+      "Phospho": null,
+      "Proteinname": "AR",
+      "Proteinausdruck": 0.1369039475,
+      "Antikörperquelle": "R",
+      "Validierungsstatus": "V"
+    },
+    {
+      "Projekt_Kurzname": "TCGA-CHOL",
+      "Fall_Strichcode": "TCGA-W5-AA2R",
+      "Proben_Strichcode": "TCGA-W5-AA2R-01A",
+      "Aliquot_Strichcode": "TCGA-W5-AA2R-01A-21-A45N-20",
+      "Genname": "AR",
+      "Protein_Basistyp": "AR",
+      "Phospho": null,
+      "Proteinname": "AR",
+      "Proteinausdruck": -0.0339963165,
+      "Antikörperquelle": "R",
+      "Validierungsstatus": "V"
+    }
+  ]
+}

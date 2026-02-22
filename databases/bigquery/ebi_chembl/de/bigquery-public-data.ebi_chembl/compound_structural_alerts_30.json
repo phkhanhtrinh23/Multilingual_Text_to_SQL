@@ -1,0 +1,56 @@
+{
+  "table_name": "compound_structural_alerts_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.compound_structural_alerts_30",
+  "column_names": [
+    "Alarm-ID",
+    "Molekülregistrierungsnummer",
+    "Alarm-ID"
+  ],
+  "column_types": [
+    "INT64",
+    "INT64",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "cpd_str_benachrichtigungs_id",
+    "mol_registrierungsnummer",
+    "benachrichtigungs_id"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "INT64",
+    "INT64"
+  ],
+  "description": [
+    "Primary key.",
+    "Foreign key zu dem molecule_dictionary. Die Verbindung, für die der strukturelle Alarm gefunden wurde.",
+    "Foreign key zur structural_alerts-Tabelle. Der betreffende Warnhinweis, der in dieser Verbindung identifiziert wurde."
+  ],
+  "sample_rows": [
+    {
+      "cpd_str_benachrichtigungs_id": 53246522,
+      "mol_registrierungsnummer": 105,
+      "benachrichtigungs_id": 1
+    },
+    {
+      "cpd_str_benachrichtigungs_id": 53246523,
+      "mol_registrierungsnummer": 638,
+      "benachrichtigungs_id": 1
+    },
+    {
+      "cpd_str_benachrichtigungs_id": 53246524,
+      "mol_registrierungsnummer": 722,
+      "benachrichtigungs_id": 1
+    },
+    {
+      "cpd_str_benachrichtigungs_id": 53246525,
+      "mol_registrierungsnummer": 752,
+      "benachrichtigungs_id": 1
+    },
+    {
+      "cpd_str_benachrichtigungs_id": 53246526,
+      "mol_registrierungsnummer": 777,
+      "benachrichtigungs_id": 1
+    }
+  ]
+}

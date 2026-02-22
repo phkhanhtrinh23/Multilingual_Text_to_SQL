@@ -1,0 +1,96 @@
+{
+  "table_name": "target_dictionary_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.target_dictionary_30",
+  "column_names": [
+    "スレッドID",
+    "対象タイプ",
+    "都道府県名",
+    "税務ID",
+    "生物",
+    "Chembl ID",
+    "種別グループフラグ"
+  ],
+  "column_types": [
+    "INT64",
+    "STRING",
+    "STRING",
+    "INT64",
+    "STRING",
+    "STRING",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "タスク番号",
+    "対象タイプ",
+    "都道府県名",
+    "税務ID",
+    "生物",
+    "Chembl ID",
+    "種別グループフラグ"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "STRING",
+    "STRING",
+    "INT64",
+    "STRING",
+    "STRING",
+    "INT64"
+  ],
+  "description": [
+    "対象の一意ID",
+    "ターゲットがタンパク質、オルガニズム、組織等であるかを示します。TARGET_TYPEテーブルへの外部キーです。",
+    "推奨対象名：手動でキュレーション",
+    "ターゲットのNCBI分類ID",
+    "分子標的または組織の由来生物種、または化合物の活性がタンパク質や組織ではなく生物体で報告されている場合の標的生物種",
+    "このターゲットのChEMBL識別子（ウェブインターフェース等で使用）",
+    "対象が個別の種ではなく種のグループ（例：'Bacterial DHFR'）を表しているかどうかを示すフラグ。1に設定された場合、関連するターゲットコンポーネントは代表的なものであり、包括的なセットではないことを示します。"
+  ],
+  "sample_rows": [
+    {
+      "タスク番号": 22224,
+      "対象タイプ": "ADMET",
+      "都道府県名": "ADMET",
+      "税務ID": null,
+      "生物": null,
+      "Chembl ID": "CHEMBL612558",
+      "種別グループフラグ": 0
+    },
+    {
+      "タスク番号": 109711,
+      "対象タイプ": "LIPID",
+      "都道府県名": "Cholesterol ester",
+      "税務ID": null,
+      "生物": null,
+      "Chembl ID": "CHEMBL3559388",
+      "種別グループフラグ": 0
+    },
+    {
+      "タスク番号": 109712,
+      "対象タイプ": "LIPID",
+      "都道府県名": "Triglyceride",
+      "税務ID": null,
+      "生物": null,
+      "Chembl ID": "CHEMBL3559389",
+      "種別グループフラグ": 0
+    },
+    {
+      "タスク番号": 120037,
+      "対象タイプ": "LIPID",
+      "都道府県名": "Lipid bilayer",
+      "税務ID": null,
+      "生物": null,
+      "Chembl ID": "CHEMBL4651323",
+      "種別グループフラグ": 0
+    },
+    {
+      "タスク番号": 109803,
+      "対象タイプ": "LIPID",
+      "都道府県名": "Ganglioside GD3",
+      "税務ID": 9606,
+      "生物": "Homo sapiens",
+      "Chembl ID": "CHEMBL3580507",
+      "種別グループフラグ": 0
+    }
+  ]
+}

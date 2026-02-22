@@ -1,0 +1,86 @@
+{
+  "table_name": "go_classification_23",
+  "table_fullname": "bigquery-public-data.ebi_chembl.go_classification_23",
+  "column_names": [
+    "Go識別子",
+    "親GO ID",
+    "都道府県名",
+    "クラスレベル",
+    "側面",
+    "経路"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "Go ID",
+    "親GO ID",
+    "都道府県名",
+    "クラスレベル",
+    "側面",
+    "パス"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "sample_rows": [
+    {
+      "Go ID": "GO:0003674",
+      "親GO ID": null,
+      "都道府県名": "molecular_function",
+      "クラスレベル": "0",
+      "側面": "F",
+      "パス": "molecular_function"
+    },
+    {
+      "Go ID": "GO:0008150",
+      "親GO ID": null,
+      "都道府県名": "biological_process",
+      "クラスレベル": "0",
+      "側面": "P",
+      "パス": "biological_process"
+    },
+    {
+      "Go ID": "GO:0005575",
+      "親GO ID": null,
+      "都道府県名": "cellular_component",
+      "クラスレベル": "0",
+      "側面": "C",
+      "パス": "cellular_component"
+    },
+    {
+      "Go ID": "GO:0003823",
+      "親GO ID": "GO:0003674",
+      "都道府県名": "antigen binding",
+      "クラスレベル": "1",
+      "側面": "F",
+      "パス": "molecular_function  antigen binding"
+    },
+    {
+      "Go ID": "GO:0005085",
+      "親GO ID": "GO:0003674",
+      "都道府県名": "guanyl-nucleotide exchange factor activity",
+      "クラスレベル": "1",
+      "側面": "F",
+      "パス": "molecular_function  guanyl-nucleotide exchange factor activity"
+    }
+  ]
+}

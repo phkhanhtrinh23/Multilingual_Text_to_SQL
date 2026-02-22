@@ -1,0 +1,116 @@
+{
+  "table_name": "quant_phosphoproteome_prospective_colon_PNNL_lumos_pdc_current",
+  "table_fullname": "isb-cgc-bq.CPTAC.quant_phosphoproteome_prospective_colon_PNNL_lumos_pdc_current",
+  "column_names": [
+    "identificador de caso",
+    "id_muestra",
+    "id_aliquota",
+    "id_solicitante_porción",
+    "id_metadatos_ejecucion_aliquota",
+    "nombre del estudio",
+    "relación_log2_abundancia_de_proteínas",
+    "ID de refseq",
+    "sitios de fosforilación"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "ID del caso",
+    "ID de muestra",
+    "id_porción",
+    "ID del remitente de la porción",
+    "id_metadatos_aliquot_ejecucion",
+    "nombre del estudio",
+    "log2_ratio_abundancia_proteína",
+    "ID de RefSeq",
+    "sitios de fosforilación"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "Identificador único asociado con un paciente específico (por ejemplo, 24cb0fcb-63d6-11e8-bcf1-0a2705229b82)",
+    "Identificador único PDC para esta muestra (por ejemplo e8d83eb9-693a-11ea-b1fd-0aad30af8a83)",
+    "Identificador único PDC para este alíquot (p. ej. e8db124a-693a-11ea-b1fd-0aad30af8a83)",
+    "ID del remitente de la alícuota asignado por el programa (por ejemplo, T14)",
+    "Identifica de forma única la alícuota según su uso en el experimento (basado en el reactivo de etiquetado y/o réplica biológica).",
+    "Nombre del estudio (p. ej., Estudio Piloto de Cáncer Cerebral Pediátrico - Fosforoproteoma)",
+    "Promedio del log‑ratio entre el ion reportero de la muestra y la referencia común de iones de péptido asociados con el gen en adquisiciones de una muestra biológica específica.",
+    "Identificador único asignado a una secuencia en la base de datos RefSeq de NCBI",
+    "Códigos de una sola letra y posiciones de la secuencia proteica de los aminoácidos fosforilados (p. ej., t304s310, t59)"
+  ],
+  "sample_rows": [
+    {
+      "ID del caso": "0bc46cbd-63d6-11e8-bcf1-0a2705229b82",
+      "ID de muestra": "4f9db1ce-641b-11e8-bcf1-0a2705229b82",
+      "id_porción": "263c66c0-642a-11e8-bcf1-0a2705229b82",
+      "ID del remitente de la porción": "cc271b3d-ed33-481f-9d23-15f2f6_D2",
+      "id_metadatos_aliquot_ejecucion": "868fb8e6-5737-11e8-b664-00a098d917f8",
+      "nombre del estudio": "Prospective Colon PNNL Phosphoproteome Lumos",
+      "log2_ratio_abundancia_proteína": -1.9183,
+      "ID de RefSeq": "NP_116204.3",
+      "sitios de fosforilación": "s90s92"
+    },
+    {
+      "ID del caso": "0bc46cbd-63d6-11e8-bcf1-0a2705229b82",
+      "ID de muestra": "4f9db1ce-641b-11e8-bcf1-0a2705229b82",
+      "id_porción": "263c66c0-642a-11e8-bcf1-0a2705229b82",
+      "ID del remitente de la porción": "cc271b3d-ed33-481f-9d23-15f2f6_D2",
+      "id_metadatos_aliquot_ejecucion": "868fb8e6-5737-11e8-b664-00a098d917f8",
+      "nombre del estudio": "Prospective Colon PNNL Phosphoproteome Lumos",
+      "log2_ratio_abundancia_proteína": 0.5338,
+      "ID de RefSeq": "NP_001294951.1",
+      "sitios de fosforilación": "s445"
+    },
+    {
+      "ID del caso": "0bc46cbd-63d6-11e8-bcf1-0a2705229b82",
+      "ID de muestra": "4f9db1ce-641b-11e8-bcf1-0a2705229b82",
+      "id_porción": "263c66c0-642a-11e8-bcf1-0a2705229b82",
+      "ID del remitente de la porción": "cc271b3d-ed33-481f-9d23-15f2f6_D2",
+      "id_metadatos_aliquot_ejecucion": "868fb8e6-5737-11e8-b664-00a098d917f8",
+      "nombre del estudio": "Prospective Colon PNNL Phosphoproteome Lumos",
+      "log2_ratio_abundancia_proteína": -2.2728,
+      "ID de RefSeq": "NP_001269554.1",
+      "sitios de fosforilación": "t19s22"
+    },
+    {
+      "ID del caso": "0bc46cbd-63d6-11e8-bcf1-0a2705229b82",
+      "ID de muestra": "4f9db1ce-641b-11e8-bcf1-0a2705229b82",
+      "id_porción": "263c66c0-642a-11e8-bcf1-0a2705229b82",
+      "ID del remitente de la porción": "cc271b3d-ed33-481f-9d23-15f2f6_D2",
+      "id_metadatos_aliquot_ejecucion": "868fb8e6-5737-11e8-b664-00a098d917f8",
+      "nombre del estudio": "Prospective Colon PNNL Phosphoproteome Lumos",
+      "log2_ratio_abundancia_proteína": -0.3971,
+      "ID de RefSeq": "NP_001186064.1",
+      "sitios de fosforilación": "s357"
+    },
+    {
+      "ID del caso": "0bc46cbd-63d6-11e8-bcf1-0a2705229b82",
+      "ID de muestra": "4f9db1ce-641b-11e8-bcf1-0a2705229b82",
+      "id_porción": "263c66c0-642a-11e8-bcf1-0a2705229b82",
+      "ID del remitente de la porción": "cc271b3d-ed33-481f-9d23-15f2f6_D2",
+      "id_metadatos_aliquot_ejecucion": "868fb8e6-5737-11e8-b664-00a098d917f8",
+      "nombre del estudio": "Prospective Colon PNNL Phosphoproteome Lumos",
+      "log2_ratio_abundancia_proteína": 0.0208,
+      "ID de RefSeq": "NP_573571.1",
+      "sitios de fosforilación": "s266"
+    }
+  ]
+}

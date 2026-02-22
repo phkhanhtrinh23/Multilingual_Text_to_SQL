@@ -1,0 +1,102 @@
+{
+  "table_name": "DNA_METHYLATION_CHRY_HG38_GDC_2017_01",
+  "table_fullname": "TCGA.TCGA_VERSIONED.DNA_METHYLATION_CHRY_HG38_GDC_2017_01",
+  "column_names": [
+    "giá trị beta",
+    "mã vạch aliquot",
+    "Mã GDC",
+    "Mã GDC mẫu",
+    "mã vạch mẫu",
+    "ID mẫu GDC",
+    "nền tảng",
+    "Mã máy dò",
+    "mã vạch hồ sơ",
+    "mã_tệp_gdc"
+  ],
+  "column_types": [
+    "FLOAT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Đại diện cho tỉ lệ giữa cường độ của mảng đã methyl và tổng cường độ của mảng, nằm trong khoảng từ 0 (cấp độ methyl hóa thấp hơn) đến 1 (cấp độ methyl hóa cao hơn)",
+    "Mã vạch mẫu TCGA, ví dụ: TCGA-12-1089-01A-01D-0517-27",
+    "Định danh duy nhất của GDC cho trường hợp này (tương ứng với mã vạch trường hợp). Có thể được sử dụng để truy cập thêm thông tin từ cổng dữ liệu GDC như sau: https://portal.gdc.cancer.gov/files/c21b332c-06c6-4403-9032-f91c8f407ba35",
+    "Định danh GDC duy nhất cho mẫu này (tương ứng với mã mẫu sample_barcode), ví dụ a1ec9279-c1a6-4e58-97ed-9ec1f36187c5  --  điều này có thể được sử dụng để truy cập thêm thông tin từ cổng dữ liệu GDC",
+    "Barcode mẫu TCGA, ví dụ TCGA-12-1089-01A. Một mẫu có thể có nhiều bộ phân đoạn CN tương ứng với nhiều phần mẫu; hãy sử dụng GROUP BY một cách thích hợp trong các truy vấn.",
+    "Định danh GDC duy nhất cho mẫu này (tương ứng với mã vạch aliquot), ví dụ 7fbfdb3e-1fd2-4206-8d2e-7f68e4a15844 -- điều này có thể được sử dụng để truy cập thêm thông tin từ cổng dữ liệu GDC",
+    "Nền tảng được dùng để tạo dữ liệu này – có thể là HumanMethylation450 hoặc HumanMethylation27",
+    "ID duy nhất cho probe mảng liên quan đến một vị trí CpG",
+    "Bảng mã trường hợp TCGA gốc, ví dụ TCGA-DX-A8BN",
+    "Mã định danh duy nhất GDC cho tệp này (tương ứng với file_barcode) -- có thể sử dụng để truy cập thêm thông tin từ cổng dữ liệu GDC như sau: https://portal.gdc.cancer.gov/files/c21b332c-06c6-4403-9032-f91c8f407ba42"
+  ],
+  "sample_rows": [
+    {
+      "mã vạch hồ sơ": "TCGA-A6-2670",
+      "mã vạch mẫu": "TCGA-A6-2670-01A",
+      "mã vạch aliquot": "TCGA-A6-2670-01A-02D-0820-05",
+      "Mã máy dò": "cg03515901",
+      "giá trị beta": 0.939927954557361,
+      "nền tảng": null,
+      "mã_tệp_gdc": "cdd5e1a9-1ce8-4361-9fca-61ccb7098b25",
+      "Mã GDC": "65bb7520-f055-43a8-b735-1152fa2c9e04",
+      "Mã GDC mẫu": "724072ae-40b5-45cc-b339-e24f1cb6fbcf",
+      "ID mẫu GDC": "b8074b70-ad2b-49e5-b70a-c6e8a6681830"
+    },
+    {
+      "mã vạch hồ sơ": "TCGA-BR-4186",
+      "mã vạch mẫu": "TCGA-BR-4186-01A",
+      "mã vạch aliquot": "TCGA-BR-4186-01A-01D-1129-05",
+      "Mã máy dò": "cg22415432",
+      "giá trị beta": 0.501611003084744,
+      "nền tảng": null,
+      "mã_tệp_gdc": "9f1a5a8a-aa4b-498b-b522-74eec31b203c",
+      "Mã GDC": "65834878-0e8d-4741-9e4c-2316105ad40d",
+      "Mã GDC mẫu": "d8919d77-45ab-438a-825d-51bdb1310659",
+      "ID mẫu GDC": "43256bf0-b759-4b49-b76f-6d015376326b"
+    },
+    {
+      "mã vạch hồ sơ": "TCGA-BR-4190",
+      "mã vạch mẫu": "TCGA-BR-4190-01A",
+      "mã vạch aliquot": "TCGA-BR-4190-01A-01D-1129-05",
+      "Mã máy dò": "cg20401549",
+      "giá trị beta": 0.398097856078824,
+      "nền tảng": null,
+      "mã_tệp_gdc": "16a7391b-41d8-4b4a-9296-fcbec012a2e7",
+      "Mã GDC": "282e979d-4ad9-4d42-8ffa-7487a94fa1f3",
+      "Mã GDC mẫu": "0486af5d-6d7c-4409-81e9-2fc4a38225c4",
+      "ID mẫu GDC": "77f0ac56-827e-47da-bbfd-ca438b9fa222"
+    },
+    {
+      "mã vạch hồ sơ": "TCGA-BR-4190",
+      "mã vạch mẫu": "TCGA-BR-4190-01A",
+      "mã vạch aliquot": "TCGA-BR-4190-01A-01D-1129-05",
+      "Mã máy dò": "cg22415432",
+      "giá trị beta": 0.547468110865326,
+      "nền tảng": null,
+      "mã_tệp_gdc": "16a7391b-41d8-4b4a-9296-fcbec012a2e7",
+      "Mã GDC": "282e979d-4ad9-4d42-8ffa-7487a94fa1f3",
+      "Mã GDC mẫu": "0486af5d-6d7c-4409-81e9-2fc4a38225c4",
+      "ID mẫu GDC": "77f0ac56-827e-47da-bbfd-ca438b9fa222"
+    },
+    {
+      "mã vạch hồ sơ": "TCGA-BR-4194",
+      "mã vạch mẫu": "TCGA-BR-4194-11A",
+      "mã vạch aliquot": "TCGA-BR-4194-11A-01D-1129-05",
+      "Mã máy dò": "cg08455548",
+      "giá trị beta": 0.277063709223331,
+      "nền tảng": null,
+      "mã_tệp_gdc": "2c8ae27f-bf3c-4fda-b718-c6491c4fd8df",
+      "Mã GDC": "2c650fe1-48b0-4f88-bc11-04096be48571",
+      "Mã GDC mẫu": "1cf42373-411f-41fd-8705-c829800c2c55",
+      "ID mẫu GDC": "02b7a23d-34b9-4dfc-a1e5-800819501377"
+    }
+  ]
+}

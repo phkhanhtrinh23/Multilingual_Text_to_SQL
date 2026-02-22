@@ -1,0 +1,81 @@
+{
+  "table_name": "TCGA_RPPA_PANCAN_CLEAN_FILTERED",
+  "table_fullname": "PANCANCER_ATLAS_1.PANCANCER_ATLAS_FILTERED.TCGA_RPPA_PANCAN_CLEAN_FILTERED",
+  "column_names": [
+    "样本类型字母码",
+    "样本条码",
+    "样本条码",
+    "研究",
+    "样本类型",
+    "参与者条形码",
+    "值",
+    "蛋白质"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "FLOAT",
+    "TEXT"
+  ],
+  "description": [
+    "使用 TCGA 标准的样本类型字母代码，例如 TPN、EBV。完整列表可在 https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/sample-type-codes 查看",
+    "生物样本条形码，例如 TCGA-13-1489-02A",
+    "TCGA 样本分离条码，例如 TCGA-12-1089-01A-01D-0517-28",
+    "TCGA 研究缩写，例如 LAML。完整列表可在 https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/tcga-study-abbreviations 查看",
+    "血液来源正常  \n原发实体瘤  \n实体组织正常  \n复发实体瘤  \n转移瘤  \n附加—新原发  \n原发血液来源癌症—外周血  \n口腔黏膜细胞正常  \n附加转移瘤  \n骨髓正常",
+    "研究参与者的 TCGA 条码识别码，例如 TCGA-02-0001",
+    "蛋白表达水平通过逆相蛋白阵列（RPPAs）测量。示例：0.204238725,-0.01826295",
+    "蛋白符号和磷酸化状态（如适用），例如 P53、JNK_pT183Y185"
+  ],
+  "sample_rows": [
+    {
+      "参与者条形码": "TCGA-04-1335",
+      "样本条码": "TCGA-04-1335-01A-21-20",
+      "样本类型字母码": "TP",
+      "样本类型": "Primary solid Tumor",
+      "研究": "OV",
+      "蛋白质": "PDCD1",
+      "值": null
+    },
+    {
+      "参与者条形码": "TCGA-04-1335",
+      "样本条码": "TCGA-04-1335-01A-21-20",
+      "样本类型字母码": "TP",
+      "样本类型": "Primary solid Tumor",
+      "研究": "OV",
+      "蛋白质": "BCL2",
+      "值": 0.077853
+    },
+    {
+      "参与者条形码": "TCGA-04-1335",
+      "样本条码": "TCGA-04-1335-01A-21-20",
+      "样本类型字母码": "TP",
+      "样本类型": "Primary solid Tumor",
+      "研究": "OV",
+      "蛋白质": "EIF4E",
+      "值": -0.91868
+    },
+    {
+      "参与者条形码": "TCGA-04-1335",
+      "样本条码": "TCGA-04-1335-01A-21-20",
+      "样本类型字母码": "TP",
+      "样本类型": "Primary solid Tumor",
+      "研究": "OV",
+      "蛋白质": "SF2",
+      "值": 0.018487
+    },
+    {
+      "参与者条形码": "TCGA-04-1335",
+      "样本条码": "TCGA-04-1335-01A-21-20",
+      "样本类型字母码": "TP",
+      "样本类型": "Primary solid Tumor",
+      "研究": "OV",
+      "蛋白质": "MYOSINIIA_pS1943",
+      "值": 0.44285
+    }
+  ]
+}

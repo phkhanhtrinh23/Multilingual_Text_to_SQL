@@ -1,0 +1,76 @@
+{
+  "table_name": "indication_refs_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.indication_refs_30",
+  "column_names": [
+    "インデックス参照ID",
+    "薬剤ID",
+    "参照タイプ",
+    "参照ID",
+    "参照URL"
+  ],
+  "column_types": [
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "指標参照ID",
+    "薬剤ID",
+    "参照タイプ",
+    "参照ID",
+    "参照URL"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "主キー",
+    "DRUG_INDICATION テーブルへの外部キーで、この参照が適用される薬剤・適応のリンクを示す",
+    "参照元の種類",
+    "ソース内の参照に対する識別子",
+    "参照へのフルURLリンク"
+  ],
+  "sample_rows": [
+    {
+      "指標参照ID": 437519,
+      "薬剤ID": 50045,
+      "参照タイプ": "ATC",
+      "参照ID": "A01AB02",
+      "参照URL": "http://www.whocc.no/atc_ddd_index/?code=A01AB02"
+    },
+    {
+      "指標参照ID": 495235,
+      "薬剤ID": 68675,
+      "参照タイプ": "ATC",
+      "参照ID": "A01AB03",
+      "参照URL": "http://www.whocc.no/atc_ddd_index/?code=A01AB03"
+    },
+    {
+      "指標参照ID": 434491,
+      "薬剤ID": 42687,
+      "参照タイプ": "ATC",
+      "参照ID": "A01AB04",
+      "参照URL": "http://www.whocc.no/atc_ddd_index/?code=A01AB04"
+    },
+    {
+      "指標参照ID": 486361,
+      "薬剤ID": 50046,
+      "参照タイプ": "ATC",
+      "参照ID": "A01AB05",
+      "参照URL": "http://www.whocc.no/atc_ddd_index/?code=A01AB05"
+    },
+    {
+      "指標参照ID": 493806,
+      "薬剤ID": 67819,
+      "参照タイプ": "ATC",
+      "参照ID": "A01AB06",
+      "参照URL": "http://www.whocc.no/atc_ddd_index/?code=A01AB06"
+    }
+  ]
+}

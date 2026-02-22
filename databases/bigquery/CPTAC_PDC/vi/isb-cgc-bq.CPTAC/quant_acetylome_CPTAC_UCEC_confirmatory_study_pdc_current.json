@@ -1,0 +1,116 @@
+{
+  "table_name": "quant_acetylome_CPTAC_UCEC_confirmatory_study_pdc_current",
+  "table_fullname": "isb-cgc-bq.CPTAC.quant_acetylome_CPTAC_UCEC_confirmatory_study_pdc_current",
+  "column_names": [
+    "id_điều",
+    "mã mẫu",
+    "Mã aliquot",
+    "ID người nộp mẫu phân tách",
+    "id siêu dữ liệu chạy phân tách",
+    "Tên nghiên cứu",
+    "tỷ lệ log2 độ dày protein",
+    "định danh refseq",
+    "địa điểm acetylation"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "Mã vụ",
+    "Mã mẫu",
+    "mã số aliquot",
+    "id_người_nộp_mẫu",
+    "Mã siêu dữ liệu chạy aliquot",
+    "tên_nghiên_cứu",
+    "tỷ lệ log2 lượng protein",
+    "ID chuỗi tham chiếu",
+    "Vị trí acetyl hóa"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "Định danh duy nhất liên quan đến một bệnh nhân cụ thể (ví dụ: 24cb0fcb-63d6-11e8-bcf1-0a2705229b82)",
+    "Định danh PDC duy nhất cho mẫu này (ví dụ: e8d83eb9-693a-11ea-b1fd-0aad30af8a83)",
+    "Mã định danh PDC duy nhất cho mẫu này (ví dụ: e8db124a-693a-11ea-b1fd-0aad30af8a83)",
+    "ID người gửi aliquot được cấp bởi chương trình (ví dụ: T14)",
+    "Xác định duy nhất phần lấy mẫu dựa trên cách nó được sử dụng trong thí nghiệm (dựa trên chất dán nhãn và/hoặc bản sao sinh học).",
+    "Tên nghiên cứu (ví dụ: Nghiên cứu Thí điểm ung thư não trẻ em - Phosphoproteome)",
+    "Tỷ lệ log trung bình của ion báo cáo mẫu so với tham chiếu chung của ion peptide liên quan tới gene trong các lần thu thập từ một mẫu sinh học cụ thể",
+    "Định danh duy nhất được cấp cho một chuỗi trong cơ sở dữ liệu NCBI RefSeq",
+    "Mã chữ đơn và vị trí trong dãy protein của các axit amin được acetyl hóa (ví dụ: k12k16, k21)"
+  ],
+  "sample_rows": [
+    {
+      "Mã vụ": "5aa447a4-84ce-4215-81b3-107210b3f38d",
+      "Mã mẫu": "018273c1-689d-450a-baa3-bb935bc57cea",
+      "mã số aliquot": "03cb7dd1-c655-4dcf-b3f9-7827f4d6754f",
+      "id_người_nộp_mẫu": "CPT0133400008",
+      "Mã siêu dữ liệu chạy aliquot": "3ee09a99-7432-4b48-883c-1c9c96cc50c7",
+      "tên_nghiên_cứu": "CPTAC UCEC Confirmatory Study - Acetylome",
+      "tỷ lệ log2 lượng protein": 0.1884,
+      "ID chuỗi tham chiếu": "NP_001073027.1",
+      "Vị trí acetyl hóa": "k570"
+    },
+    {
+      "Mã vụ": "5aa447a4-84ce-4215-81b3-107210b3f38d",
+      "Mã mẫu": "018273c1-689d-450a-baa3-bb935bc57cea",
+      "mã số aliquot": "03cb7dd1-c655-4dcf-b3f9-7827f4d6754f",
+      "id_người_nộp_mẫu": "CPT0133400008",
+      "Mã siêu dữ liệu chạy aliquot": "3ee09a99-7432-4b48-883c-1c9c96cc50c7",
+      "tên_nghiên_cứu": "CPTAC UCEC Confirmatory Study - Acetylome",
+      "tỷ lệ log2 lượng protein": 1.4142,
+      "ID chuỗi tham chiếu": "NP_003680.2",
+      "Vị trí acetyl hóa": "k112"
+    },
+    {
+      "Mã vụ": "5aa447a4-84ce-4215-81b3-107210b3f38d",
+      "Mã mẫu": "018273c1-689d-450a-baa3-bb935bc57cea",
+      "mã số aliquot": "03cb7dd1-c655-4dcf-b3f9-7827f4d6754f",
+      "id_người_nộp_mẫu": "CPT0133400008",
+      "Mã siêu dữ liệu chạy aliquot": "3ee09a99-7432-4b48-883c-1c9c96cc50c7",
+      "tên_nghiên_cứu": "CPTAC UCEC Confirmatory Study - Acetylome",
+      "tỷ lệ log2 lượng protein": -0.0513,
+      "ID chuỗi tham chiếu": "NP_002005.1",
+      "Vị trí acetyl hóa": "k294"
+    },
+    {
+      "Mã vụ": "5aa447a4-84ce-4215-81b3-107210b3f38d",
+      "Mã mẫu": "018273c1-689d-450a-baa3-bb935bc57cea",
+      "mã số aliquot": "03cb7dd1-c655-4dcf-b3f9-7827f4d6754f",
+      "id_người_nộp_mẫu": "CPT0133400008",
+      "Mã siêu dữ liệu chạy aliquot": "3ee09a99-7432-4b48-883c-1c9c96cc50c7",
+      "tên_nghiên_cứu": "CPTAC UCEC Confirmatory Study - Acetylome",
+      "tỷ lệ log2 lượng protein": 1.3697,
+      "ID chuỗi tham chiếu": "NP_000627.2",
+      "Vị trí acetyl hóa": "k122"
+    },
+    {
+      "Mã vụ": "5aa447a4-84ce-4215-81b3-107210b3f38d",
+      "Mã mẫu": "018273c1-689d-450a-baa3-bb935bc57cea",
+      "mã số aliquot": "03cb7dd1-c655-4dcf-b3f9-7827f4d6754f",
+      "id_người_nộp_mẫu": "CPT0133400008",
+      "Mã siêu dữ liệu chạy aliquot": "3ee09a99-7432-4b48-883c-1c9c96cc50c7",
+      "tên_nghiên_cứu": "CPTAC UCEC Confirmatory Study - Acetylome",
+      "tỷ lệ log2 lượng protein": 0.2425,
+      "ID chuỗi tham chiếu": "NP_001247421.1",
+      "Vị trí acetyl hóa": "k306"
+    }
+  ]
+}

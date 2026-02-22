@@ -1,0 +1,86 @@
+{
+  "table_name": "activity_stds_lookup_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.activity_stds_lookup_30",
+  "column_names": [
+    "标准活动编号",
+    "标准类型",
+    "定义",
+    "标准单位",
+    "正常范围下限",
+    "正常范围上限"
+  ],
+  "column_types": [
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "FLOAT64"
+  ],
+  "nested_column_names": [
+    "标准活动编号",
+    "标准类型",
+    "定义",
+    "标准单位",
+    "正常范围最小",
+    "正常上限值"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "FLOAT64"
+  ],
+  "description": [
+    "主键.",
+    "activities 表中其他 published_types 已经转换为的 standard_type。",
+    "standard_type 的描述/定义",
+    "适用于此标准类型且可被转换为其他已发布单位的单位。请注意，一个标准类型可能有多个允许的标准单位，因此此表中可能会出现多行。",
+    "此活动类型中最有可能是真实的最低值。 这只是一个近似值，可能存在更低的真实值，但在使用之前最好验证这些值。 对于给定的 standard_type/units，活动表中低于此阈值的值将被标记为 data_validity_comment 'Outside typical range'。",
+    "该活动类型最有可能是真实的最高值。 这仅是一个近似值，可能存在更高的真实值，但在使用之前验证这些值可能是必要的。 对于给定的 standard_type/units，活动表中超过此阈值的值将被标记为 data_validity_comment “Outside typical range”。"
+  ],
+  "sample_rows": [
+    {
+      "标准活动编号": 81,
+      "标准类型": "HCT",
+      "定义": "The percentage of a whole blood specimen that is composed of red blood cells (erythrocytes).",
+      "标准单位": "%",
+      "正常范围最小": null,
+      "正常上限值": null
+    },
+    {
+      "标准活动编号": 95,
+      "标准类型": "MCHC",
+      "定义": "A quantitative measurement of the mean amount of hemoglobin per erythrocytes in a specified volume of a biological specimen.",
+      "标准单位": "%",
+      "正常范围最小": null,
+      "正常上限值": null
+    },
+    {
+      "标准活动编号": 103,
+      "标准类型": "EOSLE",
+      "定义": "A relative measurement (ratio or percentage) of the eosinophils to leukocytes in a biological specimen.",
+      "标准单位": "%",
+      "正常范围最小": null,
+      "正常上限值": null
+    },
+    {
+      "标准活动编号": 104,
+      "标准类型": "LYMLE",
+      "定义": "A relative measurement (ratio or percentage) of the lymphocytes to leukocytes in a biological specimen.",
+      "标准单位": "%",
+      "正常范围最小": null,
+      "正常上限值": null
+    },
+    {
+      "标准活动编号": 106,
+      "标准类型": "BASOLE",
+      "定义": "A relative measurement (ratio or percentage) of the basophils to leukocytes in a biological specimen.",
+      "标准单位": "%",
+      "正常范围最小": null,
+      "正常上限值": null
+    }
+  ]
+}

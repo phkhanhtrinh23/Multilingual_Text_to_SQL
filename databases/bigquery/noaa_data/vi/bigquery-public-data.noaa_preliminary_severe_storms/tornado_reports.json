@@ -1,0 +1,126 @@
+{
+  "table_name": "tornado_reports",
+  "table_fullname": "bigquery-public-data.noaa_preliminary_severe_storms.tornado_reports",
+  "column_names": [
+    "Thời gian",
+    "Thời gian",
+    "độ quy mô tần số",
+    "địa điểm",
+    "tỉnh",
+    "Tình trạng",
+    "vĩ độ",
+    "kinh độ",
+    "Nhận xét",
+    "điểm báo cáo"
+  ],
+  "column_types": [
+    "TIMESTAMP",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "FLOAT64",
+    "STRING",
+    "GEOGRAPHY"
+  ],
+  "nested_column_names": [
+    "mốc thời gian",
+    "thời gian",
+    "tỷ lệ f",
+    "vị trí",
+    "hạt",
+    "trạng thái",
+    "vĩ độ",
+    "độ kinh độ",
+    "Bình luận",
+    "điểm báo cáo"
+  ],
+  "nested_column_types": [
+    "TIMESTAMP",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "FLOAT64",
+    "STRING",
+    "GEOGRAPHY"
+  ],
+  "description": [
+    "Mốc thời gian theo UTC",
+    "Giờ UTC",
+    "Hệ thống F‑Scale phân loại thiệt hại từ F0 đến F5 theo tiêu chuẩn của các kỹ sư và nhà khí tượng học, dựa trên 28 loại chỉ số thiệt hại khác nhau (chủ yếu là các loại công trình xây dựng, nhưng cũng bao gồm một vài công trình khác và cây cối).",
+    "Vị trí của báo cáo",
+    "",
+    "",
+    "Vĩ độ đến hai chữ số thập phân",
+    "Kinh độ làm tròn đến hai chữ số thập phân",
+    "",
+    ""
+  ],
+  "sample_rows": [
+    {
+      "mốc thời gian": "2019-01-04 10:40:00+00:00",
+      "thời gian": "1040",
+      "tỷ lệ f": "UNK",
+      "vị trí": "2 N GRABALL",
+      "hạt": "HENRY",
+      "trạng thái": "AL",
+      "vĩ độ": 31.62,
+      "độ kinh độ": -85.28,
+      "Bình luận": "TREE DAMAGE FROM A BRIEF TORNADO ABOUT 1.5 MI N OF ABBEVILLE / 2 MI N GRABALL. (TAE)",
+      "điểm báo cáo": "POINT(-85.28 31.62)"
+    },
+    {
+      "mốc thời gian": "2019-01-19 20:04:00+00:00",
+      "thời gian": "2004",
+      "tỷ lệ f": "UNK",
+      "vị trí": "3 ENE MULBERRY",
+      "hạt": "AUTAUGA",
+      "trạng thái": "AL",
+      "vĩ độ": 32.49,
+      "độ kinh độ": -86.73,
+      "Bình luận": "*** 2 INJ *** CORRECTS PREVIOUS TORNADO REPORT TO INCLUDE 2 INJURIES. A NWS STORM SURVEY TEAM CONFIRMED A TORNADO OF EF-1 INTENSITY... WHICH OCCURRED JUST NORTHWEST OF (BMX)",
+      "điểm báo cáo": "POINT(-86.73 32.49)"
+    },
+    {
+      "mốc thời gian": "2019-01-19 20:52:00+00:00",
+      "thời gian": "2052",
+      "tỷ lệ f": "UNK",
+      "vị trí": "3 SW WETUMPKA",
+      "hạt": "ELMORE",
+      "trạng thái": "AL",
+      "vĩ độ": 32.52,
+      "độ kinh độ": -86.24,
+      "Bình luận": "*** 4 INJ *** A NWS STORM SURVEY TEAM CONFIRMED A TORNADO OF HIGH-END EF-2 INTENSITY THAT BEGAN JUST SOUTHWEST OF WETUMPKA AND CONTINUED NORTHEAST... ENDING JUST BEFORE (BMX)",
+      "điểm báo cáo": "POINT(-86.24 32.52)"
+    },
+    {
+      "mốc thời gian": "2019-01-19 20:58:00+00:00",
+      "thời gian": "2058",
+      "tỷ lệ f": "UNK",
+      "vị trí": "2 W COTTAGE GROVE",
+      "hạt": "COOSA",
+      "trạng thái": "AL",
+      "vĩ độ": 32.85,
+      "độ kinh độ": -86.15,
+      "Bình luận": "A NWS STORM SURVEY TEAM CONFIRMED A TORNADO OF EF-1 INTENSITY... AFFECTING AREAS JUST SOUTHEAST OF ROCKFORD IN COOSA COUNTY ALONG COUNTY ROAD 101. (BMX)",
+      "điểm báo cáo": "POINT(-86.15 32.85)"
+    },
+    {
+      "mốc thời gian": "2019-02-23 23:44:00+00:00",
+      "thời gian": "2344",
+      "tỷ lệ f": "UNK",
+      "vị trí": "3 WSW GAINESVILLE LAKE",
+      "hạt": "PICKENS",
+      "trạng thái": "AL",
+      "vĩ độ": 33.06,
+      "độ kinh độ": -88.31,
+      "Bình luận": "CORRECTS PREVIOUS TORNADO REPORT FROM 3 WSW GAINSVILLE LAKE. THE TORNADO TOUCHED DOWN JUST EAST OF NANCY CLARK ROAD... AND FIRST CAUSED DAMAGE ALONG AN EAST-WEST TREELI (BMX)",
+      "điểm báo cáo": "POINT(-88.31 33.06)"
+    }
+  ]
+}

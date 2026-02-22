@@ -1,0 +1,78 @@
+{
+  "sample_rows": [
+    {
+      "Tên địa danh": "Black Oak",
+      "Mã địa lý": "geoId/0506610",
+      "Cấp độ": "City",
+      "Tên địa lý liên quan": "72414",
+      "ID địa lý liên quan": "zip/72414",
+      "Mức độ liên quan": "CensusZipCodeTabulationArea",
+      "Loại quan hệ": "Overlaps"
+    },
+    {
+      "Tên địa danh": "Census Tract 9506, Ouachita County, Arkansas",
+      "Mã địa lý": "geoId/05103950600",
+      "Cấp độ": "CensusTract",
+      "Tên địa lý liên quan": "Block Group 5; Census Tract 9506; Ouachita County; Arkansas",
+      "ID địa lý liên quan": "censusBlockGroup/051039506005",
+      "Mức độ liên quan": "CensusBlockGroup",
+      "Loại quan hệ": "Contains"
+    },
+    {
+      "Tên địa danh": "Census Tract 701, McDonald County, Missouri",
+      "Mã địa lý": "geoId/29119070100",
+      "Cấp độ": "CensusTract",
+      "Tên địa lý liên quan": "Block Group 2, Census Tract 701, McDonald County, Missouri",
+      "ID địa lý liên quan": "censusBlockGroup/291190701002",
+      "Mức độ liên quan": "CensusBlockGroup",
+      "Loại quan hệ": "Contains"
+    },
+    {
+      "Tên địa danh": "Illinois",
+      "Mã địa lý": "geoId/17",
+      "Cấp độ": "State",
+      "Tên địa lý liên quan": "Millstadt Township",
+      "ID địa lý liên quan": "geoId/1749399",
+      "Mức độ liên quan": "City",
+      "Loại quan hệ": "Contains"
+    },
+    {
+      "Tên địa danh": "Denton County",
+      "Mã địa lý": "geoId/48121",
+      "Cấp độ": "County",
+      "Tên địa lý liên quan": "Block Group 4, Census Tract 216.15, Denton County, Texas",
+      "ID địa lý liên quan": "censusBlockGroup/481210216154",
+      "Mức độ liên quan": "CensusBlockGroup",
+      "Loại quan hệ": "Contains"
+    }
+  ],
+  "table_name": "GEOGRAPHY_RELATIONSHIPS",
+  "table_fullname": "US_REAL_ESTATE.CYBERSYN.GEOGRAPHY_RELATIONSHIPS",
+  "column_names": [
+    "Tên địa lý liên quan",
+    "Mức độ liên quan",
+    "ID địa lý liên quan",
+    "Loại quan hệ",
+    "Mã địa lý",
+    "Tên địa danh",
+    "Cấp độ"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Tên của địa điểm liên quan đến GEO_NAME. Đây là một địa điểm chồng lấn hoặc nằm trong địa giới chính (ví dụ: thành phố trong một bang).",
+    "Mức độ địa lý hoặc cấp độ phân cấp của địa điểm liên quan (ví dụ: Quốc gia, Bang, Hạt, Thành phố, Châu lục, Khu vực phụ của quốc gia, v.v.)",
+    "Một mã định danh duy nhất cho địa điểm liên quan có thể liên kết với bảng GEOGRAPHY_INDEX",
+    "Mối quan hệ giữa hai địa điểm. Contains có nghĩa là RELATED_GEO_ID hoàn toàn nằm trong GEO_ID (ví dụ: mối quan hệ của bang với thành phố), trong khi Overlaps cho biết GEO_ID là một phần của RELATED_GEO_ID (ví dụ: mối quan hệ của thành phố với bang).",
+    "Một định danh duy nhất cho một địa điểm có thể kết nối với bảng GEOGRAPHY_INDEX",
+    "Tên đầy đủ của địa điểm",
+    "Cấp độ địa lý hoặc phân cấp (ví dụ: Quốc gia, Bang, Quận, Thành phố, Châu lục, Khu vực phụ của quốc gia, v.v.)"
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "table_name": "CLINICAL_DIAGNOSES_TREATMENTS_GDC_R27",
+  "table_fullname": "TCGA.TCGA_VERSIONED.CLINICAL_DIAGNOSES_TREATMENTS_GDC_R27",
+  "column_names": [
+    "diag__behandlungs__zustand",
+    "diag__diagnose_id",
+    "diag__behandlungs__erstellt_datum_uhrzeit",
+    "diag__behandlungs__behandlungs_id",
+    "fall_id",
+    "diag__behandlungs__behandlungs_art",
+    "diag__behandlungs__aktualisiert_datum_uhrzeit",
+    "diag__behandlungs__behandlung_oder_therapie"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Der aktuelle Zustand des Objekts.",
+    "Von GDC zugewiesener Identifikator für die Diagnose eines Falls.",
+    "Eine Kombination aus Datum und Tageszeit in der Form [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm]",
+    "Von GDC zugewiesener Identifikator für die Behandlungsdaten eines Falls.",
+    "GDC-einzigartiger Identifikator für diesen Fall (entspricht dem case_barcode) -- dieser kann verwendet werden, um weitere Informationen vom GDC-Dataportal auf folgende Weise zu erhalten: https://portal.gdc.cancer.gov/files/c21b332c-06c6-4403-9032-f91c8f407ba9.",
+    "Textbegriff, der die Art der verabreichten Behandlung beschreibt.",
+    "Eine Kombination aus Datum und Tageszeit in der Form [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm]",
+    "Ein Ja/Nein/Unbekannt/Nicht-anwendbar-Indikator im Zusammenhang mit der Verabreichung von therapeutischen Mitteln, die erhalten wurden."
+  ],
+  "sample_rows": [
+    {
+      "diag__behandlungs__behandlungs_id": "5f1ade71-c670-5d62-a682-03c6b0a02d74",
+      "diag__diagnose_id": "acb71b5a-b630-5c11-8305-67d18afbda2f",
+      "fall_id": "d8e19e8a-7442-4b6b-8f4a-d02dca5c9894",
+      "diag__behandlungs__behandlungs_art": "Radiation Therapy, NOS",
+      "diag__behandlungs__behandlung_oder_therapie": "no",
+      "diag__behandlungs__zustand": "released",
+      "diag__behandlungs__erstellt_datum_uhrzeit": null,
+      "diag__behandlungs__aktualisiert_datum_uhrzeit": "2019-07-31T17:25:06.137023-05:00"
+    },
+    {
+      "diag__behandlungs__behandlungs_id": "2b2fe94a-513c-556a-830f-247b86b99c8c",
+      "diag__diagnose_id": "36a19602-d337-521c-909c-0afd7cdfd06d",
+      "fall_id": "8981f0c9-7155-4c96-bf77-7d40fe404323",
+      "diag__behandlungs__behandlungs_art": "Radiation Therapy, NOS",
+      "diag__behandlungs__behandlung_oder_therapie": "no",
+      "diag__behandlungs__zustand": "released",
+      "diag__behandlungs__erstellt_datum_uhrzeit": null,
+      "diag__behandlungs__aktualisiert_datum_uhrzeit": "2019-07-31T20:32:57.565346-05:00"
+    },
+    {
+      "diag__behandlungs__behandlungs_id": "acd90055-f9a4-5541-8379-8495ab5c8f69",
+      "diag__diagnose_id": "7db57a70-92d5-5aad-bd3e-634d32ac5706",
+      "fall_id": "fb4cc403-694c-421f-b360-3108b6d57ad5",
+      "diag__behandlungs__behandlungs_art": "Radiation Therapy, NOS",
+      "diag__behandlungs__behandlung_oder_therapie": "no",
+      "diag__behandlungs__zustand": "released",
+      "diag__behandlungs__erstellt_datum_uhrzeit": null,
+      "diag__behandlungs__aktualisiert_datum_uhrzeit": "2019-07-31T18:40:59.819475-05:00"
+    },
+    {
+      "diag__behandlungs__behandlungs_id": "2fe16006-63fe-5e6f-af9d-4b07f6a133b4",
+      "diag__diagnose_id": "8ee5348d-d087-576b-8f53-79661e4d812a",
+      "fall_id": "9d8c4693-8e36-473b-bb34-a7cdc04dd223",
+      "diag__behandlungs__behandlungs_art": "Radiation Therapy, NOS",
+      "diag__behandlungs__behandlung_oder_therapie": "no",
+      "diag__behandlungs__zustand": "released",
+      "diag__behandlungs__erstellt_datum_uhrzeit": null,
+      "diag__behandlungs__aktualisiert_datum_uhrzeit": "2019-07-31T18:33:26.036329-05:00"
+    },
+    {
+      "diag__behandlungs__behandlungs_id": "9c0d93b3-85e6-5dea-890c-30cab41ab677",
+      "diag__diagnose_id": "f29bd857-5694-54d7-a127-ad35306eff44",
+      "fall_id": "b3bed685-e9db-436b-9938-2b8a0a0d5b83",
+      "diag__behandlungs__behandlungs_art": "Radiation Therapy, NOS",
+      "diag__behandlungs__behandlung_oder_therapie": "no",
+      "diag__behandlungs__zustand": "released",
+      "diag__behandlungs__erstellt_datum_uhrzeit": null,
+      "diag__behandlungs__aktualisiert_datum_uhrzeit": "2019-07-31T19:48:50.094739-05:00"
+    }
+  ]
+}

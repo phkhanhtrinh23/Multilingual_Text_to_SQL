@@ -1,0 +1,86 @@
+{
+  "table_name": "assay_classification_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.assay_classification_30",
+  "column_names": [
+    "检测类别ID",
+    "第一行",
+    "二级",
+    "第三级",
+    "类别类型",
+    "来源"
+  ],
+  "column_types": [
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "检测类别ID",
+    "第一行",
+    "第二级",
+    "第三级",
+    "类别",
+    "来源"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "主键",
+    "高层级分类，例如按解剖/治疗领域",
+    "中级分类，例如按表型/生物过程",
+    "细粒度分类，例如按检测类型",
+    "正在分类的测定类型，例如体内功效",
+    "获取测定类别的来源"
+  ],
+  "sample_rows": [
+    {
+      "检测类别ID": 9,
+      "第一行": "ALIMENTARY TRACT AND METABOLISM",
+      "第二级": "Experimental Obesity",
+      "第三级": "Diet Induced Obesity",
+      "类别": "In vivo efficacy",
+      "来源": "Hock_2016"
+    },
+    {
+      "检测类别ID": 25,
+      "第一行": "ALIMENTARY TRACT AND METABOLISM",
+      "第二级": "Gastric Function",
+      "第三级": "Indomethacin Induced Ulcers in Rats",
+      "类别": "In vivo efficacy",
+      "来源": "Hock_2016"
+    },
+    {
+      "检测类别ID": 81,
+      "第一行": "ALIMENTARY TRACT AND METABOLISM",
+      "第二级": "Test on Salivary Glands",
+      "第三级": "Measurement of Salivation",
+      "类别": "In vivo efficacy",
+      "来源": "Hock_2016"
+    },
+    {
+      "检测类别ID": 88,
+      "第一行": "ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS",
+      "第二级": "Leukemia Oncology Models",
+      "第三级": "L1210 Experimental Leukemia",
+      "类别": "In vivo efficacy",
+      "来源": "Hock_2016"
+    },
+    {
+      "检测类别ID": 96,
+      "第一行": "ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS",
+      "第二级": "Methods for Testing Immunological Factors",
+      "第三级": "Adjuvant Arthritis in Rats",
+      "类别": "In vivo efficacy",
+      "来源": "Hock_2016"
+    }
+  ]
+}

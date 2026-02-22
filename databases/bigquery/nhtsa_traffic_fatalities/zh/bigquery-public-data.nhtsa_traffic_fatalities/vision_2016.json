@@ -1,0 +1,86 @@
+{
+  "table_name": " vision_2016",
+  "table_fullname": "bigquery-public-data.nhtsa_traffic_fatalities. vision_2016",
+  "column_names": [
+    "状态编号",
+    "州名",
+    "连续编号",
+    "车辆编号",
+    "司机视线被遮挡",
+    "驾驶员视线被姓名遮挡"
+  ],
+  "column_types": [
+    "INT64",
+    "STRING",
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "州编号",
+    "州名",
+    "连续编号",
+    "车辆编号",
+    "司机视线被遮挡",
+    "驾驶员视野被名字遮挡"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "STRING",
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING"
+  ],
+  "description": [
+    "此数据元素用于标识事故发生所在的州。所使用的代码来自美国总务管理局（GSA）发布的全球地理位置代码（GLC）。有关这些代码的更多信息，请参阅 pdf 中的 <C1/V1/D1/PC1/P1/NM1 State Number> 部分： https://crashstats.nhtsa.dot.gov/Api/Public/ViewPublication/812315",
+    "该数据元素标识事故发生所在的州。代码来自美国一般服务管理局（GSA）发布的全球地理位置代码（GLC）。",
+    "此数据元素是分配给每起事故的唯一案例编号。它出现在每个数据文件中，并用于将来自数据文件的信息合并在一起。xxxxxx：州代码的两个字符后跟四个字符的案例编号",
+    "该数据元素是案件中每辆车所分配的连续编号。该数据元素出现在每个车辆级别数据文件中，并与 ST_CASE 数据元素结合使用，以合并车辆级别数据文件中的信息。000-999 机动车分配编号",
+    "该数据元素记录了在案卷材料中所记录的阻碍此驾驶员视野的因素。欲了解更多关于代码的信息，请查看 PDF 中的<PC14 驾驶员视力受阻>部分： https://crashstats.nhtsa.dot.gov/Api/Public/ViewPublication/812315",
+    "该数据元素记录了在案件资料中所记录的对该驾驶员视野的障碍。有关代码的更多信息，请查看PDF中的<PC14 驾驶员视野受遮挡>章节： https://crashstats.nhtsa.dot.gov/Api/Public/ViewPublication/812315"
+  ],
+  "sample_rows": [
+    {
+      "州编号": 1,
+      "州名": "Alabama",
+      "连续编号": 10264,
+      "车辆编号": 5,
+      "司机视线被遮挡": 0,
+      "驾驶员视野被名字遮挡": "No Obstruction Noted"
+    },
+    {
+      "州编号": 1,
+      "州名": "Alabama",
+      "连续编号": 10762,
+      "车辆编号": 5,
+      "司机视线被遮挡": 0,
+      "驾驶员视野被名字遮挡": "No Obstruction Noted"
+    },
+    {
+      "州编号": 1,
+      "州名": "Alabama",
+      "连续编号": 10762,
+      "车辆编号": 6,
+      "司机视线被遮挡": 0,
+      "驾驶员视野被名字遮挡": "No Obstruction Noted"
+    },
+    {
+      "州编号": 1,
+      "州名": "Alabama",
+      "连续编号": 10845,
+      "车辆编号": 5,
+      "司机视线被遮挡": 0,
+      "驾驶员视野被名字遮挡": "No Obstruction Noted"
+    },
+    {
+      "州编号": 1,
+      "州名": "Alabama",
+      "连续编号": 10878,
+      "车辆编号": 5,
+      "司机视线被遮挡": 0,
+      "驾驶员视野被名字遮挡": "No Obstruction Noted"
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "table_name": "Filtered_all_CNVR_data_by_gene",
+  "table_fullname": "isb-cgc-bq.pancancer_atlas.Filtered_all_CNVR_data_by_gene",
+  "column_names": [
+    "Código del Participante",
+    "Código de muestra",
+    "Código de barras de Aliquot",
+    "Código de letra de tipo de muestra",
+    "Tipo de muestra",
+    "Estudio",
+    "Símbolo génico",
+    "ID del locus",
+    "Banda citogenética",
+    "Llamadas GISTIC"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "STRING",
+    "FLOAT64"
+  ],
+  "nested_column_names": [
+    "Código de Barras del Participante",
+    "Código de barras de muestra",
+    "Código de barras de alíquot",
+    "Código de letra de tipo de muestra",
+    "Tipo de Muestra",
+    "Estudio",
+    "Símbolo de gen",
+    "ID del Locus",
+    "Cito banda",
+    "Llamadas GISTIC"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "STRING",
+    "FLOAT64"
+  ],
+  "description": [
+    "Identificador de código de barras TCGA del participante del estudio, por ejemplo TCGA-02-0001",
+    "Código de barras de la muestra de biospecimen, por ejemplo TCGA-13-1489-02A",
+    "Código de barras de alícuota TCGA, ej. TCGA-12-1089-01A-01D-0517-28",
+    "Código de letra del tipo de muestra según los estándares TCGA, por ejemplo TPN, EBV. Lista completa disponible en https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/sample-type-codes",
+    "Normal derivado de sangre, Tumor sólido primario, Normal de tejido sólido, Tumor sólido recurrente, Metastásico, Adicional - Nuevo Primario, Cáncer primario derivado de sangre - sangre periférica, Normal de célula bucal, Metastásico adicional, Normal de médula ósea",
+    "Abreviatura de estudio TCGA, por ejemplo LAML. Lista completa disponible en https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/tcga-study-abbreviations",
+    "p.ej. TP53, LRP1B, etc. (lo mismo que el campo Hugo_Symbol, excepto que quede en blanco en lugar de 'Unknown')",
+    "ID de locus génico, p. ej., 57380, 100616303",
+    "Nombre completo de la banda citobanda, incluyendo el cromosoma. Ejemplo: 17p13.2. Vea https://www.ncbi.nlm.nih.gov/Class/MLACourse/Original8Hour/Genetics/chrombanding.html",
+    "Llamadas de número de copia GISTIC"
+  ],
+  "sample_rows": [
+    {
+      "Código de Barras del Participante": "TCGA-04-1331",
+      "Código de barras de muestra": "TCGA-04-1331-01A",
+      "Código de barras de alíquot": "TCGA-04-1331-01A-01D-0428-01",
+      "Código de letra de tipo de muestra": "TP",
+      "Tipo de Muestra": "Primary solid Tumor",
+      "Estudio": "OV",
+      "Símbolo de gen": "MIR663B",
+      "ID del Locus": 100313824,
+      "Cito banda": "2q21.2",
+      "Llamadas GISTIC": -0.054
+    },
+    {
+      "Código de Barras del Participante": "TCGA-04-1331",
+      "Código de barras de muestra": "TCGA-04-1331-01A",
+      "Código de barras de alíquot": "TCGA-04-1331-01A-01D-0428-01",
+      "Código de letra de tipo de muestra": "TP",
+      "Tipo de Muestra": "Primary solid Tumor",
+      "Estudio": "OV",
+      "Símbolo de gen": "REG4",
+      "ID del Locus": 83998,
+      "Cito banda": "1p12",
+      "Llamadas GISTIC": 0.13
+    },
+    {
+      "Código de Barras del Participante": "TCGA-04-1331",
+      "Código de barras de muestra": "TCGA-04-1331-01A",
+      "Código de barras de alíquot": "TCGA-04-1331-01A-01D-0428-01",
+      "Código de letra de tipo de muestra": "TP",
+      "Tipo de Muestra": "Primary solid Tumor",
+      "Estudio": "OV",
+      "Símbolo de gen": "CABIN1",
+      "ID del Locus": 23523,
+      "Cito banda": "22q11.23",
+      "Llamadas GISTIC": -0.715
+    },
+    {
+      "Código de Barras del Participante": "TCGA-04-1331",
+      "Código de barras de muestra": "TCGA-04-1331-01A",
+      "Código de barras de alíquot": "TCGA-04-1331-01A-01D-0428-01",
+      "Código de letra de tipo de muestra": "TP",
+      "Tipo de Muestra": "Primary solid Tumor",
+      "Estudio": "OV",
+      "Símbolo de gen": "CHRNA7",
+      "ID del Locus": 1139,
+      "Cito banda": "15q13.3",
+      "Llamadas GISTIC": -0.764
+    },
+    {
+      "Código de Barras del Participante": "TCGA-04-1331",
+      "Código de barras de muestra": "TCGA-04-1331-01A",
+      "Código de barras de alíquot": "TCGA-04-1331-01A-01D-0428-01",
+      "Código de letra de tipo de muestra": "TP",
+      "Tipo de Muestra": "Primary solid Tumor",
+      "Estudio": "OV",
+      "Símbolo de gen": "AOC2",
+      "ID del Locus": 314,
+      "Cito banda": "17q21.31",
+      "Llamadas GISTIC": -0.277
+    }
+  ]
+}

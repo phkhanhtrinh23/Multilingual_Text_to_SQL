@@ -1,0 +1,86 @@
+{
+  "sample_rows": [
+    {
+      "Biến": "Outflow_Returns_–_adjusted_gross_income_from_Year_1,_primary_taxpayers_ages_45_under_55,_AGI_bin:_$10,000_under_$25,000",
+      "Tên biến": "Outflow Returns – adjusted gross income from Year 1, primary taxpayers ages 45 under 55, AGI bin: $10,000 under $25,000",
+      "Nhóm Trả": "Outflow Returns",
+      "Khoảng thu nhập": "$10,000 under $25,000",
+      "Nhóm tuổi": "45 under 55",
+      "Đơn vị": "USD",
+      "đã điều chỉnh theo mùa": false,
+      "Tần suất": "Annual"
+    },
+    {
+      "Biến": "Same_State_Returns_–_number_of_individuals,_primary_taxpayers_ages_26_under_35,_AGI_bin:_$75,000_under_$100,000",
+      "Tên biến": "Same State Returns – number of individuals, primary taxpayers ages 26 under 35, AGI bin: $75,000 under $100,000",
+      "Nhóm Trả": "Same State Returns",
+      "Khoảng thu nhập": "$75,000 under $100,000",
+      "Nhóm tuổi": "26 under 35",
+      "Đơn vị": "Individuals",
+      "đã điều chỉnh theo mùa": false,
+      "Tần suất": "Annual"
+    },
+    {
+      "Biến": "Total_Returns_–_number_of_individuals,_primary_taxpayers_ages_55_under_65,_AGI_bin:_$100,000_under_$200,000",
+      "Tên biến": "Total Returns – number of individuals, primary taxpayers ages 55 under 65, AGI bin: $100,000 under $200,000",
+      "Nhóm Trả": "Total Returns",
+      "Khoảng thu nhập": "$100,000 under $200,000",
+      "Nhóm tuổi": "55 under 65",
+      "Đơn vị": "Individuals",
+      "đã điều chỉnh theo mùa": false,
+      "Tần suất": "Annual"
+    },
+    {
+      "Biến": "Inflow_Returns_–_adjusted_gross_income_from_Year_1,_all_ages,_All_AGI_classes",
+      "Tên biến": "Inflow Returns – adjusted gross income from Year 1, all ages, All AGI classes",
+      "Nhóm Trả": "Inflow Returns",
+      "Khoảng thu nhập": "All AGI classes",
+      "Nhóm tuổi": "All Ages",
+      "Đơn vị": "USD",
+      "đã điều chỉnh theo mùa": false,
+      "Tần suất": "Annual"
+    },
+    {
+      "Biến": "Total_Returns_-_number_of_returns,_all_ages,_All_AGI_classes",
+      "Tên biến": "Total Returns - number of returns, all ages, All AGI classes",
+      "Nhóm Trả": "Total Returns",
+      "Khoảng thu nhập": "All AGI classes",
+      "Nhóm tuổi": "All Ages",
+      "Đơn vị": "Returns",
+      "đã điều chỉnh theo mùa": false,
+      "Tần suất": "Annual"
+    }
+  ],
+  "table_name": "IRS_MIGRATION_BY_CHARACTERISTIC_ATTRIBUTES",
+  "table_fullname": "US_REAL_ESTATE.CYBERSYN.IRS_MIGRATION_BY_CHARACTERISTIC_ATTRIBUTES",
+  "column_names": [
+    "Nhóm tuổi",
+    "Đơn vị",
+    "Nhóm Trả",
+    "Tần suất",
+    "Biến",
+    "đã điều chỉnh theo mùa",
+    "Khoảng thu nhập",
+    "Tên biến"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "BOOLEAN",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Nhóm tuổi của giá trị được báo cáo",
+    "Đơn vị đo lường cho giá trị, ví dụ: USD, lợi nhuận, cá nhân",
+    "Nhóm dân số của giá trị đang được báo cáo - vui lòng xem tài liệu IRS để biết chi tiết",
+    "Tần suất đo biến số",
+    "Mã định danh duy nhất cho một biến",
+    "Chỉ ra liệu giá trị có được điều chỉnh theo mùa vụ hay không.",
+    "Khoảng thu nhập chịu thuế đã điều chỉnh của các cá nhân trong chuỗi",
+    "Tên có thể đọc được cho biến"
+  ]
+}

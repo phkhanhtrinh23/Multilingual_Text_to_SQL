@@ -1,0 +1,116 @@
+{
+  "table_name": "scRNAseq_VUMC_ABNORMALS_EPI_V2_r2",
+  "table_fullname": "isb-cgc-bq.HTAN_versioned.scRNAseq_VUMC_ABNORMALS_EPI_V2_r2",
+  "column_names": [
+    "Quan sát",
+    "iVar",
+    "Giá trị X",
+    "Số mã vạch tế bào",
+    "HTAN_Cha_Dữ_liệu_Tệp_ID",
+    "Mã số mẫu sinh học HTAN",
+    "Loại mô",
+    "Loại mô",
+    "Tên Gen"
+  ],
+  "column_types": [
+    "INT64",
+    "INT64",
+    "FLOAT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "iObs",
+    "iVar",
+    "Giá trị X",
+    "Số mã vạch tế bào",
+    "HTAN_ID_Tệp_Dữ_Liệu_Cha",
+    "Mã số mẫu HTAN",
+    "Loại mô phụ",
+    "Loại mô",
+    "Tên gen"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "INT64",
+    "FLOAT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "Chỉ mục mã vạch tế bào.",
+    "Chỉ mục tới ID gen.",
+    "Giá trị biểu hiện của một gen và tế bào cụ thể.",
+    "Mã vạch được sử dụng cho mỗi giọt chứa tế bào trong quá trình trình tự",
+    "Định danh Tệp dữ liệu HTAN cho biết tệp(ta) mà các tệp này được xuất phát từ.",
+    "HTAN ID được liên kết với một mẫu sinh học dựa trên quy trình HTAN ID SOP (ví dụ HTANx_yyy_zzz)",
+    "TA = tân sinh tủy, HP = polyp bù đắp, TVA = tân sinh tủy lưỡi rùa, SSL = tổn thương rưỡi dạng lá, MSI-H = bất ổn chuỗi microsatellite cao trong ung thư đại trực tràng, MSS = ổn định microsatellite trong ung thư đại trực tràng",
+    "AD = adenoma truyền thống, SER = polyp lưỡi dao, MSI-H = ung thư đại trực tràng có tính bất ổn microsatellite cao, MSS = ung thư đại trực tràng có tính ổn định microsatellite",
+    "Gene được đo"
+  ],
+  "sample_rows": [
+    {
+      "iObs": 18053,
+      "iVar": 24826,
+      "Giá trị X": 9.0,
+      "Số mã vạch tế bào": "GAGGACTTCCAGCGCGAT-2-5779-Polyp-2021",
+      "HTAN_ID_Tệp_Dữ_Liệu_Cha": "HTA11_9408_200000101113111",
+      "Mã số mẫu HTAN": "HTA11_9408_2000001011",
+      "Loại mô phụ": "TA",
+      "Loại mô": "AD",
+      "Tên gen": "RPS21"
+    },
+    {
+      "iObs": 17094,
+      "iVar": 24751,
+      "Giá trị X": 17.0,
+      "Số mã vạch tế bào": "GTACCTTGAAACAGGG-0-5607-Polyp-2021",
+      "HTAN_ID_Tệp_Dữ_Liệu_Cha": "HTA11_10167_200000101113111",
+      "Mã số mẫu HTAN": "HTA11_10167_2000001011",
+      "Loại mô phụ": "SSL",
+      "Loại mô": "SER",
+      "Tên gen": "RPL14"
+    },
+    {
+      "iObs": 8012,
+      "iVar": 14959,
+      "Giá trị X": 9.0,
+      "Số mã vạch tế bào": "TTCCGCTCGAGCGGTA-67",
+      "HTAN_ID_Tệp_Dữ_Liệu_Cha": "HTA11_2112_200000101113211",
+      "Mã số mẫu HTAN": "HTA11_2112_2000001011",
+      "Loại mô phụ": "HP",
+      "Loại mô": "SER",
+      "Tên gen": "NR3C2"
+    },
+    {
+      "iObs": 19038,
+      "iVar": 24819,
+      "Giá trị X": 29.0,
+      "Số mã vạch tế bào": "TGAAACCCTTGTGTGCTCA-9-5779-Polyp-2021",
+      "HTAN_ID_Tệp_Dữ_Liệu_Cha": "HTA11_7663_200000101113211",
+      "Mã số mẫu HTAN": "HTA11_7663_2000001011",
+      "Loại mô phụ": "SSL",
+      "Loại mô": "SER",
+      "Tên gen": "RPS16"
+    },
+    {
+      "iObs": 19479,
+      "iVar": 1835,
+      "Giá trị X": 16.0,
+      "Số mã vạch tế bào": "GACAAGAGGGGAGTTCAC-19-5779-Polyp-2021",
+      "HTAN_ID_Tệp_Dữ_Liệu_Cha": "HTA11_6801_200000102113111",
+      "Mã số mẫu HTAN": "HTA11_6801_2000001021",
+      "Loại mô phụ": "TA",
+      "Loại mô": "AD",
+      "Tên gen": "ALDOA"
+    }
+  ]
+}

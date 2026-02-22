@@ -1,0 +1,70 @@
+{
+  "sample_rows": [
+    {
+      "GEO_ID": "country/USA",
+      "Variable": "CES2023600032.M_SA",
+      "VARIABLE_NAME": "Current Employment: Average hourly earnings of production and nonsupervisory employees, 1982-84 dollars, construction of buildings, Monthly (Seasonally adjusted)",
+      "Datum": "1994-03-31",
+      "Wert": 9.32,
+      "Einheit": "1982-1984 USD per hour"
+    },
+    {
+      "GEO_ID": "country/USA",
+      "Variable": "CES5051312030.M_SA",
+      "VARIABLE_NAME": "Current Employment: Average weekly earnings of production and nonsupervisory employees, periodical publishers, Monthly (Seasonally adjusted)",
+      "Datum": "1992-10-31",
+      "Wert": 472.26,
+      "Einheit": "USD per week"
+    },
+    {
+      "GEO_ID": "country/USA",
+      "Variable": "CES3133320006.M_SA",
+      "VARIABLE_NAME": "Current Employment: Production and nonsupervisory employees, industrial machinery manufacturing, Monthly (Seasonally adjusted)",
+      "Datum": "2017-07-31",
+      "Wert": 63600.0,
+      "Einheit": "Count"
+    },
+    {
+      "GEO_ID": "geoId/21167",
+      "Variable": "LAUSUE.M_NSA",
+      "VARIABLE_NAME": "Local Area Unemployment: Unemployment, Not seasonally adjusted, Monthly",
+      "Datum": "1999-12-31",
+      "Wert": 375.0,
+      "Einheit": "Persons"
+    },
+    {
+      "GEO_ID": "country/USA",
+      "Variable": "CEU8081320082.M_NSA",
+      "VARIABLE_NAME": "Current Employment: Aggregate weekly payrolls of production and nonsupervisory employees, grantmaking and giving services, Monthly (Not seasonally adjusted)",
+      "Datum": "2020-11-30",
+      "Wert": 153782000.0,
+      "Einheit": "USD"
+    }
+  ],
+  "table_name": "CYBERSYN_FINANCIAL_ECONOMIC_INDICATORS_TIMESERIES",
+  "table_fullname": "FINANCE__ECONOMICS.CYBERSYN.CYBERSYN_FINANCIAL_ECONOMIC_INDICATORS_TIMESERIES",
+  "column_names": [
+    "Einheit",
+    "GEO_ID",
+    "Datum",
+    "VARIABLE_NAME",
+    "Variable",
+    "Wert"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "DATE",
+    "TEXT",
+    "TEXT",
+    "FLOAT"
+  ],
+  "description": [
+    "Einheit der Messung für den gemeldeten Wert.",
+    "Eindeutiger Identifikator für einen Ort. Verknüpfbar mit anderen Geographie-Tabellen, einschließlich `GEOGRAPHY_INDEX`, `GEOGRAPHY_RELATIONSHIPS` und `GEOGRAPHY_CHARACTERISTICS`.",
+    "Datum, das mit dem Wert verknüpft ist.",
+    "Menschlich lesbarer eindeutiger Name für die Variable.",
+    "Eindeutiger Identifikator für eine Variable, verknüpfbar mit der `timeseries`-Tabelle.",
+    "Gemeldeter Wert für die Variable."
+  ]
+}

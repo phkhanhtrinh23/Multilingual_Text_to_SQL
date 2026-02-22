@@ -1,0 +1,96 @@
+{
+  "table_name": "protein_classification_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.protein_classification_30",
+  "column_names": [
+    "Proteinklasse-ID",
+    "Eltern-ID",
+    "Bevorzugter Name",
+    "Kurzname",
+    "Beschreibung der Proteinklasse",
+    "Definition",
+    "Klassenebene"
+  ],
+  "column_types": [
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "Proteinklasse-ID",
+    "Eltern-ID",
+    "Bevorzugter Name",
+    "Kurzname",
+    "Proteinklassenbeschreibung",
+    "Definition",
+    "Klassenniveau"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64"
+  ],
+  "description": [
+    "Primärschlüssel. Eindeutiger Bezeichner für jede Proteinfamilienklassifikation.",
+    "Protein_class_id für das Elternteil dieser Proteinfamilie.",
+    "Bevorzugter/voller Name für diese Proteinfamilie.",
+    "Kurzer/abgekürzter Name für diese Proteinfamilie (nicht unbedingt eindeutig).",
+    "Zusammengefasste Beschreibung jeder Klassifikation für Suchzwecke usw.",
+    "Definition der Proteinfamilie.",
+    "Ebene der Klasse innerhalb der Hierarchie (Ebene 1 = oberste Klassifikationsebene)."
+  ],
+  "sample_rows": [
+    {
+      "Proteinklasse-ID": 1,
+      "Eltern-ID": 0,
+      "Bevorzugter Name": "Enzyme",
+      "Kurzname": "Enzyme",
+      "Proteinklassenbeschreibung": "enzyme",
+      "Definition": "Biological molecules that possess catalytic activity. They may occur naturally or be synthetically created. Enzymes are usually proteins, however CATALYTIC RNA and CATALYTIC DNA molecules have also been identified. [MESH:D004798]",
+      "Klassenniveau": 1
+    },
+    {
+      "Proteinklasse-ID": 2,
+      "Eltern-ID": 0,
+      "Bevorzugter Name": "Adhesion",
+      "Kurzname": "Adhesion",
+      "Proteinklassenbeschreibung": "adhesion",
+      "Definition": "Surface ligands, usually glycoproteins, that mediate cell-to-cell adhesion. Their functions include the assembly and interconnection of various vertebrate systems, as well as maintenance of tissue integration, wound healing, morphogenic movements, cellular migrations, and metastasis. [MESH:D015815]",
+      "Klassenniveau": 1
+    },
+    {
+      "Proteinklasse-ID": 3,
+      "Eltern-ID": 0,
+      "Bevorzugter Name": "Secreted protein",
+      "Kurzname": "Secreted",
+      "Proteinklassenbeschreibung": "secreted",
+      "Definition": null,
+      "Klassenniveau": 1
+    },
+    {
+      "Proteinklasse-ID": 4,
+      "Eltern-ID": 0,
+      "Bevorzugter Name": "Structural protein",
+      "Kurzname": "Structural",
+      "Proteinklassenbeschreibung": "structural",
+      "Definition": null,
+      "Klassenniveau": 1
+    },
+    {
+      "Proteinklasse-ID": 5,
+      "Eltern-ID": 0,
+      "Bevorzugter Name": "Other nuclear protein",
+      "Kurzname": "Nuclear other",
+      "Proteinklassenbeschreibung": "nuclear other",
+      "Definition": null,
+      "Klassenniveau": 1
+    }
+  ]
+}

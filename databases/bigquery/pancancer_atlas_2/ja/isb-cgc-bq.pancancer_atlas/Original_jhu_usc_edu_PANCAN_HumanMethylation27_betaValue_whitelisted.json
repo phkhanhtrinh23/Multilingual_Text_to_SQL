@@ -1,0 +1,56 @@
+{
+  "table_name": "Original_jhu_usc_edu_PANCAN_HumanMethylation27_betaValue_whitelisted",
+  "table_fullname": "isb-cgc-bq.pancancer_atlas.Original_jhu_usc_edu_PANCAN_HumanMethylation27_betaValue_whitelisted",
+  "column_names": [
+    "ID",
+    "試料バーコード",
+    "ベータ"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "FLOAT64"
+  ],
+  "nested_column_names": [
+    "識別子",
+    "分液バーコード",
+    "ベータ"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "FLOAT64"
+  ],
+  "description": [
+    "ユニークなプローブ識別子（例：cg04676771）はIllumina Human Methylation アレイからのもので、特定のプローブに関する詳細については、注釈テーブル（isb-cgc-bq.annotations.methylation_annotation_hg19_illumina_current）を参照してください。",
+    "TCGA アリオットバーコード、例：TCGA-12-1089-01A-01D-0517-28",
+    "正規化されたDNAメチル化ベータ値（0〜1の範囲で、0は完全にメチル化されていないことを示し、1は完全にメチル化されていることを示す）"
+  ],
+  "sample_rows": [
+    {
+      "識別子": "cg05679521",
+      "分液バーコード": "TCGA-01-0628-11A-01D-0383-05",
+      "ベータ": 0.0290592
+    },
+    {
+      "識別子": "cg04853151",
+      "分液バーコード": "TCGA-01-0628-11A-01D-0383-05",
+      "ベータ": 0.029444
+    },
+    {
+      "識別子": "cg06162003",
+      "分液バーコード": "TCGA-01-0628-11A-01D-0383-05",
+      "ベータ": 0.0111285
+    },
+    {
+      "識別子": "cg01136458",
+      "分液バーコード": "TCGA-01-0628-11A-01D-0383-05",
+      "ベータ": 0.764987
+    },
+    {
+      "識別子": "cg02132188",
+      "分液バーコード": "TCGA-01-0628-11A-01D-0383-05",
+      "ベータ": 0.31103400000000003
+    }
+  ]
+}

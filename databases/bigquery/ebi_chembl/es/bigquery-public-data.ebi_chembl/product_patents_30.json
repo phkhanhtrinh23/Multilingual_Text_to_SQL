@@ -1,0 +1,116 @@
+{
+  "table_name": "product_patents_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.product_patents_30",
+  "column_names": [
+    "id_producto_paciente",
+    "id_producto",
+    "número de patente",
+    "fecha_de_expiracion_de_patente",
+    "indicador_sustancia_farmacológica",
+    "indicador_producto_fármaco",
+    "código de uso de patente",
+    "bandera de deslistado",
+    "Fecha de envío"
+  ],
+  "column_types": [
+    "INT64",
+    "STRING",
+    "STRING",
+    "DATETIME",
+    "INT64",
+    "INT64",
+    "STRING",
+    "INT64",
+    "DATETIME"
+  ],
+  "nested_column_names": [
+    "id_producto_paciente",
+    "producto_id",
+    "número de patente",
+    "fecha de vencimiento de la patente",
+    "indicador_sustancia_farmacológica",
+    "producto_farmaco",
+    "código de uso de patente",
+    "bandera_deslistar",
+    "fecha_de_envío"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "STRING",
+    "STRING",
+    "DATETIME",
+    "INT64",
+    "INT64",
+    "STRING",
+    "INT64",
+    "DATETIME"
+  ],
+  "description": [
+    "clave primaria",
+    "Clave externa a la tabla de productos - número de solicitud de la FDA para el producto",
+    "Números de patente tal como fueron presentados por el solicitante titular para las patentes cubiertas por las disposiciones estatutarias",
+    "Fecha en que expira la patente tal como lo presenta el solicitante titular, incluidas las extensiones aplicables.",
+    "Las patentes presentadas en el Formulario FDA 3542 y listadas después del 18 de agosto de 2003 pueden tener una bandera de sustancia del fármaco establecida en 1, lo que indica que el patrocinador presentó la patente como una reclamación de la sustancia del fármaco.",
+    "Las patentes presentadas en el Formulario FDA 3542 y registradas después del 18 de agosto de 2003 pueden tener una bandera de producto farmacéutico establecida en 1, indicando que el patrocinador presentó la patente reclamando el producto farmacéutico.",
+    "Código para designar una patente de uso que cubre la indicación o uso aprobado de un producto farmacéutico.",
+    "Los solicitantes bajo la Sección 505(b)(2) no están obligados a certificar las patentes cuando esta bandera está establecida en 1.",
+    "La fecha en la que la FDA recibe información de patentes del titular de la solicitud de nuevo fármaco (NDA). El formato es Mmm d, yyyy."
+  ],
+  "sample_rows": [
+    {
+      "id_producto_paciente": 12524,
+      "producto_id": "PRODUCT_022569_002",
+      "número de patente": "9078814",
+      "fecha de vencimiento de la patente": "2024-01-08 00:00:00",
+      "indicador_sustancia_farmacológica": 0,
+      "producto_farmaco": 1,
+      "código de uso de patente": null,
+      "bandera_deslistar": 0,
+      "fecha_de_envío": "2015-08-11 00:00:00"
+    },
+    {
+      "id_producto_paciente": 12841,
+      "producto_id": "PRODUCT_022569_001",
+      "número de patente": "9078814",
+      "fecha de vencimiento de la patente": "2024-01-08 00:00:00",
+      "indicador_sustancia_farmacológica": 0,
+      "producto_farmaco": 1,
+      "código de uso de patente": null,
+      "bandera_deslistar": 0,
+      "fecha_de_envío": "2015-08-11 00:00:00"
+    },
+    {
+      "id_producto_paciente": 19542,
+      "producto_id": "PRODUCT_022569_003",
+      "número de patente": "9814705",
+      "fecha de vencimiento de la patente": "2024-01-08 00:00:00",
+      "indicador_sustancia_farmacológica": 0,
+      "producto_farmaco": 1,
+      "código de uso de patente": null,
+      "bandera_deslistar": 0,
+      "fecha_de_envío": "2017-12-13 00:00:00"
+    },
+    {
+      "id_producto_paciente": 21398,
+      "producto_id": "PRODUCT_022569_002",
+      "número de patente": "9814705",
+      "fecha de vencimiento de la patente": "2024-01-08 00:00:00",
+      "indicador_sustancia_farmacológica": 0,
+      "producto_farmaco": 1,
+      "código de uso de patente": null,
+      "bandera_deslistar": 0,
+      "fecha_de_envío": "2017-12-13 00:00:00"
+    },
+    {
+      "id_producto_paciente": 21415,
+      "producto_id": "PRODUCT_022569_001",
+      "número de patente": "9814705",
+      "fecha de vencimiento de la patente": "2024-01-08 00:00:00",
+      "indicador_sustancia_farmacológica": 0,
+      "producto_farmaco": 1,
+      "código de uso de patente": null,
+      "bandera_deslistar": 0,
+      "fecha_de_envío": "2017-12-13 00:00:00"
+    }
+  ]
+}

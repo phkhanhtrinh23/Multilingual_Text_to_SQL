@@ -1,0 +1,70 @@
+{
+  "sample_rows": [
+    {
+      "ID_GEO": "zip/55032",
+      "NOME_GEO": "55032",
+      "VARIÁVEL": "outbound_address_changes_temporary",
+      "NOME_VARIAVEL": "Outbound Address Changes, Temporary",
+      "DATA": "2020-08-31",
+      "VALOR": 0
+    },
+    {
+      "ID_GEO": "geoId/2555745",
+      "NOME_GEO": "Quincy",
+      "VARIÁVEL": "inbound_address_changes_permanent",
+      "NOME_VARIAVEL": "Inbound Address Changes, Permanent",
+      "DATA": "2023-06-30",
+      "VALOR": 582
+    },
+    {
+      "ID_GEO": "geoId/3362500",
+      "NOME_GEO": "Plaistow",
+      "VARIÁVEL": "net_address_changes_individuals",
+      "NOME_VARIAVEL": "Net Address Changes, Individuals",
+      "DATA": "2021-08-31",
+      "VALOR": 4
+    },
+    {
+      "ID_GEO": "zip/72132",
+      "NOME_GEO": "72132",
+      "VARIÁVEL": "inbound_address_changes_businesses",
+      "NOME_VARIAVEL": "Inbound Address Changes, Businesses",
+      "DATA": "2022-12-31",
+      "VALOR": 0
+    },
+    {
+      "ID_GEO": "geoId/3703960",
+      "NOME_GEO": "Bayboro",
+      "VARIÁVEL": "outbound_address_changes_families",
+      "NOME_VARIAVEL": "Outbound Address Changes, Families",
+      "DATA": "2023-02-28",
+      "VALOR": 0
+    }
+  ],
+  "table_name": "USPS_ADDRESS_CHANGE_TIMESERIES",
+  "table_fullname": "US_REAL_ESTATE.CYBERSYN.USPS_ADDRESS_CHANGE_TIMESERIES",
+  "column_names": [
+    "NOME_VARIAVEL",
+    "DATA",
+    "VARIÁVEL",
+    "NOME_GEO",
+    "ID_GEO",
+    "VALOR"
+  ],
+  "column_types": [
+    "TEXT",
+    "DATE",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "NUMBER"
+  ],
+  "description": [
+    "Uma descrição legível por humanos da variável",
+    "Data correspondente ao ponto de dados. Note que as datas são registradas como a data de fim do período quando o período de medição é > 1 dia",
+    "Um identificador único que pode ser unido à tabela de atributos",
+    "Nome da localização do estado, cidade ou código postal",
+    "Um identificador único para um local (por exemplo, estado, cidade, código postal, etc.). Pode ser unido às tabelas geography_index/relationships para filtrar a agregação de regiões",
+    "O valor numérico da variável relatada"
+  ]
+}

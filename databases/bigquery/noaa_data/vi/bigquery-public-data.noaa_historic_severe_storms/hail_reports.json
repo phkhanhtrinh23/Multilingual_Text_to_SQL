@@ -1,0 +1,126 @@
+{
+  "table_name": "hail_reports",
+  "table_fullname": "bigquery-public-data.noaa_historic_severe_storms.hail_reports",
+  "column_names": [
+    "mốc thời gian",
+    "thời gian",
+    "kích thước",
+    "Địa điểm",
+    "hạt",
+    "Tình trạng",
+    "vĩ độ",
+    "kinh độ",
+    "Bình luận",
+    "điểm báo cáo"
+  ],
+  "column_types": [
+    "TIMESTAMP",
+    "STRING",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "FLOAT64",
+    "STRING",
+    "GEOGRAPHY"
+  ],
+  "nested_column_names": [
+    "điểm thời gian",
+    "thời gian",
+    "kích thước",
+    "địa điểm",
+    "quận",
+    "trạng thái",
+    "vĩ độ",
+    "kinh độ",
+    "Bình luận",
+    "điểm báo cáo"
+  ],
+  "nested_column_types": [
+    "TIMESTAMP",
+    "STRING",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "FLOAT64",
+    "STRING",
+    "GEOGRAPHY"
+  ],
+  "description": [
+    "Timestamp trong UTC",
+    "Giờ UTC",
+    "Kích thước tính theo 1/100 inch (175 = 1,75 in)",
+    "Vị trí của báo cáo",
+    "",
+    "",
+    "Vĩ độ đến hai chữ số thập phân",
+    "Kinh độ đến hai chữ số thập phân",
+    "",
+    ""
+  ],
+  "sample_rows": [
+    {
+      "điểm thời gian": "2021-04-09 15:01:00+00:00",
+      "thời gian": "1501",
+      "kích thước": 150,
+      "địa điểm": "4 ESE MARBURY",
+      "quận": "AUTAUGA",
+      "trạng thái": "AL",
+      "vĩ độ": 32.67,
+      "kinh độ": -86.42,
+      "Bình luận": "FORWARDED BY BROADCAST MEDIA VIA SOCIAL MEDIA. (BMX)",
+      "điểm báo cáo": "POINT(-86.42 32.67)"
+    },
+    {
+      "điểm thời gian": "2021-05-03 23:30:00+00:00",
+      "thời gian": "2330",
+      "kích thước": 100,
+      "địa điểm": "3 NNE PRATTVILLE",
+      "quận": "AUTAUGA",
+      "trạng thái": "AL",
+      "vĩ độ": 32.5,
+      "kinh độ": -86.44,
+      "Bình luận": "QUARTER SIZE HAIL WAS REPORTED ON OLD RIDGE ROAD NORTH OF PRATTVILLE. (BMX)",
+      "điểm báo cáo": "POINT(-86.44 32.5)"
+    },
+    {
+      "điểm thời gian": "2021-04-10 08:20:00+00:00",
+      "thời gian": "0820",
+      "kích thước": 400,
+      "địa điểm": "1 SSW ORANGE BEACH",
+      "quận": "BALDWIN",
+      "trạng thái": "AL",
+      "vĩ độ": 30.27,
+      "kinh độ": -87.59,
+      "Bình luận": "TWO SEPARATE PHOTOS SHOW HAIL NEAR SOFTBALL SIZE IN ORANGE BEACH. SIGNIFICANT HAIL DAMAGE REPORTED TO NUMEROUS VEHICLES AND METALS ROOFS IN THE AREA. (MOB)",
+      "điểm báo cáo": "POINT(-87.59 30.27)"
+    },
+    {
+      "điểm thời gian": "2021-04-10 08:40:00+00:00",
+      "thời gian": "0840",
+      "kích thước": 200,
+      "địa điểm": "4 SW LILLIAN",
+      "quận": "BALDWIN",
+      "trạng thái": "AL",
+      "vĩ độ": 30.38,
+      "kinh độ": -87.48,
+      "Bình luận": "REPORT OF 2 INCH SIZE HAIL FURTHER INLAND (SOUTHWEST OF LILLIAN). (MOB)",
+      "điểm báo cáo": "POINT(-87.48 30.38)"
+    },
+    {
+      "điểm thời gian": "2021-04-15 12:56:00+00:00",
+      "thời gian": "1256",
+      "kích thước": 100,
+      "địa điểm": "2 WSW FOLEY",
+      "quận": "BALDWIN",
+      "trạng thái": "AL",
+      "vĩ độ": 30.39,
+      "kinh độ": -87.72,
+      "Bình luận": "CORRECTS PREVIOUS HAIL REPORT FROM 2 WSW FOLEY. REPORT OF QUARTER-SIZE HAIL IN SOUTHWEST FOLEY. TIME AND LOCATION GIVEN BY LOCAL POLICE. (MOB)",
+      "điểm báo cáo": "POINT(-87.72 30.39)"
+    }
+  ]
+}

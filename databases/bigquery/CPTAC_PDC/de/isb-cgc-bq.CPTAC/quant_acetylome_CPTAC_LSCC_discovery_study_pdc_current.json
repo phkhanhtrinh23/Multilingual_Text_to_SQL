@@ -1,0 +1,116 @@
+{
+  "table_name": "quant_acetylome_CPTAC_LSCC_discovery_study_pdc_current",
+  "table_fullname": "isb-cgc-bq.CPTAC.quant_acetylome_CPTAC_LSCC_discovery_study_pdc_current",
+  "column_names": [
+    "Fall-ID",
+    "Proben-ID",
+    "Aliquot-ID",
+    "Aliquot-Einreicher-ID",
+    "Aliquot-Durchlauf-Metadaten-ID",
+    "Studienname",
+    "Proteinabundanz-log2-Verhältnis",
+    "RefSeq-ID",
+    "Acetylierungsstellen"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "Fall-ID",
+    "Proben-ID",
+    "Aliquot-ID",
+    "Aliquot-Einreicher-ID",
+    "Aliquot-Lauf-Metadaten-ID",
+    "Studienname",
+    "Proteinabundanz-Log2-Verhältnis",
+    "RefSeq-ID",
+    "Acetylierungsstellen"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "Eindeutige Kennung, die mit einem bestimmten Patienten verbunden ist (z. B. 24cb0fcb-63d6-11e8-bcf1-0a2705229b82)",
+    "Einzigartiger PDC-Identifikator für diese Probe (z. B. e8d83eb9-693a-11ea-b1fd-0aad30af8a83)",
+    "Einzigartiger PDC-Identifikator für dieses Aliquot (z. B. e8db124a-693a-11ea-b1fd-0aad30af8a83)",
+    "Aliquot-Einreicher-ID vom Programm zugewiesen (z. B. T14)",
+    "Identifiziert das Aliquot eindeutig danach, wie es im Experiment verwendet wurde (basierend auf dem Beschriftungsreagenz und/oder dem biologischen Replikat)",
+    "Name der Studie (z. B. Pediatric Brain Cancer Pilot Study - Phosphoproteome)",
+    "Durchschnittliches Log-Verhältnis des Proben-Reporter-Ions zum gemeinsamen Referenzpeptid-Ion, das dem Gen in Messungen aus einer bestimmten biologischen Probe assoziiert ist",
+    "Eindeutige Kennung einer Sequenz in der NCBI RefSeq-Datenbank",
+    "Ein-Buchstaben-Codes und Proteinsequenzpositionen der acetylierten Aminosäuren (z. B. k12k16, k21)"
+  ],
+  "sample_rows": [
+    {
+      "Fall-ID": "1c6449cd-d028-11ea-b1fd-0aad30af8a83",
+      "Proben-ID": "1c6596c8-d028-11ea-b1fd-0aad30af8a83",
+      "Aliquot-ID": "1c671301-d028-11ea-b1fd-0aad30af8a83",
+      "Aliquot-Einreicher-ID": "CPT0209510003",
+      "Aliquot-Lauf-Metadaten-ID": "27f301f6-d0fb-11ea-b1fd-0aad30af8a83",
+      "Studienname": "CPTAC LSCC Discovery Study - Acetylome",
+      "Proteinabundanz-Log2-Verhältnis": 0.4675,
+      "RefSeq-ID": "NP_001137151.1",
+      "Acetylierungsstellen": "k94"
+    },
+    {
+      "Fall-ID": "1c6449cd-d028-11ea-b1fd-0aad30af8a83",
+      "Proben-ID": "1c6596c8-d028-11ea-b1fd-0aad30af8a83",
+      "Aliquot-ID": "1c671301-d028-11ea-b1fd-0aad30af8a83",
+      "Aliquot-Einreicher-ID": "CPT0209510003",
+      "Aliquot-Lauf-Metadaten-ID": "27f301f6-d0fb-11ea-b1fd-0aad30af8a83",
+      "Studienname": "CPTAC LSCC Discovery Study - Acetylome",
+      "Proteinabundanz-Log2-Verhältnis": 0.16,
+      "RefSeq-ID": "NP_689419.2",
+      "Acetylierungsstellen": "k288"
+    },
+    {
+      "Fall-ID": "1c6449cd-d028-11ea-b1fd-0aad30af8a83",
+      "Proben-ID": "1c6596c8-d028-11ea-b1fd-0aad30af8a83",
+      "Aliquot-ID": "1c671301-d028-11ea-b1fd-0aad30af8a83",
+      "Aliquot-Einreicher-ID": "CPT0209510003",
+      "Aliquot-Lauf-Metadaten-ID": "27f301f6-d0fb-11ea-b1fd-0aad30af8a83",
+      "Studienname": "CPTAC LSCC Discovery Study - Acetylome",
+      "Proteinabundanz-Log2-Verhältnis": 0.5689,
+      "RefSeq-ID": "NP_000981.1",
+      "Acetylierungsstellen": "k55"
+    },
+    {
+      "Fall-ID": "1c6449cd-d028-11ea-b1fd-0aad30af8a83",
+      "Proben-ID": "1c6596c8-d028-11ea-b1fd-0aad30af8a83",
+      "Aliquot-ID": "1c671301-d028-11ea-b1fd-0aad30af8a83",
+      "Aliquot-Einreicher-ID": "CPT0209510003",
+      "Aliquot-Lauf-Metadaten-ID": "27f301f6-d0fb-11ea-b1fd-0aad30af8a83",
+      "Studienname": "CPTAC LSCC Discovery Study - Acetylome",
+      "Proteinabundanz-Log2-Verhältnis": -0.1752,
+      "RefSeq-ID": "NP_000980.1",
+      "Acetylierungsstellen": "k26"
+    },
+    {
+      "Fall-ID": "1c6449cd-d028-11ea-b1fd-0aad30af8a83",
+      "Proben-ID": "1c6596c8-d028-11ea-b1fd-0aad30af8a83",
+      "Aliquot-ID": "1c671301-d028-11ea-b1fd-0aad30af8a83",
+      "Aliquot-Einreicher-ID": "CPT0209510003",
+      "Aliquot-Lauf-Metadaten-ID": "27f301f6-d0fb-11ea-b1fd-0aad30af8a83",
+      "Studienname": "CPTAC LSCC Discovery Study - Acetylome",
+      "Proteinabundanz-Log2-Verhältnis": -0.4534,
+      "RefSeq-ID": "NP_001317259.1",
+      "Acetylierungsstellen": "k72"
+    }
+  ]
+}

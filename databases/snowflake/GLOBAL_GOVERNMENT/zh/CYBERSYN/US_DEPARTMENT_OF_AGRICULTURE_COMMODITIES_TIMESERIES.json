@@ -1,0 +1,86 @@
+{
+  "sample_rows": [
+    {
+      "地理标识": "country/DEU",
+      "变量": "ESR_corn_accumulated_exports",
+      "变量名": "Corn: Accumulated Exports",
+      "日期": "1999-04-01",
+      "值": 3505.0,
+      "单位": "Metric Tons",
+      "日历年": "1970-01-01",
+      "营销年度": "1999"
+    },
+    {
+      "地理标识": "country/BMU",
+      "变量": "ESR_rice_lg_brown_current_market_year_total_commitment",
+      "变量名": "Rice-LG Brown: Current Market Year Total Commitment",
+      "日期": "2009-09-10",
+      "值": 18.0,
+      "单位": "Metric Tons",
+      "日历年": "1970-01-01",
+      "营销年度": "2010"
+    },
+    {
+      "地理标识": "country/SEN",
+      "变量": "PSD-4234000-088",
+      "变量名": "Peanut Oil: Exports",
+      "日期": "2015-03-01",
+      "值": 35000.0,
+      "单位": "Metric Tons",
+      "日历年": "2020-12-31",
+      "营销年度": "2015"
+    },
+    {
+      "地理标识": "country/JAM",
+      "变量": "ESR_soybean_cake__meal_next_market_year_outstanding_sales",
+      "变量名": "Soybean cake & meal: Next Market Year Outstanding Sales",
+      "日期": "2021-03-25",
+      "值": 0.0,
+      "单位": "Metric Tons",
+      "日历年": "1970-01-01",
+      "营销年度": "2021"
+    },
+    {
+      "地理标识": "country/BEL",
+      "变量": "ESR_all_upland_cotton_weekly_exports",
+      "变量名": "All Upland Cotton: Weekly Exports",
+      "日期": "2007-02-08",
+      "值": 0.0,
+      "单位": "Running Bales",
+      "日历年": "1970-01-01",
+      "营销年度": "2007"
+    }
+  ],
+  "table_name": "US_DEPARTMENT_OF_AGRICULTURE_COMMODITIES_TIMESERIES",
+  "table_fullname": "GLOBAL_GOVERNMENT.CYBERSYN.US_DEPARTMENT_OF_AGRICULTURE_COMMODITIES_TIMESERIES",
+  "column_names": [
+    "变量名",
+    "日期",
+    "单位",
+    "地理标识",
+    "变量",
+    "值",
+    "营销年度",
+    "日历年"
+  ],
+  "column_types": [
+    "TEXT",
+    "DATE",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "FLOAT",
+    "TEXT",
+    "DATE"
+  ],
+  "description": [
+    "对报告属性的人类可读描述，包括商品类型以及正在记录的内容说明。",
+    "与该值相关的日期（例如，对于ESR变量，它代表销售周末）。如需更多详细信息，请参阅ATTRIBUTES表。",
+    "报告值的计量单位（例如：公吨）",
+    "可与 GEOGRAPHY_INDEX 表关联的唯一国家标识符",
+    "唯一标识符，用于定义变量，包括其来源的 USDA 数据集（例如 ESR - Export Sales Report）、与该变量相关的商品以及测量内容。",
+    "所报告的变量值",
+    "营销年与特定作物的农业季节和收获周期相对应。营销年通常从某种作物开始收获的月份开始，并在下一年度收获开始之前结束。不同作物和不同国家之间的这一期间差异可能很大。",
+    "与该值相关的日历年"
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "table_name": "significantAdverseDrugReactions",
+  "table_fullname": "bigquery-public-data.open_targets_platform.significantAdverseDrugReactions",
+  "column_names": [
+    "ID ChEMBL",
+    "evento",
+    "conteo",
+    "Reserva de Pérdida de Préstamos",
+    "valor crítico",
+    "código MedDRA"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "INT64",
+    "FLOAT64",
+    "FLOAT64",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "ID Chembl",
+    "evento",
+    "conteo",
+    "llr",
+    "valor crítico",
+    "Código MedDRA"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "INT64",
+    "FLOAT64",
+    "FLOAT64",
+    "STRING"
+  ],
+  "description": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "sample_rows": [
+    {
+      "ID Chembl": "CHEMBL2",
+      "evento": "hypotension",
+      "conteo": 53,
+      "llr": 91.35776972666008,
+      "valor crítico": 6.251299745844193,
+      "Código MedDRA": "10021097"
+    },
+    {
+      "ID Chembl": "CHEMBL3",
+      "evento": "jaundice neonatal",
+      "conteo": 43,
+      "llr": 155.15858689508605,
+      "valor crítico": 38.961201902675384,
+      "Código MedDRA": "10023138"
+    },
+    {
+      "ID Chembl": "CHEMBL3",
+      "evento": "macular degeneration",
+      "conteo": 114,
+      "llr": 388.47462428933795,
+      "valor crítico": 38.961201902675384,
+      "Código MedDRA": "10025409"
+    },
+    {
+      "ID Chembl": "CHEMBL3",
+      "evento": "drug abuse",
+      "conteo": 83,
+      "llr": 86.02875766474244,
+      "valor crítico": 38.961201902675384,
+      "Código MedDRA": "10013654"
+    },
+    {
+      "ID Chembl": "CHEMBL3",
+      "evento": "premature baby",
+      "conteo": 150,
+      "llr": 299.56098443422525,
+      "valor crítico": 38.961201902675384,
+      "Código MedDRA": "10036590"
+    }
+  ]
+}

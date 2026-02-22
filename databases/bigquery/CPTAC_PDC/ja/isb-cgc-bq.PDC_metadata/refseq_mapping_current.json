@@ -1,0 +1,66 @@
+{
+  "table_name": "refseq_mapping_current",
+  "table_fullname": "isb-cgc-bq.PDC_metadata.refseq_mapping_current",
+  "column_names": [
+    "UniProt ID",
+    "UniProtレビュー状態",
+    "遺伝子記号",
+    "リファレンス配列ID"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "UniProt ID",
+    "UniProtレビュー状況",
+    "遺伝子記号",
+    "参照配列ID"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "UniProt によって配列に割り当てられたユニーク識別子で、しばしば生物学的に関連する情報を含む",
+    "未レビューのレコードには、計算で生成された注釈と大規模な機能解析に関連するタンパク質配列が含まれています。レビュー済みのレコードは高品質で手動による注釈が行われ、冗長性がありません。",
+    "遺伝子記号（PDC が NCBI から取得）",
+    "NCBI RefSeq データベースにおけるシーケンスに付与されるユニーク識別子"
+  ],
+  "sample_rows": [
+    {
+      "UniProt ID": "A0JNW5-1",
+      "UniProtレビュー状況": "reviewed",
+      "遺伝子記号": "BLTP3B",
+      "参照配列ID": "NP_055869.1"
+    },
+    {
+      "UniProt ID": "A0JNW5-2",
+      "UniProtレビュー状況": "reviewed",
+      "遺伝子記号": "BLTP3B",
+      "参照配列ID": "NP_001006948.1"
+    },
+    {
+      "UniProt ID": "A0JP26-1",
+      "UniProtレビュー状況": "reviewed",
+      "遺伝子記号": "POTEB3",
+      "参照配列ID": "XP_011542097.1"
+    },
+    {
+      "UniProt ID": "A0JP26-1",
+      "UniProtレビュー状況": "reviewed",
+      "遺伝子記号": "POTEB3",
+      "参照配列ID": "NP_997238.2"
+    },
+    {
+      "UniProt ID": "A1A519-2",
+      "UniProtレビュー状況": "reviewed",
+      "遺伝子記号": "FAM170A",
+      "参照配列ID": "NP_877438.2"
+    }
+  ]
+}

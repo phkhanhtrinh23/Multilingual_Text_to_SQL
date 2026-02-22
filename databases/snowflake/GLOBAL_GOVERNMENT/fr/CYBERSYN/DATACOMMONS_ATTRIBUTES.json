@@ -1,0 +1,70 @@
+{
+  "sample_rows": [
+    {
+      "VARIABLE": "Count_BirthEvent_europa.eu",
+      "NOM_VARIABLE": "Count of Birth Event, europa.eu",
+      "GROUPE_VARIABLE": "Count of Birth Event",
+      "CATÉGORIE": "BirthEvent",
+      "UNITÉ": "Count",
+      "DOMAINE_SOURCE": "europa.eu"
+    },
+    {
+      "VARIABLE": "Percent_Person_BingeDrinking",
+      "NOM_VARIABLE": "Percentage of Population Who Binge Drink",
+      "GROUPE_VARIABLE": "Percentage of Population Who Binge Drink",
+      "CATÉGORIE": "Person_HealthBehavior-BingeDrinking",
+      "UNITÉ": "Percent",
+      "DOMAINE_SOURCE": "cdc.gov"
+    },
+    {
+      "VARIABLE": "Temperature",
+      "NOM_VARIABLE": "Temperature in a Location",
+      "GROUPE_VARIABLE": "Temperature in a Location",
+      "CATÉGORIE": "ObservationalWeather",
+      "UNITÉ": "Celsius",
+      "DOMAINE_SOURCE": "nasa.gov"
+    },
+    {
+      "VARIABLE": "RetailDrugDistribution_DrugDistribution_Ecgonine",
+      "NOM_VARIABLE": "Retail Drug Distribution of Drug Distribution: Drug/dea/9180 L",
+      "GROUPE_VARIABLE": "Retail Drug Distribution of Drug Distribution: Drug/dea/9180 L",
+      "CATÉGORIE": "DrugDistribution_DrugPrescribed",
+      "UNITÉ": "Grams",
+      "DOMAINE_SOURCE": "dea.gov"
+    },
+    {
+      "VARIABLE": "Count_Person_Female_abs.gov.au",
+      "NOM_VARIABLE": "Female Population, abs.gov.au",
+      "GROUPE_VARIABLE": "Female Population",
+      "CATÉGORIE": "Person_Gender-Female",
+      "UNITÉ": "Count",
+      "DOMAINE_SOURCE": "abs.gov.au"
+    }
+  ],
+  "table_name": "DATACOMMONS_ATTRIBUTES",
+  "table_fullname": "GLOBAL_GOVERNMENT.CYBERSYN.DATACOMMONS_ATTRIBUTES",
+  "column_names": [
+    "UNITÉ",
+    "DOMAINE_SOURCE",
+    "GROUPE_VARIABLE",
+    "CATÉGORIE",
+    "VARIABLE",
+    "NOM_VARIABLE"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Unité de mesure pour la valeur (par exemple, USD, Années, Acre, etc.)",
+    "Domaine de l'URL où les données brutes peuvent être trouvées",
+    "La variable principale mesurée, excluant toute information sur la méthode de mesure. Les variables appartenant au même groupe mesurent la même chose, mais diffèrent sur la méthode de mesure ou l'agence de rapport",
+    "Catégorie générale de la variable ou du type de mesure (par exemple, Météo, Démographie, etc.)",
+    "Un identifiant unique pour une variable statistique, joignable à la table `DATACOMMONS_TIMESERIES`",
+    "Nom lisible par l'homme pour la variable"
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "table_name": "indication",
+  "table_fullname": "bigquery-public-data.open_targets_platform.indication",
+  "column_names": [
+    "编号",
+    "指示",
+    "已批准适应症",
+    "指示计数"
+  ],
+  "column_types": [
+    "STRING",
+    "STRUCT<list ARRAY<STRUCT<element STRUCT<disease STRING, efoName STRING, references STRUCT<list ARRAY<STRUCT<element STRUCT<source STRING, ids STRUCT<list ARRAY<STRUCT<element STRING>>>>>>>, maxPhaseForIndication FLOAT64>>>>",
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "编号",
+    "指示",
+    "适应症列表",
+    "提示列表项",
+    "疾病",
+    "适应症列表元素EFO名称",
+    "指示列表元素引用",
+    "指示列表元素引用列表",
+    "指示列表元素参考列表元素",
+    "指示列表元素引用列表元素来源",
+    "指示列表元素引用列表元素ID",
+    "指示列表元素引用列表元素ID列表",
+    "指示\n列表\n元素\n参考\n列表\n元素\nID\n列表\n元素",
+    "适应症列表元素最大相位",
+    "已批准适应症",
+    "已批准适应症列表",
+    "已批准指示列表条目",
+    "指示数量"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRUCT<list ARRAY<STRUCT<element STRUCT<disease STRING, efoName STRING, references STRUCT<list ARRAY<STRUCT<element STRUCT<source STRING, ids STRUCT<list ARRAY<STRUCT<element STRING>>>>>>>, maxPhaseForIndication FLOAT64>>>>",
+    "ARRAY<STRUCT<element STRUCT<disease STRING, efoName STRING, references STRUCT<list ARRAY<STRUCT<element STRUCT<source STRING, ids STRUCT<list ARRAY<STRUCT<element STRING>>>>>>>, maxPhaseForIndication FLOAT64>>>",
+    "STRUCT<disease STRING, efoName STRING, references STRUCT<list ARRAY<STRUCT<element STRUCT<source STRING, ids STRUCT<list ARRAY<STRUCT<element STRING>>>>>>>, maxPhaseForIndication FLOAT64>",
+    "STRING",
+    "STRING",
+    "STRUCT<list ARRAY<STRUCT<element STRUCT<source STRING, ids STRUCT<list ARRAY<STRUCT<element STRING>>>>>>>",
+    "ARRAY<STRUCT<element STRUCT<source STRING, ids STRUCT<list ARRAY<STRUCT<element STRING>>>>>>",
+    "STRUCT<source STRING, ids STRUCT<list ARRAY<STRUCT<element STRING>>>>",
+    "STRING",
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+    "ARRAY<STRUCT<element STRING>>",
+    "STRING",
+    "FLOAT64",
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+    "ARRAY<STRUCT<element STRING>>",
+    "STRING",
+    "INT64"
+  ],
+  "description": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "sample_rows": [
+    {
+      "编号": "CHEMBL500826",
+      "指示": {
+        "list": "[{'element': {'disease': 'EFO_1001888', 'efoName': 'eye infection', 'references': {'list': array([{'element': {'source': 'ATC', 'ids': {'list': array([{'element': 'S01AX10'}], dtype=object)}}}],\n       dtype=object)}, 'maxPhaseForIndication': 2.0}}                                                                                                                                             ]"
+      },
+      "已批准适应症": {
+        "list": "[]"
+      },
+      "指示数量": 1
+    },
+    {
+      "编号": "CHEMBL3989504",
+      "指示": {
+        "list": "[{'element': {'disease': 'EFO_0000771', 'efoName': 'bacterial disease', 'references': {'list': array([{'element': {'source': 'ATC', 'ids': {'list': array([{'element': 'J01MA21'}], dtype=object)}}}],\n       dtype=object)}, 'maxPhaseForIndication': 2.0}}                                                                                                                                                 ]"
+      },
+      "已批准适应症": {
+        "list": "[]"
+      },
+      "指示数量": 1
+    },
+    {
+      "编号": "CHEMBL36633",
+      "指示": {
+        "list": "[{'element': {'disease': 'EFO_0003888', 'efoName': 'attention deficit hyperactivity disorder', 'references': {'list': array([{'element': {'source': 'ATC', 'ids': {'list': array([{'element': 'N06BX07'}], dtype=object)}}}],\n       dtype=object)}, 'maxPhaseForIndication': 2.0}}                                                                                                                                                                        ]"
+      },
+      "已批准适应症": {
+        "list": "[]"
+      },
+      "指示数量": 1
+    },
+    {
+      "编号": "CHEMBL3989705",
+      "指示": {
+        "list": "[{'element': {'disease': 'EFO_1001888', 'efoName': 'eye infection', 'references': {'list': array([{'element': {'source': 'ATC', 'ids': {'list': array([{'element': 'S01AX10'}], dtype=object)}}}],\n       dtype=object)}, 'maxPhaseForIndication': 2.0}}                                                                                                                                             ]"
+      },
+      "已批准适应症": {
+        "list": "[]"
+      },
+      "指示数量": 1
+    },
+    {
+      "编号": "CHEMBL3989444",
+      "指示": {
+        "list": "[{'element': {'disease': 'EFO_0000319', 'efoName': 'cardiovascular disease', 'references': {'list': array([{'element': {'source': 'ATC', 'ids': {'list': array([{'element': 'C04AX24'}], dtype=object)}}}],\n       dtype=object)}, 'maxPhaseForIndication': 2.0}}                                                                                                                                                      ]"
+      },
+      "已批准适应症": {
+        "list": "[]"
+      },
+      "指示数量": 1
+    }
+  ]
+}

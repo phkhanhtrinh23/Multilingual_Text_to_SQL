@@ -1,0 +1,86 @@
+{
+  "table_name": "KaryBreak",
+  "table_fullname": "mitelman-db.prod.KaryBreak",
+  "column_names": [
+    "Số Tham Chiếu",
+    "Số vụ",
+    "Số Hóa Đơn",
+    "Số Clone",
+    "Số đơn",
+    "Điểm ngắt"
+  ],
+  "column_types": [
+    "INT64",
+    "STRING",
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "Số tham chiếu",
+    "Số hồ sơ",
+    "Số Hóa Đơn",
+    "Số Clone",
+    "Số Đơn",
+    "điểm dừng"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "STRING",
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING"
+  ],
+  "description": [
+    "số tham chiếu, ví dụ '14617'",
+    "số trường hợp, thường nằm trong khoảng từ 1 đến 10, nhưng cũng có thể là một chuỗi tùy ý, ví dụ 'A11'",
+    "số điều tra, từ 1 đến 9",
+    "số clone, từ 1 đến 58",
+    "số đặt hàng, từ 1 đến 392",
+    "chuỗi tùy ý, ví dụ '14q32', hoặc '9', hoặc '?10q?11'"
+  ],
+  "sample_rows": [
+    {
+      "Số tham chiếu": 4169,
+      "Số hồ sơ": "384",
+      "Số Hóa Đơn": 1,
+      "Số Clone": 1,
+      "Số Đơn": 1,
+      "điểm dừng": "?"
+    },
+    {
+      "Số tham chiếu": 5553,
+      "Số hồ sơ": "56",
+      "Số Hóa Đơn": 1,
+      "Số Clone": 2,
+      "Số Đơn": 1,
+      "điểm dừng": "?"
+    },
+    {
+      "Số tham chiếu": 7703,
+      "Số hồ sơ": "254",
+      "Số Hóa Đơn": 1,
+      "Số Clone": 2,
+      "Số Đơn": 1,
+      "điểm dừng": "?"
+    },
+    {
+      "Số tham chiếu": 8463,
+      "Số hồ sơ": "43",
+      "Số Hóa Đơn": 1,
+      "Số Clone": 1,
+      "Số Đơn": 1,
+      "điểm dừng": "?"
+    },
+    {
+      "Số tham chiếu": 8473,
+      "Số hồ sơ": "1B",
+      "Số Hóa Đơn": 1,
+      "Số Clone": 1,
+      "Số Đơn": 1,
+      "điểm dừng": "?"
+    }
+  ]
+}

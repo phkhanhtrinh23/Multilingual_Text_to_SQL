@@ -1,0 +1,110 @@
+{
+  "sample_rows": [
+    {
+      "ID_TIPO_DE_VOO": "28ad3b116a705f65fd2a9df6bec3f49f",
+      "ID_TRANSPORTADORA_AERONÁUTICA": "06964_12",
+      "ID_AERONAVE": "3501",
+      "ID_AEROPORTO_DE_ORIGEM": "90530OOK",
+      "ID_AEROPORTO_DE_DESTINO": "10360BET",
+      "CLASSE_DE_SERVICO": "Non-Scheduled Civilian Passenger Service",
+      "VARIÁVEL": "RAMP_IN_MINUTES",
+      "NOME_DA_VARIÁVEL": "Ramp to Ramp Time",
+      "DATA": "2010-08-31",
+      "VALOR": 56.0,
+      "UNIDADE": "Minutes"
+    },
+    {
+      "ID_TIPO_DE_VOO": "cf4b7309ce4884368d51a7e51942e1b9",
+      "ID_TRANSPORTADORA_AERONÁUTICA": "06820_32",
+      "ID_AERONAVE": "67761",
+      "ID_AEROPORTO_DE_ORIGEM": "33342MKE",
+      "ID_AEROPORTO_DE_DESTINO": "30977ORD",
+      "CLASSE_DE_SERVICO": "Scheduled Passenger/Cargo Service",
+      "VARIÁVEL": "RAMP_IN_MINUTES",
+      "NOME_DA_VARIÁVEL": "Ramp to Ramp Time",
+      "DATA": "2022-08-31",
+      "VALOR": 129.0,
+      "UNIDADE": "Minutes"
+    },
+    {
+      "ID_TIPO_DE_VOO": "f367e322ca9c2659c07cc794f71f1d91",
+      "ID_TRANSPORTADORA_AERONÁUTICA": "07028_22",
+      "ID_AERONAVE": "3161",
+      "ID_AEROPORTO_DE_ORIGEM": "30781BTR",
+      "ID_AEROPORTO_DE_DESTINO": "31057CLT",
+      "CLASSE_DE_SERVICO": "Scheduled Passenger/Cargo Service",
+      "VARIÁVEL": "AVAILABLE_CAPACITY_PAYLOAD_POUNDS",
+      "NOME_DA_VARIÁVEL": "Available Payload",
+      "DATA": "2018-12-31",
+      "VALOR": 17600.0,
+      "UNIDADE": "Pounds"
+    },
+    {
+      "ID_TIPO_DE_VOO": "c9dd4f9fc360815254514841363591c7",
+      "ID_TRANSPORTADORA_AERONÁUTICA": "01220_31",
+      "ID_AERONAVE": "61661",
+      "ID_AEROPORTO_DE_ORIGEM": "31703EWR",
+      "ID_AEROPORTO_DE_DESTINO": "30792BUF",
+      "CLASSE_DE_SERVICO": "Scheduled Passenger/Cargo Service",
+      "VARIÁVEL": "DEPARTURES_PERFORMED",
+      "NOME_DA_VARIÁVEL": "Departures Performed",
+      "DATA": "2001-02-28",
+      "VALOR": 17.0,
+      "UNIDADE": "Count"
+    },
+    {
+      "ID_TIPO_DE_VOO": "43c78ee4a763fae537e32de92c688134",
+      "ID_TRANSPORTADORA_AERONÁUTICA": "06860_12",
+      "ID_AERONAVE": "41641",
+      "ID_AEROPORTO_DE_ORIGEM": "32122HGZ",
+      "ID_AEROPORTO_DE_DESTINO": "32214HSL",
+      "CLASSE_DE_SERVICO": "Scheduled Passenger/Cargo Service",
+      "VARIÁVEL": "MAIL_TRANSPORTED",
+      "NOME_DA_VARIÁVEL": "Non-Stop Segment Mail Transported",
+      "DATA": "2003-06-30",
+      "VALOR": 1121.0,
+      "UNIDADE": "Pounds"
+    }
+  ],
+  "table_name": "US_DEPARTMENT_OF_TRANSPORTATION_TIMESERIES",
+  "table_fullname": "GLOBAL_GOVERNMENT.CYBERSYN.US_DEPARTMENT_OF_TRANSPORTATION_TIMESERIES",
+  "column_names": [
+    "ID_TIPO_DE_VOO",
+    "ID_AERONAVE",
+    "ID_AEROPORTO_DE_DESTINO",
+    "UNIDADE",
+    "VALOR",
+    "DATA",
+    "CLASSE_DE_SERVICO",
+    "NOME_DA_VARIÁVEL",
+    "ID_AEROPORTO_DE_ORIGEM",
+    "VARIÁVEL",
+    "ID_TRANSPORTADORA_AERONÁUTICA"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "FLOAT",
+    "DATE",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Um hash único para a combinação dos aeroportos de origem e destino, transportadoras aéreas e aeronaves. Chave primária que reflete o padrão de voo.",
+    "ID para o tipo de aeronave, um modelo distinto designado pelo fabricante.",
+    "ID para o aeroporto de destino que faz parte da rota de voo sendo medida, combinação do código único DOT e do código OAG oficial de 3 letras emitido para esse aeroporto.",
+    "Unidade de medida para o valor relatado.",
+    "Valor relatado para a variável.",
+    "Data associada ao valor.",
+    "Tipo de serviço fornecido pela companhia aérea em um voo específico, distinguindo o serviço programado do não programado e o tipo de serviço.",
+    "Nome único legível por humanos para a variável.",
+    "ID para o aeroporto de origem que faz parte da rota de voo sendo medida, combinação do código único DOT e do código OAG oficial de 3 letras emitido para esse aeroporto.",
+    "Identificador único para uma variável, juntable à tabela de séries temporais.",
+    "ID para a transportadora aérea."
+  ]
+}

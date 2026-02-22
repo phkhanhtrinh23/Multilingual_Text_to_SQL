@@ -1,0 +1,86 @@
+{
+  "table_name": "us_counties",
+  "table_fullname": "bigquery-public-data.covid19_nyt.us_counties",
+  "column_names": [
+    "日期",
+    "县",
+    "州名",
+    "县FIPS码",
+    "确诊病例",
+    "死亡"
+  ],
+  "column_types": [
+    "DATE",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "日期",
+    "县",
+    "州名",
+    "县FIPS代码",
+    "确诊病例",
+    "死亡"
+  ],
+  "nested_column_types": [
+    "DATE",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "INT64"
+  ],
+  "description": [
+    "报告日期",
+    "指定州的县",
+    "州已报告",
+    "县的标准地理标识符",
+    "新冠肺炎确诊病例总数",
+    "COVID-19 的确诊死亡总数"
+  ],
+  "sample_rows": [
+    {
+      "日期": "2022-01-01",
+      "县": "Autauga",
+      "州名": "Alabama",
+      "县FIPS代码": "01001",
+      "确诊病例": 11018,
+      "死亡": 160
+    },
+    {
+      "日期": "2022-01-01",
+      "县": "Baldwin",
+      "州名": "Alabama",
+      "县FIPS代码": "01003",
+      "确诊病例": 39911,
+      "死亡": 593
+    },
+    {
+      "日期": "2022-01-01",
+      "县": "Barbour",
+      "州名": "Alabama",
+      "县FIPS代码": "01005",
+      "确诊病例": 3860,
+      "死亡": 81
+    },
+    {
+      "日期": "2022-01-01",
+      "县": "Bibb",
+      "州名": "Alabama",
+      "县FIPS代码": "01007",
+      "确诊病例": 4533,
+      "死亡": 95
+    },
+    {
+      "日期": "2022-01-01",
+      "县": "Blount",
+      "州名": "Alabama",
+      "县FIPS代码": "01009",
+      "确诊病例": 11256,
+      "死亡": 198
+    }
+  ]
+}

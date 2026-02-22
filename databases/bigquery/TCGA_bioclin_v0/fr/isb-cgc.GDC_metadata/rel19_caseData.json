@@ -1,0 +1,126 @@
+{
+  "table_name": "rel19_caseData",
+  "table_fullname": "isb-cgc.GDC_metadata.rel19_caseData",
+  "column_names": [
+    "id_gdc_cas",
+    "numero_daccès_dbgap_de_projet",
+    "type_de_maladie_de_projet",
+    "nom_de_projet",
+    "numero_daccès_dbgap_de_programme",
+    "nom_de_programme",
+    "id_de_projet",
+    "code_barre_cas",
+    "nombre_de_fichiers_hérités",
+    "nombre_de_fichiers_actifs"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "id_gdc_cas",
+    "numero_dacceso_dbgap_de_projet",
+    "type_de_maladie_de_projet",
+    "nom_de_projet",
+    "numero_dacceso_dbgap_de_programme",
+    "nom_de_programme",
+    "id_de_projet",
+    "code_barre_cas",
+    "nombre_de_fichiers_herites",
+    "nombre_de_fichiers_actifs"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "INT64"
+  ],
+  "description": [
+    "Identifiant unique GDC",
+    "Numéro d'accès dbGaP du programme, par exemple phs000187",
+    "Le type de maladie étudiée par le projet ; par exemple Sarcoma, Carcinome invasive du sein, Leucémie lymphoblastique aiguë, etc",
+    "Nom du projet ; fréquemment le même que ou similaire au type de maladie du projet, par exemple Leucémie lymphoblastique aiguë - Phase II ou Carcinome invasive du sein, etc",
+    "Numéro d'accès dbGaP du programme, par exemple phs000178",
+    "Nom du programme, par exemple TCGA ou TARGET",
+    "ID du projet -- par exemple TCGA-BRCA, TARGET-AML, etc",
+    "Identifiant du soumetteur, par exemple HCC1954, TCGA-ZX-AA5X, etc",
+    "Nombre total de fichiers pour ce cas dans l'archive legacy GDC",
+    "Nombre total de fichiers pour ce cas dans l'archive GDC active (par défaut)"
+  ],
+  "sample_rows": [
+    {
+      "id_gdc_cas": "942851b0-b554-48f4-84f6-6826902e12d7",
+      "numero_dacceso_dbgap_de_projet": "CCLE",
+      "type_de_maladie_de_projet": "Lymphoid Neoplasm Diffuse Large B-cell Lymphoma",
+      "nom_de_projet": "Lymphoid Neoplasm Diffuse Large B-cell Lymphoma",
+      "numero_dacceso_dbgap_de_programme": "CCLE",
+      "nom_de_programme": "CCLE",
+      "id_de_projet": "CCLE-DLBC",
+      "code_barre_cas": "DB",
+      "nombre_de_fichiers_herites": 1,
+      "nombre_de_fichiers_actifs": 0
+    },
+    {
+      "id_gdc_cas": "aaa8da09-070c-4a31-a99e-720f1a0a964f",
+      "numero_dacceso_dbgap_de_projet": "CCLE",
+      "type_de_maladie_de_projet": "Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma",
+      "nom_de_projet": "Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma",
+      "numero_dacceso_dbgap_de_programme": "CCLE",
+      "nom_de_programme": "CCLE",
+      "id_de_projet": "CCLE-CESC",
+      "code_barre_cas": "EN",
+      "nombre_de_fichiers_herites": 1,
+      "nombre_de_fichiers_actifs": 0
+    },
+    {
+      "id_gdc_cas": "ae4dd9c2-ddba-4da5-a372-4cfdeed0859e",
+      "numero_dacceso_dbgap_de_projet": "CCLE",
+      "type_de_maladie_de_projet": "Brain Lower Grade Glioma",
+      "nom_de_projet": "Brain Lower Grade Glioma",
+      "numero_dacceso_dbgap_de_programme": "CCLE",
+      "nom_de_programme": "CCLE",
+      "id_de_projet": "CCLE-LGG",
+      "code_barre_cas": "H4",
+      "nombre_de_fichiers_herites": 1,
+      "nombre_de_fichiers_actifs": 0
+    },
+    {
+      "id_gdc_cas": "6153a459-2c19-41c9-8815-aa9f6e72712e",
+      "numero_dacceso_dbgap_de_projet": "CCLE",
+      "type_de_maladie_de_projet": "Lymphoid Neoplasm Diffuse Large B-cell Lymphoma",
+      "nom_de_projet": "Lymphoid Neoplasm Diffuse Large B-cell Lymphoma",
+      "numero_dacceso_dbgap_de_programme": "CCLE",
+      "nom_de_programme": "CCLE",
+      "id_de_projet": "CCLE-DLBC",
+      "code_barre_cas": "HH",
+      "nombre_de_fichiers_herites": 1,
+      "nombre_de_fichiers_actifs": 0
+    },
+    {
+      "id_gdc_cas": "7f1968dd-cabb-4fc0-9ae7-76f80f41baa5",
+      "numero_dacceso_dbgap_de_projet": "CCLE",
+      "type_de_maladie_de_projet": "Lymphoid Neoplasm Diffuse Large B-cell Lymphoma",
+      "nom_de_projet": "Lymphoid Neoplasm Diffuse Large B-cell Lymphoma",
+      "numero_dacceso_dbgap_de_programme": "CCLE",
+      "nom_de_programme": "CCLE",
+      "id_de_projet": "CCLE-DLBC",
+      "code_barre_cas": "HT",
+      "nombre_de_fichiers_herites": 2,
+      "nombre_de_fichiers_actifs": 0
+    }
+  ]
+}

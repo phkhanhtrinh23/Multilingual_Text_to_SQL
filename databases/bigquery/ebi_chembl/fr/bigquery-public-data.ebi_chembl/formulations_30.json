@@ -1,0 +1,86 @@
+{
+  "table_name": "formulations_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.formulations_30",
+  "column_names": [
+    "id_produit",
+    "ingrédient",
+    "force",
+    "id_enregistrement",
+    "molregno",
+    "id_formulation"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "INT64",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "id_produit",
+    "ingrédient",
+    "force",
+    "id_enregistrement",
+    "molregno",
+    "id_formulation"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "INT64",
+    "INT64"
+  ],
+  "description": [
+    "Identifiant unique du produit. FK vers PRODUCTS",
+    "Nom de l'ingrédient approuvé dans le produit",
+    "Dose de force",
+    "Clé étrangère vers la table compound_records.",
+    "Identifiant unique de l'ingrédient FK vers MOLECULE_DICTIONARY",
+    "Clé primaire."
+  ],
+  "sample_rows": [
+    {
+      "id_produit": "PRODUCT_017406_001",
+      "ingrédient": "CYANOCOBALAMIN",
+      "force": null,
+      "id_enregistrement": 1344800,
+      "molregno": 1383003,
+      "id_formulation": 148332
+    },
+    {
+      "id_produit": "PRODUCT_016089_001",
+      "ingrédient": "CYANOCOBALAMIN",
+      "force": null,
+      "id_enregistrement": 1344800,
+      "molregno": 1383003,
+      "id_formulation": 148336
+    },
+    {
+      "id_produit": "PRODUCT_016090_001",
+      "ingrédient": "CYANOCOBALAMIN",
+      "force": null,
+      "id_enregistrement": 1344800,
+      "molregno": 1383003,
+      "id_formulation": 148340
+    },
+    {
+      "id_produit": "PRODUCT_016089_001",
+      "ingrédient": "INTRINSIC FACTOR",
+      "force": null,
+      "id_enregistrement": 1343088,
+      "molregno": 675455,
+      "id_formulation": 148338
+    },
+    {
+      "id_produit": "PRODUCT_016090_001",
+      "ingrédient": "INTRINSIC FACTOR",
+      "force": null,
+      "id_enregistrement": 1343088,
+      "molregno": 675455,
+      "id_formulation": 148342
+    }
+  ]
+}

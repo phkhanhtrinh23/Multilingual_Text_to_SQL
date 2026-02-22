@@ -1,0 +1,86 @@
+{
+  "table_name": "CLINICAL_DIAGNOSES_TREATMENTS_GDC_R29",
+  "table_fullname": "TCGA.TCGA_VERSIONED.CLINICAL_DIAGNOSES_TREATMENTS_GDC_R29",
+  "column_names": [
+    "tipo de tratamiento de diagnóstico",
+    "diagnóstico_tratamiento_fecha_hora_actualizada",
+    "diagnóstico__tratamiento__tratamiento_o_terapia",
+    "id_del_tratamiento",
+    "diagnóstico__tratamiento__fecha_hora_creada",
+    "id_caso",
+    "estado de diagnóstico y tratamiento",
+    "diag__id_diagnóstico"
+  ],
+  "column_types": [
+    "TEXT",
+    "NUMBER",
+    "TEXT",
+    "TEXT",
+    "NUMBER",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Término textual que describe el tipo de tratamiento administrado.",
+    "Una combinación de fecha y hora del día en la forma [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm]",
+    "Un indicador de sí/no/desconocido/no aplica relacionado con la administración de agentes terapéuticos recibidos.",
+    "Identificador asignado por GDC para los datos de tratamiento de un caso.",
+    "Una combinación de fecha y hora del día en la forma [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm]",
+    "Identificador único de GDC para este caso (corresponde al case_barcode) – esto se puede usar para acceder a más información del portal de datos GDC de la siguiente manera: https://portal.gdc.cancer.gov/files/c21b332c-06c6-4403-9032-f91c8f407ba9.",
+    "El estado actual del objeto.",
+    "Identificador asignado por GDC para el diagnóstico de un caso."
+  ],
+  "sample_rows": [
+    {
+      "id_del_tratamiento": "7a761afc-8438-59b4-b1df-9b82e0d95105",
+      "diag__id_diagnóstico": "f1207955-f463-570c-b29c-7577ec63f8c2",
+      "id_caso": "6ee6ca0a-8702-480d-b2d1-9224e7dd9211",
+      "tipo de tratamiento de diagnóstico": "Radiation Therapy, NOS",
+      "diagnóstico__tratamiento__tratamiento_o_terapia": "no",
+      "estado de diagnóstico y tratamiento": "released",
+      "diagnóstico__tratamiento__fecha_hora_creada": null,
+      "diagnóstico_tratamiento_fecha_hora_actualizada": 1564621073992534
+    },
+    {
+      "id_del_tratamiento": "6ebd0641-1379-5198-af12-04c4efb9de00",
+      "diag__id_diagnóstico": "dbb15873-9487-57d6-a65b-7c8e10a50b2f",
+      "id_caso": "2a2f2663-d813-41ff-a4e2-dfe0f16d236d",
+      "tipo de tratamiento de diagnóstico": "Radiation Therapy, NOS",
+      "diagnóstico__tratamiento__tratamiento_o_terapia": "no",
+      "estado de diagnóstico y tratamiento": "released",
+      "diagnóstico__tratamiento__fecha_hora_creada": null,
+      "diagnóstico_tratamiento_fecha_hora_actualizada": 1564622038418782
+    },
+    {
+      "id_del_tratamiento": "255f8276-d709-52d1-aa3c-227538ad6b80",
+      "diag__id_diagnóstico": "fd19e47b-cbaa-5a26-aef7-0ba6758500b0",
+      "id_caso": "0e084325-ba97-4c0a-9d00-12d01b4bc0bb",
+      "tipo de tratamiento de diagnóstico": "Radiation Therapy, NOS",
+      "diagnóstico__tratamiento__tratamiento_o_terapia": "no",
+      "estado de diagnóstico y tratamiento": "released",
+      "diagnóstico__tratamiento__fecha_hora_creada": null,
+      "diagnóstico_tratamiento_fecha_hora_actualizada": 1564605946952916
+    },
+    {
+      "id_del_tratamiento": "8e00a0cd-97c9-56e3-8250-54f7398e2629",
+      "diag__id_diagnóstico": "9a229056-7b85-508c-8bc5-064651d7cc60",
+      "id_caso": "6020ec67-8f3b-409f-a0ed-2af849b4d76f",
+      "tipo de tratamiento de diagnóstico": "Radiation Therapy, NOS",
+      "diagnóstico__tratamiento__tratamiento_o_terapia": "no",
+      "estado de diagnóstico y tratamiento": "released",
+      "diagnóstico__tratamiento__fecha_hora_creada": null,
+      "diagnóstico_tratamiento_fecha_hora_actualizada": 1564604515069316
+    },
+    {
+      "id_del_tratamiento": "70038b40-d1e5-5dba-a15b-10b4ad72d961",
+      "diag__id_diagnóstico": "a9117477-ee48-564f-b57d-141e83666a38",
+      "id_caso": "962fd4e7-9199-43d9-abce-e3dfa46da62c",
+      "tipo de tratamiento de diagnóstico": "Radiation Therapy, NOS",
+      "diagnóstico__tratamiento__tratamiento_o_terapia": "no",
+      "estado de diagnóstico y tratamiento": "released",
+      "diagnóstico__tratamiento__fecha_hora_creada": null,
+      "diagnóstico_tratamiento_fecha_hora_actualizada": 1564623240092693
+    }
+  ]
+}

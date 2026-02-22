@@ -1,0 +1,106 @@
+{
+  "table_name": "hrac_classification_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.hrac_classification_30",
+  "column_names": [
+    "jugador_clase_id",
+    "ingrediente activo",
+    "nivel1",
+    "Descripción del nivel 1",
+    "Nivel 2",
+    "Descripción del nivel 2",
+    "nivel 3",
+    "código_jugador"
+  ],
+  "column_types": [
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "ID de clase del jugador",
+    "ingrediente activo",
+    "Nivel 1",
+    "Descripción del nivel 1",
+    "nivel 2",
+    "nivel2_descripción",
+    "nivel 3",
+    "Código del jugador"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "Clave primaria numérica única para cada código de nivel 3.",
+    "Nombre del ingrediente activo (herbicida) clasificado por HRAC",
+    "Código de grupo HRAC - que indica el mecanismo de acción del herbicida",
+    "Descripción del mecanismo de acción proporcionado por HRAC",
+    "Indica una familia química dentro de un grupo HRAC particular (número no asignado por HRAC)",
+    "Descripción de la familia química proporcionada por HRAC",
+    "Un código único asignado a cada ingrediente (basado en la clasificación HRAC de nivel 1 y 2, pero no asignado por HRAC).",
+    "El código de clasificación oficial HRAC para el ingrediente"
+  ],
+  "sample_rows": [
+    {
+      "ID de clase del jugador": 2,
+      "ingrediente activo": "CYHALOFOP-BUTYL",
+      "Nivel 1": "A",
+      "Descripción del nivel 1": "INHIBITION OF ACETYL COA CARBOXYLASE (ACCASE)",
+      "nivel 2": "A1",
+      "nivel2_descripción": "ARYLOXYPHENOXY-PROPIONATE 'FOPS'",
+      "nivel 3": "A12",
+      "Código del jugador": "A"
+    },
+    {
+      "ID de clase del jugador": 3,
+      "ingrediente activo": "DICLOFOP-METHYL",
+      "Nivel 1": "A",
+      "Descripción del nivel 1": "INHIBITION OF ACETYL COA CARBOXYLASE (ACCASE)",
+      "nivel 2": "A1",
+      "nivel2_descripción": "ARYLOXYPHENOXY-PROPIONATE 'FOPS'",
+      "nivel 3": "A13",
+      "Código del jugador": "A"
+    },
+    {
+      "ID de clase del jugador": 4,
+      "ingrediente activo": "FENOXAPROP-P-ETHYL",
+      "Nivel 1": "A",
+      "Descripción del nivel 1": "INHIBITION OF ACETYL COA CARBOXYLASE (ACCASE)",
+      "nivel 2": "A1",
+      "nivel2_descripción": "ARYLOXYPHENOXY-PROPIONATE 'FOPS'",
+      "nivel 3": "A14",
+      "Código del jugador": "A"
+    },
+    {
+      "ID de clase del jugador": 5,
+      "ingrediente activo": "FLUAZIFOP-P-BUTYL",
+      "Nivel 1": "A",
+      "Descripción del nivel 1": "INHIBITION OF ACETYL COA CARBOXYLASE (ACCASE)",
+      "nivel 2": "A1",
+      "nivel2_descripción": "ARYLOXYPHENOXY-PROPIONATE 'FOPS'",
+      "nivel 3": "A15",
+      "Código del jugador": "A"
+    },
+    {
+      "ID de clase del jugador": 6,
+      "ingrediente activo": "HALOXYFOP-R-METHYL",
+      "Nivel 1": "A",
+      "Descripción del nivel 1": "INHIBITION OF ACETYL COA CARBOXYLASE (ACCASE)",
+      "nivel 2": "A1",
+      "nivel2_descripción": "ARYLOXYPHENOXY-PROPIONATE 'FOPS'",
+      "nivel 3": "A16",
+      "Código del jugador": "A"
+    }
+  ]
+}

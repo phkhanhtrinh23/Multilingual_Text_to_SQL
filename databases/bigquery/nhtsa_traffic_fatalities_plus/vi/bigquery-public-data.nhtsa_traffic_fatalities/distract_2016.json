@@ -1,0 +1,86 @@
+{
+  "table_name": " distract_2016",
+  "table_fullname": "bigquery-public-data.nhtsa_traffic_fatalities. distract_2016",
+  "column_names": [
+    "số tiểu bang",
+    "tên_bang",
+    "Số liên tiếp",
+    "số xe",
+    "người lái xe bị xao nhãng bởi",
+    "tên gây xao nhãng tài xế"
+  ],
+  "column_types": [
+    "INT64",
+    "STRING",
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "số nhà",
+    "tên bang",
+    "số liên tiếp",
+    "số xe",
+    "người lái bị phân tâm bởi",
+    "tên người gây xao nhãng cho tài xế"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "STRING",
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING"
+  ],
+  "description": [
+    "Thành phần dữ liệu này xác định bang nơi tai nạn đã xảy ra. Các mã được lấy từ ấn phẩm Cục Dịch vụ Chung (GSA) về Mã Địa điểm Địa lý Toàn cầu (GLC). Để biết thêm thông tin về các mã, vui lòng xem phần <C1/V1/D1/PC1/P1/NM1 State Number> trong tệp PDF: https://crashstats.nhtsa.dot.gov/Api/Public/ViewPublication/812315",
+    "Yếu tố dữ liệu này xác định bang nơi tai nạn xảy ra. Các mã này được lấy từ ấn bản Mã Địa điểm Toàn cầu (GLC) của Cơ quan Quản lý Dịch vụ Tổng hợp (GSA).",
+    "Mục dữ liệu này là số vụ duy nhất được gán cho mỗi tai nạn. Nó xuất hiện trên mỗi tệp dữ liệu và được dùng để hợp nhất thông tin từ các tệp dữ liệu với nhau. xx xxxx: Hai ký tự cho Mã Bang, theo sau là bốn ký tự cho Số Vụ.",
+    "Yếu tố dữ liệu này là số thứ tự liên tiếp được gán cho mỗi xe trong trường hợp. Yếu tố dữ liệu này xuất hiện trong mỗi tập tin dữ liệu cấp xe và được sử dụng cùng với yếu tố dữ liệu ST_CASE để hợp nhất thông tin từ các tập tin dữ liệu cấp xe. 000-999 Số đã được gán của xe ô tô",
+    "Yếu tố dữ liệu này xác định các thuộc tính mô tả tốt nhất sự chú ý của người lái đối với việc lái xe trước khi người lái nhận thức được một sự kiện quan trọng đang tới hoặc ngay trước khi va chạm nếu không có nhận thức về sự kiện quan trọng đang tới. Để biết thêm thông tin về các mã, vui lòng xem phần <PC16 Driver Distracted By> trong tài liệu PDF: https://crashstats.nhtsa.dot.gov/Api/Public/ViewPublication/812315",
+    "Thành phần dữ liệu này xác định các thuộc tính tốt nhất mô tả sự chú ý của người lái đối với việc lái xe trước khi người lái nhận thức được một sự kiện quan trọng sắp xảy ra, hoặc ngay trước khi va chạm nếu không có nhận thức về sự kiện quan trọng sắp xảy ra."
+  ],
+  "sample_rows": [
+    {
+      "số nhà": 1,
+      "tên bang": "Alabama",
+      "số liên tiếp": 10264,
+      "số xe": 5,
+      "người lái bị phân tâm bởi": 0,
+      "tên người gây xao nhãng cho tài xế": "Not Distracted"
+    },
+    {
+      "số nhà": 1,
+      "tên bang": "Alabama",
+      "số liên tiếp": 10762,
+      "số xe": 5,
+      "người lái bị phân tâm bởi": 0,
+      "tên người gây xao nhãng cho tài xế": "Not Distracted"
+    },
+    {
+      "số nhà": 1,
+      "tên bang": "Alabama",
+      "số liên tiếp": 10762,
+      "số xe": 6,
+      "người lái bị phân tâm bởi": 0,
+      "tên người gây xao nhãng cho tài xế": "Not Distracted"
+    },
+    {
+      "số nhà": 1,
+      "tên bang": "Alabama",
+      "số liên tiếp": 10845,
+      "số xe": 5,
+      "người lái bị phân tâm bởi": 0,
+      "tên người gây xao nhãng cho tài xế": "Not Distracted"
+    },
+    {
+      "số nhà": 1,
+      "tên bang": "Alabama",
+      "số liên tiếp": 10878,
+      "số xe": 5,
+      "người lái bị phân tâm bởi": 0,
+      "tên người gây xao nhãng cho tài xế": "Not Distracted"
+    }
+  ]
+}

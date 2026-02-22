@@ -1,0 +1,70 @@
+{
+  "sample_rows": [
+    {
+      "VARIABLE": "ASSET",
+      "VARIABLE_NAME": "Institutional Assets",
+      "MESSUNG": "Assets Owned",
+      "EINHEIT": "USD",
+      "HÄUFIGKEIT": "Annual",
+      "MESSTYP": "Institution"
+    },
+    {
+      "VARIABLE": "DEPDOM",
+      "VARIABLE_NAME": "Institutional Domestic Deposits",
+      "MESSUNG": "Domestic Deposits",
+      "EINHEIT": "USD",
+      "HÄUFIGKEIT": "Annual",
+      "MESSTYP": "Institution"
+    },
+    {
+      "VARIABLE": "DEPSUM",
+      "VARIABLE_NAME": "Institutional Deposits",
+      "MESSUNG": "Deposits",
+      "EINHEIT": "USD",
+      "HÄUFIGKEIT": "Annual",
+      "MESSTYP": "Institution"
+    },
+    {
+      "VARIABLE": "DEPSUMBR",
+      "VARIABLE_NAME": "Branch Deposits",
+      "MESSUNG": "Deposits",
+      "EINHEIT": "USD",
+      "HÄUFIGKEIT": "Annual",
+      "MESSTYP": "Branch"
+    },
+    {
+      "VARIABLE": "ESCROW",
+      "VARIABLE_NAME": "Escrow Deposits",
+      "MESSUNG": "Escrow Deposits",
+      "EINHEIT": "USD",
+      "HÄUFIGKEIT": "Annual",
+      "MESSTYP": "Institution"
+    }
+  ],
+  "table_name": "FDIC_SUMMARY_OF_DEPOSITS_ATTRIBUTES",
+  "table_fullname": "FINANCE__ECONOMICS.CYBERSYN.FDIC_SUMMARY_OF_DEPOSITS_ATTRIBUTES",
+  "column_names": [
+    "VARIABLE_NAME",
+    "EINHEIT",
+    "MESSUNG",
+    "VARIABLE",
+    "MESSTYP",
+    "HÄUFIGKEIT"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Menschlich lesbarer Beschreibung der finanziellen Datenvariablen, die von der FDIC verfolgt werden.",
+    "Einheit, in der die Messung aufgezeichnet wird (z. B. USD YTD).",
+    "Quantifizierbare Eigenschaft, die aufgezeichnet wird (z. B. `Domestic Deposits`).",
+    "Eindeutiger FDIC-Identifikator für verfolgte Finanzdaten.",
+    "Klassifizierung, die angibt, auf welcher Ebene die Variable von der FDIC verfolgt wird, entweder auf \"Institution\" oder \"Branch\"-Ebene.",
+    "Wie oft die Daten aggregiert werden (z. B. `Annual`)."
+  ]
+}

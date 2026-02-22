@@ -1,0 +1,70 @@
+{
+  "table_name": "SHAPES",
+  "table_fullname": "SAN_FRANCISCO_PLUS.SAN_FRANCISCO_TRANSIT_MUNI.SHAPES",
+  "column_names": [
+    "dãy điểm hình dạng",
+    "điểm hình dạng",
+    "mã hình dạng",
+    "vĩ độ điểm hình",
+    "độ kinh độ điểm hình dạng",
+    "khoảng_cách_đã_đi"
+  ],
+  "column_types": [
+    "NUMBER",
+    "BINARY",
+    "TEXT",
+    "FLOAT",
+    "FLOAT",
+    "FLOAT"
+  ],
+  "description": [
+    "Liên kết vĩ độ và kinh độ của một điểm hình dạng với thứ tự dãy của nó dọc theo hình dạng. Các giá trị cho shape_pt_sequence phải tăng dần trong suốt chuyến đi nhưng không cần phải liên tiếp.",
+    "Biểu diễn địa lý của các điểm tọa độ kinh độ và vĩ độ",
+    "Xác định duy nhất từng hình dạng",
+    "Liên kết vĩ độ của một điểm hình với ID hình.",
+    "Liên kết kinh độ của một điểm hình dạng với ID hình dạng.",
+    "Cung cấp khoảng cách thực tế đã đi dọc theo hình dạng từ điểm đầu tiên của hình dạng đến điểm được chỉ định trong bản ghi này. Thông tin này cho phép người lập kế hoạch hành trình xác định phần nào của hình dạng cần vẽ khi họ hiển thị một phần của hành trình trên bản đồ. Các giá trị được sử dụng cho shape_dist_traveled phải tăng cùng với shape_pt_sequence: chúng không thể được sử dụng để hiển thị di chuyển ngược chiều đường."
+  ],
+  "sample_rows": [
+    {
+      "mã hình dạng": "173976",
+      "dãy điểm hình dạng": 195,
+      "vĩ độ điểm hình": 37.715079,
+      "độ kinh độ điểm hình dạng": -122.424956,
+      "điểm hình dạng": "bytearray(b'\\x01\\x01\\x00\\x00\\x00K\\x8f\\xa6z2\\x9b^\\xc08\\x87k\\xb5\\x87\\xdbB@')",
+      "khoảng_cách_đã_đi": 14391.0
+    },
+    {
+      "mã hình dạng": "174271",
+      "dãy điểm hình dạng": 92,
+      "vĩ độ điểm hình": 37.760837,
+      "độ kinh độ điểm hình dạng": -122.440596,
+      "điểm hình dạng": "bytearray(b'\\x01\\x01\\x00\\x00\\x00\\xe7\\xaf\\x90\\xb92\\x9c^\\xc0\\x1bKX\\x1bc\\xe1B@')",
+      "khoảng_cách_đã_đi": 5348.0
+    },
+    {
+      "mã hình dạng": "174272",
+      "dãy điểm hình dạng": 185,
+      "vĩ độ điểm hình": 37.760837,
+      "độ kinh độ điểm hình dạng": -122.440596,
+      "điểm hình dạng": "bytearray(b'\\x01\\x01\\x00\\x00\\x00\\xe7\\xaf\\x90\\xb92\\x9c^\\xc0\\x1bKX\\x1bc\\xe1B@')",
+      "khoảng_cách_đã_đi": 6161.0
+    },
+    {
+      "mã hình dạng": "174273",
+      "dãy điểm hình dạng": 92,
+      "vĩ độ điểm hình": 37.760837,
+      "độ kinh độ điểm hình dạng": -122.440596,
+      "điểm hình dạng": "bytearray(b'\\x01\\x01\\x00\\x00\\x00\\xe7\\xaf\\x90\\xb92\\x9c^\\xc0\\x1bKX\\x1bc\\xe1B@')",
+      "khoảng_cách_đã_đi": 5348.0
+    },
+    {
+      "mã hình dạng": "174274",
+      "dãy điểm hình dạng": 232,
+      "vĩ độ điểm hình": 37.760837,
+      "độ kinh độ điểm hình dạng": -122.440596,
+      "điểm hình dạng": "bytearray(b'\\x01\\x01\\x00\\x00\\x00\\xe7\\xaf\\x90\\xb92\\x9c^\\xc0\\x1bKX\\x1bc\\xe1B@')",
+      "khoảng_cách_đã_đi": 10989.0
+    }
+  ]
+}

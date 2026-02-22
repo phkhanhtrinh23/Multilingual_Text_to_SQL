@@ -1,0 +1,76 @@
+{
+  "table_name": "component_domains_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.component_domains_30",
+  "column_names": [
+    "Verbindungskennung",
+    "Domänenkennung",
+    "Komponentenkennung",
+    "Startposition",
+    "Endposition"
+  ],
+  "column_types": [
+    "INT64",
+    "INT64",
+    "INT64",
+    "INT64",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "Verbindungs-ID",
+    "Domänen-ID",
+    "Komponenten-ID",
+    "Startposition",
+    "Endposition"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "INT64",
+    "INT64",
+    "INT64",
+    "INT64"
+  ],
+  "description": [
+    "Primary key.",
+    "Fremdschlüssel zur domains table, der die Domäne angibt, die im zugehörigen molecular_component enthalten ist.",
+    "Fremdschlüssel zur component_sequences table, der das molecular_component angibt, das die gegebene Domäne besitzt.",
+    "Startposition der Domäne innerhalb der Sequenz, die in der component_sequences table angegeben ist.",
+    "Endposition der Domäne innerhalb der Sequenz, die in der component_sequences table angegeben ist."
+  ],
+  "sample_rows": [
+    {
+      "Verbindungs-ID": 233577,
+      "Domänen-ID": 2832,
+      "Komponenten-ID": 3430,
+      "Startposition": 256,
+      "Endposition": 376
+    },
+    {
+      "Verbindungs-ID": 229403,
+      "Domänen-ID": 3351,
+      "Komponenten-ID": 649,
+      "Startposition": 256,
+      "Endposition": 695
+    },
+    {
+      "Verbindungs-ID": 233381,
+      "Domänen-ID": 3375,
+      "Komponenten-ID": 2296,
+      "Startposition": 256,
+      "Endposition": 433
+    },
+    {
+      "Verbindungs-ID": 243399,
+      "Domänen-ID": 2630,
+      "Komponenten-ID": 7217,
+      "Startposition": 256,
+      "Endposition": 397
+    },
+    {
+      "Verbindungs-ID": 247929,
+      "Domänen-ID": 2630,
+      "Komponenten-ID": 19683,
+      "Startposition": 256,
+      "Endposition": 397
+    }
+  ]
+}

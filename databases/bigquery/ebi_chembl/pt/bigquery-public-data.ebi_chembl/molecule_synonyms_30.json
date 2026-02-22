@@ -1,0 +1,76 @@
+{
+  "table_name": "molecule_synonyms_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.molecule_synonyms_30",
+  "column_names": [
+    "molregno",
+    "tipo_sintetico",
+    "molsyn_id",
+    "res_stem_id",
+    "sinonimos"
+  ],
+  "column_types": [
+    "INT64",
+    "STRING",
+    "INT64",
+    "INT64",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "molregno",
+    "tipo_sintetico",
+    "molsyn_id",
+    "res_stem_id",
+    "sinonimos"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "STRING",
+    "INT64",
+    "INT64",
+    "STRING"
+  ],
+  "description": [
+    "Chave estrangeira para molecule_dictionary",
+    "Tipo de nome/sinônimo (e.g., TRADE_NAME, RESEARCH_CODE, USAN)",
+    "Chave primária.",
+    "Chave estrangeira para a tabela research_stem. Onde um sinônimo é um código de pesquisa, isso vincula a informações adicionais sobre a empresa associada a esse código.",
+    "Sinônimo para o composto"
+  ],
+  "sample_rows": [
+    {
+      "molregno": 97,
+      "tipo_sintetico": "ATC",
+      "molsyn_id": 2160798,
+      "res_stem_id": null,
+      "sinonimos": "Prazosin"
+    },
+    {
+      "molregno": 115,
+      "tipo_sintetico": "ATC",
+      "molsyn_id": 2160810,
+      "res_stem_id": null,
+      "sinonimos": "Nicotine"
+    },
+    {
+      "molregno": 146,
+      "tipo_sintetico": "ATC",
+      "molsyn_id": 2160846,
+      "res_stem_id": null,
+      "sinonimos": "Ofloxacin"
+    },
+    {
+      "molregno": 147,
+      "tipo_sintetico": "ATC",
+      "molsyn_id": 2160865,
+      "res_stem_id": null,
+      "sinonimos": "Nalidixic acid"
+    },
+    {
+      "molregno": 173,
+      "tipo_sintetico": "ATC",
+      "molsyn_id": 2160921,
+      "res_stem_id": null,
+      "sinonimos": "Indometacin"
+    }
+  ]
+}

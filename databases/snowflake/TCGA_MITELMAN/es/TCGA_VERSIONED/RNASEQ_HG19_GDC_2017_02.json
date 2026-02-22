@@ -1,0 +1,94 @@
+{
+  "table_name": "RNASEQ_HG19_GDC_2017_02",
+  "table_fullname": "TCGA_MITELMAN.TCGA_VERSIONED.RNASEQ_HG19_GDC_2017_02",
+  "column_names": [
+    "símbolo gen original",
+    "código de caso",
+    "Símbolo de gen HGNC",
+    "conteo normalizado",
+    "id_génico",
+    "código de muestra",
+    "código de barras de aliquota",
+    "nombre_corto_del_proyecto",
+    "plataforma"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "FLOAT",
+    "NUMBER",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "El símbolo del gen en el archivo de datos original difiere si el símbolo de gen aprobado ha cambiado desde entonces; por ejemplo, C11orf17 pasó a ser AKIP1.",
+    "Código de caso original de TCGA, por ejemplo TCGA-12-1089 -- observe que cada caso suele tener una muestra de tumor primario y una muestra normal emparejada (sangre o tejido adyacente); consulte la tabla de biospecímenes de TCGA para más detalles",
+    "Símbolo de gen del Comité de Nomenclatura de Genes HUGO, basado en gene_id en el archivo de datos original, por ejemplo AMY1A. Nulo si no se pudo encontrar el símbolo de gen (ver la documentación para detalles adicionales sobre ETL) http://isb-cancer-genomics-cloud.readthedocs.io/en/latest/sections/data/data2/ETL_mRNAexpression.html",
+    "Expresión génica normalizada del archivo original rsem.genes.normalized_results",
+    "El símbolo del gen. En esta tabla, el símbolo del gen es el nombre del gen, por ejemplo, ENSG00000251562",
+    "Código de barras original de muestra TCGA, ej. TCGA-12-1089-01A",
+    "Código original de alícuota TCGA, p. ej. TCGA-12-1089-01A-01D-0517-01",
+    "Abreviatura del nombre del proyecto; el nombre del programa añadido con una abreviatura del nombre del proyecto; por ejemplo, TCGA-OV, etc.",
+    "Plataforma utilizada para generar datos; ya sea IlluminaHiSeq (para casi el 93 % de las muestras) o IlluminaGA"
+  ],
+  "sample_rows": [
+    {
+      "nombre_corto_del_proyecto": "TCGA-OV",
+      "código de caso": "TCGA-04-1348",
+      "código de muestra": "TCGA-04-1348-01A",
+      "código de barras de aliquota": "TCGA-04-1348-01A-01R-1565-13",
+      "Símbolo de gen HGNC": "CASP5",
+      "id_génico": 838,
+      "conteo normalizado": 9.4111,
+      "símbolo gen original": "CASP5",
+      "plataforma": "IlluminaHiSeq"
+    },
+    {
+      "nombre_corto_del_proyecto": "TCGA-OV",
+      "código de caso": "TCGA-04-1348",
+      "código de muestra": "TCGA-04-1348-01A",
+      "código de barras de aliquota": "TCGA-04-1348-01A-01R-1565-13",
+      "Símbolo de gen HGNC": "ITGB3",
+      "id_génico": 3690,
+      "conteo normalizado": 50.5512,
+      "símbolo gen original": "ITGB3",
+      "plataforma": "IlluminaHiSeq"
+    },
+    {
+      "nombre_corto_del_proyecto": "TCGA-OV",
+      "código de caso": "TCGA-04-1348",
+      "código de muestra": "TCGA-04-1348-01A",
+      "código de barras de aliquota": "TCGA-04-1348-01A-01R-1565-13",
+      "Símbolo de gen HGNC": "USP4",
+      "id_génico": 7375,
+      "conteo normalizado": 2135.5203,
+      "símbolo gen original": "USP4",
+      "plataforma": "IlluminaHiSeq"
+    },
+    {
+      "nombre_corto_del_proyecto": "TCGA-OV",
+      "código de caso": "TCGA-04-1348",
+      "código de muestra": "TCGA-04-1348-01A",
+      "código de barras de aliquota": "TCGA-04-1348-01A-01R-1565-13",
+      "Símbolo de gen HGNC": "RPL15",
+      "id_génico": 6138,
+      "conteo normalizado": 25928.2065,
+      "símbolo gen original": "RPL15",
+      "plataforma": "IlluminaHiSeq"
+    },
+    {
+      "nombre_corto_del_proyecto": "TCGA-OV",
+      "código de caso": "TCGA-04-1348",
+      "código de muestra": "TCGA-04-1348-01A",
+      "código de barras de aliquota": "TCGA-04-1348-01A-01R-1565-13",
+      "Símbolo de gen HGNC": null,
+      "id_génico": 440040,
+      "conteo normalizado": 0.0,
+      "símbolo gen original": "LOC440040",
+      "plataforma": "IlluminaHiSeq"
+    }
+  ]
+}

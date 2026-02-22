@@ -1,0 +1,86 @@
+{
+  "sample_rows": [
+    {
+      "VARIÁVEL": "chf_sek",
+      "NOME_VARIÁVEL": "CHF/SEK Exchange Rate",
+      "ID_MOEDA_BASE": "CHF",
+      "ID_MOEDA_COTACAO": "SEK",
+      "NOME_MOEDA_BASE": "Swiss Franc",
+      "NOME_MOEDA_COTACAO": "Swedish Krona",
+      "DATA": "2011-03-10",
+      "VALOR": 6.8232
+    },
+    {
+      "VARIÁVEL": "usd_try",
+      "NOME_VARIÁVEL": "USD/TRY Exchange Rate",
+      "ID_MOEDA_BASE": "USD",
+      "ID_MOEDA_COTACAO": "TRY",
+      "NOME_MOEDA_BASE": "United States Dollar",
+      "NOME_MOEDA_COTACAO": "Turkish Lira",
+      "DATA": "2013-03-13",
+      "VALOR": 1.8111
+    },
+    {
+      "VARIÁVEL": "usd_mkd",
+      "NOME_VARIÁVEL": "USD/MKD Exchange Rate",
+      "ID_MOEDA_BASE": "USD",
+      "ID_MOEDA_COTACAO": "MKD",
+      "NOME_MOEDA_BASE": "United States Dollar",
+      "NOME_MOEDA_COTACAO": "Macedonian Denar",
+      "DATA": "2024-04-25",
+      "VALOR": 57.61
+    },
+    {
+      "VARIÁVEL": "cad_sgd",
+      "NOME_VARIÁVEL": "CAD/SGD Exchange Rate",
+      "ID_MOEDA_BASE": "CAD",
+      "ID_MOEDA_COTACAO": "SGD",
+      "NOME_MOEDA_BASE": "Canadian Dollar",
+      "NOME_MOEDA_COTACAO": "Singapore Dollar",
+      "DATA": "2012-12-24",
+      "VALOR": 1.229
+    },
+    {
+      "VARIÁVEL": "usd_inr",
+      "NOME_VARIÁVEL": "USD/INR Exchange Rate",
+      "ID_MOEDA_BASE": "USD",
+      "ID_MOEDA_COTACAO": "INR",
+      "NOME_MOEDA_BASE": "United States Dollar",
+      "NOME_MOEDA_COTACAO": "Indian Rupee",
+      "DATA": "1981-07-28",
+      "VALOR": 8.98
+    }
+  ],
+  "table_name": "FX_RATES_TIMESERIES",
+  "table_fullname": "FINANCE__ECONOMICS.CYBERSYN.FX_RATES_TIMESERIES",
+  "column_names": [
+    "NOME_MOEDA_BASE",
+    "VARIÁVEL",
+    "NOME_MOEDA_COTACAO",
+    "VALOR",
+    "NOME_VARIÁVEL",
+    "ID_MOEDA_BASE",
+    "DATA",
+    "ID_MOEDA_COTACAO"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "FLOAT",
+    "TEXT",
+    "TEXT",
+    "DATE",
+    "TEXT"
+  ],
+  "description": [
+    "Nome longo da moeda base",
+    "Um identificador único para o par de moedas",
+    "Nome longo da moeda de cotação",
+    "Preço da moeda base em termos da moeda de cotação",
+    "Um identificador único legível por humanos para o par de moedas",
+    "Código de moeda ISO 4217 para a moeda base",
+    "Data para a taxa de câmbio spot estrangeira",
+    "Código de moeda ISO 4217 para a moeda de cotação"
+  ]
+}

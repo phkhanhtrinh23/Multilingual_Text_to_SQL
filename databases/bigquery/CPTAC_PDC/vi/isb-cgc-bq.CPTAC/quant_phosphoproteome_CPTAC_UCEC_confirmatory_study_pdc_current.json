@@ -1,0 +1,116 @@
+{
+  "table_name": "quant_phosphoproteome_CPTAC_UCEC_confirmatory_study_pdc_current",
+  "table_fullname": "isb-cgc-bq.CPTAC.quant_phosphoproteome_CPTAC_UCEC_confirmatory_study_pdc_current",
+  "column_names": [
+    "Mã trường hợp",
+    "mã mẫu",
+    "mã aliquot",
+    "id_người_nộp_mẫu",
+    "id_siêu_dữ_liệu_aliquot_run",
+    "tên nghiên cứu",
+    "tỷ lệ log2 độ dày protein",
+    "Mã RefSeq",
+    "địa điểm phosphoryl hóa"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "Mã trường hợp",
+    "Mã mẫu",
+    "id mẫu",
+    "mã_người_gửi_mẫu",
+    "mã_meta_dữ_liệu_chạy_aliquot",
+    "Tên nghiên cứu",
+    "tỷ lệ log2 của độ dồi dào protein",
+    "Mã Refseq",
+    "địa điểm tri-phốt"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "Định danh duy nhất liên kết với một bệnh nhân cụ thể (ví dụ: 24cb0fcb-63d6-11e8-bcf1-0a2705229b82)",
+    "Định danh PDC duy nhất cho mẫu này (ví dụ: e8d83eb9-693a-11ea-b1fd-0aad30af8a83)",
+    "Định danh PDC duy nhất cho mẫu này (ví dụ: e8db124a-693a-11ea-b1fd-0aad30af8a83)",
+    "ID người nộp mẫu tách được gán bởi chương trình (ví dụ: T14)",
+    "Xác định duy nhất mẫu bằng cách sử dụng nó trong thí nghiệm (dựa trên chất dán nhãn và/hoặc bản sao sinh học).",
+    "Tên nghiên cứu (ví dụ: Nghiên cứu Thí điểm ung thư não nhi khoa - Phosphoproteome)",
+    "Tỷ lệ log trung bình của ion báo cáo mẫu so với tham chiếu chung của ion peptide liên quan tới gen trong các lần thu thập từ một mẫu sinh học cụ thể.",
+    "Định danh duy nhất được gán cho một trình tự trong cơ sở dữ liệu NCBI RefSeq",
+    "Mã chữ đơn và vị trí trong chuỗi protein của các axit amin đã được phosphory (ví dụ: t304s310, t59)"
+  ],
+  "sample_rows": [
+    {
+      "Mã trường hợp": "cb74e02b-315f-4638-8820-56fb0345e9b9",
+      "Mã mẫu": "f2921c8f-2065-4c4b-afa4-51a25480b029",
+      "id mẫu": "025f7122-b19d-45dd-b8f5-f7ea171cab70",
+      "mã_người_gửi_mẫu": "CPT0188030003",
+      "mã_meta_dữ_liệu_chạy_aliquot": "fb55726e-8833-4ae7-bbb7-ed9f19df7826",
+      "Tên nghiên cứu": "CPTAC UCEC Confirmatory Study - Phosphoproteome",
+      "tỷ lệ log2 của độ dồi dào protein": -0.6794,
+      "Mã Refseq": "NP_001243805.1",
+      "địa điểm tri-phốt": "s70"
+    },
+    {
+      "Mã trường hợp": "cb74e02b-315f-4638-8820-56fb0345e9b9",
+      "Mã mẫu": "f2921c8f-2065-4c4b-afa4-51a25480b029",
+      "id mẫu": "025f7122-b19d-45dd-b8f5-f7ea171cab70",
+      "mã_người_gửi_mẫu": "CPT0188030003",
+      "mã_meta_dữ_liệu_chạy_aliquot": "fb55726e-8833-4ae7-bbb7-ed9f19df7826",
+      "Tên nghiên cứu": "CPTAC UCEC Confirmatory Study - Phosphoproteome",
+      "tỷ lệ log2 của độ dồi dào protein": 0.1904,
+      "Mã Refseq": "NP_056171.3",
+      "địa điểm tri-phốt": "s1220"
+    },
+    {
+      "Mã trường hợp": "cb74e02b-315f-4638-8820-56fb0345e9b9",
+      "Mã mẫu": "f2921c8f-2065-4c4b-afa4-51a25480b029",
+      "id mẫu": "025f7122-b19d-45dd-b8f5-f7ea171cab70",
+      "mã_người_gửi_mẫu": "CPT0188030003",
+      "mã_meta_dữ_liệu_chạy_aliquot": "fb55726e-8833-4ae7-bbb7-ed9f19df7826",
+      "Tên nghiên cứu": "CPTAC UCEC Confirmatory Study - Phosphoproteome",
+      "tỷ lệ log2 của độ dồi dào protein": -0.0263,
+      "Mã Refseq": "NP_705694.2",
+      "địa điểm tri-phốt": "s427"
+    },
+    {
+      "Mã trường hợp": "cb74e02b-315f-4638-8820-56fb0345e9b9",
+      "Mã mẫu": "f2921c8f-2065-4c4b-afa4-51a25480b029",
+      "id mẫu": "025f7122-b19d-45dd-b8f5-f7ea171cab70",
+      "mã_người_gửi_mẫu": "CPT0188030003",
+      "mã_meta_dữ_liệu_chạy_aliquot": "fb55726e-8833-4ae7-bbb7-ed9f19df7826",
+      "Tên nghiên cứu": "CPTAC UCEC Confirmatory Study - Phosphoproteome",
+      "tỷ lệ log2 của độ dồi dào protein": 0.4841,
+      "Mã Refseq": "NP_003012.1",
+      "địa điểm tri-phốt": "s77"
+    },
+    {
+      "Mã trường hợp": "cb74e02b-315f-4638-8820-56fb0345e9b9",
+      "Mã mẫu": "f2921c8f-2065-4c4b-afa4-51a25480b029",
+      "id mẫu": "025f7122-b19d-45dd-b8f5-f7ea171cab70",
+      "mã_người_gửi_mẫu": "CPT0188030003",
+      "mã_meta_dữ_liệu_chạy_aliquot": "fb55726e-8833-4ae7-bbb7-ed9f19df7826",
+      "Tên nghiên cứu": "CPTAC UCEC Confirmatory Study - Phosphoproteome",
+      "tỷ lệ log2 của độ dồi dào protein": 1.5402,
+      "Mã Refseq": "NP_001157711.1",
+      "địa điểm tri-phốt": "s81"
+    }
+  ]
+}

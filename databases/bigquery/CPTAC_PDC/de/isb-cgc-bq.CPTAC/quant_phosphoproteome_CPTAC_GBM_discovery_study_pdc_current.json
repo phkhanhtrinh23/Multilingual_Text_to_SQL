@@ -1,0 +1,116 @@
+{
+  "table_name": "quant_phosphoproteome_CPTAC_GBM_discovery_study_pdc_current",
+  "table_fullname": "isb-cgc-bq.CPTAC.quant_phosphoproteome_CPTAC_GBM_discovery_study_pdc_current",
+  "column_names": [
+    "Fall-ID",
+    "Probe-ID",
+    "Aliquot-ID",
+    "Aliquot-Einreicher-ID",
+    "Aliquot-Durchlauf-Metadaten-ID",
+    "Studienname",
+    "Proteinabundanz-Log2-Verhältnis",
+    "RefSeq-ID",
+    "Phosphorylierungsstellen"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "Fall-ID",
+    "Proben-ID",
+    "Aliquot-ID",
+    "Aliquot-Einreicher-ID",
+    "Aliquot-Laufmetadaten-ID",
+    "Studienname",
+    "Proteinabundanz-Log2-Verhältnis",
+    "RefSeq-ID",
+    "Phosphorylierungsstellen"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "Eindeutige Kennung, die mit einem bestimmten Patienten verknüpft ist (z. B. 24cb0fcb-63d6-11e8-bcf1-0a2705229b82)",
+    "Eindeutige PDC-Kennung für diese Probe (z. B. e8d83eb9-693a-11ea-b1fd-0aad30af8a83)",
+    "Eindeutige PDC-Kennung für dieses Aliquot (z. B. e8db124a-693a-11ea-b1fd-0aad30af8a83)",
+    "Aliquot-Einreicher-ID, die vom Programm zugewiesen wurde (z. B. T14)",
+    "Identifiziert eindeutig, wie das Aliquot im Experiment verwendet wurde (basierend auf dem Etikettierungsreagenz und/oder dem biologischen Replikat)",
+    "Name der Studie (z. B. Pediatric Brain Cancer Pilot Study - Phosphoproteome)",
+    "Durchschnittliches logarithmisches Verhältnis des Proben-Reporter-Ions zur gemeinsamen Referenz der Peptid-Ionen, die dem Gen in Messungen aus einer bestimmten biologischen Probe zugeordnet sind",
+    "Eindeutige Kennung, die einer Sequenz in der NCBI RefSeq-Datenbank zugewiesen wird",
+    "Einzelbuchstaben-Codes und Proteinsequenzpositionen der phosphorylierten Aminosäuren (z. B. t304s310, t59)"
+  ],
+  "sample_rows": [
+    {
+      "Fall-ID": "104c0406-2139-11ea-aee1-0e1aae319e49",
+      "Proben-ID": "104c98ce-2139-11ea-aee1-0e1aae319e49",
+      "Aliquot-ID": "104d4cd6-2139-11ea-aee1-0e1aae319e49",
+      "Aliquot-Einreicher-ID": "CPT0092440003",
+      "Aliquot-Laufmetadaten-ID": "54d82185-2167-11ea-8856-0aee84e6d0d3",
+      "Studienname": "CPTAC GBM Discovery Study - Phosphoproteome",
+      "Proteinabundanz-Log2-Verhältnis": 0.2915,
+      "RefSeq-ID": "NP_001129108.1",
+      "Phosphorylierungsstellen": "s448"
+    },
+    {
+      "Fall-ID": "104c0406-2139-11ea-aee1-0e1aae319e49",
+      "Proben-ID": "104c98ce-2139-11ea-aee1-0e1aae319e49",
+      "Aliquot-ID": "104d4cd6-2139-11ea-aee1-0e1aae319e49",
+      "Aliquot-Einreicher-ID": "CPT0092440003",
+      "Aliquot-Laufmetadaten-ID": "54d82185-2167-11ea-8856-0aee84e6d0d3",
+      "Studienname": "CPTAC GBM Discovery Study - Phosphoproteome",
+      "Proteinabundanz-Log2-Verhältnis": -0.0832,
+      "RefSeq-ID": "NP_001449.3",
+      "Phosphorylierungsstellen": "s1527"
+    },
+    {
+      "Fall-ID": "104c0406-2139-11ea-aee1-0e1aae319e49",
+      "Proben-ID": "104c98ce-2139-11ea-aee1-0e1aae319e49",
+      "Aliquot-ID": "104d4cd6-2139-11ea-aee1-0e1aae319e49",
+      "Aliquot-Einreicher-ID": "CPT0092440003",
+      "Aliquot-Laufmetadaten-ID": "54d82185-2167-11ea-8856-0aee84e6d0d3",
+      "Studienname": "CPTAC GBM Discovery Study - Phosphoproteome",
+      "Proteinabundanz-Log2-Verhältnis": 0.5382,
+      "RefSeq-ID": "NP_001278928.1",
+      "Phosphorylierungsstellen": "s85s89"
+    },
+    {
+      "Fall-ID": "104c0406-2139-11ea-aee1-0e1aae319e49",
+      "Proben-ID": "104c98ce-2139-11ea-aee1-0e1aae319e49",
+      "Aliquot-ID": "104d4cd6-2139-11ea-aee1-0e1aae319e49",
+      "Aliquot-Einreicher-ID": "CPT0092440003",
+      "Aliquot-Laufmetadaten-ID": "54d82185-2167-11ea-8856-0aee84e6d0d3",
+      "Studienname": "CPTAC GBM Discovery Study - Phosphoproteome",
+      "Proteinabundanz-Log2-Verhältnis": 0.4233,
+      "RefSeq-ID": "NP_003194.3",
+      "Phosphorylierungsstellen": "s19"
+    },
+    {
+      "Fall-ID": "104c0406-2139-11ea-aee1-0e1aae319e49",
+      "Proben-ID": "104c98ce-2139-11ea-aee1-0e1aae319e49",
+      "Aliquot-ID": "104d4cd6-2139-11ea-aee1-0e1aae319e49",
+      "Aliquot-Einreicher-ID": "CPT0092440003",
+      "Aliquot-Laufmetadaten-ID": "54d82185-2167-11ea-8856-0aee84e6d0d3",
+      "Studienname": "CPTAC GBM Discovery Study - Phosphoproteome",
+      "Proteinabundanz-Log2-Verhältnis": 1.3674,
+      "RefSeq-ID": "NP_958786.1",
+      "Phosphorylierungsstellen": "s1417"
+    }
+  ]
+}

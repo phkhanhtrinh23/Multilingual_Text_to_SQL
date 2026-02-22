@@ -1,0 +1,106 @@
+{
+  "table_name": "waste_and_diversion",
+  "table_fullname": "bigquery-public-data.austin_waste.waste_and_diversion",
+  "column_names": [
+    "ロードID",
+    "報告日",
+    "ロードタイプ",
+    "読み込み時間",
+    "荷重",
+    "ドロップオフ場所",
+    "ルート種別",
+    "ルート番号"
+  ],
+  "column_types": [
+    "INT64",
+    "DATE",
+    "STRING",
+    "TIMESTAMP",
+    "FLOAT64",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "読み込みID",
+    "報告日",
+    "負荷タイプ",
+    "読み込み時間",
+    "荷重",
+    "受け取り場所",
+    "ルート種別",
+    "ルート番号"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "DATE",
+    "STRING",
+    "TIMESTAMP",
+    "FLOAT64",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "sample_rows": [
+    {
+      "読み込みID": 827369,
+      "報告日": "2019-05-21",
+      "負荷タイプ": "RECYCLED METAL",
+      "読み込み時間": "2019-05-21 02:30:00+00:00",
+      "荷重": 760.0,
+      "受け取り場所": "AUSTIN IRON AND METAL",
+      "ルート種別": "BULK",
+      "ルート番号": "BU05"
+    },
+    {
+      "読み込みID": 827104,
+      "報告日": "2019-05-20",
+      "負荷タイプ": "RECYCLED METAL",
+      "読み込み時間": "2019-05-20 12:00:00+00:00",
+      "荷重": 610.0,
+      "受け取り場所": "AUSTIN IRON AND METAL",
+      "ルート種別": "BULK",
+      "ルート番号": "BU05"
+    },
+    {
+      "読み込みID": 827456,
+      "報告日": "2019-05-22",
+      "負荷タイプ": "RECYCLED METAL",
+      "読み込み時間": "2019-05-22 02:32:00+00:00",
+      "荷重": 610.0,
+      "受け取り場所": "AUSTIN IRON AND METAL",
+      "ルート種別": "BULK",
+      "ルート番号": "BU05"
+    },
+    {
+      "読み込みID": 834192,
+      "報告日": "2019-07-16",
+      "負荷タイプ": "RECYCLED METAL",
+      "読み込み時間": "2019-07-16 03:33:00+00:00",
+      "荷重": 1250.0,
+      "受け取り場所": "AUSTIN IRON AND METAL",
+      "ルート種別": "BULK",
+      "ルート番号": "BU06"
+    },
+    {
+      "読み込みID": 834048,
+      "報告日": "2019-07-15",
+      "負荷タイプ": "RECYCLED METAL",
+      "読み込み時間": "2019-07-15 01:15:00+00:00",
+      "荷重": 1070.0,
+      "受け取り場所": "AUSTIN IRON AND METAL",
+      "ルート種別": "BULK",
+      "ルート番号": "BU06"
+    }
+  ]
+}

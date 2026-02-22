@@ -1,0 +1,106 @@
+{
+  "table_name": "variant_sequences_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.variant_sequences_30",
+  "column_names": [
+    "バリアントID",
+    "変異",
+    "入庫",
+    "バージョン",
+    "アイソフォーム",
+    "順序",
+    "生物",
+    "税務番号"
+  ],
+  "column_types": [
+    "INT64",
+    "STRING",
+    "STRING",
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "バリアントID",
+    "変異",
+    "アクセッション番号",
+    "バージョン",
+    "アイソフォーム",
+    "順序",
+    "生物",
+    "税番号"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "STRING",
+    "STRING",
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING",
+    "INT64"
+  ],
+  "description": [
+    "主キー、各シーケンスバリアントの数値ID",
+    "使用された変異の詳細と、残基位置は提供された配列に合わせて調整されています。",
+    "代表配列として使用されるベース配列（変異なし）のUniProtアクセッション番号。",
+    "ベース配列として使用されるUniProt配列のバージョン。",
+    "該当する場合にベースシーケンスとして使用したUniProtアイソフォームの詳細。",
+    "指定された変異・変種でUniProtのベース配列を調整して作られた変異配列.",
+    "配列が取得された生物",
+    "配列が取得された生物のNCBI Tax ID"
+  ],
+  "sample_rows": [
+    {
+      "バリアントID": 1628,
+      "変異": "E84Q",
+      "アクセッション番号": "A2RI47",
+      "バージョン": null,
+      "アイソフォーム": 1,
+      "順序": "MSNSKFNVRLLTEIAFMAALAFIISLIPNTVYGWIIVEIACIPILLLSLRRGLTAGLVGGLIWGILSMITGHAYILSLSQAFLQYLVAPVSLGIAGLFRQKTAPLKLAPVLLGTFVAVLLKYFFHFIAGIIFWSQYAWKGWGAVAYSLAVNGISGILTAIAAFVILIIFVKKFPKLFIHSNY",
+      "生物": "Lactococcus lactis subsp. cremoris (strain MG1363)",
+      "税番号": null
+    },
+    {
+      "バリアントID": 1629,
+      "変異": "H125A",
+      "アクセッション番号": "A2RI47",
+      "バージョン": null,
+      "アイソフォーム": 1,
+      "順序": "MSNSKFNVRLLTEIAFMAALAFIISLIPNTVYGWIIVEIACIPILLLSLRRGLTAGLVGGLIWGILSMITGHAYILSLSQAFLEYLVAPVSLGIAGLFRQKTAPLKLAPVLLGTFVAVLLKYFFAFIAGIIFWSQYAWKGWGAVAYSLAVNGISGILTAIAAFVILIIFVKKFPKLFIHSNY",
+      "生物": "Lactococcus lactis subsp. cremoris (strain MG1363)",
+      "税番号": null
+    },
+    {
+      "バリアントID": 1630,
+      "変異": "H125N",
+      "アクセッション番号": "A2RI47",
+      "バージョン": null,
+      "アイソフォーム": 1,
+      "順序": "MSNSKFNVRLLTEIAFMAALAFIISLIPNTVYGWIIVEIACIPILLLSLRRGLTAGLVGGLIWGILSMITGHAYILSLSQAFLEYLVAPVSLGIAGLFRQKTAPLKLAPVLLGTFVAVLLKYFFNFIAGIIFWSQYAWKGWGAVAYSLAVNGISGILTAIAAFVILIIFVKKFPKLFIHSNY",
+      "生物": "Lactococcus lactis subsp. cremoris (strain MG1363)",
+      "税番号": null
+    },
+    {
+      "バリアントID": 1631,
+      "変異": "H125F",
+      "アクセッション番号": "A2RI47",
+      "バージョン": null,
+      "アイソフォーム": 1,
+      "順序": "MSNSKFNVRLLTEIAFMAALAFIISLIPNTVYGWIIVEIACIPILLLSLRRGLTAGLVGGLIWGILSMITGHAYILSLSQAFLEYLVAPVSLGIAGLFRQKTAPLKLAPVLLGTFVAVLLKYFFFFIAGIIFWSQYAWKGWGAVAYSLAVNGISGILTAIAAFVILIIFVKKFPKLFIHSNY",
+      "生物": "Lactococcus lactis subsp. cremoris (strain MG1363)",
+      "税番号": null
+    },
+    {
+      "バリアントID": 1632,
+      "変異": "W34A",
+      "アクセッション番号": "A2RI47",
+      "バージョン": null,
+      "アイソフォーム": 1,
+      "順序": "MSNSKFNVRLLTEIAFMAALAFIISLIPNTVYGAIIVEIACIPILLLSLRRGLTAGLVGGLIWGILSMITGHAYILSLSQAFLEYLVAPVSLGIAGLFRQKTAPLKLAPVLLGTFVAVLLKYFFHFIAGIIFWSQYAWKGWGAVAYSLAVNGISGILTAIAAFVILIIFVKKFPKLFIHSNY",
+      "生物": "Lactococcus lactis subsp. cremoris (strain MG1363)",
+      "税番号": null
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "table_name": "census_tracts_to_zipcode",
+  "table_fullname": "bigquery-public-data.hud_zipcode_crosswalk.census_tracts_to_zipcode",
+  "column_names": [
+    "mã địa lý khu thống kê",
+    "Mã vùng",
+    "tỷ lệ nhà ở",
+    "tỷ lệ kinh doanh",
+    "tỷ lệ khác",
+    "tổng tỷ lệ"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "NUMERIC",
+    "NUMERIC",
+    "NUMERIC",
+    "NUMERIC"
+  ],
+  "nested_column_names": [
+    "mã khu vực dân số",
+    "mã bưu điện",
+    "tỷ lệ dân cư",
+    "tỷ lệ kinh doanh",
+    "tỷ lệ khác",
+    "tỷ lệ tổng"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "NUMERIC",
+    "NUMERIC",
+    "NUMERIC",
+    "NUMERIC"
+  ],
+  "description": [
+    "ID GEOID 11 chữ số duy nhất của khu vực trạm thống kê (tract) cho kỳ 2000 hoặc 2010, bao gồm FIPS bang + FIPS hạt + mã tract. Số thập phân được ngụ ý và các số 0 ở đầu và cuối đã được giữ nguyên. ID này có thể ánh xạ tới nhiều mã ZIP của USPS. Gắn với trường 'geo_id' trong các bảng dữ liệu Trạm thống kê.",
+    "Mã ZIP 5 chữ số của USPS.",
+    "Tỷ lệ số địa chỉ dân cư trong phần Tract‑ZIP so với tổng số địa chỉ dân cư trong toàn bộ Tract.",
+    "Tỷ lệ địa chỉ doanh nghiệp trong phần Tract-ZIP so với tổng số địa chỉ doanh nghiệp trong toàn bộ Tract.",
+    "Tỷ lệ giữa các địa chỉ khác trong phần Tract‑ZIP và tổng số địa chỉ khác trong toàn bộ Tract.",
+    "Tỷ lệ của tất cả địa chỉ trong phần Tract-ZIP so với tổng số địa chỉ của tất cả các loại trong toàn bộ Tract."
+  ],
+  "sample_rows": [
+    {
+      "mã khu vực dân số": "50017959000",
+      "mã bưu điện": "05040",
+      "tỷ lệ dân cư": "0.046590000",
+      "tỷ lệ kinh doanh": "0E-9",
+      "tỷ lệ khác": "0E-9",
+      "tỷ lệ tổng": "0.044810000"
+    },
+    {
+      "mã khu vực dân số": "39133600402",
+      "mã bưu điện": "44266",
+      "tỷ lệ dân cư": "0.003180000",
+      "tỷ lệ kinh doanh": "0E-9",
+      "tỷ lệ khác": "0E-9",
+      "tỷ lệ tổng": "0.002950000"
+    },
+    {
+      "mã khu vực dân số": "48017950100",
+      "mã bưu điện": "79031",
+      "tỷ lệ dân cư": "0.000270000",
+      "tỷ lệ kinh doanh": "0E-9",
+      "tỷ lệ khác": "0E-9",
+      "tỷ lệ tổng": "0.000230000"
+    },
+    {
+      "mã khu vực dân số": "50019951200",
+      "mã bưu điện": "05872",
+      "tỷ lệ dân cư": "0.002780000",
+      "tỷ lệ kinh doanh": "0E-9",
+      "tỷ lệ khác": "0E-9",
+      "tỷ lệ tổng": "0.002640000"
+    },
+    {
+      "mã khu vực dân số": "13001950200",
+      "mã bưu điện": "31563",
+      "tỷ lệ dân cư": "0.010220000",
+      "tỷ lệ kinh doanh": "0E-9",
+      "tỷ lệ khác": "0E-9",
+      "tỷ lệ tổng": "0.008850000"
+    }
+  ]
+}

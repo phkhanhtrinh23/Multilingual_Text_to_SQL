@@ -1,0 +1,56 @@
+{
+  "table_name": "compound_structural_alerts_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.compound_structural_alerts_30",
+  "column_names": [
+    "id_alerte_cpd_str",
+    "molregno",
+    "id_alerte"
+  ],
+  "column_types": [
+    "INT64",
+    "INT64",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "id_alerte_cpd_str",
+    "molregno",
+    "id_alerte"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "INT64",
+    "INT64"
+  ],
+  "description": [
+    "Clé primaire.",
+    "Clé étrangère vers le molecule_dictionary. Le composé pour lequel l'alerte structurelle a été trouvée.",
+    "Clé étrangère vers la table structural_alerts. L'alerte particulière qui a été identifiée dans ce composé."
+  ],
+  "sample_rows": [
+    {
+      "id_alerte_cpd_str": 53246522,
+      "molregno": 105,
+      "id_alerte": 1
+    },
+    {
+      "id_alerte_cpd_str": 53246523,
+      "molregno": 638,
+      "id_alerte": 1
+    },
+    {
+      "id_alerte_cpd_str": 53246524,
+      "molregno": 722,
+      "id_alerte": 1
+    },
+    {
+      "id_alerte_cpd_str": 53246525,
+      "molregno": 752,
+      "id_alerte": 1
+    },
+    {
+      "id_alerte_cpd_str": 53246526,
+      "molregno": 777,
+      "id_alerte": 1
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "sample_rows": [
+    {
+      "Identificador_PuntoInterés": "08f26c862279d1150352e1060f847671",
+      "NOMBRE_PUNTO_INTERES": "Redbox",
+      "Categoría principal": "Video And Video Game Rentals",
+      "Categoría alternativa": "[\n  \"Books Mags Music And Video\",\n  \"Rental Kiosks\"\n]"
+    },
+    {
+      "Identificador_PuntoInterés": "08f27490544e86b1036967efcd70720e",
+      "NOMBRE_PUNTO_INTERES": "Hudson Place",
+      "Categoría principal": "Retirement Home",
+      "Categoría alternativa": "[\n  \"Health And Medical\",\n  \"Public Service And Government\"\n]"
+    },
+    {
+      "Identificador_PuntoInterés": "08f275d740d8184e03d67542272d1020",
+      "NOMBRE_PUNTO_INTERES": "One Source Construction Corp.",
+      "Categoría principal": "Construction Services",
+      "Categoría alternativa": "[\n  \"Commercial Industrial\",\n  \"Contractor\"\n]"
+    },
+    {
+      "Identificador_PuntoInterés": "08f26c18910da49303ca27a9af04b9cf",
+      "NOMBRE_PUNTO_INTERES": "Council Road",
+      "Categoría principal": "Church Cathedral",
+      "Categoría alternativa": "[\n  \"Baptist Church\",\n  \"Religious Organization\"\n]"
+    },
+    {
+      "Identificador_PuntoInterés": "08f2a94d0592d19c0352b1ade5f7bfe8",
+      "NOMBRE_PUNTO_INTERES": "Impact Employment Solutions",
+      "Categoría principal": "Employment Agencies",
+      "Categoría alternativa": "[\n  \"Information Technology Company\",\n  \"Professional Services\"\n]"
+    }
+  ],
+  "table_name": "POINT_OF_INTEREST_INDEX",
+  "table_fullname": "US_REAL_ESTATE.CYBERSYN.POINT_OF_INTEREST_INDEX",
+  "column_names": [
+    "Categoría principal",
+    "NOMBRE_PUNTO_INTERES",
+    "Categoría alternativa",
+    "Identificador_PuntoInterés"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "ARRAY",
+    "TEXT"
+  ],
+  "description": [
+    "Categoría principal o clase de lugar para el POI.",
+    "Nombre del lugar, comerciante o punto de referencia para el POI en particular.",
+    "Categorías alternativas del POI. Un POI puede encajar en varias categorías (por ejemplo, Restaurante, Restaurante de hamburguesas, Restaurante de comida rápida), en cuyo caso una categoría se registraría como CATEGORY_MAIN y las categorías restantes se registrarían en una lista bajo CATEGORY_ALTERNATE.",
+    "Un identificador único para un punto de interés (por ejemplo, un parque, una cadena de comida rápida, un hotel, etc.) basado en su descripción y ubicación. Se puede unir a la tabla POINT_OF_INTEREST_ADDRESSES_RELATIONSHIPS, la cual puede usarse para enlazar los POIs con direcciones."
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "table_name": "Filtered_jhu_usc_edu_PANCAN_merged_HumanMethylation27_HumanMethylation450_betaValue_whitelisted",
+  "table_fullname": "isb-cgc-bq.pancancer_atlas.Filtered_jhu_usc_edu_PANCAN_merged_HumanMethylation27_HumanMethylation450_betaValue_whitelisted",
+  "column_names": [
+    "参与者条码",
+    "样本条码",
+    "样本条码",
+    "样本类型字母码",
+    "样本类型",
+    "研究",
+    "编号",
+    "贝塔"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64"
+  ],
+  "nested_column_names": [
+    "参与者条码",
+    "样本条码",
+    "样本条码",
+    "样本类型字母代码",
+    "样本类型",
+    "研究",
+    "编号",
+    "贝塔"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64"
+  ],
+  "description": [
+    "研究参与者的 TCGA 条形码标识符，例如 TCGA-02-0001",
+    "生物样本条码，例如 TCGA-13-1489-02A",
+    "TCGA 取样条码，例如 TCGA-12-1089-01A-01D-0517-28",
+    "使用 TCGA 标准的样本类型字母代码，例如 TPN、EBV。完整列表可在 https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/sample-type-codes 获取。",
+    "血液来源正常样本  \n原发实体肿瘤  \n实体组织正常样本  \n复发实体肿瘤  \n转移性肿瘤  \n附加 - 新原发肿瘤  \n原发血液来源癌症 - 外周血  \n颊腭细胞正常样本  \n附加转移性肿瘤  \n骨髓正常样本",
+    "TCGA 研究缩写，例如 LAML。完整列表可在 https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/tcga-study-abbreviations 查看",
+    "来自 Illumina Human Methylation 数组的唯一探针标识符（如 cg04676771）-- 如需了解任何特定探针的更多细节，请参阅注释表（isb-cgc-bq.annotations.methylation_annotation_hg19_illumina_current）。",
+    "归一化的 DNA 甲基化 β 值（范围为 0 到 1，其中 0 表示完全未甲基化，1 表示完全甲基化）"
+  ],
+  "sample_rows": [
+    {
+      "参与者条码": "TCGA-01-0628",
+      "样本条码": "TCGA-01-0628-11A-01D-0383-05",
+      "样本类型字母代码": "NT",
+      "样本类型": "Solid Tissue Normal",
+      "研究": "OV",
+      "编号": "cg25264554",
+      "贝塔": 0.014019597658378
+    },
+    {
+      "参与者条码": "TCGA-01-0628",
+      "样本条码": "TCGA-01-0628-11A-01D-0383-05",
+      "样本类型字母代码": "NT",
+      "样本类型": "Solid Tissue Normal",
+      "研究": "OV",
+      "编号": "cg12269343",
+      "贝塔": 0.0197464851425526
+    },
+    {
+      "参与者条码": "TCGA-01-0628",
+      "样本条码": "TCGA-01-0628-11A-01D-0383-05",
+      "样本类型字母代码": "NT",
+      "样本类型": "Solid Tissue Normal",
+      "研究": "OV",
+      "编号": "cg02425732",
+      "贝塔": 0.033633891941717
+    },
+    {
+      "参与者条码": "TCGA-01-0628",
+      "样本条码": "TCGA-01-0628-11A-01D-0383-05",
+      "样本类型字母代码": "NT",
+      "样本类型": "Solid Tissue Normal",
+      "研究": "OV",
+      "编号": "cg09852871",
+      "贝塔": 0.788843878492672
+    },
+    {
+      "参与者条码": "TCGA-01-0628",
+      "样本条码": "TCGA-01-0628-11A-01D-0383-05",
+      "样本类型字母代码": "NT",
+      "样本类型": "Solid Tissue Normal",
+      "研究": "OV",
+      "编号": "cg23953831",
+      "贝塔": 0.864616977642031
+    }
+  ]
+}

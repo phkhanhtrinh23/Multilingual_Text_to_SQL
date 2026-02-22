@@ -1,0 +1,54 @@
+{
+  "sample_rows": [
+    {
+      "地点ID": "08f26c862279d1150352e1060f847671",
+      "兴趣点名称": "Redbox",
+      "主分类": "Video And Video Game Rentals",
+      "备用分类": "[\n  \"Books Mags Music And Video\",\n  \"Rental Kiosks\"\n]"
+    },
+    {
+      "地点ID": "08f27490544e86b1036967efcd70720e",
+      "兴趣点名称": "Hudson Place",
+      "主分类": "Retirement Home",
+      "备用分类": "[\n  \"Health And Medical\",\n  \"Public Service And Government\"\n]"
+    },
+    {
+      "地点ID": "08f275d740d8184e03d67542272d1020",
+      "兴趣点名称": "One Source Construction Corp.",
+      "主分类": "Construction Services",
+      "备用分类": "[\n  \"Commercial Industrial\",\n  \"Contractor\"\n]"
+    },
+    {
+      "地点ID": "08f26c18910da49303ca27a9af04b9cf",
+      "兴趣点名称": "Council Road",
+      "主分类": "Church Cathedral",
+      "备用分类": "[\n  \"Baptist Church\",\n  \"Religious Organization\"\n]"
+    },
+    {
+      "地点ID": "08f2a94d0592d19c0352b1ade5f7bfe8",
+      "兴趣点名称": "Impact Employment Solutions",
+      "主分类": "Employment Agencies",
+      "备用分类": "[\n  \"Information Technology Company\",\n  \"Professional Services\"\n]"
+    }
+  ],
+  "table_name": "POINT_OF_INTEREST_INDEX",
+  "table_fullname": "US_REAL_ESTATE.CYBERSYN.POINT_OF_INTEREST_INDEX",
+  "column_names": [
+    "主分类",
+    "兴趣点名称",
+    "备用分类",
+    "地点ID"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "ARRAY",
+    "TEXT"
+  ],
+  "description": [
+    "POI 的主要类别或地点类型。",
+    "该 POI 的地点、商家或地标名称。",
+    "POI 的替代类别。一个 POI 可能属于多个类别（例如，餐厅、汉堡餐厅、快餐店），此时其中一个类别记录为 CATEGORY_MAIN，其余类别记录在 CATEGORY_ALTERNATE 列表中。",
+    "基于其描述和位置的唯一标识符，用于标识兴趣点（如公园、快餐连锁、酒店等）。该标识符可与 POINT_OF_INTEREST_ADDRESSES_RELATIONSHIPS 表关联，以将兴趣点与地址链接起来。"
+  ]
+}

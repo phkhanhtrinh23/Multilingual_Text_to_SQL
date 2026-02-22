@@ -1,0 +1,97 @@
+{
+  "table_name": "CALENDAR",
+  "table_fullname": "SAN_FRANCISCO_PLUS.SAN_FRANCISCO_TRANSIT_MUNI.CALENDAR",
+  "column_names": [
+    "sexta-feira",
+    "exception_type",
+    "quinta-feira",
+    "quarta-feira",
+    "segunda-feira",
+    "service_desc",
+    "domingo",
+    "service_id",
+    "sábado",
+    "terça-feira",
+    "exceções"
+  ],
+  "column_types": [
+    "BOOLEAN",
+    "BOOLEAN",
+    "BOOLEAN",
+    "BOOLEAN",
+    "BOOLEAN",
+    "TEXT",
+    "BOOLEAN",
+    "TEXT",
+    "BOOLEAN",
+    "BOOLEAN",
+    "DATE"
+  ],
+  "description": [
+    "Indica se o serviço é válido para todos os domingos que operam na agência que está usando horários e categorias de tarifa normais",
+    "Indica se o serviço está disponível na data especificada no campo exceptions. Os seguintes são valores válidos para este campo:  - TRUE: O serviço estará operando durante a data listada na coluna exceptions -  FALSE: O serviço não estará operando durante a data listada na coluna exceptions",
+    "Indica se o serviço é válido para todos os domingos que operam na agência que está usando horários e categorias de tarifa normais",
+    "Indica se o serviço é válido para todos os domingos que operam na agência que está usando horários e categorias de tarifa normais",
+    "Indica se o serviço é válido para todos os domingos que operam na agência que está usando horários e categorias de tarifa normais",
+    "Descrição de texto da categoria de serviço",
+    "Indica se o serviço é válido para todos os domingos que operam na agência que está usando horários e categorias de tarifa normais",
+    "Identificador único para um conjunto de datas quando o serviço está disponível para uma ou mais rotas",
+    "Indica se o serviço é válido para todos os domingos que operam na agência que está usando horários e categorias de tarifa normais",
+    "Indica se o serviço é válido para todos os domingos que operam na agência que está usando horários e categorias de tarifa normais",
+    "Especifica uma data particular quando este serviço não está disponível. Isso é típico durante feriados, eventos especiais, etc. Se aplicável, o serviço operacional para o dia é indicado em replacement_service. O formato para a data é YYYY-MM-DD"
+  ],
+  "sample_rows": [
+    {
+      "service_id": "73692",
+      "service_desc": "Weekday",
+      "domingo": true,
+      "segunda-feira": true,
+      "terça-feira": true,
+      "quarta-feira": true,
+      "quinta-feira": true,
+      "sexta-feira": false,
+      "sábado": false,
+      "exceções": "2019-12-25",
+      "exception_type": false
+    },
+    {
+      "service_id": "73692",
+      "service_desc": "Weekday",
+      "domingo": true,
+      "segunda-feira": true,
+      "terça-feira": true,
+      "quarta-feira": true,
+      "quinta-feira": true,
+      "sexta-feira": false,
+      "sábado": false,
+      "exceções": "2020-01-20",
+      "exception_type": false
+    },
+    {
+      "service_id": "73692",
+      "service_desc": "Weekday",
+      "domingo": true,
+      "segunda-feira": true,
+      "terça-feira": true,
+      "quarta-feira": true,
+      "quinta-feira": true,
+      "sexta-feira": false,
+      "sábado": false,
+      "exceções": "2020-02-17",
+      "exception_type": false
+    },
+    {
+      "service_id": "73693",
+      "service_desc": "Saturday",
+      "domingo": false,
+      "segunda-feira": false,
+      "terça-feira": false,
+      "quarta-feira": false,
+      "quinta-feira": false,
+      "sexta-feira": true,
+      "sábado": false,
+      "exceções": "2020-01-20",
+      "exception_type": true
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "table_name": "MolClinAbnorm",
+  "table_fullname": "mitelman-db.prod.MolClinAbnorm",
+  "column_names": [
+    "CliniqueMol",
+    "NumRef",
+    "NumInv",
+    "NumCommande",
+    "Anomalie"
+  ],
+  "column_types": [
+    "STRING",
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "CliniqueMol",
+    "NumRef",
+    "NumInv",
+    "NumCommande",
+    "Anomalie"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING"
+  ],
+  "description": [
+    "indicateur moléculaire 'M', ou clinique 'C'",
+    "numéro de référence, par exemple '15563'",
+    "numéro d'investigation, généralement entre 1 et 10",
+    "numéro de commande, entre 1 et 54",
+    "description de l'anomalie, par exemple 't(19;19)(p13;p13)' ou 'del(7)(q?)'"
+  ],
+  "sample_rows": [
+    {
+      "CliniqueMol": "C",
+      "NumRef": 1696,
+      "NumInv": 1,
+      "NumCommande": 1,
+      "Anomalie": "r"
+    },
+    {
+      "CliniqueMol": "C",
+      "NumRef": 2844,
+      "NumInv": 1,
+      "NumCommande": 1,
+      "Anomalie": "r"
+    },
+    {
+      "CliniqueMol": "C",
+      "NumRef": 4556,
+      "NumInv": 1,
+      "NumCommande": 11,
+      "Anomalie": "r"
+    },
+    {
+      "CliniqueMol": "C",
+      "NumRef": 15564,
+      "NumInv": 1,
+      "NumCommande": 1,
+      "Anomalie": "r"
+    },
+    {
+      "CliniqueMol": "C",
+      "NumRef": 15564,
+      "NumInv": 2,
+      "NumCommande": 1,
+      "Anomalie": "r"
+    }
+  ]
+}

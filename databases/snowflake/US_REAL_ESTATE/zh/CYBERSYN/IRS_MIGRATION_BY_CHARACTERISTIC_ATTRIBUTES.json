@@ -1,0 +1,86 @@
+{
+  "sample_rows": [
+    {
+      "变量": "Outflow_Returns_–_adjusted_gross_income_from_Year_1,_primary_taxpayers_ages_45_under_55,_AGI_bin:_$10,000_under_$25,000",
+      "变量名": "Outflow Returns – adjusted gross income from Year 1, primary taxpayers ages 45 under 55, AGI bin: $10,000 under $25,000",
+      "退货组": "Outflow Returns",
+      "收入区间": "$10,000 under $25,000",
+      "年龄段": "45 under 55",
+      "单位": "USD",
+      "季节调整": false,
+      "频率": "Annual"
+    },
+    {
+      "变量": "Same_State_Returns_–_number_of_individuals,_primary_taxpayers_ages_26_under_35,_AGI_bin:_$75,000_under_$100,000",
+      "变量名": "Same State Returns – number of individuals, primary taxpayers ages 26 under 35, AGI bin: $75,000 under $100,000",
+      "退货组": "Same State Returns",
+      "收入区间": "$75,000 under $100,000",
+      "年龄段": "26 under 35",
+      "单位": "Individuals",
+      "季节调整": false,
+      "频率": "Annual"
+    },
+    {
+      "变量": "Total_Returns_–_number_of_individuals,_primary_taxpayers_ages_55_under_65,_AGI_bin:_$100,000_under_$200,000",
+      "变量名": "Total Returns – number of individuals, primary taxpayers ages 55 under 65, AGI bin: $100,000 under $200,000",
+      "退货组": "Total Returns",
+      "收入区间": "$100,000 under $200,000",
+      "年龄段": "55 under 65",
+      "单位": "Individuals",
+      "季节调整": false,
+      "频率": "Annual"
+    },
+    {
+      "变量": "Inflow_Returns_–_adjusted_gross_income_from_Year_1,_all_ages,_All_AGI_classes",
+      "变量名": "Inflow Returns – adjusted gross income from Year 1, all ages, All AGI classes",
+      "退货组": "Inflow Returns",
+      "收入区间": "All AGI classes",
+      "年龄段": "All Ages",
+      "单位": "USD",
+      "季节调整": false,
+      "频率": "Annual"
+    },
+    {
+      "变量": "Total_Returns_-_number_of_returns,_all_ages,_All_AGI_classes",
+      "变量名": "Total Returns - number of returns, all ages, All AGI classes",
+      "退货组": "Total Returns",
+      "收入区间": "All AGI classes",
+      "年龄段": "All Ages",
+      "单位": "Returns",
+      "季节调整": false,
+      "频率": "Annual"
+    }
+  ],
+  "table_name": "IRS_MIGRATION_BY_CHARACTERISTIC_ATTRIBUTES",
+  "table_fullname": "US_REAL_ESTATE.CYBERSYN.IRS_MIGRATION_BY_CHARACTERISTIC_ATTRIBUTES",
+  "column_names": [
+    "年龄段",
+    "单位",
+    "退货组",
+    "频率",
+    "变量",
+    "季节调整",
+    "收入区间",
+    "变量名"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "BOOLEAN",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "所报告值的年龄段",
+    "价值的计量单位，例如：美元、回报、个人",
+    "所报告数值对应的人口群体 - 详细信息请参阅IRS文档",
+    "变量测量频率",
+    "变量的唯一标识码",
+    "指示该值是否已季节性调整",
+    "该系列中个人的调整后毛收入区间",
+    "变量的可读名称"
+  ]
+}

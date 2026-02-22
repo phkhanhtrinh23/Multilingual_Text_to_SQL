@@ -1,0 +1,116 @@
+{
+  "table_name": "Filtered_EBpp_AdjustPANCAN_IlluminaHiSeq_RNASeqV2_genExp",
+  "table_fullname": "isb-cgc-bq.pancancer_atlas.Filtered_EBpp_AdjustPANCAN_IlluminaHiSeq_RNASeqV2_genExp",
+  "column_names": [
+    "参与者条码",
+    "样本条码",
+    "分装条码",
+    "样本类型字母代码",
+    "样本类型",
+    "研究",
+    "符号",
+    "输入",
+    "标准化计数"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64"
+  ],
+  "nested_column_names": [
+    "参与者条码",
+    "样本条码",
+    "取样条码",
+    "样本类型字母代码",
+    "样本类型",
+    "研究",
+    "符号",
+    "输入",
+    "归一化计数"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64"
+  ],
+  "description": [
+    "研究参与者的 TCGA 条码标识符，例如 TCGA-02-0001",
+    "生物样本的条码，例如 TCGA-13-1489-02A",
+    "TCGA 样本条码，例如 TCGA-12-1089-01A-01D-0517-28",
+    "TCGA 标准下使用的样本类型字母代码，例如 TPN、EBV。完整列表可在 https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/sample-type-codes 查看。",
+    "共有10种样本类型：血源性正常，原发实体瘤，实体组织正常，复发实体瘤，转移，附加 - 新原发，原发血源性癌症 - 外周血，腭面细胞正常，附加转移，骨髓正常",
+    "TCGA 研究缩写，例如 LAML。完整列表可在 https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/tcga-study-abbreviations 查看",
+    "例如 TP53、LRP1B 等（与 Hugo_Symbol 字段相同，只是空白代替 Unknown）",
+    "NCBI 的 Entrez ID，例如 730971",
+    "标准化基因表达"
+  ],
+  "sample_rows": [
+    {
+      "参与者条码": "TCGA-06-0675",
+      "样本条码": "TCGA-06-0675-11A",
+      "取样条码": "TCGA-06-0675-11A-32R-A36H-07",
+      "样本类型字母代码": "NT",
+      "样本类型": "Solid Tissue Normal",
+      "研究": "GBM",
+      "符号": "SNORA3",
+      "输入": "619562",
+      "归一化计数": 0.0
+    },
+    {
+      "参与者条码": "TCGA-06-0675",
+      "样本条码": "TCGA-06-0675-11A",
+      "取样条码": "TCGA-06-0675-11A-32R-A36H-07",
+      "样本类型字母代码": "NT",
+      "样本类型": "Solid Tissue Normal",
+      "研究": "GBM",
+      "符号": "SH3TC1",
+      "输入": "54436",
+      "归一化计数": 270.806
+    },
+    {
+      "参与者条码": "TCGA-06-0675",
+      "样本条码": "TCGA-06-0675-11A",
+      "取样条码": "TCGA-06-0675-11A-32R-A36H-07",
+      "样本类型字母代码": "NT",
+      "样本类型": "Solid Tissue Normal",
+      "研究": "GBM",
+      "符号": "F2RL1",
+      "输入": "2150",
+      "归一化计数": 52.6318
+    },
+    {
+      "参与者条码": "TCGA-06-0675",
+      "样本条码": "TCGA-06-0675-11A",
+      "取样条码": "TCGA-06-0675-11A-32R-A36H-07",
+      "样本类型字母代码": "NT",
+      "样本类型": "Solid Tissue Normal",
+      "研究": "GBM",
+      "符号": "FGF1",
+      "输入": "2246",
+      "归一化计数": 1356.73
+    },
+    {
+      "参与者条码": "TCGA-06-0675",
+      "样本条码": "TCGA-06-0675-11A",
+      "取样条码": "TCGA-06-0675-11A-32R-A36H-07",
+      "样本类型字母代码": "NT",
+      "样本类型": "Solid Tissue Normal",
+      "研究": "GBM",
+      "符号": "LOC728410",
+      "输入": "728410",
+      "归一化计数": 0.0
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "table_name": "case_metadata_current",
+  "table_fullname": "isb-cgc-bq.PDC_metadata.case_metadata_current",
+  "column_names": [
+    "ケースID",
+    "提出者ID",
+    "原発部位",
+    "病気の種類",
+    "プロジェクト名",
+    "プログラム名",
+    "プロジェクトID",
+    "ファイル数"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "ケースID",
+    "ケース提出者ID",
+    "原発部位",
+    "疾患タイプ",
+    "プロジェクト名",
+    "プログラム名",
+    "プロジェクトID",
+    "ファイル数"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64"
+  ],
+  "description": [
+    "特定の患者に関連付けられたユニーク識別子 (例: 24cb0fcb-63d6-11e8-bcf1-0a2705229b82)",
+    "データ提出者から派生し、特定の患者に関連付けられる一意の識別子（例：05BR016）",
+    "WHO（世界保健機関）の腫瘍に関する国際疾病分類（ICD-O）で分類された悪性疾患の一般的な位置を表すテキスト用語",
+    "世界保健機関（WHO）のがんに関する国際疾病分類（ICD-O）で分類される悪性疾患のタイプを表すテキスト用語",
+    "プロジェクト名（例：CPTAC-2）",
+    "データのソースプログラム名",
+    "PDCプロジェクトのUUID（例：edb4ca56-f1e8-11e9-9a07-0a80fada099c）",
+    "特定のcase_idに関連するファイル数"
+  ],
+  "sample_rows": [
+    {
+      "ケースID": "48a488d1-88bf-4eb4-809f-eba13c7b3537",
+      "ケース提出者ID": "C224967",
+      "原発部位": null,
+      "疾患タイプ": "Complex Epithelial Neoplasms",
+      "プロジェクト名": "CPTAC3 Discovery and Confirmatory",
+      "プログラム名": "Clinical Proteomic Tumor Analysis Consortium",
+      "プロジェクトID": "267d6671-0e78-11e9-a064-0a9c39d33490",
+      "ファイル数": 168
+    },
+    {
+      "ケースID": "6ca38436-0581-4f2c-b2b3-5bded49d35c8",
+      "ケース提出者ID": "C283515",
+      "原発部位": "Brain",
+      "疾患タイプ": "Meningiomas",
+      "プロジェクト名": "CPTAC3 Discovery and Confirmatory",
+      "プログラム名": "Clinical Proteomic Tumor Analysis Consortium",
+      "プロジェクトID": "267d6671-0e78-11e9-a064-0a9c39d33490",
+      "ファイル数": 172
+    },
+    {
+      "ケースID": "1ac99f68-ba13-4ab7-bc0e-53556cfdba1d",
+      "ケース提出者ID": "C524103",
+      "原発部位": "Other and unspecified urinary organs",
+      "疾患タイプ": "Skin Cutaneous Melanoma",
+      "プロジェクト名": "CPTAC3 Discovery and Confirmatory",
+      "プログラム名": "Clinical Proteomic Tumor Analysis Consortium",
+      "プロジェクトID": "267d6671-0e78-11e9-a064-0a9c39d33490",
+      "ファイル数": 168
+    },
+    {
+      "ケースID": "9ff8dc1d-111a-43a0-9264-abb3adf5d1f3",
+      "ケース提出者ID": "C223491",
+      "原発部位": "Uterus, NOS",
+      "疾患タイプ": "Uterine Adenocarcinoma",
+      "プロジェクト名": "CPTAC3 Discovery and Confirmatory",
+      "プログラム名": "Clinical Proteomic Tumor Analysis Consortium",
+      "プロジェクトID": "267d6671-0e78-11e9-a064-0a9c39d33490",
+      "ファイル数": 168
+    },
+    {
+      "ケースID": "2c4089f4-44ae-40b9-9ede-405a88cc5c51",
+      "ケース提出者ID": "C621273",
+      "原発部位": "Colon",
+      "疾患タイプ": "Epithelial Neoplasms, NOS",
+      "プロジェクト名": "CPTAC3 Discovery and Confirmatory",
+      "プログラム名": "Clinical Proteomic Tumor Analysis Consortium",
+      "プロジェクトID": "267d6671-0e78-11e9-a064-0a9c39d33490",
+      "ファイル数": 168
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "table_name": "associationByDatatypeDirect",
+  "table_fullname": "open-targets-prod.platform.associationByDatatypeDirect",
+  "column_names": [
+    "idDoenca",
+    "idAlvo",
+    "idTipoDeDados",
+    "pontuacao",
+    "contagemDeEvidencias"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "idDoenca",
+    "idAlvo",
+    "idTipoDeDado",
+    "pontuacao",
+    "contagemDeEvidencias"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "INT64"
+  ],
+  "description": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "sample_rows": [
+    {
+      "idDoenca": "EFO_0000182",
+      "idAlvo": "ENSG00000157404",
+      "idTipoDeDado": "known_drug",
+      "pontuacao": 0.9776027328690036,
+      "contagemDeEvidencias": 256
+    },
+    {
+      "idDoenca": "EFO_0000222",
+      "idAlvo": "ENSG00000130816",
+      "idTipoDeDado": "literature",
+      "pontuacao": 0.9317724820898985,
+      "contagemDeEvidencias": 256
+    },
+    {
+      "idDoenca": "EFO_0000544",
+      "idAlvo": "ENSG00000170266",
+      "idTipoDeDado": "literature",
+      "pontuacao": 0.14032130170230317,
+      "contagemDeEvidencias": 256
+    },
+    {
+      "idDoenca": "EFO_0000616",
+      "idAlvo": "ENSG00000104067",
+      "idTipoDeDado": "literature",
+      "pontuacao": 0.8441010580117951,
+      "contagemDeEvidencias": 256
+    },
+    {
+      "idDoenca": "MONDO_0004992",
+      "idAlvo": "ENSG00000162434",
+      "idTipoDeDado": "literature",
+      "pontuacao": 0.6289120158371304,
+      "contagemDeEvidencias": 256
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "table_name": "adjacent_states",
+  "table_fullname": "bigquery-public-data.geo_us_boundaries.adjacent_states",
+  "column_names": [
+    "estado",
+    "nombre del estado",
+    "código FIPS del estado",
+    "estado de los vecinos",
+    "código_fips_vecinos"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "ARRAY<STRING>",
+    "ARRAY<STRING>"
+  ],
+  "nested_column_names": [
+    "estado",
+    "nombre_estado",
+    "código FIPS del estado",
+    "estado de los vecinos",
+    "código_fips_vecinos"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "ARRAY<STRING>",
+    "ARRAY<STRING>"
+  ],
+  "description": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "sample_rows": [
+    {
+      "estado": "AL",
+      "nombre_estado": "Alabama",
+      "código FIPS del estado": "01",
+      "estado de los vecinos": "['Florida' 'Georgia' 'Mississippi' 'Tennessee']",
+      "código_fips_vecinos": "['12' '13' '28' '47']"
+    },
+    {
+      "estado": "AR",
+      "nombre_estado": "Arkansas",
+      "código FIPS del estado": "05",
+      "estado de los vecinos": "['Tennessee' 'Texas' 'Missouri' 'Mississippi' 'Louisiana' 'Oklahoma']",
+      "código_fips_vecinos": "['47' '48' '29' '28' '22' '40']"
+    },
+    {
+      "estado": "AZ",
+      "nombre_estado": "Arizona",
+      "código FIPS del estado": "04",
+      "estado de los vecinos": "['Nevada' 'New Mexico' 'Colorado' 'California' 'Utah']",
+      "código_fips_vecinos": "['32' '35' '08' '06' '49']"
+    },
+    {
+      "estado": "CA",
+      "nombre_estado": "California",
+      "código FIPS del estado": "06",
+      "estado de los vecinos": "['Arizona' 'Nevada' 'Oregon']",
+      "código_fips_vecinos": "['04' '32' '41']"
+    },
+    {
+      "estado": "CO",
+      "nombre_estado": "Colorado",
+      "código FIPS del estado": "08",
+      "estado de los vecinos": "['Kansas' 'New Mexico' 'Nebraska' 'Utah' 'Wyoming' 'Arizona' 'Oklahoma']",
+      "código_fips_vecinos": "['20' '35' '31' '49' '56' '04' '40']"
+    }
+  ]
+}

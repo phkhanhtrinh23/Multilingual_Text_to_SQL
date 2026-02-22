@@ -1,0 +1,76 @@
+{
+  "table_name": "icd10_procedures_2019",
+  "table_fullname": "bigquery-public-data.cms_codes.icd10_procedures_2019",
+  "column_names": [
+    "注文番号",
+    "部品コード",
+    "ヘッダーコード",
+    "短い説明",
+    "長い説明"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "BOOL",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "注文番号",
+    "pcsコード",
+    "ヘッダーコード",
+    "概要",
+    "詳細説明"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "BOOL",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "ユーザーが複数のコードをやり取りしやすくするユニークな識別子",
+    "処置コード",
+    "TRUE - コードは「ヘッダー」コードであり、HIPAA適用取引には有効ではありません。  \nFALSE - コードはHIPAA適用取引への提出に有効です。",
+    "手順の簡潔な説明",
+    "手順の完全なテキスト説明"
+  ],
+  "sample_rows": [
+    {
+      "注文番号": "67369",
+      "pcsコード": "0XH",
+      "ヘッダーコード": null,
+      "概要": null,
+      "詳細説明": null
+    },
+    {
+      "注文番号": "67514",
+      "pcsコード": "0XJ",
+      "ヘッダーコード": null,
+      "概要": null,
+      "詳細説明": null
+    },
+    {
+      "注文番号": "67579",
+      "pcsコード": "0XM",
+      "ヘッダーコード": null,
+      "概要": null,
+      "詳細説明": null
+    },
+    {
+      "注文番号": "67608",
+      "pcsコード": "0XP",
+      "ヘッダーコード": null,
+      "概要": null,
+      "詳細説明": null
+    },
+    {
+      "注文番号": "67665",
+      "pcsコード": "0XQ",
+      "ヘッダーコード": null,
+      "概要": null,
+      "詳細説明": null
+    }
+  ]
+}

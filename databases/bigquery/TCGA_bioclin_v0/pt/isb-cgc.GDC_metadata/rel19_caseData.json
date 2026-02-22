@@ -1,0 +1,126 @@
+{
+  "table_name": "rel19_caseData",
+  "table_fullname": "isb-cgc.GDC_metadata.rel19_caseData",
+  "column_names": [
+    "caso_id_gdc",
+    "numero_de_acesso_dbgap_do_projeto",
+    "tipo_de_doenca_do_projeto",
+    "nome_do_projeto",
+    "numero_de_acesso_dbgap_do_programa",
+    "nome_do_programa",
+    "id_do_projeto",
+    "codigo_de_barras_do_caso",
+    "contagem_de_arquivos_legado",
+    "contagem_de_arquivos_ativos"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "caso_id_gdc",
+    "numero_de_acesso_dbgap_do_projeto",
+    "tipo_de_doenca_do_projeto",
+    "nome_do_projeto",
+    "numero_de_acesso_dbgap_do_programa",
+    "nome_do_programa",
+    "id_do_projeto",
+    "codigo_de_barras_do_caso",
+    "contagem_de_arquivos_legado",
+    "contagem_de_arquivos_ativos"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "INT64"
+  ],
+  "description": [
+    "Identificador único do GDC",
+    "Número de acesso dbGaP do programa, por exemplo phs000187",
+    "O tipo de doença estudada pelo projeto; por exemplo, Sarcoma, Carcinoma Invasivo de Mama, Leucemia Linfoblástica Aguda, etc",
+    "Nome do Projeto; frequentemente o mesmo ou semelhante ao tipo de doença do projeto, por exemplo, Leucemia Linfoblástica Aguda - Fase II ou Carcinoma Invasivo de Mama, etc",
+    "Número de acesso dbGaP do programa, por exemplo phs000178",
+    "Nome do programa, por exemplo TCGA ou TARGET",
+    "ID do Projeto -- por exemplo, TCGA-BRCA, TARGET-AML, etc",
+    "Identificador do submetedor, por exemplo HCC1954, TCGA-ZX-AA5X, etc",
+    "Número total de arquivos para este caso no arquivo legado do GDC",
+    "Número total de arquivos para este caso no arquivo ativo (padrão) do GDC"
+  ],
+  "sample_rows": [
+    {
+      "caso_id_gdc": "942851b0-b554-48f4-84f6-6826902e12d7",
+      "numero_de_acesso_dbgap_do_projeto": "CCLE",
+      "tipo_de_doenca_do_projeto": "Lymphoid Neoplasm Diffuse Large B-cell Lymphoma",
+      "nome_do_projeto": "Lymphoid Neoplasm Diffuse Large B-cell Lymphoma",
+      "numero_de_acesso_dbgap_do_programa": "CCLE",
+      "nome_do_programa": "CCLE",
+      "id_do_projeto": "CCLE-DLBC",
+      "codigo_de_barras_do_caso": "DB",
+      "contagem_de_arquivos_legado": 1,
+      "contagem_de_arquivos_ativos": 0
+    },
+    {
+      "caso_id_gdc": "aaa8da09-070c-4a31-a99e-720f1a0a964f",
+      "numero_de_acesso_dbgap_do_projeto": "CCLE",
+      "tipo_de_doenca_do_projeto": "Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma",
+      "nome_do_projeto": "Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma",
+      "numero_de_acesso_dbgap_do_programa": "CCLE",
+      "nome_do_programa": "CCLE",
+      "id_do_projeto": "CCLE-CESC",
+      "codigo_de_barras_do_caso": "EN",
+      "contagem_de_arquivos_legado": 1,
+      "contagem_de_arquivos_ativos": 0
+    },
+    {
+      "caso_id_gdc": "ae4dd9c2-ddba-4da5-a372-4cfdeed0859e",
+      "numero_de_acesso_dbgap_do_projeto": "CCLE",
+      "tipo_de_doenca_do_projeto": "Brain Lower Grade Glioma",
+      "nome_do_projeto": "Brain Lower Grade Glioma",
+      "numero_de_acesso_dbgap_do_programa": "CCLE",
+      "nome_do_programa": "CCLE",
+      "id_do_projeto": "CCLE-LGG",
+      "codigo_de_barras_do_caso": "H4",
+      "contagem_de_arquivos_legado": 1,
+      "contagem_de_arquivos_ativos": 0
+    },
+    {
+      "caso_id_gdc": "6153a459-2c19-41c9-8815-aa9f6e72712e",
+      "numero_de_acesso_dbgap_do_projeto": "CCLE",
+      "tipo_de_doenca_do_projeto": "Lymphoid Neoplasm Diffuse Large B-cell Lymphoma",
+      "nome_do_projeto": "Lymphoid Neoplasm Diffuse Large B-cell Lymphoma",
+      "numero_de_acesso_dbgap_do_programa": "CCLE",
+      "nome_do_programa": "CCLE",
+      "id_do_projeto": "CCLE-DLBC",
+      "codigo_de_barras_do_caso": "HH",
+      "contagem_de_arquivos_legado": 1,
+      "contagem_de_arquivos_ativos": 0
+    },
+    {
+      "caso_id_gdc": "7f1968dd-cabb-4fc0-9ae7-76f80f41baa5",
+      "numero_de_acesso_dbgap_do_projeto": "CCLE",
+      "tipo_de_doenca_do_projeto": "Lymphoid Neoplasm Diffuse Large B-cell Lymphoma",
+      "nome_do_projeto": "Lymphoid Neoplasm Diffuse Large B-cell Lymphoma",
+      "numero_de_acesso_dbgap_do_programa": "CCLE",
+      "nome_do_programa": "CCLE",
+      "id_do_projeto": "CCLE-DLBC",
+      "codigo_de_barras_do_caso": "HT",
+      "contagem_de_arquivos_legado": 2,
+      "contagem_de_arquivos_ativos": 0
+    }
+  ]
+}

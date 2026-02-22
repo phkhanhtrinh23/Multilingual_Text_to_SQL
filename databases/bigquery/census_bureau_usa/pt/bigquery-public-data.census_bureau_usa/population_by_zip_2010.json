@@ -1,0 +1,86 @@
+{
+  "table_name": "population_by_zip_2010",
+  "table_fullname": "bigquery-public-data.census_bureau_usa.population_by_zip_2010",
+  "column_names": [
+    "id_geografico",
+    "zipcode",
+    "populacao",
+    "idade_minima",
+    "idade_maxima",
+    "genero"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "id_geografico",
+    "codigo_postal",
+    "populacao",
+    "idade_minima",
+    "idade_maxima",
+    "genero"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING"
+  ],
+  "description": [
+    "Código geográfico",
+    "Código do Censo de Área de Tabulação de CEP de cinco dígitos",
+    "A contagem total da população para este segmento.",
+    "A idade mínima na faixa etária. Se for nulo, isso indica a linha como um total para homens, mulheres ou população geral.",
+    "A idade máxima na faixa etária. Se for nulo, isso indica a linha como não tendo máximo (como 85 ou mais) ou a linha é um total da população masculina, feminina ou geral.",
+    "masculino ou feminino. Se estiver vazio, a linha é um resumo da população total."
+  ],
+  "sample_rows": [
+    {
+      "id_geografico": "8600000US25647",
+      "codigo_postal": "25647",
+      "populacao": 768,
+      "idade_minima": null,
+      "idade_maxima": null,
+      "genero": null
+    },
+    {
+      "id_geografico": "8600000US49336",
+      "codigo_postal": "49336",
+      "populacao": 4352,
+      "idade_minima": null,
+      "idade_maxima": null,
+      "genero": null
+    },
+    {
+      "id_geografico": "8600000US72106",
+      "codigo_postal": "72106",
+      "populacao": 5376,
+      "idade_minima": null,
+      "idade_maxima": null,
+      "genero": null
+    },
+    {
+      "id_geografico": "8600000US74074",
+      "codigo_postal": "74074",
+      "populacao": 29184,
+      "idade_minima": null,
+      "idade_maxima": null,
+      "genero": null
+    },
+    {
+      "id_geografico": "8600000US01960",
+      "codigo_postal": "1960",
+      "populacao": 50944,
+      "idade_minima": null,
+      "idade_maxima": null,
+      "genero": null
+    }
+  ]
+}

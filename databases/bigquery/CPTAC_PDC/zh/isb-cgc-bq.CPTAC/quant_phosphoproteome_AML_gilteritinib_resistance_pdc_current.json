@@ -1,0 +1,116 @@
+{
+  "table_name": "quant_phosphoproteome_AML_gilteritinib_resistance_pdc_current",
+  "table_fullname": "isb-cgc-bq.CPTAC.quant_phosphoproteome_AML_gilteritinib_resistance_pdc_current",
+  "column_names": [
+    "案件编号",
+    "样本编号",
+    "分样编号",
+    "样本分割提交者ID",
+    "样本运行元数据ID",
+    "研究名称",
+    "蛋白丰度对数比值",
+    "参考序列编号",
+    "磷酸化位点"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "案件编号",
+    "样本编号",
+    "分样ID",
+    "样本提交者编号",
+    "样本运行元数据ID",
+    "研究名称",
+    "蛋白质丰度对数2倍变化",
+    "参考序列 ID",
+    "磷酸化位点"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "与特定患者关联的唯一标识符（例如 24cb0fcb-63d6-11e8-bcf1-0a2705229b82）",
+    "该样本的唯一 PDC 标识符（例如 e8d83eb9-693a-11ea-b1fd-0aad30af8a83）",
+    "此样本的唯一 PDC 标识符（例如 e8db124a-693a-11ea-b1fd-0aad30af8a83）",
+    "程序分配的样本提交者ID（例如 T14）",
+    "通过其在实验中的使用方式（基于标记试剂和/或生物学复制）唯一识别该分装。",
+    "研究名称（例如：儿科脑癌试点研究 - 磷酸化蛋白组）",
+    "针对特定生物样本采集中与该基因相关的肽离子，样本报告离子与公共参考离子的平均对数比值",
+    "给 NCBI RefSeq 数据库中的序列分配的唯一标识符",
+    "单字母代码和蛋白质序列位置的磷酸化氨基酸（例如 t304s310, t59）"
+  ],
+  "sample_rows": [
+    {
+      "案件编号": "4a4b2172-550c-4dbd-adad-8b3425f3ddea",
+      "样本编号": "baf671ff-e1b6-4cd9-9dfd-5d263db4f5df",
+      "分样ID": "e8cd8b54-b66a-47da-879f-f135582ea0f5",
+      "样本提交者编号": "PTRC_exp12_01",
+      "样本运行元数据ID": "85a47ee9-272b-49f0-8f06-eb8ee580eb84",
+      "研究名称": "AML Gilteritinib Resistance -  Phosphoproteome",
+      "蛋白质丰度对数2倍变化": -0.1025,
+      "参考序列 ID": "NP_001005751.1",
+      "磷酸化位点": "s1075"
+    },
+    {
+      "案件编号": "4a4b2172-550c-4dbd-adad-8b3425f3ddea",
+      "样本编号": "baf671ff-e1b6-4cd9-9dfd-5d263db4f5df",
+      "分样ID": "e8cd8b54-b66a-47da-879f-f135582ea0f5",
+      "样本提交者编号": "PTRC_exp12_01",
+      "样本运行元数据ID": "85a47ee9-272b-49f0-8f06-eb8ee580eb84",
+      "研究名称": "AML Gilteritinib Resistance -  Phosphoproteome",
+      "蛋白质丰度对数2倍变化": -0.132,
+      "参考序列 ID": "NP_001005751.1",
+      "磷酸化位点": "s909"
+    },
+    {
+      "案件编号": "4a4b2172-550c-4dbd-adad-8b3425f3ddea",
+      "样本编号": "baf671ff-e1b6-4cd9-9dfd-5d263db4f5df",
+      "分样ID": "e8cd8b54-b66a-47da-879f-f135582ea0f5",
+      "样本提交者编号": "PTRC_exp12_01",
+      "样本运行元数据ID": "85a47ee9-272b-49f0-8f06-eb8ee580eb84",
+      "研究名称": "AML Gilteritinib Resistance -  Phosphoproteome",
+      "蛋白质丰度对数2倍变化": 0.1474,
+      "参考序列 ID": "NP_001014436.1",
+      "磷酸化位点": "t291"
+    },
+    {
+      "案件编号": "4a4b2172-550c-4dbd-adad-8b3425f3ddea",
+      "样本编号": "baf671ff-e1b6-4cd9-9dfd-5d263db4f5df",
+      "分样ID": "e8cd8b54-b66a-47da-879f-f135582ea0f5",
+      "样本提交者编号": "PTRC_exp12_01",
+      "样本运行元数据ID": "85a47ee9-272b-49f0-8f06-eb8ee580eb84",
+      "研究名称": "AML Gilteritinib Resistance -  Phosphoproteome",
+      "蛋白质丰度对数2倍变化": -0.5073,
+      "参考序列 ID": "NP_001014972.1",
+      "磷酸化位点": "s636"
+    },
+    {
+      "案件编号": "4a4b2172-550c-4dbd-adad-8b3425f3ddea",
+      "样本编号": "baf671ff-e1b6-4cd9-9dfd-5d263db4f5df",
+      "分样ID": "e8cd8b54-b66a-47da-879f-f135582ea0f5",
+      "样本提交者编号": "PTRC_exp12_01",
+      "样本运行元数据ID": "85a47ee9-272b-49f0-8f06-eb8ee580eb84",
+      "研究名称": "AML Gilteritinib Resistance -  Phosphoproteome",
+      "蛋白质丰度对数2倍变化": 0.6132,
+      "参考序列 ID": "NP_001025006.1",
+      "磷酸化位点": "s185"
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "table_name": "stop_times",
+  "table_fullname": "bigquery-public-data.new_york_subway.stop_times",
+  "column_names": [
+    "id_de_voyage",
+    "heure_d_arrivee",
+    "heure_de_depart",
+    "id_d_arret",
+    "sequence_d_arret",
+    "enseigne_d_arret",
+    "type_de_ramassage",
+    "type_de_depose",
+    "distance_parcourue",
+    "_PARTITIONTIME"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "TIMESTAMP"
+  ],
+  "nested_column_names": [
+    "id_de_voyage",
+    "heure_d_arrivee",
+    "heure_de_depart",
+    "id_d_arret",
+    "sequence_d_arret",
+    "direction_d_arret",
+    "type_de_ramassage",
+    "type_de_depose",
+    "distance_parcourue_le_long_d_un_tracé"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "sample_rows": [
+    {
+      "id_de_voyage": "BSP19GEN-FS012-Sunday-00_000000_FS.S01R",
+      "heure_d_arrivee": "00:00:00",
+      "heure_de_depart": "00:00:00",
+      "id_d_arret": "S01S",
+      "sequence_d_arret": "1",
+      "direction_d_arret": null,
+      "type_de_ramassage": "0",
+      "type_de_depose": "0",
+      "distance_parcourue_le_long_d_un_tracé": null
+    },
+    {
+      "id_de_voyage": "BSP19GEN-FS011-Saturday-00_000000_FS.S01R",
+      "heure_d_arrivee": "00:00:00",
+      "heure_de_depart": "00:00:00",
+      "id_d_arret": "S01S",
+      "sequence_d_arret": "1",
+      "direction_d_arret": null,
+      "type_de_ramassage": "0",
+      "type_de_depose": "0",
+      "distance_parcourue_le_long_d_un_tracé": null
+    },
+    {
+      "id_de_voyage": "BSP19GEN-FS011-Weekday-00_000000_FS.S01R",
+      "heure_d_arrivee": "00:00:00",
+      "heure_de_depart": "00:00:00",
+      "id_d_arret": "S01S",
+      "sequence_d_arret": "1",
+      "direction_d_arret": null,
+      "type_de_ramassage": "0",
+      "type_de_depose": "0",
+      "distance_parcourue_le_long_d_un_tracé": null
+    },
+    {
+      "id_de_voyage": "BSP19GEN-M086-Weekday-00_000000_M..S30R",
+      "heure_d_arrivee": "00:00:00",
+      "heure_de_depart": "00:00:00",
+      "id_d_arret": "M11S",
+      "sequence_d_arret": "1",
+      "direction_d_arret": null,
+      "type_de_ramassage": "0",
+      "type_de_depose": "0",
+      "distance_parcourue_le_long_d_un_tracé": null
+    },
+    {
+      "id_de_voyage": "BSP19SUPP-L022-Saturday-99_000100_L..N01X006",
+      "heure_d_arrivee": "00:01:00",
+      "heure_de_depart": "00:01:00",
+      "id_d_arret": "L29N",
+      "sequence_d_arret": "1",
+      "direction_d_arret": null,
+      "type_de_ramassage": "0",
+      "type_de_depose": "0",
+      "distance_parcourue_le_long_d_un_tracé": null
+    }
+  ]
+}

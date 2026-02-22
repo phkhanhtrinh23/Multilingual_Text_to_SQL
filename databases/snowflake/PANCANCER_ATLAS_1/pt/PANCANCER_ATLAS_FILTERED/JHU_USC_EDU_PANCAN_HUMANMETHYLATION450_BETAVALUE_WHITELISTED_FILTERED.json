@@ -1,0 +1,86 @@
+{
+  "table_name": "JHU_USC_EDU_PANCAN_HUMANMETHYLATION450_BETAVALUE_WHITELISTED_FILTERED",
+  "table_fullname": "PANCANCER_ATLAS_1.PANCANCER_ATLAS_FILTERED.JHU_USC_EDU_PANCAN_HUMANMETHYLATION450_BETAVALUE_WHITELISTED_FILTERED",
+  "column_names": [
+    "CodigoBarrasDoParticipante",
+    "Estudo",
+    "ID",
+    "CodigoBarrasDaAliquota",
+    "CodigoBarrasDaAmostra",
+    "TipoDeAmostra",
+    "Beta",
+    "CodigoDeLetraDoTipoDeAmostra"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "FLOAT",
+    "TEXT"
+  ],
+  "description": [
+    "Identificador de código de barras TCGA para o participante do estudo, por exemplo, TCGA-02-0001",
+    "Abreviação do estudo TCGA, por exemplo, LAML. Lista completa disponível em https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/tcga-study-abbreviations",
+    "Identificador de sonda único (por exemplo, cg04676771) do array de metilação humana Illumina -- por favor, consulte a tabela de anotação (isb-cgc:platform_reference.methylation_annotation) para obter mais detalhes sobre qualquer sonda em particular",
+    "Código de barras do aliquote TCGA, por exemplo, TCGA-12-1089-01A-01D-0517-28",
+    "Código de barras da amostra de biospecimen, por exemplo, TCGA-13-1489-02A",
+    "Existem 10 tipos de amostras: Sangue Derivado Normal, Tumor sólido primário, Tecido sólido normal, Tumor sólido recorrente, Metastático, Adicional - Novo primário, Câncer derivado de sangue primário - Sangue periférico, Célula bucal normal, Adicional metastático, Medula óssea normal",
+    "Valor beta de metilação de DNA normalizado (entre 0 e 1, onde 0 indica completamente não metilado e 1 indica totalmente metilado)",
+    "Código de letra do tipo de amostra usando os padrões TCGA, por exemplo, TPN, EBV. Lista completa disponível em https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/sample-type-codes"
+  ],
+  "sample_rows": [
+    {
+      "CodigoBarrasDoParticipante": "TCGA-06-AABW",
+      "CodigoBarrasDaAmostra": "TCGA-06-AABW-11A",
+      "CodigoBarrasDaAliquota": "TCGA-06-AABW-11A-31D-A368-05",
+      "CodigoDeLetraDoTipoDeAmostra": "NT",
+      "TipoDeAmostra": "Solid Tissue Normal",
+      "Estudo": "GBM",
+      "ID": "cg13326914",
+      "Beta": 0.828217
+    },
+    {
+      "CodigoBarrasDoParticipante": "TCGA-06-AABW",
+      "CodigoBarrasDaAmostra": "TCGA-06-AABW-11A",
+      "CodigoBarrasDaAliquota": "TCGA-06-AABW-11A-31D-A368-05",
+      "CodigoDeLetraDoTipoDeAmostra": "NT",
+      "TipoDeAmostra": "Solid Tissue Normal",
+      "Estudo": "GBM",
+      "ID": "cg20566904",
+      "Beta": 0.8990459999999999
+    },
+    {
+      "CodigoBarrasDoParticipante": "TCGA-06-AABW",
+      "CodigoBarrasDaAmostra": "TCGA-06-AABW-11A",
+      "CodigoBarrasDaAliquota": "TCGA-06-AABW-11A-31D-A368-05",
+      "CodigoDeLetraDoTipoDeAmostra": "NT",
+      "TipoDeAmostra": "Solid Tissue Normal",
+      "Estudo": "GBM",
+      "ID": "cg20795891",
+      "Beta": 0.0311908
+    },
+    {
+      "CodigoBarrasDoParticipante": "TCGA-06-AABW",
+      "CodigoBarrasDaAmostra": "TCGA-06-AABW-11A",
+      "CodigoBarrasDaAliquota": "TCGA-06-AABW-11A-31D-A368-05",
+      "CodigoDeLetraDoTipoDeAmostra": "NT",
+      "TipoDeAmostra": "Solid Tissue Normal",
+      "Estudo": "GBM",
+      "ID": "cg11608893",
+      "Beta": 0.948874
+    },
+    {
+      "CodigoBarrasDoParticipante": "TCGA-06-AABW",
+      "CodigoBarrasDaAmostra": "TCGA-06-AABW-11A",
+      "CodigoBarrasDaAliquota": "TCGA-06-AABW-11A-31D-A368-05",
+      "CodigoDeLetraDoTipoDeAmostra": "NT",
+      "TipoDeAmostra": "Solid Tissue Normal",
+      "Estudo": "GBM",
+      "ID": "cg03895496",
+      "Beta": 0.291718
+    }
+  ]
+}

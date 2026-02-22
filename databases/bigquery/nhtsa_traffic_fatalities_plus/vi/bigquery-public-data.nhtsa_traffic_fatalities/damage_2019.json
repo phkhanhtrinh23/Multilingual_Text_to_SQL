@@ -1,0 +1,86 @@
+{
+  "table_name": " damage_2019",
+  "table_fullname": "bigquery-public-data.nhtsa_traffic_fatalities. damage_2019",
+  "column_names": [
+    "số_trạng_thái",
+    "tên tiểu bang",
+    "số liên tiếp",
+    "số xe",
+    "khoảng bị hư",
+    "tên khu vực hư hỏng"
+  ],
+  "column_types": [
+    "INT64",
+    "STRING",
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "Số trạng thái",
+    "tên bang",
+    "số liên tiếp",
+    "số xe",
+    "khu vực hư hỏng",
+    "Tên khu vực bị hư"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "STRING",
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING"
+  ],
+  "description": [
+    "Yếu tố dữ liệu này xác định bang nơi tai nạn đã xảy ra. Các mã được lấy từ bản in của Cục Dịch vụ Tổng hợp (GSA) về Mã Vị trí Địa lý Toàn cầu (GLC). Để biết thêm thông tin về các mã, vui lòng xem phần <C1/V1/D1/PC1/P1/NM1 State Number> trong pdf: https://crashstats.nhtsa.dot.gov/Api/Public/ViewPublication/812315",
+    "Thành phần dữ liệu này xác định bang nơi xảy ra tai nạn. Các mã được lấy từ ấn bản của Tổng cục Dịch vụ Chung (GSA) về Mã Địa Điểm Địa Hình Toàn Cầu (GLC).",
+    "Phần tử dữ liệu này là số trường hợp duy nhất được gán cho mỗi vụ tai nạn. Nó xuất hiện trên mỗi tệp dữ liệu và được sử dụng để hợp nhất thông tin từ các tệp dữ liệu lại với nhau. xxxxxx Hai ký tự cho Mã Bang, tiếp theo là bốn ký tự cho Số trường hợp",
+    "Phần tử dữ liệu này là số liên tiếp được gán cho mỗi phương tiện trong vụ việc. Phần tử dữ liệu này xuất hiện trong từng tệp dữ liệu cấp phương tiện và được sử dụng kết hợp với phần tử dữ liệu ST_CASE để hợp nhất thông tin từ các tệp dữ liệu cấp phương tiện. 000-999 Số đã được gán của phương tiện ô tô",
+    "Yếu tố dữ liệu này xác định tất cả các khu vực trên phương tiện này đã bị hư hại trong vụ va chạm như được phản ánh trong tài liệu vụ việc. 1-12 Điểm kim đồng hồ 13 Phần trên 14 Vỏ gầm 15 Không hư hại 99 Không rõ",
+    "Phần tử dữ liệu này xác định tất cả các khu vực trên chiếc xe này đã bị hư hại trong vụ va chạm như được phản ánh trong tài liệu hồ sơ."
+  ],
+  "sample_rows": [
+    {
+      "Số trạng thái": 1,
+      "tên bang": "Alabama",
+      "số liên tiếp": 10390,
+      "số xe": 5,
+      "khu vực hư hỏng": 1,
+      "Tên khu vực bị hư": "1 Clock Value"
+    },
+    {
+      "Số trạng thái": 4,
+      "tên bang": "Arizona",
+      "số liên tiếp": 40257,
+      "số xe": 7,
+      "khu vực hư hỏng": 1,
+      "Tên khu vực bị hư": "1 Clock Value"
+    },
+    {
+      "Số trạng thái": 5,
+      "tên bang": "Arkansas",
+      "số liên tiếp": 50123,
+      "số xe": 5,
+      "khu vực hư hỏng": 1,
+      "Tên khu vực bị hư": "1 Clock Value"
+    },
+    {
+      "Số trạng thái": 5,
+      "tên bang": "Arkansas",
+      "số liên tiếp": 50163,
+      "số xe": 5,
+      "khu vực hư hỏng": 1,
+      "Tên khu vực bị hư": "1 Clock Value"
+    },
+    {
+      "Số trạng thái": 5,
+      "tên bang": "Arkansas",
+      "số liên tiếp": 50411,
+      "số xe": 5,
+      "khu vực hư hỏng": 1,
+      "Tên khu vực bị hư": "1 Clock Value"
+    }
+  ]
+}

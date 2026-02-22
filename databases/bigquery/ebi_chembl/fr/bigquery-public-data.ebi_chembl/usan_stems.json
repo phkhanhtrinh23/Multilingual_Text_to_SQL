@@ -1,0 +1,86 @@
+{
+  "table_name": "usan_stems",
+  "table_fullname": "bigquery-public-data.ebi_chembl.usan_stems",
+  "column_names": [
+    "id_racine_usan",
+    "racine",
+    "sous_groupe",
+    "annotation",
+    "classe_racine",
+    "classe_majeure"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "id_tige_usan",
+    "tige",
+    "sous_groupe",
+    "annotation",
+    "classe_de_tige",
+    "classe_majeure"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "sample_rows": [
+    {
+      "id_tige_usan": "1471",
+      "tige": "som-",
+      "sous_groupe": "som--bove",
+      "annotation": "growth hormone derivatives: bovine somatotropin derivatives",
+      "classe_de_tige": "combined prefix and suffix",
+      "classe_majeure": null
+    },
+    {
+      "id_tige_usan": "1472",
+      "tige": "som-",
+      "sous_groupe": "som--por",
+      "annotation": "growth hormone derivatives: porcine somatotropin derivatives",
+      "classe_de_tige": "combined prefix and suffix",
+      "classe_majeure": null
+    },
+    {
+      "id_tige_usan": "979",
+      "tige": "-ampa-",
+      "sous_groupe": null,
+      "annotation": "ionotropic non-NMDA (N-methyl D-aspartate) glutamate receptors [AMPA (alpha-amino-3-hydroxy-5-methyl-4-isoxazolepropionic acid receptor) and/or KA (kainite antagonist) receptors]",
+      "classe_de_tige": "infix",
+      "classe_majeure": null
+    },
+    {
+      "id_tige_usan": "990",
+      "tige": "-apt-",
+      "sous_groupe": null,
+      "annotation": "aptamers, classical and mirror",
+      "classe_de_tige": "infix",
+      "classe_majeure": null
+    },
+    {
+      "id_tige_usan": "993",
+      "tige": "-aril-",
+      "sous_groupe": null,
+      "annotation": "antiviral (arildone derivatives)",
+      "classe_de_tige": "infix",
+      "classe_majeure": null
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "table_name": "refseq_mapping_current",
+  "table_fullname": "isb-cgc-bq.PDC_metadata.refseq_mapping_current",
+  "column_names": [
+    "UniProt 标识",
+    "UniProt 审核状态",
+    "基因符号",
+    "参考序列ID"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "UniProt 标识",
+    "UniProt审核状态",
+    "基因符号",
+    "参考序列编号"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "UniProt 为序列分配的唯一标识符，通常包含生物学相关信息",
+    "‘unreviewed’ 记录包含与计算生成注释和大规模功能表征相关的蛋白质序列；‘reviewed’ 记录则为高质量、人工注释且无冗余",
+    "基因符号，由PDC从NCBI获取",
+    "在 NCBI RefSeq 数据库中赋予序列的唯一标识符"
+  ],
+  "sample_rows": [
+    {
+      "UniProt 标识": "A0JNW5-1",
+      "UniProt审核状态": "reviewed",
+      "基因符号": "BLTP3B",
+      "参考序列编号": "NP_055869.1"
+    },
+    {
+      "UniProt 标识": "A0JNW5-2",
+      "UniProt审核状态": "reviewed",
+      "基因符号": "BLTP3B",
+      "参考序列编号": "NP_001006948.1"
+    },
+    {
+      "UniProt 标识": "A0JP26-1",
+      "UniProt审核状态": "reviewed",
+      "基因符号": "POTEB3",
+      "参考序列编号": "XP_011542097.1"
+    },
+    {
+      "UniProt 标识": "A0JP26-1",
+      "UniProt审核状态": "reviewed",
+      "基因符号": "POTEB3",
+      "参考序列编号": "NP_997238.2"
+    },
+    {
+      "UniProt 标识": "A1A519-2",
+      "UniProt审核状态": "reviewed",
+      "基因符号": "FAM170A",
+      "参考序列编号": "NP_877438.2"
+    }
+  ]
+}

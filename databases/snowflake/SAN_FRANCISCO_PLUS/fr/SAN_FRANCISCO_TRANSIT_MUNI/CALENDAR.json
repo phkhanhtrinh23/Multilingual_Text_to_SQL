@@ -1,0 +1,97 @@
+{
+  "table_name": "CALENDAR",
+  "table_fullname": "SAN_FRANCISCO_PLUS.SAN_FRANCISCO_TRANSIT_MUNI.CALENDAR",
+  "column_names": [
+    "vendredi",
+    "exception_type",
+    "jeudi",
+    "mercredi",
+    "lundi",
+    "service_desc",
+    "dimanche",
+    "service_id",
+    "samedi",
+    "mardi",
+    "exceptions"
+  ],
+  "column_types": [
+    "BOOLEAN",
+    "BOOLEAN",
+    "BOOLEAN",
+    "BOOLEAN",
+    "BOOLEAN",
+    "TEXT",
+    "BOOLEAN",
+    "TEXT",
+    "BOOLEAN",
+    "BOOLEAN",
+    "DATE"
+  ],
+  "description": [
+    "Indique si le service est valable pour tous les dimanches exploités par l'agence utilisant des horaires et des catégories de tarifs normaux",
+    "Indique si le service est disponible à la date spécifiée dans le champ exceptions. Les valeurs valides pour ce champ sont :  - TRUE : Le service sera exploité pendant la date répertoriée dans la colonne exceptions -  FALSE : Le service ne sera pas exploité pendant la date répertoriée dans la colonne exceptions",
+    "Indique si le service est valable pour tous les dimanches exploités par l'agence utilisant des horaires et des catégories de tarifs normaux",
+    "Indique si le service est valable pour tous les dimanches exploités par l'agence utilisant des horaires et des catégories de tarifs normaux",
+    "Indique si le service est valable pour tous les dimanches exploités par l'agence utilisant des horaires et des catégories de tarifs normaux",
+    "Description textuelle de la catégorie de service",
+    "Indique si le service est valable pour tous les dimanches exploités par l'agence utilisant des horaires et des catégories de tarifs normaux",
+    "Identifiant unique pour un ensemble de dates lorsque le service est disponible pour une ou plusieurs routes",
+    "Indique si le service est valable pour tous les dimanches exploités par l'agence utilisant des horaires et des catégories de tarifs normaux",
+    "Indique si le service est valable pour tous les dimanches exploités par l'agence utilisant des horaires et des catégories de tarifs normaux",
+    "Spécifie une date particulière à laquelle ce service n'est pas disponible. Cela se produit généralement pendant les jours fériés, les événements spéciaux, etc. Si applicable, le service exploité pour la journée est indiqué dans replacement_service. Le format de la date est AAAA-MM-JJ"
+  ],
+  "sample_rows": [
+    {
+      "service_id": "73692",
+      "service_desc": "Weekday",
+      "dimanche": true,
+      "lundi": true,
+      "mardi": true,
+      "mercredi": true,
+      "jeudi": true,
+      "vendredi": false,
+      "samedi": false,
+      "exceptions": "2019-12-25",
+      "exception_type": false
+    },
+    {
+      "service_id": "73692",
+      "service_desc": "Weekday",
+      "dimanche": true,
+      "lundi": true,
+      "mardi": true,
+      "mercredi": true,
+      "jeudi": true,
+      "vendredi": false,
+      "samedi": false,
+      "exceptions": "2020-01-20",
+      "exception_type": false
+    },
+    {
+      "service_id": "73692",
+      "service_desc": "Weekday",
+      "dimanche": true,
+      "lundi": true,
+      "mardi": true,
+      "mercredi": true,
+      "jeudi": true,
+      "vendredi": false,
+      "samedi": false,
+      "exceptions": "2020-02-17",
+      "exception_type": false
+    },
+    {
+      "service_id": "73693",
+      "service_desc": "Saturday",
+      "dimanche": false,
+      "lundi": false,
+      "mardi": false,
+      "mercredi": false,
+      "jeudi": false,
+      "vendredi": true,
+      "samedi": false,
+      "exceptions": "2020-01-20",
+      "exception_type": true
+    }
+  ]
+}

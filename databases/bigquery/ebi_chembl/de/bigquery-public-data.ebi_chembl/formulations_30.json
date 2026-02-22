@@ -1,0 +1,86 @@
+{
+  "table_name": "formulations_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.formulations_30",
+  "column_names": [
+    "Produkt-ID",
+    "Zutat",
+    "Wirkstärke",
+    "Datensatz-ID",
+    "Molekülregistrierungsnummer",
+    "Formulierung-ID"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "INT64",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "Produkt-ID",
+    "Zutat",
+    "Dosierung",
+    "Datensatz-ID",
+    "Molekülregistrierungsnummer",
+    "Formulierungs-ID"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "INT64",
+    "INT64"
+  ],
+  "description": [
+    "Eindeutige Kennung des Produkts. FK zu PRODUCTS",
+    "Name des zugelassenen Bestandteils im Produkt",
+    "Dosisstärke",
+    "Fremdschlüssel zur compound_records-Tabelle.",
+    "Eindeutige Kennung des Bestandteils FK zu MOLECULE_DICTIONARY",
+    "Primärschlüssel."
+  ],
+  "sample_rows": [
+    {
+      "Produkt-ID": "PRODUCT_017406_001",
+      "Zutat": "CYANOCOBALAMIN",
+      "Dosierung": null,
+      "Datensatz-ID": 1344800,
+      "Molekülregistrierungsnummer": 1383003,
+      "Formulierungs-ID": 148332
+    },
+    {
+      "Produkt-ID": "PRODUCT_016089_001",
+      "Zutat": "CYANOCOBALAMIN",
+      "Dosierung": null,
+      "Datensatz-ID": 1344800,
+      "Molekülregistrierungsnummer": 1383003,
+      "Formulierungs-ID": 148336
+    },
+    {
+      "Produkt-ID": "PRODUCT_016090_001",
+      "Zutat": "CYANOCOBALAMIN",
+      "Dosierung": null,
+      "Datensatz-ID": 1344800,
+      "Molekülregistrierungsnummer": 1383003,
+      "Formulierungs-ID": 148340
+    },
+    {
+      "Produkt-ID": "PRODUCT_016089_001",
+      "Zutat": "INTRINSIC FACTOR",
+      "Dosierung": null,
+      "Datensatz-ID": 1343088,
+      "Molekülregistrierungsnummer": 675455,
+      "Formulierungs-ID": 148338
+    },
+    {
+      "Produkt-ID": "PRODUCT_016090_001",
+      "Zutat": "INTRINSIC FACTOR",
+      "Dosierung": null,
+      "Datensatz-ID": 1343088,
+      "Molekülregistrierungsnummer": 675455,
+      "Formulierungs-ID": 148342
+    }
+  ]
+}

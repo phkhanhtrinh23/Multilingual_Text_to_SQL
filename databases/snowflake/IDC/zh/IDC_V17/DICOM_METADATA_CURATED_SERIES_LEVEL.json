@@ -1,0 +1,102 @@
+{
+  "table_name": "DICOM_METADATA_CURATED_SERIES_LEVEL",
+  "table_fullname": "IDC.IDC_V17.DICOM_METADATA_CURATED_SERIES_LEVEL",
+  "column_names": [
+    "物镜倍率",
+    "最大总像素矩阵行数",
+    "系列实例UID",
+    "模态",
+    "主要解剖结构代码指示符值",
+    "照明类型_代码_标识_值_字符串",
+    "照明类型_代码含义",
+    "最小像素间距_2sf",
+    "主要解剖结构代码含义",
+    "最大总像素矩阵列数"
+  ],
+  "column_types": [
+    "NUMBER",
+    "NUMBER",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "FLOAT",
+    "TEXT",
+    "NUMBER"
+  ],
+  "description": [
+    "OpticalPathSequence[0] 的值 > ObjectiveLensPower（适用于 SM）。",
+    "跨系列实例的 Rows 属性的最小值。包含顶层 Rows 属性与 TotalPixelMatrixRows（在 SM 模式下出现）之间的第一个非空值。",
+    "DICOM 系列实例 UID",
+    "DICOM 模态",
+    "从 SpecimenDescriptionSequence[0] > PrimaryAnatomicStructureSequence[0] 取 `CodingSchemeDesignator` 与 `CodeValue` 的拼接值，中间用 `:` 分隔（适用于 SM）。",
+    "从 OpticalPathSequence[0].IlluminationTypeCodeSequence[0] 中，用冒号分隔的 `CodingSchemeDesignator` 与 `CodeValue` 的连接值（适用于 SM）。",
+    "`CodeMeaning` 来自 OpticalPathSequence[0].IlluminationTypeCodeSequence[0]（适用于 SM）。",
+    "系列中所有实例第一组件像素间距的最小值。取顶层 PixelSpacing 属性的第一组件与 SharedFunctionalGroupSequence[0] > PixelMeasuresSequence[0] 中的第一组件之间的第一个非空值。四舍五入至两位有效数字。",
+    "`CodeMeaning` 来自 `SpecimenDescriptionSequence[0] > PrimaryAnatomicStructureSequence[0]`（适用于 SM）。",
+    "在系列中跨实例的 Columns 属性的最小值。包含在顶层 Columns 属性与 TotalPixelMatrixColumns（在 SM 模式下出现）之间的第一个非空值。"
+  ],
+  "sample_rows": [
+    {
+      "系列实例UID": "1.3.6.1.4.1.14519.5.2.1.2103.7010.269874.1.2",
+      "最小像素间距_2sf": null,
+      "最大总像素矩阵列数": null,
+      "最大总像素矩阵行数": null,
+      "物镜倍率": null,
+      "主要解剖结构代码指示符值": null,
+      "主要解剖结构代码含义": null,
+      "照明类型_代码_标识_值_字符串": null,
+      "照明类型_代码含义": null,
+      "模态": "KO"
+    },
+    {
+      "系列实例UID": "1.3.6.1.4.1.14519.5.2.1.2103.7010.269874.1.1",
+      "最小像素间距_2sf": null,
+      "最大总像素矩阵列数": null,
+      "最大总像素矩阵行数": null,
+      "物镜倍率": null,
+      "主要解剖结构代码指示符值": null,
+      "主要解剖结构代码含义": null,
+      "照明类型_代码_标识_值_字符串": null,
+      "照明类型_代码含义": null,
+      "模态": "KO"
+    },
+    {
+      "系列实例UID": "1.3.6.1.4.1.14519.5.2.1.2103.7010.237254.1.2",
+      "最小像素间距_2sf": null,
+      "最大总像素矩阵列数": null,
+      "最大总像素矩阵行数": null,
+      "物镜倍率": null,
+      "主要解剖结构代码指示符值": null,
+      "主要解剖结构代码含义": null,
+      "照明类型_代码_标识_值_字符串": null,
+      "照明类型_代码含义": null,
+      "模态": "KO"
+    },
+    {
+      "系列实例UID": "1.3.6.1.4.1.14519.5.2.1.2103.7010.263376.2.1",
+      "最小像素间距_2sf": null,
+      "最大总像素矩阵列数": null,
+      "最大总像素矩阵行数": null,
+      "物镜倍率": null,
+      "主要解剖结构代码指示符值": null,
+      "主要解剖结构代码含义": null,
+      "照明类型_代码_标识_值_字符串": null,
+      "照明类型_代码含义": null,
+      "模态": "KO"
+    },
+    {
+      "系列实例UID": "1.3.6.1.4.1.14519.5.2.1.2103.7010.135953.2.2",
+      "最小像素间距_2sf": null,
+      "最大总像素矩阵列数": null,
+      "最大总像素矩阵行数": null,
+      "物镜倍率": null,
+      "主要解剖结构代码指示符值": null,
+      "主要解剖结构代码含义": null,
+      "照明类型_代码_标识_值_字符串": null,
+      "照明类型_代码含义": null,
+      "模态": "KO"
+    }
+  ]
+}

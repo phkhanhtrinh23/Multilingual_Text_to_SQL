@@ -1,0 +1,86 @@
+{
+  "table_name": " damage_2017",
+  "table_fullname": "bigquery-public-data.nhtsa_traffic_fatalities. damage_2017",
+  "column_names": [
+    "numero_do_estado",
+    "nome_do_estado",
+    "numero_consecutivo",
+    "numero_do_veiculo",
+    "areas_danificadas",
+    "nome_das_areas_danificadas"
+  ],
+  "column_types": [
+    "INT64",
+    "STRING",
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "numero_do_estado",
+    "nome_do_estado",
+    "numero_consecutivo",
+    "numero_do_veiculo",
+    "areas_danificadas",
+    "nome_das_areas_danificadas"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "STRING",
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING"
+  ],
+  "description": [
+    "Este elemento de dados identifica o estado em que ocorreu o acidente. Os códigos são da publicação da Administração de Serviços Gerais (GSA) dos códigos de localização geográfica mundiais (GLC). Para mais informações sobre os códigos, por favor, consulte a seção <C1/V1/D1/PC1/P1/NM1 State Number> no pdf: https://crashstats.nhtsa.dot.gov/Api/Public/ViewPublication/812315",
+    "Este elemento de dados identifica o estado em que ocorreu o acidente. Os códigos são da publicação da Administração de Serviços Gerais (GSA) dos códigos de localização geográfica mundiais (GLC).",
+    "Este elemento de dados é o número de caso único atribuído a cada acidente. Ele aparece em cada arquivo de dados e é usado para mesclar informações dos arquivos de dados. xxxxxx Dois caracteres para o código do estado seguidos de quatro caracteres para o número do caso",
+    "Este elemento de dados é o número consecutivo atribuído a cada veículo no caso. Este elemento de dados aparece em cada arquivo de dados de nível de veículo e é usado em conjunto com o elemento de dados ST_CASE para mesclar informações dos arquivos de dados de nível de veículo. 000-999 Número atribuído de veículo motorizado",
+    "Este elemento de dados identifica todas as áreas deste veículo que foram danificadas no acidente, conforme refletido nos materiais do caso. 1-12 Pontos do relógio 13 Topo 14 Parte inferior 15 Sem danos 99 Desconhecido",
+    "Este elemento de dados identifica todas as áreas deste veículo que foram danificadas no acidente, conforme refletido nos materiais do caso."
+  ],
+  "sample_rows": [
+    {
+      "numero_do_estado": 4,
+      "nome_do_estado": "Arizona",
+      "numero_consecutivo": 40715,
+      "numero_do_veiculo": 6,
+      "areas_danificadas": 15,
+      "nome_das_areas_danificadas": "No Damage"
+    },
+    {
+      "numero_do_estado": 4,
+      "nome_do_estado": "Arizona",
+      "numero_consecutivo": 40715,
+      "numero_do_veiculo": 9,
+      "areas_danificadas": 15,
+      "nome_das_areas_danificadas": "No Damage"
+    },
+    {
+      "numero_do_estado": 4,
+      "nome_do_estado": "Arizona",
+      "numero_consecutivo": 40715,
+      "numero_do_veiculo": 10,
+      "areas_danificadas": 15,
+      "nome_das_areas_danificadas": "No Damage"
+    },
+    {
+      "numero_do_estado": 4,
+      "nome_do_estado": "Arizona",
+      "numero_consecutivo": 40715,
+      "numero_do_veiculo": 11,
+      "areas_danificadas": 15,
+      "nome_das_areas_danificadas": "No Damage"
+    },
+    {
+      "numero_do_estado": 6,
+      "nome_do_estado": "California",
+      "numero_consecutivo": 60018,
+      "numero_do_veiculo": 5,
+      "areas_danificadas": 15,
+      "nome_das_areas_danificadas": "No Damage"
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "table_name": "quant_phosphoproteome_prospective_ovarian_PNNL_lumos_pdc_current",
+  "table_fullname": "isb-cgc-bq.CPTAC.quant_phosphoproteome_prospective_ovarian_PNNL_lumos_pdc_current",
+  "column_names": [
+    "ケースID",
+    "サンプルID",
+    "アリコット ID",
+    "分注提出者ID",
+    "アリクォート実行メタデータID",
+    "研究名",
+    "タンパク質濃度対数2比",
+    "参照配列ID",
+    "リン酸化部位"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "ケースID",
+    "サンプルID",
+    "aliquot番号",
+    "サブサンプル送信者ID",
+    "アリクオット実行メタデータID",
+    "研究名",
+    "タンパク質発現量ログ2比",
+    "リファレンス配列ID",
+    "リン酸化部位"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "特定の患者に関連付けられた一意の識別子（例：24cb0fcb-63d6-11e8-bcf1-0a2705229b82）",
+    "このサンプルのユニークなPDC識別子（例: e8d83eb9-693a-11ea-b1fd-0aad30af8a83）",
+    "このアリオットのユニークなPDC識別子（例：e8db124a-693a-11ea-b1fd-0aad30af8a83）",
+    "プログラムが割り当てるアリオット提出者ID（例：T14）",
+    "試験での使用方法（ラベル付け試薬および／または生物学的レプリカに基づく）により、アリオットを一意に識別します。",
+    "研究名（例：小児脳腫瘍パイロット研究 - リン酸化プロテオーム）",
+    "特定の生物サンプルから取得されたアクイジションで、遺伝子に関連するペプチドイオンの共通リファレンスに対するサンプルリポーターイオンの平均対数比",
+    "NCBI RefSeq データベース内の配列に割り当てられるユニーク識別子",
+    "リン酸化されたアミノ酸の一文字コードとタンパク質配列位置（例：t304s310、t59）"
+  ],
+  "sample_rows": [
+    {
+      "ケースID": "526a8712-0881-11eb-bc0e-0aad30af8a83",
+      "サンプルID": "0633de6c-641d-11e8-bcf1-0a2705229b82",
+      "aliquot番号": "e56ea641-6424-11e8-bcf1-0a2705229b82",
+      "サブサンプル送信者ID": "665f4f0f-130c-4b09-9762-cd0696_D2",
+      "アリクオット実行メタデータID": "096069d2-5738-11e8-b664-00a098d917f8",
+      "研究名": "Prospective Ovarian PNNL Phosphoproteome Lumos",
+      "タンパク質発現量ログ2比": -2.4217,
+      "リファレンス配列ID": "NP_057417.3",
+      "リン酸化部位": "s1691t1698"
+    },
+    {
+      "ケースID": "526a8712-0881-11eb-bc0e-0aad30af8a83",
+      "サンプルID": "0633de6c-641d-11e8-bcf1-0a2705229b82",
+      "aliquot番号": "e56ea641-6424-11e8-bcf1-0a2705229b82",
+      "サブサンプル送信者ID": "665f4f0f-130c-4b09-9762-cd0696_D2",
+      "アリクオット実行メタデータID": "096069d2-5738-11e8-b664-00a098d917f8",
+      "研究名": "Prospective Ovarian PNNL Phosphoproteome Lumos",
+      "タンパク質発現量ログ2比": -0.3629,
+      "リファレンス配列ID": "NP_000042.3",
+      "リン酸化部位": "t1885"
+    },
+    {
+      "ケースID": "526a8712-0881-11eb-bc0e-0aad30af8a83",
+      "サンプルID": "0633de6c-641d-11e8-bcf1-0a2705229b82",
+      "aliquot番号": "e56ea641-6424-11e8-bcf1-0a2705229b82",
+      "サブサンプル送信者ID": "665f4f0f-130c-4b09-9762-cd0696_D2",
+      "アリクオット実行メタデータID": "096069d2-5738-11e8-b664-00a098d917f8",
+      "研究名": "Prospective Ovarian PNNL Phosphoproteome Lumos",
+      "タンパク質発現量ログ2比": -0.0056,
+      "リファレンス配列ID": "XP_011511944.1",
+      "リン酸化部位": "s1544"
+    },
+    {
+      "ケースID": "526a8712-0881-11eb-bc0e-0aad30af8a83",
+      "サンプルID": "0633de6c-641d-11e8-bcf1-0a2705229b82",
+      "aliquot番号": "e56ea641-6424-11e8-bcf1-0a2705229b82",
+      "サブサンプル送信者ID": "665f4f0f-130c-4b09-9762-cd0696_D2",
+      "アリクオット実行メタデータID": "096069d2-5738-11e8-b664-00a098d917f8",
+      "研究名": "Prospective Ovarian PNNL Phosphoproteome Lumos",
+      "タンパク質発現量ログ2比": -1.304,
+      "リファレンス配列ID": "NP_060889.1",
+      "リン酸化部位": "s70"
+    },
+    {
+      "ケースID": "526a8712-0881-11eb-bc0e-0aad30af8a83",
+      "サンプルID": "0633de6c-641d-11e8-bcf1-0a2705229b82",
+      "aliquot番号": "e56ea641-6424-11e8-bcf1-0a2705229b82",
+      "サブサンプル送信者ID": "665f4f0f-130c-4b09-9762-cd0696_D2",
+      "アリクオット実行メタデータID": "096069d2-5738-11e8-b664-00a098d917f8",
+      "研究名": "Prospective Ovarian PNNL Phosphoproteome Lumos",
+      "タンパク質発現量ログ2比": -0.5937,
+      "リファレンス配列ID": "NP_001139438.1",
+      "リン酸化部位": "t2029"
+    }
+  ]
+}

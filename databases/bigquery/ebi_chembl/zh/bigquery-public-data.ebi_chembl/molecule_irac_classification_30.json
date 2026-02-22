@@ -1,0 +1,56 @@
+{
+  "table_name": "molecule_irac_classification_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.molecule_irac_classification_30",
+  "column_names": [
+    "分子IRAC编号",
+    "IRAC分类ID",
+    "分子注册号"
+  ],
+  "column_types": [
+    "INT64",
+    "INT64",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "分子IRAC编号",
+    "IRAC 类别编号",
+    "分子注册号"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "INT64",
+    "INT64"
+  ],
+  "description": [
+    "主键",
+    "指向 irac_classification 表的外键，显示该化合物的作用机制分类。",
+    "指向 molecule_dictionary 表的外键，显示该分类所适用的化合物。"
+  ],
+  "sample_rows": [
+    {
+      "分子IRAC编号": 65,
+      "IRAC 类别编号": 1,
+      "分子注册号": 611681
+    },
+    {
+      "分子IRAC编号": 113,
+      "IRAC 类别编号": 3,
+      "分子注册号": 1222245
+    },
+    {
+      "分子IRAC编号": 74,
+      "IRAC 类别编号": 5,
+      "分子注册号": 782593
+    },
+    {
+      "分子IRAC编号": 84,
+      "IRAC 类别编号": 7,
+      "分子注册号": 896779
+    },
+    {
+      "分子IRAC编号": 80,
+      "IRAC 类别编号": 8,
+      "分子注册号": 839968
+    }
+  ]
+}

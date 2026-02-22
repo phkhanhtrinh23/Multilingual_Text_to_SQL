@@ -1,0 +1,76 @@
+{
+  "table_name": "file_associated_entity_mapping_current",
+  "table_fullname": "isb-cgc-bq.PDC_metadata.file_associated_entity_mapping_current",
+  "column_names": [
+    "id_arquivo",
+    "id_caso",
+    "id_entidade",
+    "id_submetente_entidade",
+    "tipo_entidade"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "id_arquivo",
+    "id_caso",
+    "id_entidade",
+    "id_submetente_entidade",
+    "tipo_entidade"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "Um identificador (UUID) para identificar exclusivamente o arquivo no PDC (por exemplo, 795dd383-5efd-484b-9c2f-f061ae617fc7)",
+    "Identificador único associado a um paciente específico (por exemplo, 24cb0fcb-63d6-11e8-bcf1-0a2705229b82)",
+    "Um identificador (UUID) para identificar exclusivamente a entidade no PDC (por exemplo, 2a6b4244-6428-11e8-bcf1-0a2705229b82, que se refere a um aliquote)",
+    "Identificador único derivado do submissor de dados que está associado a uma entidade específica (por exemplo, TCGA-61-1911-01A-32-2224-29)",
+    "Tipo de entidade associada (por exemplo, aliquote ou caso)"
+  ],
+  "sample_rows": [
+    {
+      "id_arquivo": "ef9f2ec8-8de6-453a-9848-4f8ac587644f",
+      "id_caso": "0067a0e0-63d8-11e8-bcf1-0a2705229b82",
+      "id_entidade": "2a6b4244-6428-11e8-bcf1-0a2705229b82",
+      "id_submetente_entidade": "TCGA-61-1911-01A-32-2224-29",
+      "tipo_entidade": "aliquot"
+    },
+    {
+      "id_arquivo": "26a67215-9cf0-46cb-aef8-1938df733d2b",
+      "id_caso": "0067a0e0-63d8-11e8-bcf1-0a2705229b82",
+      "id_entidade": "2a6b4244-6428-11e8-bcf1-0a2705229b82",
+      "id_submetente_entidade": "TCGA-61-1911-01A-32-2224-29",
+      "tipo_entidade": "aliquot"
+    },
+    {
+      "id_arquivo": "b8cb61c9-68bb-4fc0-9e70-3e39ea3e2976",
+      "id_caso": "0067a0e0-63d8-11e8-bcf1-0a2705229b82",
+      "id_entidade": "2a6b4244-6428-11e8-bcf1-0a2705229b82",
+      "id_submetente_entidade": "TCGA-61-1911-01A-32-2224-29",
+      "tipo_entidade": "aliquot"
+    },
+    {
+      "id_arquivo": "e32baef6-7002-47db-a43d-cb74e752ee4f",
+      "id_caso": "0067a0e0-63d8-11e8-bcf1-0a2705229b82",
+      "id_entidade": "2a6b4244-6428-11e8-bcf1-0a2705229b82",
+      "id_submetente_entidade": "TCGA-61-1911-01A-32-2224-29",
+      "tipo_entidade": "aliquot"
+    },
+    {
+      "id_arquivo": "7535654e-5a22-420a-9fdf-93fb44f7c421",
+      "id_caso": "0067a0e0-63d8-11e8-bcf1-0a2705229b82",
+      "id_entidade": "2a6b4244-6428-11e8-bcf1-0a2705229b82",
+      "id_submetente_entidade": "TCGA-61-1911-01A-32-2224-29",
+      "tipo_entidade": "aliquot"
+    }
+  ]
+}

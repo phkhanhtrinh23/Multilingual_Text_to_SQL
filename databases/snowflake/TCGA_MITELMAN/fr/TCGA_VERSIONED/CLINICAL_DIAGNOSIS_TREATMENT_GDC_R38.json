@@ -1,0 +1,86 @@
+{
+  "table_name": "CLINICAL_DIAGNOSIS_TREATMENT_GDC_R38",
+  "table_fullname": "TCGA_MITELMAN.TCGA_VERSIONED.CLINICAL_DIAGNOSIS_TREATMENT_GDC_R38",
+  "column_names": [
+    "type_de_traitement_de_diagnostic",
+    "id_de_dossier",
+    "date_heure_de_creation_de_diagnostic_de_traitement",
+    "etat_de_diagnostic_de_traitement",
+    "traitement_ou_therapie_de_diagnostic",
+    "id_de_traitement_de_diagnostic",
+    "id_de_diagnostic",
+    "date_heure_de_mise_a_jour_de_diagnostic_de_traitement"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "NUMBER",
+    "TEXT",
+    "BOOLEAN",
+    "TEXT",
+    "TEXT",
+    "NUMBER"
+  ],
+  "description": [
+    "Terme texte qui décrit le type de traitement administré.",
+    "Identifiant unique GDC pour ce cas (correspond à `case_barcode`) -- cela peut être utilisé pour accéder à plus d'informations à partir du portail de données GDC de la manière suivante : https://portal.gdc.cancer.gov/files/c21b332c-06c6-4403-9032-f91c8f407ba9.",
+    "Une combinaison de date et d'heure de la journée sous la forme [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm]",
+    "L'état actuel de l'objet.",
+    "Un indicateur oui/non/inconnu/non applicable lié à l'administration d'agents thérapeutiques reçus.",
+    "Identifiant attribué par le GDC pour les données de traitement d'un cas.",
+    "Identifiant attribué par le GDC pour le diagnostic d'un cas.",
+    "Une combinaison de date et d'heure de la journée sous la forme [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm]"
+  ],
+  "sample_rows": [
+    {
+      "id_de_traitement_de_diagnostic": "fddc01c2-9679-5e47-8940-db49de93764d",
+      "id_de_diagnostic": "6fbb0e59-acad-5a63-ac6e-c6eee1f9f56b",
+      "id_de_dossier": "5f22e050-c172-4f2d-a1f9-6cb749b6ef98",
+      "type_de_traitement_de_diagnostic": "Pharmaceutical Therapy, NOS",
+      "traitement_ou_therapie_de_diagnostic": null,
+      "etat_de_diagnostic_de_traitement": "released",
+      "date_heure_de_creation_de_diagnostic_de_traitement": 1556466135017293,
+      "date_heure_de_mise_a_jour_de_diagnostic_de_traitement": 1564613363187437
+    },
+    {
+      "id_de_traitement_de_diagnostic": "278be024-2282-5010-aead-5e055c2c87ab",
+      "id_de_diagnostic": "f8dcf514-12ed-54c3-8772-e7658d035f73",
+      "id_de_dossier": "2429c7d4-ae27-432d-9adf-1c6d192bf13c",
+      "type_de_traitement_de_diagnostic": "Pharmaceutical Therapy, NOS",
+      "traitement_ou_therapie_de_diagnostic": null,
+      "etat_de_diagnostic_de_traitement": "released",
+      "date_heure_de_creation_de_diagnostic_de_traitement": 1556481576123655,
+      "date_heure_de_mise_a_jour_de_diagnostic_de_traitement": 1564632362128491
+    },
+    {
+      "id_de_traitement_de_diagnostic": "7fe0abd7-6cd5-50b3-b953-c2cab6c6c881",
+      "id_de_diagnostic": "a0253719-0651-5d59-a91e-9bd98889f6ee",
+      "id_de_dossier": "4510295e-8aa7-4ef1-b2b7-91cc902f8200",
+      "type_de_traitement_de_diagnostic": "Pharmaceutical Therapy, NOS",
+      "traitement_ou_therapie_de_diagnostic": null,
+      "etat_de_diagnostic_de_traitement": "released",
+      "date_heure_de_creation_de_diagnostic_de_traitement": 1556477370878922,
+      "date_heure_de_mise_a_jour_de_diagnostic_de_traitement": 1564627141224068
+    },
+    {
+      "id_de_traitement_de_diagnostic": "37a34215-eb4f-59a7-8f51-e08014ef1760",
+      "id_de_diagnostic": "853922aa-a334-5d01-ab7c-dfc1c6b32f0b",
+      "id_de_dossier": "1974470e-ec23-4dfc-8907-2e4052c2a0fc",
+      "type_de_traitement_de_diagnostic": "Pharmaceutical Therapy, NOS",
+      "traitement_ou_therapie_de_diagnostic": null,
+      "etat_de_diagnostic_de_traitement": "released",
+      "date_heure_de_creation_de_diagnostic_de_traitement": 1556480314977315,
+      "date_heure_de_mise_a_jour_de_diagnostic_de_traitement": 1564630823241780
+    },
+    {
+      "id_de_traitement_de_diagnostic": "ced1f214-4d41-574b-988f-22ffefd1b5eb",
+      "id_de_diagnostic": "20316fd4-aca7-57fa-9966-4076874a372f",
+      "id_de_dossier": "92badeb5-a50e-4a62-a67e-6a8a59c948ab",
+      "type_de_traitement_de_diagnostic": "Pharmaceutical Therapy, NOS",
+      "traitement_ou_therapie_de_diagnostic": null,
+      "etat_de_diagnostic_de_traitement": "released",
+      "date_heure_de_creation_de_diagnostic_de_traitement": 1556458579995277,
+      "date_heure_de_mise_a_jour_de_diagnostic_de_traitement": 1564604129103908
+    }
+  ]
+}

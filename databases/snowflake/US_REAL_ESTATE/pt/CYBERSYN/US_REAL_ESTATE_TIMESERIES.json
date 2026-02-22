@@ -1,0 +1,70 @@
+{
+  "sample_rows": [
+    {
+      "ID_GEO": "geoId/47157",
+      "VARIAVEL": "UNITS_3_4_UNITS_M_YTD",
+      "NOME_VARIAVEL": "Three- and Four-Family Buildings units: Estimates With Imputation (Monthly, Year-to-Date)",
+      "DATA": "2008-02-29",
+      "VALOR": "8.00000000",
+      "UNIDADE": "Count"
+    },
+    {
+      "ID_GEO": "geoId/C27100",
+      "VARIAVEL": "BLDGS_5_UNITS_M",
+      "NOME_VARIAVEL": "Five-or-More Family Buildings: Estimates With Imputation (Monthly, Current Month)",
+      "DATA": "2012-09-30",
+      "VALOR": "0E-8",
+      "UNIDADE": "Count"
+    },
+    {
+      "ID_GEO": "geoId/17135",
+      "VARIAVEL": "UNITS_5_UNITS_REP_M",
+      "NOME_VARIAVEL": "Five-or-More Family Buildings units reported: Reported Only Data (Monthly, Current Month)",
+      "DATA": "2024-06-30",
+      "VALOR": "0E-8",
+      "UNIDADE": "Count"
+    },
+    {
+      "ID_GEO": "geoId/17163",
+      "VARIAVEL": "BLDGS_5_UNITS_M_YTD",
+      "NOME_VARIAVEL": "Five-or-More Family Buildings: Estimates With Imputation (Monthly, Year-to-Date)",
+      "DATA": "2003-03-31",
+      "VALOR": "0E-8",
+      "UNIDADE": "Count"
+    },
+    {
+      "ID_GEO": "geoId/17097",
+      "VARIAVEL": "BLDGS_3_4_UNITS_REP_M",
+      "NOME_VARIAVEL": "Three- and Four-Family Buildings reported: Reported Only Data (Monthly, Current Month)",
+      "DATA": "2018-03-31",
+      "VALOR": "0E-8",
+      "UNIDADE": "Count"
+    }
+  ],
+  "table_name": "US_REAL_ESTATE_TIMESERIES",
+  "table_fullname": "US_REAL_ESTATE.CYBERSYN.US_REAL_ESTATE_TIMESERIES",
+  "column_names": [
+    "ID_GEO",
+    "UNIDADE",
+    "NOME_VARIAVEL",
+    "DATA",
+    "VALOR",
+    "VARIAVEL"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "DATE",
+    "NUMBER",
+    "TEXT"
+  ],
+  "description": [
+    "Um identificador único para um local. Pode ser unido a outras tabelas de geografia, incluindo `GEOGRAPHY_INDEX`, `GEOGRAPHY_RELATIONSHIPS` e `GEOGRAPHY_CHARACTERISTICS`.",
+    "Unidade de medida para o valor relatado.",
+    "Nome único legível por humanos para a variável.",
+    "Data associada ao valor.",
+    "Valor relatado para a variável.",
+    "Identificador único para uma variável, unível à tabela `timeseries`."
+  ]
+}

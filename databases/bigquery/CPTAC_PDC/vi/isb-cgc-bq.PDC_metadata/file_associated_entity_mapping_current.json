@@ -1,0 +1,76 @@
+{
+  "table_name": "file_associated_entity_mapping_current",
+  "table_fullname": "isb-cgc-bq.PDC_metadata.file_associated_entity_mapping_current",
+  "column_names": [
+    "Mã_tệp",
+    "ID Trường Hợp",
+    "mã thực thể",
+    "id_người_nộp_thể_tượng",
+    "loại thực thể"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "Mã tệp",
+    "mã vụ",
+    "định danh thực thể",
+    "mã_người_gửi_thực_tể",
+    "loại thực thể"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "Một bộ định danh (UUID) để nhận dạng duy nhất tệp trong PDC (ví dụ: 795dd383-5efd-484b-9c2f-f061ae617fc7)",
+    "Mã định danh duy nhất liên quan đến một bệnh nhân cụ thể (ví dụ: 24cb0fcb-63d6-11e8-bcf1-0a2705229b82)",
+    "Mã định danh (UUID) để xác định duy nhất thực thể trong PDC (ví dụ 2a6b4244-6428-11e8-bcf1-0a2705229b82, đề cập đến một aliquot)",
+    "Định danh duy nhất được tạo ra từ người nộp dữ liệu và liên kết với một thực thể cụ thể (ví dụ: TCGA-61-1911-01A-32-2224-29)",
+    "Loại thực thể liên quan (ví dụ: mẫu rót phần hoặc trường hợp)"
+  ],
+  "sample_rows": [
+    {
+      "Mã tệp": "ef9f2ec8-8de6-453a-9848-4f8ac587644f",
+      "mã vụ": "0067a0e0-63d8-11e8-bcf1-0a2705229b82",
+      "định danh thực thể": "2a6b4244-6428-11e8-bcf1-0a2705229b82",
+      "mã_người_gửi_thực_tể": "TCGA-61-1911-01A-32-2224-29",
+      "loại thực thể": "aliquot"
+    },
+    {
+      "Mã tệp": "26a67215-9cf0-46cb-aef8-1938df733d2b",
+      "mã vụ": "0067a0e0-63d8-11e8-bcf1-0a2705229b82",
+      "định danh thực thể": "2a6b4244-6428-11e8-bcf1-0a2705229b82",
+      "mã_người_gửi_thực_tể": "TCGA-61-1911-01A-32-2224-29",
+      "loại thực thể": "aliquot"
+    },
+    {
+      "Mã tệp": "b8cb61c9-68bb-4fc0-9e70-3e39ea3e2976",
+      "mã vụ": "0067a0e0-63d8-11e8-bcf1-0a2705229b82",
+      "định danh thực thể": "2a6b4244-6428-11e8-bcf1-0a2705229b82",
+      "mã_người_gửi_thực_tể": "TCGA-61-1911-01A-32-2224-29",
+      "loại thực thể": "aliquot"
+    },
+    {
+      "Mã tệp": "e32baef6-7002-47db-a43d-cb74e752ee4f",
+      "mã vụ": "0067a0e0-63d8-11e8-bcf1-0a2705229b82",
+      "định danh thực thể": "2a6b4244-6428-11e8-bcf1-0a2705229b82",
+      "mã_người_gửi_thực_tể": "TCGA-61-1911-01A-32-2224-29",
+      "loại thực thể": "aliquot"
+    },
+    {
+      "Mã tệp": "7535654e-5a22-420a-9fdf-93fb44f7c421",
+      "mã vụ": "0067a0e0-63d8-11e8-bcf1-0a2705229b82",
+      "định danh thực thể": "2a6b4244-6428-11e8-bcf1-0a2705229b82",
+      "mã_người_gửi_thực_tể": "TCGA-61-1911-01A-32-2224-29",
+      "loại thực thể": "aliquot"
+    }
+  ]
+}

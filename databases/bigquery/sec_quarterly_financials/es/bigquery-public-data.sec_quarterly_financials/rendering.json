@@ -1,0 +1,128 @@
+{
+  "table_name": "rendering",
+  "table_fullname": "bigquery-public-data.sec_quarterly_financials.rendering",
+  "column_names": [
+    "Número de envío",
+    "Informe",
+    "tipo de archivo",
+    "categoría del menú",
+    "nombre corto",
+    "Nombre largo",
+    "roles",
+    "URI del rol padre",
+    "Informe de padres",
+    "Informe del padre final",
+    "tiempo de partición"
+  ],
+  "column_types": [
+    "STRING",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "INT64",
+    "TIMESTAMP"
+  ],
+  "nested_column_names": [
+    "Número de envío",
+    "informe",
+    "tipo de archivo",
+    "categoría del menú",
+    "nombre corto",
+    "nombre largo",
+    "roles",
+    "uri del rol padre",
+    "informe de padres",
+    "informe del padre último"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "INT64"
+  ],
+  "description": [
+    "Número de Acceso. La cadena de 20 caracteres formada a partir del número de 18 dígitos asignado por la Comisión a cada presentación EDGAR. submission_number: [adsh]",
+    "Representa el agrupamiento del informe. El valor numérico se refiere al “archivo R” tal como se calcula por el renderizador y se publica en el sitio web de EDGAR. Tenga en cuenta que en algunas situaciones los números se saltan.",
+    "El tipo de archivo de datos interactivo renderizado en el sitio web de EDGAR, H = archivo .htm, X = archivo .xml. tipo de archivo: [rfile]",
+    "Si está disponible, una de las categorías del menú calculada por el renderizador: C=Portada, S=Declaraciones, N=Notas, P=Políticas, T=Tablas, D=Detalles, O=Otros, y U=Sin clasificar. menu_category: [menucat]",
+    "La porción del nombre largo usada en el menú del renderizador.",
+    "El texto normalizado de espacios del contenido del elemento 'definition' del enlace XBRL.",
+    "El XBRL “roleuri” del rol.",
+    "El XBRL roleuri de un rol para el cual este rol tiene un prefijo shortname coincidente y una categoría de menú de nivel superior, según lo calculado por el renderizador.",
+    "El valor del campo report para el rol donde roleuri es igual a este parentroleuri.",
+    "El informe ancestro más alto alcanzable siguiendo las relaciones parentreport. Una nota (menucat = N) es su propio padre último. ultimate_parent_report: [ultparentrpt]"
+  ],
+  "sample_rows": [
+    {
+      "Número de envío": "0001558370-18-000022",
+      "informe": 85,
+      "tipo de archivo": "H",
+      "categoría del menú": "D",
+      "nombre corto": "STOCKHOLDERS' EQUITY",
+      "nombre largo": "41503 - Disclosure - STOCKHOLDERS' EQUITY - Dividends (Details)",
+      "roles": "http://www.lambweston.com/role/DisclosureStockholdersEquityDividendsDetails",
+      "uri del rol padre": null,
+      "informe de padres": null,
+      "informe del padre último": null
+    },
+    {
+      "Número de envío": "0001558370-18-000022",
+      "informe": 86,
+      "tipo de archivo": "H",
+      "categoría del menú": "D",
+      "nombre corto": "STOCKHOLDERS' EQUITY",
+      "nombre largo": "41504 - Disclosure - STOCKHOLDERS' EQUITY - Changes in AOCI (Details)",
+      "roles": "http://www.lambweston.com/role/DisclosureStockholdersEquityChangesInAociDetails",
+      "uri del rol padre": null,
+      "informe de padres": null,
+      "informe del padre último": null
+    },
+    {
+      "Número de envío": "0001558370-18-000022",
+      "informe": 87,
+      "tipo de archivo": "H",
+      "categoría del menú": "D",
+      "nombre corto": "STOCKHOLDERS' EQUITY",
+      "nombre largo": "41505 - Disclosure - STOCKHOLDERS' EQUITY - AOCI - Settlement Gains on Pension and Post-retirement Benefits (Details)",
+      "roles": "http://www.lambweston.com/role/DisclosureStockholdersEquityAociSettlementGainsOnPensionAndPostRetirementBenefitsDetails",
+      "uri del rol padre": null,
+      "informe de padres": null,
+      "informe del padre último": null
+    },
+    {
+      "Número de envío": "0001558370-18-000022",
+      "informe": 88,
+      "tipo de archivo": "H",
+      "categoría del menú": "D",
+      "nombre corto": "SEGMENTS",
+      "nombre largo": "41601 - Disclosure - SEGMENTS - General Information (Details)",
+      "roles": "http://www.lambweston.com/role/DisclosureSegmentsGeneralInformationDetails",
+      "uri del rol padre": null,
+      "informe de padres": null,
+      "informe del padre último": null
+    },
+    {
+      "Número de envío": "0001558370-18-000022",
+      "informe": 89,
+      "tipo de archivo": "H",
+      "categoría del menú": "D",
+      "nombre corto": "SEGMENTS",
+      "nombre largo": "41602 - Disclosure - SEGMENTS - General Financial Information (Details)",
+      "roles": "http://www.lambweston.com/role/DisclosureSegmentsGeneralFinancialInformationDetails",
+      "uri del rol padre": null,
+      "informe de padres": null,
+      "informe del padre último": null
+    }
+  ]
+}

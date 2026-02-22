@@ -1,0 +1,70 @@
+{
+  "sample_rows": [
+    {
+      "StateFIPS": "36",
+      "AbbreviationDEtat": "NY",
+      "IDMetrique": "B25075_011E",
+      "ValeurDeReferenceDEtat": 61829.0,
+      "PopulationTotaleDEtat": 20114745,
+      "PopulationTotaleUS": 333036755
+    },
+    {
+      "StateFIPS": "36",
+      "AbbreviationDEtat": "NY",
+      "IDMetrique": "B25063_023E",
+      "ValeurDeReferenceDEtat": 366764.0,
+      "PopulationTotaleDEtat": 20114745,
+      "PopulationTotaleUS": 333036755
+    },
+    {
+      "StateFIPS": "36",
+      "AbbreviationDEtat": "NY",
+      "IDMetrique": "B19051_001E",
+      "ValeurDeReferenceDEtat": 7530150.0,
+      "PopulationTotaleDEtat": 20114745,
+      "PopulationTotaleUS": 333036755
+    },
+    {
+      "StateFIPS": "36",
+      "AbbreviationDEtat": "NY",
+      "IDMetrique": "B08301_009E",
+      "ValeurDeReferenceDEtat": 11819.0,
+      "PopulationTotaleDEtat": 20114745,
+      "PopulationTotaleUS": 333036755
+    },
+    {
+      "StateFIPS": "36",
+      "AbbreviationDEtat": "NY",
+      "IDMetrique": "B11012_016E",
+      "ValeurDeReferenceDEtat": 214963.0,
+      "PopulationTotaleDEtat": 20114745,
+      "PopulationTotaleUS": 333036755
+    }
+  ],
+  "table_name": "Fact_StateBenchmark_ACS2021",
+  "table_fullname": "CENSUS_GALAXY__ZIP_CODE_TO_BLOCK_GROUP_SAMPLE.PUBLIC.Fact_StateBenchmark_ACS2021",
+  "column_names": [
+    "PopulationTotaleDEtat",
+    "IDMetrique",
+    "ValeurDeReferenceDEtat",
+    "PopulationTotaleUS",
+    "StateFIPS",
+    "AbbreviationDEtat"
+  ],
+  "column_types": [
+    "NUMBER",
+    "TEXT",
+    "FLOAT",
+    "NUMBER",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Population totale de l'État ou du territoire en utilisant MetricID = “B01003_001E”, connu sous le nom de “Total Population” dans chaque hiérarchie du recensement. Cela doit être utilisé comme colonne GroupBy ou Aggregate.",
+    "Un identifiant unique pour une mesure ou un métrique spécifique dans l'American Community Survey ou les données du recensement.",
+    "La valeur Int pour la relation MetricID et StateAbbrev. Cela peut être des agrégats ou des estimations de personnes, d'animaux de compagnie, de foyers, etc. Référez-vous à la table Dim_CensusMetrics pour la signification de chaque valeur. Toutes les valeurs ont été correctement consolidées selon la hiérarchie du recensement dans la table Dim_CensusGeography.",
+    "Population totale des États-Unis en utilisant MetricID = “B01003_001E”, connu sous le nom de “Total Population” dans chaque hiérarchie du recensement. Cela doit être utilisé comme colonne GroupBy ou Aggregate.",
+    "Le code de norme de traitement de l'information fédéral (FIPS) qui représente l'État où se trouve le groupe de blocs.",
+    "L'abréviation de deux lettres pour chaque État et territoire des États-Unis."
+  ]
+}

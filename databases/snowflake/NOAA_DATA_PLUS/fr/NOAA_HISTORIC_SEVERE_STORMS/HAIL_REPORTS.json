@@ -1,0 +1,102 @@
+{
+  "table_name": "HAIL_REPORTS",
+  "table_fullname": "NOAA_DATA_PLUS.NOAA_HISTORIC_SEVERE_STORMS.HAIL_REPORTS",
+  "column_names": [
+    "temps",
+    "emplacement",
+    "point_de_rapport",
+    "comté",
+    "taille",
+    "latitude",
+    "commentaires",
+    "horodatage",
+    "état",
+    "longitude"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "BINARY",
+    "TEXT",
+    "NUMBER",
+    "FLOAT",
+    "TEXT",
+    "NUMBER",
+    "TEXT",
+    "FLOAT"
+  ],
+  "description": [
+    "Heure en UTC",
+    "Emplacement du rapport",
+    "",
+    "",
+    "Taille en 1/100 de pouce (175 = 1,75 pouces)",
+    "Latitude à deux décimales",
+    "",
+    "Horodatage en UTC",
+    "",
+    "Longitude à deux décimales"
+  ],
+  "sample_rows": [
+    {
+      "horodatage": 1620084600000000,
+      "temps": "2330",
+      "taille": 100,
+      "emplacement": "3 NNE PRATTVILLE",
+      "comté": "AUTAUGA",
+      "état": "AL",
+      "latitude": 32.5,
+      "longitude": -86.44,
+      "commentaires": "QUARTER SIZE HAIL WAS REPORTED ON OLD RIDGE ROAD NORTH OF PRATTVILLE. (BMX)",
+      "point_de_rapport": "bytearray(b'\\x01\\x01\\x00\\x00\\x00\\\\\\x8f\\xc2\\xf5(\\x9cU\\xc0\\x00\\x00\\x00\\x00\\x00@@@')"
+    },
+    {
+      "horodatage": 1618042800000000,
+      "temps": "0820",
+      "taille": 400,
+      "emplacement": "1 SSW ORANGE BEACH",
+      "comté": "BALDWIN",
+      "état": "AL",
+      "latitude": 30.27,
+      "longitude": -87.59,
+      "commentaires": "TWO SEPARATE PHOTOS SHOW HAIL NEAR SOFTBALL SIZE IN ORANGE BEACH. SIGNIFICANT HAIL DAMAGE REPORTED TO NUMEROUS VEHICLES AND METALS ROOFS IN THE AREA. (MOB)",
+      "point_de_rapport": "bytearray(b'\\x01\\x01\\x00\\x00\\x00\\xf6(\\\\\\x8f\\xc2\\xe5U\\xc0\\x85\\xebQ\\xb8\\x1eE>@')"
+    },
+    {
+      "horodatage": 1618491360000000,
+      "temps": "1256",
+      "taille": 100,
+      "emplacement": "2 WSW FOLEY",
+      "comté": "BALDWIN",
+      "état": "AL",
+      "latitude": 30.39,
+      "longitude": -87.72,
+      "commentaires": "CORRECTS PREVIOUS HAIL REPORT FROM 2 WSW FOLEY. REPORT OF QUARTER-SIZE HAIL IN SOUTHWEST FOLEY. TIME AND LOCATION GIVEN BY LOCAL POLICE. (MOB)",
+      "point_de_rapport": "bytearray(b'\\x01\\x01\\x00\\x00\\x00\\xaeG\\xe1z\\x14\\xeeU\\xc0\\xa4p=\\n\\xd7c>@')"
+    },
+    {
+      "horodatage": 1617998760000000,
+      "temps": "2006",
+      "taille": 100,
+      "emplacement": "1 S ARKADELPHIA",
+      "comté": "BLOUNT",
+      "état": "AL",
+      "latitude": 33.86,
+      "longitude": -86.93,
+      "commentaires": "REPORTS OF QUARTER SIZE HAIL NEAR ARKADELPHIA. (BMX)",
+      "point_de_rapport": "bytearray(b'\\x01\\x01\\x00\\x00\\x00\\xecQ\\xb8\\x1e\\x85\\xbbU\\xc0\\xaeG\\xe1z\\x14\\xee@@')"
+    },
+    {
+      "horodatage": 1619300820000000,
+      "temps": "2147",
+      "taille": 125,
+      "emplacement": "HAYDEN",
+      "comté": "BLOUNT",
+      "état": "AL",
+      "latitude": 33.9,
+      "longitude": -86.75,
+      "commentaires": "(BMX)",
+      "point_de_rapport": "bytearray(b'\\x01\\x01\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\xb0U\\xc033333\\xf3@@')"
+    }
+  ]
+}

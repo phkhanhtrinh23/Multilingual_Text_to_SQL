@@ -1,0 +1,70 @@
+{
+  "sample_rows": [
+    {
+      "地理编号": "country/USA",
+      "变量": "121",
+      "变量名称": "Non-Tax Net Collections Amount: Fiscal Service Processed Electronically (Over-the-Counter)",
+      "日期": "2017-03-20",
+      "数值": 64657026.0,
+      "单位": "USD"
+    },
+    {
+      "地理编号": "country/USA",
+      "变量": "131",
+      "变量名称": "Non-Tax Net Collections Amount: Fiscal Service Settled Electronically (Over-the-Counter)",
+      "日期": "2022-08-29",
+      "数值": 753.0,
+      "单位": "USD"
+    },
+    {
+      "地理编号": "country/USA",
+      "变量": "213",
+      "变量名称": "IRS Non-Tax Net Collections Amount: Fully Electronic (Internet)",
+      "日期": "2017-08-10",
+      "数值": 99641.0,
+      "单位": "USD"
+    },
+    {
+      "地理编号": "country/USA",
+      "变量": "332",
+      "变量名称": "IRS Tax Net Collections Amount: Fiscal Service Settled Electronically (Mail)",
+      "日期": "2013-10-09",
+      "数值": 704080197.0,
+      "单位": "USD"
+    },
+    {
+      "地理编号": "country/USA",
+      "变量": "paper_savings_bonds_unmatured_&_unredeemed_all_series",
+      "变量名称": "Paper Savings Bonds Unmatured & Unredeemed: All Series",
+      "日期": "2020-11-30",
+      "数值": 294438314.0,
+      "单位": "Count"
+    }
+  ],
+  "table_name": "US_TREASURY_TIMESERIES",
+  "table_fullname": "GLOBAL_GOVERNMENT.CYBERSYN.US_TREASURY_TIMESERIES",
+  "column_names": [
+    "地理编号",
+    "单位",
+    "变量",
+    "日期",
+    "变量名称",
+    "数值"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "DATE",
+    "TEXT",
+    "FLOAT"
+  ],
+  "description": [
+    "一个地点的唯一标识符。可与其他地理表（包括 GEOGRAPHY_INDEX、GEOGRAPHY_RELATIONSHIPS 和 GEOGRAPHY_CHARACTERISTICS）关联。",
+    "报告值的计量单位",
+    "变量的唯一标识符，可与时间序列表关联。",
+    "与该值相关的日期。",
+    "变量的可读唯一名称。",
+    "变量的报告值"
+  ]
+}

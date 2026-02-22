@@ -1,0 +1,86 @@
+{
+  "table_name": "sources_v1",
+  "table_fullname": "isb-cgc-bq.targetome_versioned.sources_v1",
+  "column_names": [
+    "ソースID",
+    "PubMed ID",
+    "データベース名",
+    "データベースバージョン",
+    "データベースダウンロードURL",
+    "ダウンロード日"
+  ],
+  "column_types": [
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "ソースID",
+    "PubMed ID",
+    "データベース名",
+    "データベースバージョン",
+    "DBダウンロードURL",
+    "データベースダウンロード日"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "Targetome相互作用をサポートするソースのID",
+    "PubMedIDによる文献の識別",
+    "サポートエビデンスと文献を取得するデータベース名",
+    "データベースのバージョン",
+    "データベースがダウンロードされたURL",
+    "データベースがダウンロードされた日"
+  ],
+  "sample_rows": [
+    {
+      "ソースID": 1,
+      "PubMed ID": "7565620",
+      "データベース名": "IUPHAR",
+      "データベースバージョン": null,
+      "DBダウンロードURL": null,
+      "データベースダウンロード日": "06.15.2016"
+    },
+    {
+      "ソースID": 2,
+      "PubMed ID": "11489465",
+      "データベース名": "IUPHAR",
+      "データベースバージョン": null,
+      "DBダウンロードURL": null,
+      "データベースダウンロード日": "06.15.2016"
+    },
+    {
+      "ソースID": 3,
+      "PubMed ID": "8818349",
+      "データベース名": "IUPHAR",
+      "データベースバージョン": null,
+      "DBダウンロードURL": null,
+      "データベースダウンロード日": "06.15.2016"
+    },
+    {
+      "ソースID": 4,
+      "PubMed ID": "20724042",
+      "データベース名": "IUPHAR",
+      "データベースバージョン": null,
+      "DBダウンロードURL": null,
+      "データベースダウンロード日": "06.15.2016"
+    },
+    {
+      "ソースID": 5,
+      "PubMed ID": "12543790",
+      "データベース名": "IUPHAR",
+      "データベースバージョン": null,
+      "DBダウンロードURL": null,
+      "データベースダウンロード日": "06.15.2016"
+    }
+  ]
+}

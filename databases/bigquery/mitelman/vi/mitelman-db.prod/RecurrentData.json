@@ -1,0 +1,126 @@
+{
+  "table_name": "RecurrentData",
+  "table_fullname": "mitelman-db.prod.RecurrentData",
+  "column_names": [
+    "Nhiễm sắc thể",
+    "Cánh tay",
+    "Ban nhạc",
+    "Bất thường",
+    "Biến đổi",
+    "Địa hình",
+    "Tổng số ca",
+    "Gen",
+    "Thứ tự nhiễm sắc thể",
+    "Loại"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "chromosom",
+    "Cánh tay",
+    "Ban nhạc",
+    "Bất thường",
+    "Biến dạng",
+    "Đỉnh",
+    "Tổng ca",
+    "Gen",
+    "Thứ tự ký tự",
+    "Loại"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "STRING"
+  ],
+  "description": [
+    "số nhiễm sắc thể (1-22, X hoặc Y)",
+    "cánh của nhiễm sắc thể (p hoặc q)",
+    "vị trí của gen trên cánh tay p hoặc q",
+    "mô tả bất thường, ví dụ 'add(19)(q13)' hoặc 'del(20)(q11q13)'",
+    "mã hình thái, ví dụ '1602'",
+    "mã địa hình, ví dụ '0902' (hoặc trống)",
+    "Tổng số ca (đến 2150)",
+    "ký hiệu gene (các), ví dụ 'KMT2A+' hoặc 'BCR/ABL1' hoặc trống",
+    "thứ tự số của nhiễm sắc thể",
+    "đánh dấu cân bằng ('B') hoặc không cân bằng ('U')"
+  ],
+  "sample_rows": [
+    {
+      "chromosom": "Y",
+      "Cánh tay": "q",
+      "Ban nhạc": "10",
+      "Bất thường": "i(Y)(q10)",
+      "Biến dạng": "1820",
+      "Đỉnh": null,
+      "Tổng ca": "2",
+      "Gen": null,
+      "Thứ tự ký tự": 24,
+      "Loại": "U"
+    },
+    {
+      "chromosom": "1",
+      "Cánh tay": "q",
+      "Ban nhạc": "10",
+      "Bất thường": "der(1;2)(q10;p10)",
+      "Biến dạng": "1702",
+      "Đỉnh": null,
+      "Tổng ca": "2",
+      "Gen": null,
+      "Thứ tự ký tự": 1,
+      "Loại": "U"
+    },
+    {
+      "chromosom": "1",
+      "Cánh tay": "q",
+      "Ban nhạc": "10",
+      "Bất thường": "der(1;2)(q10;q10)",
+      "Biến dạng": "8804",
+      "Đỉnh": "0801",
+      "Tổng ca": "2",
+      "Gen": null,
+      "Thứ tự ký tự": 1,
+      "Loại": "U"
+    },
+    {
+      "chromosom": "1",
+      "Cánh tay": "q",
+      "Ban nhạc": "10",
+      "Bất thường": "der(1;3)(q10;q10)",
+      "Biến dạng": "1702",
+      "Đỉnh": null,
+      "Tổng ca": "2",
+      "Gen": null,
+      "Thứ tự ký tự": 1,
+      "Loại": "U"
+    },
+    {
+      "chromosom": "1",
+      "Cánh tay": "q",
+      "Ban nhạc": "10",
+      "Bất thường": "der(1;3)(q10;q10)",
+      "Biến dạng": "3111",
+      "Đỉnh": "0401",
+      "Tổng ca": "2",
+      "Gen": null,
+      "Thứ tự ký tự": 1,
+      "Loại": "U"
+    }
+  ]
+}

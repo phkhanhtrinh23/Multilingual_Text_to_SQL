@@ -1,0 +1,118 @@
+{
+  "table_name": "measure_tag",
+  "table_fullname": "bigquery-public-data.sec_quarterly_financials.measure_tag",
+  "column_names": [
+    "etiqueta de medida",
+    "versión",
+    "personalizado",
+    "Resumen",
+    "tipo de dato",
+    "Entrada o Descarga",
+    "Crédito o débito",
+    "Etiqueta",
+    "documento",
+    "tiempo de partición"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "BOOL",
+    "BOOL",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "TIMESTAMP"
+  ],
+  "nested_column_names": [
+    "etiqueta de medida",
+    "versión",
+    "personalizado",
+    "Resumen",
+    "Tipo de datos",
+    "Insertar o Eliminar",
+    "crédito o débito",
+    "Etiqueta",
+    "Documento"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "BOOL",
+    "BOOL",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "El identificador único (nombre) de una etiqueta en una versión específica de la taxonomía. measure_tag:[tag]",
+    "Para una etiqueta estándar, un identificador de la taxonomía; de lo contrario, el número de acceso donde se definió la etiqueta.",
+    "1 si la etiqueta es personalizada (version=adsh), 0 si es estándar. Nota: Esta bandera es técnicamente redundante con la versión y los campos adsh.",
+    "1 si la etiqueta no se usa para representar un hecho numérico.",
+    "Si abstract=1, entonces NULL, de lo contrario el tipo de dato (por ejemplo, monetario) para la etiqueta.",
+    "Si abstract=1, entonces NULL; de lo contrario, I si el valor es un punto en el tiempo, o D si el valor es una duración. i_or_d: [iord]",
+    "Si datatype = monetary, entonces el saldo contable natural de la etiqueta desde la perspectiva del balance o del estado de resultados (debe o haber); si no está definido, entonces NULL. credit_or_debit: [crdr]",
+    "Si es una etiqueta estándar, se usa el texto de la etiqueta proporcionado por la taxonomía; de lo contrario, se usa el texto proporcionado por el informante. Una etiqueta que no tuviera ninguno tendría un valor NULL aquí. tag_label: [tlabel]",
+    "La definición detallada para la etiqueta, truncada a 2048 caracteres. Si es una etiqueta estándar, entonces el texto proporcionado por la taxonomía, de lo contrario el texto asignado por el remitente. Algunas etiquetas no tienen ninguno, en cuyo caso este campo es NULL."
+  ],
+  "sample_rows": [
+    {
+      "etiqueta de medida": "InvestmentIdentifierLineItems",
+      "versión": "invest/2013",
+      "personalizado": false,
+      "Resumen": true,
+      "Tipo de datos": null,
+      "Insertar o Eliminar": null,
+      "crédito o débito": null,
+      "Etiqueta": "Investment Identifier [Line Items]",
+      "Documento": "Line items represent reporting concepts included in a table. These concepts are used to disclose reportable information associated with domain members defined in one or many axes to the table."
+    },
+    {
+      "etiqueta de medida": "InvestmentIdentifierTable",
+      "versión": "invest/2013",
+      "personalizado": false,
+      "Resumen": true,
+      "Tipo de datos": null,
+      "Insertar o Eliminar": null,
+      "crédito o débito": null,
+      "Etiqueta": "Investment Identifier [Table]",
+      "Documento": "This table lists the identifiers for the investments. An investment may have more than one identifier. Each identifier is from an identifier scheme."
+    },
+    {
+      "etiqueta de medida": "InvestmentLineItems",
+      "versión": "invest/2013",
+      "personalizado": false,
+      "Resumen": true,
+      "Tipo de datos": null,
+      "Insertar o Eliminar": null,
+      "crédito o débito": null,
+      "Etiqueta": "Investment [Line Items]",
+      "Documento": "Line items represent reporting concepts included in a table. These concepts are used to disclose reportable information associated with domain members defined in one or many axes to the table."
+    },
+    {
+      "etiqueta de medida": "InvestmentMaturityDateRangeAbstract",
+      "versión": "invest/2013",
+      "personalizado": false,
+      "Resumen": true,
+      "Tipo de datos": null,
+      "Insertar o Eliminar": null,
+      "crédito o débito": null,
+      "Etiqueta": "Investment Maturity Date Range [Abstract]",
+      "Documento": "The maturity date range of the underlying investments reported on the Schedule of Investments."
+    },
+    {
+      "etiqueta de medida": "InvestmentTable",
+      "versión": "invest/2013",
+      "personalizado": false,
+      "Resumen": true,
+      "Tipo de datos": null,
+      "Insertar o Eliminar": null,
+      "crédito o débito": null,
+      "Etiqueta": "Investment [Table]",
+      "Documento": "This table lists the investments. The line items identify information about the investment."
+    }
+  ]
+}

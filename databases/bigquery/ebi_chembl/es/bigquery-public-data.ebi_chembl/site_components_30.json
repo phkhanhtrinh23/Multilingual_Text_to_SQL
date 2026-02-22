@@ -1,0 +1,76 @@
+{
+  "table_name": "site_components_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.site_components_30",
+  "column_names": [
+    "id_sitio_comp",
+    "ID del sitio",
+    "Identificador de componente",
+    "id_dominio",
+    "residuos del sitio"
+  ],
+  "column_types": [
+    "INT64",
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "id_compañía_del_sitio",
+    "ID del sitio",
+    "id_componente",
+    "id_dominio",
+    "residuos del sitio"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING"
+  ],
+  "description": [
+    "Clave primaria.",
+    "Clave foránea a la tabla binding_sites.",
+    "Clave foránea a la tabla component_sequences, indicando qué componente molecular del objetivo está involucrado en el sitio de unión.",
+    "clave externa a la tabla dominios, indicando qué dominio del componente molecular dado está involucrado en el sitio de unión (cuando no se conoce, el domain_id puede ser nulo).",
+    "Lista de residuos del componente molecular dado que componen el sitio de unión (si no se conoce, será nulo)."
+  ],
+  "sample_rows": [
+    {
+      "id_compañía_del_sitio": 2691,
+      "ID del sitio": 2616,
+      "id_componente": 3269,
+      "id_dominio": null,
+      "residuos del sitio": null
+    },
+    {
+      "id_compañía_del_sitio": 2695,
+      "ID del sitio": 2616,
+      "id_componente": 4850,
+      "id_dominio": null,
+      "residuos del sitio": null
+    },
+    {
+      "id_compañía_del_sitio": 2700,
+      "ID del sitio": 2617,
+      "id_componente": 3269,
+      "id_dominio": null,
+      "residuos del sitio": null
+    },
+    {
+      "id_compañía_del_sitio": 2703,
+      "ID del sitio": 2617,
+      "id_componente": 2363,
+      "id_dominio": null,
+      "residuos del sitio": null
+    },
+    {
+      "id_compañía_del_sitio": 2705,
+      "ID del sitio": 2617,
+      "id_componente": 1075,
+      "id_dominio": null,
+      "residuos del sitio": null
+    }
+  ]
+}

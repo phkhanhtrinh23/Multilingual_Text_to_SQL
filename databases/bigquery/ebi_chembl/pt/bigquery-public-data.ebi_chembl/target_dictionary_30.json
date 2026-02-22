@@ -1,0 +1,96 @@
+{
+  "table_name": "target_dictionary_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.target_dictionary_30",
+  "column_names": [
+    "id_do_título",
+    "tipo_de_alvo",
+    "nome_preferido",
+    "id_de_imposto",
+    "organismo",
+    "id_do_chembl",
+    "indicador_de_grupo_de_espécies"
+  ],
+  "column_types": [
+    "INT64",
+    "STRING",
+    "STRING",
+    "INT64",
+    "STRING",
+    "STRING",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "id_do_título",
+    "tipo_de_alvo",
+    "nome_preferido",
+    "id_de_imposto",
+    "organismo",
+    "id_do_chembl",
+    "indicador_de_grupo_de_espécies"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "STRING",
+    "STRING",
+    "INT64",
+    "STRING",
+    "STRING",
+    "INT64"
+  ],
+  "description": [
+    "ID único para o alvo",
+    "Descreve se o alvo é uma proteína, um organismo, um tecido etc. Chave estrangeira para a tabela TARGET_TYPE.",
+    "Nome do alvo preferido: curado manualmente",
+    "ID de taxonomia do NCBI do alvo",
+    "Organismo de origem do alvo molecular ou tecido, ou o organismo alvo se a atividade do composto for relatada em um organismo em vez de uma proteína ou tecido",
+    "Identificador ChEMBL para este alvo (para uso na interface web etc)",
+    "Indicador para indicar se o alvo representa um grupo de espécies, em vez de uma espécie individual (por exemplo, 'Bacterial DHFR'). Quando definido como 1, indica que quaisquer componentes de alvo associados serão um representante, em vez de um conjunto abrangente."
+  ],
+  "sample_rows": [
+    {
+      "id_do_título": 22224,
+      "tipo_de_alvo": "ADMET",
+      "nome_preferido": "ADMET",
+      "id_de_imposto": null,
+      "organismo": null,
+      "id_do_chembl": "CHEMBL612558",
+      "indicador_de_grupo_de_espécies": 0
+    },
+    {
+      "id_do_título": 109711,
+      "tipo_de_alvo": "LIPID",
+      "nome_preferido": "Cholesterol ester",
+      "id_de_imposto": null,
+      "organismo": null,
+      "id_do_chembl": "CHEMBL3559388",
+      "indicador_de_grupo_de_espécies": 0
+    },
+    {
+      "id_do_título": 109712,
+      "tipo_de_alvo": "LIPID",
+      "nome_preferido": "Triglyceride",
+      "id_de_imposto": null,
+      "organismo": null,
+      "id_do_chembl": "CHEMBL3559389",
+      "indicador_de_grupo_de_espécies": 0
+    },
+    {
+      "id_do_título": 120037,
+      "tipo_de_alvo": "LIPID",
+      "nome_preferido": "Lipid bilayer",
+      "id_de_imposto": null,
+      "organismo": null,
+      "id_do_chembl": "CHEMBL4651323",
+      "indicador_de_grupo_de_espécies": 0
+    },
+    {
+      "id_do_título": 109803,
+      "tipo_de_alvo": "LIPID",
+      "nome_preferido": "Ganglioside GD3",
+      "id_de_imposto": 9606,
+      "organismo": "Homo sapiens",
+      "id_do_chembl": "CHEMBL3580507",
+      "indicador_de_grupo_de_espécies": 0
+    }
+  ]
+}

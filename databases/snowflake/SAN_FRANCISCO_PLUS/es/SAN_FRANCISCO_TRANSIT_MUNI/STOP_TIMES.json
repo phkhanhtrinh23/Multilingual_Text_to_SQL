@@ -1,0 +1,94 @@
+{
+  "table_name": "STOP_TIMES",
+  "table_fullname": "SAN_FRANCISCO_PLUS.SAN_FRANCISCO_TRANSIT_MUNI.STOP_TIMES",
+  "column_names": [
+    "hora de llegada",
+    "punto de tiempo exacto",
+    "secuencia de parada",
+    "id_parada",
+    "llega_al_dia_siguiente",
+    "id_viaje",
+    "hora de salida",
+    "tipo de entrega",
+    "partida_al_día_siguiente"
+  ],
+  "column_types": [
+    "TIME",
+    "BOOLEAN",
+    "NUMBER",
+    "NUMBER",
+    "BOOLEAN",
+    "NUMBER",
+    "TIME",
+    "TEXT",
+    "BOOLEAN"
+  ],
+  "description": [
+    "Especifica la hora de llegada programada en una parada específica para un viaje específico en una ruta.",
+    "Indica si los horarios de llegada y salida especificados para una parada se cumplen estrictamente por el vehículo de transporte, o si, en su lugar, son tiempos aproximados o interpolados.",
+    "Identifica el orden de las paradas para un viaje en particular. Los valores de stop_sequence deben aumentar a lo largo del viaje, pero no es necesario que sean consecutivos.",
+    "Identifica la parada atendida. Varias rutas pueden usar la misma parada.",
+    "Varios recorridos comienzan antes de la medianoche, con el servicio continuando durante toda la noche. Esta variable indica si el tiempo de llegada ocurre después de la medianoche del día siguiente al día programado. Esto es útil para identificar rutas que comienzan un día y terminan al día siguiente.",
+    "Identifica un viaje. Múltiples viajes pueden tener la misma parada.",
+    "Especifica la hora de salida programada en una parada específica para un viaje específico en una ruta.",
+    "Indica si los pasajeros son dejados en una parada como parte del horario normal o si no está disponible dejar en la parada. Opciones disponibles: - regular - ninguno - teléfono (indica que debe llamar a la agencia para organizar la entrega) - conductor (indica que debe coordinar con el conductor para organizar la entrega)",
+    "Varias rutas comienzan antes de la medianoche, con servicio continuo durante toda la noche. Esta variable indica si el horario de salida ocurre después de la medianoche del día siguiente al día programado. Esto es útil para identificar rutas que comienzan un día y terminan al día siguiente."
+  ],
+  "sample_rows": [
+    {
+      "id_parada": 15759,
+      "id_viaje": 8951406,
+      "secuencia de parada": 51,
+      "hora de llegada": "06:54:55",
+      "llega_al_dia_siguiente": false,
+      "hora de salida": "06:54:55",
+      "partida_al_día_siguiente": false,
+      "tipo de entrega": "regular",
+      "punto de tiempo exacto": false
+    },
+    {
+      "id_parada": 15761,
+      "id_viaje": 8951406,
+      "secuencia de parada": 52,
+      "hora de llegada": "06:55:33",
+      "llega_al_dia_siguiente": false,
+      "hora de salida": "06:55:33",
+      "partida_al_día_siguiente": false,
+      "tipo de entrega": "regular",
+      "punto de tiempo exacto": false
+    },
+    {
+      "id_parada": 15759,
+      "id_viaje": 8951253,
+      "secuencia de parada": 51,
+      "hora de llegada": "06:54:55",
+      "llega_al_dia_siguiente": false,
+      "hora de salida": "06:54:55",
+      "partida_al_día_siguiente": false,
+      "tipo de entrega": "regular",
+      "punto de tiempo exacto": false
+    },
+    {
+      "id_parada": 15761,
+      "id_viaje": 8951253,
+      "secuencia de parada": 52,
+      "hora de llegada": "06:55:33",
+      "llega_al_dia_siguiente": false,
+      "hora de salida": "06:55:33",
+      "partida_al_día_siguiente": false,
+      "tipo de entrega": "regular",
+      "punto de tiempo exacto": false
+    },
+    {
+      "id_parada": 15828,
+      "id_viaje": 8951253,
+      "secuencia de parada": 54,
+      "hora de llegada": "06:57:00",
+      "llega_al_dia_siguiente": false,
+      "hora de salida": "06:57:00",
+      "partida_al_día_siguiente": false,
+      "tipo de entrega": "regular",
+      "punto de tiempo exacto": true
+    }
+  ]
+}

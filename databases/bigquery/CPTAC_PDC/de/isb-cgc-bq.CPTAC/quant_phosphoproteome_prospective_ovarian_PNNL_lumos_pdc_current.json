@@ -1,0 +1,116 @@
+{
+  "table_name": "quant_phosphoproteome_prospective_ovarian_PNNL_lumos_pdc_current",
+  "table_fullname": "isb-cgc-bq.CPTAC.quant_phosphoproteome_prospective_ovarian_PNNL_lumos_pdc_current",
+  "column_names": [
+    "case_id",
+    "sample_id",
+    "aliquot_id",
+    "aliquot_submitter_id",
+    "aliquot_run_metadata_id",
+    "study_name",
+    "protein_abundance_log2ratio",
+    "refseq_id",
+    "phosphorylation_sites"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "Fall-ID",
+    "Proben-ID",
+    "Aliquot-Kennung",
+    "Aliquot-Einreicher-ID",
+    "Aliquot-Durchlauf-Metadaten-ID",
+    "Studienname",
+    "Proteinabundanz-log2-Verhältnis",
+    "RefSeq-ID",
+    "Phosphorylierungsstellen"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "Eine eindeutige Kennung, die mit einem bestimmten Patienten verbunden ist (z. B. 24cb0fcb-63d6-11e8-bcf1-0a2705229b82)",
+    "Eine eindeutige PDC-Kennung für diese Probe (z. B. e8d83eb9-693a-11ea-b1fd-0aad30af8a83)",
+    "Eine eindeutige PDC-Kennung für dieses Aliquot (z. B. e8db124a-693a-11ea-b1fd-0aad30af8a83)",
+    "Dem Programm zugewiesene Aliquot-Submitter-ID (z. B. T14)",
+    "Bestimmt eindeutig das Aliquot danach, wie es im Experiment verwendet wurde (basierend auf dem Etikettierungsreagenz und/oder den biologischen Replikaten)",
+    "Name der Studie (z. B. Pediatric Brain Cancer Pilot Study - Phosphoproteome)",
+    "Durchschnittliches Log-Verhältnis des Proben-Reporter-Ions zum gemeinsamen Referenzwert der Peptid-Ionen, die dem Gen in Messungen aus einer bestimmten biologischen Probe zugeordnet sind",
+    "Eine eindeutige Kennung, die einer Sequenz in der NCBI RefSeq-Datenbank zugewiesen wird",
+    "Einbuchstabige Codes und Protein-Sequenzpositionen der phosphorylierten Aminosäuren (z. B. t304s310, t59)"
+  ],
+  "sample_rows": [
+    {
+      "Fall-ID": "526a8712-0881-11eb-bc0e-0aad30af8a83",
+      "Proben-ID": "0633de6c-641d-11e8-bcf1-0a2705229b82",
+      "Aliquot-Kennung": "e56ea641-6424-11e8-bcf1-0a2705229b82",
+      "Aliquot-Einreicher-ID": "665f4f0f-130c-4b09-9762-cd0696_D2",
+      "Aliquot-Durchlauf-Metadaten-ID": "096069d2-5738-11e8-b664-00a098d917f8",
+      "Studienname": "Prospective Ovarian PNNL Phosphoproteome Lumos",
+      "Proteinabundanz-log2-Verhältnis": -2.4217,
+      "RefSeq-ID": "NP_057417.3",
+      "Phosphorylierungsstellen": "s1691t1698"
+    },
+    {
+      "Fall-ID": "526a8712-0881-11eb-bc0e-0aad30af8a83",
+      "Proben-ID": "0633de6c-641d-11e8-bcf1-0a2705229b82",
+      "Aliquot-Kennung": "e56ea641-6424-11e8-bcf1-0a2705229b82",
+      "Aliquot-Einreicher-ID": "665f4f0f-130c-4b09-9762-cd0696_D2",
+      "Aliquot-Durchlauf-Metadaten-ID": "096069d2-5738-11e8-b664-00a098d917f8",
+      "Studienname": "Prospective Ovarian PNNL Phosphoproteome Lumos",
+      "Proteinabundanz-log2-Verhältnis": -0.3629,
+      "RefSeq-ID": "NP_000042.3",
+      "Phosphorylierungsstellen": "t1885"
+    },
+    {
+      "Fall-ID": "526a8712-0881-11eb-bc0e-0aad30af8a83",
+      "Proben-ID": "0633de6c-641d-11e8-bcf1-0a2705229b82",
+      "Aliquot-Kennung": "e56ea641-6424-11e8-bcf1-0a2705229b82",
+      "Aliquot-Einreicher-ID": "665f4f0f-130c-4b09-9762-cd0696_D2",
+      "Aliquot-Durchlauf-Metadaten-ID": "096069d2-5738-11e8-b664-00a098d917f8",
+      "Studienname": "Prospective Ovarian PNNL Phosphoproteome Lumos",
+      "Proteinabundanz-log2-Verhältnis": -0.0056,
+      "RefSeq-ID": "XP_011511944.1",
+      "Phosphorylierungsstellen": "s1544"
+    },
+    {
+      "Fall-ID": "526a8712-0881-11eb-bc0e-0aad30af8a83",
+      "Proben-ID": "0633de6c-641d-11e8-bcf1-0a2705229b82",
+      "Aliquot-Kennung": "e56ea641-6424-11e8-bcf1-0a2705229b82",
+      "Aliquot-Einreicher-ID": "665f4f0f-130c-4b09-9762-cd0696_D2",
+      "Aliquot-Durchlauf-Metadaten-ID": "096069d2-5738-11e8-b664-00a098d917f8",
+      "Studienname": "Prospective Ovarian PNNL Phosphoproteome Lumos",
+      "Proteinabundanz-log2-Verhältnis": -1.304,
+      "RefSeq-ID": "NP_060889.1",
+      "Phosphorylierungsstellen": "s70"
+    },
+    {
+      "Fall-ID": "526a8712-0881-11eb-bc0e-0aad30af8a83",
+      "Proben-ID": "0633de6c-641d-11e8-bcf1-0a2705229b82",
+      "Aliquot-Kennung": "e56ea641-6424-11e8-bcf1-0a2705229b82",
+      "Aliquot-Einreicher-ID": "665f4f0f-130c-4b09-9762-cd0696_D2",
+      "Aliquot-Durchlauf-Metadaten-ID": "096069d2-5738-11e8-b664-00a098d917f8",
+      "Studienname": "Prospective Ovarian PNNL Phosphoproteome Lumos",
+      "Proteinabundanz-log2-Verhältnis": -0.5937,
+      "RefSeq-ID": "NP_001139438.1",
+      "Phosphorylierungsstellen": "t2029"
+    }
+  ]
+}

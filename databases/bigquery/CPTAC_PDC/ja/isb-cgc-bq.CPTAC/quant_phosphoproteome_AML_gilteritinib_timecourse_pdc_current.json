@@ -1,0 +1,111 @@
+{
+  "table_name": "quant_phosphoproteome_AML_gilteritinib_timecourse_pdc_current",
+  "table_fullname": "isb-cgc-bq.CPTAC.quant_phosphoproteome_AML_gilteritinib_timecourse_pdc_current",
+  "column_names": [
+    "ケースID",
+    "サンプルID",
+    "分液ID",
+    "サンプル提出者ID",
+    "分液実行メタデータID",
+    "研究名",
+    "タンパク質発現log2比",
+    "リファレンス配列ID",
+    "リン酸化部位"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "ケースID",
+    "サンプルID",
+    "サンプルID",
+    "aliquot提出者ID",
+    "アリクォット実行メタデータID",
+    "研究名",
+    "タンパク質濃度対数2比",
+    "参照配列ID",
+    "リン酸化部位"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "特定の患者に関連付けられたユニーク識別子（例：24cb0fcb-63d6-11e8-bcf1-0a2705229b82）",
+    "このサンプルのユニークPDC識別子（例：e8d83eb9-693a-11ea-b1fd-0aad30af8a83）",
+    "この試料のユニークなPDC識別子（例：e8db124a-693a-11ea-b1fd-0aad30af8a83）",
+    "プログラムで割り当てられたアリオット送信者ID（例：T14）",
+    "試験での使用方法（ラベル付け試薬および/または生物学的複製に基づく）により、アリオットを一意に識別します",
+    "研究名（例：小児脳腫瘍パイロット研究 - フォスフォプロテオーム）",
+    "特定の生物サンプルから取得されたデータにおける、遺伝子に関連するペプチドイオンのサンプルレポーターイオンと共通リファレンスの平均対数比",
+    "NCBI RefSeqデータベースのシーケンスに付与される一意の識別子",
+    "リン酸化アミノ酸の単文字コードとタンパク質配列中の位置（例：t304s310、t59）"
+  ],
+  "sample_rows": [
+    {
+      "ケースID": "4a4b2172-550c-4dbd-adad-8b3425f3ddea",
+      "サンプルID": "2e2c8318-db8c-4131-aaa4-72a8dbfdb229",
+      "aliquot提出者ID": "PTRC_Ex8_P1",
+      "アリクォット実行メタデータID": "a44d66b4-e0bf-4c65-afa0-e90f5ef0c6ff",
+      "研究名": "AML Gilteritinib TimeCourse -  Phosphoproteome",
+      "タンパク質濃度対数2比": -0.8623,
+      "参照配列ID": "NP_000539.2",
+      "リン酸化部位": "s1346"
+    },
+    {
+      "ケースID": "4a4b2172-550c-4dbd-adad-8b3425f3ddea",
+      "サンプルID": "2e2c8318-db8c-4131-aaa4-72a8dbfdb229",
+      "aliquot提出者ID": "PTRC_Ex8_P1",
+      "アリクォット実行メタデータID": "a44d66b4-e0bf-4c65-afa0-e90f5ef0c6ff",
+      "研究名": "AML Gilteritinib TimeCourse -  Phosphoproteome",
+      "タンパク質濃度対数2比": -0.2265,
+      "参照配列ID": "NP_001001973.1",
+      "リン酸化部位": "s146"
+    },
+    {
+      "ケースID": "4a4b2172-550c-4dbd-adad-8b3425f3ddea",
+      "サンプルID": "2e2c8318-db8c-4131-aaa4-72a8dbfdb229",
+      "aliquot提出者ID": "PTRC_Ex8_P1",
+      "アリクォット実行メタデータID": "a44d66b4-e0bf-4c65-afa0-e90f5ef0c6ff",
+      "研究名": "AML Gilteritinib TimeCourse -  Phosphoproteome",
+      "タンパク質濃度対数2比": -0.2676,
+      "参照配列ID": "NP_001005271.2",
+      "リン酸化部位": "s132s138"
+    },
+    {
+      "ケースID": "4a4b2172-550c-4dbd-adad-8b3425f3ddea",
+      "サンプルID": "2e2c8318-db8c-4131-aaa4-72a8dbfdb229",
+      "aliquot提出者ID": "PTRC_Ex8_P1",
+      "アリクォット実行メタデータID": "a44d66b4-e0bf-4c65-afa0-e90f5ef0c6ff",
+      "研究名": "AML Gilteritinib TimeCourse -  Phosphoproteome",
+      "タンパク質濃度対数2比": 0.0293,
+      "参照配列ID": "NP_001005498.2",
+      "リン酸化部位": "s84"
+    },
+    {
+      "ケースID": "4a4b2172-550c-4dbd-adad-8b3425f3ddea",
+      "サンプルID": "2e2c8318-db8c-4131-aaa4-72a8dbfdb229",
+      "aliquot提出者ID": "PTRC_Ex8_P1",
+      "アリクォット実行メタデータID": "a44d66b4-e0bf-4c65-afa0-e90f5ef0c6ff",
+      "研究名": "AML Gilteritinib TimeCourse -  Phosphoproteome",
+      "タンパク質濃度対数2比": -0.9234,
+      "参照配列ID": "NP_001005751.1",
+      "リン酸化部位": "s802"
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "table_name": "product_patents_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.product_patents_30",
+  "column_names": [
+    "Produktpatent-ID",
+    "Produkt-ID",
+    "Patentnummer",
+    "Patentablaufdatum",
+    "Arzneistoffkennzeichen",
+    "Arzneimittelkennzeichen",
+    "Patentverwendungs-Code",
+    "Ausschlusskennzeichen",
+    "Einreichungsdatum"
+  ],
+  "column_types": [
+    "INT64",
+    "STRING",
+    "STRING",
+    "DATETIME",
+    "INT64",
+    "INT64",
+    "STRING",
+    "INT64",
+    "DATETIME"
+  ],
+  "nested_column_names": [
+    "Produktpatent-ID",
+    "Produkt-ID",
+    "Patentnummer",
+    "Patentablaufdatum",
+    "Wirkstoffkennzeichen",
+    "Arzneimittelkennzeichen",
+    "Patentanwendungs-Code",
+    "Delistierungskennzeichen",
+    "Einreichungsdatum"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "STRING",
+    "STRING",
+    "DATETIME",
+    "INT64",
+    "INT64",
+    "STRING",
+    "INT64",
+    "DATETIME"
+  ],
+  "description": [
+    "Primary key",
+    "Foreign key zur Tabelle `products` - FDA-Antragsnummer für das Produkt",
+    "Patentnummern, wie vom Antragsteller eingereicht, für Patente, die durch die gesetzlich vorgesehenen Bestimmungen abgedeckt sind",
+    "Ablaufdatum des Patents, wie vom Antragsteller eingereicht, einschließlich der geltenden Verlängerungen",
+    "Patente, die auf FDA Form 3542 eingereicht wurden und nach dem 18. August 2003 aufgeführt sind, können ein Wirkstoff-Flag auf 1 gesetzt haben, was darauf hinweist, dass der Sponsor das Patent als Anspruch auf den Wirkstoff eingereicht hat",
+    "Patente, die auf FDA Form 3542 eingereicht wurden und nach dem 18. August 2003 aufgeführt sind, können ein Arzneimittel-Flag auf 1 gesetzt haben, was darauf hinweist, dass der Sponsor das Patent als Anspruch auf das Arzneimittel eingereicht hat",
+    "Code zur Kennzeichnung eines Verwendungs-Patent, das die zugelassene Indikation oder den Einsatz eines Arzneimittels abdeckt",
+    "Antragsteller gemäß Abschnitt 505(b)(2) sind nicht verpflichtet, Patente zu zertifizieren, wenn dieses Flag auf 1 gesetzt ist",
+    "Das Datum, an dem die FDA Patentinformationen vom Inhaber der NDA erhält. Format ist Mmm d, yyyy"
+  ],
+  "sample_rows": [
+    {
+      "Produktpatent-ID": 12524,
+      "Produkt-ID": "PRODUCT_022569_002",
+      "Patentnummer": "9078814",
+      "Patentablaufdatum": "2024-01-08 00:00:00",
+      "Wirkstoffkennzeichen": 0,
+      "Arzneimittelkennzeichen": 1,
+      "Patentanwendungs-Code": null,
+      "Delistierungskennzeichen": 0,
+      "Einreichungsdatum": "2015-08-11 00:00:00"
+    },
+    {
+      "Produktpatent-ID": 12841,
+      "Produkt-ID": "PRODUCT_022569_001",
+      "Patentnummer": "9078814",
+      "Patentablaufdatum": "2024-01-08 00:00:00",
+      "Wirkstoffkennzeichen": 0,
+      "Arzneimittelkennzeichen": 1,
+      "Patentanwendungs-Code": null,
+      "Delistierungskennzeichen": 0,
+      "Einreichungsdatum": "2015-08-11 00:00:00"
+    },
+    {
+      "Produktpatent-ID": 19542,
+      "Produkt-ID": "PRODUCT_022569_003",
+      "Patentnummer": "9814705",
+      "Patentablaufdatum": "2024-01-08 00:00:00",
+      "Wirkstoffkennzeichen": 0,
+      "Arzneimittelkennzeichen": 1,
+      "Patentanwendungs-Code": null,
+      "Delistierungskennzeichen": 0,
+      "Einreichungsdatum": "2017-12-13 00:00:00"
+    },
+    {
+      "Produktpatent-ID": 21398,
+      "Produkt-ID": "PRODUCT_022569_002",
+      "Patentnummer": "9814705",
+      "Patentablaufdatum": "2024-01-08 00:00:00",
+      "Wirkstoffkennzeichen": 0,
+      "Arzneimittelkennzeichen": 1,
+      "Patentanwendungs-Code": null,
+      "Delistierungskennzeichen": 0,
+      "Einreichungsdatum": "2017-12-13 00:00:00"
+    },
+    {
+      "Produktpatent-ID": 21415,
+      "Produkt-ID": "PRODUCT_022569_001",
+      "Patentnummer": "9814705",
+      "Patentablaufdatum": "2024-01-08 00:00:00",
+      "Wirkstoffkennzeichen": 0,
+      "Arzneimittelkennzeichen": 1,
+      "Patentanwendungs-Code": null,
+      "Delistierungskennzeichen": 0,
+      "Einreichungsdatum": "2017-12-13 00:00:00"
+    }
+  ]
+}

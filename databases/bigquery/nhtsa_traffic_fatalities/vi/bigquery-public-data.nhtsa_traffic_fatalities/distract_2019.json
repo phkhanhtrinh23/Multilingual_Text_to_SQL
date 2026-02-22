@@ -1,0 +1,86 @@
+{
+  "table_name": " distract_2019",
+  "table_fullname": "bigquery-public-data.nhtsa_traffic_fatalities. distract_2019",
+  "column_names": [
+    "số trạng thái",
+    "tên bang",
+    "số liên tiếp",
+    "Số xe",
+    "người lái xe bị xao nhãng bởi",
+    "tên người lái xe bị phân tâm"
+  ],
+  "column_types": [
+    "INT64",
+    "STRING",
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "số trạng thái",
+    "tên bang",
+    "số liên tiếp",
+    "số xe",
+    "người lái bị phân tâm bởi",
+    "tên_nguyên_nội_gây_lệch_điểm_của_lái_xe"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "STRING",
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING"
+  ],
+  "description": [
+    "Yếu tố dữ liệu này xác định bang nơi xảy ra va chạm. Các mã được lấy từ ấn phẩm của Quản lý Dịch vụ Chung (GSA) về Mã Địa Điểm Địa Lý Toàn Cầu (GLC). Để biết thêm thông tin về các mã, vui lòng xem phần <C1/V1/D1/PC1/P1/NM1 State Number> trong pdf: https://crashstats.nhtsa.dot.gov/Api/Public/ViewPublication/812315",
+    "Yếu tố dữ liệu này xác định bang nơi vụ tai nạn xảy ra. Các mã là từ ấn phẩm của Cục Quản lý Dịch vụ Chung (GSA) về Mã Địa điểm Địa lý Toàn cầu (GLC).",
+    "Phần tử dữ liệu này là số trường hợp duy nhất được chỉ định cho mỗi tai nạn.  \nNó xuất hiện trong mỗi tệp dữ liệu và được sử dụng để hợp nhất thông tin từ các tệp dữ liệu với nhau.  \nxxxxxx Hai ký tự cho Mã bang theo sau bởi bốn ký tự cho số trường hợp.",
+    "Yếu tố dữ liệu này là số liên tiếp được phân công cho mỗi xe trong trường hợp. Yếu tố dữ liệu này xuất hiện trong mỗi tệp dữ liệu cấp xe và được sử dụng kết hợp với yếu tố dữ liệu ST_CASE để hợp nhất thông tin từ các tệp dữ liệu cấp xe. 000-999 Số được gán cho xe cơ giới",
+    "Các thuộc tính tốt nhất mô tả sự chú ý của tài xế đối với việc lái xe trước khi tài xế nhận ra một sự kiện quan trọng sắp tới hoặc ngay trước khi va chạm nếu không nhận ra sự kiện quan trọng sắp tới. Để biết thêm thông tin về các mã, vui lòng xem mục <PC16 Driver Distracted By> trong tệp pdf: https://crashstats.nhtsa.dot.gov/Api/Public/ViewPublication/812315",
+    "Yếu tố dữ liệu này xác định các thuộc tính tốt nhất mô tả sự chú ý của tài xế khi lái xe trước khi tài xế nhận ra một sự kiện nguy hiểm đang tới, hoặc ngay trước khi va chạm nếu không nhận ra sự kiện nguy hiểm đang tới."
+  ],
+  "sample_rows": [
+    {
+      "số trạng thái": 1,
+      "tên bang": "Alabama",
+      "số liên tiếp": 10390,
+      "số xe": 5,
+      "người lái bị phân tâm bởi": 96,
+      "tên_nguyên_nội_gây_lệch_điểm_của_lái_xe": "Not Reported"
+    },
+    {
+      "số trạng thái": 6,
+      "tên bang": "California",
+      "số liên tiếp": 60320,
+      "số xe": 5,
+      "người lái bị phân tâm bởi": 96,
+      "tên_nguyên_nội_gây_lệch_điểm_của_lái_xe": "Not Reported"
+    },
+    {
+      "số trạng thái": 6,
+      "tên bang": "California",
+      "số liên tiếp": 60320,
+      "số xe": 6,
+      "người lái bị phân tâm bởi": 96,
+      "tên_nguyên_nội_gây_lệch_điểm_của_lái_xe": "Not Reported"
+    },
+    {
+      "số trạng thái": 6,
+      "tên bang": "California",
+      "số liên tiếp": 60419,
+      "số xe": 5,
+      "người lái bị phân tâm bởi": 96,
+      "tên_nguyên_nội_gây_lệch_điểm_của_lái_xe": "Not Reported"
+    },
+    {
+      "số trạng thái": 6,
+      "tên bang": "California",
+      "số liên tiếp": 61386,
+      "số xe": 5,
+      "người lái bị phân tâm bởi": 96,
+      "tên_nguyên_nội_gây_lệch_điểm_của_lái_xe": "Not Reported"
+    }
+  ]
+}

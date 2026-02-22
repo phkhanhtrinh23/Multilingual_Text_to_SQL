@@ -1,0 +1,86 @@
+{
+  "table_name": "associationByDatasourceIndirect",
+  "table_fullname": "open-targets-prod.platform.associationByDatasourceIndirect",
+  "column_names": [
+    "idTipoDeDato",
+    "idFuenteDatos",
+    "idEnfermedad",
+    "ID del objetivo",
+    "puntuación",
+    "conteo de evidencia"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "ID de tipo de dato",
+    "ID de origen de datos",
+    "idEnfermedad",
+    "idObjetivo",
+    "puntuación",
+    "conteo de evidencias"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "INT64"
+  ],
+  "description": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "sample_rows": [
+    {
+      "ID de tipo de dato": "genetic_association",
+      "ID de origen de datos": "eva",
+      "idEnfermedad": "MONDO_0031052",
+      "idObjetivo": "ENSG00000109775",
+      "puntuación": 0.7389736584301261,
+      "conteo de evidencias": 3
+    },
+    {
+      "ID de tipo de dato": "genetic_association",
+      "ID de origen de datos": "eva",
+      "idEnfermedad": "MONDO_0004736",
+      "idObjetivo": "ENSG00000178445",
+      "puntuación": 0.9484126008765372,
+      "conteo de evidencias": 2115
+    },
+    {
+      "ID de tipo de dato": "genetic_association",
+      "ID de origen de datos": "eva",
+      "idEnfermedad": "MONDO_0002249",
+      "idObjetivo": "ENSG00000117400",
+      "puntuación": 0.9415607406930349,
+      "conteo de evidencias": 694
+    },
+    {
+      "ID de tipo de dato": "genetic_association",
+      "ID de origen de datos": "eva",
+      "idEnfermedad": "MONDO_0004069",
+      "idObjetivo": "ENSG00000100416",
+      "puntuación": 0.9163440231872357,
+      "conteo de evidencias": 128
+    },
+    {
+      "ID de tipo de dato": "genetic_association",
+      "ID de origen de datos": "eva",
+      "idEnfermedad": "HP_0011446",
+      "idObjetivo": "ENSG00000196628",
+      "puntuación": 0.8150173921912369,
+      "conteo de evidencias": 7
+    }
+  ]
+}

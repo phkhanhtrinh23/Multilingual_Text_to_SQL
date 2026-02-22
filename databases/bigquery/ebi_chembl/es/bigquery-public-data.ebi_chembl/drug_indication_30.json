@@ -1,0 +1,106 @@
+{
+  "table_name": "drug_indication_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.drug_indication_30",
+  "column_names": [
+    "id_indicacion_farmaco",
+    "id_registro",
+    "número de registro de molécula",
+    "fase máxima para IND",
+    "Identificador de malla",
+    "Encabezado de malla",
+    "id_efo",
+    "Término EFO"
+  ],
+  "column_types": [
+    "INT64",
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "Identificador de la industria farmacéutica",
+    "id_registro",
+    "Número de registro de molécula",
+    "fase máxima para la industria",
+    "id_malla",
+    "Encabezado de malla",
+    "id_efo",
+    "término EFO"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "clave primaria",
+    "Clave foránea a la tabla compound_records. Enlaza con el registro del medicamento al que se aplica esta indicación.",
+    "Molregno correspondiente al record_id en la tabla compound_records",
+    "La fase máxima de desarrollo a la que se sabe que el fármaco ha llegado para esta indicación en particular.",
+    "Identificador de enfermedad (MeSH) correspondiente a la indicación",
+    "Término de Medical Subject Heading para el ID de enfermedad MeSH",
+    "Identificador de enfermedad de la Ontología de Factores Experimentales (EFO) correspondiente a la indicación",
+    "Término de la Ontología de Factores Experimentales para el ID de EFO"
+  ],
+  "sample_rows": [
+    {
+      "Identificador de la industria farmacéutica": 54362,
+      "id_registro": 1697032,
+      "Número de registro de molécula": 1380217,
+      "fase máxima para la industria": 0,
+      "id_malla": "D000375",
+      "Encabezado de malla": "Aging",
+      "id_efo": "GO:0007568",
+      "término EFO": "aging"
+    },
+    {
+      "Identificador de la industria farmacéutica": 122845,
+      "id_registro": 1344486,
+      "Número de registro de molécula": 675637,
+      "fase máxima para la industria": 0,
+      "id_malla": "D000375",
+      "Encabezado de malla": "Aging",
+      "id_efo": "GO:0007568",
+      "término EFO": "aging"
+    },
+    {
+      "Identificador de la industria farmacéutica": 121760,
+      "id_registro": 1701733,
+      "Número de registro de molécula": 1377512,
+      "fase máxima para la industria": 0,
+      "id_malla": "D014549",
+      "Encabezado de malla": "Urinary Incontinence",
+      "id_efo": "HP:0000020",
+      "término EFO": "Urinary incontinence"
+    },
+    {
+      "Identificador de la industria farmacéutica": 130058,
+      "id_registro": 3460748,
+      "Número de registro de molécula": 1797543,
+      "fase máxima para la industria": 0,
+      "id_malla": "D014549",
+      "Encabezado de malla": "Urinary Incontinence",
+      "id_efo": "HP:0000020",
+      "término EFO": "Urinary incontinence"
+    },
+    {
+      "Identificador de la industria farmacéutica": 121019,
+      "id_registro": 1344763,
+      "Número de registro de molécula": 858397,
+      "fase máxima para la industria": 0,
+      "id_malla": "D051437",
+      "Encabezado de malla": "Renal Insufficiency",
+      "id_efo": "HP:0000083",
+      "término EFO": "Renal insufficiency"
+    }
+  ]
+}

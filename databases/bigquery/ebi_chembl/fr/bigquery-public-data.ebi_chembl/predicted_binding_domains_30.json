@@ -1,0 +1,76 @@
+{
+  "table_name": "predicted_binding_domains_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.predicted_binding_domains_30",
+  "column_names": [
+    "id_predbind",
+    "id_activite",
+    "id_site",
+    "methode_prediction",
+    "confiance"
+  ],
+  "column_types": [
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "id_predbind",
+    "id_activite",
+    "id_site",
+    "methode_prediction",
+    "confiance"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "Clé primaire.",
+    "Clé étrangère pour la table des activités, indiquant la combinaison composé/essai(+cible) pour laquelle cette prédiction est faite.",
+    "Clé étrangère pour la table des binding_sites, indiquant le site de liaison (domaine) auquel le composé est prévu pour se lier.",
+    "La méthode utilisée pour attribuer le domaine de liaison (par exemple, 'Single domain' où la protéine n'a qu'1 domaine, 'Multi domain' où la protéine a plusieurs domaines, mais seulement 1 est connu pour lier les petites molécules dans d'autres protéines).",
+    "Le niveau de confiance attribué à la prédiction (élevé où la protéine n'a qu'1 domaine, moyen où le composé a plusieurs domaines, mais seulement 1 domaine de liaison de petite molécule connu)."
+  ],
+  "sample_rows": [
+    {
+      "id_predbind": 7797342,
+      "id_activite": 22413971,
+      "id_site": null,
+      "methode_prediction": "Multi domain",
+      "confiance": "medium"
+    },
+    {
+      "id_predbind": 7899397,
+      "id_activite": 22433085,
+      "id_site": null,
+      "methode_prediction": "Multi domain",
+      "confiance": "medium"
+    },
+    {
+      "id_predbind": 7899403,
+      "id_activite": 22469714,
+      "id_site": null,
+      "methode_prediction": "Multi domain",
+      "confiance": "medium"
+    },
+    {
+      "id_predbind": 7955143,
+      "id_activite": 22900108,
+      "id_site": null,
+      "methode_prediction": "Multi domain",
+      "confiance": "medium"
+    },
+    {
+      "id_predbind": 8002137,
+      "id_activite": 22414005,
+      "id_site": null,
+      "methode_prediction": "Multi domain",
+      "confiance": "medium"
+    }
+  ]
+}

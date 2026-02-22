@@ -1,0 +1,108 @@
+{
+  "table_name": "calculation",
+  "table_fullname": "bigquery-public-data.sec_quarterly_financials.calculation",
+  "column_names": [
+    "提交编号",
+    "组",
+    "弧",
+    "负面",
+    "父标签",
+    "父版本",
+    "子标签",
+    "子版本",
+    "分区时间"
+  ],
+  "column_types": [
+    "STRING",
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "TIMESTAMP"
+  ],
+  "nested_column_names": [
+    "提交编号",
+    "组",
+    "弧",
+    "负面",
+    "父标签",
+    "父版本",
+    "子标签",
+    "儿童版本"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "归档编号。由美国证券交易委员会为每个EDGAR提交指定的18位数字形成的20字符字符串。submission_number: [adsh]",
+    "用于提交中弧分组的顺序编号。组: [grp]",
+    "提交中组内弧线的顺序编号",
+    "指示权重为-1（若弧为负则为TRUE），但通常为+1（FALSE）。",
+    "弧形父节点的标签：parent_tag: [ptag]",
+    "弧父节点的父版本标签版本： [pversion]",
+    "弧线子节点的标签：child_tag: [ctag]",
+    "arc 子版本的子标签版本： [cversion]"
+  ],
+  "sample_rows": [
+    {
+      "提交编号": "0001019687-14-002604",
+      "组": 1,
+      "弧": 1,
+      "负面": 1,
+      "父标签": "CashPeriodIncreaseDecrease",
+      "父版本": "us-gaap/2014",
+      "子标签": "CashPeriodIncreaseDecrease",
+      "儿童版本": "us-gaap/2014"
+    },
+    {
+      "提交编号": "0001019687-14-002569",
+      "组": 1,
+      "弧": 1,
+      "负面": 1,
+      "父标签": "CashPeriodIncreaseDecrease",
+      "父版本": "us-gaap/2014",
+      "子标签": "CashPeriodIncreaseDecrease",
+      "儿童版本": "us-gaap/2014"
+    },
+    {
+      "提交编号": "0000798359-14-000048",
+      "组": 1,
+      "弧": 1,
+      "负面": 1,
+      "父标签": "DiscontinuedOperationIncomeLossFromDiscontinuedOperationDuringPhaseOutPeriodNetOfTax",
+      "父版本": "us-gaap/2014",
+      "子标签": "DiscontinuedOperationIncomeLossFromDiscontinuedOperationDuringPhaseOutPeriodNetOfTax",
+      "儿童版本": "us-gaap/2014"
+    },
+    {
+      "提交编号": "0001140361-14-026077",
+      "组": 1,
+      "弧": 1,
+      "负面": 1,
+      "父标签": "AllocatedShareBasedCompensationExpenseNetOfTax",
+      "父版本": "us-gaap/2014",
+      "子标签": "AllocatedShareBasedCompensationExpenseNetOfTax",
+      "儿童版本": "us-gaap/2014"
+    },
+    {
+      "提交编号": "0001140361-14-026435",
+      "组": 1,
+      "弧": 1,
+      "负面": 1,
+      "父标签": "ContractReceivableDueOneYearOrLess",
+      "父版本": "us-gaap/2014",
+      "子标签": "ContractReceivableDueOneYearOrLess",
+      "儿童版本": "us-gaap/2014"
+    }
+  ]
+}

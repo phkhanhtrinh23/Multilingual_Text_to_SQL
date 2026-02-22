@@ -1,0 +1,86 @@
+{
+  "table_name": "relationship",
+  "table_fullname": "bigquery-public-data.cms_synthetic_patient_data_omop.relationship",
+  "column_names": [
+    "identifiant_de_relation",
+    "nom_de_relation",
+    "est_hierarchique",
+    "definit_l_ancestralite",
+    "identifiant_de_relation_inverse",
+    "identifiant_de_concept_de_relation"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "identifiant_de_relation",
+    "nom_de_relation",
+    "est_hierarchique",
+    "definit_l_ancestralite",
+    "identifiant_de_relation_inverse",
+    "identifiant_de_concept_de_relation"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64"
+  ],
+  "description": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "sample_rows": [
+    {
+      "identifiant_de_relation": "Acc device used by",
+      "nom_de_relation": "Access device used by (SNOMED)",
+      "est_hierarchique": "0",
+      "definit_l_ancestralite": "0",
+      "identifiant_de_relation_inverse": "Using acc device",
+      "identifiant_de_concept_de_relation": 44818895
+    },
+    {
+      "identifiant_de_relation": "Access of",
+      "nom_de_relation": "Access of (SNOMED)",
+      "est_hierarchique": "0",
+      "definit_l_ancestralite": "0",
+      "identifiant_de_relation_inverse": "Has access",
+      "identifiant_de_concept_de_relation": 44818847
+    },
+    {
+      "identifiant_de_relation": "Active ing of",
+      "nom_de_relation": "Active ingredient of (SNOMED)",
+      "est_hierarchique": "0",
+      "definit_l_ancestralite": "0",
+      "identifiant_de_relation_inverse": "Has active ing",
+      "identifiant_de_concept_de_relation": 44818859
+    },
+    {
+      "identifiant_de_relation": "AMP of",
+      "nom_de_relation": "Actual Medicinal Product of (SNOMED)",
+      "est_hierarchique": "0",
+      "definit_l_ancestralite": "0",
+      "identifiant_de_relation_inverse": "Has AMP",
+      "identifiant_de_concept_de_relation": 45905757
+    },
+    {
+      "identifiant_de_relation": "Answer of",
+      "nom_de_relation": "Answer of (LOINC)",
+      "est_hierarchique": "0",
+      "definit_l_ancestralite": "0",
+      "identifiant_de_relation_inverse": "Has Answer",
+      "identifiant_de_concept_de_relation": 45754684
+    }
+  ]
+}

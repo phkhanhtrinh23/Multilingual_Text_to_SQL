@@ -1,0 +1,110 @@
+{
+  "sample_rows": [
+    {
+      "ID_RSSD_NACHFOLGER": 3076453,
+      "NACHFOLGER_NAME": "California Bank of Commerce, National Association",
+      "AKTIVER_NACHFOLGER": true,
+      "NACHFOLGER_KATEGORIE": "Bank",
+      "ID_RSSD_VORGANGER": 3302312,
+      "VORGANGER_NAME": "Bank of Santa Clarita",
+      "AKTIVER_VORGANGER": true,
+      "VORGANGER_KATEGORIE": "Branch",
+      "TRANSAKTIONS_DATUM": "2021-10-02",
+      "TRANSFORMATIONSART": "Charter Discontinued",
+      "VERWENDTE_FUSIONSBIILANZIERUNGS METHODE": "Purchase/Acquisition"
+    },
+    {
+      "ID_RSSD_NACHFOLGER": 139656,
+      "NACHFOLGER_NAME": "Equity Bank",
+      "AKTIVER_NACHFOLGER": true,
+      "NACHFOLGER_KATEGORIE": "Bank",
+      "ID_RSSD_VORGANGER": 422059,
+      "VORGANGER_NAME": "KansasLand Bank",
+      "AKTIVER_VORGANGER": false,
+      "VORGANGER_KATEGORIE": "Branch",
+      "TRANSAKTIONS_DATUM": "2024-07-02",
+      "TRANSFORMATIONSART": "Charter Discontinued",
+      "VERWENDTE_FUSIONSBIILANZIERUNGS METHODE": "Purchase/Acquisition"
+    },
+    {
+      "ID_RSSD_NACHFOLGER": 3076453,
+      "NACHFOLGER_NAME": "California Bank of Commerce, National Association",
+      "AKTIVER_NACHFOLGER": true,
+      "NACHFOLGER_KATEGORIE": "Bank",
+      "ID_RSSD_VORGANGER": 2704740,
+      "VORGANGER_NAME": "Frontier Bank, FSB",
+      "AKTIVER_VORGANGER": false,
+      "VORGANGER_KATEGORIE": "Bank",
+      "TRANSAKTIONS_DATUM": "2014-11-08",
+      "TRANSFORMATIONSART": "Failure",
+      "VERWENDTE_FUSIONSBIILANZIERUNGS METHODE": null
+    },
+    {
+      "ID_RSSD_NACHFOLGER": 213248,
+      "NACHFOLGER_NAME": "Firstar Bank Council Bluffs",
+      "AKTIVER_NACHFOLGER": false,
+      "NACHFOLGER_KATEGORIE": "Branch",
+      "ID_RSSD_VORGANGER": 467649,
+      "VORGANGER_NAME": "Firstar Bank Red Oak, National Association",
+      "AKTIVER_VORGANGER": false,
+      "VORGANGER_KATEGORIE": "Branch",
+      "TRANSAKTIONS_DATUM": "1995-08-28",
+      "TRANSFORMATIONSART": "Charter Discontinued",
+      "VERWENDTE_FUSIONSBIILANZIERUNGS METHODE": "Pooling of interests or entities under common control."
+    },
+    {
+      "ID_RSSD_NACHFOLGER": 363835,
+      "NACHFOLGER_NAME": "First of America Bank-Illinois, National Association",
+      "AKTIVER_NACHFOLGER": false,
+      "NACHFOLGER_KATEGORIE": "Branch",
+      "ID_RSSD_VORGANGER": 794130,
+      "VORGANGER_NAME": "First of America Bank - Grayslake, National Association",
+      "AKTIVER_VORGANGER": false,
+      "VORGANGER_KATEGORIE": "Branch",
+      "TRANSAKTIONS_DATUM": "1989-06-04",
+      "TRANSFORMATIONSART": "Charter Discontinued",
+      "VERWENDTE_FUSIONSBIILANZIERUNGS METHODE": null
+    }
+  ],
+  "table_name": "FINANCIAL_INSTITUTION_EVENTS",
+  "table_fullname": "FINANCE__ECONOMICS.CYBERSYN.FINANCIAL_INSTITUTION_EVENTS",
+  "column_names": [
+    "NACHFOLGER_NAME",
+    "TRANSFORMATIONSART",
+    "NACHFOLGER_KATEGORIE",
+    "VORGANGER_KATEGORIE",
+    "VORGANGER_NAME",
+    "VERWENDTE_FUSIONSBIILANZIERUNGS METHODE",
+    "AKTIVER_NACHFOLGER",
+    "ID_RSSD_VORGANGER",
+    "TRANSAKTIONS_DATUM",
+    "ID_RSSD_NACHFOLGER",
+    "AKTIVER_VORGANGER"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "BOOLEAN",
+    "NUMBER",
+    "DATE",
+    "NUMBER",
+    "BOOLEAN"
+  ],
+  "description": [
+    "Name des Nachfolgeunternehmens",
+    "Beschreibung der Umwandlung",
+    "Hochstufige Kategorie der Rechtsstruktur des Nachfolgeunternehmens",
+    "Hochstufige Kategorie der Rechtsstruktur des Vorgängerunternehmens",
+    "Name des Vorgängerunternehmens",
+    "Buchhaltungsmethode zur Klärung einer nicht gescheiterten Fusion",
+    "Flagge, um anzuzeigen, ob der Nachfolger aktiv ist",
+    "Eindeutiger Identifikator für das Vorgängerunternehmen, verknüpfbar mit der `entities`-Tabelle",
+    "Datum der Transaktion",
+    "Eindeutiger Identifikator für das Nachfolgeunternehmen, verknüpfbar mit der `entities`-Tabelle",
+    "Flagge, um anzuzeigen, ob der Vorgänger aktiv ist"
+  ]
+}

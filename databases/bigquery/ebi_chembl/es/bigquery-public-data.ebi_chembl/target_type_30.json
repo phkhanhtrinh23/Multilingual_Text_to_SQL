@@ -1,0 +1,56 @@
+{
+  "table_name": "target_type_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.target_type_30",
+  "column_names": [
+    "tipo de objetivo",
+    "descripción del objetivo",
+    "tipo_padre"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "tipo de objetivo",
+    "descripción del objetivo",
+    "tipo_padre"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "Tipo de objetivo (como se usa en el diccionario de objetivos)",
+    "Descripción del tipo de objetivo",
+    "Clasificación de nivel superior de target_type, permitiendo agrupar, por ejemplo, todos los objetivos 'PROTEIN', todos los objetivos 'NON-MOLECULAR', etc."
+  ],
+  "sample_rows": [
+    {
+      "tipo de objetivo": "MOLECULAR",
+      "descripción del objetivo": "Target has been identified as a defined molecular entity (e.g., protein or nucleic acid)",
+      "tipo_padre": null
+    },
+    {
+      "tipo de objetivo": "NON-MOLECULAR",
+      "descripción del objetivo": "Target has not been defined at a molecular level, only the non-molecular entity which is affected (e.g., organism, cell line etc)",
+      "tipo_padre": null
+    },
+    {
+      "tipo de objetivo": "UNDEFINED",
+      "descripción del objetivo": "No target has been defined",
+      "tipo_padre": null
+    },
+    {
+      "tipo de objetivo": "CHIMERIC PROTEIN",
+      "descripción del objetivo": "Target is a fusion of two different proteins, either a synthetic construct or naturally occurring fusion protein",
+      "tipo_padre": "PROTEIN"
+    },
+    {
+      "tipo de objetivo": "PROTEIN COMPLEX",
+      "descripción del objetivo": "Target is a defined protein complex, consisting of multiple subunits",
+      "tipo_padre": "PROTEIN"
+    }
+  ]
+}

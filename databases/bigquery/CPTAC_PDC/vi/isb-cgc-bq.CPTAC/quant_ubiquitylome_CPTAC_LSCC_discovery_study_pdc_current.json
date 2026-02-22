@@ -1,0 +1,116 @@
+{
+  "table_name": "quant_ubiquitylome_CPTAC_LSCC_discovery_study_pdc_current",
+  "table_fullname": "isb-cgc-bq.CPTAC.quant_ubiquitylome_CPTAC_LSCC_discovery_study_pdc_current",
+  "column_names": [
+    "id_trường_hợp",
+    "Mã mẫu",
+    "mã_aliquot",
+    "Mã người nộp mẫu thử",
+    "id_siêu_dữ_liệu_chạy_aliquot",
+    "tên nghiên cứu",
+    "tỷ lệ log2 nồng độ protein",
+    "ID RefSeq",
+    "địa điểm ubiquitin hóa"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "mã vụ",
+    "Mã mẫu",
+    "Mã số aliquot",
+    "mã người gửi mẫu",
+    "id_thông_tin_chạy_phân_mẫu",
+    "Tên nghiên cứu",
+    "tỷ lệ log2 hàm lượng protein",
+    "Mã Refseq",
+    "địa điểm ubiquitin hóa"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "Định danh duy nhất liên quan đến một bệnh nhân cụ thể (ví dụ: 24cb0fcb-63d6-11e8-bcf1-0a2705229b82)",
+    "Mã nhận dạng PDC duy nhất cho mẫu này (ví dụ e8d83eb9-693a-11ea-b1fd-0aad30af8a83)",
+    "Mã định danh PDC duy nhất cho mẫu này (ví dụ e8db124a-693a-11ea-b1fd-0aad30af8a83)",
+    "ID người nộp mẫu phân chia được gán bởi chương trình (ví dụ T14)",
+    "Xác định duy nhất phần mẫu dựa trên cách nó được sử dụng trong thí nghiệm (tùy theo chất dán nhãn và/hoặc mẫu sinh học trùng lặp).",
+    "Tên nghiên cứu (ví dụ: Nghiên cứu Mẫu thử Ung thư não trẻ em - Phosphoproteome)",
+    "Tỷ lệ log trung bình của ion báo cáo mẫu so với tham chiếu chung của ion peptide liên quan tới gen trong các lần thu thập từ một mẫu sinh học cụ thể.",
+    "Mã định danh duy nhất được gán cho một chuỗi trong cơ sở dữ liệu NCBI RefSeq",
+    "Mã chữ một ký tự và vị trí chuỗi protein của các axit amin ubiquitylated"
+  ],
+  "sample_rows": [
+    {
+      "mã vụ": "1c6408e5-d028-11ea-b1fd-0aad30af8a83",
+      "Mã mẫu": "1c6500c1-d028-11ea-b1fd-0aad30af8a83",
+      "Mã số aliquot": "1c6681c3-d028-11ea-b1fd-0aad30af8a83",
+      "mã người gửi mẫu": "CPT0232690003",
+      "id_thông_tin_chạy_phân_mẫu": "ef747fd5-eecb-11ea-b1fd-0aad30af8a83",
+      "Tên nghiên cứu": "CPTAC LSCC Discovery Study - Ubiquitylome",
+      "tỷ lệ log2 hàm lượng protein": -1.8121,
+      "Mã Refseq": "NP_003741.1",
+      "địa điểm ubiquitin hóa": "k420"
+    },
+    {
+      "mã vụ": "1c6408e5-d028-11ea-b1fd-0aad30af8a83",
+      "Mã mẫu": "1c6500c1-d028-11ea-b1fd-0aad30af8a83",
+      "Mã số aliquot": "1c6681c3-d028-11ea-b1fd-0aad30af8a83",
+      "mã người gửi mẫu": "CPT0232690003",
+      "id_thông_tin_chạy_phân_mẫu": "ef747fd5-eecb-11ea-b1fd-0aad30af8a83",
+      "Tên nghiên cứu": "CPTAC LSCC Discovery Study - Ubiquitylome",
+      "tỷ lệ log2 hàm lượng protein": -2.3702,
+      "Mã Refseq": "NP_005611.1",
+      "địa điểm ubiquitin hóa": "k23"
+    },
+    {
+      "mã vụ": "1c6408e5-d028-11ea-b1fd-0aad30af8a83",
+      "Mã mẫu": "1c6500c1-d028-11ea-b1fd-0aad30af8a83",
+      "Mã số aliquot": "1c6681c3-d028-11ea-b1fd-0aad30af8a83",
+      "mã người gửi mẫu": "CPT0232690003",
+      "id_thông_tin_chạy_phân_mẫu": "ef747fd5-eecb-11ea-b1fd-0aad30af8a83",
+      "Tên nghiên cứu": "CPTAC LSCC Discovery Study - Ubiquitylome",
+      "tỷ lệ log2 hàm lượng protein": -0.3914,
+      "Mã Refseq": "NP_071766.2",
+      "địa điểm ubiquitin hóa": "k386"
+    },
+    {
+      "mã vụ": "1c6408e5-d028-11ea-b1fd-0aad30af8a83",
+      "Mã mẫu": "1c6500c1-d028-11ea-b1fd-0aad30af8a83",
+      "Mã số aliquot": "1c6681c3-d028-11ea-b1fd-0aad30af8a83",
+      "mã người gửi mẫu": "CPT0232690003",
+      "id_thông_tin_chạy_phân_mẫu": "ef747fd5-eecb-11ea-b1fd-0aad30af8a83",
+      "Tên nghiên cứu": "CPTAC LSCC Discovery Study - Ubiquitylome",
+      "tỷ lệ log2 hàm lượng protein": -3.1272,
+      "Mã Refseq": "NP_001036041.1",
+      "địa điểm ubiquitin hóa": "k166"
+    },
+    {
+      "mã vụ": "1c6408e5-d028-11ea-b1fd-0aad30af8a83",
+      "Mã mẫu": "1c6500c1-d028-11ea-b1fd-0aad30af8a83",
+      "Mã số aliquot": "1c6681c3-d028-11ea-b1fd-0aad30af8a83",
+      "mã người gửi mẫu": "CPT0232690003",
+      "id_thông_tin_chạy_phân_mẫu": "ef747fd5-eecb-11ea-b1fd-0aad30af8a83",
+      "Tên nghiên cứu": "CPTAC LSCC Discovery Study - Ubiquitylome",
+      "tỷ lệ log2 hàm lượng protein": -0.2114,
+      "Mã Refseq": "NP_000282.1",
+      "địa điểm ubiquitin hóa": "k267"
+    }
+  ]
+}

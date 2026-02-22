@@ -1,0 +1,62 @@
+{
+  "sample_rows": [
+    {
+      "VARIABLE": "INDEX_NSA",
+      "NOM_DE_VARIABLE": "Freddie Mac House Price Index (Not seasonally adjusted)",
+      "MESURE": "Housing Prices",
+      "UNITÉ": "Index",
+      "FRÉQUENCE": "Monthly"
+    },
+    {
+      "VARIABLE": "INDEX_SA",
+      "NOM_DE_VARIABLE": "Freddie Mac House Price Index (Seasonally adjusted)",
+      "MESURE": "Housing Prices",
+      "UNITÉ": "Index",
+      "FRÉQUENCE": "Monthly"
+    },
+    {
+      "VARIABLE": "FRM_30_YR",
+      "NOM_DE_VARIABLE": "30-Year Fixed Rate Mortgage Rate, National Average",
+      "MESURE": "Mortgage Rates",
+      "UNITÉ": "Percent",
+      "FRÉQUENCE": "Weekly"
+    },
+    {
+      "VARIABLE": "FRM_30_YR_FEES_POINTS",
+      "NOM_DE_VARIABLE": "30-Year Fixed Rate Mortgage Fees & Points, National Average",
+      "MESURE": "Mortgage Rates",
+      "UNITÉ": "Percent",
+      "FRÉQUENCE": "Weekly"
+    },
+    {
+      "VARIABLE": "FRM_15_YR",
+      "NOM_DE_VARIABLE": "15-Year Fixed Rate Mortgage Rate, National Average",
+      "MESURE": "Mortgage Rates",
+      "UNITÉ": "Percent",
+      "FRÉQUENCE": "Weekly"
+    }
+  ],
+  "table_name": "FREDDIE_MAC_HOUSING_ATTRIBUTES",
+  "table_fullname": "US_REAL_ESTATE.CYBERSYN.FREDDIE_MAC_HOUSING_ATTRIBUTES",
+  "column_names": [
+    "NOM_DE_VARIABLE",
+    "VARIABLE",
+    "UNITÉ",
+    "FRÉQUENCE",
+    "MESURE"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Nom unique lisible par l'homme pour la variable.",
+    "Identifiant unique pour une variable, joignable à la table des séries chronologiques.",
+    "Unité de mesure pour la valeur rapportée.",
+    "Fréquence des agrégations.",
+    "Attribut ou sujet quantifiable ; description de ce qui est enregistré."
+  ]
+}

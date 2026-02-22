@@ -1,0 +1,118 @@
+{
+  "table_name": "measure_tag",
+  "table_fullname": "bigquery-public-data.sec_quarterly_financials.measure_tag",
+  "column_names": [
+    "测量标签",
+    "版本",
+    "自定义",
+    "摘要",
+    "数据类型",
+    "插入或删除",
+    "借贷",
+    "标签",
+    "文档",
+    "分区时间"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "BOOL",
+    "BOOL",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "TIMESTAMP"
+  ],
+  "nested_column_names": [
+    "测量标签",
+    "版本",
+    "自定义",
+    "摘要",
+    "数据类型",
+    "插入/删除",
+    "借方或贷方",
+    "标签",
+    "文档"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "BOOL",
+    "BOOL",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "在特定分类体系发布中的标签唯一标识符（名称）。measure_tag:[tag]",
+    "对于标准标签，使用分类法的标识符；否则使用该标签定义时的 accession 号。",
+    "1 表示标签是自定义（版本=adsh），0 表示标签是标准。注意：此标志在技术上与版本和 adsh 字段冗余。",
+    "若标签未用于表示数值事实，则为1。",
+    "如果 abstract=1，则为 NULL，否则为该标签的数据类型（例如 monetary）。",
+    "如果 abstract=1，则为 NULL；否则，如果值是一个时间点，则为 I；如果值是一个持续时间，则为 D。i_or_d: [iord]",
+    "如果 datatype = monetary，则该标签在资产负债表或损益表视角下的自然会计余额（借方或贷方）；如果未定义，则为 NULL。credit_or_debit: [crdr]",
+    "如果是标准标签，则使用分类法提供的标签文本，否则使用提交者提供的文本。如果一个标签既没有标准标签也没有提交者文本，则此处为 NULL 值。tag_label: [tlabel]",
+    "标签的详细定义，截断为 2048 个字符。若为标准标签，则使用分类法提供的文本；否则使用上传者分配的文本。一些标签既没有标准文本也没有自定义文本，此时该字段为 NULL。"
+  ],
+  "sample_rows": [
+    {
+      "测量标签": "InvestmentIdentifierLineItems",
+      "版本": "invest/2013",
+      "自定义": false,
+      "摘要": true,
+      "数据类型": null,
+      "插入/删除": null,
+      "借方或贷方": null,
+      "标签": "Investment Identifier [Line Items]",
+      "文档": "Line items represent reporting concepts included in a table. These concepts are used to disclose reportable information associated with domain members defined in one or many axes to the table."
+    },
+    {
+      "测量标签": "InvestmentIdentifierTable",
+      "版本": "invest/2013",
+      "自定义": false,
+      "摘要": true,
+      "数据类型": null,
+      "插入/删除": null,
+      "借方或贷方": null,
+      "标签": "Investment Identifier [Table]",
+      "文档": "This table lists the identifiers for the investments. An investment may have more than one identifier. Each identifier is from an identifier scheme."
+    },
+    {
+      "测量标签": "InvestmentLineItems",
+      "版本": "invest/2013",
+      "自定义": false,
+      "摘要": true,
+      "数据类型": null,
+      "插入/删除": null,
+      "借方或贷方": null,
+      "标签": "Investment [Line Items]",
+      "文档": "Line items represent reporting concepts included in a table. These concepts are used to disclose reportable information associated with domain members defined in one or many axes to the table."
+    },
+    {
+      "测量标签": "InvestmentMaturityDateRangeAbstract",
+      "版本": "invest/2013",
+      "自定义": false,
+      "摘要": true,
+      "数据类型": null,
+      "插入/删除": null,
+      "借方或贷方": null,
+      "标签": "Investment Maturity Date Range [Abstract]",
+      "文档": "The maturity date range of the underlying investments reported on the Schedule of Investments."
+    },
+    {
+      "测量标签": "InvestmentTable",
+      "版本": "invest/2013",
+      "自定义": false,
+      "摘要": true,
+      "数据类型": null,
+      "插入/删除": null,
+      "借方或贷方": null,
+      "标签": "Investment [Table]",
+      "文档": "This table lists the investments. The line items identify information about the investment."
+    }
+  ]
+}

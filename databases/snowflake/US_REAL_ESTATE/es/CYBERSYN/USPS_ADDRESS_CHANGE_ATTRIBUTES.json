@@ -1,0 +1,70 @@
+{
+  "sample_rows": [
+    {
+      "VARIABLE": "inbound_address_changes_permanent",
+      "NOMBRE DE VARIABLE": "Inbound Address Changes, Permanent",
+      "MEDIDA": "Inbound Address Changes",
+      "Tipo de solicitud": "Permanent",
+      "unidad": "Count",
+      "Frecuencia": "Month"
+    },
+    {
+      "VARIABLE": "inbound_address_changes_total",
+      "NOMBRE DE VARIABLE": "Inbound Address Changes, Total",
+      "MEDIDA": "Inbound Address Changes",
+      "Tipo de solicitud": "Total",
+      "unidad": "Count",
+      "Frecuencia": "Month"
+    },
+    {
+      "VARIABLE": "inbound_address_changes_businesses",
+      "NOMBRE DE VARIABLE": "Inbound Address Changes, Businesses",
+      "MEDIDA": "Inbound Address Changes",
+      "Tipo de solicitud": "Businesses",
+      "unidad": "Count",
+      "Frecuencia": "Month"
+    },
+    {
+      "VARIABLE": "net_address_changes_individuals",
+      "NOMBRE DE VARIABLE": "Net Address Changes, Individuals",
+      "MEDIDA": "Net Address Changes",
+      "Tipo de solicitud": "Individuals",
+      "unidad": "Count",
+      "Frecuencia": "Month"
+    },
+    {
+      "VARIABLE": "outbound_address_changes_temporary",
+      "NOMBRE DE VARIABLE": "Outbound Address Changes, Temporary",
+      "MEDIDA": "Outbound Address Changes",
+      "Tipo de solicitud": "Temporary",
+      "unidad": "Count",
+      "Frecuencia": "Month"
+    }
+  ],
+  "table_name": "USPS_ADDRESS_CHANGE_ATTRIBUTES",
+  "table_fullname": "US_REAL_ESTATE.CYBERSYN.USPS_ADDRESS_CHANGE_ATTRIBUTES",
+  "column_names": [
+    "NOMBRE DE VARIABLE",
+    "unidad",
+    "Tipo de solicitud",
+    "MEDIDA",
+    "Frecuencia",
+    "VARIABLE"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Una descripción legible para humanos de la variable",
+    "Unidad de medida, que es el recuento de solicitudes de cambio de dirección",
+    "Clasificación de la solicitud. Los tipos de solicitud se agrupan como temporal (permanente o temporal); tipo de solicitante (familia, individuo, negocio); o total",
+    "Tipo de cambios de dirección que se están reportando: Entrante - personas que se mudan a la geografía; Saliente - personas que salen de la geografía; Neto - entrante menos saliente.",
+    "Frecuencia con la que se informa el valor",
+    "Un identificador único que se pueda unir a la tabla de series temporales"
+  ]
+}

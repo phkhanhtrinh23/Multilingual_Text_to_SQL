@@ -1,0 +1,66 @@
+{
+  "table_name": "refseq_mapping_current",
+  "table_fullname": "isb-cgc-bq.PDC_metadata.refseq_mapping_current",
+  "column_names": [
+    "ID de UniProt",
+    "estado_revisión_uniprot",
+    "símbolo del gen",
+    "ID de RefSeq"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "ID de UniProt",
+    "Estado de revisión de UniProt",
+    "símbolo_del_gen",
+    "id_refseq"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "Identificador único asignado a una secuencia por UniProt, que a menudo contiene información biológicamente relevante",
+    "Los registros 'unreviewed' contienen secuencias de proteínas asociadas con anotaciones generadas computacionalmente y caracterización funcional a gran escala; los registros 'reviewed' son de alta calidad, anotados manualmente y no redundantes.",
+    "Símbolo génico, obtenido por PDC de NCBI",
+    "Identificador único asignado a una secuencia en la base de datos NCBI RefSeq."
+  ],
+  "sample_rows": [
+    {
+      "ID de UniProt": "A0JNW5-1",
+      "Estado de revisión de UniProt": "reviewed",
+      "símbolo_del_gen": "BLTP3B",
+      "id_refseq": "NP_055869.1"
+    },
+    {
+      "ID de UniProt": "A0JNW5-2",
+      "Estado de revisión de UniProt": "reviewed",
+      "símbolo_del_gen": "BLTP3B",
+      "id_refseq": "NP_001006948.1"
+    },
+    {
+      "ID de UniProt": "A0JP26-1",
+      "Estado de revisión de UniProt": "reviewed",
+      "símbolo_del_gen": "POTEB3",
+      "id_refseq": "XP_011542097.1"
+    },
+    {
+      "ID de UniProt": "A0JP26-1",
+      "Estado de revisión de UniProt": "reviewed",
+      "símbolo_del_gen": "POTEB3",
+      "id_refseq": "NP_997238.2"
+    },
+    {
+      "ID de UniProt": "A1A519-2",
+      "Estado de revisión de UniProt": "reviewed",
+      "símbolo_del_gen": "FAM170A",
+      "id_refseq": "NP_877438.2"
+    }
+  ]
+}

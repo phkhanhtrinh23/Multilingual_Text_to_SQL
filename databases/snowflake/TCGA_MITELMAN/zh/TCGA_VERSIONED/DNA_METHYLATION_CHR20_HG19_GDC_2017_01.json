@@ -1,0 +1,78 @@
+{
+  "table_name": "DNA_METHYLATION_CHR20_HG19_GDC_2017_01",
+  "table_fullname": "TCGA_MITELMAN.TCGA_VERSIONED.DNA_METHYLATION_CHR20_HG19_GDC_2017_01",
+  "column_names": [
+    "探针编号",
+    "试样条码",
+    "贝塔值",
+    "病例条码",
+    "项目简称",
+    "平台",
+    "样本条码"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "FLOAT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "来自 Illumina Human Methylation Array 的唯一探针标识符（例如 cg04676771）——请参阅注释表 (isb-cgc:platform_reference.methylation_annotation) 以获取有关任何特定探针的更多详细信息。",
+    "原始 TCGA 样本条码，例如 TCGA-12-1089-01A-01D-0517-01",
+    "标准化 DNA 甲基化 β 值（介于 0 和 1 之间，0 表示完全未甲基化，1 表示完全甲基化）",
+    "原始 TCGA 病例条码，例如 TCGA-12-1089 —— 请注意，每个病例通常有一个原发肿瘤样本和一个匹配的正常样本（血液或相邻组织样本）；有关更多细节，请参阅 TCGA Biospecimen 表格",
+    "项目名称缩写；程序名称后附项目名称缩写；例如 TCGA-OV 等。",
+    "用于生成此数据的平台名称——HumanMethylation450 或 HumanMethylation27",
+    "原始 TCGA 样本条码，例如 TCGA-12-1089-01A – 请注意，一个样本可能有多个分样，从而有多组 CN 分段；请确保在查询中适当地使用 GROUP BY。"
+  ],
+  "sample_rows": [
+    {
+      "项目简称": "TCGA-OV",
+      "病例条码": "TCGA-01-0628",
+      "样本条码": "TCGA-01-0628-11A",
+      "试样条码": "TCGA-01-0628-11A-01D-0383-05",
+      "探针编号": "cg23293787",
+      "贝塔值": 0.83,
+      "平台": "HumanMethylation27"
+    },
+    {
+      "项目简称": "TCGA-OV",
+      "病例条码": "TCGA-01-0628",
+      "样本条码": "TCGA-01-0628-11A",
+      "试样条码": "TCGA-01-0628-11A-01D-0383-05",
+      "探针编号": "cg02537838",
+      "贝塔值": 0.38,
+      "平台": "HumanMethylation27"
+    },
+    {
+      "项目简称": "TCGA-OV",
+      "病例条码": "TCGA-01-0628",
+      "样本条码": "TCGA-01-0628-11A",
+      "试样条码": "TCGA-01-0628-11A-01D-0383-05",
+      "探针编号": "cg01565918",
+      "贝塔值": 0.97,
+      "平台": "HumanMethylation27"
+    },
+    {
+      "项目简称": "TCGA-OV",
+      "病例条码": "TCGA-01-0628",
+      "样本条码": "TCGA-01-0628-11A",
+      "试样条码": "TCGA-01-0628-11A-01D-0383-05",
+      "探针编号": "cg09831553",
+      "贝塔值": 0.01,
+      "平台": "HumanMethylation27"
+    },
+    {
+      "项目简称": "TCGA-OV",
+      "病例条码": "TCGA-01-0628",
+      "样本条码": "TCGA-01-0628-11A",
+      "试样条码": "TCGA-01-0628-11A-01D-0383-05",
+      "探针编号": "cg09282338",
+      "贝塔值": 0.02,
+      "平台": "HumanMethylation27"
+    }
+  ]
+}

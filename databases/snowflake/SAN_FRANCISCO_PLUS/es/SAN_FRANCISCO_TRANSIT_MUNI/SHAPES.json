@@ -1,0 +1,70 @@
+{
+  "table_name": "SHAPES",
+  "table_fullname": "SAN_FRANCISCO_PLUS.SAN_FRANCISCO_TRANSIT_MUNI.SHAPES",
+  "column_names": [
+    "secuencia_de_puntos_de_forma",
+    "forma_punto_geom",
+    "id_forma",
+    "latitud_punto_de_forma",
+    "longitud_punto_forma",
+    "distancia recorrida"
+  ],
+  "column_types": [
+    "NUMBER",
+    "BINARY",
+    "TEXT",
+    "FLOAT",
+    "FLOAT",
+    "FLOAT"
+  ],
+  "description": [
+    "Asocia la latitud y longitud de un punto de forma con su orden de secuencia a lo largo de la forma. Los valores para shape_pt_sequence deben aumentar a lo largo del viaje, pero no es necesario que sean consecutivos.",
+    "Representación geográfica de los puntos de latitud y longitud",
+    "Identifica de manera única cada forma",
+    "Asocia la latitud de un punto de forma con un ID de forma.",
+    "Asocia la longitud de un punto de forma con el ID de la forma.",
+    "Proporciona la distancia real recorrida a lo largo de la forma desde el primer punto de la forma hasta el punto especificado en este registro. Esta información permite al planificador de viajes determinar cuánto de la forma debe dibujarse cuando muestran parte de un viaje en el mapa. Los valores utilizados para shape_dist_traveled deben aumentar junto con shape_pt_sequence: no se pueden usar para mostrar un viaje en reversa a lo largo de una ruta."
+  ],
+  "sample_rows": [
+    {
+      "id_forma": "173976",
+      "secuencia_de_puntos_de_forma": 195,
+      "latitud_punto_de_forma": 37.715079,
+      "longitud_punto_forma": -122.424956,
+      "forma_punto_geom": "bytearray(b'\\x01\\x01\\x00\\x00\\x00K\\x8f\\xa6z2\\x9b^\\xc08\\x87k\\xb5\\x87\\xdbB@')",
+      "distancia recorrida": 14391.0
+    },
+    {
+      "id_forma": "174271",
+      "secuencia_de_puntos_de_forma": 92,
+      "latitud_punto_de_forma": 37.760837,
+      "longitud_punto_forma": -122.440596,
+      "forma_punto_geom": "bytearray(b'\\x01\\x01\\x00\\x00\\x00\\xe7\\xaf\\x90\\xb92\\x9c^\\xc0\\x1bKX\\x1bc\\xe1B@')",
+      "distancia recorrida": 5348.0
+    },
+    {
+      "id_forma": "174272",
+      "secuencia_de_puntos_de_forma": 185,
+      "latitud_punto_de_forma": 37.760837,
+      "longitud_punto_forma": -122.440596,
+      "forma_punto_geom": "bytearray(b'\\x01\\x01\\x00\\x00\\x00\\xe7\\xaf\\x90\\xb92\\x9c^\\xc0\\x1bKX\\x1bc\\xe1B@')",
+      "distancia recorrida": 6161.0
+    },
+    {
+      "id_forma": "174273",
+      "secuencia_de_puntos_de_forma": 92,
+      "latitud_punto_de_forma": 37.760837,
+      "longitud_punto_forma": -122.440596,
+      "forma_punto_geom": "bytearray(b'\\x01\\x01\\x00\\x00\\x00\\xe7\\xaf\\x90\\xb92\\x9c^\\xc0\\x1bKX\\x1bc\\xe1B@')",
+      "distancia recorrida": 5348.0
+    },
+    {
+      "id_forma": "174274",
+      "secuencia_de_puntos_de_forma": 232,
+      "latitud_punto_de_forma": 37.760837,
+      "longitud_punto_forma": -122.440596,
+      "forma_punto_geom": "bytearray(b'\\x01\\x01\\x00\\x00\\x00\\xe7\\xaf\\x90\\xb92\\x9c^\\xc0\\x1bKX\\x1bc\\xe1B@')",
+      "distancia recorrida": 10989.0
+    }
+  ]
+}

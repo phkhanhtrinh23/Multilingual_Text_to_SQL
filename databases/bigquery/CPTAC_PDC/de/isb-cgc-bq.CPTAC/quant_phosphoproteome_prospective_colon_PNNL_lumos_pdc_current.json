@@ -1,0 +1,116 @@
+{
+  "table_name": "quant_phosphoproteome_prospective_colon_PNNL_lumos_pdc_current",
+  "table_fullname": "isb-cgc-bq.CPTAC.quant_phosphoproteome_prospective_colon_PNNL_lumos_pdc_current",
+  "column_names": [
+    "Fall-ID",
+    "Proben-ID",
+    "Aliquot-ID",
+    "Aliquot-Einreicher-ID",
+    "Aliquot-Durchlauf-Metadaten-ID",
+    "Studienname",
+    "Proteinabundanz-Log2-Verhältnis",
+    "RefSeq-ID",
+    "Phosphorylierungsstellen"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "Fall-ID",
+    "Probe-ID",
+    "Aliquot-ID",
+    "Aliquot-Einreicher-ID",
+    "Aliquot-Lauf-Metadaten-ID",
+    "Studienname",
+    "Proteinabundanz-Log2-Verhältnis",
+    "RefSeq-ID",
+    "Phosphorylierungsstellen"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "Ein eindeutiger Bezeichner, der mit einem bestimmten Patienten verknüpft ist (z. B. 24cb0fcb-63d6-11e8-bcf1-0a2705229b82)",
+    "Ein eindeutiger PDC-Bezeichner für diese Probe (z. B. e8d83eb9-693a-11ea-b1fd-0aad30af8a83)",
+    "Ein eindeutiger PDC-Bezeichner für dieses Aliquot (z. B. e8db124a-693a-11ea-b1fd-0aad30af8a83)",
+    "Aliquot-Einreicher-ID, die vom Programm zugewiesen wurde (z. B. T14)",
+    "Identifiziert eindeutig die Aliquot danach, wie sie im Experiment verwendet wurde (basierend auf dem Beschriftungsreagenz und/oder dem biologischen Replikat)",
+    "Name der Studie (z. B. Pediatric Brain Cancer Pilot Study - Phosphoproteome)",
+    "Durchschnittliches Logarithmus-Verhältnis des Proben-Reporter-Ions zum gemeinsamen Referenzwert der Peptid-Ionen, die dem Gen in Messungen aus einer bestimmten biologischen Probe zugeordnet sind.",
+    "Ein eindeutiger Bezeichner, der einer Sequenz in der NCBI RefSeq-Datenbank zugewiesen wird.",
+    "Einzelbuchstaben-Codes und Proteinsequenz-Positionen der phosphorylierten Aminosäuren (z. B. t304s310, t59)"
+  ],
+  "sample_rows": [
+    {
+      "Fall-ID": "0bc46cbd-63d6-11e8-bcf1-0a2705229b82",
+      "Probe-ID": "4f9db1ce-641b-11e8-bcf1-0a2705229b82",
+      "Aliquot-ID": "263c66c0-642a-11e8-bcf1-0a2705229b82",
+      "Aliquot-Einreicher-ID": "cc271b3d-ed33-481f-9d23-15f2f6_D2",
+      "Aliquot-Lauf-Metadaten-ID": "868fb8e6-5737-11e8-b664-00a098d917f8",
+      "Studienname": "Prospective Colon PNNL Phosphoproteome Lumos",
+      "Proteinabundanz-Log2-Verhältnis": -1.9183,
+      "RefSeq-ID": "NP_116204.3",
+      "Phosphorylierungsstellen": "s90s92"
+    },
+    {
+      "Fall-ID": "0bc46cbd-63d6-11e8-bcf1-0a2705229b82",
+      "Probe-ID": "4f9db1ce-641b-11e8-bcf1-0a2705229b82",
+      "Aliquot-ID": "263c66c0-642a-11e8-bcf1-0a2705229b82",
+      "Aliquot-Einreicher-ID": "cc271b3d-ed33-481f-9d23-15f2f6_D2",
+      "Aliquot-Lauf-Metadaten-ID": "868fb8e6-5737-11e8-b664-00a098d917f8",
+      "Studienname": "Prospective Colon PNNL Phosphoproteome Lumos",
+      "Proteinabundanz-Log2-Verhältnis": 0.5338,
+      "RefSeq-ID": "NP_001294951.1",
+      "Phosphorylierungsstellen": "s445"
+    },
+    {
+      "Fall-ID": "0bc46cbd-63d6-11e8-bcf1-0a2705229b82",
+      "Probe-ID": "4f9db1ce-641b-11e8-bcf1-0a2705229b82",
+      "Aliquot-ID": "263c66c0-642a-11e8-bcf1-0a2705229b82",
+      "Aliquot-Einreicher-ID": "cc271b3d-ed33-481f-9d23-15f2f6_D2",
+      "Aliquot-Lauf-Metadaten-ID": "868fb8e6-5737-11e8-b664-00a098d917f8",
+      "Studienname": "Prospective Colon PNNL Phosphoproteome Lumos",
+      "Proteinabundanz-Log2-Verhältnis": -2.2728,
+      "RefSeq-ID": "NP_001269554.1",
+      "Phosphorylierungsstellen": "t19s22"
+    },
+    {
+      "Fall-ID": "0bc46cbd-63d6-11e8-bcf1-0a2705229b82",
+      "Probe-ID": "4f9db1ce-641b-11e8-bcf1-0a2705229b82",
+      "Aliquot-ID": "263c66c0-642a-11e8-bcf1-0a2705229b82",
+      "Aliquot-Einreicher-ID": "cc271b3d-ed33-481f-9d23-15f2f6_D2",
+      "Aliquot-Lauf-Metadaten-ID": "868fb8e6-5737-11e8-b664-00a098d917f8",
+      "Studienname": "Prospective Colon PNNL Phosphoproteome Lumos",
+      "Proteinabundanz-Log2-Verhältnis": -0.3971,
+      "RefSeq-ID": "NP_001186064.1",
+      "Phosphorylierungsstellen": "s357"
+    },
+    {
+      "Fall-ID": "0bc46cbd-63d6-11e8-bcf1-0a2705229b82",
+      "Probe-ID": "4f9db1ce-641b-11e8-bcf1-0a2705229b82",
+      "Aliquot-ID": "263c66c0-642a-11e8-bcf1-0a2705229b82",
+      "Aliquot-Einreicher-ID": "cc271b3d-ed33-481f-9d23-15f2f6_D2",
+      "Aliquot-Lauf-Metadaten-ID": "868fb8e6-5737-11e8-b664-00a098d917f8",
+      "Studienname": "Prospective Colon PNNL Phosphoproteome Lumos",
+      "Proteinabundanz-Log2-Verhältnis": 0.0208,
+      "RefSeq-ID": "NP_573571.1",
+      "Phosphorylierungsstellen": "s266"
+    }
+  ]
+}

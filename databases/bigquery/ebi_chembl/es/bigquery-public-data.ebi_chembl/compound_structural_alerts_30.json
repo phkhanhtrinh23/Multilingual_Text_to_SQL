@@ -1,0 +1,56 @@
+{
+  "table_name": "compound_structural_alerts_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.compound_structural_alerts_30",
+  "column_names": [
+    "ID de alerta CPD",
+    "Número de registro molecular",
+    "id_alerta"
+  ],
+  "column_types": [
+    "INT64",
+    "INT64",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "ID de alerta cpd_str",
+    "número de registro molecular",
+    "ID de alerta"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "INT64",
+    "INT64"
+  ],
+  "description": [
+    "clave primaria",
+    "Clave foránea a molecule_dictionary.  \nEl compuesto para el cual se ha encontrado la alerta estructural.",
+    "Clave foránea a la tabla structural_alerts. La alerta particular que ha sido identificada en este compuesto."
+  ],
+  "sample_rows": [
+    {
+      "ID de alerta cpd_str": 53246522,
+      "número de registro molecular": 105,
+      "ID de alerta": 1
+    },
+    {
+      "ID de alerta cpd_str": 53246523,
+      "número de registro molecular": 638,
+      "ID de alerta": 1
+    },
+    {
+      "ID de alerta cpd_str": 53246524,
+      "número de registro molecular": 722,
+      "ID de alerta": 1
+    },
+    {
+      "ID de alerta cpd_str": 53246525,
+      "número de registro molecular": 752,
+      "ID de alerta": 1
+    },
+    {
+      "ID de alerta cpd_str": 53246526,
+      "número de registro molecular": 777,
+      "ID de alerta": 1
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "table_name": "imaging_channel_metadata_r3",
+  "table_fullname": "isb-cgc-bq.HTAN_versioned.imaging_channel_metadata_r3",
+  "column_names": [
+    "Trung tâm HTAN",
+    "Loại xét nghiệm hình ảnh",
+    "HTAN_Hình_ảnh_Tệp_Mã",
+    "ID hình ảnh synapse",
+    "tên tệp hình ảnh",
+    "Tên tệp Metadata của kênh",
+    "đường_dẫn_tệp_siêu_dữ_liệu_synapse",
+    "siêu_dữ_liệu_SynapseID",
+    "Số dòng",
+    "thuộc tính kênh"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "ARRAY<STRUCT<attributeName STRING, attributeValue STRING>>"
+  ],
+  "nested_column_names": [
+    "Trung tâm HTAN",
+    "Loại xét nghiệm hình ảnh",
+    "Mã tệp hình ảnh HTAN",
+    "ID_Synapse_Hình_Ảnh",
+    "tên tệp hình ảnh",
+    "Tên tệp Metadata kênh",
+    "đường_dẫn_tệp_siêu_dữ_liệu_synapse",
+    "siêu dữ liệu ID Synapse",
+    "Số dòng",
+    "thuộc tính kênh",
+    "tên thuộc tính kênh",
+    "giá trị thuộc tính kênh"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "ARRAY<STRUCT<attributeName STRING, attributeValue STRING>>",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "Tên của Trung tâm HTAN, ví dụ: HTAN HTAPP",
+    "Loại xét nghiệm hình ảnh",
+    "Định danh riêng cho tệp dữ liệu hình ảnh - ID HTAN của tệp này: HTAN ID SOP (ví dụ HTANx_yyy_zzz)",
+    "ID Synapse của thực thể hình ảnh",
+    "Tên tệp ảnh",
+    "Tên tệp metadata kênh",
+    "Đường dẫn tệp Synapse của file metadata kênh",
+    "ID Synapse của tệp metadata kênh",
+    "Số dòng của tệp metadata kênh",
+    null,
+    "Tên thuộc tính kênh",
+    "Giá trị thuộc tính kênh"
+  ],
+  "sample_rows": [
+    {
+      "Trung tâm HTAN": "HTAN HMS",
+      "Loại xét nghiệm hình ảnh": "t-CyCIF",
+      "Mã tệp hình ảnh HTAN": "HTA7_1_1001",
+      "ID_Synapse_Hình_Ảnh": "syn25882990",
+      "tên tệp hình ảnh": "imaging_level_2/MEL202106/MEL01-1-3.ome.tif",
+      "Tên tệp Metadata kênh": "imaging_level_2/MEL202106/ZM-147-PCA19C-16-5.csv",
+      "đường_dẫn_tệp_siêu_dữ_liệu_synapse": "imaging_level_2/MEL202106/ZM-147-PCA19C-16-5.csv",
+      "siêu dữ liệu ID Synapse": "syn26560282",
+      "Số dòng": 1,
+      "thuộc tính kênh": "[{'attributeName': '\\ufeffChannel ID', 'attributeValue': 'Channel:0:0'}\n {'attributeName': 'Channel Name', 'attributeValue': 'DNA'}\n {'attributeName': 'Channel Passed QC', 'attributeValue': 'Yes'}\n {'attributeName': 'Cycle Number', 'attributeValue': '1'}\n {'attributeName': 'Sub Cycle Number', 'attributeValue': ''}\n {'attributeName': 'Target Name', 'attributeValue': 'DNA'}\n {'attributeName': 'Antibody Name', 'attributeValue': ''}\n {'attributeName': 'Antibody Role', 'attributeValue': ''}\n {'attributeName': 'RRID identifier', 'attributeValue': 'AB_10626776'}\n {'attributeName': 'Fluorophore', 'attributeValue': 'Hoechst 33342'}\n {'attributeName': 'Clone', 'attributeValue': ''}\n {'attributeName': 'Lot', 'attributeValue': ''}\n {'attributeName': 'Vendor', 'attributeValue': 'Cell Signaling Technology'}\n {'attributeName': 'Catalog Number', 'attributeValue': '4082S'}\n {'attributeName': 'Excitation Wavelength', 'attributeValue': '395'}\n {'attributeName': 'Emission Wavelength', 'attributeValue': '438'}\n {'attributeName': 'Excitation Bandwidth', 'attributeValue': '25'}\n {'attributeName': 'Emission Bandwidth', 'attributeValue': '26'}\n {'attributeName': 'Metal Isotope Element', 'attributeValue': ''}\n {'attributeName': 'Metal Isotope Mass', 'attributeValue': ''}\n {'attributeName': 'Oligo Barcode Upper Strand', 'attributeValue': ''}\n {'attributeName': 'Oligo Barcode Lower Strand', 'attributeValue': ''}\n {'attributeName': 'Dilution', 'attributeValue': '1:5000'}\n {'attributeName': 'Concentration', 'attributeValue': ''}]"
+    },
+    {
+      "Trung tâm HTAN": "HTAN HMS",
+      "Loại xét nghiệm hình ảnh": "t-CyCIF",
+      "Mã tệp hình ảnh HTAN": "HTA7_1_1001",
+      "ID_Synapse_Hình_Ảnh": "syn25882990",
+      "tên tệp hình ảnh": "imaging_level_2/MEL202106/MEL01-1-3.ome.tif",
+      "Tên tệp Metadata kênh": "imaging_level_2/MEL202106/ZM-147-PCA19C-16-5.csv",
+      "đường_dẫn_tệp_siêu_dữ_liệu_synapse": "imaging_level_2/MEL202106/ZM-147-PCA19C-16-5.csv",
+      "siêu dữ liệu ID Synapse": "syn26560282",
+      "Số dòng": 2,
+      "thuộc tính kênh": "[{'attributeName': '\\ufeffChannel ID', 'attributeValue': 'Channel:0:1'}\n {'attributeName': 'Channel Name', 'attributeValue': 'HHLA2'}\n {'attributeName': 'Channel Passed QC', 'attributeValue': 'Yes'}\n {'attributeName': 'Cycle Number', 'attributeValue': '1'}\n {'attributeName': 'Sub Cycle Number', 'attributeValue': ''}\n {'attributeName': 'Target Name', 'attributeValue': 'HHLA2'}\n {'attributeName': 'Antibody Name', 'attributeValue': 'HHLA2'}\n {'attributeName': 'Antibody Role', 'attributeValue': 'Primary'}\n {'attributeName': 'RRID identifier', 'attributeValue': 'AB_2876363'}\n {'attributeName': 'Fluorophore', 'attributeValue': ''}\n {'attributeName': 'Clone', 'attributeValue': ''}\n {'attributeName': 'Lot', 'attributeValue': ''}\n {'attributeName': 'Vendor', 'attributeValue': 'Abcam'}\n {'attributeName': 'Catalog Number', 'attributeValue': 'ab214327'}\n {'attributeName': 'Excitation Wavelength', 'attributeValue': '485'}\n {'attributeName': 'Emission Wavelength', 'attributeValue': '522'}\n {'attributeName': 'Excitation Bandwidth', 'attributeValue': '25'}\n {'attributeName': 'Emission Bandwidth', 'attributeValue': '20'}\n {'attributeName': 'Metal Isotope Element', 'attributeValue': ''}\n {'attributeName': 'Metal Isotope Mass', 'attributeValue': ''}\n {'attributeName': 'Oligo Barcode Upper Strand', 'attributeValue': ''}\n {'attributeName': 'Oligo Barcode Lower Strand', 'attributeValue': ''}\n {'attributeName': 'Dilution', 'attributeValue': '1:100'}\n {'attributeName': 'Concentration', 'attributeValue': ''}]"
+    },
+    {
+      "Trung tâm HTAN": "HTAN HMS",
+      "Loại xét nghiệm hình ảnh": "t-CyCIF",
+      "Mã tệp hình ảnh HTAN": "HTA7_1_1001",
+      "ID_Synapse_Hình_Ảnh": "syn25882990",
+      "tên tệp hình ảnh": "imaging_level_2/MEL202106/MEL01-1-3.ome.tif",
+      "Tên tệp Metadata kênh": "imaging_level_2/MEL202106/ZM-147-PCA19C-16-5.csv",
+      "đường_dẫn_tệp_siêu_dữ_liệu_synapse": "imaging_level_2/MEL202106/ZM-147-PCA19C-16-5.csv",
+      "siêu dữ liệu ID Synapse": "syn26560282",
+      "Số dòng": 3,
+      "thuộc tính kênh": "[{'attributeName': '\\ufeffChannel ID', 'attributeValue': 'Channel:0:1'}\n {'attributeName': 'Channel Name', 'attributeValue': 'HHLA2'}\n {'attributeName': 'Channel Passed QC', 'attributeValue': 'Yes'}\n {'attributeName': 'Cycle Number', 'attributeValue': '1'}\n {'attributeName': 'Sub Cycle Number', 'attributeValue': ''}\n {'attributeName': 'Target Name', 'attributeValue': 'Rabbit IgG'}\n {'attributeName': 'Antibody Name', 'attributeValue': 'Donkey anti-Rabbit IgG-AF488'}\n {'attributeName': 'Antibody Role', 'attributeValue': 'Secondary'}\n {'attributeName': 'RRID identifier', 'attributeValue': 'AB_2535792'}\n {'attributeName': 'Fluorophore', 'attributeValue': 'Alexa Fluor 488'}\n {'attributeName': 'Clone', 'attributeValue': ''}\n {'attributeName': 'Lot', 'attributeValue': ''}\n {'attributeName': 'Vendor', 'attributeValue': 'Thermo Fisher Scientific'}\n {'attributeName': 'Catalog Number', 'attributeValue': 'A21206'}\n {'attributeName': 'Excitation Wavelength', 'attributeValue': '485'}\n {'attributeName': 'Emission Wavelength', 'attributeValue': '522'}\n {'attributeName': 'Excitation Bandwidth', 'attributeValue': '25'}\n {'attributeName': 'Emission Bandwidth', 'attributeValue': '20'}\n {'attributeName': 'Metal Isotope Element', 'attributeValue': ''}\n {'attributeName': 'Metal Isotope Mass', 'attributeValue': ''}\n {'attributeName': 'Oligo Barcode Upper Strand', 'attributeValue': ''}\n {'attributeName': 'Oligo Barcode Lower Strand', 'attributeValue': ''}\n {'attributeName': 'Dilution', 'attributeValue': '1:2000'}\n {'attributeName': 'Concentration', 'attributeValue': ''}]"
+    },
+    {
+      "Trung tâm HTAN": "HTAN HMS",
+      "Loại xét nghiệm hình ảnh": "t-CyCIF",
+      "Mã tệp hình ảnh HTAN": "HTA7_1_1001",
+      "ID_Synapse_Hình_Ảnh": "syn25882990",
+      "tên tệp hình ảnh": "imaging_level_2/MEL202106/MEL01-1-3.ome.tif",
+      "Tên tệp Metadata kênh": "imaging_level_2/MEL202106/ZM-147-PCA19C-16-5.csv",
+      "đường_dẫn_tệp_siêu_dữ_liệu_synapse": "imaging_level_2/MEL202106/ZM-147-PCA19C-16-5.csv",
+      "siêu dữ liệu ID Synapse": "syn26560282",
+      "Số dòng": 4,
+      "thuộc tính kênh": "[{'attributeName': '\\ufeffChannel ID', 'attributeValue': 'Channel:0:2'}\n {'attributeName': 'Channel Name', 'attributeValue': 'Chymase'}\n {'attributeName': 'Channel Passed QC', 'attributeValue': 'Yes'}\n {'attributeName': 'Cycle Number', 'attributeValue': '1'}\n {'attributeName': 'Sub Cycle Number', 'attributeValue': ''}\n {'attributeName': 'Target Name', 'attributeValue': 'Chymase'}\n {'attributeName': 'Antibody Name', 'attributeValue': 'Chymase'}\n {'attributeName': 'Antibody Role', 'attributeValue': 'Primary'}\n {'attributeName': 'RRID identifier', 'attributeValue': 'AB_10863662'}\n {'attributeName': 'Fluorophore', 'attributeValue': ''}\n {'attributeName': 'Clone', 'attributeValue': ''}\n {'attributeName': 'Lot', 'attributeValue': ''}\n {'attributeName': 'Vendor', 'attributeValue': 'Abcam'}\n {'attributeName': 'Catalog Number', 'attributeValue': 'ab111239'}\n {'attributeName': 'Excitation Wavelength', 'attributeValue': '555'}\n {'attributeName': 'Emission Wavelength', 'attributeValue': '590'}\n {'attributeName': 'Excitation Bandwidth', 'attributeValue': '20'}\n {'attributeName': 'Emission Bandwidth', 'attributeValue': '20'}\n {'attributeName': 'Metal Isotope Element', 'attributeValue': ''}\n {'attributeName': 'Metal Isotope Mass', 'attributeValue': ''}\n {'attributeName': 'Oligo Barcode Upper Strand', 'attributeValue': ''}\n {'attributeName': 'Oligo Barcode Lower Strand', 'attributeValue': ''}\n {'attributeName': 'Dilution', 'attributeValue': '1:200'}\n {'attributeName': 'Concentration', 'attributeValue': ''}]"
+    },
+    {
+      "Trung tâm HTAN": "HTAN HMS",
+      "Loại xét nghiệm hình ảnh": "t-CyCIF",
+      "Mã tệp hình ảnh HTAN": "HTA7_1_1001",
+      "ID_Synapse_Hình_Ảnh": "syn25882990",
+      "tên tệp hình ảnh": "imaging_level_2/MEL202106/MEL01-1-3.ome.tif",
+      "Tên tệp Metadata kênh": "imaging_level_2/MEL202106/ZM-147-PCA19C-16-5.csv",
+      "đường_dẫn_tệp_siêu_dữ_liệu_synapse": "imaging_level_2/MEL202106/ZM-147-PCA19C-16-5.csv",
+      "siêu dữ liệu ID Synapse": "syn26560282",
+      "Số dòng": 5,
+      "thuộc tính kênh": "[{'attributeName': '\\ufeffChannel ID', 'attributeValue': 'Channel:0:2'}\n {'attributeName': 'Channel Name', 'attributeValue': 'Chymase'}\n {'attributeName': 'Channel Passed QC', 'attributeValue': 'Yes'}\n {'attributeName': 'Cycle Number', 'attributeValue': '1'}\n {'attributeName': 'Sub Cycle Number', 'attributeValue': ''}\n {'attributeName': 'Target Name', 'attributeValue': 'Goat IgG'}\n {'attributeName': 'Antibody Name', 'attributeValue': 'Donkey anti-Goat IgG-AF555'}\n {'attributeName': 'Antibody Role', 'attributeValue': 'Secondary'}\n {'attributeName': 'RRID identifier', 'attributeValue': 'AB_2535853'}\n {'attributeName': 'Fluorophore', 'attributeValue': 'Alexa Fluor 555'}\n {'attributeName': 'Clone', 'attributeValue': ''}\n {'attributeName': 'Lot', 'attributeValue': ''}\n {'attributeName': 'Vendor', 'attributeValue': 'Thermo Fisher Scientific'}\n {'attributeName': 'Catalog Number', 'attributeValue': 'A-21432'}\n {'attributeName': 'Excitation Wavelength', 'attributeValue': '555'}\n {'attributeName': 'Emission Wavelength', 'attributeValue': '590'}\n {'attributeName': 'Excitation Bandwidth', 'attributeValue': '20'}\n {'attributeName': 'Emission Bandwidth', 'attributeValue': '20'}\n {'attributeName': 'Metal Isotope Element', 'attributeValue': ''}\n {'attributeName': 'Metal Isotope Mass', 'attributeValue': ''}\n {'attributeName': 'Oligo Barcode Upper Strand', 'attributeValue': ''}\n {'attributeName': 'Oligo Barcode Lower Strand', 'attributeValue': ''}\n {'attributeName': 'Dilution', 'attributeValue': '1:2000'}\n {'attributeName': 'Concentration', 'attributeValue': ''}]"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "table_name": "SCRNASEQ_VUMC_ABNORMALS_EPI_V2_CURRENT",
+  "table_fullname": "HTAN_2.HTAN.SCRNASEQ_VUMC_ABNORMALS_EPI_V2_CURRENT",
+  "column_names": [
+    "iObs",
+    "Nom_Gene",
+    "ID_Biospecimen_HTAN",
+    "ID_Fichier_Donnees_Parent_HTAN",
+    "X_value",
+    "Type_Tissu",
+    "Sous_Type_Tissu",
+    "Numero_Code_Barre_Cellule",
+    "iVar"
+  ],
+  "column_types": [
+    "NUMBER",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "FLOAT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "NUMBER"
+  ],
+  "description": [
+    "Index des codes à barres des cellules.",
+    "Gène mesuré",
+    "ID HTAN associé à un biosample en fonction de la procédure SOP HTAN (par exemple HTANx_yyy_zzz)",
+    "Identifiant de fichier de données HTAN indiquant le fichier(s) à partir duquel ces fichiers ont été dérivés",
+    "Valeur d'expression pour un gène et une cellule donnés.",
+    "AD = adénome conventionnel, SER = polype serré, MSI-H = instabilité des microsatellites élevée CRC, MSS = CRC stable des microsatellites",
+    "TA = adénome tubulaire, HP = polype hyperplasique, TVA = adénome tubulovilleux, SSL = lésion serrée sessile, MSI-H = instabilité des microsatellites élevée CRC, MSS = CRC stable des microsatellites",
+    "Codes à barres utilisés pour chaque gouttelette qui contient la cellule dans le processus de séquençage",
+    "Index des ID de gènes."
+  ],
+  "sample_rows": [
+    {
+      "iObs": 2304,
+      "iVar": 16972,
+      "X_value": 3.0,
+      "Numero_Code_Barre_Cellule": "AATGTTGGCAATCGGGT-10",
+      "ID_Fichier_Donnees_Parent_HTAN": "HTA11_78_200000101113111",
+      "ID_Biospecimen_HTAN": "HTA11_78_2000001011",
+      "Sous_Type_Tissu": "TA",
+      "Type_Tissu": "AD",
+      "Nom_Gene": "PTMA"
+    },
+    {
+      "iObs": 2304,
+      "iVar": 14665,
+      "X_value": 1.0,
+      "Numero_Code_Barre_Cellule": "AATGTTGGCAATCGGGT-10",
+      "ID_Fichier_Donnees_Parent_HTAN": "HTA11_78_200000101113111",
+      "ID_Biospecimen_HTAN": "HTA11_78_2000001011",
+      "Sous_Type_Tissu": "TA",
+      "Type_Tissu": "AD",
+      "Nom_Gene": "NFE2L2"
+    },
+    {
+      "iObs": 2305,
+      "iVar": 26425,
+      "X_value": 1.0,
+      "Numero_Code_Barre_Cellule": "TGAGCGCATTCTCCTTATT-10",
+      "ID_Fichier_Donnees_Parent_HTAN": "HTA11_78_200000101113111",
+      "ID_Biospecimen_HTAN": "HTA11_78_2000001011",
+      "Sous_Type_Tissu": "TA",
+      "Type_Tissu": "AD",
+      "Nom_Gene": "SPATA6L"
+    },
+    {
+      "iObs": 2306,
+      "iVar": 14673,
+      "X_value": 1.0,
+      "Numero_Code_Barre_Cellule": "TGAAAACAGGGTCCCTGAT-10",
+      "ID_Fichier_Donnees_Parent_HTAN": "HTA11_78_200000101113111",
+      "ID_Biospecimen_HTAN": "HTA11_78_2000001011",
+      "Sous_Type_Tissu": "TA",
+      "Type_Tissu": "AD",
+      "Nom_Gene": "NFKB1"
+    },
+    {
+      "iObs": 2307,
+      "iVar": 13788,
+      "X_value": 1.0,
+      "Numero_Code_Barre_Cellule": "TGCGACAGGTCTCTCT-10",
+      "ID_Fichier_Donnees_Parent_HTAN": "HTA11_78_200000101113111",
+      "ID_Biospecimen_HTAN": "HTA11_78_2000001011",
+      "Sous_Type_Tissu": "TA",
+      "Type_Tissu": "AD",
+      "Nom_Gene": "MLXIP"
+    }
+  ]
+}

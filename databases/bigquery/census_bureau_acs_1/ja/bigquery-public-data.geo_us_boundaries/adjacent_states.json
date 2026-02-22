@@ -1,0 +1,76 @@
+{
+  "table_name": "adjacent_states",
+  "table_fullname": "bigquery-public-data.geo_us_boundaries.adjacent_states",
+  "column_names": [
+    "状態",
+    "州名",
+    "州FIPSコード",
+    "隣接状態",
+    "隣接先FIPSコード"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "ARRAY<STRING>",
+    "ARRAY<STRING>"
+  ],
+  "nested_column_names": [
+    "州",
+    "州名",
+    "州のFIPSコード",
+    "隣接州",
+    "近隣FIPSコード"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "ARRAY<STRING>",
+    "ARRAY<STRING>"
+  ],
+  "description": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "sample_rows": [
+    {
+      "州": "AL",
+      "州名": "Alabama",
+      "州のFIPSコード": "01",
+      "隣接州": "['Florida' 'Georgia' 'Mississippi' 'Tennessee']",
+      "近隣FIPSコード": "['12' '13' '28' '47']"
+    },
+    {
+      "州": "AR",
+      "州名": "Arkansas",
+      "州のFIPSコード": "05",
+      "隣接州": "['Tennessee' 'Texas' 'Missouri' 'Mississippi' 'Louisiana' 'Oklahoma']",
+      "近隣FIPSコード": "['47' '48' '29' '28' '22' '40']"
+    },
+    {
+      "州": "AZ",
+      "州名": "Arizona",
+      "州のFIPSコード": "04",
+      "隣接州": "['Nevada' 'New Mexico' 'Colorado' 'California' 'Utah']",
+      "近隣FIPSコード": "['32' '35' '08' '06' '49']"
+    },
+    {
+      "州": "CA",
+      "州名": "California",
+      "州のFIPSコード": "06",
+      "隣接州": "['Arizona' 'Nevada' 'Oregon']",
+      "近隣FIPSコード": "['04' '32' '41']"
+    },
+    {
+      "州": "CO",
+      "州名": "Colorado",
+      "州のFIPSコード": "08",
+      "隣接州": "['Kansas' 'New Mexico' 'Nebraska' 'Utah' 'Wyoming' 'Arizona' 'Oklahoma']",
+      "近隣FIPSコード": "['20' '35' '31' '49' '56' '04' '40']"
+    }
+  ]
+}

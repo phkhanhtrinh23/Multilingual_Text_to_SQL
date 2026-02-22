@@ -1,0 +1,46 @@
+{
+  "sample_rows": [
+    {
+      "CodePostal": "14525",
+      "IDMetrique": "B25075_020E",
+      "ValeurRecensementParCodePostal": "53.59"
+    },
+    {
+      "CodePostal": "12220",
+      "IDMetrique": "B25063_019E",
+      "ValeurRecensementParCodePostal": "51.04"
+    },
+    {
+      "CodePostal": "12485",
+      "IDMetrique": "B02001_008E",
+      "ValeurRecensementParCodePostal": "0.59"
+    },
+    {
+      "CodePostal": "14739",
+      "IDMetrique": "B08303_011E",
+      "ValeurRecensementParCodePostal": "47.06"
+    },
+    {
+      "CodePostal": "12857",
+      "IDMetrique": "B11012_004E",
+      "ValeurRecensementParCodePostal": "123.66"
+    }
+  ],
+  "table_name": "Fact_CensusValues_ACS2021_ByZip",
+  "table_fullname": "CENSUS_GALAXY__ZIP_CODE_TO_BLOCK_GROUP_SAMPLE.PUBLIC.Fact_CensusValues_ACS2021_ByZip",
+  "column_names": [
+    "ValeurRecensementParCodePostal",
+    "IDMetrique",
+    "CodePostal"
+  ],
+  "column_types": [
+    "NUMBER",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "La valeur Int pour la relation MetricID et ZipCode. Cela pourrait être des agrégats ou des estimations de personnes, d'animaux domestiques, de foyers, etc. Référez-vous à la table Dim_CensusMetrics pour la signification de chaque valeur. Toutes les valeurs ont été correctement consolidées selon les ratios de la table Xref_TractToZip_Residential.",
+    "Un identifiant unique pour une mesure ou un indicateur spécifique dans l'American Community Survey ou les données du recensement.",
+    "Un code postal unique pour une zone géographique."
+  ]
+}

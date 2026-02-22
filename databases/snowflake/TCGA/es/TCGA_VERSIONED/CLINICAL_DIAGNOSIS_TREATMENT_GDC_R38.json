@@ -1,0 +1,86 @@
+{
+  "table_name": "CLINICAL_DIAGNOSIS_TREATMENT_GDC_R38",
+  "table_fullname": "TCGA.TCGA_VERSIONED.CLINICAL_DIAGNOSIS_TREATMENT_GDC_R38",
+  "column_names": [
+    "tipo de tratamiento de diagnóstico",
+    "diagnóstico_tratamiento_fecha_hora_creada",
+    "id de caso",
+    "estado_diagnóstico_tratamiento",
+    "diagnóstico tratamiento o terapia",
+    "id_tratamiento_del_diagnóstico",
+    "diag__id_diagnóstico",
+    "fecha_actualizacion_diagnostico_tratamiento"
+  ],
+  "column_types": [
+    "TEXT",
+    "NUMBER",
+    "TEXT",
+    "TEXT",
+    "BOOLEAN",
+    "TEXT",
+    "TEXT",
+    "NUMBER"
+  ],
+  "description": [
+    "Término textual que describe el tipo de tratamiento administrado.",
+    "Una combinación de fecha y hora del día en la forma [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm]",
+    "Identificador único GDC para este caso (corresponde al case_barcode) — esto puede usarse para acceder a más información del portal de datos GDC de la siguiente manera: https://portal.gdc.cancer.gov/files/c21b332c-06c6-4403-9032-f91c8f407ba9.",
+    "El estado actual del objeto.",
+    "Un indicador de sí/no/desconocido/no aplica relacionado con la administración de agentes terapéuticos recibidos.",
+    "Identificador asignado por GDC para los datos de tratamiento de un caso.",
+    "Identificador asignado por GDC para el diagnóstico de un caso.",
+    "Una combinación de fecha y hora del día en la forma [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm]"
+  ],
+  "sample_rows": [
+    {
+      "id_tratamiento_del_diagnóstico": "34674e20-dca3-5e9a-bc05-64d8a6ae7100",
+      "diag__id_diagnóstico": "cdddbff2-75cb-5952-bdf3-ae41cafd2c44",
+      "id de caso": "a436f4d7-018e-44e3-a615-9c33fcc1167d",
+      "tipo de tratamiento de diagnóstico": "Pharmaceutical Therapy, NOS",
+      "diagnóstico tratamiento o terapia": null,
+      "estado_diagnóstico_tratamiento": "released",
+      "diagnóstico_tratamiento_fecha_hora_creada": 1556472623859466,
+      "fecha_actualizacion_diagnostico_tratamiento": 1564621315107572
+    },
+    {
+      "id_tratamiento_del_diagnóstico": "278be024-2282-5010-aead-5e055c2c87ab",
+      "diag__id_diagnóstico": "f8dcf514-12ed-54c3-8772-e7658d035f73",
+      "id de caso": "2429c7d4-ae27-432d-9adf-1c6d192bf13c",
+      "tipo de tratamiento de diagnóstico": "Pharmaceutical Therapy, NOS",
+      "diagnóstico tratamiento o terapia": null,
+      "estado_diagnóstico_tratamiento": "released",
+      "diagnóstico_tratamiento_fecha_hora_creada": 1556481576123655,
+      "fecha_actualizacion_diagnostico_tratamiento": 1564632362128491
+    },
+    {
+      "id_tratamiento_del_diagnóstico": "176bd885-da62-5a69-9a24-84ecef78208d",
+      "diag__id_diagnóstico": "af05e776-f247-57d1-9b14-d72d89baebb7",
+      "id de caso": "90d3c240-5cb6-4601-a852-b5cdfbcd6483",
+      "tipo de tratamiento de diagnóstico": "Pharmaceutical Therapy, NOS",
+      "diagnóstico tratamiento o terapia": null,
+      "estado_diagnóstico_tratamiento": "released",
+      "diagnóstico_tratamiento_fecha_hora_creada": 1556471852929904,
+      "fecha_actualizacion_diagnostico_tratamiento": 1564620362980289
+    },
+    {
+      "id_tratamiento_del_diagnóstico": "b7010115-d407-565b-ac50-98d021b54fa8",
+      "diag__id_diagnóstico": "0d93597e-1ede-5e03-bc31-4d6d1a215de8",
+      "id de caso": "b351345a-18c2-42ed-8911-c37267c9cb58",
+      "tipo de tratamiento de diagnóstico": "Pharmaceutical Therapy, NOS",
+      "diagnóstico tratamiento o terapia": null,
+      "estado_diagnóstico_tratamiento": "released",
+      "diagnóstico_tratamiento_fecha_hora_creada": 1556472656868474,
+      "fecha_actualizacion_diagnostico_tratamiento": 1564621354529970
+    },
+    {
+      "id_tratamiento_del_diagnóstico": "a4f3f3b0-b7ef-5d47-97cb-22fc8dad1acd",
+      "diag__id_diagnóstico": "408ceead-4e49-5a86-b21f-3be85d5d0bfa",
+      "id de caso": "634c7876-21c1-43ea-aa2e-83e9f627409f",
+      "tipo de tratamiento de diagnóstico": "Pharmaceutical Therapy, NOS",
+      "diagnóstico tratamiento o terapia": null,
+      "estado_diagnóstico_tratamiento": "released",
+      "diagnóstico_tratamiento_fecha_hora_creada": 1556465440273793,
+      "fecha_actualizacion_diagnostico_tratamiento": 1564612532079200
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "sample_rows": [
+    {
+      "变量": "Count_BirthEvent_europa.eu",
+      "变量名称": "Count of Birth Event, europa.eu",
+      "变量组": "Count of Birth Event",
+      "类别": "BirthEvent",
+      "单位": "Count",
+      "来源域": "europa.eu"
+    },
+    {
+      "变量": "Percent_Person_BingeDrinking",
+      "变量名称": "Percentage of Population Who Binge Drink",
+      "变量组": "Percentage of Population Who Binge Drink",
+      "类别": "Person_HealthBehavior-BingeDrinking",
+      "单位": "Percent",
+      "来源域": "cdc.gov"
+    },
+    {
+      "变量": "Temperature",
+      "变量名称": "Temperature in a Location",
+      "变量组": "Temperature in a Location",
+      "类别": "ObservationalWeather",
+      "单位": "Celsius",
+      "来源域": "nasa.gov"
+    },
+    {
+      "变量": "RetailDrugDistribution_DrugDistribution_Ecgonine",
+      "变量名称": "Retail Drug Distribution of Drug Distribution: Drug/dea/9180 L",
+      "变量组": "Retail Drug Distribution of Drug Distribution: Drug/dea/9180 L",
+      "类别": "DrugDistribution_DrugPrescribed",
+      "单位": "Grams",
+      "来源域": "dea.gov"
+    },
+    {
+      "变量": "Count_Person_Female_abs.gov.au",
+      "变量名称": "Female Population, abs.gov.au",
+      "变量组": "Female Population",
+      "类别": "Person_Gender-Female",
+      "单位": "Count",
+      "来源域": "abs.gov.au"
+    }
+  ],
+  "table_name": "DATACOMMONS_ATTRIBUTES",
+  "table_fullname": "GLOBAL_GOVERNMENT.CYBERSYN.DATACOMMONS_ATTRIBUTES",
+  "column_names": [
+    "单位",
+    "来源域",
+    "变量组",
+    "类别",
+    "变量",
+    "变量名称"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "数值单位（例如美元、年、英亩等）",
+    "原始数据所在的URL域名",
+    "核心变量是在排除任何关于测量方法的信息的情况下被测量的。属于同一组的变量测量相同的事物，但测量方法或报告机构不同。",
+    "变量或测量类型的总体类别（例如，天气、人口统计等）",
+    "用于统计变量的唯一标识符，可与 DATACOMMONS_TIMESERIES 表关联。",
+    "变量的可读名称"
+  ]
+}

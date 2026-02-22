@@ -1,0 +1,116 @@
+{
+  "table_name": "quant_phosphoproteome_prospective_breast_BI_pdc_current",
+  "table_fullname": "isb-cgc-bq.CPTAC.quant_phosphoproteome_prospective_breast_BI_pdc_current",
+  "column_names": [
+    "Fall-ID",
+    "Probe-ID",
+    "Aliquot-ID",
+    "Aliquot-Einreicher-ID",
+    "Aliquot-Laufmetadaten-ID",
+    "Studienname",
+    "Proteinabundanz-Log2-Verhältnis",
+    "RefSeq-ID",
+    "Phosphorylierungsstellen"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "Fall-ID",
+    "Proben-ID",
+    "Aliquot-ID",
+    "Aliquot-Einreicher-ID",
+    "Aliquot-Lauf-Metadaten-ID",
+    "Studienname",
+    "Proteinabundanz-Log2-Verhältnis",
+    "RefSeq-ID",
+    "Phosphorylierungsstellen"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "Eindeutige Kennung, die mit einem bestimmten Patienten verknüpft ist (z. B. 24cb0fcb-63d6-11e8-bcf1-0a2705229b82)",
+    "Eindeutiger PDC-Identifikator für diese Probe (z. B. e8d83eb9-693a-11ea-b1fd-0aad30af8a83)",
+    "Eindeutiger PDC-Identifikator für dieses Aliquot (z. B. e8db124a-693a-11ea-b1fd-0aad30af8a83)",
+    "Aliquot-Einreicher-ID, vom Programm zugewiesen (z. B. T14)",
+    "Identifiziert das Aliquot eindeutig danach, wie es im Experiment verwendet wurde (basierend auf dem Markierungsreagenz und/oder dem biologischen Replikat)",
+    "Name der Studie (z. B. Pediatric Brain Cancer Pilot Study - Phosphoproteome)",
+    "Durchschnittliches Log-Verhältnis der Sample-Reporter-Ionen zum gemeinsamen Referenz der Peptidionen, die dem Gen in den Messungen aus einer bestimmten biologischen Probe zugeordnet sind",
+    "Einzigartige Kennung, die einer Sequenz in der NCBI RefSeq-Datenbank zugewiesen wird",
+    "Einzelbuchstaben-Codes und Proteinsequenzpositionen der phosphorylierten Aminosäuren (z. B. t304s310, t59)"
+  ],
+  "sample_rows": [
+    {
+      "Fall-ID": "327fdb81-0a5d-11eb-bc0e-0aad30af8a83",
+      "Proben-ID": "3280be2d-0a5d-11eb-bc0e-0aad30af8a83",
+      "Aliquot-ID": "32819972-0a5d-11eb-bc0e-0aad30af8a83",
+      "Aliquot-Einreicher-ID": "fb526979-ee2d-4edf-b41d-01074f_D2",
+      "Aliquot-Lauf-Metadaten-ID": "01664b47-04c1-42e2-a421-49c51c4b5ff3",
+      "Studienname": "Prospective Breast BI Phosphoproteome",
+      "Proteinabundanz-Log2-Verhältnis": null,
+      "RefSeq-ID": "NP_001306007.1",
+      "Phosphorylierungsstellen": "s9"
+    },
+    {
+      "Fall-ID": "327fdb81-0a5d-11eb-bc0e-0aad30af8a83",
+      "Proben-ID": "3280be2d-0a5d-11eb-bc0e-0aad30af8a83",
+      "Aliquot-ID": "32819972-0a5d-11eb-bc0e-0aad30af8a83",
+      "Aliquot-Einreicher-ID": "fb526979-ee2d-4edf-b41d-01074f_D2",
+      "Aliquot-Lauf-Metadaten-ID": "01664b47-04c1-42e2-a421-49c51c4b5ff3",
+      "Studienname": "Prospective Breast BI Phosphoproteome",
+      "Proteinabundanz-Log2-Verhältnis": null,
+      "RefSeq-ID": "NP_003174.3",
+      "Phosphorylierungsstellen": "t735"
+    },
+    {
+      "Fall-ID": "327fdb81-0a5d-11eb-bc0e-0aad30af8a83",
+      "Proben-ID": "3280be2d-0a5d-11eb-bc0e-0aad30af8a83",
+      "Aliquot-ID": "32819972-0a5d-11eb-bc0e-0aad30af8a83",
+      "Aliquot-Einreicher-ID": "fb526979-ee2d-4edf-b41d-01074f_D2",
+      "Aliquot-Lauf-Metadaten-ID": "01664b47-04c1-42e2-a421-49c51c4b5ff3",
+      "Studienname": "Prospective Breast BI Phosphoproteome",
+      "Proteinabundanz-Log2-Verhältnis": null,
+      "RefSeq-ID": "NP_001342366.1",
+      "Phosphorylierungsstellen": "s2117"
+    },
+    {
+      "Fall-ID": "327fdb81-0a5d-11eb-bc0e-0aad30af8a83",
+      "Proben-ID": "3280be2d-0a5d-11eb-bc0e-0aad30af8a83",
+      "Aliquot-ID": "32819972-0a5d-11eb-bc0e-0aad30af8a83",
+      "Aliquot-Einreicher-ID": "fb526979-ee2d-4edf-b41d-01074f_D2",
+      "Aliquot-Lauf-Metadaten-ID": "01664b47-04c1-42e2-a421-49c51c4b5ff3",
+      "Studienname": "Prospective Breast BI Phosphoproteome",
+      "Proteinabundanz-Log2-Verhältnis": null,
+      "RefSeq-ID": "NP_001234935.1",
+      "Phosphorylierungsstellen": "s455"
+    },
+    {
+      "Fall-ID": "327fdb81-0a5d-11eb-bc0e-0aad30af8a83",
+      "Proben-ID": "3280be2d-0a5d-11eb-bc0e-0aad30af8a83",
+      "Aliquot-ID": "32819972-0a5d-11eb-bc0e-0aad30af8a83",
+      "Aliquot-Einreicher-ID": "fb526979-ee2d-4edf-b41d-01074f_D2",
+      "Aliquot-Lauf-Metadaten-ID": "01664b47-04c1-42e2-a421-49c51c4b5ff3",
+      "Studienname": "Prospective Breast BI Phosphoproteome",
+      "Proteinabundanz-Log2-Verhältnis": null,
+      "RefSeq-ID": "NP_001273683.1",
+      "Phosphorylierungsstellen": "s1107"
+    }
+  ]
+}

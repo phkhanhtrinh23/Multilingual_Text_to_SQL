@@ -1,0 +1,96 @@
+{
+  "table_name": "usan_stems_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.usan_stems_30",
+  "column_names": [
+    "usan根ID",
+    "茎",
+    "子群",
+    "注释",
+    "干细胞类别",
+    "主类",
+    "其他谁"
+  ],
+  "column_types": [
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "USAN干细胞编号",
+    "茎",
+    "子组",
+    "注释",
+    "干细胞类别",
+    "主要类别",
+    "额外谁"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64"
+  ],
+  "description": [
+    "数值主键",
+    "Stem 已定义用于美国采用名称（United States Adopted Names）。",
+    "更具体的词干子组，定义用于美国采用名称（United States Adopted Names）",
+    "词根的含义（例如，它适用的化合物类别）。",
+    "指示词干是否用作前缀/中缀/后缀。",
+    "已知/适用的该类化合物靶向蛋白家族（例如GPCR/离子通道/蛋白酶）",
+    "Stem 未在 USAN 列表中表示，但已从 WHO INN stem 列表（设为 1）中添加。"
+  ],
+  "sample_rows": [
+    {
+      "USAN干细胞编号": 16,
+      "茎": "-adol-",
+      "子组": "-",
+      "注释": "analgesics (mixed opiate receptor agonists/antagonists)",
+      "干细胞类别": "Infix",
+      "主要类别": "GPCR",
+      "额外谁": 0
+    },
+    {
+      "USAN干细胞编号": 32,
+      "茎": "-nab-",
+      "子组": "-",
+      "注释": "cannabinol derivatives",
+      "干细胞类别": "Infix",
+      "主要类别": "GPCR",
+      "额外谁": 0
+    },
+    {
+      "USAN干细胞编号": 49,
+      "茎": "-kef-",
+      "子组": "-",
+      "注释": "enkephalin agonists",
+      "干细胞类别": "Infix",
+      "主要类别": "GPCR",
+      "额外谁": 0
+    },
+    {
+      "USAN干细胞编号": 73,
+      "茎": "-prost-",
+      "子组": "-",
+      "注释": "prostaglandins",
+      "干细胞类别": "Infix",
+      "主要类别": "GPCR",
+      "额外谁": 0
+    },
+    {
+      "USAN干细胞编号": 86,
+      "茎": "-barb-",
+      "子组": "-",
+      "注释": "barbituric acid derivatives",
+      "干细胞类别": "Infix",
+      "主要类别": "ion channel",
+      "额外谁": 0
+    }
+  ]
+}

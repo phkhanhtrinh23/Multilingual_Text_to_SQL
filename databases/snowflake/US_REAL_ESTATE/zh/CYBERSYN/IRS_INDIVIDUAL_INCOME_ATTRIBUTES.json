@@ -1,0 +1,70 @@
+{
+  "sample_rows": [
+    {
+      "变量": "Total_income_-_Number_of_returns,_AGI_bin:_$100,000_under_$200,000",
+      "变量名": "Total income - Number of returns, AGI bin: $100,000 under $200,000",
+      "收入档次": "$100,000 under $200,000",
+      "单位": "Returns",
+      "季节性调整": false,
+      "频率": "Annual"
+    },
+    {
+      "变量": "Investment_interest_paid_-_Amount,_AGI_bin:_$200,000_or_more",
+      "变量名": "Investment interest paid - Amount, AGI bin: $200,000 or more",
+      "收入档次": "$200,000 or more",
+      "单位": "USD",
+      "季节性调整": false,
+      "频率": "Annual"
+    },
+    {
+      "变量": "Personal_property_taxes_-_Number_of_returns,_AGI_bin:_$25,000_under_$50,000",
+      "变量名": "Personal property taxes - Number of returns, AGI bin: $25,000 under $50,000",
+      "收入档次": "$25,000 under $50,000",
+      "单位": "Returns",
+      "季节性调整": false,
+      "频率": "Annual"
+    },
+    {
+      "变量": "Economic_impact_payment_second_round_[15,_17]_-_Amount,_AGI_bin:_$200,000_or_more",
+      "变量名": "Economic impact payment second round [15, 17] - Amount, AGI bin: $200,000 or more",
+      "收入档次": "$200,000 or more",
+      "单位": "USD",
+      "季节性调整": false,
+      "频率": "Annual"
+    },
+    {
+      "变量": "Domestic_production_activities_deduction_-_Number_of_returns,_AGI_bin:_$75,000_under_$100,000",
+      "变量名": "Domestic production activities deduction - Number of returns, AGI bin: $75,000 under $100,000",
+      "收入档次": "$75,000 under $100,000",
+      "单位": "Returns",
+      "季节性调整": false,
+      "频率": "Annual"
+    }
+  ],
+  "table_name": "IRS_INDIVIDUAL_INCOME_ATTRIBUTES",
+  "table_fullname": "US_REAL_ESTATE.CYBERSYN.IRS_INDIVIDUAL_INCOME_ATTRIBUTES",
+  "column_names": [
+    "变量名",
+    "季节性调整",
+    "收入档次",
+    "单位",
+    "频率",
+    "变量"
+  ],
+  "column_types": [
+    "TEXT",
+    "BOOLEAN",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "变量的人类可读名称",
+    "表示该值是否已季节性调整",
+    "系列中个人的调整后毛收入档位",
+    "值的计量单位（例如，美元、回报、个人、受抚养人）",
+    "变量测量的频率",
+    "可与时间序列表关联的唯一标识符"
+  ]
+}

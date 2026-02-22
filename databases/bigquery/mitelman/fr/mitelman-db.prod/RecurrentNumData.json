@@ -1,0 +1,86 @@
+{
+  "table_name": "RecurrentNumData",
+  "table_fullname": "mitelman-db.prod.RecurrentNumData",
+  "column_names": [
+    "Chromosome",
+    "Anomalie",
+    "Morph",
+    "Topo",
+    "TotalCases",
+    "OrdreChr"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "Chromosome",
+    "Anomalie",
+    "Morph",
+    "Topo",
+    "TotalCases",
+    "OrdreChr"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64"
+  ],
+  "description": [
+    "numéro entre 1 et 48",
+    "description d'anomalie, par exemple '-22', ou '-X', ou '+15', etc",
+    "code de morphologie, par exemple '3111'",
+    "code de topographie, par exemple '0902' (ou vide)",
+    "nombre total de cas (jusqu'à 2211)",
+    "ordre numérique du chromosome"
+  ],
+  "sample_rows": [
+    {
+      "Chromosome": "1",
+      "Anomalie": "+1",
+      "Morph": "1101",
+      "Topo": null,
+      "TotalCases": "182",
+      "OrdreChr": 1
+    },
+    {
+      "Chromosome": "1",
+      "Anomalie": "+1",
+      "Morph": "1104",
+      "Topo": null,
+      "TotalCases": "37",
+      "OrdreChr": 1
+    },
+    {
+      "Chromosome": "1",
+      "Anomalie": "+1",
+      "Morph": "1107",
+      "Topo": null,
+      "TotalCases": "32",
+      "OrdreChr": 1
+    },
+    {
+      "Chromosome": "1",
+      "Anomalie": "+1",
+      "Morph": "1112",
+      "Topo": null,
+      "TotalCases": "37",
+      "OrdreChr": 1
+    },
+    {
+      "Chromosome": "1",
+      "Anomalie": "+1",
+      "Morph": "1202",
+      "Topo": null,
+      "TotalCases": "36",
+      "OrdreChr": 1
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "table_name": "calculation",
+  "table_fullname": "bigquery-public-data.sec_quarterly_financials.calculation",
+  "column_names": [
+    "numero_de_soumission",
+    "groupe",
+    "arc",
+    "negatif",
+    "balise_parent",
+    "version_parent",
+    "balise_enfant",
+    "version_enfant",
+    "_PARTITIONTIME"
+  ],
+  "column_types": [
+    "STRING",
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "TIMESTAMP"
+  ],
+  "nested_column_names": [
+    "numero_de_soumission",
+    "groupe",
+    "arc",
+    "negatif",
+    "balise_parent",
+    "version_parent",
+    "balise_enfant",
+    "version_enfant"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "Numéro d'accès. La chaîne de 20 caractères formée à partir du numéro de 18 chiffres attribué par la Commission à chaque soumission EDGAR. submission_number: [adsh]",
+    "Numéro séquentiel pour regrouper les arcs dans une soumission. group: [grp]",
+    "Numéro séquentiel pour les arcs au sein d'un groupe dans une soumission.",
+    "Indique un poids de -1 (TRUE si l'arc est négatif), mais généralement +1 (FALSE).",
+    "Le tag pour le parent de l'arc parent_tag: [ptag]",
+    "La version du tag pour le parent de l'arc parent_version: [pversion]",
+    "Le tag pour l'enfant de l'arc child_tag: [ctag]",
+    "La version du tag pour l'enfant de l'arc child_version: [cversion]"
+  ],
+  "sample_rows": [
+    {
+      "numero_de_soumission": "0001019687-14-002604",
+      "groupe": 1,
+      "arc": 1,
+      "negatif": 1,
+      "balise_parent": "CashPeriodIncreaseDecrease",
+      "version_parent": "us-gaap/2014",
+      "balise_enfant": "CashPeriodIncreaseDecrease",
+      "version_enfant": "us-gaap/2014"
+    },
+    {
+      "numero_de_soumission": "0001019687-14-002569",
+      "groupe": 1,
+      "arc": 1,
+      "negatif": 1,
+      "balise_parent": "CashPeriodIncreaseDecrease",
+      "version_parent": "us-gaap/2014",
+      "balise_enfant": "CashPeriodIncreaseDecrease",
+      "version_enfant": "us-gaap/2014"
+    },
+    {
+      "numero_de_soumission": "0000798359-14-000048",
+      "groupe": 1,
+      "arc": 1,
+      "negatif": 1,
+      "balise_parent": "DiscontinuedOperationIncomeLossFromDiscontinuedOperationDuringPhaseOutPeriodNetOfTax",
+      "version_parent": "us-gaap/2014",
+      "balise_enfant": "DiscontinuedOperationIncomeLossFromDiscontinuedOperationDuringPhaseOutPeriodNetOfTax",
+      "version_enfant": "us-gaap/2014"
+    },
+    {
+      "numero_de_soumission": "0001140361-14-026077",
+      "groupe": 1,
+      "arc": 1,
+      "negatif": 1,
+      "balise_parent": "AllocatedShareBasedCompensationExpenseNetOfTax",
+      "version_parent": "us-gaap/2014",
+      "balise_enfant": "AllocatedShareBasedCompensationExpenseNetOfTax",
+      "version_enfant": "us-gaap/2014"
+    },
+    {
+      "numero_de_soumission": "0001140361-14-026435",
+      "groupe": 1,
+      "arc": 1,
+      "negatif": 1,
+      "balise_parent": "ContractReceivableDueOneYearOrLess",
+      "version_parent": "us-gaap/2014",
+      "balise_enfant": "ContractReceivableDueOneYearOrLess",
+      "version_enfant": "us-gaap/2014"
+    }
+  ]
+}

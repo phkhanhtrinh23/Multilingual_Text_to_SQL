@@ -1,0 +1,106 @@
+{
+  "table_name": "Filtered_jhu_usc_edu_PANCAN_merged_HumanMethylation27_HumanMethylation450_betaValue_whitelisted",
+  "table_fullname": "isb-cgc-bq.pancancer_atlas.Filtered_jhu_usc_edu_PANCAN_merged_HumanMethylation27_HumanMethylation450_betaValue_whitelisted",
+  "column_names": [
+    "CodigoBarrasDoParticipante",
+    "CodigoBarrasDaAmostra",
+    "CodigoBarrasDaAliquota",
+    "CodigoDaLetraDoTipoDeAmostra",
+    "TipoDeAmostra",
+    "Estudo",
+    "ID",
+    "Beta"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64"
+  ],
+  "nested_column_names": [
+    "CodigoBarrasDoParticipante",
+    "CodigoBarrasDaAmostra",
+    "CodigoBarrasDaAliquota",
+    "CodigoDaLetraDoTipoDeAmostra",
+    "TipoDeAmostra",
+    "Estudo",
+    "ID",
+    "Beta"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64"
+  ],
+  "description": [
+    "Identificador de código de barras TCGA para o participante do estudo, por exemplo, TCGA-02-0001",
+    "Código de barras da amostra de biosspecimen, por exemplo, TCGA-13-1489-02A",
+    "Código de barras do aliquote TCGA, por exemplo, TCGA-12-1089-01A-01D-0517-28",
+    "Código de letra do tipo de amostra usando os padrões TCGA, por exemplo, TPN, EBV. Lista completa disponível em https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/sample-type-codes",
+    "Existem 10 tipos de amostras: Sangue Derivado Normal, Tumor sólido primário, Tecido sólido normal, Tumor sólido recorrente, Metastático, Adicional - Novo primário, Câncer derivado de sangue primário - Sangue periférico, Célula bucal normal, Adicional metastático, Medula óssea normal",
+    "Abreviação do estudo TCGA, por exemplo, LAML. Lista completa disponível em https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/tcga-study-abbreviations",
+    "Identificador de sonda único (por exemplo, cg04676771) do array de metilação humana Illumina -- por favor, consulte a tabela de anotação (isb-cgc-bq.annotations.methylation_annotation_hg19_illumina_current) para obter mais detalhes sobre qualquer sonda em particular",
+    "Valor beta de metilação de DNA normalizado (entre 0 e 1, onde 0 indica completamente não metilado e 1 indica totalmente metilado)"
+  ],
+  "sample_rows": [
+    {
+      "CodigoBarrasDoParticipante": "TCGA-01-0628",
+      "CodigoBarrasDaAmostra": "TCGA-01-0628-11A",
+      "CodigoBarrasDaAliquota": "TCGA-01-0628-11A-01D-0383-05",
+      "CodigoDaLetraDoTipoDeAmostra": "NT",
+      "TipoDeAmostra": "Solid Tissue Normal",
+      "Estudo": "OV",
+      "ID": "cg25264554",
+      "Beta": 0.014019597658378
+    },
+    {
+      "CodigoBarrasDoParticipante": "TCGA-01-0628",
+      "CodigoBarrasDaAmostra": "TCGA-01-0628-11A",
+      "CodigoBarrasDaAliquota": "TCGA-01-0628-11A-01D-0383-05",
+      "CodigoDaLetraDoTipoDeAmostra": "NT",
+      "TipoDeAmostra": "Solid Tissue Normal",
+      "Estudo": "OV",
+      "ID": "cg12269343",
+      "Beta": 0.0197464851425526
+    },
+    {
+      "CodigoBarrasDoParticipante": "TCGA-01-0628",
+      "CodigoBarrasDaAmostra": "TCGA-01-0628-11A",
+      "CodigoBarrasDaAliquota": "TCGA-01-0628-11A-01D-0383-05",
+      "CodigoDaLetraDoTipoDeAmostra": "NT",
+      "TipoDeAmostra": "Solid Tissue Normal",
+      "Estudo": "OV",
+      "ID": "cg02425732",
+      "Beta": 0.033633891941717
+    },
+    {
+      "CodigoBarrasDoParticipante": "TCGA-01-0628",
+      "CodigoBarrasDaAmostra": "TCGA-01-0628-11A",
+      "CodigoBarrasDaAliquota": "TCGA-01-0628-11A-01D-0383-05",
+      "CodigoDaLetraDoTipoDeAmostra": "NT",
+      "TipoDeAmostra": "Solid Tissue Normal",
+      "Estudo": "OV",
+      "ID": "cg09852871",
+      "Beta": 0.788843878492672
+    },
+    {
+      "CodigoBarrasDoParticipante": "TCGA-01-0628",
+      "CodigoBarrasDaAmostra": "TCGA-01-0628-11A",
+      "CodigoBarrasDaAliquota": "TCGA-01-0628-11A-01D-0383-05",
+      "CodigoDaLetraDoTipoDeAmostra": "NT",
+      "TipoDeAmostra": "Solid Tissue Normal",
+      "Estudo": "OV",
+      "ID": "cg23953831",
+      "Beta": 0.864616977642031
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "table_name": "research_companies_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.research_companies_30",
+  "column_names": [
+    "企業種別ID",
+    "リソース語幹ID",
+    "会社",
+    "国",
+    "以前の会社"
+  ],
+  "column_types": [
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "会社ステムID",
+    "リソースステムID",
+    "会社",
+    "国",
+    "前職"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "主キー.",
+    "research_stem テーブルへの外部キー.",
+    "この研究コードステムに関連する現在の会社名",
+    "会社がこの研究コードスタムを使用している国",
+    "研究コードの接頭辞に関連する会社の以前の名称（例：会社が買収・合併した場合）"
+  ],
+  "sample_rows": [
+    {
+      "会社ステムID": 541,
+      "リソースステムID": 149,
+      "会社": "Vernalis",
+      "国": "UK",
+      "前職": "Cita NeuroPharmaceuticals"
+    },
+    {
+      "会社ステムID": 681,
+      "リソースステムID": 28,
+      "会社": "GlaxoSmithKline",
+      "国": "UK",
+      "前職": "Allen & Hanburys"
+    },
+    {
+      "会社ステムID": 683,
+      "リソースステムID": 3,
+      "会社": "AstraZeneca",
+      "国": "UK",
+      "前職": "Astra"
+    },
+    {
+      "会社ステムID": 687,
+      "リソースステムID": 106,
+      "会社": "GlaxoSmithKline",
+      "国": "UK",
+      "前職": "Borroughs Wellcome"
+    },
+    {
+      "会社ステムID": 688,
+      "リソースステムID": 77,
+      "会社": "Vernalis",
+      "国": "UK",
+      "前職": "British Biotech"
+    }
+  ]
+}

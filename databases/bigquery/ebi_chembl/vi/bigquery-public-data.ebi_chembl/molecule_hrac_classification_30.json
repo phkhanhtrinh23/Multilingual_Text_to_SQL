@@ -1,0 +1,56 @@
+{
+  "table_name": "molecule_hrac_classification_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.molecule_hrac_classification_30",
+  "column_names": [
+    "Định danh HRAC mol",
+    "Mã lớp người chơi",
+    "mã đăng ký phân tử"
+  ],
+  "column_types": [
+    "INT64",
+    "INT64",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "Mã ID HRAC MOL",
+    "Mã lớp người chơi",
+    "số đăng ký phân tử"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "INT64",
+    "INT64"
+  ],
+  "description": [
+    "Khóa chính",
+    "Khóa ngoại tới bảng hrac_classification, thể hiện phân loại của hợp chất.",
+    "Khóa ngoại tới molecule_dictionary, hiển thị hợp chất mà phân loại này áp dụng."
+  ],
+  "sample_rows": [
+    {
+      "Mã ID HRAC MOL": 148,
+      "Mã lớp người chơi": 256,
+      "số đăng ký phân tử": 1369899
+    },
+    {
+      "Mã ID HRAC MOL": 136,
+      "Mã lớp người chơi": 1,
+      "số đăng ký phân tử": 1238673
+    },
+    {
+      "Mã ID HRAC MOL": 182,
+      "Mã lớp người chơi": 257,
+      "số đăng ký phân tử": 1495975
+    },
+    {
+      "Mã ID HRAC MOL": 8,
+      "Mã lớp người chơi": 3,
+      "số đăng ký phân tử": 51985
+    },
+    {
+      "Mã ID HRAC MOL": 161,
+      "Mã lớp người chơi": 4,
+      "số đăng ký phân tử": 1475652
+    }
+  ]
+}

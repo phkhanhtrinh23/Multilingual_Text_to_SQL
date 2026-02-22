@@ -1,0 +1,70 @@
+{
+  "sample_rows": [
+    {
+      "GEO_ID": "geoId/50",
+      "Variable": "Percent_in_the_Process_of_Foreclosure,_Bankruptcy,_or_Deed_in_Lieu_Government / Non-Conventional",
+      "Variablenname": "Percent in the Process of Foreclosure, Bankruptcy, or Deed in Lieu - Government / Non-Conventional",
+      "Datum": "2022-12-31",
+      "Wert": 0.003,
+      "Einheit": "Percent"
+    },
+    {
+      "GEO_ID": "geoId/34",
+      "Variable": "Percent_in_Forbearance_Enterprise Acquisitions",
+      "Variablenname": "Percent in Forbearance - Enterprise Acquisitions",
+      "Datum": "2023-09-30",
+      "Wert": 0.002,
+      "Einheit": "Percent"
+    },
+    {
+      "GEO_ID": "geoId/C12580",
+      "Variable": "Percent_30_or_60_Days_Past_Due_Date_All Mortgages",
+      "Variablenname": "Percent 30 or 60 Days Past Due Date - All Mortgages",
+      "Datum": "2024-03-31",
+      "Wert": 0.017,
+      "Einheit": "Percent"
+    },
+    {
+      "GEO_ID": "geoId/02",
+      "Variable": "Percent_in_Forbearance_Enterprise Acquisitions",
+      "Variablenname": "Percent in Forbearance - Enterprise Acquisitions",
+      "Datum": "2020-12-31",
+      "Wert": 0.021,
+      "Einheit": "Percent"
+    },
+    {
+      "GEO_ID": "geoId/C49180",
+      "Variable": "Percent_in_the_Process_of_Foreclosure,_Bankruptcy,_or_Deed_in_Lieu_Government / Non-Conventional",
+      "Variablenname": "Percent in the Process of Foreclosure, Bankruptcy, or Deed in Lieu - Government / Non-Conventional",
+      "Datum": "2024-03-31",
+      "Wert": 0.002,
+      "Einheit": "Percent"
+    }
+  ],
+  "table_name": "FHFA_MORTGAGE_PERFORMANCE_TIMESERIES",
+  "table_fullname": "FINANCE__ECONOMICS.CYBERSYN.FHFA_MORTGAGE_PERFORMANCE_TIMESERIES",
+  "column_names": [
+    "Datum",
+    "GEO_ID",
+    "Einheit",
+    "Variablenname",
+    "Variable",
+    "Wert"
+  ],
+  "column_types": [
+    "DATE",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "FLOAT"
+  ],
+  "description": [
+    "Datum, das dem Wert zugeordnet ist",
+    "Eindeutiger geografischer Identifikator, der mit den Tabellen geography_index/relationships verknüpft werden kann",
+    "Einheit der Messung für die Variable (z. B. `Percent`)",
+    "Menschlich lesbarer Beschreibungstext für die Variable",
+    "Eindeutiger Identifikator für eine Variable, der mit der attributes-Tabelle für die Filterung verknüpft werden kann",
+    "Der gemeldete numerische Wert für die Variable und das Datum"
+  ]
+}

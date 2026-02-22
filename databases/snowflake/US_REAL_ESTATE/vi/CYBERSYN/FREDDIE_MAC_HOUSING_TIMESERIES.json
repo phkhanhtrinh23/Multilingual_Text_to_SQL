@@ -1,0 +1,70 @@
+{
+  "sample_rows": [
+    {
+      "Mã địa lý": "country/USA",
+      "biến": "FRM_30_YR",
+      "Tên biến": "30-Year Fixed Rate Mortgage Rate, National Average",
+      "Ngày": "2024-08-29",
+      "Giá trị": 0.0635,
+      "Đơn vị": "Percent"
+    },
+    {
+      "Mã địa lý": "geoId/31",
+      "biến": "INDEX_SA",
+      "Tên biến": "Freddie Mac House Price Index (Seasonally adjusted)",
+      "Ngày": "2020-07-31",
+      "Giá trị": 172.7589483,
+      "Đơn vị": "Index"
+    },
+    {
+      "Mã địa lý": "geoId/32",
+      "biến": "INDEX_NSA",
+      "Tên biến": "Freddie Mac House Price Index (Not seasonally adjusted)",
+      "Ngày": "1976-09-30",
+      "Giá trị": 31.93893565,
+      "Đơn vị": "Index"
+    },
+    {
+      "Mã địa lý": "geoId/10",
+      "biến": "INDEX_SA",
+      "Tên biến": "Freddie Mac House Price Index (Seasonally adjusted)",
+      "Ngày": "1996-08-31",
+      "Giá trị": 83.36771622,
+      "Đơn vị": "Index"
+    },
+    {
+      "Mã địa lý": "geoId/25",
+      "biến": "INDEX_NSA",
+      "Tên biến": "Freddie Mac House Price Index (Not seasonally adjusted)",
+      "Ngày": "2021-05-31",
+      "Giá trị": 225.5959953,
+      "Đơn vị": "Index"
+    }
+  ],
+  "table_name": "FREDDIE_MAC_HOUSING_TIMESERIES",
+  "table_fullname": "US_REAL_ESTATE.CYBERSYN.FREDDIE_MAC_HOUSING_TIMESERIES",
+  "column_names": [
+    "Giá trị",
+    "Tên biến",
+    "Ngày",
+    "Mã địa lý",
+    "Đơn vị",
+    "biến"
+  ],
+  "column_types": [
+    "FLOAT",
+    "TEXT",
+    "DATE",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Giá trị được báo cáo cho biến.",
+    "Tên duy nhất có thể đọc được cho biến.",
+    "Ngày liên quan đến giá trị.",
+    "Một mã định danh duy nhất cho một địa điểm. Có thể kết nối với các bảng địa lý khác bao gồm GEOGRAPHY_INDEX, GEOGRAPHY_RELATIONSHIPS và GEOGRAPHY_CHARACTERISTICS.",
+    "Đơn vị đo lường cho giá trị được báo cáo.",
+    "Định danh duy nhất cho một biến, có thể kết nối với bảng chuỗi thời gian."
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "table_name": "structural_alerts_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.structural_alerts_30",
+  "column_names": [
+    "Alarm-ID",
+    "Alarm-Set-ID",
+    "Alarmname",
+    "Intelligenz"
+  ],
+  "column_types": [
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "Alarm-ID",
+    "Alarm-Set-ID",
+    "Alarmname",
+    "Schlauheit"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "Primary key. Einzigartige Kennung für den strukturellen Alarm.",
+    "Fremdschlüssel zur Tabelle structural_alert_sets, der angibt, aus welchem Set dieser spezielle Alarm stammt.",
+    "Ein Name für den strukturellen Alarm.",
+    "SMARTS, die das strukturelle Merkmal definieren, das als Alarm gilt."
+  ],
+  "sample_rows": [
+    {
+      "Alarm-ID": 2,
+      "Alarm-Set-ID": 1,
+      "Alarmname": "R2 Acid halides",
+      "Schlauheit": "[S,C](=[O,S])[F,Br,Cl,I]"
+    },
+    {
+      "Alarm-ID": 3,
+      "Alarm-Set-ID": 1,
+      "Alarmname": "R3 Carbazides",
+      "Schlauheit": "O=CN=[N+]=[N-]"
+    },
+    {
+      "Alarm-ID": 4,
+      "Alarm-Set-ID": 1,
+      "Alarmname": "R4 Sulphate esters",
+      "Schlauheit": "COS(=O)O[C,c]"
+    },
+    {
+      "Alarm-ID": 5,
+      "Alarm-Set-ID": 1,
+      "Alarmname": "R5 Sulphonates",
+      "Schlauheit": "COS(=O)(=O)[C,c]"
+    },
+    {
+      "Alarm-ID": 6,
+      "Alarm-Set-ID": 1,
+      "Alarmname": "R6 Acid anhydrides",
+      "Schlauheit": "C(=O)OC(=O)"
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "table_name": "time",
+  "table_fullname": "bigquery-public-data.utility_us.time",
+  "column_names": [
+    "Zeit",
+    "Stunde",
+    "Minute",
+    "Sekunde",
+    "Sekunde des Tages",
+    "Stunde AM/PM",
+    "Ist PM"
+  ],
+  "column_types": [
+    "TIME",
+    "INT64",
+    "INT64",
+    "INT64",
+    "INT64",
+    "INT64",
+    "BOOL"
+  ],
+  "nested_column_names": [
+    "Zeit",
+    "Stunde",
+    "Minute",
+    "Sekunde",
+    "Sekunde des Tages",
+    "Stunde im 12-Stunden-Format",
+    "PM-Status"
+  ],
+  "nested_column_types": [
+    "TIME",
+    "INT64",
+    "INT64",
+    "INT64",
+    "INT64",
+    "INT64",
+    "BOOL"
+  ],
+  "description": [
+    "Zeit als TIME - CAST('23:59:59' AS TIME)",
+    "Stunde als INTEGER - [0, 23]",
+    "Minute als INTEGER - [0, 59]",
+    "Sekunde als INTEGER - [0, 59]",
+    "Sekunden als INTEGER - [0, 86399]; 00:00:00 = 0, 23:59:59 = 86399",
+    "Stunde als INTEGER - [1, 12]",
+    "AM = False, PM = True"
+  ],
+  "sample_rows": [
+    {
+      "Zeit": "00:00:26",
+      "Stunde": 0,
+      "Minute": 0,
+      "Sekunde": 26,
+      "Sekunde des Tages": 26,
+      "Stunde im 12-Stunden-Format": 12,
+      "PM-Status": false
+    },
+    {
+      "Zeit": "00:00:35",
+      "Stunde": 0,
+      "Minute": 0,
+      "Sekunde": 35,
+      "Sekunde des Tages": 35,
+      "Stunde im 12-Stunden-Format": 12,
+      "PM-Status": false
+    },
+    {
+      "Zeit": "00:00:37",
+      "Stunde": 0,
+      "Minute": 0,
+      "Sekunde": 37,
+      "Sekunde des Tages": 37,
+      "Stunde im 12-Stunden-Format": 12,
+      "PM-Status": false
+    },
+    {
+      "Zeit": "00:00:46",
+      "Stunde": 0,
+      "Minute": 0,
+      "Sekunde": 46,
+      "Sekunde des Tages": 46,
+      "Stunde im 12-Stunden-Format": 12,
+      "PM-Status": false
+    },
+    {
+      "Zeit": "00:00:57",
+      "Stunde": 0,
+      "Minute": 0,
+      "Sekunde": 57,
+      "Sekunde des Tages": 57,
+      "Stunde im 12-Stunden-Format": 12,
+      "PM-Status": false
+    }
+  ]
+}

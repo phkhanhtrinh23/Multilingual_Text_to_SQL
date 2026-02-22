@@ -1,0 +1,78 @@
+{
+  "sample_rows": [
+    {
+      "地名": "New York-Newark-Jersey City, NY-NJ-PA Metro Area",
+      "地理编号": "geoId/C35620",
+      "级别": "CensusCoreBasedStatisticalArea",
+      "相关地理名称": "Census Tract 972.06, Queens, New York",
+      "相关地理ID": "geoId/36081097206",
+      "相关级别": "CensusTract",
+      "关系类型": "Contains"
+    },
+    {
+      "地名": "24580377",
+      "地理编号": "statcanId/S051224580377",
+      "级别": "DisseminationArea",
+      "相关地理名称": "Brossard",
+      "相关地理ID": "statcanId/A00052458007",
+      "相关级别": "CensusSubdivision",
+      "关系类型": "Overlaps"
+    },
+    {
+      "地名": "Block Group 3, Census Tract 5459, Wayne County, Michigan",
+      "地理编号": "censusBlockGroup/261635459003",
+      "级别": "CensusBlockGroup",
+      "相关地理名称": "Census Tract 5459, Wayne County, Michigan",
+      "相关地理ID": "geoId/26163545900",
+      "相关级别": "CensusTract",
+      "关系类型": "Overlaps"
+    },
+    {
+      "地名": "Census Tract 9015.01, Prince William County, Virginia",
+      "地理编号": "geoId/51153901501",
+      "级别": "CensusTract",
+      "相关地理名称": "Northern America",
+      "相关地理ID": "countrySubRegion/021",
+      "相关级别": "CountrySubRegion",
+      "关系类型": "Overlaps"
+    },
+    {
+      "地名": "70506",
+      "地理编号": "zip/70506",
+      "级别": "CensusZipCodeTabulationArea",
+      "相关地理名称": "Census Tract 18.02, Lafayette Parish, Louisiana",
+      "相关地理ID": "geoId/22055001802",
+      "相关级别": "CensusTract",
+      "关系类型": "Overlaps"
+    }
+  ],
+  "table_name": "GEOGRAPHY_RELATIONSHIPS",
+  "table_fullname": "WEATHER__ENVIRONMENT.CYBERSYN.GEOGRAPHY_RELATIONSHIPS",
+  "column_names": [
+    "相关地理名称",
+    "相关地理ID",
+    "相关级别",
+    "关系类型",
+    "地理编号",
+    "级别",
+    "地名"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "与 GEO_NAME 相关的地点名称。该地点与主地理区域重叠或被包含（例如州内的城市）。",
+    "可与 GEOGRAPHY_INDEX 表关联的相关地点的唯一标识符",
+    "相关地点的地理层级或层级结构（例如，国家、州、县、市、洲、国家子区域等）",
+    "两个地点之间的关系。'Contains'表示RELATED_GEO_ID完全包含在GEO_ID内（例如州对城市的关系）；'Overlaps'表示GEO_ID是RELATED_GEO_ID的子部分（例如城市对州的关系）。",
+    "与 GEOGRAPHY_INDEX 表关联的唯一地点标识符",
+    "地理层级或层次结构（例如，国家、州、县、市、洲、国家子区域等）",
+    "地点的全名"
+  ]
+}

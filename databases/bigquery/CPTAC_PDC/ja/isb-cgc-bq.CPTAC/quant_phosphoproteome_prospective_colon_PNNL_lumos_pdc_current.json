@@ -1,0 +1,116 @@
+{
+  "table_name": "quant_phosphoproteome_prospective_colon_PNNL_lumos_pdc_current",
+  "table_fullname": "isb-cgc-bq.CPTAC.quant_phosphoproteome_prospective_colon_PNNL_lumos_pdc_current",
+  "column_names": [
+    "ケースID",
+    "サンプルID",
+    "サンプルID",
+    "アリコット提出者ID",
+    "アリクオット走行メタデータID",
+    "研究名",
+    "タンパク質発現量対数2比",
+    "リファレンスシーケンスID",
+    "リン酸化部位"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "ケースID",
+    "サンプルID",
+    "アリクオットID",
+    "アリクォート提出者ID",
+    "別液実行メタデータID",
+    "研究名",
+    "タンパク質発現量対数2比",
+    "参照配列ID",
+    "リン酸化部位"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "特定の患者に関連付けられたユニーク識別子（例：24cb0fcb-63d6-11e8-bcf1-0a2705229b82）",
+    "このサンプルのユニークPDC識別子（例：e8d83eb9-693a-11ea-b1fd-0aad30af8a83）",
+    "このアリクオットのユニークPDC識別子（例：e8db124a-693a-11ea-b1fd-0aad30af8a83）",
+    "プログラムにより割り当てられたアリクオット提出者ID（例：T14）",
+    "実験での使用方法（ラベリング試薬または生物学的複製に基づく）により、アリオットを一意に識別します",
+    "研究名（例：小児脳腫瘍パイロット研究 - フォスフォプロテオーム）",
+    "特定の生物サンプルから取得されたデータにおける、遺伝子に関連するペプチドイオンのサンプルレポーターイオンと共通参照の平均対数比",
+    "NCBI RefSeq データベース内の配列に付与された一意識別子",
+    "リン酸化アミノ酸の単一文字コードとタンパク質配列上の位置 (例：t304s310、t59)"
+  ],
+  "sample_rows": [
+    {
+      "ケースID": "0bc46cbd-63d6-11e8-bcf1-0a2705229b82",
+      "サンプルID": "4f9db1ce-641b-11e8-bcf1-0a2705229b82",
+      "アリクオットID": "263c66c0-642a-11e8-bcf1-0a2705229b82",
+      "アリクォート提出者ID": "cc271b3d-ed33-481f-9d23-15f2f6_D2",
+      "別液実行メタデータID": "868fb8e6-5737-11e8-b664-00a098d917f8",
+      "研究名": "Prospective Colon PNNL Phosphoproteome Lumos",
+      "タンパク質発現量対数2比": -1.9183,
+      "参照配列ID": "NP_116204.3",
+      "リン酸化部位": "s90s92"
+    },
+    {
+      "ケースID": "0bc46cbd-63d6-11e8-bcf1-0a2705229b82",
+      "サンプルID": "4f9db1ce-641b-11e8-bcf1-0a2705229b82",
+      "アリクオットID": "263c66c0-642a-11e8-bcf1-0a2705229b82",
+      "アリクォート提出者ID": "cc271b3d-ed33-481f-9d23-15f2f6_D2",
+      "別液実行メタデータID": "868fb8e6-5737-11e8-b664-00a098d917f8",
+      "研究名": "Prospective Colon PNNL Phosphoproteome Lumos",
+      "タンパク質発現量対数2比": 0.5338,
+      "参照配列ID": "NP_001294951.1",
+      "リン酸化部位": "s445"
+    },
+    {
+      "ケースID": "0bc46cbd-63d6-11e8-bcf1-0a2705229b82",
+      "サンプルID": "4f9db1ce-641b-11e8-bcf1-0a2705229b82",
+      "アリクオットID": "263c66c0-642a-11e8-bcf1-0a2705229b82",
+      "アリクォート提出者ID": "cc271b3d-ed33-481f-9d23-15f2f6_D2",
+      "別液実行メタデータID": "868fb8e6-5737-11e8-b664-00a098d917f8",
+      "研究名": "Prospective Colon PNNL Phosphoproteome Lumos",
+      "タンパク質発現量対数2比": -2.2728,
+      "参照配列ID": "NP_001269554.1",
+      "リン酸化部位": "t19s22"
+    },
+    {
+      "ケースID": "0bc46cbd-63d6-11e8-bcf1-0a2705229b82",
+      "サンプルID": "4f9db1ce-641b-11e8-bcf1-0a2705229b82",
+      "アリクオットID": "263c66c0-642a-11e8-bcf1-0a2705229b82",
+      "アリクォート提出者ID": "cc271b3d-ed33-481f-9d23-15f2f6_D2",
+      "別液実行メタデータID": "868fb8e6-5737-11e8-b664-00a098d917f8",
+      "研究名": "Prospective Colon PNNL Phosphoproteome Lumos",
+      "タンパク質発現量対数2比": -0.3971,
+      "参照配列ID": "NP_001186064.1",
+      "リン酸化部位": "s357"
+    },
+    {
+      "ケースID": "0bc46cbd-63d6-11e8-bcf1-0a2705229b82",
+      "サンプルID": "4f9db1ce-641b-11e8-bcf1-0a2705229b82",
+      "アリクオットID": "263c66c0-642a-11e8-bcf1-0a2705229b82",
+      "アリクォート提出者ID": "cc271b3d-ed33-481f-9d23-15f2f6_D2",
+      "別液実行メタデータID": "868fb8e6-5737-11e8-b664-00a098d917f8",
+      "研究名": "Prospective Colon PNNL Phosphoproteome Lumos",
+      "タンパク質発現量対数2比": 0.0208,
+      "参照配列ID": "NP_573571.1",
+      "リン酸化部位": "s266"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "sample_rows": [
+    {
+      "Flughafencode": "1059BHM",
+      "AIRPORT_DOT_CODE": 1059,
+      "Flughafenname": "Birmingham-Shuttlesworth International",
+      "Flughafenalphabetischercode": "BHM",
+      "Flughafenweltgebietcode": 51,
+      "Standort": "Birmingham, AL: Birmingham-Shuttlesworth International",
+      "Flughafenstadtname": "Birmingham",
+      "STATE_GEO_ID": "geoId/01",
+      "COUNTRY_GEO_ID": "country/USA"
+    },
+    {
+      "Flughafencode": "42650MCI",
+      "AIRPORT_DOT_CODE": 42650,
+      "Flughafenname": "Kansas City International",
+      "Flughafenalphabetischercode": "MCI",
+      "Flughafenweltgebietcode": 64,
+      "Standort": "Kansas City, MO: Kansas City International",
+      "Flughafenstadtname": "Kansas City",
+      "STATE_GEO_ID": "geoId/29",
+      "COUNTRY_GEO_ID": "country/USA"
+    },
+    {
+      "Flughafencode": "91940TUS",
+      "AIRPORT_DOT_CODE": 91940,
+      "Flughafenname": "Tucson International",
+      "Flughafenalphabetischercode": "TUS",
+      "Flughafenweltgebietcode": 81,
+      "Standort": "Tucson, AZ: Tucson International",
+      "Flughafenstadtname": "Tucson",
+      "STATE_GEO_ID": "geoId/04",
+      "COUNTRY_GEO_ID": "country/USA"
+    },
+    {
+      "Flughafencode": "1298LIJ",
+      "AIRPORT_DOT_CODE": 1298,
+      "Flughafenname": "Long Island Airport",
+      "Flughafenalphabetischercode": "LIJ",
+      "Flughafenweltgebietcode": 1,
+      "Standort": "Long Island, AK: Long Island Airport",
+      "Flughafenstadtname": "Long Island",
+      "STATE_GEO_ID": "geoId/02",
+      "COUNTRY_GEO_ID": "country/USA"
+    },
+    {
+      "Flughafencode": "49005PIB",
+      "AIRPORT_DOT_CODE": 49005,
+      "Flughafenname": "Hattiesburg-Laurel Regional",
+      "Flughafenalphabetischercode": "PIB",
+      "Flughafenweltgebietcode": 53,
+      "Standort": "Hattiesburg/Laurel, MS: Hattiesburg-Laurel Regional",
+      "Flughafenstadtname": "Hattiesburg/Laurel",
+      "STATE_GEO_ID": "geoId/28",
+      "COUNTRY_GEO_ID": "country/USA"
+    }
+  ],
+  "table_name": "AIRPORT_INDEX",
+  "table_fullname": "GLOBAL_GOVERNMENT.CYBERSYN.AIRPORT_INDEX",
+  "column_names": [
+    "Flughafenname",
+    "STATE_GEO_ID",
+    "Flughafenstadtname",
+    "Flughafenalphabetischercode",
+    "AIRPORT_DOT_CODE",
+    "Flughafenweltgebietcode",
+    "COUNTRY_GEO_ID",
+    "Standort",
+    "Flughafencode"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "NUMBER",
+    "NUMBER",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Name des Flughafens.",
+    "Eindeutiger Identifikator für einen Staat, der mit der `GEOGRAPHY_INDEX`-Tabelle verknüpft werden kann und die primäre Geographie für die Variable darstellt.",
+    "Name der Stadt, in der sich der Flughafen befindet.",
+    "Code, der von der International Air Transport Association (IATA) den Flughäfen zugewiesen wird, der weit verbreitet in der Luftfahrtindustrie für Ticketing, Gepäckabfertigung und Flugplanung verwendet wird.",
+    "Eindeutiger Identifikator, der von der US-DOT jedem Flughafen zugewiesen wird und für administrative und Berichtszwecke verwendet wird.",
+    "US-DOT-Identifikator für das geografische Gebiet, in dem sich der Flughafen befindet.",
+    "Eindeutiger Identifikator für ein Land, der mit der `GEOGRAPHY_INDEX`-Tabelle verknüpft werden kann und die primäre Geographie für die Variable darstellt.",
+    "Vollständiger Ortsname des Flughafens.",
+    "ID für den Ausgangsflughafen, der Teil der gemessenen Flugroute ist, Kombination aus dem eindeutigen DOT-Code und dem offiziellen 3-Buchstaben-OAG-Code, der für diesen Flughafen ausgegeben wird."
+  ]
+}

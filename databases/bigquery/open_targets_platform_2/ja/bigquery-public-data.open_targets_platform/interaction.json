@@ -1,0 +1,189 @@
+{
+  "table_name": "interaction",
+  "table_fullname": "bigquery-public-data.open_targets_platform.interaction",
+  "column_names": [
+    "ソースデータベース",
+    "対象A",
+    "整数A",
+    "整数A 生物学的役割",
+    "対象B",
+    "整数B",
+    "intB 生物学的役割",
+    "種A",
+    "種B",
+    "件数",
+    "得点"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRUCT<mnemonic STRING, scientific_name STRING, taxon_id INT64>",
+    "STRUCT<mnemonic STRING, scientific_name STRING, taxon_id INT64>",
+    "INT64",
+    "FLOAT64"
+  ],
+  "nested_column_names": [
+    "ソースデータベース",
+    "対象A",
+    "整数A",
+    "生物学的役割",
+    "対象B",
+    "整数B",
+    "生物学的役割",
+    "種A",
+    "種A略称",
+    "speciesA.学名",
+    "種A.分類群ID",
+    "種B",
+    "speciesB略語",
+    "speciesB.学名",
+    "speciesBタクソンID",
+    "件数",
+    "得点"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRUCT<mnemonic STRING, scientific_name STRING, taxon_id INT64>",
+    "STRING",
+    "STRING",
+    "INT64",
+    "STRUCT<mnemonic STRING, scientific_name STRING, taxon_id INT64>",
+    "STRING",
+    "STRING",
+    "INT64",
+    "INT64",
+    "FLOAT64"
+  ],
+  "description": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "sample_rows": [
+    {
+      "ソースデータベース": "intact",
+      "対象A": "ENSG00000174132",
+      "整数A": "Q8TBP5",
+      "生物学的役割": "unspecified role",
+      "対象B": "ENSG00000111647",
+      "整数B": "A0JNW5",
+      "種A": {
+        "mnemonic": "human",
+        "scientific_name": "Homo sapiens",
+        "taxon_id": 9606
+      },
+      "種B": {
+        "mnemonic": "human",
+        "scientific_name": "Homo sapiens",
+        "taxon_id": 9606
+      },
+      "件数": 1,
+      "得点": 0.35
+    },
+    {
+      "ソースデータベース": "intact",
+      "対象A": "ENSG00000274391",
+      "整数A": "P56180-2",
+      "生物学的役割": "unspecified role",
+      "対象B": "ENSG00000105135",
+      "整数B": "A1L0T0",
+      "種A": {
+        "mnemonic": "human",
+        "scientific_name": "Homo sapiens",
+        "taxon_id": 9606
+      },
+      "種B": {
+        "mnemonic": "human",
+        "scientific_name": "Homo sapiens",
+        "taxon_id": 9606
+      },
+      "件数": 1,
+      "得点": 0.35
+    },
+    {
+      "ソースデータベース": "intact",
+      "対象A": "ENSG00000097096",
+      "整数A": "Q5VT97-1",
+      "生物学的役割": "unspecified role",
+      "対象B": "ENSG00000126822",
+      "整数B": "A1L390",
+      "種A": {
+        "mnemonic": "human",
+        "scientific_name": "Homo sapiens",
+        "taxon_id": 9606
+      },
+      "種B": {
+        "mnemonic": "human",
+        "scientific_name": "Homo sapiens",
+        "taxon_id": 9606
+      },
+      "件数": 1,
+      "得点": 0.35
+    },
+    {
+      "ソースデータベース": "intact",
+      "対象A": "ENSG00000167770",
+      "整数A": "Q96FW1",
+      "生物学的役割": "unspecified role",
+      "対象B": "ENSG00000185888",
+      "整数B": "A1L453",
+      "種A": {
+        "mnemonic": "human",
+        "scientific_name": "Homo sapiens",
+        "taxon_id": 9606
+      },
+      "種B": {
+        "mnemonic": "human",
+        "scientific_name": "Homo sapiens",
+        "taxon_id": 9606
+      },
+      "件数": 1,
+      "得点": 0.35
+    },
+    {
+      "ソースデータベース": "intact",
+      "対象A": "ENSG00000169951",
+      "整数A": "Q96H86",
+      "生物学的役割": "unspecified role",
+      "対象B": "ENSG00000174705",
+      "整数B": "A1X283",
+      "種A": {
+        "mnemonic": "human",
+        "scientific_name": "Homo sapiens",
+        "taxon_id": 9606
+      },
+      "種B": {
+        "mnemonic": "human",
+        "scientific_name": "Homo sapiens",
+        "taxon_id": 9606
+      },
+      "件数": 1,
+      "得点": 0.35
+    }
+  ]
+}

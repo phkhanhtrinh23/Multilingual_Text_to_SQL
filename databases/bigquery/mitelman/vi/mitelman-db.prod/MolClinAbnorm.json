@@ -1,0 +1,76 @@
+{
+  "table_name": "MolClinAbnorm",
+  "table_fullname": "mitelman-db.prod.MolClinAbnorm",
+  "column_names": [
+    "Phòng khám phân tử",
+    "Số tham chiếu",
+    "Số hoá đơn",
+    "Số Đơn",
+    "Bất thường"
+  ],
+  "column_types": [
+    "STRING",
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "Chẩn đoán phân tử",
+    "Số tham chiếu",
+    "Số Hóa Đơn",
+    "Số đơn",
+    "Bất thường"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING"
+  ],
+  "description": [
+    "cờ chỉ định 'M' cho phân tử, hoặc 'C' cho lâm sàng",
+    "số tham chiếu, ví dụ '15563'",
+    "số điều tra, thường từ 1 đến 10",
+    "số đơn hàng, từ 1 đến 54",
+    "Mô tả bất thường, ví dụ 't(19;19)(p13;p13)' hoặc 'del(7)(q?)'"
+  ],
+  "sample_rows": [
+    {
+      "Chẩn đoán phân tử": "C",
+      "Số tham chiếu": 1696,
+      "Số Hóa Đơn": 1,
+      "Số đơn": 1,
+      "Bất thường": "r"
+    },
+    {
+      "Chẩn đoán phân tử": "C",
+      "Số tham chiếu": 2844,
+      "Số Hóa Đơn": 1,
+      "Số đơn": 1,
+      "Bất thường": "r"
+    },
+    {
+      "Chẩn đoán phân tử": "C",
+      "Số tham chiếu": 4556,
+      "Số Hóa Đơn": 1,
+      "Số đơn": 11,
+      "Bất thường": "r"
+    },
+    {
+      "Chẩn đoán phân tử": "C",
+      "Số tham chiếu": 15564,
+      "Số Hóa Đơn": 1,
+      "Số đơn": 1,
+      "Bất thường": "r"
+    },
+    {
+      "Chẩn đoán phân tử": "C",
+      "Số tham chiếu": 15564,
+      "Số Hóa Đơn": 2,
+      "Số đơn": 1,
+      "Bất thường": "r"
+    }
+  ]
+}

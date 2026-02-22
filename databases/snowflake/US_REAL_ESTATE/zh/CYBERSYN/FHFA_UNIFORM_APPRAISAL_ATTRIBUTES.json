@@ -1,0 +1,86 @@
+{
+  "sample_rows": [
+    {
+      "变量": "Annual_Mean_Ratio_Contract_Price/Appraised_Value_Type_of_Heating_Purchase_Other",
+      "变量名": "Annual Mean Ratio Contract Price/Appraised Value Type of Heating Purchase Other",
+      "变量组": "Mean Ratio Contract Price/Appraised Value",
+      "评估目的": "Purchase",
+      "特征": "Type of Heating",
+      "类别": "Other",
+      "单位": "Ratio",
+      "频率": "Annual"
+    },
+    {
+      "变量": "Annual_Mean_Ratio_Contract_Price/Appraised_Value_Type_of_Structure_Purchase_Missing",
+      "变量名": "Annual Mean Ratio Contract Price/Appraised Value Type of Structure Purchase Missing",
+      "变量组": "Mean Ratio Contract Price/Appraised Value",
+      "评估目的": "Purchase",
+      "特征": "Type of Structure",
+      "类别": "Missing",
+      "单位": "Ratio",
+      "频率": "Annual"
+    },
+    {
+      "变量": "Annual_Mean_Ratio_Contract_Price/Appraised_Value_Urbanization_Level_Purchase_Rural",
+      "变量名": "Annual Mean Ratio Contract Price/Appraised Value Urbanization Level Purchase Rural",
+      "变量组": "Mean Ratio Contract Price/Appraised Value",
+      "评估目的": "Purchase",
+      "特征": "Urbanization Level",
+      "类别": "Rural",
+      "单位": "Ratio",
+      "频率": "Annual"
+    },
+    {
+      "变量": "Annual_Mean_Ratio_Contract_Price/Appraised_Value_Year_Built_Purchase_2010_to_current",
+      "变量名": "Annual Mean Ratio Contract Price/Appraised Value Year Built Purchase 2010 to current",
+      "变量组": "Mean Ratio Contract Price/Appraised Value",
+      "评估目的": "Purchase",
+      "特征": "Year Built",
+      "类别": "2010 to current",
+      "单位": "Ratio",
+      "频率": "Annual"
+    },
+    {
+      "变量": "Annual_Median_Appraised_Value_Accessory_Dwelling_Unit_Present_Purchase_&_Refinance_No",
+      "变量名": "Annual Median Appraised Value Accessory Dwelling Unit Present Purchase & Refinance No",
+      "变量组": "Median Appraised Value",
+      "评估目的": "Purchase & Refinance",
+      "特征": "Accessory Dwelling Unit Present",
+      "类别": "No",
+      "单位": "USD",
+      "频率": "Annual"
+    }
+  ],
+  "table_name": "FHFA_UNIFORM_APPRAISAL_ATTRIBUTES",
+  "table_fullname": "US_REAL_ESTATE.CYBERSYN.FHFA_UNIFORM_APPRAISAL_ATTRIBUTES",
+  "column_names": [
+    "变量组",
+    "变量名",
+    "类别",
+    "特征",
+    "单位",
+    "评估目的",
+    "频率",
+    "变量"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "总体变量分组用于时间序列（例如，中位估值、评估数量等）",
+    "变量的人类可读描述",
+    "实际类别对应于特征类型。记录住宅的重要特征（例如：无中央空调，建于1970至1979年等）。",
+    "根据住宅特征（如中央空调、基础类型等）进行类别分组的特征",
+    "变量的计量单位： (例如：计数、百分比、比例、美元)",
+    "评估请求原因（例如：购买、再融资、购买及再融资）",
+    "聚合频率（例如：年度）",
+    "用于过滤的变量唯一标识符，可与时间序列表关联"
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "table_name": "DNA_METHYLATION_CHR3_HG19_GDC_2017_01",
+  "table_fullname": "TCGA.TCGA_VERSIONED.DNA_METHYLATION_CHR3_HG19_GDC_2017_01",
+  "column_names": [
+    "平台",
+    "探针ID",
+    "项目简称",
+    "样本条码",
+    "样本条码",
+    "箱子条码",
+    "贝塔值"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "FLOAT"
+  ],
+  "description": [
+    "生成此数据所使用的平台名称 — 可为 HumanMethylation450 或 HumanMethylation27",
+    "来自 Illumina Human Methylation 数组的唯一探针标识符（例如 cg04676771）——请参阅注释表（isb-cgc:platform_reference.methylation_annotation）了解任何特定探针的更多详细信息",
+    "项目名称缩写；程序名称后附项目名称缩写；例如 TCGA-OV 等。",
+    "原始 TCGA 样本条码，例如 TCGA-12-1089-01A-01D-0517-01",
+    "原始 TCGA 样本条码，例如 TCGA-12-1089-01A",
+    "原始 TCGA 病例条码，例如 TCGA-12-1089 —— 请注意，每个病例通常都有一个原发肿瘤样本和一个匹配的正常样本（血液或邻近组织样本）；请参阅 TCGA 生物样本表以获取更多详细信息。",
+    "标准化的 DNA 甲基化 beta 值（介于 0 与 1 之间，0 表示完全未甲基化，1 表示完全甲基化）"
+  ],
+  "sample_rows": [
+    {
+      "项目简称": "TCGA-OV",
+      "箱子条码": "TCGA-01-0628",
+      "样本条码": "TCGA-01-0628-11A-01D-0383-05",
+      "探针ID": "cg15427774",
+      "贝塔值": 0.1,
+      "平台": "HumanMethylation27"
+    },
+    {
+      "项目简称": "TCGA-OV",
+      "箱子条码": "TCGA-01-0630",
+      "样本条码": "TCGA-01-0630-11A-01D-0383-05",
+      "探针ID": "cg12187213",
+      "贝塔值": 0.01,
+      "平台": "HumanMethylation27"
+    },
+    {
+      "项目简称": "TCGA-OV",
+      "箱子条码": "TCGA-01-0630",
+      "样本条码": "TCGA-01-0630-11A-01D-0383-05",
+      "探针ID": "cg03699904",
+      "贝塔值": 0.17,
+      "平台": "HumanMethylation27"
+    },
+    {
+      "项目简称": "TCGA-OV",
+      "箱子条码": "TCGA-01-0630",
+      "样本条码": "TCGA-01-0630-11A-01D-0383-05",
+      "探针ID": "cg02218260",
+      "贝塔值": 0.9,
+      "平台": "HumanMethylation27"
+    },
+    {
+      "项目简称": "TCGA-OV",
+      "箱子条码": "TCGA-01-0630",
+      "样本条码": "TCGA-01-0630-11A-01D-0383-05",
+      "探针ID": "cg12419067",
+      "贝塔值": 0.01,
+      "平台": "HumanMethylation27"
+    }
+  ]
+}

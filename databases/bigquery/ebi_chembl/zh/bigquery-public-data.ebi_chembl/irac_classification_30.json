@@ -1,0 +1,126 @@
+{
+  "table_name": "irac_classification_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.irac_classification_30",
+  "column_names": [
+    "IRAC 类别编号",
+    "有效成分",
+    "级别1",
+    "一级描述",
+    "二级",
+    "第二层级描述",
+    "三级",
+    "三级描述",
+    "四级",
+    "IRAC编码"
+  ],
+  "column_types": [
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "irac 类别编号",
+    "活性成分",
+    "级别1",
+    "一级描述",
+    "第二级",
+    "级别2描述",
+    "三级",
+    "三级描述",
+    "四级",
+    "IRAC代码"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "每个 level4 代码唯一的数字主键",
+    "IRAC分类的活性成分（杀虫剂）名称",
+    "动作类别，例如神经动作、能量代谢（IRAC未分配代码）",
+    "由IRAC提供的集体诉讼描述",
+    "IRAC 主组代码，表示主要部位/作用机制",
+    "IRAC 提供的作用位点/作用机制说明",
+    "IRAC 子组代码，表示杀虫剂的化学类别",
+    "IRAC 提供的化学类别或示例成分描述",
+    "为每种成分分配的唯一代码（基于IRAC的一级、二级和三级分类，但不是由IRAC分配的）",
+    "该成分的官方 IRAC 分类代码"
+  ],
+  "sample_rows": [
+    {
+      "irac 类别编号": 13,
+      "活性成分": "BENSULTAP",
+      "级别1": "A",
+      "一级描述": "NERVE ACTION",
+      "第二级": "A14",
+      "级别2描述": "NICOTINIC ACETYLCHOLINE RECEPTOR (NACHR) CHANNEL BLOCKERS",
+      "三级": "A1414A",
+      "三级描述": "NEREISTOXIN ANALOGUES",
+      "四级": "A1414A1",
+      "IRAC代码": "14"
+    },
+    {
+      "irac 类别编号": 14,
+      "活性成分": "CARTAP HYDROCHLORIDE",
+      "级别1": "A",
+      "一级描述": "NERVE ACTION",
+      "第二级": "A14",
+      "级别2描述": "NICOTINIC ACETYLCHOLINE RECEPTOR (NACHR) CHANNEL BLOCKERS",
+      "三级": "A1414A",
+      "三级描述": "NEREISTOXIN ANALOGUES",
+      "四级": "A1414A2",
+      "IRAC代码": "14"
+    },
+    {
+      "irac 类别编号": 15,
+      "活性成分": "THIOCYCLAM",
+      "级别1": "A",
+      "一级描述": "NERVE ACTION",
+      "第二级": "A14",
+      "级别2描述": "NICOTINIC ACETYLCHOLINE RECEPTOR (NACHR) CHANNEL BLOCKERS",
+      "三级": "A1414A",
+      "三级描述": "NEREISTOXIN ANALOGUES",
+      "四级": "A1414A3",
+      "IRAC代码": "14"
+    },
+    {
+      "irac 类别编号": 16,
+      "活性成分": "THIOSULTAP-SODIUM",
+      "级别1": "A",
+      "一级描述": "NERVE ACTION",
+      "第二级": "A14",
+      "级别2描述": "NICOTINIC ACETYLCHOLINE RECEPTOR (NACHR) CHANNEL BLOCKERS",
+      "三级": "A1414A",
+      "三级描述": "NEREISTOXIN ANALOGUES",
+      "四级": "A1414A4",
+      "IRAC代码": "14"
+    },
+    {
+      "irac 类别编号": 34,
+      "活性成分": "AMITRAZ",
+      "级别1": "A",
+      "一级描述": "NERVE ACTION",
+      "第二级": "A19",
+      "级别2描述": "OCTOPAMINE RECEPTOR AGONISTS",
+      "三级": "A1919A",
+      "三级描述": "AMITRAZ",
+      "四级": "A1919A1",
+      "IRAC代码": "19"
+    }
+  ]
+}

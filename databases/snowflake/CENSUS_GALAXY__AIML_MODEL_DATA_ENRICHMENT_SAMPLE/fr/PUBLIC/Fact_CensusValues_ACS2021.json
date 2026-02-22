@@ -1,0 +1,46 @@
+{
+  "sample_rows": [
+    {
+      "IDDeGroupeDeBloc": "361031471003",
+      "IDDeMetrique": "B11012_008E",
+      "ValeurDuRecensement": 20.0
+    },
+    {
+      "IDDeGroupeDeBloc": "361031471003",
+      "IDDeMetrique": "B11012_010E",
+      "ValeurDuRecensement": 0.0
+    },
+    {
+      "IDDeGroupeDeBloc": "361031471003",
+      "IDDeMetrique": "B11012_011E",
+      "ValeurDuRecensement": 6.0
+    },
+    {
+      "IDDeGroupeDeBloc": "361031471003",
+      "IDDeMetrique": "B11012_012E",
+      "ValeurDuRecensement": 5.0
+    },
+    {
+      "IDDeGroupeDeBloc": "361031471003",
+      "IDDeMetrique": "B11012_014E",
+      "ValeurDuRecensement": 9.0
+    }
+  ],
+  "table_name": "Fact_CensusValues_ACS2021",
+  "table_fullname": "CENSUS_GALAXY__AIML_MODEL_DATA_ENRICHMENT_SAMPLE.PUBLIC.Fact_CensusValues_ACS2021",
+  "column_names": [
+    "ValeurDuRecensement",
+    "IDDeGroupeDeBloc",
+    "IDDeMetrique"
+  ],
+  "column_types": [
+    "FLOAT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "La valeur Int pour la relation MetricID et BlockGroupID. Cela pourrait être des agrégats ou des estimations de personnes, d'animaux domestiques, de foyers, etc. Référez-vous à la table Dim_CensusMetrics pour la signification de chaque valeur.",
+    "Un identifiant unique pour un groupe de blocs spécifique dans une zone géographique.",
+    "Un identifiant unique pour une mesure ou un indicateur spécifique dans l'American Community Survey ou les données du recensement."
+  ]
+}

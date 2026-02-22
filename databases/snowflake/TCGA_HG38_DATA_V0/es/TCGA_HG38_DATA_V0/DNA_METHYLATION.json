@@ -1,0 +1,102 @@
+{
+  "table_name": "DNA_METHYLATION",
+  "table_fullname": "TCGA_HG38_DATA_V0.TCGA_HG38_DATA_V0.DNA_METHYLATION",
+  "column_names": [
+    "identificador_muestra_gdc",
+    "valor beta",
+    "id_gdc_prueba",
+    "código de barras de fracción",
+    "ID de archivo GDC",
+    "ID de la sonda",
+    "código de barras del caso",
+    "plataforma",
+    "código de muestra",
+    "ID del caso GDC"
+  ],
+  "column_types": [
+    "TEXT",
+    "FLOAT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "",
+    "Valor beta de metilación del ADN normalizado (entre 0 y 1, donde 0 indica completamente no metilado y 1 indica completamente metilado)",
+    "",
+    "Código de barras original de TCGA, ej. TCGA-12-1089-01A-01D-0517-01",
+    "",
+    "Identificador único de sonda (ej. cg04676771) del array de metilación humana de Illumina — consulte la tabla de anotaciones (isb-cgc:platform_reference.methylation_annotation) para más detalles sobre cualquier sonda en particular",
+    "El código de caso original de TCGA, por ejemplo TCGA-12-1089 -- observe que cada caso suele tener una muestra de tumor primario y una muestra normal coincidente (sangre o tejido adyacente); consulte la tabla de Biospecímenes de TCGA para más detalles",
+    "Nombre de la plataforma utilizada para generar estos datos — ya sea HumanMethylation450 o HumanMethylation27",
+    "Código de barras original de muestra TCGA, por ejemplo TCGA-12-1089-01A",
+    ""
+  ],
+  "sample_rows": [
+    {
+      "código de barras del caso": "TCGA-12-1601",
+      "código de muestra": "TCGA-12-1601-01A",
+      "código de barras de fracción": "TCGA-12-1601-01A-01D-0595-05",
+      "ID de la sonda": "cg09869858",
+      "valor beta": 0.941828806528446,
+      "plataforma": null,
+      "ID de archivo GDC": "5cd6f2f6-7278-4757-be8e-a8ae3a7a81d3",
+      "ID del caso GDC": "cc1459be-de8f-482e-9efe-65937db9dc45",
+      "identificador_muestra_gdc": "b02fd704-03a6-44c4-b224-f5f457e733f3",
+      "id_gdc_prueba": "aa761ca4-e8f0-4a43-8262-bd84eedb459a"
+    },
+    {
+      "código de barras del caso": "TCGA-12-1601",
+      "código de muestra": "TCGA-12-1601-01A",
+      "código de barras de fracción": "TCGA-12-1601-01A-01D-0595-05",
+      "ID de la sonda": "cg20708411",
+      "valor beta": 0.0102476928428383,
+      "plataforma": null,
+      "ID de archivo GDC": "5cd6f2f6-7278-4757-be8e-a8ae3a7a81d3",
+      "ID del caso GDC": "cc1459be-de8f-482e-9efe-65937db9dc45",
+      "identificador_muestra_gdc": "b02fd704-03a6-44c4-b224-f5f457e733f3",
+      "id_gdc_prueba": "aa761ca4-e8f0-4a43-8262-bd84eedb459a"
+    },
+    {
+      "código de barras del caso": "TCGA-12-1601",
+      "código de muestra": "TCGA-12-1601-01A",
+      "código de barras de fracción": "TCGA-12-1601-01A-01D-0595-05",
+      "ID de la sonda": "cg21312148",
+      "valor beta": 0.204995672046708,
+      "plataforma": null,
+      "ID de archivo GDC": "5cd6f2f6-7278-4757-be8e-a8ae3a7a81d3",
+      "ID del caso GDC": "cc1459be-de8f-482e-9efe-65937db9dc45",
+      "identificador_muestra_gdc": "b02fd704-03a6-44c4-b224-f5f457e733f3",
+      "id_gdc_prueba": "aa761ca4-e8f0-4a43-8262-bd84eedb459a"
+    },
+    {
+      "código de barras del caso": "TCGA-32-2498",
+      "código de muestra": "TCGA-32-2498-01A",
+      "código de barras de fracción": "TCGA-32-2498-01A-01D-1228-05",
+      "ID de la sonda": "cg21032203",
+      "valor beta": 0.0342159812130887,
+      "plataforma": null,
+      "ID de archivo GDC": "6db4187c-5e48-45ac-8ae3-6b55198ff65a",
+      "ID del caso GDC": "0d5e5a6b-5113-43f2-836c-776207b21b56",
+      "identificador_muestra_gdc": "58af038c-bd40-4123-a6d3-11061f0d38e1",
+      "id_gdc_prueba": "6e65d823-0d94-4d26-b60a-2f168cbe2ba8"
+    },
+    {
+      "código de barras del caso": "TCGA-32-2498",
+      "código de muestra": "TCGA-32-2498-01A",
+      "código de barras de fracción": "TCGA-32-2498-01A-01D-1228-05",
+      "ID de la sonda": "cg22610305",
+      "valor beta": 0.0187790760179513,
+      "plataforma": null,
+      "ID de archivo GDC": "6db4187c-5e48-45ac-8ae3-6b55198ff65a",
+      "ID del caso GDC": "0d5e5a6b-5113-43f2-836c-776207b21b56",
+      "identificador_muestra_gdc": "58af038c-bd40-4123-a6d3-11061f0d38e1",
+      "id_gdc_prueba": "6e65d823-0d94-4d26-b60a-2f168cbe2ba8"
+    }
+  ]
+}

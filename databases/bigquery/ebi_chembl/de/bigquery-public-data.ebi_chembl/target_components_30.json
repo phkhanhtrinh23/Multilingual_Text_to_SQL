@@ -1,0 +1,66 @@
+{
+  "table_name": "target_components_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.target_components_30",
+  "column_names": [
+    "Transaktions-ID",
+    "Komponenten-ID",
+    "Zielkomponenten-ID",
+    "Homolog"
+  ],
+  "column_types": [
+    "INT64",
+    "INT64",
+    "INT64",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "Transaktions-ID",
+    "Komponenten-ID",
+    "Zielkomponenten-ID",
+    "Homolog"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "INT64",
+    "INT64",
+    "INT64"
+  ],
+  "description": [
+    "Fremdschlüssel zum target_dictionary, der angibt, zu welchem Ziel die Komponenten gehören.",
+    "Fremdschlüssel zur component_sequences table, der angibt, welche Komponenten zum Ziel gehören.",
+    "Primärschlüssel.",
+    "Gibt an, dass die gegebene Komponente ein Homolog des richtigen Proteins bzw. der richtigen Nukleinsäure ist (z. B. aus einer anderen Spezies), wenn sie auf 1 gesetzt ist. Dies kann der Fall sein, wenn die Sequenz des richtigen Proteins bzw. der richtigen Nukleinsäure in Sequenzdatenbanken nicht gefunden werden kann. Ein Wert von 2 bedeutet, dass die gegebene Sequenz einen Vertreter einer Artengruppe darstellt, z. B. ein E. coli-Protein, um das Ziel eines Breitbandantibiotikums zu repräsentieren."
+  ],
+  "sample_rows": [
+    {
+      "Transaktions-ID": 10496,
+      "Komponenten-ID": 1361,
+      "Zielkomponenten-ID": 4530,
+      "Homolog": 0
+    },
+    {
+      "Transaktions-ID": 10752,
+      "Komponenten-ID": 321,
+      "Zielkomponenten-ID": 2345,
+      "Homolog": 0
+    },
+    {
+      "Transaktions-ID": 11520,
+      "Komponenten-ID": 1491,
+      "Zielkomponenten-ID": 5341,
+      "Homolog": 0
+    },
+    {
+      "Transaktions-ID": 12800,
+      "Komponenten-ID": 2751,
+      "Zielkomponenten-ID": 4027,
+      "Homolog": 0
+    },
+    {
+      "Transaktions-ID": 13056,
+      "Komponenten-ID": 2744,
+      "Zielkomponenten-ID": 4758,
+      "Homolog": 0
+    }
+  ]
+}

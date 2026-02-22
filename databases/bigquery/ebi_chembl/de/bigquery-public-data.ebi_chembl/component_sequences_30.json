@@ -1,0 +1,126 @@
+{
+  "table_name": "component_sequences_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.component_sequences_30",
+  "column_names": [
+    "Komponenten-ID",
+    "Komponentenart",
+    "Zugangs-ID",
+    "Sequenz",
+    "Sequenz-MD5-Summe",
+    "Beschreibung",
+    "Taxon-ID",
+    "Organismus",
+    "Datenbankquelle",
+    "Datenbankversion"
+  ],
+  "column_types": [
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "Bestandteil-ID",
+    "Bestandteiltyp",
+    "Zugangsnummer",
+    "Sequenz",
+    "Sequenz-MD5-Summe",
+    "Beschreibung",
+    "Taxon-ID",
+    "Organismusname",
+    "Datenbankquelle",
+    "Datenbankversion"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "Primärschlüssel. Eindeutiger Bezeichner für die Komponente.",
+    "Typ der dargestellten molekularen Komponente (z. B. 'PROTEIN','DNA','RNA').",
+    "Zugang der Sequenz in der Quelldatenbank, aus der sie stammt (z. B. UniProt-Zugang für Proteine).",
+    "Eine repräsentative Sequenz für die molekulare Komponente, wie sie in der Quelldatenbank der Sequenzen angegeben ist (nicht unbedingt die exakte Sequenz, die im Assay verwendet wurde).",
+    "MD5-Prüfsumme der Sequenz.",
+    "Bezeichnung/Name der molekularen Komponente, üblicherweise aus der Quelldatenbank der Sequenz entnommen.",
+    "NCBI-Tax-ID der Sequenz in der Quelldatenbank (d. h. Art, von der die Protein-/Nukleinsäuresequenz stammt).",
+    "Name des Organismus, von dem die Sequenz stammt.",
+    "Der Name der Quelldatenbank, aus der Sequenzen/Zugänge entnommen werden. Bei UniProt-Proteinen gibt dieses Feld an, ob die Sequenz aus SWISS-PROT oder TREMBL stammt.",
+    "Die Version der Quelldatenbank, aus der Sequenzen/Zugänge zuletzt aktualisiert wurden."
+  ],
+  "sample_rows": [
+    {
+      "Bestandteil-ID": 7819,
+      "Bestandteiltyp": "RNA",
+      "Zugangsnummer": "ENSG00000084674",
+      "Sequenz": null,
+      "Sequenz-MD5-Summe": null,
+      "Beschreibung": "Apo-B 100 mRNA",
+      "Taxon-ID": 9606,
+      "Organismusname": "Homo sapiens",
+      "Datenbankquelle": "Manual",
+      "Datenbankversion": null
+    },
+    {
+      "Bestandteil-ID": 17009,
+      "Bestandteiltyp": "RNA",
+      "Zugangsnummer": "ENSG00000198947",
+      "Sequenz": null,
+      "Sequenz-MD5-Summe": null,
+      "Beschreibung": "Dystrophin pre-mRNA",
+      "Taxon-ID": 9606,
+      "Organismusname": "Homo sapiens",
+      "Datenbankquelle": "Manual",
+      "Datenbankversion": null
+    },
+    {
+      "Bestandteil-ID": 17014,
+      "Bestandteiltyp": "RNA",
+      "Zugangsnummer": "ENSG00000205571",
+      "Sequenz": null,
+      "Sequenz-MD5-Summe": null,
+      "Beschreibung": "SMN2 delta7 pre-mRNA",
+      "Taxon-ID": 9606,
+      "Organismusname": "Homo sapiens",
+      "Datenbankquelle": "Manual",
+      "Datenbankversion": null
+    },
+    {
+      "Bestandteil-ID": 17103,
+      "Bestandteiltyp": "RNA",
+      "Zugangsnummer": "ENSG00000142168",
+      "Sequenz": null,
+      "Sequenz-MD5-Summe": null,
+      "Beschreibung": "SOD1 mRNA",
+      "Taxon-ID": 9606,
+      "Organismusname": "Homo sapiens",
+      "Datenbankquelle": "Manual",
+      "Datenbankversion": null
+    },
+    {
+      "Bestandteil-ID": 17551,
+      "Bestandteiltyp": "RNA",
+      "Zugangsnummer": null,
+      "Sequenz": null,
+      "Sequenz-MD5-Summe": null,
+      "Beschreibung": "18S RNA",
+      "Taxon-ID": 9606,
+      "Organismusname": "Homo sapiens",
+      "Datenbankquelle": "Manual",
+      "Datenbankversion": null
+    }
+  ]
+}

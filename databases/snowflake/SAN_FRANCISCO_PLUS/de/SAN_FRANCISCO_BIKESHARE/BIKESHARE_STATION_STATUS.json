@@ -1,0 +1,110 @@
+{
+  "table_name": "BIKESHARE_STATION_STATUS",
+  "table_fullname": "SAN_FRANCISCO_PLUS.SAN_FRANCISCO_BIKESHARE.BIKESHARE_STATION_STATUS",
+  "column_names": [
+    "ist_vermietet",
+    "ist_installiert",
+    "station_id",
+    "anzahl_verfuegbarer_fahrraeder",
+    "eightd_has_available_keys",
+    "anzahl_deaktivierter_docks",
+    "letzte_meldung",
+    "ist_zurueckkehrend",
+    "anzahl_verfuegbarer_ebikes",
+    "anzahl_deaktivierter_fahrraeder",
+    "anzahl_verfuegbarer_docks"
+  ],
+  "column_types": [
+    "BOOLEAN",
+    "BOOLEAN",
+    "TEXT",
+    "NUMBER",
+    "BOOLEAN",
+    "NUMBER",
+    "NUMBER",
+    "BOOLEAN",
+    "NUMBER",
+    "NUMBER",
+    "NUMBER"
+  ],
+  "description": [
+    "1/0 boolean - ist die Station derzeit an der Ausgabe von Fahrrädern beteiligt (auch wenn die Station leer ist, wenn sie so eingestellt ist, dass Vermietungen erlaubt sind, sollte dieser Wert 1 sein)",
+    "1/0 boolean - ist die Station derzeit auf der Straße",
+    "Eindeutiger Identifikator einer Station",
+    "Anzahl der für die Vermietung verfügbaren Fahrräder",
+    "",
+    "Anzahl der leeren, aber deaktivierten Andockpunkte an der Station. Dieser Wert bleibt als Teil der Spezifikation bestehen, da er möglicherweise während der Entwicklung nützlich ist",
+    "Ganzzahliger POSIX-Timestamp, der den letzten Zeitpunkt angibt, an dem diese Station ihren Status an die Backend-Meldestelle übermittelt hat",
+    "1/0 boolean - akzeptiert die Station derzeit die Rückgabe von Fahrrädern (wenn eine Station voll ist, aber eine Rückgabe zulassen würde, wenn sie nicht voll wäre, sollte dieser Wert 1 sein)",
+    "",
+    "Anzahl der defekten Fahrräder an der Station. Anbieter, die die Anzahl der defekten Fahrräder oder Andockpunkte in ihrem System nicht öffentlich machen möchten, können sich entscheiden, die Stationkapazität (in `station_information`), `num_bikes_disabled` und `num_docks_disabled` wegzulassen. Wenn die Stationkapazität veröffentlicht wird, können defekte Andockpunkte/Fahrräder abgeleitet werden (obwohl nicht speziell, ob die verringerte Kapazität ein defektes Fahrrad oder einen Andockpunkt ist)",
+    "Anzahl der Andockpunkte, die die Rückgabe von Fahrrädern akzeptieren"
+  ],
+  "sample_rows": [
+    {
+      "station_id": "46b4ef45-b06b-40eb-9fdf-9bc8ff104a4f",
+      "anzahl_verfuegbarer_fahrraeder": 0,
+      "anzahl_deaktivierter_fahrraeder": 0,
+      "anzahl_verfuegbarer_docks": 15,
+      "anzahl_deaktivierter_docks": 0,
+      "ist_installiert": true,
+      "ist_vermietet": true,
+      "ist_zurueckkehrend": true,
+      "letzte_meldung": 1729209514,
+      "anzahl_verfuegbarer_ebikes": 0,
+      "eightd_has_available_keys": false
+    },
+    {
+      "station_id": "bb54f5c8-5578-4167-9599-8e55154de4fd",
+      "anzahl_verfuegbarer_fahrraeder": 0,
+      "anzahl_deaktivierter_fahrraeder": 0,
+      "anzahl_verfuegbarer_docks": 27,
+      "anzahl_deaktivierter_docks": 0,
+      "ist_installiert": true,
+      "ist_vermietet": true,
+      "ist_zurueckkehrend": true,
+      "letzte_meldung": 1729209462,
+      "anzahl_verfuegbarer_ebikes": 0,
+      "eightd_has_available_keys": false
+    },
+    {
+      "station_id": "63b2136c-c947-473e-977e-8cc0e6347699",
+      "anzahl_verfuegbarer_fahrraeder": 0,
+      "anzahl_deaktivierter_fahrraeder": 0,
+      "anzahl_verfuegbarer_docks": 19,
+      "anzahl_deaktivierter_docks": 0,
+      "ist_installiert": true,
+      "ist_vermietet": true,
+      "ist_zurueckkehrend": true,
+      "letzte_meldung": 1729209551,
+      "anzahl_verfuegbarer_ebikes": 0,
+      "eightd_has_available_keys": false
+    },
+    {
+      "station_id": "7dd926da-25ee-48fd-9de7-ad59a83f94a8",
+      "anzahl_verfuegbarer_fahrraeder": 0,
+      "anzahl_deaktivierter_fahrraeder": 0,
+      "anzahl_verfuegbarer_docks": 31,
+      "anzahl_deaktivierter_docks": 0,
+      "ist_installiert": true,
+      "ist_vermietet": true,
+      "ist_zurueckkehrend": true,
+      "letzte_meldung": 1729209544,
+      "anzahl_verfuegbarer_ebikes": 0,
+      "eightd_has_available_keys": false
+    },
+    {
+      "station_id": "e70c8987-0178-46f2-941f-1fd0eb306ed9",
+      "anzahl_verfuegbarer_fahrraeder": 0,
+      "anzahl_deaktivierter_fahrraeder": 0,
+      "anzahl_verfuegbarer_docks": 19,
+      "anzahl_deaktivierter_docks": 0,
+      "ist_installiert": true,
+      "ist_vermietet": true,
+      "ist_zurueckkehrend": true,
+      "letzte_meldung": 1729209503,
+      "anzahl_verfuegbarer_ebikes": 0,
+      "eightd_has_available_keys": false
+    }
+  ]
+}

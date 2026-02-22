@@ -1,0 +1,106 @@
+{
+  "table_name": "drug_warning_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.drug_warning_30",
+  "column_names": [
+    "警告编号",
+    "记录编号",
+    "分子注册号",
+    "警告类型",
+    "警告类别",
+    "警告说明",
+    "警告国家",
+    "警告年份"
+  ],
+  "column_types": [
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "警告编号",
+    "记录ID",
+    "分子编号",
+    "警告类型",
+    "警告类别",
+    "警告描述",
+    "警告国家",
+    "警告年份"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64"
+  ],
+  "description": [
+    "药物警告主键",
+    "指向 compound_records 表的外键",
+    "指向 molecule_dictionary 表的外键",
+    "药物警示类型描述（例如，已撤回与黑框警示）",
+    "药物警示的高级分类",
+    "药物警告说明",
+    "与药品警示相关的国家/地区列表",
+    "药物首次出现警告的年份"
+  ],
+  "sample_rows": [
+    {
+      "警告编号": 5,
+      "记录ID": 1344548,
+      "分子编号": 237298,
+      "警告类型": "Black Box Warning",
+      "警告类别": null,
+      "警告描述": null,
+      "警告国家": "United States",
+      "警告年份": null
+    },
+    {
+      "警告编号": 11,
+      "记录ID": 1697433,
+      "分子编号": 1380836,
+      "警告类型": "Black Box Warning",
+      "警告类别": null,
+      "警告描述": null,
+      "警告国家": "United States",
+      "警告年份": null
+    },
+    {
+      "警告编号": 33,
+      "记录ID": 1344035,
+      "分子编号": 675482,
+      "警告类型": "Black Box Warning",
+      "警告类别": null,
+      "警告描述": null,
+      "警告国家": "United States",
+      "警告年份": null
+    },
+    {
+      "警告编号": 47,
+      "记录ID": 1343607,
+      "分子编号": 864943,
+      "警告类型": "Black Box Warning",
+      "警告类别": null,
+      "警告描述": null,
+      "警告国家": "United States",
+      "警告年份": null
+    },
+    {
+      "警告编号": 221,
+      "记录ID": 1392876,
+      "分子编号": 1121863,
+      "警告类型": "Black Box Warning",
+      "警告类别": null,
+      "警告描述": null,
+      "警告国家": "United States",
+      "警告年份": null
+    }
+  ]
+}

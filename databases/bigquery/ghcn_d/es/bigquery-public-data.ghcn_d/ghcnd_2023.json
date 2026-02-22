@@ -1,0 +1,126 @@
+{
+  "table_name": "ghcnd_2023",
+  "table_fullname": "bigquery-public-data.ghcn_d.ghcnd_2023",
+  "column_names": [
+    "identificador",
+    "fecha",
+    "elemento",
+    "valor",
+    "bandera",
+    "bandera Q",
+    "Bandera de estado",
+    "tiempo",
+    "url_fuente",
+    "marca_de_tiempo_etl"
+  ],
+  "column_types": [
+    "STRING",
+    "DATE",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "TIMESTAMP"
+  ],
+  "nested_column_names": [
+    "identificador",
+    "fecha",
+    "elemento",
+    "Valor",
+    "Bandera M",
+    "bandera Q",
+    "bandera S",
+    "tiempo",
+    "URL de origen",
+    "etl_fecha_hora"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "DATE",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "TIMESTAMP"
+  ],
+  "description": [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "Fuente",
+    "Tiempo de carga para esta fila de datos"
+  ],
+  "sample_rows": [
+    {
+      "identificador": "US1COEP0384",
+      "fecha": "2023-12-11",
+      "elemento": "SNOW",
+      "Valor": 0.0,
+      "Bandera M": null,
+      "bandera Q": null,
+      "bandera S": "N",
+      "tiempo": "0747",
+      "URL de origen": "http://www.ncei.noaa.gov/pub/data/ghcn/daily/by_year/2023.csv.gz",
+      "etl_fecha_hora": "2024-09-25 02:36:11.101393+00:00"
+    },
+    {
+      "identificador": "USC00283951",
+      "fecha": "2023-12-11",
+      "elemento": "TMAX",
+      "Valor": 172.0,
+      "Bandera M": null,
+      "bandera Q": null,
+      "bandera S": "7",
+      "tiempo": "0700",
+      "URL de origen": "http://www.ncei.noaa.gov/pub/data/ghcn/daily/by_year/2023.csv.gz",
+      "etl_fecha_hora": "2024-09-25 02:36:11.101393+00:00"
+    },
+    {
+      "identificador": "USC00230608",
+      "fecha": "2023-12-11",
+      "elemento": "TMIN",
+      "Valor": -61.0,
+      "Bandera M": null,
+      "bandera Q": null,
+      "bandera S": "7",
+      "tiempo": "0500",
+      "URL de origen": "http://www.ncei.noaa.gov/pub/data/ghcn/daily/by_year/2023.csv.gz",
+      "etl_fecha_hora": "2024-09-25 02:36:11.101393+00:00"
+    },
+    {
+      "identificador": "USC00213812",
+      "fecha": "2023-12-11",
+      "elemento": "SNOW",
+      "Valor": 0.0,
+      "Bandera M": null,
+      "bandera Q": null,
+      "bandera S": "7",
+      "tiempo": "0700",
+      "URL de origen": "http://www.ncei.noaa.gov/pub/data/ghcn/daily/by_year/2023.csv.gz",
+      "etl_fecha_hora": "2024-09-25 02:36:11.101393+00:00"
+    },
+    {
+      "identificador": "USC00123146",
+      "fecha": "2023-12-11",
+      "elemento": "TMAX",
+      "Valor": 111.0,
+      "Bandera M": null,
+      "bandera Q": null,
+      "bandera S": "7",
+      "tiempo": "0700",
+      "URL de origen": "http://www.ncei.noaa.gov/pub/data/ghcn/daily/by_year/2023.csv.gz",
+      "etl_fecha_hora": "2024-09-25 02:36:11.101393+00:00"
+    }
+  ]
+}

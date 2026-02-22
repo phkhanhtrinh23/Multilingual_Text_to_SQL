@@ -1,0 +1,86 @@
+{
+  "table_name": " factor_2019",
+  "table_fullname": "bigquery-public-data.nhtsa_traffic_fatalities. factor_2019",
+  "column_names": [
+    "số trạng thái",
+    "tên_bang",
+    "số liên tiếp",
+    "số xe",
+    "điều kiện góp phần xe cộ",
+    "tên xe cơ giới góp phần"
+  ],
+  "column_types": [
+    "INT64",
+    "STRING",
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "Mã bang",
+    "tên_bang",
+    "Số liên tiếp",
+    "Số xe",
+    "điều kiện góp phần xe hơi",
+    "Tên xe tham gia"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "STRING",
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING"
+  ],
+  "description": [
+    "Phần dữ liệu này xác định bang nơi tai nạn xảy ra. Các mã được lấy từ ấn phẩm Mã Địa Lý Toàn Cầu (GLC) của Cục Quản Lý Dịch Vụ Chung (GSA). Để biết thêm thông tin về các mã, vui lòng xem phần <C1/V1/D1/PC1/P1/NM1 State Number> trong tài liệu PDF: https://crashstats.nhtsa.dot.gov/Api/Public/ViewPublication/812315",
+    "Yếu tố dữ liệu này xác định bang nơi xảy ra tai nạn. Các mã được lấy từ ấn phẩm của Cơ quan Dịch vụ Chung (GSA) về Mã Vị trí Địa lý Toàn cầu (GLC).",
+    "Yếu tố dữ liệu này là số vụ duy nhất được gán cho mỗi vụ va chạm. Nó xuất hiện trên mỗi tệp dữ liệu và được sử dụng để hợp nhất thông tin từ các tệp dữ liệu với nhau. xxxxxx Hai ký tự cho Mã bang theo sau bởi Bốn ký tự cho Số vụ",
+    "Trường dữ liệu này là số thứ tự liên tiếp được cấp cho mỗi xe trong vụ án. Trường dữ liệu này xuất hiện trong mỗi tập tin dữ liệu cấp xe và được sử dụng kết hợp với trường dữ liệu ST_CASE để hợp nhất thông tin từ các tập tin dữ liệu cấp xe. 000-999 Số đã được cấp của phương tiện ô tô",
+    "Yếu tố dữ liệu này mô tả các khuyết tật hoặc điều kiện bảo trì trước đó có thể đã góp phần vào tai nạn của xe này. Để biết thêm thông tin về các mã, vui lòng xem phần <PC4 Contributing Circumstances, Motor Vehicle> trong tài liệu pdf: https://crashstats.nhtsa.dot.gov/Api/Public/ViewPublication/812315",
+    "Yếu tố dữ liệu này mô tả các khuyết tật có thể đã tồn tại trước đây hoặc điều kiện bảo trì của chiếc xe này có thể đã góp phần vào vụ tai nạn."
+  ],
+  "sample_rows": [
+    {
+      "Mã bang": 1,
+      "tên_bang": "Alabama",
+      "Số liên tiếp": 10390,
+      "Số xe": 5,
+      "điều kiện góp phần xe hơi": 0,
+      "Tên xe tham gia": "None"
+    },
+    {
+      "Mã bang": 1,
+      "tên_bang": "Alabama",
+      "Số liên tiếp": 10532,
+      "Số xe": 5,
+      "điều kiện góp phần xe hơi": 0,
+      "Tên xe tham gia": "None"
+    },
+    {
+      "Mã bang": 4,
+      "tên_bang": "Arizona",
+      "Số liên tiếp": 40037,
+      "Số xe": 5,
+      "điều kiện góp phần xe hơi": 0,
+      "Tên xe tham gia": "None"
+    },
+    {
+      "Mã bang": 4,
+      "tên_bang": "Arizona",
+      "Số liên tiếp": 40257,
+      "Số xe": 5,
+      "điều kiện góp phần xe hơi": 0,
+      "Tên xe tham gia": "None"
+    },
+    {
+      "Mã bang": 4,
+      "tên_bang": "Arizona",
+      "Số liên tiếp": 40257,
+      "Số xe": 6,
+      "điều kiện góp phần xe hơi": 0,
+      "Tên xe tham gia": "None"
+    }
+  ]
+}

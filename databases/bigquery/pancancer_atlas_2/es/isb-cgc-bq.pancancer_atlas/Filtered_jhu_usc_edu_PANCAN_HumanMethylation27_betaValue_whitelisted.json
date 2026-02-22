@@ -1,0 +1,106 @@
+{
+  "table_name": "Filtered_jhu_usc_edu_PANCAN_HumanMethylation27_betaValue_whitelisted",
+  "table_fullname": "isb-cgc-bq.pancancer_atlas.Filtered_jhu_usc_edu_PANCAN_HumanMethylation27_betaValue_whitelisted",
+  "column_names": [
+    "Código de participante",
+    "Código de muestra",
+    "Código de barras de la alícuota",
+    "Código de letra del tipo de muestra",
+    "Tipo de muestra",
+    "Estudio",
+    "ID",
+    "Beta"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64"
+  ],
+  "nested_column_names": [
+    "Código del participante",
+    "Código de muestra",
+    "Código de barras de la muestra",
+    "CódigoTipoMuestraLetra",
+    "Tipo de muestra",
+    "Estudio",
+    "Identificador",
+    "Beta"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64"
+  ],
+  "description": [
+    "Identificador de código de barras TCGA para el participante del estudio, ej. TCGA-02-0001",
+    "Código de barras de la muestra de biospecimen, ej. TCGA-13-1489-02A",
+    "Código de barras de la alícuota TCGA, por ejemplo TCGA-12-1089-01A-01D-0517-28",
+    "Código de letra del tipo de muestra utilizando los estándares TCGA, por ejemplo TPN, EBV. Lista completa disponible en https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/sample-type-codes",
+    "Normal derivado de sangre, Tumor sólido primario, Normal de tejido sólido, Tumor sólido recurrente, Metastásico, Adicional - Nuevo primario, Cáncer primario derivado de sangre - sangre periférica, Normal de célula bucal, Metastásico adicional, Normal de médula ósea",
+    "Abreviatura del estudio TCGA, por ejemplo LAML. Lista completa disponible en https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/tcga-study-abbreviations",
+    "Identificador único de sonda (p. ej. cg04676771) del array de metilación humana de Illumina — consulte la tabla de anotaciones (isb-cgc-bq.annotations.methylation_annotation_hg19_illumina_current) para más detalles sobre cualquier sonda en particular.",
+    "Valor beta de metilación del ADN normalizado (entre 0 y 1, donde 0 indica completamente desmetilado y 1 indica totalmente metilado)."
+  ],
+  "sample_rows": [
+    {
+      "Código del participante": "TCGA-01-0628",
+      "Código de muestra": "TCGA-01-0628-11A",
+      "Código de barras de la muestra": "TCGA-01-0628-11A-01D-0383-05",
+      "CódigoTipoMuestraLetra": "NT",
+      "Tipo de muestra": "Solid Tissue Normal",
+      "Estudio": "OV",
+      "Identificador": "cg03882305",
+      "Beta": 0.20754
+    },
+    {
+      "Código del participante": "TCGA-01-0628",
+      "Código de muestra": "TCGA-01-0628-11A",
+      "Código de barras de la muestra": "TCGA-01-0628-11A-01D-0383-05",
+      "CódigoTipoMuestraLetra": "NT",
+      "Tipo de muestra": "Solid Tissue Normal",
+      "Estudio": "OV",
+      "Identificador": "cg05523254",
+      "Beta": 0.0054853
+    },
+    {
+      "Código del participante": "TCGA-01-0628",
+      "Código de muestra": "TCGA-01-0628-11A",
+      "Código de barras de la muestra": "TCGA-01-0628-11A-01D-0383-05",
+      "CódigoTipoMuestraLetra": "NT",
+      "Tipo de muestra": "Solid Tissue Normal",
+      "Estudio": "OV",
+      "Identificador": "cg04798158",
+      "Beta": 0.0145277
+    },
+    {
+      "Código del participante": "TCGA-01-0628",
+      "Código de muestra": "TCGA-01-0628-11A",
+      "Código de barras de la muestra": "TCGA-01-0628-11A-01D-0383-05",
+      "CódigoTipoMuestraLetra": "NT",
+      "Tipo de muestra": "Solid Tissue Normal",
+      "Estudio": "OV",
+      "Identificador": "cg06069731",
+      "Beta": 0.0129045
+    },
+    {
+      "Código del participante": "TCGA-01-0628",
+      "Código de muestra": "TCGA-01-0628-11A",
+      "Código de barras de la muestra": "TCGA-01-0628-11A-01D-0383-05",
+      "CódigoTipoMuestraLetra": "NT",
+      "Tipo de muestra": "Solid Tissue Normal",
+      "Estudio": "OV",
+      "Identificador": "cg00943245",
+      "Beta": 0.882652
+    }
+  ]
+}

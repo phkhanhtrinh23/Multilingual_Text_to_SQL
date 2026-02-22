@@ -1,0 +1,96 @@
+{
+  "table_name": "target_dictionary_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.target_dictionary_30",
+  "column_names": [
+    "线程ID",
+    "目标类型",
+    "偏好名称",
+    "税号",
+    "生物",
+    "ChEMBL编号",
+    "物种组别标识"
+  ],
+  "column_types": [
+    "INT64",
+    "STRING",
+    "STRING",
+    "INT64",
+    "STRING",
+    "STRING",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "事务 ID",
+    "目标类型",
+    "首选名称",
+    "税号",
+    "生物体",
+    "Chembl 编号",
+    "物种组标识"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "STRING",
+    "STRING",
+    "INT64",
+    "STRING",
+    "STRING",
+    "INT64"
+  ],
+  "description": [
+    "目标的唯一 ID",
+    "描述目标是蛋白质、物种、组织等。引用 TARGET_TYPE 表中的外键。",
+    "首选目标名称：手动策划",
+    "目标的 NCBI 分类学 ID",
+    "分子靶点或组织的来源生物体；若化合物活性以生物体为对象而非蛋白质或组织，则为靶向生物体",
+    "此靶点的 ChEMBL 标识符（用于网络界面等）",
+    "标志，用来指示目标是否代表一组物种，而非单一物种（例如“细菌 DHFR”）。当设置为 1 时，表示任何关联的目标组件将是代表性的，而非完整集合。"
+  ],
+  "sample_rows": [
+    {
+      "事务 ID": 22224,
+      "目标类型": "ADMET",
+      "首选名称": "ADMET",
+      "税号": null,
+      "生物体": null,
+      "Chembl 编号": "CHEMBL612558",
+      "物种组标识": 0
+    },
+    {
+      "事务 ID": 109711,
+      "目标类型": "LIPID",
+      "首选名称": "Cholesterol ester",
+      "税号": null,
+      "生物体": null,
+      "Chembl 编号": "CHEMBL3559388",
+      "物种组标识": 0
+    },
+    {
+      "事务 ID": 109712,
+      "目标类型": "LIPID",
+      "首选名称": "Triglyceride",
+      "税号": null,
+      "生物体": null,
+      "Chembl 编号": "CHEMBL3559389",
+      "物种组标识": 0
+    },
+    {
+      "事务 ID": 120037,
+      "目标类型": "LIPID",
+      "首选名称": "Lipid bilayer",
+      "税号": null,
+      "生物体": null,
+      "Chembl 编号": "CHEMBL4651323",
+      "物种组标识": 0
+    },
+    {
+      "事务 ID": 109803,
+      "目标类型": "LIPID",
+      "首选名称": "Ganglioside GD3",
+      "税号": 9606,
+      "生物体": "Homo sapiens",
+      "Chembl 编号": "CHEMBL3580507",
+      "物种组标识": 0
+    }
+  ]
+}

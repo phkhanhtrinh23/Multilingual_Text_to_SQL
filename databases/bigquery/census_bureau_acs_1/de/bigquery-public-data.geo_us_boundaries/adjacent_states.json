@@ -1,0 +1,76 @@
+{
+  "table_name": "adjacent_states",
+  "table_fullname": "bigquery-public-data.geo_us_boundaries.adjacent_states",
+  "column_names": [
+    "Bundesstaat",
+    "Bundesstaatsname",
+    "Bundesstaats-FIPS-Code",
+    "Nachbarbundesstaat",
+    "Nachbarbundesstaats-FIPS-Code"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "ARRAY<STRING>",
+    "ARRAY<STRING>"
+  ],
+  "nested_column_names": [
+    "Bundesstaat",
+    "Bundesstaatsname",
+    "Bundesstaatsfipscode",
+    "Nachbarbundesstaaten",
+    "Nachbarbundesstaatscodes"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "ARRAY<STRING>",
+    "ARRAY<STRING>"
+  ],
+  "description": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "sample_rows": [
+    {
+      "Bundesstaat": "AL",
+      "Bundesstaatsname": "Alabama",
+      "Bundesstaatsfipscode": "01",
+      "Nachbarbundesstaaten": "['Florida' 'Georgia' 'Mississippi' 'Tennessee']",
+      "Nachbarbundesstaatscodes": "['12' '13' '28' '47']"
+    },
+    {
+      "Bundesstaat": "AR",
+      "Bundesstaatsname": "Arkansas",
+      "Bundesstaatsfipscode": "05",
+      "Nachbarbundesstaaten": "['Tennessee' 'Texas' 'Missouri' 'Mississippi' 'Louisiana' 'Oklahoma']",
+      "Nachbarbundesstaatscodes": "['47' '48' '29' '28' '22' '40']"
+    },
+    {
+      "Bundesstaat": "AZ",
+      "Bundesstaatsname": "Arizona",
+      "Bundesstaatsfipscode": "04",
+      "Nachbarbundesstaaten": "['Nevada' 'New Mexico' 'Colorado' 'California' 'Utah']",
+      "Nachbarbundesstaatscodes": "['32' '35' '08' '06' '49']"
+    },
+    {
+      "Bundesstaat": "CA",
+      "Bundesstaatsname": "California",
+      "Bundesstaatsfipscode": "06",
+      "Nachbarbundesstaaten": "['Arizona' 'Nevada' 'Oregon']",
+      "Nachbarbundesstaatscodes": "['04' '32' '41']"
+    },
+    {
+      "Bundesstaat": "CO",
+      "Bundesstaatsname": "Colorado",
+      "Bundesstaatsfipscode": "08",
+      "Nachbarbundesstaaten": "['Kansas' 'New Mexico' 'Nebraska' 'Utah' 'Wyoming' 'Arizona' 'Oklahoma']",
+      "Nachbarbundesstaatscodes": "['20' '35' '31' '49' '56' '04' '40']"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "sample_rows": [
+    {
+      "地理ID": "geoId/24",
+      "变量": "Outflow_Returns_-_number_of_returns,_primary_taxpayers_ages_35_under_45,_All_AGI_classes",
+      "变量名": "Outflow Returns - number of returns, primary taxpayers ages 35 under 45, All AGI classes",
+      "日期": "2022-12-31",
+      "值": 17022,
+      "单位": "Returns"
+    },
+    {
+      "地理ID": "geoId/02",
+      "变量": "Outflow_Returns_–_adjusted_gross_income_from_Year_2,_primary_taxpayers_ages_26_under_35,_AGI_bin:_$50,000_under_$75,000",
+      "变量名": "Outflow Returns – adjusted gross income from Year 2, primary taxpayers ages 26 under 35, AGI bin: $50,000 under $75,000",
+      "日期": "2014-12-31",
+      "值": 61403000,
+      "单位": "USD"
+    },
+    {
+      "地理ID": "geoId/35",
+      "变量": "Total_Returns_-_number_of_returns,_primary_taxpayers_ages_26_under,_All_AGI_classes",
+      "变量名": "Total Returns - number of returns, primary taxpayers ages 26 under, All AGI classes",
+      "日期": "2019-12-31",
+      "值": 141322,
+      "单位": "Returns"
+    },
+    {
+      "地理ID": "geoId/26",
+      "变量": "Same_State_Returns_–_number_of_individuals,_primary_taxpayers_ages_45_under_55,_AGI_bin:_$25,000_under_$50,000",
+      "变量名": "Same State Returns – number of individuals, primary taxpayers ages 45 under 55, AGI bin: $25,000 under $50,000",
+      "日期": "2018-12-31",
+      "值": 8097,
+      "单位": "Individuals"
+    },
+    {
+      "地理ID": "geoId/47",
+      "变量": "Inflow_Returns_–_adjusted_gross_income_from_Year_2,_primary_taxpayers_ages_26_under_35,_AGI_bin:_$50,000_under_$75,000",
+      "变量名": "Inflow Returns – adjusted gross income from Year 2, primary taxpayers ages 26 under 35, AGI bin: $50,000 under $75,000",
+      "日期": "2019-12-31",
+      "值": 296221000,
+      "单位": "USD"
+    }
+  ],
+  "table_name": "IRS_MIGRATION_BY_CHARACTERISTIC_TIMESERIES",
+  "table_fullname": "US_REAL_ESTATE.CYBERSYN.IRS_MIGRATION_BY_CHARACTERISTIC_TIMESERIES",
+  "column_names": [
+    "变量名",
+    "变量",
+    "单位",
+    "日期",
+    "值",
+    "地理ID"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "DATE",
+    "NUMBER",
+    "TEXT"
+  ],
+  "description": [
+    "变量的可读名称",
+    "可与属性表关联的变量的唯一标识符",
+    "值的计量单位，例如：USD、回报、个人",
+    "与该值关联的日期，对于总迁移数据，它是所报告的第二年的最后一天。",
+    "该变量的实际数值",
+    "用于标识地点（州、县、邮编）的唯一标识符，可与 geography_index/relationships 表关联"
+  ]
+}

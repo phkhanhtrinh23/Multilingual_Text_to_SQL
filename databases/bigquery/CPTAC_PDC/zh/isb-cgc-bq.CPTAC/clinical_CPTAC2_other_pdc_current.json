@@ -1,0 +1,106 @@
+{
+  "table_name": "clinical_CPTAC2_other_pdc_current",
+  "table_fullname": "isb-cgc-bq.CPTAC.clinical_CPTAC2_other_pdc_current",
+  "column_names": [
+    "案件编号",
+    "案件提交人ID",
+    "项目提交者编号",
+    "疾病类型",
+    "人口统计ID",
+    "人口统计提交者ID",
+    "诊断编号",
+    "诊断提交者编号"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "案件编号",
+    "案件提交者ID",
+    "项目提交人ID",
+    "疾病类型",
+    "人口统计ID",
+    "人口统计提交者ID",
+    "诊断编号",
+    "诊断提交者ID"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "与特定患者关联的唯一标识符（例如 24cb0fcb-63d6-11e8-bcf1-0a2705229b82）",
+    "来自数据提交者的唯一标识符，用于关联特定患者（例如 05BR016）",
+    "来自数据提交者的唯一标识符，与特定项目（如 CPTAC3-Discovery）相关联",
+    "用于描述恶性疾病类型的文本术语，按世界卫生组织（WHO）的肿瘤国际疾病分类（ICD‑O）进行分类",
+    "用于通过分段人口来描述患者特征的唯一标识符——例如按年龄、性别或种族进行分类（例如 848b480c-0f56-11e9-a064-0a9c39d33490）。",
+    "从数据提交者得出的唯一标识符，用于将数据归因于通过细分人群（如按年龄、性别或种族进行表征）来表征患者（例如 P001-DM）",
+    "用于表示从调查、分析及识别疾病、病情或损伤的存在与性质所产生的表达性体征与症状的数据的唯一标识符；亦为任何形式的科学确定；此类调查的简要结果（例如 e8dd475b-693a-11ea-b1fd-0aad30af8a83）",
+    "唯一标识符源自数据提交者，归属于通过调查、分析及识别疾病、病况或伤害存在与性质所产生的数据，依据已表达的体征和症状；亦可指任何科学判定；以及此类调查的简明结果（例如 33‑DX）"
+  ],
+  "sample_rows": [
+    {
+      "案件编号": "221c00a5-5af5-4793-988d-223263ecfb38",
+      "案件提交者ID": "WHIM30",
+      "项目提交人ID": "CPTAC2-Other",
+      "疾病类型": "Other",
+      "人口统计ID": "34907ec2-932a-4752-8219-63083ec3093b",
+      "人口统计提交者ID": "WHIM30-DM",
+      "诊断编号": "364cd5ec-54cd-4c01-af96-bea6c4dda74c",
+      "诊断提交者ID": "WHIM30-DX"
+    },
+    {
+      "案件编号": "5d66255e-9161-42b2-a59f-4764a4e7b570",
+      "案件提交者ID": "WHIM27",
+      "项目提交人ID": "CPTAC2-Other",
+      "疾病类型": "Other",
+      "人口统计ID": "78fc2a0c-6f77-413e-b9b1-15cff02ee45e",
+      "人口统计提交者ID": "WHIM27-DM",
+      "诊断编号": "0dbfa6eb-7865-4bc1-bcad-bda770d71212",
+      "诊断提交者ID": "WHIM27-DX"
+    },
+    {
+      "案件编号": "8e984f66-c1db-4588-bd01-691870ba0225",
+      "案件提交者ID": "HumanIR",
+      "项目提交人ID": "CPTAC2-Other",
+      "疾病类型": "Other",
+      "人口统计ID": "b63884c6-1208-4c33-ab1b-92c4ec7c1973",
+      "人口统计提交者ID": "HumanIR-DM",
+      "诊断编号": "3dda7dd9-ad98-4ca3-bdde-c9076696767e",
+      "诊断提交者ID": "HumanIR-DX"
+    },
+    {
+      "案件编号": "35adc129-34de-4a9e-8243-caece2a6c6d2",
+      "案件提交者ID": "WHIM11",
+      "项目提交人ID": "CPTAC2-Other",
+      "疾病类型": "Other",
+      "人口统计ID": "784e6e74-32f1-4c9f-bed1-90e955d5d3d8",
+      "人口统计提交者ID": "WHIM11-DM",
+      "诊断编号": "b6a05087-83c4-4c4b-bd8b-5a32d83a20a0",
+      "诊断提交者ID": "WHIM11-DX"
+    },
+    {
+      "案件编号": "adfe3073-938e-4789-bb6e-3e18c0c226ee",
+      "案件提交者ID": "WHIM46",
+      "项目提交人ID": "CPTAC2-Other",
+      "疾病类型": "Other",
+      "人口统计ID": "ab9d86c4-72a3-4d9d-9567-fa60187cff39",
+      "人口统计提交者ID": "WHIM46-DM",
+      "诊断编号": "52d7eeaa-3dab-45b7-9ebc-c31fee11bad7",
+      "诊断提交者ID": "WHIM46-DX"
+    }
+  ]
+}

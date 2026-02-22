@@ -1,0 +1,116 @@
+{
+  "table_name": "quant_phosphoproteome_AML_quizartinib_resistance_pdc_current",
+  "table_fullname": "isb-cgc-bq.CPTAC.quant_phosphoproteome_AML_quizartinib_resistance_pdc_current",
+  "column_names": [
+    "ケースID",
+    "サンプルID",
+    "分注ID",
+    "アリクオット提出者ID",
+    "試料分注実行メタデータID",
+    "研究名",
+    "タンパク質濃度log2比",
+    "リファレンス配列ID",
+    "リン酸化部位"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "ケースID",
+    "サンプルID",
+    "アリクォートID",
+    "送信者ID",
+    "アリクオート実行メタデータID",
+    "研究名",
+    "タンパク質濃度の対数2比",
+    "参照配列ID",
+    "リン酸化部位"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "特定の患者に関連付けられた一意の識別子（例：24cb0fcb-63d6-11e8-bcf1-0a2705229b82）",
+    "このサンプルのユニークPDC識別子（例：e8d83eb9-693a-11ea-b1fd-0aad30af8a83）",
+    "この分液のユニークPDC識別子 (例: e8db124a-693a-11ea-b1fd-0aad30af8a83)",
+    "プログラムにより割り当てられたアリクオット提出者ID（例：T14）",
+    "アリコットは、実験での使用方法（ラベリング試薬や生物学的レプリケートに基づく）により、唯一識別されます。",
+    "研究名（例：小児脳腫瘍パイロット研究 - ホスホプロテオーム）",
+    "特定の生物サンプルで取得したデータにおける、特定遺伝子に関連するペプチドイオンのサンプルレポーターイオンと共通参照との平均対数比",
+    "NCBI RefSeq データベースにおける配列に付与される一意の識別子",
+    "リン酸化されたアミノ酸の単文字コードとタンパク質配列位置（例：t304s310、t59）"
+  ],
+  "sample_rows": [
+    {
+      "ケースID": "4a4b2172-550c-4dbd-adad-8b3425f3ddea",
+      "サンプルID": "baf671ff-e1b6-4cd9-9dfd-5d263db4f5df",
+      "アリクォートID": "8dc69c53-9a45-4b6d-a3c1-4f3637f26440",
+      "送信者ID": "PTRC_exp12_P5-1",
+      "アリクオート実行メタデータID": "dfdf5e29-db86-48bd-83e9-009e078627ea",
+      "研究名": "AML Quizartinib Resistance -  Phosphoproteome",
+      "タンパク質濃度の対数2比": -1.6904,
+      "参照配列ID": "NP_000356.1",
+      "リン酸化部位": "s80"
+    },
+    {
+      "ケースID": "4a4b2172-550c-4dbd-adad-8b3425f3ddea",
+      "サンプルID": "baf671ff-e1b6-4cd9-9dfd-5d263db4f5df",
+      "アリクォートID": "8dc69c53-9a45-4b6d-a3c1-4f3637f26440",
+      "送信者ID": "PTRC_exp12_P5-1",
+      "アリクオート実行メタデータID": "dfdf5e29-db86-48bd-83e9-009e078627ea",
+      "研究名": "AML Quizartinib Resistance -  Phosphoproteome",
+      "タンパク質濃度の対数2比": -0.6829,
+      "参照配列ID": "NP_001001436.1",
+      "リン酸化部位": "s91"
+    },
+    {
+      "ケースID": "4a4b2172-550c-4dbd-adad-8b3425f3ddea",
+      "サンプルID": "baf671ff-e1b6-4cd9-9dfd-5d263db4f5df",
+      "アリクォートID": "8dc69c53-9a45-4b6d-a3c1-4f3637f26440",
+      "送信者ID": "PTRC_exp12_P5-1",
+      "アリクオート実行メタデータID": "dfdf5e29-db86-48bd-83e9-009e078627ea",
+      "研究名": "AML Quizartinib Resistance -  Phosphoproteome",
+      "タンパク質濃度の対数2比": -1.3169,
+      "参照配列ID": "NP_001006635.1",
+      "リン酸化部位": "s484"
+    },
+    {
+      "ケースID": "4a4b2172-550c-4dbd-adad-8b3425f3ddea",
+      "サンプルID": "baf671ff-e1b6-4cd9-9dfd-5d263db4f5df",
+      "アリクォートID": "8dc69c53-9a45-4b6d-a3c1-4f3637f26440",
+      "送信者ID": "PTRC_exp12_P5-1",
+      "アリクオート実行メタデータID": "dfdf5e29-db86-48bd-83e9-009e078627ea",
+      "研究名": "AML Quizartinib Resistance -  Phosphoproteome",
+      "タンパク質濃度の対数2比": -0.4732,
+      "参照配列ID": "NP_001007027.1",
+      "リン酸化部位": "s34"
+    },
+    {
+      "ケースID": "4a4b2172-550c-4dbd-adad-8b3425f3ddea",
+      "サンプルID": "baf671ff-e1b6-4cd9-9dfd-5d263db4f5df",
+      "アリクォートID": "8dc69c53-9a45-4b6d-a3c1-4f3637f26440",
+      "送信者ID": "PTRC_exp12_P5-1",
+      "アリクオート実行メタデータID": "dfdf5e29-db86-48bd-83e9-009e078627ea",
+      "研究名": "AML Quizartinib Resistance -  Phosphoproteome",
+      "タンパク質濃度の対数2比": -0.3275,
+      "参照配列ID": "NP_001008697.1",
+      "リン酸化部位": "s59"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "table_name": "confidence_score_lookup_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.confidence_score_lookup_30",
+  "column_names": [
+    "confidence_score",
+    "Beschreibung",
+    "target_mapping"
+  ],
+  "column_types": [
+    "INT64",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "Konfidenzwert",
+    "Beschreibung",
+    "Zielzuordnung"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "0-9-Score, der das Vertrauensniveau bei der Zuordnung des präzisen molekularen Ziels des Assays anzeigt.",
+    "Beschreibung der Zieltypen, die jedem Score zugeordnet sind.",
+    "Kurze Beschreibung der Zieltypen, die jedem Score zugeordnet sind."
+  ],
+  "sample_rows": [
+    {
+      "Konfidenzwert": 1,
+      "Beschreibung": "Target assigned is non-molecular",
+      "Zielzuordnung": "Non-molecular"
+    },
+    {
+      "Konfidenzwert": 2,
+      "Beschreibung": "Target assigned is subcellular fraction",
+      "Zielzuordnung": "Subcellular fraction"
+    },
+    {
+      "Konfidenzwert": 3,
+      "Beschreibung": "Target assigned is molecular non-protein target",
+      "Zielzuordnung": "Molecular (non-protein)"
+    },
+    {
+      "Konfidenzwert": 4,
+      "Beschreibung": "Multiple homologous protein targets may be assigned",
+      "Zielzuordnung": "Multiple homologous proteins"
+    },
+    {
+      "Konfidenzwert": 5,
+      "Beschreibung": "Multiple direct protein targets may be assigned",
+      "Zielzuordnung": "Multiple proteins"
+    }
+  ]
+}

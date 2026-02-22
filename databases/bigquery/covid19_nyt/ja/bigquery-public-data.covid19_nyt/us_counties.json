@@ -1,0 +1,86 @@
+{
+  "table_name": "us_counties",
+  "table_fullname": "bigquery-public-data.covid19_nyt.us_counties",
+  "column_names": [
+    "日付",
+    "郡",
+    "州名",
+    "郡FIPSコード",
+    "確定症例",
+    "死亡者数"
+  ],
+  "column_types": [
+    "DATE",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "日付",
+    "郡",
+    "州名",
+    "郡FIPSコード",
+    "確認済み症例",
+    "死亡"
+  ],
+  "nested_column_types": [
+    "DATE",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "INT64"
+  ],
+  "description": [
+    "報告日",
+    "指定された州の郡",
+    "州が報告した",
+    "郡の標準地理識別子",
+    "COVID-19の確定症例総数",
+    "COVID-19における確定死亡者総数"
+  ],
+  "sample_rows": [
+    {
+      "日付": "2022-01-01",
+      "郡": "Autauga",
+      "州名": "Alabama",
+      "郡FIPSコード": "01001",
+      "確認済み症例": 11018,
+      "死亡": 160
+    },
+    {
+      "日付": "2022-01-01",
+      "郡": "Baldwin",
+      "州名": "Alabama",
+      "郡FIPSコード": "01003",
+      "確認済み症例": 39911,
+      "死亡": 593
+    },
+    {
+      "日付": "2022-01-01",
+      "郡": "Barbour",
+      "州名": "Alabama",
+      "郡FIPSコード": "01005",
+      "確認済み症例": 3860,
+      "死亡": 81
+    },
+    {
+      "日付": "2022-01-01",
+      "郡": "Bibb",
+      "州名": "Alabama",
+      "郡FIPSコード": "01007",
+      "確認済み症例": 4533,
+      "死亡": 95
+    },
+    {
+      "日付": "2022-01-01",
+      "郡": "Blount",
+      "州名": "Alabama",
+      "郡FIPSコード": "01009",
+      "確認済み症例": 11256,
+      "死亡": 198
+    }
+  ]
+}

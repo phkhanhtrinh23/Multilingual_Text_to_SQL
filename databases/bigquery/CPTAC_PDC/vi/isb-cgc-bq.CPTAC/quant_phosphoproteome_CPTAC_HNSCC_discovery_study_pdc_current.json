@@ -1,0 +1,116 @@
+{
+  "table_name": "quant_phosphoproteome_CPTAC_HNSCC_discovery_study_pdc_current",
+  "table_fullname": "isb-cgc-bq.CPTAC.quant_phosphoproteome_CPTAC_HNSCC_discovery_study_pdc_current",
+  "column_names": [
+    "Mã trường hợp",
+    "định danh mẫu",
+    "ID mẫu",
+    "mã_aliquot_người_nộp",
+    "id_siêu_dữ_liệu_chạy_đợt_lấy_mẫu",
+    "Tên nghiên cứu",
+    "tỷ lệ log2 của hàm lượng protein",
+    "Mã RefSeq",
+    "địa điểm fosphoryl hóa"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "mã_vụ",
+    "mã mẫu",
+    "mã_aliquot",
+    "Mã người nộp mẫu",
+    "id_siêu_dữ_liệu_aliquot",
+    "Tên nghiên cứu",
+    "tỷ lệ log2 nồng độ protein",
+    "định danh RefSeq",
+    "địa điểm fosphorylation"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "Định danh duy nhất liên quan đến một bệnh nhân cụ thể (ví dụ 24cb0fcb-63d6-11e8-bcf1-0a2705229b82)",
+    "Định danh PDC duy nhất cho mẫu này (ví dụ: e8d83eb9-693a-11ea-b1fd-0aad30af8a83)",
+    "Định danh PDC duy nhất cho mẫu này (ví dụ: e8db124a-693a-11ea-b1fd-0aad30af8a83)",
+    "ID người gửi mẫu được gán bởi chương trình (ví dụ: T14)",
+    "Định danh duy nhất aliquot theo cách nó được sử dụng trong thí nghiệm (dựa trên chất dánh dấu và/hoặc bản sao sinh học)",
+    "Tên nghiên cứu (ví dụ: Nghiên cứu Thí điểm ung thư não trẻ em - Phosphoproteome)",
+    "Tỷ lệ log trung bình của ion báo cáo mẫu so với tham chiếu chung của ion peptide liên quan đến gen trong các bản thu từ một mẫu sinh học cụ thể.",
+    "Định danh duy nhất được gán cho một trình tự trong cơ sở dữ liệu NCBI RefSeq",
+    "Mã chữ cái đơn và vị trí chuỗi protein của các axit amin đã được fốt hóa (ví dụ: t304s310, t59)"
+  ],
+  "sample_rows": [
+    {
+      "mã_vụ": "df4ea6f3-8f98-11ea-b1fd-0aad30af8a83",
+      "mã mẫu": "df4f5bdb-8f98-11ea-b1fd-0aad30af8a83",
+      "mã_aliquot": "df507d6a-8f98-11ea-b1fd-0aad30af8a83",
+      "Mã người nộp mẫu": "CPT0278700002",
+      "id_siêu_dữ_liệu_aliquot": "422c0f92-8fab-11ea-bc9a-0a16d369a41f",
+      "Tên nghiên cứu": "CPTAC HNSCC Discovery Study - Phosphoproteome",
+      "tỷ lệ log2 nồng độ protein": 0.3506438760398335,
+      "định danh RefSeq": "NP_004577.1",
+      "địa điểm fosphorylation": "y234"
+    },
+    {
+      "mã_vụ": "df4eac21-8f98-11ea-b1fd-0aad30af8a83",
+      "mã mẫu": "df4f6605-8f98-11ea-b1fd-0aad30af8a83",
+      "mã_aliquot": "df508537-8f98-11ea-b1fd-0aad30af8a83",
+      "Mã người nộp mẫu": "CPT0248520003",
+      "id_siêu_dữ_liệu_aliquot": "422c12c8-8fab-11ea-bc9a-0a16d369a41f",
+      "Tên nghiên cứu": "CPTAC HNSCC Discovery Study - Phosphoproteome",
+      "tỷ lệ log2 nồng độ protein": -0.23414133269041515,
+      "định danh RefSeq": "NP_002017.1",
+      "địa điểm fosphorylation": "t524y525"
+    },
+    {
+      "mã_vụ": "df4ea6f3-8f98-11ea-b1fd-0aad30af8a83",
+      "mã mẫu": "df4f5bdb-8f98-11ea-b1fd-0aad30af8a83",
+      "mã_aliquot": "df507d6a-8f98-11ea-b1fd-0aad30af8a83",
+      "Mã người nộp mẫu": "CPT0278700002",
+      "id_siêu_dữ_liệu_aliquot": "422c0f92-8fab-11ea-bc9a-0a16d369a41f",
+      "Tên nghiên cứu": "CPTAC HNSCC Discovery Study - Phosphoproteome",
+      "tỷ lệ log2 nồng độ protein": -0.2008295081473152,
+      "định danh RefSeq": "NP_055953.3",
+      "địa điểm fosphorylation": "s697"
+    },
+    {
+      "mã_vụ": "df4efdf1-8f98-11ea-b1fd-0aad30af8a83",
+      "mã mẫu": "df4ffeb8-8f98-11ea-b1fd-0aad30af8a83",
+      "mã_aliquot": "df51044b-8f98-11ea-b1fd-0aad30af8a83",
+      "Mã người nộp mẫu": "CPT0246590003",
+      "id_siêu_dữ_liệu_aliquot": "422c19e5-8fab-11ea-bc9a-0a16d369a41f",
+      "Tên nghiên cứu": "CPTAC HNSCC Discovery Study - Phosphoproteome",
+      "tỷ lệ log2 nồng độ protein": -0.7727531217649894,
+      "định danh RefSeq": "NP_001136202.1",
+      "địa điểm fosphorylation": "s551"
+    },
+    {
+      "mã_vụ": "df4f1830-8f98-11ea-b1fd-0aad30af8a83",
+      "mã mẫu": "df502f10-8f98-11ea-b1fd-0aad30af8a83",
+      "mã_aliquot": "df512dbf-8f98-11ea-b1fd-0aad30af8a83",
+      "Mã người nộp mẫu": "CPT0222360003",
+      "id_siêu_dữ_liệu_aliquot": "422c0e8b-8fab-11ea-bc9a-0a16d369a41f",
+      "Tên nghiên cứu": "CPTAC HNSCC Discovery Study - Phosphoproteome",
+      "tỷ lệ log2 nồng độ protein": 0.5247810525842279,
+      "định danh RefSeq": "NP_000539.2",
+      "địa điểm fosphorylation": "s1411"
+    }
+  ]
+}

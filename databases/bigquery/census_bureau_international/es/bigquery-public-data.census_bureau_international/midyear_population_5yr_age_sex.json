@@ -1,0 +1,126 @@
+{
+  "table_name": "midyear_population_5yr_age_sex",
+  "table_fullname": "bigquery-public-data.census_bureau_international.midyear_population_5yr_age_sex",
+  "column_names": [
+    "código de país",
+    "nombre del país",
+    "año",
+    "bandera_total",
+    "edad inicial",
+    "indicador de grupo etario",
+    "edad final",
+    "población a mitad de año",
+    "población masculina a mitad de año",
+    "población_femenina_año_medio"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "INT64",
+    "STRING",
+    "INT64",
+    "STRING",
+    "INT64",
+    "INT64",
+    "INT64",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "código de país",
+    "nombre del país",
+    "Año",
+    "bandera_total",
+    "edad_inicial",
+    "indicador de grupo de edad",
+    "edad de finalización",
+    "población a mitad de año",
+    "población masculina a mitad de año",
+    "población_femenina_mitad_año"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "INT64",
+    "STRING",
+    "INT64",
+    "STRING",
+    "INT64",
+    "INT64",
+    "INT64",
+    "INT64"
+  ],
+  "description": [
+    "Código de país/área del Estándar Federal de Procesamiento de Información (FIPS)",
+    "Nombre del país o región",
+    "Año",
+    "Bandera total: \"*\" = Total, todas las edades; \"A\" = Grupo de edad individual.",
+    "Edad de inicio (0 a 100)",
+    "Indicador de grupo de edad: \"-\" = grupo de edad de 5 años; \"+\" = grupo de edad sin límite",
+    "Edad final (4 a 99; establecer a 0 si G=\"+\")",
+    "Población a mitad de año de ambos sexos en el grupo de edad",
+    "Población masculina a mitad del año en el grupo de edad",
+    "Población femenina a mitad de año en el grupo de edad"
+  ],
+  "sample_rows": [
+    {
+      "código de país": "AA",
+      "nombre del país": "Aruba",
+      "Año": 1981,
+      "bandera_total": "*",
+      "edad_inicial": 0,
+      "indicador de grupo de edad": "+",
+      "edad de finalización": 0,
+      "población a mitad de año": 60308,
+      "población masculina a mitad de año": 29332,
+      "población_femenina_mitad_año": 30976
+    },
+    {
+      "código de país": "AA",
+      "nombre del país": "Aruba",
+      "Año": 1982,
+      "bandera_total": "*",
+      "edad_inicial": 0,
+      "indicador de grupo de edad": "+",
+      "edad de finalización": 0,
+      "población a mitad de año": 61043,
+      "población masculina a mitad de año": 29669,
+      "población_femenina_mitad_año": 31374
+    },
+    {
+      "código de país": "AA",
+      "nombre del país": "Aruba",
+      "Año": 1983,
+      "bandera_total": "*",
+      "edad_inicial": 0,
+      "indicador de grupo de edad": "+",
+      "edad de finalización": 0,
+      "población a mitad de año": 62019,
+      "población masculina a mitad de año": 30134,
+      "población_femenina_mitad_año": 31885
+    },
+    {
+      "código de país": "AA",
+      "nombre del país": "Aruba",
+      "Año": 1984,
+      "bandera_total": "*",
+      "edad_inicial": 0,
+      "indicador de grupo de edad": "+",
+      "edad de finalización": 0,
+      "población a mitad de año": 62683,
+      "población masculina a mitad de año": 30432,
+      "población_femenina_mitad_año": 32251
+    },
+    {
+      "código de país": "AA",
+      "nombre del país": "Aruba",
+      "Año": 1985,
+      "bandera_total": "*",
+      "edad_inicial": 0,
+      "indicador de grupo de edad": "+",
+      "edad de finalización": 0,
+      "población a mitad de año": 61511,
+      "población masculina a mitad de año": 29750,
+      "población_femenina_mitad_año": 31761
+    }
+  ]
+}

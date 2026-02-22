@@ -1,0 +1,126 @@
+{
+  "table_name": "hail_reports",
+  "table_fullname": "bigquery-public-data.noaa_historic_severe_storms.hail_reports",
+  "column_names": [
+    "horodatage",
+    "heure",
+    "taille",
+    "emplacement",
+    "comté",
+    "état",
+    "latitude",
+    "longitude",
+    "commentaires",
+    "point_de_rapport"
+  ],
+  "column_types": [
+    "TIMESTAMP",
+    "STRING",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "FLOAT64",
+    "STRING",
+    "GEOGRAPHY"
+  ],
+  "nested_column_names": [
+    "horodatage",
+    "heure",
+    "taille",
+    "emplacement",
+    "comté",
+    "état",
+    "latitude",
+    "longitude",
+    "commentaires",
+    "point_de_rapport"
+  ],
+  "nested_column_types": [
+    "TIMESTAMP",
+    "STRING",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "FLOAT64",
+    "STRING",
+    "GEOGRAPHY"
+  ],
+  "description": [
+    "Horodatage en UTC",
+    "Heure en UTC",
+    "Taille en 1/100 de pouce (175 = 1,75 pouces)",
+    "Emplacement du rapport",
+    "",
+    "",
+    "Latitude à deux décimales",
+    "Longitude à deux décimales",
+    "",
+    ""
+  ],
+  "sample_rows": [
+    {
+      "horodatage": "2021-04-09 15:01:00+00:00",
+      "heure": "1501",
+      "taille": 150,
+      "emplacement": "4 ESE MARBURY",
+      "comté": "AUTAUGA",
+      "état": "AL",
+      "latitude": 32.67,
+      "longitude": -86.42,
+      "commentaires": "FORWARDED BY BROADCAST MEDIA VIA SOCIAL MEDIA. (BMX)",
+      "point_de_rapport": "POINT(-86.42 32.67)"
+    },
+    {
+      "horodatage": "2021-05-03 23:30:00+00:00",
+      "heure": "2330",
+      "taille": 100,
+      "emplacement": "3 NNE PRATTVILLE",
+      "comté": "AUTAUGA",
+      "état": "AL",
+      "latitude": 32.5,
+      "longitude": -86.44,
+      "commentaires": "QUARTER SIZE HAIL WAS REPORTED ON OLD RIDGE ROAD NORTH OF PRATTVILLE. (BMX)",
+      "point_de_rapport": "POINT(-86.44 32.5)"
+    },
+    {
+      "horodatage": "2021-04-10 08:20:00+00:00",
+      "heure": "0820",
+      "taille": 400,
+      "emplacement": "1 SSW ORANGE BEACH",
+      "comté": "BALDWIN",
+      "état": "AL",
+      "latitude": 30.27,
+      "longitude": -87.59,
+      "commentaires": "TWO SEPARATE PHOTOS SHOW HAIL NEAR SOFTBALL SIZE IN ORANGE BEACH. SIGNIFICANT HAIL DAMAGE REPORTED TO NUMEROUS VEHICLES AND METALS ROOFS IN THE AREA. (MOB)",
+      "point_de_rapport": "POINT(-87.59 30.27)"
+    },
+    {
+      "horodatage": "2021-04-10 08:40:00+00:00",
+      "heure": "0840",
+      "taille": 200,
+      "emplacement": "4 SW LILLIAN",
+      "comté": "BALDWIN",
+      "état": "AL",
+      "latitude": 30.38,
+      "longitude": -87.48,
+      "commentaires": "REPORT OF 2 INCH SIZE HAIL FURTHER INLAND (SOUTHWEST OF LILLIAN). (MOB)",
+      "point_de_rapport": "POINT(-87.48 30.38)"
+    },
+    {
+      "horodatage": "2021-04-15 12:56:00+00:00",
+      "heure": "1256",
+      "taille": 100,
+      "emplacement": "2 WSW FOLEY",
+      "comté": "BALDWIN",
+      "état": "AL",
+      "latitude": 30.39,
+      "longitude": -87.72,
+      "commentaires": "CORRECTS PREVIOUS HAIL REPORT FROM 2 WSW FOLEY. REPORT OF QUARTER-SIZE HAIL IN SOUTHWEST FOLEY. TIME AND LOCATION GIVEN BY LOCAL POLICE. (MOB)",
+      "point_de_rapport": "POINT(-87.72 30.39)"
+    }
+  ]
+}

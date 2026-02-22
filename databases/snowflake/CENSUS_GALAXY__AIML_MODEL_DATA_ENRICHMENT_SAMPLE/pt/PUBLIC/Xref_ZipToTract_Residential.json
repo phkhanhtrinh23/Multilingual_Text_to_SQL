@@ -1,0 +1,46 @@
+{
+  "sample_rows": [
+    {
+      "CodigoPostalDeOrigem": "11721",
+      "IDTractoDoEstadoDoCondadoDeDestino": "36103111300",
+      "RazaoDeMapeamentoResidencialZT": "0.271000000000000"
+    },
+    {
+      "CodigoPostalDeOrigem": "12551",
+      "IDTractoDoEstadoDoCondadoDeDestino": "36071000400",
+      "RazaoDeMapeamentoResidencialZT": "1.000000000000000"
+    },
+    {
+      "CodigoPostalDeOrigem": "13495",
+      "IDTractoDoEstadoDoCondadoDeDestino": "36065023400",
+      "RazaoDeMapeamentoResidencialZT": "0.114837398373984"
+    },
+    {
+      "CodigoPostalDeOrigem": "13495",
+      "IDTractoDoEstadoDoCondadoDeDestino": "36065023300",
+      "RazaoDeMapeamentoResidencialZT": "0.885162601626016"
+    },
+    {
+      "CodigoPostalDeOrigem": "12160",
+      "IDTractoDoEstadoDoCondadoDeDestino": "36095740100",
+      "RazaoDeMapeamentoResidencialZT": "0.424882629107981"
+    }
+  ],
+  "table_name": "Xref_ZipToTract_Residential",
+  "table_fullname": "CENSUS_GALAXY__AIML_MODEL_DATA_ENRICHMENT_SAMPLE.PUBLIC.Xref_ZipToTract_Residential",
+  "column_names": [
+    "CodigoPostalDeOrigem",
+    "IDTractoDoEstadoDoCondadoDeDestino",
+    "RazaoDeMapeamentoResidencialZT"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "NUMBER"
+  ],
+  "description": [
+    "O Código Postal dos EUA que se relaciona com o StateCountyTractID com base na proporção de residentes naquela região geográfica. Muitos Tracts podem sobrepor partes de Códigos Postais, e muitos Códigos Postais podem sobrepor partes de Tracts.",
+    "Uma chave composta única que usa StateFIPS, CountyFIPS, e Tract para um específico dentro de uma área geográfica. Este campo (e tabela) é para métricas e valores de rolagem do Código Postal para o nível de grupo de blocos de censo ou Tract.",
+    "As razões de residentes em cada Código Postal que são compostas por aquele Tract conectado. “ZT” como sufixo designa a direção dos dados, Código Postal para Tract (usualmente polígonos maiores para menores)."
+  ]
+}

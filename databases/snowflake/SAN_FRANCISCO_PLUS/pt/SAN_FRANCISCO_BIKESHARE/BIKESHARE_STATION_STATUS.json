@@ -1,0 +1,110 @@
+{
+  "table_name": "BIKESHARE_STATION_STATUS",
+  "table_fullname": "SAN_FRANCISCO_PLUS.SAN_FRANCISCO_BIKESHARE.BIKESHARE_STATION_STATUS",
+  "column_names": [
+    "esta_alugando",
+    "esta_instalado",
+    "id_estacao",
+    "num_bicicletas_disponiveis",
+    "eightd_tem_chaves_disponiveis",
+    "num_docas_desativadas",
+    "ultimo_relatorio",
+    "esta_devolvendo",
+    "num_ebicicletas_disponiveis",
+    "num_bicicletas_desativadas",
+    "num_docas_disponiveis"
+  ],
+  "column_types": [
+    "BOOLEAN",
+    "BOOLEAN",
+    "TEXT",
+    "NUMBER",
+    "BOOLEAN",
+    "NUMBER",
+    "NUMBER",
+    "BOOLEAN",
+    "NUMBER",
+    "NUMBER",
+    "NUMBER"
+  ],
+  "description": [
+    "1/0 boolean - a estação está atualmente alugando bicicletas (mesmo que a estação esteja vazia, se estiver configurada para permitir aluguéis, este valor deve ser 1)",
+    "1/0 boolean - a estação está atualmente na rua",
+    "Identificador único de uma estação",
+    "Número de bicicletas disponíveis para aluguel",
+    "",
+    "Número de pontos de dock vazios, mas desabilitados, na estação. Este valor permanece como parte da especificação, pois pode ser útil durante o desenvolvimento",
+    "Timestamp POSIX inteiro indicando a última vez que esta estação relatou seu status ao backend",
+    "1/0 boolean - a estação está aceitando devoluções de bicicletas (se uma estação estiver cheia, mas permitiria uma devolução se não estivesse cheia, então este valor deve ser 1)",
+    "",
+    "Número de bicicletas desabilitadas na estação. Fornecedores que não desejam divulgar o número de bicicletas ou docks desabilitados em seu sistema podem optar por omitir a capacidade da estação (em station_information), num_bikes_disabled e num_docks_disabled. Se a capacidade da estação for publicada, então docks/bicicletas quebrados podem ser inferidos (embora não especificamente se a capacidade reduzida é uma bicicleta ou dock quebrada)",
+    "Número de docks que aceitam devoluções de bicicletas"
+  ],
+  "sample_rows": [
+    {
+      "id_estacao": "46b4ef45-b06b-40eb-9fdf-9bc8ff104a4f",
+      "num_bicicletas_disponiveis": 0,
+      "num_bicicletas_desativadas": 0,
+      "num_docas_disponiveis": 15,
+      "num_docas_desativadas": 0,
+      "esta_instalado": true,
+      "esta_alugando": true,
+      "esta_devolvendo": true,
+      "ultimo_relatorio": 1729209514,
+      "num_ebicicletas_disponiveis": 0,
+      "eightd_tem_chaves_disponiveis": false
+    },
+    {
+      "id_estacao": "bb54f5c8-5578-4167-9599-8e55154de4fd",
+      "num_bicicletas_disponiveis": 0,
+      "num_bicicletas_desativadas": 0,
+      "num_docas_disponiveis": 27,
+      "num_docas_desativadas": 0,
+      "esta_instalado": true,
+      "esta_alugando": true,
+      "esta_devolvendo": true,
+      "ultimo_relatorio": 1729209462,
+      "num_ebicicletas_disponiveis": 0,
+      "eightd_tem_chaves_disponiveis": false
+    },
+    {
+      "id_estacao": "63b2136c-c947-473e-977e-8cc0e6347699",
+      "num_bicicletas_disponiveis": 0,
+      "num_bicicletas_desativadas": 0,
+      "num_docas_disponiveis": 19,
+      "num_docas_desativadas": 0,
+      "esta_instalado": true,
+      "esta_alugando": true,
+      "esta_devolvendo": true,
+      "ultimo_relatorio": 1729209551,
+      "num_ebicicletas_disponiveis": 0,
+      "eightd_tem_chaves_disponiveis": false
+    },
+    {
+      "id_estacao": "7dd926da-25ee-48fd-9de7-ad59a83f94a8",
+      "num_bicicletas_disponiveis": 0,
+      "num_bicicletas_desativadas": 0,
+      "num_docas_disponiveis": 31,
+      "num_docas_desativadas": 0,
+      "esta_instalado": true,
+      "esta_alugando": true,
+      "esta_devolvendo": true,
+      "ultimo_relatorio": 1729209544,
+      "num_ebicicletas_disponiveis": 0,
+      "eightd_tem_chaves_disponiveis": false
+    },
+    {
+      "id_estacao": "e70c8987-0178-46f2-941f-1fd0eb306ed9",
+      "num_bicicletas_disponiveis": 0,
+      "num_bicicletas_desativadas": 0,
+      "num_docas_disponiveis": 19,
+      "num_docas_desativadas": 0,
+      "esta_instalado": true,
+      "esta_alugando": true,
+      "esta_devolvendo": true,
+      "ultimo_relatorio": 1729209503,
+      "num_ebicicletas_disponiveis": 0,
+      "eightd_tem_chaves_disponiveis": false
+    }
+  ]
+}

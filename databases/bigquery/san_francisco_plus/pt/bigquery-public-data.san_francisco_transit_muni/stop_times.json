@@ -1,0 +1,116 @@
+{
+  "table_name": "stop_times",
+  "table_fullname": "bigquery-public-data.san_francisco_transit_muni.stop_times",
+  "column_names": [
+    "id_parada",
+    "id_viagem",
+    "sequencia_parada",
+    "hora_chegada",
+    "chega_no_proximo_dia",
+    "hora_partida",
+    "parte_no_proximo_dia",
+    "tipo_descarga",
+    "ponto_exato_de_hora"
+  ],
+  "column_types": [
+    "INT64",
+    "INT64",
+    "INT64",
+    "TIME",
+    "BOOL",
+    "TIME",
+    "BOOL",
+    "STRING",
+    "BOOL"
+  ],
+  "nested_column_names": [
+    "id_parada",
+    "id_viagem",
+    "sequencia_parada",
+    "hora_chegada",
+    "chega_no_dia_seguente",
+    "hora_partida",
+    "parte_no_dia_seguinte",
+    "tipo_descarga",
+    "ponto_exato_de_tempo"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "INT64",
+    "INT64",
+    "TIME",
+    "BOOL",
+    "TIME",
+    "BOOL",
+    "STRING",
+    "BOOL"
+  ],
+  "description": [
+    "Identifica a parada atendida. Múltiplas rotas podem usar a mesma parada.",
+    "Identifica uma viagem. Múltiplas viagens podem ter a mesma parada",
+    "Identifica a ordem das paradas para uma viagem específica. Os valores para stop_sequence devem aumentar ao longo da viagem, mas não precisam ser consecutivos.",
+    "Especifica o horário de chegada programado em uma parada específica para uma viagem específica em uma rota.",
+    "Várias rotas começam antes da meia-noite, com o serviço continuando durante a noite. Esta variável especifica se arrival_time ocorre após a meia-noite do dia seguinte ao dia programado. Isso é útil para identificar rotas que começam um dia e terminam no dia seguinte",
+    "Especifica o horário de partida programado em uma parada específica para uma viagem específica em uma rota.",
+    "Várias rotas começam antes da meia-noite, com o serviço continuando durante a noite. Esta variável especifica se departure_time ocorre após a meia-noite do dia seguinte ao dia programado. Isso é útil para identificar rotas que começam um dia e terminam no dia seguinte",
+    "\"Indica se os passageiros são deixados em uma parada como parte do cronograma normal ou se uma saída na parada não está disponível. Opções disponíveis: - regular - none - phone (indica que deve ligar para a agência para arranjar a saída) - driver (indica que deve coordenar com o motorista para arranjar a saída)\"",
+    "Indica se os horários de chegada e partida especificados para uma parada são rigorosamente seguidos pelo veículo de transporte, ou se são, em vez disso, horários aproximados ou interpolados."
+  ],
+  "sample_rows": [
+    {
+      "id_parada": 15759,
+      "id_viagem": 8951406,
+      "sequencia_parada": 51,
+      "hora_chegada": "06:54:55",
+      "chega_no_dia_seguente": false,
+      "hora_partida": "06:54:55",
+      "parte_no_dia_seguinte": false,
+      "tipo_descarga": "regular",
+      "ponto_exato_de_tempo": false
+    },
+    {
+      "id_parada": 15761,
+      "id_viagem": 8951406,
+      "sequencia_parada": 52,
+      "hora_chegada": "06:55:33",
+      "chega_no_dia_seguente": false,
+      "hora_partida": "06:55:33",
+      "parte_no_dia_seguinte": false,
+      "tipo_descarga": "regular",
+      "ponto_exato_de_tempo": false
+    },
+    {
+      "id_parada": 15763,
+      "id_viagem": 8951406,
+      "sequencia_parada": 53,
+      "hora_chegada": "06:56:04",
+      "chega_no_dia_seguente": false,
+      "hora_partida": "06:56:04",
+      "parte_no_dia_seguinte": false,
+      "tipo_descarga": "regular",
+      "ponto_exato_de_tempo": false
+    },
+    {
+      "id_parada": 15828,
+      "id_viagem": 8951406,
+      "sequencia_parada": 54,
+      "hora_chegada": "06:57:00",
+      "chega_no_dia_seguente": false,
+      "hora_partida": "06:57:00",
+      "parte_no_dia_seguinte": false,
+      "tipo_descarga": "regular",
+      "ponto_exato_de_tempo": true
+    },
+    {
+      "id_parada": 15759,
+      "id_viagem": 8951253,
+      "sequencia_parada": 51,
+      "hora_chegada": "06:54:55",
+      "chega_no_dia_seguente": false,
+      "hora_partida": "06:54:55",
+      "parte_no_dia_seguinte": false,
+      "tipo_descarga": "regular",
+      "ponto_exato_de_tempo": false
+    }
+  ]
+}

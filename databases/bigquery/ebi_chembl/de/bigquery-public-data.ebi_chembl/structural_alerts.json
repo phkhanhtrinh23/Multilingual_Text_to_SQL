@@ -1,0 +1,66 @@
+{
+  "table_name": "structural_alerts",
+  "table_fullname": "bigquery-public-data.ebi_chembl.structural_alerts",
+  "column_names": [
+    "Alarm-ID",
+    "Alarm-Gruppe-ID",
+    "Alarmname",
+    "Schlauheit"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "Alarm-ID",
+    "Alarm-Set-ID",
+    "Alarm-Name",
+    "Intelligenz"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "sample_rows": [
+    {
+      "Alarm-ID": "1",
+      "Alarm-Set-ID": "1",
+      "Alarm-Name": "R1 Reactive alkyl halides",
+      "Intelligenz": "[Br,Cl,I][CX4;CH,CH2]"
+    },
+    {
+      "Alarm-ID": "2",
+      "Alarm-Set-ID": "1",
+      "Alarm-Name": "R2 Acid halides",
+      "Intelligenz": "[S,C](=[O,S])[F,Br,Cl,I]"
+    },
+    {
+      "Alarm-ID": "3",
+      "Alarm-Set-ID": "1",
+      "Alarm-Name": "R3 Carbazides",
+      "Intelligenz": "O=CN=[N+]=[N-]"
+    },
+    {
+      "Alarm-ID": "4",
+      "Alarm-Set-ID": "1",
+      "Alarm-Name": "R4 Sulphate esters",
+      "Intelligenz": "COS(=O)O[C,c]"
+    },
+    {
+      "Alarm-ID": "5",
+      "Alarm-Set-ID": "1",
+      "Alarm-Name": "R5 Sulphonates",
+      "Intelligenz": "COS(=O)(=O)[C,c]"
+    }
+  ]
+}

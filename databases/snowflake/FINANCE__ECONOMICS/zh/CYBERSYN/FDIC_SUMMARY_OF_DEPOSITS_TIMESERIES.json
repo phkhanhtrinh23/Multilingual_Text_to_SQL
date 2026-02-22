@@ -1,0 +1,78 @@
+{
+  "sample_rows": [
+    {
+      "FDIC机构编号": "2239",
+      "FDIC分支机构编号": "286466",
+      "变量": "DEPSUMBR",
+      "变量名": "Branch Deposits",
+      "日期": "2023-06-30",
+      "价值": 119632,
+      "单位": "USD"
+    },
+    {
+      "FDIC机构编号": "6499",
+      "FDIC分支机构编号": "6499",
+      "变量": "DEPSUMBR",
+      "变量名": "Branch Deposits",
+      "日期": "2017-06-30",
+      "价值": 59230,
+      "单位": "USD"
+    },
+    {
+      "FDIC机构编号": "417",
+      "FDIC分支机构编号": "481396",
+      "变量": "DEPSUMBR",
+      "变量名": "Branch Deposits",
+      "日期": "2014-06-30",
+      "价值": 35943,
+      "单位": "USD"
+    },
+    {
+      "FDIC机构编号": "3123",
+      "FDIC分支机构编号": "203999",
+      "变量": "DEPSUMBR",
+      "变量名": "Branch Deposits",
+      "日期": "2016-06-30",
+      "价值": 85928,
+      "单位": "USD"
+    },
+    {
+      "FDIC机构编号": "745",
+      "FDIC分支机构编号": "745",
+      "变量": "ASSET",
+      "变量名": "Institutional Assets",
+      "日期": "2007-06-30",
+      "价值": 133714,
+      "单位": "USD"
+    }
+  ],
+  "table_name": "FDIC_SUMMARY_OF_DEPOSITS_TIMESERIES",
+  "table_fullname": "FINANCE__ECONOMICS.CYBERSYN.FDIC_SUMMARY_OF_DEPOSITS_TIMESERIES",
+  "column_names": [
+    "价值",
+    "日期",
+    "FDIC机构编号",
+    "单位",
+    "变量",
+    "FDIC分支机构编号",
+    "变量名"
+  ],
+  "column_types": [
+    "NUMBER",
+    "DATE",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "为该变量报告的值",
+    "与该值相关的日期。",
+    "拥有该分行的机构的唯一 FDIC ID。它是一个唯一的编号，按顺序添加到 FDIC 数据库中，适用于银行和分行。每次合并或购买分行时，该 ID 都会更新，以反映最新的所有者。",
+    "测量记录所使用的单位（例如，美元年初至今）",
+    "跟踪金融数据的唯一 FDIC 标识符",
+    "由 FDIC 分配给银行或储蓄机构的唯一编号，用于识别和追踪。总部分行的分行 ID 与整个银行或储蓄机构的分行 ID 相同。",
+    "FDIC 跟踪的金融数据变量的可读描述"
+  ]
+}

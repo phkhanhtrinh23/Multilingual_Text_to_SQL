@@ -1,0 +1,86 @@
+{
+  "table_name": " vision_2016",
+  "table_fullname": "bigquery-public-data.nhtsa_traffic_fatalities. vision_2016",
+  "column_names": [
+    "số trạng thái",
+    "tên bang",
+    "số liên tiếp",
+    "Số xe",
+    "tầm nhìn của tài xế bị che khuất bởi",
+    "Tầm nhìn của tài xế bị che khuất bởi tên"
+  ],
+  "column_types": [
+    "INT64",
+    "STRING",
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "số trạng thái",
+    "tên bang",
+    "số liên tiếp",
+    "Số xe",
+    "tầm nhìn của tài xế bị che khuất bởi",
+    "thị lực người lái xe bị che khuất bởi tên"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "STRING",
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING"
+  ],
+  "description": [
+    "Mục dữ liệu này xác định bang nơi tai nạn xảy ra. Các mã được lấy từ ấn phẩm Mã Vị trí Địa lý Toàn cầu (GLC) của Cục Quản lý Dịch vụ Chung (GSA). Để biết thêm thông tin về các mã, vui lòng xem phần <C1/V1/D1/PC1/P1/NM1 State Number> trong tài liệu PDF: https://crashstats.nhtsa.dot.gov/Api/Public/ViewPublication/812315",
+    "Phần dữ liệu này xác định bang nơi tai nạn đã xảy ra. Các mã được lấy từ ấn phẩm của Cục Dịch vụ Chung (GSA) về Mã Địa điểm Địa lý Toàn cầu (GLC).",
+    "Phần tử dữ liệu này là số vụ duy nhất được gán cho mỗi tai nạn. Nó xuất hiện trong từng tệp dữ liệu và được sử dụng để hợp nhất thông tin từ các tệp dữ liệu cùng nhau. xxxxxx Hai ký tự cho Mã Bang theo sau bởi Bốn ký tự cho Số Vụ",
+    "Phần tử dữ liệu này là số thứ tự liên tiếp được gán cho mỗi phương tiện trong trường hợp. Phần tử dữ liệu này xuất hiện trên mỗi tệp dữ liệu cấp phương tiện và được sử dụng kết hợp với phần tử dữ liệu ST_CASE để hợp nhất thông tin từ các tệp dữ liệu cấp phương tiện. 000-999 Số đã được gán của phương tiện giao thông",
+    "Yếu tố dữ liệu này ghi nhận các rào cản đối với tầm nhìn của tài xế này được ghi chú trong tài liệu vụ việc. Để biết thêm thông tin về các mã, vui lòng xem phần <PC14 Driver’s Vision Obscured by> trong tài liệu PDF: https://crashstats.nhtsa.dot.gov/Api/Public/ViewPublication/812315",
+    "Phần dữ liệu này ghi lại các rào cản trong tầm nhìn của tài xế này đã được ghi nhận trong tài liệu vụ việc. Để biết thêm thông tin về các mã, vui lòng xem phần <PC14 Driver’s Vision Obscured by> trong tệp PDF: https://crashstats.nhtsa.dot.gov/Api/Public/ViewPublication/812315"
+  ],
+  "sample_rows": [
+    {
+      "số trạng thái": 1,
+      "tên bang": "Alabama",
+      "số liên tiếp": 10264,
+      "Số xe": 5,
+      "tầm nhìn của tài xế bị che khuất bởi": 0,
+      "thị lực người lái xe bị che khuất bởi tên": "No Obstruction Noted"
+    },
+    {
+      "số trạng thái": 1,
+      "tên bang": "Alabama",
+      "số liên tiếp": 10762,
+      "Số xe": 5,
+      "tầm nhìn của tài xế bị che khuất bởi": 0,
+      "thị lực người lái xe bị che khuất bởi tên": "No Obstruction Noted"
+    },
+    {
+      "số trạng thái": 1,
+      "tên bang": "Alabama",
+      "số liên tiếp": 10762,
+      "Số xe": 6,
+      "tầm nhìn của tài xế bị che khuất bởi": 0,
+      "thị lực người lái xe bị che khuất bởi tên": "No Obstruction Noted"
+    },
+    {
+      "số trạng thái": 1,
+      "tên bang": "Alabama",
+      "số liên tiếp": 10845,
+      "Số xe": 5,
+      "tầm nhìn của tài xế bị che khuất bởi": 0,
+      "thị lực người lái xe bị che khuất bởi tên": "No Obstruction Noted"
+    },
+    {
+      "số trạng thái": 1,
+      "tên bang": "Alabama",
+      "số liên tiếp": 10878,
+      "Số xe": 5,
+      "tầm nhìn của tài xế bị che khuất bởi": 0,
+      "thị lực người lái xe bị che khuất bởi tên": "No Obstruction Noted"
+    }
+  ]
+}

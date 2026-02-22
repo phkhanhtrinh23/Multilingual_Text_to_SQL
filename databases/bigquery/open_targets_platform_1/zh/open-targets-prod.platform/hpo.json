@@ -1,0 +1,142 @@
+{
+  "table_name": "hpo",
+  "table_fullname": "open-targets-prod.platform.hpo",
+  "column_names": [
+    "数据库交叉引用",
+    "描述",
+    "编号",
+    "姓名",
+    "命名空间",
+    "过时术语",
+    "父母"
+  ],
+  "column_types": [
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>"
+  ],
+  "nested_column_names": [
+    "数据库交叉引用",
+    "数据库交叉引用列表",
+    "数据库交叉引用列表元素",
+    "描述",
+    "编号",
+    "姓名",
+    "命名空间",
+    "命名空间列表",
+    "命名空间列表元素",
+    "过时术语",
+    "过时术语列表",
+    "过时术语列表元素",
+    "父母",
+    "父母列表",
+    "父母列表元素"
+  ],
+  "nested_column_types": [
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+    "ARRAY<STRUCT<element STRING>>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+    "ARRAY<STRUCT<element STRING>>",
+    "STRING",
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+    "ARRAY<STRUCT<element STRING>>",
+    "STRING",
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+    "ARRAY<STRUCT<element STRING>>",
+    "STRING"
+  ],
+  "description": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "sample_rows": [
+    {
+      "数据库交叉引用": null,
+      "描述": null,
+      "编号": "CL_1001567",
+      "姓名": "lung endothelial cell",
+      "命名空间": {
+        "list": "[{'element': 'cl'}]"
+      },
+      "过时术语": null,
+      "父母": {
+        "list": "[{'element': 'b43134'} {'element': 'CL_0000082'} {'element': 'CL_0002139'}]"
+      }
+    },
+    {
+      "数据库交叉引用": {
+        "list": "[{'element': 'BTO:0001141'}]"
+      },
+      "描述": null,
+      "编号": "CL_1001568",
+      "姓名": "pulmonary artery endothelial cell",
+      "命名空间": {
+        "list": "[{'element': 'cl'}]"
+      },
+      "过时术语": null,
+      "父母": {
+        "list": "[{'element': 'b44524'} {'element': 'CL_1000413'}]"
+      }
+    },
+    {
+      "数据库交叉引用": null,
+      "描述": "The various hormone- or neurotransmitter-secreting cells present throughout the mucosa of the intestinal tract.",
+      "编号": "CL_1001516",
+      "姓名": "intestinal enteroendocrine cell",
+      "命名空间": {
+        "list": "[{'element': 'cl'}]"
+      },
+      "过时术语": null,
+      "父母": {
+        "list": "[{'element': 'CL_0002563'} {'element': 'CL_0000164'}]"
+      }
+    },
+    {
+      "数据库交叉引用": null,
+      "描述": null,
+      "编号": "BFO_0000019",
+      "姓名": "quality",
+      "命名空间": {
+        "list": "[{'element': 'bfo'}]"
+      },
+      "过时术语": null,
+      "父母": {
+        "list": "[{'element': 'b24511'} {'element': 'BFO_0000020'}]"
+      }
+    },
+    {
+      "数据库交叉引用": null,
+      "描述": "An independent continuant that is spatially extended whose identity is independent of that of other entities and can be maintained through time.",
+      "编号": "BFO_0000040",
+      "姓名": "material entity",
+      "命名空间": {
+        "list": "[{'element': 'bfo'}]"
+      },
+      "过时术语": null,
+      "父母": {
+        "list": "[{'element': 'BFO_0000004'}]"
+      }
+    }
+  ]
+}

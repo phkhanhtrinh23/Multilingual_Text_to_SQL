@@ -1,0 +1,86 @@
+{
+  "table_name": "sources_v1",
+  "table_fullname": "isb-cgc-bq.targetome_versioned.sources_v1",
+  "column_names": [
+    "ID de fuente",
+    "ID de PubMed",
+    "Nombre de la base de datos",
+    "versión de la base de datos",
+    "URL de descarga",
+    "fechaDescargaBD"
+  ],
+  "column_types": [
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "ID de origen",
+    "ID de PubMed",
+    "nombre de la base de datos",
+    "versión_bd",
+    "URL de descarga",
+    "fechaDescargaBD"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "ID de la fuente que respalda la interacción Targetome",
+    "PubMedID que identifica literatura",
+    "Nombre de la base de datos de la que se obtienen las evidencias y la literatura de soporte",
+    "Versión de la base de datos",
+    "URL desde la que se descargó la base de datos",
+    "Fecha en que se descargó la base de datos"
+  ],
+  "sample_rows": [
+    {
+      "ID de origen": 1,
+      "ID de PubMed": "7565620",
+      "nombre de la base de datos": "IUPHAR",
+      "versión_bd": null,
+      "URL de descarga": null,
+      "fechaDescargaBD": "06.15.2016"
+    },
+    {
+      "ID de origen": 2,
+      "ID de PubMed": "11489465",
+      "nombre de la base de datos": "IUPHAR",
+      "versión_bd": null,
+      "URL de descarga": null,
+      "fechaDescargaBD": "06.15.2016"
+    },
+    {
+      "ID de origen": 3,
+      "ID de PubMed": "8818349",
+      "nombre de la base de datos": "IUPHAR",
+      "versión_bd": null,
+      "URL de descarga": null,
+      "fechaDescargaBD": "06.15.2016"
+    },
+    {
+      "ID de origen": 4,
+      "ID de PubMed": "20724042",
+      "nombre de la base de datos": "IUPHAR",
+      "versión_bd": null,
+      "URL de descarga": null,
+      "fechaDescargaBD": "06.15.2016"
+    },
+    {
+      "ID de origen": 5,
+      "ID de PubMed": "12543790",
+      "nombre de la base de datos": "IUPHAR",
+      "versión_bd": null,
+      "URL de descarga": null,
+      "fechaDescargaBD": "06.15.2016"
+    }
+  ]
+}

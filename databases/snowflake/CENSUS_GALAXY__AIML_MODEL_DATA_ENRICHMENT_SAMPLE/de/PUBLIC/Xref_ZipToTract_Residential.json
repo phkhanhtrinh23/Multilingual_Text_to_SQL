@@ -1,0 +1,46 @@
+{
+  "sample_rows": [
+    {
+      "VonPostleitzahl": "11721",
+      "ZuBundeslandKreisSchachtID": "36103111300",
+      "WohnlichkeitsZuordnungsVerhältnisZT": "0.271000000000000"
+    },
+    {
+      "VonPostleitzahl": "12551",
+      "ZuBundeslandKreisSchachtID": "36071000400",
+      "WohnlichkeitsZuordnungsVerhältnisZT": "1.000000000000000"
+    },
+    {
+      "VonPostleitzahl": "13495",
+      "ZuBundeslandKreisSchachtID": "36065023400",
+      "WohnlichkeitsZuordnungsVerhältnisZT": "0.114837398373984"
+    },
+    {
+      "VonPostleitzahl": "13495",
+      "ZuBundeslandKreisSchachtID": "36065023300",
+      "WohnlichkeitsZuordnungsVerhältnisZT": "0.885162601626016"
+    },
+    {
+      "VonPostleitzahl": "12160",
+      "ZuBundeslandKreisSchachtID": "36095740100",
+      "WohnlichkeitsZuordnungsVerhältnisZT": "0.424882629107981"
+    }
+  ],
+  "table_name": "Xref_ZipToTract_Residential",
+  "table_fullname": "CENSUS_GALAXY__AIML_MODEL_DATA_ENRICHMENT_SAMPLE.PUBLIC.Xref_ZipToTract_Residential",
+  "column_names": [
+    "VonPostleitzahl",
+    "ZuBundeslandKreisSchachtID",
+    "WohnlichkeitsZuordnungsVerhältnisZT"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "NUMBER"
+  ],
+  "description": [
+    "Die U.S.-Postal-Service-Zip-Code, die mit der StateCountyTractID in Beziehung steht, basierend auf dem Verhältnis der Einwohner in dieser geografischen Region. Viele Tracts können Teile von Zip-Codes überlappen und viele Zip-Codes können Teile von Tracts überlappen.",
+    "Ein eindeutiger Identifikator-Schlüssel, der aus StateFIPS, CountyFIPS und Tract für ein bestimmtes Gebiet innerhalb eines geografischen Gebiets besteht. Dieses Feld (und die Tabelle) dient zum Übertragen von Metriken und Werten vom Zip-Code auf die Ebene der Census-Blockgruppe oder des Tracts.",
+    "Die Verhältnisse der Einwohner in jedem Zip-Code, die durch den verbundenen Tract gebildet werden. \"ZT\" als Suffix bezeichnet die Richtung der Daten, Zip-Code zu Tract (in der Regel größere Polygone in kleinere)."
+  ]
+}

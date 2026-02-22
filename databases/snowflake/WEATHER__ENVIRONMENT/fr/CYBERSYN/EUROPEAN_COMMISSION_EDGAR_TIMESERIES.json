@@ -1,0 +1,70 @@
+{
+  "sample_rows": [
+    {
+      "ID_GEO": "country/LAO",
+      "VARIABLE": "nitrous_oxide_n2o_emissions_from_biogenic_sources_emissions_from_biomass_burning_ipcc_2006,_monthly",
+      "NOM_DE_VARIABLE": "Nitrous Oxide (N2O) Emissions from Biogenic Sources | Emissions from biomass burning (IPCC 2006), Monthly",
+      "DATE": "1970-04-30",
+      "VALEUR": 13.07,
+      "UNITE": "Metric Ton"
+    },
+    {
+      "ID_GEO": "country/KEN",
+      "VARIABLE": "methane_ch4_emissions_from_biogenic_sources_manufacturing_industries_and_construction_ipcc_2006,_monthly",
+      "NOM_DE_VARIABLE": "Methane (CH4) Emissions from Biogenic Sources | Manufacturing Industries and Construction (IPCC 2006), Monthly",
+      "DATE": "2019-11-30",
+      "VALEUR": 3.58,
+      "UNITE": "Metric Ton"
+    },
+    {
+      "ID_GEO": "country/SGP",
+      "VARIABLE": "methane_ch4_emissions_from_fossil_fuel_sources_solid_waste_disposal_ipcc_2006,_monthly",
+      "NOM_DE_VARIABLE": "Methane (CH4) Emissions from Fossil Fuel Sources | Solid Waste Disposal (IPCC 2006), Monthly",
+      "DATE": "2019-10-31",
+      "VALEUR": 2004.43,
+      "UNITE": "Metric Ton"
+    },
+    {
+      "ID_GEO": "country/NZL",
+      "VARIABLE": "methane_ch4_emissions_from_biogenic_sources_residential_and_other_sectors_ipcc_1996,_monthly",
+      "NOM_DE_VARIABLE": "Methane (CH4) Emissions from Biogenic Sources | Residential and other sectors (IPCC 1996), Monthly",
+      "DATE": "1984-02-29",
+      "VALEUR": 52.54,
+      "UNITE": "Metric Ton"
+    },
+    {
+      "ID_GEO": "country/PHL",
+      "VARIABLE": "nitrous_oxide_n2o_emissions_from_biogenic_sources_residential_and_other_sectors_ipcc_2006,_monthly",
+      "NOM_DE_VARIABLE": "Nitrous Oxide (N2O) Emissions from Biogenic Sources | Residential and other sectors (IPCC 2006), Monthly",
+      "DATE": "1996-11-30",
+      "VALEUR": 85.55,
+      "UNITE": "Metric Ton"
+    }
+  ],
+  "table_name": "EUROPEAN_COMMISSION_EDGAR_TIMESERIES",
+  "table_fullname": "WEATHER__ENVIRONMENT.CYBERSYN.EUROPEAN_COMMISSION_EDGAR_TIMESERIES",
+  "column_names": [
+    "VALEUR",
+    "DATE",
+    "NOM_DE_VARIABLE",
+    "VARIABLE",
+    "ID_GEO",
+    "UNITE"
+  ],
+  "column_types": [
+    "FLOAT",
+    "DATE",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Valeur signalée pour la variable.",
+    "Date associée à la valeur.",
+    "Nom unique lisible par l'homme pour la variable.",
+    "Identifiant unique pour une variable, joignable à la table `timeseries`.",
+    "Un identifiant unique pour un lieu. Joignable à d'autres tables de géographie, notamment `GEOGRAPHY_INDEX`, `GEOGRAPHY_RELATIONSHIPS` et `GEOGRAPHY_CHARACTERISTICS`.",
+    "Unité de mesure pour la valeur signalée."
+  ]
+}

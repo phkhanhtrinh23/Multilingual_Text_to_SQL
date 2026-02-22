@@ -1,0 +1,70 @@
+{
+  "sample_rows": [
+    {
+      "GEO_ID": "zip/55032",
+      "GEO_Name": "55032",
+      "Variable": "outbound_address_changes_temporary",
+      "VARIABLE_NAME": "Outbound Address Changes, Temporary",
+      "Datum": "2020-08-31",
+      "Wert": 0
+    },
+    {
+      "GEO_ID": "geoId/2555745",
+      "GEO_Name": "Quincy",
+      "Variable": "inbound_address_changes_permanent",
+      "VARIABLE_NAME": "Inbound Address Changes, Permanent",
+      "Datum": "2023-06-30",
+      "Wert": 582
+    },
+    {
+      "GEO_ID": "geoId/3362500",
+      "GEO_Name": "Plaistow",
+      "Variable": "net_address_changes_individuals",
+      "VARIABLE_NAME": "Net Address Changes, Individuals",
+      "Datum": "2021-08-31",
+      "Wert": 4
+    },
+    {
+      "GEO_ID": "zip/72132",
+      "GEO_Name": "72132",
+      "Variable": "inbound_address_changes_businesses",
+      "VARIABLE_NAME": "Inbound Address Changes, Businesses",
+      "Datum": "2022-12-31",
+      "Wert": 0
+    },
+    {
+      "GEO_ID": "geoId/3703960",
+      "GEO_Name": "Bayboro",
+      "Variable": "outbound_address_changes_families",
+      "VARIABLE_NAME": "Outbound Address Changes, Families",
+      "Datum": "2023-02-28",
+      "Wert": 0
+    }
+  ],
+  "table_name": "USPS_ADDRESS_CHANGE_TIMESERIES",
+  "table_fullname": "US_REAL_ESTATE.CYBERSYN.USPS_ADDRESS_CHANGE_TIMESERIES",
+  "column_names": [
+    "VARIABLE_NAME",
+    "Datum",
+    "Variable",
+    "GEO_Name",
+    "GEO_ID",
+    "Wert"
+  ],
+  "column_types": [
+    "TEXT",
+    "DATE",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "NUMBER"
+  ],
+  "description": [
+    "Eine menschlich lesbare Beschreibung der Variable",
+    "Datum, das dem Datenpunkt entspricht. Beachten Sie, dass Daten als Enddatum des Messzeitraums aufgezeichnet werden, wenn der Messzeitraum > 1 Tag beträgt",
+    "Ein eindeutiger Identifikator, der mit der `attributes`-Tabelle verknüpft werden kann",
+    "Ortsname des Bundeslandes, der Stadt oder der Postleitzahl",
+    "Ein eindeutiger Identifikator für einen Ort (z. B. Bundesland, Stadt, Postleitzahl usw.). Verknüpfbar mit der `geography_index`-/`relationships`-Tabelle zur Filterung der Regionenaggregation",
+    "Der numerische Wert der gemeldeten Variable"
+  ]
+}

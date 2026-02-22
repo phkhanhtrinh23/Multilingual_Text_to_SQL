@@ -1,0 +1,56 @@
+{
+  "table_name": "component_go_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.component_go_30",
+  "column_names": [
+    "id_objetivo_compañía",
+    "id_del_componente",
+    "identificador de go"
+  ],
+  "column_types": [
+    "INT64",
+    "INT64",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "id_objetivo_empresa",
+    "id_componente",
+    "id_go"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "INT64",
+    "STRING"
+  ],
+  "description": [
+    "Clave primaria",
+    "Clave externa a la tabla COMPONENT_SEQUENCES.  \nEl componente proteico al que corresponde este término GO.",
+    "Clave foránea hacia la tabla GO_CLASSIFICATION. El término GO al que se asigna este proteín."
+  ],
+  "sample_rows": [
+    {
+      "id_objetivo_empresa": 1812346,
+      "id_componente": 1466,
+      "id_go": "GO:0000003"
+    },
+    {
+      "id_objetivo_empresa": 1825428,
+      "id_componente": 2345,
+      "id_go": "GO:0000003"
+    },
+    {
+      "id_objetivo_empresa": 1845101,
+      "id_componente": 3697,
+      "id_go": "GO:0000003"
+    },
+    {
+      "id_objetivo_empresa": 1851277,
+      "id_componente": 4115,
+      "id_go": "GO:0000003"
+    },
+    {
+      "id_objetivo_empresa": 1854407,
+      "id_componente": 4337,
+      "id_go": "GO:0000003"
+    }
+  ]
+}

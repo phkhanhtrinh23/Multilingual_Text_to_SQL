@@ -1,0 +1,78 @@
+{
+  "sample_rows": [
+    {
+      "ID_GEO": "zip/47578",
+      "VARIABLE": "Total_income_-_Amount,_AGI_bin:_$100,000_under_$200,000",
+      "Nombre de variable": "Total income - Amount, AGI bin: $100,000 under $200,000",
+      "Fecha": "2018-12-31",
+      "VALOR": 5096000.0,
+      "Unidad": "USD",
+      "Suprimido": false
+    },
+    {
+      "ID_GEO": "zip/88337",
+      "VARIABLE": "Total_taxes_paid_-_Number_of_returns,_AGI_bin:_$100,000_under_$200,000",
+      "Nombre de variable": "Total taxes paid - Number of returns, AGI bin: $100,000 under $200,000",
+      "Fecha": "2011-12-31",
+      "VALOR": 69.0,
+      "Unidad": "Returns",
+      "Suprimido": false
+    },
+    {
+      "ID_GEO": "zip/50167",
+      "VARIABLE": "Total_premium_tax_credit_-_Amount,_AGI_bin:_$100,000_under_$200,000",
+      "Nombre de variable": "Total premium tax credit - Amount, AGI bin: $100,000 under $200,000",
+      "Fecha": "2017-12-31",
+      "VALOR": 0.0,
+      "Unidad": "USD",
+      "Suprimido": false
+    },
+    {
+      "ID_GEO": "zip/50543",
+      "VARIABLE": "Taxable_income_-_Amount,_AGI_bin:_$200,000_or_more",
+      "Nombre de variable": "Taxable income - Amount, AGI bin: $200,000 or more",
+      "Fecha": "2017-12-31",
+      "VALOR": null,
+      "Unidad": "USD",
+      "Suprimido": true
+    },
+    {
+      "ID_GEO": "zip/50643",
+      "VARIABLE": "Child_tax_credit_-_Amount,_AGI_bin:_$75,000_under_$100,000",
+      "Nombre de variable": "Child tax credit - Amount, AGI bin: $75,000 under $100,000",
+      "Fecha": "2017-12-31",
+      "VALOR": 128000.0,
+      "Unidad": "USD",
+      "Suprimido": false
+    }
+  ],
+  "table_name": "IRS_INDIVIDUAL_INCOME_TIMESERIES",
+  "table_fullname": "US_REAL_ESTATE.CYBERSYN.IRS_INDIVIDUAL_INCOME_TIMESERIES",
+  "column_names": [
+    "Suprimido",
+    "Fecha",
+    "VARIABLE",
+    "Nombre de variable",
+    "ID_GEO",
+    "Unidad",
+    "VALOR"
+  ],
+  "column_types": [
+    "BOOLEAN",
+    "DATE",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "FLOAT"
+  ],
+  "description": [
+    "Booleano que indica si el valor ha sido suprimido en los datos subyacentes por motivos de privacidad. Los valores suprimidos aparecen como NULL.",
+    "Fecha asociada con el valor; para los datos de ingresos por código postal individual, es el último día del año que se reporta.",
+    "Un identificador único para una variable que se pueda unir a la tabla de atributos",
+    "Nombre legible por humanos para la variable",
+    "Un identificador único para un lugar (estado, condado, código postal) que se pueda unir a las tablas geography_index/relationships",
+    "Unidad de medida del valor, ejemplos: USD, retornos, individuos, dependientes",
+    "El valor numérico real de la variable. Los valores suprimidos son Null."
+  ]
+}

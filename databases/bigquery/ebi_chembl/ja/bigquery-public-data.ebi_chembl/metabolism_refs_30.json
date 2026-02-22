@@ -1,0 +1,76 @@
+{
+  "table_name": "metabolism_refs_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.metabolism_refs_30",
+  "column_names": [
+    "メタデータ参照ID",
+    "ミーティングID",
+    "参照タイプ",
+    "参照ID",
+    "参照URL"
+  ],
+  "column_types": [
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "メトリック参照ID",
+    "メタID",
+    "参照種別",
+    "参照ID",
+    "参照URL"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "主キー",
+    "record_metabolism テーブルへの外部キー - 参照が指す代謝情報を示す",
+    "参照元のタイプ/ソース（例：'PubMed'、'DailyMed'）",
+    "ソース内の参照の識別子（例：PubMed IDまたはDailyMed setid）",
+    "参照への完全URLリンク"
+  ],
+  "sample_rows": [
+    {
+      "メトリック参照ID": 10363,
+      "メタID": 1332,
+      "参照種別": "DOI",
+      "参照ID": "10.1002/hup.403",
+      "参照URL": "http://doi.org/10.1002/hup.403"
+    },
+    {
+      "メトリック参照ID": 10370,
+      "メタID": 1333,
+      "参照種別": "DOI",
+      "参照ID": "10.1002/hup.403",
+      "参照URL": "http://doi.org/10.1002/hup.403"
+    },
+    {
+      "メトリック参照ID": 10707,
+      "メタID": 1462,
+      "参照種別": "DOI",
+      "参照ID": "10.1002/hup.403",
+      "参照URL": "http://doi.org/10.1002/hup.403"
+    },
+    {
+      "メトリック参照ID": 10714,
+      "メタID": 1463,
+      "参照種別": "DOI",
+      "参照ID": "10.1002/hup.403",
+      "参照URL": "http://doi.org/10.1002/hup.403"
+    },
+    {
+      "メトリック参照ID": 10923,
+      "メタID": 691,
+      "参照種別": "DOI",
+      "参照ID": "10.1002/hup.403",
+      "参照URL": "http://doi.org/10.1002/hup.403"
+    }
+  ]
+}

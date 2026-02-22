@@ -1,0 +1,70 @@
+{
+  "sample_rows": [
+    {
+      "VARIÁVEL": "Count_BirthEvent_europa.eu",
+      "NOME_DA_VARIÁVEL": "Count of Birth Event, europa.eu",
+      "GRUPO_DE_VARIAVEIS": "Count of Birth Event",
+      "CATEGORIA": "BirthEvent",
+      "UNIDADE": "Count",
+      "DOMINIO_DE_ORIGEM": "europa.eu"
+    },
+    {
+      "VARIÁVEL": "Percent_Person_BingeDrinking",
+      "NOME_DA_VARIÁVEL": "Percentage of Population Who Binge Drink",
+      "GRUPO_DE_VARIAVEIS": "Percentage of Population Who Binge Drink",
+      "CATEGORIA": "Person_HealthBehavior-BingeDrinking",
+      "UNIDADE": "Percent",
+      "DOMINIO_DE_ORIGEM": "cdc.gov"
+    },
+    {
+      "VARIÁVEL": "Temperature",
+      "NOME_DA_VARIÁVEL": "Temperature in a Location",
+      "GRUPO_DE_VARIAVEIS": "Temperature in a Location",
+      "CATEGORIA": "ObservationalWeather",
+      "UNIDADE": "Celsius",
+      "DOMINIO_DE_ORIGEM": "nasa.gov"
+    },
+    {
+      "VARIÁVEL": "RetailDrugDistribution_DrugDistribution_Ecgonine",
+      "NOME_DA_VARIÁVEL": "Retail Drug Distribution of Drug Distribution: Drug/dea/9180 L",
+      "GRUPO_DE_VARIAVEIS": "Retail Drug Distribution of Drug Distribution: Drug/dea/9180 L",
+      "CATEGORIA": "DrugDistribution_DrugPrescribed",
+      "UNIDADE": "Grams",
+      "DOMINIO_DE_ORIGEM": "dea.gov"
+    },
+    {
+      "VARIÁVEL": "Count_Person_Female_abs.gov.au",
+      "NOME_DA_VARIÁVEL": "Female Population, abs.gov.au",
+      "GRUPO_DE_VARIAVEIS": "Female Population",
+      "CATEGORIA": "Person_Gender-Female",
+      "UNIDADE": "Count",
+      "DOMINIO_DE_ORIGEM": "abs.gov.au"
+    }
+  ],
+  "table_name": "DATACOMMONS_ATTRIBUTES",
+  "table_fullname": "GLOBAL_GOVERNMENT.CYBERSYN.DATACOMMONS_ATTRIBUTES",
+  "column_names": [
+    "UNIDADE",
+    "DOMINIO_DE_ORIGEM",
+    "GRUPO_DE_VARIAVEIS",
+    "CATEGORIA",
+    "VARIÁVEL",
+    "NOME_DA_VARIÁVEL"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Unidade de medida para o valor (por exemplo, USD, Anos, Acre, etc.)",
+    "Domínio da URL onde os dados brutos podem ser encontrados",
+    "A variável central sendo medida, excluindo qualquer informação sobre o método de medição. Variáveis pertencentes ao mesmo grupo medem a mesma coisa, mas diferem no método de medição ou agência de relatórios",
+    "Categoria abrangente da variável ou tipo de medida (por exemplo, Clima, Demografia, etc.)",
+    "Um identificador único para uma variável estatística, unível à tabela DATACOMMONS_TIMESERIES",
+    "Nome legível por humanos para a variável"
+  ]
+}

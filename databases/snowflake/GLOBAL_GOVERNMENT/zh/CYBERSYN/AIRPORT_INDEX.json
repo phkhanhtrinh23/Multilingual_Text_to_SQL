@@ -1,0 +1,94 @@
+{
+  "sample_rows": [
+    {
+      "机场编号": "1059BHM",
+      "机场代码": 1059,
+      "机场名称": "Birmingham-Shuttlesworth International",
+      "机场字母码": "BHM",
+      "机场全球区域代码": 51,
+      "地点": "Birmingham, AL: Birmingham-Shuttlesworth International",
+      "机场所在城市": "Birmingham",
+      "州地理编号": "geoId/01",
+      "国家地理ID": "country/USA"
+    },
+    {
+      "机场编号": "42650MCI",
+      "机场代码": 42650,
+      "机场名称": "Kansas City International",
+      "机场字母码": "MCI",
+      "机场全球区域代码": 64,
+      "地点": "Kansas City, MO: Kansas City International",
+      "机场所在城市": "Kansas City",
+      "州地理编号": "geoId/29",
+      "国家地理ID": "country/USA"
+    },
+    {
+      "机场编号": "91940TUS",
+      "机场代码": 91940,
+      "机场名称": "Tucson International",
+      "机场字母码": "TUS",
+      "机场全球区域代码": 81,
+      "地点": "Tucson, AZ: Tucson International",
+      "机场所在城市": "Tucson",
+      "州地理编号": "geoId/04",
+      "国家地理ID": "country/USA"
+    },
+    {
+      "机场编号": "1298LIJ",
+      "机场代码": 1298,
+      "机场名称": "Long Island Airport",
+      "机场字母码": "LIJ",
+      "机场全球区域代码": 1,
+      "地点": "Long Island, AK: Long Island Airport",
+      "机场所在城市": "Long Island",
+      "州地理编号": "geoId/02",
+      "国家地理ID": "country/USA"
+    },
+    {
+      "机场编号": "49005PIB",
+      "机场代码": 49005,
+      "机场名称": "Hattiesburg-Laurel Regional",
+      "机场字母码": "PIB",
+      "机场全球区域代码": 53,
+      "地点": "Hattiesburg/Laurel, MS: Hattiesburg-Laurel Regional",
+      "机场所在城市": "Hattiesburg/Laurel",
+      "州地理编号": "geoId/28",
+      "国家地理ID": "country/USA"
+    }
+  ],
+  "table_name": "AIRPORT_INDEX",
+  "table_fullname": "GLOBAL_GOVERNMENT.CYBERSYN.AIRPORT_INDEX",
+  "column_names": [
+    "机场名称",
+    "州地理编号",
+    "机场所在城市",
+    "机场字母码",
+    "机场代码",
+    "机场全球区域代码",
+    "国家地理ID",
+    "地点",
+    "机场编号"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "NUMBER",
+    "NUMBER",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "机场名称",
+    "一个唯一的州标识符，可与 GEOGRAPHY_INDEX 表关联，用于表示该变量的主要地理区域。",
+    "机场所在城市名称",
+    "由国际航空运输协会（IATA）分配给机场的代码，这些代码在航空业的机票销售、行李处理和航班计划中被广泛使用。",
+    "美国交通部为每个机场分配的唯一标识符，用于行政和报告目的。",
+    "美国交通部对机场所在地理区域的识别码",
+    "一个唯一的国家标识符，可与 GEOGRAPHY_INDEX 表连接，表示该变量的主要地理区域。",
+    "机场的完整位置名称",
+    "用于测量航线的起点机场ID，由DOT唯一代码与该机场官方颁发的三字母OAG代码组合而成。"
+  ]
+}

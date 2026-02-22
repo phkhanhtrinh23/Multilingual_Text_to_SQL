@@ -1,0 +1,51 @@
+{
+  "table_name": "compound_structural_alerts_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.compound_structural_alerts_30",
+  "column_names": [
+    "cpd_str_警报ID",
+    "分子注册号",
+    "警报ID"
+  ],
+  "column_types": [
+    "INT64",
+    "INT64",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "警报编号",
+    "分子注册号",
+    "警报编号"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "INT64",
+    "INT64"
+  ],
+  "description": [
+    "主键",
+    "对 molecule_dictionary 的外键。已发现结构警报的化合物。",
+    "对 structural_alerts 表的外键。  \n在该化合物中已识别出的特定警报。"
+  ],
+  "sample_rows": [
+    {
+      "警报编号": 1,
+      "分子注册号": 105
+    },
+    {
+      "警报编号": 1,
+      "分子注册号": 638
+    },
+    {
+      "警报编号": 1,
+      "分子注册号": 722
+    },
+    {
+      "警报编号": 1,
+      "分子注册号": 752
+    },
+    {
+      "警报编号": 1,
+      "分子注册号": 777
+    }
+  ]
+}

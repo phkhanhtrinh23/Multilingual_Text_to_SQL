@@ -1,0 +1,76 @@
+{
+  "table_name": "MolClinAbnorm",
+  "table_fullname": "mitelman-db.prod.MolClinAbnorm",
+  "column_names": [
+    "MolClínica",
+    "Número de referencia",
+    "Número de factura",
+    "Número de Orden",
+    "anomalía"
+  ],
+  "column_types": [
+    "STRING",
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "MolClin",
+    "Número de referencia",
+    "Número de Factura",
+    "Número de pedido",
+    "Anormalidad"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING"
+  ],
+  "description": [
+    "bandera que indica molecular 'M', o clínico 'C'",
+    "Número de referencia, por ejemplo '15563'",
+    "número de investigación, normalmente entre 1 y 10",
+    "número de pedido, entre 1 y 54",
+    "descripción de la anomalía, por ejemplo 't(19;19)(p13;p13)' o 'del(7)(q?)'"
+  ],
+  "sample_rows": [
+    {
+      "MolClin": "C",
+      "Número de referencia": 1696,
+      "Número de Factura": 1,
+      "Número de pedido": 1,
+      "Anormalidad": "r"
+    },
+    {
+      "MolClin": "C",
+      "Número de referencia": 2844,
+      "Número de Factura": 1,
+      "Número de pedido": 1,
+      "Anormalidad": "r"
+    },
+    {
+      "MolClin": "C",
+      "Número de referencia": 4556,
+      "Número de Factura": 1,
+      "Número de pedido": 11,
+      "Anormalidad": "r"
+    },
+    {
+      "MolClin": "C",
+      "Número de referencia": 15564,
+      "Número de Factura": 1,
+      "Número de pedido": 1,
+      "Anormalidad": "r"
+    },
+    {
+      "MolClin": "C",
+      "Número de referencia": 15564,
+      "Número de Factura": 2,
+      "Número de pedido": 1,
+      "Anormalidad": "r"
+    }
+  ]
+}

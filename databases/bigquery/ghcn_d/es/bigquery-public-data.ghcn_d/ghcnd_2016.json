@@ -1,0 +1,126 @@
+{
+  "table_name": "ghcnd_2016",
+  "table_fullname": "bigquery-public-data.ghcn_d.ghcnd_2016",
+  "column_names": [
+    "identificador",
+    "fecha",
+    "elemento",
+    "valor",
+    "Bandera M",
+    "bandera de calidad",
+    "bandera de éxito",
+    "tiempo",
+    "URL de origen",
+    "marca_de_tiempo_etl"
+  ],
+  "column_types": [
+    "STRING",
+    "DATE",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "TIMESTAMP"
+  ],
+  "nested_column_names": [
+    "identificador",
+    "fecha",
+    "elemento",
+    "valor",
+    "bandera",
+    "Bandera de calidad",
+    "Bandera S",
+    "tiempo",
+    "fuente_url",
+    "fecha_hora_etl"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "DATE",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "TIMESTAMP"
+  ],
+  "description": [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "Fuente",
+    "Tiempo de carga de esta fila de datos"
+  ],
+  "sample_rows": [
+    {
+      "identificador": "USW00053152",
+      "fecha": "2016-07-23",
+      "elemento": "TMIN",
+      "valor": 156.0,
+      "bandera": null,
+      "Bandera de calidad": null,
+      "Bandera S": "R",
+      "tiempo": null,
+      "fuente_url": "ftp://ftp.ncei.noaa.gov/pub/data/ghcn/daily/by_year/2016.csv.gz",
+      "fecha_hora_etl": "2022-12-26 04:12:08.141314+00:00"
+    },
+    {
+      "identificador": "USW00053155",
+      "fecha": "2016-07-24",
+      "elemento": "PRCP",
+      "valor": 0.0,
+      "bandera": null,
+      "Bandera de calidad": null,
+      "Bandera S": "R",
+      "tiempo": null,
+      "fuente_url": "ftp://ftp.ncei.noaa.gov/pub/data/ghcn/daily/by_year/2016.csv.gz",
+      "fecha_hora_etl": "2022-12-26 04:12:08.141314+00:00"
+    },
+    {
+      "identificador": "USW00063892",
+      "fecha": "2016-07-24",
+      "elemento": "PRCP",
+      "valor": 0.0,
+      "bandera": null,
+      "Bandera de calidad": null,
+      "Bandera S": "R",
+      "tiempo": null,
+      "fuente_url": "ftp://ftp.ncei.noaa.gov/pub/data/ghcn/daily/by_year/2016.csv.gz",
+      "fecha_hora_etl": "2022-12-26 04:12:08.141314+00:00"
+    },
+    {
+      "identificador": "USW00003061",
+      "fecha": "2016-07-21",
+      "elemento": "TMAX",
+      "valor": 286.0,
+      "bandera": null,
+      "Bandera de calidad": null,
+      "Bandera S": "R",
+      "tiempo": null,
+      "fuente_url": "ftp://ftp.ncei.noaa.gov/pub/data/ghcn/daily/by_year/2016.csv.gz",
+      "fecha_hora_etl": "2022-12-26 04:12:08.141314+00:00"
+    },
+    {
+      "identificador": "USW00054811",
+      "fecha": "2016-07-22",
+      "elemento": "TMAX",
+      "valor": 302.0,
+      "bandera": null,
+      "Bandera de calidad": null,
+      "Bandera S": "R",
+      "tiempo": null,
+      "fuente_url": "ftp://ftp.ncei.noaa.gov/pub/data/ghcn/daily/by_year/2016.csv.gz",
+      "fecha_hora_etl": "2022-12-26 04:12:08.141314+00:00"
+    }
+  ]
+}

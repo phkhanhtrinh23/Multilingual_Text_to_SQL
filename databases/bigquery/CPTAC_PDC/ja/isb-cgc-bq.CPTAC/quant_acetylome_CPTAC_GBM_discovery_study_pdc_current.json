@@ -1,0 +1,116 @@
+{
+  "table_name": "quant_acetylome_CPTAC_GBM_discovery_study_pdc_current",
+  "table_fullname": "isb-cgc-bq.CPTAC.quant_acetylome_CPTAC_GBM_discovery_study_pdc_current",
+  "column_names": [
+    "ケースID",
+    "サンプルID",
+    "サンプルID",
+    "アリクオット送信者ID",
+    "アリクオット実行メタデータID",
+    "研究名",
+    "タンパク質発現量log2比",
+    "リファレンス配列ID",
+    "アセチル化部位"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "案件ID",
+    "サンプルID",
+    "試料ID",
+    "アリクォット提出者ID",
+    "アリクォット実行メタデータID",
+    "研究名",
+    "タンパク質量の対数2比",
+    "リファレンス配列ID",
+    "アセチル化位点"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "特定の患者に関連付けられたユニーク識別子（例：24cb0fcb-63d6-11e8-bcf1-0a2705229b82）",
+    "このサンプルのユニークPDC識別子（例：e8d83eb9-693a-11ea-b1fd-0aad30af8a83）",
+    "このサンプルのユニークなPDC識別子（例：e8db124a-693a-11ea-b1fd-0aad30af8a83）",
+    "プログラムで割り当てられるアリオット提出者ID（例：T14）",
+    "サンプルは、実験での使用方法（ラベル付け試薬や/または生物学的再現試験に基づく）により一意に識別されます。",
+    "研究名（例：小児脳腫瘍パイロット研究 - フォスフォプロテオーム）",
+    "特定の生物サンプルにおける取得で、遺伝子に関連するペプチドイオンの共通参照に対するサンプルレポーターイオンの平均対数比",
+    "NCBI RefSeq データベース内の配列に付与される一意の識別子",
+    "アセチル化されたアミノ酸の単一文字コードとタンパク質配列位置（例：k12k16、k21）"
+  ],
+  "sample_rows": [
+    {
+      "案件ID": "104c0852-2139-11ea-aee1-0e1aae319e49",
+      "サンプルID": "104c9aa3-2139-11ea-aee1-0e1aae319e49",
+      "試料ID": "104d4e99-2139-11ea-aee1-0e1aae319e49",
+      "アリクォット提出者ID": "CPT0002410011",
+      "アリクォット実行メタデータID": "a558cb61-f794-11ea-bc0e-0aad30af8a83",
+      "研究名": "CPTAC GBM Discovery Study - Acetylome",
+      "タンパク質量の対数2比": 0.4322,
+      "リファレンス配列ID": "NP_000087.1",
+      "アセチル化位点": "k245"
+    },
+    {
+      "案件ID": "104c0852-2139-11ea-aee1-0e1aae319e49",
+      "サンプルID": "104c9aa3-2139-11ea-aee1-0e1aae319e49",
+      "試料ID": "104d4e99-2139-11ea-aee1-0e1aae319e49",
+      "アリクォット提出者ID": "CPT0002410011",
+      "アリクォット実行メタデータID": "a558cb61-f794-11ea-bc0e-0aad30af8a83",
+      "研究名": "CPTAC GBM Discovery Study - Acetylome",
+      "タンパク質量の対数2比": -0.0324,
+      "リファレンス配列ID": "NP_000099.2",
+      "アセチル化位点": "k72"
+    },
+    {
+      "案件ID": "104c0852-2139-11ea-aee1-0e1aae319e49",
+      "サンプルID": "104c9aa3-2139-11ea-aee1-0e1aae319e49",
+      "試料ID": "104d4e99-2139-11ea-aee1-0e1aae319e49",
+      "アリクォット提出者ID": "CPT0002410011",
+      "アリクォット実行メタデータID": "a558cb61-f794-11ea-bc0e-0aad30af8a83",
+      "研究名": "CPTAC GBM Discovery Study - Acetylome",
+      "タンパク質量の対数2比": 0.8015,
+      "リファレンス配列ID": "NP_000161.2",
+      "アセチル化位点": "k238"
+    },
+    {
+      "案件ID": "104c0852-2139-11ea-aee1-0e1aae319e49",
+      "サンプルID": "104c9aa3-2139-11ea-aee1-0e1aae319e49",
+      "試料ID": "104d4e99-2139-11ea-aee1-0e1aae319e49",
+      "アリクォット提出者ID": "CPT0002410011",
+      "アリクォット実行メタデータID": "a558cb61-f794-11ea-bc0e-0aad30af8a83",
+      "研究名": "CPTAC GBM Discovery Study - Acetylome",
+      "タンパク質量の対数2比": 0.0158,
+      "リファレンス配列ID": "NP_000280.1",
+      "アセチル化位点": "k564"
+    },
+    {
+      "案件ID": "104c0852-2139-11ea-aee1-0e1aae319e49",
+      "サンプルID": "104c9aa3-2139-11ea-aee1-0e1aae319e49",
+      "試料ID": "104d4e99-2139-11ea-aee1-0e1aae319e49",
+      "アリクォット提出者ID": "CPT0002410011",
+      "アリクォット実行メタデータID": "a558cb61-f794-11ea-bc0e-0aad30af8a83",
+      "研究名": "CPTAC GBM Discovery Study - Acetylome",
+      "タンパク質量の対数2比": 0.2595,
+      "リファレンス配列ID": "NP_000282.1",
+      "アセチル化位点": "k156"
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "table_name": "relationship",
+  "table_fullname": "bigquery-public-data.cms_synthetic_patient_data_omop.relationship",
+  "column_names": [
+    "関係ID",
+    "関係名",
+    "階層化",
+    "祖先の定義",
+    "逆リレーションID",
+    "関係概念ID"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "関係ID",
+    "関係名",
+    "階層構造",
+    "祖先定義",
+    "逆関係ID",
+    "関係概念ID"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64"
+  ],
+  "description": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "sample_rows": [
+    {
+      "関係ID": "Acc device used by",
+      "関係名": "Access device used by (SNOMED)",
+      "階層構造": "0",
+      "祖先定義": "0",
+      "逆関係ID": "Using acc device",
+      "関係概念ID": 44818895
+    },
+    {
+      "関係ID": "Access of",
+      "関係名": "Access of (SNOMED)",
+      "階層構造": "0",
+      "祖先定義": "0",
+      "逆関係ID": "Has access",
+      "関係概念ID": 44818847
+    },
+    {
+      "関係ID": "Active ing of",
+      "関係名": "Active ingredient of (SNOMED)",
+      "階層構造": "0",
+      "祖先定義": "0",
+      "逆関係ID": "Has active ing",
+      "関係概念ID": 44818859
+    },
+    {
+      "関係ID": "AMP of",
+      "関係名": "Actual Medicinal Product of (SNOMED)",
+      "階層構造": "0",
+      "祖先定義": "0",
+      "逆関係ID": "Has AMP",
+      "関係概念ID": 45905757
+    },
+    {
+      "関係ID": "Answer of",
+      "関係名": "Answer of (LOINC)",
+      "階層構造": "0",
+      "祖先定義": "0",
+      "逆関係ID": "Has Answer",
+      "関係概念ID": 45754684
+    }
+  ]
+}

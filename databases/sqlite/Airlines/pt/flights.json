@@ -1,0 +1,102 @@
+{
+  "sample_rows": [
+    {
+      "id_voo": 28201,
+      "numero_voo": "PG0032",
+      "partida_prevista": "2017-08-12 09:00:00+03",
+      "chegada_prevista": "2017-08-12 10:45:00+03",
+      "aeroporto_de_partida": "PEZ",
+      "aeroporto_de_chegada": "DME",
+      "status": "Arrived",
+      "codigo_aviao": "CN1",
+      "partida_real": "2017-08-12 09:04:00+03",
+      "chegada_real": "2017-08-12 10:50:00+03"
+    },
+    {
+      "id_voo": 8942,
+      "numero_voo": "PG0439",
+      "partida_prevista": "2017-08-23 12:55:00+03",
+      "chegada_prevista": "2017-08-23 16:20:00+03",
+      "aeroporto_de_partida": "LED",
+      "aeroporto_de_chegada": "TBW",
+      "status": "Scheduled",
+      "codigo_aviao": "CN1",
+      "partida_real": "\\N",
+      "chegada_real": "\\N"
+    },
+    {
+      "id_voo": 17756,
+      "numero_voo": "PG0349",
+      "partida_prevista": "2017-08-17 07:15:00+03",
+      "chegada_prevista": "2017-08-17 09:05:00+03",
+      "aeroporto_de_partida": "OSW",
+      "aeroporto_de_chegada": "HMA",
+      "status": "Scheduled",
+      "codigo_aviao": "CR2",
+      "partida_real": "\\N",
+      "chegada_real": "\\N"
+    },
+    {
+      "id_voo": 11014,
+      "numero_voo": "PG0588",
+      "partida_prevista": "2017-09-03 08:50:00+03",
+      "chegada_prevista": "2017-09-03 09:15:00+03",
+      "aeroporto_de_partida": "SVX",
+      "aeroporto_de_chegada": "PEE",
+      "status": "Scheduled",
+      "codigo_aviao": "SU9",
+      "partida_real": "\\N",
+      "chegada_real": "\\N"
+    },
+    {
+      "id_voo": 5888,
+      "numero_voo": "PG0496",
+      "partida_prevista": "2017-08-24 12:45:00+03",
+      "chegada_prevista": "2017-08-24 14:55:00+03",
+      "aeroporto_de_partida": "SVO",
+      "aeroporto_de_chegada": "JOK",
+      "status": "Scheduled",
+      "codigo_aviao": "CN1",
+      "partida_real": "\\N",
+      "chegada_real": "\\N"
+    }
+  ],
+  "table_name": "flights",
+  "table_fullname": "flights",
+  "column_names": [
+    "id_voo",
+    "numero_voo",
+    "partida_prevista",
+    "chegada_prevista",
+    "aeroporto_de_partida",
+    "aeroporto_de_chegada",
+    "status",
+    "codigo_aviao",
+    "partida_real",
+    "chegada_real"
+  ],
+  "column_types": [
+    "INTEGER",
+    "character(6)",
+    "timestamp with time zone",
+    "timestamp with time zone",
+    "character(3)",
+    "character(3)",
+    "character varying(20)",
+    "character(3)",
+    "timestamp with time zone",
+    "timestamp with time zone"
+  ],
+  "description": [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+  ]
+}

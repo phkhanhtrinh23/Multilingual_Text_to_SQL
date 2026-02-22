@@ -1,0 +1,116 @@
+{
+  "table_name": "quant_acetylome_CPTAC_UCEC_confirmatory_study_pdc_current",
+  "table_fullname": "isb-cgc-bq.CPTAC.quant_acetylome_CPTAC_UCEC_confirmatory_study_pdc_current",
+  "column_names": [
+    "案件编号",
+    "样本编号",
+    "样本编号",
+    "分装提交者ID",
+    "分装运行元数据ID",
+    "研究名称",
+    "蛋白丰度对数2比值",
+    "参考序列编号",
+    "乙酰化位点"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "案件编号",
+    "样本编号",
+    "样本ID",
+    "样本提交者编号",
+    "样本运行元数据ID",
+    "研究名称",
+    "蛋白质丰度对数比值",
+    "参考序列ID",
+    "乙酰化位点"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "与特定患者相关的唯一标识符（例如 24cb0fcb-63d6-11e8-bcf1-0a2705229b82）",
+    "此样本的唯一 PDC 标识符（例如 e8d83eb9-693a-11ea-b1fd-0aad30af8a83）",
+    "此样本的唯一PDC标识符（如 e8db124a-693a-11ea-b1fd-0aad30af8a83）",
+    "由程序分配的Aliquot提交者ID（例如T14）",
+    "通过实验中使用方式（基于标记试剂和/或生物学复制）唯一标识该分装",
+    "研究名称（例如：儿科脑癌试点研究 - 磷酸化蛋白组）",
+    "特定生物样本获取中，基因相关肽离子的样本报告离子与公共参考离子的平均对数比值",
+    "在NCBI RefSeq数据库中分配给序列的唯一标识符",
+    "单字母代码和蛋白质序列位置（例如 k12k16、k21）"
+  ],
+  "sample_rows": [
+    {
+      "案件编号": "5aa447a4-84ce-4215-81b3-107210b3f38d",
+      "样本编号": "018273c1-689d-450a-baa3-bb935bc57cea",
+      "样本ID": "03cb7dd1-c655-4dcf-b3f9-7827f4d6754f",
+      "样本提交者编号": "CPT0133400008",
+      "样本运行元数据ID": "3ee09a99-7432-4b48-883c-1c9c96cc50c7",
+      "研究名称": "CPTAC UCEC Confirmatory Study - Acetylome",
+      "蛋白质丰度对数比值": 0.1884,
+      "参考序列ID": "NP_001073027.1",
+      "乙酰化位点": "k570"
+    },
+    {
+      "案件编号": "5aa447a4-84ce-4215-81b3-107210b3f38d",
+      "样本编号": "018273c1-689d-450a-baa3-bb935bc57cea",
+      "样本ID": "03cb7dd1-c655-4dcf-b3f9-7827f4d6754f",
+      "样本提交者编号": "CPT0133400008",
+      "样本运行元数据ID": "3ee09a99-7432-4b48-883c-1c9c96cc50c7",
+      "研究名称": "CPTAC UCEC Confirmatory Study - Acetylome",
+      "蛋白质丰度对数比值": 1.4142,
+      "参考序列ID": "NP_003680.2",
+      "乙酰化位点": "k112"
+    },
+    {
+      "案件编号": "5aa447a4-84ce-4215-81b3-107210b3f38d",
+      "样本编号": "018273c1-689d-450a-baa3-bb935bc57cea",
+      "样本ID": "03cb7dd1-c655-4dcf-b3f9-7827f4d6754f",
+      "样本提交者编号": "CPT0133400008",
+      "样本运行元数据ID": "3ee09a99-7432-4b48-883c-1c9c96cc50c7",
+      "研究名称": "CPTAC UCEC Confirmatory Study - Acetylome",
+      "蛋白质丰度对数比值": -0.0513,
+      "参考序列ID": "NP_002005.1",
+      "乙酰化位点": "k294"
+    },
+    {
+      "案件编号": "5aa447a4-84ce-4215-81b3-107210b3f38d",
+      "样本编号": "018273c1-689d-450a-baa3-bb935bc57cea",
+      "样本ID": "03cb7dd1-c655-4dcf-b3f9-7827f4d6754f",
+      "样本提交者编号": "CPT0133400008",
+      "样本运行元数据ID": "3ee09a99-7432-4b48-883c-1c9c96cc50c7",
+      "研究名称": "CPTAC UCEC Confirmatory Study - Acetylome",
+      "蛋白质丰度对数比值": 1.3697,
+      "参考序列ID": "NP_000627.2",
+      "乙酰化位点": "k122"
+    },
+    {
+      "案件编号": "5aa447a4-84ce-4215-81b3-107210b3f38d",
+      "样本编号": "018273c1-689d-450a-baa3-bb935bc57cea",
+      "样本ID": "03cb7dd1-c655-4dcf-b3f9-7827f4d6754f",
+      "样本提交者编号": "CPT0133400008",
+      "样本运行元数据ID": "3ee09a99-7432-4b48-883c-1c9c96cc50c7",
+      "研究名称": "CPTAC UCEC Confirmatory Study - Acetylome",
+      "蛋白质丰度对数比值": 0.2425,
+      "参考序列ID": "NP_001247421.1",
+      "乙酰化位点": "k306"
+    }
+  ]
+}

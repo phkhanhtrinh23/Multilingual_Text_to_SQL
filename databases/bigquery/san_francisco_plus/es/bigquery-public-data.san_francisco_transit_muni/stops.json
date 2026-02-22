@@ -1,0 +1,76 @@
+{
+  "table_name": "stops",
+  "table_fullname": "bigquery-public-data.san_francisco_transit_muni.stops",
+  "column_names": [
+    "id_parada",
+    "nombre de parada",
+    "latitud_parada",
+    "longitud_parada",
+    "geometría de parada"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "FLOAT64",
+    "GEOGRAPHY"
+  ],
+  "nested_column_names": [
+    "identificador_parada",
+    "nombre_parada",
+    "latitud_parada",
+    "longitud_parada",
+    "geom parada"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "FLOAT64",
+    "GEOGRAPHY"
+  ],
+  "description": [
+    "Identificador único para cada parada",
+    "Nombre completo de la parada de tránsito",
+    "Latitud de la parada",
+    "Longitud de la parada",
+    "Representación geográfica de la posición de la parada"
+  ],
+  "sample_rows": [
+    {
+      "identificador_parada": "15829",
+      "nombre_parada": "100 O'Shaughnessy Blvd",
+      "latitud_parada": 37.744481,
+      "longitud_parada": -122.450678,
+      "geom parada": "POINT(-122.450678 37.744481)"
+    },
+    {
+      "identificador_parada": "14343",
+      "nombre_parada": "101 Dakota St",
+      "latitud_parada": 37.75374,
+      "longitud_parada": -122.39565,
+      "geom parada": "POINT(-122.39565 37.75374)"
+    },
+    {
+      "identificador_parada": "14122",
+      "nombre_parada": "1095 CONNECTICUT ST",
+      "latitud_parada": 37.753902,
+      "longitud_parada": -122.397341,
+      "geom parada": "POINT(-122.397341 37.753902)"
+    },
+    {
+      "identificador_parada": "13230",
+      "nombre_parada": "10th Ave & Ortega St",
+      "latitud_parada": 37.752724,
+      "longitud_parada": -122.466502,
+      "geom parada": "POINT(-122.466502 37.752724)"
+    },
+    {
+      "identificador_parada": "13231",
+      "nombre_parada": "10th Ave & Pacheco St",
+      "latitud_parada": 37.75086,
+      "longitud_parada": -122.466376,
+      "geom parada": "POINT(-122.466376 37.75086)"
+    }
+  ]
+}

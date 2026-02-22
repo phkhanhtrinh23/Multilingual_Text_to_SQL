@@ -1,0 +1,94 @@
+{
+  "table_name": "EBPP_ADJUSTPANCAN_ILLUMINAHISEQ_RNASEQV2_GENEXP_FILTERED",
+  "table_fullname": "PANCANCER_ATLAS_1.PANCANCER_ATLAS_FILTERED.EBPP_ADJUSTPANCAN_ILLUMINAHISEQ_RNASEQV2_GENEXP_FILTERED",
+  "column_names": [
+    "样本条码",
+    "样本类型字母码",
+    "参与者条码",
+    "分装条码",
+    "研究",
+    "标准化计数",
+    "样本类型",
+    "输入",
+    "符号"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "FLOAT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "生物样本条形码，例如 TCGA-13-1489-02A",
+    "使用TCGA标准的样本类型字母代码，例如TPN、EBV。完整列表可在 https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/sample-type-codes 查看",
+    "研究参与者的 TCGA 条码标识符，例如 TCGA-02-0001",
+    "TCGA 分液条码，例如 TCGA-12-1089-01A-01D-0517-28",
+    "TCGA研究缩写，例如LAML。完整列表可在 https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/tcga-study-abbreviations 查看",
+    "归一化基因表达",
+    "血液来源正常, 原发实体瘤, 实体组织正常, 复发实体瘤, 转移瘤, 额外 - 新原发, 原发血液来源癌症 - 外周血, 口腔细胞正常, 额外转移瘤, 骨髓正常",
+    "来自 NCBI 的 Entrez ID，例如 730971",
+    "例如 TP53、LRP1B 等（与 Hugo_Symbol 字段相同，但空值代替 Unknown）"
+  ],
+  "sample_rows": [
+    {
+      "参与者条码": "TCGA-EL-A3ZT",
+      "样本条码": "TCGA-EL-A3ZT-01A",
+      "分装条码": "TCGA-EL-A3ZT-01A-12R-A23N-07",
+      "样本类型字母码": "TP",
+      "样本类型": "Primary solid Tumor",
+      "研究": "THCA",
+      "符号": "CTAGE9",
+      "输入": "643854",
+      "标准化计数": 649.975
+    },
+    {
+      "参与者条码": "TCGA-EL-A3ZT",
+      "样本条码": "TCGA-EL-A3ZT-01A",
+      "分装条码": "TCGA-EL-A3ZT-01A-12R-A23N-07",
+      "样本类型字母码": "TP",
+      "样本类型": "Primary solid Tumor",
+      "研究": "THCA",
+      "符号": "JDP2",
+      "输入": "122953",
+      "标准化计数": 405.581
+    },
+    {
+      "参与者条码": "TCGA-EL-A3ZT",
+      "样本条码": "TCGA-EL-A3ZT-01A",
+      "分装条码": "TCGA-EL-A3ZT-01A-12R-A23N-07",
+      "样本类型字母码": "TP",
+      "样本类型": "Primary solid Tumor",
+      "研究": "THCA",
+      "符号": "RTKN",
+      "输入": "6242",
+      "标准化计数": 1142.38
+    },
+    {
+      "参与者条码": "TCGA-EL-A3ZT",
+      "样本条码": "TCGA-EL-A3ZT-01A",
+      "分装条码": "TCGA-EL-A3ZT-01A-12R-A23N-07",
+      "样本类型字母码": "TP",
+      "样本类型": "Primary solid Tumor",
+      "研究": "THCA",
+      "符号": "SLC2A11",
+      "输入": "66035",
+      "标准化计数": 699.417
+    },
+    {
+      "参与者条码": "TCGA-EL-A3ZT",
+      "样本条码": "TCGA-EL-A3ZT-01A",
+      "分装条码": "TCGA-EL-A3ZT-01A-12R-A23N-07",
+      "样本类型字母码": "TP",
+      "样本类型": "Primary solid Tumor",
+      "研究": "THCA",
+      "符号": "PCDHGB1",
+      "输入": "56104",
+      "标准化计数": 69.2101
+    }
+  ]
+}

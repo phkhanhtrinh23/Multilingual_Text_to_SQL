@@ -1,0 +1,94 @@
+{
+  "table_name": "CYTOGENINVVALID",
+  "table_fullname": "TCGA_MITELMAN.PROD.CYTOGENINVVALID",
+  "column_names": [
+    "NumeroDoCaso",
+    "Motivo",
+    "NumeroDoPedido",
+    "KaryShort",
+    "KaryLong",
+    "EntradaDeConversaoCitogenetica",
+    "NumeroDeReferencia",
+    "Mensagem",
+    "ComprimentoDeKary"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "NUMBER",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "NUMBER",
+    "TEXT",
+    "NUMBER"
+  ],
+  "description": [
+    "número do caso -- geralmente um inteiro, mas também pode ser uma string arbitrária",
+    "Mensagens de Erro",
+    "número de investigação -- sempre um inteiro entre 1 e 9",
+    "descrição curta (possivelmente truncada) de cariotipo",
+    "se a descrição do cariotipo excede um certo comprimento, a string completa está nessa coluna, caso contrário esse campo é nulo",
+    "um valor de cariotipo completo ajustado para funcionar com a ferramenta do CytoConverter",
+    "número de referência",
+    "Indica se o cariotipo foi corrigido pelo verificador de sintaxe",
+    "comprimento da descrição do cariotipo -- pode ter até milhares de caracteres, mas geralmente é < 30"
+  ],
+  "sample_rows": [
+    {
+      "NumeroDeReferencia": 17264,
+      "NumeroDoCaso": "403",
+      "NumeroDoPedido": 1,
+      "ComprimentoDeKary": 256,
+      "KaryShort": "45,XY,der(4)t(4;11)(p15;q21)t(4;11)(q13;q21)t(4;11)(q13;q14),der(5)t(5;17)(q11;q11),del(7)(q22q36),der(9)t(9;15)(q34;q26),r(11)(p11q11),der(15)t(11;15)(q14;p11)t(11;15)(q14;q14),der(16)t(15;16)(q21;q24)t(12;15)(q24;q21),del(17)(q11),der(20)t(4;20)(p15;p11",
+      "KaryLong": "45,XY,der(4)t(4;11)(p15;q21)t(4;11)(q13;q21)t(4;11)(q13;q14),der(5)t(5;17)(q11;q11),del(7)(q22q36),der(9)t(9;15)(q34;q26),r(11)(p11q11),der(15)t(11;15)(q14;p11)t(11;15)(q14;q14),der(16)t(15;16)(q21;q24)t(12;15)(q24;q21),del(17)(q11),der(20)t(4;20)(p15;p11)",
+      "Mensagem": "Original",
+      "Motivo": " ",
+      "EntradaDeConversaoCitogenetica": "45,XY,der(4)t(4;11)(p15;q21)t(4;11)(q13;q21)t(4;11)(q13;q14),der(5)t(5;17)(q11;q11),del(7)(q22q36),der(9)t(9;15)(q34;q26),r(11)(p11q11),der(15)t(11;15)(q14;p11)t(11;15)(q14;q14),der(16)t(15;16)(q21;q24)t(12;15)(q24;q21),del(17)(q11),der(20)t(4;20)(p15;p11)"
+    },
+    {
+      "NumeroDeReferencia": 12035,
+      "NumeroDoCaso": "7",
+      "NumeroDoPedido": 1,
+      "ComprimentoDeKary": 0,
+      "KaryShort": " ",
+      "KaryLong": " ",
+      "Mensagem": "Original",
+      "Motivo": " ",
+      "EntradaDeConversaoCitogenetica": " "
+    },
+    {
+      "NumeroDeReferencia": 2651,
+      "NumeroDoCaso": "4",
+      "NumeroDoPedido": 1,
+      "ComprimentoDeKary": 0,
+      "KaryShort": " ",
+      "KaryLong": " ",
+      "Mensagem": "Original",
+      "Motivo": " ",
+      "EntradaDeConversaoCitogenetica": " "
+    },
+    {
+      "NumeroDeReferencia": 1625,
+      "NumeroDoCaso": "90",
+      "NumeroDoPedido": 1,
+      "ComprimentoDeKary": 0,
+      "KaryShort": " ",
+      "KaryLong": " ",
+      "Mensagem": "Original",
+      "Motivo": " ",
+      "EntradaDeConversaoCitogenetica": " "
+    },
+    {
+      "NumeroDeReferencia": 2093,
+      "NumeroDoCaso": "1",
+      "NumeroDoPedido": 1,
+      "ComprimentoDeKary": 0,
+      "KaryShort": " ",
+      "KaryLong": " ",
+      "Mensagem": "Original",
+      "Motivo": " ",
+      "EntradaDeConversaoCitogenetica": " "
+    }
+  ]
+}

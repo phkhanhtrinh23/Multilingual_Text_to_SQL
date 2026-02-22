@@ -1,0 +1,70 @@
+{
+  "sample_rows": [
+    {
+      "变量": "inbound_address_changes_permanent",
+      "变量名": "Inbound Address Changes, Permanent",
+      "测量": "Inbound Address Changes",
+      "请求类型": "Permanent",
+      "单位": "Count",
+      "频率": "Month"
+    },
+    {
+      "变量": "inbound_address_changes_total",
+      "变量名": "Inbound Address Changes, Total",
+      "测量": "Inbound Address Changes",
+      "请求类型": "Total",
+      "单位": "Count",
+      "频率": "Month"
+    },
+    {
+      "变量": "inbound_address_changes_businesses",
+      "变量名": "Inbound Address Changes, Businesses",
+      "测量": "Inbound Address Changes",
+      "请求类型": "Businesses",
+      "单位": "Count",
+      "频率": "Month"
+    },
+    {
+      "变量": "net_address_changes_individuals",
+      "变量名": "Net Address Changes, Individuals",
+      "测量": "Net Address Changes",
+      "请求类型": "Individuals",
+      "单位": "Count",
+      "频率": "Month"
+    },
+    {
+      "变量": "outbound_address_changes_temporary",
+      "变量名": "Outbound Address Changes, Temporary",
+      "测量": "Outbound Address Changes",
+      "请求类型": "Temporary",
+      "单位": "Count",
+      "频率": "Month"
+    }
+  ],
+  "table_name": "USPS_ADDRESS_CHANGE_ATTRIBUTES",
+  "table_fullname": "US_REAL_ESTATE.CYBERSYN.USPS_ADDRESS_CHANGE_ATTRIBUTES",
+  "column_names": [
+    "变量名",
+    "单位",
+    "请求类型",
+    "测量",
+    "频率",
+    "变量"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "变量的人类可读描述",
+    "计量单位，即地址变更请求的计数",
+    "请求分类。请求类型按时效性（永久或临时）分组；请求方类型（家庭、个人、企业）；或总计",
+    "正在报告的地址变更类型：入境 - 迁入该地区的人；出境 - 迁出该地区的人；净增 - 入境减去出境",
+    "报告值的频率",
+    "可与时间序列表关联的唯一标识符"
+  ]
+}

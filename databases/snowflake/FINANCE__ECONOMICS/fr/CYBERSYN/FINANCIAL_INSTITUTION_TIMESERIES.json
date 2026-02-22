@@ -1,0 +1,70 @@
+{
+  "sample_rows": [
+    {
+      "ID_RSSD": "582971",
+      "VARIABLE": "P3OTHLNR",
+      "NOM_VARIABLE": "Other Loans, Past Due 30 - 89 Days",
+      "VALEUR": "0E-11",
+      "UNITE": "Percent",
+      "DATE": "1991-09-30"
+    },
+    {
+      "ID_RSSD": "1005655",
+      "VARIABLE": "DRLNLSQR",
+      "NOM_VARIABLE": "Total Charge-Offs",
+      "VALEUR": "0.00020890000",
+      "UNITE": "Percent",
+      "DATE": "2008-06-30"
+    },
+    {
+      "ID_RSSD": "568470",
+      "VARIABLE": "CRCINUSQR",
+      "NOM_VARIABLE": "To Non-U.S. Addressees",
+      "VALEUR": "0E-11",
+      "UNITE": "Percent",
+      "DATE": "2015-06-30"
+    },
+    {
+      "ID_RSSD": "321170",
+      "VARIABLE": "EQCCOMPI",
+      "NOM_VARIABLE": "Other Comprehensive Income",
+      "VALEUR": null,
+      "UNITE": "USD",
+      "DATE": "1990-03-31"
+    },
+    {
+      "ID_RSSD": "21658",
+      "VARIABLE": "DEPIDOMR",
+      "NOM_VARIABLE": "Interest-Bearing Deposits in Domestic Offices",
+      "VALEUR": "0.78737600000",
+      "UNITE": "Percent",
+      "DATE": "2008-12-31"
+    }
+  ],
+  "table_name": "FINANCIAL_INSTITUTION_TIMESERIES",
+  "table_fullname": "FINANCE__ECONOMICS.CYBERSYN.FINANCIAL_INSTITUTION_TIMESERIES",
+  "column_names": [
+    "VARIABLE",
+    "ID_RSSD",
+    "VALEUR",
+    "DATE",
+    "NOM_VARIABLE",
+    "UNITE"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "NUMBER",
+    "DATE",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Identifiant unique pour une variable pouvant être jointe à la table timeseries",
+    "Un identifiant unique attribué par la Federal Reserve pour l'institution financière",
+    "Valeur numérique pour le point de données donné",
+    "Date associée à la valeur",
+    "Nom lisible par l'homme pour la variable",
+    "Unité de mesure pour la valeur, exemples (par exemple, pourcentage, USD)"
+  ]
+}

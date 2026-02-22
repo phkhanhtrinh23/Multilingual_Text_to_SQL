@@ -1,0 +1,78 @@
+{
+  "sample_rows": [
+    {
+      "ID de origen geográfico": "geoId/37081",
+      "ID_GEO_DESTINO": "geoId/08031",
+      "NOMBRE_VARIABLE": "Number of Individuals",
+      "Fecha": "2012-12-31",
+      "VALOR": 16,
+      "Unidad": "Individuals",
+      "suprimido": 0
+    },
+    {
+      "ID de origen geográfico": "geoId/12021",
+      "ID_GEO_DESTINO": "geoId/12031",
+      "NOMBRE_VARIABLE": "Number of Returns",
+      "Fecha": "2020-12-31",
+      "VALOR": 40,
+      "Unidad": "Returns",
+      "suprimido": 0
+    },
+    {
+      "ID de origen geográfico": "geoId/40011",
+      "ID_GEO_DESTINO": "geoId/40039",
+      "NOMBRE_VARIABLE": "Adjusted Gross Income",
+      "Fecha": "2019-12-31",
+      "VALOR": 1826000,
+      "Unidad": "USD",
+      "suprimido": 0
+    },
+    {
+      "ID de origen geográfico": "geoId/36071",
+      "ID_GEO_DESTINO": "geoId/12009",
+      "NOMBRE_VARIABLE": "Number of Returns",
+      "Fecha": "2018-12-31",
+      "VALOR": 32,
+      "Unidad": "Returns",
+      "suprimido": 0
+    },
+    {
+      "ID de origen geográfico": "geoId/48113",
+      "ID_GEO_DESTINO": "geoId/06053",
+      "NOMBRE_VARIABLE": "Number of Returns",
+      "Fecha": "2012-12-31",
+      "VALOR": 12,
+      "Unidad": "Returns",
+      "suprimido": 0
+    }
+  ],
+  "table_name": "IRS_ORIGIN_DESTINATION_MIGRATION_TIMESERIES",
+  "table_fullname": "US_REAL_ESTATE.CYBERSYN.IRS_ORIGIN_DESTINATION_MIGRATION_TIMESERIES",
+  "column_names": [
+    "suprimido",
+    "ID de origen geográfico",
+    "NOMBRE_VARIABLE",
+    "ID_GEO_DESTINO",
+    "Unidad",
+    "Fecha",
+    "VALOR"
+  ],
+  "column_types": [
+    "NUMBER",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "DATE",
+    "NUMBER"
+  ],
+  "description": [
+    "Booleano que indica si el valor ha sido suprimido en los datos subyacentes por motivos de privacidad. Los valores suprimidos aparecen como NULL",
+    "Un identificador único para un lugar (estado, condado) del cual la variable se origina en el primer año",
+    "Nombre legible por humanos para la variable",
+    "Un identificador único para un lugar (estado, condado) al que la variable se mueve en el segundo año",
+    "Unidad de medida del valor, ejemplos: retornos, individuos, USD",
+    "Fecha asociada con el valor, para los datos de flujo entrante es el último día del segundo año que se está reportando.",
+    "El valor numérico real de la variable. Los valores suprimidos son Null."
+  ]
+}

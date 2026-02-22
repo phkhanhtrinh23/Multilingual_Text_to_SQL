@@ -1,0 +1,126 @@
+{
+  "table_name": "irac_classification_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.irac_classification_30",
+  "column_names": [
+    "irac_class_id",
+    "ingrédient_actif",
+    "level1",
+    "description_level1",
+    "level2",
+    "description_level2",
+    "level3",
+    "description_level3",
+    "level4",
+    "irac_code"
+  ],
+  "column_types": [
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "irac_class_id",
+    "ingrédient_actif",
+    "level1",
+    "description_level1",
+    "level2",
+    "description_level2",
+    "level3",
+    "description_level3",
+    "level4",
+    "code_irac"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "Clé primaire numérique unique pour chaque code de niveau 4",
+    "Nom de l'ingrédient actif (insecticide) classifié par IRAC",
+    "Classe d'action, par exemple, action sur le nerf, métabolisme énergétique (code non attribué par IRAC)",
+    "Description de la classe d'action, telle que fournie par IRAC",
+    "Code de groupe principal IRAC indiquant le site/mécanisme d'action principal",
+    "Description du site/mécanisme d'action fournie par IRAC",
+    "Code de sous-groupe IRAC indiquant la classe chimique de l'insecticide",
+    "Description de la classe chimique ou de l'ingrédient exemplifiant fournie par IRAC",
+    "Un code unique attribué à chaque ingrédient (basé sur la classification IRAC de niveau 1, 2 et 3, mais non attribué par IRAC)",
+    "Le code de classification officiel IRAC pour l'ingrédient"
+  ],
+  "sample_rows": [
+    {
+      "irac_class_id": 13,
+      "ingrédient_actif": "BENSULTAP",
+      "level1": "A",
+      "description_level1": "NERVE ACTION",
+      "level2": "A14",
+      "description_level2": "NICOTINIC ACETYLCHOLINE RECEPTOR (NACHR) CHANNEL BLOCKERS",
+      "level3": "A1414A",
+      "description_level3": "NEREISTOXIN ANALOGUES",
+      "level4": "A1414A1",
+      "code_irac": "14"
+    },
+    {
+      "irac_class_id": 14,
+      "ingrédient_actif": "CARTAP HYDROCHLORIDE",
+      "level1": "A",
+      "description_level1": "NERVE ACTION",
+      "level2": "A14",
+      "description_level2": "NICOTINIC ACETYLCHOLINE RECEPTOR (NACHR) CHANNEL BLOCKERS",
+      "level3": "A1414A",
+      "description_level3": "NEREISTOXIN ANALOGUES",
+      "level4": "A1414A2",
+      "code_irac": "14"
+    },
+    {
+      "irac_class_id": 15,
+      "ingrédient_actif": "THIOCYCLAM",
+      "level1": "A",
+      "description_level1": "NERVE ACTION",
+      "level2": "A14",
+      "description_level2": "NICOTINIC ACETYLCHOLINE RECEPTOR (NACHR) CHANNEL BLOCKERS",
+      "level3": "A1414A",
+      "description_level3": "NEREISTOXIN ANALOGUES",
+      "level4": "A1414A3",
+      "code_irac": "14"
+    },
+    {
+      "irac_class_id": 16,
+      "ingrédient_actif": "THIOSULTAP-SODIUM",
+      "level1": "A",
+      "description_level1": "NERVE ACTION",
+      "level2": "A14",
+      "description_level2": "NICOTINIC ACETYLCHOLINE RECEPTOR (NACHR) CHANNEL BLOCKERS",
+      "level3": "A1414A",
+      "description_level3": "NEREISTOXIN ANALOGUES",
+      "level4": "A1414A4",
+      "code_irac": "14"
+    },
+    {
+      "irac_class_id": 34,
+      "ingrédient_actif": "AMITRAZ",
+      "level1": "A",
+      "description_level1": "NERVE ACTION",
+      "level2": "A19",
+      "description_level2": "OCTOPAMINE RECEPTOR AGONISTS",
+      "level3": "A1919A",
+      "description_level3": "AMITRAZ",
+      "level4": "A1919A1",
+      "code_irac": "19"
+    }
+  ]
+}

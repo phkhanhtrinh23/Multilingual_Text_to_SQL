@@ -1,0 +1,86 @@
+{
+  "table_name": "zip_to_county",
+  "table_fullname": "bigquery-public-data.hud_zipcode_crosswalk.zip_to_county",
+  "column_names": [
+    "codigo_postal",
+    "geoid_do_condado",
+    "ratio_residencial",
+    "ratio_comercial",
+    "ratio_outro",
+    "ratio_total"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "NUMERIC",
+    "NUMERIC",
+    "NUMERIC",
+    "NUMERIC"
+  ],
+  "nested_column_names": [
+    "codigo_postal",
+    "geoid_do_condado",
+    "ratio_residencial",
+    "ratio_comercial",
+    "ratio_outro",
+    "ratio_total"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "NUMERIC",
+    "NUMERIC",
+    "NUMERIC",
+    "NUMERIC"
+  ],
+  "description": [
+    "Código ZIP da USPS de 5 dígitos.",
+    "GEOID único de 5 dígitos do Censo de 2000 ou 2010, consistindo em FIPS do estado + FIPS do condado. Esses podem ser mapeados para vários ZIPs da USPS. Mapeia para 'geo_id' em tabelas com dados de condado",
+    "A razão de endereços residenciais na parte ZIP - Condado para o total de endereços residenciais em todo o ZIP.",
+    "A razão de endereços comerciais na parte ZIP - Condado para o total de endereços comerciais em todo o ZIP.",
+    "A razão de outros endereços na parte ZIP - Condado para o total de endereços comerciais em todo o ZIP.",
+    "A razão de todos os endereços na parte ZIP - Condado para o total de endereços comerciais em todo o ZIP."
+  ],
+  "sample_rows": [
+    {
+      "codigo_postal": "36758",
+      "geoid_do_condado": "01001",
+      "ratio_residencial": "0.194743130",
+      "ratio_comercial": "0.090909091",
+      "ratio_outro": "0E-9",
+      "ratio_total": "0.191860465"
+    },
+    {
+      "codigo_postal": "36006",
+      "geoid_do_condado": "01001",
+      "ratio_residencial": "0.711048159",
+      "ratio_comercial": "0.529411765",
+      "ratio_outro": "0.555555556",
+      "ratio_total": "0.704918033"
+    },
+    {
+      "codigo_postal": "36022",
+      "geoid_do_condado": "01001",
+      "ratio_residencial": "0.366555925",
+      "ratio_comercial": "0.242990654",
+      "ratio_outro": "0.350000000",
+      "ratio_total": "0.364454094"
+    },
+    {
+      "codigo_postal": "36066",
+      "geoid_do_condado": "01001",
+      "ratio_residencial": "0.898141493",
+      "ratio_comercial": "0.723684211",
+      "ratio_outro": "0.743002545",
+      "ratio_total": "0.880370914"
+    },
+    {
+      "codigo_postal": "36749",
+      "geoid_do_condado": "01001",
+      "ratio_residencial": "0.595273264",
+      "ratio_comercial": "0.333333333",
+      "ratio_outro": "0.388888889",
+      "ratio_total": "0.586647727"
+    }
+  ]
+}

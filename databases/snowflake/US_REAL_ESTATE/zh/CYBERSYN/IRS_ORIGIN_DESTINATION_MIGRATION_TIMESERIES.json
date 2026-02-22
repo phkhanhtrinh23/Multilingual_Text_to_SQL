@@ -1,0 +1,78 @@
+{
+  "sample_rows": [
+    {
+      "来源地理ID": "geoId/37081",
+      "目标地理ID": "geoId/08031",
+      "变量名": "Number of Individuals",
+      "日期": "2012-12-31",
+      "值": 16,
+      "单位": "Individuals",
+      "已压制": 0
+    },
+    {
+      "来源地理ID": "geoId/12021",
+      "目标地理ID": "geoId/12031",
+      "变量名": "Number of Returns",
+      "日期": "2020-12-31",
+      "值": 40,
+      "单位": "Returns",
+      "已压制": 0
+    },
+    {
+      "来源地理ID": "geoId/40011",
+      "目标地理ID": "geoId/40039",
+      "变量名": "Adjusted Gross Income",
+      "日期": "2019-12-31",
+      "值": 1826000,
+      "单位": "USD",
+      "已压制": 0
+    },
+    {
+      "来源地理ID": "geoId/36071",
+      "目标地理ID": "geoId/12009",
+      "变量名": "Number of Returns",
+      "日期": "2018-12-31",
+      "值": 32,
+      "单位": "Returns",
+      "已压制": 0
+    },
+    {
+      "来源地理ID": "geoId/48113",
+      "目标地理ID": "geoId/06053",
+      "变量名": "Number of Returns",
+      "日期": "2012-12-31",
+      "值": 12,
+      "单位": "Returns",
+      "已压制": 0
+    }
+  ],
+  "table_name": "IRS_ORIGIN_DESTINATION_MIGRATION_TIMESERIES",
+  "table_fullname": "US_REAL_ESTATE.CYBERSYN.IRS_ORIGIN_DESTINATION_MIGRATION_TIMESERIES",
+  "column_names": [
+    "已压制",
+    "来源地理ID",
+    "变量名",
+    "目标地理ID",
+    "单位",
+    "日期",
+    "值"
+  ],
+  "column_types": [
+    "NUMBER",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "DATE",
+    "NUMBER"
+  ],
+  "description": [
+    "布尔值，指示该值是否因隐私原因在基础数据中已被抑制。被抑制的值显示为 NULL",
+    "该变量在第一年来源的地区（州、县）的唯一标识符",
+    "变量的可读名称",
+    "一个用于标识变量在第二年移动到的地点（州、县）的唯一标识符",
+    "数值的计量单位，例如：回报、个人、美元",
+    "与该数值对应的日期，对于流入数据而言，是所报告第二个年份的最后一天。",
+    "该变量的实际数值。被抑制的值为 Null。"
+  ]
+}

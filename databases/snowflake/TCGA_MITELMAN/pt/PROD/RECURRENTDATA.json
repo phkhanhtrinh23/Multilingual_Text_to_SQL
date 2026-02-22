@@ -1,0 +1,102 @@
+{
+  "table_name": "RECURRENTDATA",
+  "table_fullname": "TCGA_MITELMAN.PROD.RECURRENTDATA",
+  "column_names": [
+    "CasosTotais",
+    "Cromossomo",
+    "Braço",
+    "Tipo",
+    "Faixa",
+    "Topo",
+    "Anomalia",
+    "Morf",
+    "Gene",
+    "OrdemCromossômica"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "NUMBER"
+  ],
+  "description": [
+    "número total de casos (até 2150)",
+    "número do cromossomo (1- 22, X ou Y)",
+    "braço do cromossomo (p ou q)",
+    "indicar equilibrado ('B') ou desequilibrado ('U')",
+    "posição do gene no braço p ou q",
+    "código de topografia, por exemplo '0902' (ou em branco)",
+    "descrição da anomalia, por exemplo 'add(19)(q13)' ou 'del(20)(q11q13)'",
+    "código de morfologia, por exemplo '1602'",
+    "símbolo do gene(s), por exemplo 'KMT2A+' ou 'BCR/ABL1' ou em branco",
+    "ordem numérica do cromossomo"
+  ],
+  "sample_rows": [
+    {
+      "Cromossomo": "Y",
+      "Braço": "q",
+      "Faixa": "10",
+      "Anomalia": "i(Y)(q10)",
+      "Morf": "1820",
+      "Topo": null,
+      "CasosTotais": "2",
+      "Gene": null,
+      "OrdemCromossômica": 24,
+      "Tipo": "U"
+    },
+    {
+      "Cromossomo": "1",
+      "Braço": "q",
+      "Faixa": "10",
+      "Anomalia": "der(1;3)(q10;q10)",
+      "Morf": "3121",
+      "Topo": "0203",
+      "CasosTotais": "2",
+      "Gene": null,
+      "OrdemCromossômica": 1,
+      "Tipo": "U"
+    },
+    {
+      "Cromossomo": "1",
+      "Braço": "q",
+      "Faixa": "10",
+      "Anomalia": "der(1;5)(q10;p10)",
+      "Morf": "1101",
+      "Topo": null,
+      "CasosTotais": "2",
+      "Gene": null,
+      "OrdemCromossômica": 1,
+      "Tipo": "U"
+    },
+    {
+      "Cromossomo": "1",
+      "Braço": "q",
+      "Faixa": "10",
+      "Anomalia": "der(1;5)(q10;p10)",
+      "Morf": "1702",
+      "Topo": null,
+      "CasosTotais": "3",
+      "Gene": null,
+      "OrdemCromossômica": 1,
+      "Tipo": "U"
+    },
+    {
+      "Cromossomo": "1",
+      "Braço": "q",
+      "Faixa": "10",
+      "Anomalia": "der(1;5)(q10;q10)",
+      "Morf": "1101",
+      "Topo": null,
+      "CasosTotais": "2",
+      "Gene": null,
+      "OrdemCromossômica": 1,
+      "Tipo": "U"
+    }
+  ]
+}

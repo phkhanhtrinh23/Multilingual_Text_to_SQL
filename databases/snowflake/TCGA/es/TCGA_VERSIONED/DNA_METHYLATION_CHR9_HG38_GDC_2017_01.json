@@ -1,0 +1,102 @@
+{
+  "table_name": "DNA_METHYLATION_CHR9_HG38_GDC_2017_01",
+  "table_fullname": "TCGA.TCGA_VERSIONED.DNA_METHYLATION_CHR9_HG38_GDC_2017_01",
+  "column_names": [
+    "id_muestra_gdc",
+    "código de barras de muestra",
+    "código de alícuota",
+    "caso_gdc_identificador",
+    "Código de Barras del Caso",
+    "ID_del_archivo_GDC",
+    "plataforma",
+    "id_aliquota_gdc",
+    "identificador de la sonda",
+    "valor beta"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "FLOAT"
+  ],
+  "description": [
+    "Identificador único de GDC para esta muestra (corresponde al código de muestra sample_barcode), por ejemplo a1ec9279-c1a6-4e58-97ed-9ec1f36187c5 -- esto puede usarse para acceder a más información del portal de datos de GDC",
+    "Código de barras de muestra TCGA, por ejemplo TCGA-12-1089-01A. Una muestra puede tener múltiples conjuntos de segmentaciones CN correspondientes a varias alícuotas; utilice GROUP BY de manera adecuada en las consultas.",
+    "Código de barras de alícuota TCGA, por ejemplo TCGA-12-1089-01A-01D-0517-25",
+    "Identificador único del GDC para este caso (corresponde al case_barcode). Se puede usar para acceder a más información del portal de datos GDC, como este: https://portal.gdc.cancer.gov/files/c21b332c-06c6-4403-9032-f91c8f407ba33",
+    "Código de caso original de TCGA, por ejemplo TCGA-DX-A8BN",
+    "Identificador único de GDC para este archivo (corresponde al código de barras del archivo)  --  esto se puede usar para acceder a más información desde el portal de datos GDC como este: https://portal.gdc.cancer.gov/files/c21b332c-06c6-4403-9032-f91c8f407ba40",
+    "Plataforma utilizada para generar estos datos – HumanMethylation450 o HumanMethylation27",
+    "Identificador único de GDC para este aliquot (corresponde al aliquot_barcode), por ejemplo 7fbfdb3e-1fd2-4206-8d2e-7f68e4a15844 -- esto se puede usar para acceder a más información desde el portal de datos GDC",
+    "ID único de la sonda del array asociada a un sitio CpG",
+    "Representa la proporción entre la intensidad del array metilado y la intensidad total del array, varía entre 0 (niveles más bajos de metilación) y 1 (niveles más altos de metilación)."
+  ],
+  "sample_rows": [
+    {
+      "Código de Barras del Caso": "TCGA-12-1601",
+      "código de barras de muestra": "TCGA-12-1601-01A",
+      "código de alícuota": "TCGA-12-1601-01A-01D-0595-05",
+      "identificador de la sonda": "cg00168082",
+      "valor beta": 0.0129255368996468,
+      "plataforma": null,
+      "ID_del_archivo_GDC": "5cd6f2f6-7278-4757-be8e-a8ae3a7a81d3",
+      "caso_gdc_identificador": "cc1459be-de8f-482e-9efe-65937db9dc45",
+      "id_muestra_gdc": "b02fd704-03a6-44c4-b224-f5f457e733f3",
+      "id_aliquota_gdc": "aa761ca4-e8f0-4a43-8262-bd84eedb459a"
+    },
+    {
+      "Código de Barras del Caso": "TCGA-12-1601",
+      "código de barras de muestra": "TCGA-12-1601-01A",
+      "código de alícuota": "TCGA-12-1601-01A-01D-0595-05",
+      "identificador de la sonda": "cg26491484",
+      "valor beta": 0.827658628750089,
+      "plataforma": null,
+      "ID_del_archivo_GDC": "5cd6f2f6-7278-4757-be8e-a8ae3a7a81d3",
+      "caso_gdc_identificador": "cc1459be-de8f-482e-9efe-65937db9dc45",
+      "id_muestra_gdc": "b02fd704-03a6-44c4-b224-f5f457e733f3",
+      "id_aliquota_gdc": "aa761ca4-e8f0-4a43-8262-bd84eedb459a"
+    },
+    {
+      "Código de Barras del Caso": "TCGA-12-1601",
+      "código de barras de muestra": "TCGA-12-1601-01A",
+      "código de alícuota": "TCGA-12-1601-01A-01D-0595-05",
+      "identificador de la sonda": "cg04837322",
+      "valor beta": 0.00847136297409645,
+      "plataforma": null,
+      "ID_del_archivo_GDC": "5cd6f2f6-7278-4757-be8e-a8ae3a7a81d3",
+      "caso_gdc_identificador": "cc1459be-de8f-482e-9efe-65937db9dc45",
+      "id_muestra_gdc": "b02fd704-03a6-44c4-b224-f5f457e733f3",
+      "id_aliquota_gdc": "aa761ca4-e8f0-4a43-8262-bd84eedb459a"
+    },
+    {
+      "Código de Barras del Caso": "TCGA-12-1601",
+      "código de barras de muestra": "TCGA-12-1601-01A",
+      "código de alícuota": "TCGA-12-1601-01A-01D-0595-05",
+      "identificador de la sonda": "cg10493166",
+      "valor beta": 0.0131225514946526,
+      "plataforma": null,
+      "ID_del_archivo_GDC": "5cd6f2f6-7278-4757-be8e-a8ae3a7a81d3",
+      "caso_gdc_identificador": "cc1459be-de8f-482e-9efe-65937db9dc45",
+      "id_muestra_gdc": "b02fd704-03a6-44c4-b224-f5f457e733f3",
+      "id_aliquota_gdc": "aa761ca4-e8f0-4a43-8262-bd84eedb459a"
+    },
+    {
+      "Código de Barras del Caso": "TCGA-12-1601",
+      "código de barras de muestra": "TCGA-12-1601-01A",
+      "código de alícuota": "TCGA-12-1601-01A-01D-0595-05",
+      "identificador de la sonda": "cg13033853",
+      "valor beta": 0.015703646258215,
+      "plataforma": null,
+      "ID_del_archivo_GDC": "5cd6f2f6-7278-4757-be8e-a8ae3a7a81d3",
+      "caso_gdc_identificador": "cc1459be-de8f-482e-9efe-65937db9dc45",
+      "id_muestra_gdc": "b02fd704-03a6-44c4-b224-f5f457e733f3",
+      "id_aliquota_gdc": "aa761ca4-e8f0-4a43-8262-bd84eedb459a"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "table_name": "molecule_irac_classification_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.molecule_irac_classification_30",
+  "column_names": [
+    "ID de IRAC de molécula",
+    "id de clase IRAC",
+    "ID de molécula"
+  ],
+  "column_types": [
+    "INT64",
+    "INT64",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "ID del MolIRAC",
+    "identificador_clase_irac",
+    "número de registro molecular"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "INT64",
+    "INT64"
+  ],
+  "description": [
+    "Clave primaria.",
+    "Clave foránea a la tabla irac_classification que muestra la clasificación del mecanismo de acción del compuesto.",
+    "Clave foránea a la tabla molecule_dictionary, que muestra el compuesto al que se aplica la clasificación."
+  ],
+  "sample_rows": [
+    {
+      "ID del MolIRAC": 65,
+      "identificador_clase_irac": 1,
+      "número de registro molecular": 611681
+    },
+    {
+      "ID del MolIRAC": 113,
+      "identificador_clase_irac": 3,
+      "número de registro molecular": 1222245
+    },
+    {
+      "ID del MolIRAC": 74,
+      "identificador_clase_irac": 5,
+      "número de registro molecular": 782593
+    },
+    {
+      "ID del MolIRAC": 84,
+      "identificador_clase_irac": 7,
+      "número de registro molecular": 896779
+    },
+    {
+      "ID del MolIRAC": 80,
+      "identificador_clase_irac": 8,
+      "número de registro molecular": 839968
+    }
+  ]
+}

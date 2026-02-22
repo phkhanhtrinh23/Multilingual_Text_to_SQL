@@ -1,0 +1,96 @@
+{
+  "table_name": "tissue_dictionary_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.tissue_dictionary_30",
+  "column_names": [
+    "mã mô",
+    "Mã Uberon",
+    "Tên ưu tiên",
+    "ID EFO",
+    "Mã Chembl",
+    "Mã BTO",
+    "Mã số Caloha"
+  ],
+  "column_types": [
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "mã_mô",
+    "ID Uberon",
+    "Tên ưu tiên",
+    "Mã EFO",
+    "ID chembl",
+    "Mã BTO",
+    "mã_caloha"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "Khóa chính, ID số cho mỗi mô.",
+    "Mã định danh Ontology Uberon cho mô này.",
+    "Tên mô (trong hầu hết các trường hợp là tên Uberon).",
+    "Định danh Ontology Yếu tố Thí nghiệm cho mô.",
+    "Mã định danh ChEMBL cho mô này (để sử dụng trên giao diện web, vv)",
+    "BRENDA Tissue Ontology Identifier cho mô.",
+    "Định danh Ontology CALOHA của Viện Sinh học Thông tin Thụy Sĩ cho mô."
+  ],
+  "sample_rows": [
+    {
+      "mã_mô": 6,
+      "ID Uberon": "UBERON:0000006",
+      "Tên ưu tiên": "Islets of langerhans",
+      "Mã EFO": "EFO:0000856",
+      "ID chembl": "CHEMBL4296343",
+      "Mã BTO": "BTO:0000991",
+      "mã_caloha": "TS-0741"
+    },
+    {
+      "mã_mô": 7,
+      "ID Uberon": "UBERON:0000007",
+      "Tên ưu tiên": "Pituitary gland",
+      "Mã EFO": "EFO:0000857",
+      "ID chembl": "CHEMBL3638173",
+      "Mã BTO": "BTO:0001073",
+      "mã_caloha": "TS-0798"
+    },
+    {
+      "mã_mô": 23,
+      "ID Uberon": "UBERON:0000023",
+      "Tên ưu tiên": "Wing",
+      "Mã EFO": "EFO:0000885",
+      "ID chembl": "CHEMBL3988049",
+      "Mã BTO": "BTO:0001463",
+      "mã_caloha": null
+    },
+    {
+      "mã_mô": 29,
+      "ID Uberon": "UBERON:0000029",
+      "Tên ưu tiên": "Lymph node",
+      "Mã EFO": "EFO:0000872",
+      "ID chembl": "CHEMBL3638175",
+      "Mã BTO": "BTO:0000784",
+      "mã_caloha": "TS-0579"
+    },
+    {
+      "mã_mô": 33,
+      "ID Uberon": "UBERON:0000033",
+      "Tên ưu tiên": "Head",
+      "Mã EFO": "EFO:0000964",
+      "ID chembl": "CHEMBL3987761",
+      "Mã BTO": "BTO:0000282",
+      "mã_caloha": "TS-0436"
+    }
+  ]
+}

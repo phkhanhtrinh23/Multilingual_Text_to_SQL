@@ -1,0 +1,70 @@
+{
+  "sample_rows": [
+    {
+      "ID_DE_GEO": "zip/55032",
+      "NOM_DE_GEO": "55032",
+      "VARIABLE": "outbound_address_changes_temporary",
+      "NOM_DE_VARIABLE": "Outbound Address Changes, Temporary",
+      "DATE": "2020-08-31",
+      "VALEUR": 0
+    },
+    {
+      "ID_DE_GEO": "geoId/2555745",
+      "NOM_DE_GEO": "Quincy",
+      "VARIABLE": "inbound_address_changes_permanent",
+      "NOM_DE_VARIABLE": "Inbound Address Changes, Permanent",
+      "DATE": "2023-06-30",
+      "VALEUR": 582
+    },
+    {
+      "ID_DE_GEO": "geoId/3362500",
+      "NOM_DE_GEO": "Plaistow",
+      "VARIABLE": "net_address_changes_individuals",
+      "NOM_DE_VARIABLE": "Net Address Changes, Individuals",
+      "DATE": "2021-08-31",
+      "VALEUR": 4
+    },
+    {
+      "ID_DE_GEO": "zip/72132",
+      "NOM_DE_GEO": "72132",
+      "VARIABLE": "inbound_address_changes_businesses",
+      "NOM_DE_VARIABLE": "Inbound Address Changes, Businesses",
+      "DATE": "2022-12-31",
+      "VALEUR": 0
+    },
+    {
+      "ID_DE_GEO": "geoId/3703960",
+      "NOM_DE_GEO": "Bayboro",
+      "VARIABLE": "outbound_address_changes_families",
+      "NOM_DE_VARIABLE": "Outbound Address Changes, Families",
+      "DATE": "2023-02-28",
+      "VALEUR": 0
+    }
+  ],
+  "table_name": "USPS_ADDRESS_CHANGE_TIMESERIES",
+  "table_fullname": "US_REAL_ESTATE.CYBERSYN.USPS_ADDRESS_CHANGE_TIMESERIES",
+  "column_names": [
+    "NOM_DE_VARIABLE",
+    "DATE",
+    "VARIABLE",
+    "NOM_DE_GEO",
+    "ID_DE_GEO",
+    "VALEUR"
+  ],
+  "column_types": [
+    "TEXT",
+    "DATE",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "NUMBER"
+  ],
+  "description": [
+    "Une description lisible par l'homme de la variable",
+    "Date correspondant au point de données. Notez que les dates sont enregistrées comme la date de fin de période lorsque la période de mesure est > 1 jour",
+    "Un identifiant unique joignable à la table des attributs",
+    "Nom de l'emplacement de l'état, de la ville ou du code postal",
+    "Un identifiant unique pour un lieu (par exemple, état, ville, code postal, etc.). Joignable aux tables geography_index/relationships pour le filtrage de l'agrégation de région",
+    "La valeur numérique de la variable rapportée"
+  ]
+}

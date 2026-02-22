@@ -1,0 +1,86 @@
+{
+  "table_name": "associationByDatasourceIndirect",
+  "table_fullname": "bigquery-public-data.open_targets_platform.associationByDatasourceIndirect",
+  "column_names": [
+    "idTipoDato",
+    "idFuenteDatos",
+    "idEnfermedad",
+    "Identificador de objetivo",
+    "Puntuación",
+    "conteo de evidencias"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "tipoDeDatosId",
+    "ID de origen de datos",
+    "idEnfermedad",
+    "ID de destino",
+    "puntuación",
+    "cantidad de evidencias"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "INT64"
+  ],
+  "description": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "sample_rows": [
+    {
+      "tipoDeDatosId": "genetic_association",
+      "ID de origen de datos": "eva",
+      "idEnfermedad": "EFO_0002945",
+      "ID de destino": "ENSG00000177628",
+      "puntuación": 0.9429057941673307,
+      "cantidad de evidencias": 156
+    },
+    {
+      "tipoDeDatosId": "genetic_association",
+      "ID de origen de datos": "eva",
+      "idEnfermedad": "MONDO_0004580",
+      "ID de destino": "ENSG00000196189",
+      "puntuación": 0.8343887095693674,
+      "cantidad de evidencias": 106
+    },
+    {
+      "tipoDeDatosId": "genetic_association",
+      "ID de origen de datos": "eva",
+      "idEnfermedad": "MONDO_0010041",
+      "ID de destino": "ENSG00000151835",
+      "puntuación": 0.9480686371830984,
+      "cantidad de evidencias": 1125
+    },
+    {
+      "tipoDeDatosId": "genetic_association",
+      "ID de origen de datos": "eva",
+      "idEnfermedad": "EFO_0000508",
+      "ID de destino": "ENSG00000144488",
+      "puntuación": 0.316739123497058,
+      "cantidad de evidencias": 61
+    },
+    {
+      "tipoDeDatosId": "genetic_association",
+      "ID de origen de datos": "eva",
+      "idEnfermedad": "MONDO_0000591",
+      "ID de destino": "ENSG00000139549",
+      "puntuación": 0.8860192358280301,
+      "cantidad de evidencias": 69
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "table_name": "target_relations_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.target_relations_30",
+  "column_names": [
+    "tiempo",
+    "relación",
+    "ID relacionado",
+    "id_relación_objetivo"
+  ],
+  "column_types": [
+    "INT64",
+    "STRING",
+    "INT64",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "tiempo",
+    "relación",
+    "ID relacionado",
+    "identificador_targrel"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "STRING",
+    "INT64",
+    "INT64"
+  ],
+  "description": [
+    "Identificador del objetivo de interés (clave foránea a la tabla target_dictionary)",
+    "Relación entre dos objetivos (p. ej., SUBCONJUNTO DE, SUPERCONJUNTO DE, SE SOBREPUESTA CON)",
+    "Identificador del objetivo que está relacionado con el objetivo de interés (clave foránea a la tabla target_dicitionary)",
+    "clave primaria"
+  ],
+  "sample_rows": [
+    {
+      "tiempo": 117043,
+      "relación": "SUBSET OF",
+      "ID relacionado": 118387,
+      "identificador_targrel": 227977
+    },
+    {
+      "tiempo": 117043,
+      "relación": "SUBSET OF",
+      "ID relacionado": 120269,
+      "identificador_targrel": 227981
+    },
+    {
+      "tiempo": 104690,
+      "relación": "SUBSET OF",
+      "ID relacionado": 104871,
+      "identificador_targrel": 228004
+    },
+    {
+      "tiempo": 104897,
+      "relación": "SUBSET OF",
+      "ID relacionado": 119771,
+      "identificador_targrel": 228021
+    },
+    {
+      "tiempo": 105044,
+      "relación": "SUBSET OF",
+      "ID relacionado": 104844,
+      "identificador_targrel": 228037
+    }
+  ]
+}

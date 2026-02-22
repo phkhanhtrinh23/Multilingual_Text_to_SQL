@@ -1,0 +1,78 @@
+{
+  "sample_rows": [
+    {
+      "DE_GEO_ID": "geoId/37081",
+      "PARA_GEO_ID": "geoId/08031",
+      "NOME_DA_VARIÁVEL": "Number of Individuals",
+      "DATA": "2012-12-31",
+      "VALOR": 16,
+      "UNIDADE": "Individuals",
+      "SUPPRESSÃO": 0
+    },
+    {
+      "DE_GEO_ID": "geoId/12021",
+      "PARA_GEO_ID": "geoId/12031",
+      "NOME_DA_VARIÁVEL": "Number of Returns",
+      "DATA": "2020-12-31",
+      "VALOR": 40,
+      "UNIDADE": "Returns",
+      "SUPPRESSÃO": 0
+    },
+    {
+      "DE_GEO_ID": "geoId/40011",
+      "PARA_GEO_ID": "geoId/40039",
+      "NOME_DA_VARIÁVEL": "Adjusted Gross Income",
+      "DATA": "2019-12-31",
+      "VALOR": 1826000,
+      "UNIDADE": "USD",
+      "SUPPRESSÃO": 0
+    },
+    {
+      "DE_GEO_ID": "geoId/36071",
+      "PARA_GEO_ID": "geoId/12009",
+      "NOME_DA_VARIÁVEL": "Number of Returns",
+      "DATA": "2018-12-31",
+      "VALOR": 32,
+      "UNIDADE": "Returns",
+      "SUPPRESSÃO": 0
+    },
+    {
+      "DE_GEO_ID": "geoId/48113",
+      "PARA_GEO_ID": "geoId/06053",
+      "NOME_DA_VARIÁVEL": "Number of Returns",
+      "DATA": "2012-12-31",
+      "VALOR": 12,
+      "UNIDADE": "Returns",
+      "SUPPRESSÃO": 0
+    }
+  ],
+  "table_name": "IRS_ORIGIN_DESTINATION_MIGRATION_TIMESERIES",
+  "table_fullname": "US_REAL_ESTATE.CYBERSYN.IRS_ORIGIN_DESTINATION_MIGRATION_TIMESERIES",
+  "column_names": [
+    "SUPPRESSÃO",
+    "DE_GEO_ID",
+    "NOME_DA_VARIÁVEL",
+    "PARA_GEO_ID",
+    "UNIDADE",
+    "DATA",
+    "VALOR"
+  ],
+  "column_types": [
+    "NUMBER",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "DATE",
+    "NUMBER"
+  ],
+  "description": [
+    "Indicador booleano de que o valor foi suprimido nos dados subjacentes por motivos de privacidade. Valores suprimidos aparecem como NULL",
+    "Um identificador único para um local (estado, condado) de onde a variável origina no primeiro ano",
+    "Nome legível por humanos para a variável",
+    "Um identificador único para um local (estado, condado) para o qual a variável se move no segundo ano",
+    "Unidade de medida para o valor, exemplos: retornos, indivíduos, USD",
+    "Data associada ao valor, para dados de influxo é o último dia do segundo ano sendo relatado",
+    "O valor numérico real para a variável. Valores suprimidos são Null."
+  ]
+}

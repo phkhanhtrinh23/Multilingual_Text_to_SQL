@@ -1,0 +1,78 @@
+{
+  "table_name": "DNA_METHYLATION_CHR6_HG19_GDC_2017_01",
+  "table_fullname": "TCGA_MITELMAN.TCGA_VERSIONED.DNA_METHYLATION_CHR6_HG19_GDC_2017_01",
+  "column_names": [
+    "Mã vạch mẫu",
+    "Tên dự án ngắn",
+    "mã vạch mẫu",
+    "giá trị beta",
+    "Mã vạch hồ sơ",
+    "định danh mẫu",
+    "nền tảng"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "FLOAT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Mã vạch mẫu TCGA gốc, ví dụ TCGA-12-1089-01A – chú ý rằng một mẫu có thể có nhiều lăng cắt và do đó có nhiều bộ phân đoạn CN; vì vậy hãy chắc chắn sử dụng GROUP BY một cách thích hợp trong các truy vấn của bạn",
+    "Viết tắt tên dự án; tên chương trình được nối thêm viết tắt tên dự án; ví dụ: TCGA-OV, v.v.",
+    "Mã vạch mẫu TCGA gốc, ví dụ TCGA-12-1089-01A-01D-0517-01",
+    "Giá trị beta metyl hóa DNA đã được chuẩn hóa (từ 0 đến 1, trong đó 0 biểu thị hoàn toàn chưa metyl hóa và 1 biểu thị hoàn toàn đã metyl hóa)",
+    "Mã vạch trường hợp TCGA gốc, ví dụ TCGA-12-1089 -- lưu ý rằng mỗi trường hợp thường có một mẫu khối u chính và một mẫu khớp bình thường (máu hoặc mô lân cận); vui lòng tham khảo bảng Bióm mẫu TCGA để biết thêm chi tiết",
+    "Định danh duy nhất của đầu dò (ví dụ cg04676771) từ bảng Methylation Illumina Human – vui lòng tham khảo bảng chú thích (isb-cgc:platform_reference.methylation_annotation) để biết thêm chi tiết về bất kỳ đầu dò nào",
+    "Tên nền tảng được dùng để tạo dữ liệu này -- hoặc HumanMethylation450 hoặc HumanMethylation27"
+  ],
+  "sample_rows": [
+    {
+      "Tên dự án ngắn": "TCGA-OV",
+      "Mã vạch hồ sơ": "TCGA-01-0628",
+      "Mã vạch mẫu": "TCGA-01-0628-11A",
+      "mã vạch mẫu": "TCGA-01-0628-11A-01D-0383-05",
+      "định danh mẫu": "cg06493994",
+      "giá trị beta": 0.03,
+      "nền tảng": "HumanMethylation27"
+    },
+    {
+      "Tên dự án ngắn": "TCGA-OV",
+      "Mã vạch hồ sơ": "TCGA-01-0630",
+      "Mã vạch mẫu": "TCGA-01-0630-11A",
+      "mã vạch mẫu": "TCGA-01-0630-11A-01D-0383-05",
+      "định danh mẫu": "cg08552121",
+      "giá trị beta": 0.02,
+      "nền tảng": "HumanMethylation27"
+    },
+    {
+      "Tên dự án ngắn": "TCGA-OV",
+      "Mã vạch hồ sơ": "TCGA-01-0631",
+      "Mã vạch mẫu": "TCGA-01-0631-11A",
+      "mã vạch mẫu": "TCGA-01-0631-11A-01D-0383-05",
+      "định danh mẫu": "cg25313204",
+      "giá trị beta": 0.94,
+      "nền tảng": "HumanMethylation27"
+    },
+    {
+      "Tên dự án ngắn": "TCGA-OV",
+      "Mã vạch hồ sơ": "TCGA-01-0631",
+      "Mã vạch mẫu": "TCGA-01-0631-11A",
+      "mã vạch mẫu": "TCGA-01-0631-11A-01D-0383-05",
+      "định danh mẫu": "cg12478978",
+      "giá trị beta": 0.03,
+      "nền tảng": "HumanMethylation27"
+    },
+    {
+      "Tên dự án ngắn": "TCGA-OV",
+      "Mã vạch hồ sơ": "TCGA-01-0631",
+      "Mã vạch mẫu": "TCGA-01-0631-11A",
+      "mã vạch mẫu": "TCGA-01-0631-11A-01D-0383-05",
+      "định danh mẫu": "cg14527802",
+      "giá trị beta": 0.06,
+      "nền tảng": "HumanMethylation27"
+    }
+  ]
+}

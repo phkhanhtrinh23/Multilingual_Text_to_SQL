@@ -1,0 +1,116 @@
+{
+  "table_name": "Filtered_EBpp_AdjustPANCAN_IlluminaHiSeq_RNASeqV2_genExp",
+  "table_fullname": "isb-cgc-bq.pancancer_atlas.Filtered_EBpp_AdjustPANCAN_IlluminaHiSeq_RNASeqV2_genExp",
+  "column_names": [
+    "Teilnehmerbarcode",
+    "Probenbarcode",
+    "Aliquotbarcode",
+    "ProbenartBuchstabencode",
+    "Probenart",
+    "Studie",
+    "Symbol",
+    "Entrez",
+    "normalisierte_anzahl"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64"
+  ],
+  "nested_column_names": [
+    "TeilnehmerBarcode",
+    "ProbeBarcode",
+    "AliquotBarcode",
+    "ProbenartBuchstabenCode",
+    "Probenart",
+    "Studie",
+    "Symbol",
+    "Entrez",
+    "normalisierte_anzahl"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64"
+  ],
+  "description": [
+    "TCGA Barcode-Identifikator für den Studienteilnehmer, z. B. TCGA-02-0001",
+    "Barcode der Biospecimen-Probe, z. B. TCGA-13-1489-02A",
+    "TCGA-Aliquot-Barcode, z. B. TCGA-12-1089-01A-01D-0517-28",
+    "Buchstabencode des Probentyps gemäß den TCGA-Standards, z. B. TPN, EBV. Die vollständige Liste finden Sie unter https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/sample-type-codes",
+    "Es gibt 10 Probentypen: Blutabgeleitetes Normalgewebe, Primärer solider Tumor, Normalgewebe aus festem Gewebe, Rezidivierender solider Tumor, Metastatischer Tumor, Zusätzlich - Neuer Primärtumor, Primäres blutabgeleitetes Krebsgewebe – Peripheres Blut, Buccal-Zellen Normalgewebe, Zusätzliche metastatische Befunde, Normalgewebe des Knochenmarks",
+    "TCGA-Studienabkürzung, z. B. LAML. Vollständige Liste verfügbar unter https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/tcga-study-abbreviations",
+    "z. B. TP53, LRP1B usw. (gleiche wie das Feld Hugo_Symbol außer dass statt Unknown ein leerer Wert steht)",
+    "Entrez-ID des NCBI, z. B. 730971",
+    "Normalisierte Genexpression"
+  ],
+  "sample_rows": [
+    {
+      "TeilnehmerBarcode": "TCGA-06-0675",
+      "ProbeBarcode": "TCGA-06-0675-11A",
+      "AliquotBarcode": "TCGA-06-0675-11A-32R-A36H-07",
+      "ProbenartBuchstabenCode": "NT",
+      "Probenart": "Solid Tissue Normal",
+      "Studie": "GBM",
+      "Symbol": "SNORA3",
+      "Entrez": "619562",
+      "normalisierte_anzahl": 0.0
+    },
+    {
+      "TeilnehmerBarcode": "TCGA-06-0675",
+      "ProbeBarcode": "TCGA-06-0675-11A",
+      "AliquotBarcode": "TCGA-06-0675-11A-32R-A36H-07",
+      "ProbenartBuchstabenCode": "NT",
+      "Probenart": "Solid Tissue Normal",
+      "Studie": "GBM",
+      "Symbol": "SH3TC1",
+      "Entrez": "54436",
+      "normalisierte_anzahl": 270.806
+    },
+    {
+      "TeilnehmerBarcode": "TCGA-06-0675",
+      "ProbeBarcode": "TCGA-06-0675-11A",
+      "AliquotBarcode": "TCGA-06-0675-11A-32R-A36H-07",
+      "ProbenartBuchstabenCode": "NT",
+      "Probenart": "Solid Tissue Normal",
+      "Studie": "GBM",
+      "Symbol": "F2RL1",
+      "Entrez": "2150",
+      "normalisierte_anzahl": 52.6318
+    },
+    {
+      "TeilnehmerBarcode": "TCGA-06-0675",
+      "ProbeBarcode": "TCGA-06-0675-11A",
+      "AliquotBarcode": "TCGA-06-0675-11A-32R-A36H-07",
+      "ProbenartBuchstabenCode": "NT",
+      "Probenart": "Solid Tissue Normal",
+      "Studie": "GBM",
+      "Symbol": "FGF1",
+      "Entrez": "2246",
+      "normalisierte_anzahl": 1356.73
+    },
+    {
+      "TeilnehmerBarcode": "TCGA-06-0675",
+      "ProbeBarcode": "TCGA-06-0675-11A",
+      "AliquotBarcode": "TCGA-06-0675-11A-32R-A36H-07",
+      "ProbenartBuchstabenCode": "NT",
+      "Probenart": "Solid Tissue Normal",
+      "Studie": "GBM",
+      "Symbol": "LOC728410",
+      "Entrez": "728410",
+      "normalisierte_anzahl": 0.0
+    }
+  ]
+}

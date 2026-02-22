@@ -1,0 +1,116 @@
+{
+  "table_name": "quant_phosphoproteome_PTRC_HGSOC_frozen_validation_pdc_current",
+  "table_fullname": "isb-cgc-bq.CPTAC.quant_phosphoproteome_PTRC_HGSOC_frozen_validation_pdc_current",
+  "column_names": [
+    "id_de_cas",
+    "id_d_echantillon",
+    "id_d_aliquote",
+    "id_de_soumission_d_aliquote",
+    "id_de_metadonnees_d_execution_d_aliquote",
+    "nom_d_etude",
+    "abondance_de_proteine_log2ratio",
+    "id_refseq",
+    "sites_de_phosphorylation"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "id_de_cas",
+    "id_d_echantillon",
+    "id_d_aliquote",
+    "id_de_soumission_d_aliquote",
+    "id_de_metadonnees_d_execution_d_aliquote",
+    "nom_d_etude",
+    "abondance_de_proteine_log2ratio",
+    "id_refseq",
+    "sites_de_phosphorylation"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "Identifiant unique associé à un patient spécifique (e.g. 24cb0fcb-63d6-11e8-bcf1-0a2705229b82)",
+    "Identifiant PDC unique pour cet échantillon (e.g. e8d83eb9-693a-11ea-b1fd-0aad30af8a83)",
+    "Identifiant PDC unique pour cet aliquot (e.g. e8db124a-693a-11ea-b1fd-0aad30af8a83)",
+    "ID de soumission d'aliquot attribué par le programme (e.g. T14)",
+    "Identifie de manière unique l'aliquot en fonction de son utilisation dans l'expérience (en fonction du réactif d'étiquetage et/ou de la répétition biologique)",
+    "Nom de l'étude (e.g. Étude pilote sur le cancer du cerveau pédiatrique - Phosphoprotéome)",
+    "Rapport log-moyen des ions rapporteurs d'échantillon par rapport à la référence commune des ions de peptides associés au gène dans les acquisitions d'un échantillon biologique spécifique",
+    "Identifiant unique donné à une séquence dans la base de données NCBI RefSeq",
+    "Codes à lettre unique et positions de séquence de protéine des acides aminés phosphorylés (e.g. t304s310, t59)"
+  ],
+  "sample_rows": [
+    {
+      "id_de_cas": "00cb6713-234c-465c-9c2e-397168bb3bca",
+      "id_d_echantillon": "8d9c5933-055c-4b1f-8d81-a7749af94d03",
+      "id_d_aliquote": "47130988-7848-40fc-9076-cb545b4ca065",
+      "id_de_soumission_d_aliquote": "589667",
+      "id_de_metadonnees_d_execution_d_aliquote": "05da500b-8226-4f6d-bfb8-34d76ab3693f",
+      "nom_d_etude": "PTRC HGSOC Frozen Validation - Phosphoproteome",
+      "abondance_de_proteine_log2ratio": -0.2788,
+      "id_refseq": "NP_000436.2",
+      "sites_de_phosphorylation": "s1611"
+    },
+    {
+      "id_de_cas": "00cb6713-234c-465c-9c2e-397168bb3bca",
+      "id_d_echantillon": "8d9c5933-055c-4b1f-8d81-a7749af94d03",
+      "id_d_aliquote": "47130988-7848-40fc-9076-cb545b4ca065",
+      "id_de_soumission_d_aliquote": "589667",
+      "id_de_metadonnees_d_execution_d_aliquote": "05da500b-8226-4f6d-bfb8-34d76ab3693f",
+      "nom_d_etude": "PTRC HGSOC Frozen Validation - Phosphoproteome",
+      "abondance_de_proteine_log2ratio": 1.3858,
+      "id_refseq": "NP_001001522.1",
+      "sites_de_phosphorylation": "y193"
+    },
+    {
+      "id_de_cas": "00cb6713-234c-465c-9c2e-397168bb3bca",
+      "id_d_echantillon": "8d9c5933-055c-4b1f-8d81-a7749af94d03",
+      "id_d_aliquote": "47130988-7848-40fc-9076-cb545b4ca065",
+      "id_de_soumission_d_aliquote": "589667",
+      "id_de_metadonnees_d_execution_d_aliquote": "05da500b-8226-4f6d-bfb8-34d76ab3693f",
+      "nom_d_etude": "PTRC HGSOC Frozen Validation - Phosphoproteome",
+      "abondance_de_proteine_log2ratio": 0.6129,
+      "id_refseq": "NP_001007103.1",
+      "sites_de_phosphorylation": "s645"
+    },
+    {
+      "id_de_cas": "00cb6713-234c-465c-9c2e-397168bb3bca",
+      "id_d_echantillon": "8d9c5933-055c-4b1f-8d81-a7749af94d03",
+      "id_d_aliquote": "47130988-7848-40fc-9076-cb545b4ca065",
+      "id_de_soumission_d_aliquote": "589667",
+      "id_de_metadonnees_d_execution_d_aliquote": "05da500b-8226-4f6d-bfb8-34d76ab3693f",
+      "nom_d_etude": "PTRC HGSOC Frozen Validation - Phosphoproteome",
+      "abondance_de_proteine_log2ratio": -2.5995,
+      "id_refseq": "NP_001008709.1",
+      "sites_de_phosphorylation": "s336"
+    },
+    {
+      "id_de_cas": "00cb6713-234c-465c-9c2e-397168bb3bca",
+      "id_d_echantillon": "8d9c5933-055c-4b1f-8d81-a7749af94d03",
+      "id_d_aliquote": "47130988-7848-40fc-9076-cb545b4ca065",
+      "id_de_soumission_d_aliquote": "589667",
+      "id_de_metadonnees_d_execution_d_aliquote": "05da500b-8226-4f6d-bfb8-34d76ab3693f",
+      "nom_d_etude": "PTRC HGSOC Frozen Validation - Phosphoproteome",
+      "abondance_de_proteine_log2ratio": -0.9138,
+      "id_refseq": "NP_001011713.2",
+      "sites_de_phosphorylation": "s39"
+    }
+  ]
+}

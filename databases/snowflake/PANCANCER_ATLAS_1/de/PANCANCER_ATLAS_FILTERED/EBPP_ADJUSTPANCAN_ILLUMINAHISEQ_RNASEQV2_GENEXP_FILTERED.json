@@ -1,0 +1,94 @@
+{
+  "table_name": "EBPP_ADJUSTPANCAN_ILLUMINAHISEQ_RNASEQV2_GENEXP_FILTERED",
+  "table_fullname": "PANCANCER_ATLAS_1.PANCANCER_ATLAS_FILTERED.EBPP_ADJUSTPANCAN_ILLUMINAHISEQ_RNASEQV2_GENEXP_FILTERED",
+  "column_names": [
+    "StichprobenBarcode",
+    "StichprobenTypBuchstabenCode",
+    "TeilnehmerBarcode",
+    "AliquotBarcode",
+    "Studie",
+    "normalized_count",
+    "StichprobenTyp",
+    "Entrez",
+    "Symbol"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "FLOAT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Barcode der Biospecimen-Probe, z. B. TCGA-13-1489-02A",
+    "Buchstabencode des ProbenTyps unter Verwendung der TCGA-Standards, z. B. TPN, EBV. Vollständige Liste verfügbar unter https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/sample-type-codes",
+    "TCGA-Barcode-Identifikator für den Studienteilnehmer, z. B. TCGA-02-0001",
+    "TCGA-Aliquot-Barcode, z. B. TCGA-12-1089-01A-01D-0517-28",
+    "TCGA-Studienerweiterung, z. B. LAML. Vollständige Liste verfügbar unter https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/tcga-study-abbreviations",
+    "Normalisierte Genexpression",
+    "Es gibt 10 ProbenTypen: Blutabgeleitete Normale, Primärer fester Tumor, Fester Gewebe-Normale, Rezidivierender fester Tumor, Metastatischer, Zusätzlich - Neues Primär-, Primärblutabgeleitetes Krebsgewebe - Peripheres Blut, Buccal-Zell-Normale, Zusätzliche Metastasen, Knochenmark-Normale",
+    "Entrez-ID von der NCBI, z. B. 730971",
+    "z. B. TP53, LRP1B usw. (gleich wie Hugo_Symbol-Feld, außer leer anstelle von Unknown)"
+  ],
+  "sample_rows": [
+    {
+      "TeilnehmerBarcode": "TCGA-EL-A3ZT",
+      "StichprobenBarcode": "TCGA-EL-A3ZT-01A",
+      "AliquotBarcode": "TCGA-EL-A3ZT-01A-12R-A23N-07",
+      "StichprobenTypBuchstabenCode": "TP",
+      "StichprobenTyp": "Primary solid Tumor",
+      "Studie": "THCA",
+      "Symbol": "CTAGE9",
+      "Entrez": "643854",
+      "normalized_count": 649.975
+    },
+    {
+      "TeilnehmerBarcode": "TCGA-EL-A3ZT",
+      "StichprobenBarcode": "TCGA-EL-A3ZT-01A",
+      "AliquotBarcode": "TCGA-EL-A3ZT-01A-12R-A23N-07",
+      "StichprobenTypBuchstabenCode": "TP",
+      "StichprobenTyp": "Primary solid Tumor",
+      "Studie": "THCA",
+      "Symbol": "JDP2",
+      "Entrez": "122953",
+      "normalized_count": 405.581
+    },
+    {
+      "TeilnehmerBarcode": "TCGA-EL-A3ZT",
+      "StichprobenBarcode": "TCGA-EL-A3ZT-01A",
+      "AliquotBarcode": "TCGA-EL-A3ZT-01A-12R-A23N-07",
+      "StichprobenTypBuchstabenCode": "TP",
+      "StichprobenTyp": "Primary solid Tumor",
+      "Studie": "THCA",
+      "Symbol": "RTKN",
+      "Entrez": "6242",
+      "normalized_count": 1142.38
+    },
+    {
+      "TeilnehmerBarcode": "TCGA-EL-A3ZT",
+      "StichprobenBarcode": "TCGA-EL-A3ZT-01A",
+      "AliquotBarcode": "TCGA-EL-A3ZT-01A-12R-A23N-07",
+      "StichprobenTypBuchstabenCode": "TP",
+      "StichprobenTyp": "Primary solid Tumor",
+      "Studie": "THCA",
+      "Symbol": "SLC2A11",
+      "Entrez": "66035",
+      "normalized_count": 699.417
+    },
+    {
+      "TeilnehmerBarcode": "TCGA-EL-A3ZT",
+      "StichprobenBarcode": "TCGA-EL-A3ZT-01A",
+      "AliquotBarcode": "TCGA-EL-A3ZT-01A-12R-A23N-07",
+      "StichprobenTypBuchstabenCode": "TP",
+      "StichprobenTyp": "Primary solid Tumor",
+      "Studie": "THCA",
+      "Symbol": "PCDHGB1",
+      "Entrez": "56104",
+      "normalized_count": 69.2101
+    }
+  ]
+}

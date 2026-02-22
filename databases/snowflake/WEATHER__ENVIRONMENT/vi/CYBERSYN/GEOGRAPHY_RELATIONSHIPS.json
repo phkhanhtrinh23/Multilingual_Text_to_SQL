@@ -1,0 +1,78 @@
+{
+  "sample_rows": [
+    {
+      "Tên địa danh": "New York-Newark-Jersey City, NY-NJ-PA Metro Area",
+      "Mã địa lý": "geoId/C35620",
+      "Cấp độ": "CensusCoreBasedStatisticalArea",
+      "Tên địa lý liên quan": "Census Tract 972.06, Queens, New York",
+      "Mã địa lý liên quan": "geoId/36081097206",
+      "Cấp độ liên quan": "CensusTract",
+      "Loại mối quan hệ": "Contains"
+    },
+    {
+      "Tên địa danh": "24580377",
+      "Mã địa lý": "statcanId/S051224580377",
+      "Cấp độ": "DisseminationArea",
+      "Tên địa lý liên quan": "Brossard",
+      "Mã địa lý liên quan": "statcanId/A00052458007",
+      "Cấp độ liên quan": "CensusSubdivision",
+      "Loại mối quan hệ": "Overlaps"
+    },
+    {
+      "Tên địa danh": "Block Group 3, Census Tract 5459, Wayne County, Michigan",
+      "Mã địa lý": "censusBlockGroup/261635459003",
+      "Cấp độ": "CensusBlockGroup",
+      "Tên địa lý liên quan": "Census Tract 5459, Wayne County, Michigan",
+      "Mã địa lý liên quan": "geoId/26163545900",
+      "Cấp độ liên quan": "CensusTract",
+      "Loại mối quan hệ": "Overlaps"
+    },
+    {
+      "Tên địa danh": "Census Tract 9015.01, Prince William County, Virginia",
+      "Mã địa lý": "geoId/51153901501",
+      "Cấp độ": "CensusTract",
+      "Tên địa lý liên quan": "Northern America",
+      "Mã địa lý liên quan": "countrySubRegion/021",
+      "Cấp độ liên quan": "CountrySubRegion",
+      "Loại mối quan hệ": "Overlaps"
+    },
+    {
+      "Tên địa danh": "70506",
+      "Mã địa lý": "zip/70506",
+      "Cấp độ": "CensusZipCodeTabulationArea",
+      "Tên địa lý liên quan": "Census Tract 18.02, Lafayette Parish, Louisiana",
+      "Mã địa lý liên quan": "geoId/22055001802",
+      "Cấp độ liên quan": "CensusTract",
+      "Loại mối quan hệ": "Overlaps"
+    }
+  ],
+  "table_name": "GEOGRAPHY_RELATIONSHIPS",
+  "table_fullname": "WEATHER__ENVIRONMENT.CYBERSYN.GEOGRAPHY_RELATIONSHIPS",
+  "column_names": [
+    "Tên địa lý liên quan",
+    "Mã địa lý liên quan",
+    "Cấp độ liên quan",
+    "Loại mối quan hệ",
+    "Mã địa lý",
+    "Cấp độ",
+    "Tên địa danh"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Tên của địa điểm liên quan đến GEO_NAME. Đây là một địa điểm chồng lấn hoặc nằm trong địa điểm chính (ví dụ: thành phố trong một bang).",
+    "Một định danh duy nhất cho địa điểm liên quan có thể kết nối với bảng GEOGRAPHY_INDEX",
+    "Cấp độ địa lý hoặc phân cấp của địa điểm liên quan (ví dụ: Quốc gia, Bang, Hạt, Thành phố, Châu lục, CountrySubRegion, v.v.)",
+    "Quan hệ giữa hai địa điểm. “Contains” có nghĩa là RELATED_GEO_ID hoàn toàn nằm trong GEO_ID (ví dụ: mối quan hệ giữa bang và thành phố), trong khi “Overlaps” cho thấy GEO_ID là một phần của RELATED_GEO_ID (ví dụ: mối quan hệ giữa thành phố và bang).",
+    "Một định danh duy nhất cho một địa điểm có thể được liên kết với bảng GEOGRAPHY_INDEX",
+    "Cấp độ hoặc thứ bậc địa lý (ví dụ: Quốc gia, Bang, Hạt, Thành phố, Vùng lục địa, Phân vùng quốc gia, vv.)",
+    "Tên đầy đủ của địa điểm"
+  ]
+}

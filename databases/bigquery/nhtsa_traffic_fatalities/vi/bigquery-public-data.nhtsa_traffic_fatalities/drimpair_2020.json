@@ -1,0 +1,86 @@
+{
+  "table_name": " drimpair_2020",
+  "table_fullname": "bigquery-public-data.nhtsa_traffic_fatalities. drimpair_2020",
+  "column_names": [
+    "số trạng thái",
+    "tên bang",
+    "số liên tiếp",
+    "Số xe",
+    "điều kiện suy giảm tại thời điểm tai nạn của tài xế",
+    "Tên tài xế và tình trạng suy giảm tại thời điểm tai nạn"
+  ],
+  "column_types": [
+    "INT64",
+    "STRING",
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "số trạng thái",
+    "tên bang",
+    "số liên tiếp",
+    "số xe",
+    "Tình trạng giảm năng lực tại thời điểm tai nạn của tài xế",
+    "Tên tài xế khi mất khả năng tại thời điểm tai nạn"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "STRING",
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING"
+  ],
+  "description": [
+    "Yếu tố dữ liệu này xác định bang nơi tai nạn xảy ra. Các mã này được lấy từ bản công bố của Cơ quan Quản lý Dịch vụ Chung (GSA) về Mã Vị trí Địa lý Toàn cầu (GLC). Để biết thêm thông tin về các mã, vui lòng xem phần <C1/V1/D1/PC1/P1/NM1 State Number> trong tài liệu pdf: https://crashstats.nhtsa.dot.gov/Api/Public/ViewPublication/812315",
+    "Thành phần dữ liệu này xác định bang nơi tai nạn xảy ra. Các mã được lấy từ ấn phẩm của Quản lý Dịch vụ Chung (GSA) về Mã Địa điểm Địa lý Toàn cầu (GLC).",
+    "Phần tử dữ liệu này là số vụ duy nhất được chỉ định cho mỗi vụ tai nạn.  \nNó xuất hiện trên mỗi tập tin dữ liệu và được sử dụng để kết hợp thông tin từ các tập tin dữ liệu với nhau.  \nxxxxxx Hai ký tự cho Mã bang, sau đó là bốn ký tự cho Số vụ.",
+    "Yếu tố dữ liệu này là số thứ tự liên tiếp được gán cho mỗi phương tiện trong trường hợp.  \nYếu tố dữ liệu này xuất hiện trong mỗi tệp dữ liệu cấp phương tiện và được sử dụng kết hợp với yếu tố dữ liệu ST_CASE để hợp nhất thông tin từ các tệp dữ liệu cấp phương tiện.  \n000-999 Số đã được gán cho phương tiện ô tô",
+    "Phần dữ liệu này xác định các khuyết tật thể chất của tài xế này, có thể đã góp phần vào tai nạn, như đã được cơ quan thực thi pháp luật xác định. Để biết thêm thông tin về các mã, vui lòng xem phần <D23 Condition (Impairment) at Time of Crash- Driver> trong tài liệu PDF: https://crashstats.nhtsa.dot.gov/Api/Public/ViewPublication/812315",
+    "Yếu tố dữ liệu này xác định các khuyết tật vật lý của người lái xe này có thể đã góp phần vào tai nạn như được cơ quan thực thi pháp luật xác định."
+  ],
+  "sample_rows": [
+    {
+      "số trạng thái": 1,
+      "tên bang": "Alabama",
+      "số liên tiếp": 10049,
+      "số xe": 5,
+      "Tình trạng giảm năng lực tại thời điểm tai nạn của tài xế": 0,
+      "Tên tài xế khi mất khả năng tại thời điểm tai nạn": "None/Apparently Normal"
+    },
+    {
+      "số trạng thái": 1,
+      "tên bang": "Alabama",
+      "số liên tiếp": 10106,
+      "số xe": 5,
+      "Tình trạng giảm năng lực tại thời điểm tai nạn của tài xế": 0,
+      "Tên tài xế khi mất khả năng tại thời điểm tai nạn": "None/Apparently Normal"
+    },
+    {
+      "số trạng thái": 1,
+      "tên bang": "Alabama",
+      "số liên tiếp": 10367,
+      "số xe": 5,
+      "Tình trạng giảm năng lực tại thời điểm tai nạn của tài xế": 0,
+      "Tên tài xế khi mất khả năng tại thời điểm tai nạn": "None/Apparently Normal"
+    },
+    {
+      "số trạng thái": 1,
+      "tên bang": "Alabama",
+      "số liên tiếp": 10571,
+      "số xe": 5,
+      "Tình trạng giảm năng lực tại thời điểm tai nạn của tài xế": 0,
+      "Tên tài xế khi mất khả năng tại thời điểm tai nạn": "None/Apparently Normal"
+    },
+    {
+      "số trạng thái": 1,
+      "tên bang": "Alabama",
+      "số liên tiếp": 10572,
+      "số xe": 5,
+      "Tình trạng giảm năng lực tại thời điểm tai nạn của tài xế": 0,
+      "Tên tài xế khi mất khả năng tại thời điểm tai nạn": "None/Apparently Normal"
+    }
+  ]
+}

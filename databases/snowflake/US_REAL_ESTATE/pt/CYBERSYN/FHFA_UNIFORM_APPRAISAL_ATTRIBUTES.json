@@ -1,0 +1,86 @@
+{
+  "sample_rows": [
+    {
+      "VARIÁVEL": "Annual_Mean_Ratio_Contract_Price/Appraised_Value_Type_of_Heating_Purchase_Other",
+      "NOME_DA_VARIÁVEL": "Annual Mean Ratio Contract Price/Appraised Value Type of Heating Purchase Other",
+      "GRUPO_DE_VARIÁVEIS": "Mean Ratio Contract Price/Appraised Value",
+      "PROPÓSITO_DE_AVALIAÇÃO": "Purchase",
+      "CARACTERÍSTICA": "Type of Heating",
+      "CATEGORIA": "Other",
+      "UNIDADE": "Ratio",
+      "FREQUÊNCIA": "Annual"
+    },
+    {
+      "VARIÁVEL": "Annual_Mean_Ratio_Contract_Price/Appraised_Value_Type_of_Structure_Purchase_Missing",
+      "NOME_DA_VARIÁVEL": "Annual Mean Ratio Contract Price/Appraised Value Type of Structure Purchase Missing",
+      "GRUPO_DE_VARIÁVEIS": "Mean Ratio Contract Price/Appraised Value",
+      "PROPÓSITO_DE_AVALIAÇÃO": "Purchase",
+      "CARACTERÍSTICA": "Type of Structure",
+      "CATEGORIA": "Missing",
+      "UNIDADE": "Ratio",
+      "FREQUÊNCIA": "Annual"
+    },
+    {
+      "VARIÁVEL": "Annual_Mean_Ratio_Contract_Price/Appraised_Value_Urbanization_Level_Purchase_Rural",
+      "NOME_DA_VARIÁVEL": "Annual Mean Ratio Contract Price/Appraised Value Urbanization Level Purchase Rural",
+      "GRUPO_DE_VARIÁVEIS": "Mean Ratio Contract Price/Appraised Value",
+      "PROPÓSITO_DE_AVALIAÇÃO": "Purchase",
+      "CARACTERÍSTICA": "Urbanization Level",
+      "CATEGORIA": "Rural",
+      "UNIDADE": "Ratio",
+      "FREQUÊNCIA": "Annual"
+    },
+    {
+      "VARIÁVEL": "Annual_Mean_Ratio_Contract_Price/Appraised_Value_Year_Built_Purchase_2010_to_current",
+      "NOME_DA_VARIÁVEL": "Annual Mean Ratio Contract Price/Appraised Value Year Built Purchase 2010 to current",
+      "GRUPO_DE_VARIÁVEIS": "Mean Ratio Contract Price/Appraised Value",
+      "PROPÓSITO_DE_AVALIAÇÃO": "Purchase",
+      "CARACTERÍSTICA": "Year Built",
+      "CATEGORIA": "2010 to current",
+      "UNIDADE": "Ratio",
+      "FREQUÊNCIA": "Annual"
+    },
+    {
+      "VARIÁVEL": "Annual_Median_Appraised_Value_Accessory_Dwelling_Unit_Present_Purchase_&_Refinance_No",
+      "NOME_DA_VARIÁVEL": "Annual Median Appraised Value Accessory Dwelling Unit Present Purchase & Refinance No",
+      "GRUPO_DE_VARIÁVEIS": "Median Appraised Value",
+      "PROPÓSITO_DE_AVALIAÇÃO": "Purchase & Refinance",
+      "CARACTERÍSTICA": "Accessory Dwelling Unit Present",
+      "CATEGORIA": "No",
+      "UNIDADE": "USD",
+      "FREQUÊNCIA": "Annual"
+    }
+  ],
+  "table_name": "FHFA_UNIFORM_APPRAISAL_ATTRIBUTES",
+  "table_fullname": "US_REAL_ESTATE.CYBERSYN.FHFA_UNIFORM_APPRAISAL_ATTRIBUTES",
+  "column_names": [
+    "GRUPO_DE_VARIÁVEIS",
+    "NOME_DA_VARIÁVEL",
+    "CATEGORIA",
+    "CARACTERÍSTICA",
+    "UNIDADE",
+    "PROPÓSITO_DE_AVALIAÇÃO",
+    "FREQUÊNCIA",
+    "VARIÁVEL"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Agrupamento geral de variáveis para a série temporal (por exemplo, Valor de Avaliação Mediano, Contagem de Avaliações, etc.)",
+    "Descrição legível por humanos para a variável",
+    "Categoria real correspondente ao tipo de característica. Notas recursos importantes da casa (por exemplo, Sem Ar Condicionado Central, construída entre 1970 e 1979, etc.)",
+    "Característica para agrupamento de categorias com base em recursos da casa (por exemplo, Ar Condicionado Central, Tipo de Fundação, etc.)",
+    "Unidade de medida para a variável: (por exemplo, Contagem, Percentual, Razão, USD)",
+    "Motivo do pedido de avaliação (por exemplo, Compra, Refinanciamento, Compra & Refinanciamento)",
+    "Frequência de agregações (por exemplo, Anual).",
+    "Um identificador único para uma variável associável à tabela de série temporal para filtragem"
+  ]
+}

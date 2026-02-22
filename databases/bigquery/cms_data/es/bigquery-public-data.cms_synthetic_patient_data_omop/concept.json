@@ -1,0 +1,126 @@
+{
+  "table_name": "concept",
+  "table_fullname": "bigquery-public-data.cms_synthetic_patient_data_omop.concept",
+  "column_names": [
+    "id_concepto",
+    "Nombre del concepto",
+    "id_dominio",
+    "id_vocabulario",
+    "id de clase de concepto",
+    "concepto estándar",
+    "código_concepto",
+    "fecha de inicio válida",
+    "fecha de finalización válida",
+    "razón inválida"
+  ],
+  "column_types": [
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "DATE",
+    "DATE",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "id_concepto",
+    "nombre del concepto",
+    "id_del_dominio",
+    "id_vocabulario",
+    "id_clase_concepto",
+    "concepto estándar",
+    "código_concepto",
+    "fecha de inicio válida",
+    "fecha_fin_valida",
+    "razón inválida"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "DATE",
+    "DATE",
+    "STRING"
+  ],
+  "description": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "sample_rows": [
+    {
+      "id_concepto": 3050551,
+      "nombre del concepto": "Deprecated Upper extremity arteries - left Fluoroscopic angiogram W contrast",
+      "id_del_dominio": "Observation",
+      "id_vocabulario": "LOINC",
+      "id_clase_concepto": "Clinical Observation",
+      "concepto estándar": null,
+      "código_concepto": "37573-3",
+      "fecha de inicio válida": "1970-01-01",
+      "fecha_fin_valida": "2010-08-27",
+      "razón inválida": "U"
+    },
+    {
+      "id_concepto": 3048206,
+      "nombre del concepto": "Deprecated Breast - right Mammogram magnification & spot compression",
+      "id_del_dominio": "Observation",
+      "id_vocabulario": "LOINC",
+      "id_clase_concepto": "Clinical Observation",
+      "concepto estándar": null,
+      "código_concepto": "38823-1",
+      "fecha de inicio válida": "1970-01-01",
+      "fecha_fin_valida": "2010-08-27",
+      "razón inválida": "U"
+    },
+    {
+      "id_concepto": 3002477,
+      "nombre del concepto": "Deprecated Carpal bones - left X-ray",
+      "id_del_dominio": "Observation",
+      "id_vocabulario": "LOINC",
+      "id_clase_concepto": "Clinical Observation",
+      "concepto estándar": null,
+      "código_concepto": "26104-0",
+      "fecha de inicio válida": "1970-01-01",
+      "fecha_fin_valida": "2010-08-27",
+      "razón inválida": "U"
+    },
+    {
+      "id_concepto": 40115591,
+      "nombre del concepto": "Iodine 0.009 MG/MG [Iodosorb]",
+      "id_del_dominio": "Drug",
+      "id_vocabulario": "RxNorm",
+      "id_clase_concepto": "Branded Drug Comp",
+      "concepto estándar": null,
+      "código_concepto": "575013",
+      "fecha de inicio válida": "2005-09-11",
+      "fecha_fin_valida": "2007-02-25",
+      "razón inválida": "D"
+    },
+    {
+      "id_concepto": 40664513,
+      "nombre del concepto": "Smoking and tobacco cessation counseling visit for the asymptomatic patient; intermediate, greater than 3 minutes, up to 10 minutes",
+      "id_del_dominio": "Device",
+      "id_vocabulario": "HCPCS",
+      "id_clase_concepto": "HCPCS",
+      "concepto estándar": null,
+      "código_concepto": "C9801",
+      "fecha de inicio válida": "2011-01-09",
+      "fecha_fin_valida": "2014-11-11",
+      "razón inválida": "D"
+    }
+  ]
+}

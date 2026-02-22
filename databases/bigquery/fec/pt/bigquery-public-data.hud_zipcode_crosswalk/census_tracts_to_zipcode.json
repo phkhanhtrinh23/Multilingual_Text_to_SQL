@@ -1,0 +1,86 @@
+{
+  "table_name": "census_tracts_to_zipcode",
+  "table_fullname": "bigquery-public-data.hud_zipcode_crosswalk.census_tracts_to_zipcode",
+  "column_names": [
+    "census_tract_geoid",
+    "zip_code",
+    "razao_residencial",
+    "razao_comercial",
+    "outra_razao",
+    "razao_total"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "NUMERIC",
+    "NUMERIC",
+    "NUMERIC",
+    "NUMERIC"
+  ],
+  "nested_column_names": [
+    "census_tract_geoid",
+    "zip_code",
+    "razao_residencial",
+    "razao_comercial",
+    "outra_razao",
+    "razao_total"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "NUMERIC",
+    "NUMERIC",
+    "NUMERIC",
+    "NUMERIC"
+  ],
+  "description": [
+    "11 dígitos único do Censo de 2000 ou 2010 do tracto GEOID consistindo em estado FIPS + county FIPS + código do tracto. O decimal é implícito e zeros líderes e trailers foram preservados. Esses podem mapear para vários ZIPs da USPS. Mapeia para 'geo_id' em tabelas com dados do Tracto do Censo",
+    "Código ZIP da USPS de 5 dígitos.",
+    "A razão de endereços residenciais na parte Tracto-ZIP para o número total de endereços residenciais em todo o Tracto.",
+    "A razão de endereços comerciais na parte Tracto-ZIP para o número total de endereços comerciais em todo o Tracto.",
+    "A razão de outros endereços na parte Tracto-ZIP para o número total de outros endereços em todo o Tracto.",
+    "A razão de todos os endereços na parte Tracto-ZIP para o número total de todos os tipos de endereços em todo o Tracto."
+  ],
+  "sample_rows": [
+    {
+      "census_tract_geoid": "50017959000",
+      "zip_code": "05040",
+      "razao_residencial": "0.046590000",
+      "razao_comercial": "0E-9",
+      "outra_razao": "0E-9",
+      "razao_total": "0.044810000"
+    },
+    {
+      "census_tract_geoid": "39133600402",
+      "zip_code": "44266",
+      "razao_residencial": "0.003180000",
+      "razao_comercial": "0E-9",
+      "outra_razao": "0E-9",
+      "razao_total": "0.002950000"
+    },
+    {
+      "census_tract_geoid": "48017950100",
+      "zip_code": "79031",
+      "razao_residencial": "0.000270000",
+      "razao_comercial": "0E-9",
+      "outra_razao": "0E-9",
+      "razao_total": "0.000230000"
+    },
+    {
+      "census_tract_geoid": "50019951200",
+      "zip_code": "05872",
+      "razao_residencial": "0.002780000",
+      "razao_comercial": "0E-9",
+      "outra_razao": "0E-9",
+      "razao_total": "0.002640000"
+    },
+    {
+      "census_tract_geoid": "13001950200",
+      "zip_code": "31563",
+      "razao_residencial": "0.010220000",
+      "razao_comercial": "0E-9",
+      "outra_razao": "0E-9",
+      "razao_total": "0.008850000"
+    }
+  ]
+}

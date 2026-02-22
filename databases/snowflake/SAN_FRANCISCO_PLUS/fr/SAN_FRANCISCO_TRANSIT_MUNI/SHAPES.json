@@ -1,0 +1,70 @@
+{
+  "table_name": "SHAPES",
+  "table_fullname": "SAN_FRANCISCO_PLUS.SAN_FRANCISCO_TRANSIT_MUNI.SHAPES",
+  "column_names": [
+    "sequence_de_points_de_forme",
+    "geometrie_de_point_de_forme",
+    "identifiant_de_forme",
+    "latitude_de_point_de_forme",
+    "longitude_de_point_de_forme",
+    "distance_parcourue_de_forme"
+  ],
+  "column_types": [
+    "NUMBER",
+    "BINARY",
+    "TEXT",
+    "FLOAT",
+    "FLOAT",
+    "FLOAT"
+  ],
+  "description": [
+    "Associe la latitude et la longitude d'un point de forme à son ordre de séquence le long de la forme. Les valeurs pour `shape_pt_sequence` doivent augmenter tout au long du trajet, mais n'ont pas besoin d'être consécutives.",
+    "Représentation géographique des points de latitude et de longitude",
+    "Identifie de manière unique chaque forme",
+    "Associe la latitude d'un point de forme à un `shape_id`.",
+    "Associe la longitude d'un point de forme à un `shape_id`.",
+    "Fournit la distance réelle parcourue le long de la forme du premier point de forme au point spécifié dans cet enregistrement. Ces informations permettent au planificateur de trajet de déterminer combien de la forme dessiner lorsqu'il affiche une partie d'un trajet sur la carte. Les valeurs utilisées pour `shape_dist_traveled` doivent augmenter avec `shape_pt_sequence` : elles ne peuvent pas être utilisées pour afficher un déplacement inverse le long d'une route."
+  ],
+  "sample_rows": [
+    {
+      "identifiant_de_forme": "173976",
+      "sequence_de_points_de_forme": 195,
+      "latitude_de_point_de_forme": 37.715079,
+      "longitude_de_point_de_forme": -122.424956,
+      "geometrie_de_point_de_forme": "bytearray(b'\\x01\\x01\\x00\\x00\\x00K\\x8f\\xa6z2\\x9b^\\xc08\\x87k\\xb5\\x87\\xdbB@')",
+      "distance_parcourue_de_forme": 14391.0
+    },
+    {
+      "identifiant_de_forme": "174271",
+      "sequence_de_points_de_forme": 92,
+      "latitude_de_point_de_forme": 37.760837,
+      "longitude_de_point_de_forme": -122.440596,
+      "geometrie_de_point_de_forme": "bytearray(b'\\x01\\x01\\x00\\x00\\x00\\xe7\\xaf\\x90\\xb92\\x9c^\\xc0\\x1bKX\\x1bc\\xe1B@')",
+      "distance_parcourue_de_forme": 5348.0
+    },
+    {
+      "identifiant_de_forme": "174272",
+      "sequence_de_points_de_forme": 185,
+      "latitude_de_point_de_forme": 37.760837,
+      "longitude_de_point_de_forme": -122.440596,
+      "geometrie_de_point_de_forme": "bytearray(b'\\x01\\x01\\x00\\x00\\x00\\xe7\\xaf\\x90\\xb92\\x9c^\\xc0\\x1bKX\\x1bc\\xe1B@')",
+      "distance_parcourue_de_forme": 6161.0
+    },
+    {
+      "identifiant_de_forme": "174273",
+      "sequence_de_points_de_forme": 92,
+      "latitude_de_point_de_forme": 37.760837,
+      "longitude_de_point_de_forme": -122.440596,
+      "geometrie_de_point_de_forme": "bytearray(b'\\x01\\x01\\x00\\x00\\x00\\xe7\\xaf\\x90\\xb92\\x9c^\\xc0\\x1bKX\\x1bc\\xe1B@')",
+      "distance_parcourue_de_forme": 5348.0
+    },
+    {
+      "identifiant_de_forme": "174274",
+      "sequence_de_points_de_forme": 232,
+      "latitude_de_point_de_forme": 37.760837,
+      "longitude_de_point_de_forme": -122.440596,
+      "geometrie_de_point_de_forme": "bytearray(b'\\x01\\x01\\x00\\x00\\x00\\xe7\\xaf\\x90\\xb92\\x9c^\\xc0\\x1bKX\\x1bc\\xe1B@')",
+      "distance_parcourue_de_forme": 10989.0
+    }
+  ]
+}

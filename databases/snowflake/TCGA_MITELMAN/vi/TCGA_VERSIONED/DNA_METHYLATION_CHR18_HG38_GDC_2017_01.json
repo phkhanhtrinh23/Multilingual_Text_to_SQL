@@ -1,0 +1,97 @@
+{
+  "table_name": "DNA_METHYLATION_CHR18_HG38_GDC_2017_01",
+  "table_fullname": "TCGA_MITELMAN.TCGA_VERSIONED.DNA_METHYLATION_CHR18_HG38_GDC_2017_01",
+  "column_names": [
+    "Mã vạch hộp",
+    "mã_điểm_đo",
+    "Mã GDC mẫu",
+    "nền tảng",
+    "ID tệp GDC",
+    "mã vạch mẫu",
+    "mã vạch mẫu",
+    "ID GDC mẫu aliquot",
+    "giá trị beta",
+    "ID GDC của trường hợp"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "FLOAT",
+    "TEXT"
+  ],
+  "description": [
+    "Mã vạch trường hợp TCGA gốc, ví dụ TCGA-DX-A8BN",
+    "ID duy nhất cho mạch dò mảng liên quan đến vị trí CpG",
+    "Định danh GDC duy nhất cho mẫu này (tương ứng với mã vạch mẫu), ví dụ a1ec9279-c1a6-4e58-97ed-9ec1f36187c5 – có thể được sử dụng để truy cập thêm thông tin từ cổng dữ liệu GDC.",
+    "Nền tảng được sử dụng để tạo dữ liệu này – hoặc HumanMethylation450 hoặc HumanMethylation27",
+    "Định danh GDC duy nhất cho tệp này (đối ứng với file_barcode) -- có thể được sử dụng để truy cập thêm thông tin từ cổng dữ liệu GDC như sau: https://portal.gdc.cancer.gov/files/c21b332c-06c6-4403-9032-f91c8f407ba28",
+    "Mã vạch mẫu TCGA, ví dụ TCGA-12-1089-01A. Một mẫu có thể có nhiều bộ phân đoạn CN tương ứng với nhiều mẫu con; hãy sử dụng GROUP BY một cách thích hợp trong các truy vấn.",
+    "Mã vạch aliquot TCGA, vd TCGA-12-1089-01A-01D-0517-13",
+    "Định danh GDC duy nhất cho mẫu này (tương ứng với mã vạch mẫu), ví dụ 7fbfdb3e-1fd2-4206-8d2e-7f68e4a15844 -- có thể được sử dụng để truy cập thêm thông tin từ cổng dữ liệu GDC.",
+    "Đại diện tỷ lệ giữa cường độ mảng đã methyl và tổng cường độ mảng, nằm trong khoảng từ 0 (độ methyl thấp) đến 1 (độ methyl cao).",
+    "Mã định danh GDC duy nhất cho trường hợp này (tương ứng với mã vạch case_barcode).  \nCó thể được sử dụng để truy cập thêm thông tin từ cổng dữ liệu GDC như sau:  \nhttps://portal.gdc.cancer.gov/files/c21b332c-06c6-4403-9032-f91c8f407ba21"
+  ],
+  "sample_rows": [
+    {
+      "Mã vạch hộp": "TCGA-12-1601",
+      "mã vạch mẫu": "TCGA-12-1601-01A-01D-0595-05",
+      "mã_điểm_đo": "cg00870662",
+      "giá trị beta": 0.0113800519725675,
+      "nền tảng": null,
+      "ID tệp GDC": "5cd6f2f6-7278-4757-be8e-a8ae3a7a81d3",
+      "ID GDC của trường hợp": "cc1459be-de8f-482e-9efe-65937db9dc45",
+      "Mã GDC mẫu": "b02fd704-03a6-44c4-b224-f5f457e733f3",
+      "ID GDC mẫu aliquot": "aa761ca4-e8f0-4a43-8262-bd84eedb459a"
+    },
+    {
+      "Mã vạch hộp": "TCGA-12-1601",
+      "mã vạch mẫu": "TCGA-12-1601-01A-01D-0595-05",
+      "mã_điểm_đo": "cg24041453",
+      "giá trị beta": 0.0644782180816191,
+      "nền tảng": null,
+      "ID tệp GDC": "5cd6f2f6-7278-4757-be8e-a8ae3a7a81d3",
+      "ID GDC của trường hợp": "cc1459be-de8f-482e-9efe-65937db9dc45",
+      "Mã GDC mẫu": "b02fd704-03a6-44c4-b224-f5f457e733f3",
+      "ID GDC mẫu aliquot": "aa761ca4-e8f0-4a43-8262-bd84eedb459a"
+    },
+    {
+      "Mã vạch hộp": "TCGA-12-1601",
+      "mã vạch mẫu": "TCGA-12-1601-01A-01D-0595-05",
+      "mã_điểm_đo": "cg18450227",
+      "giá trị beta": 0.995409842421354,
+      "nền tảng": null,
+      "ID tệp GDC": "5cd6f2f6-7278-4757-be8e-a8ae3a7a81d3",
+      "ID GDC của trường hợp": "cc1459be-de8f-482e-9efe-65937db9dc45",
+      "Mã GDC mẫu": "b02fd704-03a6-44c4-b224-f5f457e733f3",
+      "ID GDC mẫu aliquot": "aa761ca4-e8f0-4a43-8262-bd84eedb459a"
+    },
+    {
+      "Mã vạch hộp": "TCGA-12-1601",
+      "mã vạch mẫu": "TCGA-12-1601-01A-01D-0595-05",
+      "mã_điểm_đo": "cg16932672",
+      "giá trị beta": 0.0194160834167757,
+      "nền tảng": null,
+      "ID tệp GDC": "5cd6f2f6-7278-4757-be8e-a8ae3a7a81d3",
+      "ID GDC của trường hợp": "cc1459be-de8f-482e-9efe-65937db9dc45",
+      "Mã GDC mẫu": "b02fd704-03a6-44c4-b224-f5f457e733f3",
+      "ID GDC mẫu aliquot": "aa761ca4-e8f0-4a43-8262-bd84eedb459a"
+    },
+    {
+      "Mã vạch hộp": "TCGA-12-1601",
+      "mã vạch mẫu": "TCGA-12-1601-01A-01D-0595-05",
+      "mã_điểm_đo": "cg15422147",
+      "giá trị beta": 0.270575436014071,
+      "nền tảng": null,
+      "ID tệp GDC": "5cd6f2f6-7278-4757-be8e-a8ae3a7a81d3",
+      "ID GDC của trường hợp": "cc1459be-de8f-482e-9efe-65937db9dc45",
+      "Mã GDC mẫu": "b02fd704-03a6-44c4-b224-f5f457e733f3",
+      "ID GDC mẫu aliquot": "aa761ca4-e8f0-4a43-8262-bd84eedb459a"
+    }
+  ]
+}

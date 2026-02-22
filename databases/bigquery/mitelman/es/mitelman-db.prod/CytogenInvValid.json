@@ -1,0 +1,116 @@
+{
+  "table_name": "CytogenInvValid",
+  "table_fullname": "mitelman-db.prod.CytogenInvValid",
+  "column_names": [
+    "No. Ref.",
+    "Número de caso",
+    "Número de Factura",
+    "LongitudCariotipo",
+    "CariotipoCorto",
+    "KaryLong",
+    "Mensaje",
+    "Razón",
+    "EntradaCytoConv"
+  ],
+  "column_types": [
+    "INT64",
+    "STRING",
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "Número de referencia",
+    "Número de caso",
+    "Número de factura",
+    "Longitud del cariotipo",
+    "KaryShort",
+    "KaryLong",
+    "Mensaje",
+    "Motivo",
+    "Entrada CytoConv"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "STRING",
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "número de referencia",
+    "Número de caso -- suele ser un entero, pero también puede ser una cadena arbitraria.",
+    "número de investigación -- siempre un entero entre 1 y 9",
+    "longitud de la descripción del cariotipo – puede llegar a miles de caracteres, pero suele ser < 30",
+    "descripción corta (posiblemente truncada) del cariotipo",
+    "Si la descripción del cariotipo excede cierta longitud, la cadena completa se encuentra en esta columna; de lo contrario, este campo es nulo.",
+    "Indica si el cariotipo ha sido corregido por el verificador de sintaxis.",
+    "Mensajes de error",
+    "Un valor de cariotipo completo ajustado para funcionar con la herramienta de CytoConverter."
+  ],
+  "sample_rows": [
+    {
+      "Número de referencia": 17264,
+      "Número de caso": "403",
+      "Número de factura": 1,
+      "Longitud del cariotipo": 256,
+      "KaryShort": "45,XY,der(4)t(4;11)(p15;q21)t(4;11)(q13;q21)t(4;11)(q13;q14),der(5)t(5;17)(q11;q11),del(7)(q22q36),der(9)t(9;15)(q34;q26),r(11)(p11q11),der(15)t(11;15)(q14;p11)t(11;15)(q14;q14),der(16)t(15;16)(q21;q24)t(12;15)(q24;q21),del(17)(q11),der(20)t(4;20)(p15;p11",
+      "KaryLong": "45,XY,der(4)t(4;11)(p15;q21)t(4;11)(q13;q21)t(4;11)(q13;q14),der(5)t(5;17)(q11;q11),del(7)(q22q36),der(9)t(9;15)(q34;q26),r(11)(p11q11),der(15)t(11;15)(q14;p11)t(11;15)(q14;q14),der(16)t(15;16)(q21;q24)t(12;15)(q24;q21),del(17)(q11),der(20)t(4;20)(p15;p11)",
+      "Mensaje": "Original",
+      "Motivo": " ",
+      "Entrada CytoConv": "45,XY,der(4)t(4;11)(p15;q21)t(4;11)(q13;q21)t(4;11)(q13;q14),der(5)t(5;17)(q11;q11),del(7)(q22q36),der(9)t(9;15)(q34;q26),r(11)(p11q11),der(15)t(11;15)(q14;p11)t(11;15)(q14;q14),der(16)t(15;16)(q21;q24)t(12;15)(q24;q21),del(17)(q11),der(20)t(4;20)(p15;p11)"
+    },
+    {
+      "Número de referencia": 14318,
+      "Número de caso": "6",
+      "Número de factura": 3,
+      "Longitud del cariotipo": 256,
+      "KaryShort": "46,XY,der(8)t(8;9)(p22;p24)t(8;22)(q24;q11),der(9)t(8;9)(p21;p24)x2,der(21)t(1;21)(q21;p11),der(22)t(8;22)(q24;q11)/46,XY,der(8)t(8;9)(p22;p24)t(8;22)(q24;q11),der(9)t(8;9)(p21;p24)x2,der(21)t(1;21)(q21;p11),der(22)t(8;22)(q24;q11),der(16)t(16;22)(q24;q11",
+      "KaryLong": "46,XY,der(8)t(8;9)(p22;p24)t(8;22)(q24;q11),der(9)t(8;9)(p21;p24)x2,der(21)t(1;21)(q21;p11),der(22)t(8;22)(q24;q11)/46,XY,der(8)t(8;9)(p22;p24)t(8;22)(q24;q11),der(9)t(8;9)(p21;p24)x2,der(21)t(1;21)(q21;p11),der(22)t(8;22)(q24;q11),der(16)t(16;22)(q24;q11)",
+      "Mensaje": "Has been altered",
+      "Motivo": " ",
+      "Entrada CytoConv": "46,XY,der(8)t(8;9)(p22;p24)t(8;22)(q24;q11),der(9)t(8;9)(p21;p24)x2,der(21)t(1;21)(q21;p11),der(22)t(8;22)(q24;q11)/46,XY,der(8)t(8;9)(p22;p24)t(8;22)(q24;q11),der(9)t(8;9)(p21;p24)x2,der(21)t(1;21)(q21;p11),der(22)t(8;22)(q24;q11),der(16)t(16;22)(q24;q11)"
+    },
+    {
+      "Número de referencia": 11275,
+      "Número de caso": "1",
+      "Número de factura": 1,
+      "Longitud del cariotipo": 0,
+      "KaryShort": " ",
+      "KaryLong": " ",
+      "Mensaje": "Original",
+      "Motivo": " ",
+      "Entrada CytoConv": " "
+    },
+    {
+      "Número de referencia": 7355,
+      "Número de caso": "1",
+      "Número de factura": 1,
+      "Longitud del cariotipo": 0,
+      "KaryShort": " ",
+      "KaryLong": " ",
+      "Mensaje": "Original",
+      "Motivo": " ",
+      "Entrada CytoConv": " "
+    },
+    {
+      "Número de referencia": 12035,
+      "Número de caso": "7",
+      "Número de factura": 1,
+      "Longitud del cariotipo": 0,
+      "KaryShort": " ",
+      "KaryLong": " ",
+      "Mensaje": "Original",
+      "Motivo": " ",
+      "Entrada CytoConv": " "
+    }
+  ]
+}

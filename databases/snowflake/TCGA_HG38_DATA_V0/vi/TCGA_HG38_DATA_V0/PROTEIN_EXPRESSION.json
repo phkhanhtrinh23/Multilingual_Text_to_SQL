@@ -1,0 +1,110 @@
+{
+  "table_name": "PROTEIN_EXPRESSION",
+  "table_fullname": "TCGA_HG38_DATA_V0.TCGA_HG38_DATA_V0.PROTEIN_EXPRESSION",
+  "column_names": [
+    "Tên protein",
+    "biểu hiện protein",
+    "tên gen",
+    "nguồn kháng thể",
+    "Mã vạch hộp",
+    "Tên protein cơ bản",
+    "mã vạch mẫu",
+    "trạng thái xác thực",
+    "phốt pho",
+    "tên ngắn dự án",
+    "Mã vạch mẫu con"
+  ],
+  "column_types": [
+    "TEXT",
+    "FLOAT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Biểu tượng protein với trạng thái phosphánh hóa, ví dụ ACC_pS79",
+    "Mức độ biểu hiện protein được đo bằng mảng protein pha ngược. https://bioinformatics.mdanderson.org/public-software/tcpa/",
+    "Tên gene, ví dụ như TTN, DDR1, v.v.",
+    "Động vật nguồn gốc cho kháng thể M (Chuột), R (Thỏ), G (Ngựa Cừu)",
+    "Barcode trường hợp TCGA gốc, ví dụ TCGA-12-1089 -- lưu ý rằng mỗi trường hợp thường có một mẫu khối u gốc và một mẫu bình thường kèm theo (máu hoặc mô lân cận); vui lòng tham khảo bảng BioSpecimen của TCGA để biết thêm chi tiết.",
+    "Tên protein, ví dụ: AR, MAPK",
+    "Mã vạch mẫu TCGA gốc, ví dụ: TCGA-12-1089-01A -- lưu ý rằng một mẫu có thể có nhiều aliquot và do đó có nhiều bộ phân đoạn CN; vì vậy hãy chắc chắn sử dụng GROUP BY một cách thích hợp trong các truy vấn của bạn",
+    "Trạng thái xác thực kháng thể bằng sự tương quan dữ liệu RPPA với Western blot: V, E, C. Để biết thêm thông tin: https://bioinformatics.mdanderson.org/public-software/mclp/",
+    "Nếu kháng thể nhắm tới một protein đã được phốt pho, trường này sẽ chứa thông tin đó, ví dụ pS473 -- nếu không thì trường này sẽ là null",
+    "Viết tắt tên dự án; tên chương trình được nối với viết tắt tên dự án; ví dụ: TCGA-OV, vv.",
+    "Bảng mã mẫu TCGA gốc, ví dụ TCGA-12-1089-01A-01D-0517-01"
+  ],
+  "sample_rows": [
+    {
+      "tên ngắn dự án": "TCGA-CHOL",
+      "Mã vạch hộp": "TCGA-4G-AAZT",
+      "mã vạch mẫu": "TCGA-4G-AAZT-01A",
+      "Mã vạch mẫu con": "TCGA-4G-AAZT-01A-21-A45N-20",
+      "tên gen": "AR",
+      "Tên protein cơ bản": "AR",
+      "phốt pho": null,
+      "Tên protein": "AR",
+      "biểu hiện protein": 0.42619968075,
+      "nguồn kháng thể": "R",
+      "trạng thái xác thực": "V"
+    },
+    {
+      "tên ngắn dự án": "TCGA-UVM",
+      "Mã vạch hộp": "TCGA-V4-A9EA",
+      "mã vạch mẫu": "TCGA-V4-A9EA-01A",
+      "Mã vạch mẫu con": "TCGA-V4-A9EA-01A-21-A41Z-20",
+      "tên gen": "AR",
+      "Tên protein cơ bản": "AR",
+      "phốt pho": null,
+      "Tên protein": "AR",
+      "biểu hiện protein": -0.0883969254999999,
+      "nguồn kháng thể": "R",
+      "trạng thái xác thực": "V"
+    },
+    {
+      "tên ngắn dự án": "TCGA-DLBC",
+      "Mã vạch hộp": "TCGA-GS-A9TW",
+      "mã vạch mẫu": "TCGA-GS-A9TW-01A",
+      "Mã vạch mẫu con": "TCGA-GS-A9TW-01A-21-A45K-20",
+      "tên gen": "AR",
+      "Tên protein cơ bản": "AR",
+      "phốt pho": null,
+      "Tên protein": "AR",
+      "biểu hiện protein": 0.1090014075,
+      "nguồn kháng thể": "R",
+      "trạng thái xác thực": "V"
+    },
+    {
+      "tên ngắn dự án": "TCGA-DLBC",
+      "Mã vạch hộp": "TCGA-G8-6914",
+      "mã vạch mẫu": "TCGA-G8-6914-01A",
+      "Mã vạch mẫu con": "TCGA-G8-6914-01A-21-A45K-20",
+      "tên gen": "AR",
+      "Tên protein cơ bản": "AR",
+      "phốt pho": null,
+      "Tên protein": "AR",
+      "biểu hiện protein": 0.2661189065,
+      "nguồn kháng thể": "R",
+      "trạng thái xác thực": "V"
+    },
+    {
+      "tên ngắn dự án": "TCGA-CHOL",
+      "Mã vạch hộp": "TCGA-W5-AA33",
+      "mã vạch mẫu": "TCGA-W5-AA33-01A",
+      "Mã vạch mẫu con": "TCGA-W5-AA33-01A-21-A45N-20",
+      "tên gen": "AR",
+      "Tên protein cơ bản": "AR",
+      "phốt pho": null,
+      "Tên protein": "AR",
+      "biểu hiện protein": 0.0378950837500001,
+      "nguồn kháng thể": "R",
+      "trạng thái xác thực": "V"
+    }
+  ]
+}

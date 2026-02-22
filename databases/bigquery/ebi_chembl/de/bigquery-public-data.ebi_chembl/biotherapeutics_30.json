@@ -1,0 +1,56 @@
+{
+  "table_name": "biotherapeutics_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.biotherapeutics_30",
+  "column_names": [
+    "Molekülregistrierungsnummer",
+    "Beschreibung",
+    "Helmnotation"
+  ],
+  "column_types": [
+    "INT64",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "Molekülregistrierungsnummer",
+    "Beschreibung",
+    "Helm-Notation"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "Foreign key zu molecule_dictionary",
+    "Beschreibung des Biotherapeutikums.",
+    "Sequenznotation, die gemäß dem HELM-Standard generiert wird (http://www.openhelm.org/home). Derzeit nur für Peptide."
+  ],
+  "sample_rows": [
+    {
+      "Molekülregistrierungsnummer": 3389,
+      "Beschreibung": "ENKEPHALIN",
+      "Helm-Notation": "PEPTIDE1{Y.G.G.F.L}$$$$"
+    },
+    {
+      "Molekülregistrierungsnummer": 10633,
+      "Beschreibung": "[Val5] - ANGIOTENSIN II",
+      "Helm-Notation": "PEPTIDE1{D.R.V.Y.V.H.P.F}$$$$"
+    },
+    {
+      "Molekülregistrierungsnummer": 12246,
+      "Beschreibung": "MAGAININ 2",
+      "Helm-Notation": "PEPTIDE1{G.I.G.K.F.L.H.S.A.K.K.F.G.K.A.F.V.G.E.I.M.N.S}$$$$"
+    },
+    {
+      "Molekülregistrierungsnummer": 15695,
+      "Beschreibung": "DYNORPHIN",
+      "Helm-Notation": "PEPTIDE1{Y.G.G.F.L.R.R.[lalloI]}$$$$"
+    },
+    {
+      "Molekülregistrierungsnummer": 16264,
+      "Beschreibung": "NEUROPEPTIDE-Y",
+      "Helm-Notation": "PEPTIDE1{Y.P.S.K.P.D.N.P.G.E.D.A.P.A.E.D.L.A.R.Y.Y.S.A.L.R.H.Y.I.N.L.I.T.R.Q.R.Y.[am]}$$$$"
+    }
+  ]
+}

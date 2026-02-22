@@ -1,0 +1,126 @@
+{
+  "table_name": "midyear_population_5yr_age_sex",
+  "table_fullname": "bigquery-public-data.census_bureau_international.midyear_population_5yr_age_sex",
+  "column_names": [
+    "codigo_pais",
+    "nome_pais",
+    "ano",
+    "total_flag",
+    "idade_inicial",
+    "indicador_faixa_etaria",
+    "idade_final",
+    "populacao_meio_ano",
+    "populacao_meio_ano_masculino",
+    "populacao_meio_ano_feminino"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "INT64",
+    "STRING",
+    "INT64",
+    "STRING",
+    "INT64",
+    "INT64",
+    "INT64",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "codigo_pais",
+    "nome_pais",
+    "ano",
+    "total_flag",
+    "idade_inicial",
+    "indicador_faixa_etaria",
+    "idade_final",
+    "populacao_meio_ano",
+    "populacao_meio_ano_masculino",
+    "populacao_meio_ano_feminino"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "INT64",
+    "STRING",
+    "INT64",
+    "STRING",
+    "INT64",
+    "INT64",
+    "INT64",
+    "INT64"
+  ],
+  "description": [
+    "Código de país/área do Padrão de Processamento de Informações Federal (FIPS)",
+    "Nome do país ou área",
+    "Ano",
+    "Sinalizador total: \"*\"=Total, todas as idades; \"A\"=Grupo etário individual",
+    "Idade inicial (0 a 100)",
+    "Indicador de grupo etário: \"-\"=Grupo etário de 5 anos; \"+\"=Grupo etário sem limite",
+    "Idade final (4 a 99; definido como 0 se G=\"+\")",
+    "População de meado de ano de ambos os sexos no grupo etário",
+    "População de meado de ano masculina no grupo etário",
+    "População de meado de ano feminina no grupo etário"
+  ],
+  "sample_rows": [
+    {
+      "codigo_pais": "AA",
+      "nome_pais": "Aruba",
+      "ano": 1981,
+      "total_flag": "*",
+      "idade_inicial": 0,
+      "indicador_faixa_etaria": "+",
+      "idade_final": 0,
+      "populacao_meio_ano": 60308,
+      "populacao_meio_ano_masculino": 29332,
+      "populacao_meio_ano_feminino": 30976
+    },
+    {
+      "codigo_pais": "AA",
+      "nome_pais": "Aruba",
+      "ano": 1982,
+      "total_flag": "*",
+      "idade_inicial": 0,
+      "indicador_faixa_etaria": "+",
+      "idade_final": 0,
+      "populacao_meio_ano": 61043,
+      "populacao_meio_ano_masculino": 29669,
+      "populacao_meio_ano_feminino": 31374
+    },
+    {
+      "codigo_pais": "AA",
+      "nome_pais": "Aruba",
+      "ano": 1983,
+      "total_flag": "*",
+      "idade_inicial": 0,
+      "indicador_faixa_etaria": "+",
+      "idade_final": 0,
+      "populacao_meio_ano": 62019,
+      "populacao_meio_ano_masculino": 30134,
+      "populacao_meio_ano_feminino": 31885
+    },
+    {
+      "codigo_pais": "AA",
+      "nome_pais": "Aruba",
+      "ano": 1984,
+      "total_flag": "*",
+      "idade_inicial": 0,
+      "indicador_faixa_etaria": "+",
+      "idade_final": 0,
+      "populacao_meio_ano": 62683,
+      "populacao_meio_ano_masculino": 30432,
+      "populacao_meio_ano_feminino": 32251
+    },
+    {
+      "codigo_pais": "AA",
+      "nome_pais": "Aruba",
+      "ano": 1985,
+      "total_flag": "*",
+      "idade_inicial": 0,
+      "indicador_faixa_etaria": "+",
+      "idade_final": 0,
+      "populacao_meio_ano": 61511,
+      "populacao_meio_ano_masculino": 29750,
+      "populacao_meio_ano_feminino": 31761
+    }
+  ]
+}

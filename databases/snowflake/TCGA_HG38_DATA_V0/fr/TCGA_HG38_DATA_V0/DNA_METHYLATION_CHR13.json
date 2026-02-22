@@ -1,0 +1,102 @@
+{
+  "table_name": "DNA_METHYLATION_CHR13",
+  "table_fullname": "TCGA_HG38_DATA_V0.TCGA_HG38_DATA_V0.DNA_METHYLATION_CHR13",
+  "column_names": [
+    "identifiant_gdc_échantillon",
+    "identifiant_gdc_aliquot",
+    "code_barre_aliquot",
+    "code_barre_échantillon",
+    "code_barre_cas",
+    "valeur_bêta",
+    "identifiant_sonde",
+    "identifiant_gdc_fichier",
+    "identifiant_gdc_cas",
+    "plateforme"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "FLOAT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "",
+    "",
+    "Code barre d'aliquote TCGA original, par exemple TCGA-12-1089-01A-01D-0517-01",
+    "Code barre d'échantillon TCGA original, par exemple TCGA-12-1089-01A  --  notez qu'un échantillon peut avoir plusieurs aliquotes et donc plusieurs ensembles de segmentations CN ; assurez-vous d'utiliser GROUP BY de manière appropriée dans vos requêtes",
+    "Code barre de cas TCGA original, par exemple TCGA-12-1089  --  notez que chaque cas contient généralement un échantillon de tumeur primaire et un échantillon apparié normal (sang ou tissu adjacent) ; veuillez consulter la table TCGA Biospecimen pour plus de détails",
+    "Valeur beta de méthylation de l'ADN normalisée (entre 0 et 1, où 0 indique complètement non méthylationné et 1 indique complètement méthylationné)",
+    "Identifiant unique de sonde (par exemple cg04676771) de la matrice de méthylation de l'ADN humain Illumina -- veuillez consulter la table d'annotation (isb-cgc:platform_reference.methylation_annotation) pour plus de détails sur une sonde particulière",
+    "",
+    "",
+    "Nom de la plate-forme utilisée pour générer ces données -- soit HumanMethylation450 ou HumanMethylation27"
+  ],
+  "sample_rows": [
+    {
+      "code_barre_cas": "TCGA-12-1601",
+      "code_barre_échantillon": "TCGA-12-1601-01A",
+      "code_barre_aliquot": "TCGA-12-1601-01A-01D-0595-05",
+      "identifiant_sonde": "cg00432979",
+      "valeur_bêta": 0.0139876885684622,
+      "plateforme": null,
+      "identifiant_gdc_fichier": "5cd6f2f6-7278-4757-be8e-a8ae3a7a81d3",
+      "identifiant_gdc_cas": "cc1459be-de8f-482e-9efe-65937db9dc45",
+      "identifiant_gdc_échantillon": "b02fd704-03a6-44c4-b224-f5f457e733f3",
+      "identifiant_gdc_aliquot": "aa761ca4-e8f0-4a43-8262-bd84eedb459a"
+    },
+    {
+      "code_barre_cas": "TCGA-12-1601",
+      "code_barre_échantillon": "TCGA-12-1601-01A",
+      "code_barre_aliquot": "TCGA-12-1601-01A-01D-0595-05",
+      "identifiant_sonde": "cg04467034",
+      "valeur_bêta": 0.00599316407586222,
+      "plateforme": null,
+      "identifiant_gdc_fichier": "5cd6f2f6-7278-4757-be8e-a8ae3a7a81d3",
+      "identifiant_gdc_cas": "cc1459be-de8f-482e-9efe-65937db9dc45",
+      "identifiant_gdc_échantillon": "b02fd704-03a6-44c4-b224-f5f457e733f3",
+      "identifiant_gdc_aliquot": "aa761ca4-e8f0-4a43-8262-bd84eedb459a"
+    },
+    {
+      "code_barre_cas": "TCGA-32-2498",
+      "code_barre_échantillon": "TCGA-32-2498-01A",
+      "code_barre_aliquot": "TCGA-32-2498-01A-01D-1228-05",
+      "identifiant_sonde": "cg24909737",
+      "valeur_bêta": 0.0107344921324681,
+      "plateforme": null,
+      "identifiant_gdc_fichier": "6db4187c-5e48-45ac-8ae3-6b55198ff65a",
+      "identifiant_gdc_cas": "0d5e5a6b-5113-43f2-836c-776207b21b56",
+      "identifiant_gdc_échantillon": "58af038c-bd40-4123-a6d3-11061f0d38e1",
+      "identifiant_gdc_aliquot": "6e65d823-0d94-4d26-b60a-2f168cbe2ba8"
+    },
+    {
+      "code_barre_cas": "TCGA-A6-2670",
+      "code_barre_échantillon": "TCGA-A6-2670-01A",
+      "code_barre_aliquot": "TCGA-A6-2670-01A-02D-0820-05",
+      "identifiant_sonde": "cg09034896",
+      "valeur_bêta": 0.426661607453496,
+      "plateforme": null,
+      "identifiant_gdc_fichier": "cdd5e1a9-1ce8-4361-9fca-61ccb7098b25",
+      "identifiant_gdc_cas": "65bb7520-f055-43a8-b735-1152fa2c9e04",
+      "identifiant_gdc_échantillon": "724072ae-40b5-45cc-b339-e24f1cb6fbcf",
+      "identifiant_gdc_aliquot": "b8074b70-ad2b-49e5-b70a-c6e8a6681830"
+    },
+    {
+      "code_barre_cas": "TCGA-A6-2670",
+      "code_barre_échantillon": "TCGA-A6-2670-01A",
+      "code_barre_aliquot": "TCGA-A6-2670-01A-02D-0820-05",
+      "identifiant_sonde": "cg21142158",
+      "valeur_bêta": 0.0332981007021635,
+      "plateforme": null,
+      "identifiant_gdc_fichier": "cdd5e1a9-1ce8-4361-9fca-61ccb7098b25",
+      "identifiant_gdc_cas": "65bb7520-f055-43a8-b735-1152fa2c9e04",
+      "identifiant_gdc_échantillon": "724072ae-40b5-45cc-b339-e24f1cb6fbcf",
+      "identifiant_gdc_aliquot": "b8074b70-ad2b-49e5-b70a-c6e8a6681830"
+    }
+  ]
+}

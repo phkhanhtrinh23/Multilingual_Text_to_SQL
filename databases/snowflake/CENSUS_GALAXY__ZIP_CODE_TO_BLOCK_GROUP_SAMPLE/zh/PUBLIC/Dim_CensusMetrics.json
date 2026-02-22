@@ -1,0 +1,102 @@
+{
+  "sample_rows": [
+    {
+      "度量ID": "B01002_002E",
+      "类型": "Estimate",
+      "指标表ID": "B01002",
+      "度量表描述": "Median age of the population categorized by sex",
+      "计量单位类型": "Aggregate",
+      "度量类别": "Demographics",
+      "指标组": "Essential",
+      "描述符1": "Male",
+      "描述符2": "",
+      "描述符3": ""
+    },
+    {
+      "度量ID": "B19051_001E",
+      "类型": "Estimate",
+      "指标表ID": "B19051",
+      "度量表描述": "Earnings of households in the past 12 months",
+      "计量单位类型": "People",
+      "度量类别": "Income",
+      "指标组": "Essential",
+      "描述符1": "",
+      "描述符2": "",
+      "描述符3": ""
+    },
+    {
+      "度量ID": "B19051_003E",
+      "类型": "Estimate",
+      "指标表ID": "B19051",
+      "度量表描述": "Earnings of households in the past 12 months",
+      "计量单位类型": "People",
+      "度量类别": "Income",
+      "指标组": "Essential",
+      "描述符1": "No earnings",
+      "描述符2": "",
+      "描述符3": ""
+    },
+    {
+      "度量ID": "B11012_002E",
+      "类型": "Estimate",
+      "指标表ID": "B11012",
+      "度量表描述": "Different types of households based on size and type",
+      "计量单位类型": "People",
+      "度量类别": "Housing",
+      "指标组": "Essential",
+      "描述符1": "Marriedcouple household",
+      "描述符2": "",
+      "描述符3": ""
+    },
+    {
+      "度量ID": "B11012_004E",
+      "类型": "Estimate",
+      "指标表ID": "B11012",
+      "度量表描述": "Different types of households based on size and type",
+      "计量单位类型": "People",
+      "度量类别": "Housing",
+      "指标组": "Essential",
+      "描述符1": "Marriedcouple household",
+      "描述符2": "With no children of the householder under 18 years",
+      "描述符3": ""
+    }
+  ],
+  "table_name": "Dim_CensusMetrics",
+  "table_fullname": "CENSUS_GALAXY__ZIP_CODE_TO_BLOCK_GROUP_SAMPLE.PUBLIC.Dim_CensusMetrics",
+  "column_names": [
+    "类型",
+    "描述符2",
+    "度量类别",
+    "度量表描述",
+    "指标表ID",
+    "度量ID",
+    "描述符1",
+    "计量单位类型",
+    "指标组",
+    "描述符3"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "该指标的类型或性质，表明其所代表的数据种类，例如人口、住房、教育、就业等。",
+    "与指标相关的额外描述性属性或特征，提供更具体的细节。",
+    "指标所属的类别或分类，用于将相关指标分组。",
+    "美国社区调查或人口普查数据中用于存储该指标的表格或数据集的描述或标签。",
+    "美国社区调查或人口普查数据中存储该指标的表或数据集的唯一标识符。",
+    "用于标识美国社区调查或人口普查数据中特定度量或测量的唯一标识符。",
+    "与度量相关的描述性属性或特征，提供额外信息或上下文。",
+    "每个 MetricID 在 CensusValue 中存储的数据类型。将值按地理层级分组和汇总时，查看此字段非常重要，因为有些是原始计数，而其他则是平均值或中位数。",
+    "由 No Fret Data 决定的产品分组与 Census Galaxy 的推出计划和路线图相连。",
+    "另一个与该指标相关的描述性属性或特征，提供进一步的洞察或细节。"
+  ]
+}

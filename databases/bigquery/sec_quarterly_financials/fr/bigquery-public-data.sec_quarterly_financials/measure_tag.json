@@ -1,0 +1,118 @@
+{
+  "table_name": "measure_tag",
+  "table_fullname": "bigquery-public-data.sec_quarterly_financials.measure_tag",
+  "column_names": [
+    "mesure_tag",
+    "version",
+    "personnalisé",
+    "abstrait",
+    "type_de_donnes",
+    "i_ou_d",
+    "crédit_ou_débit",
+    "étiquette_de_tag",
+    "doc",
+    "_PARTITIONTIME"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "BOOL",
+    "BOOL",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "TIMESTAMP"
+  ],
+  "nested_column_names": [
+    "mesure_tag",
+    "version",
+    "personnalisé",
+    "abstrait",
+    "type_de_donnes",
+    "i_or_d",
+    "credit_or_debit",
+    "etiquette_tag",
+    "doc"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "BOOL",
+    "BOOL",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "L'identifiant unique (nom) pour un tag dans une version de taxonomie spécifique. measure_tag:[tag]",
+    "Pour un tag standard, un identifiant pour la taxonomie ; sinon, le numéro d'accès où le tag a été défini.",
+    "1 si le tag est personnalisé (version=adsh), 0 s'il est standard. Note : Ce flag est techniquement redondant avec les champs version et adsh.",
+    "1 si le tag n'est pas utilisé pour représenter un fait numérique.",
+    "Si abstract=1, alors NULL, sinon le type de données (par exemple, monétaire) pour le tag.",
+    "Si abstract=1, alors NULL ; sinon, I si la valeur est un point dans le temps, ou D si la valeur est une durée. i_or_d: [iord]",
+    "Si datatype = monétaire, alors l'équilibre comptable naturel du tag du point de vue du bilan ou du compte de résultat (débit ou crédit) ; si non défini, alors NULL. credit_or_debit: [crdr]",
+    "Si un tag standard, alors le texte d'étiquette fourni par la taxonomie, sinon le texte fourni par le déclarant. Un tag qui n'avait ni l'un ni l'autre aurait une valeur NULL ici. tag_label: [tlabel]",
+    "La définition détaillée pour le tag, tronquée à 2048 caractères. Si un tag standard, alors le texte fourni par la taxonomie, sinon le texte attribué par le déclarant. Certains tags n'ont ni l'un ni l'autre, auquel cas ce champ est NULL."
+  ],
+  "sample_rows": [
+    {
+      "mesure_tag": "InvestmentIdentifierLineItems",
+      "version": "invest/2013",
+      "personnalisé": false,
+      "abstrait": true,
+      "type_de_donnes": null,
+      "i_or_d": null,
+      "credit_or_debit": null,
+      "etiquette_tag": "Investment Identifier [Line Items]",
+      "doc": "Line items represent reporting concepts included in a table. These concepts are used to disclose reportable information associated with domain members defined in one or many axes to the table."
+    },
+    {
+      "mesure_tag": "InvestmentIdentifierTable",
+      "version": "invest/2013",
+      "personnalisé": false,
+      "abstrait": true,
+      "type_de_donnes": null,
+      "i_or_d": null,
+      "credit_or_debit": null,
+      "etiquette_tag": "Investment Identifier [Table]",
+      "doc": "This table lists the identifiers for the investments. An investment may have more than one identifier. Each identifier is from an identifier scheme."
+    },
+    {
+      "mesure_tag": "InvestmentLineItems",
+      "version": "invest/2013",
+      "personnalisé": false,
+      "abstrait": true,
+      "type_de_donnes": null,
+      "i_or_d": null,
+      "credit_or_debit": null,
+      "etiquette_tag": "Investment [Line Items]",
+      "doc": "Line items represent reporting concepts included in a table. These concepts are used to disclose reportable information associated with domain members defined in one or many axes to the table."
+    },
+    {
+      "mesure_tag": "InvestmentMaturityDateRangeAbstract",
+      "version": "invest/2013",
+      "personnalisé": false,
+      "abstrait": true,
+      "type_de_donnes": null,
+      "i_or_d": null,
+      "credit_or_debit": null,
+      "etiquette_tag": "Investment Maturity Date Range [Abstract]",
+      "doc": "The maturity date range of the underlying investments reported on the Schedule of Investments."
+    },
+    {
+      "mesure_tag": "InvestmentTable",
+      "version": "invest/2013",
+      "personnalisé": false,
+      "abstrait": true,
+      "type_de_donnes": null,
+      "i_or_d": null,
+      "credit_or_debit": null,
+      "etiquette_tag": "Investment [Table]",
+      "doc": "This table lists the investments. The line items identify information about the investment."
+    }
+  ]
+}

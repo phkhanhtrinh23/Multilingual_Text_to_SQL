@@ -1,0 +1,116 @@
+{
+  "table_name": "quant_glycoproteome_prospective_ovarian_JHU_N_linked_glycosite_containing_peptide_pdc_current",
+  "table_fullname": "isb-cgc-bq.CPTAC.quant_glycoproteome_prospective_ovarian_JHU_N_linked_glycosite_containing_peptide_pdc_current",
+  "column_names": [
+    "identificador_del_caso",
+    "ID de muestra",
+    "id_alícuota",
+    "ID del remitente de la alícuota",
+    "id_metadatos_ejecución_alíquotas",
+    "nombre del estudio",
+    "razón_log2_abundancia_proteína",
+    "identificador_refseq",
+    "sitios de glucosilación"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "id del caso",
+    "id_muestra",
+    "ID de alíquotas",
+    "id_solicitante",
+    "id_metadatos_ejecucion_aliquota",
+    "nombre_del_estudio",
+    "log2ratio de abundancia proteica",
+    "ID RefSeq",
+    "sitios de glucosilación"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "Identificador único asociado con un paciente específico (p. ej., 24cb0fcb-63d6-11e8-bcf1-0a2705229b82)",
+    "Identificador único PDC para esta muestra (p. ej., e8d83eb9-693a-11ea-b1fd-0aad30af8a83)",
+    "Identificador único PDC para esta alíquot (p. ej. e8db124a-693a-11ea-b1fd-0aad30af8a83)",
+    "ID del remitente de la alícuota asignado por el programa (p. ej., T14)",
+    "Identifica de manera única la alíquot según cómo se utilizó en el experimento (basado en el reactivo de etiquetado y/o el replicado biológico).",
+    "Nombre del estudio (p. ej., Estudio piloto de cáncer cerebral pediátrico - Fosforproteoma)",
+    "Promedio del log-ratio de iones reporteros de la muestra frente a la referencia común de iones peptídicos asociados con el gen en adquisiciones de una muestra biológica específica",
+    "Identificador único asignado a una secuencia en la base de datos NCBI RefSeq",
+    "Códigos de una sola letra y posiciones de la secuencia proteica de los aminoácidos glicilados (p. ej., n113n119, n57)"
+  ],
+  "sample_rows": [
+    {
+      "id del caso": "526a3222-0881-11eb-bc0e-0aad30af8a83",
+      "id_muestra": "526ab38d-0881-11eb-bc0e-0aad30af8a83",
+      "ID de alíquotas": "526b6147-0881-11eb-bc0e-0aad30af8a83",
+      "id_solicitante": "1abbcb28-f221-4cd4-8c01-37b9bb_D1_D2",
+      "id_metadatos_ejecucion_aliquota": "732221d6-f151-4d24-8797-0367bd7aec38",
+      "nombre_del_estudio": "Prospective Ovarian JHU N-linked Glycosite-containing peptide",
+      "log2ratio de abundancia proteica": 1.783,
+      "ID RefSeq": "NP_000033.2",
+      "sitios de glucosilación": "n162"
+    },
+    {
+      "id del caso": "526a3222-0881-11eb-bc0e-0aad30af8a83",
+      "id_muestra": "526ab38d-0881-11eb-bc0e-0aad30af8a83",
+      "ID de alíquotas": "526b6147-0881-11eb-bc0e-0aad30af8a83",
+      "id_solicitante": "1abbcb28-f221-4cd4-8c01-37b9bb_D1_D2",
+      "id_metadatos_ejecucion_aliquota": "732221d6-f151-4d24-8797-0367bd7aec38",
+      "nombre_del_estudio": "Prospective Ovarian JHU N-linked Glycosite-containing peptide",
+      "log2ratio de abundancia proteica": 1.9974,
+      "ID RefSeq": "NP_000623.2",
+      "sitios de glucosilación": "n940n946"
+    },
+    {
+      "id del caso": "526a3222-0881-11eb-bc0e-0aad30af8a83",
+      "id_muestra": "526ab38d-0881-11eb-bc0e-0aad30af8a83",
+      "ID de alíquotas": "526b6147-0881-11eb-bc0e-0aad30af8a83",
+      "id_solicitante": "1abbcb28-f221-4cd4-8c01-37b9bb_D1_D2",
+      "id_metadatos_ejecucion_aliquota": "732221d6-f151-4d24-8797-0367bd7aec38",
+      "nombre_del_estudio": "Prospective Ovarian JHU N-linked Glycosite-containing peptide",
+      "log2ratio de abundancia proteica": -0.2042,
+      "ID RefSeq": "NP_001103973.1",
+      "sitios de glucosilación": "n127"
+    },
+    {
+      "id del caso": "526a3222-0881-11eb-bc0e-0aad30af8a83",
+      "id_muestra": "526ab38d-0881-11eb-bc0e-0aad30af8a83",
+      "ID de alíquotas": "526b6147-0881-11eb-bc0e-0aad30af8a83",
+      "id_solicitante": "1abbcb28-f221-4cd4-8c01-37b9bb_D1_D2",
+      "id_metadatos_ejecucion_aliquota": "732221d6-f151-4d24-8797-0367bd7aec38",
+      "nombre_del_estudio": "Prospective Ovarian JHU N-linked Glycosite-containing peptide",
+      "log2ratio de abundancia proteica": 1.3774,
+      "ID RefSeq": "NP_001289418.1",
+      "sitios de glucosilación": "n239"
+    },
+    {
+      "id del caso": "526a3222-0881-11eb-bc0e-0aad30af8a83",
+      "id_muestra": "526ab38d-0881-11eb-bc0e-0aad30af8a83",
+      "ID de alíquotas": "526b6147-0881-11eb-bc0e-0aad30af8a83",
+      "id_solicitante": "1abbcb28-f221-4cd4-8c01-37b9bb_D1_D2",
+      "id_metadatos_ejecucion_aliquota": "732221d6-f151-4d24-8797-0367bd7aec38",
+      "nombre_del_estudio": "Prospective Ovarian JHU N-linked Glycosite-containing peptide",
+      "log2ratio de abundancia proteica": -2.5768,
+      "ID RefSeq": "NP_004451.2",
+      "sitios de glucosilación": "n49"
+    }
+  ]
+}

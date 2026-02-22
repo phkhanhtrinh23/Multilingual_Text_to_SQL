@@ -1,0 +1,86 @@
+{
+  "table_name": " distract_2018",
+  "table_fullname": "bigquery-public-data.nhtsa_traffic_fatalities. distract_2018",
+  "column_names": [
+    "số_trạng_thái",
+    "tên bang",
+    "số liên tiếp",
+    "Số xe",
+    "người lái bị sao nhãng bởi",
+    "Tên lái xe bị phân tâm"
+  ],
+  "column_types": [
+    "INT64",
+    "STRING",
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "số trạng thái",
+    "tên_tỉnh",
+    "số liên tiếp",
+    "số xe",
+    "điều gây xao nhãng cho tài xế",
+    "tên gây xao nhãng"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "STRING",
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING"
+  ],
+  "description": [
+    "Yếu tố dữ liệu này xác định bang nơi xảy ra vụ tai nạn. Các mã được lấy từ ấn phẩm của Cơ quan Dịch vụ Chung (GSA) về Mã Địa điểm Địa lý Toàn cầu (GLC). Để biết thêm thông tin về các mã, vui lòng xem phần <C1/V1/D1/PC1/P1/NM1 State Number> trong tài liệu pdf: https://crashstats.nhtsa.dot.gov/Api/Public/ViewPublication/812315",
+    "Yếu tố dữ liệu này xác định bang nơi vụ tai nạn đã xảy ra. Các mã được lấy từ ấn phẩm của Cơ quan Dịch vụ Chung (GSA) về Mã Vị trí Địa lý Toàn cầu (GLC).",
+    "Phần tử dữ liệu này là số vụ duy nhất được gán cho mỗi tai nạn. Nó xuất hiện trong mỗi tệp dữ liệu và được sử dụng để hợp nhất thông tin từ các tệp dữ liệu với nhau. xxxxxx Hai ký tự cho Mã bang theo sau bởi bốn ký tự cho Số vụ",
+    "Yếu tố dữ liệu này là số thứ tự liên tiếp được chỉ định cho mỗi phương tiện trong trường hợp.  \nYếu tố dữ liệu này xuất hiện trong mỗi tập tin dữ liệu cấp độ phương tiện và được sử dụng cùng với yếu tố dữ liệu ST_CASE để hợp nhất thông tin từ các tập tin dữ liệu cấp độ phương tiện.  \n000-999 Số đã chỉ định của phương tiện giao thông",
+    "Yếu tố dữ liệu này xác định thuộc tính (các thuộc tính) mô tả tốt nhất sự chú ý của tài xế đối với việc lái xe trước khi tài xế nhận thức được sự kiện nguy hiểm sắp xảy ra hoặc ngay trước khi va chạm nếu không có sự nhận thức về sự kiện nguy hiểm sắp tới. Để biết thêm thông tin về các mã, vui lòng xem phần <PC16 Driver Distracted By> trong tài liệu PDF: https://crashstats.nhtsa.dot.gov/Api/Public/ViewPublication/812315",
+    "Yếu tố dữ liệu này xác định thuộc tính nào mô tả tốt nhất sự chú ý của tài xế khi lái xe trước khi tài xế nhận ra một sự kiện quan trọng sắp xảy ra hoặc ngay trước va chạm nếu nhận thức về sự kiện quan trọng sắp xảy ra không xảy ra."
+  ],
+  "sample_rows": [
+    {
+      "số trạng thái": 1,
+      "tên_tỉnh": "Alabama",
+      "số liên tiếp": 10141,
+      "số xe": 5,
+      "điều gây xao nhãng cho tài xế": 96,
+      "tên gây xao nhãng": "Not Reported"
+    },
+    {
+      "số trạng thái": 1,
+      "tên_tỉnh": "Alabama",
+      "số liên tiếp": 10141,
+      "số xe": 6,
+      "điều gây xao nhãng cho tài xế": 96,
+      "tên gây xao nhãng": "Not Reported"
+    },
+    {
+      "số trạng thái": 1,
+      "tên_tỉnh": "Alabama",
+      "số liên tiếp": 10333,
+      "số xe": 5,
+      "điều gây xao nhãng cho tài xế": 96,
+      "tên gây xao nhãng": "Not Reported"
+    },
+    {
+      "số trạng thái": 6,
+      "tên_tỉnh": "California",
+      "số liên tiếp": 61372,
+      "số xe": 5,
+      "điều gây xao nhãng cho tài xế": 96,
+      "tên gây xao nhãng": "Not Reported"
+    },
+    {
+      "số trạng thái": 6,
+      "tên_tỉnh": "California",
+      "số liên tiếp": 61824,
+      "số xe": 5,
+      "điều gây xao nhãng cho tài xế": 96,
+      "tên gây xao nhãng": "Not Reported"
+    }
+  ]
+}

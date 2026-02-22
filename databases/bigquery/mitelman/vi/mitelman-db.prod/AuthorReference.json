@@ -1,0 +1,56 @@
+{
+  "table_name": "AuthorReference",
+  "table_fullname": "mitelman-db.prod.AuthorReference",
+  "column_names": [
+    "Số tham chiếu",
+    "Tên",
+    "Thứ tự tên"
+  ],
+  "column_types": [
+    "INT64",
+    "STRING",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "Số tham chiếu",
+    "Tên",
+    "Tên theo thứ tự"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "STRING",
+    "INT64"
+  ],
+  "description": [
+    "số tham chiếu này luôn là một số nguyên, nằm trong khoảng từ 1 đến 50000",
+    "ví dụ 'Mitelman F', hoặc 'Rowley JD'",
+    "một số nguyên trong khoảng từ 1 đến 228, cho biết vị trí của tên tác giả này trong danh sách các tác giả của tài liệu tham khảo này"
+  ],
+  "sample_rows": [
+    {
+      "Số tham chiếu": 1,
+      "Tên": "LUND UNPUBLISHED",
+      "Tên theo thứ tự": 1
+    },
+    {
+      "Số tham chiếu": 1,
+      "Tên": "LUND UNPUBLISHED",
+      "Tên theo thứ tự": 1
+    },
+    {
+      "Số tham chiếu": 10,
+      "Tên": "Hayata I",
+      "Tên theo thứ tự": 1
+    },
+    {
+      "Số tham chiếu": 11,
+      "Tên": "Hayata I",
+      "Tên theo thứ tự": 1
+    },
+    {
+      "Số tham chiếu": 12,
+      "Tên": "Muldal S",
+      "Tên theo thứ tự": 1
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "table_name": "MolClinGene",
+  "table_fullname": "mitelman-db.prod.MolClinGene",
+  "column_names": [
+    "MolClin",
+    "RefNo",
+    "InvNo",
+    "OrderNo",
+    "Prefixo",
+    "Gene",
+    "Sufixo"
+  ],
+  "column_types": [
+    "STRING",
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "MolClin",
+    "RefNo",
+    "InvNo",
+    "OrderNo",
+    "Prefixo",
+    "Gene",
+    "Sufixo"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "indicação se molecular 'M', ou clínica 'C'",
+    "número de referência, por exemplo '15563'",
+    "número de investigação, geralmente entre 1 e 10",
+    "número do pedido, entre 1 e 15",
+    "string de prefixo -- em branco ou '+'",
+    "símbolo(s) do gene, por exemplo 'KMT2A' ou 'BCR/ABL1'",
+    "string de sufixo -- em branco ou '+'"
+  ],
+  "sample_rows": [
+    {
+      "MolClin": "C",
+      "RefNo": 3967,
+      "InvNo": 1,
+      "OrderNo": 1,
+      "Prefixo": null,
+      "Gene": "BCR::ABL1",
+      "Sufixo": null
+    },
+    {
+      "MolClin": "C",
+      "RefNo": 3976,
+      "InvNo": 1,
+      "OrderNo": 1,
+      "Prefixo": null,
+      "Gene": "BCR::ABL1",
+      "Sufixo": null
+    },
+    {
+      "MolClin": "C",
+      "RefNo": 3976,
+      "InvNo": 2,
+      "OrderNo": 1,
+      "Prefixo": null,
+      "Gene": "BCR::ABL1",
+      "Sufixo": null
+    },
+    {
+      "MolClin": "C",
+      "RefNo": 4541,
+      "InvNo": 1,
+      "OrderNo": 1,
+      "Prefixo": null,
+      "Gene": "PML::RARA",
+      "Sufixo": null
+    },
+    {
+      "MolClin": "C",
+      "RefNo": 4624,
+      "InvNo": 1,
+      "OrderNo": 1,
+      "Prefixo": null,
+      "Gene": "BCR::ABL1",
+      "Sufixo": null
+    }
+  ]
+}

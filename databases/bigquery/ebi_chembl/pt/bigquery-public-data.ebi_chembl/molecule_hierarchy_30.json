@@ -1,0 +1,56 @@
+{
+  "table_name": "molecule_hierarchy_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.molecule_hierarchy_30",
+  "column_names": [
+    "numero_molreg",
+    "molregno_pai",
+    "molregno_ativo"
+  ],
+  "column_types": [
+    "INT64",
+    "INT64",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "numero_molreg",
+    "molregno_pai",
+    "molregno_ativo"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "INT64",
+    "INT64"
+  ],
+  "description": [
+    "Chave estrangeira para a tabela de compostos. Este campo contém uma lista de todos os compostos ChEMBL com dados associados (por exemplo, informações de atividade, medicamentos aprovados). Compostos pai que são gerados apenas removendo sais e que não têm dados associados não aparecerão aqui.",
+    "Representa o composto pai de `molregno` no primeiro campo (ou seja, gerado removendo sais). Onde `molregno` e `parent_molregno` são iguais, o composto ChEMBL inicial não continha um componente de sal, ou não pôde ser processado por vários motivos (por exemplo, mistura inorgânica). Compostos que são gerados apenas removendo sais aparecerão apenas neste campo. Aqueles que, por si mesmos, têm dados associados (por exemplo, dados de atividade) ou são medicamentos lançados também aparecerão no campo `molregno`.",
+    "Onde um composto é um pró-fármaco, isso representa o metabolito ativo do composto 'dosed' dado por `parent_molregno`. Onde `parent_molregno` e `active_molregno` são iguais, o composto não é atualmente conhecido como um pró-fármaco."
+  ],
+  "sample_rows": [
+    {
+      "numero_molreg": 2,
+      "molregno_pai": 2,
+      "molregno_ativo": 2
+    },
+    {
+      "numero_molreg": 3,
+      "molregno_pai": 3,
+      "molregno_ativo": 3
+    },
+    {
+      "numero_molreg": 4,
+      "molregno_pai": 4,
+      "molregno_ativo": 4
+    },
+    {
+      "numero_molreg": 5,
+      "molregno_pai": 5,
+      "molregno_ativo": 5
+    },
+    {
+      "numero_molreg": 6,
+      "molregno_pai": 6,
+      "molregno_ativo": 6
+    }
+  ]
+}

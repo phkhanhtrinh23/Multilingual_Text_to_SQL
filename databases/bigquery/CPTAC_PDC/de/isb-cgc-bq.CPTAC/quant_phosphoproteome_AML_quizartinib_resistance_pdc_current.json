@@ -1,0 +1,116 @@
+{
+  "table_name": "quant_phosphoproteome_AML_quizartinib_resistance_pdc_current",
+  "table_fullname": "isb-cgc-bq.CPTAC.quant_phosphoproteome_AML_quizartinib_resistance_pdc_current",
+  "column_names": [
+    "Fall-ID",
+    "Proben-ID",
+    "Portion-ID",
+    "Portion-Einreicher-ID",
+    "Portion-Durchlauf-Metadaten-ID",
+    "Studienname",
+    "Proteinabundanz-Log2-Verhältnis",
+    "RefSeq-ID",
+    "Phosphorylierungsstellen"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "Fall-ID",
+    "Proben-ID",
+    "Aliquot-ID",
+    "Aliquot-Einreicher-ID",
+    "Aliquot-Durchlauf-Metadaten-ID",
+    "Studienname",
+    "Proteinabundanz-Log2-Verhältnis",
+    "Referenzsequenz-ID",
+    "Phosphorylierungsstellen"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "Eindeutige Kennung, die mit einem bestimmten Patienten verknüpft ist (z. B. 24cb0fcb-63d6-11e8-bcf1-0a2705229b82)",
+    "Einzigartige PDC-Identifikator für diese Probe (z. B. e8d83eb9-693a-11ea-b1fd-0aad30af8a83)",
+    "Einzigartige PDC-Identifikator für dieses Aliquot (z. B. e8db124a-693a-11ea-b1fd-0aad30af8a83)",
+    "Aliquot-Einreicher-ID vom Programm zugewiesen (z. B. T14)",
+    "Identifiziert das Aliquot eindeutig danach, wie es im Experiment verwendet wurde (basierend auf dem Beschriftungsreagenz und/oder biologischem Replikat)",
+    "Name der Studie (z. B. Pediatric Brain Cancer Pilot Study - Phosphoproteome)",
+    "Durchschnittliches Log-Verhältnis der Proben-Reporter-Ionen zum gemeinsamen Referenzpeptid-Ionen, die dem Gen in Messungen aus einer bestimmten biologischen Probe zugeordnet sind",
+    "Einzigartige Kennung, die einer Sequenz in der NCBI RefSeq-Datenbank zugeordnet ist",
+    "Einzelbuchstaben-Codes und Positionen der Proteinsequenz phosphorylierter Aminosäuren (z. B. t304s310, t59)"
+  ],
+  "sample_rows": [
+    {
+      "Fall-ID": "4a4b2172-550c-4dbd-adad-8b3425f3ddea",
+      "Proben-ID": "baf671ff-e1b6-4cd9-9dfd-5d263db4f5df",
+      "Aliquot-ID": "8dc69c53-9a45-4b6d-a3c1-4f3637f26440",
+      "Aliquot-Einreicher-ID": "PTRC_exp12_P5-1",
+      "Aliquot-Durchlauf-Metadaten-ID": "dfdf5e29-db86-48bd-83e9-009e078627ea",
+      "Studienname": "AML Quizartinib Resistance -  Phosphoproteome",
+      "Proteinabundanz-Log2-Verhältnis": -1.6904,
+      "Referenzsequenz-ID": "NP_000356.1",
+      "Phosphorylierungsstellen": "s80"
+    },
+    {
+      "Fall-ID": "4a4b2172-550c-4dbd-adad-8b3425f3ddea",
+      "Proben-ID": "baf671ff-e1b6-4cd9-9dfd-5d263db4f5df",
+      "Aliquot-ID": "8dc69c53-9a45-4b6d-a3c1-4f3637f26440",
+      "Aliquot-Einreicher-ID": "PTRC_exp12_P5-1",
+      "Aliquot-Durchlauf-Metadaten-ID": "dfdf5e29-db86-48bd-83e9-009e078627ea",
+      "Studienname": "AML Quizartinib Resistance -  Phosphoproteome",
+      "Proteinabundanz-Log2-Verhältnis": -0.6829,
+      "Referenzsequenz-ID": "NP_001001436.1",
+      "Phosphorylierungsstellen": "s91"
+    },
+    {
+      "Fall-ID": "4a4b2172-550c-4dbd-adad-8b3425f3ddea",
+      "Proben-ID": "baf671ff-e1b6-4cd9-9dfd-5d263db4f5df",
+      "Aliquot-ID": "8dc69c53-9a45-4b6d-a3c1-4f3637f26440",
+      "Aliquot-Einreicher-ID": "PTRC_exp12_P5-1",
+      "Aliquot-Durchlauf-Metadaten-ID": "dfdf5e29-db86-48bd-83e9-009e078627ea",
+      "Studienname": "AML Quizartinib Resistance -  Phosphoproteome",
+      "Proteinabundanz-Log2-Verhältnis": -1.3169,
+      "Referenzsequenz-ID": "NP_001006635.1",
+      "Phosphorylierungsstellen": "s484"
+    },
+    {
+      "Fall-ID": "4a4b2172-550c-4dbd-adad-8b3425f3ddea",
+      "Proben-ID": "baf671ff-e1b6-4cd9-9dfd-5d263db4f5df",
+      "Aliquot-ID": "8dc69c53-9a45-4b6d-a3c1-4f3637f26440",
+      "Aliquot-Einreicher-ID": "PTRC_exp12_P5-1",
+      "Aliquot-Durchlauf-Metadaten-ID": "dfdf5e29-db86-48bd-83e9-009e078627ea",
+      "Studienname": "AML Quizartinib Resistance -  Phosphoproteome",
+      "Proteinabundanz-Log2-Verhältnis": -0.4732,
+      "Referenzsequenz-ID": "NP_001007027.1",
+      "Phosphorylierungsstellen": "s34"
+    },
+    {
+      "Fall-ID": "4a4b2172-550c-4dbd-adad-8b3425f3ddea",
+      "Proben-ID": "baf671ff-e1b6-4cd9-9dfd-5d263db4f5df",
+      "Aliquot-ID": "8dc69c53-9a45-4b6d-a3c1-4f3637f26440",
+      "Aliquot-Einreicher-ID": "PTRC_exp12_P5-1",
+      "Aliquot-Durchlauf-Metadaten-ID": "dfdf5e29-db86-48bd-83e9-009e078627ea",
+      "Studienname": "AML Quizartinib Resistance -  Phosphoproteome",
+      "Proteinabundanz-Log2-Verhältnis": -0.3275,
+      "Referenzsequenz-ID": "NP_001008697.1",
+      "Phosphorylierungsstellen": "s59"
+    }
+  ]
+}

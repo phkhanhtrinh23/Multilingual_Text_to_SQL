@@ -1,0 +1,116 @@
+{
+  "table_name": "quant_phosphoproteome_PTRC_HGSOC_FFPE_discovery_pdc_current",
+  "table_fullname": "isb-cgc-bq.CPTAC.quant_phosphoproteome_PTRC_HGSOC_FFPE_discovery_pdc_current",
+  "column_names": [
+    "case_id",
+    "sample_id",
+    "aliquot_id",
+    "aliquot_submitter_id",
+    "aliquot_run_metadata_id",
+    "study_name",
+    "protein_abundance_log2ratio",
+    "refseq_id",
+    "phosphorylation_sites"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "Fall-ID",
+    "Probe-ID",
+    "Aliquot-ID",
+    "Einreicher-ID",
+    "Aliquot-Lauf-Metadaten-ID",
+    "Studienname",
+    "Proteinabundanz-Log2-Verhältnis",
+    "RefSeq-ID",
+    "Phosphorylierungsstellen"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "Eindeutiger Bezeichner, der mit einem bestimmten Patienten verknüpft ist (z. B. 24cb0fcb-63d6-11e8-bcf1-0a2705229b82)",
+    "Einzigartige PDC-Identifikator für diese Probe (z. B. e8d83eb9-693a-11ea-b1fd-0aad30af8a83)",
+    "Einzigartige PDC-Identifikator für dieses Aliquot (z. B. e8db124a-693a-11ea-b1fd-0aad30af8a83)",
+    "Vom Programm zugewiesene Aliquot-Einreicher-ID (z. B. T14)",
+    "Identifiziert eindeutig, wie das Aliquot im Experiment verwendet wurde (basierend auf dem Markierungsreagenz und/oder dem biologischen Replikat)",
+    "Name der Studie (z. B. Pediatric Brain Cancer Pilot Study - Phosphoproteom)",
+    "Durchschnittliches Logarithmus-Verhältnis des Proben-Reporter-Ions zum gemeinsamen Referenzpeptid-Ion, das dem Gen in Messungen aus einer bestimmten biologischen Probe zugeordnet ist",
+    "Einzigartige Kennung, die einer Sequenz in der NCBI RefSeq-Datenbank zugewiesen wird",
+    "Einzelbuchstaben-Codes und Positionen der phosphorylierten Aminosäuren in der Proteinsequenz (z. B. t304s310, t59)"
+  ],
+  "sample_rows": [
+    {
+      "Fall-ID": "6dc777d4-4a5b-4387-9ed2-0d2fa9f4ff72",
+      "Probe-ID": "16d7cf28-d501-4845-af50-581879c46b79",
+      "Aliquot-ID": "47b273c2-d4a5-4cf6-8ed8-551cd6c5fe0c",
+      "Einreicher-ID": "Frozen-bridge",
+      "Aliquot-Lauf-Metadaten-ID": "00b4ad2e-0b60-4edb-8d1f-1f4d6d8b9e45",
+      "Studienname": "PTRC HGSOC FFPE Discovery - Phosphoproteome",
+      "Proteinabundanz-Log2-Verhältnis": -0.4584,
+      "RefSeq-ID": "NP_001032752.1",
+      "Phosphorylierungsstellen": "s106"
+    },
+    {
+      "Fall-ID": "6dc777d4-4a5b-4387-9ed2-0d2fa9f4ff72",
+      "Probe-ID": "16d7cf28-d501-4845-af50-581879c46b79",
+      "Aliquot-ID": "47b273c2-d4a5-4cf6-8ed8-551cd6c5fe0c",
+      "Einreicher-ID": "Frozen-bridge",
+      "Aliquot-Lauf-Metadaten-ID": "00b4ad2e-0b60-4edb-8d1f-1f4d6d8b9e45",
+      "Studienname": "PTRC HGSOC FFPE Discovery - Phosphoproteome",
+      "Proteinabundanz-Log2-Verhältnis": 0.2839,
+      "RefSeq-ID": "NP_001121689.1",
+      "Phosphorylierungsstellen": "s129"
+    },
+    {
+      "Fall-ID": "6dc777d4-4a5b-4387-9ed2-0d2fa9f4ff72",
+      "Probe-ID": "16d7cf28-d501-4845-af50-581879c46b79",
+      "Aliquot-ID": "47b273c2-d4a5-4cf6-8ed8-551cd6c5fe0c",
+      "Einreicher-ID": "Frozen-bridge",
+      "Aliquot-Lauf-Metadaten-ID": "00b4ad2e-0b60-4edb-8d1f-1f4d6d8b9e45",
+      "Studienname": "PTRC HGSOC FFPE Discovery - Phosphoproteome",
+      "Proteinabundanz-Log2-Verhältnis": 0.9428,
+      "RefSeq-ID": "NP_001127836.1",
+      "Phosphorylierungsstellen": "s636"
+    },
+    {
+      "Fall-ID": "6dc777d4-4a5b-4387-9ed2-0d2fa9f4ff72",
+      "Probe-ID": "16d7cf28-d501-4845-af50-581879c46b79",
+      "Aliquot-ID": "47b273c2-d4a5-4cf6-8ed8-551cd6c5fe0c",
+      "Einreicher-ID": "Frozen-bridge",
+      "Aliquot-Lauf-Metadaten-ID": "00b4ad2e-0b60-4edb-8d1f-1f4d6d8b9e45",
+      "Studienname": "PTRC HGSOC FFPE Discovery - Phosphoproteome",
+      "Proteinabundanz-Log2-Verhältnis": -1.1168,
+      "RefSeq-ID": "NP_001128409.1",
+      "Phosphorylierungsstellen": "s486"
+    },
+    {
+      "Fall-ID": "6dc777d4-4a5b-4387-9ed2-0d2fa9f4ff72",
+      "Probe-ID": "16d7cf28-d501-4845-af50-581879c46b79",
+      "Aliquot-ID": "47b273c2-d4a5-4cf6-8ed8-551cd6c5fe0c",
+      "Einreicher-ID": "Frozen-bridge",
+      "Aliquot-Lauf-Metadaten-ID": "00b4ad2e-0b60-4edb-8d1f-1f4d6d8b9e45",
+      "Studienname": "PTRC HGSOC FFPE Discovery - Phosphoproteome",
+      "Proteinabundanz-Log2-Verhältnis": -0.7,
+      "RefSeq-ID": "NP_001139019.1",
+      "Phosphorylierungsstellen": "s155"
+    }
+  ]
+}

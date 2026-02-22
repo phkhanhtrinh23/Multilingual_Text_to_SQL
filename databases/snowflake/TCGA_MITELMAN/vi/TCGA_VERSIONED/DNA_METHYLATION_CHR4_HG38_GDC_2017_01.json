@@ -1,0 +1,102 @@
+{
+  "table_name": "DNA_METHYLATION_CHR4_HG38_GDC_2017_01",
+  "table_fullname": "TCGA_MITELMAN.TCGA_VERSIONED.DNA_METHYLATION_CHR4_HG38_GDC_2017_01",
+  "column_names": [
+    "ID mẫu GDC",
+    "Mã vạch mẫu",
+    "giá trị beta",
+    "nền tảng",
+    "mã vạch mẫu",
+    "mã_probe",
+    "Mã GDC mẫu",
+    "Mã vạch hộp",
+    "ID GDC của trường hợp",
+    "Mã tệp GDC"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "FLOAT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "ID duy nhất GDC cho mẫu này (đối ứng với mã vạch mẫu), ví dụ a1ec9279-c1a6-4e58-97ed-9ec1f36187c5  --  có thể được sử dụng để truy cập thêm thông tin từ cổng dữ liệu GDC",
+    "Mã vạch mẫu TCGA, ví dụ TCGA-12-1089-01A-01D-0517-20",
+    "Biểu thị tỉ lệ giữa cường độ của mảng methylated và cường độ tổng mảng, nằm trong khoảng từ 0 (cấp độ methyl hóa thấp) tới 1 (cấp độ methyl hóa cao)",
+    "Nền tảng được sử dụng để tạo dữ liệu này -- hoặc HumanMethylation450 hoặc HumanMethylation27",
+    "Mã vạch mẫu TCGA, ví dụ TCGA-12-1089-01A. Một mẫu có thể có nhiều bộ phân đoạn CN tương ứng với nhiều phần mẫu; hãy sử dụng GROUP BY một cách thích hợp trong truy vấn.",
+    "ID duy nhất cho probe của mảng liên quan tới một vị trí CpG",
+    "Định danh duy nhất GDC cho mẫu này (phù hợp với mã vạch mẫu), ví dụ 7fbfdb3e-1fd2-4206-8d2e-7f68e4a15844  --  có thể được sử dụng để truy cập thêm thông tin từ cổng dữ liệu GDC",
+    "Mã vạch trường hợp TCGA gốc, ví dụ TCGA-DX-A8BN",
+    "Mã định danh GDC duy nhất cho trường hợp này (tương ứng với mã băng case_barcode). Có thể được sử dụng để truy cập thêm thông tin từ cổng dữ liệu GDC như sau: https://portal.gdc.cancer.gov/files/c21b332c-06c6-4403-9032-f91c8f407ba28",
+    "Định danh GDC duy nhất cho tệp này (tương ứng với file_barcode) -- có thể dùng để truy cập thêm thông tin từ cổng dữ liệu GDC như sau: https://portal.gdc.cancer.gov/files/c21b332c-06c6-4403-9032-f91c8f407ba35"
+  ],
+  "sample_rows": [
+    {
+      "Mã vạch hộp": "TCGA-12-1601",
+      "mã vạch mẫu": "TCGA-12-1601-01A",
+      "Mã vạch mẫu": "TCGA-12-1601-01A-01D-0595-05",
+      "mã_probe": "cg22496683",
+      "giá trị beta": 0.276455731475116,
+      "nền tảng": null,
+      "Mã tệp GDC": "5cd6f2f6-7278-4757-be8e-a8ae3a7a81d3",
+      "ID GDC của trường hợp": "cc1459be-de8f-482e-9efe-65937db9dc45",
+      "ID mẫu GDC": "b02fd704-03a6-44c4-b224-f5f457e733f3",
+      "Mã GDC mẫu": "aa761ca4-e8f0-4a43-8262-bd84eedb459a"
+    },
+    {
+      "Mã vạch hộp": "TCGA-12-1601",
+      "mã vạch mẫu": "TCGA-12-1601-01A",
+      "Mã vạch mẫu": "TCGA-12-1601-01A-01D-0595-05",
+      "mã_probe": "cg09748975",
+      "giá trị beta": 0.931151190697113,
+      "nền tảng": null,
+      "Mã tệp GDC": "5cd6f2f6-7278-4757-be8e-a8ae3a7a81d3",
+      "ID GDC của trường hợp": "cc1459be-de8f-482e-9efe-65937db9dc45",
+      "ID mẫu GDC": "b02fd704-03a6-44c4-b224-f5f457e733f3",
+      "Mã GDC mẫu": "aa761ca4-e8f0-4a43-8262-bd84eedb459a"
+    },
+    {
+      "Mã vạch hộp": "TCGA-32-2498",
+      "mã vạch mẫu": "TCGA-32-2498-01A",
+      "Mã vạch mẫu": "TCGA-32-2498-01A-01D-1228-05",
+      "mã_probe": "cg23337382",
+      "giá trị beta": 0.117040641762759,
+      "nền tảng": null,
+      "Mã tệp GDC": "6db4187c-5e48-45ac-8ae3-6b55198ff65a",
+      "ID GDC của trường hợp": "0d5e5a6b-5113-43f2-836c-776207b21b56",
+      "ID mẫu GDC": "58af038c-bd40-4123-a6d3-11061f0d38e1",
+      "Mã GDC mẫu": "6e65d823-0d94-4d26-b60a-2f168cbe2ba8"
+    },
+    {
+      "Mã vạch hộp": "TCGA-32-2498",
+      "mã vạch mẫu": "TCGA-32-2498-01A",
+      "Mã vạch mẫu": "TCGA-32-2498-01A-01D-1228-05",
+      "mã_probe": "cg23653712",
+      "giá trị beta": 0.0217888197881353,
+      "nền tảng": null,
+      "Mã tệp GDC": "6db4187c-5e48-45ac-8ae3-6b55198ff65a",
+      "ID GDC của trường hợp": "0d5e5a6b-5113-43f2-836c-776207b21b56",
+      "ID mẫu GDC": "58af038c-bd40-4123-a6d3-11061f0d38e1",
+      "Mã GDC mẫu": "6e65d823-0d94-4d26-b60a-2f168cbe2ba8"
+    },
+    {
+      "Mã vạch hộp": "TCGA-32-2498",
+      "mã vạch mẫu": "TCGA-32-2498-01A",
+      "Mã vạch mẫu": "TCGA-32-2498-01A-01D-1228-05",
+      "mã_probe": "cg23303074",
+      "giá trị beta": 0.0960360039186826,
+      "nền tảng": null,
+      "Mã tệp GDC": "6db4187c-5e48-45ac-8ae3-6b55198ff65a",
+      "ID GDC của trường hợp": "0d5e5a6b-5113-43f2-836c-776207b21b56",
+      "ID mẫu GDC": "58af038c-bd40-4123-a6d3-11061f0d38e1",
+      "Mã GDC mẫu": "6e65d823-0d94-4d26-b60a-2f168cbe2ba8"
+    }
+  ]
+}

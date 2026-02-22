@@ -1,0 +1,97 @@
+{
+  "table_name": "CALENDAR",
+  "table_fullname": "SAN_FRANCISCO_PLUS.SAN_FRANCISCO_TRANSIT_MUNI.CALENDAR",
+  "column_names": [
+    "thứ sáu",
+    "loại_ngoại_lệ",
+    "thứ Năm",
+    "thứ tư",
+    "Thứ hai",
+    "Mô tả dịch vụ",
+    "Chủ nhật",
+    "mã dịch vụ",
+    "Thứ Bảy",
+    "Thứ ba",
+    "Ngoại lệ"
+  ],
+  "column_types": [
+    "BOOLEAN",
+    "BOOLEAN",
+    "BOOLEAN",
+    "BOOLEAN",
+    "BOOLEAN",
+    "TEXT",
+    "BOOLEAN",
+    "TEXT",
+    "BOOLEAN",
+    "BOOLEAN",
+    "DATE"
+  ],
+  "description": [
+    "Xác định xem dịch vụ có áp dụng cho tất cả các Chủ Nhật khi cơ quan đang sử dụng lịch trình và mức phí bình thường hay không.",
+    "Chỉ ra liệu dịch vụ có sẵn vào ngày được chỉ định trong trường ngoại lệ hay không. Các giá trị hợp lệ cho trường này là:  \n- TRUE: Dịch vụ sẽ hoạt động trong ngày được liệt kê trong cột ngoại lệ  \n- FALSE: Dịch vụ sẽ không hoạt động trong ngày được liệt kê trong cột ngoại lệ",
+    "Chỉ ra liệu dịch vụ có hợp lệ cho tất cả các Chủ Nhật mà cơ quan vận hành theo lịch trình và mức cước bình thường hay không.",
+    "Chỉ ra xem dịch vụ có hợp lệ cho tất cả các Chủ Nhật khi cơ quan đang sử dụng lịch trình và mức cước bình thường.",
+    "Chỉ ra liệu dịch vụ có áp dụng cho tất cả các Chủ Nhật mà công ty vận hành theo lịch trình bình thường và các mức giá cước bình thường hay không.",
+    "Mô tả văn bản của danh mục dịch vụ",
+    "Chỉ ra liệu dịch vụ có hợp lệ trong tất cả các Chủ Nhật khi cơ quan đang sử dụng lịch trình bình thường và các loại cước phí hay không.",
+    "Định danh duy nhất cho tập hợp ngày mà dịch vụ có sẵn cho một hoặc nhiều tuyến.",
+    "Chỉ ra liệu dịch vụ có hợp lệ trên tất cả các Chủ Nhật mà cơ quan đang áp dụng lịch trình và mức cước bình thường hay không.",
+    "Xác định xem dịch vụ có hợp lệ cho tất cả các Chủ Nhật khi hãng đang sử dụng lịch trình và hạng phí bình thường hay không.",
+    "Xác định một ngày cụ thể khi dịch vụ này không khả dụng. Thông thường xảy ra trong các ngày lễ, sự kiện đặc biệt, v.v. Nếu áp dụng, dịch vụ vận hành trong ngày được ghi trong replacement_service. Định dạng ngày là YYYY-MM-DD"
+  ],
+  "sample_rows": [
+    {
+      "mã dịch vụ": "73692",
+      "Mô tả dịch vụ": "Weekday",
+      "Chủ nhật": true,
+      "Thứ hai": true,
+      "Thứ ba": true,
+      "thứ tư": true,
+      "thứ Năm": true,
+      "thứ sáu": false,
+      "Thứ Bảy": false,
+      "Ngoại lệ": "2019-12-25",
+      "loại_ngoại_lệ": false
+    },
+    {
+      "mã dịch vụ": "73692",
+      "Mô tả dịch vụ": "Weekday",
+      "Chủ nhật": true,
+      "Thứ hai": true,
+      "Thứ ba": true,
+      "thứ tư": true,
+      "thứ Năm": true,
+      "thứ sáu": false,
+      "Thứ Bảy": false,
+      "Ngoại lệ": "2020-01-20",
+      "loại_ngoại_lệ": false
+    },
+    {
+      "mã dịch vụ": "73692",
+      "Mô tả dịch vụ": "Weekday",
+      "Chủ nhật": true,
+      "Thứ hai": true,
+      "Thứ ba": true,
+      "thứ tư": true,
+      "thứ Năm": true,
+      "thứ sáu": false,
+      "Thứ Bảy": false,
+      "Ngoại lệ": "2020-02-17",
+      "loại_ngoại_lệ": false
+    },
+    {
+      "mã dịch vụ": "73693",
+      "Mô tả dịch vụ": "Saturday",
+      "Chủ nhật": false,
+      "Thứ hai": false,
+      "Thứ ba": false,
+      "thứ tư": false,
+      "thứ Năm": false,
+      "thứ sáu": true,
+      "Thứ Bảy": false,
+      "Ngoại lệ": "2020-01-20",
+      "loại_ngoại_lệ": true
+    }
+  ]
+}

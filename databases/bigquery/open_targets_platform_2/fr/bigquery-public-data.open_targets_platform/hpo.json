@@ -1,0 +1,142 @@
+{
+  "table_name": "hpo",
+  "table_fullname": "bigquery-public-data.open_targets_platform.hpo",
+  "column_names": [
+    "références_de_base",
+    "description",
+    "id",
+    "nom",
+    "espace_de_noms",
+    "termes_obsolètes",
+    "parents"
+  ],
+  "column_types": [
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>"
+  ],
+  "nested_column_names": [
+    "références_de_base",
+    "références_de_base.liste",
+    "références_de_base.liste.élément",
+    "description",
+    "id",
+    "nom",
+    "espace_de_noms",
+    "espace_de_noms.liste",
+    "espace_de_noms.liste.élément",
+    "termes_obsolètes",
+    "termes_obsolètes.liste",
+    "termes_obsolètes.liste.élément",
+    "parents",
+    "parents.liste",
+    "parents.liste.élément"
+  ],
+  "nested_column_types": [
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+    "ARRAY<STRUCT<element STRING>>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+    "ARRAY<STRUCT<element STRING>>",
+    "STRING",
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+    "ARRAY<STRUCT<element STRING>>",
+    "STRING",
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+    "ARRAY<STRUCT<element STRING>>",
+    "STRING"
+  ],
+  "description": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "sample_rows": [
+    {
+      "références_de_base": null,
+      "description": null,
+      "id": "CL_1001567",
+      "nom": "lung endothelial cell",
+      "espace_de_noms": {
+        "list": "[{'element': 'cl'}]"
+      },
+      "termes_obsolètes": null,
+      "parents": {
+        "list": "[{'element': 'b43134'} {'element': 'CL_0000082'} {'element': 'CL_0002139'}]"
+      }
+    },
+    {
+      "références_de_base": {
+        "list": "[{'element': 'BTO:0001141'}]"
+      },
+      "description": null,
+      "id": "CL_1001568",
+      "nom": "pulmonary artery endothelial cell",
+      "espace_de_noms": {
+        "list": "[{'element': 'cl'}]"
+      },
+      "termes_obsolètes": null,
+      "parents": {
+        "list": "[{'element': 'b44524'} {'element': 'CL_1000413'}]"
+      }
+    },
+    {
+      "références_de_base": null,
+      "description": "The various hormone- or neurotransmitter-secreting cells present throughout the mucosa of the intestinal tract.",
+      "id": "CL_1001516",
+      "nom": "intestinal enteroendocrine cell",
+      "espace_de_noms": {
+        "list": "[{'element': 'cl'}]"
+      },
+      "termes_obsolètes": null,
+      "parents": {
+        "list": "[{'element': 'CL_0002563'} {'element': 'CL_0000164'}]"
+      }
+    },
+    {
+      "références_de_base": null,
+      "description": null,
+      "id": "BFO_0000019",
+      "nom": "quality",
+      "espace_de_noms": {
+        "list": "[{'element': 'bfo'}]"
+      },
+      "termes_obsolètes": null,
+      "parents": {
+        "list": "[{'element': 'b24511'} {'element': 'BFO_0000020'}]"
+      }
+    },
+    {
+      "références_de_base": null,
+      "description": "An independent continuant that is spatially extended whose identity is independent of that of other entities and can be maintained through time.",
+      "id": "BFO_0000040",
+      "nom": "material entity",
+      "espace_de_noms": {
+        "list": "[{'element': 'bfo'}]"
+      },
+      "termes_obsolètes": null,
+      "parents": {
+        "list": "[{'element': 'BFO_0000004'}]"
+      }
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "table_name": "COPY_NUMBER_SEGMENT_MASKED_HG19_GDC_2017_02",
+  "table_fullname": "TCGA.TCGA_VERSIONED.COPY_NUMBER_SEGMENT_MASKED_HG19_GDC_2017_02",
+  "column_names": [
+    "posición_final",
+    "media_segmento",
+    "código de barras de la aliquot",
+    "posición inicial",
+    "cromosoma",
+    "nombre corto del proyecto",
+    "número de sondas",
+    "plataforma",
+    "código de barras del caso",
+    "código de barras de muestra"
+  ],
+  "column_types": [
+    "NUMBER",
+    "FLOAT",
+    "TEXT",
+    "NUMBER",
+    "TEXT",
+    "TEXT",
+    "NUMBER",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "posición final del cromosoma del segmento CN basada en 1",
+    "Valor medio de CN para este segmento: el valor es log₂(CN/2), centrado en 0",
+    "Código de barras original de la alícuota TCGA, por ejemplo TCGA-12-1089-01A-01D-0517-01",
+    "posición cromosómica de inicio, basada en 1, del segmento CN",
+    "Cromosoma, valores posibles: chr1-22, y chrX",
+    "Abreviatura del nombre del proyecto; el nombre del programa con la abreviatura del nombre del proyecto adjunta; ej. TCGA-OV, etc.",
+    "Número de sondas en el array de SNP usado para inferir este segmento CN",
+    "Plataforma utilizada para generar estos datos (Genome_Wide_SNP_6 para estos datos)",
+    "Código original de caso TCGA, por ejemplo TCGA-12-1089 -- tenga en cuenta que cada caso normalmente tiene una muestra de tumor primario y una muestra normal pareada (sangre o tejido adyacente); consulte la tabla de biospecímenes de TCGA para más detalles",
+    "El código de barras original de la muestra TCGA, por ejemplo TCGA-12-1089-01A – ten en cuenta que una muestra puede tener varios alícuotas y, por lo tanto, múltiples conjuntos de segmentaciones de CN; asegúrate de usar GROUP BY apropiadamente en tus consultas."
+  ],
+  "sample_rows": [
+    {
+      "nombre corto del proyecto": "TCGA-OV",
+      "código de barras del caso": "TCGA-01-0628",
+      "código de barras de muestra": "TCGA-01-0628-11A",
+      "código de barras de la aliquot": "TCGA-01-0628-11A-01D-0356-01",
+      "cromosoma": "6",
+      "posición inicial": 147484238,
+      "posición_final": 155912754,
+      "número de sondas": 5870,
+      "media_segmento": 0.0018,
+      "plataforma": "Genome_Wide_SNP_6"
+    },
+    {
+      "nombre corto del proyecto": "TCGA-OV",
+      "código de barras del caso": "TCGA-01-0628",
+      "código de barras de muestra": "TCGA-01-0628-11A",
+      "código de barras de la aliquot": "TCGA-01-0628-11A-01D-0356-01",
+      "cromosoma": "10",
+      "posición inicial": 24602382,
+      "posición_final": 24604992,
+      "número de sondas": 10,
+      "media_segmento": -0.6218,
+      "plataforma": "Genome_Wide_SNP_6"
+    },
+    {
+      "nombre corto del proyecto": "TCGA-OV",
+      "código de barras del caso": "TCGA-01-0628",
+      "código de barras de muestra": "TCGA-01-0628-11A",
+      "código de barras de la aliquot": "TCGA-01-0628-11A-01D-0356-01",
+      "cromosoma": "14",
+      "posición inicial": 93426811,
+      "posición_final": 105988038,
+      "número de sondas": 7427,
+      "media_segmento": 0.0024,
+      "plataforma": "Genome_Wide_SNP_6"
+    },
+    {
+      "nombre corto del proyecto": "TCGA-OV",
+      "código de barras del caso": "TCGA-01-0628",
+      "código de barras de muestra": "TCGA-01-0628-11A",
+      "código de barras de la aliquot": "TCGA-01-0628-11A-01D-0356-01",
+      "cromosoma": "6",
+      "posición inicial": 134557132,
+      "posición_final": 134697015,
+      "número de sondas": 80,
+      "media_segmento": -0.0159,
+      "plataforma": "Genome_Wide_SNP_6"
+    },
+    {
+      "nombre corto del proyecto": "TCGA-OV",
+      "código de barras del caso": "TCGA-01-0628",
+      "código de barras de muestra": "TCGA-01-0628-11A",
+      "código de barras de la aliquot": "TCGA-01-0628-11A-01D-0356-01",
+      "cromosoma": "18",
+      "posición inicial": 329586,
+      "posición_final": 73512093,
+      "número de sondas": 40409,
+      "media_segmento": 0.006,
+      "plataforma": "Genome_Wide_SNP_6"
+    }
+  ]
+}

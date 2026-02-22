@@ -1,0 +1,86 @@
+{
+  "table_name": "MIRNASEQ_HG38_GDC_R14",
+  "table_fullname": "TCGA_MITELMAN.TCGA_VERSIONED.MIRNASEQ_HG38_GDC_R14",
+  "column_names": [
+    "gelesene_pro_million_miRNA_zugeordnet",
+    "aliquot_schluessel",
+    "lesezaehler",
+    "uebergeordnet_zugeordnet",
+    "mirna_id",
+    "proben_schluessel",
+    "fall_schluessel",
+    "projekt_kurzname"
+  ],
+  "column_types": [
+    "FLOAT",
+    "TEXT",
+    "NUMBER",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Lesezahl normalisiert durch Gesamtleseabgleich geteilt durch 1 Million",
+    "TCGA-Aliquot-Strichcode, z. B. TCGA-12-1089-01A-01D-0517-28",
+    "Anzahl der Lesen, die diesem `mirna_id` zugeordnet wurden",
+    "Ein kurzer isomiR-Lesevorgang kann genau auf mature Stränge abgebildet werden, deren Sequenzen ähnlich, aber nicht identisch sind, wenn die Lesesequenz die Basen nicht erfasst, die diese miRNAs unterscheiden (z. B. `hsa-mir-30a` bei 6q13 und `hsa-mir-30e` bei 1p34.2, die sich an Position 18 unterscheiden). Wir berichten einen solchen Lesevorgang als cross-mapped und erhöhen die Lesezahl für jedes `MIMAT`, auf das es abgebildet wurde. Entweder Y oder N -- weniger als 2% sind Y",
+    "Eindeutige miRNA-ID (auch Symbol), z. B. `hsa-mir-21` -- relevante Referenzinformationen finden sich im `isb-cgc:genome_reference`-Dataset in den Tabellen `miRBase_v21` und `miRBase_v21_hsa_gff3`",
+    "TCGA-Proben-Strichcode, z. B. TCGA-12-1089-01A. Eine Probe kann mehrere Sätze von CN-Segmentierungen haben, die mehreren Aliquots entsprechen; verwenden Sie GROUP BY entsprechend in Abfragen",
+    "Originaler TCGA-Fall-Strichcode, z. B. TCGA-DX-A8BN",
+    "Abkürzung des Projektnamens; der Programmname mit einer Projektnamensabkürzung; z. B. TCGA-OV usw."
+  ],
+  "sample_rows": [
+    {
+      "projekt_kurzname": "TCGA-OV",
+      "fall_schluessel": "TCGA-04-1331",
+      "proben_schluessel": "TCGA-04-1331-01A",
+      "aliquot_schluessel": "TCGA-04-1331-01A-01R-1569-13",
+      "mirna_id": "hsa-mir-223",
+      "lesezaehler": 477,
+      "gelesene_pro_million_miRNA_zugeordnet": 137.126693,
+      "uebergeordnet_zugeordnet": "N"
+    },
+    {
+      "projekt_kurzname": "TCGA-OV",
+      "fall_schluessel": "TCGA-04-1331",
+      "proben_schluessel": "TCGA-04-1331-01A",
+      "aliquot_schluessel": "TCGA-04-1331-01A-01R-1569-13",
+      "mirna_id": "hsa-mir-3619",
+      "lesezaehler": 2,
+      "gelesene_pro_million_miRNA_zugeordnet": 0.574955,
+      "uebergeordnet_zugeordnet": "N"
+    },
+    {
+      "projekt_kurzname": "TCGA-OV",
+      "fall_schluessel": "TCGA-04-1331",
+      "proben_schluessel": "TCGA-04-1331-01A",
+      "aliquot_schluessel": "TCGA-04-1331-01A-01R-1569-13",
+      "mirna_id": "hsa-mir-8085",
+      "lesezaehler": 1,
+      "gelesene_pro_million_miRNA_zugeordnet": 0.287477,
+      "uebergeordnet_zugeordnet": "N"
+    },
+    {
+      "projekt_kurzname": "TCGA-OV",
+      "fall_schluessel": "TCGA-04-1331",
+      "proben_schluessel": "TCGA-04-1331-01A",
+      "aliquot_schluessel": "TCGA-04-1331-01A-01R-1569-13",
+      "mirna_id": "hsa-mir-425",
+      "lesezaehler": 1174,
+      "gelesene_pro_million_miRNA_zugeordnet": 337.498401,
+      "uebergeordnet_zugeordnet": "N"
+    },
+    {
+      "projekt_kurzname": "TCGA-OV",
+      "fall_schluessel": "TCGA-04-1331",
+      "proben_schluessel": "TCGA-04-1331-01A",
+      "aliquot_schluessel": "TCGA-04-1331-01A-01R-1569-13",
+      "mirna_id": "hsa-mir-27b",
+      "lesezaehler": 9276,
+      "gelesene_pro_million_miRNA_zugeordnet": 2666.639835,
+      "uebergeordnet_zugeordnet": "Y"
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "table_name": "DNA_METHYLATION_CHR12_HG38_GDC_2017_01",
+  "table_fullname": "TCGA_MITELMAN.TCGA_VERSIONED.DNA_METHYLATION_CHR12_HG38_GDC_2017_01",
+  "column_names": [
+    "id_gdc_aliquot",
+    "id_gdc_échantillon",
+    "plateforme",
+    "id_gdc_dossier",
+    "code_barre_aliquot",
+    "code_barre_échantillon",
+    "valeur_bêta",
+    "code_barre_dossier",
+    "id_gdc_fichier",
+    "id_sonde"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "FLOAT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Identifiant GDC unique pour cet échantillon (correspond à l'aliquot_barcode), par exemple 7fbfdb3e-1fd2-4206-8d2e-7f68e4a15844  --  cela peut être utilisé pour accéder à plus d'informations à partir du portail de données GDC",
+    "Identifiant GDC unique pour cet échantillon (correspond à l'échantillon_barcode), par exemple a1ec9279-c1a6-4e58-97ed-9ec1f36187c5  --  cela peut être utilisé pour accéder à plus d'informations à partir du portail de données GDC",
+    "Plateforme utilisée pour générer ces données -- soit HumanMethylation450 ou HumanMethylation27",
+    "Identifiant GDC unique pour ce cas (correspond au case_barcode).  Peut être utilisé pour accéder à plus d'informations à partir du portail de données GDC comme ceci :   https://portal.gdc.cancer.gov/files/c21b332c-06c6-4403-9032-f91c8f407ba15",
+    "Code à barres de l'échantillon TCGA, par exemple TCGA-12-1089-01A-01D-0517-07",
+    "Code à barres de l'échantillon TCGA, par exemple TCGA-12-1089-01A. Un échantillon peut avoir plusieurs ensembles de segmentations CN correspondant à plusieurs échantillons ; utilisez GROUP BY de manière appropriée dans les requêtes",
+    "Représente le rapport entre l'intensité de l'array méthylation et l'intensité totale de l'array, se situe entre 0 (niveaux de méthylation plus bas) et 1 (niveaux de méthylation plus élevés)",
+    "Code à barres du cas TCGA d'origine, par exemple TCGA-DX-A8BN",
+    "Identifiant GDC unique pour ce fichier (correspond au file_barcode)  --  cela peut être utilisé pour accéder à plus d'informations à partir du portail de données GDC comme ceci : https://portal.gdc.cancer.gov/files/c21b332c-06c6-4403-9032-f91c8f407ba22",
+    "ID unique pour la sonde de l'array associée à un site CpG"
+  ],
+  "sample_rows": [
+    {
+      "code_barre_dossier": "TCGA-12-1601",
+      "code_barre_échantillon": "TCGA-12-1601-01A",
+      "code_barre_aliquot": "TCGA-12-1601-01A-01D-0595-05",
+      "id_sonde": "cg18627459",
+      "valeur_bêta": 0.0175334891265267,
+      "plateforme": null,
+      "id_gdc_fichier": "5cd6f2f6-7278-4757-be8e-a8ae3a7a81d3",
+      "id_gdc_dossier": "cc1459be-de8f-482e-9efe-65937db9dc45",
+      "id_gdc_échantillon": "b02fd704-03a6-44c4-b224-f5f457e733f3",
+      "id_gdc_aliquot": "aa761ca4-e8f0-4a43-8262-bd84eedb459a"
+    },
+    {
+      "code_barre_dossier": "TCGA-12-1601",
+      "code_barre_échantillon": "TCGA-12-1601-01A",
+      "code_barre_aliquot": "TCGA-12-1601-01A-01D-0595-05",
+      "id_sonde": "cg01199721",
+      "valeur_bêta": 0.010039669125862,
+      "plateforme": null,
+      "id_gdc_fichier": "5cd6f2f6-7278-4757-be8e-a8ae3a7a81d3",
+      "id_gdc_dossier": "cc1459be-de8f-482e-9efe-65937db9dc45",
+      "id_gdc_échantillon": "b02fd704-03a6-44c4-b224-f5f457e733f3",
+      "id_gdc_aliquot": "aa761ca4-e8f0-4a43-8262-bd84eedb459a"
+    },
+    {
+      "code_barre_dossier": "TCGA-12-1601",
+      "code_barre_échantillon": "TCGA-12-1601-01A",
+      "code_barre_aliquot": "TCGA-12-1601-01A-01D-0595-05",
+      "id_sonde": "cg10591174",
+      "valeur_bêta": 0.226039570925743,
+      "plateforme": null,
+      "id_gdc_fichier": "5cd6f2f6-7278-4757-be8e-a8ae3a7a81d3",
+      "id_gdc_dossier": "cc1459be-de8f-482e-9efe-65937db9dc45",
+      "id_gdc_échantillon": "b02fd704-03a6-44c4-b224-f5f457e733f3",
+      "id_gdc_aliquot": "aa761ca4-e8f0-4a43-8262-bd84eedb459a"
+    },
+    {
+      "code_barre_dossier": "TCGA-12-1601",
+      "code_barre_échantillon": "TCGA-12-1601-01A",
+      "code_barre_aliquot": "TCGA-12-1601-01A-01D-0595-05",
+      "id_sonde": "cg00973334",
+      "valeur_bêta": 0.0231343569483298,
+      "plateforme": null,
+      "id_gdc_fichier": "5cd6f2f6-7278-4757-be8e-a8ae3a7a81d3",
+      "id_gdc_dossier": "cc1459be-de8f-482e-9efe-65937db9dc45",
+      "id_gdc_échantillon": "b02fd704-03a6-44c4-b224-f5f457e733f3",
+      "id_gdc_aliquot": "aa761ca4-e8f0-4a43-8262-bd84eedb459a"
+    },
+    {
+      "code_barre_dossier": "TCGA-12-1601",
+      "code_barre_échantillon": "TCGA-12-1601-01A",
+      "code_barre_aliquot": "TCGA-12-1601-01A-01D-0595-05",
+      "id_sonde": "cg20664201",
+      "valeur_bêta": 0.449384948579292,
+      "plateforme": null,
+      "id_gdc_fichier": "5cd6f2f6-7278-4757-be8e-a8ae3a7a81d3",
+      "id_gdc_dossier": "cc1459be-de8f-482e-9efe-65937db9dc45",
+      "id_gdc_échantillon": "b02fd704-03a6-44c4-b224-f5f457e733f3",
+      "id_gdc_aliquot": "aa761ca4-e8f0-4a43-8262-bd84eedb459a"
+    }
+  ]
+}

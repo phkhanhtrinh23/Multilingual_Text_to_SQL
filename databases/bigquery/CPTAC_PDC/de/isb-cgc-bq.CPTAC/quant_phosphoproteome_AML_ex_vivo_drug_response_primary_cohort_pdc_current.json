@@ -1,0 +1,116 @@
+{
+  "table_name": "quant_phosphoproteome_AML_ex_vivo_drug_response_primary_cohort_pdc_current",
+  "table_fullname": "isb-cgc-bq.CPTAC.quant_phosphoproteome_AML_ex_vivo_drug_response_primary_cohort_pdc_current",
+  "column_names": [
+    "Fall-ID",
+    "Proben-ID",
+    "Aliquot-ID",
+    "Aliquot-Einreicher-ID",
+    "Aliquot-Lauf-Metadaten-ID",
+    "Studienname",
+    "Proteinabundanz-Log2-Verhältnis",
+    "RefSeq-ID",
+    "Phosphorylierungsstellen"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "Fall-ID",
+    "Proben-ID",
+    "Aliquot-ID",
+    "Aliquot-Einreicher-ID",
+    "Aliquot-Durchlauf-Metadaten-ID",
+    "Studienname",
+    "Proteinabundanz-Log2-Verhältnis",
+    "RefSeq-ID",
+    "Phosphorylierungsstellen"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "Eindeutige Kennung, die einem bestimmten Patienten zugeordnet ist (z. B. 24cb0fcb-63d6-11e8-bcf1-0a2705229b82)",
+    "Einzigartige PDC-Identifikator für diese Probe (z. B. e8d83eb9-693a-11ea-b1fd-0aad30af8a83)",
+    "Einzigartige PDC-Identifikator für diese Aliquot (z. B. e8db124a-693a-11ea-b1fd-0aad30af8a83)",
+    "Vom Programm zugewiesene Aliquot-Einreicher-ID (z. B. T14)",
+    "Eindeutige Identifikation der Aliquot danach, wie sie im Experiment verwendet wurde (basierend auf dem Markierungsreagenz und/oder biologischem Replikat)",
+    "Name der Studie (z. B. Pediatric Brain Cancer Pilot Study - Phosphoproteome)",
+    "Durchschnittliches Log-Verhältnis des Probe-Reporter-Ions zum gemeinsamen Referenzpeptid-Ion, das mit dem Gen in Messungen aus einer bestimmten biologischen Probe assoziiert ist",
+    "Eine eindeutige Kennung, die einer Sequenz in der NCBI RefSeq-Datenbank zugewiesen wird",
+    "Einzelbuchstaben-Codes und Positionen der phosphorylierten Aminosäuren (z. B. t304s310, t59)"
+  ],
+  "sample_rows": [
+    {
+      "Fall-ID": "1411a35b-1847-4d87-b57f-993dfb9659f8",
+      "Proben-ID": "cb883da7-73ff-40b2-8c82-01c85506d538",
+      "Aliquot-ID": "597258f0-ff16-45a3-854e-45aa2b1d747b",
+      "Aliquot-Einreicher-ID": "15-00051-1",
+      "Aliquot-Durchlauf-Metadaten-ID": "695a16a9-027b-43c8-86c9-f5538b778a6f",
+      "Studienname": "AML Ex Vivo Drug Response - Primary Cohort - Phosphoproteome",
+      "Proteinabundanz-Log2-Verhältnis": -1.8348,
+      "RefSeq-ID": "NP_000601.3",
+      "Phosphorylierungsstellen": "s706"
+    },
+    {
+      "Fall-ID": "1411a35b-1847-4d87-b57f-993dfb9659f8",
+      "Proben-ID": "cb883da7-73ff-40b2-8c82-01c85506d538",
+      "Aliquot-ID": "597258f0-ff16-45a3-854e-45aa2b1d747b",
+      "Aliquot-Einreicher-ID": "15-00051-1",
+      "Aliquot-Durchlauf-Metadaten-ID": "695a16a9-027b-43c8-86c9-f5538b778a6f",
+      "Studienname": "AML Ex Vivo Drug Response - Primary Cohort - Phosphoproteome",
+      "Proteinabundanz-Log2-Verhältnis": -1.1584,
+      "RefSeq-ID": "NP_001005.1",
+      "Phosphorylierungsstellen": "s146"
+    },
+    {
+      "Fall-ID": "1411a35b-1847-4d87-b57f-993dfb9659f8",
+      "Proben-ID": "cb883da7-73ff-40b2-8c82-01c85506d538",
+      "Aliquot-ID": "597258f0-ff16-45a3-854e-45aa2b1d747b",
+      "Aliquot-Einreicher-ID": "15-00051-1",
+      "Aliquot-Durchlauf-Metadaten-ID": "695a16a9-027b-43c8-86c9-f5538b778a6f",
+      "Studienname": "AML Ex Vivo Drug Response - Primary Cohort - Phosphoproteome",
+      "Proteinabundanz-Log2-Verhältnis": -1.3186,
+      "RefSeq-ID": "NP_001011553.2",
+      "Phosphorylierungsstellen": "t227"
+    },
+    {
+      "Fall-ID": "1411a35b-1847-4d87-b57f-993dfb9659f8",
+      "Proben-ID": "cb883da7-73ff-40b2-8c82-01c85506d538",
+      "Aliquot-ID": "597258f0-ff16-45a3-854e-45aa2b1d747b",
+      "Aliquot-Einreicher-ID": "15-00051-1",
+      "Aliquot-Durchlauf-Metadaten-ID": "695a16a9-027b-43c8-86c9-f5538b778a6f",
+      "Studienname": "AML Ex Vivo Drug Response - Primary Cohort - Phosphoproteome",
+      "Proteinabundanz-Log2-Verhältnis": -2.225,
+      "RefSeq-ID": "NP_001014972.1",
+      "Phosphorylierungsstellen": "s1401"
+    },
+    {
+      "Fall-ID": "1411a35b-1847-4d87-b57f-993dfb9659f8",
+      "Proben-ID": "cb883da7-73ff-40b2-8c82-01c85506d538",
+      "Aliquot-ID": "597258f0-ff16-45a3-854e-45aa2b1d747b",
+      "Aliquot-Einreicher-ID": "15-00051-1",
+      "Aliquot-Durchlauf-Metadaten-ID": "695a16a9-027b-43c8-86c9-f5538b778a6f",
+      "Studienname": "AML Ex Vivo Drug Response - Primary Cohort - Phosphoproteome",
+      "Proteinabundanz-Log2-Verhältnis": -2.4866,
+      "RefSeq-ID": "NP_001025459.1",
+      "Phosphorylierungsstellen": "s351s355"
+    }
+  ]
+}

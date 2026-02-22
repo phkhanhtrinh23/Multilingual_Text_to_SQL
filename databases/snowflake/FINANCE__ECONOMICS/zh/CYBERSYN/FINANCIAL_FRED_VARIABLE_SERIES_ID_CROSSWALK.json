@@ -1,0 +1,46 @@
+{
+  "sample_rows": [
+    {
+      "地理编号": "country/USA",
+      "变量": "Industrial_Production:_Nondurable_Goods_Materials,_Seasonally_adjusted,_Monthly,_Index_2017=100",
+      "系列编号": "IPNMAT"
+    },
+    {
+      "地理编号": "country/USA",
+      "变量": "Industrial_Production:_Nondurable_Energy_Consumer_Goods:_Fuels,_Seasonally_adjusted,_Monthly,_Index_2017=100",
+      "系列编号": "IPFUELS"
+    },
+    {
+      "地理编号": "country/USA",
+      "变量": "Assets:_Liquidity_and_Credit_Facilities:_Net_Portfolio_Holdings_of_MS_Facilities_2020_LLC_(Main_Street_Lending_Program):_Wednesday_Level_in_Federal_Reserve_District_7:_Chicago,_Not_seasonally_adjusted,_Weekly,_USD",
+      "系列编号": "H41RESPPAAEF07NWW"
+    },
+    {
+      "地理编号": "country/USA",
+      "变量": "Layoffs_and_Discharges:_Total_Nonfarm,_Seasonally_adjusted,_Monthly,_Level_in_Thousands",
+      "系列编号": "JTSLDL"
+    },
+    {
+      "地理编号": "country/USA",
+      "变量": "New_Privately-Owned_Housing_Units_Authorized_in_Permit-Issuing_Places:_Units_in_Buildings_with_2-4_Units,_Seasonally_adjusted_annual_rate,_Monthly,_Units",
+      "系列编号": "PERMIT24"
+    }
+  ],
+  "table_name": "FINANCIAL_FRED_VARIABLE_SERIES_ID_CROSSWALK",
+  "table_fullname": "FINANCE__ECONOMICS.CYBERSYN.FINANCIAL_FRED_VARIABLE_SERIES_ID_CROSSWALK",
+  "column_names": [
+    "系列编号",
+    "地理编号",
+    "变量"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "来自FRED数据库的系列标识符。geo_id与变量的组合需要一起使用才能识别唯一的series_id。",
+    "与时间序列表可关联的地点唯一标识符",
+    "唯一标识符，可与属性表和时间序列表关联。"
+  ]
+}

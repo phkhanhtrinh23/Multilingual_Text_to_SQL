@@ -1,0 +1,110 @@
+{
+  "sample_rows": [
+    {
+      "ID_ENTREPRISE": "9cee45c58a4fdb6bb265552a0db62a00",
+      "NOM_DE_L_ENTREPRISE": "VENDERA RESOURCES VI-A LP",
+      "NIVEAU_ENTITE": "Corporate",
+      "EIN": null,
+      "CIK": "0002011467",
+      "LEI": null,
+      "ID_ENTREPRISE_PERMID": "5087020389",
+      "TICKER_PRINCIPAL": null,
+      "CODE_DE_BOURSE_PRINCIPALE": null,
+      "NOM_DE_BOURSE_PRINCIPALE": null,
+      "TICKERS_MONDIAUX": null
+    },
+    {
+      "ID_ENTREPRISE": "7766ef904f8648e8b8ac520b7267d5b5",
+      "NOM_DE_L_ENTREPRISE": "RT-AI I LLC",
+      "NIVEAU_ENTITE": "Corporate",
+      "EIN": null,
+      "CIK": "0002018929",
+      "LEI": null,
+      "ID_ENTREPRISE_PERMID": "5087193531",
+      "TICKER_PRINCIPAL": null,
+      "CODE_DE_BOURSE_PRINCIPALE": null,
+      "NOM_DE_BOURSE_PRINCIPALE": null,
+      "TICKERS_MONDIAUX": null
+    },
+    {
+      "ID_ENTREPRISE": "bfd8994995275e9917290bc423536fd6",
+      "NOM_DE_L_ENTREPRISE": "PANTHEON GLOBAL SECONDARY FUND III B L P",
+      "NIVEAU_ENTITE": "Corporate",
+      "EIN": null,
+      "CIK": "0001371639",
+      "LEI": null,
+      "ID_ENTREPRISE_PERMID": "4297623383",
+      "TICKER_PRINCIPAL": null,
+      "CODE_DE_BOURSE_PRINCIPALE": null,
+      "NOM_DE_BOURSE_PRINCIPALE": null,
+      "TICKERS_MONDIAUX": null
+    },
+    {
+      "ID_ENTREPRISE": "878d19cbba19e94e8645afbabd4a14c2",
+      "NOM_DE_L_ENTREPRISE": "SCI NEW CAP WEST",
+      "NIVEAU_ENTITE": "Corporate",
+      "EIN": null,
+      "CIK": null,
+      "LEI": null,
+      "ID_ENTREPRISE_PERMID": "5057843478",
+      "TICKER_PRINCIPAL": null,
+      "CODE_DE_BOURSE_PRINCIPALE": null,
+      "NOM_DE_BOURSE_PRINCIPALE": null,
+      "TICKERS_MONDIAUX": null
+    },
+    {
+      "ID_ENTREPRISE": "fcff55343666f5399f3e288f4c38c46b",
+      "NOM_DE_L_ENTREPRISE": "MADCAP MOTEL LOS ANGELES LLC",
+      "NIVEAU_ENTITE": "Corporate",
+      "EIN": null,
+      "CIK": "0001766936",
+      "LEI": null,
+      "ID_ENTREPRISE_PERMID": "5067944874",
+      "TICKER_PRINCIPAL": null,
+      "CODE_DE_BOURSE_PRINCIPALE": null,
+      "NOM_DE_BOURSE_PRINCIPALE": null,
+      "TICKERS_MONDIAUX": null
+    }
+  ],
+  "table_name": "COMPANY_INDEX",
+  "table_fullname": "FINANCE__ECONOMICS.CYBERSYN.COMPANY_INDEX",
+  "column_names": [
+    "NOM_DE_BOURSE_PRINCIPALE",
+    "TICKER_PRINCIPAL",
+    "NIVEAU_ENTITE",
+    "ID_ENTREPRISE_PERMID",
+    "LEI",
+    "ID_ENTREPRISE",
+    "EIN",
+    "CODE_DE_BOURSE_PRINCIPALE",
+    "TICKERS_MONDIAUX",
+    "NOM_DE_L_ENTREPRISE",
+    "CIK"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "ARRAY",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "ARRAY",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Le nom de l'échange pour le lieu de négociation principal d'une valeur mobilière.",
+    "Le ticker pour le lieu de négociation principal d'une valeur mobilière. Si une valeur mobilière est négociée sur plusieurs échanges ou a de nombreux tickers, une tentative est faite pour sélectionner le ticker du marché domestique.",
+    "Décrit le type ou le niveau de l'entité pour une commodité supplémentaire. Actuellement, toutes les entités sont des entités corporatives et sont désignées comme 'Corporate'.",
+    "Identifiant permanent, qui est un identifiant fourni par Refinitiv (via PermID) pour fournir un moyen d'identifier de manière unique une entreprise.",
+    "Identifiant d'entité légale, un identifiant unique de la GLEIF qui identifie les entités légales qui engagent des transactions financières.",
+    "Identifiant unique attribué par Cybersyn à chaque entreprise.",
+    "Numéro d'identification de l'employeur, un numéro d'identification unique attribué à une entreprise par l'IRS.",
+    "Le code d'échange pour le lieu de négociation principal d'une valeur mobilière.",
+    "Un tableau de symboles de ticker sous lesquels la valeur mobilière peut être négociée à l'échelle mondiale sur tous les échanges.",
+    "Le nom de l'entreprise.",
+    "Central Index Key, un identifiant unique pour les sociétés inscrites à la Securities and Exchange Commission (SEC) des États-Unis."
+  ]
+}

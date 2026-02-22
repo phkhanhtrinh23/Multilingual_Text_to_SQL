@@ -1,0 +1,66 @@
+{
+  "table_name": "routes",
+  "table_fullname": "bigquery-public-data.san_francisco_transit_muni.routes",
+  "column_names": [
+    "id_itineraire",
+    "nom_court_itineraire",
+    "nom_long_itineraire",
+    "type_itineraire"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "id_itineraire",
+    "nom_court_itineraire",
+    "nom_long_itineraire",
+    "type_itineraire"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "Identifiant unique pour chaque trajet. Un seul trajet aura plusieurs parcours",
+    "Contient le nom court d'un trajet. Il s'agit d'un identifiant court et abstrait comme 32, 100X, ou Green que les usagers utilisent pour identifier un trajet, mais qui ne donne aucune indication des lieux que le trajet dessert.",
+    "Contient le nom complet d'un trajet. Ce nom est généralement plus descriptif que le nom de `route_short_name` et inclut souvent la destination ou l'arrêt du trajet.",
+    "\"Décrit le type de transport utilisé sur un trajet. Les valeurs valides pour ce champ sont les suivantes :  -  `light_rail` : Tramway ou train léger. Utilisé pour tout système de train léger ou de niveau de rue à l'intérieur d'une zone métropolitaine. -  `subway` : Métro. Utilisé pour tout système de train souterrain à l'intérieur d'une zone métropolitaine. -  `rail` : Utilisé pour les voyages interurbains ou de longue distance. -  `bus` : Utilisé pour les routes de bus de courte et longue distance. -  `ferry` : Utilisé pour les services de bateau de courte et longue distance. -  `cable_car` : Utilisé pour les tramways de niveau de rue où le câble se trouve sous le véhicule. -  `tram` : Télécabine ou téléphérique suspendu. Typiquement utilisé pour les téléphériques aériens où le véhicule est suspendu au câble. -  `funicular` : Utilisé pour tout système de train qui se déplace sur des pentes abruptes avec un système de traction par câble.\""
+  ],
+  "sample_rows": [
+    {
+      "id_itineraire": "83X",
+      "nom_court_itineraire": "83X",
+      "nom_long_itineraire": "MID-MARKET EXPRESS",
+      "type_itineraire": "3"
+    },
+    {
+      "id_itineraire": "82X",
+      "nom_court_itineraire": "82X",
+      "nom_long_itineraire": "LEVI PLAZA EXPRESS",
+      "type_itineraire": "3"
+    },
+    {
+      "id_itineraire": "E",
+      "nom_court_itineraire": "E",
+      "nom_long_itineraire": "EMBARCADERO",
+      "type_itineraire": "0"
+    },
+    {
+      "id_itineraire": "KT",
+      "nom_court_itineraire": "KT",
+      "nom_long_itineraire": "INGLESIDE-THIRD",
+      "type_itineraire": "0"
+    },
+    {
+      "id_itineraire": "3",
+      "nom_court_itineraire": "3",
+      "nom_long_itineraire": "JACKSON",
+      "type_itineraire": "3"
+    }
+  ]
+}

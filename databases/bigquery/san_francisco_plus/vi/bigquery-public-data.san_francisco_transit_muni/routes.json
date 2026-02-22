@@ -1,0 +1,66 @@
+{
+  "table_name": "routes",
+  "table_fullname": "bigquery-public-data.san_francisco_transit_muni.routes",
+  "column_names": [
+    "Mã tuyến",
+    "Tên ngắn tuyến",
+    "tên đường dài",
+    "Loại tuyến"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "mã tuyến đường",
+    "tên ngắn tuyến",
+    "tên dài tuyến",
+    "loại tuyến"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "Định danh duy nhất cho mỗi tuyến đường. Một tuyến đường duy nhất sẽ có nhiều chuyến đi.",
+    "Chứa tên ngắn của tuyến đường. Đây là một định danh ngắn, trừu tượng như 32, 100X, hoặc Green mà hành khách dùng để nhận diện tuyến đường, nhưng không cho biết những nơi tuyến đường phục vụ.",
+    "Chứa tên đầy đủ của tuyến đường. Tên này thường miêu tả rõ hơn so với tên từ route_short_name và thường bao gồm điểm đến hoặc điểm dừng của tuyến đường.",
+    "Miêu tả loại phương tiện giao thông được sử dụng trên một tuyến đường. Các giá trị hợp lệ cho trường này bao gồm:  \n- **light_rail**: Xe điện ngầm hoặc đường sắt nhẹ. Dùng cho bất kỳ hệ thống đường sắt nhẹ hoặc xe điện ngầm trên mặt đường trong khu vực đô thị.  \n- **subway**: Tàu điện ngầm hoặc metro. Dùng cho bất kỳ hệ thống đường sắt ngầm trong khu vực đô thị.  \n- **rail**: Dùng cho giao thông giữa các thành phố hoặc đường dài.  \n- **bus**: Dùng cho các tuyến xe buýt ngắn và dài.  \n- **ferry**: Dùng cho dịch vụ tàu thuyền ngắn và dài.  \n- **cable_car**: Dùng cho xe cáp dây trên mặt đường, nơi dây cáp chạy dưới xe.  \n- **tram**: Xe gondola hoặc xe cáp treo. Thường dùng cho xe cáp treo không giáp, nơi xe treo trên dây cáp.  \n- **funicular**: Dùng cho bất kỳ hệ thống đường sắt di chuyển trên dốc gồ ghề với hệ thống kéo cáp."
+  ],
+  "sample_rows": [
+    {
+      "mã tuyến đường": "83X",
+      "tên ngắn tuyến": "83X",
+      "tên dài tuyến": "MID-MARKET EXPRESS",
+      "loại tuyến": "3"
+    },
+    {
+      "mã tuyến đường": "82X",
+      "tên ngắn tuyến": "82X",
+      "tên dài tuyến": "LEVI PLAZA EXPRESS",
+      "loại tuyến": "3"
+    },
+    {
+      "mã tuyến đường": "E",
+      "tên ngắn tuyến": "E",
+      "tên dài tuyến": "EMBARCADERO",
+      "loại tuyến": "0"
+    },
+    {
+      "mã tuyến đường": "KT",
+      "tên ngắn tuyến": "KT",
+      "tên dài tuyến": "INGLESIDE-THIRD",
+      "loại tuyến": "0"
+    },
+    {
+      "mã tuyến đường": "3",
+      "tên ngắn tuyến": "3",
+      "tên dài tuyến": "JACKSON",
+      "loại tuyến": "3"
+    }
+  ]
+}

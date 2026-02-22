@@ -1,0 +1,126 @@
+{
+  "table_name": "bikeshare_trips",
+  "table_fullname": "bigquery-public-data.austin_bikeshare.bikeshare_trips",
+  "column_names": [
+    "id_de_voyage",
+    "type_d_abonne",
+    "id_de_velo",
+    "type_de_velo",
+    "heure_de_debut",
+    "id_de_station_de_depart",
+    "nom_de_station_de_depart",
+    "id_de_station_d_arrivee",
+    "nom_de_station_d_arrivee",
+    "duree_en_minutes"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "TIMESTAMP",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "id_de_voyage",
+    "type_d_abonne",
+    "id_de_velo",
+    "type_de_velo",
+    "heure_de_debut",
+    "id_de_station_de_depart",
+    "nom_de_station_de_depart",
+    "id_de_station_d_arrivee",
+    "nom_de_station_d_arrivee",
+    "duree_en_minutes"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "TIMESTAMP",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64"
+  ],
+  "description": [
+    "ID numérique du trajet à vélo",
+    "Type d'abonné",
+    "ID du vélo utilisé",
+    "Type de vélo utilisé",
+    "Horodatage de début du trajet",
+    "Référence numérique pour la station de départ",
+    "Nom de la station de départ",
+    "Référence numérique pour la station d'arrivée",
+    "Nom de la station d'arrivée",
+    "Durée du trajet en minutes"
+  ],
+  "sample_rows": [
+    {
+      "id_de_voyage": "4098781",
+      "type_d_abonne": "24 Hour Walk Up Pass",
+      "id_de_velo": "14",
+      "type_de_velo": "classic",
+      "heure_de_debut": "2015-03-12 22:24:45+00:00",
+      "id_de_station_de_depart": 2546,
+      "nom_de_station_de_depart": "ACC - West & 12th Street",
+      "id_de_station_d_arrivee": "2546",
+      "nom_de_station_d_arrivee": "ACC - West & 12th Street",
+      "duree_en_minutes": 44
+    },
+    {
+      "id_de_voyage": "4098776",
+      "type_d_abonne": "24 Hour Walk Up Pass",
+      "id_de_velo": "24",
+      "type_de_velo": "classic",
+      "heure_de_debut": "2015-03-12 22:22:59+00:00",
+      "id_de_station_de_depart": 2546,
+      "nom_de_station_de_depart": "ACC - West & 12th Street",
+      "id_de_station_d_arrivee": "2546",
+      "nom_de_station_d_arrivee": "ACC - West & 12th Street",
+      "duree_en_minutes": 46
+    },
+    {
+      "id_de_voyage": "4098773",
+      "type_d_abonne": "24 Hour Walk Up Pass",
+      "id_de_velo": "789",
+      "type_de_velo": "classic",
+      "heure_de_debut": "2015-03-12 22:21:57+00:00",
+      "id_de_station_de_depart": 2546,
+      "nom_de_station_de_depart": "ACC - West & 12th Street",
+      "id_de_station_d_arrivee": "2546",
+      "nom_de_station_d_arrivee": "ACC - West & 12th Street",
+      "duree_en_minutes": 80
+    },
+    {
+      "id_de_voyage": "4098766",
+      "type_d_abonne": "24 Hour Walk Up Pass",
+      "id_de_velo": "306",
+      "type_de_velo": "classic",
+      "heure_de_debut": "2015-03-12 22:20:09+00:00",
+      "id_de_station_de_depart": 2546,
+      "nom_de_station_de_depart": "ACC - West & 12th Street",
+      "id_de_station_d_arrivee": "2546",
+      "nom_de_station_d_arrivee": "ACC - West & 12th Street",
+      "duree_en_minutes": 47
+    },
+    {
+      "id_de_voyage": "4098761",
+      "type_d_abonne": "24 Hour Walk Up Pass",
+      "id_de_velo": "362",
+      "type_de_velo": "classic",
+      "heure_de_debut": "2015-03-12 22:19:11+00:00",
+      "id_de_station_de_depart": 2546,
+      "nom_de_station_de_depart": "ACC - West & 12th Street",
+      "id_de_station_d_arrivee": "2546",
+      "nom_de_station_d_arrivee": "ACC - West & 12th Street",
+      "duree_en_minutes": 47
+    }
+  ]
+}

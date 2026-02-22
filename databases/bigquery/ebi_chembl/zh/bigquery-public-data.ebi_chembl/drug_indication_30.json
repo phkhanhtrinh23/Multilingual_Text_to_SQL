@@ -1,0 +1,106 @@
+{
+  "table_name": "drug_indication_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.drug_indication_30",
+  "column_names": [
+    "药品行业ID",
+    "记录编号",
+    "分子注册号",
+    "行业最大阶段",
+    "网格ID",
+    "网格标题",
+    "EFO编号",
+    "EFO 术语"
+  ],
+  "column_types": [
+    "INT64",
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "药品行业编号",
+    "记录编号",
+    "分子注册号",
+    "行业最大阶段",
+    "网格编号",
+    "网格标题",
+    "EFO编号",
+    "EFO术语"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "主键",
+    "对 compound_records 表的外键。链接到该适应症对应的药物记录。",
+    "对应于 compound_records 表中 record_id 的 Molregno",
+    "该药物在此特定适应症已知已达到的最高研发阶段",
+    "对应适应症的医学主题词（MeSH）疾病标识符",
+    "医学主题词（MeSH）疾病ID对应的术语",
+    "实验因素本体（EFO）疾病标识符对应的适应症",
+    "EFO ID 的实验因子本体术语"
+  ],
+  "sample_rows": [
+    {
+      "药品行业编号": 54362,
+      "记录编号": 1697032,
+      "分子注册号": 1380217,
+      "行业最大阶段": 0,
+      "网格编号": "D000375",
+      "网格标题": "Aging",
+      "EFO编号": "GO:0007568",
+      "EFO术语": "aging"
+    },
+    {
+      "药品行业编号": 122845,
+      "记录编号": 1344486,
+      "分子注册号": 675637,
+      "行业最大阶段": 0,
+      "网格编号": "D000375",
+      "网格标题": "Aging",
+      "EFO编号": "GO:0007568",
+      "EFO术语": "aging"
+    },
+    {
+      "药品行业编号": 121760,
+      "记录编号": 1701733,
+      "分子注册号": 1377512,
+      "行业最大阶段": 0,
+      "网格编号": "D014549",
+      "网格标题": "Urinary Incontinence",
+      "EFO编号": "HP:0000020",
+      "EFO术语": "Urinary incontinence"
+    },
+    {
+      "药品行业编号": 130058,
+      "记录编号": 3460748,
+      "分子注册号": 1797543,
+      "行业最大阶段": 0,
+      "网格编号": "D014549",
+      "网格标题": "Urinary Incontinence",
+      "EFO编号": "HP:0000020",
+      "EFO术语": "Urinary incontinence"
+    },
+    {
+      "药品行业编号": 121019,
+      "记录编号": 1344763,
+      "分子注册号": 858397,
+      "行业最大阶段": 0,
+      "网格编号": "D051437",
+      "网格标题": "Renal Insufficiency",
+      "EFO编号": "HP:0000083",
+      "EFO术语": "Renal insufficiency"
+    }
+  ]
+}

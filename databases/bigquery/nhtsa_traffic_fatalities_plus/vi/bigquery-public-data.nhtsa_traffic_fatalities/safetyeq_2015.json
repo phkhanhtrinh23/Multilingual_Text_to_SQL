@@ -1,0 +1,96 @@
+{
+  "table_name": " safetyeq_2015",
+  "table_fullname": "bigquery-public-data.nhtsa_traffic_fatalities. safetyeq_2015",
+  "column_names": [
+    "số_trạng_thái",
+    "tên bang",
+    "số liên tiếp",
+    "số xe",
+    "số người",
+    "sử dụng thiết bị an toàn cho người không lái xe",
+    "Tên sử dụng thiết bị an toàn cho người không lái xe"
+  ],
+  "column_types": [
+    "INT64",
+    "STRING",
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "số trạng thái",
+    "tên bang",
+    "số liên tiếp",
+    "số xe",
+    "số người",
+    "Sử dụng thiết bị an toàn cho người không lái xe",
+    "tên thiết bị an toàn cho người không lái xe"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "STRING",
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "Yếu tố dữ liệu này xác định bang nơi xảy ra tai nạn. Các mã này được lấy từ ấn phẩm của Cơ quan Dịch vụ Chung (GSA) về Mã Vị trí Địa lý Toàn cầu (GLC). Để biết thêm thông tin về các mã, vui lòng xem phần <C1/V1/D1/PC1/P1/NM1 State Number> trong tài liệu PDF: https://crashstats.nhtsa.dot.gov/Api/Public/ViewPublication/812315",
+    "Phần dữ liệu này xác định bang nơi xảy ra tai nạn. Các mã được lấy từ ấn phẩm của Cơ quan Dịch vụ Chung (GSA) về Mã Địa Điểm Địa Hình Toàn Cầu (GLC).",
+    "Thành phần dữ liệu này là số trường hợp duy nhất được gán cho mỗi vụ tai nạn. Nó xuất hiện trong mỗi tập tin dữ liệu và được sử dụng để hợp nhất thông tin từ các tập tin dữ liệu đó. xxxxxx Hai ký tự cho mã bang theo sau bởi bốn ký tự cho số trường hợp.",
+    "Phần tử dữ liệu này là số liên tiếp được chỉ định cho mỗi phương tiện trong vụ án. Phần tử dữ liệu này xuất hiện trên mỗi tập tin dữ liệu cấp phương tiện và được sử dụng kết hợp với phần tử dữ liệu ST_CASE để hợp nhất thông tin từ các tập tin dữ liệu cấp phương tiện. 000-999 Số đã được chỉ định của phương tiện ô tô",
+    "Yếu tố dữ liệu này là số thứ tự liên tiếp được gán cho mỗi người trong vụ việc (tức là mỗi người ngồi trong xe, người đi bộ hoặc người không sử dụng phương tiện tham gia tai nạn). Yếu tố dữ liệu này xuất hiện trên mỗi tệp dữ liệu cấp cá nhân và được sử dụng cùng với yếu tố dữ liệu ST_CASE (và đôi khi yếu tố dữ liệu VEH_NO) để hợp nhất thông tin từ các tệp dữ liệu cấp cá nhân. 001-999 Số người được gán",
+    "Phần tử dữ liệu này chỉ ra thiết bị an toàn mà người không lái xe đã sử dụng trong tai nạn.  \n1 Không sử dụng  \n2 Mũ bảo hiểm – Thiết bị/Quần áo phản quang (Áo khoác, ba lô, v.v.)  \n3 Quần áo phản quang (Áo khoác, ba lô, v.v.)  \n4 Miếng đệm bảo vệ (Tay, đầu gối, cổ chân, v.v.)  \n5 Đèn chiếu sáng  \n7 Thiết bị an toàn khác  \n8 Không báo cáo  \n9 Không biết có sử dụng hay không",
+    "Yếu tố dữ liệu này cho biết thiết bị an toàn mà người không lái xe tham gia tai nạn đã sử dụng.  \n1 Không được sử dụng  \n2 Mũ bảo hiểm – Trang thiết bị/Đồ mặc phản quang (Áo khoác, Ba lô, v.v.)  \n3 Đồ mặc phản quang (Áo khoác, Ba lô, v.v.)  \n4 Tấm bảo vệ (Cánh chày, Gối, Cẳng chân, v.v.)  \n5 Đèn chiếu sáng  \n7 Thiết bị an toàn khác  \n8 Không được báo cáo  \n9 Không rõ đã sử dụng hay chưa"
+  ],
+  "sample_rows": [
+    {
+      "số trạng thái": 1,
+      "tên bang": "Alabama",
+      "số liên tiếp": 10777,
+      "số xe": 0,
+      "số người": 5,
+      "Sử dụng thiết bị an toàn cho người không lái xe": "1",
+      "tên thiết bị an toàn cho người không lái xe": "None Used"
+    },
+    {
+      "số trạng thái": 1,
+      "tên bang": "Alabama",
+      "số liên tiếp": 10777,
+      "số xe": 0,
+      "số người": 6,
+      "Sử dụng thiết bị an toàn cho người không lái xe": "1",
+      "tên thiết bị an toàn cho người không lái xe": "None Used"
+    },
+    {
+      "số trạng thái": 1,
+      "tên bang": "Alabama",
+      "số liên tiếp": 10777,
+      "số xe": 0,
+      "số người": 7,
+      "Sử dụng thiết bị an toàn cho người không lái xe": "1",
+      "tên thiết bị an toàn cho người không lái xe": "None Used"
+    },
+    {
+      "số trạng thái": 1,
+      "tên bang": "Alabama",
+      "số liên tiếp": 10777,
+      "số xe": 0,
+      "số người": 8,
+      "Sử dụng thiết bị an toàn cho người không lái xe": "1",
+      "tên thiết bị an toàn cho người không lái xe": "None Used"
+    },
+    {
+      "số trạng thái": 1,
+      "tên bang": "Alabama",
+      "số liên tiếp": 10777,
+      "số xe": 0,
+      "số người": 9,
+      "Sử dụng thiết bị an toàn cho người không lái xe": "1",
+      "tên thiết bị an toàn cho người không lái xe": "None Used"
+    }
+  ]
+}

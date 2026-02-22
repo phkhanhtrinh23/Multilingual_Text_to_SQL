@@ -1,0 +1,76 @@
+{
+  "table_name": "predicted_binding_domains_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.predicted_binding_domains_30",
+  "column_names": [
+    "预绑定ID",
+    "活动ID",
+    "站点编号",
+    "预测方法",
+    "信心"
+  ],
+  "column_types": [
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "预绑定ID",
+    "活动编号",
+    "站点ID",
+    "预测方法",
+    "信心"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "主键",
+    "指向 activities 表的外键，表示此预测对应的化合物/测定（+靶标）组合。",
+    "指向binding_sites表的外键，表示该化合物预测所结合的结合位点（域）。",
+    "用于确定结合域的方法（例如，“单域”表示蛋白质只有一个域，“多域”表示蛋白质有多个域，但仅有一个已知在其他蛋白中结合小分子）。",
+    "对预测的置信水平（蛋白质仅有一个结构域时为高，化合物具有多个结构域但仅有一个已知的小分子结合结构域时为中等）。"
+  ],
+  "sample_rows": [
+    {
+      "预绑定ID": 7797342,
+      "活动编号": 22413971,
+      "站点ID": null,
+      "预测方法": "Multi domain",
+      "信心": "medium"
+    },
+    {
+      "预绑定ID": 7899397,
+      "活动编号": 22433085,
+      "站点ID": null,
+      "预测方法": "Multi domain",
+      "信心": "medium"
+    },
+    {
+      "预绑定ID": 7899403,
+      "活动编号": 22469714,
+      "站点ID": null,
+      "预测方法": "Multi domain",
+      "信心": "medium"
+    },
+    {
+      "预绑定ID": 7955143,
+      "活动编号": 22900108,
+      "站点ID": null,
+      "预测方法": "Multi domain",
+      "信心": "medium"
+    },
+    {
+      "预绑定ID": 8002137,
+      "活动编号": 22414005,
+      "站点ID": null,
+      "预测方法": "Multi domain",
+      "信心": "medium"
+    }
+  ]
+}

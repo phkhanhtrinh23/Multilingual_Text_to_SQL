@@ -1,0 +1,128 @@
+{
+  "table_name": "indication",
+  "table_fullname": "open-targets-prod.platform.indication",
+  "column_names": [
+    "id",
+    "indicações",
+    "indicaçõesAprovadas",
+    "contagemDeIndicações"
+  ],
+  "column_types": [
+    "STRING",
+    "STRUCT<list ARRAY<STRUCT<element STRUCT<disease STRING, efoName STRING, references STRUCT<list ARRAY<STRUCT<element STRUCT<source STRING, ids STRUCT<list ARRAY<STRUCT<element STRING>>>>>>>, maxPhaseForIndication FLOAT64>>>>",
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "id",
+    "indicações",
+    "indicações.list",
+    "indicações.list.element",
+    "indicações.list.element.doença",
+    "indicações.list.element.nomeEfo",
+    "indicações.list.element.referências",
+    "indicações.list.element.referências.list",
+    "indicações.list.element.referências.list.element",
+    "indicações.list.element.referências.list.element.fonte",
+    "indicações.list.element.referências.list.element.ids",
+    "indicações.list.element.referências.list.element.ids.list",
+    "indicações.list.element.referências.list.element.ids.list.element",
+    "indicações.list.element.faseMáximaParaIndicação",
+    "indicaçõesAprovadas",
+    "indicaçõesAprovadas.list",
+    "indicaçõesAprovadas.list.element",
+    "contagemDeIndicações"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRUCT<list ARRAY<STRUCT<element STRUCT<disease STRING, efoName STRING, references STRUCT<list ARRAY<STRUCT<element STRUCT<source STRING, ids STRUCT<list ARRAY<STRUCT<element STRING>>>>>>>, maxPhaseForIndication FLOAT64>>>>",
+    "ARRAY<STRUCT<element STRUCT<disease STRING, efoName STRING, references STRUCT<list ARRAY<STRUCT<element STRUCT<source STRING, ids STRUCT<list ARRAY<STRUCT<element STRING>>>>>>>, maxPhaseForIndication FLOAT64>>>",
+    "STRUCT<disease STRING, efoName STRING, references STRUCT<list ARRAY<STRUCT<element STRUCT<source STRING, ids STRUCT<list ARRAY<STRUCT<element STRING>>>>>>>, maxPhaseForIndication FLOAT64>",
+    "STRING",
+    "STRING",
+    "STRUCT<list ARRAY<STRUCT<element STRUCT<source STRING, ids STRUCT<list ARRAY<STRUCT<element STRING>>>>>>>",
+    "ARRAY<STRUCT<element STRUCT<source STRING, ids STRUCT<list ARRAY<STRUCT<element STRING>>>>>>",
+    "STRUCT<source STRING, ids STRUCT<list ARRAY<STRUCT<element STRING>>>>",
+    "STRING",
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+    "ARRAY<STRUCT<element STRING>>",
+    "STRING",
+    "FLOAT64",
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+    "ARRAY<STRUCT<element STRING>>",
+    "STRING",
+    "INT64"
+  ],
+  "description": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "sample_rows": [
+    {
+      "id": "CHEMBL500826",
+      "indicações": {
+        "list": "[{'element': {'disease': 'EFO_1001888', 'efoName': 'eye infection', 'references': {'list': array([{'element': {'source': 'ATC', 'ids': {'list': array([{'element': 'S01AX10'}], dtype=object)}}}],\n       dtype=object)}, 'maxPhaseForIndication': 2.0}}                                                                                                                                             ]"
+      },
+      "indicaçõesAprovadas": {
+        "list": "[]"
+      },
+      "contagemDeIndicações": 1
+    },
+    {
+      "id": "CHEMBL3989504",
+      "indicações": {
+        "list": "[{'element': {'disease': 'EFO_0000771', 'efoName': 'bacterial disease', 'references': {'list': array([{'element': {'source': 'ATC', 'ids': {'list': array([{'element': 'J01MA21'}], dtype=object)}}}],\n       dtype=object)}, 'maxPhaseForIndication': 2.0}}                                                                                                                                                 ]"
+      },
+      "indicaçõesAprovadas": {
+        "list": "[]"
+      },
+      "contagemDeIndicações": 1
+    },
+    {
+      "id": "CHEMBL36633",
+      "indicações": {
+        "list": "[{'element': {'disease': 'EFO_0003888', 'efoName': 'attention deficit hyperactivity disorder', 'references': {'list': array([{'element': {'source': 'ATC', 'ids': {'list': array([{'element': 'N06BX07'}], dtype=object)}}}],\n       dtype=object)}, 'maxPhaseForIndication': 2.0}}                                                                                                                                                                        ]"
+      },
+      "indicaçõesAprovadas": {
+        "list": "[]"
+      },
+      "contagemDeIndicações": 1
+    },
+    {
+      "id": "CHEMBL3989705",
+      "indicações": {
+        "list": "[{'element': {'disease': 'EFO_1001888', 'efoName': 'eye infection', 'references': {'list': array([{'element': {'source': 'ATC', 'ids': {'list': array([{'element': 'S01AX10'}], dtype=object)}}}],\n       dtype=object)}, 'maxPhaseForIndication': 2.0}}                                                                                                                                             ]"
+      },
+      "indicaçõesAprovadas": {
+        "list": "[]"
+      },
+      "contagemDeIndicações": 1
+    },
+    {
+      "id": "CHEMBL3989444",
+      "indicações": {
+        "list": "[{'element': {'disease': 'EFO_0000319', 'efoName': 'cardiovascular disease', 'references': {'list': array([{'element': {'source': 'ATC', 'ids': {'list': array([{'element': 'C04AX24'}], dtype=object)}}}],\n       dtype=object)}, 'maxPhaseForIndication': 2.0}}                                                                                                                                                      ]"
+      },
+      "indicaçõesAprovadas": {
+        "list": "[]"
+      },
+      "contagemDeIndicações": 1
+    }
+  ]
+}

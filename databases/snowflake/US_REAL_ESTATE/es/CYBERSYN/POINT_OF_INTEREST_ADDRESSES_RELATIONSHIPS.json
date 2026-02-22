@@ -1,0 +1,62 @@
+{
+  "sample_rows": [
+    {
+      "ID del Punto de Interés": "08f2a100d2c8339a03800511a0e262db",
+      "ID de Dirección": "addressId/f5b7341c99d6fb3b021b81e2b1440534",
+      "Tipo de relación": "Overlaps",
+      "Fecha de inicio de la relación": null,
+      "Fecha de finalización de la relación": null
+    },
+    {
+      "ID del Punto de Interés": "08f44f69346b2d180329f2842dadd97f",
+      "ID de Dirección": "addressId/f292c542fb15aea917efc820024f7f59",
+      "Tipo de relación": "Overlaps",
+      "Fecha de inicio de la relación": null,
+      "Fecha de finalización de la relación": null
+    },
+    {
+      "ID del Punto de Interés": "08f444658991457103a40df7d19158a8",
+      "ID de Dirección": "addressId/be401329734185e3737194a6270c0ca3",
+      "Tipo de relación": "Overlaps",
+      "Fecha de inicio de la relación": null,
+      "Fecha de finalización de la relación": null
+    },
+    {
+      "ID del Punto de Interés": "08f2a93158a44176039c10b29a8591ca",
+      "ID de Dirección": "addressId/8e9f346e8be0edbb3d3c70118c92d41f",
+      "Tipo de relación": "Overlaps",
+      "Fecha de inicio de la relación": null,
+      "Fecha de finalización de la relación": null
+    },
+    {
+      "ID del Punto de Interés": "08f2758d6a55c146031a544fd081a425",
+      "ID de Dirección": "addressId/aecb4f044fac1440c914b9dea833a24c",
+      "Tipo de relación": "Overlaps",
+      "Fecha de inicio de la relación": null,
+      "Fecha de finalización de la relación": null
+    }
+  ],
+  "table_name": "POINT_OF_INTEREST_ADDRESSES_RELATIONSHIPS",
+  "table_fullname": "US_REAL_ESTATE.CYBERSYN.POINT_OF_INTEREST_ADDRESSES_RELATIONSHIPS",
+  "column_names": [
+    "Tipo de relación",
+    "ID del Punto de Interés",
+    "Fecha de inicio de la relación",
+    "Fecha de finalización de la relación",
+    "ID de Dirección"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "DATE",
+    "DATE",
+    "TEXT"
+  ],
+  "description": [
+    "Relación entre los dos lugares. Usamos “Overlaps” para indicar que el POI_ID es una subparte del ADDRESS_ID (por ejemplo, la relación de un apartamento con un edificio de apartamentos, ya que podría haber varios puntos de interés en la misma dirección, especialmente si los datos carecen de información precisa de la unidad).",
+    "Un identificador único para un punto de interés (como un parque, una sucursal de una cadena de comida rápida, un hotel, etc.) basado en su descripción y ubicación. Se puede combinar con la tabla point_of_interest_index.",
+    "La fecha a partir de la cual es válida una relación determinada. Por ejemplo, si el NOMBRE de un lugar con un POI_ID determinado cambió el 2023‑04‑01, entonces se asigna relationship_start_date del 2023‑04‑01. Sin embargo, actualmente, todos los valores en esta columna son NULL, ya que solo contiene las características más recientes sin cambios históricos.",
+    "La fecha a partir de la cual es válida una determinada relación. Por ejemplo, si el nombre de un lugar con un determinado POI_ID cambió el 2023-04-01, entonces la fecha de finalización de la relación (relationship_end_date) del 2023-03-31 se asigna al nombre para ese POI_ID. Sin embargo, actualmente, todos los valores en esta columna son NULL ya que solo contiene las características más recientes sin cambios históricos.",
+    "Un identificador único para una dirección basado en la dirección de la calle que se puede unir a la tabla us_addresses."
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "table_name": "scRNAseq_VUMC_ABNORMALS_EPI_V2_r2",
+  "table_fullname": "isb-cgc-bq.HTAN_versioned.scRNAseq_VUMC_ABNORMALS_EPI_V2_r2",
+  "column_names": [
+    "Observaciones",
+    "iVar",
+    "valor_X",
+    "Número de código de barras de la célula",
+    "HTAN_ID_del_Archivo_de_Datos_Principal",
+    "ID_especimen_biológico_HTAN",
+    "Subtipo de tejido",
+    "Tipo de Tejido",
+    "Nombre del gen"
+  ],
+  "column_types": [
+    "INT64",
+    "INT64",
+    "FLOAT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "Observaciones",
+    "iVar",
+    "Valor X",
+    "Número de Código de Barras de la Célula",
+    "ID del archivo de datos principal HTAN",
+    "ID_Biospecimen_HTAN",
+    "Subtipo de tejido",
+    "Tipo de tejido",
+    "Nombre del gen"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "INT64",
+    "FLOAT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "Índice de códigos de barras de células",
+    "Índice de identificadores de genes.",
+    "Valor de expresión para un gen y una célula dados.",
+    "Códigos de barras utilizados para cada gota que contiene la célula en el proceso de secuenciación.",
+    "Identificador de archivo de datos HTAN que indica el/los archivo(s) de origen de los cuales se derivaron estos archivos",
+    "ID de HTAN asociado a una muestra biológica basado en el SOP de ID de HTAN (ej. HTANx_yyy_zzz)",
+    "TA = adenoma tubular, HP = pólipo hiperplásico, TVA = adenoma tubulo‑víscolo, SSL = lesión serrada sessile, MSI‑H = inestabilidad de microsatélites alta en cáncer colorrectal, MSS = inestabilidad de microsatélites estable en cáncer colorrectal",
+    "AD = adenoma convencional, SER = pólipo serrado, MSI-H = inestabilidad de microsatélites alta CRC, MSS = microsatélites estables CRC",
+    "gen medido"
+  ],
+  "sample_rows": [
+    {
+      "Observaciones": 18053,
+      "iVar": 24826,
+      "Valor X": 9.0,
+      "Número de Código de Barras de la Célula": "GAGGACTTCCAGCGCGAT-2-5779-Polyp-2021",
+      "ID del archivo de datos principal HTAN": "HTA11_9408_200000101113111",
+      "ID_Biospecimen_HTAN": "HTA11_9408_2000001011",
+      "Subtipo de tejido": "TA",
+      "Tipo de tejido": "AD",
+      "Nombre del gen": "RPS21"
+    },
+    {
+      "Observaciones": 17094,
+      "iVar": 24751,
+      "Valor X": 17.0,
+      "Número de Código de Barras de la Célula": "GTACCTTGAAACAGGG-0-5607-Polyp-2021",
+      "ID del archivo de datos principal HTAN": "HTA11_10167_200000101113111",
+      "ID_Biospecimen_HTAN": "HTA11_10167_2000001011",
+      "Subtipo de tejido": "SSL",
+      "Tipo de tejido": "SER",
+      "Nombre del gen": "RPL14"
+    },
+    {
+      "Observaciones": 8012,
+      "iVar": 14959,
+      "Valor X": 9.0,
+      "Número de Código de Barras de la Célula": "TTCCGCTCGAGCGGTA-67",
+      "ID del archivo de datos principal HTAN": "HTA11_2112_200000101113211",
+      "ID_Biospecimen_HTAN": "HTA11_2112_2000001011",
+      "Subtipo de tejido": "HP",
+      "Tipo de tejido": "SER",
+      "Nombre del gen": "NR3C2"
+    },
+    {
+      "Observaciones": 19038,
+      "iVar": 24819,
+      "Valor X": 29.0,
+      "Número de Código de Barras de la Célula": "TGAAACCCTTGTGTGCTCA-9-5779-Polyp-2021",
+      "ID del archivo de datos principal HTAN": "HTA11_7663_200000101113211",
+      "ID_Biospecimen_HTAN": "HTA11_7663_2000001011",
+      "Subtipo de tejido": "SSL",
+      "Tipo de tejido": "SER",
+      "Nombre del gen": "RPS16"
+    },
+    {
+      "Observaciones": 19479,
+      "iVar": 1835,
+      "Valor X": 16.0,
+      "Número de Código de Barras de la Célula": "GACAAGAGGGGAGTTCAC-19-5779-Polyp-2021",
+      "ID del archivo de datos principal HTAN": "HTA11_6801_200000102113111",
+      "ID_Biospecimen_HTAN": "HTA11_6801_2000001021",
+      "Subtipo de tejido": "TA",
+      "Tipo de tejido": "AD",
+      "Nombre del gen": "ALDOA"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "table_name": "BarcodeMap",
+  "table_fullname": "isb-cgc-bq.pancancer_atlas.BarcodeMap",
+  "column_names": [
+    "参与者条码",
+    "样本条码",
+    "分装条码",
+    "研究",
+    "样本类型字母码"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "参与者条码",
+    "样本条码",
+    "样本条码",
+    "研究",
+    "样本类型字母代码"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "研究参与者的 TCGA 条码识别码，例如 TCGA-02-0001",
+    "生物样本的条码，例如 TCGA-13-1489-02A",
+    "TCGA 样本条码，例如 TCGA-12-1089-01A-01D-0517-28",
+    "TCGA 研究缩写，例如 LAML。完整列表可在 https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/tcga-study-abbreviations 上查看。",
+    "TCGA 标准下样本类型的字母代码，例如 TPN、EBV。完整列表可在 https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/sample-type-codes 查看。"
+  ],
+  "sample_rows": [
+    {
+      "参与者条码": "TCGA-04-1331",
+      "样本条码": "TCGA-04-1331-10A-01D-0428-01",
+      "研究": "OV",
+      "样本类型字母代码": "NB"
+    },
+    {
+      "参与者条码": "TCGA-04-1331",
+      "样本条码": "TCGA-04-1331-10A-01D-0429-04",
+      "研究": "OV",
+      "样本类型字母代码": "NB"
+    },
+    {
+      "参与者条码": "TCGA-04-1331",
+      "样本条码": "TCGA-04-1331-10A-01D-0430-06",
+      "研究": "OV",
+      "样本类型字母代码": "NB"
+    },
+    {
+      "参与者条码": "TCGA-04-1331",
+      "样本条码": "TCGA-04-1331-10A-01D-0431-02",
+      "研究": "OV",
+      "样本类型字母代码": "NB"
+    },
+    {
+      "参与者条码": "TCGA-04-1331",
+      "样本条码": "TCGA-04-1331-10A-01D-1036-01",
+      "研究": "OV",
+      "样本类型字母代码": "NB"
+    }
+  ]
+}

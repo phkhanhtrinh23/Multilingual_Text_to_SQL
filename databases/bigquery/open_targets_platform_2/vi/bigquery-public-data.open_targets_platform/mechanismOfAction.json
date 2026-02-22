@@ -1,0 +1,165 @@
+{
+  "table_name": "mechanismOfAction",
+  "table_fullname": "bigquery-public-data.open_targets_platform.mechanismOfAction",
+  "column_names": [
+    "Loại hành động",
+    "cơ chế tác dụng",
+    "Mã Chembl",
+    "Tên mục tiêu",
+    "loại mục tiêu",
+    "đích",
+    "Tham khảo"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+    "STRING",
+    "STRING",
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+    "STRUCT<list ARRAY<STRUCT<element STRUCT<source STRING, ids STRUCT<list ARRAY<STRUCT<element STRING>>>, urls STRUCT<list ARRAY<STRUCT<element STRING>>>>>>>"
+  ],
+  "nested_column_names": [
+    "loại hành động",
+    "cơ chế tác dụng",
+    "Mã ChEMBL",
+    "danh_sach_id_chembl.list",
+    "chemblIds.phần tử danh sách",
+    "Tên mục tiêu",
+    "Loại mục tiêu",
+    "mục tiêu",
+    "danh sách mục tiêu",
+    "phần tử danh sách mục tiêu",
+    "Tham khảo",
+    "danh sách tham khảo",
+    "mục danh sách tham chiếu",
+    "nguồn phần tử danh sách tham chiếu",
+    "định danh phần tử danh sách tham chiếu",
+    "Danh sách ID phần tử tham chiếu",
+    "tham chiếu.danh sách.phần tử.mã số.danh sách.phần tử",
+    "địa chỉ URL phần tử danh sách tham chiếu",
+    "danh sách liên kết phần tử trong danh sách tham chiếu",
+    "tài liệu tham chiếu\ndanh sách\nphần tử\nđịa chỉ URL\ndanh sách\nphần tử"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+    "ARRAY<STRUCT<element STRING>>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+    "ARRAY<STRUCT<element STRING>>",
+    "STRING",
+    "STRUCT<list ARRAY<STRUCT<element STRUCT<source STRING, ids STRUCT<list ARRAY<STRUCT<element STRING>>>, urls STRUCT<list ARRAY<STRUCT<element STRING>>>>>>>",
+    "ARRAY<STRUCT<element STRUCT<source STRING, ids STRUCT<list ARRAY<STRUCT<element STRING>>>, urls STRUCT<list ARRAY<STRUCT<element STRING>>>>>>",
+    "STRUCT<source STRING, ids STRUCT<list ARRAY<STRUCT<element STRING>>>, urls STRUCT<list ARRAY<STRUCT<element STRING>>>>",
+    "STRING",
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+    "ARRAY<STRUCT<element STRING>>",
+    "STRING",
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+    "ARRAY<STRUCT<element STRING>>",
+    "STRING"
+  ],
+  "description": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "sample_rows": [
+    {
+      "loại hành động": "OTHER",
+      "cơ chế tác dụng": "CD22 other",
+      "Mã ChEMBL": {
+        "list": "[{'element': 'CHEMBL2108228'}]"
+      },
+      "Tên mục tiêu": "CD22",
+      "Loại mục tiêu": "single protein",
+      "mục tiêu": {
+        "list": "[{'element': 'ENSG00000012124'}]"
+      },
+      "Tham khảo": {
+        "list": "[{'element': {'source': 'PubMed', 'ids': {'list': array([{'element': '12537673'}], dtype=object)}, 'urls': {'list': array([{'element': 'http://europepmc.org/abstract/MED/12537673'}],\n       dtype=object)}}}                                                                                                                                                               ]"
+      }
+    },
+    {
+      "loại hành động": "OTHER",
+      "cơ chế tác dụng": "Basigin other",
+      "Mã ChEMBL": {
+        "list": "[{'element': 'CHEMBL2109193'}]"
+      },
+      "Tên mục tiêu": "Basigin",
+      "Loại mục tiêu": "single protein",
+      "mục tiêu": {
+        "list": "[{'element': 'ENSG00000172270'}]"
+      },
+      "Tham khảo": {
+        "list": "[{'element': {'source': 'PubMed', 'ids': {'list': array([{'element': '17110457'}], dtype=object)}, 'urls': {'list': array([{'element': 'http://europepmc.org/abstract/MED/17110457'}],\n       dtype=object)}}}                                                                                                                                                               ]"
+      }
+    },
+    {
+      "loại hành động": "OTHER",
+      "cơ chế tác dụng": "Mucin-1 other",
+      "Mã ChEMBL": {
+        "list": "[{'element': 'CHEMBL2109637'}]"
+      },
+      "Tên mục tiêu": "Mucin-1",
+      "Loại mục tiêu": "single protein",
+      "mục tiêu": {
+        "list": "[{'element': 'ENSG00000185499'}]"
+      },
+      "Tham khảo": {
+        "list": "[{'element': {'source': 'PubMed', 'ids': {'list': array([{'element': '1391628'}, {'element': '8050089'}], dtype=object)}, 'urls': {'list': array([{'element': 'http://europepmc.org/abstract/MED/1391628'},\n        {'element': 'http://europepmc.org/abstract/MED/8050089'}],\n       dtype=object)}}}                                                                                                                                                                                    ]"
+      }
+    },
+    {
+      "loại hành động": "OTHER",
+      "cơ chế tác dụng": "Mucin-1 other",
+      "Mã ChEMBL": {
+        "list": "[{'element': 'CHEMBL2108341'}]"
+      },
+      "Tên mục tiêu": "Mucin-1",
+      "Loại mục tiêu": "single protein",
+      "mục tiêu": {
+        "list": "[{'element': 'ENSG00000185499'}]"
+      },
+      "Tham khảo": {
+        "list": "[{'element': {'source': 'PubMed', 'ids': {'list': array([{'element': '19811637'}, {'element': '21878535'}], dtype=object)}, 'urls': {'list': array([{'element': 'http://europepmc.org/abstract/MED/19811637'},\n        {'element': 'http://europepmc.org/abstract/MED/21878535'}],\n       dtype=object)}}}                                                                                                                                                                                       ]"
+      }
+    },
+    {
+      "loại hành động": "OTHER",
+      "cơ chế tác dụng": "Mucin-1 other",
+      "Mã ChEMBL": {
+        "list": "[{'element': 'CHEMBL2109364'}]"
+      },
+      "Tên mục tiêu": "Mucin-1",
+      "Loại mục tiêu": "single protein",
+      "mục tiêu": {
+        "list": "[{'element': 'ENSG00000185499'}]"
+      },
+      "Tham khảo": {
+        "list": "[{'element': {'source': 'PubMed', 'ids': {'list': array([{'element': '11839249'}], dtype=object)}, 'urls': {'list': array([{'element': 'http://europepmc.org/abstract/MED/11839249'}],\n       dtype=object)}}}                                                                                                                                                               ]"
+      }
+    }
+  ]
+}

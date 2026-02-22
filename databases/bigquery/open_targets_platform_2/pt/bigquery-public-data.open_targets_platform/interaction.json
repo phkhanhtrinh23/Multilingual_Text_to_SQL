@@ -1,0 +1,194 @@
+{
+  "table_name": "interaction",
+  "table_fullname": "bigquery-public-data.open_targets_platform.interaction",
+  "column_names": [
+    "bancoDeDadosDeOrigem",
+    "alvoA",
+    "intA",
+    "papelBiologicoIntA",
+    "alvoB",
+    "intB",
+    "papelBiologicoIntB",
+    "especieA",
+    "especieB",
+    "contagem",
+    "pontuacao"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRUCT<mnemonic STRING, scientific_name STRING, taxon_id INT64>",
+    "STRUCT<mnemonic STRING, scientific_name STRING, taxon_id INT64>",
+    "INT64",
+    "FLOAT64"
+  ],
+  "nested_column_names": [
+    "bancoDeDadosFonte",
+    "alvoA",
+    "intA",
+    "papelBiologicoA",
+    "alvoB",
+    "intB",
+    "papelBiologicoB",
+    "especieA",
+    "especieA.mnemonic",
+    "especieA.nomeCientifico",
+    "especieA.idTaxon",
+    "especieB",
+    "especieB.mnemonic",
+    "especieB.nomeCientifico",
+    "especieB.idTaxon",
+    "contagem",
+    "pontuacao"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRUCT<mnemonic STRING, scientific_name STRING, taxon_id INT64>",
+    "STRING",
+    "STRING",
+    "INT64",
+    "STRUCT<mnemonic STRING, scientific_name STRING, taxon_id INT64>",
+    "STRING",
+    "STRING",
+    "INT64",
+    "INT64",
+    "FLOAT64"
+  ],
+  "description": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "sample_rows": [
+    {
+      "bancoDeDadosFonte": "intact",
+      "alvoA": "ENSG00000174132",
+      "intA": "Q8TBP5",
+      "papelBiologicoA": "unspecified role",
+      "alvoB": "ENSG00000111647",
+      "intB": "A0JNW5",
+      "papelBiologicoB": "unspecified role",
+      "especieA": {
+        "mnemonic": "human",
+        "scientific_name": "Homo sapiens",
+        "taxon_id": 9606
+      },
+      "especieB": {
+        "mnemonic": "human",
+        "scientific_name": "Homo sapiens",
+        "taxon_id": 9606
+      },
+      "contagem": 1,
+      "pontuacao": 0.35
+    },
+    {
+      "bancoDeDadosFonte": "intact",
+      "alvoA": "ENSG00000274391",
+      "intA": "P56180-2",
+      "papelBiologicoA": "unspecified role",
+      "alvoB": "ENSG00000105135",
+      "intB": "A1L0T0",
+      "papelBiologicoB": "unspecified role",
+      "especieA": {
+        "mnemonic": "human",
+        "scientific_name": "Homo sapiens",
+        "taxon_id": 9606
+      },
+      "especieB": {
+        "mnemonic": "human",
+        "scientific_name": "Homo sapiens",
+        "taxon_id": 9606
+      },
+      "contagem": 1,
+      "pontuacao": 0.35
+    },
+    {
+      "bancoDeDadosFonte": "intact",
+      "alvoA": "ENSG00000097096",
+      "intA": "Q5VT97-1",
+      "papelBiologicoA": "unspecified role",
+      "alvoB": "ENSG00000126822",
+      "intB": "A1L390",
+      "papelBiologicoB": "unspecified role",
+      "especieA": {
+        "mnemonic": "human",
+        "scientific_name": "Homo sapiens",
+        "taxon_id": 9606
+      },
+      "especieB": {
+        "mnemonic": "human",
+        "scientific_name": "Homo sapiens",
+        "taxon_id": 9606
+      },
+      "contagem": 1,
+      "pontuacao": 0.35
+    },
+    {
+      "bancoDeDadosFonte": "intact",
+      "alvoA": "ENSG00000167770",
+      "intA": "Q96FW1",
+      "papelBiologicoA": "unspecified role",
+      "alvoB": "ENSG00000185888",
+      "intB": "A1L453",
+      "papelBiologicoB": "unspecified role",
+      "especieA": {
+        "mnemonic": "human",
+        "scientific_name": "Homo sapiens",
+        "taxon_id": 9606
+      },
+      "especieB": {
+        "mnemonic": "human",
+        "scientific_name": "Homo sapiens",
+        "taxon_id": 9606
+      },
+      "contagem": 1,
+      "pontuacao": 0.35
+    },
+    {
+      "bancoDeDadosFonte": "intact",
+      "alvoA": "ENSG00000169951",
+      "intA": "Q96H86",
+      "papelBiologicoA": "unspecified role",
+      "alvoB": "ENSG00000174705",
+      "intB": "A1X283",
+      "papelBiologicoB": "unspecified role",
+      "especieA": {
+        "mnemonic": "human",
+        "scientific_name": "Homo sapiens",
+        "taxon_id": 9606
+      },
+      "especieB": {
+        "mnemonic": "human",
+        "scientific_name": "Homo sapiens",
+        "taxon_id": 9606
+      },
+      "contagem": 1,
+      "pontuacao": 0.35
+    }
+  ]
+}

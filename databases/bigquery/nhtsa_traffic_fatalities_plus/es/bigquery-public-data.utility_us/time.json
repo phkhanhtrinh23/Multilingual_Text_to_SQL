@@ -1,0 +1,96 @@
+{
+  "table_name": "time",
+  "table_fullname": "bigquery-public-data.utility_us.time",
+  "column_names": [
+    "tiempo",
+    "hora",
+    "minuto",
+    "segundo",
+    "segundo_del_día",
+    "Hora AM/PM",
+    "es_metodo_de_pago"
+  ],
+  "column_types": [
+    "TIME",
+    "INT64",
+    "INT64",
+    "INT64",
+    "INT64",
+    "INT64",
+    "BOOL"
+  ],
+  "nested_column_names": [
+    "tiempo",
+    "hora",
+    "minuto",
+    "segundo",
+    "segundos_en_día",
+    "hora am/pm",
+    "es_pm"
+  ],
+  "nested_column_types": [
+    "TIME",
+    "INT64",
+    "INT64",
+    "INT64",
+    "INT64",
+    "INT64",
+    "BOOL"
+  ],
+  "description": [
+    "Tiempo como TIME - CAST('23:59:59' AS TIME)",
+    "Hora como entero - [0, 23]",
+    "Minuto como entero - [0, 59]",
+    "Second como entero - [0, 59]",
+    "Segundos como entero - [0, 86399]; 00:00:00 = 0, 23:59:59 = 86399",
+    "Hora como entero - [1, 12]",
+    "AM = falso, PM = verdadero"
+  ],
+  "sample_rows": [
+    {
+      "tiempo": "00:00:26",
+      "hora": 0,
+      "minuto": 0,
+      "segundo": 26,
+      "segundos_en_día": 26,
+      "hora am/pm": 12,
+      "es_pm": false
+    },
+    {
+      "tiempo": "00:00:35",
+      "hora": 0,
+      "minuto": 0,
+      "segundo": 35,
+      "segundos_en_día": 35,
+      "hora am/pm": 12,
+      "es_pm": false
+    },
+    {
+      "tiempo": "00:00:37",
+      "hora": 0,
+      "minuto": 0,
+      "segundo": 37,
+      "segundos_en_día": 37,
+      "hora am/pm": 12,
+      "es_pm": false
+    },
+    {
+      "tiempo": "00:00:46",
+      "hora": 0,
+      "minuto": 0,
+      "segundo": 46,
+      "segundos_en_día": 46,
+      "hora am/pm": 12,
+      "es_pm": false
+    },
+    {
+      "tiempo": "00:00:57",
+      "hora": 0,
+      "minuto": 0,
+      "segundo": 57,
+      "segundos_en_día": 57,
+      "hora am/pm": 12,
+      "es_pm": false
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "table_name": "MOLCLINGENE",
+  "table_fullname": "TCGA_MITELMAN.PROD.MOLCLINGENE",
+  "column_names": [
+    "Prefijo",
+    "N.º de Factura",
+    "MolClín",
+    "Gen",
+    "Referencia",
+    "Número de pedido",
+    "sufijo"
+  ],
+  "column_types": [
+    "TEXT",
+    "NUMBER",
+    "TEXT",
+    "TEXT",
+    "NUMBER",
+    "NUMBER",
+    "TEXT"
+  ],
+  "description": [
+    "cadena de prefijo -- ya sea vacía o '+'",
+    "número de investigación, generalmente entre 1 y 10",
+    "bandera que indica ya sea molecular 'M' o clínico 'C'",
+    "símbolo(s) de gen, p.ej. 'KMT2A' o 'BCR/ABL1'",
+    "número de referencia, p. ej. '15563'",
+    "número de orden, entre 1 y 15",
+    "cadena de sufijo -- ya sea en blanco o '+'"
+  ],
+  "sample_rows": [
+    {
+      "MolClín": "C",
+      "Referencia": 3976,
+      "N.º de Factura": 2,
+      "Número de pedido": 1,
+      "Prefijo": null,
+      "Gen": "BCR::ABL1",
+      "sufijo": null
+    },
+    {
+      "MolClín": "C",
+      "Referencia": 4541,
+      "N.º de Factura": 1,
+      "Número de pedido": 1,
+      "Prefijo": null,
+      "Gen": "PML::RARA",
+      "sufijo": null
+    },
+    {
+      "MolClín": "C",
+      "Referencia": 4624,
+      "N.º de Factura": 1,
+      "Número de pedido": 1,
+      "Prefijo": null,
+      "Gen": "BCR::ABL1",
+      "sufijo": null
+    },
+    {
+      "MolClín": "C",
+      "Referencia": 4748,
+      "N.º de Factura": 1,
+      "Número de pedido": 1,
+      "Prefijo": null,
+      "Gen": "PML::RARA",
+      "sufijo": null
+    },
+    {
+      "MolClín": "C",
+      "Referencia": 4994,
+      "N.º de Factura": 1,
+      "Número de pedido": 1,
+      "Prefijo": null,
+      "Gen": "TCF3::PBX1",
+      "sufijo": null
+    }
+  ]
+}

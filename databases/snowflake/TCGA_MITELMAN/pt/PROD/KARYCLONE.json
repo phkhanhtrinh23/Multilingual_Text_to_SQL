@@ -1,0 +1,102 @@
+{
+  "table_name": "KARYCLONE",
+  "table_fullname": "TCGA_MITELMAN.PROD.KARYCLONE",
+  "column_names": [
+    "ComprimentoDoClon",
+    "NumeroDoCaso",
+    "CromoMin",
+    "CloneLong",
+    "InvNo",
+    "CloneShort",
+    "RefNo",
+    "CloneNo",
+    "ChromoMax",
+    "Sole"
+  ],
+  "column_types": [
+    "NUMBER",
+    "TEXT",
+    "NUMBER",
+    "TEXT",
+    "NUMBER",
+    "TEXT",
+    "NUMBER",
+    "NUMBER",
+    "NUMBER",
+    "TEXT"
+  ],
+  "description": [
+    "comprimento da string de descrição do clone -- geralmente entre 8 e 24 caracteres, mas pode ser de até 2199 caracteres",
+    "número do caso, geralmente entre 1 e 10, mas também pode ser uma string arbitrária, por exemplo 'A11'",
+    "os valores mais comuns estão entre '42' e '51', mas o valor mínimo é '0' e o máximo é '409'",
+    "geralmente em branco, mas se a descrição do clone for muito longa, essa string será armazenada aqui",
+    "número de investigação, entre 1 e 9",
+    "descrição do clone mais curta, às vezes truncada, por exemplo '45,X,-Y' ou '46,Xy,t(8;21)(q22;q22)'",
+    "número de referência, por exemplo '14620'",
+    "número do clone, entre 1 e 58",
+    "os valores mais comuns estão entre '43' e '52', mas o valor mínimo é '0' e o máximo é '409'",
+    "flag T/F que indica se isso é a única anomalia"
+  ],
+  "sample_rows": [
+    {
+      "RefNo": 3822,
+      "NumeroDoCaso": "1",
+      "InvNo": 1,
+      "CloneNo": 5,
+      "CromoMin": 45,
+      "ChromoMax": 45,
+      "CloneShort": "45,X,-X",
+      "CloneLong": null,
+      "ComprimentoDoClon": 7,
+      "Sole": "T"
+    },
+    {
+      "RefNo": 4018,
+      "NumeroDoCaso": "33",
+      "InvNo": 1,
+      "CloneNo": 6,
+      "CromoMin": 45,
+      "ChromoMax": 45,
+      "CloneShort": "45,X,-X",
+      "CloneLong": null,
+      "ComprimentoDoClon": 7,
+      "Sole": "T"
+    },
+    {
+      "RefNo": 9341,
+      "NumeroDoCaso": "5",
+      "InvNo": 1,
+      "CloneNo": 9,
+      "CromoMin": 45,
+      "ChromoMax": 45,
+      "CloneShort": "45,X,-Y",
+      "CloneLong": null,
+      "ComprimentoDoClon": 7,
+      "Sole": "T"
+    },
+    {
+      "RefNo": 7668,
+      "NumeroDoCaso": "28",
+      "InvNo": 1,
+      "CloneNo": 13,
+      "CromoMin": 45,
+      "ChromoMax": 45,
+      "CloneShort": "45,X,-Y",
+      "CloneLong": null,
+      "ComprimentoDoClon": 7,
+      "Sole": "T"
+    },
+    {
+      "RefNo": 5150,
+      "NumeroDoCaso": "18",
+      "InvNo": 1,
+      "CloneNo": 5,
+      "CromoMin": 45,
+      "ChromoMax": 45,
+      "CloneShort": "45,X,-Y",
+      "CloneLong": null,
+      "ComprimentoDoClon": 7,
+      "Sole": "T"
+    }
+  ]
+}

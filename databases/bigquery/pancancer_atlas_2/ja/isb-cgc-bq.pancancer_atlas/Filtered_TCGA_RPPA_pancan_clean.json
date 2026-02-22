@@ -1,0 +1,106 @@
+{
+  "table_name": "Filtered_TCGA_RPPA_pancan_clean",
+  "table_fullname": "isb-cgc-bq.pancancer_atlas.Filtered_TCGA_RPPA_pancan_clean",
+  "column_names": [
+    "参加者バーコード",
+    "サンプルバーコード",
+    "サンプルバーコード",
+    "サンプルタイプ文字コード",
+    "サンプル種別",
+    "研究",
+    "タンパク質",
+    "価値"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64"
+  ],
+  "nested_column_names": [
+    "参加者バーコード",
+    "サンプルバーコード",
+    "試料バーコード",
+    "サンプルタイプ文字コード",
+    "サンプル種別",
+    "研究",
+    "タンパク質",
+    "値"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64"
+  ],
+  "description": [
+    "研究参加者の TCGA バーコード識別子、例：TCGA-02-0001",
+    "バイオサンプルのバーコード、例：TCGA-13-1489-02A",
+    "TCGA アリオットバーコード、例：TCGA-12-1089-01A-01D-0517-28",
+    "TCGA規格に基づくサンプルタイプのレターコード（例：TPN、EBV）。完全リストは https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/sample-type-codes でご覧いただけます。",
+    "血液由来正常  \n原発性固形腫瘍  \n固形組織正常  \n再発固形腫瘍  \n転移  \n追加 - 新規原発  \n原発性血液由来癌 - 外周血  \n口腔粘膜細胞正常  \n追加転移  \n骨髄正常",
+    "TCGA研究略語、例：LAML。完全リストは https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/tcga-study-abbreviations でご確認ください。",
+    "タンパク質記号とリン酸化状態（該当する場合）、例：P53、JNK_pT183Y185",
+    "逆相プロテインアレイ（RPPAs）で測定されたタンパク質の発現レベル。例：0.204238725、-0.01826295"
+  ],
+  "sample_rows": [
+    {
+      "参加者バーコード": "TCGA-04-1335",
+      "サンプルバーコード": "TCGA-04-1335-01A",
+      "試料バーコード": "TCGA-04-1335-01A-21-20",
+      "サンプルタイプ文字コード": "TP",
+      "サンプル種別": "Primary solid Tumor",
+      "研究": "OV",
+      "タンパク質": "EIF4G",
+      "値": -0.51629
+    },
+    {
+      "参加者バーコード": "TCGA-04-1335",
+      "サンプルバーコード": "TCGA-04-1335-01A",
+      "試料バーコード": "TCGA-04-1335-01A-21-20",
+      "サンプルタイプ文字コード": "TP",
+      "サンプル種別": "Primary solid Tumor",
+      "研究": "OV",
+      "タンパク質": "SF2",
+      "値": 0.018487
+    },
+    {
+      "参加者バーコード": "TCGA-04-1335",
+      "サンプルバーコード": "TCGA-04-1335-01A",
+      "試料バーコード": "TCGA-04-1335-01A-21-20",
+      "サンプルタイプ文字コード": "TP",
+      "サンプル種別": "Primary solid Tumor",
+      "研究": "OV",
+      "タンパク質": "EGFR",
+      "値": -0.10668
+    },
+    {
+      "参加者バーコード": "TCGA-04-1335",
+      "サンプルバーコード": "TCGA-04-1335-01A",
+      "試料バーコード": "TCGA-04-1335-01A-21-20",
+      "サンプルタイプ文字コード": "TP",
+      "サンプル種別": "Primary solid Tumor",
+      "研究": "OV",
+      "タンパク質": "P70S6K_pT389",
+      "値": 0.022309
+    },
+    {
+      "参加者バーコード": "TCGA-04-1335",
+      "サンプルバーコード": "TCGA-04-1335-01A",
+      "試料バーコード": "TCGA-04-1335-01A-21-20",
+      "サンプルタイプ文字コード": "TP",
+      "サンプル種別": "Primary solid Tumor",
+      "研究": "OV",
+      "タンパク質": "PDCD1",
+      "値": null
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "table_name": "rendering",
+  "table_fullname": "bigquery-public-data.sec_quarterly_financials.rendering",
+  "column_names": [
+    "numero_de_submissao",
+    "relatorio",
+    "tipo_de_arquivo",
+    "categoria_de_menu",
+    "nome_curto",
+    "nome_longo",
+    "roleuri",
+    "parentroleuri",
+    "relatorio_pai",
+    "relatorio_pai_ultimo",
+    "_PARTITIONTIME"
+  ],
+  "column_types": [
+    "STRING",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "INT64",
+    "TIMESTAMP"
+  ],
+  "nested_column_names": [
+    "numero_de_submissao",
+    "relatorio",
+    "tipo_de_arquivo",
+    "categoria_de_menu",
+    "nome_curto",
+    "nome_longo",
+    "roleuri",
+    "parentroleuri",
+    "relatorio_pai",
+    "relatorio_pai_ultimo"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "INT64"
+  ],
+  "description": [
+    "Número de Acesso. A string de 20 caracteres formada pelo número de 18 dígitos atribuído pela Comissão a cada envio do EDGAR. submission_number: [adsh]",
+    "Representa o agrupamento de relatórios. O valor numérico refere-se ao arquivo \"R\" como computado pelo renderizador e publicado no site do EDGAR. Observe que em algumas situações os números são pulados.",
+    "O tipo de arquivo de dados interativos renderizado no site do EDGAR, H = arquivo .htm, X = arquivo .xml. file_type: [rfile]",
+    "Se disponível, uma das categorias de menu computadas pelo renderizador: C=Capa, S=Declarações, N=Notas, P=Políticas, T=Tabelas, D=Detalhes, O=Outros, e U=Não categorizados. menu_category: [menucat]",
+    "A porção do nome longo usado no menu do renderizador.",
+    "O texto normalizado por espaço do conteúdo do elemento \"definição\" da ligação XBRL.",
+    "O \"roleuri\" XBRL do papel.",
+    "O roleuri XBRL de um papel para o qual este papel tem um prefixo de nome curto correspondente e uma categoria de menu de nível superior, como computado pelo renderizador.",
+    "O valor do campo de relatório para o papel onde roleuri é igual a este parentroleuri.",
+    "O ancestral de relatório mais alto alcançável seguindo as relações parentreport. Uma nota (menucat = N) é seu próprio pai ultimate. ultimate_parent_report: [ultparentrpt]"
+  ],
+  "sample_rows": [
+    {
+      "numero_de_submissao": "0001558370-18-000022",
+      "relatorio": 85,
+      "tipo_de_arquivo": "H",
+      "categoria_de_menu": "D",
+      "nome_curto": "STOCKHOLDERS' EQUITY",
+      "nome_longo": "41503 - Disclosure - STOCKHOLDERS' EQUITY - Dividends (Details)",
+      "roleuri": "http://www.lambweston.com/role/DisclosureStockholdersEquityDividendsDetails",
+      "parentroleuri": null,
+      "relatorio_pai": null,
+      "relatorio_pai_ultimo": null
+    },
+    {
+      "numero_de_submissao": "0001558370-18-000022",
+      "relatorio": 86,
+      "tipo_de_arquivo": "H",
+      "categoria_de_menu": "D",
+      "nome_curto": "STOCKHOLDERS' EQUITY",
+      "nome_longo": "41504 - Disclosure - STOCKHOLDERS' EQUITY - Changes in AOCI (Details)",
+      "roleuri": "http://www.lambweston.com/role/DisclosureStockholdersEquityChangesInAociDetails",
+      "parentroleuri": null,
+      "relatorio_pai": null,
+      "relatorio_pai_ultimo": null
+    },
+    {
+      "numero_de_submissao": "0001558370-18-000022",
+      "relatorio": 87,
+      "tipo_de_arquivo": "H",
+      "categoria_de_menu": "D",
+      "nome_curto": "STOCKHOLDERS' EQUITY",
+      "nome_longo": "41505 - Disclosure - STOCKHOLDERS' EQUITY - AOCI - Settlement Gains on Pension and Post-retirement Benefits (Details)",
+      "roleuri": "http://www.lambweston.com/role/DisclosureStockholdersEquityAociSettlementGainsOnPensionAndPostRetirementBenefitsDetails",
+      "parentroleuri": null,
+      "relatorio_pai": null,
+      "relatorio_pai_ultimo": null
+    },
+    {
+      "numero_de_submissao": "0001558370-18-000022",
+      "relatorio": 88,
+      "tipo_de_arquivo": "H",
+      "categoria_de_menu": "D",
+      "nome_curto": "SEGMENTS",
+      "nome_longo": "41601 - Disclosure - SEGMENTS - General Information (Details)",
+      "roleuri": "http://www.lambweston.com/role/DisclosureSegmentsGeneralInformationDetails",
+      "parentroleuri": null,
+      "relatorio_pai": null,
+      "relatorio_pai_ultimo": null
+    },
+    {
+      "numero_de_submissao": "0001558370-18-000022",
+      "relatorio": 89,
+      "tipo_de_arquivo": "H",
+      "categoria_de_menu": "D",
+      "nome_curto": "SEGMENTS",
+      "nome_longo": "41602 - Disclosure - SEGMENTS - General Financial Information (Details)",
+      "roleuri": "http://www.lambweston.com/role/DisclosureSegmentsGeneralFinancialInformationDetails",
+      "parentroleuri": null,
+      "relatorio_pai": null,
+      "relatorio_pai_ultimo": null
+    }
+  ]
+}

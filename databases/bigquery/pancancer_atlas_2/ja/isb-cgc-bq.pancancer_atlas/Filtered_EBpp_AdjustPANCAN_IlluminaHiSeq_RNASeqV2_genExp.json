@@ -1,0 +1,116 @@
+{
+  "table_name": "Filtered_EBpp_AdjustPANCAN_IlluminaHiSeq_RNASeqV2_genExp",
+  "table_fullname": "isb-cgc-bq.pancancer_atlas.Filtered_EBpp_AdjustPANCAN_IlluminaHiSeq_RNASeqV2_genExp",
+  "column_names": [
+    "参加者バーコード",
+    "サンプルバーコード",
+    "アリオットバーコード",
+    "サンプル種別文字コード",
+    "サンプルタイプ",
+    "研究",
+    "記号",
+    "エントレズ",
+    "正規化カウント"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64"
+  ],
+  "nested_column_names": [
+    "参加者バーコード",
+    "サンプルバーコード",
+    "試料バーコード",
+    "サンプル種別文字コード",
+    "サンプル種別",
+    "研究",
+    "記号",
+    "入力",
+    "正規化数"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64"
+  ],
+  "description": [
+    "研究参加者のTCGAバーコード識別子、例：TCGA-02-0001",
+    "バイオサンプルのバーコード、例：TCGA-13-1489-02A",
+    "TCGA アリキートバーコード、例：TCGA-12-1089-01A-01D-0517-28",
+    "TCGA規格に基づくサンプルタイプのレターコード（例：TPN、EBV）。完全なリストは https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/sample-type-codes で確認できます",
+    "10サンプルタイプ: 血液由来正常, 原発固形腫瘍, 固形組織正常, 再発固形腫瘍, 遠隔転移, 追加 - 新しい原発, 原発性血液由来癌 - 外周血, 口腔細胞正常, 追加遠隔転移, 骨髄正常",
+    "TCGA研究の略語（例：LAML）。完全なリストは https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/tcga-study-abbreviations で確認できます",
+    "例：TP53、LRP1B など（Hugo_Symbol フィールドと同じですが、Unknown の代わりに空白にしてください）",
+    "NCBIのEntrez ID（例：730971）",
+    "正規化された遺伝子発現"
+  ],
+  "sample_rows": [
+    {
+      "参加者バーコード": "TCGA-06-0675",
+      "サンプルバーコード": "TCGA-06-0675-11A",
+      "試料バーコード": "TCGA-06-0675-11A-32R-A36H-07",
+      "サンプル種別文字コード": "NT",
+      "サンプル種別": "Solid Tissue Normal",
+      "研究": "GBM",
+      "記号": "SNORA3",
+      "入力": "619562",
+      "正規化数": 0.0
+    },
+    {
+      "参加者バーコード": "TCGA-06-0675",
+      "サンプルバーコード": "TCGA-06-0675-11A",
+      "試料バーコード": "TCGA-06-0675-11A-32R-A36H-07",
+      "サンプル種別文字コード": "NT",
+      "サンプル種別": "Solid Tissue Normal",
+      "研究": "GBM",
+      "記号": "SH3TC1",
+      "入力": "54436",
+      "正規化数": 270.806
+    },
+    {
+      "参加者バーコード": "TCGA-06-0675",
+      "サンプルバーコード": "TCGA-06-0675-11A",
+      "試料バーコード": "TCGA-06-0675-11A-32R-A36H-07",
+      "サンプル種別文字コード": "NT",
+      "サンプル種別": "Solid Tissue Normal",
+      "研究": "GBM",
+      "記号": "F2RL1",
+      "入力": "2150",
+      "正規化数": 52.6318
+    },
+    {
+      "参加者バーコード": "TCGA-06-0675",
+      "サンプルバーコード": "TCGA-06-0675-11A",
+      "試料バーコード": "TCGA-06-0675-11A-32R-A36H-07",
+      "サンプル種別文字コード": "NT",
+      "サンプル種別": "Solid Tissue Normal",
+      "研究": "GBM",
+      "記号": "FGF1",
+      "入力": "2246",
+      "正規化数": 1356.73
+    },
+    {
+      "参加者バーコード": "TCGA-06-0675",
+      "サンプルバーコード": "TCGA-06-0675-11A",
+      "試料バーコード": "TCGA-06-0675-11A-32R-A36H-07",
+      "サンプル種別文字コード": "NT",
+      "サンプル種別": "Solid Tissue Normal",
+      "研究": "GBM",
+      "記号": "LOC728410",
+      "入力": "728410",
+      "正規化数": 0.0
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "table_name": "Filtered_jhu_usc_edu_PANCAN_merged_HumanMethylation27_HumanMethylation450_betaValue_whitelisted",
+  "table_fullname": "isb-cgc-bq.pancancer_atlas.Filtered_jhu_usc_edu_PANCAN_merged_HumanMethylation27_HumanMethylation450_betaValue_whitelisted",
+  "column_names": [
+    "CodeBarreParticipant",
+    "CodeBarreEchantillon",
+    "CodeBarreAliquot",
+    "CodeLettreTypeEchantillon",
+    "TypeEchantillon",
+    "Etude",
+    "ID",
+    "Beta"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64"
+  ],
+  "nested_column_names": [
+    "CodeBarreParticipant",
+    "CodeBarreEchantillon",
+    "CodeBarreAliquot",
+    "CodeLettreTypeEchantillon",
+    "TypeEchantillon",
+    "Etude",
+    "ID",
+    "Beta"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64"
+  ],
+  "description": [
+    "Identifiant de code à barres TCGA pour le participant à l'étude, par exemple TCGA-02-0001",
+    "Code à barres de l'échantillon de biospecimen, par exemple TCGA-13-1489-02A",
+    "Code à barres de l'aliquote TCGA, par exemple TCGA-12-1089-01A-01D-0517-28",
+    "Code de lettre du type d'échantillon en utilisant les normes TCGA, par exemple TPN, EBV. Liste complète disponible à https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/sample-type-codes",
+    "Il existe 10 types d'échantillons : Sang Dérivé Normal, Tumeur solide primaire, Tissu solide normal, Tumeur solide récurrente, Métastatique, Complémentaire - Nouveau primaire, Cancer sanguin primaire dérivé du sang - Sang périphérique, Cellule buccale normale, Complémentaire métastatique, Moelle osseuse normale",
+    "Abréviation d'étude TCGA, par exemple LAML. Liste complète disponible à https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/tcga-study-abbreviations",
+    "Identifiant unique de sonde (par exemple cg04676771) de la matrice de méthylation de l'ADN humaine Illumina -- veuillez vous référer à la table d'annotation (isb-cgc-bq.annotations.methylation_annotation_hg19_illumina_current) pour plus de détails sur une sonde particulière",
+    "Valeur bêta de méthylation de l'ADN normalisée (entre 0 et 1, où 0 indique complètement non méthylationné et 1 indique complètement méthylationné)"
+  ],
+  "sample_rows": [
+    {
+      "CodeBarreParticipant": "TCGA-01-0628",
+      "CodeBarreEchantillon": "TCGA-01-0628-11A",
+      "CodeBarreAliquot": "TCGA-01-0628-11A-01D-0383-05",
+      "CodeLettreTypeEchantillon": "NT",
+      "TypeEchantillon": "Solid Tissue Normal",
+      "Etude": "OV",
+      "ID": "cg25264554",
+      "Beta": 0.014019597658378
+    },
+    {
+      "CodeBarreParticipant": "TCGA-01-0628",
+      "CodeBarreEchantillon": "TCGA-01-0628-11A",
+      "CodeBarreAliquot": "TCGA-01-0628-11A-01D-0383-05",
+      "CodeLettreTypeEchantillon": "NT",
+      "TypeEchantillon": "Solid Tissue Normal",
+      "Etude": "OV",
+      "ID": "cg12269343",
+      "Beta": 0.0197464851425526
+    },
+    {
+      "CodeBarreParticipant": "TCGA-01-0628",
+      "CodeBarreEchantillon": "TCGA-01-0628-11A",
+      "CodeBarreAliquot": "TCGA-01-0628-11A-01D-0383-05",
+      "CodeLettreTypeEchantillon": "NT",
+      "TypeEchantillon": "Solid Tissue Normal",
+      "Etude": "OV",
+      "ID": "cg02425732",
+      "Beta": 0.033633891941717
+    },
+    {
+      "CodeBarreParticipant": "TCGA-01-0628",
+      "CodeBarreEchantillon": "TCGA-01-0628-11A",
+      "CodeBarreAliquot": "TCGA-01-0628-11A-01D-0383-05",
+      "CodeLettreTypeEchantillon": "NT",
+      "TypeEchantillon": "Solid Tissue Normal",
+      "Etude": "OV",
+      "ID": "cg09852871",
+      "Beta": 0.788843878492672
+    },
+    {
+      "CodeBarreParticipant": "TCGA-01-0628",
+      "CodeBarreEchantillon": "TCGA-01-0628-11A",
+      "CodeBarreAliquot": "TCGA-01-0628-11A-01D-0383-05",
+      "CodeLettreTypeEchantillon": "NT",
+      "TypeEchantillon": "Solid Tissue Normal",
+      "Etude": "OV",
+      "ID": "cg23953831",
+      "Beta": 0.864616977642031
+    }
+  ]
+}

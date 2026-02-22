@@ -1,0 +1,86 @@
+{
+  "table_name": "us_counties",
+  "table_fullname": "bigquery-public-data.covid19_nyt.us_counties",
+  "column_names": [
+    "data",
+    "condado",
+    "nome_do_estado",
+    "codigo_fips_do_condado",
+    "casos_confirmados",
+    "mortes"
+  ],
+  "column_types": [
+    "DATE",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "data",
+    "condado",
+    "nome_do_estado",
+    "codigo_fips_do_condado",
+    "casos_confirmados",
+    "mortes"
+  ],
+  "nested_column_types": [
+    "DATE",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "INT64"
+  ],
+  "description": [
+    "Data relatado",
+    "Condado no estado especificado",
+    "Estado relatado",
+    "Identificador geográfico padrão para o condado",
+    "O número total de casos confirmados de COVID-19",
+    "O número total de mortes confirmadas de COVID-19"
+  ],
+  "sample_rows": [
+    {
+      "data": "2022-01-01",
+      "condado": "Autauga",
+      "nome_do_estado": "Alabama",
+      "codigo_fips_do_condado": "01001",
+      "casos_confirmados": 11018,
+      "mortes": 160
+    },
+    {
+      "data": "2022-01-01",
+      "condado": "Baldwin",
+      "nome_do_estado": "Alabama",
+      "codigo_fips_do_condado": "01003",
+      "casos_confirmados": 39911,
+      "mortes": 593
+    },
+    {
+      "data": "2022-01-01",
+      "condado": "Barbour",
+      "nome_do_estado": "Alabama",
+      "codigo_fips_do_condado": "01005",
+      "casos_confirmados": 3860,
+      "mortes": 81
+    },
+    {
+      "data": "2022-01-01",
+      "condado": "Bibb",
+      "nome_do_estado": "Alabama",
+      "codigo_fips_do_condado": "01007",
+      "casos_confirmados": 4533,
+      "mortes": 95
+    },
+    {
+      "data": "2022-01-01",
+      "condado": "Blount",
+      "nome_do_estado": "Alabama",
+      "codigo_fips_do_condado": "01009",
+      "casos_confirmados": 11256,
+      "mortes": 198
+    }
+  ]
+}

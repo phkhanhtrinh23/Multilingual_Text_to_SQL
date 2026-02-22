@@ -1,0 +1,78 @@
+{
+  "table_name": "DNA_METHYLATION_CHR6_HG19_GDC_2017_01",
+  "table_fullname": "TCGA.TCGA_VERSIONED.DNA_METHYLATION_CHR6_HG19_GDC_2017_01",
+  "column_names": [
+    "项目简称",
+    "样本条码",
+    "样品条码",
+    "贝塔值",
+    "箱子条码",
+    "探针编号",
+    "平台"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "FLOAT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "项目名称缩写；程序名称与项目名称缩写拼接，例如 TCGA-OV 等。",
+    "原始 TCGA 样本条形码，例如 TCGA-12-1089-01A——请注意一个样本可能有多个分离样本，因此会有多组 CN 分段；所以在查询中务必适当地使用 GROUP BY。",
+    "原始 TCGA 切片条码，例如 TCGA-12-1089-01A-01D-0517-01",
+    "标准化的DNA甲基化β值（范围在0到1之间，其中0表示完全未甲基化，1表示完全甲基化）",
+    "原始 TCGA 病例条形码，例如 TCGA-12-1089——请注意，每个病例通常包含一个原发肿瘤样本和一个匹配的正常样本（血液或相邻组织）；请参阅 TCGA 生物样本表以获取更多详细信息",
+    "来自 Illumina Human Methylation Array 的唯一探针标识符（例如 cg04676771）-- 请参考注释表（isb-cgc:platform_reference.methylation_annotation）获取有关任何特定探针的更多详细信息。",
+    "用于生成此数据的平台名称 -- HumanMethylation450 或 HumanMethylation27"
+  ],
+  "sample_rows": [
+    {
+      "项目简称": "TCGA-OV",
+      "箱子条码": "TCGA-01-0628",
+      "样本条码": "TCGA-01-0628-11A",
+      "样品条码": "TCGA-01-0628-11A-01D-0383-05",
+      "探针编号": "cg17232861",
+      "贝塔值": 0.98,
+      "平台": "HumanMethylation27"
+    },
+    {
+      "项目简称": "TCGA-OV",
+      "箱子条码": "TCGA-01-0628",
+      "样本条码": "TCGA-01-0628-11A",
+      "样品条码": "TCGA-01-0628-11A-01D-0383-05",
+      "探针编号": "cg19055458",
+      "贝塔值": 0.01,
+      "平台": "HumanMethylation27"
+    },
+    {
+      "项目简称": "TCGA-OV",
+      "箱子条码": "TCGA-01-0628",
+      "样本条码": "TCGA-01-0628-11A",
+      "样品条码": "TCGA-01-0628-11A-01D-0383-05",
+      "探针编号": "cg21844956",
+      "贝塔值": 0.02,
+      "平台": "HumanMethylation27"
+    },
+    {
+      "项目简称": "TCGA-OV",
+      "箱子条码": "TCGA-01-0630",
+      "样本条码": "TCGA-01-0630-11A",
+      "样品条码": "TCGA-01-0630-11A-01D-0383-05",
+      "探针编号": "cg14948436",
+      "贝塔值": 0.91,
+      "平台": "HumanMethylation27"
+    },
+    {
+      "项目简称": "TCGA-OV",
+      "箱子条码": "TCGA-01-0630",
+      "样本条码": "TCGA-01-0630-11A",
+      "样品条码": "TCGA-01-0630-11A-01D-0383-05",
+      "探针编号": "cg08552121",
+      "贝塔值": 0.02,
+      "平台": "HumanMethylation27"
+    }
+  ]
+}

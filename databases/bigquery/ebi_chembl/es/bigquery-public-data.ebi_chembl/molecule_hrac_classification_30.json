@@ -1,0 +1,56 @@
+{
+  "table_name": "molecule_hrac_classification_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.molecule_hrac_classification_30",
+  "column_names": [
+    "ID del módulo HRAC",
+    "ID de la clase del jugador",
+    "número de registro molecular"
+  ],
+  "column_types": [
+    "INT64",
+    "INT64",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "identificador_mol_hrac",
+    "id_de_clase_del_jugador",
+    "Número de registro molecular"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "INT64",
+    "INT64"
+  ],
+  "description": [
+    "clave primaria",
+    "Clave externa a la tabla hrac_classification que muestra la clasificación del compuesto.",
+    "Clave foránea a molecule_dictionary, que muestra el compuesto al que se aplica esta clasificación."
+  ],
+  "sample_rows": [
+    {
+      "identificador_mol_hrac": 148,
+      "id_de_clase_del_jugador": 256,
+      "Número de registro molecular": 1369899
+    },
+    {
+      "identificador_mol_hrac": 136,
+      "id_de_clase_del_jugador": 1,
+      "Número de registro molecular": 1238673
+    },
+    {
+      "identificador_mol_hrac": 182,
+      "id_de_clase_del_jugador": 257,
+      "Número de registro molecular": 1495975
+    },
+    {
+      "identificador_mol_hrac": 8,
+      "id_de_clase_del_jugador": 3,
+      "Número de registro molecular": 51985
+    },
+    {
+      "identificador_mol_hrac": 161,
+      "id_de_clase_del_jugador": 4,
+      "Número de registro molecular": 1475652
+    }
+  ]
+}

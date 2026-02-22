@@ -1,0 +1,106 @@
+{
+  "table_name": "Filtered_jhu_usc_edu_PANCAN_HumanMethylation450_betaValue_whitelisted",
+  "table_fullname": "isb-cgc-bq.pancancer_atlas.Filtered_jhu_usc_edu_PANCAN_HumanMethylation450_betaValue_whitelisted",
+  "column_names": [
+    "参与者条形码",
+    "样本条码",
+    "样本条码",
+    "样本类型字母代码",
+    "样本类型",
+    "学习",
+    "编号",
+    "贝塔"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64"
+  ],
+  "nested_column_names": [
+    "参与者条码",
+    "样本条码",
+    "样品条码",
+    "样本类型字母代码",
+    "样本类型",
+    "研究",
+    "编号",
+    "贝塔"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64"
+  ],
+  "description": [
+    "研究参与者的 TCGA 条码标识符，例如 TCGA-02-0001",
+    "生物样本条码，例如 TCGA-13-1489-02A",
+    "TCGA 切样条形码，例如 TCGA-12-1089-01A-01D-0517-28",
+    "使用 TCGA 标准的样本类型字母代码，例如 TPN、EBV。完整列表请参见 https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/sample-type-codes",
+    "共有10种样本类型：血液来源正常样本、原发实体瘤、实体组织正常、复发实体瘤、转移、追加 - 新原发、原发血液来源癌症 - 外周血、颊细胞正常、追加转移、骨髓正常",
+    "TCGA研究缩写，例如LAML。完整列表可在 https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/tcga-study-abbreviations 查看。",
+    "来自 Illumina Human Methylation 数组的唯一探针标识符（例如 cg04676771）— 请参阅注释表 (isb-cgc-bq.annotations.methylation_annotation_hg19_illumina_current) 以获取关于任何特定探针的更多细节。",
+    "标准化 DNA 甲基化 beta 值（介于 0 和 1 之间，0 表示完全未甲基化，1 表示完全甲基化）"
+  ],
+  "sample_rows": [
+    {
+      "参与者条码": "TCGA-06-0221",
+      "样本条码": "TCGA-06-0221-02A",
+      "样品条码": "TCGA-06-0221-02A-11D-2004-05",
+      "样本类型字母代码": "TR",
+      "样本类型": "Recurrent Solid Tumor",
+      "研究": "GBM",
+      "编号": "cg23731184",
+      "贝塔": 0.214408
+    },
+    {
+      "参与者条码": "TCGA-06-0152",
+      "样本条码": "TCGA-06-0152-02A",
+      "样品条码": "TCGA-06-0152-02A-01D-2004-05",
+      "样本类型字母代码": "TR",
+      "样本类型": "Recurrent Solid Tumor",
+      "研究": "GBM",
+      "编号": "cg06362729",
+      "贝塔": 0.920151
+    },
+    {
+      "参与者条码": "TCGA-06-0152",
+      "样本条码": "TCGA-06-0152-02A",
+      "样品条码": "TCGA-06-0152-02A-01D-2004-05",
+      "样本类型字母代码": "TR",
+      "样本类型": "Recurrent Solid Tumor",
+      "研究": "GBM",
+      "编号": "cg10753101",
+      "贝塔": 0.95802
+    },
+    {
+      "参与者条码": "TCGA-06-0210",
+      "样本条码": "TCGA-06-0210-02A",
+      "样品条码": "TCGA-06-0210-02A-01D-2004-05",
+      "样本类型字母代码": "TR",
+      "样本类型": "Recurrent Solid Tumor",
+      "研究": "GBM",
+      "编号": "cg25832529",
+      "贝塔": 0.357678
+    },
+    {
+      "参与者条码": "TCGA-14-0736",
+      "样本条码": "TCGA-14-0736-02A",
+      "样品条码": "TCGA-14-0736-02A-01D-2004-05",
+      "样本类型字母代码": "TR",
+      "样本类型": "Recurrent Solid Tumor",
+      "研究": "GBM",
+      "编号": "cg09167779",
+      "贝塔": 0.894181
+    }
+  ]
+}

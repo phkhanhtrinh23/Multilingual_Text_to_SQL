@@ -1,0 +1,58 @@
+{
+  "table_name": "dimension",
+  "table_fullname": "bigquery-public-data.sec_quarterly_financials.dimension",
+  "column_names": [
+    "hash_de_segmentos",
+    "segmentos",
+    "truncamento_de_segmento",
+    "_PARTITIONTIME"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "BOOL",
+    "TIMESTAMP"
+  ],
+  "nested_column_names": [
+    "hash_de_segmentos",
+    "segmentos",
+    "truncamento_de_segmento"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "BOOL"
+  ],
+  "description": [
+    "Hash MD5 do texto do campo segments. Embora o MD5 seja inadequado para uso criptográfico, é usado aqui apenas para limitar o tamanho da chave primária. segments_hash: [dimhash]",
+    "Concatenação dos nomes de tags que representam o eixo e os membros que aparecem nos segmentos XBRL. Os nomes de tags têm seus primeiros caracteres \"Statement\", últimos 4 caracteres \"Axis\" e últimos 6 caracteres \"Member\" ou \"Domain\" truncados onde aparecem. Namespaces e prefixos são ignorados porque a validação do EDGAR garante que os nomes locais sejam únicos em uma submissão. Cada dimensão é representada como o par \"{axis}={member};\" e os eixos concatenados em ordem lexical. Exemplo: \"LegalEntity=Xyz;Scenario=Restated;\" representa o segmento XBRL com a dimensão LegalEntityAxis e o membro XyzMember, a dimensão StatementScenarioAxis e o membro RestatedMember.",
+    "TRUE se o campo segments seria maior que 1024 caracteres se não tivesse sido truncado, caso contrário FALSE. segment_truncation: [segt]"
+  ],
+  "sample_rows": [
+    {
+      "hash_de_segmentos": "0x00000000",
+      "segmentos": null,
+      "truncamento_de_segmento": false
+    },
+    {
+      "hash_de_segmentos": "0x0cfab777bfb97c9c70428f4aa168335c",
+      "segmentos": "PropertyPlantAndEquipmentByType=NonProducingOilAndGasProperties;",
+      "truncamento_de_segmento": false
+    },
+    {
+      "hash_de_segmentos": "0x0fbb52a9c45f6b71e15f9014faa85f56",
+      "segmentos": "PropertyPlantAndEquipmentByType=SouthTexasProjectAcreage;",
+      "truncamento_de_segmento": false
+    },
+    {
+      "hash_de_segmentos": "0x133ed0334b7713ac9a34d0512f7d9f1a",
+      "segmentos": "DerivativeInstrumentRisk=PutOption;",
+      "truncamento_de_segmento": false
+    },
+    {
+      "hash_de_segmentos": "0x1767e6cfc42e170f20b295eb0caaa6cc",
+      "segmentos": "ConsolidationItems=OperatingSegments;BusinessSegments=AllOtherSegments;",
+      "truncamento_de_segmento": false
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "table_name": "research_companies_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.research_companies_30",
+  "column_names": [
+    "mã gốc công ty",
+    "ID gốc tài nguyên",
+    "công ty",
+    "quốc gia",
+    "Công ty trước"
+  ],
+  "column_types": [
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "Mã cột co_stem",
+    "ID gốc tài nguyên",
+    "công ty",
+    "Quốc gia",
+    "công ty trước"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "Khóa chính.",
+    "Khóa ngoại đến bảng research_stem.",
+    "Tên công ty hiện tại liên quan tới bộ mã nghiên cứu này.",
+    "Quốc gia mà công ty sử dụng mã nghiên cứu này.",
+    "Tên trước đây của công ty liên quan đến chuỗi mã nghiên cứu này (ví dụ: nếu công ty đã trải qua việc mua lại hoặc hợp nhất)."
+  ],
+  "sample_rows": [
+    {
+      "Mã cột co_stem": 541,
+      "ID gốc tài nguyên": 149,
+      "công ty": "Vernalis",
+      "Quốc gia": "UK",
+      "công ty trước": "Cita NeuroPharmaceuticals"
+    },
+    {
+      "Mã cột co_stem": 681,
+      "ID gốc tài nguyên": 28,
+      "công ty": "GlaxoSmithKline",
+      "Quốc gia": "UK",
+      "công ty trước": "Allen & Hanburys"
+    },
+    {
+      "Mã cột co_stem": 683,
+      "ID gốc tài nguyên": 3,
+      "công ty": "AstraZeneca",
+      "Quốc gia": "UK",
+      "công ty trước": "Astra"
+    },
+    {
+      "Mã cột co_stem": 687,
+      "ID gốc tài nguyên": 106,
+      "công ty": "GlaxoSmithKline",
+      "Quốc gia": "UK",
+      "công ty trước": "Borroughs Wellcome"
+    },
+    {
+      "Mã cột co_stem": 688,
+      "ID gốc tài nguyên": 77,
+      "công ty": "Vernalis",
+      "Quốc gia": "UK",
+      "công ty trước": "British Biotech"
+    }
+  ]
+}

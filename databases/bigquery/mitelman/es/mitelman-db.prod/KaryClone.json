@@ -1,0 +1,126 @@
+{
+  "table_name": "KaryClone",
+  "table_fullname": "mitelman-db.prod.KaryClone",
+  "column_names": [
+    "Número de referencia",
+    "Número de caso",
+    "Número de Factura",
+    "Número de clon",
+    "ChromoMin",
+    "ChromoMax",
+    "ClonCorto",
+    "Clonar Largo",
+    "Longitud del clon",
+    "Solo"
+  ],
+  "column_types": [
+    "INT64",
+    "STRING",
+    "INT64",
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING",
+    "INT64",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "Número de referencia",
+    "Número de caso",
+    "Nº de Factura",
+    "Número de clon",
+    "ChromoMin",
+    "ChromoMax",
+    "CopiaCorta",
+    "ClonarLong",
+    "Longitud del clon",
+    "Solo"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "STRING",
+    "INT64",
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING",
+    "INT64",
+    "STRING"
+  ],
+  "description": [
+    "número de referencia, por ejemplo '14620'",
+    "número de caso, normalmente entre 1 y 10, pero también puede ser una cadena arbitraria, por ejemplo 'A11'",
+    "número de investigación, entre 1 y 9",
+    "número de clon, entre 1 y 58",
+    "Los valores más comunes están entre '42' y '51', pero el valor mínimo es '0' y el máximo es '409'.",
+    "Los valores más comunes están entre '43' y '52', pero el valor mínimo es '0' y el máximo es '409'",
+    "descripción de clon más corta, a veces truncada, por ejemplo '45,X,-Y' o '46,Xy,t(8;21)(q22;q22)'",
+    "normalmente vacío, pero si la descripción del clon es muy larga, esa cadena se almacenará aquí",
+    "longitud de la cadena de descripción del clon -- normalmente entre 8 y 24 caracteres, pero puede llegar hasta 2199 caracteres",
+    "Indicador T/F que indica si esto es la única anomalía"
+  ],
+  "sample_rows": [
+    {
+      "Número de referencia": 3822,
+      "Número de caso": "1",
+      "Nº de Factura": 1,
+      "Número de clon": 5,
+      "ChromoMin": 45,
+      "ChromoMax": 45,
+      "CopiaCorta": "45,X,-X",
+      "ClonarLong": null,
+      "Longitud del clon": 7,
+      "Solo": "T"
+    },
+    {
+      "Número de referencia": 4018,
+      "Número de caso": "33",
+      "Nº de Factura": 1,
+      "Número de clon": 6,
+      "ChromoMin": 45,
+      "ChromoMax": 45,
+      "CopiaCorta": "45,X,-X",
+      "ClonarLong": null,
+      "Longitud del clon": 7,
+      "Solo": "T"
+    },
+    {
+      "Número de referencia": 8240,
+      "Número de caso": "8B",
+      "Nº de Factura": 1,
+      "Número de clon": 7,
+      "ChromoMin": 45,
+      "ChromoMax": 45,
+      "CopiaCorta": "45,X,-X",
+      "ClonarLong": null,
+      "Longitud del clon": 7,
+      "Solo": "T"
+    },
+    {
+      "Número de referencia": 11389,
+      "Número de caso": "8",
+      "Nº de Factura": 1,
+      "Número de clon": 5,
+      "ChromoMin": 45,
+      "ChromoMax": 45,
+      "CopiaCorta": "45,X,-X",
+      "ClonarLong": null,
+      "Longitud del clon": 7,
+      "Solo": "T"
+    },
+    {
+      "Número de referencia": 9341,
+      "Número de caso": "5",
+      "Nº de Factura": 1,
+      "Número de clon": 9,
+      "ChromoMin": 45,
+      "ChromoMax": 45,
+      "CopiaCorta": "45,X,-Y",
+      "ClonarLong": null,
+      "Longitud del clon": 7,
+      "Solo": "T"
+    }
+  ]
+}

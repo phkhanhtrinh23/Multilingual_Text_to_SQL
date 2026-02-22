@@ -1,0 +1,116 @@
+{
+  "table_name": "quant_phosphoproteome_PTRC_TNBC_pdc_current",
+  "table_fullname": "isb-cgc-bq.CPTAC.quant_phosphoproteome_PTRC_TNBC_pdc_current",
+  "column_names": [
+    "ケースID",
+    "サンプルID",
+    "分注ID",
+    "aliquot_提出者_ID",
+    "分注実行メタデータID",
+    "研究名",
+    "タンパク質濃度の対数2比",
+    "リファレンスシーケンスID",
+    "リン酸化部位"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "ケースID",
+    "サンプルID",
+    "分画ID",
+    "アリクォット提出者ID",
+    "分注実行メタデータID",
+    "研究名",
+    "タンパク質量対数2比",
+    "参照配列ID",
+    "リン酸化部位"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "特定の患者に関連付けられた一意の識別子（例：24cb0fcb-63d6-11e8-bcf1-0a2705229b82）",
+    "このサンプルのユニークPDC識別子（例: e8d83eb9-693a-11ea-b1fd-0aad30af8a83）",
+    "このアリオットの一意のPDC識別子（例：e8db124a-693a-11ea-b1fd-0aad30af8a83）",
+    "プログラムで割り当てられたアリオク・サブミッターID（例：T14）",
+    "実験での使用方法（ラベル付け試薬および/または生物学的リプリカに基づく）により、アリオットを一意に識別します。",
+    "研究名 (例: 小児脳腫瘍パイロット研究 - フォスフォプロテオーム)",
+    "特定の生物学的サンプルから取得されたデータにおける、遺伝子に関連するペプチドイオンのサンプルレポーターイオンと共通参照の平均対数比",
+    "NCBI RefSeq データベースのシーケンスに付与される一意の識別子",
+    "リン酸化アミノ酸の単一文字コードとタンパク質配列位置（例：t304s310、t59）"
+  ],
+  "sample_rows": [
+    {
+      "ケースID": "961fcdab-129c-4ae9-8abc-2ec9ae61c866",
+      "サンプルID": "ba08cd04-5fa2-4d7a-9c14-b5a572c53efc",
+      "分画ID": "064b6ce5-2964-4ed0-b258-121db8ceab0d",
+      "アリクォット提出者ID": "NTN089_Baseline",
+      "分注実行メタデータID": "630f5dd6-091d-469f-8cc5-1ed43dfccdb7",
+      "研究名": "PTRC TNBC - Phosphoproteome",
+      "タンパク質量対数2比": 1.2257,
+      "参照配列ID": "NP_000114.2",
+      "リン酸化部位": "s384"
+    },
+    {
+      "ケースID": "961fcdab-129c-4ae9-8abc-2ec9ae61c866",
+      "サンプルID": "ba08cd04-5fa2-4d7a-9c14-b5a572c53efc",
+      "分画ID": "064b6ce5-2964-4ed0-b258-121db8ceab0d",
+      "アリクォット提出者ID": "NTN089_Baseline",
+      "分注実行メタデータID": "630f5dd6-091d-469f-8cc5-1ed43dfccdb7",
+      "研究名": "PTRC TNBC - Phosphoproteome",
+      "タンパク質量対数2比": 0.9393,
+      "参照配列ID": "NP_001002909.1",
+      "リン酸化部位": "s1035"
+    },
+    {
+      "ケースID": "961fcdab-129c-4ae9-8abc-2ec9ae61c866",
+      "サンプルID": "ba08cd04-5fa2-4d7a-9c14-b5a572c53efc",
+      "分画ID": "064b6ce5-2964-4ed0-b258-121db8ceab0d",
+      "アリクォット提出者ID": "NTN089_Baseline",
+      "分注実行メタデータID": "630f5dd6-091d-469f-8cc5-1ed43dfccdb7",
+      "研究名": "PTRC TNBC - Phosphoproteome",
+      "タンパク質量対数2比": 1.6176,
+      "参照配列ID": "NP_001003698.1",
+      "リン酸化部位": "s161"
+    },
+    {
+      "ケースID": "961fcdab-129c-4ae9-8abc-2ec9ae61c866",
+      "サンプルID": "ba08cd04-5fa2-4d7a-9c14-b5a572c53efc",
+      "分画ID": "064b6ce5-2964-4ed0-b258-121db8ceab0d",
+      "アリクォット提出者ID": "NTN089_Baseline",
+      "分注実行メタデータID": "630f5dd6-091d-469f-8cc5-1ed43dfccdb7",
+      "研究名": "PTRC TNBC - Phosphoproteome",
+      "タンパク質量対数2比": 0.7767,
+      "参照配列ID": "NP_001011553.2",
+      "リン酸化部位": "s333"
+    },
+    {
+      "ケースID": "961fcdab-129c-4ae9-8abc-2ec9ae61c866",
+      "サンプルID": "ba08cd04-5fa2-4d7a-9c14-b5a572c53efc",
+      "分画ID": "064b6ce5-2964-4ed0-b258-121db8ceab0d",
+      "アリクォット提出者ID": "NTN089_Baseline",
+      "分注実行メタデータID": "630f5dd6-091d-469f-8cc5-1ed43dfccdb7",
+      "研究名": "PTRC TNBC - Phosphoproteome",
+      "タンパク質量対数2比": 0.8599,
+      "参照配列ID": "NP_001017368.1",
+      "リン酸化部位": "s226"
+    }
+  ]
+}

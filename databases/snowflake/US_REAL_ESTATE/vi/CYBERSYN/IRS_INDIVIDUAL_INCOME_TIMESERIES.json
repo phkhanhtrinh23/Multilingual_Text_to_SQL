@@ -1,0 +1,78 @@
+{
+  "sample_rows": [
+    {
+      "Mã địa lý": "zip/47578",
+      "Biến": "Total_income_-_Amount,_AGI_bin:_$100,000_under_$200,000",
+      "Tên biến": "Total income - Amount, AGI bin: $100,000 under $200,000",
+      "NGÀY": "2018-12-31",
+      "Giá trị": 5096000.0,
+      "đơn vị": "USD",
+      "Đã ẩn": false
+    },
+    {
+      "Mã địa lý": "zip/88337",
+      "Biến": "Total_taxes_paid_-_Number_of_returns,_AGI_bin:_$100,000_under_$200,000",
+      "Tên biến": "Total taxes paid - Number of returns, AGI bin: $100,000 under $200,000",
+      "NGÀY": "2011-12-31",
+      "Giá trị": 69.0,
+      "đơn vị": "Returns",
+      "Đã ẩn": false
+    },
+    {
+      "Mã địa lý": "zip/50167",
+      "Biến": "Total_premium_tax_credit_-_Amount,_AGI_bin:_$100,000_under_$200,000",
+      "Tên biến": "Total premium tax credit - Amount, AGI bin: $100,000 under $200,000",
+      "NGÀY": "2017-12-31",
+      "Giá trị": 0.0,
+      "đơn vị": "USD",
+      "Đã ẩn": false
+    },
+    {
+      "Mã địa lý": "zip/50543",
+      "Biến": "Taxable_income_-_Amount,_AGI_bin:_$200,000_or_more",
+      "Tên biến": "Taxable income - Amount, AGI bin: $200,000 or more",
+      "NGÀY": "2017-12-31",
+      "Giá trị": null,
+      "đơn vị": "USD",
+      "Đã ẩn": true
+    },
+    {
+      "Mã địa lý": "zip/50643",
+      "Biến": "Child_tax_credit_-_Amount,_AGI_bin:_$75,000_under_$100,000",
+      "Tên biến": "Child tax credit - Amount, AGI bin: $75,000 under $100,000",
+      "NGÀY": "2017-12-31",
+      "Giá trị": 128000.0,
+      "đơn vị": "USD",
+      "Đã ẩn": false
+    }
+  ],
+  "table_name": "IRS_INDIVIDUAL_INCOME_TIMESERIES",
+  "table_fullname": "US_REAL_ESTATE.CYBERSYN.IRS_INDIVIDUAL_INCOME_TIMESERIES",
+  "column_names": [
+    "Đã ẩn",
+    "NGÀY",
+    "Biến",
+    "Tên biến",
+    "Mã địa lý",
+    "đơn vị",
+    "Giá trị"
+  ],
+  "column_types": [
+    "BOOLEAN",
+    "DATE",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "FLOAT"
+  ],
+  "description": [
+    "Boolean chỉ ra xem giá trị có được ẩn trong dữ liệu gốc vì mục đích bảo mật hay không. Giá trị ẩn sẽ hiển thị là NULL",
+    "Ngày liên quan đến giá trị, đối với dữ liệu mã bưu điện thu nhập cá nhân, đó là ngày cuối cùng của năm được báo cáo.",
+    "Một định danh duy nhất cho một biến có thể liên kết với bảng thuộc tính",
+    "Tên có thể đọc được bởi con người cho biến",
+    "Một mã định danh duy nhất cho một địa điểm (bang, quận, mã ZIP) có thể được liên kết với các bảng geography_index/relationships.",
+    "Đơn vị đo lường giá trị, ví dụ: USD, lợi nhuận, cá nhân, người phụ thuộc",
+    "Giá trị số thực cho biến. Các giá trị bị ẩn là Null."
+  ]
+}

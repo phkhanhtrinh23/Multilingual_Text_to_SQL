@@ -1,0 +1,70 @@
+{
+  "sample_rows": [
+    {
+      "ID_GEO": "geoId/34039",
+      "VARIABLE": "BENLGL_5629_2017",
+      "NOM_DE_VARIABLE": "Employers cost for legally required fringe benefits | Remediation and other waste management services (NAICS 2017 code: 5629)",
+      "DATE": "2017-12-31",
+      "VALEUR": 0.0,
+      "UNITÉ": "USD"
+    },
+    {
+      "ID_GEO": "geoId/1734670",
+      "VARIABLE": "EMPAVPW_484220_2012",
+      "NOM_DE_VARIABLE": "Production workers average for year | Specialized freight (except used goods) trucking, local (NAICS 2012 code: 484220)",
+      "DATE": "2012-12-31",
+      "VALEUR": 0.0,
+      "UNITÉ": "Count"
+    },
+    {
+      "ID_GEO": "geoId/5111032",
+      "VARIABLE": "PCHADVT_56173_2012",
+      "NOM_DE_VARIABLE": "Advertising and promotional services | Landscaping services (NAICS 2012 code: 56173)",
+      "DATE": "2012-12-31",
+      "VALEUR": 0.0,
+      "UNITÉ": "USD"
+    },
+    {
+      "ID_GEO": "geoId/0174592",
+      "VARIABLE": "ASTEND_53121_2012",
+      "NOM_DE_VARIABLE": "Gross value of depreciable assets (acquisition costs, end of year) | Offices of real estate agents and brokers (NAICS 2012 code: 53121)",
+      "DATE": "2012-12-31",
+      "VALEUR": 0.0,
+      "UNITÉ": "USD"
+    },
+    {
+      "ID_GEO": "geoId/0654848",
+      "VARIABLE": "EMPQ3PW_53121_2017",
+      "NOM_DE_VARIABLE": "Production workers for pay period including sept 12 | Offices of real estate agents and brokers (NAICS 2017 code: 53121)",
+      "DATE": "2017-12-31",
+      "VALEUR": 0.0,
+      "UNITÉ": "Count"
+    }
+  ],
+  "table_name": "US_ECONOMIC_CENSUS_TIMESERIES",
+  "table_fullname": "FINANCE__ECONOMICS.CYBERSYN.US_ECONOMIC_CENSUS_TIMESERIES",
+  "column_names": [
+    "VARIABLE",
+    "UNITÉ",
+    "DATE",
+    "VALEUR",
+    "NOM_DE_VARIABLE",
+    "ID_GEO"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "FLOAT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Identifiant unique pour une variable, joignable à la table timeseries.",
+    "Unité de mesure pour la valeur signalée.",
+    "Date associée à la valeur.",
+    "Valeur signalée pour la variable.",
+    "Nom unique lisible par l'homme pour la variable.",
+    "Un identifiant unique pour un lieu. Joignable à d'autres tables de géographie, notamment GEOGRAPHY_INDEX, GEOGRAPHY_RELATIONSHIPS et GEOGRAPHY_CHARACTERISTICS."
+  ]
+}

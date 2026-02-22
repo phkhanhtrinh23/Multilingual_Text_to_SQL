@@ -1,0 +1,70 @@
+{
+  "sample_rows": [
+    {
+      "VARIABLE": "annual_methane_emissions_in_co2_equivalents",
+      "NOM_VARIABLE": "Annual methane emissions in CO2 equivalents",
+      "MESURE": "Methane Emissions",
+      "UNITÉ": "Tonnes of CO₂ equivalents",
+      "FRÉQUENCE": "Annual",
+      "NOTRE_MONDE_EN_DONNÉES_GRAPHIQUES": "[\n  \"methane-emissions\"\n]"
+    },
+    {
+      "VARIABLE": "share_of_global_cumulative_co2_emissions_including_land-use_change",
+      "NOM_VARIABLE": "Share of global cumulative CO2 emissions including land-use change",
+      "MESURE": "Carbon Dioxide Emissions",
+      "UNITÉ": "Percent",
+      "FRÉQUENCE": "Annual",
+      "NOTRE_MONDE_EN_DONNÉES_GRAPHIQUES": "[\n  \"share-global-cumulative-co2-including-land\"\n]"
+    },
+    {
+      "VARIABLE": "share_of_global_cumulative_co2_emissions_from_oil",
+      "NOM_VARIABLE": "Share of global cumulative CO2 emissions from oil",
+      "MESURE": "Carbon Dioxide Emissions",
+      "UNITÉ": "Percent",
+      "FRÉQUENCE": "Annual",
+      "NOTRE_MONDE_EN_DONNÉES_GRAPHIQUES": "[\n  \"share-cumulative-co2-oil\"\n]"
+    },
+    {
+      "VARIABLE": "nitrous_oxide_emissions_from_waste",
+      "NOM_VARIABLE": "Nitrous oxide emissions from waste",
+      "MESURE": "Nitrous Oxide Emissions",
+      "UNITÉ": "Tonnes",
+      "FRÉQUENCE": "Annual",
+      "NOTRE_MONDE_EN_DONNÉES_GRAPHIQUES": "[\n  \"nitrous-oxide-emissions-by-sector\"\n]"
+    },
+    {
+      "VARIABLE": "deforestation_co2_trade_by_product_sugar",
+      "NOM_VARIABLE": "Deforestation CO2 Trade by Product: Sugar",
+      "MESURE": "Deforestation CO2 Trade by Product: Sugar",
+      "UNITÉ": "Tonnes",
+      "FRÉQUENCE": "Annual",
+      "NOTRE_MONDE_EN_DONNÉES_GRAPHIQUES": "[\n  \"deforestation-co2-trade-by-product\"\n]"
+    }
+  ],
+  "table_name": "OUR_WORLD_IN_DATA_ATTRIBUTES",
+  "table_fullname": "WEATHER__ENVIRONMENT.CYBERSYN.OUR_WORLD_IN_DATA_ATTRIBUTES",
+  "column_names": [
+    "UNITÉ",
+    "VARIABLE",
+    "MESURE",
+    "NOM_VARIABLE",
+    "FRÉQUENCE",
+    "NOTRE_MONDE_EN_DONNÉES_GRAPHIQUES"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "ARRAY"
+  ],
+  "description": [
+    "Unité de mesure pour la valeur rapportée.",
+    "Identifiant unique pour une variable, joignable à la table timeseries.",
+    "Attribut ou sujet quantifiable ; description de ce qui est enregistré.",
+    "Nom unique lisible par l'homme pour la variable.",
+    "Fréquence des agrégations.",
+    "Un tableau de graphiques de Our World in Data (OWID) mettant en valeur cette variable, accessible à l'URL suivante, ourworldindata.org/grapher/{chart-id}."
+  ]
+}

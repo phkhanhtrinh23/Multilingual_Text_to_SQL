@@ -1,0 +1,94 @@
+{
+  "table_name": "TOKEN_TRANSFERS",
+  "table_fullname": "ETHEREUM_BLOCKCHAIN.ETHEREUM_BLOCKCHAIN.TOKEN_TRANSFERS",
+  "column_names": [
+    "indice_log",
+    "hash_transacao",
+    "carimbo_temporal_bloco",
+    "endereco_para",
+    "numero_bloco",
+    "valor",
+    "hash_bloco",
+    "endereco_de",
+    "endereco_token"
+  ],
+  "column_types": [
+    "NUMBER",
+    "TEXT",
+    "NUMBER",
+    "TEXT",
+    "NUMBER",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Índice de log no recibo de transação",
+    "Hash da transação",
+    "Carimbo de data e hora do bloco onde esta transferência foi realizada",
+    "Endereço do destinatário",
+    "Número do bloco onde esta transferência foi realizada",
+    "Quantidade de tokens transferidos (ERC20) / id do token transferido (ERC721). Use safe_cast para converter para NUMERIC ou FLOAT64",
+    "Hash do bloco onde esta transferência foi realizada",
+    "Endereço do remetente",
+    "Endereço do token ERC20"
+  ],
+  "sample_rows": [
+    {
+      "endereco_token": "0xd204616e2ecf6d0b27ee79207c4ba54f91182a9d",
+      "endereco_de": "0x4b378475fb135fe4c0c1ce47fc407d5dfffa4e67",
+      "endereco_para": "0x267156058644ba2cb33ef074bba901bbfd66c833",
+      "valor": "33903399999999995904",
+      "hash_transacao": "0xaeae15467bc1f2ebd0c319c5bb9aecccdda67255928daf368199d46786172784",
+      "indice_log": 112,
+      "carimbo_temporal_bloco": 1528073142000000,
+      "numero_bloco": 5728000,
+      "hash_bloco": "0xa88d11e5c6278180cfd2846c8d8302a9f7150dbddfa8e52162a75e81f64328ea"
+    },
+    {
+      "endereco_token": "0xd204616e2ecf6d0b27ee79207c4ba54f91182a9d",
+      "endereco_de": "0x4b378475fb135fe4c0c1ce47fc407d5dfffa4e67",
+      "endereco_para": "0xb944b70defe45f7a20725c93b5bb5e99d22f2a8d",
+      "valor": "33903399999999995904",
+      "hash_transacao": "0x5047c71a00bd47d8b25779a3d21ee21d5589131f561ddb20ea336b5dde378dd4",
+      "indice_log": 106,
+      "carimbo_temporal_bloco": 1528073142000000,
+      "numero_bloco": 5728000,
+      "hash_bloco": "0xa88d11e5c6278180cfd2846c8d8302a9f7150dbddfa8e52162a75e81f64328ea"
+    },
+    {
+      "endereco_token": "0x9b68bfae21df5a510931a262cecf63f41338f264",
+      "endereco_de": "0x4c789df2c1e21bb17c5ab24ed95d6abeb114726b",
+      "endereco_para": "0xcf1cc6ed5b653def7417e3fa93992c3ffe49139b",
+      "valor": "1142583453384104931343",
+      "hash_transacao": "0x570fa5b49face845ff24043405c296c02a919ba245468de0bab1d8dad35bd64b",
+      "indice_log": 21,
+      "carimbo_temporal_bloco": 1528073142000000,
+      "numero_bloco": 5728000,
+      "hash_bloco": "0xa88d11e5c6278180cfd2846c8d8302a9f7150dbddfa8e52162a75e81f64328ea"
+    },
+    {
+      "endereco_token": "0x1f573d6fb3f13d689ff844b4ce37794d79a7ff1c",
+      "endereco_de": "0x1f573d6fb3f13d689ff844b4ce37794d79a7ff1c",
+      "endereco_para": "0xcf1cc6ed5b653def7417e3fa93992c3ffe49139b",
+      "valor": "71073650272275662513",
+      "hash_transacao": "0x570fa5b49face845ff24043405c296c02a919ba245468de0bab1d8dad35bd64b",
+      "indice_log": 12,
+      "carimbo_temporal_bloco": 1528073142000000,
+      "numero_bloco": 5728000,
+      "hash_bloco": "0xa88d11e5c6278180cfd2846c8d8302a9f7150dbddfa8e52162a75e81f64328ea"
+    },
+    {
+      "endereco_token": "0xd204616e2ecf6d0b27ee79207c4ba54f91182a9d",
+      "endereco_de": "0x4b378475fb135fe4c0c1ce47fc407d5dfffa4e67",
+      "endereco_para": "0x242f80ec35220b6c6f17d537d217386b912419cf",
+      "valor": "94929600000000000000",
+      "hash_transacao": "0x2e785f1528ef861962da67546aaeedd02502bbb568f195d924949addcec69d82",
+      "indice_log": 116,
+      "carimbo_temporal_bloco": 1528073142000000,
+      "numero_bloco": 5728000,
+      "hash_bloco": "0xa88d11e5c6278180cfd2846c8d8302a9f7150dbddfa8e52162a75e81f64328ea"
+    }
+  ]
+}

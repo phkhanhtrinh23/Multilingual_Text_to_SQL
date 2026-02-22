@@ -1,0 +1,102 @@
+{
+  "sample_rows": [
+    {
+      "ID_DE_SEGURANCA_PERMID": "8589975674",
+      "TICKER_PRINCIPAL": "EVN",
+      "NOME_DO_TITULO": "EATON VANCE MUNICIPAL INCOME CLOSED FUND",
+      "CLASSE_DE_ATIVO": "Other",
+      "CODIGO_DE_BOLSA_PRINCIPAL": "NYQ",
+      "NOME_DA_BOLSA_PRINCIPAL": "NYSE CONSOLIDATED",
+      "STATUS_DO_TITULO": "Active",
+      "TICKERS_GLOBAIS": "[\n  \"EVN\",\n  \"XEVNX\"\n]",
+      "CODIGO_DE_BOLSA": "[\n  \"NAS\",\n  \"NYQ\"\n]",
+      "ID_DE_COTACAO_PERMID": "[\n  \"55835369644\",\n  \"55839104515\"\n]"
+    },
+    {
+      "ID_DE_SEGURANCA_PERMID": "8589959375",
+      "TICKER_PRINCIPAL": "LENb",
+      "NOME_DO_TITULO": "LENNAR ORD SHS CLASS B",
+      "CLASSE_DE_ATIVO": "Ordinary Shares",
+      "CODIGO_DE_BOLSA_PRINCIPAL": "ISS",
+      "NOME_DA_BOLSA_PRINCIPAL": "ISE when trading NYSE and AMEX Stocks",
+      "STATUS_DO_TITULO": "Active",
+      "TICKERS_GLOBAIS": "[\n  \"LENB*\",\n  \"LENb\",\n  \"LNN0\"\n]",
+      "CODIGO_DE_BOLSA": "[\n  \"FRA\",\n  \"ISS\",\n  \"MEX\"\n]",
+      "ID_DE_COTACAO_PERMID": "[\n  \"21627275840\",\n  \"21736829361\",\n  \"55836192793\"\n]"
+    },
+    {
+      "ID_DE_SEGURANCA_PERMID": "18040205046",
+      "TICKER_PRINCIPAL": "XFSLX",
+      "NOME_DO_TITULO": "FIRST EAGLE SENIOR LOAN FUND",
+      "CLASSE_DE_ATIVO": "Other",
+      "CODIGO_DE_BOLSA_PRINCIPAL": "NAS",
+      "NOME_DA_BOLSA_PRINCIPAL": "NASDAQ CAPITAL MARKET",
+      "STATUS_DO_TITULO": "Inactive",
+      "TICKERS_GLOBAIS": "[\n  \"TSLF\",\n  \"XFSLX\"\n]",
+      "CODIGO_DE_BOLSA": "[\n  \"NAS\",\n  \"WCB\"\n]",
+      "ID_DE_COTACAO_PERMID": "[\n  \"21529763349\",\n  \"21529826402\"\n]"
+    },
+    {
+      "ID_DE_SEGURANCA_PERMID": "8590935543",
+      "TICKER_PRINCIPAL": "TIF*",
+      "NOME_DO_TITULO": "TIFFANY ORD SHS",
+      "CLASSE_DE_ATIVO": "Ordinary Shares",
+      "CODIGO_DE_BOLSA_PRINCIPAL": "MXQ",
+      "NOME_DA_BOLSA_PRINCIPAL": null,
+      "STATUS_DO_TITULO": "Inactive",
+      "TICKERS_GLOBAIS": "[\n  \"0LFD\",\n  \"0LFDl\",\n  \"TIF*\"\n]",
+      "CODIGO_DE_BOLSA": "[\n  \"BCO\",\n  \"LSE\",\n  \"MXQ\"\n]",
+      "ID_DE_COTACAO_PERMID": "[\n  \"21633621402\",\n  \"21634297966\",\n  \"21667705791\"\n]"
+    },
+    {
+      "ID_DE_SEGURANCA_PERMID": "8590923465",
+      "TICKER_PRINCIPAL": "RWSl",
+      "NOME_DO_TITULO": "RWS HOLDINGS ORD SHS",
+      "CLASSE_DE_ATIVO": "Ordinary Shares",
+      "CODIGO_DE_BOLSA_PRINCIPAL": "BCO",
+      "NOME_DA_BOLSA_PRINCIPAL": "BATS CHI-X Trade Reporting",
+      "STATUS_DO_TITULO": "Active",
+      "TICKERS_GLOBAIS": "[\n  \"RWJ\",\n  \"RWSl\"\n]",
+      "CODIGO_DE_BOLSA": "[\n  \"BCO\",\n  \"TDG\"\n]",
+      "ID_DE_COTACAO_PERMID": "[\n  \"21475037440\",\n  \"21538768765\"\n]"
+    }
+  ],
+  "table_name": "PERMID_SECURITY_INDEX",
+  "table_fullname": "FINANCE__ECONOMICS.CYBERSYN.PERMID_SECURITY_INDEX",
+  "column_names": [
+    "CLASSE_DE_ATIVO",
+    "CODIGO_DE_BOLSA",
+    "TICKER_PRINCIPAL",
+    "NOME_DO_TITULO",
+    "CODIGO_DE_BOLSA_PRINCIPAL",
+    "STATUS_DO_TITULO",
+    "TICKERS_GLOBAIS",
+    "ID_DE_SEGURANCA_PERMID",
+    "NOME_DA_BOLSA_PRINCIPAL",
+    "ID_DE_COTACAO_PERMID"
+  ],
+  "column_types": [
+    "TEXT",
+    "ARRAY",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "ARRAY",
+    "TEXT",
+    "TEXT",
+    "ARRAY"
+  ],
+  "description": [
+    "Classe baseada em larga escala do ativo, como 'Ordinary Shares', 'Depositary Receipts', etc.",
+    "Uma matriz de códigos que representam as bolsas de valores onde a segurança é negociada. Uma matriz vazia significa que as informações de bolsa de valores não estão disponíveis.",
+    "O ticker para o local de negociação principal de uma segurança. Se uma segurança for negociada em várias bolsas de valores ou tiver vários tickers, uma tentativa é feita para selecionar o ticker do mercado doméstico.",
+    "Nome da segurança.",
+    "O código de bolsa de valores para o local de negociação principal de uma segurança.",
+    "Status da segurança, i.e. 'Active' ou 'Inactive'. Uma segurança ativa é uma segurança que tem cotações ativas e uma segurança inativa não tem cotações ativas. Este status muda ao longo do tempo.",
+    "Uma matriz de símbolos de ticker sob os quais a segurança pode ser negociada globalmente em todas as bolsas de valores.",
+    "PermID para a segurança.",
+    "O nome da bolsa de valores para o local de negociação principal de uma segurança.",
+    "Uma matriz de PermIDs para as cotações de cada bolsa de valores onde a segurança é negociada. Uma matriz vazia significa que as informações de cotação não estão disponíveis."
+  ]
+}

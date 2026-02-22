@@ -1,0 +1,116 @@
+{
+  "table_name": "quant_acetylome_prospective_breast_BI_pdc_current",
+  "table_fullname": "isb-cgc-bq.CPTAC.quant_acetylome_prospective_breast_BI_pdc_current",
+  "column_names": [
+    "Fall-ID",
+    "Proben-ID",
+    "Aliquot-ID",
+    "Aliquot-Einreicher-ID",
+    "Aliquot-Lauf-Metadaten-ID",
+    "Studienname",
+    "Proteinabundanz-Log2-Verhältnis",
+    "RefSeq-ID",
+    "Acetylierungsstellen"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "Fall-ID",
+    "Proben-ID",
+    "Portion-ID",
+    "Aliquot-Einreicher-ID",
+    "Aliquot-Laufmetadaten-ID",
+    "Studienname",
+    "Log2-Verhältnis der Proteinabundanz",
+    "RefSeq-ID",
+    "Acetylierungsstellen"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "Eine eindeutige Kennung, die mit einem bestimmten Patienten verknüpft ist (z. B. 24cb0fcb-63d6-11e8-bcf1-0a2705229b82)",
+    "Eine eindeutige PDC-Kennung für diese Probe (z. B. e8d83eb9-693a-11ea-b1fd-0aad30af8a83)",
+    "Eine eindeutige PDC-Kennung für dieses Aliquot (z. B. e8db124a-693a-11ea-b1fd-0aad30af8a83)",
+    "Vom Programm zugewiesene Aliquot-Submitter-ID (z. B. T14)",
+    "Das Aliquot wird eindeutig danach identifiziert, wie es im Experiment verwendet wurde (basierend auf dem Etikettierungsreagenz und/oder dem biologischen Replikat)",
+    "Name der Studie (z. B. Pediatric Brain Cancer Pilot Study - Phosphoproteome)",
+    "Durchschnittliches Log-Verhältnis der Proben-Reporter-Ionen zur gemeinsamen Referenz der Peptidionen, die dem Gen in Messungen aus einer bestimmten biologischen Probe zugeordnet sind",
+    "Eine eindeutige Kennung, die einer Sequenz in der NCBI RefSeq-Datenbank zugewiesen wird",
+    "Einzelbuchstaben-Codes und Proteinsequenz-Positionen der acetylierten Aminosäuren (z. B. k12k16, k21)"
+  ],
+  "sample_rows": [
+    {
+      "Fall-ID": "327f7599-0a5d-11eb-bc0e-0aad30af8a83",
+      "Proben-ID": "32803c33-0a5d-11eb-bc0e-0aad30af8a83",
+      "Portion-ID": "32814606-0a5d-11eb-bc0e-0aad30af8a83",
+      "Aliquot-Einreicher-ID": "01f203fd-e664-4d78-bea0-7c40cf_D2",
+      "Aliquot-Laufmetadaten-ID": "9fb38e9b-0df6-11eb-b456-0aad30af8a83",
+      "Studienname": "Prospective Breast BI Acetylome",
+      "Log2-Verhältnis der Proteinabundanz": 0.0569,
+      "RefSeq-ID": "NP_001008564.1",
+      "Acetylierungsstellen": "k276"
+    },
+    {
+      "Fall-ID": "327f7599-0a5d-11eb-bc0e-0aad30af8a83",
+      "Proben-ID": "32803c33-0a5d-11eb-bc0e-0aad30af8a83",
+      "Portion-ID": "32814606-0a5d-11eb-bc0e-0aad30af8a83",
+      "Aliquot-Einreicher-ID": "01f203fd-e664-4d78-bea0-7c40cf_D2",
+      "Aliquot-Laufmetadaten-ID": "9fb38e9b-0df6-11eb-b456-0aad30af8a83",
+      "Studienname": "Prospective Breast BI Acetylome",
+      "Log2-Verhältnis der Proteinabundanz": -0.2117,
+      "RefSeq-ID": "NP_005508.1",
+      "Acetylierungsstellen": "k14"
+    },
+    {
+      "Fall-ID": "327f7599-0a5d-11eb-bc0e-0aad30af8a83",
+      "Proben-ID": "32803c33-0a5d-11eb-bc0e-0aad30af8a83",
+      "Portion-ID": "32814606-0a5d-11eb-bc0e-0aad30af8a83",
+      "Aliquot-Einreicher-ID": "01f203fd-e664-4d78-bea0-7c40cf_D2",
+      "Aliquot-Laufmetadaten-ID": "9fb38e9b-0df6-11eb-b456-0aad30af8a83",
+      "Studienname": "Prospective Breast BI Acetylome",
+      "Log2-Verhältnis der Proteinabundanz": -1.4144,
+      "RefSeq-ID": "NP_056991.2",
+      "Acetylierungsstellen": "k79"
+    },
+    {
+      "Fall-ID": "327f7599-0a5d-11eb-bc0e-0aad30af8a83",
+      "Proben-ID": "32803c33-0a5d-11eb-bc0e-0aad30af8a83",
+      "Portion-ID": "32814606-0a5d-11eb-bc0e-0aad30af8a83",
+      "Aliquot-Einreicher-ID": "01f203fd-e664-4d78-bea0-7c40cf_D2",
+      "Aliquot-Laufmetadaten-ID": "9fb38e9b-0df6-11eb-b456-0aad30af8a83",
+      "Studienname": "Prospective Breast BI Acetylome",
+      "Log2-Verhältnis der Proteinabundanz": -0.9088,
+      "RefSeq-ID": "NP_001531.1",
+      "Acetylierungsstellen": "k123"
+    },
+    {
+      "Fall-ID": "327f7599-0a5d-11eb-bc0e-0aad30af8a83",
+      "Proben-ID": "32803c33-0a5d-11eb-bc0e-0aad30af8a83",
+      "Portion-ID": "32814606-0a5d-11eb-bc0e-0aad30af8a83",
+      "Aliquot-Einreicher-ID": "01f203fd-e664-4d78-bea0-7c40cf_D2",
+      "Aliquot-Laufmetadaten-ID": "9fb38e9b-0df6-11eb-b456-0aad30af8a83",
+      "Studienname": "Prospective Breast BI Acetylome",
+      "Log2-Verhältnis der Proteinabundanz": -0.0986,
+      "RefSeq-ID": "NP_006861.1",
+      "Acetylierungsstellen": "k19"
+    }
+  ]
+}

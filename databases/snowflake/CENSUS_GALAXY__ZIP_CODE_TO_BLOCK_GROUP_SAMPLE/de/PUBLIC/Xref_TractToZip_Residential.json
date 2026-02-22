@@ -1,0 +1,46 @@
+{
+  "sample_rows": [
+    {
+      "VonBundeslandKreisSchachtID": "36047055400",
+      "ZuPLZ": "11229",
+      "WohnlichkeitsZuordnungsVerhältnisTZ": "0.949859154929578"
+    },
+    {
+      "VonBundeslandKreisSchachtID": "36061007100",
+      "ZuPLZ": "10119",
+      "WohnlichkeitsZuordnungsVerhältnisTZ": "0E-15"
+    },
+    {
+      "VonBundeslandKreisSchachtID": "36061007100",
+      "ZuPLZ": "10011",
+      "WohnlichkeitsZuordnungsVerhältnisTZ": "0.516922382671480"
+    },
+    {
+      "VonBundeslandKreisSchachtID": "36061007100",
+      "ZuPLZ": "10001",
+      "WohnlichkeitsZuordnungsVerhältnisTZ": "0E-15"
+    },
+    {
+      "VonBundeslandKreisSchachtID": "36047087600",
+      "ZuPLZ": "11203",
+      "WohnlichkeitsZuordnungsVerhältnisTZ": "1.000000000000000"
+    }
+  ],
+  "table_name": "Xref_TractToZip_Residential",
+  "table_fullname": "CENSUS_GALAXY__ZIP_CODE_TO_BLOCK_GROUP_SAMPLE.PUBLIC.Xref_TractToZip_Residential",
+  "column_names": [
+    "VonBundeslandKreisSchachtID",
+    "ZuPLZ",
+    "WohnlichkeitsZuordnungsVerhältnisTZ"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "NUMBER"
+  ],
+  "description": [
+    "Ein eindeutiger Identifikator-Schlüssel, der StateFIPS, CountyFIPS und Tract für einen bestimmten Bereich innerhalb eines geografischen Gebiets verwendet. Dieses Feld (und die Tabelle) dient zum Übertragen von Metriken und Werten vom Census-Blockgruppen- oder Tract-Niveau auf das Zip-Code-Niveau.",
+    "Der Zip-Code des U.S. Postal Service, der mit dem StateCountyTractID auf der Basis des Verhältnisses der Einwohner in diesem geografischen Gebiet zusammenhängt. Viele Tracts können sich mit Teilen von Zip-Codes überlappen, und viele Zip-Codes können sich mit Teilen von Tracts überlappen.",
+    "Die Verhältnisse der Einwohner in jedem Tract, die durch den verbundenen Zip-Code gebildet werden. Der Suffix „TZ“ bezeichnet die Richtung der Daten, Tract zu Zip-Code (in der Regel kleinere Polygone in größere)."
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "table_name": " distract_2020",
+  "table_fullname": "bigquery-public-data.nhtsa_traffic_fatalities. distract_2020",
+  "column_names": [
+    "Número de estado",
+    "nombre del estado",
+    "número consecutivo",
+    "Número de vehículo",
+    "conductor distraído por",
+    "nombre de la distracción del conductor"
+  ],
+  "column_types": [
+    "INT64",
+    "STRING",
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "Número de Estado",
+    "nombre del estado",
+    "número consecutivo",
+    "número de vehículo",
+    "conductor_distracción_por",
+    "conductor_distraído_por_nombre"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "STRING",
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING"
+  ],
+  "description": [
+    "Este elemento de datos identifica el estado en el que ocurrió el choque. Los códigos provienen de la publicación de la Administración de Servicios Generales (GSA) de los Códigos de Localización Geográfica (GLC) a nivel mundial. Para más información sobre los códigos, consulte la sección <C1/V1/D1/PC1/P1/NM1 Número de Estado> en el pdf: https://crashstats.nhtsa.dot.gov/Api/Public/ViewPublication/812315",
+    "Este elemento de datos identifica el estado en el que ocurrió el accidente. Los códigos provienen de la publicación de la Administración de Servicios Generales (GSA) de los Códigos de Ubicación Geográfica (GLC) a nivel mundial.",
+    "Este elemento de datos es el número de caso único asignado a cada accidente. Aparece en cada archivo de datos y se usa para combinar la información de los archivos de datos. xxxxxx Dos caracteres para el código del estado seguidos de cuatro caracteres para el número de caso",
+    "Este elemento de datos es el número consecutivo asignado a cada vehículo en el caso. Este elemento de datos aparece en cada archivo de datos a nivel de vehículo y se utiliza junto con el elemento de datos ST_CASE para combinar información de archivos de datos a nivel de vehículo. 000-999 Número asignado de vehículo de motor",
+    "Este elemento de datos identifica el atributo(s) que mejor describen la atención del conductor a la conducción antes de que el conductor perciba un evento crítico inminente o justo antes del impacto si no se percibe un evento crítico inminente. Para más información sobre los códigos, consulte la sección <PC16 Driver Distracted By> en el pdf: https://crashstats.nhtsa.dot.gov/Api/Public/ViewPublication/812315",
+    "Este elemento de datos identifica los atributos que mejor describen la atención del conductor a la conducción antes de que el conductor se dé cuenta de un evento crítico inminente o justo antes del impacto si no ocurre la toma de conciencia de dicho evento."
+  ],
+  "sample_rows": [
+    {
+      "Número de Estado": 4,
+      "nombre del estado": "Arizona",
+      "número consecutivo": 40125,
+      "número de vehículo": 5,
+      "conductor_distracción_por": 0,
+      "conductor_distraído_por_nombre": "Not Distracted"
+    },
+    {
+      "Número de Estado": 4,
+      "nombre del estado": "Arizona",
+      "número consecutivo": 40238,
+      "número de vehículo": 6,
+      "conductor_distracción_por": 0,
+      "conductor_distraído_por_nombre": "Not Distracted"
+    },
+    {
+      "Número de Estado": 4,
+      "nombre del estado": "Arizona",
+      "número consecutivo": 40238,
+      "número de vehículo": 7,
+      "conductor_distracción_por": 0,
+      "conductor_distraído_por_nombre": "Not Distracted"
+    },
+    {
+      "Número de Estado": 4,
+      "nombre del estado": "Arizona",
+      "número consecutivo": 40368,
+      "número de vehículo": 5,
+      "conductor_distracción_por": 0,
+      "conductor_distraído_por_nombre": "Not Distracted"
+    },
+    {
+      "Número de Estado": 4,
+      "nombre del estado": "Arizona",
+      "número consecutivo": 40498,
+      "número de vehículo": 5,
+      "conductor_distracción_por": 0,
+      "conductor_distraído_por_nombre": "Not Distracted"
+    }
+  ]
+}

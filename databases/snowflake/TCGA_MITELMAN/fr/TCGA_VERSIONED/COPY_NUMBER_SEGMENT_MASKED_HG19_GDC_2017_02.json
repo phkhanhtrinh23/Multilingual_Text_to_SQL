@@ -1,0 +1,102 @@
+{
+  "table_name": "COPY_NUMBER_SEGMENT_MASKED_HG19_GDC_2017_02",
+  "table_fullname": "TCGA_MITELMAN.TCGA_VERSIONED.COPY_NUMBER_SEGMENT_MASKED_HG19_GDC_2017_02",
+  "column_names": [
+    "fin_pos",
+    "moyenne_segment",
+    "barcode_aliquot",
+    "debut_pos",
+    "chromosome",
+    "nom_court_projet",
+    "num_sondes",
+    "platform",
+    "barcode_cas",
+    "barcode_echantillon"
+  ],
+  "column_types": [
+    "NUMBER",
+    "FLOAT",
+    "TEXT",
+    "NUMBER",
+    "TEXT",
+    "TEXT",
+    "NUMBER",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Position de fin du chromosome de la fin du segment CN en 1-based",
+    "Valeur moyenne de CN pour ce segment -- la valeur est base2 log(CN/2), centrée à 0",
+    "Code à barres d'aliquote TCGA original, par exemple `TCGA-12-1089-01A-01D-0517-01`",
+    "Position de début du chromosome du segment CN en 1-based de start-position",
+    "Chromosome, valeurs possibles : `chr1-22`, et `chrX`",
+    "Abréviation du nom du projet ; le nom du programme suivi d'une abréviation du nom du projet ; par exemple `TCGA-OV`, etc.",
+    "Nombre de sondes dans le tableau SNP utilisé pour inférer ce segment CN",
+    "Plate-forme utilisée pour générer ces données (`Genome_Wide_SNP_6` pour ces données)",
+    "Code à barres de cas TCGA original, par exemple `TCGA-12-1089`  --  notez que chaque cas contient généralement un échantillon de tumeur primaire et un échantillon apparié normal (sang ou tissu adjacent) ; veuillez vous référer au tableau TCGA Biospecimen pour plus de détails",
+    "Code à barres d'échantillon TCGA original, par exemple `TCGA-12-1089-01A`  --  notez qu'un échantillon peut avoir plusieurs aliquotes et donc plusieurs ensembles de segmentations CN ; assurez-vous d'utiliser `GROUP BY` de manière appropriée dans vos requêtes"
+  ],
+  "sample_rows": [
+    {
+      "nom_court_projet": "TCGA-OV",
+      "barcode_cas": "TCGA-01-0628",
+      "barcode_echantillon": "TCGA-01-0628-11A",
+      "barcode_aliquot": "TCGA-01-0628-11A-01D-0356-01",
+      "chromosome": "6",
+      "debut_pos": 147484238,
+      "fin_pos": 155912754,
+      "num_sondes": 5870,
+      "moyenne_segment": 0.0018,
+      "platform": "Genome_Wide_SNP_6"
+    },
+    {
+      "nom_court_projet": "TCGA-OV",
+      "barcode_cas": "TCGA-01-0628",
+      "barcode_echantillon": "TCGA-01-0628-11A",
+      "barcode_aliquot": "TCGA-01-0628-11A-01D-0356-01",
+      "chromosome": "10",
+      "debut_pos": 24602382,
+      "fin_pos": 24604992,
+      "num_sondes": 10,
+      "moyenne_segment": -0.6218,
+      "platform": "Genome_Wide_SNP_6"
+    },
+    {
+      "nom_court_projet": "TCGA-OV",
+      "barcode_cas": "TCGA-01-0628",
+      "barcode_echantillon": "TCGA-01-0628-11A",
+      "barcode_aliquot": "TCGA-01-0628-11A-01D-0356-01",
+      "chromosome": "15",
+      "debut_pos": 24288234,
+      "fin_pos": 24288324,
+      "num_sondes": 2,
+      "moyenne_segment": -1.3104,
+      "platform": "Genome_Wide_SNP_6"
+    },
+    {
+      "nom_court_projet": "TCGA-OV",
+      "barcode_cas": "TCGA-01-0628",
+      "barcode_echantillon": "TCGA-01-0628-11A",
+      "barcode_aliquot": "TCGA-01-0628-11A-01D-0356-01",
+      "chromosome": "21",
+      "debut_pos": 22982574,
+      "fin_pos": 47678774,
+      "num_sondes": 15705,
+      "moyenne_segment": 0.0002,
+      "platform": "Genome_Wide_SNP_6"
+    },
+    {
+      "nom_court_projet": "TCGA-OV",
+      "barcode_cas": "TCGA-01-0628",
+      "barcode_echantillon": "TCGA-01-0628-11A",
+      "barcode_aliquot": "TCGA-01-0628-11A-01D-0356-01",
+      "chromosome": "11",
+      "debut_pos": 56497378,
+      "fin_pos": 56498947,
+      "num_sondes": 2,
+      "moyenne_segment": -1.2838,
+      "platform": "Genome_Wide_SNP_6"
+    }
+  ]
+}

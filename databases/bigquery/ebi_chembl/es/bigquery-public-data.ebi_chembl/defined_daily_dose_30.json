@@ -1,0 +1,86 @@
+{
+  "table_name": "defined_daily_dose_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.defined_daily_dose_30",
+  "column_names": [
+    "código ATC",
+    "Unidades de DDD",
+    "Administrador de datos",
+    "comentario de ddd",
+    "identificador ddd",
+    "valor_ddd"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "FLOAT64"
+  ],
+  "nested_column_names": [
+    "código ATC",
+    "unidades_ddd",
+    "Fecha de administración",
+    "ddd_comentario",
+    "identificador de ddd",
+    "valor DDD"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "FLOAT64"
+  ],
+  "description": [
+    "Código ATC para el compuesto (clave foránea a la tabla ATC_CLASSIFICATION)",
+    "Unidades de dosis diaria definida",
+    "Vía de administración para la dosis",
+    "Comentario",
+    "clave primaria interna",
+    "Valor de la dosis diaria definida"
+  ],
+  "sample_rows": [
+    {
+      "código ATC": "A02AD01",
+      "unidades_ddd": null,
+      "Fecha de administración": null,
+      "ddd_comentario": "Standard dose: 10 tablets or 50 ml mixt",
+      "identificador de ddd": 15,
+      "valor DDD": null
+    },
+    {
+      "código ATC": "R03BB05",
+      "unidades_ddd": null,
+      "Fecha de administración": null,
+      "ddd_comentario": null,
+      "identificador de ddd": 2979,
+      "valor DDD": null
+    },
+    {
+      "código ATC": "R03BB06",
+      "unidades_ddd": null,
+      "Fecha de administración": null,
+      "ddd_comentario": null,
+      "identificador de ddd": 2981,
+      "valor DDD": null
+    },
+    {
+      "código ATC": "V03AE09",
+      "unidades_ddd": null,
+      "Fecha de administración": null,
+      "ddd_comentario": null,
+      "identificador de ddd": 3237,
+      "valor DDD": null
+    },
+    {
+      "código ATC": "B06AC05",
+      "unidades_ddd": null,
+      "Fecha de administración": null,
+      "ddd_comentario": null,
+      "identificador de ddd": 3282,
+      "valor DDD": null
+    }
+  ]
+}

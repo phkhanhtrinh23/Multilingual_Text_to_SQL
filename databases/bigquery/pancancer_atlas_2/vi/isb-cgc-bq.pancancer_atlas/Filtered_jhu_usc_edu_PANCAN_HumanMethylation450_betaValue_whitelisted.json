@@ -1,0 +1,101 @@
+{
+  "table_name": "Filtered_jhu_usc_edu_PANCAN_HumanMethylation450_betaValue_whitelisted",
+  "table_fullname": "isb-cgc-bq.pancancer_atlas.Filtered_jhu_usc_edu_PANCAN_HumanMethylation450_betaValue_whitelisted",
+  "column_names": [
+    "Mã vạch người tham gia",
+    "Mã vạch mẫu",
+    "Mã vạch aliquot",
+    "MãChuLoạiMẫu",
+    "Loại mẫu",
+    "Nghiên cứu",
+    "Mã số",
+    "Beta"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64"
+  ],
+  "nested_column_names": [
+    "Mã vạch người tham gia",
+    "Mã vạch mẫu",
+    "Mã vạch mẫu",
+    "Mã chữ kiểu mẫu",
+    "LoạiMẫu",
+    "Nghiên cứu",
+    "Mã",
+    "Phiên bản beta"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64"
+  ],
+  "description": [
+    "định danh mã vạch TCGA cho người tham gia nghiên cứu, ví dụ TCGA-02-0001",
+    "Mã vạch của mẫu sinh thể, ví dụ TCGA-13-1489-02A",
+    "TCGA mã vạch mẫu, ví dụ TCGA-12-1089-01A-01D-0517-28",
+    "Mã chữ cái của loại mẫu theo tiêu chuẩn TCGA, ví dụ TPN, EBV. Danh sách đầy đủ có sẵn tại https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/sample-type-codes",
+    "Có 10 loại mẫu: Mẫu bình thường nguồn gốc từ máu, Khối u rắn nguyên phát, Mẫu mô rắn bình thường, Khối u rắn tái phát, Di căn, Thêm - Khối u nguyên phát mới, Ung thư nguồn gốc từ máu - Máu ngoại vi, Mẫu tế bào miệng bình thường, Di căn bổ sung, Mẫu mô xương rỗng bình thường",
+    "Viết tắt của nghiên cứu TCGA, ví dụ LAML. Danh sách đầy đủ có sẵn tại https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/tcga-study-abbreviations",
+    "Định danh duy nhất của probe (ví dụ cg04676771) từ mảng methylation Illumina Human – vui lòng tham khảo bảng chú thích (isb-cgc-bq.annotations.methylation_annotation_hg19_illumina_current) để biết thêm chi tiết về bất kỳ probe cụ thể nào.",
+    "Giá trị beta methyl hóa DNA chuẩn hóa (giữa 0 và 1, trong đó 0 biểu thị hoàn toàn chưa methyl hóa và 1 biểu thị hoàn toàn methyl hóa)"
+  ],
+  "sample_rows": [
+    {
+      "Mã vạch người tham gia": "TCGA-06-0221",
+      "Mã vạch mẫu": "TCGA-06-0221-02A-11D-2004-05",
+      "Mã chữ kiểu mẫu": "TR",
+      "LoạiMẫu": "Recurrent Solid Tumor",
+      "Nghiên cứu": "GBM",
+      "Mã": "cg23731184",
+      "Phiên bản beta": 0.214408
+    },
+    {
+      "Mã vạch người tham gia": "TCGA-06-0152",
+      "Mã vạch mẫu": "TCGA-06-0152-02A-01D-2004-05",
+      "Mã chữ kiểu mẫu": "TR",
+      "LoạiMẫu": "Recurrent Solid Tumor",
+      "Nghiên cứu": "GBM",
+      "Mã": "cg06362729",
+      "Phiên bản beta": 0.920151
+    },
+    {
+      "Mã vạch người tham gia": "TCGA-06-0152",
+      "Mã vạch mẫu": "TCGA-06-0152-02A-01D-2004-05",
+      "Mã chữ kiểu mẫu": "TR",
+      "LoạiMẫu": "Recurrent Solid Tumor",
+      "Nghiên cứu": "GBM",
+      "Mã": "cg10753101",
+      "Phiên bản beta": 0.95802
+    },
+    {
+      "Mã vạch người tham gia": "TCGA-06-0210",
+      "Mã vạch mẫu": "TCGA-06-0210-02A-01D-2004-05",
+      "Mã chữ kiểu mẫu": "TR",
+      "LoạiMẫu": "Recurrent Solid Tumor",
+      "Nghiên cứu": "GBM",
+      "Mã": "cg25832529",
+      "Phiên bản beta": 0.357678
+    },
+    {
+      "Mã vạch người tham gia": "TCGA-14-0736",
+      "Mã vạch mẫu": "TCGA-14-0736-02A-01D-2004-05",
+      "Mã chữ kiểu mẫu": "TR",
+      "LoạiMẫu": "Recurrent Solid Tumor",
+      "Nghiên cứu": "GBM",
+      "Mã": "cg09167779",
+      "Phiên bản beta": 0.894181
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "table_name": "CLINICAL_DIAGNOSES_TREATMENTS_GDC_R26",
+  "table_fullname": "TCGA_MITELMAN.TCGA_VERSIONED.CLINICAL_DIAGNOSES_TREATMENTS_GDC_R26",
+  "column_names": [
+    "estado_de_tratamento",
+    "id_de_diagnostico",
+    "data_hora_de_criacao_do_tratamento",
+    "data_hora_de_atualizacao_do_tratamento",
+    "tratamento_or_terapia",
+    "case_id",
+    "tipo_de_tratamento",
+    "id_do_tratamento"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "O estado atual do objeto.",
+    "Identificador atribuído pelo GDC para o diagnóstico de um caso.",
+    "Uma combinação de data e hora do dia no formato [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm]",
+    "Uma combinação de data e hora do dia no formato [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm]",
+    "Um indicador sim/não/desconhecido/não aplicável relacionado à administração de agentes terapêuticos recebidos.",
+    "Identificador único do GDC para este caso (corresponde ao `case_barcode`) -- isso pode ser usado para acessar mais informações do portal de dados do GDC da seguinte forma: https://portal.gdc.cancer.gov/files/c21b332c-06c6-4403-9032-f91c8f407ba9.",
+    "Termo de texto que descreve o tipo de tratamento administrado.",
+    "Identificador atribuído pelo GDC para os dados de tratamento de um caso."
+  ],
+  "sample_rows": [
+    {
+      "id_de_diagnostico": "19099413-ca2c-53af-9e86-cfb23d26842d",
+      "id_do_tratamento": "b8001728-0010-51bd-8d62-e0629c7c7e00",
+      "case_id": "65d1eaec-28db-4a41-a4db-1a710fcb24ad",
+      "tipo_de_tratamento": "Radiation Therapy, NOS",
+      "tratamento_or_terapia": "no",
+      "estado_de_tratamento": "released",
+      "data_hora_de_criacao_do_tratamento": null,
+      "data_hora_de_atualizacao_do_tratamento": "2019-07-31T16:51:05.055069-05:00"
+    },
+    {
+      "id_de_diagnostico": "4a55a1ed-7957-5fe1-8ce5-8227901d7a4c",
+      "id_do_tratamento": "b9e36e2f-2e9f-5700-a40b-1636abeae23e",
+      "case_id": "1932bc1e-2a15-4f74-978e-d49c366604a4",
+      "tipo_de_tratamento": "Radiation Therapy, NOS",
+      "tratamento_or_terapia": "no",
+      "estado_de_tratamento": "released",
+      "data_hora_de_criacao_do_tratamento": null,
+      "data_hora_de_atualizacao_do_tratamento": "2019-07-31T17:31:44.563227-05:00"
+    },
+    {
+      "id_de_diagnostico": "8f6f13a3-c7f2-5028-b188-909c5cc21afe",
+      "id_do_tratamento": "53aa0c70-1494-5911-a9e8-01aaf0c51bf7",
+      "case_id": "028e99e9-5b9a-4954-bb6e-6d4709a3cea8",
+      "tipo_de_tratamento": "Radiation Therapy, NOS",
+      "tratamento_or_terapia": "no",
+      "estado_de_tratamento": "released",
+      "data_hora_de_criacao_do_tratamento": null,
+      "data_hora_de_atualizacao_do_tratamento": "2019-07-31T20:06:29.391814-05:00"
+    },
+    {
+      "id_de_diagnostico": "60da3209-a447-5b7b-b8af-c4b69f61a6ca",
+      "id_do_tratamento": "9755068a-5107-5cd1-be67-d614005408ba",
+      "case_id": "ccecce70-dd54-4c5b-bf9f-ca87d290cb00",
+      "tipo_de_tratamento": "Radiation Therapy, NOS",
+      "tratamento_or_terapia": "no",
+      "estado_de_tratamento": "released",
+      "data_hora_de_criacao_do_tratamento": null,
+      "data_hora_de_atualizacao_do_tratamento": "2019-07-31T20:39:21.322139-05:00"
+    },
+    {
+      "id_de_diagnostico": "bc2b309c-0fcc-5322-9972-53d0049de1ab",
+      "id_do_tratamento": "772bc6c7-106f-597d-8abb-2bd87408f9df",
+      "case_id": "88e64f45-adc4-4223-9838-4d7d45b8f0c0",
+      "tipo_de_tratamento": "Radiation Therapy, NOS",
+      "tratamento_or_terapia": "no",
+      "estado_de_tratamento": "released",
+      "data_hora_de_criacao_do_tratamento": null,
+      "data_hora_de_atualizacao_do_tratamento": "2019-07-31T18:32:09.663758-05:00"
+    }
+  ]
+}

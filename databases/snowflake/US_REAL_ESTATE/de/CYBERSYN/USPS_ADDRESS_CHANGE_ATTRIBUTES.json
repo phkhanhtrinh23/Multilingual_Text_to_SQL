@@ -1,0 +1,70 @@
+{
+  "sample_rows": [
+    {
+      "VARIABLE": "inbound_address_changes_permanent",
+      "VARIABLE_NAME": "Inbound Address Changes, Permanent",
+      "MASS": "Inbound Address Changes",
+      "ANFRAGETYP": "Permanent",
+      "EINHEIT": "Count",
+      "HAUFIGKEIT": "Month"
+    },
+    {
+      "VARIABLE": "inbound_address_changes_total",
+      "VARIABLE_NAME": "Inbound Address Changes, Total",
+      "MASS": "Inbound Address Changes",
+      "ANFRAGETYP": "Total",
+      "EINHEIT": "Count",
+      "HAUFIGKEIT": "Month"
+    },
+    {
+      "VARIABLE": "inbound_address_changes_businesses",
+      "VARIABLE_NAME": "Inbound Address Changes, Businesses",
+      "MASS": "Inbound Address Changes",
+      "ANFRAGETYP": "Businesses",
+      "EINHEIT": "Count",
+      "HAUFIGKEIT": "Month"
+    },
+    {
+      "VARIABLE": "net_address_changes_individuals",
+      "VARIABLE_NAME": "Net Address Changes, Individuals",
+      "MASS": "Net Address Changes",
+      "ANFRAGETYP": "Individuals",
+      "EINHEIT": "Count",
+      "HAUFIGKEIT": "Month"
+    },
+    {
+      "VARIABLE": "outbound_address_changes_temporary",
+      "VARIABLE_NAME": "Outbound Address Changes, Temporary",
+      "MASS": "Outbound Address Changes",
+      "ANFRAGETYP": "Temporary",
+      "EINHEIT": "Count",
+      "HAUFIGKEIT": "Month"
+    }
+  ],
+  "table_name": "USPS_ADDRESS_CHANGE_ATTRIBUTES",
+  "table_fullname": "US_REAL_ESTATE.CYBERSYN.USPS_ADDRESS_CHANGE_ATTRIBUTES",
+  "column_names": [
+    "VARIABLE_NAME",
+    "EINHEIT",
+    "ANFRAGETYP",
+    "MASS",
+    "HAUFIGKEIT",
+    "VARIABLE"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Eine menschlich lesbare Beschreibung der Variable",
+    "Einheit der Messung, die die Anzahl der Adressänderungsanfragen ist",
+    "Kategorisierung der Anfrage. Anfragetypen sind in temporale (permanent oder temporär), Anfragetyp (Familie, Einzelperson, Unternehmen) oder Gesamtgruppen unterteilt",
+    "Typ der gemeldeten Adressänderungen, Inbound - Menschen, die in die Geographie ziehen; Outbound - Menschen, die die Geographie verlassen; Netto - Inbound abzüglich Outbound",
+    "Häufigkeit, mit der der Wert gemeldet wird",
+    "Ein eindeutiger Identifikator, der mit der Timeseries-Tabelle verknüpft werden kann"
+  ]
+}

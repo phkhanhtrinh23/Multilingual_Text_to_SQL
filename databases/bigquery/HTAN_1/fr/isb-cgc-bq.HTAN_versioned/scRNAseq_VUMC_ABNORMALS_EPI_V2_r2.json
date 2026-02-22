@@ -1,0 +1,116 @@
+{
+  "table_name": "scRNAseq_VUMC_ABNORMALS_EPI_V2_r2",
+  "table_fullname": "isb-cgc-bq.HTAN_versioned.scRNAseq_VUMC_ABNORMALS_EPI_V2_r2",
+  "column_names": [
+    "iObs",
+    "iVar",
+    "X_value",
+    "Numero_Barcode_Cellule",
+    "HTAN_Parent_Data_File_ID",
+    "HTAN_Biospecimen_ID",
+    "Sous_Type_Tissu",
+    "Type_Tissu",
+    "Nom_Gene"
+  ],
+  "column_types": [
+    "INT64",
+    "INT64",
+    "FLOAT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "iObs",
+    "iVar",
+    "X_value",
+    "Numero_Barcode_Cellule",
+    "HTAN_Parent_Data_File_ID",
+    "HTAN_Biospecimen_ID",
+    "Sous_Type_Tissu",
+    "Type_Tissu",
+    "Nom_Gene"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "INT64",
+    "FLOAT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "Index des codes à barres des cellules.",
+    "Index des IDs de gènes.",
+    "Valeur d'expression pour un gène et une cellule donnés.",
+    "Codes à barres utilisés pour chaque gouttelette qui contient la cellule dans le processus de séquençage",
+    "Identifiant de fichier HTAN indiquant le fichier(s) à partir duquel ces fichiers ont été dérivés",
+    "ID HTAN associé à un biospecimen en fonction de la SOP ID HTAN (par exemple HTANx_yyy_zzz)",
+    "TA = adénome tubulaire, HP = polype hyperplasique, TVA = adénome tubulovilleux, SSL = lésion serrée sessile, MSI-H = instabilité microsatellitaire élevée CRC, MSS = CRC stable microsatellitaire",
+    "AD = adénome conventionnel, SER = polype serré, MSI-H = instabilité microsatellitaire élevée CRC, MSS = CRC stable microsatellitaire",
+    "Gène mesuré"
+  ],
+  "sample_rows": [
+    {
+      "iObs": 18053,
+      "iVar": 24826,
+      "X_value": 9.0,
+      "Numero_Barcode_Cellule": "GAGGACTTCCAGCGCGAT-2-5779-Polyp-2021",
+      "HTAN_Parent_Data_File_ID": "HTA11_9408_200000101113111",
+      "HTAN_Biospecimen_ID": "HTA11_9408_2000001011",
+      "Sous_Type_Tissu": "TA",
+      "Type_Tissu": "AD",
+      "Nom_Gene": "RPS21"
+    },
+    {
+      "iObs": 17094,
+      "iVar": 24751,
+      "X_value": 17.0,
+      "Numero_Barcode_Cellule": "GTACCTTGAAACAGGG-0-5607-Polyp-2021",
+      "HTAN_Parent_Data_File_ID": "HTA11_10167_200000101113111",
+      "HTAN_Biospecimen_ID": "HTA11_10167_2000001011",
+      "Sous_Type_Tissu": "SSL",
+      "Type_Tissu": "SER",
+      "Nom_Gene": "RPL14"
+    },
+    {
+      "iObs": 8012,
+      "iVar": 14959,
+      "X_value": 9.0,
+      "Numero_Barcode_Cellule": "TTCCGCTCGAGCGGTA-67",
+      "HTAN_Parent_Data_File_ID": "HTA11_2112_200000101113211",
+      "HTAN_Biospecimen_ID": "HTA11_2112_2000001011",
+      "Sous_Type_Tissu": "HP",
+      "Type_Tissu": "SER",
+      "Nom_Gene": "NR3C2"
+    },
+    {
+      "iObs": 19038,
+      "iVar": 24819,
+      "X_value": 29.0,
+      "Numero_Barcode_Cellule": "TGAAACCCTTGTGTGCTCA-9-5779-Polyp-2021",
+      "HTAN_Parent_Data_File_ID": "HTA11_7663_200000101113211",
+      "HTAN_Biospecimen_ID": "HTA11_7663_2000001011",
+      "Sous_Type_Tissu": "SSL",
+      "Type_Tissu": "SER",
+      "Nom_Gene": "RPS16"
+    },
+    {
+      "iObs": 19479,
+      "iVar": 1835,
+      "X_value": 16.0,
+      "Numero_Barcode_Cellule": "GACAAGAGGGGAGTTCAC-19-5779-Polyp-2021",
+      "HTAN_Parent_Data_File_ID": "HTA11_6801_200000102113111",
+      "HTAN_Biospecimen_ID": "HTA11_6801_2000001021",
+      "Sous_Type_Tissu": "TA",
+      "Type_Tissu": "AD",
+      "Nom_Gene": "ALDOA"
+    }
+  ]
+}

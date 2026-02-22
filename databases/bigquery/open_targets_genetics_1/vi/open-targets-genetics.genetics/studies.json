@@ -1,0 +1,244 @@
+{
+  "table_name": "studies",
+  "table_fullname": "open-targets-genetics.genetics.studies",
+  "column_names": [
+    "Mã nghiên cứu",
+    "gia phả ban đầu",
+    "tái lập nguồn gốc",
+    "số ca",
+    "số_ban_dau",
+    "số lần lặp lại",
+    "Mã PMID",
+    "tác giả xuất bản",
+    "Ngày xuất bản",
+    "tạp chí công bố",
+    "Tiêu đề",
+    "có_thống_kê_tóm_tắt",
+    "số loci liên quan",
+    "Nguồn",
+    "đặc tính được báo cáo",
+    "đặc tính_efos",
+    "Loại tính"
+  ],
+  "column_types": [
+    "STRING",
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "BOOL",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "mã nghiên cứu",
+    "Nguồn gốc ban đầu",
+    "gia_toc_ban_dau.list",
+    "phần tử danh sách gia phả ban đầu",
+    "sao chép di truyền",
+    "danh sách sao chép nguồn gốc",
+    "phần tử danh sách sao chép di truyền",
+    "Số ca",
+    "số bắt đầu",
+    "số lần sao chép",
+    "ID PubMed",
+    "tác giả",
+    "ngày xuất bản",
+    "tạp chí công bố",
+    "Tiêu đề",
+    "có thống kê tóm tắt",
+    "số_loci_liên_kết",
+    "nguồn",
+    "đặc tính đã báo cáo",
+    "đặc tính efos",
+    "danh sách đặc tính efos",
+    "phần tử trong danh sách trait efos",
+    "loại đặc tính"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+    "ARRAY<STRUCT<element STRING>>",
+    "STRING",
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+    "ARRAY<STRUCT<element STRING>>",
+    "STRING",
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "BOOL",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+    "ARRAY<STRUCT<element STRING>>",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "sample_rows": [
+    {
+      "mã nghiên cứu": "FINNGEN_R6_M13_MYALGIA",
+      "Nguồn gốc ban đầu": {
+        "list": "[{'element': 'European=201546'}]"
+      },
+      "sao chép di truyền": {
+        "list": "[]"
+      },
+      "Số ca": 3822,
+      "số bắt đầu": 201546,
+      "số lần sao chép": 0,
+      "ID PubMed": null,
+      "tác giả": "FINNGEN_R6",
+      "ngày xuất bản": "2022-01-24",
+      "tạp chí công bố": null,
+      "Tiêu đề": null,
+      "có thống kê tóm tắt": true,
+      "số_loci_liên_kết": 1,
+      "nguồn": "FINNGEN",
+      "đặc tính đã báo cáo": "Myalgia",
+      "đặc tính efos": {
+        "list": "[{'element': 'HP_0003326'}]"
+      },
+      "loại đặc tính": "phenotype"
+    },
+    {
+      "mã nghiên cứu": "FINNGEN_R6_M13_PATELLADISLOCATIO",
+      "Nguồn gốc ban đầu": {
+        "list": "[{'element': 'European=174430'}]"
+      },
+      "sao chép di truyền": {
+        "list": "[]"
+      },
+      "Số ca": 1016,
+      "số bắt đầu": 174430,
+      "số lần sao chép": 0,
+      "ID PubMed": null,
+      "tác giả": "FINNGEN_R6",
+      "ngày xuất bản": "2022-01-24",
+      "tạp chí công bố": null,
+      "Tiêu đề": null,
+      "có thống kê tóm tắt": true,
+      "số_loci_liên_kết": 0,
+      "nguồn": "FINNGEN",
+      "đặc tính đã báo cáo": "Recurrent dislocation of patella",
+      "đặc tính efos": {
+        "list": "[{'element': 'HP_0002999'}]"
+      },
+      "loại đặc tính": "phenotype"
+    },
+    {
+      "mã nghiên cứu": "FINNGEN_R6_M13_PATHODISLOCATIO",
+      "Nguồn gốc ban đầu": {
+        "list": "[{'element': 'European=175145'}]"
+      },
+      "sao chép di truyền": {
+        "list": "[]"
+      },
+      "Số ca": 1731,
+      "số bắt đầu": 175145,
+      "số lần sao chép": 0,
+      "ID PubMed": null,
+      "tác giả": "FINNGEN_R6",
+      "ngày xuất bản": "2022-01-24",
+      "tạp chí công bố": null,
+      "Tiêu đề": null,
+      "có thống kê tóm tắt": true,
+      "số_loci_liên_kết": 0,
+      "nguồn": "FINNGEN",
+      "đặc tính đã báo cáo": "\"Pathological/recurrent dislocation and subluxation of joint, not elsewhere classified\"",
+      "đặc tính efos": {
+        "list": "[{'element': 'HP_0032153'} {'element': 'HP_0001373'}]"
+      },
+      "loại đặc tính": "phenotype"
+    },
+    {
+      "mã nghiên cứu": "FINNGEN_R6_M13_RECUDISLOCATIO",
+      "Nguồn gốc ban đầu": {
+        "list": "[{'element': 'European=174889'}]"
+      },
+      "sao chép di truyền": {
+        "list": "[]"
+      },
+      "Số ca": 1475,
+      "số bắt đầu": 174889,
+      "số lần sao chép": 0,
+      "ID PubMed": null,
+      "tác giả": "FINNGEN_R6",
+      "ngày xuất bản": "2022-01-24",
+      "tạp chí công bố": null,
+      "Tiêu đề": null,
+      "có thống kê tóm tắt": true,
+      "số_loci_liên_kết": 0,
+      "nguồn": "FINNGEN",
+      "đặc tính đã báo cáo": "Recurrent dislocation and subluxation of joint",
+      "đặc tính efos": {
+        "list": "[{'element': 'HP_0032153'} {'element': 'HP_0001373'}]"
+      },
+      "loại đặc tính": "phenotype"
+    },
+    {
+      "mã nghiên cứu": "FINNGEN_R6_M13_SACROILIITIS",
+      "Nguồn gốc ban đầu": {
+        "list": "[{'element': 'European=195058'}]"
+      },
+      "sao chép di truyền": {
+        "list": "[]"
+      },
+      "Số ca": 769,
+      "số bắt đầu": 195058,
+      "số lần sao chép": 0,
+      "ID PubMed": null,
+      "tác giả": "FINNGEN_R6",
+      "ngày xuất bản": "2022-01-24",
+      "tạp chí công bố": null,
+      "Tiêu đề": null,
+      "có thống kê tóm tắt": true,
+      "số_loci_liên_kết": 2,
+      "nguồn": "FINNGEN",
+      "đặc tính đã báo cáo": "\"Sacroiliitis, not elsewhere classified\"",
+      "đặc tính efos": {
+        "list": "[{'element': 'HP_0012317'}]"
+      },
+      "loại đặc tính": "phenotype"
+    }
+  ]
+}

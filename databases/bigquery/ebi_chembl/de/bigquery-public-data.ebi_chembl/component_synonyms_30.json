@@ -1,0 +1,66 @@
+{
+  "table_name": "component_synonyms_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.component_synonyms_30",
+  "column_names": [
+    "Komponente-Synonym-ID",
+    "Komponente-ID",
+    "Komponente-Synonym",
+    "Synonym-Typ"
+  ],
+  "column_types": [
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "Komponenten-Synonym-ID",
+    "Komponenten-ID",
+    "Komponenten-Synonym",
+    "Synonym-Typ"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "Primärschlüssel.",
+    "Fremdschlüssel zur Tabelle component_sequences. Die Komponente, auf die dieses Synonym angewendet wird.",
+    "Das Synonym für die Komponente.",
+    "Der Typ oder Ursprung des Synonyms (z. B. GENE_SYMBOL)."
+  ],
+  "sample_rows": [
+    {
+      "Komponenten-Synonym-ID": 1470665,
+      "Komponenten-ID": 56,
+      "Komponenten-Synonym": "NMD-R1",
+      "Synonym-Typ": "UNIPROT"
+    },
+    {
+      "Komponenten-Synonym-ID": 1471159,
+      "Komponenten-ID": 17,
+      "Komponenten-Synonym": "PSK-J3",
+      "Synonym-Typ": "UNIPROT"
+    },
+    {
+      "Komponenten-Synonym-ID": 1470608,
+      "Komponenten-ID": 47,
+      "Komponenten-Synonym": "Gamma-aminobutyric acid receptor subunit beta-2",
+      "Synonym-Typ": "UNIPROT"
+    },
+    {
+      "Komponenten-Synonym-ID": 1470609,
+      "Komponenten-ID": 47,
+      "Komponenten-Synonym": "GABA(A) receptor subunit beta-2",
+      "Synonym-Typ": "UNIPROT"
+    },
+    {
+      "Komponenten-Synonym-ID": 1470612,
+      "Komponenten-ID": 48,
+      "Komponenten-Synonym": "Gamma-aminobutyric acid receptor subunit alpha-1",
+      "Synonym-Typ": "UNIPROT"
+    }
+  ]
+}

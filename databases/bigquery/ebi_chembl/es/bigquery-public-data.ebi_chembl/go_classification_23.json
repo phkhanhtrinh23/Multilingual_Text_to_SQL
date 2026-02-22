@@ -1,0 +1,86 @@
+{
+  "table_name": "go_classification_23",
+  "table_fullname": "bigquery-public-data.ebi_chembl.go_classification_23",
+  "column_names": [
+    "id de go",
+    "id_padre_go",
+    "nombre de preferencia",
+    "nivel de clase",
+    "aspecto",
+    "ruta"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "ID de go",
+    "id_go_padre",
+    "nombre_preferido",
+    "nivel de clase",
+    "aspecto",
+    "ruta"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "sample_rows": [
+    {
+      "ID de go": "GO:0003674",
+      "id_go_padre": null,
+      "nombre_preferido": "molecular_function",
+      "nivel de clase": "0",
+      "aspecto": "F",
+      "ruta": "molecular_function"
+    },
+    {
+      "ID de go": "GO:0008150",
+      "id_go_padre": null,
+      "nombre_preferido": "biological_process",
+      "nivel de clase": "0",
+      "aspecto": "P",
+      "ruta": "biological_process"
+    },
+    {
+      "ID de go": "GO:0005575",
+      "id_go_padre": null,
+      "nombre_preferido": "cellular_component",
+      "nivel de clase": "0",
+      "aspecto": "C",
+      "ruta": "cellular_component"
+    },
+    {
+      "ID de go": "GO:0003823",
+      "id_go_padre": "GO:0003674",
+      "nombre_preferido": "antigen binding",
+      "nivel de clase": "1",
+      "aspecto": "F",
+      "ruta": "molecular_function  antigen binding"
+    },
+    {
+      "ID de go": "GO:0005085",
+      "id_go_padre": "GO:0003674",
+      "nombre_preferido": "guanyl-nucleotide exchange factor activity",
+      "nivel de clase": "1",
+      "aspecto": "F",
+      "ruta": "molecular_function  guanyl-nucleotide exchange factor activity"
+    }
+  ]
+}

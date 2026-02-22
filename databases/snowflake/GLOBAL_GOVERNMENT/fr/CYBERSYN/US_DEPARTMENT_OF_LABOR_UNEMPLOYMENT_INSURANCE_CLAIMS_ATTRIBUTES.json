@@ -1,0 +1,70 @@
+{
+  "sample_rows": [
+    {
+      "VARIABLE": "CE",
+      "NOM_VARIABLE": "Covered Employment",
+      "MESURE": "Employment",
+      "UNITÉ": "Count",
+      "FRÉQUENCE": "Weekly",
+      "TYPE_DE_MESURE": "Reports the 12-month average monthly covered employment for the first 4 of the last 6 completed calendar quarters prior to the end of the last week of the current 13-week period to which the insured unemployment data relate"
+    },
+    {
+      "VARIABLE": "IC",
+      "NOM_VARIABLE": "State Unemployment Insurance Initial Claims without Intrastate Transitional Claims",
+      "MESURE": "Insurance Claims",
+      "UNITÉ": "Count",
+      "FRÉQUENCE": "Weekly",
+      "TYPE_DE_MESURE": null
+    },
+    {
+      "VARIABLE": "WSEIC",
+      "NOM_VARIABLE": "Short Time Compensation (Workshare) Equivalent Initial Claims",
+      "MESURE": "Insurance Claims",
+      "UNITÉ": "Count",
+      "FRÉQUENCE": "Weekly",
+      "TYPE_DE_MESURE": null
+    },
+    {
+      "VARIABLE": "WSIC",
+      "NOM_VARIABLE": "Short Time Compensation (Workshare) Total Initial Claims",
+      "MESURE": "Insurance Claims",
+      "UNITÉ": "Count",
+      "FRÉQUENCE": "Weekly",
+      "TYPE_DE_MESURE": null
+    },
+    {
+      "VARIABLE": "ABT",
+      "NOM_VARIABLE": "Total Continued Weeks Claimed under a State Additional Benefit Program",
+      "MESURE": "Insurance Claims",
+      "UNITÉ": "Count",
+      "FRÉQUENCE": "Weekly",
+      "TYPE_DE_MESURE": "Includes Unemployment Compensation for Federal Employees adn Ex-Service Members"
+    }
+  ],
+  "table_name": "US_DEPARTMENT_OF_LABOR_UNEMPLOYMENT_INSURANCE_CLAIMS_ATTRIBUTES",
+  "table_fullname": "GLOBAL_GOVERNMENT.CYBERSYN.US_DEPARTMENT_OF_LABOR_UNEMPLOYMENT_INSURANCE_CLAIMS_ATTRIBUTES",
+  "column_names": [
+    "MESURE",
+    "NOM_VARIABLE",
+    "UNITÉ",
+    "VARIABLE",
+    "FRÉQUENCE",
+    "TYPE_DE_MESURE"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Attribut quantifiable ou sujet ; description de ce qui est enregistré.",
+    "Nom unique lisible par l'homme pour la variable.",
+    "Unité de mesure pour la valeur signalée.",
+    "Identifiant unique pour une variable, joignable à la table timeseries.",
+    "Fréquence des agrégations.",
+    "Informations supplémentaires sur la façon dont la valeur de la variable est calculée."
+  ]
+}

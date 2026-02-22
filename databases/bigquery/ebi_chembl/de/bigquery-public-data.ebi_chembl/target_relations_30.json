@@ -1,0 +1,66 @@
+{
+  "table_name": "target_relations_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.target_relations_30",
+  "column_names": [
+    "Thread-ID",
+    "Beziehung",
+    "related_tid",
+    "targrel_id"
+  ],
+  "column_types": [
+    "INT64",
+    "STRING",
+    "INT64",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "Transaktions-ID",
+    "Beziehung",
+    "Verwandte ID",
+    "Zielbeziehungs-ID"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "STRING",
+    "INT64",
+    "INT64"
+  ],
+  "description": [
+    "Identifikator des Ziels von Interesse (foreign key to target_dictionary Tabelle)",
+    "Beziehung zwischen zwei Zielen (z. B. SUBSET OF, SUPERSET OF, OVERLAPS WITH)",
+    "Identifikator des Ziels, das mit dem Ziel von Interesse in Beziehung steht (foreign key to target_dicitionary table)",
+    "Primary key"
+  ],
+  "sample_rows": [
+    {
+      "Transaktions-ID": 117043,
+      "Beziehung": "SUBSET OF",
+      "Verwandte ID": 118387,
+      "Zielbeziehungs-ID": 227977
+    },
+    {
+      "Transaktions-ID": 117043,
+      "Beziehung": "SUBSET OF",
+      "Verwandte ID": 120269,
+      "Zielbeziehungs-ID": 227981
+    },
+    {
+      "Transaktions-ID": 104690,
+      "Beziehung": "SUBSET OF",
+      "Verwandte ID": 104871,
+      "Zielbeziehungs-ID": 228004
+    },
+    {
+      "Transaktions-ID": 104897,
+      "Beziehung": "SUBSET OF",
+      "Verwandte ID": 119771,
+      "Zielbeziehungs-ID": 228021
+    },
+    {
+      "Transaktions-ID": 105044,
+      "Beziehung": "SUBSET OF",
+      "Verwandte ID": 104844,
+      "Zielbeziehungs-ID": 228037
+    }
+  ]
+}

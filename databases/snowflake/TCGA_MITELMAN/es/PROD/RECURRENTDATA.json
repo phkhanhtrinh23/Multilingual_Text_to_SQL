@@ -1,0 +1,102 @@
+{
+  "table_name": "RECURRENTDATA",
+  "table_fullname": "TCGA_MITELMAN.PROD.RECURRENTDATA",
+  "column_names": [
+    "Casos Totales",
+    "Cromosoma",
+    "Brazo",
+    "Tipo",
+    "Banda",
+    "Topo",
+    "Anormalidad",
+    "Transformar",
+    "Gen",
+    "Orden Cromosómico"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "NUMBER"
+  ],
+  "description": [
+    "número total de casos (hasta 2150)",
+    "Número de cromosoma (1-22, X o Y)",
+    "brazo del cromosoma (p o q)",
+    "B",
+    "posición del gen en el brazo p o q",
+    "código de topografía, p.ej. '0902' (o en blanco)",
+    "descripción de la anomalía, por ejemplo 'add(19)(q13)' o 'del(20)(q11q13)'",
+    "código de morfología, por ejemplo '1602'",
+    "símbolo(s) de gen, p. ej. 'KMT2A+' o 'BCR/ABL1' o vacío",
+    "orden numérico del cromosoma"
+  ],
+  "sample_rows": [
+    {
+      "Cromosoma": "Y",
+      "Brazo": "q",
+      "Banda": "10",
+      "Anormalidad": "i(Y)(q10)",
+      "Transformar": "1820",
+      "Topo": null,
+      "Casos Totales": "2",
+      "Gen": null,
+      "Orden Cromosómico": 24,
+      "Tipo": "U"
+    },
+    {
+      "Cromosoma": "1",
+      "Brazo": "q",
+      "Banda": "10",
+      "Anormalidad": "der(1;3)(q10;q10)",
+      "Transformar": "3121",
+      "Topo": "0203",
+      "Casos Totales": "2",
+      "Gen": null,
+      "Orden Cromosómico": 1,
+      "Tipo": "U"
+    },
+    {
+      "Cromosoma": "1",
+      "Brazo": "q",
+      "Banda": "10",
+      "Anormalidad": "der(1;5)(q10;p10)",
+      "Transformar": "1101",
+      "Topo": null,
+      "Casos Totales": "2",
+      "Gen": null,
+      "Orden Cromosómico": 1,
+      "Tipo": "U"
+    },
+    {
+      "Cromosoma": "1",
+      "Brazo": "q",
+      "Banda": "10",
+      "Anormalidad": "der(1;5)(q10;p10)",
+      "Transformar": "1702",
+      "Topo": null,
+      "Casos Totales": "3",
+      "Gen": null,
+      "Orden Cromosómico": 1,
+      "Tipo": "U"
+    },
+    {
+      "Cromosoma": "1",
+      "Brazo": "q",
+      "Banda": "10",
+      "Anormalidad": "der(1;5)(q10;q10)",
+      "Transformar": "1101",
+      "Topo": null,
+      "Casos Totales": "2",
+      "Gen": null,
+      "Orden Cromosómico": 1,
+      "Tipo": "U"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "table_name": "target_relations_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.target_relations_30",
+  "column_names": [
+    "时间",
+    "关系",
+    "相关事务ID",
+    "目标关系ID"
+  ],
+  "column_types": [
+    "INT64",
+    "STRING",
+    "INT64",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "事务编号",
+    "关系",
+    "关联交易ID",
+    "目标关系ID"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "STRING",
+    "INT64",
+    "INT64"
+  ],
+  "description": [
+    "感兴趣目标的标识符（外键，指向 target_dictionary 表）",
+    "两个目标之间的关系（例如，子集、超集、重叠）",
+    "与所关注目标相关的目标的标识符（外键指向 target_dictionary 表）",
+    "主键"
+  ],
+  "sample_rows": [
+    {
+      "事务编号": 117043,
+      "关系": "SUBSET OF",
+      "关联交易ID": 118387,
+      "目标关系ID": 227977
+    },
+    {
+      "事务编号": 117043,
+      "关系": "SUBSET OF",
+      "关联交易ID": 120269,
+      "目标关系ID": 227981
+    },
+    {
+      "事务编号": 104690,
+      "关系": "SUBSET OF",
+      "关联交易ID": 104871,
+      "目标关系ID": 228004
+    },
+    {
+      "事务编号": 104897,
+      "关系": "SUBSET OF",
+      "关联交易ID": 119771,
+      "目标关系ID": 228021
+    },
+    {
+      "事务编号": 105044,
+      "关系": "SUBSET OF",
+      "关联交易ID": 104844,
+      "目标关系ID": 228037
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "table_name": "TCGA_RPPA_PANCAN_CLEAN_FILTERED",
+  "table_fullname": "PANCANCER_ATLAS_1.PANCANCER_ATLAS_FILTERED.TCGA_RPPA_PANCAN_CLEAN_FILTERED",
+  "column_names": [
+    "Código de Letra del Tipo de Muestra",
+    "Código de barras de muestra",
+    "Código de alícuota",
+    "estudio",
+    "Tipo de Muestra",
+    "Código del participante",
+    "Valor",
+    "Proteína"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "FLOAT",
+    "TEXT"
+  ],
+  "description": [
+    "Código de letra del tipo de muestra según los estándares TCGA, ej. TPN, EBV. Lista completa disponible en https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/sample-type-codes",
+    "Código de barras del espécimen biológico, p. ej. TCGA-13-1489-02A",
+    "Código de barras de alíquotas TCGA, por ejemplo TCGA-12-1089-01A-01D-0517-28",
+    "Acrónimo de estudio TCGA, por ejemplo LAML. Lista completa disponible en https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/tcga-study-abbreviations",
+    "Hay 10 tipos de muestras: Normal derivado de sangre, Tumor sólido primario, Tejido sólido normal, Tumor sólido recurrente, Metastásico, Adicional - Nueva primaria, Cáncer primario derivado de sangre - Sangre periférica, Normal de células bucales, Metastásico adicional, Normal de médula ósea",
+    "Identificador de código de barras TCGA para el participante del estudio, ej. TCGA-02-0001",
+    "Nivel de expresión de la proteína medido mediante arrays de proteína de fase inversa (RPPAs). Ejemplos: 0.204238725,-0.01826295",
+    "Símbolo de la proteína y estado de fosforilación (si aplica), por ejemplo P53, JNK_pT183Y185"
+  ],
+  "sample_rows": [
+    {
+      "Código del participante": "TCGA-04-1335",
+      "Código de barras de muestra": "TCGA-04-1335-01A",
+      "Código de alícuota": "TCGA-04-1335-01A-21-20",
+      "Código de Letra del Tipo de Muestra": "TP",
+      "Tipo de Muestra": "Primary solid Tumor",
+      "estudio": "OV",
+      "Proteína": "PDCD1",
+      "Valor": null
+    },
+    {
+      "Código del participante": "TCGA-04-1335",
+      "Código de barras de muestra": "TCGA-04-1335-01A",
+      "Código de alícuota": "TCGA-04-1335-01A-21-20",
+      "Código de Letra del Tipo de Muestra": "TP",
+      "Tipo de Muestra": "Primary solid Tumor",
+      "estudio": "OV",
+      "Proteína": "BCL2",
+      "Valor": 0.077853
+    },
+    {
+      "Código del participante": "TCGA-04-1335",
+      "Código de barras de muestra": "TCGA-04-1335-01A",
+      "Código de alícuota": "TCGA-04-1335-01A-21-20",
+      "Código de Letra del Tipo de Muestra": "TP",
+      "Tipo de Muestra": "Primary solid Tumor",
+      "estudio": "OV",
+      "Proteína": "EIF4E",
+      "Valor": -0.91868
+    },
+    {
+      "Código del participante": "TCGA-04-1335",
+      "Código de barras de muestra": "TCGA-04-1335-01A",
+      "Código de alícuota": "TCGA-04-1335-01A-21-20",
+      "Código de Letra del Tipo de Muestra": "TP",
+      "Tipo de Muestra": "Primary solid Tumor",
+      "estudio": "OV",
+      "Proteína": "SF2",
+      "Valor": 0.018487
+    },
+    {
+      "Código del participante": "TCGA-04-1335",
+      "Código de barras de muestra": "TCGA-04-1335-01A",
+      "Código de alícuota": "TCGA-04-1335-01A-21-20",
+      "Código de Letra del Tipo de Muestra": "TP",
+      "Tipo de Muestra": "Primary solid Tumor",
+      "estudio": "OV",
+      "Proteína": "MYOSINIIA_pS1943",
+      "Valor": 0.44285
+    }
+  ]
+}

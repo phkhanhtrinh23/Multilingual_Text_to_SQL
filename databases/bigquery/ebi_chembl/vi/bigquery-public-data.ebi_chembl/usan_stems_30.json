@@ -1,0 +1,96 @@
+{
+  "table_name": "usan_stems_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.usan_stems_30",
+  "column_names": [
+    "id_gốc_us",
+    "Thụ",
+    "nhóm con",
+    "Ghi chú",
+    "loại thân",
+    "Lớp chính",
+    "Ai bổ sung"
+  ],
+  "column_types": [
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "ID gốc USAN",
+    "cụm gốc",
+    "nhóm con",
+    "Chú thích",
+    "lớp gốc",
+    "lớp chính",
+    "ai_them"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64"
+  ],
+  "description": [
+    "Khóa chính số.",
+    "Cây gốc được định nghĩa để sử dụng trong United States Adopted Names.",
+    "Nhóm con cụ thể hơn của gốc được xác định để sử dụng trong United States Adopted Names.",
+    "Ý nghĩa của gốc (ví dụ, lớp hợp chất mà nó áp dụng).",
+    "Xác định xem gốc có được sử dụng như tiền tố, đại tố hay hậu tố.",
+    "Nhóm protein được nhắm mục tiêu bởi các hợp chất của loại này (ví dụ: GPCR/kênh ion/protéase) khi đã biết/ áp dụng.",
+    "Cây gốc không có trong danh sách USAN, nhưng đã được thêm từ danh sách cây gốc WHO INN (đặt thành 1)."
+  ],
+  "sample_rows": [
+    {
+      "ID gốc USAN": 16,
+      "cụm gốc": "-adol-",
+      "nhóm con": "-",
+      "Chú thích": "analgesics (mixed opiate receptor agonists/antagonists)",
+      "lớp gốc": "Infix",
+      "lớp chính": "GPCR",
+      "ai_them": 0
+    },
+    {
+      "ID gốc USAN": 32,
+      "cụm gốc": "-nab-",
+      "nhóm con": "-",
+      "Chú thích": "cannabinol derivatives",
+      "lớp gốc": "Infix",
+      "lớp chính": "GPCR",
+      "ai_them": 0
+    },
+    {
+      "ID gốc USAN": 49,
+      "cụm gốc": "-kef-",
+      "nhóm con": "-",
+      "Chú thích": "enkephalin agonists",
+      "lớp gốc": "Infix",
+      "lớp chính": "GPCR",
+      "ai_them": 0
+    },
+    {
+      "ID gốc USAN": 73,
+      "cụm gốc": "-prost-",
+      "nhóm con": "-",
+      "Chú thích": "prostaglandins",
+      "lớp gốc": "Infix",
+      "lớp chính": "GPCR",
+      "ai_them": 0
+    },
+    {
+      "ID gốc USAN": 86,
+      "cụm gốc": "-barb-",
+      "nhóm con": "-",
+      "Chú thích": "barbituric acid derivatives",
+      "lớp gốc": "Infix",
+      "lớp chính": "ion channel",
+      "ai_them": 0
+    }
+  ]
+}

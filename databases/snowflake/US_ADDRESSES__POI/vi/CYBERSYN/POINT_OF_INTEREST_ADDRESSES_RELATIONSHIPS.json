@@ -1,0 +1,62 @@
+{
+  "sample_rows": [
+    {
+      "Mã POI": "08f269606d84474b0383b1e7e8c016f0",
+      "Mã Địa Chỉ": "addressId/98b58eaa8ec6d4166d2e181b221bdc78",
+      "Loại mối quan hệ": "Overlaps",
+      "ngày_bắt_đầu_quan_hệ": null,
+      "Ngày kết thúc quan hệ": null
+    },
+    {
+      "Mã POI": "08f268cda876e7840399de7cbe47424a",
+      "Mã Địa Chỉ": "addressId/b68bf965318c97738ef54e952fdb7d3e",
+      "Loại mối quan hệ": "Overlaps",
+      "ngày_bắt_đầu_quan_hệ": null,
+      "Ngày kết thúc quan hệ": null
+    },
+    {
+      "Mã POI": "08f283409da358d9038afebdd8a48370",
+      "Mã Địa Chỉ": "addressId/cfe743ff143eb73171361acd2c67b640",
+      "Loại mối quan hệ": "Overlaps",
+      "ngày_bắt_đầu_quan_hệ": null,
+      "Ngày kết thúc quan hệ": null
+    },
+    {
+      "Mã POI": "08f44ac08654024c03d93bb8f3f122fd",
+      "Mã Địa Chỉ": "addressId/f7b067ec19a8c4e0d252a3534be6c2cd",
+      "Loại mối quan hệ": "Overlaps",
+      "ngày_bắt_đầu_quan_hệ": null,
+      "Ngày kết thúc quan hệ": null
+    },
+    {
+      "Mã POI": "08f4413390635c1903c4104e6338a78f",
+      "Mã Địa Chỉ": "addressId/24274acb391d5356cf97a99ee9da08bb",
+      "Loại mối quan hệ": "Overlaps",
+      "ngày_bắt_đầu_quan_hệ": null,
+      "Ngày kết thúc quan hệ": null
+    }
+  ],
+  "table_name": "POINT_OF_INTEREST_ADDRESSES_RELATIONSHIPS",
+  "table_fullname": "US_ADDRESSES__POI.CYBERSYN.POINT_OF_INTEREST_ADDRESSES_RELATIONSHIPS",
+  "column_names": [
+    "Mã POI",
+    "Loại mối quan hệ",
+    "ngày_bắt_đầu_quan_hệ",
+    "Ngày kết thúc quan hệ",
+    "Mã Địa Chỉ"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "DATE",
+    "DATE",
+    "TEXT"
+  ],
+  "description": [
+    "Một mã định danh duy nhất cho một điểm quan tâm (chẳng hạn như một công viên, một chi nhánh của chuỗi thực phẩm nhanh, một khách sạn, v.v.) dựa trên mô tả và vị trí của nó. Nó có thể được liên kết với bảng point_of_interest_index.",
+    "Mối quan hệ giữa hai địa điểm. Chúng tôi sử dụng 'Overlaps' để chỉ ra rằng POI_ID là một phần của ADDRESS_ID (ví dụ, mối quan hệ của một căn hộ với tòa nhà căn hộ, vì có thể có nhiều điểm quan tâm tại cùng một địa chỉ, đặc biệt nếu dữ liệu thiếu thông tin chính xác về đơn vị).",
+    "Ngày bắt đầu có hiệu lực của một mối quan hệ nhất định. Ví dụ, nếu tên của một địa điểm với POI_ID nhất định thay đổi vào ngày 2023-04-01, thì relationship_start_date của ngày 2023-04-01 được gán. Tuy nhiên, hiện tại, tất cả các giá trị trong cột này đều là NULL vì nó chỉ chứa các đặc điểm mới nhất mà không có thay đổi lịch sử.",
+    "Ngày mà mối quan hệ đó có hiệu lực. Ví dụ, nếu tên của một địa điểm với POI_ID nhất định thay đổi vào ngày 2023-04-01, thì ngày kết thúc mối quan hệ (relationship_end_date) là 2023-03-31 được gán cho tên đó của POI_ID. Tuy nhiên, hiện tại, tất cả các giá trị trong cột này đều là NULL vì nó chỉ chứa những đặc điểm mới nhất mà không có thay đổi lịch sử.",
+    "Một định danh duy nhất cho địa chỉ dựa trên địa chỉ đường phố, có thể được liên kết với bảng us_addresses."
+  ]
+}

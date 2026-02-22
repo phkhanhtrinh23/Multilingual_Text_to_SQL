@@ -1,0 +1,94 @@
+{
+  "sample_rows": [
+    {
+      "公司ID": "ca52d8c892a8ffe6e8368f2bd7a5fca7",
+      "公司名称": "WYNN RESORTS LTD",
+      "实体层级": "Corporate",
+      "相关公司ID": "5a2aaa890644211a8e69ad206ee9d4de",
+      "关联公司名称": "WYNN LAS VEGAS LLC",
+      "相关实体级别": "Corporate",
+      "关系类型": "Parent",
+      "关系开始日期": null,
+      "关系结束日期": null
+    },
+    {
+      "公司ID": "61042fb57d4bc5965ff4f0dfa55f3aa2",
+      "公司名称": "RITZ-CARLTON HOTEL COMPANY LLC",
+      "实体层级": "Corporate",
+      "相关公司ID": "d0d371457687b60bbb116b9fc9ae65ea",
+      "关联公司名称": "MARRIOTT INTERNATIONAL INC /MD/",
+      "相关实体级别": "Corporate",
+      "关系类型": "Subsidiary",
+      "关系开始日期": null,
+      "关系结束日期": null
+    },
+    {
+      "公司ID": "9d60e1934f9141a0991597d08181e126",
+      "公司名称": "TOWNEPLACE SUITES BY MARRIOTT",
+      "实体层级": "Corporate",
+      "相关公司ID": "d0d371457687b60bbb116b9fc9ae65ea",
+      "关联公司名称": "MARRIOTT INTERNATIONAL INC /MD/",
+      "相关实体级别": "Corporate",
+      "关系类型": "Subsidiary",
+      "关系开始日期": null,
+      "关系结束日期": null
+    },
+    {
+      "公司ID": "b5647b2c2c12a1b09f5ce31802833f10",
+      "公司名称": "WYNDHAM HOTELS & RESORTS, INC.",
+      "实体层级": "Corporate",
+      "相关公司ID": "015a8a998d3e9492c6ff9ed4e452d802",
+      "关联公司名称": "SUPER 8 WORLDWIDE, INC.",
+      "相关实体级别": "Corporate",
+      "关系类型": "Parent",
+      "关系开始日期": null,
+      "关系结束日期": null
+    },
+    {
+      "公司ID": "b00320b7fdfbd6ecdbe7379e1e1e1d61",
+      "公司名称": "COMCAST CORP",
+      "实体层级": "Corporate",
+      "相关公司ID": "36df5b636ad537c1a94fb35cd7c91f80",
+      "关联公司名称": "FANDANGO MEDIA LLC",
+      "相关实体级别": "Corporate",
+      "关系类型": "Parent",
+      "关系开始日期": null,
+      "关系结束日期": null
+    }
+  ],
+  "table_name": "COMPANY_RELATIONSHIPS",
+  "table_fullname": "FINANCE__ECONOMICS.CYBERSYN.COMPANY_RELATIONSHIPS",
+  "column_names": [
+    "公司名称",
+    "关系类型",
+    "关系开始日期",
+    "关系结束日期",
+    "公司ID",
+    "实体层级",
+    "相关公司ID",
+    "相关实体级别",
+    "关联公司名称"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "DATE",
+    "DATE",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "公司的名称。",
+    "指定公司与关联公司之间的关系类型。当公司是关联公司的母公司时，值为 'Parent'；当公司是关联公司的子公司时，值为 'Subsidiary'。",
+    "公司与关联公司的关联起始时间。如起始日期未知，则设为 NULL。",
+    "关系结束时间对公司及其关联公司有效。在关系当前有效的情况下，结束日期设为NULL。",
+    "由 Cybersyn 为每家公司分配的唯一标识符。可与 COMPANY_INDEX 表关联。",
+    "描述实体的类型或层级以便于使用。目前，所有实体均为公司实体，并标注为 'Corporate'。",
+    "Cybersyn 为相关公司分配的唯一标识符。可与 COMPANY_INDEX 表关联。",
+    "描述相关实体的类型或级别以方便使用。目前，所有实体均为公司实体，并以“Corporate”标识。",
+    "相关公司的名称。"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "sample_rows": [
+    {
+      "POI_ID": "08f269606d84474b0383b1e7e8c016f0",
+      "ADDRESS_ID": "addressId/98b58eaa8ec6d4166d2e181b221bdc78",
+      "BEZIEHUNGSTYP": "Overlaps",
+      "BEZIEHUNGSSTARTDATUM": null,
+      "BEZIEHUNGSENDDATUM": null
+    },
+    {
+      "POI_ID": "08f268cda876e7840399de7cbe47424a",
+      "ADDRESS_ID": "addressId/b68bf965318c97738ef54e952fdb7d3e",
+      "BEZIEHUNGSTYP": "Overlaps",
+      "BEZIEHUNGSSTARTDATUM": null,
+      "BEZIEHUNGSENDDATUM": null
+    },
+    {
+      "POI_ID": "08f283409da358d9038afebdd8a48370",
+      "ADDRESS_ID": "addressId/cfe743ff143eb73171361acd2c67b640",
+      "BEZIEHUNGSTYP": "Overlaps",
+      "BEZIEHUNGSSTARTDATUM": null,
+      "BEZIEHUNGSENDDATUM": null
+    },
+    {
+      "POI_ID": "08f44ac08654024c03d93bb8f3f122fd",
+      "ADDRESS_ID": "addressId/f7b067ec19a8c4e0d252a3534be6c2cd",
+      "BEZIEHUNGSTYP": "Overlaps",
+      "BEZIEHUNGSSTARTDATUM": null,
+      "BEZIEHUNGSENDDATUM": null
+    },
+    {
+      "POI_ID": "08f4413390635c1903c4104e6338a78f",
+      "ADDRESS_ID": "addressId/24274acb391d5356cf97a99ee9da08bb",
+      "BEZIEHUNGSTYP": "Overlaps",
+      "BEZIEHUNGSSTARTDATUM": null,
+      "BEZIEHUNGSENDDATUM": null
+    }
+  ],
+  "table_name": "POINT_OF_INTEREST_ADDRESSES_RELATIONSHIPS",
+  "table_fullname": "US_ADDRESSES__POI.CYBERSYN.POINT_OF_INTEREST_ADDRESSES_RELATIONSHIPS",
+  "column_names": [
+    "POI_ID",
+    "BEZIEHUNGSTYP",
+    "BEZIEHUNGSSTARTDATUM",
+    "BEZIEHUNGSENDDATUM",
+    "ADDRESS_ID"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "DATE",
+    "DATE",
+    "TEXT"
+  ],
+  "description": [
+    "Ein eindeutiger Identifikator für einen Punkt von Interesse (wie z. B. einen Park, eine Filiale einer Fast-Food-Kette, ein Hotel usw.) basierend auf seiner Beschreibung und Lage. Es kann mit der `point_of_interest_index`-Tabelle verknüpft werden.",
+    "Beziehung zwischen den beiden Orten. Wir verwenden 'Overlaps', um anzuzeigen, dass die `POI_ID` ein Teil der `ADDRESS_ID` ist (z. B. Beziehung einer Wohnung zu einem Wohngebäude, da es an einer Adresse mehrere Punkte von Interesse geben kann, besonders wenn die Daten keine genauen Untereinheiten enthalten).",
+    "Das Datum, ab dem eine bestimmte Beziehung gültig ist. Zum Beispiel, wenn der `NAME` eines Ortes an einer bestimmten `POI_ID` am 2023-04-01 geändert wurde, dann wird ein `relationship_start_date` von 2023-04-01 zugewiesen. Derzeit sind jedoch alle Werte in dieser Spalte NULL, da sie nur die aktuellen Merkmale ohne historische Änderungen enthält.",
+    "Das Datum, ab dem eine bestimmte Beziehung gültig ist. Zum Beispiel, wenn der `NAME` eines Ortes an einer bestimmten `POI_ID` am 2023-04-01 geändert wurde, dann wird ein `relationship_end_date` von 2023-03-31 für den `NAME` dieser `POI_ID` zugewiesen. Derzeit sind jedoch alle Werte in dieser Spalte NULL, da sie nur die aktuellen Merkmale ohne historische Änderungen enthält.",
+    "Ein eindeutiger Identifikator für eine Adresse basierend auf der Straßenadresse, der mit der `us_addresses`-Tabelle verknüpft werden kann."
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "table_name": "protein_classification_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.protein_classification_30",
+  "column_names": [
+    "蛋白类别ID",
+    "父级ID",
+    "偏好名称",
+    "短名称",
+    "蛋白质类别描述",
+    "定义",
+    "等级"
+  ],
+  "column_types": [
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "蛋白质类别ID",
+    "父级ID",
+    "偏好名称",
+    "简称",
+    "蛋白质类别描述",
+    "定义",
+    "级别"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64"
+  ],
+  "description": [
+    "主键。每个蛋白质家族分类的唯一标识符。",
+    "此蛋白家族父级的 Protein_class_id。",
+    "该蛋白家族的首选/完整名称",
+    "该蛋白家族的简短/缩写名称（不一定唯一）。",
+    "用于搜索等目的的每个分类的拼接描述。",
+    "蛋白质家族的定义。",
+    "在层级结构中的类别级别（级别 1 = 顶层分类）"
+  ],
+  "sample_rows": [
+    {
+      "蛋白质类别ID": 1,
+      "父级ID": 0,
+      "偏好名称": "Enzyme",
+      "简称": "Enzyme",
+      "蛋白质类别描述": "enzyme",
+      "定义": "Biological molecules that possess catalytic activity. They may occur naturally or be synthetically created. Enzymes are usually proteins, however CATALYTIC RNA and CATALYTIC DNA molecules have also been identified. [MESH:D004798]",
+      "级别": 1
+    },
+    {
+      "蛋白质类别ID": 2,
+      "父级ID": 0,
+      "偏好名称": "Adhesion",
+      "简称": "Adhesion",
+      "蛋白质类别描述": "adhesion",
+      "定义": "Surface ligands, usually glycoproteins, that mediate cell-to-cell adhesion. Their functions include the assembly and interconnection of various vertebrate systems, as well as maintenance of tissue integration, wound healing, morphogenic movements, cellular migrations, and metastasis. [MESH:D015815]",
+      "级别": 1
+    },
+    {
+      "蛋白质类别ID": 3,
+      "父级ID": 0,
+      "偏好名称": "Secreted protein",
+      "简称": "Secreted",
+      "蛋白质类别描述": "secreted",
+      "定义": null,
+      "级别": 1
+    },
+    {
+      "蛋白质类别ID": 4,
+      "父级ID": 0,
+      "偏好名称": "Structural protein",
+      "简称": "Structural",
+      "蛋白质类别描述": "structural",
+      "定义": null,
+      "级别": 1
+    },
+    {
+      "蛋白质类别ID": 5,
+      "父级ID": 0,
+      "偏好名称": "Other nuclear protein",
+      "简称": "Nuclear other",
+      "蛋白质类别描述": "nuclear other",
+      "定义": null,
+      "级别": 1
+    }
+  ]
+}

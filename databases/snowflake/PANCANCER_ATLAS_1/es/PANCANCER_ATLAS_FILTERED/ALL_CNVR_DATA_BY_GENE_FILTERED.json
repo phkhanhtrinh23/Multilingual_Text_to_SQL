@@ -1,0 +1,102 @@
+{
+  "table_name": "ALL_CNVR_DATA_BY_GENE_FILTERED",
+  "table_fullname": "PANCANCER_ATLAS_1.PANCANCER_ATLAS_FILTERED.ALL_CNVR_DATA_BY_GENE_FILTERED",
+  "column_names": [
+    "Tipo de Muestra",
+    "Código de muestra",
+    "Código de participante",
+    "Llamadas GISTIC",
+    "ID del locus",
+    "Estudio",
+    "Código de barras del alíquot",
+    "Cito banda",
+    "Código de Letra del Tipo de Muestra",
+    "Símbolo del gen"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "FLOAT",
+    "NUMBER",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Normal derivado de sangre\nTumor sólido primario\nNormal de tejido sólido\nTumor sólido recurrente\nMetastásico\nAdicional - Nuevo Primario\nCáncer primario derivado de sangre - Sangre periférica\nNormal de células bucales\nMetastásico adicional\nNormal de médula ósea",
+    "Código de barras de la muestra de bioespecimen, p.ej. TCGA-13-1489-02A",
+    "Identificador de código de barras TCGA para el participante del estudio, por ejemplo TCGA-02-0001",
+    "Llamadas de número de copia GISTIC",
+    "ID del locus génico, por ejemplo 57380, 100616303",
+    "Abreviatura de estudio TCGA, por ejemplo LAML. Lista completa disponible en https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/tcga-study-abbreviations",
+    "Código de barras de alícuota TCGA, p. ej. TCGA-12-1089-01A-01D-0517-28",
+    "Nombre completo de la banda citogenética, incluyendo el cromosoma. Por ejemplo, 17p13.2. Ver https://www.ncbi.nlm.nih.gov/Class/MLACourse/Original8Hour/Genetics/chrombanding.html",
+    "Código de letra del tipo de muestra según los estándares TCGA, por ejemplo TPN, EBV. Lista completa disponible en https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/sample-type-codes",
+    "p. ej., TP53, LRP1B, etc. (lo mismo que el campo Hugo_Symbol, salvo que esté vacío en lugar de \"Unknown\")"
+  ],
+  "sample_rows": [
+    {
+      "Código de participante": "TCGA-04-1331",
+      "Código de muestra": "TCGA-04-1331-01A",
+      "Código de barras del alíquot": "TCGA-04-1331-01A-01D-0428-01",
+      "Código de Letra del Tipo de Muestra": "TP",
+      "Tipo de Muestra": "Primary solid Tumor",
+      "Estudio": "OV",
+      "Símbolo del gen": "SLC44A3",
+      "ID del locus": 126969,
+      "Cito banda": "1p21.3",
+      "Llamadas GISTIC": 0.038
+    },
+    {
+      "Código de participante": "TCGA-04-1331",
+      "Código de muestra": "TCGA-04-1331-01A",
+      "Código de barras del alíquot": "TCGA-04-1331-01A-01D-0428-01",
+      "Código de Letra del Tipo de Muestra": "TP",
+      "Tipo de Muestra": "Primary solid Tumor",
+      "Estudio": "OV",
+      "Símbolo del gen": "FEZF2",
+      "ID del locus": 55079,
+      "Cito banda": "3p14.2",
+      "Llamadas GISTIC": 0.052
+    },
+    {
+      "Código de participante": "TCGA-04-1331",
+      "Código de muestra": "TCGA-04-1331-01A",
+      "Código de barras del alíquot": "TCGA-04-1331-01A-01D-0428-01",
+      "Código de Letra del Tipo de Muestra": "TP",
+      "Tipo de Muestra": "Primary solid Tumor",
+      "Estudio": "OV",
+      "Símbolo del gen": "SNORD55",
+      "ID del locus": 26811,
+      "Cito banda": "1p34.1",
+      "Llamadas GISTIC": 0.062
+    },
+    {
+      "Código de participante": "TCGA-04-1331",
+      "Código de muestra": "TCGA-04-1331-01A",
+      "Código de barras del alíquot": "TCGA-04-1331-01A-01D-0428-01",
+      "Código de Letra del Tipo de Muestra": "TP",
+      "Tipo de Muestra": "Primary solid Tumor",
+      "Estudio": "OV",
+      "Símbolo del gen": "FLT4",
+      "ID del locus": 2324,
+      "Cito banda": "5q35.3",
+      "Llamadas GISTIC": 0.06
+    },
+    {
+      "Código de participante": "TCGA-04-1331",
+      "Código de muestra": "TCGA-04-1331-01A",
+      "Código de barras del alíquot": "TCGA-04-1331-01A-01D-0428-01",
+      "Código de Letra del Tipo de Muestra": "TP",
+      "Tipo de Muestra": "Primary solid Tumor",
+      "Estudio": "OV",
+      "Símbolo del gen": "RP11-701P16.5",
+      "ID del locus": 731424,
+      "Cito banda": "4q35.1",
+      "Llamadas GISTIC": -0.61
+    }
+  ]
+}

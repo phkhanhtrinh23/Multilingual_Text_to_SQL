@@ -1,0 +1,78 @@
+{
+  "sample_rows": [
+    {
+      "ID_PORTEUR_AVION": "01212_11",
+      "NOM_PORTEUR": "Paklook Air, Inc d/b/a/ Airlift Alaska (2017 - 2017)",
+      "CODE_ZONE_MONDIALE_PORTEUR": 1,
+      "TYPE_PORTEUR": "Domestic Carrier",
+      "TYPE_PORTEUR_OAI": "Large Regional Carrier - $20-100M in revenue",
+      "ID_GEO_ETAT": "geoId/02",
+      "ID_GEO_PAYS": "country/USA"
+    },
+    {
+      "ID_PORTEUR_AVION": "01006_31",
+      "NOM_PORTEUR": "Virgin America (2007 - 2018)",
+      "CODE_ZONE_MONDIALE_PORTEUR": 10,
+      "TYPE_PORTEUR": "Domestic Carrier",
+      "TYPE_PORTEUR_OAI": "Major Carrier - $1B+ in revenue",
+      "ID_GEO_ETAT": null,
+      "ID_GEO_PAYS": null
+    },
+    {
+      "ID_PORTEUR_AVION": "06993_51",
+      "NOM_PORTEUR": "Bellair Inc. (1) (Domestic)",
+      "CODE_ZONE_MONDIALE_PORTEUR": 10,
+      "TYPE_PORTEUR": "Domestic Carrier",
+      "TYPE_PORTEUR_OAI": "Small Certified Carrier",
+      "ID_GEO_ETAT": null,
+      "ID_GEO_PAYS": null
+    },
+    {
+      "ID_PORTEUR_AVION": "16770 (1)_11",
+      "NOM_PORTEUR": "Reliant Airlines (1998 - 2003)",
+      "CODE_ZONE_MONDIALE_PORTEUR": 10,
+      "TYPE_PORTEUR": "Domestic Carrier",
+      "TYPE_PORTEUR_OAI": "Large Regional Carrier - $20-100M in revenue",
+      "ID_GEO_ETAT": null,
+      "ID_GEO_PAYS": null
+    },
+    {
+      "ID_PORTEUR_AVION": "06752_11",
+      "NOM_PORTEUR": "Pan American Airways Corp. (1999 - 2004)",
+      "CODE_ZONE_MONDIALE_PORTEUR": 10,
+      "TYPE_PORTEUR": "Domestic Carrier",
+      "TYPE_PORTEUR_OAI": "Large Regional Carrier - $20-100M in revenue",
+      "ID_GEO_ETAT": null,
+      "ID_GEO_PAYS": null
+    }
+  ],
+  "table_name": "AIRCRAFT_CARRIER_INDEX",
+  "table_fullname": "GLOBAL_GOVERNMENT.CYBERSYN.AIRCRAFT_CARRIER_INDEX",
+  "column_names": [
+    "CODE_ZONE_MONDIALE_PORTEUR",
+    "ID_PORTEUR_AVION",
+    "TYPE_PORTEUR",
+    "NOM_PORTEUR",
+    "ID_GEO_PAYS",
+    "TYPE_PORTEUR_OAI",
+    "ID_GEO_ETAT"
+  ],
+  "column_types": [
+    "NUMBER",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Identifiant US DOT de la zone géographique où le transporteur est basé.",
+    "ID unique pour le porte-avions.",
+    "Type de transporteur basé sur ses caractéristiques opérationnelles principales.",
+    "Nom du transporteur aéroportuaire.",
+    "Un identifiant unique pour un pays, joignable à la table `GEOGRAPHY_INDEX`, représentant la géographie principale pour la variable.",
+    "Type de transporteur aérien exploité (OAC) qui fournit une classification détaillée du type d'opérations menées par le transporteur.",
+    "Un identifiant unique pour un état, joignable à la table `GEOGRAPHY_INDEX`, représentant la géographie principale pour la variable."
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "table_name": "QUANT_PHOSPHOPROTEOME_TCGA_BREAST_CANCER_PDC_V1_21",
+  "table_fullname": "TCGA.TCGA_VERSIONED.QUANT_PHOSPHOPROTEOME_TCGA_BREAST_CANCER_PDC_V1_21",
+  "column_names": [
+    "id_caso",
+    "id_amostra",
+    "id_alíquota",
+    "id_metadados_execucao_alíquota",
+    "id_submetedor_alíquota",
+    "id_refseq",
+    "protein_abundance_log2ratio",
+    "sitios_de_fosforilação",
+    "nome_do_estudo"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "FLOAT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Identificador único associado a um paciente específico (e.g. 24cb0fcb-63d6-11e8-bcf1-0a2705229b82)",
+    "Identificador PDC único para esta amostra (e.g. e8d83eb9-693a-11ea-b1fd-0aad30af8a83)",
+    "Identificador PDC único para este alíquota (e.g. e8db124a-693a-11ea-b1fd-0aad30af8a83)",
+    "Identifica de forma única o alíquota pelo modo como foi utilizado no experimento (com base no reagente de marcação e/ou replicata biológica)",
+    "Id do submissor do alíquota atribuído pelo programa (e.g. T14)",
+    "Identificador único dado a uma sequência no banco de dados NCBI RefSeq",
+    "Média da razão logarítmica do íon do relatório da amostra para a referência comum dos íons de peptídeo associados ao gene nas aquisições de uma amostra biológica específica",
+    "Códigos de letra única e posições da sequência de proteína dos aminoácidos fosforilados (e.g. t304s310, t59)",
+    "Nome do estudo (e.g. Estudo Piloto de Câncer de Cérebro Pediátrico - Fosfoproteoma)"
+  ],
+  "sample_rows": [
+    {
+      "id_caso": "010df72d-63d9-11e8-bcf1-0a2705229b82",
+      "id_amostra": "9532a8b4-6420-11e8-bcf1-0a2705229b82",
+      "id_alíquota": "410a1984-6429-11e8-bcf1-0a2705229b82",
+      "id_submetedor_alíquota": "TCGA-E2-A10A-01A-12-A21V-30",
+      "id_metadados_execucao_alíquota": "27c280fc-5730-11e8-b664-00a098d917f8",
+      "nome_do_estudo": "TCGA Breast Cancer Phosphoproteome",
+      "protein_abundance_log2ratio": 0.5801,
+      "id_refseq": "NP_055949.2",
+      "sitios_de_fosforilação": "s797"
+    },
+    {
+      "id_caso": "010df72d-63d9-11e8-bcf1-0a2705229b82",
+      "id_amostra": "9532a8b4-6420-11e8-bcf1-0a2705229b82",
+      "id_alíquota": "410a1984-6429-11e8-bcf1-0a2705229b82",
+      "id_submetedor_alíquota": "TCGA-E2-A10A-01A-12-A21V-30",
+      "id_metadados_execucao_alíquota": "27c280fc-5730-11e8-b664-00a098d917f8",
+      "nome_do_estudo": "TCGA Breast Cancer Phosphoproteome",
+      "protein_abundance_log2ratio": -0.9613,
+      "id_refseq": "NP_006187.2",
+      "sitios_de_fosforilação": "s273"
+    },
+    {
+      "id_caso": "010df72d-63d9-11e8-bcf1-0a2705229b82",
+      "id_amostra": "9532a8b4-6420-11e8-bcf1-0a2705229b82",
+      "id_alíquota": "410a1984-6429-11e8-bcf1-0a2705229b82",
+      "id_submetedor_alíquota": "TCGA-E2-A10A-01A-12-A21V-30",
+      "id_metadados_execucao_alíquota": "27c280fc-5730-11e8-b664-00a098d917f8",
+      "nome_do_estudo": "TCGA Breast Cancer Phosphoproteome",
+      "protein_abundance_log2ratio": -3.7612,
+      "id_refseq": "NP_061916.3",
+      "sitios_de_fosforilação": "s529"
+    },
+    {
+      "id_caso": "010df72d-63d9-11e8-bcf1-0a2705229b82",
+      "id_amostra": "9532a8b4-6420-11e8-bcf1-0a2705229b82",
+      "id_alíquota": "410a1984-6429-11e8-bcf1-0a2705229b82",
+      "id_submetedor_alíquota": "TCGA-E2-A10A-01A-12-A21V-30",
+      "id_metadados_execucao_alíquota": "27c280fc-5730-11e8-b664-00a098d917f8",
+      "nome_do_estudo": "TCGA Breast Cancer Phosphoproteome",
+      "protein_abundance_log2ratio": -1.0397,
+      "id_refseq": "NP_004175.2",
+      "sitios_de_fosforilação": "s351"
+    },
+    {
+      "id_caso": "010df72d-63d9-11e8-bcf1-0a2705229b82",
+      "id_amostra": "9532a8b4-6420-11e8-bcf1-0a2705229b82",
+      "id_alíquota": "410a1984-6429-11e8-bcf1-0a2705229b82",
+      "id_submetedor_alíquota": "TCGA-E2-A10A-01A-12-A21V-30",
+      "id_metadados_execucao_alíquota": "27c280fc-5730-11e8-b664-00a098d917f8",
+      "nome_do_estudo": "TCGA Breast Cancer Phosphoproteome",
+      "protein_abundance_log2ratio": -0.9837,
+      "id_refseq": "NP_115971.2",
+      "sitios_de_fosforilação": "s1366"
+    }
+  ]
+}

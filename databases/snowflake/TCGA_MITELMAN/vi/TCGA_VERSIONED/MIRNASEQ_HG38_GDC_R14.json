@@ -1,0 +1,86 @@
+{
+  "table_name": "MIRNASEQ_HG38_GDC_R14",
+  "table_fullname": "TCGA_MITELMAN.TCGA_VERSIONED.MIRNASEQ_HG38_GDC_R14",
+  "column_names": [
+    "đọc trên triệu miRNA ánh xạ",
+    "mã vạch aliquot",
+    "Số lượt đọc",
+    "đã ánh xạ chéo",
+    "mã miRNA",
+    "mã vạch mẫu",
+    "mã vạch trường hợp",
+    "Tên ngắn dự án"
+  ],
+  "column_types": [
+    "FLOAT",
+    "TEXT",
+    "NUMBER",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Số đọc chuẩn hóa theo tổng số đọc ánh xạ chia cho 1 triệu",
+    "Mã vạch aliquot TCGA, ví dụ TCGA-12-1089-01A-01D-0517-28",
+    "Số lượng reads đã được ánh xạ tới mirna_id này",
+    "Một đoạn đọc isomiR ngắn có thể được ánh xạ chính xác tới các sợi trưởng thành có chuỗi tương tự nhưng không hoàn toàn giống nhau, khi chuỗi đọc không bao gồm các cơ sở phân biệt các miRNA này (ví dụ hsa-mir-30a tại 6q13 và hsa-mir-30e tại 1p34.2, khác nhau tại vị trí 18). Chúng tôi báo cáo đoạn đọc như <line_feed> đã bị ánh xạ chéo, và chúng tôi tăng số lượng đọc cho mỗi MIMAT mà nó đã ánh xạ tới. Có hoặc không -- ít hơn 2% là có",
+    "ID miRNA duy nhất (hay còn gọi là biểu tượng), ví dụ hsa-mir-21 -- Thông tin tham chiếu liên quan có thể được tìm thấy trong bộ dữ liệu isb-cgc:genome_reference trong các bảng miRBase_v21 và miRBase_v21_hsa_gff3",
+    "Mã vạch mẫu TCGA, ví dụ TCGA-12-1089-01A. Một mẫu có thể có nhiều bộ phân đoạn CN tương ứng với nhiều phần mẫu; hãy sử dụng GROUP BY một cách thích hợp trong các truy vấn.",
+    "Mã vạch trường hợp TCGA gốc, ví dụ TCGA-DX-A8BN",
+    "Viết tắt tên dự án; tên chương trình kèm theo viết tắt tên dự án; ví dụ: TCGA-OV, vv"
+  ],
+  "sample_rows": [
+    {
+      "Tên ngắn dự án": "TCGA-OV",
+      "mã vạch trường hợp": "TCGA-04-1331",
+      "mã vạch mẫu": "TCGA-04-1331-01A",
+      "mã vạch aliquot": "TCGA-04-1331-01A-01R-1569-13",
+      "mã miRNA": "hsa-mir-223",
+      "Số lượt đọc": 477,
+      "đọc trên triệu miRNA ánh xạ": 137.126693,
+      "đã ánh xạ chéo": "N"
+    },
+    {
+      "Tên ngắn dự án": "TCGA-OV",
+      "mã vạch trường hợp": "TCGA-04-1331",
+      "mã vạch mẫu": "TCGA-04-1331-01A",
+      "mã vạch aliquot": "TCGA-04-1331-01A-01R-1569-13",
+      "mã miRNA": "hsa-mir-3619",
+      "Số lượt đọc": 2,
+      "đọc trên triệu miRNA ánh xạ": 0.574955,
+      "đã ánh xạ chéo": "N"
+    },
+    {
+      "Tên ngắn dự án": "TCGA-OV",
+      "mã vạch trường hợp": "TCGA-04-1331",
+      "mã vạch mẫu": "TCGA-04-1331-01A",
+      "mã vạch aliquot": "TCGA-04-1331-01A-01R-1569-13",
+      "mã miRNA": "hsa-mir-8085",
+      "Số lượt đọc": 1,
+      "đọc trên triệu miRNA ánh xạ": 0.287477,
+      "đã ánh xạ chéo": "N"
+    },
+    {
+      "Tên ngắn dự án": "TCGA-OV",
+      "mã vạch trường hợp": "TCGA-04-1331",
+      "mã vạch mẫu": "TCGA-04-1331-01A",
+      "mã vạch aliquot": "TCGA-04-1331-01A-01R-1569-13",
+      "mã miRNA": "hsa-mir-425",
+      "Số lượt đọc": 1174,
+      "đọc trên triệu miRNA ánh xạ": 337.498401,
+      "đã ánh xạ chéo": "N"
+    },
+    {
+      "Tên ngắn dự án": "TCGA-OV",
+      "mã vạch trường hợp": "TCGA-04-1331",
+      "mã vạch mẫu": "TCGA-04-1331-01A",
+      "mã vạch aliquot": "TCGA-04-1331-01A-01R-1569-13",
+      "mã miRNA": "hsa-mir-27b",
+      "Số lượt đọc": 9276,
+      "đọc trên triệu miRNA ánh xạ": 2666.639835,
+      "đã ánh xạ chéo": "Y"
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "table_name": "DNA_METHYLATION_CHR17_HG38_GDC_2017_01",
+  "table_fullname": "TCGA.TCGA_VERSIONED.DNA_METHYLATION_CHR17_HG38_GDC_2017_01",
+  "column_names": [
+    "Mã GDC mẫu",
+    "mã vạch hộp",
+    "nền tảng",
+    "Mã thiết bị",
+    "Mã GDC mẫu",
+    "mã vạch mẫu",
+    "id_tệp_gdc",
+    "mã_trường_hợp_gdc",
+    "mã vạch mẫu",
+    "giá trị beta"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "FLOAT"
+  ],
+  "description": [
+    "Định danh duy nhất GDC cho mẫu này (tương ứng với mã vạch mẫu), ví dụ 7fbfdb3e-1fd2-4206-8d2e-7f68e4a15844  --  điều này có thể được sử dụng để truy cập thêm thông tin từ cổng dữ liệu GDC",
+    "Mã vạch trường hợp TCGA gốc, ví dụ: TCGA-DX-A8BN",
+    "Nền tảng được sử dụng để tạo dữ liệu này – có thể là HumanMethylation450 hoặc HumanMethylation27",
+    "ID duy nhất cho mạch phản ứng của mảng liên quan tới site CpG",
+    "Mã định danh GDC duy nhất cho mẫu này (tương ứng với sample_barcode), ví dụ a1ec9279-c1a6-4e58-97ed-9ec1f36187c5  --  có thể sử dụng để truy cập thêm thông tin từ cổng dữ liệu GDC.",
+    "Mã vạch mẫu TCGA, ví dụ TCGA-12-1089-01A. Một mẫu có thể có nhiều bộ phân đoạn CN tương ứng với nhiều aliquot; hãy sử dụng GROUP BY phù hợp trong các truy vấn.",
+    "Định danh GDC duy nhất cho tệp này (tương ứng với file_barcode)  --  có thể được sử dụng để truy cập thêm thông tin từ cổng dữ liệu GDC như sau: https://portal.gdc.cancer.gov/files/c21b332c-06c6-4403-9032-f91c8f407ba27",
+    "Định danh duy nhất của GDC cho trường hợp này (tương ứng với mã case_barcode). Có thể được sử dụng để truy cập thêm thông tin từ cổng dữ liệu GDC như sau: https://portal.gdc.cancer.gov/files/c21b332c-06c6-4403-9032-f91c8f407ba20",
+    "Mã vạch mẫu TCGA, ví dụ TCGA-12-1089-01A-01D-0517-12",
+    "Đại diện cho tỷ lệ giữa cường độ của mảng methyl hóa và tổng cường độ mảng, nằm trong khoảng 0 (cấp độ methyl hóa thấp hơn) và 1 (cấp độ methyl hóa cao hơn)."
+  ],
+  "sample_rows": [
+    {
+      "mã vạch hộp": "TCGA-A6-2670",
+      "mã vạch mẫu": "TCGA-A6-2670-01A-02D-0820-05",
+      "Mã thiết bị": "cg01482279",
+      "giá trị beta": 0.0257394182381047,
+      "nền tảng": null,
+      "id_tệp_gdc": "cdd5e1a9-1ce8-4361-9fca-61ccb7098b25",
+      "mã_trường_hợp_gdc": "65bb7520-f055-43a8-b735-1152fa2c9e04",
+      "Mã GDC mẫu": "b8074b70-ad2b-49e5-b70a-c6e8a6681830"
+    },
+    {
+      "mã vạch hộp": "TCGA-BR-4195",
+      "mã vạch mẫu": "TCGA-BR-4195-01A-01D-1129-05",
+      "Mã thiết bị": "cg03073814",
+      "giá trị beta": 0.0263261531092342,
+      "nền tảng": null,
+      "id_tệp_gdc": "3cdb39db-dbac-4f9c-9762-739adaa54e0c",
+      "mã_trường_hợp_gdc": "7917234c-63be-4320-b7af-535381f99d99",
+      "Mã GDC mẫu": "3bc44cb4-b523-4ed9-bf8b-fc9f0961f45e"
+    },
+    {
+      "mã vạch hộp": "TCGA-BR-4196",
+      "mã vạch mẫu": "TCGA-BR-4196-01A-01D-1129-05",
+      "Mã thiết bị": "cg12455187",
+      "giá trị beta": 0.388598224256947,
+      "nền tảng": null,
+      "id_tệp_gdc": "67c47269-a491-4704-bdf0-89d359ee2e6b",
+      "mã_trường_hợp_gdc": "c23e0eb6-e332-4a3b-9ffd-0d8f019f8ace",
+      "Mã GDC mẫu": "f4c5ade8-56ca-4500-a770-8892c847acae"
+    },
+    {
+      "mã vạch hộp": "TCGA-BR-4196",
+      "mã vạch mẫu": "TCGA-BR-4196-01A-01D-1129-05",
+      "Mã thiết bị": "cg20797699",
+      "giá trị beta": 0.0332588896440295,
+      "nền tảng": null,
+      "id_tệp_gdc": "67c47269-a491-4704-bdf0-89d359ee2e6b",
+      "mã_trường_hợp_gdc": "c23e0eb6-e332-4a3b-9ffd-0d8f019f8ace",
+      "Mã GDC mẫu": "f4c5ade8-56ca-4500-a770-8892c847acae"
+    },
+    {
+      "mã vạch hộp": "TCGA-BR-4199",
+      "mã vạch mẫu": "TCGA-BR-4199-11A-01D-1129-05",
+      "Mã thiết bị": "cg09538582",
+      "giá trị beta": 0.932792085930212,
+      "nền tảng": null,
+      "id_tệp_gdc": "b1652454-6140-4259-8655-7b8e4ab8d348",
+      "mã_trường_hợp_gdc": "a73a0dc5-ac20-466b-ad11-d5cbbe9af2f7",
+      "Mã GDC mẫu": "a616cd2f-5313-4914-b0d4-02484108f83e"
+    }
+  ]
+}

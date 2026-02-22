@@ -1,0 +1,96 @@
+{
+  "table_name": "MolClinGene",
+  "table_fullname": "mitelman-db.prod.MolClinGene",
+  "column_names": [
+    "Y tế phân tử",
+    "Số tham chiếu",
+    "Số Hóa Đơn",
+    "Số đơn",
+    "Tiền tố",
+    "Gen",
+    "Hậu tố"
+  ],
+  "column_types": [
+    "STRING",
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "Phân tử lâm sàng",
+    "Số tham chiếu",
+    "Số Hóa Đơn",
+    "Số Đơn Hàng",
+    "Tiền tố",
+    "điểm gen",
+    "hậu tố"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "cờ chỉ ra hoặc 'M' (phân tử), hoặc 'C' (lâm sàng)",
+    "số tham chiếu, ví dụ '15563'",
+    "số điều tra, thường từ 1 đến 10",
+    "số thứ tự, từ 1 đến 15",
+    "xâu tiền tố -- hoặc rỗng hoặc '+'",
+    "ký hiệu gene, ví dụ 'KMT2A' hoặc 'BCR/ABL1'",
+    "xâu hậu tố -- hoặc trống hoặc '+'"
+  ],
+  "sample_rows": [
+    {
+      "Phân tử lâm sàng": "C",
+      "Số tham chiếu": 3967,
+      "Số Hóa Đơn": 1,
+      "Số Đơn Hàng": 1,
+      "Tiền tố": null,
+      "điểm gen": "BCR::ABL1",
+      "hậu tố": null
+    },
+    {
+      "Phân tử lâm sàng": "C",
+      "Số tham chiếu": 3976,
+      "Số Hóa Đơn": 1,
+      "Số Đơn Hàng": 1,
+      "Tiền tố": null,
+      "điểm gen": "BCR::ABL1",
+      "hậu tố": null
+    },
+    {
+      "Phân tử lâm sàng": "C",
+      "Số tham chiếu": 3976,
+      "Số Hóa Đơn": 2,
+      "Số Đơn Hàng": 1,
+      "Tiền tố": null,
+      "điểm gen": "BCR::ABL1",
+      "hậu tố": null
+    },
+    {
+      "Phân tử lâm sàng": "C",
+      "Số tham chiếu": 4541,
+      "Số Hóa Đơn": 1,
+      "Số Đơn Hàng": 1,
+      "Tiền tố": null,
+      "điểm gen": "PML::RARA",
+      "hậu tố": null
+    },
+    {
+      "Phân tử lâm sàng": "C",
+      "Số tham chiếu": 4624,
+      "Số Hóa Đơn": 1,
+      "Số Đơn Hàng": 1,
+      "Tiền tố": null,
+      "điểm gen": "BCR::ABL1",
+      "hậu tố": null
+    }
+  ]
+}

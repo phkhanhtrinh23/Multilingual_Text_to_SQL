@@ -1,0 +1,76 @@
+{
+  "table_name": "chembl_id_lookup_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.chembl_id_lookup_30",
+  "column_names": [
+    "化学数据库ID",
+    "实体类型",
+    "实体ID",
+    "状态",
+    "最近活跃"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "INT64",
+    "STRING",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "Chembl编号",
+    "实体类型",
+    "实体ID",
+    "状态",
+    "最近活跃"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "INT64",
+    "STRING",
+    "INT64"
+  ],
+  "description": [
+    "ChEMBL 标识符",
+    "实体类型（例如，化合物、测定、靶点）",
+    "该实体在对应表中的主键（例如，化合物的 molregno，靶点的 tid）",
+    "表示实体在数据库中的状态：ACTIVE（活动）、INACTIVE（停用/降级）、OBS（过时/已移除）。",
+    "指示 CHEMBL_ID 最后一次活跃时的 ChEMBL 版本"
+  ],
+  "sample_rows": [
+    {
+      "Chembl编号": "CHEMBL1075036",
+      "实体类型": "TARGET",
+      "实体ID": 102994,
+      "状态": "OBS",
+      "最近活跃": 20
+    },
+    {
+      "Chembl编号": "CHEMBL1075114",
+      "实体类型": "TARGET",
+      "实体ID": 103040,
+      "状态": "OBS",
+      "最近活跃": 16
+    },
+    {
+      "Chembl编号": "CHEMBL1075122",
+      "实体类型": "TARGET",
+      "实体ID": 103049,
+      "状态": "OBS",
+      "最近活跃": 16
+    },
+    {
+      "Chembl编号": "CHEMBL1075123",
+      "实体类型": "TARGET",
+      "实体ID": 103050,
+      "状态": "OBS",
+      "最近活跃": 16
+    },
+    {
+      "Chembl编号": "CHEMBL1075124",
+      "实体类型": "TARGET",
+      "实体ID": 103051,
+      "状态": "OBS",
+      "最近活跃": 16
+    }
+  ]
+}

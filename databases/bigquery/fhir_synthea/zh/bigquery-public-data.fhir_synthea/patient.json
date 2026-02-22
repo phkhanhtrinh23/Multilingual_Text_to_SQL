@@ -1,0 +1,1983 @@
+{
+  "table_name": "patient",
+  "table_fullname": "bigquery-public-data.fhir_synthea.patient",
+  "column_names": [
+    "活跃",
+    "动物",
+    "联系人",
+    "全科医生",
+    "隐式规则",
+    "语言",
+    "链接",
+    "管理机构",
+    "照片",
+    "出生地",
+    "残疾调整寿命年",
+    "患者母亲的原姓",
+    "质量调整生命年",
+    "演员虚构人物扩展",
+    "社会保险号扩展",
+    "父亲姓名扩展",
+    "个人扩展",
+    "出生性别",
+    "美国核心族裔",
+    "美国种族",
+    "地址",
+    "出生日期",
+    "沟通",
+    "已故",
+    "性别",
+    "编号",
+    "标识符",
+    "婚姻状况",
+    "元",
+    "多胎",
+    "姓名",
+    "电信",
+    "文本"
+  ],
+  "column_types": [
+    "BOOL",
+    "STRUCT<species STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>, breed STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>, genderStatus STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>>",
+    "ARRAY<STRUCT<relationship ARRAY<STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>>, name STRUCT<use STRING, text STRING, family STRING, given ARRAY<STRING>, prefix ARRAY<STRING>, suffix ARRAY<STRING>, period STRUCT<start STRING, `end` STRING>>, telecom ARRAY<STRUCT<system STRING, value STRING, use STRING, rank INT64, period STRUCT<start STRING, `end` STRING>>>, address STRUCT<use STRING, type STRING, text STRING, line ARRAY<STRING>, city STRING, district STRING, state STRING, postalCode STRING, country STRING, period STRUCT<start STRING, `end` STRING>>, gender STRING, organization STRUCT<organizationId STRING, reference STRING, identifier STRUCT<use STRING, type STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>, system STRING, value STRING, period STRUCT<start STRING, `end` STRING>, assigner STRUCT<organizationId STRING, reference STRING, identifier STRUCT<use STRING, type STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>, system STRING, value STRING, period STRUCT<start STRING, `end` STRING>, assigner STRUCT<organizationId STRING, reference STRING, display STRING>>, display STRING>>, display STRING>, period STRUCT<start STRING, `end` STRING>>>",
+    "ARRAY<STRUCT<organizationId STRING, practitionerId STRING, reference STRING, identifier STRUCT<use STRING, type STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>, system STRING, value STRING, period STRUCT<start STRING, `end` STRING>, assigner STRUCT<organizationId STRING, reference STRING, identifier STRUCT<use STRING, type STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>, system STRING, value STRING, period STRUCT<start STRING, `end` STRING>, assigner STRUCT<organizationId STRING, reference STRING, display STRING>>, display STRING>>, display STRING>>",
+    "STRING",
+    "STRING",
+    "ARRAY<STRUCT<other STRUCT<patientId STRING, relatedPersonId STRING, reference STRING, identifier STRUCT<use STRING, type STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>, system STRING, value STRING, period STRUCT<start STRING, `end` STRING>, assigner STRUCT<organizationId STRING, reference STRING, identifier STRUCT<use STRING, type STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>, system STRING, value STRING, period STRUCT<start STRING, `end` STRING>, assigner STRUCT<organizationId STRING, reference STRING, display STRING>>, display STRING>>, display STRING>, type STRING>>",
+    "STRUCT<organizationId STRING, reference STRING, identifier STRUCT<use STRING, type STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>, system STRING, value STRING, period STRUCT<start STRING, `end` STRING>, assigner STRUCT<organizationId STRING, reference STRING, identifier STRUCT<use STRING, type STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>, system STRING, value STRING, period STRUCT<start STRING, `end` STRING>, assigner STRUCT<organizationId STRING, reference STRING, display STRING>>, display STRING>>, display STRING>",
+    "ARRAY<STRUCT<contentType STRING, language STRING, data STRING, url STRING, size INT64, `hash` STRING, title STRING, creation STRING>>",
+    "STRUCT<value STRUCT<address STRUCT<city STRING, country STRING, state STRING>>>",
+    "STRUCT<value STRUCT<decimal FLOAT64>>",
+    "STRUCT<value STRUCT<string STRING>>",
+    "STRUCT<value STRUCT<decimal FLOAT64>>",
+    "STRUCT<value STRUCT<boolean BOOL>>",
+    "STRUCT<value STRUCT<string STRING>>",
+    "STRUCT<value STRUCT<humanName STRUCT<text STRING>>>",
+    "STRUCT<value STRUCT<reference STRUCT<basicId STRING>>>",
+    "STRUCT<value STRUCT<code STRING>>",
+    "STRUCT<ombCategory STRUCT<value STRUCT<coding STRUCT<code STRING, display STRING, system STRING>>>, text STRUCT<value STRUCT<string STRING>>>",
+    "STRUCT<ombCategory STRUCT<value STRUCT<coding STRUCT<code STRING, display STRING, system STRING>>>, text STRUCT<value STRUCT<string STRING>>>",
+    "ARRAY<STRUCT<district STRING, period STRUCT<start STRING, `end` STRING>, text STRING, type STRING, use STRING, geolocation STRUCT<latitude STRUCT<value STRUCT<decimal FLOAT64>>, longitude STRUCT<value STRUCT<decimal FLOAT64>>>, city STRING, country STRING, line ARRAY<STRING>, postalCode STRING, state STRING>>",
+    "STRING",
+    "ARRAY<STRUCT<preferred BOOL, language STRUCT<coding ARRAY<STRUCT<userSelected BOOL, version STRING, code STRING, display STRING, system STRING>>, text STRING>>>",
+    "STRUCT<boolean BOOL, dateTime STRING>",
+    "STRING",
+    "STRING",
+    "ARRAY<STRUCT<assigner STRUCT<organizationId STRING, reference STRING, identifier STRUCT<use STRING, type STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>, system STRING, value STRING, period STRUCT<start STRING, `end` STRING>, assigner STRUCT<organizationId STRING, reference STRING, display STRING>>, display STRING>, period STRUCT<start STRING, `end` STRING>, use STRING, system STRING, type STRUCT<coding ARRAY<STRUCT<userSelected BOOL, version STRING, code STRING, display STRING, system STRING>>, text STRING>, value STRING>>",
+    "STRUCT<coding ARRAY<STRUCT<userSelected BOOL, version STRING, code STRING, display STRING, system STRING>>, text STRING>",
+    "STRUCT<lastUpdated TIMESTAMP, security ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, tag ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, versionId STRING, profile ARRAY<STRING>>",
+    "STRUCT<boolean BOOL, integer INT64>",
+    "ARRAY<STRUCT<period STRUCT<start STRING, `end` STRING>, text STRING, family STRING, given ARRAY<STRING>, prefix ARRAY<STRING>, suffix ARRAY<STRING>, use STRING>>",
+    "ARRAY<STRUCT<period STRUCT<start STRING, `end` STRING>, rank INT64, system STRING, use STRING, value STRING>>",
+    "STRUCT<div STRING, status STRING>"
+  ],
+  "nested_column_names": [
+    "活跃",
+    "动物",
+    "动物种类",
+    "动物物种编码",
+    "动物.物种.编码.系统",
+    "动物.物种.编码.版本",
+    "动物物种编码代码",
+    "动物物种编码显示",
+    "动物物种编码用户选择",
+    "动物种类文本",
+    "动物品种",
+    "动物.品种.编码",
+    "动物品种编码系统",
+    "动物 品种 编码 版本",
+    "动物\n品种\n编码\n代码",
+    "动物\n品种\n编码\n显示",
+    "动物\n品种\n编码\n用户选择",
+    "动物品种文本",
+    "动物性别状态",
+    "动物性别状态编码",
+    "动物性别状态编码系统",
+    "动物.性别状态.编码.版本",
+    "动物性别状态编码",
+    "动物性别状态编码显示",
+    "动物性别状态编码用户选择",
+    "动物性别状态",
+    "联系",
+    "联系人关系",
+    "联系人关系编码",
+    "联系人关系编码系统",
+    "联系.关系.编码.版本",
+    "联系人.关系.编码.代码",
+    "联系人.关系.编码.显示",
+    "用户选择的联系人关系编码",
+    "联系人关系文本",
+    "联系人姓名",
+    "使用联系人姓名",
+    "联系人姓名文本",
+    "姓氏",
+    "名",
+    "联系人姓名前缀",
+    "联系人姓名后缀",
+    "联系人姓名期间",
+    "联系人姓名周期开始",
+    "联系人姓名期间结束",
+    "通信方式",
+    "联系电信系统",
+    "联系电信值",
+    "使用电信联系方式",
+    "联系电信排名",
+    "联系人 电信期间",
+    "通信期开始",
+    "联系电信周期结束",
+    "联系地址",
+    "联系地址用途",
+    "联系人地址类型",
+    "联系地址文本",
+    "联系人地址行",
+    "联系人.地址.城市",
+    "联系人地址区",
+    "联系地址州",
+    "联系地址邮政编码",
+    "联系地址国家",
+    "联系人地址期间",
+    "联系人地址开始",
+    "联系人地址失效时间",
+    "联系人性别",
+    "联系组织",
+    "联系人.组织机构.组织机构编号",
+    "联系人组织参考",
+    "联系人.组织标识",
+    "联系人组织标识使用",
+    "联系人组织标识类型",
+    "联系人组织标识类型编码",
+    "联系人机构标识符类型编码系统",
+    "联系人.组织.标识符.类型.编码.版本",
+    "联系机构标识类型编码",
+    "联系人.组织.标识符.类型.编码.显示",
+    "联系人组织标识类型编码用户选择",
+    "联系人组织标识类型文本",
+    "联系人机构标识系统",
+    "联系人组织标识值",
+    "联系人组织标识有效期",
+    "联系人组织标识有效期开始",
+    "联系人.组织.标识.期间.结束",
+    "联系人组织标识分配人",
+    "联系人组织标识分配者组织ID",
+    "联系人组织标识符分配者引用",
+    "联系组织ID分配者ID",
+    "联系人.组织.标识.指派者.标识.用途",
+    "联系人机构标识符分配者标识符类型",
+    "联系人组织标识符分配者标识符类型编码",
+    "联系.组织.标识符.分配者.标识符.类型.编码.系统",
+    "联系人.组织.标识符.指派者.标识符.类型.编码.版本",
+    "联系组织标识符指定者标识符类型编码代码",
+    "联系人.组织.标识.分配者.标识.类型.编码.显示",
+    "联系人组织标识符分配者标识符类型编码已选择",
+    "联系人.组织.标识.分配者.标识.类型.文本",
+    "联系人组织标识符分配者标识符系统",
+    "联系人组织标识分配者标识值",
+    "联系人组织标识分配者标识有效期",
+    "联系机构标识符指派者标识符时间段开始",
+    "联系人组织标识符分配者标识符期间结束",
+    "联系人.机构.标识符.分配者.标识符.分配者",
+    "联系人.组织.标识符.分配者.标识符.分配者.组织ID",
+    "联系人机构标识符分配者标识符分配者参考",
+    "联系人 组织 标识符 指派者 标识符 指派者 显示",
+    "联系组织标识符分配者显示",
+    "联系人组织显示",
+    "联系周期",
+    "联系周期开始",
+    "接触期结束",
+    "全科医生",
+    "全科医生.机构ID",
+    "全科医师ID",
+    "全科医生引用",
+    "全科医生标识",
+    "全科医生.标识符.使用",
+    "全科医生.标识符.类型",
+    "全科医生标识类型编码",
+    "全科医生标识符类型编码系统",
+    "通用执业医师识别码类型编码版本",
+    "全科医生标识类型编码代码",
+    "全科医生.标识符.类型.编码.显示",
+    "全科医生标识符类型编码已选",
+    "全科医生标识符类型文本",
+    "全科医生.标识符.系统",
+    "全科医生.标识符.值",
+    "全科医生.标识.期间",
+    "全科医生.标识符.期间.开始",
+    "全科医生标识期间结束",
+    "全科医生标识符分配者",
+    "全科医生识别码分配者机构编号",
+    "全科医生.标识符.指派者.引用",
+    "全科医生标识符分配者标识符",
+    "全科医生标识符分配者标识符用途",
+    "全科医生.标识符.指定者.标识符类型",
+    "全科医生标识符分配者标识符类型编码",
+    "全科医生.标识符.分配者.标识符.类型.编码.系统",
+    "通用医生标识符分配者标识符类型编码版本",
+    "全科医生.标识.指定者.标识.类型.编码.代码",
+    "主治医生.标识符.分配者.标识符.类型.编码.显示",
+    "医生标识符分配者标识符类型编码用户选择",
+    "全科医生.标识符.指定者.标识符.类型.文本",
+    "全科医生.标识.分配者.标识.系统",
+    "全科医生.标识符.分配者.标识符.值",
+    "全科医生 标识符 分配者 标识符 期间",
+    "全科医生.标识符.分配者.标识符.期间.开始",
+    "全科医生标识符指定者标识符期间结束",
+    "全科医生.标识.分配者.标识.分配者",
+    "全科医生.标识.指定者.标识.指定者.组织ID",
+    "全科医生.标识符.指定者.标识符.指定者.引用",
+    "全科医生.标识符.分配者.标识符.分配者.显示",
+    "全科医生.标识符.分配者.显示",
+    "全科医生显示",
+    "隐式规则",
+    "语言",
+    "链接",
+    "其他链接",
+    "链接其他患者ID",
+    "链接其他相关人员ID",
+    "其他参考链接",
+    "链接其他标识符",
+    "使用其他标识符链接",
+    "其他链接标识符类型",
+    "链接其他标识符类型编码",
+    "链接其他标识符类型编码系统",
+    "链接其他标识符类型编码版本",
+    "其他标识符类型编码代码",
+    "链接.其他.标识符.类型.编码.显示",
+    "链接其他标识符类型编码已选",
+    "链接其他标识符类型文本",
+    "链接其他标识符系统",
+    "链接其他标识符值",
+    "链接其他标识符期间",
+    "链接其他标识符期间起始",
+    "其他标识符周期结束链接",
+    "链接其他标识符指派者",
+    "链接其他标识符分配者组织ID",
+    "链接.其他.标识符.赋值者.引用",
+    "链接其他标识符分配者的标识符",
+    "链接其他标识符分配者标识符使用",
+    "链接其他标识符分配者标识符类型",
+    "其他链接标识符指派者标识符类型编码",
+    "链接其他标识符委托人标识符类型编码系统",
+    "链接.其他.标识符.分配者.标识符.类型.编码.版本",
+    "链接.其他.标识符.分配者.标识符.类型.编码.代码",
+    "链接.其他.标识.指派者.标识.类型.编码.显示",
+    "链接_其他_标识符_分配者_标识符_类型_编码_用户已选",
+    "链接其他标识符分配者标识符类型文本",
+    "链接.其他.标识符.指派者.标识符.系统",
+    "链接.其他.标识符.分配者.标识符.值",
+    "链接.其他.标识符.分配者.标识符.期间",
+    "链接其他标识符分配者标识符周期开始",
+    "链接其他标识符指派者标识符期间结束",
+    "链接.其他.标识符.指派者.标识符.指派者",
+    "链接其他标识符分配者标识符分配者组织ID",
+    "链接.其他.标识符.分配者.标识符.分配者.引用",
+    "链接其他标识符指定者标识符指定者显示",
+    "链接其他标识符分配者显示",
+    "其他链接显示",
+    "链接类型",
+    "管理机构",
+    "管理组织ID",
+    "管理机构引用",
+    "管理组织标识",
+    "管理组织标识用途",
+    "管理机构标识符类型",
+    "管理机构.标识符.类型.编码",
+    "管理机构标识类型编码系统",
+    "管理组织标识符类型编码版本",
+    "管理机构标识符类型编码代码",
+    "管理组织标识类型编码显示",
+    "管理组织.标识符.类型.编码.用户选择",
+    "管理机构标识类型文本",
+    "管理机构标识符系统",
+    "管理机构标识值",
+    "管理机构标识有效期",
+    "管理机构标识符期间开始",
+    "管理机构标识符期间结束",
+    "管理机构.标识符.分配者",
+    "管理机构标识符分配者组织ID",
+    "管理组织.标识符.分配者.引用",
+    "管理组织标识符分配者标识符",
+    "管理组织标识符分配者标识符用途",
+    "管理机构.标识符.分配者.标识符.类型",
+    "管理组织.标识符.分配者.标识符.类型.编码",
+    "管理组织.标识.指定者.标识.类型.编码.系统",
+    "管理机构.标识符.分配者.标识符.类型.编码.版本",
+    "管理组织.标识符.分配者.标识符.类型.编码.代码",
+    "管理机构标识分配者标识类型编码显示",
+    "管理机构.标识符.指派者.标识符.类型.编码.用户选择",
+    "管理机构.标识符.指派者.标识符.类型.文本",
+    "管理组织标识符分配者标识符系统",
+    "管理机构.标识.指定者.标识.值",
+    "管理组织.标识符.分配者.标识符.期间",
+    "管理组织标识符分配者标识符期间开始",
+    "管理机构.标识符.分配者.标识符.期间.结束",
+    "管理组织标识分配者标识分配者",
+    "管理组织标识符指派者标识符指派者组织ID",
+    "管理组织标识符指派者标识符指派者引用",
+    "管理组织.标识.分配者.标识.分配者.显示",
+    "管理机构.标识符.指派者.显示",
+    "管理组织显示",
+    "照片",
+    "照片内容类型",
+    "照片语言",
+    "照片数据",
+    "照片链接",
+    "照片尺寸",
+    "照片哈希",
+    "照片标题",
+    "照片创建",
+    "出生地点",
+    "出生地点值",
+    "出生地地址",
+    "出生地点.值.地址.城市",
+    "出生地值地址国家",
+    "出生地点.值.地址.州",
+    "残疾调整生命年",
+    "残疾调整寿命年.值",
+    "残疾调整寿命年.值.小数",
+    "患者母亲娘家姓",
+    "病人母亲的娘家姓",
+    "患者母亲原姓值字符串",
+    "质量调整生命年",
+    "质量调整生命年数.value",
+    "质量调整生命年值小数",
+    "shr_演员_虚构人物_扩展",
+    "shr_演员_虚构人物_扩展_值",
+    "演员虚构人物扩展.值.布尔",
+    "shr_人口统计_社会保险号_扩展",
+    "shr_人口统计_社会保险号_扩展_值",
+    "shr_人口统计_社会保险号码_扩展值字符串",
+    "父亲姓名扩展",
+    "父亲姓名扩展值",
+    "父亲姓名扩展值人名",
+    "shr_entity_父亲姓名扩展.值.人名文本",
+    "个人扩展实体",
+    "shr实体_个人扩展值",
+    "shr实体_人扩展.值.参考",
+    "基本编号",
+    "出生性别",
+    "出生性别值",
+    "出生性别代码",
+    "美国族裔",
+    "美国核心族裔.OMB类别",
+    "美国核心族裔.OMB类别.值",
+    "美国核心族裔.OMB类别.值.编码",
+    "美国核心种族.OMB类别.值.编码.代码",
+    "美国核心族裔.OMB分类.值.编码.显示文本",
+    "美国核心族裔OMB类别值编码系统",
+    "美国核心族裔文本",
+    "美国核心族裔文本值",
+    "美国核心族裔文本值字符串",
+    "美国种族",
+    "美国核心种族OMB类别",
+    "美国核心种族.OMB类别.值",
+    "美国核心种族.OMB类别.值.编码",
+    "美国核心种族.OMB类别.值.编码.代码",
+    "美国核心种族.OMB类别.值.编码.显示",
+    "美国核心种族.OMB类别.值.编码.系统",
+    "美国核心种族文本",
+    "US核心种族文本值",
+    "美国核心种族文本值字符串",
+    "地址",
+    "地址区",
+    "地址期间",
+    "地址周期开始",
+    "地址结束日期",
+    "地址文本",
+    "地址类型",
+    "地址使用",
+    "地址地理位置",
+    "地址.地理位置.纬度",
+    "地址.地理位置.纬度.值",
+    "地址.地理位置.纬度.值.小数",
+    "地址.地理位置.经度",
+    "地址.地理位置.经度.值",
+    "地址.地理位置.经度.值.十进制",
+    "城市",
+    "国家",
+    "地址行",
+    "地址邮编",
+    "州",
+    "出生日期",
+    "沟通",
+    "首选沟通方式",
+    "沟通语言",
+    "通信语言编码",
+    "通信语言编码用户选择",
+    "通信.语言.编码.版本",
+    "沟通.语言.编码.代码",
+    "通信语言编码显示",
+    "通信语言编码系统",
+    "沟通语言文本",
+    "已故",
+    "已故",
+    "逝世日期时间",
+    "性别",
+    "编号",
+    "标识符",
+    "标识符分配器",
+    "标识符.分配者.组织机构ID",
+    "标识符.分配者.参考",
+    "标识符.指派者.标识符",
+    "标识符.分配者.标识符.用途",
+    "标识符.分配者.标识符.类型",
+    "标识符.指派者.标识符.类型.编码",
+    "标识符.指派者.标识符.类型.编码.系统",
+    "标识符.分配者.标识符.类型.编码.版本",
+    "标识符.分配者.标识符.类型.编码.代码",
+    "标识符.分配者.标识符.类型.编码.显示",
+    "用户选定的编码类型的分配者标识符",
+    "标识符.分配者.标识符.类型.文本",
+    "标识符.分配者.标识符.系统",
+    "标识符.分配者.标识符.值",
+    "标识符\n指派者\n标识符\n期间",
+    "标识符.分配者.标识符.期间.开始",
+    "标识符.指派者.标识符.期间.结束",
+    "标识符.分配者.标识符.分配者",
+    "标识符.分配者.标识符.分配者.组织标识",
+    "标识符.分配者.标识符.分配者.引用",
+    "标识符.指派者.标识符.指派者.显示",
+    "标识符指派者显示",
+    "标识符期间",
+    "标识符期初",
+    "标识符周期结束",
+    "使用标识符",
+    "标识符系统",
+    "标识符类型",
+    "标识符类型编码",
+    "用户选择的编码类型标识",
+    "标识符.类型.编码.版本",
+    "标识符类型编码代码",
+    "识别码.类型.编码.显示",
+    "标识符类型编码系统",
+    "标识符类型文本",
+    "标识符值",
+    "婚姻状况",
+    "婚姻状况编码",
+    "用户选择的婚姻状态编码",
+    "婚姻状况编码版本",
+    "婚姻状况编码",
+    "婚姻状态编码显示",
+    "婚姻状况编码系统",
+    "婚姻状况",
+    "元数据",
+    "最后更新时间",
+    "元数据安全",
+    "元安全系统",
+    "元安全版本",
+    "安全代码",
+    "元安全显示",
+    "元数据安全用户已选择",
+    "元标签",
+    "元标签系统",
+    "元标签版本",
+    "元标签代码",
+    "Meta标签显示",
+    "用户已选择",
+    "元数据版本号",
+    "元个人资料",
+    "多胎",
+    "多胎出生",
+    "多胎整数",
+    "名称",
+    "姓名.周期",
+    "名称.周期.开始",
+    "名称.周期.结束",
+    "姓名文本",
+    "姓氏",
+    "名字",
+    "姓名前缀",
+    "姓名后缀",
+    "使用名称",
+    "电信",
+    "电信期间",
+    "电信周期开始",
+    "电信期间结束",
+    "电信排名",
+    "电信系统",
+    "电信使用",
+    "电信价值",
+    "文本",
+    "文本区",
+    "文本状态"
+  ],
+  "nested_column_types": [
+    "BOOL",
+    "STRUCT<species STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>, breed STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>, genderStatus STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>>",
+    "STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>",
+    "ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "BOOL",
+    "STRING",
+    "STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>",
+    "ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "BOOL",
+    "STRING",
+    "STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>",
+    "ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "BOOL",
+    "STRING",
+    "ARRAY<STRUCT<relationship ARRAY<STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>>, name STRUCT<use STRING, text STRING, family STRING, given ARRAY<STRING>, prefix ARRAY<STRING>, suffix ARRAY<STRING>, period STRUCT<start STRING, `end` STRING>>, telecom ARRAY<STRUCT<system STRING, value STRING, use STRING, rank INT64, period STRUCT<start STRING, `end` STRING>>>, address STRUCT<use STRING, type STRING, text STRING, line ARRAY<STRING>, city STRING, district STRING, state STRING, postalCode STRING, country STRING, period STRUCT<start STRING, `end` STRING>>, gender STRING, organization STRUCT<organizationId STRING, reference STRING, identifier STRUCT<use STRING, type STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>, system STRING, value STRING, period STRUCT<start STRING, `end` STRING>, assigner STRUCT<organizationId STRING, reference STRING, identifier STRUCT<use STRING, type STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>, system STRING, value STRING, period STRUCT<start STRING, `end` STRING>, assigner STRUCT<organizationId STRING, reference STRING, display STRING>>, display STRING>>, display STRING>, period STRUCT<start STRING, `end` STRING>>>",
+    "ARRAY<STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>>",
+    "ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "BOOL",
+    "STRING",
+    "STRUCT<use STRING, text STRING, family STRING, given ARRAY<STRING>, prefix ARRAY<STRING>, suffix ARRAY<STRING>, period STRUCT<start STRING, `end` STRING>>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "ARRAY<STRING>",
+    "ARRAY<STRING>",
+    "ARRAY<STRING>",
+    "STRUCT<start STRING, `end` STRING>",
+    "STRING",
+    "STRING",
+    "ARRAY<STRUCT<system STRING, value STRING, use STRING, rank INT64, period STRUCT<start STRING, `end` STRING>>>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "STRUCT<start STRING, `end` STRING>",
+    "STRING",
+    "STRING",
+    "STRUCT<use STRING, type STRING, text STRING, line ARRAY<STRING>, city STRING, district STRING, state STRING, postalCode STRING, country STRING, period STRUCT<start STRING, `end` STRING>>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "ARRAY<STRING>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRUCT<start STRING, `end` STRING>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRUCT<organizationId STRING, reference STRING, identifier STRUCT<use STRING, type STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>, system STRING, value STRING, period STRUCT<start STRING, `end` STRING>, assigner STRUCT<organizationId STRING, reference STRING, identifier STRUCT<use STRING, type STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>, system STRING, value STRING, period STRUCT<start STRING, `end` STRING>, assigner STRUCT<organizationId STRING, reference STRING, display STRING>>, display STRING>>, display STRING>",
+    "STRING",
+    "STRING",
+    "STRUCT<use STRING, type STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>, system STRING, value STRING, period STRUCT<start STRING, `end` STRING>, assigner STRUCT<organizationId STRING, reference STRING, identifier STRUCT<use STRING, type STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>, system STRING, value STRING, period STRUCT<start STRING, `end` STRING>, assigner STRUCT<organizationId STRING, reference STRING, display STRING>>, display STRING>>",
+    "STRING",
+    "STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>",
+    "ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "BOOL",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRUCT<start STRING, `end` STRING>",
+    "STRING",
+    "STRING",
+    "STRUCT<organizationId STRING, reference STRING, identifier STRUCT<use STRING, type STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>, system STRING, value STRING, period STRUCT<start STRING, `end` STRING>, assigner STRUCT<organizationId STRING, reference STRING, display STRING>>, display STRING>",
+    "STRING",
+    "STRING",
+    "STRUCT<use STRING, type STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>, system STRING, value STRING, period STRUCT<start STRING, `end` STRING>, assigner STRUCT<organizationId STRING, reference STRING, display STRING>>",
+    "STRING",
+    "STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>",
+    "ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "BOOL",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRUCT<start STRING, `end` STRING>",
+    "STRING",
+    "STRING",
+    "STRUCT<organizationId STRING, reference STRING, display STRING>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRUCT<start STRING, `end` STRING>",
+    "STRING",
+    "STRING",
+    "ARRAY<STRUCT<organizationId STRING, practitionerId STRING, reference STRING, identifier STRUCT<use STRING, type STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>, system STRING, value STRING, period STRUCT<start STRING, `end` STRING>, assigner STRUCT<organizationId STRING, reference STRING, identifier STRUCT<use STRING, type STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>, system STRING, value STRING, period STRUCT<start STRING, `end` STRING>, assigner STRUCT<organizationId STRING, reference STRING, display STRING>>, display STRING>>, display STRING>>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRUCT<use STRING, type STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>, system STRING, value STRING, period STRUCT<start STRING, `end` STRING>, assigner STRUCT<organizationId STRING, reference STRING, identifier STRUCT<use STRING, type STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>, system STRING, value STRING, period STRUCT<start STRING, `end` STRING>, assigner STRUCT<organizationId STRING, reference STRING, display STRING>>, display STRING>>",
+    "STRING",
+    "STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>",
+    "ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "BOOL",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRUCT<start STRING, `end` STRING>",
+    "STRING",
+    "STRING",
+    "STRUCT<organizationId STRING, reference STRING, identifier STRUCT<use STRING, type STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>, system STRING, value STRING, period STRUCT<start STRING, `end` STRING>, assigner STRUCT<organizationId STRING, reference STRING, display STRING>>, display STRING>",
+    "STRING",
+    "STRING",
+    "STRUCT<use STRING, type STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>, system STRING, value STRING, period STRUCT<start STRING, `end` STRING>, assigner STRUCT<organizationId STRING, reference STRING, display STRING>>",
+    "STRING",
+    "STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>",
+    "ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "BOOL",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRUCT<start STRING, `end` STRING>",
+    "STRING",
+    "STRING",
+    "STRUCT<organizationId STRING, reference STRING, display STRING>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "ARRAY<STRUCT<other STRUCT<patientId STRING, relatedPersonId STRING, reference STRING, identifier STRUCT<use STRING, type STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>, system STRING, value STRING, period STRUCT<start STRING, `end` STRING>, assigner STRUCT<organizationId STRING, reference STRING, identifier STRUCT<use STRING, type STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>, system STRING, value STRING, period STRUCT<start STRING, `end` STRING>, assigner STRUCT<organizationId STRING, reference STRING, display STRING>>, display STRING>>, display STRING>, type STRING>>",
+    "STRUCT<patientId STRING, relatedPersonId STRING, reference STRING, identifier STRUCT<use STRING, type STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>, system STRING, value STRING, period STRUCT<start STRING, `end` STRING>, assigner STRUCT<organizationId STRING, reference STRING, identifier STRUCT<use STRING, type STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>, system STRING, value STRING, period STRUCT<start STRING, `end` STRING>, assigner STRUCT<organizationId STRING, reference STRING, display STRING>>, display STRING>>, display STRING>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRUCT<use STRING, type STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>, system STRING, value STRING, period STRUCT<start STRING, `end` STRING>, assigner STRUCT<organizationId STRING, reference STRING, identifier STRUCT<use STRING, type STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>, system STRING, value STRING, period STRUCT<start STRING, `end` STRING>, assigner STRUCT<organizationId STRING, reference STRING, display STRING>>, display STRING>>",
+    "STRING",
+    "STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>",
+    "ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "BOOL",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRUCT<start STRING, `end` STRING>",
+    "STRING",
+    "STRING",
+    "STRUCT<organizationId STRING, reference STRING, identifier STRUCT<use STRING, type STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>, system STRING, value STRING, period STRUCT<start STRING, `end` STRING>, assigner STRUCT<organizationId STRING, reference STRING, display STRING>>, display STRING>",
+    "STRING",
+    "STRING",
+    "STRUCT<use STRING, type STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>, system STRING, value STRING, period STRUCT<start STRING, `end` STRING>, assigner STRUCT<organizationId STRING, reference STRING, display STRING>>",
+    "STRING",
+    "STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>",
+    "ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "BOOL",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRUCT<start STRING, `end` STRING>",
+    "STRING",
+    "STRING",
+    "STRUCT<organizationId STRING, reference STRING, display STRING>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRUCT<organizationId STRING, reference STRING, identifier STRUCT<use STRING, type STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>, system STRING, value STRING, period STRUCT<start STRING, `end` STRING>, assigner STRUCT<organizationId STRING, reference STRING, identifier STRUCT<use STRING, type STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>, system STRING, value STRING, period STRUCT<start STRING, `end` STRING>, assigner STRUCT<organizationId STRING, reference STRING, display STRING>>, display STRING>>, display STRING>",
+    "STRING",
+    "STRING",
+    "STRUCT<use STRING, type STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>, system STRING, value STRING, period STRUCT<start STRING, `end` STRING>, assigner STRUCT<organizationId STRING, reference STRING, identifier STRUCT<use STRING, type STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>, system STRING, value STRING, period STRUCT<start STRING, `end` STRING>, assigner STRUCT<organizationId STRING, reference STRING, display STRING>>, display STRING>>",
+    "STRING",
+    "STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>",
+    "ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "BOOL",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRUCT<start STRING, `end` STRING>",
+    "STRING",
+    "STRING",
+    "STRUCT<organizationId STRING, reference STRING, identifier STRUCT<use STRING, type STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>, system STRING, value STRING, period STRUCT<start STRING, `end` STRING>, assigner STRUCT<organizationId STRING, reference STRING, display STRING>>, display STRING>",
+    "STRING",
+    "STRING",
+    "STRUCT<use STRING, type STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>, system STRING, value STRING, period STRUCT<start STRING, `end` STRING>, assigner STRUCT<organizationId STRING, reference STRING, display STRING>>",
+    "STRING",
+    "STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>",
+    "ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "BOOL",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRUCT<start STRING, `end` STRING>",
+    "STRING",
+    "STRING",
+    "STRUCT<organizationId STRING, reference STRING, display STRING>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "ARRAY<STRUCT<contentType STRING, language STRING, data STRING, url STRING, size INT64, `hash` STRING, title STRING, creation STRING>>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRUCT<value STRUCT<address STRUCT<city STRING, country STRING, state STRING>>>",
+    "STRUCT<address STRUCT<city STRING, country STRING, state STRING>>",
+    "STRUCT<city STRING, country STRING, state STRING>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRUCT<value STRUCT<decimal FLOAT64>>",
+    "STRUCT<decimal FLOAT64>",
+    "FLOAT64",
+    "STRUCT<value STRUCT<string STRING>>",
+    "STRUCT<string STRING>",
+    "STRING",
+    "STRUCT<value STRUCT<decimal FLOAT64>>",
+    "STRUCT<decimal FLOAT64>",
+    "FLOAT64",
+    "STRUCT<value STRUCT<boolean BOOL>>",
+    "STRUCT<boolean BOOL>",
+    "BOOL",
+    "STRUCT<value STRUCT<string STRING>>",
+    "STRUCT<string STRING>",
+    "STRING",
+    "STRUCT<value STRUCT<humanName STRUCT<text STRING>>>",
+    "STRUCT<humanName STRUCT<text STRING>>",
+    "STRUCT<text STRING>",
+    "STRING",
+    "STRUCT<value STRUCT<reference STRUCT<basicId STRING>>>",
+    "STRUCT<reference STRUCT<basicId STRING>>",
+    "STRUCT<basicId STRING>",
+    "STRING",
+    "STRUCT<value STRUCT<code STRING>>",
+    "STRUCT<code STRING>",
+    "STRING",
+    "STRUCT<ombCategory STRUCT<value STRUCT<coding STRUCT<code STRING, display STRING, system STRING>>>, text STRUCT<value STRUCT<string STRING>>>",
+    "STRUCT<value STRUCT<coding STRUCT<code STRING, display STRING, system STRING>>>",
+    "STRUCT<coding STRUCT<code STRING, display STRING, system STRING>>",
+    "STRUCT<code STRING, display STRING, system STRING>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRUCT<value STRUCT<string STRING>>",
+    "STRUCT<string STRING>",
+    "STRING",
+    "STRUCT<ombCategory STRUCT<value STRUCT<coding STRUCT<code STRING, display STRING, system STRING>>>, text STRUCT<value STRUCT<string STRING>>>",
+    "STRUCT<value STRUCT<coding STRUCT<code STRING, display STRING, system STRING>>>",
+    "STRUCT<coding STRUCT<code STRING, display STRING, system STRING>>",
+    "STRUCT<code STRING, display STRING, system STRING>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRUCT<value STRUCT<string STRING>>",
+    "STRUCT<string STRING>",
+    "STRING",
+    "ARRAY<STRUCT<district STRING, period STRUCT<start STRING, `end` STRING>, text STRING, type STRING, use STRING, geolocation STRUCT<latitude STRUCT<value STRUCT<decimal FLOAT64>>, longitude STRUCT<value STRUCT<decimal FLOAT64>>>, city STRING, country STRING, line ARRAY<STRING>, postalCode STRING, state STRING>>",
+    "STRING",
+    "STRUCT<start STRING, `end` STRING>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRUCT<latitude STRUCT<value STRUCT<decimal FLOAT64>>, longitude STRUCT<value STRUCT<decimal FLOAT64>>>",
+    "STRUCT<value STRUCT<decimal FLOAT64>>",
+    "STRUCT<decimal FLOAT64>",
+    "FLOAT64",
+    "STRUCT<value STRUCT<decimal FLOAT64>>",
+    "STRUCT<decimal FLOAT64>",
+    "FLOAT64",
+    "STRING",
+    "STRING",
+    "ARRAY<STRING>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "ARRAY<STRUCT<preferred BOOL, language STRUCT<coding ARRAY<STRUCT<userSelected BOOL, version STRING, code STRING, display STRING, system STRING>>, text STRING>>>",
+    "BOOL",
+    "STRUCT<coding ARRAY<STRUCT<userSelected BOOL, version STRING, code STRING, display STRING, system STRING>>, text STRING>",
+    "ARRAY<STRUCT<userSelected BOOL, version STRING, code STRING, display STRING, system STRING>>",
+    "BOOL",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRUCT<boolean BOOL, dateTime STRING>",
+    "BOOL",
+    "STRING",
+    "STRING",
+    "STRING",
+    "ARRAY<STRUCT<assigner STRUCT<organizationId STRING, reference STRING, identifier STRUCT<use STRING, type STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>, system STRING, value STRING, period STRUCT<start STRING, `end` STRING>, assigner STRUCT<organizationId STRING, reference STRING, display STRING>>, display STRING>, period STRUCT<start STRING, `end` STRING>, use STRING, system STRING, type STRUCT<coding ARRAY<STRUCT<userSelected BOOL, version STRING, code STRING, display STRING, system STRING>>, text STRING>, value STRING>>",
+    "STRUCT<organizationId STRING, reference STRING, identifier STRUCT<use STRING, type STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>, system STRING, value STRING, period STRUCT<start STRING, `end` STRING>, assigner STRUCT<organizationId STRING, reference STRING, display STRING>>, display STRING>",
+    "STRING",
+    "STRING",
+    "STRUCT<use STRING, type STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>, system STRING, value STRING, period STRUCT<start STRING, `end` STRING>, assigner STRUCT<organizationId STRING, reference STRING, display STRING>>",
+    "STRING",
+    "STRUCT<coding ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, text STRING>",
+    "ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "BOOL",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRUCT<start STRING, `end` STRING>",
+    "STRING",
+    "STRING",
+    "STRUCT<organizationId STRING, reference STRING, display STRING>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRUCT<start STRING, `end` STRING>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRUCT<coding ARRAY<STRUCT<userSelected BOOL, version STRING, code STRING, display STRING, system STRING>>, text STRING>",
+    "ARRAY<STRUCT<userSelected BOOL, version STRING, code STRING, display STRING, system STRING>>",
+    "BOOL",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRUCT<coding ARRAY<STRUCT<userSelected BOOL, version STRING, code STRING, display STRING, system STRING>>, text STRING>",
+    "ARRAY<STRUCT<userSelected BOOL, version STRING, code STRING, display STRING, system STRING>>",
+    "BOOL",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRUCT<lastUpdated TIMESTAMP, security ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, tag ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>, versionId STRING, profile ARRAY<STRING>>",
+    "TIMESTAMP",
+    "ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "BOOL",
+    "ARRAY<STRUCT<system STRING, version STRING, code STRING, display STRING, userSelected BOOL>>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "BOOL",
+    "STRING",
+    "ARRAY<STRING>",
+    "STRUCT<boolean BOOL, integer INT64>",
+    "BOOL",
+    "INT64",
+    "ARRAY<STRUCT<period STRUCT<start STRING, `end` STRING>, text STRING, family STRING, given ARRAY<STRING>, prefix ARRAY<STRING>, suffix ARRAY<STRING>, use STRING>>",
+    "STRUCT<start STRING, `end` STRING>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "ARRAY<STRING>",
+    "ARRAY<STRING>",
+    "ARRAY<STRING>",
+    "STRING",
+    "ARRAY<STRUCT<period STRUCT<start STRING, `end` STRING>, rank INT64, system STRING, use STRING, value STRING>>",
+    "STRUCT<start STRING, `end` STRING>",
+    "STRING",
+    "STRING",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRUCT<div STRING, status STRING>",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "sample_rows": [
+    {
+      "活跃": null,
+      "动物": null,
+      "联系": "[]",
+      "全科医生": "[]",
+      "隐式规则": null,
+      "语言": null,
+      "链接": "[]",
+      "管理机构": null,
+      "照片": "[]",
+      "出生地点": {
+        "value": {
+          "address": {
+            "city": "Salvador",
+            "country": "BR",
+            "state": "Bahia"
+          }
+        }
+      },
+      "残疾调整生命年": {
+        "value": {
+          "decimal": 0.07162991009081023
+        }
+      },
+      "患者母亲娘家姓": {
+        "value": {
+          "string": "Vikki110 Dooley940"
+        }
+      },
+      "质量调整生命年": {
+        "value": {
+          "decimal": 8.92837008990919
+        }
+      },
+      "shr_演员_虚构人物_扩展": {
+        "value": {
+          "boolean": true
+        }
+      },
+      "shr_人口统计_社会保险号_扩展": {
+        "value": {
+          "string": "999-99-6784"
+        }
+      },
+      "父亲姓名扩展": {
+        "value": {
+          "humanName": {
+            "text": "Willis868 Hane680"
+          }
+        }
+      },
+      "个人扩展实体": {
+        "value": {
+          "reference": {
+            "basicId": "de73637e-4e27-4943-b9fa-1287662cb110"
+          }
+        }
+      },
+      "出生性别": {
+        "value": {
+          "code": "F"
+        }
+      },
+      "美国族裔": {
+        "ombCategory": {
+          "value": {
+            "coding": {
+              "code": "2186-5",
+              "display": "Not Hispanic or Latino",
+              "system": "urn:oid:2.16.840.1.113883.6.238"
+            }
+          }
+        },
+        "text": {
+          "value": {
+            "string": "Not Hispanic or Latino"
+          }
+        }
+      },
+      "美国种族": {
+        "ombCategory": {
+          "value": {
+            "coding": {
+              "code": "2135-2",
+              "display": "Other",
+              "system": "urn:oid:2.16.840.1.113883.6.238"
+            }
+          }
+        },
+        "text": {
+          "value": {
+            "string": "Other"
+          }
+        }
+      },
+      "地址": "[{'district': None, 'period': None, 'text': None, 'type': None, 'use': None, 'geolocation': {'latitude': {'value': {'decimal': 42.559673}}, 'longitude': {'value': {'decimal': -71.260947}}}, 'city': 'Billerica', 'country': 'US', 'line': array(['657 Jacobs Avenue Apt 21'], dtype=object), 'postalCode': '01821', 'state': 'Massachusetts'}]",
+      "出生日期": "2009-08-14",
+      "沟通": "[{'preferred': None, 'language': {'coding': array([{'userSelected': None, 'version': None, 'code': 'pt', 'display': 'Portuguese', 'system': 'urn:ietf:bcp:47'}],\n       dtype=object), 'text': 'Portuguese'}}                                                                                                                    ]",
+      "已故": null,
+      "性别": "female",
+      "编号": "9dd9d906-558d-4ef6-8392-12d7600a5249",
+      "标识符": "[{'assigner': None, 'period': None, 'use': None, 'system': 'https://github.com/synthetichealth/synthea', 'type': None, 'value': 'fd8f3fbb-fe9e-4b22-aa39-c3ed495358ec'}\n {'assigner': None, 'period': None, 'use': None, 'system': 'http://hospital.smarthealthit.org', 'type': {'coding': array([{'userSelected': None, 'version': None, 'code': 'MR', 'display': 'Medical Record Number', 'system': 'http://hl7.org/fhir/v2/0203'}],\n       dtype=object), 'text': 'Medical Record Number'}, 'value': 'fd8f3fbb-fe9e-4b22-aa39-c3ed495358ec'}\n {'assigner': None, 'period': None, 'use': None, 'system': 'http://hl7.org/fhir/sid/us-ssn', 'type': {'coding': array([{'userSelected': None, 'version': None, 'code': 'SB', 'display': 'Social Security Number', 'system': 'http://hl7.org/fhir/identifier-type'}],\n       dtype=object), 'text': 'Social Security Number'}, 'value': '999-99-6784'}                                                                                                                                                                                    ]",
+      "婚姻状况": {
+        "coding": "[{'userSelected': None, 'version': None, 'code': 'S', 'display': 'Never Married', 'system': 'http://hl7.org/fhir/v3/MaritalStatus'}]",
+        "text": "Never Married"
+      },
+      "元数据": {
+        "lastUpdated": null,
+        "security": "[]",
+        "tag": "[]",
+        "versionId": null,
+        "profile": "['http://standardhealthrecord.org/fhir/StructureDefinition/shr-entity-Patient']"
+      },
+      "多胎": {
+        "boolean": false,
+        "integer": null
+      },
+      "名称": "[{'period': None, 'text': None, 'family': 'Hane680', 'given': array(['Dionne995'], dtype=object), 'prefix': array([], dtype=object), 'suffix': array([], dtype=object), 'use': 'official'}]",
+      "电信": "[{'period': None, 'rank': None, 'system': 'phone', 'use': 'home', 'value': '555-883-4271'}]",
+      "文本": {
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Generated by <a href=\"https://github.com/synthetichealth/synthea\">Synthea</a>.Version identifier: 6c40ee7\n .   Person seed: -4911662287620229450  Population seed: 123</div>",
+        "status": "generated"
+      }
+    },
+    {
+      "活跃": null,
+      "动物": null,
+      "联系": "[]",
+      "全科医生": "[]",
+      "隐式规则": null,
+      "语言": null,
+      "链接": "[]",
+      "管理机构": null,
+      "照片": "[]",
+      "出生地点": {
+        "value": {
+          "address": {
+            "city": "Salvador",
+            "country": "BR",
+            "state": "Bahia"
+          }
+        }
+      },
+      "残疾调整生命年": {
+        "value": {
+          "decimal": 0.14212593094348847
+        }
+      },
+      "患者母亲娘家姓": {
+        "value": {
+          "string": "Amy965 Walter473"
+        }
+      },
+      "质量调整生命年": {
+        "value": {
+          "decimal": 5.857874069056511
+        }
+      },
+      "shr_演员_虚构人物_扩展": {
+        "value": {
+          "boolean": true
+        }
+      },
+      "shr_人口统计_社会保险号_扩展": {
+        "value": {
+          "string": "999-35-5498"
+        }
+      },
+      "父亲姓名扩展": {
+        "value": {
+          "humanName": {
+            "text": "Palmer257 Stark857"
+          }
+        }
+      },
+      "个人扩展实体": {
+        "value": {
+          "reference": {
+            "basicId": "a7c79443-55ba-40c9-a025-ccd06ca71575"
+          }
+        }
+      },
+      "出生性别": {
+        "value": {
+          "code": "F"
+        }
+      },
+      "美国族裔": {
+        "ombCategory": {
+          "value": {
+            "coding": {
+              "code": "2186-5",
+              "display": "Not Hispanic or Latino",
+              "system": "urn:oid:2.16.840.1.113883.6.238"
+            }
+          }
+        },
+        "text": {
+          "value": {
+            "string": "Not Hispanic or Latino"
+          }
+        }
+      },
+      "美国种族": {
+        "ombCategory": {
+          "value": {
+            "coding": {
+              "code": "2135-2",
+              "display": "Other",
+              "system": "urn:oid:2.16.840.1.113883.6.238"
+            }
+          }
+        },
+        "text": {
+          "value": {
+            "string": "Other"
+          }
+        }
+      },
+      "地址": "[{'district': None, 'period': None, 'text': None, 'type': None, 'use': None, 'geolocation': {'latitude': {'value': {'decimal': 42.585541}}, 'longitude': {'value': {'decimal': -71.44025}}}, 'city': 'Westford', 'country': 'US', 'line': array(['457 McDermott Station Apt 25'], dtype=object), 'postalCode': '01886', 'state': 'Massachusetts'}]",
+      "出生日期": "2012-04-30",
+      "沟通": "[{'preferred': None, 'language': {'coding': array([{'userSelected': None, 'version': None, 'code': 'pt', 'display': 'Portuguese', 'system': 'urn:ietf:bcp:47'}],\n       dtype=object), 'text': 'Portuguese'}}                                                                                                                    ]",
+      "已故": null,
+      "性别": "female",
+      "编号": "c273f951-2295-4c35-b721-c9abd5c30805",
+      "标识符": "[{'assigner': None, 'period': None, 'use': None, 'system': 'https://github.com/synthetichealth/synthea', 'type': None, 'value': '29ae1c3c-f67c-4ee6-a819-82a2eeeab136'}\n {'assigner': None, 'period': None, 'use': None, 'system': 'http://hospital.smarthealthit.org', 'type': {'coding': array([{'userSelected': None, 'version': None, 'code': 'MR', 'display': 'Medical Record Number', 'system': 'http://hl7.org/fhir/v2/0203'}],\n       dtype=object), 'text': 'Medical Record Number'}, 'value': '29ae1c3c-f67c-4ee6-a819-82a2eeeab136'}\n {'assigner': None, 'period': None, 'use': None, 'system': 'http://hl7.org/fhir/sid/us-ssn', 'type': {'coding': array([{'userSelected': None, 'version': None, 'code': 'SB', 'display': 'Social Security Number', 'system': 'http://hl7.org/fhir/identifier-type'}],\n       dtype=object), 'text': 'Social Security Number'}, 'value': '999-35-5498'}                                                                                                                                                                                    ]",
+      "婚姻状况": {
+        "coding": "[{'userSelected': None, 'version': None, 'code': 'S', 'display': 'Never Married', 'system': 'http://hl7.org/fhir/v3/MaritalStatus'}]",
+        "text": "Never Married"
+      },
+      "元数据": {
+        "lastUpdated": null,
+        "security": "[]",
+        "tag": "[]",
+        "versionId": null,
+        "profile": "['http://standardhealthrecord.org/fhir/StructureDefinition/shr-entity-Patient']"
+      },
+      "多胎": {
+        "boolean": false,
+        "integer": null
+      },
+      "名称": "[{'period': None, 'text': None, 'family': 'Stark857', 'given': array(['Ignacia942'], dtype=object), 'prefix': array([], dtype=object), 'suffix': array([], dtype=object), 'use': 'official'}]",
+      "电信": "[{'period': None, 'rank': None, 'system': 'phone', 'use': 'home', 'value': '555-208-6528'}]",
+      "文本": {
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Generated by <a href=\"https://github.com/synthetichealth/synthea\">Synthea</a>.Version identifier: 6c40ee7\n .   Person seed: 2002838425913787930  Population seed: 123</div>",
+        "status": "generated"
+      }
+    },
+    {
+      "活跃": null,
+      "动物": null,
+      "联系": "[]",
+      "全科医生": "[]",
+      "隐式规则": null,
+      "语言": null,
+      "链接": "[]",
+      "管理机构": null,
+      "照片": "[]",
+      "出生地点": {
+        "value": {
+          "address": {
+            "city": "Salvador",
+            "country": "BR",
+            "state": "Bahia"
+          }
+        }
+      },
+      "残疾调整生命年": {
+        "value": {
+          "decimal": 1.3627977422566502
+        }
+      },
+      "患者母亲娘家姓": {
+        "value": {
+          "string": "Isabela97 Pedroza523"
+        }
+      },
+      "质量调整生命年": {
+        "value": {
+          "decimal": 14.63720225774335
+        }
+      },
+      "shr_演员_虚构人物_扩展": {
+        "value": {
+          "boolean": true
+        }
+      },
+      "shr_人口统计_社会保险号_扩展": {
+        "value": {
+          "string": "999-80-8869"
+        }
+      },
+      "父亲姓名扩展": {
+        "value": {
+          "humanName": {
+            "text": "Pablo44 Torres807"
+          }
+        }
+      },
+      "个人扩展实体": {
+        "value": {
+          "reference": {
+            "basicId": "d3542085-e1c8-4977-8d6c-87ba22e0a83f"
+          }
+        }
+      },
+      "出生性别": {
+        "value": {
+          "code": "F"
+        }
+      },
+      "美国族裔": {
+        "ombCategory": {
+          "value": {
+            "coding": {
+              "code": "2186-5",
+              "display": "Not Hispanic or Latino",
+              "system": "urn:oid:2.16.840.1.113883.6.238"
+            }
+          }
+        },
+        "text": {
+          "value": {
+            "string": "Not Hispanic or Latino"
+          }
+        }
+      },
+      "美国种族": {
+        "ombCategory": {
+          "value": {
+            "coding": {
+              "code": "2135-2",
+              "display": "Other",
+              "system": "urn:oid:2.16.840.1.113883.6.238"
+            }
+          }
+        },
+        "text": {
+          "value": {
+            "string": "Other"
+          }
+        }
+      },
+      "地址": "[{'district': None, 'period': None, 'text': None, 'type': None, 'use': None, 'geolocation': {'latitude': {'value': {'decimal': 42.648044}}, 'longitude': {'value': {'decimal': -71.161751}}}, 'city': 'Andover', 'country': 'US', 'line': array(['477 Feeney Mall Suite 79'], dtype=object), 'postalCode': '01810', 'state': 'Massachusetts'}]",
+      "出生日期": "2002-02-27",
+      "沟通": "[{'preferred': None, 'language': {'coding': array([{'userSelected': None, 'version': None, 'code': 'es', 'display': 'Spanish', 'system': 'urn:ietf:bcp:47'}],\n       dtype=object), 'text': 'Spanish'}}                                                                                                                    ]",
+      "已故": null,
+      "性别": "female",
+      "编号": "f29d639e-b55a-42a7-9fe7-b3bf4f61e5a6",
+      "标识符": "[{'assigner': None, 'period': None, 'use': None, 'system': 'https://github.com/synthetichealth/synthea', 'type': None, 'value': '85589343-83c5-4edb-b67a-f0828e42500e'}\n {'assigner': None, 'period': None, 'use': None, 'system': 'http://hospital.smarthealthit.org', 'type': {'coding': array([{'userSelected': None, 'version': None, 'code': 'MR', 'display': 'Medical Record Number', 'system': 'http://hl7.org/fhir/v2/0203'}],\n       dtype=object), 'text': 'Medical Record Number'}, 'value': '85589343-83c5-4edb-b67a-f0828e42500e'}\n {'assigner': None, 'period': None, 'use': None, 'system': 'http://hl7.org/fhir/sid/us-ssn', 'type': {'coding': array([{'userSelected': None, 'version': None, 'code': 'SB', 'display': 'Social Security Number', 'system': 'http://hl7.org/fhir/identifier-type'}],\n       dtype=object), 'text': 'Social Security Number'}, 'value': '999-80-8869'}\n {'assigner': None, 'period': None, 'use': None, 'system': 'urn:oid:2.16.840.1.113883.4.3.25', 'type': {'coding': array([{'userSelected': None, 'version': None, 'code': 'DL', 'display': \"Driver's License\", 'system': 'http://hl7.org/fhir/v2/0203'}],\n       dtype=object), 'text': \"Driver's License\"}, 'value': 'S99963205'}                                                                                                                                                                                ]",
+      "婚姻状况": {
+        "coding": "[{'userSelected': None, 'version': None, 'code': 'S', 'display': 'Never Married', 'system': 'http://hl7.org/fhir/v3/MaritalStatus'}]",
+        "text": "Never Married"
+      },
+      "元数据": {
+        "lastUpdated": null,
+        "security": "[]",
+        "tag": "[]",
+        "versionId": null,
+        "profile": "['http://standardhealthrecord.org/fhir/StructureDefinition/shr-entity-Patient']"
+      },
+      "多胎": {
+        "boolean": false,
+        "integer": null
+      },
+      "名称": "[{'period': None, 'text': None, 'family': 'Torres807', 'given': array(['Carmen818'], dtype=object), 'prefix': array([], dtype=object), 'suffix': array([], dtype=object), 'use': 'official'}]",
+      "电信": "[{'period': None, 'rank': None, 'system': 'phone', 'use': 'home', 'value': '555-385-6320'}]",
+      "文本": {
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Generated by <a href=\"https://github.com/synthetichealth/synthea\">Synthea</a>.Version identifier: 6c40ee7\n .   Person seed: 5764817557819838613  Population seed: 123</div>",
+        "status": "generated"
+      }
+    },
+    {
+      "活跃": null,
+      "动物": null,
+      "联系": "[]",
+      "全科医生": "[]",
+      "隐式规则": null,
+      "语言": null,
+      "链接": "[]",
+      "管理机构": null,
+      "照片": "[]",
+      "出生地点": {
+        "value": {
+          "address": {
+            "city": "Salvador",
+            "country": "BR",
+            "state": "Bahia"
+          }
+        }
+      },
+      "残疾调整生命年": {
+        "value": {
+          "decimal": 1.3694965916465773
+        }
+      },
+      "患者母亲娘家姓": {
+        "value": {
+          "string": "María Elena653 Padilla483"
+        }
+      },
+      "质量调整生命年": {
+        "value": {
+          "decimal": 14.630503408353423
+        }
+      },
+      "shr_演员_虚构人物_扩展": {
+        "value": {
+          "boolean": true
+        }
+      },
+      "shr_人口统计_社会保险号_扩展": {
+        "value": {
+          "string": "999-61-3507"
+        }
+      },
+      "父亲姓名扩展": {
+        "value": {
+          "humanName": {
+            "text": "Claudio955 Acosta403"
+          }
+        }
+      },
+      "个人扩展实体": {
+        "value": {
+          "reference": {
+            "basicId": "a9882980-ecde-47d9-b17d-de0718dfcd3f"
+          }
+        }
+      },
+      "出生性别": {
+        "value": {
+          "code": "F"
+        }
+      },
+      "美国族裔": {
+        "ombCategory": {
+          "value": {
+            "coding": {
+              "code": "2186-5",
+              "display": "Not Hispanic or Latino",
+              "system": "urn:oid:2.16.840.1.113883.6.238"
+            }
+          }
+        },
+        "text": {
+          "value": {
+            "string": "Not Hispanic or Latino"
+          }
+        }
+      },
+      "美国种族": {
+        "ombCategory": {
+          "value": {
+            "coding": {
+              "code": "2135-2",
+              "display": "Other",
+              "system": "urn:oid:2.16.840.1.113883.6.238"
+            }
+          }
+        },
+        "text": {
+          "value": {
+            "string": "Other"
+          }
+        }
+      },
+      "地址": "[{'district': None, 'period': None, 'text': None, 'type': None, 'use': None, 'geolocation': {'latitude': {'value': {'decimal': 42.388921}}, 'longitude': {'value': {'decimal': -71.24226800000002}}}, 'city': 'Waltham', 'country': 'US', 'line': array(['409 Crooks Fort Suite 60'], dtype=object), 'postalCode': '02451', 'state': 'Massachusetts'}]",
+      "出生日期": "2002-05-23",
+      "沟通": "[{'preferred': None, 'language': {'coding': array([{'userSelected': None, 'version': None, 'code': 'es', 'display': 'Spanish', 'system': 'urn:ietf:bcp:47'}],\n       dtype=object), 'text': 'Spanish'}}                                                                                                                    ]",
+      "已故": null,
+      "性别": "female",
+      "编号": "00c509b2-d139-4f28-94b1-7710b36a7bc9",
+      "标识符": "[{'assigner': None, 'period': None, 'use': None, 'system': 'https://github.com/synthetichealth/synthea', 'type': None, 'value': 'f19870ba-fd41-4a15-8286-0dec951a80c0'}\n {'assigner': None, 'period': None, 'use': None, 'system': 'http://hospital.smarthealthit.org', 'type': {'coding': array([{'userSelected': None, 'version': None, 'code': 'MR', 'display': 'Medical Record Number', 'system': 'http://hl7.org/fhir/v2/0203'}],\n       dtype=object), 'text': 'Medical Record Number'}, 'value': 'f19870ba-fd41-4a15-8286-0dec951a80c0'}\n {'assigner': None, 'period': None, 'use': None, 'system': 'http://hl7.org/fhir/sid/us-ssn', 'type': {'coding': array([{'userSelected': None, 'version': None, 'code': 'SB', 'display': 'Social Security Number', 'system': 'http://hl7.org/fhir/identifier-type'}],\n       dtype=object), 'text': 'Social Security Number'}, 'value': '999-61-3507'}\n {'assigner': None, 'period': None, 'use': None, 'system': 'urn:oid:2.16.840.1.113883.4.3.25', 'type': {'coding': array([{'userSelected': None, 'version': None, 'code': 'DL', 'display': \"Driver's License\", 'system': 'http://hl7.org/fhir/v2/0203'}],\n       dtype=object), 'text': \"Driver's License\"}, 'value': 'S99921209'}                                                                                                                                                                                ]",
+      "婚姻状况": {
+        "coding": "[{'userSelected': None, 'version': None, 'code': 'S', 'display': 'Never Married', 'system': 'http://hl7.org/fhir/v3/MaritalStatus'}]",
+        "text": "Never Married"
+      },
+      "元数据": {
+        "lastUpdated": null,
+        "security": "[]",
+        "tag": "[]",
+        "versionId": null,
+        "profile": "['http://standardhealthrecord.org/fhir/StructureDefinition/shr-entity-Patient']"
+      },
+      "多胎": {
+        "boolean": false,
+        "integer": null
+      },
+      "名称": "[{'period': None, 'text': None, 'family': 'Acosta403', 'given': array(['Norma469'], dtype=object), 'prefix': array([], dtype=object), 'suffix': array([], dtype=object), 'use': 'official'}]",
+      "电信": "[{'period': None, 'rank': None, 'system': 'phone', 'use': 'home', 'value': '555-703-9415'}]",
+      "文本": {
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Generated by <a href=\"https://github.com/synthetichealth/synthea\">Synthea</a>.Version identifier: 6c40ee7\n .   Person seed: -4598146656519237832  Population seed: 123</div>",
+        "status": "generated"
+      }
+    },
+    {
+      "活跃": null,
+      "动物": null,
+      "联系": "[]",
+      "全科医生": "[]",
+      "隐式规则": null,
+      "语言": null,
+      "链接": "[]",
+      "管理机构": null,
+      "照片": "[]",
+      "出生地点": {
+        "value": {
+          "address": {
+            "city": "Salvador",
+            "country": "BR",
+            "state": "Bahia"
+          }
+        }
+      },
+      "残疾调整生命年": {
+        "value": {
+          "decimal": 0.5475243506844482
+        }
+      },
+      "患者母亲娘家姓": {
+        "value": {
+          "string": "Isabela97 Tejada731"
+        }
+      },
+      "质量调整生命年": {
+        "value": {
+          "decimal": 13.452475649315552
+        }
+      },
+      "shr_演员_虚构人物_扩展": {
+        "value": {
+          "boolean": true
+        }
+      },
+      "shr_人口统计_社会保险号_扩展": {
+        "value": {
+          "string": "999-10-9895"
+        }
+      },
+      "父亲姓名扩展": {
+        "value": {
+          "humanName": {
+            "text": "Luis923 Araña824"
+          }
+        }
+      },
+      "个人扩展实体": {
+        "value": {
+          "reference": {
+            "basicId": "982947a4-4a49-4d76-91f3-6de3a00bd8cc"
+          }
+        }
+      },
+      "出生性别": {
+        "value": {
+          "code": "M"
+        }
+      },
+      "美国族裔": {
+        "ombCategory": {
+          "value": {
+            "coding": {
+              "code": "2186-5",
+              "display": "Not Hispanic or Latino",
+              "system": "urn:oid:2.16.840.1.113883.6.238"
+            }
+          }
+        },
+        "text": {
+          "value": {
+            "string": "Not Hispanic or Latino"
+          }
+        }
+      },
+      "美国种族": {
+        "ombCategory": {
+          "value": {
+            "coding": {
+              "code": "2135-2",
+              "display": "Other",
+              "system": "urn:oid:2.16.840.1.113883.6.238"
+            }
+          }
+        },
+        "text": {
+          "value": {
+            "string": "Other"
+          }
+        }
+      },
+      "地址": "[{'district': None, 'period': None, 'text': None, 'type': None, 'use': None, 'geolocation': {'latitude': {'value': {'decimal': 42.311693}}, 'longitude': {'value': {'decimal': -71.940282}}}, 'city': 'Paxton', 'country': 'US', 'line': array(['512 Harber Hollow'], dtype=object), 'postalCode': '01612', 'state': 'Massachusetts'}]",
+      "出生日期": "2004-04-07",
+      "沟通": "[{'preferred': None, 'language': {'coding': array([{'userSelected': None, 'version': None, 'code': 'es', 'display': 'Spanish', 'system': 'urn:ietf:bcp:47'}],\n       dtype=object), 'text': 'Spanish'}}                                                                                                                    ]",
+      "已故": null,
+      "性别": "male",
+      "编号": "ea2cfc82-6db8-4ecb-94d4-f2357d537d1a",
+      "标识符": "[{'assigner': None, 'period': None, 'use': None, 'system': 'https://github.com/synthetichealth/synthea', 'type': None, 'value': 'c2f57eca-e5f9-4c1e-9637-f2b0a8d6582f'}\n {'assigner': None, 'period': None, 'use': None, 'system': 'http://hospital.smarthealthit.org', 'type': {'coding': array([{'userSelected': None, 'version': None, 'code': 'MR', 'display': 'Medical Record Number', 'system': 'http://hl7.org/fhir/v2/0203'}],\n       dtype=object), 'text': 'Medical Record Number'}, 'value': 'c2f57eca-e5f9-4c1e-9637-f2b0a8d6582f'}\n {'assigner': None, 'period': None, 'use': None, 'system': 'http://hl7.org/fhir/sid/us-ssn', 'type': {'coding': array([{'userSelected': None, 'version': None, 'code': 'SB', 'display': 'Social Security Number', 'system': 'http://hl7.org/fhir/identifier-type'}],\n       dtype=object), 'text': 'Social Security Number'}, 'value': '999-10-9895'}                                                                                                                                                                                    ]",
+      "婚姻状况": {
+        "coding": "[{'userSelected': None, 'version': None, 'code': 'S', 'display': 'Never Married', 'system': 'http://hl7.org/fhir/v3/MaritalStatus'}]",
+        "text": "Never Married"
+      },
+      "元数据": {
+        "lastUpdated": null,
+        "security": "[]",
+        "tag": "[]",
+        "versionId": null,
+        "profile": "['http://standardhealthrecord.org/fhir/StructureDefinition/shr-entity-Patient']"
+      },
+      "多胎": {
+        "boolean": false,
+        "integer": null
+      },
+      "名称": "[{'period': None, 'text': None, 'family': 'Araña824', 'given': array(['Gonzalo160'], dtype=object), 'prefix': array([], dtype=object), 'suffix': array([], dtype=object), 'use': 'official'}]",
+      "电信": "[{'period': None, 'rank': None, 'system': 'phone', 'use': 'home', 'value': '555-669-9953'}]",
+      "文本": {
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Generated by <a href=\"https://github.com/synthetichealth/synthea\">Synthea</a>.Version identifier: 6c40ee7\n .   Person seed: 6043276679047189457  Population seed: 123</div>",
+        "status": "generated"
+      }
+    }
+  ]
+}

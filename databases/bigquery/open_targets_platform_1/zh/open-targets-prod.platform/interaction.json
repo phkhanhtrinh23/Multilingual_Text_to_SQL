@@ -1,0 +1,194 @@
+{
+  "table_name": "interaction",
+  "table_fullname": "open-targets-prod.platform.interaction",
+  "column_names": [
+    "源数据库",
+    "目标A",
+    "整数A",
+    "整数A生物角色",
+    "目标B",
+    "整数B",
+    "生物角色",
+    "物种A",
+    "物种B",
+    "计数",
+    "得分"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRUCT<mnemonic STRING, scientific_name STRING, taxon_id INT64>",
+    "STRUCT<mnemonic STRING, scientific_name STRING, taxon_id INT64>",
+    "INT64",
+    "FLOAT64"
+  ],
+  "nested_column_names": [
+    "源数据库",
+    "目标A",
+    "整数A",
+    "intA 生物学角色",
+    "目标B",
+    "整数B",
+    "生物角色",
+    "物种A",
+    "物种A助记词",
+    "speciesA.科学名称",
+    "物种A分类ID",
+    "物种B",
+    "物种B助记词",
+    "物种B科学名称",
+    "物种B分类ID",
+    "计数",
+    "评分"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRUCT<mnemonic STRING, scientific_name STRING, taxon_id INT64>",
+    "STRING",
+    "STRING",
+    "INT64",
+    "STRUCT<mnemonic STRING, scientific_name STRING, taxon_id INT64>",
+    "STRING",
+    "STRING",
+    "INT64",
+    "INT64",
+    "FLOAT64"
+  ],
+  "description": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "sample_rows": [
+    {
+      "源数据库": "intact",
+      "目标A": "ENSG00000131738",
+      "整数A": "Q14525",
+      "intA 生物学角色": "unspecified role",
+      "目标B": "ENSG00000110046",
+      "整数B": "A0AUL9",
+      "生物角色": "unspecified role",
+      "物种A": {
+        "mnemonic": "human",
+        "scientific_name": "Homo sapiens",
+        "taxon_id": 9606
+      },
+      "物种B": {
+        "mnemonic": "human",
+        "scientific_name": "Homo sapiens",
+        "taxon_id": 9606
+      },
+      "计数": 1,
+      "评分": 0.35
+    },
+    {
+      "源数据库": "intact",
+      "目标A": "ENSG00000181085",
+      "整数A": "Q8TD08",
+      "intA 生物学角色": "unspecified role",
+      "目标B": "ENSG00000117868",
+      "整数B": "A0FGR8",
+      "生物角色": "unspecified role",
+      "物种A": {
+        "mnemonic": "human",
+        "scientific_name": "Homo sapiens",
+        "taxon_id": 9606
+      },
+      "物种B": {
+        "mnemonic": "human",
+        "scientific_name": "Homo sapiens",
+        "taxon_id": 9606
+      },
+      "计数": 1,
+      "评分": 0.35
+    },
+    {
+      "源数据库": "intact",
+      "目标A": "ENSG00000102098",
+      "整数A": "Q9UQR0",
+      "intA 生物学角色": "unspecified role",
+      "目标B": "ENSG00000278522",
+      "整数B": "A0JP26",
+      "生物角色": "unspecified role",
+      "物种A": {
+        "mnemonic": "human",
+        "scientific_name": "Homo sapiens",
+        "taxon_id": 9606
+      },
+      "物种B": {
+        "mnemonic": "human",
+        "scientific_name": "Homo sapiens",
+        "taxon_id": 9606
+      },
+      "计数": 1,
+      "评分": 0.35
+    },
+    {
+      "源数据库": "intact",
+      "目标A": "ENSG00000144746",
+      "整数A": "O75915",
+      "intA 生物学角色": "unspecified role",
+      "目标B": "ENSG00000110900",
+      "整数B": "A1L157",
+      "生物角色": "unspecified role",
+      "物种A": {
+        "mnemonic": "human",
+        "scientific_name": "Homo sapiens",
+        "taxon_id": 9606
+      },
+      "物种B": {
+        "mnemonic": "human",
+        "scientific_name": "Homo sapiens",
+        "taxon_id": 9606
+      },
+      "计数": 1,
+      "评分": 0.35
+    },
+    {
+      "源数据库": "intact",
+      "目标A": "ENSG00000149177",
+      "整数A": "Q12913-3",
+      "intA 生物学角色": "unspecified role",
+      "目标B": "ENSG00000239887",
+      "整数B": "A1L170",
+      "生物角色": "unspecified role",
+      "物种A": {
+        "mnemonic": "human",
+        "scientific_name": "Homo sapiens",
+        "taxon_id": 9606
+      },
+      "物种B": {
+        "mnemonic": "human",
+        "scientific_name": "Homo sapiens",
+        "taxon_id": 9606
+      },
+      "计数": 1,
+      "评分": 0.27
+    }
+  ]
+}

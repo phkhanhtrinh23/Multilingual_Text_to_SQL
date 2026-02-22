@@ -1,0 +1,102 @@
+{
+  "table_name": "DNA_METHYLATION_CHR18",
+  "table_fullname": "TCGA_HG38_DATA_V0.TCGA_HG38_DATA_V0.DNA_METHYLATION_CHR18",
+  "column_names": [
+    "plateforme",
+    "beta_valeur",
+    "id_gdc_fichier",
+    "id_gdc_aliquot",
+    "code_barre_aliquot",
+    "code_barre_echantillon",
+    "id_gdc_cas",
+    "code_barre_cas",
+    "id_gdc_echantillon",
+    "id_sonde"
+  ],
+  "column_types": [
+    "TEXT",
+    "FLOAT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Nom de la plateforme utilisée pour générer ces données -- soit HumanMethylation450 ou HumanMethylation27",
+    "Valeur beta de méthylation de l'ADN normalisée (entre 0 et 1, où 0 indique complètement non méthylationné et 1 indique complètement méthylationné)",
+    "",
+    "",
+    "Code à barres d'aliquote TCGA original, par exemple `TCGA-12-1089-01A-01D-0517-01`",
+    "Code à barres d'échantillon TCGA original, par exemple `TCGA-12-1089-01A`",
+    "",
+    "Code à barres de cas TCGA original, par exemple `TCGA-12-1089`  --  notez que chaque cas contient généralement un échantillon de tumeur primaire et un échantillon apparié normal (sang ou tissu adjacent) ; veuillez consulter la table TCGA Biospecimen pour plus de détails",
+    "",
+    "Identifiant unique de sonde (par exemple `cg04676771`) de la matrice de méthylation humaine Illumina -- veuillez consulter la table d'annotation (isb-cgc:platform_reference.methylation_annotation) pour plus de détails sur une sonde particulière"
+  ],
+  "sample_rows": [
+    {
+      "code_barre_cas": "TCGA-12-1601",
+      "code_barre_echantillon": "TCGA-12-1601-01A",
+      "code_barre_aliquot": "TCGA-12-1601-01A-01D-0595-05",
+      "id_sonde": "cg20837735",
+      "beta_valeur": 0.910289665503915,
+      "plateforme": null,
+      "id_gdc_fichier": "5cd6f2f6-7278-4757-be8e-a8ae3a7a81d3",
+      "id_gdc_cas": "cc1459be-de8f-482e-9efe-65937db9dc45",
+      "id_gdc_echantillon": "b02fd704-03a6-44c4-b224-f5f457e733f3",
+      "id_gdc_aliquot": "aa761ca4-e8f0-4a43-8262-bd84eedb459a"
+    },
+    {
+      "code_barre_cas": "TCGA-12-1601",
+      "code_barre_echantillon": "TCGA-12-1601-01A",
+      "code_barre_aliquot": "TCGA-12-1601-01A-01D-0595-05",
+      "id_sonde": "cg01106788",
+      "beta_valeur": 0.958804953061487,
+      "plateforme": null,
+      "id_gdc_fichier": "5cd6f2f6-7278-4757-be8e-a8ae3a7a81d3",
+      "id_gdc_cas": "cc1459be-de8f-482e-9efe-65937db9dc45",
+      "id_gdc_echantillon": "b02fd704-03a6-44c4-b224-f5f457e733f3",
+      "id_gdc_aliquot": "aa761ca4-e8f0-4a43-8262-bd84eedb459a"
+    },
+    {
+      "code_barre_cas": "TCGA-12-1601",
+      "code_barre_echantillon": "TCGA-12-1601-01A",
+      "code_barre_aliquot": "TCGA-12-1601-01A-01D-0595-05",
+      "id_sonde": "cg12012699",
+      "beta_valeur": 0.00881784375205681,
+      "plateforme": null,
+      "id_gdc_fichier": "5cd6f2f6-7278-4757-be8e-a8ae3a7a81d3",
+      "id_gdc_cas": "cc1459be-de8f-482e-9efe-65937db9dc45",
+      "id_gdc_echantillon": "b02fd704-03a6-44c4-b224-f5f457e733f3",
+      "id_gdc_aliquot": "aa761ca4-e8f0-4a43-8262-bd84eedb459a"
+    },
+    {
+      "code_barre_cas": "TCGA-12-1601",
+      "code_barre_echantillon": "TCGA-12-1601-01A",
+      "code_barre_aliquot": "TCGA-12-1601-01A-01D-0595-05",
+      "id_sonde": "cg17709676",
+      "beta_valeur": 0.0077880029836213,
+      "plateforme": null,
+      "id_gdc_fichier": "5cd6f2f6-7278-4757-be8e-a8ae3a7a81d3",
+      "id_gdc_cas": "cc1459be-de8f-482e-9efe-65937db9dc45",
+      "id_gdc_echantillon": "b02fd704-03a6-44c4-b224-f5f457e733f3",
+      "id_gdc_aliquot": "aa761ca4-e8f0-4a43-8262-bd84eedb459a"
+    },
+    {
+      "code_barre_cas": "TCGA-A6-2670",
+      "code_barre_echantillon": "TCGA-A6-2670-01A",
+      "code_barre_aliquot": "TCGA-A6-2670-01A-02D-0820-05",
+      "id_sonde": "cg07457944",
+      "beta_valeur": 0.016901800876324,
+      "plateforme": null,
+      "id_gdc_fichier": "cdd5e1a9-1ce8-4361-9fca-61ccb7098b25",
+      "id_gdc_cas": "65bb7520-f055-43a8-b735-1152fa2c9e04",
+      "id_gdc_echantillon": "724072ae-40b5-45cc-b339-e24f1cb6fbcf",
+      "id_gdc_aliquot": "b8074b70-ad2b-49e5-b70a-c6e8a6681830"
+    }
+  ]
+}

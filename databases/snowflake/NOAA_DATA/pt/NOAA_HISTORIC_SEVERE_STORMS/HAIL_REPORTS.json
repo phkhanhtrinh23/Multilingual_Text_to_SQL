@@ -1,0 +1,102 @@
+{
+  "table_name": "HAIL_REPORTS",
+  "table_fullname": "NOAA_DATA.NOAA_HISTORIC_SEVERE_STORMS.HAIL_REPORTS",
+  "column_names": [
+    "tempo",
+    "localização",
+    "condado",
+    "report_point",
+    "tamanho",
+    "latitude",
+    "comentários",
+    "estado",
+    "carimbo_de_data_hora",
+    "longitude"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "BINARY",
+    "NUMBER",
+    "FLOAT",
+    "TEXT",
+    "TEXT",
+    "NUMBER",
+    "FLOAT"
+  ],
+  "description": [
+    "Hora em UTC",
+    "Localização do relatório",
+    "",
+    "",
+    "Tamanho em 1/100 de uma polegada (175 = 1,75 polegadas)",
+    "Latitude com duas casas decimais",
+    "",
+    "",
+    "Carimbo de data/hora em UTC",
+    "Longitude com duas casas decimais"
+  ],
+  "sample_rows": [
+    {
+      "carimbo_de_data_hora": 1618042800000000,
+      "tempo": "0820",
+      "tamanho": 400,
+      "localização": "1 SSW ORANGE BEACH",
+      "condado": "BALDWIN",
+      "estado": "AL",
+      "latitude": 30.27,
+      "longitude": -87.59,
+      "comentários": "TWO SEPARATE PHOTOS SHOW HAIL NEAR SOFTBALL SIZE IN ORANGE BEACH. SIGNIFICANT HAIL DAMAGE REPORTED TO NUMEROUS VEHICLES AND METALS ROOFS IN THE AREA. (MOB)",
+      "report_point": "bytearray(b'\\x01\\x01\\x00\\x00\\x00\\xf6(\\\\\\x8f\\xc2\\xe5U\\xc0\\x85\\xebQ\\xb8\\x1eE>@')"
+    },
+    {
+      "carimbo_de_data_hora": 1618044000000000,
+      "tempo": "0840",
+      "tamanho": 200,
+      "localização": "4 SW LILLIAN",
+      "condado": "BALDWIN",
+      "estado": "AL",
+      "latitude": 30.38,
+      "longitude": -87.48,
+      "comentários": "REPORT OF 2 INCH SIZE HAIL FURTHER INLAND (SOUTHWEST OF LILLIAN). (MOB)",
+      "report_point": "bytearray(b'\\x01\\x01\\x00\\x00\\x00\\x1f\\x85\\xebQ\\xb8\\xdeU\\xc0\\xe1z\\x14\\xaeGa>@')"
+    },
+    {
+      "carimbo_de_data_hora": 1618491360000000,
+      "tempo": "1256",
+      "tamanho": 100,
+      "localização": "2 WSW FOLEY",
+      "condado": "BALDWIN",
+      "estado": "AL",
+      "latitude": 30.39,
+      "longitude": -87.72,
+      "comentários": "CORRECTS PREVIOUS HAIL REPORT FROM 2 WSW FOLEY. REPORT OF QUARTER-SIZE HAIL IN SOUTHWEST FOLEY. TIME AND LOCATION GIVEN BY LOCAL POLICE. (MOB)",
+      "report_point": "bytearray(b'\\x01\\x01\\x00\\x00\\x00\\xaeG\\xe1z\\x14\\xeeU\\xc0\\xa4p=\\n\\xd7c>@')"
+    },
+    {
+      "carimbo_de_data_hora": 1619300820000000,
+      "tempo": "2147",
+      "tamanho": 125,
+      "localização": "HAYDEN",
+      "condado": "BLOUNT",
+      "estado": "AL",
+      "latitude": 33.9,
+      "longitude": -86.75,
+      "comentários": "(BMX)",
+      "report_point": "bytearray(b'\\x01\\x01\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\xb0U\\xc033333\\xf3@@')"
+    },
+    {
+      "carimbo_de_data_hora": 1619302080000000,
+      "tempo": "2208",
+      "tamanho": 175,
+      "localização": "1 W GREENVILLE",
+      "condado": "BUTLER",
+      "estado": "AL",
+      "latitude": 31.83,
+      "longitude": -86.63,
+      "comentários": "GOLF BALL HAIL. PHOTO VIA SOCIAL MEDIA. TIME USING RADAR. (MOB)",
+      "report_point": "bytearray(b'\\x01\\x01\\x00\\x00\\x00\\xb8\\x1e\\x85\\xebQ\\xa8U\\xc0\\x14\\xaeG\\xe1z\\xd4?@')"
+    }
+  ]
+}

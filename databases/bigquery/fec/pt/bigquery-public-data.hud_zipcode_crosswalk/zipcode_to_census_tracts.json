@@ -1,0 +1,86 @@
+{
+  "table_name": "zipcode_to_census_tracts",
+  "table_fullname": "bigquery-public-data.hud_zipcode_crosswalk.zipcode_to_census_tracts",
+  "column_names": [
+    "codigo_postal",
+    "geoid_do_trato_do_censo",
+    "ratio_residencial",
+    "ratio_comercial",
+    "ratio_outro",
+    "ratio_total"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "NUMERIC",
+    "NUMERIC",
+    "NUMERIC",
+    "NUMERIC"
+  ],
+  "nested_column_names": [
+    "codigo_postal",
+    "geoid_do_trato_do_censo",
+    "ratio_residencial",
+    "ratio_comercial",
+    "ratio_outro",
+    "ratio_total"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "NUMERIC",
+    "NUMERIC",
+    "NUMERIC",
+    "NUMERIC"
+  ],
+  "description": [
+    "Código ZIP da USPS de 5 dígitos.",
+    "GEOID único de 11 dígitos do censo de 2000 ou 2010, consistindo em FIPS do estado + FIPS do condado + código do traçado. O decimal é implícito e os zeros líderes e de trailing foram preservados. Esses podem ser mapeados para vários ZIPs da USPS. Mapeia para 'geo_id' em tabelas com dados do Traçado do Censo",
+    "A razão de endereços residenciais na parte ZIP - Traçado para o total de endereços residenciais em todo o ZIP.",
+    "A razão de endereços comerciais na parte ZIP - Traçadoparte para o total de endereços comerciais em todo o ZIP.",
+    "A razão de outros endereços na parte ZIP - Traçadoparte para o total de endereços comerciais em todo o ZIP.",
+    "A razão de todos os endereços na parte ZIP - Traçadoparte para o total de endereços comerciais em todo o ZIP."
+  ],
+  "sample_rows": [
+    {
+      "codigo_postal": "60448",
+      "geoid_do_trato_do_censo": "17197881010",
+      "ratio_residencial": "0.000490000",
+      "ratio_comercial": "0E-9",
+      "ratio_outro": "0E-9",
+      "ratio_total": "0.000400000"
+    },
+    {
+      "codigo_postal": "56229",
+      "geoid_do_trato_do_censo": "27083360200",
+      "ratio_residencial": "0.029450000",
+      "ratio_comercial": "0E-9",
+      "ratio_outro": "0E-9",
+      "ratio_total": "0.028130000"
+    },
+    {
+      "codigo_postal": "10465",
+      "geoid_do_trato_do_censo": "36005027600",
+      "ratio_residencial": "0.000170000",
+      "ratio_comercial": "0E-9",
+      "ratio_outro": "0E-9",
+      "ratio_total": "0.000160000"
+    },
+    {
+      "codigo_postal": "78573",
+      "geoid_do_trato_do_censo": "48215020202",
+      "ratio_residencial": "0.000060000",
+      "ratio_comercial": "0E-9",
+      "ratio_outro": "0E-9",
+      "ratio_total": "0.000050000"
+    },
+    {
+      "codigo_postal": "92129",
+      "geoid_do_trato_do_censo": "06073017029",
+      "ratio_residencial": "0.000870000",
+      "ratio_comercial": "0E-9",
+      "ratio_outro": "0E-9",
+      "ratio_total": "0.000800000"
+    }
+  ]
+}

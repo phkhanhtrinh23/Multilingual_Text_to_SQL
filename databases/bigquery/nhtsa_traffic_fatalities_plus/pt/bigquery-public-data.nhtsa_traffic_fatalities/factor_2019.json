@@ -1,0 +1,86 @@
+{
+  "table_name": " factor_2019",
+  "table_fullname": "bigquery-public-data.nhtsa_traffic_fatalities. factor_2019",
+  "column_names": [
+    "numero_do_estado",
+    "nome_do_estado",
+    "numero_consecutivo",
+    "numero_do_veiculo",
+    "circunstancias_contribuintes_veiculo_motor",
+    "nome_circunstancias_contribuintes_veiculo_motor"
+  ],
+  "column_types": [
+    "INT64",
+    "STRING",
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "numero_do_estado",
+    "nome_do_estado",
+    "numero_consecutivo",
+    "numero_do_veiculo",
+    "circunstancias_contribuintes_veiculo_motorizado",
+    "nome_circunstancias_contribuintes_veiculo_motorizado"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "STRING",
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING"
+  ],
+  "description": [
+    "Este elemento de dados identifica o estado em que ocorreu o acidente. Os códigos são da publicação da Administração de Serviços Gerais (GSA) dos códigos de localização geográfica mundiais (GLC). Para mais informações sobre os códigos, por favor, consulte a seção <C1/V1/D1/PC1/P1/NM1 State Number> no pdf: https://crashstats.nhtsa.dot.gov/Api/Public/ViewPublication/812315",
+    "Este elemento de dados identifica o estado em que ocorreu o acidente. Os códigos são da publicação da Administração de Serviços Gerais (GSA) dos códigos de localização geográfica mundiais (GLC).",
+    "Este elemento de dados é o número de caso único atribuído a cada acidente. Ele aparece em cada arquivo de dados e é usado para mesclar informações dos arquivos de dados. xxxxxx Dois Caracteres para Código de Estado seguidos por Quatro Caracteres para Número de Caso",
+    "Este elemento de dados é o número consecutivo atribuído a cada veículo no caso. Este elemento de dados aparece em cada arquivo de dados de nível de veículo e é usado em conjunto com o elemento de dados ST_CASE para mesclar informações dos arquivos de dados de nível de veículo. 000-999 Número Atribuído de Veículo Motor",
+    "Este elemento de dados descreve os possíveis defeitos pré-existentes ou condições de manutenção deste veículo que podem ter contribuído para o acidente. Para mais informações sobre os códigos, por favor, consulte a seção <PC4 Contributing Circumstances, Motor Vehicle> no pdf: https://crashstats.nhtsa.dot.gov/Api/Public/ViewPublication/812315",
+    "Este elemento de dados descreve os possíveis defeitos pré-existentes ou condições de manutenção deste veículo que podem ter contribuído para o acidente."
+  ],
+  "sample_rows": [
+    {
+      "numero_do_estado": 1,
+      "nome_do_estado": "Alabama",
+      "numero_consecutivo": 10390,
+      "numero_do_veiculo": 5,
+      "circunstancias_contribuintes_veiculo_motorizado": 0,
+      "nome_circunstancias_contribuintes_veiculo_motorizado": "None"
+    },
+    {
+      "numero_do_estado": 1,
+      "nome_do_estado": "Alabama",
+      "numero_consecutivo": 10532,
+      "numero_do_veiculo": 5,
+      "circunstancias_contribuintes_veiculo_motorizado": 0,
+      "nome_circunstancias_contribuintes_veiculo_motorizado": "None"
+    },
+    {
+      "numero_do_estado": 4,
+      "nome_do_estado": "Arizona",
+      "numero_consecutivo": 40037,
+      "numero_do_veiculo": 5,
+      "circunstancias_contribuintes_veiculo_motorizado": 0,
+      "nome_circunstancias_contribuintes_veiculo_motorizado": "None"
+    },
+    {
+      "numero_do_estado": 4,
+      "nome_do_estado": "Arizona",
+      "numero_consecutivo": 40257,
+      "numero_do_veiculo": 5,
+      "circunstancias_contribuintes_veiculo_motorizado": 0,
+      "nome_circunstancias_contribuintes_veiculo_motorizado": "None"
+    },
+    {
+      "numero_do_estado": 4,
+      "nome_do_estado": "Arizona",
+      "numero_consecutivo": 40257,
+      "numero_do_veiculo": 6,
+      "circunstancias_contribuintes_veiculo_motorizado": 0,
+      "nome_circunstancias_contribuintes_veiculo_motorizado": "None"
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "table_name": "MIRNASEQ_EXPRESSION",
+  "table_fullname": "TCGA_HG38_DATA_V0.TCGA_HG38_DATA_V0.MIRNASEQ_EXPRESSION",
+  "column_names": [
+    "Aliquot_Strichcode",
+    "kreuzgemappt",
+    "Projekt_Kurzname",
+    "Fall_Strichcode",
+    "Reads_pro_Million_miRNA_gemapped",
+    "Read_Anzahl",
+    "miRNA_ID",
+    "Proben_Strichcode"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "FLOAT",
+    "NUMBER",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Ursprünglicher TCGA-Aliquot-Barcode, z. B. TCGA-12-1089-01A-01D-0517-01",
+    "Ein kurzer isomiR-Lesevorgang kann genau auf mature Strands abgebildet werden, deren Sequenzen ähnlich, aber nicht identisch sind, wenn die Lesesequenz die Basen nicht erfassen kann, die diese miRNAs unterscheiden (z. B. `hsa-mir-30a` bei 6q13 und `hsa-mir-30e` bei 1p34.2, die sich an Position 18 unterscheiden). Wir berichten einen solchen Lesevorgang als cross-mapped und erhöhen die Lesezählung für jedes MIMAT, auf das es abgebildet wurde. Entweder Y oder N -- weniger als 2% sind Y",
+    "Abkürzung des Projektnamens; der Programmname mit einer Projektnamensabkürzung; z. B. TCGA-OV usw.",
+    "Ursprünglicher TCGA-Fall-Barcode, z. B. TCGA-12-1089  --  beachten Sie, dass jeder Fall in der Regel eine primäre-Tumor-Probe und eine passende-Normal-(Blut- oder angrenzende-Gewebe-)Probe hat; bitte beachten Sie die TCGA-Biospecimen-Tabelle für weitere Details",
+    "Lesezählung normalisiert durch die Gesamtzahl der abgebildeten Lesevorgänge geteilt durch 1 Million",
+    "Anzahl der Lesevorgänge, die diesem `mirna_id` zugeordnet wurden",
+    "Eine von 1870 eindeutigen miRNA-IDs (auch Symbole genannt) in dieser Tabelle, z. B. `hsa-mir-21`  --  relevante Referenzinformationen finden Sie in der isb-cgc:genome_reference-Datensatz in den Tabellen `miRBase_v20` und `miRBase_v20_hsa_gff3`",
+    "Ursprünglicher TCGA-Probe-Barcode, z. B. TCGA-12-1089-01A  --  beachten Sie, dass eine Probe mehrere Aliquote und daher mehrere Sätze von CN-Segmentierungen haben kann; stellen Sie daher sicher, dass Sie GROUP BY in Ihren Abfragen entsprechend verwenden"
+  ],
+  "sample_rows": [
+    {
+      "Projekt_Kurzname": "TCGA-OV",
+      "Fall_Strichcode": "TCGA-04-1331",
+      "Proben_Strichcode": "TCGA-04-1331-01A",
+      "Aliquot_Strichcode": "TCGA-04-1331-01A-01R-1569-13",
+      "miRNA_ID": "hsa-mir-9-3",
+      "Read_Anzahl": 15,
+      "Reads_pro_Million_miRNA_gemapped": 4.31216,
+      "kreuzgemappt": "N"
+    },
+    {
+      "Projekt_Kurzname": "TCGA-OV",
+      "Fall_Strichcode": "TCGA-04-1331",
+      "Proben_Strichcode": "TCGA-04-1331-01A",
+      "Aliquot_Strichcode": "TCGA-04-1331-01A-01R-1569-13",
+      "miRNA_ID": "hsa-mir-3143",
+      "Read_Anzahl": 2,
+      "Reads_pro_Million_miRNA_gemapped": 0.574955,
+      "kreuzgemappt": "N"
+    },
+    {
+      "Projekt_Kurzname": "TCGA-OV",
+      "Fall_Strichcode": "TCGA-04-1331",
+      "Proben_Strichcode": "TCGA-04-1331-01A",
+      "Aliquot_Strichcode": "TCGA-04-1331-01A-01R-1569-13",
+      "miRNA_ID": "hsa-mir-544b",
+      "Read_Anzahl": 2,
+      "Reads_pro_Million_miRNA_gemapped": 0.574955,
+      "kreuzgemappt": "N"
+    },
+    {
+      "Projekt_Kurzname": "TCGA-OV",
+      "Fall_Strichcode": "TCGA-04-1331",
+      "Proben_Strichcode": "TCGA-04-1331-01A",
+      "Aliquot_Strichcode": "TCGA-04-1331-01A-01R-1569-13",
+      "miRNA_ID": "hsa-mir-105-2",
+      "Read_Anzahl": 5,
+      "Reads_pro_Million_miRNA_gemapped": 1.437387,
+      "kreuzgemappt": "N"
+    },
+    {
+      "Projekt_Kurzname": "TCGA-OV",
+      "Fall_Strichcode": "TCGA-04-1331",
+      "Proben_Strichcode": "TCGA-04-1331-01A",
+      "Aliquot_Strichcode": "TCGA-04-1331-01A-01R-1569-13",
+      "miRNA_ID": "hsa-mir-210",
+      "Read_Anzahl": 191,
+      "Reads_pro_Million_miRNA_gemapped": 54.908173,
+      "kreuzgemappt": "N"
+    }
+  ]
+}

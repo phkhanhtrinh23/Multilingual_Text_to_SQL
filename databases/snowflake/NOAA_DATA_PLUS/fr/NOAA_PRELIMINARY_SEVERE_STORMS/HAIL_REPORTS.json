@@ -1,0 +1,102 @@
+{
+  "table_name": "HAIL_REPORTS",
+  "table_fullname": "NOAA_DATA_PLUS.NOAA_PRELIMINARY_SEVERE_STORMS.HAIL_REPORTS",
+  "column_names": [
+    "état",
+    "commentaires",
+    "emplacement",
+    "comté",
+    "horodatage",
+    "longitude",
+    "taille",
+    "latitude",
+    "point_de_rapport",
+    "heure"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "NUMBER",
+    "FLOAT",
+    "NUMBER",
+    "FLOAT",
+    "BINARY",
+    "TEXT"
+  ],
+  "description": [
+    "",
+    "",
+    "Emplacement du rapport",
+    "",
+    "Horodatage en UTC",
+    "Longitude à deux décimales",
+    "Taille en 1/100 de pouce (175 = 1,75 pouces)",
+    "Latitude à deux décimales",
+    "",
+    "Heure en UTC"
+  ],
+  "sample_rows": [
+    {
+      "horodatage": 1640896080000000,
+      "heure": "2028",
+      "taille": 150,
+      "emplacement": "BEAUREGARD",
+      "comté": "LEE",
+      "état": "AL",
+      "latitude": 32.54,
+      "longitude": -85.37,
+      "commentaires": "SILVER DOLLAR SIZE HAIL IN BEAUREGARD. (BMX)",
+      "point_de_rapport": "bytearray(b'\\x01\\x01\\x00\\x00\\x00H\\xe1z\\x14\\xaeWU\\xc0\\x85\\xebQ\\xb8\\x1eE@@')"
+    },
+    {
+      "horodatage": 1619313060000000,
+      "heure": "0111",
+      "taille": 100,
+      "emplacement": "DALEVILLE",
+      "comté": "DALE",
+      "état": "AL",
+      "latitude": 31.29,
+      "longitude": -85.73,
+      "commentaires": "(TAE)",
+      "point_de_rapport": "bytearray(b'\\x01\\x01\\x00\\x00\\x00\\x1f\\x85\\xebQ\\xb8nU\\xc0\\n\\xd7\\xa3p=J?@')"
+    },
+    {
+      "horodatage": 1618007820000000,
+      "heure": "2237",
+      "taille": 100,
+      "emplacement": "1 ENE MOUNDVILLE",
+      "comté": "HALE",
+      "état": "AL",
+      "latitude": 33.0,
+      "longitude": -87.62,
+      "commentaires": "QUARTER SIZE HAIL WAS REPORTED IN MOUNDVILLE. PICTURES RECEIVED FROM SOCIAL MEDIA. (BMX)",
+      "point_de_rapport": "bytearray(b'\\x01\\x01\\x00\\x00\\x00H\\xe1z\\x14\\xae\\xe7U\\xc0\\x00\\x00\\x00\\x00\\x00\\x80@@')"
+    },
+    {
+      "horodatage": 1617998760000000,
+      "heure": "2006",
+      "taille": 100,
+      "emplacement": "1 S ARKADELPHIA",
+      "comté": "BLOUNT",
+      "état": "AL",
+      "latitude": 33.86,
+      "longitude": -86.93,
+      "commentaires": "REPORTS OF QUARTER SIZE HAIL NEAR ARKADELPHIA. (BMX)",
+      "point_de_rapport": "bytearray(b'\\x01\\x01\\x00\\x00\\x00\\xecQ\\xb8\\x1e\\x85\\xbbU\\xc0\\xaeG\\xe1z\\x14\\xee@@')"
+    },
+    {
+      "horodatage": 1619302380000000,
+      "heure": "2213",
+      "taille": 150,
+      "emplacement": "3 W WHITNEY JUNCTION",
+      "comté": "BLOUNT",
+      "état": "AL",
+      "latitude": 33.88,
+      "longitude": -86.36,
+      "commentaires": "(BMX)",
+      "point_de_rapport": "bytearray(b'\\x01\\x01\\x00\\x00\\x00\\xd7\\xa3p=\\n\\x97U\\xc0p=\\n\\xd7\\xa3\\xf0@@')"
+    }
+  ]
+}

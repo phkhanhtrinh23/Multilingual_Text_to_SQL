@@ -1,0 +1,66 @@
+{
+  "table_name": "target_components_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.target_components_30",
+  "column_names": [
+    "thời gian",
+    "Mã thành phần",
+    "mã thành phần mục tiêu",
+    "đối ngẫu"
+  ],
+  "column_types": [
+    "INT64",
+    "INT64",
+    "INT64",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "thời gian",
+    "mã thành phần",
+    "targcomp_id",
+    "đối đương"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "INT64",
+    "INT64",
+    "INT64"
+  ],
+  "description": [
+    "Khóa ngoại tới target_dictionary, chỉ ra mục tiêu mà các thành phần thuộc về.",
+    "Khóa ngoại tới bảng component_sequences, chỉ ra các thành phần nào thuộc mục tiêu.",
+    "Khóa chính.",
+    "Chỉ ra rằng thành phần đã cho là một đồng chất của thành phần đúng (ví dụ, từ một loài khác) khi được đặt thành 1. Điều này có thể xảy ra nếu trình tự của protein/nước axit nucleic đúng không thể được tìm thấy trong cơ sở dữ liệu trình tự. Giá trị 2 chỉ ra rằng trình tự đã cho là đại diện cho một nhóm loài, ví dụ, một protein E. coli để đại diện cho mục tiêu của một thuốc kháng sinh phổ rộng."
+  ],
+  "sample_rows": [
+    {
+      "thời gian": 10496,
+      "mã thành phần": 1361,
+      "targcomp_id": 4530,
+      "đối đương": 0
+    },
+    {
+      "thời gian": 10752,
+      "mã thành phần": 321,
+      "targcomp_id": 2345,
+      "đối đương": 0
+    },
+    {
+      "thời gian": 11520,
+      "mã thành phần": 1491,
+      "targcomp_id": 5341,
+      "đối đương": 0
+    },
+    {
+      "thời gian": 12800,
+      "mã thành phần": 2751,
+      "targcomp_id": 4027,
+      "đối đương": 0
+    },
+    {
+      "thời gian": 13056,
+      "mã thành phần": 2744,
+      "targcomp_id": 4758,
+      "đối đương": 0
+    }
+  ]
+}

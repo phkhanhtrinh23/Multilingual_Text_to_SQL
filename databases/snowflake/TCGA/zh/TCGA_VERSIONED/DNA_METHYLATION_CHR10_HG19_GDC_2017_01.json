@@ -1,0 +1,78 @@
+{
+  "table_name": "DNA_METHYLATION_CHR10_HG19_GDC_2017_01",
+  "table_fullname": "TCGA.TCGA_VERSIONED.DNA_METHYLATION_CHR10_HG19_GDC_2017_01",
+  "column_names": [
+    "项目简称",
+    "贝塔值",
+    "平台",
+    "分装条码",
+    "样本条码",
+    "探针ID",
+    "案件条码"
+  ],
+  "column_types": [
+    "TEXT",
+    "FLOAT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "项目名称缩写；将项目名称缩写附加到程序名称后面，例如：TCGA-OV 等。",
+    "标准化的 DNA 甲基化 beta 值（介于 0 和 1 之间，0 表示完全未甲基化，1 表示完全甲基化）",
+    "用于生成此数据的平台名称——HumanMethylation450 或 HumanMethylation27",
+    "原始 TCGA 分液条码，例如 TCGA-12-1089-01A-01D-0517-01",
+    "原始 TCGA 样本条形码，例如 TCGA-12-1089-01A",
+    "Illumina 人类甲基化芯片的唯一探针识别码（例如 cg04676771）——如需了解任何特定探针的更多细节，请参考注释表 (isb-cgc:platform_reference.methylation_annotation)。",
+    "原始TCGA病例条码，例如 TCGA-12-1089 — 请注意，每个病例通常都有一个原发肿瘤样本和一个匹配的正常样本（血液或相邻组织）；请参阅 TCGA 生物样本表以获取更多详细信息"
+  ],
+  "sample_rows": [
+    {
+      "项目简称": "TCGA-OV",
+      "案件条码": "TCGA-01-0630",
+      "样本条码": "TCGA-01-0630-11A",
+      "分装条码": "TCGA-01-0630-11A-01D-0383-05",
+      "探针ID": "cg22139878",
+      "贝塔值": 0.02,
+      "平台": "HumanMethylation27"
+    },
+    {
+      "项目简称": "TCGA-OV",
+      "案件条码": "TCGA-01-0630",
+      "样本条码": "TCGA-01-0630-11A",
+      "分装条码": "TCGA-01-0630-11A-01D-0383-05",
+      "探针ID": "cg00997424",
+      "贝塔值": 0.04,
+      "平台": "HumanMethylation27"
+    },
+    {
+      "项目简称": "TCGA-OV",
+      "案件条码": "TCGA-01-0630",
+      "样本条码": "TCGA-01-0630-11A",
+      "分装条码": "TCGA-01-0630-11A-01D-0383-05",
+      "探针ID": "cg13806670",
+      "贝塔值": 0.01,
+      "平台": "HumanMethylation27"
+    },
+    {
+      "项目简称": "TCGA-OV",
+      "案件条码": "TCGA-01-0630",
+      "样本条码": "TCGA-01-0630-11A",
+      "分装条码": "TCGA-01-0630-11A-01D-0383-05",
+      "探针ID": "cg17165760",
+      "贝塔值": 0.02,
+      "平台": "HumanMethylation27"
+    },
+    {
+      "项目简称": "TCGA-OV",
+      "案件条码": "TCGA-01-0633",
+      "样本条码": "TCGA-01-0633-11A",
+      "分装条码": "TCGA-01-0633-11A-01D-0383-05",
+      "探针ID": "cg25692323",
+      "贝塔值": 0.52,
+      "平台": "HumanMethylation27"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "sample_rows": [
+    {
+      "POI_ID": "08f2aad4446520ec03e1f001780831d4",
+      "POI_NAME": "Bk Rentals",
+      "HAUPTKATEGORIE": "Party Equipment Rental",
+      "ALTERNATIVKATEGORIE": "[\n  \"Party Supply\",\n  \"Retail\"\n]"
+    },
+    {
+      "POI_ID": "08f44a112860108a03b33ba25948478f",
+      "POI_NAME": "Amethyst Law Group",
+      "HAUPTKATEGORIE": "Lawyer",
+      "ALTERNATIVKATEGORIE": null
+    },
+    {
+      "POI_ID": "08f2986ab4d3447503b83560c1fe48ad",
+      "POI_NAME": "Iglesia Cristiana Mi Refugio",
+      "HAUPTKATEGORIE": "Church Cathedral",
+      "ALTERNATIVKATEGORIE": "[\n  \"Religious Organization\"\n]"
+    },
+    {
+      "POI_ID": "08f2832b99aed21203072dc6cbb35c3b",
+      "POI_NAME": "Jass Gardening",
+      "HAUPTKATEGORIE": null,
+      "ALTERNATIVKATEGORIE": null
+    },
+    {
+      "POI_ID": "08f2a33cd328310e0331f178e0caa82b",
+      "POI_NAME": "Pampered By G",
+      "HAUPTKATEGORIE": null,
+      "ALTERNATIVKATEGORIE": null
+    }
+  ],
+  "table_name": "POINT_OF_INTEREST_INDEX",
+  "table_fullname": "US_ADDRESSES__POI.CYBERSYN.POINT_OF_INTEREST_INDEX",
+  "column_names": [
+    "HAUPTKATEGORIE",
+    "POI_NAME",
+    "ALTERNATIVKATEGORIE",
+    "POI_ID"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "ARRAY",
+    "TEXT"
+  ],
+  "description": [
+    "Primäre Kategorie oder Klasse des Ortes für den POI.",
+    "Name des Ortes, Händlers oder Wahrzeichens für den bestimmten POI.",
+    "Alternativkategorien des POI. Ein POI könnte mehrere Kategorien passen (z. B. Restaurant, Burger-Restaurant, Fast-Food-Restaurant), in diesem Fall würde eine Kategorie als CATEGORY_MAIN aufgezeichnet werden und die verbleibenden Kategorien würden in einer Liste unter CATEGORY_ALTERNATE aufgezeichnet.",
+    "Ein eindeutiger Identifikator für einen Punkt von Interesse (wie z. B. einen Park, eine Fast-Food-Kette, ein Hotel usw.) basierend auf seiner Beschreibung und Lage. Dies kann mit der Tabelle POINT_OF_INTEREST_ADDRESSES_RELATIONSHIPS verknüpft werden, die zum Verknüpfen von POIs mit Adressen verwendet werden kann."
+  ]
+}

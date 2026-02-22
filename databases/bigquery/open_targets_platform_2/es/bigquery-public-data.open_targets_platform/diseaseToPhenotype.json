@@ -1,0 +1,132 @@
+{
+  "table_name": "diseaseToPhenotype",
+  "table_fullname": "bigquery-public-data.open_targets_platform.diseaseToPhenotype",
+  "column_names": [
+    "enfermedad",
+    "fenotipo",
+    "evidencia"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRUCT<list ARRAY<STRUCT<element STRUCT<aspect STRING, bioCuration STRING, diseaseFromSourceId STRING, diseaseFromSource STRING, diseaseName STRING, evidenceType STRING, frequency STRING, modifiers STRUCT<list ARRAY<STRUCT<element STRING>>>, onset STRUCT<list ARRAY<STRUCT<element STRING>>>, qualifier STRING, qualifierNot BOOL, references STRUCT<list ARRAY<STRUCT<element STRING>>>, sex STRING, resource STRING>>>>"
+  ],
+  "nested_column_names": [
+    "enfermedad",
+    "fenotipo",
+    "evidencia",
+    "lista de evidencia",
+    "elemento de la lista de evidencia",
+    "Aspecto del elemento de la lista de evidencia",
+    "Evidencia lista elemento bioCuración",
+    "evidencia.lista.elemento.idFuenteEnfermedad",
+    "enfermedad de la fuente",
+    "Nombre de la enfermedad",
+    "Tipo de evidencia",
+    "frecuencia de elementos de evidencia",
+    "modificadores del elemento de la lista de evidencia",
+    "lista de evidencia de elementos modificadores",
+    "Elemento de la lista de modificadores del elemento de la lista de evidencia",
+    "evidencia.lista.elemento.inicio",
+    "lista de evidencia elemento inicio lista",
+    "evidencia.lista.elemento.inicio.lista.elemento",
+    "evidencia.lista.elemento.calificador",
+    "Sin cualificador",
+    "referencias de elemento de lista de evidencia",
+    "lista de referencias del elemento de la lista de evidencia",
+    "evidencia.lista.elemento.referencias.lista.elemento",
+    "evidencia.lista.elemento.sexo",
+    "evidencia lista elemento recurso"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRUCT<list ARRAY<STRUCT<element STRUCT<aspect STRING, bioCuration STRING, diseaseFromSourceId STRING, diseaseFromSource STRING, diseaseName STRING, evidenceType STRING, frequency STRING, modifiers STRUCT<list ARRAY<STRUCT<element STRING>>>, onset STRUCT<list ARRAY<STRUCT<element STRING>>>, qualifier STRING, qualifierNot BOOL, references STRUCT<list ARRAY<STRUCT<element STRING>>>, sex STRING, resource STRING>>>>",
+    "ARRAY<STRUCT<element STRUCT<aspect STRING, bioCuration STRING, diseaseFromSourceId STRING, diseaseFromSource STRING, diseaseName STRING, evidenceType STRING, frequency STRING, modifiers STRUCT<list ARRAY<STRUCT<element STRING>>>, onset STRUCT<list ARRAY<STRUCT<element STRING>>>, qualifier STRING, qualifierNot BOOL, references STRUCT<list ARRAY<STRUCT<element STRING>>>, sex STRING, resource STRING>>>",
+    "STRUCT<aspect STRING, bioCuration STRING, diseaseFromSourceId STRING, diseaseFromSource STRING, diseaseName STRING, evidenceType STRING, frequency STRING, modifiers STRUCT<list ARRAY<STRUCT<element STRING>>>, onset STRUCT<list ARRAY<STRUCT<element STRING>>>, qualifier STRING, qualifierNot BOOL, references STRUCT<list ARRAY<STRUCT<element STRING>>>, sex STRING, resource STRING>",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+    "ARRAY<STRUCT<element STRING>>",
+    "STRING",
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+    "ARRAY<STRUCT<element STRING>>",
+    "STRING",
+    "STRING",
+    "BOOL",
+    "STRUCT<list ARRAY<STRUCT<element STRING>>>",
+    "ARRAY<STRUCT<element STRING>>",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "sample_rows": [
+    {
+      "enfermedad": "Orphanet_552",
+      "fenotipo": "HP_0001520",
+      "evidencia": {
+        "list": "[{'element': {'aspect': 'P', 'bioCuration': 'ORPHA:orphadata[2024-04-24]', 'diseaseFromSourceId': 'ORPHA:552', 'diseaseFromSource': 'MODY', 'diseaseName': 'MODY', 'evidenceType': 'TAS', 'frequency': 'HP_0040283', 'modifiers': None, 'onset': None, 'qualifier': None, 'qualifierNot': False, 'references': {'list': array([{'element': 'ORPHA:552'}], dtype=object)}, 'sex': None, 'resource': 'HPO'}}]"
+      }
+    },
+    {
+      "enfermedad": "Orphanet_552",
+      "fenotipo": "HP_0004924",
+      "evidencia": {
+        "list": "[{'element': {'aspect': 'P', 'bioCuration': 'ORPHA:orphadata[2024-04-24]', 'diseaseFromSourceId': 'ORPHA:552', 'diseaseFromSource': 'MODY', 'diseaseName': 'MODY', 'evidenceType': 'TAS', 'frequency': 'HP_0040282', 'modifiers': None, 'onset': None, 'qualifier': None, 'qualifierNot': False, 'references': {'list': array([{'element': 'ORPHA:552'}], dtype=object)}, 'sex': None, 'resource': 'HPO'}}]"
+      }
+    },
+    {
+      "enfermedad": "Orphanet_552",
+      "fenotipo": "HP_0000831",
+      "evidencia": {
+        "list": "[{'element': {'aspect': 'P', 'bioCuration': 'ORPHA:orphadata[2024-04-24]', 'diseaseFromSourceId': 'ORPHA:552', 'diseaseFromSource': 'MODY', 'diseaseName': 'MODY', 'evidenceType': 'TAS', 'frequency': 'HP_0040283', 'modifiers': None, 'onset': None, 'qualifier': None, 'qualifierNot': False, 'references': {'list': array([{'element': 'ORPHA:552'}], dtype=object)}, 'sex': None, 'resource': 'HPO'}}]"
+      }
+    },
+    {
+      "enfermedad": "Orphanet_552",
+      "fenotipo": "HP_0000119",
+      "evidencia": {
+        "list": "[{'element': {'aspect': 'P', 'bioCuration': 'ORPHA:orphadata[2024-04-24]', 'diseaseFromSourceId': 'ORPHA:552', 'diseaseFromSource': 'MODY', 'diseaseName': 'MODY', 'evidenceType': 'TAS', 'frequency': 'HP_0040284', 'modifiers': None, 'onset': None, 'qualifier': None, 'qualifierNot': False, 'references': {'list': array([{'element': 'ORPHA:552'}], dtype=object)}, 'sex': None, 'resource': 'HPO'}}]"
+      }
+    },
+    {
+      "enfermedad": "Orphanet_552",
+      "fenotipo": "HP_0003076",
+      "evidencia": {
+        "list": "[{'element': {'aspect': 'P', 'bioCuration': 'ORPHA:orphadata[2024-04-24]', 'diseaseFromSourceId': 'ORPHA:552', 'diseaseFromSource': 'MODY', 'diseaseName': 'MODY', 'evidenceType': 'TAS', 'frequency': 'HP_0040282', 'modifiers': None, 'onset': None, 'qualifier': None, 'qualifierNot': False, 'references': {'list': array([{'element': 'ORPHA:552'}], dtype=object)}, 'sex': None, 'resource': 'HPO'}}]"
+      }
+    }
+  ]
+}

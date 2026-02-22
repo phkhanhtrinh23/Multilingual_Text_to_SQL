@@ -1,0 +1,66 @@
+{
+  "table_name": "structural_alerts_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.structural_alerts_30",
+  "column_names": [
+    "警报ID",
+    "警报集ID",
+    "警报名称",
+    "智慧"
+  ],
+  "column_types": [
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "告警ID",
+    "警报组ID",
+    "告警名称",
+    "智慧"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "主键。结构性警报的唯一标识符",
+    "指向 structural_alert_sets 表的外键，表明此特定警报来自哪个集合",
+    "结构警报的名称",
+    "定义被视为警报的结构特征的 SMARTS"
+  ],
+  "sample_rows": [
+    {
+      "告警ID": 2,
+      "警报组ID": 1,
+      "告警名称": "R2 Acid halides",
+      "智慧": "[S,C](=[O,S])[F,Br,Cl,I]"
+    },
+    {
+      "告警ID": 3,
+      "警报组ID": 1,
+      "告警名称": "R3 Carbazides",
+      "智慧": "O=CN=[N+]=[N-]"
+    },
+    {
+      "告警ID": 4,
+      "警报组ID": 1,
+      "告警名称": "R4 Sulphate esters",
+      "智慧": "COS(=O)O[C,c]"
+    },
+    {
+      "告警ID": 5,
+      "警报组ID": 1,
+      "告警名称": "R5 Sulphonates",
+      "智慧": "COS(=O)(=O)[C,c]"
+    },
+    {
+      "告警ID": 6,
+      "警报组ID": 1,
+      "告警名称": "R6 Acid anhydrides",
+      "智慧": "C(=O)OC(=O)"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "table_name": "PAAD_KIRP_RESULT_CHECK",
+  "table_fullname": "TCGA_HG38_DATA_V0.QOTM.PAAD_KIRP_RESULT_CHECK",
+  "column_names": [
+    "Fenotipo",
+    "Identificador",
+    "GENE",
+    "Expresión",
+    "Nombre abreviado del proyecto",
+    "E-rank"
+  ],
+  "column_types": [
+    "NUMBER",
+    "TEXT",
+    "TEXT",
+    "FLOAT",
+    "TEXT",
+    "NUMBER"
+  ],
+  "description": [
+    "Si el gen proviene de TCGA-PAAD o de TCGA-KIRP",
+    "Código de barras de muestra",
+    "El símbolo del gen. En esta tabla, el símbolo del gen es el nombre del gen, por ejemplo, ACADVL",
+    "Fragmentos por kilobase de transcrito por millón de lecturas mapeadas (FPKM) es un método sencillo de normalización de nivel de expresión. El FPKM normaliza el recuento de lecturas en función de la longitud del gen y del número total de lecturas mapeadas. https://docs.gdc.cancer.gov/Encyclopedia/pages/HTSeq-FPKM/",
+    "Abreviatura del nombre del proyecto; el nombre del programa unido a una abreviatura del nombre del proyecto; ej. TCGA-OV, etc.",
+    "Rango de Expresión"
+  ],
+  "sample_rows": [
+    {
+      "Identificador": "TCGA-3A-A9IH-01A",
+      "Nombre abreviado del proyecto": "TCGA-PAAD",
+      "Fenotipo": 0,
+      "GENE": "SLC12A3",
+      "Expresión": 388.349514563,
+      "E-rank": 1
+    },
+    {
+      "Identificador": "TCGA-5P-A9KE-01A",
+      "Nombre abreviado del proyecto": "TCGA-KIRP",
+      "Fenotipo": 1,
+      "GENE": "NKX6-3",
+      "Expresión": 0.0,
+      "E-rank": 1
+    },
+    {
+      "Identificador": "TCGA-A4-8515-01A",
+      "Nombre abreviado del proyecto": "TCGA-KIRP",
+      "Fenotipo": 1,
+      "GENE": "NKX6-3",
+      "Expresión": 0.0,
+      "E-rank": 1
+    },
+    {
+      "Identificador": "TCGA-A4-8515-01A",
+      "Nombre abreviado del proyecto": "TCGA-KIRP",
+      "Fenotipo": 1,
+      "GENE": "SLC12A3",
+      "Expresión": 742.026169914,
+      "E-rank": 2
+    },
+    {
+      "Identificador": "TCGA-BQ-5879-01A",
+      "Nombre abreviado del proyecto": "TCGA-KIRP",
+      "Fenotipo": 1,
+      "GENE": "NKX6-3",
+      "Expresión": 0.0,
+      "E-rank": 1
+    }
+  ]
+}

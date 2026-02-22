@@ -1,0 +1,110 @@
+{
+  "sample_rows": [
+    {
+      "ID_TYPE_DE_VOL": "28ad3b116a705f65fd2a9df6bec3f49f",
+      "ID_TRANSPORTEUR_AVION": "06964_12",
+      "ID_AVION": "3501",
+      "ID_AEROPORT_D_ORIGINE": "90530OOK",
+      "ID_AEROPORT_DE_DESTINATION": "10360BET",
+      "CLASSE_DE_SERVICE": "Non-Scheduled Civilian Passenger Service",
+      "VARIABLE": "RAMP_IN_MINUTES",
+      "NOM_DE_VARIABLE": "Ramp to Ramp Time",
+      "DATE": "2010-08-31",
+      "VALEUR": 56.0,
+      "UNITE": "Minutes"
+    },
+    {
+      "ID_TYPE_DE_VOL": "cf4b7309ce4884368d51a7e51942e1b9",
+      "ID_TRANSPORTEUR_AVION": "06820_32",
+      "ID_AVION": "67761",
+      "ID_AEROPORT_D_ORIGINE": "33342MKE",
+      "ID_AEROPORT_DE_DESTINATION": "30977ORD",
+      "CLASSE_DE_SERVICE": "Scheduled Passenger/Cargo Service",
+      "VARIABLE": "RAMP_IN_MINUTES",
+      "NOM_DE_VARIABLE": "Ramp to Ramp Time",
+      "DATE": "2022-08-31",
+      "VALEUR": 129.0,
+      "UNITE": "Minutes"
+    },
+    {
+      "ID_TYPE_DE_VOL": "f367e322ca9c2659c07cc794f71f1d91",
+      "ID_TRANSPORTEUR_AVION": "07028_22",
+      "ID_AVION": "3161",
+      "ID_AEROPORT_D_ORIGINE": "30781BTR",
+      "ID_AEROPORT_DE_DESTINATION": "31057CLT",
+      "CLASSE_DE_SERVICE": "Scheduled Passenger/Cargo Service",
+      "VARIABLE": "AVAILABLE_CAPACITY_PAYLOAD_POUNDS",
+      "NOM_DE_VARIABLE": "Available Payload",
+      "DATE": "2018-12-31",
+      "VALEUR": 17600.0,
+      "UNITE": "Pounds"
+    },
+    {
+      "ID_TYPE_DE_VOL": "c9dd4f9fc360815254514841363591c7",
+      "ID_TRANSPORTEUR_AVION": "01220_31",
+      "ID_AVION": "61661",
+      "ID_AEROPORT_D_ORIGINE": "31703EWR",
+      "ID_AEROPORT_DE_DESTINATION": "30792BUF",
+      "CLASSE_DE_SERVICE": "Scheduled Passenger/Cargo Service",
+      "VARIABLE": "DEPARTURES_PERFORMED",
+      "NOM_DE_VARIABLE": "Departures Performed",
+      "DATE": "2001-02-28",
+      "VALEUR": 17.0,
+      "UNITE": "Count"
+    },
+    {
+      "ID_TYPE_DE_VOL": "43c78ee4a763fae537e32de92c688134",
+      "ID_TRANSPORTEUR_AVION": "06860_12",
+      "ID_AVION": "41641",
+      "ID_AEROPORT_D_ORIGINE": "32122HGZ",
+      "ID_AEROPORT_DE_DESTINATION": "32214HSL",
+      "CLASSE_DE_SERVICE": "Scheduled Passenger/Cargo Service",
+      "VARIABLE": "MAIL_TRANSPORTED",
+      "NOM_DE_VARIABLE": "Non-Stop Segment Mail Transported",
+      "DATE": "2003-06-30",
+      "VALEUR": 1121.0,
+      "UNITE": "Pounds"
+    }
+  ],
+  "table_name": "US_DEPARTMENT_OF_TRANSPORTATION_TIMESERIES",
+  "table_fullname": "GLOBAL_GOVERNMENT.CYBERSYN.US_DEPARTMENT_OF_TRANSPORTATION_TIMESERIES",
+  "column_names": [
+    "ID_TYPE_DE_VOL",
+    "ID_AVION",
+    "ID_AEROPORT_DE_DESTINATION",
+    "UNITE",
+    "VALEUR",
+    "DATE",
+    "CLASSE_DE_SERVICE",
+    "NOM_DE_VARIABLE",
+    "ID_AEROPORT_D_ORIGINE",
+    "VARIABLE",
+    "ID_TRANSPORTEUR_AVION"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "FLOAT",
+    "DATE",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Un hachage unique pour la combinaison des aéroports de départ et d'arrivée, des transporteurs aériens et des avions. Clé primaire reflétant le modèle de vol.",
+    "ID pour le type d'avion, un modèle distinctif désigné par le fabricant.",
+    "ID pour l'aéroport de destination qui fait partie de l'itinéraire de vol mesuré, combinaison du code unique DOT et du code OAG officiel à 3 lettres délivré pour cet aéroport.",
+    "Unité de mesure pour la valeur rapportée.",
+    "Valeur rapportée pour la variable.",
+    "Date associée à la valeur.",
+    "Type de service fourni par la compagnie aérienne sur un vol spécifique, distinguant le service régulier du service non régulier et le type de service.",
+    "Nom unique lisible par l'homme pour la variable.",
+    "ID pour l'aéroport de départ qui fait partie de l'itinéraire de vol mesuré, combinaison du code unique DOT et du code OAG officiel à 3 lettres délivré pour cet aéroport.",
+    "Identifiant unique pour une variable, joignable à la table des séries chronologiques.",
+    "ID pour le transporteur aérien."
+  ]
+}

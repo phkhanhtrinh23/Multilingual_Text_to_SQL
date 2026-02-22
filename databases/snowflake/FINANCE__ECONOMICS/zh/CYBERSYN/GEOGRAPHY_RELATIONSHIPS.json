@@ -1,0 +1,78 @@
+{
+  "sample_rows": [
+    {
+      "地理名称": "Sumter County",
+      "地理标识": "geoId/45085",
+      "等级": "County",
+      "相关地理名称": "Block Group 3, Census Tract 4, Sumter County, South Carolina",
+      "相关地理编号": "censusBlockGroup/450850004003",
+      "相关级别": "CensusBlockGroup",
+      "关系类型": "Contains"
+    },
+    {
+      "地理名称": "Census Tract 5035.10, Santa Clara County, California",
+      "地理标识": "geoId/06085503510",
+      "等级": "CensusTract",
+      "相关地理名称": "Block Group 2; Census Tract 5035.10; Santa Clara County; California",
+      "相关地理编号": "censusBlockGroup/060855035102",
+      "相关级别": "CensusBlockGroup",
+      "关系类型": "Contains"
+    },
+    {
+      "地理名称": "Northern America",
+      "地理标识": "countrySubRegion/021",
+      "等级": "CountrySubRegion",
+      "相关地理名称": "Census Tract 107.30, Sandoval County, New Mexico",
+      "相关地理编号": "geoId/35043010730",
+      "相关级别": "CensusTract",
+      "关系类型": "Contains"
+    },
+    {
+      "地理名称": "59150306",
+      "地理标识": "statcanId/S051259150306",
+      "等级": "DisseminationArea",
+      "相关地理名称": "Greater Vancouver",
+      "相关地理编号": "statcanId/A00035915",
+      "相关级别": "CensusDivision",
+      "关系类型": "Overlaps"
+    },
+    {
+      "地理名称": "35230419",
+      "地理标识": "statcanId/S051235230419",
+      "等级": "DisseminationArea",
+      "相关地理名称": "Guelph/Eramosa",
+      "相关地理编号": "statcanId/A00053523009",
+      "相关级别": "CensusSubdivision",
+      "关系类型": "Overlaps"
+    }
+  ],
+  "table_name": "GEOGRAPHY_RELATIONSHIPS",
+  "table_fullname": "FINANCE__ECONOMICS.CYBERSYN.GEOGRAPHY_RELATIONSHIPS",
+  "column_names": [
+    "相关地理名称",
+    "相关级别",
+    "关系类型",
+    "相关地理编号",
+    "地理标识",
+    "地理名称",
+    "等级"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "与 GEO_NAME 相关的地点名称。这是一个与主要地理位置重叠或包含在其内部的地点（例如，城市位于州内）。",
+    "相关地点的地理层级或层次（例如：国家、州、县、市、洲、国家子地区等）",
+    "两个地点之间的关系。Contains 表示 RELATED_GEO_ID 完全包含在 GEO_ID 内（例如，州包含城市）。Overlaps 表示 GEO_ID 是 RELATED_GEO_ID 的子部分（例如，城市是州的一部分）。",
+    "与 GEOGRAPHY_INDEX 表关联的相关地点的唯一标识符",
+    "与 GEOGRAPHY_INDEX 表关联的地点唯一标识符",
+    "地点的全名",
+    "地理层级或层次（例如，国家、州、县、市、洲、国家子区域等）"
+  ]
+}

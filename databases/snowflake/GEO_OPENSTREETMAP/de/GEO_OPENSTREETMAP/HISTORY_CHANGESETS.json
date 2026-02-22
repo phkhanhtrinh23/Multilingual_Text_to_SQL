@@ -1,0 +1,70 @@
+{
+  "table_name": "HISTORY_CHANGESETS",
+  "table_fullname": "GEO_OPENSTREETMAP.GEO_OPENSTREETMAP.HISTORY_CHANGESETS",
+  "column_names": [
+    "osm_zeitstempel_min",
+    "wege",
+    "id",
+    "osm_zeitstempel_max",
+    "relationen",
+    "knoten"
+  ],
+  "column_types": [
+    "NUMBER",
+    "VARIANT",
+    "NUMBER",
+    "NUMBER",
+    "VARIANT",
+    "VARIANT"
+  ],
+  "description": [
+    "Minimale Zeitstempel von Objekten, die in diesem Changeset enthalten sind.",
+    "Ways, die Teil dieses Ways sind",
+    "Changeset-ID.",
+    "Maximaler Zeitstempel von Objekten, die in diesem Changeset enthalten sind.",
+    "Relations, die Teil dieses Ways sind",
+    "Nodes, die Teil dieses Ways sind"
+  ],
+  "sample_rows": [
+    {
+      "id": 30256461,
+      "osm_zeitstempel_min": 1429167998,
+      "osm_zeitstempel_max": 1429167998,
+      "relationen": "[\n  2787405\n]",
+      "wege": "[]",
+      "knoten": "[]"
+    },
+    {
+      "id": 8254690,
+      "osm_zeitstempel_min": 1306424582,
+      "osm_zeitstempel_max": 1306424582,
+      "relationen": "[\n  1573819\n]",
+      "wege": "[]",
+      "knoten": "[]"
+    },
+    {
+      "id": 12871634,
+      "osm_zeitstempel_min": 1346011892,
+      "osm_zeitstempel_max": 1346011894,
+      "relationen": "[\n  186430\n]",
+      "wege": "[]",
+      "knoten": "[\n  171513871\n]"
+    },
+    {
+      "id": 33171592,
+      "osm_zeitstempel_min": 1438929466,
+      "osm_zeitstempel_max": 1438929466,
+      "relationen": "[\n  5419230,\n  5419225\n]",
+      "wege": "[]",
+      "knoten": "[]"
+    },
+    {
+      "id": 65078513,
+      "osm_zeitstempel_min": 1543686864,
+      "osm_zeitstempel_max": 1543686864,
+      "relationen": "[\n  9068338\n]",
+      "wege": "[]",
+      "knoten": "[]"
+    }
+  ]
+}

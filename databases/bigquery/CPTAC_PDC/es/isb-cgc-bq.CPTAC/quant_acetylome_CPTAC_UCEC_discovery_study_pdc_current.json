@@ -1,0 +1,116 @@
+{
+  "table_name": "quant_acetylome_CPTAC_UCEC_discovery_study_pdc_current",
+  "table_fullname": "isb-cgc-bq.CPTAC.quant_acetylome_CPTAC_UCEC_discovery_study_pdc_current",
+  "column_names": [
+    "id_caso",
+    "id_muestra",
+    "aliquota_id",
+    "id_solicitante_aliquot",
+    "ID de metadatos de corrida de porción",
+    "nombre del estudio",
+    "razón_log2_abundancia_proteína",
+    "ID de refseq",
+    "sitios de acetilación"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "id_caso",
+    "id_muestra",
+    "id_aliquota",
+    "identificador_del_solicitante_de_aliquot",
+    "id_metadatos_ejecucion_aliquot",
+    "nombre del estudio",
+    "razón log2 de abundancia proteica",
+    "identificador_refseq",
+    "sitios de acetilación"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "Identificador único asociado con un paciente específico (p. ej. 24cb0fcb-63d6-11e8-bcf1-0a2705229b82)",
+    "Identificador único PDC para esta muestra (p. ej. e8d83eb9-693a-11ea-b1fd-0aad30af8a83)",
+    "Identificador único PDC para esta alícuota (por ejemplo, e8db124a-693a-11ea-b1fd-0aad30af8a83)",
+    "ID del remitente de la alícuota asignado por el programa (p. ej., T14)",
+    "Identifica de manera única la porción por la forma en que se utilizó en el experimento (basado en el reactivo de etiquetado y/o el replicado biológico).",
+    "Nombre del estudio (por ejemplo, Estudio Piloto de Cáncer Cerebral Pediátrico - Fosforoproteoma)",
+    "Promedio del log-ratio de iones reporteros de la muestra frente a la referencia común de iones de péptidos asociados con el gen en las adquisiciones de una muestra biológica específica",
+    "Identificador único asignado a una secuencia en la base de datos NCBI RefSeq",
+    "Códigos de una sola letra y posiciones de la secuencia proteica de los aminoácidos acetilados (p. ej. k12k16, k21)"
+  ],
+  "sample_rows": [
+    {
+      "id_caso": "d4cd4b91-118a-11e9-afb9-0a9c39d33490",
+      "id_muestra": "15cf94d2-125a-11e9-afb9-0a9c39d33490",
+      "id_aliquota": "4110039b-1272-11e9-afb9-0a9c39d33490",
+      "identificador_del_solicitante_de_aliquot": "NX1",
+      "id_metadatos_ejecucion_aliquot": "5308969f-cb98-11ea-b1fd-0aad30af8a83",
+      "nombre del estudio": "CPTAC UCEC Discovery Study - Acetylome",
+      "razón log2 de abundancia proteica": -0.2426,
+      "identificador_refseq": "NP_000041.2",
+      "sitios de acetilación": "k112"
+    },
+    {
+      "id_caso": "d4cd4b91-118a-11e9-afb9-0a9c39d33490",
+      "id_muestra": "15cf94d2-125a-11e9-afb9-0a9c39d33490",
+      "id_aliquota": "4110039b-1272-11e9-afb9-0a9c39d33490",
+      "identificador_del_solicitante_de_aliquot": "NX1",
+      "id_metadatos_ejecucion_aliquot": "5308969f-cb98-11ea-b1fd-0aad30af8a83",
+      "nombre del estudio": "CPTAC UCEC Discovery Study - Acetylome",
+      "razón log2 de abundancia proteica": -0.1596,
+      "identificador_refseq": "NP_000117.1",
+      "sitios de acetilación": "k59"
+    },
+    {
+      "id_caso": "d4cd4b91-118a-11e9-afb9-0a9c39d33490",
+      "id_muestra": "15cf94d2-125a-11e9-afb9-0a9c39d33490",
+      "id_aliquota": "4110039b-1272-11e9-afb9-0a9c39d33490",
+      "identificador_del_solicitante_de_aliquot": "NX1",
+      "id_metadatos_ejecucion_aliquot": "5308969f-cb98-11ea-b1fd-0aad30af8a83",
+      "nombre del estudio": "CPTAC UCEC Discovery Study - Acetylome",
+      "razón log2 de abundancia proteica": 0.0114,
+      "identificador_refseq": "NP_000356.1",
+      "sitios de acetilación": "k14"
+    },
+    {
+      "id_caso": "d4cd4b91-118a-11e9-afb9-0a9c39d33490",
+      "id_muestra": "15cf94d2-125a-11e9-afb9-0a9c39d33490",
+      "id_aliquota": "4110039b-1272-11e9-afb9-0a9c39d33490",
+      "identificador_del_solicitante_de_aliquot": "NX1",
+      "id_metadatos_ejecucion_aliquot": "5308969f-cb98-11ea-b1fd-0aad30af8a83",
+      "nombre del estudio": "CPTAC UCEC Discovery Study - Acetylome",
+      "razón log2 de abundancia proteica": 0.4409,
+      "identificador_refseq": "NP_000413.1",
+      "sitios de acetilación": "k172"
+    },
+    {
+      "id_caso": "d4cd4b91-118a-11e9-afb9-0a9c39d33490",
+      "id_muestra": "15cf94d2-125a-11e9-afb9-0a9c39d33490",
+      "id_aliquota": "4110039b-1272-11e9-afb9-0a9c39d33490",
+      "identificador_del_solicitante_de_aliquot": "NX1",
+      "id_metadatos_ejecucion_aliquot": "5308969f-cb98-11ea-b1fd-0aad30af8a83",
+      "nombre del estudio": "CPTAC UCEC Discovery Study - Acetylome",
+      "razón log2 de abundancia proteica": -0.2968,
+      "identificador_refseq": "NP_000549.1",
+      "sitios de acetilación": "k41"
+    }
+  ]
+}

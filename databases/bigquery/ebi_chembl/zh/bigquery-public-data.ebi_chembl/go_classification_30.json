@@ -1,0 +1,86 @@
+{
+  "table_name": "go_classification_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.go_classification_30",
+  "column_names": [
+    "目标ID",
+    "父GO ID",
+    "首选姓名",
+    "班级水平",
+    "方面",
+    "路径"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "Go编号",
+    "父级GO_ID",
+    "偏好名称",
+    "等级",
+    "方面",
+    "路径"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "主键。基因本体（Gene Ontology）标识符，用于GO slim术语。",
+    "在 ChEMBL 药物靶点 GO 简化版中，该 GO 术语父级的基因本体识别码。",
+    "基因本体名称",
+    "表示该术语在瘦化层级中的级别（L1 = 最高）",
+    "指示该术语所属的基因本体（Gene Ontology）的哪一方面（F = 分子功能，P = 生物过程，C = 细胞组分）",
+    "指示该术语在 GO slim 中的完整路径"
+  ],
+  "sample_rows": [
+    {
+      "Go编号": "GO:0003674",
+      "父级GO_ID": null,
+      "偏好名称": "molecular_function",
+      "等级": 0,
+      "方面": "F",
+      "路径": "molecular_function"
+    },
+    {
+      "Go编号": "GO:0005575",
+      "父级GO_ID": null,
+      "偏好名称": "cellular_component",
+      "等级": 0,
+      "方面": "C",
+      "路径": "cellular_component"
+    },
+    {
+      "Go编号": "GO:0008150",
+      "父级GO_ID": null,
+      "偏好名称": "biological_process",
+      "等级": 0,
+      "方面": "P",
+      "路径": "biological_process"
+    },
+    {
+      "Go编号": "GO:0000166",
+      "父级GO_ID": "GO:0003674",
+      "偏好名称": "nucleotide binding",
+      "等级": 1,
+      "方面": "F",
+      "路径": "molecular_function  nucleotide binding"
+    },
+    {
+      "Go编号": "GO:0000988",
+      "父级GO_ID": "GO:0003674",
+      "偏好名称": "protein binding transcription factor activity",
+      "等级": 1,
+      "方面": "F",
+      "路径": "molecular_function  protein binding transcription factor activity"
+    }
+  ]
+}

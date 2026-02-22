@@ -1,0 +1,108 @@
+{
+  "table_name": "calculation",
+  "table_fullname": "bigquery-public-data.sec_quarterly_financials.calculation",
+  "column_names": [
+    "Số lần nộp",
+    "Nhóm",
+    "đoạn cung",
+    "tiêu cực",
+    "thẻ cha",
+    "phiên bản cha",
+    "thẻ con",
+    "phiên bản con",
+    "Thời gian phân vùng"
+  ],
+  "column_types": [
+    "STRING",
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "TIMESTAMP"
+  ],
+  "nested_column_names": [
+    "số lần nộp",
+    "nhóm",
+    "đoạn cung",
+    "tiêu cực",
+    "thẻ cha",
+    "phiên bản cha",
+    "thẻ con",
+    "phiên bản con"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "Số truy cập. Chuỗi 20 ký tự được tạo thành từ số 18 chữ số được Ủy ban cấp cho mỗi lần nộp EDGAR. submission_number: [adsh]",
+    "Số thứ tự tuần tự để nhóm các điểm cong trong một lần nộp. nhóm: [grp]",
+    "Số thứ tự liên tiếp cho các cung trong một nhóm trong một bản nộp.",
+    "Chỉ ra trọng số là -1 (đúng nếu cạnh là âm), nhưng thường là +1 (sai).",
+    "Thẻ của cha của arc parent_tag: [ptag]",
+    "Phiên bản của thẻ cho cha của arc parent_version: [pversion]",
+    "Thẻ cho con của arc child_tag: [ctag]",
+    "Phiên bản của thẻ cho con của arc child_version: [cversion]"
+  ],
+  "sample_rows": [
+    {
+      "số lần nộp": "0001019687-14-002604",
+      "nhóm": 1,
+      "đoạn cung": 1,
+      "tiêu cực": 1,
+      "thẻ cha": "CashPeriodIncreaseDecrease",
+      "phiên bản cha": "us-gaap/2014",
+      "thẻ con": "CashPeriodIncreaseDecrease",
+      "phiên bản con": "us-gaap/2014"
+    },
+    {
+      "số lần nộp": "0001019687-14-002569",
+      "nhóm": 1,
+      "đoạn cung": 1,
+      "tiêu cực": 1,
+      "thẻ cha": "CashPeriodIncreaseDecrease",
+      "phiên bản cha": "us-gaap/2014",
+      "thẻ con": "CashPeriodIncreaseDecrease",
+      "phiên bản con": "us-gaap/2014"
+    },
+    {
+      "số lần nộp": "0000798359-14-000048",
+      "nhóm": 1,
+      "đoạn cung": 1,
+      "tiêu cực": 1,
+      "thẻ cha": "DiscontinuedOperationIncomeLossFromDiscontinuedOperationDuringPhaseOutPeriodNetOfTax",
+      "phiên bản cha": "us-gaap/2014",
+      "thẻ con": "DiscontinuedOperationIncomeLossFromDiscontinuedOperationDuringPhaseOutPeriodNetOfTax",
+      "phiên bản con": "us-gaap/2014"
+    },
+    {
+      "số lần nộp": "0001140361-14-026077",
+      "nhóm": 1,
+      "đoạn cung": 1,
+      "tiêu cực": 1,
+      "thẻ cha": "AllocatedShareBasedCompensationExpenseNetOfTax",
+      "phiên bản cha": "us-gaap/2014",
+      "thẻ con": "AllocatedShareBasedCompensationExpenseNetOfTax",
+      "phiên bản con": "us-gaap/2014"
+    },
+    {
+      "số lần nộp": "0001140361-14-026435",
+      "nhóm": 1,
+      "đoạn cung": 1,
+      "tiêu cực": 1,
+      "thẻ cha": "ContractReceivableDueOneYearOrLess",
+      "phiên bản cha": "us-gaap/2014",
+      "thẻ con": "ContractReceivableDueOneYearOrLess",
+      "phiên bản con": "us-gaap/2014"
+    }
+  ]
+}

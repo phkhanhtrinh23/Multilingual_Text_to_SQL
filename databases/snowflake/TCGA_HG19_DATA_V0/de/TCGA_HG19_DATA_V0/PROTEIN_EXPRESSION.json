@@ -1,0 +1,110 @@
+{
+  "table_name": "PROTEIN_EXPRESSION",
+  "table_fullname": "TCGA_HG19_DATA_V0.TCGA_HG19_DATA_V0.PROTEIN_EXPRESSION",
+  "column_names": [
+    "aliquot_barcode",
+    "phospho",
+    "protein_basis_name",
+    "gen_name",
+    "sample_barcode",
+    "protein_expression",
+    "fall_barcode",
+    "protein_name",
+    "antikorper_quelle",
+    "projekt_kurz_name",
+    "validierungs_status"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "FLOAT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Ursprüngliche TCGA-Aliquot-Barkode, z. B. TCGA-12-1089-01A-01D-0517-01",
+    "Wenn das Antikörper ein phosphoryliertes Protein anzielt, enthält dieses Feld diese Information, z. B. pS473  --  ansonsten ist dieses Feld null",
+    "Proteinname, z. B. AR, MAPK",
+    "Genname, z. B. TTN, DDR1 usw.",
+    "Ursprüngliche TCGA-Proben-Barkode, z. B. TCGA-12-1089-01A  --  beachten Sie, dass eine Probe mehrere Aliquote und daher mehrere CN-Segmentierungen haben kann; verwenden Sie daher GROUP BY entsprechend in Ihren Abfragen",
+    "Expressionsniveau des Proteins, wie durch reverse-phase-Protein-Arrays gemessen. https://bioinformatics.mdanderson.org/public-software/tcpa/",
+    "Ursprüngliche TCGA-Fall-Barkode, z. B. TCGA-12-1089  --  beachten Sie, dass jeder Fall in der Regel eine primäre Tumorprobe und eine passende Normprobe (Blut oder angrenzendes Gewebe) hat; für weitere Details siehe die TCGA-Biospecimen-Tabelle",
+    "Proteinsymbol mit Phosphorylierungsstatus, z. B. ACC_pS79",
+    "Tier, aus dem das Antikörper stammt: M (Maus), R (Kaninchen), G (Ziege)",
+    "Abkürzung des Projektnamens; der Programmname mit einer Projektnamensabkürzung; z. B. TCGA-OV usw.",
+    "Validierungsstatus des Antikörpers durch Korrelation von RPPA-Daten mit Western-Blot: V, E, C. Für weitere Informationen: https://bioinformatics.mdanderson.org/public-software/mclp/"
+  ],
+  "sample_rows": [
+    {
+      "projekt_kurz_name": "TCGA-CHOL",
+      "fall_barcode": "TCGA-W5-AA2U",
+      "sample_barcode": "TCGA-W5-AA2U-01A",
+      "aliquot_barcode": "TCGA-W5-AA2U-01A-21-A45N-20",
+      "gen_name": "AR",
+      "protein_basis_name": "AR",
+      "phospho": null,
+      "protein_name": "AR",
+      "protein_expression": -0.205618065,
+      "antikorper_quelle": "R",
+      "validierungs_status": "V"
+    },
+    {
+      "projekt_kurz_name": "TCGA-DLBC",
+      "fall_barcode": "TCGA-FA-A7Q1",
+      "sample_barcode": "TCGA-FA-A7Q1-01A",
+      "aliquot_barcode": "TCGA-FA-A7Q1-01A-21-A45K-20",
+      "gen_name": "AR",
+      "protein_basis_name": "AR",
+      "phospho": null,
+      "protein_name": "AR",
+      "protein_expression": -0.225150876,
+      "antikorper_quelle": "R",
+      "validierungs_status": "V"
+    },
+    {
+      "projekt_kurz_name": "TCGA-DLBC",
+      "fall_barcode": "TCGA-FF-8042",
+      "sample_barcode": "TCGA-FF-8042-01A",
+      "aliquot_barcode": "TCGA-FF-8042-01A-21-A45K-20",
+      "gen_name": "AR",
+      "protein_basis_name": "AR",
+      "phospho": null,
+      "protein_name": "AR",
+      "protein_expression": 0.1546948165,
+      "antikorper_quelle": "R",
+      "validierungs_status": "V"
+    },
+    {
+      "projekt_kurz_name": "TCGA-DLBC",
+      "fall_barcode": "TCGA-RQ-A68N",
+      "sample_barcode": "TCGA-RQ-A68N-01A",
+      "aliquot_barcode": "TCGA-RQ-A68N-01A-21-A45K-20",
+      "gen_name": "AR",
+      "protein_basis_name": "AR",
+      "phospho": null,
+      "protein_name": "AR",
+      "protein_expression": 0.1433404515,
+      "antikorper_quelle": "R",
+      "validierungs_status": "V"
+    },
+    {
+      "projekt_kurz_name": "TCGA-DLBC",
+      "fall_barcode": "TCGA-FA-8693",
+      "sample_barcode": "TCGA-FA-8693-01A",
+      "aliquot_barcode": "TCGA-FA-8693-01A-21-A45K-20",
+      "gen_name": "AR",
+      "protein_basis_name": "AR",
+      "phospho": null,
+      "protein_name": "AR",
+      "protein_expression": -0.0486869165000001,
+      "antikorper_quelle": "R",
+      "validierungs_status": "V"
+    }
+  ]
+}

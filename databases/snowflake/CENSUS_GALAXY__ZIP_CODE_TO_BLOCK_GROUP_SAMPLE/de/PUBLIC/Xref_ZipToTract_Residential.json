@@ -1,0 +1,46 @@
+{
+  "sample_rows": [
+    {
+      "VonPostleitzahl": "13666",
+      "ZuBundeslandKreisSchachtID": "36089492501",
+      "WohnlichkeitsZuordnungsVerhältnisZT": "1.000000000000000"
+    },
+    {
+      "VonPostleitzahl": "12160",
+      "ZuBundeslandKreisSchachtID": "36095740400",
+      "WohnlichkeitsZuordnungsVerhältnisZT": "0.500000000000000"
+    },
+    {
+      "VonPostleitzahl": "12160",
+      "ZuBundeslandKreisSchachtID": "36057072800",
+      "WohnlichkeitsZuordnungsVerhältnisZT": "0.032863849765258"
+    },
+    {
+      "VonPostleitzahl": "12854",
+      "ZuBundeslandKreisSchachtID": "36115084001",
+      "WohnlichkeitsZuordnungsVerhältnisZT": "1.000000000000000"
+    },
+    {
+      "VonPostleitzahl": "12814",
+      "ZuBundeslandKreisSchachtID": "36113078000",
+      "WohnlichkeitsZuordnungsVerhältnisZT": "0.995645863570392"
+    }
+  ],
+  "table_name": "Xref_ZipToTract_Residential",
+  "table_fullname": "CENSUS_GALAXY__ZIP_CODE_TO_BLOCK_GROUP_SAMPLE.PUBLIC.Xref_ZipToTract_Residential",
+  "column_names": [
+    "VonPostleitzahl",
+    "ZuBundeslandKreisSchachtID",
+    "WohnlichkeitsZuordnungsVerhältnisZT"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "NUMBER"
+  ],
+  "description": [
+    "Die U.S.-Postal-Service-Zip-Code, die mit der StateCountyTractID in Beziehung steht, basierend auf dem Verhältnis der Einwohner in dieser geografischen Region. Viele Tracts können Teile von Zip-Codes überlappen und viele Zip-Codes können Teile von Tracts überlappen.",
+    "Ein eindeutiger Identifikator-Schlüssel, der aus StateFIPS, CountyFIPS und Tract für ein bestimmtes Gebiet innerhalb eines geografischen Gebiets besteht. Dieses Feld (und die Tabelle) dient zum Übertragen von Metriken und Werten vom Zip-Code auf die Ebene der Census-Blockgruppe oder des Tracts.",
+    "Die Verhältnisse der Einwohner in jedem Zip-Code, die durch den verbundenen Tract gebildet werden. \"ZT\" als Suffix bezeichnet die Richtung der Daten, Zip-Code zu Tract (in der Regel größere Polygone in kleinere)."
+  ]
+}

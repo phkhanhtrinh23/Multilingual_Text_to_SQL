@@ -1,0 +1,96 @@
+{
+  "table_name": "time",
+  "table_fullname": "bigquery-public-data.utility_us.time",
+  "column_names": [
+    "thời gian",
+    "giờ",
+    "phút",
+    "giây",
+    "giây_trong_ngày",
+    "giờ AM/PM",
+    "đang là PM"
+  ],
+  "column_types": [
+    "TIME",
+    "INT64",
+    "INT64",
+    "INT64",
+    "INT64",
+    "INT64",
+    "BOOL"
+  ],
+  "nested_column_names": [
+    "thời gian",
+    "giờ",
+    "phút",
+    "giây",
+    "giây trong ngày",
+    "giờ AM hoặc PM",
+    "có_pm"
+  ],
+  "nested_column_types": [
+    "TIME",
+    "INT64",
+    "INT64",
+    "INT64",
+    "INT64",
+    "INT64",
+    "BOOL"
+  ],
+  "description": [
+    "Thời gian dưới dạng TIME - CAST('23:59:59' AS TIME)",
+    "Giờ dạng số nguyên - [0, 23]",
+    "Phút dưới dạng số nguyên - [0, 59]",
+    "Giây dưới dạng INTEGER - [0, 59]",
+    "Giây dưới dạng số nguyên - [0, 86399]; 00:00:00 = 0, 23:59:59 = 86399",
+    "Giờ dưới dạng số nguyên - [1, 12]",
+    "AM = Sai, PM = Đúng"
+  ],
+  "sample_rows": [
+    {
+      "thời gian": "00:00:26",
+      "giờ": 0,
+      "phút": 0,
+      "giây": 26,
+      "giây trong ngày": 26,
+      "giờ AM hoặc PM": 12,
+      "có_pm": false
+    },
+    {
+      "thời gian": "00:00:35",
+      "giờ": 0,
+      "phút": 0,
+      "giây": 35,
+      "giây trong ngày": 35,
+      "giờ AM hoặc PM": 12,
+      "có_pm": false
+    },
+    {
+      "thời gian": "00:00:37",
+      "giờ": 0,
+      "phút": 0,
+      "giây": 37,
+      "giây trong ngày": 37,
+      "giờ AM hoặc PM": 12,
+      "có_pm": false
+    },
+    {
+      "thời gian": "00:00:46",
+      "giờ": 0,
+      "phút": 0,
+      "giây": 46,
+      "giây trong ngày": 46,
+      "giờ AM hoặc PM": 12,
+      "có_pm": false
+    },
+    {
+      "thời gian": "00:00:57",
+      "giờ": 0,
+      "phút": 0,
+      "giây": 57,
+      "giây trong ngày": 57,
+      "giờ AM hoặc PM": 12,
+      "có_pm": false
+    }
+  ]
+}

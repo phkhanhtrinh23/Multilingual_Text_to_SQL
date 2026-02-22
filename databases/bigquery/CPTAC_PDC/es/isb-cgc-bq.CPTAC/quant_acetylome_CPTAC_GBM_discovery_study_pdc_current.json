@@ -1,0 +1,116 @@
+{
+  "table_name": "quant_acetylome_CPTAC_GBM_discovery_study_pdc_current",
+  "table_fullname": "isb-cgc-bq.CPTAC.quant_acetylome_CPTAC_GBM_discovery_study_pdc_current",
+  "column_names": [
+    "id_caso",
+    "id_muestra",
+    "id_aliquota",
+    "id_solicitante_muestra",
+    "id_metadatos_aliquota_ejecución",
+    "nombre del estudio",
+    "log2ratio de abundancia de proteína",
+    "ID de RefSeq",
+    "sitios de acetilación"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "id_caso",
+    "id de muestra",
+    "id_aliquota",
+    "ID del remitente de la alícuota",
+    "id_metadatos_ejecución_aliquota",
+    "nombre del estudio",
+    "razón log2 de abundancia de proteína",
+    "ID RefSeq",
+    "sitios de acetilación"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "Identificador único asociado con un paciente específico (p. ej. 24cb0fcb-63d6-11e8-bcf1-0a2705229b82)",
+    "Identificador único PDC para esta muestra (por ejemplo, e8d83eb9-693a-11ea-b1fd-0aad30af8a83)",
+    "Identificador PDC único para este alíquot (p.ej. e8db124a-693a-11ea-b1fd-0aad30af8a83)",
+    "ID del remitente de la alícuota asignado por el programa (p. ej., T14)",
+    "Identifica de forma única la alícuota según cómo se utilizó en el experimento (basado en el reactivo de etiquetado y/o el replicado biológico).",
+    "Nombre del estudio (por ejemplo, Estudio Piloto de Cáncer de Cerebro Pediátrico - Fosforoproteoma)",
+    "Promedio de log-ratio del ión reportero de la muestra respecto a la referencia común de iones peptídicos asociados con el gen en las adquisiciones de una muestra biológica específica.",
+    "Identificador único asignado a una secuencia en la base de datos NCBI RefSeq",
+    "Códigos de una sola letra y posiciones en la secuencia de proteínas de los aminoácidos acetilados (p.ej., k12k16, k21)"
+  ],
+  "sample_rows": [
+    {
+      "id_caso": "104c0852-2139-11ea-aee1-0e1aae319e49",
+      "id de muestra": "104c9aa3-2139-11ea-aee1-0e1aae319e49",
+      "id_aliquota": "104d4e99-2139-11ea-aee1-0e1aae319e49",
+      "ID del remitente de la alícuota": "CPT0002410011",
+      "id_metadatos_ejecución_aliquota": "a558cb61-f794-11ea-bc0e-0aad30af8a83",
+      "nombre del estudio": "CPTAC GBM Discovery Study - Acetylome",
+      "razón log2 de abundancia de proteína": 0.4322,
+      "ID RefSeq": "NP_000087.1",
+      "sitios de acetilación": "k245"
+    },
+    {
+      "id_caso": "104c0852-2139-11ea-aee1-0e1aae319e49",
+      "id de muestra": "104c9aa3-2139-11ea-aee1-0e1aae319e49",
+      "id_aliquota": "104d4e99-2139-11ea-aee1-0e1aae319e49",
+      "ID del remitente de la alícuota": "CPT0002410011",
+      "id_metadatos_ejecución_aliquota": "a558cb61-f794-11ea-bc0e-0aad30af8a83",
+      "nombre del estudio": "CPTAC GBM Discovery Study - Acetylome",
+      "razón log2 de abundancia de proteína": -0.0324,
+      "ID RefSeq": "NP_000099.2",
+      "sitios de acetilación": "k72"
+    },
+    {
+      "id_caso": "104c0852-2139-11ea-aee1-0e1aae319e49",
+      "id de muestra": "104c9aa3-2139-11ea-aee1-0e1aae319e49",
+      "id_aliquota": "104d4e99-2139-11ea-aee1-0e1aae319e49",
+      "ID del remitente de la alícuota": "CPT0002410011",
+      "id_metadatos_ejecución_aliquota": "a558cb61-f794-11ea-bc0e-0aad30af8a83",
+      "nombre del estudio": "CPTAC GBM Discovery Study - Acetylome",
+      "razón log2 de abundancia de proteína": 0.8015,
+      "ID RefSeq": "NP_000161.2",
+      "sitios de acetilación": "k238"
+    },
+    {
+      "id_caso": "104c0852-2139-11ea-aee1-0e1aae319e49",
+      "id de muestra": "104c9aa3-2139-11ea-aee1-0e1aae319e49",
+      "id_aliquota": "104d4e99-2139-11ea-aee1-0e1aae319e49",
+      "ID del remitente de la alícuota": "CPT0002410011",
+      "id_metadatos_ejecución_aliquota": "a558cb61-f794-11ea-bc0e-0aad30af8a83",
+      "nombre del estudio": "CPTAC GBM Discovery Study - Acetylome",
+      "razón log2 de abundancia de proteína": 0.0158,
+      "ID RefSeq": "NP_000280.1",
+      "sitios de acetilación": "k564"
+    },
+    {
+      "id_caso": "104c0852-2139-11ea-aee1-0e1aae319e49",
+      "id de muestra": "104c9aa3-2139-11ea-aee1-0e1aae319e49",
+      "id_aliquota": "104d4e99-2139-11ea-aee1-0e1aae319e49",
+      "ID del remitente de la alícuota": "CPT0002410011",
+      "id_metadatos_ejecución_aliquota": "a558cb61-f794-11ea-bc0e-0aad30af8a83",
+      "nombre del estudio": "CPTAC GBM Discovery Study - Acetylome",
+      "razón log2 de abundancia de proteína": 0.2595,
+      "ID RefSeq": "NP_000282.1",
+      "sitios de acetilación": "k156"
+    }
+  ]
+}

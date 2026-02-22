@@ -1,0 +1,102 @@
+{
+  "table_name": "KARYCLONE",
+  "table_fullname": "TCGA_MITELMAN.PROD.KARYCLONE",
+  "column_names": [
+    "Chiều dài bản sao",
+    "Số vụ",
+    "ChromoMin",
+    "CloneLong",
+    "Số Hóa Đơn",
+    "Bản sao ngắn",
+    "Số tham chiếu",
+    "Số clone",
+    "ChromoMax",
+    "Chỉ"
+  ],
+  "column_types": [
+    "NUMBER",
+    "TEXT",
+    "NUMBER",
+    "TEXT",
+    "NUMBER",
+    "TEXT",
+    "NUMBER",
+    "NUMBER",
+    "NUMBER",
+    "TEXT"
+  ],
+  "description": [
+    "độ dài của chuỗi mô tả clone -- thường giữa 8 và 24 ký tự, nhưng có thể lên tới 2199 ký tự",
+    "số trường hợp, thường nằm trong khoảng từ 1 đến 10, nhưng cũng có thể là một chuỗi bất kỳ, ví dụ 'A11'",
+    "các giá trị phổ biến nhất nằm giữa '42' và '51', nhưng giá trị tối thiểu là '0' và giá trị tối đa là '409'",
+    "thường là trống, nhưng nếu mô tả bản sao rất dài, chuỗi đó sẽ được lưu ở đây",
+    "số điều tra, từ 1 đến 9",
+    "một phiên bản ngắn hơn, đôi khi bị cắt ngắn mô tả clone, ví dụ '45,X,-Y' hoặc '46,Xy,t(8;21)(q22;q22)'",
+    "số tham chiếu, ví dụ '14620'",
+    "số clone, từ 1 đến 58",
+    "các giá trị phổ biến nhất nằm trong khoảng '43' và '52', nhưng giá trị tối thiểu là '0' và giá trị tối đa là '409'.",
+    "Cờ T/F cho biết liệu đây có phải là bất thường duy nhất hay không."
+  ],
+  "sample_rows": [
+    {
+      "Số tham chiếu": 3822,
+      "Số vụ": "1",
+      "Số Hóa Đơn": 1,
+      "Số clone": 5,
+      "ChromoMin": 45,
+      "ChromoMax": 45,
+      "Bản sao ngắn": "45,X,-X",
+      "CloneLong": null,
+      "Chiều dài bản sao": 7,
+      "Chỉ": "T"
+    },
+    {
+      "Số tham chiếu": 4018,
+      "Số vụ": "33",
+      "Số Hóa Đơn": 1,
+      "Số clone": 6,
+      "ChromoMin": 45,
+      "ChromoMax": 45,
+      "Bản sao ngắn": "45,X,-X",
+      "CloneLong": null,
+      "Chiều dài bản sao": 7,
+      "Chỉ": "T"
+    },
+    {
+      "Số tham chiếu": 9341,
+      "Số vụ": "5",
+      "Số Hóa Đơn": 1,
+      "Số clone": 9,
+      "ChromoMin": 45,
+      "ChromoMax": 45,
+      "Bản sao ngắn": "45,X,-Y",
+      "CloneLong": null,
+      "Chiều dài bản sao": 7,
+      "Chỉ": "T"
+    },
+    {
+      "Số tham chiếu": 7668,
+      "Số vụ": "28",
+      "Số Hóa Đơn": 1,
+      "Số clone": 13,
+      "ChromoMin": 45,
+      "ChromoMax": 45,
+      "Bản sao ngắn": "45,X,-Y",
+      "CloneLong": null,
+      "Chiều dài bản sao": 7,
+      "Chỉ": "T"
+    },
+    {
+      "Số tham chiếu": 5150,
+      "Số vụ": "18",
+      "Số Hóa Đơn": 1,
+      "Số clone": 5,
+      "ChromoMin": 45,
+      "ChromoMax": 45,
+      "Bản sao ngắn": "45,X,-Y",
+      "CloneLong": null,
+      "Chiều dài bản sao": 7,
+      "Chỉ": "T"
+    }
+  ]
+}

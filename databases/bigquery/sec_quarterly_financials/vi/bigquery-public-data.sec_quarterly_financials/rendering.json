@@ -1,0 +1,128 @@
+{
+  "table_name": "rendering",
+  "table_fullname": "bigquery-public-data.sec_quarterly_financials.rendering",
+  "column_names": [
+    "Số lần nộp",
+    "báo cáo",
+    "loại tệp",
+    "loại thực đơn",
+    "Tên ngắn",
+    "Tên dài",
+    "vai trò",
+    "URI vai trò cha",
+    "Báo cáo phụ huynh",
+    "Báo cáo cha mẹ tối thượng",
+    "thời gian phân vùng"
+  ],
+  "column_types": [
+    "STRING",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "INT64",
+    "TIMESTAMP"
+  ],
+  "nested_column_names": [
+    "số lần nộp",
+    "báo cáo",
+    "loại tệp",
+    "loại menu",
+    "tên ngắn",
+    "Tên dài",
+    "vai trò",
+    "uri vai trò cha",
+    "Báo cáo phụ huynh",
+    "báo cáo cha mẹ cuối cùng"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "INT64"
+  ],
+  "description": [
+    "Số truy cập. Chuỗi gồm 20 ký tự được tạo thành từ số 18 chữ số được Ủy ban cấp cho mỗi lần nộp hồ sơ EDGAR. submission_number: [adsh]",
+    "Biểu thị nhóm báo cáo. Giá trị số học tham chiếu đến “tệp R” như đã tính bởi bộ render và được đăng trên trang web EDGAR. Lưu ý rằng trong một số trường hợp, các số có thể bị bỏ qua.",
+    "Loại tệp dữ liệu tương tác được hiển thị trên trang web EDGAR, H = tệp .htm, X = tệp .xml. file_type: [rfile]",
+    "Nếu có, một trong các danh mục thực đơn tính bởi trình tạo: C=Bìa, S=Khoản khai, N=Ghi chú, P=Chính sách, T=Bảng, D=Chi tiết, O=Khác, U=Chưa phân loại. menu_category: [menucat]",
+    "Phần của tên dài được sử dụng trong menu trình bày.",
+    "Văn bản đã chuẩn hóa khoảng trắng của nội dung phần tử \"definition\" trong liên kết XBRL.",
+    "XBRL \"roleuri\" của vai trò.",
+    "Địa chỉ URI vai trò XBRL của một vai trò mà vai trò này có tiền tố shortname phù hợp và danh mục menu cấp cao hơn, như đã tính toán bởi trình render.",
+    "Giá trị của trường báo cáo cho vai trò mà roleuri bằng parentroleuri này.",
+    "Báo cáo tổ tiên cao nhất có thể đạt được bằng cách theo dõi quan hệ parentreport. Một ghi chú (menucat = N) là cha cuối cùng của chính nó. ultimate_parent_report: [ultparentrpt]"
+  ],
+  "sample_rows": [
+    {
+      "số lần nộp": "0001558370-18-000022",
+      "báo cáo": 85,
+      "loại tệp": "H",
+      "loại menu": "D",
+      "tên ngắn": "STOCKHOLDERS' EQUITY",
+      "Tên dài": "41503 - Disclosure - STOCKHOLDERS' EQUITY - Dividends (Details)",
+      "vai trò": "http://www.lambweston.com/role/DisclosureStockholdersEquityDividendsDetails",
+      "uri vai trò cha": null,
+      "Báo cáo phụ huynh": null,
+      "báo cáo cha mẹ cuối cùng": null
+    },
+    {
+      "số lần nộp": "0001558370-18-000022",
+      "báo cáo": 86,
+      "loại tệp": "H",
+      "loại menu": "D",
+      "tên ngắn": "STOCKHOLDERS' EQUITY",
+      "Tên dài": "41504 - Disclosure - STOCKHOLDERS' EQUITY - Changes in AOCI (Details)",
+      "vai trò": "http://www.lambweston.com/role/DisclosureStockholdersEquityChangesInAociDetails",
+      "uri vai trò cha": null,
+      "Báo cáo phụ huynh": null,
+      "báo cáo cha mẹ cuối cùng": null
+    },
+    {
+      "số lần nộp": "0001558370-18-000022",
+      "báo cáo": 87,
+      "loại tệp": "H",
+      "loại menu": "D",
+      "tên ngắn": "STOCKHOLDERS' EQUITY",
+      "Tên dài": "41505 - Disclosure - STOCKHOLDERS' EQUITY - AOCI - Settlement Gains on Pension and Post-retirement Benefits (Details)",
+      "vai trò": "http://www.lambweston.com/role/DisclosureStockholdersEquityAociSettlementGainsOnPensionAndPostRetirementBenefitsDetails",
+      "uri vai trò cha": null,
+      "Báo cáo phụ huynh": null,
+      "báo cáo cha mẹ cuối cùng": null
+    },
+    {
+      "số lần nộp": "0001558370-18-000022",
+      "báo cáo": 88,
+      "loại tệp": "H",
+      "loại menu": "D",
+      "tên ngắn": "SEGMENTS",
+      "Tên dài": "41601 - Disclosure - SEGMENTS - General Information (Details)",
+      "vai trò": "http://www.lambweston.com/role/DisclosureSegmentsGeneralInformationDetails",
+      "uri vai trò cha": null,
+      "Báo cáo phụ huynh": null,
+      "báo cáo cha mẹ cuối cùng": null
+    },
+    {
+      "số lần nộp": "0001558370-18-000022",
+      "báo cáo": 89,
+      "loại tệp": "H",
+      "loại menu": "D",
+      "tên ngắn": "SEGMENTS",
+      "Tên dài": "41602 - Disclosure - SEGMENTS - General Financial Information (Details)",
+      "vai trò": "http://www.lambweston.com/role/DisclosureSegmentsGeneralFinancialInformationDetails",
+      "uri vai trò cha": null,
+      "Báo cáo phụ huynh": null,
+      "báo cáo cha mẹ cuối cùng": null
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "table_name": "routes",
+  "table_fullname": "bigquery-public-data.san_francisco_transit_muni.routes",
+  "column_names": [
+    "Route-ID",
+    "Route-Kurzname",
+    "Route-Langname",
+    "Route-Typ"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "Routen-ID",
+    "Routen-Kurzname",
+    "Routenname",
+    "Routentyp"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "Eindeutiger Bezeichner für jede Route. Eine einzelne Route wird mehrere Fahrten haben.",
+    "Enthält den Kurzname einer Route. Dies ist ein kurzer, abstrakter Bezeichner wie 32, 100X oder Green, den Fahrgäste verwenden, um eine Route zu identifizieren. Dieser Bezeichner gibt jedoch nicht an, welche Orte die Route bedient.",
+    "Enthält den vollständigen Namen einer Route. Dieser Name ist in der Regel aussagekräftiger als der Name aus route_short_name und enthält oft das Ziel oder die Haltestelle der Route.",
+    "Beschreibt den Typ des Transports, der auf einer Route verwendet wird. Die folgenden Werte sind gültige Optionen für dieses Feld: - light_rail: Straßenbahn oder Leichtbahn. Wird für jede Straßenbahn- oder Leichtbahn innerhalb eines Ballungsraums verwendet. - subway: U-Bahn oder Metro. Wird für jedes unterirdische Bahnsystem innerhalb eines Ballungsraums verwendet. - rail: Wird für Fern- oder Langstreckenreisen verwendet. - bus: Wird für Kurz- und Langstreckenbuslinien verwendet. - ferry: Wird für kurze und lange Fährverbindungen verwendet. - cable_car: Straßenbahn-Kabelbahn, bei der das Kabel unter dem Wagen verläuft. - tram: Gondel oder hängende Seilbahn. Typischerweise verwendet für Luftseilbahnen, bei denen der Wagen am Kabel hängt. - funicular: Wird für jedes Bahnsystem verwendet, das sich an steilen Gefällen mit einem Seiltraktionssystem bewegt."
+  ],
+  "sample_rows": [
+    {
+      "Routen-ID": "83X",
+      "Routen-Kurzname": "83X",
+      "Routenname": "MID-MARKET EXPRESS",
+      "Routentyp": "3"
+    },
+    {
+      "Routen-ID": "82X",
+      "Routen-Kurzname": "82X",
+      "Routenname": "LEVI PLAZA EXPRESS",
+      "Routentyp": "3"
+    },
+    {
+      "Routen-ID": "E",
+      "Routen-Kurzname": "E",
+      "Routenname": "EMBARCADERO",
+      "Routentyp": "0"
+    },
+    {
+      "Routen-ID": "KT",
+      "Routen-Kurzname": "KT",
+      "Routenname": "INGLESIDE-THIRD",
+      "Routentyp": "0"
+    },
+    {
+      "Routen-ID": "3",
+      "Routen-Kurzname": "3",
+      "Routenname": "JACKSON",
+      "Routentyp": "3"
+    }
+  ]
+}

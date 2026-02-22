@@ -1,0 +1,86 @@
+{
+  "table_name": "formulations_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.formulations_30",
+  "column_names": [
+    "产品编号",
+    "配料",
+    "力量",
+    "记录ID",
+    "分子注册号",
+    "配方编号"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "INT64",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "产品编号",
+    "配料",
+    "力量",
+    "记录ID",
+    "分子注册号",
+    "配方编号"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "INT64",
+    "INT64"
+  ],
+  "description": [
+    "产品的唯一标识符。FK指向PRODUCTS",
+    "产品中已批准成分的名称",
+    "剂量强度",
+    "指向 compound_records 表的外键。",
+    "成分的唯一标识符，外键指向 MOLECULE_DICTIONARY",
+    "主键"
+  ],
+  "sample_rows": [
+    {
+      "产品编号": "PRODUCT_017406_001",
+      "配料": "CYANOCOBALAMIN",
+      "力量": null,
+      "记录ID": 1344800,
+      "分子注册号": 1383003,
+      "配方编号": 148332
+    },
+    {
+      "产品编号": "PRODUCT_016089_001",
+      "配料": "CYANOCOBALAMIN",
+      "力量": null,
+      "记录ID": 1344800,
+      "分子注册号": 1383003,
+      "配方编号": 148336
+    },
+    {
+      "产品编号": "PRODUCT_016090_001",
+      "配料": "CYANOCOBALAMIN",
+      "力量": null,
+      "记录ID": 1344800,
+      "分子注册号": 1383003,
+      "配方编号": 148340
+    },
+    {
+      "产品编号": "PRODUCT_016089_001",
+      "配料": "INTRINSIC FACTOR",
+      "力量": null,
+      "记录ID": 1343088,
+      "分子注册号": 675455,
+      "配方编号": 148338
+    },
+    {
+      "产品编号": "PRODUCT_016090_001",
+      "配料": "INTRINSIC FACTOR",
+      "力量": null,
+      "记录ID": 1343088,
+      "分子注册号": 675455,
+      "配方编号": 148342
+    }
+  ]
+}

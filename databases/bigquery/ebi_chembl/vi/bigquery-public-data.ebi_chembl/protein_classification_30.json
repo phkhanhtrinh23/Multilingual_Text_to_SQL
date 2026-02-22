@@ -1,0 +1,96 @@
+{
+  "table_name": "protein_classification_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.protein_classification_30",
+  "column_names": [
+    "định danh lớp protein",
+    "mã cha",
+    "tên tỉnh",
+    "Tên ngắn",
+    "Mô tả loại protein",
+    "định nghĩa",
+    "Cấp lớp"
+  ],
+  "column_types": [
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "định danh lớp protein",
+    "id_cha",
+    "Tên tùy chọn",
+    "Tên ngắn",
+    "Mô tả lớp protein",
+    "định nghĩa",
+    "cấp lớp"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64"
+  ],
+  "description": [
+    "Khóa chính. Định danh duy nhất cho mỗi phân loại gia đình protein.",
+    "Protein_class_id của cha của gia phận protein này",
+    "Tên ưu tiên / đầy đủ cho gia phả protein này.",
+    "Tên ngắn/viết tắt cho bộ protein này (không nhất thiết phải duy nhất).",
+    "Mô tả liên kết của mỗi phân loại cho mục đích tìm kiếm v.v.",
+    "Định nghĩa của gia đình protein.",
+    "Cấp độ của lớp trong hệ thống phân cấp (cấp độ 1 = phân loại cấp cao nhất)"
+  ],
+  "sample_rows": [
+    {
+      "định danh lớp protein": 1,
+      "id_cha": 0,
+      "Tên tùy chọn": "Enzyme",
+      "Tên ngắn": "Enzyme",
+      "Mô tả lớp protein": "enzyme",
+      "định nghĩa": "Biological molecules that possess catalytic activity. They may occur naturally or be synthetically created. Enzymes are usually proteins, however CATALYTIC RNA and CATALYTIC DNA molecules have also been identified. [MESH:D004798]",
+      "cấp lớp": 1
+    },
+    {
+      "định danh lớp protein": 2,
+      "id_cha": 0,
+      "Tên tùy chọn": "Adhesion",
+      "Tên ngắn": "Adhesion",
+      "Mô tả lớp protein": "adhesion",
+      "định nghĩa": "Surface ligands, usually glycoproteins, that mediate cell-to-cell adhesion. Their functions include the assembly and interconnection of various vertebrate systems, as well as maintenance of tissue integration, wound healing, morphogenic movements, cellular migrations, and metastasis. [MESH:D015815]",
+      "cấp lớp": 1
+    },
+    {
+      "định danh lớp protein": 3,
+      "id_cha": 0,
+      "Tên tùy chọn": "Secreted protein",
+      "Tên ngắn": "Secreted",
+      "Mô tả lớp protein": "secreted",
+      "định nghĩa": null,
+      "cấp lớp": 1
+    },
+    {
+      "định danh lớp protein": 4,
+      "id_cha": 0,
+      "Tên tùy chọn": "Structural protein",
+      "Tên ngắn": "Structural",
+      "Mô tả lớp protein": "structural",
+      "định nghĩa": null,
+      "cấp lớp": 1
+    },
+    {
+      "định danh lớp protein": 5,
+      "id_cha": 0,
+      "Tên tùy chọn": "Other nuclear protein",
+      "Tên ngắn": "Nuclear other",
+      "Mô tả lớp protein": "nuclear other",
+      "định nghĩa": null,
+      "cấp lớp": 1
+    }
+  ]
+}

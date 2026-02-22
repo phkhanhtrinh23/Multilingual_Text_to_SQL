@@ -1,0 +1,66 @@
+{
+  "table_name": "target_relations_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.target_relations_30",
+  "column_names": [
+    "取引ID",
+    "関係",
+    "関連ID",
+    "対象関係ID"
+  ],
+  "column_types": [
+    "INT64",
+    "STRING",
+    "INT64",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "取引ID",
+    "関係",
+    "関連ID",
+    "対象関係ID"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "STRING",
+    "INT64",
+    "INT64"
+  ],
+  "description": [
+    "興味対象の識別子（target_dictionaryテーブルへの外部キー）",
+    "二つの対象間の関係（例：SUBSET OF、SUPERSET OF、OVERLAPS WITH）",
+    "興味対象に関連するターゲットの識別子（target_dictionary テーブルへの外部キー）",
+    "主キー"
+  ],
+  "sample_rows": [
+    {
+      "取引ID": 117043,
+      "関係": "SUBSET OF",
+      "関連ID": 118387,
+      "対象関係ID": 227977
+    },
+    {
+      "取引ID": 117043,
+      "関係": "SUBSET OF",
+      "関連ID": 120269,
+      "対象関係ID": 227981
+    },
+    {
+      "取引ID": 104690,
+      "関係": "SUBSET OF",
+      "関連ID": 104871,
+      "対象関係ID": 228004
+    },
+    {
+      "取引ID": 104897,
+      "関係": "SUBSET OF",
+      "関連ID": 119771,
+      "対象関係ID": 228021
+    },
+    {
+      "取引ID": 105044,
+      "関係": "SUBSET OF",
+      "関連ID": 104844,
+      "対象関係ID": 228037
+    }
+  ]
+}

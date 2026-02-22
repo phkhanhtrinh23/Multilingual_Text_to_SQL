@@ -1,0 +1,94 @@
+{
+  "sample_rows": [
+    {
+      "VARIÁVEL": "ALL_NONRES_AMUSEMENT_SA",
+      "NOME_DA_VARIÁVEL": "Nonresidential Construction: Amusement And Recreation (Seasonally Adjusted)",
+      "MEDIDA": "Nonresidential Construction",
+      "UNIDADE": "USD",
+      "FREQUÊNCIA": "Monthly",
+      "TIPO_DE_MEDIDA": null,
+      "PERÍODO_DE_MEDIDA": null,
+      "USO_DO_PRÉDIO": "Amusement and recreation",
+      "AJUSTADO_SAZONALMENTE": true
+    },
+    {
+      "VARIÁVEL": "ALL_NONRES_COMMERCIAL_STD_ERR_MM_PY",
+      "NOME_DA_VARIÁVEL": "Nonresidential Construction: Commercial: Standard Error, Month-to-month change from previous year",
+      "MEDIDA": "Nonresidential Construction",
+      "UNIDADE": "Percent",
+      "FREQUÊNCIA": "Monthly",
+      "TIPO_DE_MEDIDA": null,
+      "PERÍODO_DE_MEDIDA": null,
+      "USO_DO_PRÉDIO": "Commercial",
+      "AJUSTADO_SAZONALMENTE": null
+    },
+    {
+      "VARIÁVEL": "ALL_NONRES_HEALTH_A",
+      "NOME_DA_VARIÁVEL": "Nonresidential Construction: Health Care (Annual)",
+      "MEDIDA": "Nonresidential Construction",
+      "UNIDADE": "USD",
+      "FREQUÊNCIA": "Annual",
+      "TIPO_DE_MEDIDA": null,
+      "PERÍODO_DE_MEDIDA": null,
+      "USO_DO_PRÉDIO": "Health care",
+      "AJUSTADO_SAZONALMENTE": null
+    },
+    {
+      "VARIÁVEL": "ALL_NONRES_HEALTH_NSA",
+      "NOME_DA_VARIÁVEL": "Nonresidential Construction: Health Care (Not Seasonally Adjusted)",
+      "MEDIDA": "Nonresidential Construction",
+      "UNIDADE": "USD",
+      "FREQUÊNCIA": "Monthly",
+      "TIPO_DE_MEDIDA": null,
+      "PERÍODO_DE_MEDIDA": null,
+      "USO_DO_PRÉDIO": "Health care",
+      "AJUSTADO_SAZONALMENTE": false
+    },
+    {
+      "VARIÁVEL": "ALL_NONRES_MANUFACTURING_NSA",
+      "NOME_DA_VARIÁVEL": "Nonresidential Construction: Manufacturing (Not Seasonally Adjusted)",
+      "MEDIDA": "Nonresidential Construction",
+      "UNIDADE": "USD",
+      "FREQUÊNCIA": "Monthly",
+      "TIPO_DE_MEDIDA": null,
+      "PERÍODO_DE_MEDIDA": null,
+      "USO_DO_PRÉDIO": "Manufacturing",
+      "AJUSTADO_SAZONALMENTE": false
+    }
+  ],
+  "table_name": "US_REAL_ESTATE_ATTRIBUTES",
+  "table_fullname": "US_REAL_ESTATE.CYBERSYN.US_REAL_ESTATE_ATTRIBUTES",
+  "column_names": [
+    "AJUSTADO_SAZONALMENTE",
+    "TIPO_DE_MEDIDA",
+    "UNIDADE",
+    "USO_DO_PRÉDIO",
+    "PERÍODO_DE_MEDIDA",
+    "MEDIDA",
+    "VARIÁVEL",
+    "NOME_DA_VARIÁVEL",
+    "FREQUÊNCIA"
+  ],
+  "column_types": [
+    "BOOLEAN",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Indica onde o valor é ajustado sazonalmente.",
+    "Classificação de medição da variável (ex. Estimativas Com Imputação).",
+    "Unidade de medida para o valor relatado.",
+    "Categoria de uso para o prédio (ex. Casas de Família Única, Manufatura).",
+    "Período de coleta de dados para a variável (ex. Ano-Até-Data).",
+    "Atributo quantificável ou assunto; descrição do que está sendo registrado.",
+    "Identificador único para uma variável, juntable à tabela de séries temporais.",
+    "Nome único legível por humanos para a variável.",
+    "Frequência de agregações."
+  ]
+}

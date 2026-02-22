@@ -1,0 +1,106 @@
+{
+  "table_name": "dar_intersectional_attrition_index",
+  "table_fullname": "bigquery-public-data.google_dei.dar_intersectional_attrition_index",
+  "column_names": [
+    "fuerza laboral",
+    "año del informe",
+    "género_us",
+    "raza asiática",
+    "raza negra",
+    "raza_hispano_latino",
+    "Nativo americano",
+    "raza blanca"
+  ],
+  "column_types": [
+    "STRING",
+    "INT64",
+    "STRING",
+    "INT64",
+    "INT64",
+    "INT64",
+    "INT64",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "fuerza laboral",
+    "Año del informe",
+    "género",
+    "raza_asiana",
+    "negro",
+    "raza hispano-latina",
+    "raza nativo americano",
+    "raza blanca"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "INT64",
+    "STRING",
+    "INT64",
+    "INT64",
+    "INT64",
+    "INT64",
+    "INT64"
+  ],
+  "description": [
+    "General y subcategorías",
+    "El año en que se publicó el informe",
+    "Género de los salientes de Google en EE. UU.",
+    "La puntuación del índice de rotación de los empleados de Google en EE. UU. que se identifican como asiáticos y cero o más razas adicionales.",
+    "El índice de atrición de los Googlers en EE. UU. que se identifican como negros y con cero o más razas adicionales.",
+    "El puntaje del índice de rotación de los empleados de Google en EE. UU. que se identifican como hispanos o latinos y de cero a más razas adicionales.",
+    "La puntuación del índice de rotación de los Googlers en EE. UU. que se identifican como nativo americano y cero o más razas adicionales.",
+    "El puntaje del índice de deserción de los empleados de Google en EE. UU. que se identifican como blancos y cero o más razas adicionales."
+  ],
+  "sample_rows": [
+    {
+      "fuerza laboral": "non_tech",
+      "Año del informe": 2018,
+      "género": "women",
+      "raza_asiana": 88,
+      "negro": 68,
+      "raza hispano-latina": 78,
+      "raza nativo americano": 124,
+      "raza blanca": 96
+    },
+    {
+      "fuerza laboral": "overall",
+      "Año del informe": 2018,
+      "género": "women",
+      "raza_asiana": 73,
+      "negro": 90,
+      "raza hispano-latina": 92,
+      "raza nativo americano": 100,
+      "raza blanca": 103
+    },
+    {
+      "fuerza laboral": "non_tech",
+      "Año del informe": 2018,
+      "género": "men",
+      "raza_asiana": 108,
+      "negro": 122,
+      "raza hispano-latina": 115,
+      "raza nativo americano": 140,
+      "raza blanca": 106
+    },
+    {
+      "fuerza laboral": "overall",
+      "Año del informe": 2018,
+      "género": "men",
+      "raza_asiana": 92,
+      "negro": 145,
+      "raza hispano-latina": 117,
+      "raza nativo americano": 140,
+      "raza blanca": 112
+    },
+    {
+      "fuerza laboral": "tech",
+      "Año del informe": 2018,
+      "género": "women",
+      "raza_asiana": 65,
+      "negro": 124,
+      "raza hispano-latina": 118,
+      "raza nativo americano": 31,
+      "raza blanca": 102
+    }
+  ]
+}

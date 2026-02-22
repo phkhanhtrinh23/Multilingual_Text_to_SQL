@@ -1,0 +1,86 @@
+{
+  "table_name": "associationByDatasourceIndirect",
+  "table_fullname": "open-targets-prod.platform.associationByDatasourceIndirect",
+  "column_names": [
+    "データ型ID",
+    "データソースID",
+    "疾患ID",
+    "対象ID",
+    "点数",
+    "証拠件数"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "データ型ID",
+    "データソースID",
+    "疾患識別子",
+    "対象ID",
+    "得点",
+    "証拠数"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "INT64"
+  ],
+  "description": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "sample_rows": [
+    {
+      "データ型ID": "genetic_association",
+      "データソースID": "eva",
+      "疾患識別子": "MONDO_0031052",
+      "対象ID": "ENSG00000109775",
+      "得点": 0.7389736584301261,
+      "証拠数": 3
+    },
+    {
+      "データ型ID": "genetic_association",
+      "データソースID": "eva",
+      "疾患識別子": "MONDO_0004736",
+      "対象ID": "ENSG00000178445",
+      "得点": 0.9484126008765372,
+      "証拠数": 2115
+    },
+    {
+      "データ型ID": "genetic_association",
+      "データソースID": "eva",
+      "疾患識別子": "MONDO_0002249",
+      "対象ID": "ENSG00000117400",
+      "得点": 0.9415607406930349,
+      "証拠数": 694
+    },
+    {
+      "データ型ID": "genetic_association",
+      "データソースID": "eva",
+      "疾患識別子": "MONDO_0004069",
+      "対象ID": "ENSG00000100416",
+      "得点": 0.9163440231872357,
+      "証拠数": 128
+    },
+    {
+      "データ型ID": "genetic_association",
+      "データソースID": "eva",
+      "疾患識別子": "HP_0011446",
+      "対象ID": "ENSG00000196628",
+      "得点": 0.8150173921912369,
+      "証拠数": 7
+    }
+  ]
+}

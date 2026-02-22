@@ -1,0 +1,116 @@
+{
+  "table_name": "CytogenInvValid",
+  "table_fullname": "mitelman-db.prod.CytogenInvValid",
+  "column_names": [
+    "Số tham chiếu",
+    "Số hồ sơ",
+    "Số hoá đơn",
+    "Chiều dài Kary",
+    "Kary Ngắn",
+    "KaryLong",
+    "Tin nhắn",
+    "Lý do",
+    "Đầu vào chuyển đổi tế bào"
+  ],
+  "column_types": [
+    "INT64",
+    "STRING",
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "Số tham chiếu",
+    "Số vụ",
+    "Số Hóa Đơn",
+    "Chiều dài kary",
+    "Kary ngắn",
+    "KaryLong",
+    "Tin nhắn",
+    "Lý do",
+    "Đầu vào chuyển động tế bào"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "STRING",
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "số tham chiếu",
+    "số trường hợp -- thường là một số nguyên, nhưng cũng có thể là một chuỗi tùy ý",
+    "Số điều tra -- luôn là một số nguyên từ 1 đến 9",
+    "độ dài của mô tả kiểu nhiễm sắc thể -- có thể dài tới hàng nghìn ký tự, nhưng thường dưới 30",
+    "mô tả kiểu nhiễm sắc thể ngắn (có thể bị rút gọn)",
+    "Nếu mô tả kiểu nhiễm sắc thể vượt quá một độ dài nhất định, toàn bộ chuỗi sẽ nằm trong cột này, nếu không thì trường này là null.",
+    "Chỉ ra xem karyotype có được sửa bởi bộ kiểm tra cú pháp hay không.",
+    "Thông báo lỗi",
+    "Một giá trị kiểu nhân tử đầy đủ được điều chỉnh để làm việc với công cụ của CytoConverter"
+  ],
+  "sample_rows": [
+    {
+      "Số tham chiếu": 17264,
+      "Số vụ": "403",
+      "Số Hóa Đơn": 1,
+      "Chiều dài kary": 256,
+      "Kary ngắn": "45,XY,der(4)t(4;11)(p15;q21)t(4;11)(q13;q21)t(4;11)(q13;q14),der(5)t(5;17)(q11;q11),del(7)(q22q36),der(9)t(9;15)(q34;q26),r(11)(p11q11),der(15)t(11;15)(q14;p11)t(11;15)(q14;q14),der(16)t(15;16)(q21;q24)t(12;15)(q24;q21),del(17)(q11),der(20)t(4;20)(p15;p11",
+      "KaryLong": "45,XY,der(4)t(4;11)(p15;q21)t(4;11)(q13;q21)t(4;11)(q13;q14),der(5)t(5;17)(q11;q11),del(7)(q22q36),der(9)t(9;15)(q34;q26),r(11)(p11q11),der(15)t(11;15)(q14;p11)t(11;15)(q14;q14),der(16)t(15;16)(q21;q24)t(12;15)(q24;q21),del(17)(q11),der(20)t(4;20)(p15;p11)",
+      "Tin nhắn": "Original",
+      "Lý do": " ",
+      "Đầu vào chuyển động tế bào": "45,XY,der(4)t(4;11)(p15;q21)t(4;11)(q13;q21)t(4;11)(q13;q14),der(5)t(5;17)(q11;q11),del(7)(q22q36),der(9)t(9;15)(q34;q26),r(11)(p11q11),der(15)t(11;15)(q14;p11)t(11;15)(q14;q14),der(16)t(15;16)(q21;q24)t(12;15)(q24;q21),del(17)(q11),der(20)t(4;20)(p15;p11)"
+    },
+    {
+      "Số tham chiếu": 14318,
+      "Số vụ": "6",
+      "Số Hóa Đơn": 3,
+      "Chiều dài kary": 256,
+      "Kary ngắn": "46,XY,der(8)t(8;9)(p22;p24)t(8;22)(q24;q11),der(9)t(8;9)(p21;p24)x2,der(21)t(1;21)(q21;p11),der(22)t(8;22)(q24;q11)/46,XY,der(8)t(8;9)(p22;p24)t(8;22)(q24;q11),der(9)t(8;9)(p21;p24)x2,der(21)t(1;21)(q21;p11),der(22)t(8;22)(q24;q11),der(16)t(16;22)(q24;q11",
+      "KaryLong": "46,XY,der(8)t(8;9)(p22;p24)t(8;22)(q24;q11),der(9)t(8;9)(p21;p24)x2,der(21)t(1;21)(q21;p11),der(22)t(8;22)(q24;q11)/46,XY,der(8)t(8;9)(p22;p24)t(8;22)(q24;q11),der(9)t(8;9)(p21;p24)x2,der(21)t(1;21)(q21;p11),der(22)t(8;22)(q24;q11),der(16)t(16;22)(q24;q11)",
+      "Tin nhắn": "Has been altered",
+      "Lý do": " ",
+      "Đầu vào chuyển động tế bào": "46,XY,der(8)t(8;9)(p22;p24)t(8;22)(q24;q11),der(9)t(8;9)(p21;p24)x2,der(21)t(1;21)(q21;p11),der(22)t(8;22)(q24;q11)/46,XY,der(8)t(8;9)(p22;p24)t(8;22)(q24;q11),der(9)t(8;9)(p21;p24)x2,der(21)t(1;21)(q21;p11),der(22)t(8;22)(q24;q11),der(16)t(16;22)(q24;q11)"
+    },
+    {
+      "Số tham chiếu": 11275,
+      "Số vụ": "1",
+      "Số Hóa Đơn": 1,
+      "Chiều dài kary": 0,
+      "Kary ngắn": " ",
+      "KaryLong": " ",
+      "Tin nhắn": "Original",
+      "Lý do": " ",
+      "Đầu vào chuyển động tế bào": " "
+    },
+    {
+      "Số tham chiếu": 7355,
+      "Số vụ": "1",
+      "Số Hóa Đơn": 1,
+      "Chiều dài kary": 0,
+      "Kary ngắn": " ",
+      "KaryLong": " ",
+      "Tin nhắn": "Original",
+      "Lý do": " ",
+      "Đầu vào chuyển động tế bào": " "
+    },
+    {
+      "Số tham chiếu": 12035,
+      "Số vụ": "7",
+      "Số Hóa Đơn": 1,
+      "Chiều dài kary": 0,
+      "Kary ngắn": " ",
+      "KaryLong": " ",
+      "Tin nhắn": "Original",
+      "Lý do": " ",
+      "Đầu vào chuyển động tế bào": " "
+    }
+  ]
+}

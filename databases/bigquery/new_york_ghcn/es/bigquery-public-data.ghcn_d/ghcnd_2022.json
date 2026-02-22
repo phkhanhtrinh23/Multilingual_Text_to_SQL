@@ -1,0 +1,126 @@
+{
+  "table_name": "ghcnd_2022",
+  "table_fullname": "bigquery-public-data.ghcn_d.ghcnd_2022",
+  "column_names": [
+    "identificador",
+    "fecha",
+    "elemento",
+    "valor",
+    "bandera M",
+    "bandera Q",
+    "Bandera de estado",
+    "tiempo",
+    "url_origen",
+    "marca_tiempo_etl"
+  ],
+  "column_types": [
+    "STRING",
+    "DATE",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "TIMESTAMP"
+  ],
+  "nested_column_names": [
+    "identificador",
+    "fecha",
+    "elemento",
+    "valor",
+    "Bandera M",
+    "bandera de calidad",
+    "bandera",
+    "tiempo",
+    "URL de origen",
+    "marca de tiempo ETL"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "DATE",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "TIMESTAMP"
+  ],
+  "description": [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "Fuente",
+    "Tiempo de carga para esta fila de datos"
+  ],
+  "sample_rows": [
+    {
+      "identificador": "SPE00120170",
+      "fecha": "2022-11-21",
+      "elemento": "PRCP",
+      "valor": 126.0,
+      "Bandera M": null,
+      "bandera de calidad": null,
+      "bandera": "E",
+      "tiempo": null,
+      "URL de origen": "ftp://ftp.ncei.noaa.gov/pub/data/ghcn/daily/by_year/2022.csv.gz",
+      "marca de tiempo ETL": "2023-12-30 01:51:08.125096+00:00"
+    },
+    {
+      "identificador": "US1MDSM0022",
+      "fecha": "2022-11-21",
+      "elemento": "PRCP",
+      "valor": 0.0,
+      "Bandera M": null,
+      "bandera de calidad": null,
+      "bandera": "N",
+      "tiempo": "0700",
+      "URL de origen": "ftp://ftp.ncei.noaa.gov/pub/data/ghcn/daily/by_year/2022.csv.gz",
+      "marca de tiempo ETL": "2023-12-30 01:51:08.125096+00:00"
+    },
+    {
+      "identificador": "US1MIAG0009",
+      "fecha": "2022-11-21",
+      "elemento": "SNOW",
+      "valor": 0.0,
+      "Bandera M": null,
+      "bandera de calidad": null,
+      "bandera": "N",
+      "tiempo": "0700",
+      "URL de origen": "ftp://ftp.ncei.noaa.gov/pub/data/ghcn/daily/by_year/2022.csv.gz",
+      "marca de tiempo ETL": "2023-12-30 01:51:08.125096+00:00"
+    },
+    {
+      "identificador": "US1NMSF0150",
+      "fecha": "2022-11-21",
+      "elemento": "SNOW",
+      "valor": 0.0,
+      "Bandera M": null,
+      "bandera de calidad": null,
+      "bandera": "N",
+      "tiempo": "0800",
+      "URL de origen": "ftp://ftp.ncei.noaa.gov/pub/data/ghcn/daily/by_year/2022.csv.gz",
+      "marca de tiempo ETL": "2023-12-30 01:51:08.125096+00:00"
+    },
+    {
+      "identificador": "US1TNWS0022",
+      "fecha": "2022-11-21",
+      "elemento": "SNWD",
+      "valor": 0.0,
+      "Bandera M": null,
+      "bandera de calidad": null,
+      "bandera": "N",
+      "tiempo": "0700",
+      "URL de origen": "ftp://ftp.ncei.noaa.gov/pub/data/ghcn/daily/by_year/2022.csv.gz",
+      "marca de tiempo ETL": "2023-12-30 01:51:08.125096+00:00"
+    }
+  ]
+}

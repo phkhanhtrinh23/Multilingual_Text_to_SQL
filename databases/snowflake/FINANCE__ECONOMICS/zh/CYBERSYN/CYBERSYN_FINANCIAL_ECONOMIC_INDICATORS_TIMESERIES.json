@@ -1,0 +1,70 @@
+{
+  "sample_rows": [
+    {
+      "地理编号": "country/USA",
+      "变量": "CES2023600032.M_SA",
+      "变量名": "Current Employment: Average hourly earnings of production and nonsupervisory employees, 1982-84 dollars, construction of buildings, Monthly (Seasonally adjusted)",
+      "日期": "1994-03-31",
+      "价值": 9.32,
+      "单位": "1982-1984 USD per hour"
+    },
+    {
+      "地理编号": "country/USA",
+      "变量": "CES5051312030.M_SA",
+      "变量名": "Current Employment: Average weekly earnings of production and nonsupervisory employees, periodical publishers, Monthly (Seasonally adjusted)",
+      "日期": "1992-10-31",
+      "价值": 472.26,
+      "单位": "USD per week"
+    },
+    {
+      "地理编号": "country/USA",
+      "变量": "CES3133320006.M_SA",
+      "变量名": "Current Employment: Production and nonsupervisory employees, industrial machinery manufacturing, Monthly (Seasonally adjusted)",
+      "日期": "2017-07-31",
+      "价值": 63600.0,
+      "单位": "Count"
+    },
+    {
+      "地理编号": "geoId/21167",
+      "变量": "LAUSUE.M_NSA",
+      "变量名": "Local Area Unemployment: Unemployment, Not seasonally adjusted, Monthly",
+      "日期": "1999-12-31",
+      "价值": 375.0,
+      "单位": "Persons"
+    },
+    {
+      "地理编号": "country/USA",
+      "变量": "CEU8081320082.M_NSA",
+      "变量名": "Current Employment: Aggregate weekly payrolls of production and nonsupervisory employees, grantmaking and giving services, Monthly (Not seasonally adjusted)",
+      "日期": "2020-11-30",
+      "价值": 153782000.0,
+      "单位": "USD"
+    }
+  ],
+  "table_name": "CYBERSYN_FINANCIAL_ECONOMIC_INDICATORS_TIMESERIES",
+  "table_fullname": "FINANCE__ECONOMICS.CYBERSYN.CYBERSYN_FINANCIAL_ECONOMIC_INDICATORS_TIMESERIES",
+  "column_names": [
+    "单位",
+    "地理编号",
+    "日期",
+    "变量名",
+    "变量",
+    "价值"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "DATE",
+    "TEXT",
+    "TEXT",
+    "FLOAT"
+  ],
+  "description": [
+    "报告值的计量单位",
+    "一个地点的唯一标识符。可与其他地理表连接，包括 GEOGRAPHY_INDEX、GEOGRAPHY_RELATIONSHIPS 和 GEOGRAPHY_CHARACTERISTICS。",
+    "与该值对应的日期",
+    "变量的易读唯一名称",
+    "唯一标识符，用于变量，可与时间序列表关联。",
+    "变量报告的值"
+  ]
+}

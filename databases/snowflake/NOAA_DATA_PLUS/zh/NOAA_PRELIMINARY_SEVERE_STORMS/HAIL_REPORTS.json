@@ -1,0 +1,102 @@
+{
+  "table_name": "HAIL_REPORTS",
+  "table_fullname": "NOAA_DATA_PLUS.NOAA_PRELIMINARY_SEVERE_STORMS.HAIL_REPORTS",
+  "column_names": [
+    "状态",
+    "评论",
+    "位置",
+    "县",
+    "时间戳",
+    "经度",
+    "尺寸",
+    "纬度",
+    "报告点",
+    "时间"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "NUMBER",
+    "FLOAT",
+    "NUMBER",
+    "FLOAT",
+    "BINARY",
+    "TEXT"
+  ],
+  "description": [
+    "",
+    "",
+    "报告的位置",
+    "",
+    "UTC 时间戳",
+    "经度保留两位小数",
+    "尺寸（以英寸的1/100为单位）（175 = 1.75英寸）",
+    "纬度保留两位小数",
+    "",
+    "UTC小时"
+  ],
+  "sample_rows": [
+    {
+      "时间戳": 1640896080000000,
+      "时间": "2028",
+      "尺寸": 150,
+      "位置": "BEAUREGARD",
+      "县": "LEE",
+      "状态": "AL",
+      "纬度": 32.54,
+      "经度": -85.37,
+      "评论": "SILVER DOLLAR SIZE HAIL IN BEAUREGARD. (BMX)",
+      "报告点": "bytearray(b'\\x01\\x01\\x00\\x00\\x00H\\xe1z\\x14\\xaeWU\\xc0\\x85\\xebQ\\xb8\\x1eE@@')"
+    },
+    {
+      "时间戳": 1619313060000000,
+      "时间": "0111",
+      "尺寸": 100,
+      "位置": "DALEVILLE",
+      "县": "DALE",
+      "状态": "AL",
+      "纬度": 31.29,
+      "经度": -85.73,
+      "评论": "(TAE)",
+      "报告点": "bytearray(b'\\x01\\x01\\x00\\x00\\x00\\x1f\\x85\\xebQ\\xb8nU\\xc0\\n\\xd7\\xa3p=J?@')"
+    },
+    {
+      "时间戳": 1618007820000000,
+      "时间": "2237",
+      "尺寸": 100,
+      "位置": "1 ENE MOUNDVILLE",
+      "县": "HALE",
+      "状态": "AL",
+      "纬度": 33.0,
+      "经度": -87.62,
+      "评论": "QUARTER SIZE HAIL WAS REPORTED IN MOUNDVILLE. PICTURES RECEIVED FROM SOCIAL MEDIA. (BMX)",
+      "报告点": "bytearray(b'\\x01\\x01\\x00\\x00\\x00H\\xe1z\\x14\\xae\\xe7U\\xc0\\x00\\x00\\x00\\x00\\x00\\x80@@')"
+    },
+    {
+      "时间戳": 1617998760000000,
+      "时间": "2006",
+      "尺寸": 100,
+      "位置": "1 S ARKADELPHIA",
+      "县": "BLOUNT",
+      "状态": "AL",
+      "纬度": 33.86,
+      "经度": -86.93,
+      "评论": "REPORTS OF QUARTER SIZE HAIL NEAR ARKADELPHIA. (BMX)",
+      "报告点": "bytearray(b'\\x01\\x01\\x00\\x00\\x00\\xecQ\\xb8\\x1e\\x85\\xbbU\\xc0\\xaeG\\xe1z\\x14\\xee@@')"
+    },
+    {
+      "时间戳": 1619302380000000,
+      "时间": "2213",
+      "尺寸": 150,
+      "位置": "3 W WHITNEY JUNCTION",
+      "县": "BLOUNT",
+      "状态": "AL",
+      "纬度": 33.88,
+      "经度": -86.36,
+      "评论": "(BMX)",
+      "报告点": "bytearray(b'\\x01\\x01\\x00\\x00\\x00\\xd7\\xa3p=\\n\\x97U\\xc0p=\\n\\xd7\\xa3\\xf0@@')"
+    }
+  ]
+}

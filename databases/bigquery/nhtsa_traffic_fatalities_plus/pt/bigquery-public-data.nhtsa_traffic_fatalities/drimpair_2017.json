@@ -1,0 +1,86 @@
+{
+  "table_name": " drimpair_2017",
+  "table_fullname": "bigquery-public-data.nhtsa_traffic_fatalities. drimpair_2017",
+  "column_names": [
+    "numero_do_estado",
+    "nome_do_estado",
+    "numero_consecutivo",
+    "numero_do_veiculo",
+    "condicao_deficiencia_no_momento_do_acidente_motorista",
+    "condicao_deficiencia_no_momento_do_acidente_nome_do_motorista"
+  ],
+  "column_types": [
+    "INT64",
+    "STRING",
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "numero_do_estado",
+    "nome_do_estado",
+    "numero_consecutivo",
+    "numero_do_veiculo",
+    "condicao_deficiencia_no_momento_do_acidente_motorista",
+    "condicao_deficiencia_no_momento_do_acidente_nome_do_motorista"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "STRING",
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING"
+  ],
+  "description": [
+    "Este elemento de dados identifica o estado em que ocorreu o acidente. Os códigos são da publicação da Administração de Serviços Gerais (GSA) dos códigos de localização geográfica mundiais (GLC). Para mais informações sobre os códigos, por favor, consulte a seção <C1/V1/D1/PC1/P1/NM1 State Number> no pdf: https://crashstats.nhtsa.dot.gov/Api/Public/ViewPublication/812315",
+    "Este elemento de dados identifica o estado em que ocorreu o acidente. Os códigos são da publicação da Administração de Serviços Gerais (GSA) dos códigos de localização geográfica mundiais (GLC).",
+    "Este elemento de dados é o número de caso único atribuído a cada acidente. Ele aparece em cada arquivo de dados e é usado para mesclar informações dos arquivos de dados. xxxxxx Dois caracteres para o código do estado seguidos de quatro caracteres para o número do caso",
+    "Este elemento de dados é o número consecutivo atribuído a cada veículo no caso. Este elemento de dados aparece em cada arquivo de dados de nível de veículo e é usado em conjunto com o elemento de dados ST_CASE para mesclar informações dos arquivos de dados de nível de veículo. 000-999 Número atribuído de veículo motorizado",
+    "Este elemento de dados identifica deficiências físicas deste motorista que podem ter contribuído para o acidente, conforme identificado pela autoridade policial. Para mais informações sobre os códigos, por favor, consulte a seção <D23 Condition (Impairment) at Time of Crash- Driver> no pdf: https://crashstats.nhtsa.dot.gov/Api/Public/ViewPublication/812315",
+    "Este elemento de dados identifica deficiências físicas deste motorista que podem ter contribuído para o acidente, conforme identificado pela autoridade policial."
+  ],
+  "sample_rows": [
+    {
+      "numero_do_estado": 1,
+      "nome_do_estado": "Alabama",
+      "numero_consecutivo": 10477,
+      "numero_do_veiculo": 5,
+      "condicao_deficiencia_no_momento_do_acidente_motorista": 0,
+      "condicao_deficiencia_no_momento_do_acidente_nome_do_motorista": "None/Apparently Normal"
+    },
+    {
+      "numero_do_estado": 4,
+      "nome_do_estado": "Arizona",
+      "numero_consecutivo": 40164,
+      "numero_do_veiculo": 5,
+      "condicao_deficiencia_no_momento_do_acidente_motorista": 0,
+      "condicao_deficiencia_no_momento_do_acidente_nome_do_motorista": "None/Apparently Normal"
+    },
+    {
+      "numero_do_estado": 4,
+      "nome_do_estado": "Arizona",
+      "numero_consecutivo": 40164,
+      "numero_do_veiculo": 6,
+      "condicao_deficiencia_no_momento_do_acidente_motorista": 0,
+      "condicao_deficiencia_no_momento_do_acidente_nome_do_motorista": "None/Apparently Normal"
+    },
+    {
+      "numero_do_estado": 4,
+      "nome_do_estado": "Arizona",
+      "numero_consecutivo": 40164,
+      "numero_do_veiculo": 7,
+      "condicao_deficiencia_no_momento_do_acidente_motorista": 0,
+      "condicao_deficiencia_no_momento_do_acidente_nome_do_motorista": "None/Apparently Normal"
+    },
+    {
+      "numero_do_estado": 4,
+      "nome_do_estado": "Arizona",
+      "numero_consecutivo": 40453,
+      "numero_do_veiculo": 5,
+      "condicao_deficiencia_no_momento_do_acidente_motorista": 0,
+      "condicao_deficiencia_no_momento_do_acidente_nome_do_motorista": "None/Apparently Normal"
+    }
+  ]
+}

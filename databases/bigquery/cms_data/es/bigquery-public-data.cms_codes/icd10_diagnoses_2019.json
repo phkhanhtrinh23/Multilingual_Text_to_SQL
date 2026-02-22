@@ -1,0 +1,76 @@
+{
+  "table_name": "icd10_diagnoses_2019",
+  "table_fullname": "bigquery-public-data.cms_codes.icd10_diagnoses_2019",
+  "column_names": [
+    "número de pedido",
+    "Código CM",
+    "código_encabezado",
+    "breve descripción",
+    "descripción larga"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "BOOL",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "Número de pedido",
+    "Código CM",
+    "es_codigo_encabezado",
+    "Descripción corta",
+    "descripción larga"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "BOOL",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "Código de encabezado único que facilita a los usuarios la comunicación de un rango de códigos",
+    "Código de diagnóstico",
+    "VERDADERO - El código es un código de “encabezado” y no es válido para transacciones cubiertas por HIPAA. FALSO - El código es válido para la presentación en transacciones cubiertas por HIPAA.",
+    "Descripción breve del diagnóstico",
+    "Descripción completa del diagnóstico"
+  ],
+  "sample_rows": [
+    {
+      "Número de pedido": "00004",
+      "Código CM": "A009",
+      "es_codigo_encabezado": false,
+      "Descripción corta": "Cholera, unspecified",
+      "descripción larga": "Cholera, unspecified"
+    },
+    {
+      "Número de pedido": "01543",
+      "Código CM": "C4339",
+      "es_codigo_encabezado": false,
+      "Descripción corta": "Malignant melanoma of other parts of face",
+      "descripción larga": "Malignant melanoma of other parts of face"
+    },
+    {
+      "Número de pedido": "03541",
+      "Código CM": "D696",
+      "es_codigo_encabezado": false,
+      "Descripción corta": "Thrombocytopenia, unspecified",
+      "descripción larga": "Thrombocytopenia, unspecified"
+    },
+    {
+      "Número de pedido": "03955",
+      "Código CM": "E093593",
+      "es_codigo_encabezado": false,
+      "Descripción corta": "Drug/chem diab with prolif diab rtnop without mclr edema, bi",
+      "descripción larga": "Drug or chemical induced diabetes mellitus with proliferative diabetic retinopathy without macular edema, bilateral"
+    },
+    {
+      "Número de pedido": "05041",
+      "Código CM": "F12129",
+      "es_codigo_encabezado": false,
+      "Descripción corta": "Cannabis abuse with intoxication, unspecified",
+      "descripción larga": "Cannabis abuse with intoxication, unspecified"
+    }
+  ]
+}

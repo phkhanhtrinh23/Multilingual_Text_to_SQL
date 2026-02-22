@@ -1,0 +1,102 @@
+{
+  "table_name": "SCRNASEQ_VUMC_HTAN_VAL_EPI_V2_CURRENT",
+  "table_fullname": "HTAN_2.HTAN.SCRNASEQ_VUMC_HTAN_VAL_EPI_V2_CURRENT",
+  "column_names": [
+    "HTAN_Parent_Data_File_ID",
+    "Genname",
+    "X_Wert",
+    "HTAN_Biospecimen_ID",
+    "ZellBarcodeNummer",
+    "iVar",
+    "Gewebesubtyp",
+    "Zelltyp",
+    "Gewebetyp",
+    "iObs"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "FLOAT",
+    "TEXT",
+    "TEXT",
+    "NUMBER",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "NUMBER"
+  ],
+  "description": [
+    "HTAN-Datendatei-Identifikator, der die Datei(en) angibt, aus der diese Dateien abgeleitet wurden",
+    "Gemessenes Gen",
+    "Expressionswert für ein bestimmtes Gen und eine Zelle",
+    "HTAN-ID, die einer Biosample zugeordnet ist, basierend auf HTAN-ID-SOP (z. B. `HTANx_yyy_zzz`)",
+    "Barcodes, die für jeden Tropfen verwendet werden, der die Zelle im Sequenzierprozess enthält",
+    "Index zu Gen-IDs",
+    "TA = tubuläres Adenom, HP = hyperplastischer Polyp, TVA = tubulovillöses Adenom, SSL = sessile serratierte Läsion, UNC = unklassifiziert, NL = normal",
+    "ABS = resorptive Zellen, TUF = Tuftzellen, EE = enteroendokrine Zellen, ASC = Adenom-spezifische Zellen, TAC = transient amplifizierende Zellen, CT = Kryptspitzzellen, GOB = Becherzellen, SSC = serratierte spezifische Zellen, STM = Stammzellen",
+    "AD = konventionelles Adenom, SER = serratierter Polyp, UNC = unklassifiziert, NL = normal",
+    "Index zu Zellbarcodes"
+  ],
+  "sample_rows": [
+    {
+      "iObs": 13568,
+      "iVar": 30001,
+      "X_Wert": 1.0,
+      "ZellBarcodeNummer": "GATGTACACGATGCATGG-21-5607",
+      "HTAN_Parent_Data_File_ID": "HTA11_866_300476101113111",
+      "HTAN_Biospecimen_ID": "HTA11_866_3004761011",
+      "Zelltyp": "GOB",
+      "Gewebesubtyp": "TA",
+      "Gewebetyp": "AD",
+      "Genname": "USP33"
+    },
+    {
+      "iObs": 13824,
+      "iVar": 2522,
+      "X_Wert": 2.0,
+      "ZellBarcodeNummer": "TGAAGGATTCAACTCACCG-21-5607",
+      "HTAN_Parent_Data_File_ID": "HTA11_866_300476101113111",
+      "HTAN_Biospecimen_ID": "HTA11_866_3004761011",
+      "Zelltyp": "ASC",
+      "Gewebesubtyp": "TA",
+      "Gewebetyp": "AD",
+      "Genname": "ARHGAP8"
+    },
+    {
+      "iObs": 13824,
+      "iVar": 5235,
+      "X_Wert": 1.0,
+      "ZellBarcodeNummer": "TGAAGGATTCAACTCACCG-21-5607",
+      "HTAN_Parent_Data_File_ID": "HTA11_866_300476101113111",
+      "HTAN_Biospecimen_ID": "HTA11_866_3004761011",
+      "Zelltyp": "ASC",
+      "Gewebesubtyp": "TA",
+      "Gewebetyp": "AD",
+      "Genname": "COL4A2"
+    },
+    {
+      "iObs": 13824,
+      "iVar": 14521,
+      "X_Wert": 1.0,
+      "ZellBarcodeNummer": "TGAAGGATTCAACTCACCG-21-5607",
+      "HTAN_Parent_Data_File_ID": "HTA11_866_300476101113111",
+      "HTAN_Biospecimen_ID": "HTA11_866_3004761011",
+      "Zelltyp": "ASC",
+      "Gewebesubtyp": "TA",
+      "Gewebetyp": "AD",
+      "Genname": "MT-TC"
+    },
+    {
+      "iObs": 13569,
+      "iVar": 9699,
+      "X_Wert": 1.0,
+      "ZellBarcodeNummer": "GAGAGCCCATTGGGATTC-21-5607",
+      "HTAN_Parent_Data_File_ID": "HTA11_866_300476101113111",
+      "HTAN_Biospecimen_ID": "HTA11_866_3004761011",
+      "Zelltyp": "GOB",
+      "Gewebesubtyp": "TA",
+      "Gewebetyp": "AD",
+      "Genname": "GPCPD1"
+    }
+  ]
+}

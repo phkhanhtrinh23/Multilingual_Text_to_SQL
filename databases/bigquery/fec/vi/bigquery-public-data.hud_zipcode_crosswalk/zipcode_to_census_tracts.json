@@ -1,0 +1,86 @@
+{
+  "table_name": "zipcode_to_census_tracts",
+  "table_fullname": "bigquery-public-data.hud_zipcode_crosswalk.zipcode_to_census_tracts",
+  "column_names": [
+    "mã_bưu_chính",
+    "mã_geoid_khu_dân_số",
+    "tỷ lệ nhà ở",
+    "tỷ lệ kinh doanh",
+    "tỷ lệ khác",
+    "tỷ lệ tổng"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "NUMERIC",
+    "NUMERIC",
+    "NUMERIC",
+    "NUMERIC"
+  ],
+  "nested_column_names": [
+    "Mã bưu chính",
+    "định danh khu thống kê dân số",
+    "tỷ lệ nhà ở",
+    "tỷ lệ kinh doanh",
+    "tỷ lệ khác",
+    "tổng tỷ lệ"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "NUMERIC",
+    "NUMERIC",
+    "NUMERIC",
+    "NUMERIC"
+  ],
+  "description": [
+    "Mã ZIP 5 chữ số của USPS.",
+    "GEOID khu vực dân số 2000 hoặc 2010 có 11 chữ số duy nhất bao gồm FIPS bang + FIPS quận + mã khu vực. Thập phân được suy ra và các số 0 đầu và cuối đã được giữ nguyên. Những mã này có thể tương ứng với nhiều ZIP của USPS. Được ánh xạ tới 'geo_id' trong các bảng có dữ liệu khu vực dân số.",
+    "Tỷ lệ các địa chỉ dân cư trong phần ZIP – Tract so với tổng số địa chỉ dân cư trong toàn bộ ZIP.",
+    "Tỷ lệ các địa chỉ doanh nghiệp trong ZIP – Tractpart so với tổng số địa chỉ doanh nghiệp trong toàn bộ ZIP.",
+    "Tỷ lệ các địa chỉ khác trong ZIP – Tractpart so với tổng số địa chỉ kinh doanh trong toàn bộ ZIP.",
+    "Tỷ lệ giữa tất cả các địa chỉ trong khu vực ZIP – Tractpart và tổng số địa chỉ doanh nghiệp trong toàn bộ ZIP."
+  ],
+  "sample_rows": [
+    {
+      "Mã bưu chính": "60448",
+      "định danh khu thống kê dân số": "17197881010",
+      "tỷ lệ nhà ở": "0.000490000",
+      "tỷ lệ kinh doanh": "0E-9",
+      "tỷ lệ khác": "0E-9",
+      "tổng tỷ lệ": "0.000400000"
+    },
+    {
+      "Mã bưu chính": "56229",
+      "định danh khu thống kê dân số": "27083360200",
+      "tỷ lệ nhà ở": "0.029450000",
+      "tỷ lệ kinh doanh": "0E-9",
+      "tỷ lệ khác": "0E-9",
+      "tổng tỷ lệ": "0.028130000"
+    },
+    {
+      "Mã bưu chính": "10465",
+      "định danh khu thống kê dân số": "36005027600",
+      "tỷ lệ nhà ở": "0.000170000",
+      "tỷ lệ kinh doanh": "0E-9",
+      "tỷ lệ khác": "0E-9",
+      "tổng tỷ lệ": "0.000160000"
+    },
+    {
+      "Mã bưu chính": "78573",
+      "định danh khu thống kê dân số": "48215020202",
+      "tỷ lệ nhà ở": "0.000060000",
+      "tỷ lệ kinh doanh": "0E-9",
+      "tỷ lệ khác": "0E-9",
+      "tổng tỷ lệ": "0.000050000"
+    },
+    {
+      "Mã bưu chính": "92129",
+      "định danh khu thống kê dân số": "06073017029",
+      "tỷ lệ nhà ở": "0.000870000",
+      "tỷ lệ kinh doanh": "0E-9",
+      "tỷ lệ khác": "0E-9",
+      "tổng tỷ lệ": "0.000800000"
+    }
+  ]
+}

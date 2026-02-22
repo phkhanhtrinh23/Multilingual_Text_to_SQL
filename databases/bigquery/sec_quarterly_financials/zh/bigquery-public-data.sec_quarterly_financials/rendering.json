@@ -1,0 +1,128 @@
+{
+  "table_name": "rendering",
+  "table_fullname": "bigquery-public-data.sec_quarterly_financials.rendering",
+  "column_names": [
+    "提交编号",
+    "报告",
+    "文件类型",
+    "菜单类别",
+    "简称",
+    "长名称",
+    "角色",
+    "父级角色URI",
+    "父母报告",
+    "最终母公司报告",
+    "分区时间"
+  ],
+  "column_types": [
+    "STRING",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "INT64",
+    "TIMESTAMP"
+  ],
+  "nested_column_names": [
+    "提交编号",
+    "报告",
+    "文件类型",
+    "菜单分类",
+    "简称",
+    "完整名称",
+    "角色网址",
+    "父角色URI",
+    "家长报告",
+    "最终母公司报告"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "INT64",
+    "INT64"
+  ],
+  "description": [
+    "备案编号。由委员会为每个 EDGAR 提交分配的 18 位数字形成的 20 字符字符串。submission_number: [adsh]",
+    "表示报告分组。数值指的是渲染器计算并发布在 EDGAR 网站上的“R 文件”。请注意，在某些情况下数字可能会跳过。",
+    "在 EDGAR 网站上呈现的交互式数据文件类型：H = .htm 文件，X = .xml 文件。文件类型： [rfile]",
+    "如果可用，渲染器计算出的菜单类别之一为：C=封面, S=声明, N=注释, P=政策, T=表格, D=详细信息, O=其他, U=未分类。menu_category: [menucat]",
+    "在渲染器菜单中使用的长名称的一部分",
+    "XBRL 链接 “definition” 元素内容的空间标准化文本。",
+    "角色的 XBRL “roleuri”",
+    "由渲染器计算的，具有匹配短名称前缀且更高级菜单类别的角色的 XBRL roleuri。",
+    "roleuri 等于此 parentroleuri 的角色的 report 字段值。",
+    "通过跟随 parentreport 关系可达到的最高祖先报告。对于（menucat = N）的笔记，它本身就是最终父级。ultimate_parent_report: [ultparentrpt]"
+  ],
+  "sample_rows": [
+    {
+      "提交编号": "0001558370-18-000022",
+      "报告": 85,
+      "文件类型": "H",
+      "菜单分类": "D",
+      "简称": "STOCKHOLDERS' EQUITY",
+      "完整名称": "41503 - Disclosure - STOCKHOLDERS' EQUITY - Dividends (Details)",
+      "角色网址": "http://www.lambweston.com/role/DisclosureStockholdersEquityDividendsDetails",
+      "父角色URI": null,
+      "家长报告": null,
+      "最终母公司报告": null
+    },
+    {
+      "提交编号": "0001558370-18-000022",
+      "报告": 86,
+      "文件类型": "H",
+      "菜单分类": "D",
+      "简称": "STOCKHOLDERS' EQUITY",
+      "完整名称": "41504 - Disclosure - STOCKHOLDERS' EQUITY - Changes in AOCI (Details)",
+      "角色网址": "http://www.lambweston.com/role/DisclosureStockholdersEquityChangesInAociDetails",
+      "父角色URI": null,
+      "家长报告": null,
+      "最终母公司报告": null
+    },
+    {
+      "提交编号": "0001558370-18-000022",
+      "报告": 87,
+      "文件类型": "H",
+      "菜单分类": "D",
+      "简称": "STOCKHOLDERS' EQUITY",
+      "完整名称": "41505 - Disclosure - STOCKHOLDERS' EQUITY - AOCI - Settlement Gains on Pension and Post-retirement Benefits (Details)",
+      "角色网址": "http://www.lambweston.com/role/DisclosureStockholdersEquityAociSettlementGainsOnPensionAndPostRetirementBenefitsDetails",
+      "父角色URI": null,
+      "家长报告": null,
+      "最终母公司报告": null
+    },
+    {
+      "提交编号": "0001558370-18-000022",
+      "报告": 88,
+      "文件类型": "H",
+      "菜单分类": "D",
+      "简称": "SEGMENTS",
+      "完整名称": "41601 - Disclosure - SEGMENTS - General Information (Details)",
+      "角色网址": "http://www.lambweston.com/role/DisclosureSegmentsGeneralInformationDetails",
+      "父角色URI": null,
+      "家长报告": null,
+      "最终母公司报告": null
+    },
+    {
+      "提交编号": "0001558370-18-000022",
+      "报告": 89,
+      "文件类型": "H",
+      "菜单分类": "D",
+      "简称": "SEGMENTS",
+      "完整名称": "41602 - Disclosure - SEGMENTS - General Financial Information (Details)",
+      "角色网址": "http://www.lambweston.com/role/DisclosureSegmentsGeneralFinancialInformationDetails",
+      "父角色URI": null,
+      "家长报告": null,
+      "最终母公司报告": null
+    }
+  ]
+}

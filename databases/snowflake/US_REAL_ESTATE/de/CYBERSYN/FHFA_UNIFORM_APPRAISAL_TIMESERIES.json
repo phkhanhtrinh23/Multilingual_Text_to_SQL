@@ -1,0 +1,78 @@
+{
+  "sample_rows": [
+    {
+      "GEO_ID": "geoId/36",
+      "Variable": "Quarterly_75%_Quartile_of_Appraised_Value_Number_of_Stories_Purchase_&_Refinance_More_than_1_Story",
+      "VariablenName": "Quarterly 75% Quartile of Appraised Value Number of Stories Purchase & Refinance More than 1 Story",
+      "Datum": "2020-09-30",
+      "Wert": 695000.0,
+      "Einheit": "USD",
+      "Unterdrückt": false
+    },
+    {
+      "GEO_ID": "geoId/C31140",
+      "Variable": "Quarterly_25%_Quartile_of_Appraised_Value_Updated_in_the_last_15_years_Purchase_Yes",
+      "VariablenName": "Quarterly 25% Quartile of Appraised Value Updated in the last 15 years Purchase Yes",
+      "Datum": "2016-09-30",
+      "Wert": 139000.0,
+      "Einheit": "USD",
+      "Unterdrückt": false
+    },
+    {
+      "GEO_ID": "geoId/C37100",
+      "Variable": "Quarterly_Mean_Comps_Adjustment_Percent_Number_of_Bathrooms_Above_Grade_Purchase_&_Refinance_2_Full_Bathrooms",
+      "VariablenName": "Quarterly Mean Comps Adjustment Percent Number of Bathrooms Above Grade Purchase & Refinance 2 Full Bathrooms",
+      "Datum": "2015-06-30",
+      "Wert": -0.007,
+      "Einheit": "Percent",
+      "Unterdrückt": false
+    },
+    {
+      "GEO_ID": "geoId/C49180",
+      "Variable": "Quarterly_Mean_Appraised_Value_Duty_to_Serve_Rural_Area_Purchase_Rural",
+      "VariablenName": "Quarterly Mean Appraised Value Duty to Serve Rural Area Purchase Rural",
+      "Datum": "2018-06-30",
+      "Wert": 190500.0,
+      "Einheit": "USD",
+      "Unterdrückt": false
+    },
+    {
+      "GEO_ID": "geoId/06007001602",
+      "Variable": "Annual_Count_of_Appraisals_Purchase_&_Refinance_All_Appraisals",
+      "VariablenName": "Annual Count of Appraisals Purchase & Refinance All Appraisals",
+      "Datum": "2015-12-31",
+      "Wert": 86.0,
+      "Einheit": "Count",
+      "Unterdrückt": false
+    }
+  ],
+  "table_name": "FHFA_UNIFORM_APPRAISAL_TIMESERIES",
+  "table_fullname": "US_REAL_ESTATE.CYBERSYN.FHFA_UNIFORM_APPRAISAL_TIMESERIES",
+  "column_names": [
+    "Einheit",
+    "VariablenName",
+    "GEO_ID",
+    "Variable",
+    "Unterdrückt",
+    "Wert",
+    "Datum"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "BOOLEAN",
+    "FLOAT",
+    "DATE"
+  ],
+  "description": [
+    "Einheit der Messung für die Variable (z. B. Count, Percent, Ratio, USD)",
+    "Menschlich lesbarer Beschreibungstext für die Variable",
+    "Eindeutiger geografischer Identifikator, der mit den Tabellen geography_index/relationships verknüpft werden kann",
+    "Eindeutiger Identifikator für eine Variable, der mit der attributes-Tabelle für die Filterung verknüpft werden kann",
+    "Boolean-Wert, der angibt, ob der Wert in den zugrunde liegenden Daten aus Gründen des Datenschutzes unterdrückt wurde. Unterdrückte Werte erscheinen als NULL",
+    "Der gemeldete numerische Wert für die Variable und das Datum",
+    "Datum, das dem Wert zugeordnet ist"
+  ]
+}

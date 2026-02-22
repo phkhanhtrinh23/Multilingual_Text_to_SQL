@@ -1,0 +1,94 @@
+{
+  "table_name": "PANCANMIRS_EBADJONPROTOCOLPLATFORMWITHOUTREPSWITHUNCORRECTMIRS_08_04_16_FILTERED",
+  "table_fullname": "PANCANCER_ATLAS_1.PANCANCER_ATLAS_FILTERED.PANCANMIRS_EBADJONPROTOCOLPLATFORMWITHOUTREPSWITHUNCORRECTMIRS_08_04_16_FILTERED",
+  "column_names": [
+    "CodigoBarrasDoParticipante",
+    "Estudo",
+    "ID",
+    "TipoDeAmostra",
+    "CodigoDeLetraDoTipoDeAmostra",
+    "miRNAexpr",
+    "CodigoBarrasDaAliquota",
+    "Corrigido",
+    "CodigoBarrasDaAmostra"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "FLOAT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Identificador de código de barras TCGA para o participante do estudo, eg TCGA-02-0001",
+    "Abreviação do estudo TCGA, eg LAML. Lista completa disponível em https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/tcga-study-abbreviations",
+    "Um dos 1870 ids de miRNA únicos (também conhecidos como símbolos) contidos nesta tabela, eg hsa-mir-21 -- informações de referência relevantes podem ser encontradas no conjunto de dados isb-cgc:genome_reference nas tabelas miRBase_v20 e miRBase_v20_hsa_gff3",
+    "Existem 10 tipos de amostras: Sangue Derivado Normal, Tumor sólido primário, Tecido sólido normal, Tumor sólido recorrente, Metastático, Adicional - Novo primário, Câncer derivado de sangue primário - Sangue periférico, Célula bucal normal, Adicional Metastático, Medula óssea normal",
+    "Código de letra do tipo de amostra usando os padrões TCGA, eg TPN, EBV. Lista completa disponível em https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/sample-type-codes",
+    "Abundância normalizada (ou seja, leituras por milhão, RPM)",
+    "Código de barras do aliqota TCGA, eg TCGA-12-1089-01A-01D-0517-28",
+    "Indicador corrigido e não corrigido que especifica se os miRs foram corrigidos pelo método EBN+. Veja mais detalhes em https://www.synapse.org/#!Synapse:syn6171109",
+    "Código de barras da amostra de biosspecimen, eg TCGA-13-1489-02A"
+  ],
+  "sample_rows": [
+    {
+      "CodigoBarrasDoParticipante": "TCGA-04-1331",
+      "CodigoBarrasDaAmostra": "TCGA-04-1331-01A",
+      "CodigoBarrasDaAliquota": "TCGA-04-1331-01A-01R-1569-13",
+      "CodigoDeLetraDoTipoDeAmostra": "TP",
+      "TipoDeAmostra": "Primary solid Tumor",
+      "Estudo": "OV",
+      "ID": "hsa-miR-129-2-3p",
+      "miRNAexpr": 1.924155,
+      "Corrigido": "Corrected"
+    },
+    {
+      "CodigoBarrasDoParticipante": "TCGA-04-1331",
+      "CodigoBarrasDaAmostra": "TCGA-04-1331-01A",
+      "CodigoBarrasDaAliquota": "TCGA-04-1331-01A-01R-1569-13",
+      "CodigoDeLetraDoTipoDeAmostra": "TP",
+      "TipoDeAmostra": "Primary solid Tumor",
+      "Estudo": "OV",
+      "ID": "hsa-miR-3130-5p",
+      "miRNAexpr": 35.184554,
+      "Corrigido": "Corrected"
+    },
+    {
+      "CodigoBarrasDoParticipante": "TCGA-04-1331",
+      "CodigoBarrasDaAmostra": "TCGA-04-1331-01A",
+      "CodigoBarrasDaAliquota": "TCGA-04-1331-01A-01R-1569-13",
+      "CodigoDeLetraDoTipoDeAmostra": "TP",
+      "TipoDeAmostra": "Primary solid Tumor",
+      "Estudo": "OV",
+      "ID": "hsa-miR-454-3p",
+      "miRNAexpr": 0.274879,
+      "Corrigido": "Corrected"
+    },
+    {
+      "CodigoBarrasDoParticipante": "TCGA-04-1331",
+      "CodigoBarrasDaAmostra": "TCGA-04-1331-01A",
+      "CodigoBarrasDaAliquota": "TCGA-04-1331-01A-01R-1569-13",
+      "CodigoDeLetraDoTipoDeAmostra": "TP",
+      "TipoDeAmostra": "Primary solid Tumor",
+      "Estudo": "OV",
+      "ID": "hsa-miR-501-5p",
+      "miRNAexpr": 7.696621,
+      "Corrigido": "Corrected"
+    },
+    {
+      "CodigoBarrasDoParticipante": "TCGA-04-1331",
+      "CodigoBarrasDaAmostra": "TCGA-04-1331-01A",
+      "CodigoBarrasDaAliquota": "TCGA-04-1331-01A-01R-1569-13",
+      "CodigoDeLetraDoTipoDeAmostra": "TP",
+      "TipoDeAmostra": "Primary solid Tumor",
+      "Estudo": "OV",
+      "ID": "hsa-miR-3613-3p",
+      "miRNAexpr": 1.099517,
+      "Corrigido": "Corrected"
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "table_name": "activity_stds_lookup_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.activity_stds_lookup_30",
+  "column_names": [
+    "id_atividade_padrao",
+    "tipo_padrao",
+    "definicao",
+    "unidades_padrao",
+    "minimo_faixa_normal",
+    "maximo_faixa_normal"
+  ],
+  "column_types": [
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "FLOAT64"
+  ],
+  "nested_column_names": [
+    "id_atividade_padrao",
+    "tipo_padrao",
+    "definicao",
+    "unidades_padrao",
+    "minimo_faixa_normal",
+    "maximo_faixa_normal"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "FLOAT64"
+  ],
+  "description": [
+    "Chave primária.",
+    "O standard_type que outros published_types na tabela activities foram convertidos.",
+    "Uma descrição/definição do standard_type.",
+    "As unidades que são aplicadas a este standard_type e às quais outras published_units são convertidas. Observe que um standard_type pode ter mais de uma standard_unit permitida e, portanto, múltiplas linhas nesta tabela.",
+    "O valor mais baixo para este tipo de atividade que provavelmente é genuíno. Isso é apenas uma aproximação, então valores genuínos mais baixos podem existir, mas pode ser desejável validar esses antes de usá-los. Para um determinado standard_type/unidades, os valores na tabela activities abaixo deste limite são marcados com um data_validity_comment de 'Fora do intervalo típico'.",
+    "O valor mais alto para este tipo de atividade que provavelmente é genuíno. Isso é apenas uma aproximação, então valores genuínos mais altos podem existir, mas pode ser desejável validar esses antes de usá-los. Para um determinado standard_type/unidades, os valores na tabela activities acima deste limite são marcados com um data_validity_comment de 'Fora do intervalo típico'."
+  ],
+  "sample_rows": [
+    {
+      "id_atividade_padrao": 81,
+      "tipo_padrao": "HCT",
+      "definicao": "The percentage of a whole blood specimen that is composed of red blood cells (erythrocytes).",
+      "unidades_padrao": "%",
+      "minimo_faixa_normal": null,
+      "maximo_faixa_normal": null
+    },
+    {
+      "id_atividade_padrao": 95,
+      "tipo_padrao": "MCHC",
+      "definicao": "A quantitative measurement of the mean amount of hemoglobin per erythrocytes in a specified volume of a biological specimen.",
+      "unidades_padrao": "%",
+      "minimo_faixa_normal": null,
+      "maximo_faixa_normal": null
+    },
+    {
+      "id_atividade_padrao": 103,
+      "tipo_padrao": "EOSLE",
+      "definicao": "A relative measurement (ratio or percentage) of the eosinophils to leukocytes in a biological specimen.",
+      "unidades_padrao": "%",
+      "minimo_faixa_normal": null,
+      "maximo_faixa_normal": null
+    },
+    {
+      "id_atividade_padrao": 104,
+      "tipo_padrao": "LYMLE",
+      "definicao": "A relative measurement (ratio or percentage) of the lymphocytes to leukocytes in a biological specimen.",
+      "unidades_padrao": "%",
+      "minimo_faixa_normal": null,
+      "maximo_faixa_normal": null
+    },
+    {
+      "id_atividade_padrao": 106,
+      "tipo_padrao": "BASOLE",
+      "definicao": "A relative measurement (ratio or percentage) of the basophils to leukocytes in a biological specimen.",
+      "unidades_padrao": "%",
+      "minimo_faixa_normal": null,
+      "maximo_faixa_normal": null
+    }
+  ]
+}

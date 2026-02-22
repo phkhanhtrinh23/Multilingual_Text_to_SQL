@@ -1,0 +1,94 @@
+{
+  "table_name": "RNASEQ_HG19_GDC_2017_02",
+  "table_fullname": "TCGA_MITELMAN.TCGA_VERSIONED.RNASEQ_HG19_GDC_2017_02",
+  "column_names": [
+    "gốc_gene_symbol",
+    "Mã vạch kiện",
+    "Ký hiệu gene HGNC",
+    "đếm chuẩn hoá",
+    "mã_gene",
+    "Mã vạch mẫu",
+    "mã vạch mẫu phần",
+    "Tên ngắn dự án",
+    "nền tảng"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "FLOAT",
+    "NUMBER",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Ký hiệu gen từ tệp dữ liệu gốc, khác nhau nếu ký hiệu gen đã được phê duyệt đã thay đổi, ví dụ C11orf17 đã trở thành AKIP1",
+    "Mã vạch trường hợp TCGA gốc, ví dụ: TCGA-12-1089. Lưu ý rằng mỗi trường hợp thường có một mẫu khối u chính và một mẫu khớp thường (máu hoặc mô lân cận). Vui lòng tham khảo bảng Mẫu bệnh phẩm TCGA để biết thêm chi tiết.",
+    "Ký hiệu gene của HUGO Gene Nomenclature Committee, dựa trên gene_id trong file dữ liệu gốc, ví dụ AMY1A. Trả về Null nếu không tìm thấy ký hiệu gene (xem tài liệu để biết thêm chi tiết về ETL) http://isb-cancer-genomics-cloud.readthedocs.io/en/latest/sections/data/data2/ETL_mRNAexpression.html",
+    "Biểu hiện gen đã chuẩn hóa từ tệp gốc rsem.genes.normalized_results",
+    "Biểu tượng gen. Trong bảng này, biểu tượng gen là tên gen, ví dụ: ENSG00000251562",
+    "Bảng mã mẫu TCGA gốc, ví dụ: TCGA-12-1089-01A",
+    "Mã vạch mẫu TCGA gốc, ví dụ: TCGA-12-1089-01A-01D-0517-01",
+    "Viết tắt tên dự án; tên chương trình được nối với viết tắt tên dự án; ví dụ: TCGA-OV, v.v.",
+    "Nền tảng được sử dụng để tạo dữ liệu: IlluminaHiSeq (cho gần 93% mẫu) hoặc IlluminaGA."
+  ],
+  "sample_rows": [
+    {
+      "Tên ngắn dự án": "TCGA-OV",
+      "Mã vạch kiện": "TCGA-04-1348",
+      "Mã vạch mẫu": "TCGA-04-1348-01A",
+      "mã vạch mẫu phần": "TCGA-04-1348-01A-01R-1565-13",
+      "Ký hiệu gene HGNC": "CASP5",
+      "mã_gene": 838,
+      "đếm chuẩn hoá": 9.4111,
+      "gốc_gene_symbol": "CASP5",
+      "nền tảng": "IlluminaHiSeq"
+    },
+    {
+      "Tên ngắn dự án": "TCGA-OV",
+      "Mã vạch kiện": "TCGA-04-1348",
+      "Mã vạch mẫu": "TCGA-04-1348-01A",
+      "mã vạch mẫu phần": "TCGA-04-1348-01A-01R-1565-13",
+      "Ký hiệu gene HGNC": "ITGB3",
+      "mã_gene": 3690,
+      "đếm chuẩn hoá": 50.5512,
+      "gốc_gene_symbol": "ITGB3",
+      "nền tảng": "IlluminaHiSeq"
+    },
+    {
+      "Tên ngắn dự án": "TCGA-OV",
+      "Mã vạch kiện": "TCGA-04-1348",
+      "Mã vạch mẫu": "TCGA-04-1348-01A",
+      "mã vạch mẫu phần": "TCGA-04-1348-01A-01R-1565-13",
+      "Ký hiệu gene HGNC": "USP4",
+      "mã_gene": 7375,
+      "đếm chuẩn hoá": 2135.5203,
+      "gốc_gene_symbol": "USP4",
+      "nền tảng": "IlluminaHiSeq"
+    },
+    {
+      "Tên ngắn dự án": "TCGA-OV",
+      "Mã vạch kiện": "TCGA-04-1348",
+      "Mã vạch mẫu": "TCGA-04-1348-01A",
+      "mã vạch mẫu phần": "TCGA-04-1348-01A-01R-1565-13",
+      "Ký hiệu gene HGNC": "RPL15",
+      "mã_gene": 6138,
+      "đếm chuẩn hoá": 25928.2065,
+      "gốc_gene_symbol": "RPL15",
+      "nền tảng": "IlluminaHiSeq"
+    },
+    {
+      "Tên ngắn dự án": "TCGA-OV",
+      "Mã vạch kiện": "TCGA-04-1348",
+      "Mã vạch mẫu": "TCGA-04-1348-01A",
+      "mã vạch mẫu phần": "TCGA-04-1348-01A-01R-1565-13",
+      "Ký hiệu gene HGNC": null,
+      "mã_gene": 440040,
+      "đếm chuẩn hoá": 0.0,
+      "gốc_gene_symbol": "LOC440040",
+      "nền tảng": "IlluminaHiSeq"
+    }
+  ]
+}

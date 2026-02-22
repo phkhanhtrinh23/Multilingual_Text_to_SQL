@@ -1,0 +1,102 @@
+{
+  "table_name": "DNA_METHYLATION_CHR12_HG38_GDC_2017_01",
+  "table_fullname": "TCGA_MITELMAN.TCGA_VERSIONED.DNA_METHYLATION_CHR12_HG38_GDC_2017_01",
+  "column_names": [
+    "GDC样本编号",
+    "样本 GDC ID",
+    "平台",
+    "病例 GDC ID",
+    "分装条码",
+    "样本条码",
+    "贝塔值",
+    "案件条码",
+    "文件_GDC_ID",
+    "探针编号"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "FLOAT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "此样本的唯一 GDC 标识符（对应于 aliquot_barcode），例如 7fbfdb3e-1fd2-4206-8d2e-7f68e4a15844 -- 可以用来从 GDC 数据门户获取更多信息",
+    "该样本的唯一 GDC 标识符（对应 sample_barcode），例如 a1ec9279-c1a6-4e58-97ed-9ec1f36187c5 —— 可用于从 GDC 数据门户获取更多信息",
+    "用于生成此数据的平台——HumanMethylation450 或 HumanMethylation27",
+    "此病例的唯一 GDC 标识符（对应 case_barcode）。可用于从 GDC 数据门户访问更多信息，例如： https://portal.gdc.cancer.gov/files/c21b332c-06c6-4403-9032-f91c8f407ba15",
+    "TCGA 采样条码，例如 TCGA-12-1089-01A-01D-0517-07",
+    "TCGA 样本条形码，例如 TCGA-12-1089-01A。一个样本可能拥有多组 CN 分段，分别对应不同的分液；在查询中适当地使用 GROUP BY。",
+    "表示甲基化阵列强度与总阵列强度之比，介于 0（甲基化水平较低）和 1（甲基化水平较高）之间",
+    "原始 TCGA 病例条码，例如 TCGA-DX-A8BN",
+    "此文件的唯一 GDC 标识符（对应 file_barcode）— 可用于访问 GDC 数据门户的更多信息，例如：https://portal.gdc.cancer.gov/files/c21b332c-06c6-4403-9032-f91c8f407ba22",
+    "与 CpG 位点关联的阵列探针的唯一 ID"
+  ],
+  "sample_rows": [
+    {
+      "案件条码": "TCGA-12-1601",
+      "样本条码": "TCGA-12-1601-01A",
+      "分装条码": "TCGA-12-1601-01A-01D-0595-05",
+      "探针编号": "cg18627459",
+      "贝塔值": 0.0175334891265267,
+      "平台": null,
+      "文件_GDC_ID": "5cd6f2f6-7278-4757-be8e-a8ae3a7a81d3",
+      "病例 GDC ID": "cc1459be-de8f-482e-9efe-65937db9dc45",
+      "样本 GDC ID": "b02fd704-03a6-44c4-b224-f5f457e733f3",
+      "GDC样本编号": "aa761ca4-e8f0-4a43-8262-bd84eedb459a"
+    },
+    {
+      "案件条码": "TCGA-12-1601",
+      "样本条码": "TCGA-12-1601-01A",
+      "分装条码": "TCGA-12-1601-01A-01D-0595-05",
+      "探针编号": "cg01199721",
+      "贝塔值": 0.010039669125862,
+      "平台": null,
+      "文件_GDC_ID": "5cd6f2f6-7278-4757-be8e-a8ae3a7a81d3",
+      "病例 GDC ID": "cc1459be-de8f-482e-9efe-65937db9dc45",
+      "样本 GDC ID": "b02fd704-03a6-44c4-b224-f5f457e733f3",
+      "GDC样本编号": "aa761ca4-e8f0-4a43-8262-bd84eedb459a"
+    },
+    {
+      "案件条码": "TCGA-12-1601",
+      "样本条码": "TCGA-12-1601-01A",
+      "分装条码": "TCGA-12-1601-01A-01D-0595-05",
+      "探针编号": "cg10591174",
+      "贝塔值": 0.226039570925743,
+      "平台": null,
+      "文件_GDC_ID": "5cd6f2f6-7278-4757-be8e-a8ae3a7a81d3",
+      "病例 GDC ID": "cc1459be-de8f-482e-9efe-65937db9dc45",
+      "样本 GDC ID": "b02fd704-03a6-44c4-b224-f5f457e733f3",
+      "GDC样本编号": "aa761ca4-e8f0-4a43-8262-bd84eedb459a"
+    },
+    {
+      "案件条码": "TCGA-12-1601",
+      "样本条码": "TCGA-12-1601-01A",
+      "分装条码": "TCGA-12-1601-01A-01D-0595-05",
+      "探针编号": "cg00973334",
+      "贝塔值": 0.0231343569483298,
+      "平台": null,
+      "文件_GDC_ID": "5cd6f2f6-7278-4757-be8e-a8ae3a7a81d3",
+      "病例 GDC ID": "cc1459be-de8f-482e-9efe-65937db9dc45",
+      "样本 GDC ID": "b02fd704-03a6-44c4-b224-f5f457e733f3",
+      "GDC样本编号": "aa761ca4-e8f0-4a43-8262-bd84eedb459a"
+    },
+    {
+      "案件条码": "TCGA-12-1601",
+      "样本条码": "TCGA-12-1601-01A",
+      "分装条码": "TCGA-12-1601-01A-01D-0595-05",
+      "探针编号": "cg20664201",
+      "贝塔值": 0.449384948579292,
+      "平台": null,
+      "文件_GDC_ID": "5cd6f2f6-7278-4757-be8e-a8ae3a7a81d3",
+      "病例 GDC ID": "cc1459be-de8f-482e-9efe-65937db9dc45",
+      "样本 GDC ID": "b02fd704-03a6-44c4-b224-f5f457e733f3",
+      "GDC样本编号": "aa761ca4-e8f0-4a43-8262-bd84eedb459a"
+    }
+  ]
+}

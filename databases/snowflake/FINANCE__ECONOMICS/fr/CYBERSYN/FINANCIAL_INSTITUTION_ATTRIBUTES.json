@@ -1,0 +1,62 @@
+{
+  "sample_rows": [
+    {
+      "VARIABLE": "EQUP",
+      "NOM_VARIABLE": "Undivided Profits",
+      "DEFINITION": "Retained earnings from bank operations, net unrealized holding gains (losses) on available-for-sale securities, and cumulative foreign currency translation adjustments.",
+      "FREQUENCE": "Quarterly",
+      "UNIT": "Percent"
+    },
+    {
+      "VARIABLE": "LNLSNTV",
+      "NOM_VARIABLE": "Net Loans and Leases to Assets",
+      "DEFINITION": "Loan and lease financing receivables, net of unearned income, allowances, and reserves, as a percent of total assets.",
+      "FREQUENCE": "YTD",
+      "UNIT": "Percent"
+    },
+    {
+      "VARIABLE": "NTRERSF2R",
+      "NOM_VARIABLE": "Secured By Junior Liens",
+      "DEFINITION": "Net amount of loans secured by junior liens on 1-4 family residential properties (which are held in domestic offices) that have been charged-off and debited to the allowance for loan and lease losses established by the institution. Prior to 2004, this item is not available for TFR Reporters . Calculated as NTRERSF2 / ASSET5",
+      "FREQUENCE": "YTD",
+      "UNIT": "Percent"
+    },
+    {
+      "VARIABLE": "LOCFPSBK",
+      "NOM_VARIABLE": "Standby Letters of Credit Amount Conveyed To Others",
+      "DEFINITION": "That portion of financial standby letters of credit, foreign office guarantees, performance standby letters of credit, and foreign office guarantees (including cash collateral standby letters of credit) conveyed to others.",
+      "FREQUENCE": "YTD",
+      "UNIT": "USD"
+    },
+    {
+      "VARIABLE": "RB2LNRES",
+      "NOM_VARIABLE": "Loan Loss Allowance Included in Tier 2 Capital",
+      "DEFINITION": "Loan Loss Allowance Included in Tier 2 Capital",
+      "FREQUENCE": "YTD",
+      "UNIT": "USD"
+    }
+  ],
+  "table_name": "FINANCIAL_INSTITUTION_ATTRIBUTES",
+  "table_fullname": "FINANCE__ECONOMICS.CYBERSYN.FINANCIAL_INSTITUTION_ATTRIBUTES",
+  "column_names": [
+    "UNIT",
+    "DEFINITION",
+    "VARIABLE",
+    "NOM_VARIABLE",
+    "FREQUENCE"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Unité de mesure pour la valeur, exemples (par exemple, pourcentage, USD)",
+    "Description détaillée de la variable, y compris le calcul le cas échéant",
+    "Identifiant unique pour une variable joignable à la table timeseries",
+    "Nom lisible par l'homme pour la variable",
+    "Période de mesure (par exemple, Annuel, Trimestriel)"
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "table_name": "KARYCLONE",
+  "table_fullname": "TCGA_MITELMAN.PROD.KARYCLONE",
+  "column_names": [
+    "Klonlaenge",
+    "Fallnummer",
+    "ChromoMin",
+    "Klonlang",
+    "InvNo",
+    "Klonkurz",
+    "RefNo",
+    "Klonnummer",
+    "ChromoMax",
+    "Sole"
+  ],
+  "column_types": [
+    "NUMBER",
+    "TEXT",
+    "NUMBER",
+    "TEXT",
+    "NUMBER",
+    "TEXT",
+    "NUMBER",
+    "NUMBER",
+    "NUMBER",
+    "TEXT"
+  ],
+  "description": [
+    "Länge der Klondeskriptionszeichenfolge -- normalerweise zwischen 8 und 24 Zeichen, kann aber bis zu 2199 Zeichen lang sein",
+    "Fallnummer, normalerweise zwischen 1 und 10, kann aber auch eine beliebige Zeichenfolge sein, z. B. 'A11'",
+    "Die häufigsten Werte liegen zwischen '42' und '51', aber der Mindestwert ist '0' und der Maximalwert ist '409'",
+    "normalerweise leer, aber wenn die Klondeskription sehr lang ist, wird diese Zeichenfolge hier gespeichert",
+    "Untersuchungsnummer, zwischen 1 und 9",
+    "kürzere, manchmal verkürzte Klondeskription, z. B. '45,X,-Y' oder '46,Xy,t(8;21)(q22;q22)'",
+    "Referenznummer, z. B. '14620'",
+    "Klonenumber, zwischen 1 und 58",
+    "Die häufigsten Werte liegen zwischen '43' und '52', aber der Mindestwert ist '0' und der Maximalwert ist '409'",
+    "T/F-Flag, das angibt, ob dies die einzige Abnormalität ist oder nicht"
+  ],
+  "sample_rows": [
+    {
+      "RefNo": 3822,
+      "Fallnummer": "1",
+      "InvNo": 1,
+      "Klonnummer": 5,
+      "ChromoMin": 45,
+      "ChromoMax": 45,
+      "Klonkurz": "45,X,-X",
+      "Klonlang": null,
+      "Klonlaenge": 7,
+      "Sole": "T"
+    },
+    {
+      "RefNo": 4018,
+      "Fallnummer": "33",
+      "InvNo": 1,
+      "Klonnummer": 6,
+      "ChromoMin": 45,
+      "ChromoMax": 45,
+      "Klonkurz": "45,X,-X",
+      "Klonlang": null,
+      "Klonlaenge": 7,
+      "Sole": "T"
+    },
+    {
+      "RefNo": 9341,
+      "Fallnummer": "5",
+      "InvNo": 1,
+      "Klonnummer": 9,
+      "ChromoMin": 45,
+      "ChromoMax": 45,
+      "Klonkurz": "45,X,-Y",
+      "Klonlang": null,
+      "Klonlaenge": 7,
+      "Sole": "T"
+    },
+    {
+      "RefNo": 7668,
+      "Fallnummer": "28",
+      "InvNo": 1,
+      "Klonnummer": 13,
+      "ChromoMin": 45,
+      "ChromoMax": 45,
+      "Klonkurz": "45,X,-Y",
+      "Klonlang": null,
+      "Klonlaenge": 7,
+      "Sole": "T"
+    },
+    {
+      "RefNo": 5150,
+      "Fallnummer": "18",
+      "InvNo": 1,
+      "Klonnummer": 5,
+      "ChromoMin": 45,
+      "ChromoMax": 45,
+      "Klonkurz": "45,X,-Y",
+      "Klonlang": null,
+      "Klonlaenge": 7,
+      "Sole": "T"
+    }
+  ]
+}

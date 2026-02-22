@@ -1,0 +1,106 @@
+{
+  "table_name": "drug_indication_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.drug_indication_30",
+  "column_names": [
+    "id_do_principio_ativo",
+    "id_do_registro",
+    "molregno",
+    "max_fase_para_indicacao",
+    "id_mesh",
+    "cabecalho_mesh",
+    "efo_id",
+    "termo_efo"
+  ],
+  "column_types": [
+    "INT64",
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "id_do_principio_ativo",
+    "id_do_registro",
+    "molregno",
+    "max_fase_para_indicacao",
+    "id_mesh",
+    "cabecalho_mesh",
+    "efo_id",
+    "termo_efo"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "Chave primária",
+    "Chave estrangeira para a tabela compound_records. Liga-se ao registro do medicamento ao qual esta indicação se aplica",
+    "Molregno correspondente ao record_id na tabela compound_records",
+    "A fase máxima de desenvolvimento que o medicamento é conhecido por ter alcançado para esta indicação particular",
+    "Identificador de doença Medical Subject Headings (MeSH) correspondente à indicação",
+    "Termo de cabeçalho de assunto médico para o ID de doença MeSH",
+    "Identificador de doença da Ontologia de Fator Experimental (EFO) correspondente à indicação",
+    "Termo da Ontologia de Fator Experimental para o ID EFO"
+  ],
+  "sample_rows": [
+    {
+      "id_do_principio_ativo": 54362,
+      "id_do_registro": 1697032,
+      "molregno": 1380217,
+      "max_fase_para_indicacao": 0,
+      "id_mesh": "D000375",
+      "cabecalho_mesh": "Aging",
+      "efo_id": "GO:0007568",
+      "termo_efo": "aging"
+    },
+    {
+      "id_do_principio_ativo": 122845,
+      "id_do_registro": 1344486,
+      "molregno": 675637,
+      "max_fase_para_indicacao": 0,
+      "id_mesh": "D000375",
+      "cabecalho_mesh": "Aging",
+      "efo_id": "GO:0007568",
+      "termo_efo": "aging"
+    },
+    {
+      "id_do_principio_ativo": 121760,
+      "id_do_registro": 1701733,
+      "molregno": 1377512,
+      "max_fase_para_indicacao": 0,
+      "id_mesh": "D014549",
+      "cabecalho_mesh": "Urinary Incontinence",
+      "efo_id": "HP:0000020",
+      "termo_efo": "Urinary incontinence"
+    },
+    {
+      "id_do_principio_ativo": 130058,
+      "id_do_registro": 3460748,
+      "molregno": 1797543,
+      "max_fase_para_indicacao": 0,
+      "id_mesh": "D014549",
+      "cabecalho_mesh": "Urinary Incontinence",
+      "efo_id": "HP:0000020",
+      "termo_efo": "Urinary incontinence"
+    },
+    {
+      "id_do_principio_ativo": 121019,
+      "id_do_registro": 1344763,
+      "molregno": 858397,
+      "max_fase_para_indicacao": 0,
+      "id_mesh": "D051437",
+      "cabecalho_mesh": "Renal Insufficiency",
+      "efo_id": "HP:0000083",
+      "termo_efo": "Renal insufficiency"
+    }
+  ]
+}

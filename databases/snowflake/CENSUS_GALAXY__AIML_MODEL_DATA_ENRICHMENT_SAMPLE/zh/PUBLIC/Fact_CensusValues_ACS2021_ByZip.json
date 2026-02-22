@@ -1,0 +1,46 @@
+{
+  "sample_rows": [
+    {
+      "邮编": "12220",
+      "度量ID": "B25063_019E",
+      "邮编普查值": "51.04"
+    },
+    {
+      "邮编": "14739",
+      "度量ID": "B08303_011E",
+      "邮编普查值": "47.06"
+    },
+    {
+      "邮编": "14702",
+      "度量ID": "B25063_014E",
+      "邮编普查值": "57.18"
+    },
+    {
+      "邮编": "13743",
+      "度量ID": "B08301_017E",
+      "邮编普查值": "32.99"
+    },
+    {
+      "邮编": "14219",
+      "度量ID": "B08303_012E",
+      "邮编普查值": "124.19"
+    }
+  ],
+  "table_name": "Fact_CensusValues_ACS2021_ByZip",
+  "table_fullname": "CENSUS_GALAXY__AIML_MODEL_DATA_ENRICHMENT_SAMPLE.PUBLIC.Fact_CensusValues_ACS2021_ByZip",
+  "column_names": [
+    "邮编普查值",
+    "度量ID",
+    "邮编"
+  ],
+  "column_types": [
+    "NUMBER",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "MetricID 和 ZipCode 关系的 Int 值。这些值可能是人口、宠物、家庭等的汇总或估算。请参阅 Dim_CensusMetrics 表以了解每个值的含义。所有值已根据 Xref_TractToZip_Residential 表中的比率正确汇总。",
+    "用于美国社区调查或人口普查数据中特定指标或测量的唯一标识符。",
+    "地理区域的唯一邮政编码。"
+  ]
+}

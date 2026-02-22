@@ -1,0 +1,116 @@
+{
+  "table_name": "stop_times",
+  "table_fullname": "bigquery-public-data.san_francisco_transit_muni.stop_times",
+  "column_names": [
+    "mã điểm dừng",
+    "id_chuyến",
+    "dãy dừng",
+    "thời gian đến",
+    "đến ngày tiếp theo",
+    "giờ khởi hành",
+    "ngày khởi hành tiếp theo",
+    "loại giao hàng",
+    "điểm thời gian chính xác"
+  ],
+  "column_types": [
+    "INT64",
+    "INT64",
+    "INT64",
+    "TIME",
+    "BOOL",
+    "TIME",
+    "BOOL",
+    "STRING",
+    "BOOL"
+  ],
+  "nested_column_names": [
+    "mã dừng",
+    "mã chuyến đi",
+    "dãy dừng",
+    "thời gian đến",
+    "đến_ngày_hôm_sau",
+    "giờ khởi hành",
+    "Ngày khởi hành tiếp theo",
+    "loại giao",
+    "điểm thời gian chính xác"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "INT64",
+    "INT64",
+    "TIME",
+    "BOOL",
+    "TIME",
+    "BOOL",
+    "STRING",
+    "BOOL"
+  ],
+  "description": [
+    "Xác định trạm được phục vụ. Nhiều tuyến có thể sử dụng cùng một trạm.",
+    "Xác định một chuyến đi. Nhiều chuyến có thể có cùng một điểm dừng.",
+    "Xác định thứ tự các điểm dừng cho một chuyến đi cụ thể. Giá trị của stop_sequence phải tăng dần trong suốt chuyến đi nhưng không cần phải liên tiếp.",
+    "Xác định thời gian đến dự kiến tại một điểm dừng cụ thể cho một chuyến đi cụ thể trên một tuyến.",
+    "Vài tuyến bắt đầu trước nửa đêm, với dịch vụ tiếp tục suốt đêm. Biến này chỉ ra liệu arrival_time có xảy ra sau nửa đêm của ngày sau ngày dự kiến không. Điều này hữu ích cho việc xác định các tuyến bắt đầu một ngày và kết thúc vào ngày hôm sau.",
+    "Xác định thời gian khởi hành dự kiến tại một trạm cụ thể cho một chuyến đi cụ thể trên một tuyến.",
+    "Nhiều tuyến bắt đầu trước nửa đêm, với dịch vụ tiếp tục suốt đêm. Biến này chỉ ra liệu thời gian khởi hành có xảy ra sau nửa đêm của ngày hôm sau (ngày đã lên lịch) hay không. Điều này hữu ích cho việc xác định các tuyến bắt đầu một ngày và kết thúc vào ngày hôm sau.",
+    "Chỉ ra liệu hành khách có được đón tại một điểm dừng như một phần của lịch trình bình thường hay không, hoặc liệu việc đón tại điểm dừng đó không khả dụng. Các tùy chọn có sẵn:   \n- thường  \n- không  \n- điện thoại (đòi hỏi phải gọi điện cho cơ quan để sắp xếp đón)  \n- tài xế (đòi hỏi phải phối hợp với tài xế để sắp xếp đón)",
+    "Chỉ ra liệu thời gian tới và xuất phát được ghi rõ cho một điểm dừng có thực sự được tuân thủ nghiêm ngặt bởi phương tiện giao thông hay không, hoặc liệu chúng là thời gian ước tính hoặc nội suy."
+  ],
+  "sample_rows": [
+    {
+      "mã dừng": 15759,
+      "mã chuyến đi": 8951406,
+      "dãy dừng": 51,
+      "thời gian đến": "06:54:55",
+      "đến_ngày_hôm_sau": false,
+      "giờ khởi hành": "06:54:55",
+      "Ngày khởi hành tiếp theo": false,
+      "loại giao": "regular",
+      "điểm thời gian chính xác": false
+    },
+    {
+      "mã dừng": 15761,
+      "mã chuyến đi": 8951406,
+      "dãy dừng": 52,
+      "thời gian đến": "06:55:33",
+      "đến_ngày_hôm_sau": false,
+      "giờ khởi hành": "06:55:33",
+      "Ngày khởi hành tiếp theo": false,
+      "loại giao": "regular",
+      "điểm thời gian chính xác": false
+    },
+    {
+      "mã dừng": 15763,
+      "mã chuyến đi": 8951406,
+      "dãy dừng": 53,
+      "thời gian đến": "06:56:04",
+      "đến_ngày_hôm_sau": false,
+      "giờ khởi hành": "06:56:04",
+      "Ngày khởi hành tiếp theo": false,
+      "loại giao": "regular",
+      "điểm thời gian chính xác": false
+    },
+    {
+      "mã dừng": 15828,
+      "mã chuyến đi": 8951406,
+      "dãy dừng": 54,
+      "thời gian đến": "06:57:00",
+      "đến_ngày_hôm_sau": false,
+      "giờ khởi hành": "06:57:00",
+      "Ngày khởi hành tiếp theo": false,
+      "loại giao": "regular",
+      "điểm thời gian chính xác": true
+    },
+    {
+      "mã dừng": 15759,
+      "mã chuyến đi": 8951253,
+      "dãy dừng": 51,
+      "thời gian đến": "06:54:55",
+      "đến_ngày_hôm_sau": false,
+      "giờ khởi hành": "06:54:55",
+      "Ngày khởi hành tiếp theo": false,
+      "loại giao": "regular",
+      "điểm thời gian chính xác": false
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "table_name": "hrac_classification_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.hrac_classification_30",
+  "column_names": [
+    "プレイヤークラスID",
+    "有効成分",
+    "レベル1",
+    "レベル1の説明",
+    "レベル2",
+    "レベル2の説明",
+    "レベル3",
+    "選手コード"
+  ],
+  "column_types": [
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "HRACクラス識別子",
+    "有効成分",
+    "レベル1",
+    "レベル1の説明",
+    "レベル2",
+    "レベル2の説明",
+    "レベル3",
+    "HRACコード"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "レベル3コードごとに一意な数値主キー\n\n",
+    "HRACに分類された除草剤の有効成分名",
+    "HRAC グループコード - 除草剤の作用機序を示す",
+    "HRACによって提供された作用機序の説明",
+    "特定のHRACグループ内にある化学ファミリーを示します（HRACから番号は割り当てられていません）",
+    "HRAC が提供する化学ファミリーの説明",
+    "各成分に割り当てられたユニークコード（HRACのレベル1およびレベル2の分類に基づくが、HRACが割り当てたものではない）",
+    "成分の公式HRAC分類コード"
+  ],
+  "sample_rows": [
+    {
+      "HRACクラス識別子": 2,
+      "有効成分": "CYHALOFOP-BUTYL",
+      "レベル1": "A",
+      "レベル1の説明": "INHIBITION OF ACETYL COA CARBOXYLASE (ACCASE)",
+      "レベル2": "A1",
+      "レベル2の説明": "ARYLOXYPHENOXY-PROPIONATE 'FOPS'",
+      "レベル3": "A12",
+      "HRACコード": "A"
+    },
+    {
+      "HRACクラス識別子": 3,
+      "有効成分": "DICLOFOP-METHYL",
+      "レベル1": "A",
+      "レベル1の説明": "INHIBITION OF ACETYL COA CARBOXYLASE (ACCASE)",
+      "レベル2": "A1",
+      "レベル2の説明": "ARYLOXYPHENOXY-PROPIONATE 'FOPS'",
+      "レベル3": "A13",
+      "HRACコード": "A"
+    },
+    {
+      "HRACクラス識別子": 4,
+      "有効成分": "FENOXAPROP-P-ETHYL",
+      "レベル1": "A",
+      "レベル1の説明": "INHIBITION OF ACETYL COA CARBOXYLASE (ACCASE)",
+      "レベル2": "A1",
+      "レベル2の説明": "ARYLOXYPHENOXY-PROPIONATE 'FOPS'",
+      "レベル3": "A14",
+      "HRACコード": "A"
+    },
+    {
+      "HRACクラス識別子": 5,
+      "有効成分": "FLUAZIFOP-P-BUTYL",
+      "レベル1": "A",
+      "レベル1の説明": "INHIBITION OF ACETYL COA CARBOXYLASE (ACCASE)",
+      "レベル2": "A1",
+      "レベル2の説明": "ARYLOXYPHENOXY-PROPIONATE 'FOPS'",
+      "レベル3": "A15",
+      "HRACコード": "A"
+    },
+    {
+      "HRACクラス識別子": 6,
+      "有効成分": "HALOXYFOP-R-METHYL",
+      "レベル1": "A",
+      "レベル1の説明": "INHIBITION OF ACETYL COA CARBOXYLASE (ACCASE)",
+      "レベル2": "A1",
+      "レベル2の説明": "ARYLOXYPHENOXY-PROPIONATE 'FOPS'",
+      "レベル3": "A16",
+      "HRACコード": "A"
+    }
+  ]
+}

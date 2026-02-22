@@ -1,0 +1,86 @@
+{
+  "sample_rows": [
+    {
+      "地理编号": "WHORegion/AFR",
+      "变量": "AIR_11_SEX_BTSX_AGEGROUP_AGEALL_ENVCAUSE_ENVCAUSE000",
+      "变量名": "Household air pollution attributable deaths | Sex: Both sexes | Age Group: Total (All ages) | Cause: Total | Estimate",
+      "日期": "2019-12-31",
+      "数值": 638583.0321,
+      "单位": "Count",
+      "世界卫生组织来源": null,
+      "数值备注": null
+    },
+    {
+      "地理编号": "WorldBankIncomeGroup/WB_LMI",
+      "变量": "LIFE_0000000029_SEX_FMLE_AGEGROUP_AGE55-59",
+      "变量名": "Age-specific death rate between ages x and x+n | Sex: Female | Age Group: 55-59 years | Estimate",
+      "日期": "2000-12-31",
+      "数值": 0.01276,
+      "单位": "Rate",
+      "世界卫生组织来源": null,
+      "数值备注": null
+    },
+    {
+      "地理编号": "MGHERegion/WBDCP_EAP",
+      "变量": "MORT_600_SEX_FMLE_AGEGROUP_YEARS70+_GHECAUSES_GHE051",
+      "变量名": "Projection of deaths | Sex: Female | Age Group: 70 plus  years of age (please delete. It does not work with menu.xml) | Causes: Birth asphyxia and birth trauma | Estimate",
+      "日期": "2030-12-31",
+      "数值": 8.0,
+      "单位": "Count",
+      "世界卫生组织来源": null,
+      "数值备注": null
+    },
+    {
+      "地理编号": "WHORegion/WPR",
+      "变量": "PHE_HHAIR_PROP_POP_CATEGORY_FUELS_RESIDENCEAREATYPE_RUR_HOUSEHOLDCOOKINGFUEL_FUEL_CHARCOAL_HIGH",
+      "变量名": "Percent of population with primary reliance on fuels and technologies for cooking, by fuel type | Residence Area Type: Rural | Cooking fuel: Charcoal | Margin of Error: Upper Bound",
+      "日期": "2002-12-31",
+      "数值": 1.68,
+      "单位": "Percent",
+      "世界卫生组织来源": null,
+      "数值备注": null
+    },
+    {
+      "地理编号": "MGHERegion/WBINC_LOINC",
+      "变量": "GHE_YLLRATE_SEX_FMLE_AGEGROUP_YEARS50-69_GHECAUSES_GHE138",
+      "变量名": "Years of life lost from mortality (YLLs), per 100,000 people | Sex: Female | Age Group: 50-69 years | Causes: Back and neck pain | Estimate",
+      "日期": "2012-12-31",
+      "数值": 0.06066,
+      "单位": "Count",
+      "世界卫生组织来源": null,
+      "数值备注": null
+    }
+  ],
+  "table_name": "WORLD_HEALTH_ORGANIZATION_TIMESERIES",
+  "table_fullname": "GLOBAL_GOVERNMENT.CYBERSYN.WORLD_HEALTH_ORGANIZATION_TIMESERIES",
+  "column_names": [
+    "变量名",
+    "变量",
+    "日期",
+    "地理编号",
+    "单位",
+    "世界卫生组织来源",
+    "数值备注",
+    "数值"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "DATE",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "FLOAT"
+  ],
+  "description": [
+    "所报告属性的人类可读描述",
+    "基于世界卫生组织（WHO）变量独特特征创建的变量唯一标识符。",
+    "数据发布日期",
+    "用于唯一标识一个国家、国家组或地区的标识符，可与 GEOGRAPHY_INDEX 表关联。",
+    "报告值的计量单位（例如：USD）",
+    "来源：世界卫生组织（WHO）已收到此数据。",
+    "对该数值的来源、测量方法或定义进行评论。",
+    "该变量的报告值"
+  ]
+}

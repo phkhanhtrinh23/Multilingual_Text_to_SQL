@@ -1,0 +1,86 @@
+{
+  "table_name": "usan_stems",
+  "table_fullname": "bigquery-public-data.ebi_chembl.usan_stems",
+  "column_names": [
+    "usan_mã_gốc",
+    "Cây",
+    "nhóm con",
+    "ghi chú",
+    "loại thân",
+    "lớp chuyên ngành"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "usan_mã_cây",
+    "thân",
+    "nhóm con",
+    "đánh chú",
+    "loại gốc",
+    "Lớp chính"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "sample_rows": [
+    {
+      "usan_mã_cây": "1471",
+      "thân": "som-",
+      "nhóm con": "som--bove",
+      "đánh chú": "growth hormone derivatives: bovine somatotropin derivatives",
+      "loại gốc": "combined prefix and suffix",
+      "Lớp chính": null
+    },
+    {
+      "usan_mã_cây": "1472",
+      "thân": "som-",
+      "nhóm con": "som--por",
+      "đánh chú": "growth hormone derivatives: porcine somatotropin derivatives",
+      "loại gốc": "combined prefix and suffix",
+      "Lớp chính": null
+    },
+    {
+      "usan_mã_cây": "979",
+      "thân": "-ampa-",
+      "nhóm con": null,
+      "đánh chú": "ionotropic non-NMDA (N-methyl D-aspartate) glutamate receptors [AMPA (alpha-amino-3-hydroxy-5-methyl-4-isoxazolepropionic acid receptor) and/or KA (kainite antagonist) receptors]",
+      "loại gốc": "infix",
+      "Lớp chính": null
+    },
+    {
+      "usan_mã_cây": "990",
+      "thân": "-apt-",
+      "nhóm con": null,
+      "đánh chú": "aptamers, classical and mirror",
+      "loại gốc": "infix",
+      "Lớp chính": null
+    },
+    {
+      "usan_mã_cây": "993",
+      "thân": "-aril-",
+      "nhóm con": null,
+      "đánh chú": "antiviral (arildone derivatives)",
+      "loại gốc": "infix",
+      "Lớp chính": null
+    }
+  ]
+}

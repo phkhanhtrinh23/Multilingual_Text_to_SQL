@@ -1,0 +1,46 @@
+{
+  "sample_rows": [
+    {
+      "街区组编号": "361031471003",
+      "度量编号": "B11012_008E",
+      "人口普查值": 20.0
+    },
+    {
+      "街区组编号": "361031471003",
+      "度量编号": "B11012_010E",
+      "人口普查值": 0.0
+    },
+    {
+      "街区组编号": "361031471003",
+      "度量编号": "B11012_011E",
+      "人口普查值": 6.0
+    },
+    {
+      "街区组编号": "361031471003",
+      "度量编号": "B11012_012E",
+      "人口普查值": 5.0
+    },
+    {
+      "街区组编号": "361031471003",
+      "度量编号": "B11012_014E",
+      "人口普查值": 9.0
+    }
+  ],
+  "table_name": "Fact_CensusValues_ACS2021",
+  "table_fullname": "CENSUS_GALAXY__AIML_MODEL_DATA_ENRICHMENT_SAMPLE.PUBLIC.Fact_CensusValues_ACS2021",
+  "column_names": [
+    "人口普查值",
+    "街区组编号",
+    "度量编号"
+  ],
+  "column_types": [
+    "FLOAT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "MetricID 和 BlockGroupID 关系的整数值。它可能是人、宠物、家庭等的聚合或估算。请参阅 Dim_CensusMetrics 表了解每个值的含义。",
+    "用于标识地理区域内特定街区组的唯一标识符。",
+    "美国社区调查 (American Community Survey) 或人口普查数据中某个特定指标或测量的唯一标识符。"
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "table_name": "dimension",
+  "table_fullname": "bigquery-public-data.sec_quarterly_financials.dimension",
+  "column_names": [
+    "băm đoạn",
+    "đoạn",
+    "cắt đoạn",
+    "Thời gian phân vùng"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "BOOL",
+    "TIMESTAMP"
+  ],
+  "nested_column_names": [
+    "đoạn_băm",
+    "Phân khúc",
+    "đoạn cắt"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "BOOL"
+  ],
+  "description": [
+    "Băm MD5 của trường văn bản segments. Mặc dù MD5 không phù hợp cho mục đích mật mã, nhưng ở đây nó chỉ được dùng để giới hạn kích thước của khóa chính. segments_hash: [dimhash]",
+    "Nối các tên thẻ đại diện cho trục và thành viên xuất hiện trong các đoạn XBRL.  \nTên thẻ có các ký tự đầu tiên “Statement”, 4 ký tự cuối “Axis”, và 6 ký tự cuối “Member” hoặc “Domain” được cắt bỏ nơi chúng xuất hiện.  \nKhông quan tâm tới không gian tên và tiền tố vì việc xác thực EDGAR đảm bảo rằng các tên cục bộ là duy nhất trong một lần nộp.  \nMỗi chiều được biểu diễn dưới dạng cặp “{axis}={member};” và các trục được nối theo thứ tự từ điển.  \nVí dụ: “LegalEntity=Xyz;Scenario=Restated;” đại diện cho đoạn XBRL với chiều LegalEntityAxis và thành viên XyzMember, chiều StatementScenarioAxis và thành viên RestatedMember.",
+    "ĐÚNG nếu trường segments sẽ dài hơn 1024 ký tự nếu không bị cắt ngắn, ngược lại SAI. segment_truncation: [segt]"
+  ],
+  "sample_rows": [
+    {
+      "đoạn_băm": "0x00000000",
+      "Phân khúc": null,
+      "đoạn cắt": false
+    },
+    {
+      "đoạn_băm": "0x0cfab777bfb97c9c70428f4aa168335c",
+      "Phân khúc": "PropertyPlantAndEquipmentByType=NonProducingOilAndGasProperties;",
+      "đoạn cắt": false
+    },
+    {
+      "đoạn_băm": "0x0fbb52a9c45f6b71e15f9014faa85f56",
+      "Phân khúc": "PropertyPlantAndEquipmentByType=SouthTexasProjectAcreage;",
+      "đoạn cắt": false
+    },
+    {
+      "đoạn_băm": "0x133ed0334b7713ac9a34d0512f7d9f1a",
+      "Phân khúc": "DerivativeInstrumentRisk=PutOption;",
+      "đoạn cắt": false
+    },
+    {
+      "đoạn_băm": "0x1767e6cfc42e170f20b295eb0caaa6cc",
+      "Phân khúc": "ConsolidationItems=OperatingSegments;BusinessSegments=AllOtherSegments;",
+      "đoạn cắt": false
+    }
+  ]
+}

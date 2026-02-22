@@ -1,0 +1,42 @@
+{
+  "table_name": "FARES",
+  "table_fullname": "SAN_FRANCISCO_PLUS.SAN_FRANCISCO_TRANSIT_MUNI.FARES",
+  "column_names": [
+    "thời gian chuyển",
+    "mã_đua",
+    "Chuyển được",
+    "phương thức thanh toán",
+    "Mô tả người cưỡi",
+    "mã cước",
+    "giá"
+  ],
+  "column_types": [
+    "NUMBER",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "NUMBER"
+  ],
+  "description": [
+    "Chỉ định độ dài thời gian, tính bằng giây, trước khi một chuyến chuyển hết hạn. Khi được sử dụng với giá trị transfers_permitted bằng 0, trường transfer_duration cho biết thời gian mà một vé có hiệu lực trong trường hợp không được phép chuyển tiếp.",
+    "Định danh duy nhất của một loại người tham gia. Các loại người tham gia được sử dụng để gán mức giá khác nhau cho các nhóm cá nhân khác nhau.",
+    "Xác định số lần chuyển tuyến được phép với mức giá này.  -  0: Không có lần chuyển tuyến được phép với mức giá này. -  1: Một lần chuyển tuyến được phép với mức giá này. -  2: Hai lần chuyển tuyến được phép với mức giá này. -  NULL: Không giới hạn số lần chuyển tuyến được phép với mức giá này.",
+    "Chỉ ra khi nào tiền cước phải được trả. Các giá trị hợp lệ cho trường này bao gồm:\n- during: Chỉ ra tiền cước được trả khi hành khách lên xe\n- before: Chỉ ra tiền cước phải trả trước khi hành khách lên xe",
+    "Mô tả văn bản của loại rider",
+    "Định danh duy nhất của một lớp cước.",
+    "Bao gồm giá cước, tính bằng USD."
+  ],
+  "sample_rows": [
+    {
+      "mã cước": "5398",
+      "mã_đua": "2",
+      "Mô tả người cưỡi": "Senior",
+      "giá": "3.000000000",
+      "phương thức thanh toán": "0",
+      "Chuyển được": null,
+      "thời gian chuyển": 5400
+    }
+  ]
+}

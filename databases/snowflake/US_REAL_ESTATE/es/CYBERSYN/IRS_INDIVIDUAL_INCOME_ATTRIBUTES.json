@@ -1,0 +1,70 @@
+{
+  "sample_rows": [
+    {
+      "VARIABLE": "Total_income_-_Number_of_returns,_AGI_bin:_$100,000_under_$200,000",
+      "NOMBRE_VARIABLE": "Total income - Number of returns, AGI bin: $100,000 under $200,000",
+      "RANGO DE INGRESOS": "$100,000 under $200,000",
+      "Unidad": "Returns",
+      "ajustado estacionalmente": false,
+      "Frecuencia": "Annual"
+    },
+    {
+      "VARIABLE": "Investment_interest_paid_-_Amount,_AGI_bin:_$200,000_or_more",
+      "NOMBRE_VARIABLE": "Investment interest paid - Amount, AGI bin: $200,000 or more",
+      "RANGO DE INGRESOS": "$200,000 or more",
+      "Unidad": "USD",
+      "ajustado estacionalmente": false,
+      "Frecuencia": "Annual"
+    },
+    {
+      "VARIABLE": "Personal_property_taxes_-_Number_of_returns,_AGI_bin:_$25,000_under_$50,000",
+      "NOMBRE_VARIABLE": "Personal property taxes - Number of returns, AGI bin: $25,000 under $50,000",
+      "RANGO DE INGRESOS": "$25,000 under $50,000",
+      "Unidad": "Returns",
+      "ajustado estacionalmente": false,
+      "Frecuencia": "Annual"
+    },
+    {
+      "VARIABLE": "Economic_impact_payment_second_round_[15,_17]_-_Amount,_AGI_bin:_$200,000_or_more",
+      "NOMBRE_VARIABLE": "Economic impact payment second round [15, 17] - Amount, AGI bin: $200,000 or more",
+      "RANGO DE INGRESOS": "$200,000 or more",
+      "Unidad": "USD",
+      "ajustado estacionalmente": false,
+      "Frecuencia": "Annual"
+    },
+    {
+      "VARIABLE": "Domestic_production_activities_deduction_-_Number_of_returns,_AGI_bin:_$75,000_under_$100,000",
+      "NOMBRE_VARIABLE": "Domestic production activities deduction - Number of returns, AGI bin: $75,000 under $100,000",
+      "RANGO DE INGRESOS": "$75,000 under $100,000",
+      "Unidad": "Returns",
+      "ajustado estacionalmente": false,
+      "Frecuencia": "Annual"
+    }
+  ],
+  "table_name": "IRS_INDIVIDUAL_INCOME_ATTRIBUTES",
+  "table_fullname": "US_REAL_ESTATE.CYBERSYN.IRS_INDIVIDUAL_INCOME_ATTRIBUTES",
+  "column_names": [
+    "NOMBRE_VARIABLE",
+    "ajustado estacionalmente",
+    "RANGO DE INGRESOS",
+    "Unidad",
+    "Frecuencia",
+    "VARIABLE"
+  ],
+  "column_types": [
+    "TEXT",
+    "BOOLEAN",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Nombre legible por humanos para la variable",
+    "Indica si el valor está ajustado estacionalmente.",
+    "El tramo de ingresos brutos ajustados de los individuos dentro de la serie",
+    "Unidad de medida para el valor (por ejemplo, USD, retornos, individuos, dependientes)",
+    "Frecuencia de la medición de la variable",
+    "Identificador único para una variable que se puede unir a la tabla de series temporales"
+  ]
+}

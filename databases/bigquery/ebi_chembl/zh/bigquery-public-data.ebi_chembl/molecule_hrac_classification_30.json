@@ -1,0 +1,56 @@
+{
+  "table_name": "molecule_hrac_classification_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.molecule_hrac_classification_30",
+  "column_names": [
+    "分子HRAC编号",
+    "玩家分类ID",
+    "分子注册号"
+  ],
+  "column_types": [
+    "INT64",
+    "INT64",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "分子HRAC编号",
+    "玩家分类ID",
+    "分子注册号"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "INT64",
+    "INT64"
+  ],
+  "description": [
+    "主键",
+    "外键指向 hrac_classification 表，用于显示化合物的分类。",
+    "外键指向 molecule_dictionary，显示此分类适用于哪个化合物。"
+  ],
+  "sample_rows": [
+    {
+      "分子HRAC编号": 148,
+      "玩家分类ID": 256,
+      "分子注册号": 1369899
+    },
+    {
+      "分子HRAC编号": 136,
+      "玩家分类ID": 1,
+      "分子注册号": 1238673
+    },
+    {
+      "分子HRAC编号": 182,
+      "玩家分类ID": 257,
+      "分子注册号": 1495975
+    },
+    {
+      "分子HRAC编号": 8,
+      "玩家分类ID": 3,
+      "分子注册号": 51985
+    },
+    {
+      "分子HRAC编号": 161,
+      "玩家分类ID": 4,
+      "分子注册号": 1475652
+    }
+  ]
+}

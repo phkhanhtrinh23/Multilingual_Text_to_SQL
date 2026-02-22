@@ -1,0 +1,58 @@
+{
+  "table_name": "dimension",
+  "table_fullname": "bigquery-public-data.sec_quarterly_financials.dimension",
+  "column_names": [
+    "hachage_des_segments",
+    "segments",
+    "troncature_de_segment",
+    "_PARTITIONTIME"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "BOOL",
+    "TIMESTAMP"
+  ],
+  "nested_column_names": [
+    "hachage_segments",
+    "segments",
+    "troncature_segment"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "BOOL"
+  ],
+  "description": [
+    "Hachage MD5 du texte du champ segments. Bien que MD5 soit inapproprié pour une utilisation cryptographique, il est utilisé ici uniquement pour limiter la taille de la clé primaire. segments_hash: [dimhash]",
+    "Concaténation des noms de balises représentant l'axe et les membres apparaissant dans les segments XBRL. Les noms de balises ont leurs premiers caractères « Statement », derniers 4 caractères « Axis », et derniers 6 caractères « Member » ou « Domain » tronqués où ils apparaissent. Les espaces de noms et les préfixes sont ignorés car la validation EDGAR garantit que les noms locaux sont uniques dans une soumission. Chaque dimension est représentée comme la paire « {axe}={membre}; » et les axes concaténés dans l'ordre lexical. Exemple : « LegalEntity=Xyz;Scenario=Restated; » représente le segment XBRL avec la dimension LegalEntityAxis et le membre XyzMember, la dimension StatementScenarioAxis et le membre RestatedMember.",
+    "VRAI si le champ segments aurait été plus long que 1024 caractères s'il n'avait pas été tronqué, FAUX sinon. segment_truncation: [segt]"
+  ],
+  "sample_rows": [
+    {
+      "hachage_segments": "0x00000000",
+      "segments": null,
+      "troncature_segment": false
+    },
+    {
+      "hachage_segments": "0x0cfab777bfb97c9c70428f4aa168335c",
+      "segments": "PropertyPlantAndEquipmentByType=NonProducingOilAndGasProperties;",
+      "troncature_segment": false
+    },
+    {
+      "hachage_segments": "0x0fbb52a9c45f6b71e15f9014faa85f56",
+      "segments": "PropertyPlantAndEquipmentByType=SouthTexasProjectAcreage;",
+      "troncature_segment": false
+    },
+    {
+      "hachage_segments": "0x133ed0334b7713ac9a34d0512f7d9f1a",
+      "segments": "DerivativeInstrumentRisk=PutOption;",
+      "troncature_segment": false
+    },
+    {
+      "hachage_segments": "0x1767e6cfc42e170f20b295eb0caaa6cc",
+      "segments": "ConsolidationItems=OperatingSegments;BusinessSegments=AllOtherSegments;",
+      "troncature_segment": false
+    }
+  ]
+}

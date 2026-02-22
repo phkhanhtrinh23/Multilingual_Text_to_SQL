@@ -1,0 +1,70 @@
+{
+  "sample_rows": [
+    {
+      "ID_Geográfico": "country/USA",
+      "VARIABLE": "FRM_30_YR",
+      "Nombre de variable": "30-Year Fixed Rate Mortgage Rate, National Average",
+      "FECHA": "2024-08-29",
+      "VALOR": 0.0635,
+      "Unidad": "Percent"
+    },
+    {
+      "ID_Geográfico": "geoId/31",
+      "VARIABLE": "INDEX_SA",
+      "Nombre de variable": "Freddie Mac House Price Index (Seasonally adjusted)",
+      "FECHA": "2020-07-31",
+      "VALOR": 172.7589483,
+      "Unidad": "Index"
+    },
+    {
+      "ID_Geográfico": "geoId/32",
+      "VARIABLE": "INDEX_NSA",
+      "Nombre de variable": "Freddie Mac House Price Index (Not seasonally adjusted)",
+      "FECHA": "1976-09-30",
+      "VALOR": 31.93893565,
+      "Unidad": "Index"
+    },
+    {
+      "ID_Geográfico": "geoId/10",
+      "VARIABLE": "INDEX_SA",
+      "Nombre de variable": "Freddie Mac House Price Index (Seasonally adjusted)",
+      "FECHA": "1996-08-31",
+      "VALOR": 83.36771622,
+      "Unidad": "Index"
+    },
+    {
+      "ID_Geográfico": "geoId/25",
+      "VARIABLE": "INDEX_NSA",
+      "Nombre de variable": "Freddie Mac House Price Index (Not seasonally adjusted)",
+      "FECHA": "2021-05-31",
+      "VALOR": 225.5959953,
+      "Unidad": "Index"
+    }
+  ],
+  "table_name": "FREDDIE_MAC_HOUSING_TIMESERIES",
+  "table_fullname": "US_REAL_ESTATE.CYBERSYN.FREDDIE_MAC_HOUSING_TIMESERIES",
+  "column_names": [
+    "VALOR",
+    "Nombre de variable",
+    "FECHA",
+    "ID_Geográfico",
+    "Unidad",
+    "VARIABLE"
+  ],
+  "column_types": [
+    "FLOAT",
+    "TEXT",
+    "DATE",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Valor reportado para la variable.",
+    "Nombre único legible por humanos para la variable.",
+    "Fecha asociada con el valor.",
+    "Un identificador único para un lugar. Se puede unir a otras tablas geográficas, incluidas GEOGRAPHY_INDEX, GEOGRAPHY_RELATIONSHIPS y GEOGRAPHY_CHARACTERISTICS.",
+    "Unidad de medida del valor reportado.",
+    "Identificador único para una variable, que se puede unir a la tabla de series temporales."
+  ]
+}

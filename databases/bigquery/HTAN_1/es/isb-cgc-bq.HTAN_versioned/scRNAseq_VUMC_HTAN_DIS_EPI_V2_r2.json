@@ -1,0 +1,126 @@
+{
+  "table_name": "scRNAseq_VUMC_HTAN_DIS_EPI_V2_r2",
+  "table_fullname": "isb-cgc-bq.HTAN_versioned.scRNAseq_VUMC_HTAN_DIS_EPI_V2_r2",
+  "column_names": [
+    "Observaciones",
+    "iVar",
+    "Valor_X",
+    "Número de código de barras de célula",
+    "HTAN ID del archivo de datos del padre",
+    "HTAN_MuestraBiológica_ID",
+    "Tipo de célula",
+    "Subtipo de tejido",
+    "Tipo de tejido",
+    "Nombre del gen"
+  ],
+  "column_types": [
+    "INT64",
+    "INT64",
+    "FLOAT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "Observaciones",
+    "iVar",
+    "valor_X",
+    "Número de código de barras de la célula",
+    "ID del archivo de datos principal de HTAN",
+    "ID del biospecimen HTAN",
+    "Tipo de célula",
+    "Subtipo de Tejido",
+    "Tipo de Tejido",
+    "Nombre del gen"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "INT64",
+    "FLOAT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "Índice de códigos de barras celulares.",
+    "Índice de identificadores de genes",
+    "Valor de expresión para un gen y una célula dados.",
+    "Códigos de barras utilizados para cada gota que contiene la célula en el proceso de secuenciación",
+    "Identificador del archivo de datos HTAN que indica de qué archivo(s) se derivaron estos archivos.",
+    "ID de HTAN asociado con una muestra biológica basado en el SOP de ID de HTAN (p. ej., HTANx_yyy_zzz)",
+    "ABS = células absorventes, TUF = células foliculadas, EE = células enteroendocrinas, ASC = células específicas de adenoma, TAC = células de amplificación transitoria, CT = células de la cima de la cripta, GOB = células caliciformes, SSC = células específicas serradas, STM = células madre",
+    "TA = adenoma tubular, HP = pólipo hiperplásico, TVA = adenoma tubulovílar, SSL = lesión serrada sessile, UNC = no clasificado, NL = normal",
+    "AD = adenoma convencional, SER = pólipo serrado, UNC = no clasificado, NL = normal",
+    "Gen medido"
+  ],
+  "sample_rows": [
+    {
+      "Observaciones": 28085,
+      "iVar": 8423,
+      "valor_X": 31.0,
+      "Número de código de barras de la célula": "GAGAAAGACCTTCGCTGG-45",
+      "ID del archivo de datos principal de HTAN": "HTA11_5363_200000101113111",
+      "ID del biospecimen HTAN": "HTA11_5363_2000001011",
+      "Tipo de célula": "CT",
+      "Subtipo de Tejido": "SSL",
+      "Tipo de Tejido": "SER",
+      "Nombre del gen": "EEF1A1"
+    },
+    {
+      "Observaciones": 38856,
+      "iVar": 8423,
+      "valor_X": 15.0,
+      "Número de código de barras de la célula": "CTTTCTTTATGGAAAT-60",
+      "ID del archivo de datos principal de HTAN": "HTA11_2992_200000101113111",
+      "ID del biospecimen HTAN": "HTA11_2992_2000001011",
+      "Tipo de célula": "CT",
+      "Subtipo de Tejido": "HP",
+      "Tipo de Tejido": "SER",
+      "Nombre del gen": "EEF1A1"
+    },
+    {
+      "Observaciones": 28085,
+      "iVar": 3160,
+      "valor_X": 2.0,
+      "Número de código de barras de la célula": "GAGAAAGACCTTCGCTGG-45",
+      "ID del archivo de datos principal de HTAN": "HTA11_5363_200000101113111",
+      "ID del biospecimen HTAN": "HTA11_5363_2000001011",
+      "Tipo de célula": "CT",
+      "Subtipo de Tejido": "SSL",
+      "Tipo de Tejido": "SER",
+      "Nombre del gen": "ATP5B"
+    },
+    {
+      "Observaciones": 39073,
+      "iVar": 4832,
+      "valor_X": 2.0,
+      "Número de código de barras de la célula": "TGATATTGCCTTTCACATA-60",
+      "ID del archivo de datos principal de HTAN": "HTA11_2992_200000101113111",
+      "ID del biospecimen HTAN": "HTA11_2992_2000001011",
+      "Tipo de célula": "CT",
+      "Subtipo de Tejido": "HP",
+      "Tipo de Tejido": "SER",
+      "Nombre del gen": "CDC42"
+    },
+    {
+      "Observaciones": 39043,
+      "iVar": 30074,
+      "valor_X": 2.0,
+      "Número de código de barras de la célula": "AGTCAAAGAGAATTCGT-60",
+      "ID del archivo de datos principal de HTAN": "HTA11_2992_200000101113111",
+      "ID del biospecimen HTAN": "HTA11_2992_2000001011",
+      "Tipo de célula": "CT",
+      "Subtipo de Tejido": "HP",
+      "Tipo de Tejido": "SER",
+      "Nombre del gen": "SF1"
+    }
+  ]
+}

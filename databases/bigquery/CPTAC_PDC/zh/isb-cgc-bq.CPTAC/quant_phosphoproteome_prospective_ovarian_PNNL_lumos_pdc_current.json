@@ -1,0 +1,116 @@
+{
+  "table_name": "quant_phosphoproteome_prospective_ovarian_PNNL_lumos_pdc_current",
+  "table_fullname": "isb-cgc-bq.CPTAC.quant_phosphoproteome_prospective_ovarian_PNNL_lumos_pdc_current",
+  "column_names": [
+    "案例编号",
+    "样本编号",
+    "分样编号",
+    "样本提交者ID",
+    "分样运行元数据ID",
+    "研究名称",
+    "蛋白丰度对数二比值",
+    "RefSeq编号",
+    "磷酸化位点"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "案件编号",
+    "样本编号",
+    "样本ID",
+    "样本提交者编号",
+    "分装运行元数据ID",
+    "研究名称",
+    "蛋白质丰度对数二倍比",
+    "RefSeq 编号",
+    "磷酸化位点"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "与特定患者相关的唯一标识符（例如 24cb0fcb-63d6-11e8-bcf1-0a2705229b82）",
+    "该样本的唯一 PDC 标识符（例如 e8d83eb9-693a-11ea-b1fd-0aad30af8a83）",
+    "该分装的唯一 PDC 标识符（例如 e8db124a-693a-11ea-b1fd-0aad30af8a83）",
+    "由程序分配的取样提交者 ID（例如 T14）",
+    "根据实验中的使用方式（基于标记试剂和/或生物学重复）唯一识别该分装样本",
+    "研究名称（例如：儿科脑癌试点研究-磷酸蛋白组）",
+    "在特定生物样本获取的与该基因相关的肽离子中，样本报告离子与公共参考离子的平均对数比值。",
+    "分配给NCBI RefSeq数据库中序列的唯一标识符",
+    "磷酸化氨基酸的单字母代码和蛋白质序列位置（例如 t304s310，t59）"
+  ],
+  "sample_rows": [
+    {
+      "案件编号": "526a8712-0881-11eb-bc0e-0aad30af8a83",
+      "样本编号": "0633de6c-641d-11e8-bcf1-0a2705229b82",
+      "样本ID": "e56ea641-6424-11e8-bcf1-0a2705229b82",
+      "样本提交者编号": "665f4f0f-130c-4b09-9762-cd0696_D2",
+      "分装运行元数据ID": "096069d2-5738-11e8-b664-00a098d917f8",
+      "研究名称": "Prospective Ovarian PNNL Phosphoproteome Lumos",
+      "蛋白质丰度对数二倍比": -2.4217,
+      "RefSeq 编号": "NP_057417.3",
+      "磷酸化位点": "s1691t1698"
+    },
+    {
+      "案件编号": "526a8712-0881-11eb-bc0e-0aad30af8a83",
+      "样本编号": "0633de6c-641d-11e8-bcf1-0a2705229b82",
+      "样本ID": "e56ea641-6424-11e8-bcf1-0a2705229b82",
+      "样本提交者编号": "665f4f0f-130c-4b09-9762-cd0696_D2",
+      "分装运行元数据ID": "096069d2-5738-11e8-b664-00a098d917f8",
+      "研究名称": "Prospective Ovarian PNNL Phosphoproteome Lumos",
+      "蛋白质丰度对数二倍比": -0.3629,
+      "RefSeq 编号": "NP_000042.3",
+      "磷酸化位点": "t1885"
+    },
+    {
+      "案件编号": "526a8712-0881-11eb-bc0e-0aad30af8a83",
+      "样本编号": "0633de6c-641d-11e8-bcf1-0a2705229b82",
+      "样本ID": "e56ea641-6424-11e8-bcf1-0a2705229b82",
+      "样本提交者编号": "665f4f0f-130c-4b09-9762-cd0696_D2",
+      "分装运行元数据ID": "096069d2-5738-11e8-b664-00a098d917f8",
+      "研究名称": "Prospective Ovarian PNNL Phosphoproteome Lumos",
+      "蛋白质丰度对数二倍比": -0.0056,
+      "RefSeq 编号": "XP_011511944.1",
+      "磷酸化位点": "s1544"
+    },
+    {
+      "案件编号": "526a8712-0881-11eb-bc0e-0aad30af8a83",
+      "样本编号": "0633de6c-641d-11e8-bcf1-0a2705229b82",
+      "样本ID": "e56ea641-6424-11e8-bcf1-0a2705229b82",
+      "样本提交者编号": "665f4f0f-130c-4b09-9762-cd0696_D2",
+      "分装运行元数据ID": "096069d2-5738-11e8-b664-00a098d917f8",
+      "研究名称": "Prospective Ovarian PNNL Phosphoproteome Lumos",
+      "蛋白质丰度对数二倍比": -1.304,
+      "RefSeq 编号": "NP_060889.1",
+      "磷酸化位点": "s70"
+    },
+    {
+      "案件编号": "526a8712-0881-11eb-bc0e-0aad30af8a83",
+      "样本编号": "0633de6c-641d-11e8-bcf1-0a2705229b82",
+      "样本ID": "e56ea641-6424-11e8-bcf1-0a2705229b82",
+      "样本提交者编号": "665f4f0f-130c-4b09-9762-cd0696_D2",
+      "分装运行元数据ID": "096069d2-5738-11e8-b664-00a098d917f8",
+      "研究名称": "Prospective Ovarian PNNL Phosphoproteome Lumos",
+      "蛋白质丰度对数二倍比": -0.5937,
+      "RefSeq 编号": "NP_001139438.1",
+      "磷酸化位点": "t2029"
+    }
+  ]
+}

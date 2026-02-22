@@ -1,0 +1,76 @@
+{
+  "table_name": "BarcodeMap",
+  "table_fullname": "isb-cgc-bq.pancancer_atlas.BarcodeMap",
+  "column_names": [
+    "Teilnehmerbarcode",
+    "Probenbarcode",
+    "Aliquotbarcode",
+    "Studie",
+    "Probenart Buchstabencode"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "Teilnehmer-Barcode",
+    "Proben-Barcode",
+    "Aliquot-Barcode",
+    "Studie",
+    "Probenart-Buchstaben-Code"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "TCGA-Barcode-Identifikator für den Studien-Teilnehmer, z. B. TCGA-02-0001",
+    "Barcode der Biospecimen-Probe, z. B. TCGA-13-1489-02A",
+    "TCGA-Aliquot-Barcode, z. B. TCGA-12-1089-01A-01D-0517-28",
+    "TCGA-Studienabkürzung, z. B. LAML. Vollständige Liste verfügbar unter https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/tcga-study-abbreviations",
+    "Buchstabencode des Proben-Typs gemäß TCGA-Standards, z. B. TPN, EBV. Vollständige Liste verfügbar unter https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/sample-type-codes"
+  ],
+  "sample_rows": [
+    {
+      "Teilnehmer-Barcode": "TCGA-04-1331",
+      "Proben-Barcode": "TCGA-04-1331-10A",
+      "Aliquot-Barcode": "TCGA-04-1331-10A-01D-0428-01",
+      "Studie": "OV",
+      "Probenart-Buchstaben-Code": "NB"
+    },
+    {
+      "Teilnehmer-Barcode": "TCGA-04-1331",
+      "Proben-Barcode": "TCGA-04-1331-10A",
+      "Aliquot-Barcode": "TCGA-04-1331-10A-01D-0429-04",
+      "Studie": "OV",
+      "Probenart-Buchstaben-Code": "NB"
+    },
+    {
+      "Teilnehmer-Barcode": "TCGA-04-1331",
+      "Proben-Barcode": "TCGA-04-1331-10A",
+      "Aliquot-Barcode": "TCGA-04-1331-10A-01D-0430-06",
+      "Studie": "OV",
+      "Probenart-Buchstaben-Code": "NB"
+    },
+    {
+      "Teilnehmer-Barcode": "TCGA-04-1331",
+      "Proben-Barcode": "TCGA-04-1331-10A",
+      "Aliquot-Barcode": "TCGA-04-1331-10A-01D-0431-02",
+      "Studie": "OV",
+      "Probenart-Buchstaben-Code": "NB"
+    },
+    {
+      "Teilnehmer-Barcode": "TCGA-04-1331",
+      "Proben-Barcode": "TCGA-04-1331-10A",
+      "Aliquot-Barcode": "TCGA-04-1331-10A-01D-1036-01",
+      "Studie": "OV",
+      "Probenart-Buchstaben-Code": "NB"
+    }
+  ]
+}

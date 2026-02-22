@@ -1,0 +1,76 @@
+{
+  "table_name": "predicted_binding_domains_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.predicted_binding_domains_30",
+  "column_names": [
+    "Vorausbindungskennung",
+    "Aktivitaetskennung",
+    "Standortkennung",
+    "Vorhersagemethode",
+    "Konfidenz"
+  ],
+  "column_types": [
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "predbind_id",
+    "activity_id",
+    "site_id",
+    "prediction_method",
+    "confidence"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "INT64",
+    "INT64",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "Primärschlüssel.",
+    "Fremdschlüssel zur Tabelle activities, der die Kombination aus Verbindung/Assay(+target) angibt, für die diese Vorhersage getroffen wird.",
+    "Fremdschlüssel zur Tabelle binding_sites, der die Bindungsstelle (Domäne) angibt, an die der Wirkstoff voraussichtlich bindet.",
+    "Die Methode, die verwendet wurde, um die Bindungsdomäne zuzuordnen (z. B. 'Single domain', bei dem das Protein nur 1 Domäne hat, 'Multi domain', bei dem das Protein mehrere Domänen hat, aber nur 1 davon ist bekannt, kleine Moleküle in anderen Proteinen zu binden).",
+    "Das Vertrauensniveau, das der Vorhersage zugewiesen wird (hoch, wenn das Protein nur eine Domäne hat; mittel, wenn die Verbindung mehrere Domänen hat, aber nur eine bekannte Domäne, die kleine Moleküle binden kann)."
+  ],
+  "sample_rows": [
+    {
+      "predbind_id": 7797342,
+      "activity_id": 22413971,
+      "site_id": null,
+      "prediction_method": "Multi domain",
+      "confidence": "medium"
+    },
+    {
+      "predbind_id": 7899397,
+      "activity_id": 22433085,
+      "site_id": null,
+      "prediction_method": "Multi domain",
+      "confidence": "medium"
+    },
+    {
+      "predbind_id": 7899403,
+      "activity_id": 22469714,
+      "site_id": null,
+      "prediction_method": "Multi domain",
+      "confidence": "medium"
+    },
+    {
+      "predbind_id": 7955143,
+      "activity_id": 22900108,
+      "site_id": null,
+      "prediction_method": "Multi domain",
+      "confidence": "medium"
+    },
+    {
+      "predbind_id": 8002137,
+      "activity_id": 22414005,
+      "site_id": null,
+      "prediction_method": "Multi domain",
+      "confidence": "medium"
+    }
+  ]
+}

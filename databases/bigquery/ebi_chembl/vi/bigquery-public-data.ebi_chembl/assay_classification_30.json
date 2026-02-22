@@ -1,0 +1,86 @@
+{
+  "table_name": "assay_classification_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.assay_classification_30",
+  "column_names": [
+    "Mã lớp thử nghiệm",
+    "Cấp 1",
+    "l2",
+    "Lớp 3",
+    "loại lớp",
+    "nguồn"
+  ],
+  "column_types": [
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "mã lớp xét nghiệm",
+    "l1",
+    "Cấp độ 2",
+    "l3",
+    "loại lớp",
+    "nguồn"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "Khóa chính",
+    "Phân loại cấp độ cao, ví dụ: theo khu vực giải phẫu/điều trị",
+    "Phân loại trung cấp, ví dụ: theo biểu hiện/tiến trình sinh học",
+    "Phân loại chi tiết, ví dụ, theo loại xét nghiệm",
+    "Loại bài kiểm tra đang được phân loại, ví dụ: hiệu quả in vivo",
+    "Nguồn mà lớp phân tích được lấy từ"
+  ],
+  "sample_rows": [
+    {
+      "mã lớp xét nghiệm": 9,
+      "l1": "ALIMENTARY TRACT AND METABOLISM",
+      "Cấp độ 2": "Experimental Obesity",
+      "l3": "Diet Induced Obesity",
+      "loại lớp": "In vivo efficacy",
+      "nguồn": "Hock_2016"
+    },
+    {
+      "mã lớp xét nghiệm": 25,
+      "l1": "ALIMENTARY TRACT AND METABOLISM",
+      "Cấp độ 2": "Gastric Function",
+      "l3": "Indomethacin Induced Ulcers in Rats",
+      "loại lớp": "In vivo efficacy",
+      "nguồn": "Hock_2016"
+    },
+    {
+      "mã lớp xét nghiệm": 81,
+      "l1": "ALIMENTARY TRACT AND METABOLISM",
+      "Cấp độ 2": "Test on Salivary Glands",
+      "l3": "Measurement of Salivation",
+      "loại lớp": "In vivo efficacy",
+      "nguồn": "Hock_2016"
+    },
+    {
+      "mã lớp xét nghiệm": 88,
+      "l1": "ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS",
+      "Cấp độ 2": "Leukemia Oncology Models",
+      "l3": "L1210 Experimental Leukemia",
+      "loại lớp": "In vivo efficacy",
+      "nguồn": "Hock_2016"
+    },
+    {
+      "mã lớp xét nghiệm": 96,
+      "l1": "ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS",
+      "Cấp độ 2": "Methods for Testing Immunological Factors",
+      "l3": "Adjuvant Arthritis in Rats",
+      "loại lớp": "In vivo efficacy",
+      "nguồn": "Hock_2016"
+    }
+  ]
+}

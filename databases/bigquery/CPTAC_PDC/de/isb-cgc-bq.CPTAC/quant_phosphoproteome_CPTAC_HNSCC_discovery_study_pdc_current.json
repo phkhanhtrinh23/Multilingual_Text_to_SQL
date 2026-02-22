@@ -1,0 +1,116 @@
+{
+  "table_name": "quant_phosphoproteome_CPTAC_HNSCC_discovery_study_pdc_current",
+  "table_fullname": "isb-cgc-bq.CPTAC.quant_phosphoproteome_CPTAC_HNSCC_discovery_study_pdc_current",
+  "column_names": [
+    "Fallkennung",
+    "Probenkennung",
+    "Aliquotkennung",
+    "Aliquot-Einreicher-ID",
+    "Aliquot-Lauf-Metadaten-ID",
+    "Studienname",
+    "Proteinabundanz-Log2-Verhältnis",
+    "RefSeq-ID",
+    "Phosphorylierungsstellen"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "Fall-ID",
+    "Proben-ID",
+    "Portion-ID",
+    "Portion-Einreicher-ID",
+    "Portionslauf-Metadaten-ID",
+    "Studienname",
+    "Proteinabundanz-Log2-Verhältnis",
+    "RefSeq-ID",
+    "Phosphorylierungsstellen"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "Ein eindeutiger Bezeichner, der mit einem bestimmten Patienten verbunden ist (z. B. 24cb0fcb-63d6-11e8-bcf1-0a2705229b82)",
+    "Eindeutiger PDC-Bezeichner für diese Probe (z. B. e8d83eb9-693a-11ea-b1fd-0aad30af8a83)",
+    "Eindeutiger PDC-Bezeichner für dieses Aliquot (z. B. e8db124a-693a-11ea-b1fd-0aad30af8a83)",
+    "Vom Programm zugewiesene Aliquot-Einreicher-ID (z. B. T14)",
+    "Identifiziert das Aliquot eindeutig danach, wie es im Experiment verwendet wurde (basierend auf dem Beschriftungsreagenz und/oder dem biologischen Replikat)",
+    "Name der Studie (z. B. Pediatric Brain Cancer Pilot Study - Phosphoproteome)",
+    "Durchschnittliches Log-Verhältnis der Probe-Reporter-Ionen zum gemeinsamen Referenzwert der Peptidionen, die dem Gen in Aufnahmen aus einer bestimmten biologischen Probe zugeordnet sind",
+    "Eindeutiger Bezeichner, der einer Sequenz in der NCBI RefSeq-Datenbank zugewiesen wird",
+    "Einbuchstaben-Codes und Proteinsequenzpositionen der phosphorylierten Aminosäuren (z. B. t304s310, t59)"
+  ],
+  "sample_rows": [
+    {
+      "Fall-ID": "df4ea6f3-8f98-11ea-b1fd-0aad30af8a83",
+      "Proben-ID": "df4f5bdb-8f98-11ea-b1fd-0aad30af8a83",
+      "Portion-ID": "df507d6a-8f98-11ea-b1fd-0aad30af8a83",
+      "Portion-Einreicher-ID": "CPT0278700002",
+      "Portionslauf-Metadaten-ID": "422c0f92-8fab-11ea-bc9a-0a16d369a41f",
+      "Studienname": "CPTAC HNSCC Discovery Study - Phosphoproteome",
+      "Proteinabundanz-Log2-Verhältnis": 0.3506438760398335,
+      "RefSeq-ID": "NP_004577.1",
+      "Phosphorylierungsstellen": "y234"
+    },
+    {
+      "Fall-ID": "df4eac21-8f98-11ea-b1fd-0aad30af8a83",
+      "Proben-ID": "df4f6605-8f98-11ea-b1fd-0aad30af8a83",
+      "Portion-ID": "df508537-8f98-11ea-b1fd-0aad30af8a83",
+      "Portion-Einreicher-ID": "CPT0248520003",
+      "Portionslauf-Metadaten-ID": "422c12c8-8fab-11ea-bc9a-0a16d369a41f",
+      "Studienname": "CPTAC HNSCC Discovery Study - Phosphoproteome",
+      "Proteinabundanz-Log2-Verhältnis": -0.23414133269041515,
+      "RefSeq-ID": "NP_002017.1",
+      "Phosphorylierungsstellen": "t524y525"
+    },
+    {
+      "Fall-ID": "df4ea6f3-8f98-11ea-b1fd-0aad30af8a83",
+      "Proben-ID": "df4f5bdb-8f98-11ea-b1fd-0aad30af8a83",
+      "Portion-ID": "df507d6a-8f98-11ea-b1fd-0aad30af8a83",
+      "Portion-Einreicher-ID": "CPT0278700002",
+      "Portionslauf-Metadaten-ID": "422c0f92-8fab-11ea-bc9a-0a16d369a41f",
+      "Studienname": "CPTAC HNSCC Discovery Study - Phosphoproteome",
+      "Proteinabundanz-Log2-Verhältnis": -0.2008295081473152,
+      "RefSeq-ID": "NP_055953.3",
+      "Phosphorylierungsstellen": "s697"
+    },
+    {
+      "Fall-ID": "df4efdf1-8f98-11ea-b1fd-0aad30af8a83",
+      "Proben-ID": "df4ffeb8-8f98-11ea-b1fd-0aad30af8a83",
+      "Portion-ID": "df51044b-8f98-11ea-b1fd-0aad30af8a83",
+      "Portion-Einreicher-ID": "CPT0246590003",
+      "Portionslauf-Metadaten-ID": "422c19e5-8fab-11ea-bc9a-0a16d369a41f",
+      "Studienname": "CPTAC HNSCC Discovery Study - Phosphoproteome",
+      "Proteinabundanz-Log2-Verhältnis": -0.7727531217649894,
+      "RefSeq-ID": "NP_001136202.1",
+      "Phosphorylierungsstellen": "s551"
+    },
+    {
+      "Fall-ID": "df4f1830-8f98-11ea-b1fd-0aad30af8a83",
+      "Proben-ID": "df502f10-8f98-11ea-b1fd-0aad30af8a83",
+      "Portion-ID": "df512dbf-8f98-11ea-b1fd-0aad30af8a83",
+      "Portion-Einreicher-ID": "CPT0222360003",
+      "Portionslauf-Metadaten-ID": "422c0e8b-8fab-11ea-bc9a-0a16d369a41f",
+      "Studienname": "CPTAC HNSCC Discovery Study - Phosphoproteome",
+      "Proteinabundanz-Log2-Verhältnis": 0.5247810525842279,
+      "RefSeq-ID": "NP_000539.2",
+      "Phosphorylierungsstellen": "s1411"
+    }
+  ]
+}

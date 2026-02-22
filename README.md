@@ -1,0 +1,49 @@
+[![arXiv](https://img.shields.io/badge/arXiv-2509.24405-b31b1b.svg)](https://arxiv.org/abs/2509.24405)
+![visitors](https://visitor-badge.laobi.icu/badge?page_id=phkhanhtrinh23.Multilingual_Text_to_SQL)
+
+[UPDATE]: This paper has been accepted at 36th Australasian Database Conference, ADC 2025: [Link](https://link.springer.com/chapter/10.1007/978-981-95-6196-4_8).
+
+# Multilingual Text-to-SQL - MultiSpider 2.0
+
+Multilingual Text-to-SQL provides datasets and schemas for evaluating and developing multilingual text-to-SQL systems. It supports 8 languages and multiple database engines, making it useful for research and benchmarking.
+
+## Layout
+
+- [databases/](databases/) — exported BigQuery, Snowflake, and SQLite schemas and JSON/DDL metadata for multiple public datasets.
+- [questions/](questions/) — multilingual question files in JSONL format. Each line is a single JSON object describing a natural language query and target database.
+
+## Purpose
+
+This repo aggregates:
+- Database table definitions and samples to help map natural language questions to schema elements.
+- Multilingual question sets cover 8 languages (en, de, es, fr, ja, pt, vi, zh) intended for training/evaluating text-to-SQL systems.
+
+
+## Usage
+
+1. Inspect database schemas in [databases/](databases/).
+2. Open question files in [questions/](questions/) to view examples of NL queries and associated db ids.
+   - Example: [questions/spider2-lite_vi.jsonl](questions/spider2-lite_vi.jsonl)
+3. Use the schemas to generate SQL templates or to build mapping layers for your parser.
+
+## Contributing
+
+- Add new schemas under `databases/<engine>/<dataset>/`.
+- Add multilingual question files under `questions/` as JSONL, one JSON object per line.
+- Keep schema DDL and JSON metadata aligned.
+
+
+## Additional Notes
+
+- Files in `databases/` include descriptive JSON metadata (and may have DDL.csv) that help identify table and column names for SQL generation.
+- Question files contain instance ids and the target `db` name matching directory names under `databases/`.
+
+---
+
+License: MIT
+
+
+-----------
+**Backup Statistics**
+
+![Visitors](https://margherita-gustatory-zane.ngrok-free.dev/badge/phkhanhtrinh23%2FMultilingual_Text_to_SQL.svg?ngrok-skip-browser-warning=true)

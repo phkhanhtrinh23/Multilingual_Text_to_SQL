@@ -1,0 +1,96 @@
+{
+  "table_name": "metric_names",
+  "table_fullname": "data-to-insights.ncaa.metric_names",
+  "column_names": [
+    "nombre de estadística",
+    "Etiqueta",
+    "nombre_concepto",
+    "ofensiva_o_defensa",
+    "rango ascendente",
+    "decimal aleatorio",
+    "nombre estadística ofensiva defensiva"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "BOOL",
+    "INT64",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "Nombre de la estadística",
+    "etiqueta",
+    "nombre del concepto",
+    "ofensiva_o_defensiva",
+    "rango ascendente",
+    "Decisión de lectura",
+    "Nombre estadística ofensiva y defensiva"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "BOOL",
+    "INT64",
+    "STRING"
+  ],
+  "description": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "sample_rows": [
+    {
+      "Nombre de la estadística": "tm_to_pct",
+      "etiqueta": "TO%",
+      "nombre del concepto": "Turnovers",
+      "ofensiva_o_defensiva": "Off",
+      "rango ascendente": true,
+      "Decisión de lectura": 1,
+      "Nombre estadística ofensiva y defensiva": "off_to_pct"
+    },
+    {
+      "Nombre de la estadística": "opp_to_pct",
+      "etiqueta": "TO%",
+      "nombre del concepto": "Turnovers",
+      "ofensiva_o_defensiva": "Def",
+      "rango ascendente": false,
+      "Decisión de lectura": 1,
+      "Nombre estadística ofensiva y defensiva": "def_to_pct"
+    },
+    {
+      "Nombre de la estadística": "tm_drb_pct",
+      "etiqueta": "DRB%",
+      "nombre del concepto": "Rebounding",
+      "ofensiva_o_defensiva": "Def",
+      "rango ascendente": false,
+      "Decisión de lectura": 1,
+      "Nombre estadística ofensiva y defensiva": "drb_pct"
+    },
+    {
+      "Nombre de la estadística": "tm_orb_pct",
+      "etiqueta": "ORB%",
+      "nombre del concepto": "Rebounding",
+      "ofensiva_o_defensiva": "Off",
+      "rango ascendente": false,
+      "Decisión de lectura": 1,
+      "Nombre estadística ofensiva y defensiva": "orb_pct"
+    },
+    {
+      "Nombre de la estadística": "tm_efg_pct",
+      "etiqueta": "eFG%",
+      "nombre del concepto": "Shooting",
+      "ofensiva_o_defensiva": "Off",
+      "rango ascendente": false,
+      "Decisión de lectura": 1,
+      "Nombre estadística ofensiva y defensiva": "off_efg_pct"
+    }
+  ]
+}

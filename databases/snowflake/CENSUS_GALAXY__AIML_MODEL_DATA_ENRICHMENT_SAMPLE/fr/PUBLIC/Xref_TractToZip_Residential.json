@@ -1,0 +1,46 @@
+{
+  "sample_rows": [
+    {
+      "IDDeComtéDÉtatDeTrace": "36085009701",
+      "CodePostalDeDestination": "10310",
+      "RatioDeMappingRésidentielTZ": "1.000000000000000"
+    },
+    {
+      "IDDeComtéDÉtatDeTrace": "36047055400",
+      "CodePostalDeDestination": "11229",
+      "RatioDeMappingRésidentielTZ": "0.949859154929578"
+    },
+    {
+      "IDDeComtéDÉtatDeTrace": "36061007100",
+      "CodePostalDeDestination": "10121",
+      "RatioDeMappingRésidentielTZ": "0E-15"
+    },
+    {
+      "IDDeComtéDÉtatDeTrace": "36061007100",
+      "CodePostalDeDestination": "10119",
+      "RatioDeMappingRésidentielTZ": "0E-15"
+    },
+    {
+      "IDDeComtéDÉtatDeTrace": "36061007100",
+      "CodePostalDeDestination": "10014",
+      "RatioDeMappingRésidentielTZ": "0.483077617328520"
+    }
+  ],
+  "table_name": "Xref_TractToZip_Residential",
+  "table_fullname": "CENSUS_GALAXY__AIML_MODEL_DATA_ENRICHMENT_SAMPLE.PUBLIC.Xref_TractToZip_Residential",
+  "column_names": [
+    "IDDeComtéDÉtatDeTrace",
+    "CodePostalDeDestination",
+    "RatioDeMappingRésidentielTZ"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "NUMBER"
+  ],
+  "description": [
+    "Un identifiant composite unique qui utilise StateFIPS, CountyFIPS et Tract pour un spécifique dans une zone géographique. Ce champ (et table) est pour les métriques et les valeurs de roulement du groupe de blocs du recensement ou du niveau Tract au Code postal.",
+    "Le code postal du service postal des États-Unis qui se rapporte à StateCountyTractID en fonction du ratio de résidents dans cette région géographique. De nombreux Tracts peuvent chevaucher des parties de codes postaux, et de nombreux codes postaux peuvent chevaucher des parties de Tracts.",
+    "Les ratios de résidents dans chaque Tract qui sont constitués par ce code postal connecté. « TZ » en tant que suffixe désigne la direction des données, Tract au Code postal (généralement de petits polygones à des plus grands)."
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "table_name": "molecule_hierarchy_30",
+  "table_fullname": "bigquery-public-data.ebi_chembl.molecule_hierarchy_30",
+  "column_names": [
+    "número de registro molecular",
+    "número de registro molecular del padre",
+    "número de registro de molécula activo"
+  ],
+  "column_types": [
+    "INT64",
+    "INT64",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "número de registro molecular",
+    "número de registro molecular del padre",
+    "molregno_activo"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "INT64",
+    "INT64"
+  ],
+  "description": [
+    "Clave foránea a la tabla de compuestos.  \nEste campo contiene una lista de todos los compuestos ChEMBL con datos asociados (p. ej., información de actividad, medicamentos aprobados).  \nLos compuestos primarios que se generan únicamente eliminando sales y que no tienen datos asociados por sí mismos no aparecerán aquí.",
+    "Representa el compuesto principal de molregno en el primer campo (es decir, generado al eliminar sales). Cuando molregno y parent_molregno son iguales, el compuesto ChEMBL inicial no contenía un componente de sal, o no se pudo procesar más a fondo por diversas razones (por ejemplo, mezcla inorgánica). Los compuestos que solo se generan al eliminar sales aparecerán únicamente en este campo. Aquellos que, por sí mismos, tienen datos asociados (por ejemplo, datos de actividad) o son fármacos comercializados también aparecerán en el campo molregno.",
+    "Cuando un compuesto es un pro-droga, esto representa el metabolito activo del compuesto 'dosed' dado por parent_molregno. Cuando parent_molregno y active_molregno son iguales, el compuesto no se conoce actualmente como pro-droga."
+  ],
+  "sample_rows": [
+    {
+      "número de registro molecular": 2,
+      "número de registro molecular del padre": 2,
+      "molregno_activo": 2
+    },
+    {
+      "número de registro molecular": 3,
+      "número de registro molecular del padre": 3,
+      "molregno_activo": 3
+    },
+    {
+      "número de registro molecular": 4,
+      "número de registro molecular del padre": 4,
+      "molregno_activo": 4
+    },
+    {
+      "número de registro molecular": 5,
+      "número de registro molecular del padre": 5,
+      "molregno_activo": 5
+    },
+    {
+      "número de registro molecular": 6,
+      "número de registro molecular del padre": 6,
+      "molregno_activo": 6
+    }
+  ]
+}

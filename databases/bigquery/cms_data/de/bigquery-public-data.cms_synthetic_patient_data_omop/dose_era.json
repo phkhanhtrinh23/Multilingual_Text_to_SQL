@@ -1,0 +1,96 @@
+{
+  "table_name": "dose_era",
+  "table_fullname": "bigquery-public-data.cms_synthetic_patient_data_omop.dose_era",
+  "column_names": [
+    "Dosis-Ära-ID",
+    "Personen-ID",
+    "Arzneimittel-Konzept-ID",
+    "Einheit-Konzept-ID",
+    "Dosiswert",
+    "Dosis-Ära-Startdatum",
+    "Dosis-Ära-Enddatum"
+  ],
+  "column_types": [
+    "INT64",
+    "INT64",
+    "INT64",
+    "INT64",
+    "FLOAT64",
+    "DATE",
+    "DATE"
+  ],
+  "nested_column_names": [
+    "Dosisperiode-ID",
+    "Personen-ID",
+    "Arzneimittel-Begriff-ID",
+    "Einheit-Begriff-ID",
+    "Dosiswert",
+    "Dosisperiode-Startdatum",
+    "Dosisperiode-Enddatum"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "INT64",
+    "INT64",
+    "INT64",
+    "FLOAT64",
+    "DATE",
+    "DATE"
+  ],
+  "description": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "sample_rows": [
+    {
+      "Dosisperiode-ID": 250310791,
+      "Personen-ID": 110152,
+      "Arzneimittel-Begriff-ID": 738818,
+      "Einheit-Begriff-ID": 40239104,
+      "Dosiswert": 0.0,
+      "Dosisperiode-Startdatum": "2010-03-11",
+      "Dosisperiode-Enddatum": "2010-04-10"
+    },
+    {
+      "Dosisperiode-ID": 318756987,
+      "Personen-ID": 1412749,
+      "Arzneimittel-Begriff-ID": 738818,
+      "Einheit-Begriff-ID": 40239104,
+      "Dosiswert": 0.0,
+      "Dosisperiode-Startdatum": "2009-08-29",
+      "Dosisperiode-Enddatum": "2009-09-28"
+    },
+    {
+      "Dosisperiode-ID": 302001803,
+      "Personen-ID": 1093359,
+      "Arzneimittel-Begriff-ID": 990678,
+      "Einheit-Begriff-ID": 40173824,
+      "Dosiswert": 0.0,
+      "Dosisperiode-Startdatum": "2008-06-23",
+      "Dosisperiode-Enddatum": "2008-07-23"
+    },
+    {
+      "Dosisperiode-ID": 310309084,
+      "Personen-ID": 1252066,
+      "Arzneimittel-Begriff-ID": 990678,
+      "Einheit-Begriff-ID": 40173824,
+      "Dosiswert": 0.0,
+      "Dosisperiode-Startdatum": "2008-06-01",
+      "Dosisperiode-Enddatum": "2008-07-01"
+    },
+    {
+      "Dosisperiode-ID": 361608255,
+      "Personen-ID": 2228193,
+      "Arzneimittel-Begriff-ID": 990678,
+      "Einheit-Begriff-ID": 40173824,
+      "Dosiswert": 0.0,
+      "Dosisperiode-Startdatum": "2009-12-18",
+      "Dosisperiode-Enddatum": "2010-01-07"
+    }
+  ]
+}

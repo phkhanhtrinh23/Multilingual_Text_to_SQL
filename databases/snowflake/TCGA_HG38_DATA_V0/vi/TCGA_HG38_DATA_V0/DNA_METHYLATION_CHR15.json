@@ -1,0 +1,102 @@
+{
+  "table_name": "DNA_METHYLATION_CHR15",
+  "table_fullname": "TCGA_HG38_DATA_V0.TCGA_HG38_DATA_V0.DNA_METHYLATION_CHR15",
+  "column_names": [
+    "nền tảng",
+    "Mã GDC mẫu",
+    "định danh đầu dò",
+    "Mã vạch mẫu",
+    "mã_tệp_GDC",
+    "mẫu_gdc_id",
+    "mã vạch mẫu",
+    "id_gdc_bệnh_án",
+    "giá trị beta",
+    "mã vạch vỏ"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "FLOAT",
+    "TEXT"
+  ],
+  "description": [
+    "Tên nền tảng được dùng để tạo dữ liệu này -- hoặc HumanMethylation450 hoặc HumanMethylation27",
+    "",
+    "Định danh probe duy nhất (ví dụ cg04676771) từ mảng Methylation Illumina Human -- vui lòng tham khảo bảng chú thích (isb-cgc:platform_reference.methylation_annotation) để biết thêm chi tiết về bất kỳ probe nào.",
+    "Mã vạch mẫu TCGA gốc, ví dụ TCGA-12-1089-01A -- lưu ý rằng một mẫu có thể có nhiều phần mẫu (aliquots) và do đó có nhiều bộ phân đoạn CN; vì vậy hãy chắc chắn sử dụng GROUP BY một cách thích hợp trong các truy vấn của bạn",
+    "",
+    "",
+    "Mã vạch mẫu gốc TCGA, ví dụ: TCGA-12-1089-01A-01D-0517-01",
+    "",
+    "Giá trị beta metyl hóa DNA được chuẩn hóa (giữa 0 và 1, trong đó 0 cho thấy hoàn toàn không metyl hóa và 1 cho thấy hoàn toàn metyl hóa)",
+    "Mã số TCGA ban đầu, ví dụ TCGA-12-1089 -- lưu ý rằng mỗi trường hợp thường có một mẫu khối u chính và một mẫu bình thường (máu hoặc mô lân cận); vui lòng tham khảo bảng TCGA Biospecimen để biết thêm chi tiết"
+  ],
+  "sample_rows": [
+    {
+      "mã vạch vỏ": "TCGA-12-1601",
+      "Mã vạch mẫu": "TCGA-12-1601-01A",
+      "mã vạch mẫu": "TCGA-12-1601-01A-01D-0595-05",
+      "định danh đầu dò": "cg08057475",
+      "giá trị beta": 0.947523169801489,
+      "nền tảng": null,
+      "mã_tệp_GDC": "5cd6f2f6-7278-4757-be8e-a8ae3a7a81d3",
+      "id_gdc_bệnh_án": "cc1459be-de8f-482e-9efe-65937db9dc45",
+      "Mã GDC mẫu": "b02fd704-03a6-44c4-b224-f5f457e733f3",
+      "mẫu_gdc_id": "aa761ca4-e8f0-4a43-8262-bd84eedb459a"
+    },
+    {
+      "mã vạch vỏ": "TCGA-12-1601",
+      "Mã vạch mẫu": "TCGA-12-1601-01A",
+      "mã vạch mẫu": "TCGA-12-1601-01A-01D-0595-05",
+      "định danh đầu dò": "cg11823654",
+      "giá trị beta": 0.0102136526432354,
+      "nền tảng": null,
+      "mã_tệp_GDC": "5cd6f2f6-7278-4757-be8e-a8ae3a7a81d3",
+      "id_gdc_bệnh_án": "cc1459be-de8f-482e-9efe-65937db9dc45",
+      "Mã GDC mẫu": "b02fd704-03a6-44c4-b224-f5f457e733f3",
+      "mẫu_gdc_id": "aa761ca4-e8f0-4a43-8262-bd84eedb459a"
+    },
+    {
+      "mã vạch vỏ": "TCGA-12-1601",
+      "Mã vạch mẫu": "TCGA-12-1601-01A",
+      "mã vạch mẫu": "TCGA-12-1601-01A-01D-0595-05",
+      "định danh đầu dò": "cg03532957",
+      "giá trị beta": 0.0162621577837732,
+      "nền tảng": null,
+      "mã_tệp_GDC": "5cd6f2f6-7278-4757-be8e-a8ae3a7a81d3",
+      "id_gdc_bệnh_án": "cc1459be-de8f-482e-9efe-65937db9dc45",
+      "Mã GDC mẫu": "b02fd704-03a6-44c4-b224-f5f457e733f3",
+      "mẫu_gdc_id": "aa761ca4-e8f0-4a43-8262-bd84eedb459a"
+    },
+    {
+      "mã vạch vỏ": "TCGA-12-1601",
+      "Mã vạch mẫu": "TCGA-12-1601-01A",
+      "mã vạch mẫu": "TCGA-12-1601-01A-01D-0595-05",
+      "định danh đầu dò": "cg07243932",
+      "giá trị beta": 0.00764419500454648,
+      "nền tảng": null,
+      "mã_tệp_GDC": "5cd6f2f6-7278-4757-be8e-a8ae3a7a81d3",
+      "id_gdc_bệnh_án": "cc1459be-de8f-482e-9efe-65937db9dc45",
+      "Mã GDC mẫu": "b02fd704-03a6-44c4-b224-f5f457e733f3",
+      "mẫu_gdc_id": "aa761ca4-e8f0-4a43-8262-bd84eedb459a"
+    },
+    {
+      "mã vạch vỏ": "TCGA-12-1601",
+      "Mã vạch mẫu": "TCGA-12-1601-01A",
+      "mã vạch mẫu": "TCGA-12-1601-01A-01D-0595-05",
+      "định danh đầu dò": "cg08022502",
+      "giá trị beta": 0.0552436820554729,
+      "nền tảng": null,
+      "mã_tệp_GDC": "5cd6f2f6-7278-4757-be8e-a8ae3a7a81d3",
+      "id_gdc_bệnh_án": "cc1459be-de8f-482e-9efe-65937db9dc45",
+      "Mã GDC mẫu": "b02fd704-03a6-44c4-b224-f5f457e733f3",
+      "mẫu_gdc_id": "aa761ca4-e8f0-4a43-8262-bd84eedb459a"
+    }
+  ]
+}

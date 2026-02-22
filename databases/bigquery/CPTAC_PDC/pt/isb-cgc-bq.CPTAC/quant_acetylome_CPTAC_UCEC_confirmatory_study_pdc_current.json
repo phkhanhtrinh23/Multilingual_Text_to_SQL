@@ -1,0 +1,116 @@
+{
+  "table_name": "quant_acetylome_CPTAC_UCEC_confirmatory_study_pdc_current",
+  "table_fullname": "isb-cgc-bq.CPTAC.quant_acetylome_CPTAC_UCEC_confirmatory_study_pdc_current",
+  "column_names": [
+    "id_caso",
+    "id_amostra",
+    "id_alíquota",
+    "id_submitter_alíquota",
+    "id_metadados_execucao_alíquota",
+    "nome_estudo",
+    "protein_abundance_log2ratio",
+    "id_refseq",
+    "sitios_de_acetilacao"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "id_caso",
+    "id_amostra",
+    "id_alíquota",
+    "id_submetedor_alíquota",
+    "id_metadados_execucao_alíquota",
+    "nome_estudo",
+    "protein_abundance_log2ratio",
+    "id_refseq",
+    "sitios_de_acetilação"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "Identificador único associado a um paciente específico (e.g. 24cb0fcb-63d6-11e8-bcf1-0a2705229b82)",
+    "Identificador PDC único para esta amostra (e.g. e8d83eb9-693a-11ea-b1fd-0aad30af8a83)",
+    "Identificador PDC único para este alíquota (e.g. e8db124a-693a-11ea-b1fd-0aad30af8a83)",
+    "Id do submetedor de alíquota atribuído pelo programa (e.g. T14)",
+    "Identifica exclusivamente o alíquota pelo modo como foi utilizado no experimento (com base no reagente de rotulagem e/ou replicata biológica)",
+    "Nome do estudo (e.g. Estudo Piloto de Câncer de Cérebro Pediátrico - Fosfoproteoma)",
+    "Média da razão logarítmica do íon do relatório da amostra para a referência comum dos íons de peptídeos associados ao gene nas aquisições de uma amostra biológica específica",
+    "Identificador único dado a uma sequência no banco de dados NCBI RefSeq",
+    "Códigos de letra única e posições da sequência de proteína dos aminoácidos acetilados (e.g. k12k16, k21)"
+  ],
+  "sample_rows": [
+    {
+      "id_caso": "5aa447a4-84ce-4215-81b3-107210b3f38d",
+      "id_amostra": "018273c1-689d-450a-baa3-bb935bc57cea",
+      "id_alíquota": "03cb7dd1-c655-4dcf-b3f9-7827f4d6754f",
+      "id_submetedor_alíquota": "CPT0133400008",
+      "id_metadados_execucao_alíquota": "3ee09a99-7432-4b48-883c-1c9c96cc50c7",
+      "nome_estudo": "CPTAC UCEC Confirmatory Study - Acetylome",
+      "protein_abundance_log2ratio": 0.1884,
+      "id_refseq": "NP_001073027.1",
+      "sitios_de_acetilação": "k570"
+    },
+    {
+      "id_caso": "5aa447a4-84ce-4215-81b3-107210b3f38d",
+      "id_amostra": "018273c1-689d-450a-baa3-bb935bc57cea",
+      "id_alíquota": "03cb7dd1-c655-4dcf-b3f9-7827f4d6754f",
+      "id_submetedor_alíquota": "CPT0133400008",
+      "id_metadados_execucao_alíquota": "3ee09a99-7432-4b48-883c-1c9c96cc50c7",
+      "nome_estudo": "CPTAC UCEC Confirmatory Study - Acetylome",
+      "protein_abundance_log2ratio": 1.4142,
+      "id_refseq": "NP_003680.2",
+      "sitios_de_acetilação": "k112"
+    },
+    {
+      "id_caso": "5aa447a4-84ce-4215-81b3-107210b3f38d",
+      "id_amostra": "018273c1-689d-450a-baa3-bb935bc57cea",
+      "id_alíquota": "03cb7dd1-c655-4dcf-b3f9-7827f4d6754f",
+      "id_submetedor_alíquota": "CPT0133400008",
+      "id_metadados_execucao_alíquota": "3ee09a99-7432-4b48-883c-1c9c96cc50c7",
+      "nome_estudo": "CPTAC UCEC Confirmatory Study - Acetylome",
+      "protein_abundance_log2ratio": -0.0513,
+      "id_refseq": "NP_002005.1",
+      "sitios_de_acetilação": "k294"
+    },
+    {
+      "id_caso": "5aa447a4-84ce-4215-81b3-107210b3f38d",
+      "id_amostra": "018273c1-689d-450a-baa3-bb935bc57cea",
+      "id_alíquota": "03cb7dd1-c655-4dcf-b3f9-7827f4d6754f",
+      "id_submetedor_alíquota": "CPT0133400008",
+      "id_metadados_execucao_alíquota": "3ee09a99-7432-4b48-883c-1c9c96cc50c7",
+      "nome_estudo": "CPTAC UCEC Confirmatory Study - Acetylome",
+      "protein_abundance_log2ratio": 1.3697,
+      "id_refseq": "NP_000627.2",
+      "sitios_de_acetilação": "k122"
+    },
+    {
+      "id_caso": "5aa447a4-84ce-4215-81b3-107210b3f38d",
+      "id_amostra": "018273c1-689d-450a-baa3-bb935bc57cea",
+      "id_alíquota": "03cb7dd1-c655-4dcf-b3f9-7827f4d6754f",
+      "id_submetedor_alíquota": "CPT0133400008",
+      "id_metadados_execucao_alíquota": "3ee09a99-7432-4b48-883c-1c9c96cc50c7",
+      "nome_estudo": "CPTAC UCEC Confirmatory Study - Acetylome",
+      "protein_abundance_log2ratio": 0.2425,
+      "id_refseq": "NP_001247421.1",
+      "sitios_de_acetilação": "k306"
+    }
+  ]
+}

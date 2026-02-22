@@ -1,0 +1,56 @@
+{
+  "table_name": "AuthorReference",
+  "table_fullname": "mitelman-db.prod.AuthorReference",
+  "column_names": [
+    "参考编号",
+    "姓名",
+    "姓名顺序"
+  ],
+  "column_types": [
+    "INT64",
+    "STRING",
+    "INT64"
+  ],
+  "nested_column_names": [
+    "参考号",
+    "姓名",
+    "姓名顺序"
+  ],
+  "nested_column_types": [
+    "INT64",
+    "STRING",
+    "INT64"
+  ],
+  "description": [
+    "该参考编号始终为整数，介于1到50000之间。",
+    "例如“Mitelman F”，或“Rowley JD”。",
+    "一个介于 1 与 228 之间的整数，表示该作者在该引用的作者列表中的位置。"
+  ],
+  "sample_rows": [
+    {
+      "参考号": 1,
+      "姓名": "LUND UNPUBLISHED",
+      "姓名顺序": 1
+    },
+    {
+      "参考号": 1,
+      "姓名": "LUND UNPUBLISHED",
+      "姓名顺序": 1
+    },
+    {
+      "参考号": 10,
+      "姓名": "Hayata I",
+      "姓名顺序": 1
+    },
+    {
+      "参考号": 11,
+      "姓名": "Hayata I",
+      "姓名顺序": 1
+    },
+    {
+      "参考号": 12,
+      "姓名": "Muldal S",
+      "姓名顺序": 1
+    }
+  ]
+}

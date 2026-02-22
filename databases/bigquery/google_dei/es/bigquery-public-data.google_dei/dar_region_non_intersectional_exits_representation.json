@@ -1,0 +1,76 @@
+{
+  "table_name": "dar_region_non_intersectional_exits_representation",
+  "table_fullname": "bigquery-public-data.google_dei.dar_region_non_intersectional_exits_representation",
+  "column_names": [
+    "fuerza laboral",
+    "año del informe",
+    "región",
+    "mujeres",
+    "género masculino"
+  ],
+  "column_types": [
+    "STRING",
+    "INT64",
+    "STRING",
+    "FLOAT64",
+    "FLOAT64"
+  ],
+  "nested_column_names": [
+    "fuerza laboral",
+    "año del informe",
+    "región",
+    "mujeres",
+    "género_hombres"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "INT64",
+    "STRING",
+    "FLOAT64",
+    "FLOAT64"
+  ],
+  "description": [
+    "General y subcategorías",
+    "El año en que se publicó el informe",
+    "Región",
+    "El porcentaje de salidas de Googlers en la región que son mujeres",
+    "El porcentaje de salidas de Googler en la región que son hombres"
+  ],
+  "sample_rows": [
+    {
+      "fuerza laboral": "non_tech",
+      "año del informe": 2024,
+      "región": "AMERICAS (non-US)",
+      "mujeres": 0.491,
+      "género_hombres": 0.509
+    },
+    {
+      "fuerza laboral": "non_tech",
+      "año del informe": 2024,
+      "región": "APAC",
+      "mujeres": 0.486,
+      "género_hombres": 0.514
+    },
+    {
+      "fuerza laboral": "non_tech",
+      "año del informe": 2024,
+      "región": "EMEA",
+      "mujeres": 0.485,
+      "género_hombres": 0.515
+    },
+    {
+      "fuerza laboral": "non_tech",
+      "año del informe": 2023,
+      "región": "APAC",
+      "mujeres": 0.46,
+      "género_hombres": 0.54
+    },
+    {
+      "fuerza laboral": "non_tech",
+      "año del informe": 2022,
+      "región": "APAC",
+      "mujeres": 0.45,
+      "género_hombres": 0.55
+    }
+  ]
+}

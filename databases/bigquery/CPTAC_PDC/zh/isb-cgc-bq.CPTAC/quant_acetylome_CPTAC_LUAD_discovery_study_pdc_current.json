@@ -1,0 +1,111 @@
+{
+  "table_name": "quant_acetylome_CPTAC_LUAD_discovery_study_pdc_current",
+  "table_fullname": "isb-cgc-bq.CPTAC.quant_acetylome_CPTAC_LUAD_discovery_study_pdc_current",
+  "column_names": [
+    "案件编号",
+    "样本编号",
+    "分样编号",
+    "分离物提交者ID",
+    "分装运行元数据ID",
+    "研究名称",
+    "蛋白质丰度对数二比值",
+    "参考序列编号",
+    "乙酰化位点"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "案件编号",
+    "样本编号",
+    "样本编号",
+    "样本提交者ID",
+    "样本分装运行元数据ID",
+    "研究名称",
+    "蛋白质丰度对数二倍比值",
+    "参考序列编号",
+    "乙酰化位点"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "与特定患者关联的唯一标识符（例如 24cb0fcb-63d6-11e8-bcf1-0a2705229b82）",
+    "此样本的唯一 PDC 标识符（例如 e8d83eb9-693a-11ea-b1fd-0aad30af8a83）",
+    "该等份样本的唯一PDC标识符（例如 e8db124a-693a-11ea-b1fd-0aad30af8a83）",
+    "Aliquot提交者ID由程序分配（例如T14）",
+    "根据实验中使用的方式（基于标记试剂和/或生物复制）唯一识别该分装。",
+    "研究名称（例如：儿科脑癌试点研究 - 磷酸蛋白组）",
+    "在特定生物样本的获取中，样本报告离子与公共参考离子之间的平均对数比值，用于衡量与该基因相关的肽离子",
+    "在 NCBI RefSeq 数据库中分配给序列的唯一标识符",
+    "单字母代码和蛋白质序列位置的乙酰化氨基酸（例如 k12k16，k21）"
+  ],
+  "sample_rows": [
+    {
+      "案件编号": "f1ee18d4-cf1e-11e9-9a07-0a80fada099c",
+      "样本编号": "6345781b-d0b0-11e9-9a07-0a80fada099c",
+      "样本提交者ID": "CPT0105230003",
+      "样本分装运行元数据ID": "966e76b2-bfbf-11ea-b1fd-0aad30af8a83",
+      "研究名称": "CPTAC LUAD Discovery Study - Acetylome",
+      "蛋白质丰度对数二倍比值": 0.3146,
+      "参考序列编号": "NP_006588.1",
+      "乙酰化位点": "k583"
+    },
+    {
+      "案件编号": "f1ee18d4-cf1e-11e9-9a07-0a80fada099c",
+      "样本编号": "6345781b-d0b0-11e9-9a07-0a80fada099c",
+      "样本提交者ID": "CPT0105230003",
+      "样本分装运行元数据ID": "966e76b2-bfbf-11ea-b1fd-0aad30af8a83",
+      "研究名称": "CPTAC LUAD Discovery Study - Acetylome",
+      "蛋白质丰度对数二倍比值": 1.0567,
+      "参考序列编号": "NP_003364.1",
+      "乙酰化位点": "k387"
+    },
+    {
+      "案件编号": "f1ee18d4-cf1e-11e9-9a07-0a80fada099c",
+      "样本编号": "6345781b-d0b0-11e9-9a07-0a80fada099c",
+      "样本提交者ID": "CPT0105230003",
+      "样本分装运行元数据ID": "966e76b2-bfbf-11ea-b1fd-0aad30af8a83",
+      "研究名称": "CPTAC LUAD Discovery Study - Acetylome",
+      "蛋白质丰度对数二倍比值": -0.208,
+      "参考序列编号": "NP_001307.2",
+      "乙酰化位点": "k440"
+    },
+    {
+      "案件编号": "f1ee18d4-cf1e-11e9-9a07-0a80fada099c",
+      "样本编号": "6345781b-d0b0-11e9-9a07-0a80fada099c",
+      "样本提交者ID": "CPT0105230003",
+      "样本分装运行元数据ID": "966e76b2-bfbf-11ea-b1fd-0aad30af8a83",
+      "研究名称": "CPTAC LUAD Discovery Study - Acetylome",
+      "蛋白质丰度对数二倍比值": -0.4761,
+      "参考序列编号": "NP_003818.2",
+      "乙酰化位点": "k93"
+    },
+    {
+      "案件编号": "f1ee18d4-cf1e-11e9-9a07-0a80fada099c",
+      "样本编号": "6345781b-d0b0-11e9-9a07-0a80fada099c",
+      "样本提交者ID": "CPT0105230003",
+      "样本分装运行元数据ID": "966e76b2-bfbf-11ea-b1fd-0aad30af8a83",
+      "研究名称": "CPTAC LUAD Discovery Study - Acetylome",
+      "蛋白质丰度对数二倍比值": -0.1728,
+      "参考序列编号": "NP_001186040.1",
+      "乙酰化位点": "k143"
+    }
+  ]
+}

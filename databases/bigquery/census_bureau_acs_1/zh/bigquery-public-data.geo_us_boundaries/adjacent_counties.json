@@ -1,0 +1,86 @@
+{
+  "table_name": "adjacent_counties",
+  "table_fullname": "bigquery-public-data.geo_us_boundaries.adjacent_counties",
+  "column_names": [
+    "县",
+    "状态",
+    "县FIPS代码",
+    "邻居",
+    "邻州",
+    "邻居FIPS码"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "ARRAY<STRING>",
+    "ARRAY<STRING>",
+    "ARRAY<STRING>"
+  ],
+  "nested_column_names": [
+    "县",
+    "状态",
+    "县 FIPS 代码",
+    "邻居",
+    "邻居状态",
+    "邻居FIPS码"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "ARRAY<STRING>",
+    "ARRAY<STRING>",
+    "ARRAY<STRING>"
+  ],
+  "description": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "sample_rows": [
+    {
+      "县": "Audubon County",
+      "状态": "Iowa",
+      "县 FIPS 代码": "19009",
+      "邻居": "['Shelby' 'Adair' 'Guthrie' 'Crawford' 'Cass' 'Carroll']",
+      "邻居状态": "['Iowa' 'Iowa' 'Iowa' 'Iowa' 'Iowa' 'Iowa']",
+      "邻居FIPS码": "['19165' '19001' '19077' '19047' '19029' '19027']"
+    },
+    {
+      "县": "Boone County",
+      "状态": "Iowa",
+      "县 FIPS 代码": "19015",
+      "邻居": "['Polk' 'Dallas' 'Webster' 'Greene' 'Story' 'Hamilton']",
+      "邻居状态": "['Iowa' 'Iowa' 'Iowa' 'Iowa' 'Iowa' 'Iowa']",
+      "邻居FIPS码": "['19153' '19049' '19187' '19073' '19169' '19079']"
+    },
+    {
+      "县": "Bremer County",
+      "状态": "Iowa",
+      "县 FIPS 代码": "19017",
+      "邻居": "['Floyd' 'Chickasaw' 'Buchanan' 'Butler' 'Fayette' 'Black Hawk']",
+      "邻居状态": "['Iowa' 'Iowa' 'Iowa' 'Iowa' 'Iowa' 'Iowa']",
+      "邻居FIPS码": "['19067' '19037' '19019' '19023' '19065' '19013']"
+    },
+    {
+      "县": "Calhoun County",
+      "状态": "Iowa",
+      "县 FIPS 代码": "19025",
+      "邻居": "['Sac' 'Carroll' 'Buena Vista' 'Webster' 'Greene' 'Pocahontas']",
+      "邻居状态": "['Iowa' 'Iowa' 'Iowa' 'Iowa' 'Iowa' 'Iowa']",
+      "邻居FIPS码": "['19161' '19027' '19021' '19187' '19073' '19151']"
+    },
+    {
+      "县": "Cedar County",
+      "状态": "Iowa",
+      "县 FIPS 代码": "19031",
+      "邻居": "['Scott' 'Jones' 'Clinton' 'Johnson' 'Muscatine' 'Linn']",
+      "邻居状态": "['Iowa' 'Iowa' 'Iowa' 'Iowa' 'Iowa' 'Iowa']",
+      "邻居FIPS码": "['19163' '19105' '19045' '19103' '19139' '19113']"
+    }
+  ]
+}

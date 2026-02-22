@@ -1,0 +1,126 @@
+{
+  "table_name": "hail_reports",
+  "table_fullname": "bigquery-public-data.noaa_preliminary_severe_storms.hail_reports",
+  "column_names": [
+    "thời gian",
+    "Thời gian",
+    "kích thước",
+    "địa điểm",
+    "tỉnh",
+    "tình trạng",
+    "vĩ độ",
+    "kinh độ",
+    "Bình luận",
+    "điểm báo cáo"
+  ],
+  "column_types": [
+    "TIMESTAMP",
+    "STRING",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "FLOAT64",
+    "STRING",
+    "GEOGRAPHY"
+  ],
+  "nested_column_names": [
+    "Thời gian",
+    "thời gian",
+    "kích thước",
+    "địa điểm",
+    "quận",
+    "trạng thái",
+    "vĩ độ",
+    "kinh độ",
+    "Bình luận",
+    "điểm báo cáo"
+  ],
+  "nested_column_types": [
+    "TIMESTAMP",
+    "STRING",
+    "INT64",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64",
+    "FLOAT64",
+    "STRING",
+    "GEOGRAPHY"
+  ],
+  "description": [
+    "Mốc thời gian trong UTC",
+    "Giờ UTC",
+    "Kích thước theo 1/100 inch (175 = 1.75\")",
+    "Vị trí của báo cáo",
+    "",
+    "",
+    "Vĩ độ đến hai chữ số thập phân",
+    "Vĩ độ đến hai chữ số thập phân",
+    "",
+    ""
+  ],
+  "sample_rows": [
+    {
+      "Thời gian": "2021-05-26 23:28:00+00:00",
+      "thời gian": "2328",
+      "kích thước": 200,
+      "địa điểm": "10 WEST HEMINGFORD",
+      "quận": "BOX BUTTE",
+      "trạng thái": "N",
+      "vĩ độ": 4.23,
+      "kinh độ": -10.32,
+      "Bình luận": "PHOTO ON SOCIAL MEDIA READING 2.14 INCHES FOR DIAMETER. (CYS",
+      "điểm báo cáo": "POINT(-10.32 4.23)"
+    },
+    {
+      "Thời gian": "2021-04-24 21:22:00+00:00",
+      "thời gian": "2122",
+      "kích thước": 125,
+      "địa điểm": "1 SSW EW SHELL FISHERIE",
+      "quận": "LEE",
+      "trạng thái": "AL",
+      "vĩ độ": 32.67,
+      "kinh độ": -85.51,
+      "Bình luận": "VIA SOCIAL MEDIA. (BMX)",
+      "điểm báo cáo": "POINT(-85.51 32.67)"
+    },
+    {
+      "Thời gian": "2021-12-30 20:05:00+00:00",
+      "thời gian": "2005",
+      "kích thước": 100,
+      "địa điểm": "1 W LOACHAPOKA",
+      "quận": "LEE",
+      "trạng thái": "AL",
+      "vĩ độ": 32.6,
+      "kinh độ": -85.61,
+      "Bình luận": "QUARTER SIZE HAIL IN LOACHAPOKA. (BMX)",
+      "điểm báo cáo": "POINT(-85.61 32.6)"
+    },
+    {
+      "Thời gian": "2021-12-30 20:28:00+00:00",
+      "thời gian": "2028",
+      "kích thước": 150,
+      "địa điểm": "BEAUREGARD",
+      "quận": "LEE",
+      "trạng thái": "AL",
+      "vĩ độ": 32.54,
+      "kinh độ": -85.37,
+      "Bình luận": "SILVER DOLLAR SIZE HAIL IN BEAUREGARD. (BMX)",
+      "điểm báo cáo": "POINT(-85.37 32.54)"
+    },
+    {
+      "Thời gian": "2021-12-30 20:47:00+00:00",
+      "thời gian": "2047",
+      "kích thước": 175,
+      "địa điểm": "SMITHS STATION",
+      "quận": "LEE",
+      "trạng thái": "AL",
+      "vĩ độ": 32.54,
+      "kinh độ": -85.09,
+      "Bình luận": "GOLF BALL SIZE HAIL IN SMITHS STATION. (BMX)",
+      "điểm báo cáo": "POINT(-85.09 32.54)"
+    }
+  ]
+}

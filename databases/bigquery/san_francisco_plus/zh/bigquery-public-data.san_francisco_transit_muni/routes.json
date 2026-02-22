@@ -1,0 +1,66 @@
+{
+  "table_name": "routes",
+  "table_fullname": "bigquery-public-data.san_francisco_transit_muni.routes",
+  "column_names": [
+    "线路编号",
+    "线路简称",
+    "线路全称",
+    "路线类型"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "路线编号",
+    "线路简称",
+    "完整线路名称",
+    "路线类型"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "每条路线的唯一标识符。单条路线将包含多趟行程。",
+    "包含路线的短名称。这是一个短、抽象的标识符，例如 32、100X 或 Green，乘客用来识别路线，但它并不提供关于该路线所服务地点的任何指示。",
+    "包含线路的完整名称。此名称通常比 route_short_name 更具描述性，并且常常包含线路的目的地或站点。",
+    "描述在路线中使用的交通类型。此字段的有效值如下：  \n- light_rail：有轨电车或轻轨。用于大都市区内任何轻轨或街道级系统。  \n- subway：地铁或地下铁。用于大都市区内任何地下铁路系统。  \n- rail：用于城际或长途旅行。  \n- bus：用于短途和长途公交线路。  \n- ferry：用于短途和长途船舶服务。  \n- cable_car：用于街道级缆车，缆索在车辆下方运行。  \n- tram：索道或悬挂缆车。通常用于悬挂式缆车，即车辆悬挂在缆索上。  \n- funicular：用于任何在陡坡上使用缆索牵引系统的铁路系统。"
+  ],
+  "sample_rows": [
+    {
+      "路线编号": "83X",
+      "线路简称": "83X",
+      "完整线路名称": "MID-MARKET EXPRESS",
+      "路线类型": "3"
+    },
+    {
+      "路线编号": "82X",
+      "线路简称": "82X",
+      "完整线路名称": "LEVI PLAZA EXPRESS",
+      "路线类型": "3"
+    },
+    {
+      "路线编号": "E",
+      "线路简称": "E",
+      "完整线路名称": "EMBARCADERO",
+      "路线类型": "0"
+    },
+    {
+      "路线编号": "KT",
+      "线路简称": "KT",
+      "完整线路名称": "INGLESIDE-THIRD",
+      "路线类型": "0"
+    },
+    {
+      "路线编号": "3",
+      "线路简称": "3",
+      "完整线路名称": "JACKSON",
+      "路线类型": "3"
+    }
+  ]
+}

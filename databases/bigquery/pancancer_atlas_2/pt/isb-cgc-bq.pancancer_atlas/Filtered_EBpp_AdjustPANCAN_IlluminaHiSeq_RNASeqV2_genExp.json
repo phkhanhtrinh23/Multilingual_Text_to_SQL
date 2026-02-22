@@ -1,0 +1,116 @@
+{
+  "table_name": "Filtered_EBpp_AdjustPANCAN_IlluminaHiSeq_RNASeqV2_genExp",
+  "table_fullname": "isb-cgc-bq.pancancer_atlas.Filtered_EBpp_AdjustPANCAN_IlluminaHiSeq_RNASeqV2_genExp",
+  "column_names": [
+    "CodigoBarrasDoParticipante",
+    "CodigoBarrasDaAmostra",
+    "CodigoBarrasDaAliquota",
+    "CodigoDaLetraDoTipoDaAmostra",
+    "TipoDaAmostra",
+    "Estudo",
+    "Simbolo",
+    "Entrez",
+    "contagem_normalizada"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64"
+  ],
+  "nested_column_names": [
+    "CodigoBarrasDoParticipante",
+    "CodigoBarrasDaAmostra",
+    "CodigoBarrasDaAliquota",
+    "CodigoDaLetraDoTipoDaAmostra",
+    "TipoDaAmostra",
+    "Estudo",
+    "Simbolo",
+    "Entrez",
+    "contagem_normalizada"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64"
+  ],
+  "description": [
+    "Identificador de código de barras TCGA para o participante do estudo, eg TCGA-02-0001",
+    "Código de barras da amostra de biosspecimen, eg TCGA-13-1489-02A",
+    "Código de barras do aliquote TCGA, eg TCGA-12-1089-01A-01D-0517-28",
+    "Código de letra do tipo de amostra usando os padrões TCGA, eg TPN, EBV. Lista completa disponível em https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/sample-type-codes",
+    "Existem 10 tipos de amostras: Sangue Derivado Normal, Tumor sólido primário, Tecido sólido normal, Tumor sólido recorrente, Metastático, Adicional - Novo primário, Câncer derivado de sangue primário - Sangue periférico, Célula bucal normal, Adicional Metastático, Medula óssea normal",
+    "Abreviação do estudo TCGA, eg LAML. Lista completa disponível em https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/tcga-study-abbreviations",
+    "eg TP53, LRP1B, etc (mesmo que o campo Hugo_Symbol, exceto em branco em vez de Desconhecido",
+    "ID Entrez do NCBI, eg 730971",
+    "Expressão gênica normalizada"
+  ],
+  "sample_rows": [
+    {
+      "CodigoBarrasDoParticipante": "TCGA-06-0675",
+      "CodigoBarrasDaAmostra": "TCGA-06-0675-11A",
+      "CodigoBarrasDaAliquota": "TCGA-06-0675-11A-32R-A36H-07",
+      "CodigoDaLetraDoTipoDaAmostra": "NT",
+      "TipoDaAmostra": "Solid Tissue Normal",
+      "Estudo": "GBM",
+      "Simbolo": "SNORA3",
+      "Entrez": "619562",
+      "contagem_normalizada": 0.0
+    },
+    {
+      "CodigoBarrasDoParticipante": "TCGA-06-0675",
+      "CodigoBarrasDaAmostra": "TCGA-06-0675-11A",
+      "CodigoBarrasDaAliquota": "TCGA-06-0675-11A-32R-A36H-07",
+      "CodigoDaLetraDoTipoDaAmostra": "NT",
+      "TipoDaAmostra": "Solid Tissue Normal",
+      "Estudo": "GBM",
+      "Simbolo": "SH3TC1",
+      "Entrez": "54436",
+      "contagem_normalizada": 270.806
+    },
+    {
+      "CodigoBarrasDoParticipante": "TCGA-06-0675",
+      "CodigoBarrasDaAmostra": "TCGA-06-0675-11A",
+      "CodigoBarrasDaAliquota": "TCGA-06-0675-11A-32R-A36H-07",
+      "CodigoDaLetraDoTipoDaAmostra": "NT",
+      "TipoDaAmostra": "Solid Tissue Normal",
+      "Estudo": "GBM",
+      "Simbolo": "F2RL1",
+      "Entrez": "2150",
+      "contagem_normalizada": 52.6318
+    },
+    {
+      "CodigoBarrasDoParticipante": "TCGA-06-0675",
+      "CodigoBarrasDaAmostra": "TCGA-06-0675-11A",
+      "CodigoBarrasDaAliquota": "TCGA-06-0675-11A-32R-A36H-07",
+      "CodigoDaLetraDoTipoDaAmostra": "NT",
+      "TipoDaAmostra": "Solid Tissue Normal",
+      "Estudo": "GBM",
+      "Simbolo": "FGF1",
+      "Entrez": "2246",
+      "contagem_normalizada": 1356.73
+    },
+    {
+      "CodigoBarrasDoParticipante": "TCGA-06-0675",
+      "CodigoBarrasDaAmostra": "TCGA-06-0675-11A",
+      "CodigoBarrasDaAliquota": "TCGA-06-0675-11A-32R-A36H-07",
+      "CodigoDaLetraDoTipoDaAmostra": "NT",
+      "TipoDaAmostra": "Solid Tissue Normal",
+      "Estudo": "GBM",
+      "Simbolo": "LOC728410",
+      "Entrez": "728410",
+      "contagem_normalizada": 0.0
+    }
+  ]
+}

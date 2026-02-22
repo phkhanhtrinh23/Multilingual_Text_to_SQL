@@ -1,0 +1,66 @@
+{
+  "table_name": "structural_alerts",
+  "table_fullname": "bigquery-public-data.ebi_chembl.structural_alerts",
+  "column_names": [
+    "アラートID",
+    "アラートセットID",
+    "アラート名",
+    "知能"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "アラートID",
+    "アラートセットID",
+    "アラート名",
+    "スマート"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "sample_rows": [
+    {
+      "アラートID": "1",
+      "アラートセットID": "1",
+      "アラート名": "R1 Reactive alkyl halides",
+      "スマート": "[Br,Cl,I][CX4;CH,CH2]"
+    },
+    {
+      "アラートID": "2",
+      "アラートセットID": "1",
+      "アラート名": "R2 Acid halides",
+      "スマート": "[S,C](=[O,S])[F,Br,Cl,I]"
+    },
+    {
+      "アラートID": "3",
+      "アラートセットID": "1",
+      "アラート名": "R3 Carbazides",
+      "スマート": "O=CN=[N+]=[N-]"
+    },
+    {
+      "アラートID": "4",
+      "アラートセットID": "1",
+      "アラート名": "R4 Sulphate esters",
+      "スマート": "COS(=O)O[C,c]"
+    },
+    {
+      "アラートID": "5",
+      "アラートセットID": "1",
+      "アラート名": "R5 Sulphonates",
+      "スマート": "COS(=O)(=O)[C,c]"
+    }
+  ]
+}

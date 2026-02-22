@@ -1,0 +1,66 @@
+{
+  "table_name": "routes",
+  "table_fullname": "bigquery-public-data.san_francisco_transit_muni.routes",
+  "column_names": [
+    "id_rota",
+    "nome_curto_rota",
+    "nome_longo_rota",
+    "tipo_rota"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "nested_column_names": [
+    "id_rota",
+    "nome_curto_rota",
+    "nome_longo_rota",
+    "tipo_rota"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "STRING"
+  ],
+  "description": [
+    "Identificador único para cada rota. Uma rota única terá múltiplas viagens",
+    "Contém o nome curto de uma rota. Este é um identificador curto e abstrato, como 32, 100X ou Green, que os passageiros usam para identificar uma rota, mas que não dá nenhuma indicação dos lugares que a rota atende.",
+    "Contém o nome completo de uma rota. Este nome é geralmente mais descritivo do que o nome de route_short_name e muitas vezes inclui o destino ou parada da rota.",
+    "\"Descreve o tipo de transporte utilizado em uma rota. Os seguintes são valores válidos para este campo:  -  light_rail: Bondes ou light rail. Usado para qualquer sistema de light rail ou nível de rua dentro de uma área metropolitana. -  subway: Metrô ou metro. Usado para qualquer sistema de trem subterrâneo dentro de uma área metropolitana. -  rail: Usado para viagens intermunicipais ou de longa distância. -  bus: Usado para rotas de ônibus de curta e longa distância. -  ferry: Usado para serviços de barco de curta e longa distância. -  cable_car: Usado para bondes de nível de rua onde o cabo passa sob o carro. -  tram: Teleférico ou bondes suspensos. Normalmente usado para bondes aéreos suspensos pelo cabo. -  funicular: Usado para qualquer sistema ferroviário que se move em inclinações íngremes com um sistema de tração a cabo.\""
+  ],
+  "sample_rows": [
+    {
+      "id_rota": "83X",
+      "nome_curto_rota": "83X",
+      "nome_longo_rota": "MID-MARKET EXPRESS",
+      "tipo_rota": "3"
+    },
+    {
+      "id_rota": "82X",
+      "nome_curto_rota": "82X",
+      "nome_longo_rota": "LEVI PLAZA EXPRESS",
+      "tipo_rota": "3"
+    },
+    {
+      "id_rota": "E",
+      "nome_curto_rota": "E",
+      "nome_longo_rota": "EMBARCADERO",
+      "tipo_rota": "0"
+    },
+    {
+      "id_rota": "KT",
+      "nome_curto_rota": "KT",
+      "nome_longo_rota": "INGLESIDE-THIRD",
+      "tipo_rota": "0"
+    },
+    {
+      "id_rota": "3",
+      "nome_curto_rota": "3",
+      "nome_longo_rota": "JACKSON",
+      "tipo_rota": "3"
+    }
+  ]
+}

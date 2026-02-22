@@ -1,0 +1,66 @@
+{
+  "table_name": "Original_pancanMiRs_EBadjOnProtocolPlatformWithoutRepsWithUnCorrectMiRs_08_04_16",
+  "table_fullname": "isb-cgc-bq.pancancer_atlas.Original_pancanMiRs_EBadjOnProtocolPlatformWithoutRepsWithUnCorrectMiRs_08_04_16",
+  "column_names": [
+    "Identifikator",
+    "Korrigiert",
+    "AliquotBarcode",
+    "miRNAExp"
+  ],
+  "column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64"
+  ],
+  "nested_column_names": [
+    "Identifikationsnummer",
+    "Korrigiert",
+    "AliquotBarcode",
+    "miRNAExp"
+  ],
+  "nested_column_types": [
+    "STRING",
+    "STRING",
+    "STRING",
+    "FLOAT64"
+  ],
+  "description": [
+    "Eine der 1870 eindeutigen miRNA-IDs (auch Symbole genannt), die in dieser Tabelle enthalten sind, z. B. hsa-mir-21 – relevante Referenzinformationen finden Sie im Datensatz isb-cgc:genome_reference in den Tabellen miRBase_v20 und miRBase_v20_hsa_gff3",
+    "Indikator für korrigierte bzw. nicht korrigierte miRNAs, der angibt, ob sie durch die EBN+-Methode korrigiert wurden. Weitere Details finden Sie unter https://www.synapse.org/#!Synapse:syn6171109",
+    "TCGA-Aliquot-Barcode, z. B. TCGA-12-1089-01A-01D-0517-28",
+    "Normalisierte Abundanz (d. h. Reads per Million, RPM)"
+  ],
+  "sample_rows": [
+    {
+      "Identifikationsnummer": "hsa-miR-1",
+      "Korrigiert": "Corrected",
+      "AliquotBarcode": "TCGA-A2-A0EW-01A-21R-A114-13",
+      "miRNAExp": 5.528753
+    },
+    {
+      "Identifikationsnummer": "hsa-miR-1",
+      "Korrigiert": "Corrected",
+      "AliquotBarcode": "TCGA-E9-A1N3-01A-12R-A156-13",
+      "miRNAExp": 3.756076
+    },
+    {
+      "Identifikationsnummer": "hsa-miR-1",
+      "Korrigiert": "Corrected",
+      "AliquotBarcode": "TCGA-CV-6945-01A-11R-1914-13",
+      "miRNAExp": 242.687442
+    },
+    {
+      "Identifikationsnummer": "hsa-miR-1",
+      "Korrigiert": "Corrected",
+      "AliquotBarcode": "TCGA-CJ-5680-11A-01R-1540-13",
+      "miRNAExp": 17.337644
+    },
+    {
+      "Identifikationsnummer": "hsa-miR-1",
+      "Korrigiert": "Corrected",
+      "AliquotBarcode": "TCGA-DD-AADW-01A-11R-A39J-13",
+      "miRNAExp": 15.17737
+    }
+  ]
+}
