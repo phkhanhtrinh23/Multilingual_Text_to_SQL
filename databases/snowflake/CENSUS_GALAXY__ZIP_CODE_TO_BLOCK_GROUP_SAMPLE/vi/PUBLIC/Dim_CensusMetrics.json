@@ -1,0 +1,102 @@
+{
+  "sample_rows": [
+    {
+      "Mã chỉ số": "B01002_002E",
+      "Loại": "Estimate",
+      "Mã bảng chỉ số": "B01002",
+      "Mô tả bảng chỉ số": "Median age of the population categorized by sex",
+      "Loại đơn vị đo": "Aggregate",
+      "Danh mục chỉ số": "Demographics",
+      "Nhóm chỉ số": "Essential",
+      "Mô tả thứ nhất": "Male",
+      "Mô tả thứ hai": "",
+      "Mô tả thứ ba": ""
+    },
+    {
+      "Mã chỉ số": "B19051_001E",
+      "Loại": "Estimate",
+      "Mã bảng chỉ số": "B19051",
+      "Mô tả bảng chỉ số": "Earnings of households in the past 12 months",
+      "Loại đơn vị đo": "People",
+      "Danh mục chỉ số": "Income",
+      "Nhóm chỉ số": "Essential",
+      "Mô tả thứ nhất": "",
+      "Mô tả thứ hai": "",
+      "Mô tả thứ ba": ""
+    },
+    {
+      "Mã chỉ số": "B19051_003E",
+      "Loại": "Estimate",
+      "Mã bảng chỉ số": "B19051",
+      "Mô tả bảng chỉ số": "Earnings of households in the past 12 months",
+      "Loại đơn vị đo": "People",
+      "Danh mục chỉ số": "Income",
+      "Nhóm chỉ số": "Essential",
+      "Mô tả thứ nhất": "No earnings",
+      "Mô tả thứ hai": "",
+      "Mô tả thứ ba": ""
+    },
+    {
+      "Mã chỉ số": "B11012_002E",
+      "Loại": "Estimate",
+      "Mã bảng chỉ số": "B11012",
+      "Mô tả bảng chỉ số": "Different types of households based on size and type",
+      "Loại đơn vị đo": "People",
+      "Danh mục chỉ số": "Housing",
+      "Nhóm chỉ số": "Essential",
+      "Mô tả thứ nhất": "Marriedcouple household",
+      "Mô tả thứ hai": "",
+      "Mô tả thứ ba": ""
+    },
+    {
+      "Mã chỉ số": "B11012_004E",
+      "Loại": "Estimate",
+      "Mã bảng chỉ số": "B11012",
+      "Mô tả bảng chỉ số": "Different types of households based on size and type",
+      "Loại đơn vị đo": "People",
+      "Danh mục chỉ số": "Housing",
+      "Nhóm chỉ số": "Essential",
+      "Mô tả thứ nhất": "Marriedcouple household",
+      "Mô tả thứ hai": "With no children of the householder under 18 years",
+      "Mô tả thứ ba": ""
+    }
+  ],
+  "table_name": "Dim_CensusMetrics",
+  "table_fullname": "CENSUS_GALAXY__ZIP_CODE_TO_BLOCK_GROUP_SAMPLE.PUBLIC.Dim_CensusMetrics",
+  "column_names": [
+    "Loại",
+    "Mô tả thứ hai",
+    "Danh mục chỉ số",
+    "Mô tả bảng chỉ số",
+    "Mã bảng chỉ số",
+    "Mã chỉ số",
+    "Mô tả thứ nhất",
+    "Loại đơn vị đo",
+    "Nhóm chỉ số",
+    "Mô tả thứ ba"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Loại hoặc bản chất của chỉ số đo, cho biết loại dữ liệu nó đại diện, chẳng hạn như dân số, nhà ở, giáo dục, việc làm, v.v.",
+    "Thuộc tính mô tả bổ sung hoặc đặc tính liên quan đến chỉ số đo, cung cấp thêm chi tiết cụ thể.",
+    "Danh mục hoặc phân loại mà chỉ số đo thuộc về, gom các chỉ số liên quan với nhau.",
+    "Mô tả hoặc nhãn cho bảng hoặc bộ dữ liệu trong American Community Survey hoặc dữ liệu census nơi chỉ số được lưu.",
+    "Một định danh duy nhất cho bảng hoặc bộ dữ liệu trong American Community Survey hoặc dữ liệu census nơi chỉ số được lưu.",
+    "Một định danh duy nhất cho một chỉ số cụ thể hoặc phép đo trong American Community Survey hoặc dữ liệu census.",
+    "Một thuộc tính mô tả hoặc đặc tính liên quan đến chỉ số đo, cung cấp thêm thông tin hoặc ngữ cảnh.",
+    "Loại dữ liệu được lưu trong CensusValue cho mỗi MetricID. Việc xem trường này khi gom nhóm và tổng các giá trị lên hoặc xuống các cấp địa lý là rất quan trọng, vì một số giá trị là tổng số đếm thô và các giá trị khác là trung bình hoặc trung vị.",
+    "Nhóm sản phẩm được quyết định bởi No Fret Data, liên quan đến việc triển khai và lộ trình của Census Galaxy.",
+    "Một thuộc tính mô tả bổ sung hoặc đặc tính liên quan đến chỉ số đo, cung cấp thêm những thông tin chi tiết."
+  ]
+}
