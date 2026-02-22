@@ -1,0 +1,102 @@
+{
+  "table_name": "SCRNASEQ_VUMC_HTAN_VAL_EPI_V2_CURRENT",
+  "table_fullname": "HTAN_2.HTAN.SCRNASEQ_VUMC_HTAN_VAL_EPI_V2_CURRENT",
+  "column_names": [
+    "Mã tệp dữ liệu cha HTAN",
+    "Tên gen",
+    "Giá trị X",
+    "Mã mẫu sinh học HTAN",
+    "Số mã vạch tế bào",
+    "iVar",
+    "Phân loại mô phụ",
+    "Loại tế bào",
+    "Loại mô",
+    "iObs"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "FLOAT",
+    "TEXT",
+    "TEXT",
+    "NUMBER",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "NUMBER"
+  ],
+  "description": [
+    "Định danh tệp dữ liệu HTAN cho biết các tệp từ đó các tệp này được suy ra",
+    "gen được đo",
+    "Giá trị biểu hiện cho một gen và một tế bào nhất định.",
+    "ID HTAN liên kết với một mẫu sinh học dựa trên SOP ID HTAN (ví dụ HTANx_yyy_zzz).",
+    "Các mã vạch được dùng cho mỗi giọt chứa tế bào trong quá trình giải trình tự.",
+    "Chỉ mục tới các ID gen.",
+    "TA = adenoma ống, HP = polyp tăng sinh, TVA = adenoma ống–villus, SSL = tổn thương serrated dạng dính, UNC = chưa phân loại, NL = bình thường.",
+    "ABS = tế bào hấp thu, TUF = tế bào tua, EE = tế bào nội tiết đường tiêu hóa, ASC = tế bào đặc hiệu của adenoma, TAC = tế bào khuếch đại ngắn, CT = tế bào đỉnh của crypt, GOB = tế bào nhầy, SSC = tế bào đặc hiệu serrated, STM = tế bào gốc.",
+    "AD = adenoma cổ điển, SER = polyp serrated, UNC = chưa phân loại, NL = bình thường.",
+    "Chỉ mục tới các mã vạch tế bào."
+  ],
+  "sample_rows": [
+    {
+      "iObs": 13568,
+      "iVar": 30001,
+      "Giá trị X": 1.0,
+      "Số mã vạch tế bào": "GATGTACACGATGCATGG-21-5607",
+      "Mã tệp dữ liệu cha HTAN": "HTA11_866_300476101113111",
+      "Mã mẫu sinh học HTAN": "HTA11_866_3004761011",
+      "Loại tế bào": "GOB",
+      "Phân loại mô phụ": "TA",
+      "Loại mô": "AD",
+      "Tên gen": "USP33"
+    },
+    {
+      "iObs": 13824,
+      "iVar": 2522,
+      "Giá trị X": 2.0,
+      "Số mã vạch tế bào": "TGAAGGATTCAACTCACCG-21-5607",
+      "Mã tệp dữ liệu cha HTAN": "HTA11_866_300476101113111",
+      "Mã mẫu sinh học HTAN": "HTA11_866_3004761011",
+      "Loại tế bào": "ASC",
+      "Phân loại mô phụ": "TA",
+      "Loại mô": "AD",
+      "Tên gen": "ARHGAP8"
+    },
+    {
+      "iObs": 13824,
+      "iVar": 5235,
+      "Giá trị X": 1.0,
+      "Số mã vạch tế bào": "TGAAGGATTCAACTCACCG-21-5607",
+      "Mã tệp dữ liệu cha HTAN": "HTA11_866_300476101113111",
+      "Mã mẫu sinh học HTAN": "HTA11_866_3004761011",
+      "Loại tế bào": "ASC",
+      "Phân loại mô phụ": "TA",
+      "Loại mô": "AD",
+      "Tên gen": "COL4A2"
+    },
+    {
+      "iObs": 13824,
+      "iVar": 14521,
+      "Giá trị X": 1.0,
+      "Số mã vạch tế bào": "TGAAGGATTCAACTCACCG-21-5607",
+      "Mã tệp dữ liệu cha HTAN": "HTA11_866_300476101113111",
+      "Mã mẫu sinh học HTAN": "HTA11_866_3004761011",
+      "Loại tế bào": "ASC",
+      "Phân loại mô phụ": "TA",
+      "Loại mô": "AD",
+      "Tên gen": "MT-TC"
+    },
+    {
+      "iObs": 13569,
+      "iVar": 9699,
+      "Giá trị X": 1.0,
+      "Số mã vạch tế bào": "GAGAGCCCATTGGGATTC-21-5607",
+      "Mã tệp dữ liệu cha HTAN": "HTA11_866_300476101113111",
+      "Mã mẫu sinh học HTAN": "HTA11_866_3004761011",
+      "Loại tế bào": "GOB",
+      "Phân loại mô phụ": "TA",
+      "Loại mô": "AD",
+      "Tên gen": "GPCPD1"
+    }
+  ]
+}
