@@ -1,0 +1,94 @@
+{
+  "table_name": "TOKEN_TRANSFERS",
+  "table_fullname": "CRYPTO.CRYPTO_ETHEREUM_CLASSIC.TOKEN_TRANSFERS",
+  "column_names": [
+    "mã băm khối",
+    "giá trị",
+    "địa chỉ token",
+    "thời gian khối",
+    "chỉ mục nhật ký",
+    "địa chỉ gửi",
+    "địa chỉ nhận",
+    "số khối",
+    "mã băm giao dịch"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "NUMBER",
+    "NUMBER",
+    "TEXT",
+    "TEXT",
+    "NUMBER",
+    "TEXT"
+  ],
+  "description": [
+    "Hash của khối chứa giao dịch chuyển này",
+    "Số lượng token được chuyển (ERC20) / id của token được chuyển (ERC721). Sử dụng safe_cast để ép kiểu sang NUMERIC hoặc FLOAT64",
+    "Địa chỉ token ERC20",
+    "Dấu thời gian của khối nơi chuyển này diễn ra",
+    "Chỉ số log trong biên nhận giao dịch",
+    "Địa chỉ của người gửi",
+    "Địa chỉ của người nhận",
+    "Số khối nơi chuyển này diễn ra",
+    "Hash giao dịch"
+  ],
+  "sample_rows": [
+    {
+      "địa chỉ token": "0xd2c640b89645019fe9044345605ac43ad4219d0d",
+      "địa chỉ gửi": "0x0000000000000000000000000000000000000000",
+      "địa chỉ nhận": "0xf5c7a331f1a5c3889cf3187e483efcab53dbc3bc",
+      "giá trị": "40000000000000000000000000000",
+      "mã băm giao dịch": "0x8aa13c540244a8056a4e876e8270dcd893636efe8fbdb2069f847719f9106cd9",
+      "chỉ mục nhật ký": 0,
+      "thời gian khối": 1532759268000000,
+      "số khối": 6262645,
+      "mã băm khối": "0x9a1a9843f11899ae3f84058f0a3a4b9142610ea772d08ba2c5c3c100d58685f0"
+    },
+    {
+      "địa chỉ token": "0x1774c5827fcc520d268e6454d53429e600507f3b",
+      "địa chỉ gửi": "0x0073fc90514a359808ced01a122752eaca80c376",
+      "địa chỉ nhận": "0x417109f5babad097f10c3ba1e946b3c170008db7",
+      "giá trị": "12000",
+      "mã băm giao dịch": "0xa7f04f01d6b73362c5fb76bbbf96d3487ea48b4c66f36480aa9fdb8bd1ed1e54",
+      "chỉ mục nhật ký": 0,
+      "thời gian khối": 1532786744000000,
+      "số khối": 6264648,
+      "mã băm khối": "0xdb348ada7102bfebcf44d60577a5fe038be5d571eab7dcdc22486559abc93af8"
+    },
+    {
+      "địa chỉ token": "0x1774c5827fcc520d268e6454d53429e600507f3b",
+      "địa chỉ gửi": "0x0073fc90514a359808ced01a122752eaca80c376",
+      "địa chỉ nhận": "0x8284e1ffc3fa30d7ad662f421d1c38c143c22f10",
+      "giá trị": "25854",
+      "mã băm giao dịch": "0x0c5066efc1338a874ea69399d504a7c8669f84b8e8eed96aaa4ccbd9850d9c01",
+      "chỉ mục nhật ký": 12,
+      "thời gian khối": 1532788489000000,
+      "số khối": 6264763,
+      "mã băm khối": "0x1d843cca708b16f297bed5b80c6dd31d4f2f6d2f5ae66ddbaabf7bf059f1f45f"
+    },
+    {
+      "địa chỉ token": "0x1774c5827fcc520d268e6454d53429e600507f3b",
+      "địa chỉ gửi": "0x0073fc90514a359808ced01a122752eaca80c376",
+      "địa chỉ nhận": "0x8284e1ffc3fa30d7ad662f421d1c38c143c22f10",
+      "giá trị": "25000000000000000000000",
+      "mã băm giao dịch": "0x4c1b5c680d1b3f87a0ccf54ec8fb1ae697ea2313e728d35e8d07ba9605a4164d",
+      "chỉ mục nhật ký": 0,
+      "thời gian khối": 1532789955000000,
+      "số khối": 6264850,
+      "mã băm khối": "0x427af88123ee258ef17881f5a3346324030a8ac428700e8f4ee7b3e104e97f78"
+    },
+    {
+      "địa chỉ token": "0x45aa09a11d7ea6a484651f2a03df3f3ec2766cbc",
+      "địa chỉ gửi": "0x0f79a13977c992e50f46a6b5f8c990de6cf32a66",
+      "địa chỉ nhận": "0xd91ce1fd3150117474e3025944b64cca86ea9431",
+      "giá trị": "52083000",
+      "mã băm giao dịch": "0x48d49ec87f71753d5915054a7640c063fc08d57a6fc2d0dfdba2e4a4cf4e5b3f",
+      "chỉ mục nhật ký": 2,
+      "thời gian khối": 1532789392000000,
+      "số khối": 6264818,
+      "mã băm khối": "0x1b1a5817bc433cf577d16428c64265a07d476bc4e487ba7c3295bde2855b1af2"
+    }
+  ]
+}
