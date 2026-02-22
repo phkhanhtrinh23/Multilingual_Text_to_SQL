@@ -1,0 +1,94 @@
+{
+  "sample_rows": [
+    {
+      "Biến": "JOLTS:_Quits,_Total_private,_1_to_9_employees,_Not_seasonally_adjusted,_Monthly,_Level",
+      "Tên biến": "JOLTS: Quits, Total private, 1 to 9 employees, Not seasonally adjusted, Monthly, Level",
+      "Điều chỉnh theo mùa": false,
+      "Tần suất": "Monthly",
+      "Đơn vị": "Level",
+      "Báo cáo": "JOLTS",
+      "Chỉ số": "Quits",
+      "Ngành công nghiệp": "Total private",
+      "Quy mô cơ sở": "1 to 9 employees"
+    },
+    {
+      "Biến": "JOLTS:_Quits,_Arts,_entertainment,_and_recreation,_All_size_classes,_Not_seasonally_adjusted,_Annual,_Percent",
+      "Tên biến": "JOLTS: Quits, Arts, entertainment, and recreation, All size classes, Not seasonally adjusted, Annual, Percent",
+      "Điều chỉnh theo mùa": false,
+      "Tần suất": "Annual",
+      "Đơn vị": "Percent",
+      "Báo cáo": "JOLTS",
+      "Chỉ số": "Quits",
+      "Ngành công nghiệp": "Arts, entertainment, and recreation",
+      "Quy mô cơ sở": "All size classes"
+    },
+    {
+      "Biến": "JOLTS:_Quits,_Total_private,_All_size_classes,_Not_seasonally_adjusted,_Monthly,_Percent",
+      "Tên biến": "JOLTS: Quits, Total private, All size classes, Not seasonally adjusted, Monthly, Percent",
+      "Điều chỉnh theo mùa": false,
+      "Tần suất": "Monthly",
+      "Đơn vị": "Percent",
+      "Báo cáo": "JOLTS",
+      "Chỉ số": "Quits",
+      "Ngành công nghiệp": "Total private",
+      "Quy mô cơ sở": "All size classes"
+    },
+    {
+      "Biến": "JOLTS:_Job_openings,_Leisure_and_hospitality,_All_size_classes,_Seasonally_adjusted,_Monthly,_Percent",
+      "Tên biến": "JOLTS: Job openings, Leisure and hospitality, All size classes, Seasonally adjusted, Monthly, Percent",
+      "Điều chỉnh theo mùa": true,
+      "Tần suất": "Monthly",
+      "Đơn vị": "Percent",
+      "Báo cáo": "JOLTS",
+      "Chỉ số": "Job openings",
+      "Ngành công nghiệp": "Leisure and hospitality",
+      "Quy mô cơ sở": "All size classes"
+    },
+    {
+      "Biến": "JOLTS:_Quits,_Education_and_health_services,_All_size_classes,_Seasonally_adjusted,_Monthly,_Percent",
+      "Tên biến": "JOLTS: Quits, Education and health services, All size classes, Seasonally adjusted, Monthly, Percent",
+      "Điều chỉnh theo mùa": true,
+      "Tần suất": "Monthly",
+      "Đơn vị": "Percent",
+      "Báo cáo": "JOLTS",
+      "Chỉ số": "Quits",
+      "Ngành công nghiệp": "Education and health services",
+      "Quy mô cơ sở": "All size classes"
+    }
+  ],
+  "table_name": "BUREAU_OF_LABOR_STATISTICS_EMPLOYMENT_ATTRIBUTES",
+  "table_fullname": "FINANCE__ECONOMICS.CYBERSYN.BUREAU_OF_LABOR_STATISTICS_EMPLOYMENT_ATTRIBUTES",
+  "column_names": [
+    "Chỉ số",
+    "Ngành công nghiệp",
+    "Điều chỉnh theo mùa",
+    "Tên biến",
+    "Báo cáo",
+    "Đơn vị",
+    "Quy mô cơ sở",
+    "Tần suất",
+    "Biến"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "BOOLEAN",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Mô tả loại thống kê được chuỗi thời gian cung cấp",
+    "Ngành hoặc tiểu ngành của chuỗi thời gian",
+    "Biến Boolean cho biết giá trị có được điều chỉnh theo mùa hay không",
+    "Tên dễ đọc cho biến",
+    "Bộ dữ liệu BLS nguồn từ chuỗi thời gian",
+    "Đơn vị đo cho giá trị",
+    "Quy mô cơ sở cho biến được cung cấp",
+    "Tần suất đo lường của biến",
+    "Một định danh duy nhất cho biến có thể ghép nối với bảng timeseries"
+  ]
+}
