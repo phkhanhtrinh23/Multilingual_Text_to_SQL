@@ -1,0 +1,70 @@
+{
+  "sample_rows": [
+    {
+      "Mã địa lý": "country/USA",
+      "Biến": "121",
+      "Tên biến": "Non-Tax Net Collections Amount: Fiscal Service Processed Electronically (Over-the-Counter)",
+      "Ngày": "2017-03-20",
+      "Giá trị": 64657026.0,
+      "Đơn vị": "USD"
+    },
+    {
+      "Mã địa lý": "country/USA",
+      "Biến": "131",
+      "Tên biến": "Non-Tax Net Collections Amount: Fiscal Service Settled Electronically (Over-the-Counter)",
+      "Ngày": "2022-08-29",
+      "Giá trị": 753.0,
+      "Đơn vị": "USD"
+    },
+    {
+      "Mã địa lý": "country/USA",
+      "Biến": "213",
+      "Tên biến": "IRS Non-Tax Net Collections Amount: Fully Electronic (Internet)",
+      "Ngày": "2017-08-10",
+      "Giá trị": 99641.0,
+      "Đơn vị": "USD"
+    },
+    {
+      "Mã địa lý": "country/USA",
+      "Biến": "332",
+      "Tên biến": "IRS Tax Net Collections Amount: Fiscal Service Settled Electronically (Mail)",
+      "Ngày": "2013-10-09",
+      "Giá trị": 704080197.0,
+      "Đơn vị": "USD"
+    },
+    {
+      "Mã địa lý": "country/USA",
+      "Biến": "paper_savings_bonds_unmatured_&_unredeemed_all_series",
+      "Tên biến": "Paper Savings Bonds Unmatured & Unredeemed: All Series",
+      "Ngày": "2020-11-30",
+      "Giá trị": 294438314.0,
+      "Đơn vị": "Count"
+    }
+  ],
+  "table_name": "US_TREASURY_TIMESERIES",
+  "table_fullname": "GLOBAL_GOVERNMENT.CYBERSYN.US_TREASURY_TIMESERIES",
+  "column_names": [
+    "Mã địa lý",
+    "Đơn vị",
+    "Biến",
+    "Ngày",
+    "Tên biến",
+    "Giá trị"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "DATE",
+    "TEXT",
+    "FLOAT"
+  ],
+  "description": [
+    "Một định danh duy nhất cho một địa điểm. Có thể nối với các bảng địa lý khác, bao gồm GEOGRAPHY_INDEX, GEOGRAPHY_RELATIONSHIPS, và GEOGRAPHY_CHARACTERISTICS.",
+    "Đơn vị đo lường cho giá trị được báo cáo.",
+    "Định danh duy nhất cho một biến, có thể nối với bảng timeseries.",
+    "Ngày liên quan đến giá trị.",
+    "Tên duy nhất có thể đọc được cho biến.",
+    "Giá trị được báo cáo cho biến."
+  ]
+}
