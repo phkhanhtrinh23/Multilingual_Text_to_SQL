@@ -1,0 +1,70 @@
+{
+  "sample_rows": [
+    {
+      "Biến": "ASSET",
+      "Tên biến": "Institutional Assets",
+      "Giá trị đo": "Assets Owned",
+      "Đơn vị": "USD",
+      "Tần suất": "Annual",
+      "Loại đo": "Institution"
+    },
+    {
+      "Biến": "DEPDOM",
+      "Tên biến": "Institutional Domestic Deposits",
+      "Giá trị đo": "Domestic Deposits",
+      "Đơn vị": "USD",
+      "Tần suất": "Annual",
+      "Loại đo": "Institution"
+    },
+    {
+      "Biến": "DEPSUM",
+      "Tên biến": "Institutional Deposits",
+      "Giá trị đo": "Deposits",
+      "Đơn vị": "USD",
+      "Tần suất": "Annual",
+      "Loại đo": "Institution"
+    },
+    {
+      "Biến": "DEPSUMBR",
+      "Tên biến": "Branch Deposits",
+      "Giá trị đo": "Deposits",
+      "Đơn vị": "USD",
+      "Tần suất": "Annual",
+      "Loại đo": "Branch"
+    },
+    {
+      "Biến": "ESCROW",
+      "Tên biến": "Escrow Deposits",
+      "Giá trị đo": "Escrow Deposits",
+      "Đơn vị": "USD",
+      "Tần suất": "Annual",
+      "Loại đo": "Institution"
+    }
+  ],
+  "table_name": "FDIC_SUMMARY_OF_DEPOSITS_ATTRIBUTES",
+  "table_fullname": "FINANCE__ECONOMICS.CYBERSYN.FDIC_SUMMARY_OF_DEPOSITS_ATTRIBUTES",
+  "column_names": [
+    "Tên biến",
+    "Đơn vị",
+    "Giá trị đo",
+    "Biến",
+    "Loại đo",
+    "Tần suất"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Mô tả dễ đọc về các biến dữ liệu tài chính được FDIC theo dõi.",
+    "Đơn vị mà giá trị đo được được ghi nhận (ví dụ: USD YTD).",
+    "Thuộc tính có thể đo được đang được ghi nhận (ví dụ: Tiền gửi nội địa).",
+    "Định danh duy nhất của FDIC cho dữ liệu tài chính được theo dõi.",
+    "Phân loại cho biết mức độ mà biến được FDIC theo dõi, có thể ở mức \"Institution\" hoặc \"Branch\".",
+    "Tần suất tổng hợp dữ liệu (ví dụ: Hàng năm)."
+  ]
+}
