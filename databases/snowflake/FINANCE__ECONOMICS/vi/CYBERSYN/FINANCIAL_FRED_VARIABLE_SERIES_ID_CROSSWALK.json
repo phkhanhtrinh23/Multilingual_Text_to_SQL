@@ -1,0 +1,46 @@
+{
+  "sample_rows": [
+    {
+      "Mã địa lý": "country/USA",
+      "Biến": "Industrial_Production:_Nondurable_Goods_Materials,_Seasonally_adjusted,_Monthly,_Index_2017=100",
+      "Mã chuỗi": "IPNMAT"
+    },
+    {
+      "Mã địa lý": "country/USA",
+      "Biến": "Industrial_Production:_Nondurable_Energy_Consumer_Goods:_Fuels,_Seasonally_adjusted,_Monthly,_Index_2017=100",
+      "Mã chuỗi": "IPFUELS"
+    },
+    {
+      "Mã địa lý": "country/USA",
+      "Biến": "Assets:_Liquidity_and_Credit_Facilities:_Net_Portfolio_Holdings_of_MS_Facilities_2020_LLC_(Main_Street_Lending_Program):_Wednesday_Level_in_Federal_Reserve_District_7:_Chicago,_Not_seasonally_adjusted,_Weekly,_USD",
+      "Mã chuỗi": "H41RESPPAAEF07NWW"
+    },
+    {
+      "Mã địa lý": "country/USA",
+      "Biến": "Layoffs_and_Discharges:_Total_Nonfarm,_Seasonally_adjusted,_Monthly,_Level_in_Thousands",
+      "Mã chuỗi": "JTSLDL"
+    },
+    {
+      "Mã địa lý": "country/USA",
+      "Biến": "New_Privately-Owned_Housing_Units_Authorized_in_Permit-Issuing_Places:_Units_in_Buildings_with_2-4_Units,_Seasonally_adjusted_annual_rate,_Monthly,_Units",
+      "Mã chuỗi": "PERMIT24"
+    }
+  ],
+  "table_name": "FINANCIAL_FRED_VARIABLE_SERIES_ID_CROSSWALK",
+  "table_fullname": "FINANCE__ECONOMICS.CYBERSYN.FINANCIAL_FRED_VARIABLE_SERIES_ID_CROSSWALK",
+  "column_names": [
+    "Mã chuỗi",
+    "Mã địa lý",
+    "Biến"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Định danh chuỗi từ cơ sở dữ liệu FRED. Sự kết hợp giữa geo_id và variable là cần thiết để nhận diện một series_id duy nhất.",
+    "Định danh duy nhất cho một địa điểm có thể ghép nối với bảng timeseries.",
+    "Định danh duy nhất có thể ghép nối với các bảng attributes và timeseries."
+  ]
+}
