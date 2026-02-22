@@ -1,0 +1,46 @@
+{
+  "sample_rows": [
+    {
+      "Mã bưu chính": "12220",
+      "Mã chỉ số": "B25063_019E",
+      "Giá trị dân số theo mã bưu chính": "51.04"
+    },
+    {
+      "Mã bưu chính": "14739",
+      "Mã chỉ số": "B08303_011E",
+      "Giá trị dân số theo mã bưu chính": "47.06"
+    },
+    {
+      "Mã bưu chính": "14702",
+      "Mã chỉ số": "B25063_014E",
+      "Giá trị dân số theo mã bưu chính": "57.18"
+    },
+    {
+      "Mã bưu chính": "13743",
+      "Mã chỉ số": "B08301_017E",
+      "Giá trị dân số theo mã bưu chính": "32.99"
+    },
+    {
+      "Mã bưu chính": "14219",
+      "Mã chỉ số": "B08303_012E",
+      "Giá trị dân số theo mã bưu chính": "124.19"
+    }
+  ],
+  "table_name": "Fact_CensusValues_ACS2021_ByZip",
+  "table_fullname": "CENSUS_GALAXY__AIML_MODEL_DATA_ENRICHMENT_SAMPLE.PUBLIC.Fact_CensusValues_ACS2021_ByZip",
+  "column_names": [
+    "Giá trị dân số theo mã bưu chính",
+    "Mã chỉ số",
+    "Mã bưu chính"
+  ],
+  "column_types": [
+    "NUMBER",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Giá trị Int cho mối quan hệ giữa MetricID và ZipCode. Điều này có thể là tổng hợp hoặc ước tính về số người, thú cưng, hộ gia đình, v.v. Tham khảo bảng Dim_CensusMetrics để biết ý nghĩa của từng giá trị. Tất cả các giá trị đã được gộp lại đúng theo các tỷ lệ trong bảng Xref_TractToZip_Residential.",
+    "Một định danh duy nhất cho một chỉ số hoặc phép đo cụ thể trong American Community Survey hoặc dữ liệu điều tra dân số.",
+    "Một mã bưu điện duy nhất cho một khu vực địa lý."
+  ]
+}
