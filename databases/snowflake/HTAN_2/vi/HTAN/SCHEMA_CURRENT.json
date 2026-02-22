@@ -1,0 +1,102 @@
+{
+  "table_name": "SCHEMA_CURRENT",
+  "table_fullname": "HTAN_2.HTAN.SCHEMA_CURRENT",
+  "column_names": [
+    "Thuộc tính",
+    "Quy tắc xác thực",
+    "Phụ thuộc vào",
+    "Thành phần phụ thuộc",
+    "Bắt buộc",
+    "Các thuộc tính",
+    "Các giá trị hợp lệ",
+    "Mô tả",
+    "Cha",
+    "Nguồn"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Đặc tính chủ chốt của X trong phép thử, giao thức liên quan hoặc dữ liệu hạ nguồn mà chúng ta muốn ghi nhận như một đặc trưng metadata.",
+    "Loại dữ liệu nào được cho phép trong cột Valid Values. Chỉ liên quan nếu cột Valid Values không có mặt trong hàng. Ví dụ: string, list, integer",
+    "Những đặc tính quan trọng, nếu có, của thuộc tính X cần được ghi nhận như các đặc trưng metadata khi thuộc tính X được chỉ định. Những đặc tính này có thể là thuộc tính hoặc đặc tính của thuộc tính (tức là chúng được liệt kê trong cột 'Attribute' và/hoặc dưới cột 'Properties'). Phân cách bằng dấu phẩy.",
+    "Mỗi thành phần là một lớp ontology cấp cao trong đó các thực thể/đối tượng được phân loại/thành phần; một thành phần là một thực thể độc lập cần được định nghĩa trong schema.",
+    "Xác định xem việc chỉ định giá trị cho thuộc tính X là bắt buộc hay tùy chọn theo mặc định. Đặt thành TRUE hoặc FALSE. Nếu TRUE, người đóng góp dữ liệu phải cung cấp một giá trị cho thuộc tính X (ví dụ một trong các 'Valid Values', nếu có). Nếu FALSE, người đóng góp dữ liệu có thể chọn giữa 'Not Applicable' hoặc 'Not Specified' làm giá trị cho thuộc tính X. Lưu ý rằng một thuộc tính có thể không bắt buộc theo mặc định (tức là 'Required' được đặt là FALSE), nhưng nó có thể bị bắt buộc vì là thuộc tính của một thuộc tính bắt buộc khác (ví dụ xem ERCC).",
+    "Các thuộc tính đặc thù cho một thuộc tính cụ thể; lưu ý rằng các thuộc tính có thể là các thuộc tính tự chúng (tức là được liệt kê dưới cột 'Attributes').",
+    "Phạm vi của attribute X: các giá trị có thể được gán cho attribute X; các giá trị này có thể bao gồm/là các thuộc tính khác (tức là chính chúng được liệt kê trong các cột 'Attribute'). Phân tách bằng dấu phẩy. Nếu không có giá trị nào được cung cấp, bất kỳ giá trị không null nào đều hợp lệ cho attribute X.",
+    "Cung cấp một định nghĩa hoặc tham chiếu chứa định nghĩa của thuộc tính X. Ưu tiên cung cấp liên kết ontology nguồn hoặc mã nguồn ontology cùng với định nghĩa. Để trống nếu mô tả cuối cùng đang chờ xử lý.",
+    "Lớp cha của thuộc tính này - tức là nơi để 'hook' thuộc tính này vào một schema hiện có. Lưu ý điều này giả định một schema hiện có duy nhất/một ngữ cảnh json-ld schema duy nhất; nếu chúng ta cần hỗ trợ các lớp/thuộc tính/thuộc tính được định nghĩa trên nhiều schemas/json-ld khác nhau sẽ cần thêm một cột schema/ngữ cảnh để xác định ngữ cảnh của mỗi thuộc tính, nếu khác với ngữ cảnh của cha thuộc tính.",
+    "Nguồn tham chiếu cho mô tả của thuật ngữ này, thường là một URI. Ontologies có thể được dùng làm nguồn. Ví dụ: Phương pháp xây dựng thư viện có nguồn: http://purl.obolibrary.org/obo/OBI_0000711"
+  ],
+  "sample_rows": [
+    {
+      "Thuộc tính": "Component",
+      "Mô tả": "Category of metadata (e.g. Diagnosis, Biospecimen, scRNA-seq Level 1, etc.); provide the same one for all items/rows.",
+      "Các giá trị hợp lệ": null,
+      "Phụ thuộc vào": null,
+      "Các thuộc tính": null,
+      "Bắt buộc": "TRUE",
+      "Cha": null,
+      "Thành phần phụ thuộc": null,
+      "Nguồn": "https://w3id.org/biolink/vocab/category",
+      "Quy tắc xác thực": null
+    },
+    {
+      "Thuộc tính": "Spike In Concentration",
+      "Mô tả": "The final concentration or dilution (for commercial sets) of the spike in mix [PMID:21816910]",
+      "Các giá trị hợp lệ": null,
+      "Phụ thuộc vào": null,
+      "Các thuộc tính": null,
+      "Bắt buộc": "TRUE",
+      "Cha": "ERCC",
+      "Thành phần phụ thuộc": null,
+      "Nguồn": "https://www.ncbi.nlm.nih.gov/pubmed/21816910",
+      "Quy tắc xác thực": null
+    },
+    {
+      "Thuộc tính": "HTAN Parent Data File ID",
+      "Mô tả": "HTAN Data File Identifier indicating the file(s) from which these files were derived",
+      "Các giá trị hợp lệ": null,
+      "Phụ thuộc vào": null,
+      "Các thuộc tính": null,
+      "Bắt buộc": "TRUE",
+      "Cha": "File",
+      "Thành phần phụ thuộc": null,
+      "Nguồn": null,
+      "Quy tắc xác thực": null
+    },
+    {
+      "Thuộc tính": "PhysicalSizeXUnit",
+      "Mô tả": "The units of the physical size of a pixel. See OME enumeration of allowed values for the UnitsLength attribute -- default: microns (um)",
+      "Các giá trị hợp lệ": "cm, mm, µm, nm, Å",
+      "Phụ thuộc vào": null,
+      "Các thuộc tính": null,
+      "Bắt buộc": "TRUE",
+      "Cha": "Imaging",
+      "Thành phần phụ thuộc": null,
+      "Nguồn": "https://www.miti-consortium.org/",
+      "Quy tắc xác thực": null
+    },
+    {
+      "Thuộc tính": "Imaging Object Class Description",
+      "Mô tả": "Free text description of object class [string]",
+      "Các giá trị hợp lệ": null,
+      "Phụ thuộc vào": null,
+      "Các thuộc tính": null,
+      "Bắt buộc": "TRUE",
+      "Cha": "Imaging",
+      "Thành phần phụ thuộc": null,
+      "Nguồn": "https://www.miti-consortium.org/",
+      "Quy tắc xác thực": null
+    }
+  ]
+}
