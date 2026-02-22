@@ -1,0 +1,78 @@
+{
+  "sample_rows": [
+    {
+      "Tên địa danh": "Bureau County",
+      "ID địa danh": "geoId/17011",
+      "Cấp độ": "County",
+      "Tên địa danh liên quan": "61317",
+      "ID địa danh liên quan": "zip/61317",
+      "Cấp độ liên quan": "CensusZipCodeTabulationArea",
+      "Loại quan hệ": "Contains"
+    },
+    {
+      "Tên địa danh": "Census Tract 8, Geary County, Kansas",
+      "ID địa danh": "geoId/20061000800",
+      "Cấp độ": "CensusTract",
+      "Tên địa danh liên quan": "67487",
+      "ID địa danh liên quan": "zip/67487",
+      "Cấp độ liên quan": "CensusZipCodeTabulationArea",
+      "Loại quan hệ": "Overlaps"
+    },
+    {
+      "Tên địa danh": "Canada",
+      "ID địa danh": "country/CAN",
+      "Cấp độ": "Country",
+      "Tên địa danh liên quan": "24180065",
+      "ID địa danh liên quan": "statcanId/S051224180065",
+      "Cấp độ liên quan": "DisseminationArea",
+      "Loại quan hệ": "Contains"
+    },
+    {
+      "Tên địa danh": "California",
+      "ID địa danh": "geoId/06",
+      "Cấp độ": "State",
+      "Tên địa danh liên quan": "Census Tract 4087.07, Los Angeles County, California",
+      "ID địa danh liên quan": "geoId/06037408707",
+      "Cấp độ liên quan": "CensusTract",
+      "Loại quan hệ": "Contains"
+    },
+    {
+      "Tên địa danh": "04346",
+      "ID địa danh": "zip/04346",
+      "Cấp độ": "CensusZipCodeTabulationArea",
+      "Tên địa danh liên quan": "United States",
+      "ID địa danh liên quan": "country/USA",
+      "Cấp độ liên quan": "Country",
+      "Loại quan hệ": "Overlaps"
+    }
+  ],
+  "table_name": "GEOGRAPHY_RELATIONSHIPS",
+  "table_fullname": "GLOBAL_GOVERNMENT.CYBERSYN.GEOGRAPHY_RELATIONSHIPS",
+  "column_names": [
+    "Tên địa danh liên quan",
+    "Cấp độ liên quan",
+    "Loại quan hệ",
+    "ID địa danh liên quan",
+    "ID địa danh",
+    "Cấp độ",
+    "Tên địa danh"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Tên của địa điểm liên quan đến GEO_NAME. Đây là một địa điểm chồng chéo lên hoặc nằm trong phạm vi của địa lý chính (ví dụ: thành phố nằm trong một bang)",
+    "Cấp độ địa lý hoặc hệ thống phân cấp của địa điểm liên quan (ví dụ: Quốc gia, Bang, Hạt, Thành phố, Châu lục, CountrySubRegion, v.v.)",
+    "Quan hệ giữa hai địa điểm. 'Chứa' có nghĩa là RELATED_GEO_ID được chứa hoàn toàn trong GEO_ID (ví dụ: quan hệ của bang đối với thành phố) trong khi 'Chồng lấp' cho thấy GEO_ID là một phần con của RELATED_GEO_ID (ví dụ: quan hệ của thành phố với một bang)",
+    "Một định danh duy nhất cho địa điểm liên quan có thể ghép nối với bảng GEOGRAPHY_INDEX",
+    "Một định danh duy nhất cho một địa điểm có thể ghép nối với bảng GEOGRAPHY_INDEX",
+    "Cấp độ địa lý hoặc hệ thống phân cấp (ví dụ: Quốc gia, Bang, Hạt, Thành phố, Châu lục, CountrySubRegion, v.v.)",
+    "Tên đầy đủ của địa điểm"
+  ]
+}
