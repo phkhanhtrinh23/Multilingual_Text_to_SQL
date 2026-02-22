@@ -1,0 +1,110 @@
+{
+  "sample_rows": [
+    {
+      "Loại chuyến bay": "28ad3b116a705f65fd2a9df6bec3f49f",
+      "Mã hãng hàng không": "06964_12",
+      "Mã máy bay": "3501",
+      "Mã sân bay xuất phát": "90530OOK",
+      "Mã sân bay đến": "10360BET",
+      "Lớp dịch vụ": "Non-Scheduled Civilian Passenger Service",
+      "Biến": "RAMP_IN_MINUTES",
+      "Tên biến": "Ramp to Ramp Time",
+      "Ngày": "2010-08-31",
+      "Giá trị": 56.0,
+      "Đơn vị": "Minutes"
+    },
+    {
+      "Loại chuyến bay": "cf4b7309ce4884368d51a7e51942e1b9",
+      "Mã hãng hàng không": "06820_32",
+      "Mã máy bay": "67761",
+      "Mã sân bay xuất phát": "33342MKE",
+      "Mã sân bay đến": "30977ORD",
+      "Lớp dịch vụ": "Scheduled Passenger/Cargo Service",
+      "Biến": "RAMP_IN_MINUTES",
+      "Tên biến": "Ramp to Ramp Time",
+      "Ngày": "2022-08-31",
+      "Giá trị": 129.0,
+      "Đơn vị": "Minutes"
+    },
+    {
+      "Loại chuyến bay": "f367e322ca9c2659c07cc794f71f1d91",
+      "Mã hãng hàng không": "07028_22",
+      "Mã máy bay": "3161",
+      "Mã sân bay xuất phát": "30781BTR",
+      "Mã sân bay đến": "31057CLT",
+      "Lớp dịch vụ": "Scheduled Passenger/Cargo Service",
+      "Biến": "AVAILABLE_CAPACITY_PAYLOAD_POUNDS",
+      "Tên biến": "Available Payload",
+      "Ngày": "2018-12-31",
+      "Giá trị": 17600.0,
+      "Đơn vị": "Pounds"
+    },
+    {
+      "Loại chuyến bay": "c9dd4f9fc360815254514841363591c7",
+      "Mã hãng hàng không": "01220_31",
+      "Mã máy bay": "61661",
+      "Mã sân bay xuất phát": "31703EWR",
+      "Mã sân bay đến": "30792BUF",
+      "Lớp dịch vụ": "Scheduled Passenger/Cargo Service",
+      "Biến": "DEPARTURES_PERFORMED",
+      "Tên biến": "Departures Performed",
+      "Ngày": "2001-02-28",
+      "Giá trị": 17.0,
+      "Đơn vị": "Count"
+    },
+    {
+      "Loại chuyến bay": "43c78ee4a763fae537e32de92c688134",
+      "Mã hãng hàng không": "06860_12",
+      "Mã máy bay": "41641",
+      "Mã sân bay xuất phát": "32122HGZ",
+      "Mã sân bay đến": "32214HSL",
+      "Lớp dịch vụ": "Scheduled Passenger/Cargo Service",
+      "Biến": "MAIL_TRANSPORTED",
+      "Tên biến": "Non-Stop Segment Mail Transported",
+      "Ngày": "2003-06-30",
+      "Giá trị": 1121.0,
+      "Đơn vị": "Pounds"
+    }
+  ],
+  "table_name": "US_DEPARTMENT_OF_TRANSPORTATION_TIMESERIES",
+  "table_fullname": "GLOBAL_GOVERNMENT.CYBERSYN.US_DEPARTMENT_OF_TRANSPORTATION_TIMESERIES",
+  "column_names": [
+    "Loại chuyến bay",
+    "Mã máy bay",
+    "Mã sân bay đến",
+    "Đơn vị",
+    "Giá trị",
+    "Ngày",
+    "Lớp dịch vụ",
+    "Tên biến",
+    "Mã sân bay xuất phát",
+    "Biến",
+    "Mã hãng hàng không"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "FLOAT",
+    "DATE",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Một mã băm duy nhất cho sự kết hợp giữa sân bay khởi hành và sân bay đến, các hãng hàng không và máy bay. Primary key phản ánh mẫu chuyến bay.",
+    "ID cho loại máy bay, một mô hình đặc biệt do nhà sản xuất chỉ định.",
+    "ID cho sân bay đến là một phần của tuyến bay đang được đo, sự kết hợp của mã DOT duy nhất và mã OAG ba chữ cái chính thức được cấp cho sân bay đó.",
+    "Đơn vị đo cho giá trị được báo cáo.",
+    "Giá trị được báo cáo cho biến.",
+    "Ngày liên quan đến giá trị.",
+    "Loại dịch vụ mà hãng hàng không cung cấp trên một chuyến bay cụ thể, phân biệt giữa dịch vụ có lịch trình và dịch vụ không có lịch trình, và loại dịch vụ.",
+    "Tên duy nhất dễ đọc cho biến.",
+    "ID cho sân bay khởi hành là một phần của tuyến bay đang được đo, sự kết hợp của mã DOT duy nhất và mã OAG ba chữ cái chính thức được cấp cho sân bay đó.",
+    "Định danh duy nhất cho một biến, có thể ghép nối với bảng chuỗi thời gian.",
+    "ID cho hãng hàng không."
+  ]
+}
