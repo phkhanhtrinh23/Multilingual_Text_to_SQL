@@ -1,0 +1,78 @@
+{
+  "sample_rows": [
+    {
+      "mã tổ chức FDIC": "2239",
+      "mã chi nhánh FDIC": "286466",
+      "biến": "DEPSUMBR",
+      "tên biến": "Branch Deposits",
+      "ngày": "2023-06-30",
+      "giá trị": 119632,
+      "đơn vị": "USD"
+    },
+    {
+      "mã tổ chức FDIC": "6499",
+      "mã chi nhánh FDIC": "6499",
+      "biến": "DEPSUMBR",
+      "tên biến": "Branch Deposits",
+      "ngày": "2017-06-30",
+      "giá trị": 59230,
+      "đơn vị": "USD"
+    },
+    {
+      "mã tổ chức FDIC": "417",
+      "mã chi nhánh FDIC": "481396",
+      "biến": "DEPSUMBR",
+      "tên biến": "Branch Deposits",
+      "ngày": "2014-06-30",
+      "giá trị": 35943,
+      "đơn vị": "USD"
+    },
+    {
+      "mã tổ chức FDIC": "3123",
+      "mã chi nhánh FDIC": "203999",
+      "biến": "DEPSUMBR",
+      "tên biến": "Branch Deposits",
+      "ngày": "2016-06-30",
+      "giá trị": 85928,
+      "đơn vị": "USD"
+    },
+    {
+      "mã tổ chức FDIC": "745",
+      "mã chi nhánh FDIC": "745",
+      "biến": "ASSET",
+      "tên biến": "Institutional Assets",
+      "ngày": "2007-06-30",
+      "giá trị": 133714,
+      "đơn vị": "USD"
+    }
+  ],
+  "table_name": "FDIC_SUMMARY_OF_DEPOSITS_TIMESERIES",
+  "table_fullname": "FINANCE__ECONOMICS.CYBERSYN.FDIC_SUMMARY_OF_DEPOSITS_TIMESERIES",
+  "column_names": [
+    "giá trị",
+    "ngày",
+    "mã tổ chức FDIC",
+    "đơn vị",
+    "biến",
+    "mã chi nhánh FDIC",
+    "tên biến"
+  ],
+  "column_types": [
+    "NUMBER",
+    "DATE",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Giá trị được báo cáo cho biến.",
+    "Ngày liên quan đến giá trị.",
+    "Mã FDIC ID duy nhất của tổ chức sở hữu chi nhánh, là một số duy nhất được thêm vào cơ sở dữ liệu FDIC cho cả ngân hàng và chi nhánh theo thứ tự, và được cập nhật với mọi sự sáp nhập hoặc mua lại chi nhánh để phản ánh chủ sở hữu hiện tại.",
+    "Đơn vị ghi nhận phép đo (ví dụ: USD YTD).",
+    "Định danh FDIC duy nhất cho dữ liệu tài chính được theo dõi.",
+    "Số nhận diện duy nhất của FDIC cho ngân hàng hoặc tổ chức tiết kiệm được FDIC chỉ định để nhận diện và theo dõi; ID chi nhánh cho chi nhánh trụ sở chính bằng với ID chi nhánh cho toàn bộ ngân hàng hoặc tổ chức tiết kiệm.",
+    "Mô tả dễ hiểu về các biến dữ liệu tài chính được FDIC theo dõi."
+  ]
+}
