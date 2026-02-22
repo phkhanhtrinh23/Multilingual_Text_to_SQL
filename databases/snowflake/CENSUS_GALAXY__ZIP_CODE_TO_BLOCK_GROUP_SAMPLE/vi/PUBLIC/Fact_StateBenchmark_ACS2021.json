@@ -1,0 +1,70 @@
+{
+  "sample_rows": [
+    {
+      "Mã FIPS bang": "36",
+      "Ký hiệu bang": "NY",
+      "Mã chỉ số": "B25075_011E",
+      "Giá trị chuẩn của bang": 61829.0,
+      "Tổng dân số bang": 20114745,
+      "Tổng dân số Hoa Kỳ": 333036755
+    },
+    {
+      "Mã FIPS bang": "36",
+      "Ký hiệu bang": "NY",
+      "Mã chỉ số": "B25063_023E",
+      "Giá trị chuẩn của bang": 366764.0,
+      "Tổng dân số bang": 20114745,
+      "Tổng dân số Hoa Kỳ": 333036755
+    },
+    {
+      "Mã FIPS bang": "36",
+      "Ký hiệu bang": "NY",
+      "Mã chỉ số": "B19051_001E",
+      "Giá trị chuẩn của bang": 7530150.0,
+      "Tổng dân số bang": 20114745,
+      "Tổng dân số Hoa Kỳ": 333036755
+    },
+    {
+      "Mã FIPS bang": "36",
+      "Ký hiệu bang": "NY",
+      "Mã chỉ số": "B08301_009E",
+      "Giá trị chuẩn của bang": 11819.0,
+      "Tổng dân số bang": 20114745,
+      "Tổng dân số Hoa Kỳ": 333036755
+    },
+    {
+      "Mã FIPS bang": "36",
+      "Ký hiệu bang": "NY",
+      "Mã chỉ số": "B11012_016E",
+      "Giá trị chuẩn của bang": 214963.0,
+      "Tổng dân số bang": 20114745,
+      "Tổng dân số Hoa Kỳ": 333036755
+    }
+  ],
+  "table_name": "Fact_StateBenchmark_ACS2021",
+  "table_fullname": "CENSUS_GALAXY__ZIP_CODE_TO_BLOCK_GROUP_SAMPLE.PUBLIC.Fact_StateBenchmark_ACS2021",
+  "column_names": [
+    "Tổng dân số bang",
+    "Mã chỉ số",
+    "Giá trị chuẩn của bang",
+    "Tổng dân số Hoa Kỳ",
+    "Mã FIPS bang",
+    "Ký hiệu bang"
+  ],
+  "column_types": [
+    "NUMBER",
+    "TEXT",
+    "FLOAT",
+    "NUMBER",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Dân số của bang hoặc lãnh thổ tổng cộng bằng cách sử dụng MetricID = “B01003_001E”, được gọi là “Total Population” trong mỗi hệ thống điều tra dân số. Điều này được sử dụng như một cột GroupBy hoặc tổng hợp.",
+    "Một định danh duy nhất cho một chỉ số hoặc phép đo cụ thể trong Khảo sát Cộng đồng Mỹ (ACS) hoặc dữ liệu điều tra dân số.",
+    "Giá trị nguyên (Int) cho mối quan hệ giữa MetricID và StateAbbrev. Điều này có thể là tổng hợp hoặc ước tính về số người, thú cưng, hộ gia đình, v.v. Xem bảng Dim_CensusMetrics để biết ý nghĩa của từng giá trị. Tất cả các giá trị đã được gộp đúng theo cấp Census trong bảng Dim_CensusGeography.",
+    "Dân số Hoa Kỳ toàn bộ bằng cách sử dụng MetricID = “B01003_001E”, được gọi là “Total Population” trong mỗi hệ thống điều tra dân số. Điều này được sử dụng như một cột GroupBy hoặc tổng hợp.",
+    "Mã Tiêu chuẩn Xử lý Thông tin Liên bang (FIPS) đại diện cho tiểu bang nơi nhóm khối dân cư (block group) nằm.",
+    "Viết tắt hai chữ cái cho mỗi bang và lãnh thổ của Hoa Kỳ."
+  ]
+}
