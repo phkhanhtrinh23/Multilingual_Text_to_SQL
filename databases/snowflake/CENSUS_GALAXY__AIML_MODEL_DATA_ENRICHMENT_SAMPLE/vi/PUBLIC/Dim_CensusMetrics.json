@@ -1,0 +1,102 @@
+{
+  "sample_rows": [
+    {
+      "Mã chỉ số": "B01002_002E",
+      "Loại": "Estimate",
+      "Mã bảng chỉ số": "B01002",
+      "Mô tả bảng chỉ số": "Median age of the population categorized by sex",
+      "Loại đơn vị đo": "Aggregate",
+      "Danh mục chỉ số": "Demographics",
+      "Nhóm chỉ số": "Essential",
+      "Mô tả 1": "Male",
+      "Mô tả 2": "",
+      "Mô tả 3": ""
+    },
+    {
+      "Mã chỉ số": "B19051_001E",
+      "Loại": "Estimate",
+      "Mã bảng chỉ số": "B19051",
+      "Mô tả bảng chỉ số": "Earnings of households in the past 12 months",
+      "Loại đơn vị đo": "People",
+      "Danh mục chỉ số": "Income",
+      "Nhóm chỉ số": "Essential",
+      "Mô tả 1": "",
+      "Mô tả 2": "",
+      "Mô tả 3": ""
+    },
+    {
+      "Mã chỉ số": "B19051_002E",
+      "Loại": "Estimate",
+      "Mã bảng chỉ số": "B19051",
+      "Mô tả bảng chỉ số": "Earnings of households in the past 12 months",
+      "Loại đơn vị đo": "People",
+      "Danh mục chỉ số": "Income",
+      "Nhóm chỉ số": "Essential",
+      "Mô tả 1": "With earnings",
+      "Mô tả 2": "",
+      "Mô tả 3": ""
+    },
+    {
+      "Mã chỉ số": "B19051_003E",
+      "Loại": "Estimate",
+      "Mã bảng chỉ số": "B19051",
+      "Mô tả bảng chỉ số": "Earnings of households in the past 12 months",
+      "Loại đơn vị đo": "People",
+      "Danh mục chỉ số": "Income",
+      "Nhóm chỉ số": "Essential",
+      "Mô tả 1": "No earnings",
+      "Mô tả 2": "",
+      "Mô tả 3": ""
+    },
+    {
+      "Mã chỉ số": "B11012_001E",
+      "Loại": "Estimate",
+      "Mã bảng chỉ số": "B11012",
+      "Mô tả bảng chỉ số": "Different types of households based on size and type",
+      "Loại đơn vị đo": "People",
+      "Danh mục chỉ số": "Housing",
+      "Nhóm chỉ số": "Essential",
+      "Mô tả 1": "",
+      "Mô tả 2": "",
+      "Mô tả 3": ""
+    }
+  ],
+  "table_name": "Dim_CensusMetrics",
+  "table_fullname": "CENSUS_GALAXY__AIML_MODEL_DATA_ENRICHMENT_SAMPLE.PUBLIC.Dim_CensusMetrics",
+  "column_names": [
+    "Danh mục chỉ số",
+    "Loại",
+    "Mô tả 2",
+    "Mô tả bảng chỉ số",
+    "Mã bảng chỉ số",
+    "Mã chỉ số",
+    "Mô tả 1",
+    "Mô tả 3",
+    "Nhóm chỉ số",
+    "Loại đơn vị đo"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Danh mục hoặc phân loại của thước đo, nhóm các thước đo liên quan lại với nhau.",
+    "Loại hoặc bản chất của thước đo, chỉ ra loại dữ liệu mà nó đại diện, như dân số, nhà ở, giáo dục, việc làm, v.v.",
+    "Thuộc tính mô tả bổ sung hoặc đặc tính liên quan đến thước đo, cung cấp chi tiết cụ thể hơn.",
+    "Mô tả hoặc nhãn cho bảng hoặc tập dữ liệu trong American Community Survey hoặc dữ liệu census nơi thước đo được lưu trữ.",
+    "Một định danh duy nhất cho bảng hoặc tập dữ liệu trong American Community Survey hoặc census data nơi thước đo được lưu trữ.",
+    "Một định danh duy nhất cho một thước đo hoặc đo lường cụ thể trong American Community Survey hoặc census data.",
+    "Một thuộc tính mô tả hoặc đặc tính liên quan đến thước đo, cung cấp thông tin hoặc ngữ cảnh bổ sung.",
+    "Một thuộc tính mô tả khác hoặc đặc tính liên quan đến thước đo, cung cấp thêm cái nhìn sâu sắc hoặc chi tiết.",
+    "Nhóm sản phẩm do No Fret Data quyết định, liên quan đến triển khai và lộ trình của Census Galaxy.",
+    "Loại dữ liệu được lưu trong CensusValue cho mỗi MetricID. Quan trọng khi xem trường này khi nhóm và tổng hợp các giá trị lên hoặc xuống các mức địa lý, vì một số là số đếm thô và số khác là trung bình hoặc trung vị."
+  ]
+}
