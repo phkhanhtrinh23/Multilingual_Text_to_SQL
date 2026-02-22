@@ -1,0 +1,46 @@
+{
+  "sample_rows": [
+    {
+      "Mã nhóm khu phố": "361031471003",
+      "Mã chỉ số": "B11012_008E",
+      "Giá trị điều tra dân số": 20.0
+    },
+    {
+      "Mã nhóm khu phố": "361031471003",
+      "Mã chỉ số": "B11012_010E",
+      "Giá trị điều tra dân số": 0.0
+    },
+    {
+      "Mã nhóm khu phố": "361031471003",
+      "Mã chỉ số": "B11012_011E",
+      "Giá trị điều tra dân số": 6.0
+    },
+    {
+      "Mã nhóm khu phố": "361031471003",
+      "Mã chỉ số": "B11012_012E",
+      "Giá trị điều tra dân số": 5.0
+    },
+    {
+      "Mã nhóm khu phố": "361031471003",
+      "Mã chỉ số": "B11012_014E",
+      "Giá trị điều tra dân số": 9.0
+    }
+  ],
+  "table_name": "Fact_CensusValues_ACS2021",
+  "table_fullname": "CENSUS_GALAXY__AIML_MODEL_DATA_ENRICHMENT_SAMPLE.PUBLIC.Fact_CensusValues_ACS2021",
+  "column_names": [
+    "Giá trị điều tra dân số",
+    "Mã nhóm khu phố",
+    "Mã chỉ số"
+  ],
+  "column_types": [
+    "FLOAT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Giá trị Int cho mối quan hệ giữa MetricID và BlockGroupID. Điều này có thể là tổng hợp hoặc ước tính về số người, thú cưng, hộ gia đình, v.v. Tham khảo bảng Dim_CensusMetrics để biết ý nghĩa của từng giá trị.",
+    "Một định danh duy nhất cho một block group cụ thể trong một khu vực địa lý.",
+    "Một định danh duy nhất cho một chỉ số hoặc thước đo cụ thể trong Khảo sát Cộng đồng Mỹ hoặc dữ liệu điều tra dân số."
+  ]
+}
