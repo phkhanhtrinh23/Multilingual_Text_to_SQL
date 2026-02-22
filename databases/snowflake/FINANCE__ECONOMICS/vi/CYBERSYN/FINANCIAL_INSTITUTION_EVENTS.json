@@ -1,0 +1,110 @@
+{
+  "sample_rows": [
+    {
+      "Mã RSSD của người kế vị": 3076453,
+      "Tên người kế vị": "California Bank of Commerce, National Association",
+      "Người kế vị đang hoạt động": true,
+      "Danh mục người kế vị": "Bank",
+      "Mã RSSD của người tiền nhiệm": 3302312,
+      "Tên người tiền nhiệm": "Bank of Santa Clarita",
+      "Người tiền nhiệm đang hoạt động": true,
+      "Danh mục người tiền nhiệm": "Branch",
+      "Ngày giao dịch": "2021-10-02",
+      "Loại biến đổi": "Charter Discontinued",
+      "Phương pháp kế toán hợp nhất được sử dụng": "Purchase/Acquisition"
+    },
+    {
+      "Mã RSSD của người kế vị": 139656,
+      "Tên người kế vị": "Equity Bank",
+      "Người kế vị đang hoạt động": true,
+      "Danh mục người kế vị": "Bank",
+      "Mã RSSD của người tiền nhiệm": 422059,
+      "Tên người tiền nhiệm": "KansasLand Bank",
+      "Người tiền nhiệm đang hoạt động": false,
+      "Danh mục người tiền nhiệm": "Branch",
+      "Ngày giao dịch": "2024-07-02",
+      "Loại biến đổi": "Charter Discontinued",
+      "Phương pháp kế toán hợp nhất được sử dụng": "Purchase/Acquisition"
+    },
+    {
+      "Mã RSSD của người kế vị": 3076453,
+      "Tên người kế vị": "California Bank of Commerce, National Association",
+      "Người kế vị đang hoạt động": true,
+      "Danh mục người kế vị": "Bank",
+      "Mã RSSD của người tiền nhiệm": 2704740,
+      "Tên người tiền nhiệm": "Frontier Bank, FSB",
+      "Người tiền nhiệm đang hoạt động": false,
+      "Danh mục người tiền nhiệm": "Bank",
+      "Ngày giao dịch": "2014-11-08",
+      "Loại biến đổi": "Failure",
+      "Phương pháp kế toán hợp nhất được sử dụng": null
+    },
+    {
+      "Mã RSSD của người kế vị": 213248,
+      "Tên người kế vị": "Firstar Bank Council Bluffs",
+      "Người kế vị đang hoạt động": false,
+      "Danh mục người kế vị": "Branch",
+      "Mã RSSD của người tiền nhiệm": 467649,
+      "Tên người tiền nhiệm": "Firstar Bank Red Oak, National Association",
+      "Người tiền nhiệm đang hoạt động": false,
+      "Danh mục người tiền nhiệm": "Branch",
+      "Ngày giao dịch": "1995-08-28",
+      "Loại biến đổi": "Charter Discontinued",
+      "Phương pháp kế toán hợp nhất được sử dụng": "Pooling of interests or entities under common control."
+    },
+    {
+      "Mã RSSD của người kế vị": 363835,
+      "Tên người kế vị": "First of America Bank-Illinois, National Association",
+      "Người kế vị đang hoạt động": false,
+      "Danh mục người kế vị": "Branch",
+      "Mã RSSD của người tiền nhiệm": 794130,
+      "Tên người tiền nhiệm": "First of America Bank - Grayslake, National Association",
+      "Người tiền nhiệm đang hoạt động": false,
+      "Danh mục người tiền nhiệm": "Branch",
+      "Ngày giao dịch": "1989-06-04",
+      "Loại biến đổi": "Charter Discontinued",
+      "Phương pháp kế toán hợp nhất được sử dụng": null
+    }
+  ],
+  "table_name": "FINANCIAL_INSTITUTION_EVENTS",
+  "table_fullname": "FINANCE__ECONOMICS.CYBERSYN.FINANCIAL_INSTITUTION_EVENTS",
+  "column_names": [
+    "Tên người kế vị",
+    "Loại biến đổi",
+    "Danh mục người kế vị",
+    "Danh mục người tiền nhiệm",
+    "Tên người tiền nhiệm",
+    "Phương pháp kế toán hợp nhất được sử dụng",
+    "Người kế vị đang hoạt động",
+    "Mã RSSD của người tiền nhiệm",
+    "Ngày giao dịch",
+    "Mã RSSD của người kế vị",
+    "Người tiền nhiệm đang hoạt động"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "BOOLEAN",
+    "NUMBER",
+    "DATE",
+    "NUMBER",
+    "BOOLEAN"
+  ],
+  "description": [
+    "Tên của thực thể kế nhiệm",
+    "Mô tả của sự biến đổi",
+    "Danh mục cấp cao của cơ cấu pháp lý của thực thể kế nhiệm",
+    "Danh mục cấp cao của cơ cấu pháp lý của thực thể tiền nhiệm",
+    "Tên của thực thể tiền nhiệm",
+    "Phương pháp kế toán được sử dụng trong việc xử lý một sáp nhập không thất bại",
+    "Cờ cho biết thực thể kế nhiệm có hoạt động hay không",
+    "Định danh duy nhất cho thực thể tiền nhiệm có thể nối với bảng entities",
+    "Ngày giao dịch",
+    "Định danh duy nhất cho thực thể kế nhiệm có thể nối với bảng entities",
+    "Cờ cho biết thực thể tiền nhiệm có hoạt động hay không"
+  ]
+}
