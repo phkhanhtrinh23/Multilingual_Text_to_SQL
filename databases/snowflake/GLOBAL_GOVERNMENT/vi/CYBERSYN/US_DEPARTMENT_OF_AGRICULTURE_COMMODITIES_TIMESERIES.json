@@ -1,0 +1,86 @@
+{
+  "sample_rows": [
+    {
+      "Mã địa lý": "country/DEU",
+      "Biến": "ESR_corn_accumulated_exports",
+      "Tên biến": "Corn: Accumulated Exports",
+      "Ngày": "1999-04-01",
+      "Giá trị": 3505.0,
+      "Đơn vị": "Metric Tons",
+      "Năm dương lịch": "1970-01-01",
+      "Năm tiếp thị": "1999"
+    },
+    {
+      "Mã địa lý": "country/BMU",
+      "Biến": "ESR_rice_lg_brown_current_market_year_total_commitment",
+      "Tên biến": "Rice-LG Brown: Current Market Year Total Commitment",
+      "Ngày": "2009-09-10",
+      "Giá trị": 18.0,
+      "Đơn vị": "Metric Tons",
+      "Năm dương lịch": "1970-01-01",
+      "Năm tiếp thị": "2010"
+    },
+    {
+      "Mã địa lý": "country/SEN",
+      "Biến": "PSD-4234000-088",
+      "Tên biến": "Peanut Oil: Exports",
+      "Ngày": "2015-03-01",
+      "Giá trị": 35000.0,
+      "Đơn vị": "Metric Tons",
+      "Năm dương lịch": "2020-12-31",
+      "Năm tiếp thị": "2015"
+    },
+    {
+      "Mã địa lý": "country/JAM",
+      "Biến": "ESR_soybean_cake__meal_next_market_year_outstanding_sales",
+      "Tên biến": "Soybean cake & meal: Next Market Year Outstanding Sales",
+      "Ngày": "2021-03-25",
+      "Giá trị": 0.0,
+      "Đơn vị": "Metric Tons",
+      "Năm dương lịch": "1970-01-01",
+      "Năm tiếp thị": "2021"
+    },
+    {
+      "Mã địa lý": "country/BEL",
+      "Biến": "ESR_all_upland_cotton_weekly_exports",
+      "Tên biến": "All Upland Cotton: Weekly Exports",
+      "Ngày": "2007-02-08",
+      "Giá trị": 0.0,
+      "Đơn vị": "Running Bales",
+      "Năm dương lịch": "1970-01-01",
+      "Năm tiếp thị": "2007"
+    }
+  ],
+  "table_name": "US_DEPARTMENT_OF_AGRICULTURE_COMMODITIES_TIMESERIES",
+  "table_fullname": "GLOBAL_GOVERNMENT.CYBERSYN.US_DEPARTMENT_OF_AGRICULTURE_COMMODITIES_TIMESERIES",
+  "column_names": [
+    "Tên biến",
+    "Ngày",
+    "Đơn vị",
+    "Mã địa lý",
+    "Biến",
+    "Giá trị",
+    "Năm tiếp thị",
+    "Năm dương lịch"
+  ],
+  "column_types": [
+    "TEXT",
+    "DATE",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "FLOAT",
+    "TEXT",
+    "DATE"
+  ],
+  "description": [
+    "Mô tả dễ hiểu về thuộc tính được báo cáo, bao gồm loại hàng hóa và mô tả những gì được ghi nhận.",
+    "Ngày liên quan đến giá trị (ví dụ, đối với các biến ESR, nó đại diện cho tuần kết thúc doanh số bán hàng). Xem bảng ATTRIBUTES để biết thêm chi tiết.",
+    "Đơn vị đo lường cho giá trị được báo cáo (ví dụ: Tấn).",
+    "Một định danh duy nhất cho một quốc gia có thể kết nối với bảng GEOGRAPHY_INDEX.",
+    "Một định danh duy nhất cho một biến, xác định dataset USDA mà dữ liệu bắt nguồn (ví dụ, ESR - Export Sales Report), hàng hóa liên quan đến biến đó và những gì được đo.",
+    "Giá trị được báo cáo cho biến.",
+    "Năm tiếp thị gắn với các mùa vụ và chu kỳ thu hoạch của một loại cây trồng cụ thể. Năm tiếp thị thường bắt đầu vào tháng khi vụ thu hoạch của một loại cây trồng bắt đầu và kết thúc ngay trước khi vụ thu hoạch của năm tới bắt đầu. Khoảng thời gian này có thể khác biệt đáng kể giữa các loại cây trồng và các nước.",
+    "Năm dương lịch liên quan đến giá trị."
+  ]
+}
