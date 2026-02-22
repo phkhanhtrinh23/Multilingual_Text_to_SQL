@@ -1,0 +1,86 @@
+{
+  "sample_rows": [
+    {
+      "Mã Chứng Khoán": "FAMI",
+      "Loại Tài Sản": "Common Shares",
+      "Mã Sàn Giao Dịch Chính": "NAS",
+      "Tên Sàn Giao Dịch Chính": "NASDAQ CAPITAL MARKET",
+      "Biến": "all-day_high",
+      "Tên Biến": "All-Day High",
+      "Ngày": "2022-08-08",
+      "Giá Trị": 1.19
+    },
+    {
+      "Mã Chứng Khoán": "TIPT",
+      "Loại Tài Sản": "Equity",
+      "Mã Sàn Giao Dịch Chính": "NAS",
+      "Tên Sàn Giao Dịch Chính": "NASDAQ CAPITAL MARKET",
+      "Biến": "nasdaq_volume",
+      "Tên Biến": "Nasdaq Volume",
+      "Ngày": "2023-02-16",
+      "Giá Trị": 17249.0
+    },
+    {
+      "Mã Chứng Khoán": "BLK",
+      "Loại Tài Sản": "Equity",
+      "Mã Sàn Giao Dịch Chính": "NYS",
+      "Tên Sàn Giao Dịch Chính": "NEW YORK STOCK EXCHANGE",
+      "Biến": "post-market_close",
+      "Tên Biến": "Post-Market Close",
+      "Ngày": "2021-04-26",
+      "Giá Trị": 817.51
+    },
+    {
+      "Mã Chứng Khoán": "BRN",
+      "Loại Tài Sản": "Equity",
+      "Mã Sàn Giao Dịch Chính": "ASE",
+      "Tên Sàn Giao Dịch Chính": "NYSE MKT LLC",
+      "Biến": "nasdaq_volume",
+      "Tên Biến": "Nasdaq Volume",
+      "Ngày": "2018-09-18",
+      "Giá Trị": 2028.0
+    },
+    {
+      "Mã Chứng Khoán": "XLP",
+      "Loại Tài Sản": "ETF-Index Fund Shares",
+      "Mã Sàn Giao Dịch Chính": "PSE",
+      "Tên Sàn Giao Dịch Chính": "NYSE ARCA",
+      "Biến": "nasdaq_volume",
+      "Tên Biến": "Nasdaq Volume",
+      "Ngày": "2023-11-16",
+      "Giá Trị": 2373734.0
+    }
+  ],
+  "table_name": "STOCK_PRICE_TIMESERIES",
+  "table_fullname": "FINANCE__ECONOMICS.CYBERSYN.STOCK_PRICE_TIMESERIES",
+  "column_names": [
+    "Tên Sàn Giao Dịch Chính",
+    "Loại Tài Sản",
+    "Giá Trị",
+    "Mã Sàn Giao Dịch Chính",
+    "Biến",
+    "Ngày",
+    "Tên Biến",
+    "Mã Chứng Khoán"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "FLOAT",
+    "TEXT",
+    "TEXT",
+    "DATE",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Tên sàn giao dịch cho địa điểm giao dịch chính của một chứng khoán.",
+    "Loại chứng khoán.",
+    "Giá trị được báo cáo cho biến.",
+    "Mã sàn giao dịch cho địa điểm giao dịch chính của một chứng khoán.",
+    "Định danh duy nhất cho một biến, có thể ghép nối với bảng timeseries.",
+    "Ngày liên quan đến giá trị.",
+    "Tên duy nhất dễ đọc cho biến.",
+    "Mã chữ cái và số đại diện cho một chứng khoán được niêm yết công khai trên sàn NASDAQ."
+  ]
+}
