@@ -1,0 +1,110 @@
+{
+  "sample_rows": [
+    {
+      "Mã công ty": "9cee45c58a4fdb6bb265552a0db62a00",
+      "Tên công ty": "VENDERA RESOURCES VI-A LP",
+      "Cấp độ thực thể": "Corporate",
+      "Mã số nhận diện người sử dụng lao động": null,
+      "Mã CIK": "0002011467",
+      "Mã LEI": null,
+      "Mã công ty PERMID": "5087020389",
+      "Mã chứng khoán chính": null,
+      "Mã sàn giao dịch chính": null,
+      "Tên sàn giao dịch chính": null,
+      "Mã chứng khoán toàn cầu": null
+    },
+    {
+      "Mã công ty": "7766ef904f8648e8b8ac520b7267d5b5",
+      "Tên công ty": "RT-AI I LLC",
+      "Cấp độ thực thể": "Corporate",
+      "Mã số nhận diện người sử dụng lao động": null,
+      "Mã CIK": "0002018929",
+      "Mã LEI": null,
+      "Mã công ty PERMID": "5087193531",
+      "Mã chứng khoán chính": null,
+      "Mã sàn giao dịch chính": null,
+      "Tên sàn giao dịch chính": null,
+      "Mã chứng khoán toàn cầu": null
+    },
+    {
+      "Mã công ty": "bfd8994995275e9917290bc423536fd6",
+      "Tên công ty": "PANTHEON GLOBAL SECONDARY FUND III B L P",
+      "Cấp độ thực thể": "Corporate",
+      "Mã số nhận diện người sử dụng lao động": null,
+      "Mã CIK": "0001371639",
+      "Mã LEI": null,
+      "Mã công ty PERMID": "4297623383",
+      "Mã chứng khoán chính": null,
+      "Mã sàn giao dịch chính": null,
+      "Tên sàn giao dịch chính": null,
+      "Mã chứng khoán toàn cầu": null
+    },
+    {
+      "Mã công ty": "878d19cbba19e94e8645afbabd4a14c2",
+      "Tên công ty": "SCI NEW CAP WEST",
+      "Cấp độ thực thể": "Corporate",
+      "Mã số nhận diện người sử dụng lao động": null,
+      "Mã CIK": null,
+      "Mã LEI": null,
+      "Mã công ty PERMID": "5057843478",
+      "Mã chứng khoán chính": null,
+      "Mã sàn giao dịch chính": null,
+      "Tên sàn giao dịch chính": null,
+      "Mã chứng khoán toàn cầu": null
+    },
+    {
+      "Mã công ty": "fcff55343666f5399f3e288f4c38c46b",
+      "Tên công ty": "MADCAP MOTEL LOS ANGELES LLC",
+      "Cấp độ thực thể": "Corporate",
+      "Mã số nhận diện người sử dụng lao động": null,
+      "Mã CIK": "0001766936",
+      "Mã LEI": null,
+      "Mã công ty PERMID": "5067944874",
+      "Mã chứng khoán chính": null,
+      "Mã sàn giao dịch chính": null,
+      "Tên sàn giao dịch chính": null,
+      "Mã chứng khoán toàn cầu": null
+    }
+  ],
+  "table_name": "COMPANY_INDEX",
+  "table_fullname": "FINANCE__ECONOMICS.CYBERSYN.COMPANY_INDEX",
+  "column_names": [
+    "Tên sàn giao dịch chính",
+    "Mã chứng khoán chính",
+    "Cấp độ thực thể",
+    "Mã công ty PERMID",
+    "Mã LEI",
+    "Mã công ty",
+    "Mã số nhận diện người sử dụng lao động",
+    "Mã sàn giao dịch chính",
+    "Mã chứng khoán toàn cầu",
+    "Tên công ty",
+    "Mã CIK"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "ARRAY",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "ARRAY",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Tên sàn giao dịch cho nơi giao dịch chính của một chứng khoán.",
+    "Ký hiệu giao dịch cho nơi giao dịch chính của một chứng khoán. Nếu chứng khoán được giao dịch trên nhiều sàn hoặc có nhiều ký hiệu giao dịch, sẽ cố gắng chọn ký hiệu từ thị trường quê nhà.",
+    "Mô tả loại hoặc cấp độ của thực thể để tiện lợi thêm. Hiện tại, tất cả các thực thể đều là các thực thể Corporate và được ký hiệu là 'Corporate'.",
+    "Định danh vĩnh viễn, một định danh do Refinitiv cấp (thông qua PermID) để nhận diện một công ty một cách duy nhất.",
+    "Định danh thực thể pháp lý, một định danh duy nhất từ GLEIF để nhận diện các thực thể pháp lý tham gia vào các giao dịch tài chính.",
+    "Định danh duy nhất được Cybersyn gán cho mỗi công ty.",
+    "Mã nhận diện người sử dụng lao động, một mã nhận diện duy nhất được IRS cấp cho một doanh nghiệp.",
+    "Mã sàn giao dịch cho nơi giao dịch chính của một chứng khoán.",
+    "Một mảng các ký hiệu ticker mà chứng khoán có thể được giao dịch trên toàn cầu trên tất cả các sàn giao dịch.",
+    "Tên của công ty.",
+    "Chìa khóa chỉ mục Trung tâm, một định danh duy nhất cho các công ty được đăng ký với Ủy ban Chứng khoán và Giao dịch Hoa Kỳ (SEC)."
+  ]
+}

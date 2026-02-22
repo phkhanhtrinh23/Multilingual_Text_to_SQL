@@ -1,0 +1,94 @@
+{
+  "sample_rows": [
+    {
+      "Mã công ty": "ca52d8c892a8ffe6e8368f2bd7a5fca7",
+      "Tên công ty": "WYNN RESORTS LTD",
+      "Cấp thực thể": "Corporate",
+      "Mã công ty liên quan": "5a2aaa890644211a8e69ad206ee9d4de",
+      "Tên công ty liên quan": "WYNN LAS VEGAS LLC",
+      "Cấp thực thể liên quan": "Corporate",
+      "Loại quan hệ": "Parent",
+      "Ngày bắt đầu mối quan hệ": null,
+      "Ngày kết thúc mối quan hệ": null
+    },
+    {
+      "Mã công ty": "61042fb57d4bc5965ff4f0dfa55f3aa2",
+      "Tên công ty": "RITZ-CARLTON HOTEL COMPANY LLC",
+      "Cấp thực thể": "Corporate",
+      "Mã công ty liên quan": "d0d371457687b60bbb116b9fc9ae65ea",
+      "Tên công ty liên quan": "MARRIOTT INTERNATIONAL INC /MD/",
+      "Cấp thực thể liên quan": "Corporate",
+      "Loại quan hệ": "Subsidiary",
+      "Ngày bắt đầu mối quan hệ": null,
+      "Ngày kết thúc mối quan hệ": null
+    },
+    {
+      "Mã công ty": "9d60e1934f9141a0991597d08181e126",
+      "Tên công ty": "TOWNEPLACE SUITES BY MARRIOTT",
+      "Cấp thực thể": "Corporate",
+      "Mã công ty liên quan": "d0d371457687b60bbb116b9fc9ae65ea",
+      "Tên công ty liên quan": "MARRIOTT INTERNATIONAL INC /MD/",
+      "Cấp thực thể liên quan": "Corporate",
+      "Loại quan hệ": "Subsidiary",
+      "Ngày bắt đầu mối quan hệ": null,
+      "Ngày kết thúc mối quan hệ": null
+    },
+    {
+      "Mã công ty": "b5647b2c2c12a1b09f5ce31802833f10",
+      "Tên công ty": "WYNDHAM HOTELS & RESORTS, INC.",
+      "Cấp thực thể": "Corporate",
+      "Mã công ty liên quan": "015a8a998d3e9492c6ff9ed4e452d802",
+      "Tên công ty liên quan": "SUPER 8 WORLDWIDE, INC.",
+      "Cấp thực thể liên quan": "Corporate",
+      "Loại quan hệ": "Parent",
+      "Ngày bắt đầu mối quan hệ": null,
+      "Ngày kết thúc mối quan hệ": null
+    },
+    {
+      "Mã công ty": "b00320b7fdfbd6ecdbe7379e1e1e1d61",
+      "Tên công ty": "COMCAST CORP",
+      "Cấp thực thể": "Corporate",
+      "Mã công ty liên quan": "36df5b636ad537c1a94fb35cd7c91f80",
+      "Tên công ty liên quan": "FANDANGO MEDIA LLC",
+      "Cấp thực thể liên quan": "Corporate",
+      "Loại quan hệ": "Parent",
+      "Ngày bắt đầu mối quan hệ": null,
+      "Ngày kết thúc mối quan hệ": null
+    }
+  ],
+  "table_name": "COMPANY_RELATIONSHIPS",
+  "table_fullname": "FINANCE__ECONOMICS.CYBERSYN.COMPANY_RELATIONSHIPS",
+  "column_names": [
+    "Tên công ty",
+    "Loại quan hệ",
+    "Ngày bắt đầu mối quan hệ",
+    "Ngày kết thúc mối quan hệ",
+    "Mã công ty",
+    "Cấp thực thể",
+    "Mã công ty liên quan",
+    "Cấp thực thể liên quan",
+    "Tên công ty liên quan"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "DATE",
+    "DATE",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Tên của công ty.",
+    "Xác định loại mối quan hệ giữa công ty và công ty liên quan. Giá trị là 'Parent' khi công ty là công ty mẹ của công ty liên quan và 'Subsidiary' khi công ty là công ty con của công ty liên quan.",
+    "Ngày bắt đầu mối liên hệ giữa công ty và công ty liên quan. Trong các trường hợp ngày bắt đầu không xác định, NULL được gán.",
+    "Ngày kết thúc của mối quan hệ có hiệu lực cho công ty và công ty liên quan. Trong trường hợp mối quan hệ hiện tại có hiệu lực, ngày kết thúc được gán là NULL.",
+    "Định danh duy nhất do Cybersyn gán cho mỗi công ty. Có thể ghép nối với bảng COMPANY_INDEX.",
+    "Mô tả loại hoặc cấp độ của thực thể để tiện tham khảo thêm. Hiện tại, tất cả các thực thể đều là thực thể doanh nghiệp và được gọi là 'Corporate'.",
+    "Định danh duy nhất do Cybersyn gán cho công ty liên quan. Có thể ghép nối với bảng COMPANY_INDEX.",
+    "Mô tả loại hoặc cấp độ của thực thể liên quan để tiện tham khảo thêm. Hiện tại, tất cả các thực thể đều là thực thể doanh nghiệp và được gọi là 'Corporate'.",
+    "Tên của công ty liên quan."
+  ]
+}
