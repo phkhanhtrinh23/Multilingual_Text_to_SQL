@@ -1,0 +1,78 @@
+{
+  "sample_rows": [
+    {
+      "Tên địa lý": "Sumter County",
+      "Mã địa lý": "geoId/45085",
+      "Cấp độ": "County",
+      "Tên địa danh liên quan": "Block Group 3, Census Tract 4, Sumter County, South Carolina",
+      "Mã địa lý liên quan": "censusBlockGroup/450850004003",
+      "Cấp độ liên quan": "CensusBlockGroup",
+      "Loại quan hệ": "Contains"
+    },
+    {
+      "Tên địa lý": "Census Tract 5035.10, Santa Clara County, California",
+      "Mã địa lý": "geoId/06085503510",
+      "Cấp độ": "CensusTract",
+      "Tên địa danh liên quan": "Block Group 2; Census Tract 5035.10; Santa Clara County; California",
+      "Mã địa lý liên quan": "censusBlockGroup/060855035102",
+      "Cấp độ liên quan": "CensusBlockGroup",
+      "Loại quan hệ": "Contains"
+    },
+    {
+      "Tên địa lý": "Northern America",
+      "Mã địa lý": "countrySubRegion/021",
+      "Cấp độ": "CountrySubRegion",
+      "Tên địa danh liên quan": "Census Tract 107.30, Sandoval County, New Mexico",
+      "Mã địa lý liên quan": "geoId/35043010730",
+      "Cấp độ liên quan": "CensusTract",
+      "Loại quan hệ": "Contains"
+    },
+    {
+      "Tên địa lý": "59150306",
+      "Mã địa lý": "statcanId/S051259150306",
+      "Cấp độ": "DisseminationArea",
+      "Tên địa danh liên quan": "Greater Vancouver",
+      "Mã địa lý liên quan": "statcanId/A00035915",
+      "Cấp độ liên quan": "CensusDivision",
+      "Loại quan hệ": "Overlaps"
+    },
+    {
+      "Tên địa lý": "35230419",
+      "Mã địa lý": "statcanId/S051235230419",
+      "Cấp độ": "DisseminationArea",
+      "Tên địa danh liên quan": "Guelph/Eramosa",
+      "Mã địa lý liên quan": "statcanId/A00053523009",
+      "Cấp độ liên quan": "CensusSubdivision",
+      "Loại quan hệ": "Overlaps"
+    }
+  ],
+  "table_name": "GEOGRAPHY_RELATIONSHIPS",
+  "table_fullname": "FINANCE__ECONOMICS.CYBERSYN.GEOGRAPHY_RELATIONSHIPS",
+  "column_names": [
+    "Tên địa danh liên quan",
+    "Cấp độ liên quan",
+    "Loại quan hệ",
+    "Mã địa lý liên quan",
+    "Mã địa lý",
+    "Tên địa lý",
+    "Cấp độ"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Tên của địa điểm liên quan đến GEO_NAME. Đây là một địa điểm nằm trong hoặc nằm chồng lên phạm vi của vùng địa lý chính (ví dụ: thành phố nằm trong một bang).",
+    "Cấp địa lý hoặc hệ thống cấp của địa điểm liên quan (ví dụ: Country, State, County, City, Continent, CountrySubRegion, v.v.)",
+    "Quan hệ giữa hai địa điểm. 'Contains' nghĩa là RELATED_GEO_ID được chứa hoàn toàn trong GEO_ID (ví dụ: quan hệ của một bang đối với một thành phố) trong khi 'Overlaps' cho thấy GEO_ID là một phần con của RELATED_GEO_ID (ví dụ: quan hệ của một thành phố với một bang).",
+    "Một định danh duy nhất cho địa điểm liên quan có thể ghép với bảng GEOGRAPHY_INDEX",
+    "Một định danh duy nhất cho một địa điểm có thể ghép với bảng GEOGRAPHY_INDEX",
+    "Tên đầy đủ của địa điểm",
+    "Cấp độ địa lý hoặc hệ phân cấp (ví dụ: Quốc gia, Bang, Huyện, Thành phố, Châu lục, CountrySubRegion, v.v.)"
+  ]
+}
