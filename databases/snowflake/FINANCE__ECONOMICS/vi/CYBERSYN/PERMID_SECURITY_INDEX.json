@@ -1,0 +1,102 @@
+{
+  "sample_rows": [
+    {
+      "PERMID_SECURITY_ID": "8589975674",
+      "Mã niêm yết chính": "EVN",
+      "Tên chứng khoán": "EATON VANCE MUNICIPAL INCOME CLOSED FUND",
+      "Loại tài sản": "Other",
+      "Mã sàn giao dịch chính": "NYQ",
+      "Tên sàn giao dịch chính": "NYSE CONSOLIDATED",
+      "Trạng thái chứng khoán": "Active",
+      "Các mã niêm yết toàn cầu": "[\n  \"EVN\",\n  \"XEVNX\"\n]",
+      "Mã sàn giao dịch": "[\n  \"NAS\",\n  \"NYQ\"\n]",
+      "PERMID_QUOTE_ID": "[\n  \"55835369644\",\n  \"55839104515\"\n]"
+    },
+    {
+      "PERMID_SECURITY_ID": "8589959375",
+      "Mã niêm yết chính": "LENb",
+      "Tên chứng khoán": "LENNAR ORD SHS CLASS B",
+      "Loại tài sản": "Ordinary Shares",
+      "Mã sàn giao dịch chính": "ISS",
+      "Tên sàn giao dịch chính": "ISE when trading NYSE and AMEX Stocks",
+      "Trạng thái chứng khoán": "Active",
+      "Các mã niêm yết toàn cầu": "[\n  \"LENB*\",\n  \"LENb\",\n  \"LNN0\"\n]",
+      "Mã sàn giao dịch": "[\n  \"FRA\",\n  \"ISS\",\n  \"MEX\"\n]",
+      "PERMID_QUOTE_ID": "[\n  \"21627275840\",\n  \"21736829361\",\n  \"55836192793\"\n]"
+    },
+    {
+      "PERMID_SECURITY_ID": "18040205046",
+      "Mã niêm yết chính": "XFSLX",
+      "Tên chứng khoán": "FIRST EAGLE SENIOR LOAN FUND",
+      "Loại tài sản": "Other",
+      "Mã sàn giao dịch chính": "NAS",
+      "Tên sàn giao dịch chính": "NASDAQ CAPITAL MARKET",
+      "Trạng thái chứng khoán": "Inactive",
+      "Các mã niêm yết toàn cầu": "[\n  \"TSLF\",\n  \"XFSLX\"\n]",
+      "Mã sàn giao dịch": "[\n  \"NAS\",\n  \"WCB\"\n]",
+      "PERMID_QUOTE_ID": "[\n  \"21529763349\",\n  \"21529826402\"\n]"
+    },
+    {
+      "PERMID_SECURITY_ID": "8590935543",
+      "Mã niêm yết chính": "TIF*",
+      "Tên chứng khoán": "TIFFANY ORD SHS",
+      "Loại tài sản": "Ordinary Shares",
+      "Mã sàn giao dịch chính": "MXQ",
+      "Tên sàn giao dịch chính": null,
+      "Trạng thái chứng khoán": "Inactive",
+      "Các mã niêm yết toàn cầu": "[\n  \"0LFD\",\n  \"0LFDl\",\n  \"TIF*\"\n]",
+      "Mã sàn giao dịch": "[\n  \"BCO\",\n  \"LSE\",\n  \"MXQ\"\n]",
+      "PERMID_QUOTE_ID": "[\n  \"21633621402\",\n  \"21634297966\",\n  \"21667705791\"\n]"
+    },
+    {
+      "PERMID_SECURITY_ID": "8590923465",
+      "Mã niêm yết chính": "RWSl",
+      "Tên chứng khoán": "RWS HOLDINGS ORD SHS",
+      "Loại tài sản": "Ordinary Shares",
+      "Mã sàn giao dịch chính": "BCO",
+      "Tên sàn giao dịch chính": "BATS CHI-X Trade Reporting",
+      "Trạng thái chứng khoán": "Active",
+      "Các mã niêm yết toàn cầu": "[\n  \"RWJ\",\n  \"RWSl\"\n]",
+      "Mã sàn giao dịch": "[\n  \"BCO\",\n  \"TDG\"\n]",
+      "PERMID_QUOTE_ID": "[\n  \"21475037440\",\n  \"21538768765\"\n]"
+    }
+  ],
+  "table_name": "PERMID_SECURITY_INDEX",
+  "table_fullname": "FINANCE__ECONOMICS.CYBERSYN.PERMID_SECURITY_INDEX",
+  "column_names": [
+    "Loại tài sản",
+    "Mã sàn giao dịch",
+    "Mã niêm yết chính",
+    "Tên chứng khoán",
+    "Mã sàn giao dịch chính",
+    "Trạng thái chứng khoán",
+    "Các mã niêm yết toàn cầu",
+    "PERMID_SECURITY_ID",
+    "Tên sàn giao dịch chính",
+    "PERMID_QUOTE_ID"
+  ],
+  "column_types": [
+    "TEXT",
+    "ARRAY",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "ARRAY",
+    "TEXT",
+    "TEXT",
+    "ARRAY"
+  ],
+  "description": [
+    "Một nhóm tài sản rộng, chẳng hạn như 'Ordinary Shares', 'Depositary Receipts', v.v.",
+    "Một mảng mã đại diện cho các sàn giao dịch nơi chứng khoán được giao dịch. Một mảng rỗng có nghĩa là thông tin về sàn giao dịch không khả dụng.",
+    "Mã niêm yết cho nơi giao dịch chính của chứng khoán. Nếu một chứng khoán giao dịch trên nhiều sàn giao dịch hoặc có nhiều mã niêm yết, sẽ cố gắng chọn mã niêm yết từ thị trường gốc.",
+    "Tên chứng khoán.",
+    "Mã sàn giao dịch cho nơi giao dịch chính của chứng khoán.",
+    "Trạng thái của chứng khoán, tức là 'Active' hoặc 'Inactive'. Một chứng khoán đang hoạt động là chứng khoán có báo giá còn hiệu lực, và chứng khoán không hoạt động không có báo giá còn hiệu lực. Trạng thái này thay đổi theo thời gian.",
+    "Một mảng các mã niêm yết mà chứng khoán có thể được giao dịch toàn cầu trên tất cả các sàn.",
+    "PermID cho chứng khoán.",
+    "Tên sàn giao dịch cho nơi giao dịch chính của chứng khoán.",
+    "Một mảng PermID cho các báo giá của mỗi sàn nơi chứng khoán được giao dịch. Một mảng rỗng có nghĩa là thông tin báo giá không có."
+  ]
+}
