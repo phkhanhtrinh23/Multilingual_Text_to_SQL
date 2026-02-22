@@ -1,0 +1,94 @@
+{
+  "sample_rows": [
+    {
+      "Mã sân bay": "1059BHM",
+      "Mã DOT sân bay": 1059,
+      "Tên sân bay": "Birmingham-Shuttlesworth International",
+      "Mã IATA": "BHM",
+      "Mã khu vực thế giới": 51,
+      "Vị trí": "Birmingham, AL: Birmingham-Shuttlesworth International",
+      "Tên thành phố sân bay": "Birmingham",
+      "Mã địa lý bang": "geoId/01",
+      "Mã địa lý quốc gia": "country/USA"
+    },
+    {
+      "Mã sân bay": "42650MCI",
+      "Mã DOT sân bay": 42650,
+      "Tên sân bay": "Kansas City International",
+      "Mã IATA": "MCI",
+      "Mã khu vực thế giới": 64,
+      "Vị trí": "Kansas City, MO: Kansas City International",
+      "Tên thành phố sân bay": "Kansas City",
+      "Mã địa lý bang": "geoId/29",
+      "Mã địa lý quốc gia": "country/USA"
+    },
+    {
+      "Mã sân bay": "91940TUS",
+      "Mã DOT sân bay": 91940,
+      "Tên sân bay": "Tucson International",
+      "Mã IATA": "TUS",
+      "Mã khu vực thế giới": 81,
+      "Vị trí": "Tucson, AZ: Tucson International",
+      "Tên thành phố sân bay": "Tucson",
+      "Mã địa lý bang": "geoId/04",
+      "Mã địa lý quốc gia": "country/USA"
+    },
+    {
+      "Mã sân bay": "1298LIJ",
+      "Mã DOT sân bay": 1298,
+      "Tên sân bay": "Long Island Airport",
+      "Mã IATA": "LIJ",
+      "Mã khu vực thế giới": 1,
+      "Vị trí": "Long Island, AK: Long Island Airport",
+      "Tên thành phố sân bay": "Long Island",
+      "Mã địa lý bang": "geoId/02",
+      "Mã địa lý quốc gia": "country/USA"
+    },
+    {
+      "Mã sân bay": "49005PIB",
+      "Mã DOT sân bay": 49005,
+      "Tên sân bay": "Hattiesburg-Laurel Regional",
+      "Mã IATA": "PIB",
+      "Mã khu vực thế giới": 53,
+      "Vị trí": "Hattiesburg/Laurel, MS: Hattiesburg-Laurel Regional",
+      "Tên thành phố sân bay": "Hattiesburg/Laurel",
+      "Mã địa lý bang": "geoId/28",
+      "Mã địa lý quốc gia": "country/USA"
+    }
+  ],
+  "table_name": "AIRPORT_INDEX",
+  "table_fullname": "GLOBAL_GOVERNMENT.CYBERSYN.AIRPORT_INDEX",
+  "column_names": [
+    "Tên sân bay",
+    "Mã địa lý bang",
+    "Tên thành phố sân bay",
+    "Mã IATA",
+    "Mã DOT sân bay",
+    "Mã khu vực thế giới",
+    "Mã địa lý quốc gia",
+    "Vị trí",
+    "Mã sân bay"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "NUMBER",
+    "NUMBER",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Tên của sân bay.",
+    "Một định danh duy nhất cho một tiểu bang, có thể ghép với bảng GEOGRAPHY_INDEX, đại diện cho địa lý chính cho biến.",
+    "Tên thành phố nơi sân bay tọa lạc.",
+    "Mã được cấp cho các sân bay bởi Hiệp hội Vận tải Hàng không Quốc tế (IATA), được sử dụng rộng rãi trong ngành hàng không cho việc đặt vé, xử lý hành lý và lập kế hoạch chuyến bay.",
+    "Định danh duy nhất do US DOT cấp cho mỗi sân bay, được dùng cho mục đích hành chính và báo cáo.",
+    "Định danh US DOT cho khu vực địa lý nơi sân bay tọa lạc.",
+    "Một định danh duy nhất cho một quốc gia, có thể ghép với bảng GEOGRAPHY_INDEX, đại diện cho địa lý chính cho biến.",
+    "Tên địa điểm đầy đủ của sân bay.",
+    "ID cho sân bay xuất phát là một phần của tuyến bay được đo, sự kết hợp của mã duy nhất DOT và mã OAG chính thức 3 chữ cái được cấp cho sân bay đó."
+  ]
+}
