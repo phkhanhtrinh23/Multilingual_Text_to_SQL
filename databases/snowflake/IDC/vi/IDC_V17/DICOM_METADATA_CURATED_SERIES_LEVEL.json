@@ -1,0 +1,102 @@
+{
+  "table_name": "DICOM_METADATA_CURATED_SERIES_LEVEL",
+  "table_fullname": "IDC.IDC_V17.DICOM_METADATA_CURATED_SERIES_LEVEL",
+  "column_names": [
+    "độ phóng đại của ống kính",
+    "số hàng tối đa của ma trận điểm ảnh",
+    "định danh duy nhất của chuỗi Series",
+    "phương thức hình ảnh",
+    "giá trị mã chỉ định của cấu trúc giải phẫu chính",
+    "giá trị mã chỉ định loại chiếu sáng",
+    "ý nghĩa mã loại chiếu sáng",
+    "khoảng cách điểm ảnh tối thiểu",
+    "ý nghĩa mã cấu trúc giải phẫu chính",
+    "số cột tối đa của ma trận điểm ảnh"
+  ],
+  "column_types": [
+    "NUMBER",
+    "NUMBER",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "FLOAT",
+    "TEXT",
+    "NUMBER"
+  ],
+  "description": [
+    "Giá trị của OpticalPathSequence[0] > ObjectiveLensPower (áp dụng trong SM).",
+    "Giá trị tối thiểu của thuộc tính Rows giữa các instance trong chuỗi. Chứa giá trị đầu tiên không NULL giữa thuộc tính Rows ở cấp trên và thuộc tính ở TotalPixelMatrixRows (được gặp trong chế độ SM).",
+    "DICOM SeriesInstanceUID",
+    "DICOM Modality",
+    "Nối các giá trị của `CodingSchemeDesignator` và `CodeValue` được phân tách bởi `:` từ SpecimenDescriptionSequence[0] > PrimaryAnatomicStructureSequence[0] (áp dụng trong SM).",
+    "Nối các giá trị của `CodingSchemeDesignator` và `CodeValue` được phân tách bởi `:` từ OpticalPathSequence[0].IlluminationTypeCodeSequence[0] (áp dụng trong SM).",
+    "`CodeMeaning` từ OpticalPathSequence[0].IlluminationTypeCodeSequence[0] (áp dụng trong SM).",
+    "Giá trị tối thiểu của thành phần đầu tiên của thuộc tính PixelSpacing trên tất cả các instance trong chuỗi. Chứa giá trị đầu tiên không NULL giữa thành phần đầu tiên của thuộc tính PixelSpacing ở cấp trên và giá trị ở SharedFunctionalGroupSequence[0] > PixelMeasuresSequence[0]. Làm tròn đến hai chữ số có ý nghĩa.",
+    "`CodeMeaning` từ SpecimenDescriptionSequence[0] > PrimaryAnatomicStructureSequence[0] (áp dụng trong SM).",
+    "Giá trị tối thiểu của thuộc tính Columns giữa các phần tử trong chuỗi. Chứa giá trị đầu tiên không NULL giữa thuộc tính Columns ở cấp trên và thuộc tính trong TotalPixelMatrixColumns (được gặp trong chế độ SM)."
+  ],
+  "sample_rows": [
+    {
+      "định danh duy nhất của chuỗi Series": "1.3.6.1.4.1.14519.5.2.1.2103.7010.269874.1.2",
+      "khoảng cách điểm ảnh tối thiểu": null,
+      "số cột tối đa của ma trận điểm ảnh": null,
+      "số hàng tối đa của ma trận điểm ảnh": null,
+      "độ phóng đại của ống kính": null,
+      "giá trị mã chỉ định của cấu trúc giải phẫu chính": null,
+      "ý nghĩa mã cấu trúc giải phẫu chính": null,
+      "giá trị mã chỉ định loại chiếu sáng": null,
+      "ý nghĩa mã loại chiếu sáng": null,
+      "phương thức hình ảnh": "KO"
+    },
+    {
+      "định danh duy nhất của chuỗi Series": "1.3.6.1.4.1.14519.5.2.1.2103.7010.269874.1.1",
+      "khoảng cách điểm ảnh tối thiểu": null,
+      "số cột tối đa của ma trận điểm ảnh": null,
+      "số hàng tối đa của ma trận điểm ảnh": null,
+      "độ phóng đại của ống kính": null,
+      "giá trị mã chỉ định của cấu trúc giải phẫu chính": null,
+      "ý nghĩa mã cấu trúc giải phẫu chính": null,
+      "giá trị mã chỉ định loại chiếu sáng": null,
+      "ý nghĩa mã loại chiếu sáng": null,
+      "phương thức hình ảnh": "KO"
+    },
+    {
+      "định danh duy nhất của chuỗi Series": "1.3.6.1.4.1.14519.5.2.1.2103.7010.237254.1.2",
+      "khoảng cách điểm ảnh tối thiểu": null,
+      "số cột tối đa của ma trận điểm ảnh": null,
+      "số hàng tối đa của ma trận điểm ảnh": null,
+      "độ phóng đại của ống kính": null,
+      "giá trị mã chỉ định của cấu trúc giải phẫu chính": null,
+      "ý nghĩa mã cấu trúc giải phẫu chính": null,
+      "giá trị mã chỉ định loại chiếu sáng": null,
+      "ý nghĩa mã loại chiếu sáng": null,
+      "phương thức hình ảnh": "KO"
+    },
+    {
+      "định danh duy nhất của chuỗi Series": "1.3.6.1.4.1.14519.5.2.1.2103.7010.263376.2.1",
+      "khoảng cách điểm ảnh tối thiểu": null,
+      "số cột tối đa của ma trận điểm ảnh": null,
+      "số hàng tối đa của ma trận điểm ảnh": null,
+      "độ phóng đại của ống kính": null,
+      "giá trị mã chỉ định của cấu trúc giải phẫu chính": null,
+      "ý nghĩa mã cấu trúc giải phẫu chính": null,
+      "giá trị mã chỉ định loại chiếu sáng": null,
+      "ý nghĩa mã loại chiếu sáng": null,
+      "phương thức hình ảnh": "KO"
+    },
+    {
+      "định danh duy nhất của chuỗi Series": "1.3.6.1.4.1.14519.5.2.1.2103.7010.135953.2.2",
+      "khoảng cách điểm ảnh tối thiểu": null,
+      "số cột tối đa của ma trận điểm ảnh": null,
+      "số hàng tối đa của ma trận điểm ảnh": null,
+      "độ phóng đại của ống kính": null,
+      "giá trị mã chỉ định của cấu trúc giải phẫu chính": null,
+      "ý nghĩa mã cấu trúc giải phẫu chính": null,
+      "giá trị mã chỉ định loại chiếu sáng": null,
+      "ý nghĩa mã loại chiếu sáng": null,
+      "phương thức hình ảnh": "KO"
+    }
+  ]
+}
