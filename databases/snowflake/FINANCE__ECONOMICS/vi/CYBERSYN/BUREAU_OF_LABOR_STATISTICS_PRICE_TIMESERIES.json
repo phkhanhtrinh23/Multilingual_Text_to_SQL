@@ -1,0 +1,62 @@
+{
+  "sample_rows": [
+    {
+      "Mã địa lý": "censusRegion/03",
+      "Biến": "Average_Price:_All_Ham_(Excluding_Canned_Ham_and_Luncheon_Slices),_per_lb._(453.6_gm)",
+      "Tên biến": "Average Price: All Ham (Excluding Canned Ham and Luncheon Slices), per lb. (453.6 gm)",
+      "Giá trị": 2.093,
+      "Ngày": "2001-06-30"
+    },
+    {
+      "Mã địa lý": "censusRegion/01",
+      "Biến": "Average_Price:_American_processed_cheese,_per_lb._(453.6_gm)",
+      "Tên biến": "Average Price: American processed cheese, per lb. (453.6 gm)",
+      "Giá trị": 4.556,
+      "Ngày": "2007-08-31"
+    },
+    {
+      "Mã địa lý": "censusDivision/05",
+      "Biến": "CPI:_Services_less_rent_of_shelter,_Not_seasonally_adjusted,_Semi-annual,_2017-12_Index_Date",
+      "Tên biến": "CPI: Services less rent of shelter, Not seasonally adjusted, Semi-annual, 2017-12 Index Date",
+      "Giá trị": 126.853,
+      "Ngày": "2024-06-30"
+    },
+    {
+      "Mã địa lý": "geoId/C42660",
+      "Biến": "CPI:_All_items_less_energy,_Not_seasonally_adjusted,_Semi-annual",
+      "Tên biến": "CPI: All items less energy, Not seasonally adjusted, Semi-annual",
+      "Giá trị": 153.3,
+      "Ngày": "1994-12-31"
+    },
+    {
+      "Mã địa lý": "censusRegion/03",
+      "Biến": "CPI:_Gasoline,_unleaded_regular,_Not_seasonally_adjusted,_Monthly",
+      "Tên biến": "CPI: Gasoline, unleaded regular, Not seasonally adjusted, Monthly",
+      "Giá trị": 98.0,
+      "Ngày": "1990-08-31"
+    }
+  ],
+  "table_name": "BUREAU_OF_LABOR_STATISTICS_PRICE_TIMESERIES",
+  "table_fullname": "FINANCE__ECONOMICS.CYBERSYN.BUREAU_OF_LABOR_STATISTICS_PRICE_TIMESERIES",
+  "column_names": [
+    "Mã địa lý",
+    "Giá trị",
+    "Biến",
+    "Tên biến",
+    "Ngày"
+  ],
+  "column_types": [
+    "TEXT",
+    "FLOAT",
+    "TEXT",
+    "TEXT",
+    "DATE"
+  ],
+  "description": [
+    "Một định danh duy nhất cho một địa điểm, có thể nối với các bảng geography_index/relationships",
+    "Giá trị của chỉ số",
+    "Một định danh duy nhất cho một biến, có thể nối với bảng attributes",
+    "Tên hiển thị cho một biến",
+    "Ngày liên quan đến giá trị, được đặt là ngày cuối cùng của kỳ báo cáo"
+  ]
+}
