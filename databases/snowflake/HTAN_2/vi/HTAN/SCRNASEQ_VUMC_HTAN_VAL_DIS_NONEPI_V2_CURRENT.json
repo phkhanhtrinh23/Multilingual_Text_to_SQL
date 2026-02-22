@@ -1,0 +1,102 @@
+{
+  "table_name": "SCRNASEQ_VUMC_HTAN_VAL_DIS_NONEPI_V2_CURRENT",
+  "table_fullname": "HTAN_2.HTAN.SCRNASEQ_VUMC_HTAN_VAL_DIS_NONEPI_V2_CURRENT",
+  "column_names": [
+    "X_value",
+    "HTAN_Biospecimen_ID",
+    "Tissue_Type",
+    "iObs",
+    "iVar",
+    "Tissue_Subtype",
+    "Gene_Name",
+    "HTAN_Parent_Data_File_ID",
+    "Cell_Type",
+    "Cell_Barcode_Number"
+  ],
+  "column_types": [
+    "FLOAT",
+    "TEXT",
+    "TEXT",
+    "NUMBER",
+    "NUMBER",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Giá trị biểu thức cho một gen và một tế bào.",
+    "ID HTAN liên quan đến một mẫu sinh học dựa trên SOP ID HTAN (ví dụ HTANx_yyy_zzz)",
+    "AD = adenoma thông thường, SER = polyp răng cưa, NL = bình thường, MSI-H = CRC bất ổn microsatellite ở mức cao, MSS = CRC ổ microsatellite ở mức ổn định",
+    "Chỉ mục tới các mã vạch tế bào.",
+    "Chỉ mục tới các ID gen.",
+    "TA = adenoma ống, HP = polyp tăng sản, TVA = adenoma ống–villus, SSL = tổn thương serrated nằm bám mặt (sessile serrated lesion), NL = bình thường, MSI-H = CRC bất ổn microsatellite ở mức cao, MSS = CRC ổ microsatellite ở mức ổn định",
+    "gen được đo.",
+    "Định danh tệp dữ liệu HTAN cho biết các tệp từ đó các tập tin này được suy ra.",
+    "B = tế bào B, T = tế bào T, END = tế bào nội mô, FIB = tế bào sợi, MAS = tế bào mast, MYE = tế bào myeloid, PLA = tế bào plasma",
+    "Mã vạch được sử dụng cho mỗi giọt chứa tế bào trong quá trình giải trình tự."
+  ],
+  "sample_rows": [
+    {
+      "iObs": 915,
+      "iVar": 16620,
+      "X_value": 1.0,
+      "Cell_Barcode_Number": "AGCACCACCCTACTAG-10",
+      "HTAN_Parent_Data_File_ID": "HTA11_78_200000101113111",
+      "HTAN_Biospecimen_ID": "HTA11_78_2000001011",
+      "Cell_Type": "PLA",
+      "Tissue_Subtype": "TA",
+      "Tissue_Type": "AD",
+      "Gene_Name": "PRDM1"
+    },
+    {
+      "iObs": 915,
+      "iVar": 7275,
+      "X_value": 1.0,
+      "Cell_Barcode_Number": "AGCACCACCCTACTAG-10",
+      "HTAN_Parent_Data_File_ID": "HTA11_78_200000101113111",
+      "HTAN_Biospecimen_ID": "HTA11_78_2000001011",
+      "Cell_Type": "PLA",
+      "Tissue_Subtype": "TA",
+      "Tissue_Type": "AD",
+      "Gene_Name": "DOPEY1"
+    },
+    {
+      "iObs": 915,
+      "iVar": 9862,
+      "X_value": 1.0,
+      "Cell_Barcode_Number": "AGCACCACCCTACTAG-10",
+      "HTAN_Parent_Data_File_ID": "HTA11_78_200000101113111",
+      "HTAN_Biospecimen_ID": "HTA11_78_2000001011",
+      "Cell_Type": "PLA",
+      "Tissue_Subtype": "TA",
+      "Tissue_Type": "AD",
+      "Gene_Name": "HCLS1"
+    },
+    {
+      "iObs": 893,
+      "iVar": 1963,
+      "X_value": 1.0,
+      "Cell_Barcode_Number": "CCGCTGTTGAATACGC-10",
+      "HTAN_Parent_Data_File_ID": "HTA11_78_200000101113111",
+      "HTAN_Biospecimen_ID": "HTA11_78_2000001011",
+      "Cell_Type": "PLA",
+      "Tissue_Subtype": "TA",
+      "Tissue_Type": "AD",
+      "Gene_Name": "ANKMY1"
+    },
+    {
+      "iObs": 893,
+      "iVar": 23528,
+      "X_value": 1.0,
+      "Cell_Barcode_Number": "CCGCTGTTGAATACGC-10",
+      "HTAN_Parent_Data_File_ID": "HTA11_78_200000101113111",
+      "HTAN_Biospecimen_ID": "HTA11_78_2000001011",
+      "Cell_Type": "PLA",
+      "Tissue_Subtype": "TA",
+      "Tissue_Type": "AD",
+      "Gene_Name": "RP11-81K2.1"
+    }
+  ]
+}
