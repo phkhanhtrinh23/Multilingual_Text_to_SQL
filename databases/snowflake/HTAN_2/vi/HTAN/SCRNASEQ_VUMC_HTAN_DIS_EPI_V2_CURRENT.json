@@ -1,0 +1,102 @@
+{
+  "table_name": "SCRNASEQ_VUMC_HTAN_DIS_EPI_V2_CURRENT",
+  "table_fullname": "HTAN_2.HTAN.SCRNASEQ_VUMC_HTAN_DIS_EPI_V2_CURRENT",
+  "column_names": [
+    "HTAN_Parent_Data_File_ID",
+    "iObs",
+    "HTAN_Biospecimen_ID",
+    "Gene_Name",
+    "Tissue_Type",
+    "Tissue_Subtype",
+    "Cell_Type",
+    "Cell_Barcode_Number",
+    "iVar",
+    "X_value"
+  ],
+  "column_types": [
+    "TEXT",
+    "NUMBER",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "NUMBER",
+    "FLOAT"
+  ],
+  "description": [
+    "Định danh tệp dữ liệu HTAN cho biết các tệp từ đó các tệp này được suy ra",
+    "Chỉ mục cho mã vạch tế bào.",
+    "HTAN ID liên quan đến một mẫu sinh học dựa trên SOP HTAN ID (ví dụ HTANx_yyy_zzz)",
+    "gen được đo",
+    "AD = adenoma thông thường, SER = polyp răng cưa, UNC = chưa phân loại, NL = bình thường",
+    "TA = adenoma dạng ống, HP = polyp tăng sinh giả, TVA = adenoma dạng ống-màng, SSL = tổn thương serrated dính, UNC = chưa phân loại, NL = bình thường",
+    "ABS = tế bào hấp thu, TUF = tế bào tua, EE = tế bào nội tiết đường ruột, ASC = tế bào đặc thù của adenoma, TAC = tế bào khuếch đại nhất thời, CT = tế bào ở đỉnh crypt, GOB = tế bào tiết nhầy, SSC = tế bào đặc thù serrated, STM = tế bào gốc",
+    "Mã vạch được sử dụng cho mỗi giọt chứa tế bào trong quá trình giải trình tự",
+    "Chỉ mục tới ID gen.",
+    "Giá trị biểu hiện cho một gen và một tế bào cụ thể"
+  ],
+  "sample_rows": [
+    {
+      "iObs": 6912,
+      "iVar": 4291,
+      "X_value": 1.0,
+      "Cell_Barcode_Number": "AGGGAACGAACCACGCT-10",
+      "HTAN_Parent_Data_File_ID": "HTA11_78_200000101113111",
+      "HTAN_Biospecimen_ID": "HTA11_78_2000001011",
+      "Cell_Type": "GOB",
+      "Tissue_Subtype": "TA",
+      "Tissue_Type": "AD",
+      "Gene_Name": "CALM2"
+    },
+    {
+      "iObs": 7168,
+      "iVar": 12900,
+      "X_value": 1.0,
+      "Cell_Barcode_Number": "ACGTATACCCTACTAG-10",
+      "HTAN_Parent_Data_File_ID": "HTA11_78_200000101113111",
+      "HTAN_Biospecimen_ID": "HTA11_78_2000001011",
+      "Cell_Type": "ABS",
+      "Tissue_Subtype": "TA",
+      "Tissue_Type": "AD",
+      "Gene_Name": "LAMC2"
+    },
+    {
+      "iObs": 7424,
+      "iVar": 31123,
+      "X_value": 1.0,
+      "Cell_Barcode_Number": "TGATGATAACAAGAACGGG-10",
+      "HTAN_Parent_Data_File_ID": "HTA11_78_200000101113111",
+      "HTAN_Biospecimen_ID": "HTA11_78_2000001011",
+      "Cell_Type": "ABS",
+      "Tissue_Subtype": "TA",
+      "Tissue_Type": "AD",
+      "Gene_Name": "SOX4"
+    },
+    {
+      "iObs": 7424,
+      "iVar": 2924,
+      "X_value": 1.0,
+      "Cell_Barcode_Number": "TGATGATAACAAGAACGGG-10",
+      "HTAN_Parent_Data_File_ID": "HTA11_78_200000101113111",
+      "HTAN_Biospecimen_ID": "HTA11_78_2000001011",
+      "Cell_Type": "ABS",
+      "Tissue_Subtype": "TA",
+      "Tissue_Type": "AD",
+      "Gene_Name": "ARL6IP5"
+    },
+    {
+      "iObs": 7680,
+      "iVar": 9470,
+      "X_value": 1.0,
+      "Cell_Barcode_Number": "AAGCTACGGTGTTTGAG-10",
+      "HTAN_Parent_Data_File_ID": "HTA11_78_200000101113111",
+      "HTAN_Biospecimen_ID": "HTA11_78_2000001011",
+      "Cell_Type": "ASC",
+      "Tissue_Subtype": "TA",
+      "Tissue_Type": "AD",
+      "Gene_Name": "FER1L6"
+    }
+  ]
+}
