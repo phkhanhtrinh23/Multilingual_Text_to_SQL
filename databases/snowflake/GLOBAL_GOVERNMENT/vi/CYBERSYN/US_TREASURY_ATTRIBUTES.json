@@ -1,0 +1,78 @@
+{
+  "sample_rows": [
+    {
+      "Biến": "paper_savings_bonds_outstanding_series_i",
+      "Tên biến": "Paper Savings Bonds Outstanding: Series I",
+      "Giá trị đo": "Paper Savings Bonds",
+      "Đơn vị": "Count",
+      "Tần suất": "Monthly",
+      "Loại đo": "Series I",
+      "Danh mục thuế": null
+    },
+    {
+      "Biến": "treasurydirect_sales_by_term_amount_marketable_security_tips_5_years_from_certificates_of_indebtedness",
+      "Tên biến": "TreasuryDirect Sales by Term Amount: Marketable Security TIPS (5 years) (From Certificates of Indebtedness)",
+      "Giá trị đo": "TreasuryDirect Sales by Term",
+      "Đơn vị": "USD",
+      "Tần suất": "Monthly",
+      "Loại đo": "Marketable Security TIPS (5 years) (From Certificates of Indebtedness)",
+      "Danh mục thuế": null
+    },
+    {
+      "Biến": "paper_savings_bonds_redeemed_series_j",
+      "Tên biến": "Paper Savings Bonds Redeemed: Series J",
+      "Giá trị đo": "Paper Savings Bonds",
+      "Đơn vị": "Count",
+      "Tần suất": "Monthly",
+      "Loại đo": "Series J",
+      "Danh mục thuế": null
+    },
+    {
+      "Biến": "matured_unredeemed_debt_bonds_outstanding_series_j",
+      "Tên biến": "Matured Unredeemed Debt: Bonds Outstanding, Series J",
+      "Giá trị đo": "Matured Unredeemed Debt",
+      "Đơn vị": "Count",
+      "Tần suất": "Monthly",
+      "Loại đo": "Series J",
+      "Danh mục thuế": null
+    },
+    {
+      "Biến": "treasurydirect_sales_by_term_count_marketable_series_bill_7_weeks_from_certificates_of_indebtedness",
+      "Tên biến": "TreasuryDirect Sales by Term Count: Marketable Series Bill (7 weeks) (From Certificates of Indebtedness)",
+      "Giá trị đo": "TreasuryDirect Sales by Term",
+      "Đơn vị": "Count",
+      "Tần suất": "Monthly",
+      "Loại đo": "Marketable Series Bill (7 weeks) (From Certificates of Indebtedness)",
+      "Danh mục thuế": null
+    }
+  ],
+  "table_name": "US_TREASURY_ATTRIBUTES",
+  "table_fullname": "GLOBAL_GOVERNMENT.CYBERSYN.US_TREASURY_ATTRIBUTES",
+  "column_names": [
+    "Biến",
+    "Giá trị đo",
+    "Tên biến",
+    "Tần suất",
+    "Danh mục thuế",
+    "Loại đo",
+    "Đơn vị"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Định danh duy nhất cho một biến, có thể ghép nối với bảng timeseries.",
+    "Thuộc tính hoặc đối tượng có thể đo được; mô tả những gì đang được ghi nhận.",
+    "Tên duy nhất dễ đọc cho biến.",
+    "Tần suất thực hiện các phép tổng hợp.",
+    "Danh mục thuế do Bộ Tài chính Hoa Kỳ báo cáo, không loại trừ lẫn nhau. Tổng danh mục Thuế chứa tổng của Non-Tax và Internal Revenue Service (IRS) Tax. Năm danh mục là 1. Non-Tax - Tổng của IRS-Non-Tax và Non-Tax (khác với IRS Non-Tax). 2. IRS Non-Tax - Khoản thu cho ALCs (Agency Location Codes) bắt đầu bằng 2009 nhưng không bao gồm bất kỳ Trung tâm Dịch vụ IRS nào. 3. IRS Tax - Khoản thu cho các ALC thuộc Trung tâm Dịch vụ IRS. 4. Non-Tax (khác với IRS Non-Tax) - Các khoản thu không bắt đầu bằng ALC 2009. 5. IRS Tax & IRS Non-Tax - Tổng của IRS Non-Tax và IRS Tax.",
+    "Loại công cụ của Bộ Tài chính Hoa Kỳ được đo lường (ví dụ: Savings Bond Series E).",
+    "Đơn vị đo lường cho giá trị được báo cáo."
+  ]
+}
