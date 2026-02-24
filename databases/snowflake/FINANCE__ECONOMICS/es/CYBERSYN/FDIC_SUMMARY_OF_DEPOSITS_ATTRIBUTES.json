@@ -1,0 +1,70 @@
+{
+  "sample_rows": [
+    {
+      "variable": "ASSET",
+      "Nombre de variable": "Institutional Assets",
+      "medida": "Assets Owned",
+      "unidad": "USD",
+      "frecuencia": "Annual",
+      "tipo de medición": "Institution"
+    },
+    {
+      "variable": "DEPDOM",
+      "Nombre de variable": "Institutional Domestic Deposits",
+      "medida": "Domestic Deposits",
+      "unidad": "USD",
+      "frecuencia": "Annual",
+      "tipo de medición": "Institution"
+    },
+    {
+      "variable": "DEPSUM",
+      "Nombre de variable": "Institutional Deposits",
+      "medida": "Deposits",
+      "unidad": "USD",
+      "frecuencia": "Annual",
+      "tipo de medición": "Institution"
+    },
+    {
+      "variable": "DEPSUMBR",
+      "Nombre de variable": "Branch Deposits",
+      "medida": "Deposits",
+      "unidad": "USD",
+      "frecuencia": "Annual",
+      "tipo de medición": "Branch"
+    },
+    {
+      "variable": "ESCROW",
+      "Nombre de variable": "Escrow Deposits",
+      "medida": "Escrow Deposits",
+      "unidad": "USD",
+      "frecuencia": "Annual",
+      "tipo de medición": "Institution"
+    }
+  ],
+  "table_name": "FDIC_SUMMARY_OF_DEPOSITS_ATTRIBUTES",
+  "table_fullname": "FINANCE__ECONOMICS.CYBERSYN.FDIC_SUMMARY_OF_DEPOSITS_ATTRIBUTES",
+  "column_names": [
+    "Nombre de variable",
+    "unidad",
+    "medida",
+    "variable",
+    "tipo de medición",
+    "frecuencia"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Descripción legible por humanos de las variables de datos financieros rastreadas por la FDIC.",
+    "Unidad en la que se registra la medida (p. ej., USD YTD).",
+    "Atributo cuantificable que se registra (p. ej., Depósitos Domésticos).",
+    "Identificador único de la FDIC para los datos financieros rastreados.",
+    "Clasificación que indica el nivel al que la variable es rastreada por la FDIC, ya sea a nivel de \"Institution\" o de \"Branch\".",
+    "Con qué frecuencia se agregan los datos (p. ej., Anual)."
+  ]
+}
