@@ -1,0 +1,70 @@
+{
+  "sample_rows": [
+    {
+      "Código FIPS del estado": "36",
+      "Sigla del estado": "NY",
+      "Identificador de métrica": "B11012_011E",
+      "Valor de referencia del estado": 546071.0,
+      "Población total del estado": 20114745,
+      "Población total de Estados Unidos": 333036755
+    },
+    {
+      "Código FIPS del estado": "36",
+      "Sigla del estado": "NY",
+      "Identificador de métrica": "B25075_011E",
+      "Valor de referencia del estado": 61829.0,
+      "Población total del estado": 20114745,
+      "Población total de Estados Unidos": 333036755
+    },
+    {
+      "Código FIPS del estado": "36",
+      "Sigla del estado": "NY",
+      "Identificador de métrica": "B25075_018E",
+      "Valor de referencia del estado": 157838.0,
+      "Población total del estado": 20114745,
+      "Población total de Estados Unidos": 333036755
+    },
+    {
+      "Código FIPS del estado": "36",
+      "Sigla del estado": "NY",
+      "Identificador de métrica": "B08301_020E",
+      "Valor de referencia del estado": 77083.0,
+      "Población total del estado": 20114745,
+      "Población total de Estados Unidos": 333036755
+    },
+    {
+      "Código FIPS del estado": "36",
+      "Sigla del estado": "NY",
+      "Identificador de métrica": "B11012_016E",
+      "Valor de referencia del estado": 214963.0,
+      "Población total del estado": 20114745,
+      "Población total de Estados Unidos": 333036755
+    }
+  ],
+  "table_name": "Fact_StateBenchmark_ACS2021",
+  "table_fullname": "CENSUS_GALAXY__AIML_MODEL_DATA_ENRICHMENT_SAMPLE.PUBLIC.Fact_StateBenchmark_ACS2021",
+  "column_names": [
+    "Identificador de métrica",
+    "Población total del estado",
+    "Valor de referencia del estado",
+    "Población total de Estados Unidos",
+    "Código FIPS del estado",
+    "Sigla del estado"
+  ],
+  "column_types": [
+    "TEXT",
+    "NUMBER",
+    "FLOAT",
+    "NUMBER",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Un identificador único para una métrica o medición específica dentro de la Encuesta de la Comunidad Estadounidense o datos del censo.",
+    "Población total del estado o territorio utilizando MetricID = “B01003_001E”, conocida como “Población total” en cada jerarquía del censo. Esto debe usarse como una columna de agrupación o agregación.",
+    "El valor entero para la relación MetricID y StateAbbrev. Esto podría corresponder a agregaciones o estimaciones de personas, mascotas, hogares, etc. Consulte la tabla Dim_CensusMetrics para el significado de cada valor. Todos los valores se han agregado correctamente de acuerdo con la jerarquía del censo en la tabla Dim_CensusGeography.",
+    "Población total de los Estados Unidos utilizando MetricID = “B01003_001E”, conocida como “Población total” en cada jerarquía del censo. Esto debe usarse como una columna de agrupación o agregación.",
+    "El código del Estándar Federal de Procesamiento de Información (FIPS) que representa el estado donde se ubica el grupo de bloques.",
+    "La abreviatura de dos letras para cada estado y territorio de los Estados Unidos."
+  ]
+}
