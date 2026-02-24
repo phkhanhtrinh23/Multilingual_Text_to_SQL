@@ -1,0 +1,102 @@
+{
+  "table_name": "SCRNASEQ_VUMC_HTAN_VAL_EPI_V2_CURRENT",
+  "table_fullname": "HTAN_2.HTAN.SCRNASEQ_VUMC_HTAN_VAL_EPI_V2_CURRENT",
+  "column_names": [
+    "Identificador_del_archivo_de_datos_principal_HTAN",
+    "Nombre_del_gen",
+    "Valor_de_X",
+    "Identificador_de_la_muestra_biológica_HTAN",
+    "Número_de_código_de_barras_de_la_célula",
+    "iVar",
+    "Subtipo_de_tejido",
+    "Tipo_de_célula",
+    "Tipo_de_tejido",
+    "iObs"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "FLOAT",
+    "TEXT",
+    "TEXT",
+    "NUMBER",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "NUMBER"
+  ],
+  "description": [
+    "Identificador de archivo de datos HTAN que indica los archivos de los que se derivaron estos archivos",
+    "Gen medido",
+    "Valor de expresión para un gen y una célula determinados.",
+    "HTAN ID asociado a un biosample basado en HTAN ID SOP (p. ej. HTANx_yyy_zzz)",
+    "Códigos de barras utilizados para cada gota que contiene la célula en el proceso de secuenciación",
+    "Índice de IDs de genes.",
+    "TA = adenoma tubular, HP = pólipo hiperplásico, TVA = adenoma tubulovelloso, SSL = lesión serrada sésil, UNC = no clasificado, NL = normal",
+    "ABS = células absortivas, TUF = células en penacho, EE = células enteroendocrinas, ASC = células específicas de adenoma, TAC = células amplificadoras transitorias, CT = células de la parte superior de la cripta, GOB = células caliciformes, SSC = células específicas serradas, STM = células madre",
+    "AD = adenoma convencional, SER = pólipo serrado, UNC = no clasificado, NL = normal",
+    "Índice de códigos de barras celulares."
+  ],
+  "sample_rows": [
+    {
+      "iObs": 13568,
+      "iVar": 30001,
+      "Valor_de_X": 1.0,
+      "Número_de_código_de_barras_de_la_célula": "GATGTACACGATGCATGG-21-5607",
+      "Identificador_del_archivo_de_datos_principal_HTAN": "HTA11_866_300476101113111",
+      "Identificador_de_la_muestra_biológica_HTAN": "HTA11_866_3004761011",
+      "Tipo_de_célula": "GOB",
+      "Subtipo_de_tejido": "TA",
+      "Tipo_de_tejido": "AD",
+      "Nombre_del_gen": "USP33"
+    },
+    {
+      "iObs": 13824,
+      "iVar": 2522,
+      "Valor_de_X": 2.0,
+      "Número_de_código_de_barras_de_la_célula": "TGAAGGATTCAACTCACCG-21-5607",
+      "Identificador_del_archivo_de_datos_principal_HTAN": "HTA11_866_300476101113111",
+      "Identificador_de_la_muestra_biológica_HTAN": "HTA11_866_3004761011",
+      "Tipo_de_célula": "ASC",
+      "Subtipo_de_tejido": "TA",
+      "Tipo_de_tejido": "AD",
+      "Nombre_del_gen": "ARHGAP8"
+    },
+    {
+      "iObs": 13824,
+      "iVar": 5235,
+      "Valor_de_X": 1.0,
+      "Número_de_código_de_barras_de_la_célula": "TGAAGGATTCAACTCACCG-21-5607",
+      "Identificador_del_archivo_de_datos_principal_HTAN": "HTA11_866_300476101113111",
+      "Identificador_de_la_muestra_biológica_HTAN": "HTA11_866_3004761011",
+      "Tipo_de_célula": "ASC",
+      "Subtipo_de_tejido": "TA",
+      "Tipo_de_tejido": "AD",
+      "Nombre_del_gen": "COL4A2"
+    },
+    {
+      "iObs": 13824,
+      "iVar": 14521,
+      "Valor_de_X": 1.0,
+      "Número_de_código_de_barras_de_la_célula": "TGAAGGATTCAACTCACCG-21-5607",
+      "Identificador_del_archivo_de_datos_principal_HTAN": "HTA11_866_300476101113111",
+      "Identificador_de_la_muestra_biológica_HTAN": "HTA11_866_3004761011",
+      "Tipo_de_célula": "ASC",
+      "Subtipo_de_tejido": "TA",
+      "Tipo_de_tejido": "AD",
+      "Nombre_del_gen": "MT-TC"
+    },
+    {
+      "iObs": 13569,
+      "iVar": 9699,
+      "Valor_de_X": 1.0,
+      "Número_de_código_de_barras_de_la_célula": "GAGAGCCCATTGGGATTC-21-5607",
+      "Identificador_del_archivo_de_datos_principal_HTAN": "HTA11_866_300476101113111",
+      "Identificador_de_la_muestra_biológica_HTAN": "HTA11_866_3004761011",
+      "Tipo_de_célula": "GOB",
+      "Subtipo_de_tejido": "TA",
+      "Tipo_de_tejido": "AD",
+      "Nombre_del_gen": "GPCPD1"
+    }
+  ]
+}
