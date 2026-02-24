@@ -1,0 +1,94 @@
+{
+  "table_name": "LOGS",
+  "table_fullname": "CRYPTO.CRYPTO_ETHEREUM_CLASSIC.LOGS",
+  "column_names": [
+    "índice de registro",
+    "hash de transacción",
+    "datos",
+    "temas",
+    "hash de bloque",
+    "dirección",
+    "índice de transacción",
+    "marca de tiempo del bloque",
+    "número de bloque"
+  ],
+  "column_types": [
+    "NUMBER",
+    "TEXT",
+    "TEXT",
+    "VARIANT",
+    "TEXT",
+    "TEXT",
+    "NUMBER",
+    "NUMBER",
+    "NUMBER"
+  ],
+  "description": [
+    "Entero de la posición del índice del registro en el bloque",
+    "Hash de las transacciones a partir de las cuales se creó este registro",
+    "Contiene uno o más argumentos no indexados de 32 bytes del registro",
+    "Argumentos de registro indexados (de 0 a 4 cadenas hex de 32 bytes). (En Solidity: El primer tópico es el hash de la firma del evento (p. ej. Deposit(address,bytes32,uint256)), excepto si declaraste el evento con el especificador anonymous.)",
+    "Hash del bloque en el que se encontraba este registro",
+    "Dirección desde la que se originó este registro",
+    "Entero de la posición del índice de la transacción desde la cual se creó este registro",
+    "Marca de tiempo del bloque en el que se encontraba este registro",
+    "El número de bloque en el que se encontraba este registro"
+  ],
+  "sample_rows": [
+    {
+      "índice de registro": 1,
+      "hash de transacción": "0x81a30ae78bb4fa6339d9ad0e848277ff7f20c2f30b3506e9421d0f43c6be38f2",
+      "índice de transacción": 2,
+      "dirección": "0x085b0fdf115aa9e16ae1bddd396ce1f993c52220",
+      "datos": "0x00000000000000000000000000000000000000000000000b61c6b5cb43a2497b",
+      "temas": "[\n  \"0x0f6798a560793a54c3bcfe86a93cde1e73087d944c0ea20544137d4121396885\",\n  \"0x000000000000000000000000a5de6d4184016708c1040c355f1c958192276db5\"\n]",
+      "marca de tiempo del bloque": 1563860384000000,
+      "número de bloque": 8458134,
+      "hash de bloque": "0x54d046f68f4aef69d14c18b1d09f736a4bce29e7359e0f82b76284c71faf6357"
+    },
+    {
+      "índice de registro": 1,
+      "hash de transacción": "0x504c574f828725e10b50ceaa038bae8375b81efa7a99b7f911b0c38e14d562f7",
+      "índice de transacción": 18,
+      "dirección": "0x085b0fdf115aa9e16ae1bddd396ce1f993c52220",
+      "datos": "0x000000000000000000000000000000000000000000000002b5e3af16b188000000000000000000000000000000000000000000000000000000000000000000400000000000000000000000000000000000000000000000000000000000000000",
+      "temas": "[\n  \"0x9bfafdc2ae8835972d7b64ef3f8f307165ac22ceffde4a742c52da5487f45fd1\",\n  \"0x0000000000000000000000003ec00ee8a4fbe81e7eea328029ce490654e8e11a\",\n  \"0x000000000000000000000000fcdd89dacc211c0ae2d3a0ba5319f50f78c436ba\"\n]",
+      "marca de tiempo del bloque": 1563913655000000,
+      "número de bloque": 8461978,
+      "hash de bloque": "0x70911f1af934a64c07023534108f722dfe9577ec2f452f21473c7c62a55f5c49"
+    },
+    {
+      "índice de registro": 1,
+      "hash de transacción": "0x907e583e0792a9bb612e641933224444b5b0ebcd627cc42f4447c9c85eab679d",
+      "índice de transacción": 3,
+      "dirección": "0x085b0fdf115aa9e16ae1bddd396ce1f993c52220",
+      "datos": "0x00000000000000000000000000000000000000000000000f2dc7d47f15600000",
+      "temas": "[\n  \"0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef\",\n  \"0x000000000000000000000000d12a5a8f80750137b9d069dc0e9735d46f324e21\",\n  \"0x0000000000000000000000003ec00ee8a4fbe81e7eea328029ce490654e8e11a\"\n]",
+      "marca de tiempo del bloque": 1563875195000000,
+      "número de bloque": 8459243,
+      "hash de bloque": "0x8d3f0bc76880e156c3740d58b4796870f4d8b2d788298dbb7516be173db4fcb2"
+    },
+    {
+      "índice de registro": 2,
+      "hash de transacción": "0x723f0b374b99365c04cdb3d977cd883c6e530d3be4375bb80141b6eea83680fa",
+      "índice de transacción": 1,
+      "dirección": "0x09aced531359ceffad9759a9252e1d82e3557eb2",
+      "datos": "0x0000000000000000000000000000000000000000000000000938d48915ed76db",
+      "temas": "[\n  \"0x6149d6fbfad1c173e29b8de83d7df1b09c0eaba8c3040a4c287f6f1333e60e27\",\n  \"0x000000000000000000000000f5269caa54f1f776dd996db35992d599e14d8a3b\"\n]",
+      "marca de tiempo del bloque": 1563844343000000,
+      "número de bloque": 8457018,
+      "hash de bloque": "0x6b69c4156a1d100bc65423fc8a10d9457a1a152983992d6b3374c667ea742249"
+    },
+    {
+      "índice de registro": 1,
+      "hash de transacción": "0x723f0b374b99365c04cdb3d977cd883c6e530d3be4375bb80141b6eea83680fa",
+      "índice de transacción": 1,
+      "dirección": "0x09aced531359ceffad9759a9252e1d82e3557eb2",
+      "datos": "0x0000000000000000000000000000000000000000000000000084d2085ed5f8a2",
+      "temas": "[\n  \"0xce45c14a6c726f7154c3b98d500c578e3d8e91aeb29d5f9d12edb07b88f85482\",\n  \"0x000000000000000000000000f5269caa54f1f776dd996db35992d599e14d8a3b\"\n]",
+      "marca de tiempo del bloque": 1563844343000000,
+      "número de bloque": 8457018,
+      "hash de bloque": "0x6b69c4156a1d100bc65423fc8a10d9457a1a152983992d6b3374c667ea742249"
+    }
+  ]
+}
