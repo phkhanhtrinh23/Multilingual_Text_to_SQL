@@ -1,0 +1,78 @@
+{
+  "sample_rows": [
+    {
+      "Nombre del lugar": "Sumter County",
+      "ID del lugar": "geoId/45085",
+      "Nivel": "County",
+      "Nombre del lugar relacionado": "Block Group 3, Census Tract 4, Sumter County, South Carolina",
+      "ID del lugar relacionado": "censusBlockGroup/450850004003",
+      "Nivel relacionado": "CensusBlockGroup",
+      "Tipo de relación": "Contains"
+    },
+    {
+      "Nombre del lugar": "Census Tract 5035.10, Santa Clara County, California",
+      "ID del lugar": "geoId/06085503510",
+      "Nivel": "CensusTract",
+      "Nombre del lugar relacionado": "Block Group 2; Census Tract 5035.10; Santa Clara County; California",
+      "ID del lugar relacionado": "censusBlockGroup/060855035102",
+      "Nivel relacionado": "CensusBlockGroup",
+      "Tipo de relación": "Contains"
+    },
+    {
+      "Nombre del lugar": "Northern America",
+      "ID del lugar": "countrySubRegion/021",
+      "Nivel": "CountrySubRegion",
+      "Nombre del lugar relacionado": "Census Tract 107.30, Sandoval County, New Mexico",
+      "ID del lugar relacionado": "geoId/35043010730",
+      "Nivel relacionado": "CensusTract",
+      "Tipo de relación": "Contains"
+    },
+    {
+      "Nombre del lugar": "59150306",
+      "ID del lugar": "statcanId/S051259150306",
+      "Nivel": "DisseminationArea",
+      "Nombre del lugar relacionado": "Greater Vancouver",
+      "ID del lugar relacionado": "statcanId/A00035915",
+      "Nivel relacionado": "CensusDivision",
+      "Tipo de relación": "Overlaps"
+    },
+    {
+      "Nombre del lugar": "35230419",
+      "ID del lugar": "statcanId/S051235230419",
+      "Nivel": "DisseminationArea",
+      "Nombre del lugar relacionado": "Guelph/Eramosa",
+      "ID del lugar relacionado": "statcanId/A00053523009",
+      "Nivel relacionado": "CensusSubdivision",
+      "Tipo de relación": "Overlaps"
+    }
+  ],
+  "table_name": "GEOGRAPHY_RELATIONSHIPS",
+  "table_fullname": "FINANCE__ECONOMICS.CYBERSYN.GEOGRAPHY_RELATIONSHIPS",
+  "column_names": [
+    "Nombre del lugar relacionado",
+    "Nivel relacionado",
+    "Tipo de relación",
+    "ID del lugar relacionado",
+    "ID del lugar",
+    "Nombre del lugar",
+    "Nivel"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Nombre del lugar relacionado con GEO_NAME. Este es un lugar que se superpone o está contenido dentro de la geografía principal (p. ej., ciudad dentro de un estado).",
+    "Nivel geográfico o jerarquía del lugar relacionado (p. ej., País, Estado, Condado, Ciudad, Continente, CountrySubRegion, etc.)",
+    "Relación entre los dos lugares. Contiene significa que RELATED_GEO_ID está completamente contenido dentro de GEO_ID (p. ej., la relación de un estado a una ciudad) mientras que 'Overlaps' indica que GEO_ID es una subparte de RELATED_GEO_ID (p. ej., la relación de una ciudad a un estado).",
+    "Un identificador único para el lugar relacionado que se puede unir a la tabla GEOGRAPHY_INDEX",
+    "Un identificador único para un lugar que se puede unir a la tabla GEOGRAPHY_INDEX",
+    "Nombre completo del lugar",
+    "Nivel geográfico o jerarquía (p. ej., País, Estado, Condado, Ciudad, Continente, CountrySubRegion, etc.)"
+  ]
+}
