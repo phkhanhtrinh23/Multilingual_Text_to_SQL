@@ -1,0 +1,70 @@
+{
+  "sample_rows": [
+    {
+      "Identificador geográfico": "country/USA",
+      "Variable": "CES2023600032.M_SA",
+      "Nombre de la variable": "Current Employment: Average hourly earnings of production and nonsupervisory employees, 1982-84 dollars, construction of buildings, Monthly (Seasonally adjusted)",
+      "Fecha": "1994-03-31",
+      "Valor": 9.32,
+      "Unidad": "1982-1984 USD per hour"
+    },
+    {
+      "Identificador geográfico": "country/USA",
+      "Variable": "CES5051312030.M_SA",
+      "Nombre de la variable": "Current Employment: Average weekly earnings of production and nonsupervisory employees, periodical publishers, Monthly (Seasonally adjusted)",
+      "Fecha": "1992-10-31",
+      "Valor": 472.26,
+      "Unidad": "USD per week"
+    },
+    {
+      "Identificador geográfico": "country/USA",
+      "Variable": "CES3133320006.M_SA",
+      "Nombre de la variable": "Current Employment: Production and nonsupervisory employees, industrial machinery manufacturing, Monthly (Seasonally adjusted)",
+      "Fecha": "2017-07-31",
+      "Valor": 63600.0,
+      "Unidad": "Count"
+    },
+    {
+      "Identificador geográfico": "geoId/21167",
+      "Variable": "LAUSUE.M_NSA",
+      "Nombre de la variable": "Local Area Unemployment: Unemployment, Not seasonally adjusted, Monthly",
+      "Fecha": "1999-12-31",
+      "Valor": 375.0,
+      "Unidad": "Persons"
+    },
+    {
+      "Identificador geográfico": "country/USA",
+      "Variable": "CEU8081320082.M_NSA",
+      "Nombre de la variable": "Current Employment: Aggregate weekly payrolls of production and nonsupervisory employees, grantmaking and giving services, Monthly (Not seasonally adjusted)",
+      "Fecha": "2020-11-30",
+      "Valor": 153782000.0,
+      "Unidad": "USD"
+    }
+  ],
+  "table_name": "CYBERSYN_FINANCIAL_ECONOMIC_INDICATORS_TIMESERIES",
+  "table_fullname": "FINANCE__ECONOMICS.CYBERSYN.CYBERSYN_FINANCIAL_ECONOMIC_INDICATORS_TIMESERIES",
+  "column_names": [
+    "Unidad",
+    "Identificador geográfico",
+    "Fecha",
+    "Nombre de la variable",
+    "Variable",
+    "Valor"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "DATE",
+    "TEXT",
+    "TEXT",
+    "FLOAT"
+  ],
+  "description": [
+    "Unidad de medida para el valor informado.",
+    "Un identificador único para un lugar. Se puede unir a otras tablas de geografía, incluidas GEOGRAPHY_INDEX, GEOGRAPHY_RELATIONSHIPS y GEOGRAPHY_CHARACTERISTICS.",
+    "Fecha asociada al valor.",
+    "Nombre único legible por humanos para la variable.",
+    "Identificador único de una variable, que se puede unir a la tabla de series temporales.",
+    "Valor informado para la variable."
+  ]
+}
