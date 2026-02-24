@@ -1,0 +1,46 @@
+{
+  "sample_rows": [
+    {
+      "Código postal": "12220",
+      "Identificador de métrica": "B25063_019E",
+      "Valor del censo por código postal": "51.04"
+    },
+    {
+      "Código postal": "14739",
+      "Identificador de métrica": "B08303_011E",
+      "Valor del censo por código postal": "47.06"
+    },
+    {
+      "Código postal": "14702",
+      "Identificador de métrica": "B25063_014E",
+      "Valor del censo por código postal": "57.18"
+    },
+    {
+      "Código postal": "13743",
+      "Identificador de métrica": "B08301_017E",
+      "Valor del censo por código postal": "32.99"
+    },
+    {
+      "Código postal": "14219",
+      "Identificador de métrica": "B08303_012E",
+      "Valor del censo por código postal": "124.19"
+    }
+  ],
+  "table_name": "Fact_CensusValues_ACS2021_ByZip",
+  "table_fullname": "CENSUS_GALAXY__AIML_MODEL_DATA_ENRICHMENT_SAMPLE.PUBLIC.Fact_CensusValues_ACS2021_ByZip",
+  "column_names": [
+    "Valor del censo por código postal",
+    "Identificador de métrica",
+    "Código postal"
+  ],
+  "column_types": [
+    "NUMBER",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "El valor entero para la relación MetricID y ZipCode. Esto podría ser agregaciones o estimaciones de personas, mascotas, hogares, etc. Consulte la tabla Dim_CensusMetrics para el significado de cada valor. Todos los valores se han consolidado correctamente según las proporciones en la tabla Xref_TractToZip_Residential.",
+    "Un identificador único para una métrica o medición específica dentro de la American Community Survey o datos del censo.",
+    "Un código postal único para una zona geográfica."
+  ]
+}
