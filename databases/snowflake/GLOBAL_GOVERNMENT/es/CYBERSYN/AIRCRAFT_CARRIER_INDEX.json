@@ -1,0 +1,78 @@
+{
+  "sample_rows": [
+    {
+      "Identificador de la aerolínea de la aeronave": "01212_11",
+      "Nombre de la aerolínea": "Paklook Air, Inc d/b/a/ Airlift Alaska (2017 - 2017)",
+      "Código de área mundial de la aerolínea": 1,
+      "Tipo de aerolínea": "Domestic Carrier",
+      "Tipo de aerolínea OAI": "Large Regional Carrier - $20-100M in revenue",
+      "Código geográfico del estado": "geoId/02",
+      "Código geográfico del país": "country/USA"
+    },
+    {
+      "Identificador de la aerolínea de la aeronave": "01006_31",
+      "Nombre de la aerolínea": "Virgin America (2007 - 2018)",
+      "Código de área mundial de la aerolínea": 10,
+      "Tipo de aerolínea": "Domestic Carrier",
+      "Tipo de aerolínea OAI": "Major Carrier - $1B+ in revenue",
+      "Código geográfico del estado": null,
+      "Código geográfico del país": null
+    },
+    {
+      "Identificador de la aerolínea de la aeronave": "06993_51",
+      "Nombre de la aerolínea": "Bellair Inc. (1) (Domestic)",
+      "Código de área mundial de la aerolínea": 10,
+      "Tipo de aerolínea": "Domestic Carrier",
+      "Tipo de aerolínea OAI": "Small Certified Carrier",
+      "Código geográfico del estado": null,
+      "Código geográfico del país": null
+    },
+    {
+      "Identificador de la aerolínea de la aeronave": "16770 (1)_11",
+      "Nombre de la aerolínea": "Reliant Airlines (1998 - 2003)",
+      "Código de área mundial de la aerolínea": 10,
+      "Tipo de aerolínea": "Domestic Carrier",
+      "Tipo de aerolínea OAI": "Large Regional Carrier - $20-100M in revenue",
+      "Código geográfico del estado": null,
+      "Código geográfico del país": null
+    },
+    {
+      "Identificador de la aerolínea de la aeronave": "06752_11",
+      "Nombre de la aerolínea": "Pan American Airways Corp. (1999 - 2004)",
+      "Código de área mundial de la aerolínea": 10,
+      "Tipo de aerolínea": "Domestic Carrier",
+      "Tipo de aerolínea OAI": "Large Regional Carrier - $20-100M in revenue",
+      "Código geográfico del estado": null,
+      "Código geográfico del país": null
+    }
+  ],
+  "table_name": "AIRCRAFT_CARRIER_INDEX",
+  "table_fullname": "GLOBAL_GOVERNMENT.CYBERSYN.AIRCRAFT_CARRIER_INDEX",
+  "column_names": [
+    "Código de área mundial de la aerolínea",
+    "Identificador de la aerolínea de la aeronave",
+    "Tipo de aerolínea",
+    "Nombre de la aerolínea",
+    "Código geográfico del país",
+    "Tipo de aerolínea OAI",
+    "Código geográfico del estado"
+  ],
+  "column_types": [
+    "NUMBER",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Identificador US DOT para el área geográfica en la que tiene su base el operador.",
+    "Identificador único para el operador aéreo.",
+    "Tipo de operador basado en sus características operativas principales.",
+    "Nombre del operador aeroportuario.",
+    "Un identificador único para un país, enlazable a la tabla GEOGRAPHY_INDEX, que representa la geografía principal de la variable.",
+    "Tipo de operador aéreo (OAC) que proporciona una clasificación detallada del tipo de operaciones realizadas por el operador.",
+    "Un identificador único para un estado, enlazable a la tabla GEOGRAPHY_INDEX, que representa la geografía principal de la variable."
+  ]
+}
