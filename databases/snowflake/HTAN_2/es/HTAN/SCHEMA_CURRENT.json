@@ -1,0 +1,102 @@
+{
+  "table_name": "SCHEMA_CURRENT",
+  "table_fullname": "HTAN_2.HTAN.SCHEMA_CURRENT",
+  "column_names": [
+    "Atributo",
+    "Reglas de validación",
+    "Depende de",
+    "Componente del que depende",
+    "Obligatorio",
+    "Propiedades",
+    "Valores válidos",
+    "Descripción",
+    "Padre",
+    "Fuente"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Característica clave X del ensayo, protocolo relacionado o datos posteriores que queremos registrar como característica de metadatos.",
+    "Qué tipo de datos se permiten en la columna Valid Values. Solo es relevante si Valid Values no están presentes en la fila. Por ejemplo: string, list, integer.",
+    "Características importantes, si las hay, del atributo X que deben registrarse como características de metadatos dado que se especifica el atributo X. Estas características podrían ser atributos o propiedades de atributos (es decir, están listadas en la columna 'Attribute' y/o bajo la columna 'Properties'). Separadas por comas.",
+    "Cada componente es una clase de ontología de alto nivel en la que las entidades/objetos se categorizan/componentizan; un componente es una entidad por sí misma que debe definirse en el esquema.",
+    "Indica si especificar el valor del atributo X es obligatorio o opcional por defecto. Establecer en TRUE o FALSE. Si TRUE, un colaborador de datos debe proporcionar un valor para el atributo X (p. ej., uno de los valores válidos en 'Valid Values', si se especifican). Si FALSE, un colaborador de datos puede elegir entre 'No aplica' o 'No especificado' como valor para el atributo X. Tenga en cuenta que un atributo puede no ser obligatorio por defecto (es decir, 'Required' está establecido en FALSE), pero podría requerirse por ser un atributo de otro atributo obligatorio (p. ej., ver ERCC).",
+    "Propiedades específicas de un atributo particular; tenga en cuenta que las propiedades podrían ser atributos en sí (es decir, listadas en la columna 'Attributes').",
+    "El rango del atributo X: los valores que se pueden asignar al atributo X; estos valores pueden incluir otros atributos (es decir, los que se listan en la columna 'Attribute') por sí mismos. Separados por comas. Si no se proporciona ninguno, cualquier valor no nulo es válido para el atributo X.",
+    "Proporcione una definición o una referencia que contenga la definición del atributo X. Preferiblemente proporcione un enlace de ontología o código de origen además de la definición. Déjelo en blanco si la descripción final está pendiente.",
+    "Clase padre de este atributo, es decir, dónde 'conectar' este atributo en un esquema existente. Tenga en cuenta que esto asume un único esquema existente/un único contexto de json-ld; si necesitamos soportar clases/atributos/propiedades definidas en varios esquemas/contextos json-ld, deberíamos añadir una columna de esquema/contexto que especifique el contexto de cada atributo, si es diferente del contexto del padre del atributo.",
+    "La fuente para la descripción del término, por lo general una URI. Las ontologías pueden usarse como fuentes. Por ejemplo, Library Construction Method tiene fuente: http://purl.obolibrary.org/obo/OBI_0000711"
+  ],
+  "sample_rows": [
+    {
+      "Atributo": "Component",
+      "Descripción": "Category of metadata (e.g. Diagnosis, Biospecimen, scRNA-seq Level 1, etc.); provide the same one for all items/rows.",
+      "Valores válidos": null,
+      "Depende de": null,
+      "Propiedades": null,
+      "Obligatorio": "TRUE",
+      "Padre": null,
+      "Componente del que depende": null,
+      "Fuente": "https://w3id.org/biolink/vocab/category",
+      "Reglas de validación": null
+    },
+    {
+      "Atributo": "Spike In Concentration",
+      "Descripción": "The final concentration or dilution (for commercial sets) of the spike in mix [PMID:21816910]",
+      "Valores válidos": null,
+      "Depende de": null,
+      "Propiedades": null,
+      "Obligatorio": "TRUE",
+      "Padre": "ERCC",
+      "Componente del que depende": null,
+      "Fuente": "https://www.ncbi.nlm.nih.gov/pubmed/21816910",
+      "Reglas de validación": null
+    },
+    {
+      "Atributo": "HTAN Parent Data File ID",
+      "Descripción": "HTAN Data File Identifier indicating the file(s) from which these files were derived",
+      "Valores válidos": null,
+      "Depende de": null,
+      "Propiedades": null,
+      "Obligatorio": "TRUE",
+      "Padre": "File",
+      "Componente del que depende": null,
+      "Fuente": null,
+      "Reglas de validación": null
+    },
+    {
+      "Atributo": "PhysicalSizeXUnit",
+      "Descripción": "The units of the physical size of a pixel. See OME enumeration of allowed values for the UnitsLength attribute -- default: microns (um)",
+      "Valores válidos": "cm, mm, µm, nm, Å",
+      "Depende de": null,
+      "Propiedades": null,
+      "Obligatorio": "TRUE",
+      "Padre": "Imaging",
+      "Componente del que depende": null,
+      "Fuente": "https://www.miti-consortium.org/",
+      "Reglas de validación": null
+    },
+    {
+      "Atributo": "Imaging Object Class Description",
+      "Descripción": "Free text description of object class [string]",
+      "Valores válidos": null,
+      "Depende de": null,
+      "Propiedades": null,
+      "Obligatorio": "TRUE",
+      "Padre": "Imaging",
+      "Componente del que depende": null,
+      "Fuente": "https://www.miti-consortium.org/",
+      "Reglas de validación": null
+    }
+  ]
+}
