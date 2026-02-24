@@ -1,0 +1,70 @@
+{
+  "sample_rows": [
+    {
+      "identificador_geografico": "country/BMU",
+      "variable": "WDI_SE.TER.ENRR.FE",
+      "nombre_variable": "School enrollment, tertiary, female (percent gross)",
+      "fecha": "2010-12-31",
+      "valor": 0.49392711639404296,
+      "unidad": "Percent"
+    },
+    {
+      "identificador_geografico": "country/WSM",
+      "variable": "WDI_SE.ENR.TERT.FM.ZS",
+      "nombre_variable": "School enrollment, tertiary (gross), gender parity index (GPI)",
+      "fecha": "2019-12-31",
+      "valor": 1.42332756519318,
+      "unidad": "Index"
+    },
+    {
+      "identificador_geografico": "country/POL",
+      "variable": "WDI_NY.GNP.ATLS.CD",
+      "nombre_variable": "Gross National Income, Atlas method (current USD)",
+      "fecha": "2006-12-31",
+      "valor": 321132554994.836,
+      "unidad": "USD"
+    },
+    {
+      "identificador_geografico": "country/SWZ",
+      "variable": "WDI_NE.EXP.GNFS.KN",
+      "nombre_variable": "Exports of goods and services (constant local currency)",
+      "fecha": "2006-12-31",
+      "valor": 16595738300.0,
+      "unidad": "Local currency"
+    },
+    {
+      "identificador_geografico": "country/CMR",
+      "variable": "QEDS_DT.DOD.PUMU.CD.ST.US",
+      "nombre_variable": "Public Sector External Debt Position, Multilateral creditors, Short-term, All instruments, USD",
+      "fecha": "2009-03-31",
+      "valor": 0.0,
+      "unidad": "USD"
+    }
+  ],
+  "table_name": "WORLD_BANK_TIMESERIES",
+  "table_fullname": "GLOBAL_GOVERNMENT.CYBERSYN.WORLD_BANK_TIMESERIES",
+  "column_names": [
+    "variable",
+    "unidad",
+    "valor",
+    "fecha",
+    "nombre_variable",
+    "identificador_geografico"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "FLOAT",
+    "DATE",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Identificador único de una variable, enlazable a la tabla de atributos. Esta variable combina la abreviatura del conjunto de datos del World Bank con el código único de series temporales (proporcionado por el World Bank).",
+    "Unidad de medida para el valor informado.",
+    "Valor informado para la variable.",
+    "Fecha asociada al valor.",
+    "Nombre único legible por humanos de la variable.",
+    "Identificador único para un lugar. Se puede vincular a otras tablas de geografía, incluidas GEOGRAPHY_INDEX, GEOGRAPHY_RELATIONSHIPS y GEOGRAPHY_CHARACTERISTICS."
+  ]
+}
