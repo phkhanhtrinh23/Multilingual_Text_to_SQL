@@ -1,0 +1,102 @@
+{
+  "sample_rows": [
+    {
+      "MetricID": "B01002_002E",
+      "Tipo": "Estimate",
+      "MetricTableID": "B01002",
+      "MetricTableDesc": "Median age of the population categorized by sex",
+      "UnitMeasureType": "Aggregate",
+      "MetricCategory": "Demographics",
+      "MetricGroup": "Essential",
+      "Descriptor1": "Male",
+      "Descriptor2": "",
+      "Descriptor3": ""
+    },
+    {
+      "MetricID": "B19051_001E",
+      "Tipo": "Estimate",
+      "MetricTableID": "B19051",
+      "MetricTableDesc": "Earnings of households in the past 12 months",
+      "UnitMeasureType": "People",
+      "MetricCategory": "Income",
+      "MetricGroup": "Essential",
+      "Descriptor1": "",
+      "Descriptor2": "",
+      "Descriptor3": ""
+    },
+    {
+      "MetricID": "B19051_003E",
+      "Tipo": "Estimate",
+      "MetricTableID": "B19051",
+      "MetricTableDesc": "Earnings of households in the past 12 months",
+      "UnitMeasureType": "People",
+      "MetricCategory": "Income",
+      "MetricGroup": "Essential",
+      "Descriptor1": "No earnings",
+      "Descriptor2": "",
+      "Descriptor3": ""
+    },
+    {
+      "MetricID": "B11012_002E",
+      "Tipo": "Estimate",
+      "MetricTableID": "B11012",
+      "MetricTableDesc": "Different types of households based on size and type",
+      "UnitMeasureType": "People",
+      "MetricCategory": "Housing",
+      "MetricGroup": "Essential",
+      "Descriptor1": "Marriedcouple household",
+      "Descriptor2": "",
+      "Descriptor3": ""
+    },
+    {
+      "MetricID": "B11012_004E",
+      "Tipo": "Estimate",
+      "MetricTableID": "B11012",
+      "MetricTableDesc": "Different types of households based on size and type",
+      "UnitMeasureType": "People",
+      "MetricCategory": "Housing",
+      "MetricGroup": "Essential",
+      "Descriptor1": "Marriedcouple household",
+      "Descriptor2": "With no children of the householder under 18 years",
+      "Descriptor3": ""
+    }
+  ],
+  "table_name": "Dim_CensusMetrics",
+  "table_fullname": "CENSUS_GALAXY__ZIP_CODE_TO_BLOCK_GROUP_SAMPLE.PUBLIC.Dim_CensusMetrics",
+  "column_names": [
+    "Tipo",
+    "Descriptor2",
+    "MetricCategory",
+    "MetricTableDesc",
+    "MetricTableID",
+    "MetricID",
+    "Descriptor1",
+    "UnitMeasureType",
+    "MetricGroup",
+    "Descriptor3"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "El tipo o la naturaleza de la métrica, que indica el tipo de datos que representa, como población, vivienda, educación, empleo, etc.",
+    "Atributo descriptivo adicional o característica asociada con la métrica, que proporciona detalles más específicos.",
+    "La categoría o clasificación a la que pertenece la métrica, agrupando métricas relacionadas entre sí.",
+    "Una descripción o etiqueta para la tabla o conjunto de datos en la American Community Survey o datos del censo donde se almacena la métrica.",
+    "Un identificador único para la tabla o conjunto de datos en la American Community Survey o datos del censo donde se almacena la métrica.",
+    "Un identificador único para una métrica o medición específica dentro de la American Community Survey o datos del censo.",
+    "Un atributo descriptivo o característica asociada con la métrica, que proporciona información adicional o contexto.",
+    "El tipo de datos almacenados en CensusValue para cada MetricID. Es importante mirar este campo al agrupar y sumar valores a través de niveles geográficos, ya que algunos son recuentos brutos y otros son promedios o medianas.",
+    "El agrupamiento de productos decidido por No Fret Data, conectado al despliegue y la hoja de ruta de Census Galaxy.",
+    "Otro atributo descriptivo o característica asociada con la métrica, que proporciona más información o detalles."
+  ]
+}
