@@ -1,0 +1,70 @@
+{
+  "sample_rows": [
+    {
+      "variable": "Count_BirthEvent_europa.eu",
+      "nombre de la variable": "Count of Birth Event, europa.eu",
+      "grupo de variables": "Count of Birth Event",
+      "categoría": "BirthEvent",
+      "unidad": "Count",
+      "dominio de origen": "europa.eu"
+    },
+    {
+      "variable": "Percent_Person_BingeDrinking",
+      "nombre de la variable": "Percentage of Population Who Binge Drink",
+      "grupo de variables": "Percentage of Population Who Binge Drink",
+      "categoría": "Person_HealthBehavior-BingeDrinking",
+      "unidad": "Percent",
+      "dominio de origen": "cdc.gov"
+    },
+    {
+      "variable": "Temperature",
+      "nombre de la variable": "Temperature in a Location",
+      "grupo de variables": "Temperature in a Location",
+      "categoría": "ObservationalWeather",
+      "unidad": "Celsius",
+      "dominio de origen": "nasa.gov"
+    },
+    {
+      "variable": "RetailDrugDistribution_DrugDistribution_Ecgonine",
+      "nombre de la variable": "Retail Drug Distribution of Drug Distribution: Drug/dea/9180 L",
+      "grupo de variables": "Retail Drug Distribution of Drug Distribution: Drug/dea/9180 L",
+      "categoría": "DrugDistribution_DrugPrescribed",
+      "unidad": "Grams",
+      "dominio de origen": "dea.gov"
+    },
+    {
+      "variable": "Count_Person_Female_abs.gov.au",
+      "nombre de la variable": "Female Population, abs.gov.au",
+      "grupo de variables": "Female Population",
+      "categoría": "Person_Gender-Female",
+      "unidad": "Count",
+      "dominio de origen": "abs.gov.au"
+    }
+  ],
+  "table_name": "DATACOMMONS_ATTRIBUTES",
+  "table_fullname": "GLOBAL_GOVERNMENT.CYBERSYN.DATACOMMONS_ATTRIBUTES",
+  "column_names": [
+    "unidad",
+    "dominio de origen",
+    "grupo de variables",
+    "categoría",
+    "variable",
+    "nombre de la variable"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Unidad de medida del valor (p. ej., USD, Years, Acre, etc.)",
+    "Dominio de la URL donde se pueden encontrar los datos sin procesar",
+    "La variable central que se está midiendo, excluyendo cualquier información sobre el método de medición. Las variables que pertenecen al mismo grupo miden lo mismo pero difieren en el método de medición o la agencia de reporte.",
+    "Categoría general de la variable o del tipo de medida (p. ej., Clima, Demografía, etc.)",
+    "Un identificador único para una variable estadística, enlazable a la tabla DATACOMMONS_TIMESERIES.",
+    "Nombre legible por humanos de la variable"
+  ]
+}
