@@ -1,0 +1,70 @@
+{
+  "sample_rows": [
+    {
+      "GEO_ID": "geoId/5003250",
+      "Variable": "Mean_Visibility",
+      "VARIABLE_NAME": "Mean Visibility",
+      "Fecha": "2023-02-01",
+      "Valor": "13.38340000000",
+      "Unidad": "Kilometer"
+    },
+    {
+      "GEO_ID": "geoId/3048250",
+      "Variable": "Mean_Snowfall",
+      "VARIABLE_NAME": "Mean Snowfall",
+      "Fecha": "1957-05-01",
+      "Valor": "0.60420000000",
+      "Unidad": "Millimeter"
+    },
+    {
+      "GEO_ID": "zip/97132",
+      "Variable": "Mean_Snowfall",
+      "VARIABLE_NAME": "Mean Snowfall",
+      "Fecha": "1924-12-01",
+      "Valor": "3.80307000000",
+      "Unidad": "Millimeter"
+    },
+    {
+      "GEO_ID": "geoId/2601960",
+      "Variable": "Mean_Snowfall",
+      "VARIABLE_NAME": "Mean Snowfall",
+      "Fecha": "1934-03-01",
+      "Valor": "12.39500000000",
+      "Unidad": "Millimeter"
+    },
+    {
+      "GEO_ID": "geoId/42039111600",
+      "Variable": "Count_Person_WithMedicaidOrMeansTestedPublicCoverage",
+      "VARIABLE_NAME": "Population With Medicaid or Means-Tested Public Coverage",
+      "Fecha": "2018-01-01",
+      "Valor": "1768.00000000000",
+      "Unidad": "Count"
+    }
+  ],
+  "table_name": "DATACOMMONS_TIMESERIES",
+  "table_fullname": "GLOBAL_GOVERNMENT.CYBERSYN.DATACOMMONS_TIMESERIES",
+  "column_names": [
+    "Variable",
+    "Unidad",
+    "VARIABLE_NAME",
+    "Fecha",
+    "GEO_ID",
+    "Valor"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "DATE",
+    "TEXT",
+    "NUMBER"
+  ],
+  "description": [
+    "Un identificador único para una variable estadística. Cada variable estadística representa una medida única (es decir, Población, Ingreso Medio, etc.).",
+    "Unidad de medida para el valor (p. ej., USD, años, acres, etc.)",
+    "Nombre legible para el usuario de la variable.",
+    "Fecha asociada al valor.",
+    "Un identificador único para un lugar que se puede unir a la tabla GEOGRAPHY_INDEX.",
+    "El valor numérico real para una determinada variable."
+  ]
+}
