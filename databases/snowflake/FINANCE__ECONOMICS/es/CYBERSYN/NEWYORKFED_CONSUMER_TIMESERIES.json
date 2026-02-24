@@ -1,0 +1,70 @@
+{
+  "sample_rows": [
+    {
+      "identificador_geografico": "country/USA",
+      "variable": "probability_of_different_inflation_outcomes_one_year_ahead_numeracy_high_0percent",
+      "nombre_de_variable": "Probability of Different Inflation Outcomes; One year ahead; Numeracy High; <0%",
+      "fecha": "2024-07-31",
+      "valor": 0.19138706206999997,
+      "unidad": "Percent"
+    },
+    {
+      "identificador_geografico": "censusRegion/04",
+      "variable": "inflation_uncertainty_median_one_year_ahead_uncertainty_and_median_three_year_ahead_uncertainty_by_demographics_region_west",
+      "nombre_de_variable": "Inflation uncertainty; Median one-year ahead uncertainty and Median three-year ahead uncertainty, by Demographics; Region West",
+      "fecha": "2024-07-31",
+      "valor": 3.322753668,
+      "unidad": "Median Score"
+    },
+    {
+      "identificador_geografico": "country/USA",
+      "variable": "one_year_ahead_household_income_growth_expectations_25th_percentile_point_prediction",
+      "nombre_de_variable": "One-year ahead household income growth expectations; 25th Percentile point prediction",
+      "fecha": "2024-07-31",
+      "valor": 1.18092072,
+      "unidad": "25th Percentile Score"
+    },
+    {
+      "identificador_geografico": "country/USA",
+      "variable": "change_in_credit_availability_year_ago_somewhat_harder",
+      "nombre_de_variable": "Change in credit availability; Year ago; Somewhat harder",
+      "fecha": "2024-07-31",
+      "valor": 0.37023681641000006,
+      "unidad": "Percent"
+    },
+    {
+      "identificador_geografico": "country/USA",
+      "variable": "probability_of_different_inflation_outcomes_three_year_ahead_age_under_40_2_4percent",
+      "nombre_de_variable": "Probability of Different Inflation Outcomes; Three year ahead; Age Under 40; 2-4%",
+      "fecha": "2024-07-31",
+      "valor": 0.20577831268000002,
+      "unidad": "Percent"
+    }
+  ],
+  "table_name": "NEWYORKFED_CONSUMER_TIMESERIES",
+  "table_fullname": "FINANCE__ECONOMICS.CYBERSYN.NEWYORKFED_CONSUMER_TIMESERIES",
+  "column_names": [
+    "variable",
+    "unidad",
+    "fecha",
+    "nombre_de_variable",
+    "identificador_geografico",
+    "valor"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "DATE",
+    "TEXT",
+    "TEXT",
+    "FLOAT"
+  ],
+  "description": [
+    "Identificador único para una variable, que se puede unir a la tabla timeseries.",
+    "Unidad de medida del valor informado.",
+    "Fecha asociada al valor.",
+    "Nombre único legible por humanos para la variable.",
+    "Un identificador único para un lugar, que se puede unir a otras tablas de geografía, incluidas GEOGRAPHY_INDEX, GEOGRAPHY_RELATIONSHIPS y GEOGRAPHY_CHARACTERISTICS.",
+    "Valor reportado para la variable."
+  ]
+}
