@@ -1,0 +1,102 @@
+{
+  "table_name": "DICOM_METADATA_CURATED_SERIES_LEVEL",
+  "table_fullname": "IDC.IDC_V17.DICOM_METADATA_CURATED_SERIES_LEVEL",
+  "column_names": [
+    "Potencia de la lente objetiva",
+    "Número máximo de filas de la matriz de píxeles",
+    "Identificador único de la serie",
+    "Modalidad",
+    "Valor del designador de código de la estructura anatómica primaria",
+    "Valor del designador de código del tipo de iluminación",
+    "Significado del tipo de iluminación",
+    "Espaciado mínimo de píxeles con 2 cifras significativas",
+    "Significado de la estructura anatómica primaria",
+    "Número máximo de columnas de la matriz de píxeles"
+  ],
+  "column_types": [
+    "NUMBER",
+    "NUMBER",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "FLOAT",
+    "TEXT",
+    "NUMBER"
+  ],
+  "description": [
+    "Valor de OpticalPathSequence[0] > ObjectiveLensPower (aplicable en SM).",
+    "Valor mínimo del atributo Rows entre las instancias dentro de la serie. Contiene el primer valor no nulo entre el atributo Rows de nivel superior y el de TotalPixelMatrixRows (presente en la modalidad SM).",
+    "DICOM SeriesInstanceUID",
+    "DICOM Modality",
+    "Valores concatenados de `CodingSchemeDesignator` y `CodeValue` separados por `:` de SpecimenDescriptionSequence[0] > PrimaryAnatomicStructureSequence[0] (aplicable en SM).",
+    "Valores concatenados de `CodingSchemeDesignator` y `CodeValue` separados por `:` de OpticalPathSequence[0].IlluminationTypeCodeSequence[0] (aplicable en SM).",
+    "`CodeMeaning` de OpticalPathSequence[0].IlluminationTypeCodeSequence[0] (aplicable en SM).",
+    "Valor mínimo del primer componente del espaciado de píxeles entre todas las instancias de la serie. Contiene el primer valor no nulo entre el primer componente del atributo PixelSpacing de nivel superior y el que se encuentra en SharedFunctionalGroupSequence[0] > PixelMeasuresSequence[0]. Redondeado a dos cifras significativas.",
+    "`CodeMeaning` de SpecimenDescriptionSequence[0] > PrimaryAnatomicStructureSequence[0] (aplicable en SM).",
+    "Valor mínimo del atributo Columns entre las instancias dentro de la serie. Contiene el primer valor no nulo entre el atributo Columns de nivel superior y el que se encuentra en TotalPixelMatrixColumns (presente en la modalidad SM)."
+  ],
+  "sample_rows": [
+    {
+      "Identificador único de la serie": "1.3.6.1.4.1.14519.5.2.1.2103.7010.269874.1.2",
+      "Espaciado mínimo de píxeles con 2 cifras significativas": null,
+      "Número máximo de columnas de la matriz de píxeles": null,
+      "Número máximo de filas de la matriz de píxeles": null,
+      "Potencia de la lente objetiva": null,
+      "Valor del designador de código de la estructura anatómica primaria": null,
+      "Significado de la estructura anatómica primaria": null,
+      "Valor del designador de código del tipo de iluminación": null,
+      "Significado del tipo de iluminación": null,
+      "Modalidad": "KO"
+    },
+    {
+      "Identificador único de la serie": "1.3.6.1.4.1.14519.5.2.1.2103.7010.269874.1.1",
+      "Espaciado mínimo de píxeles con 2 cifras significativas": null,
+      "Número máximo de columnas de la matriz de píxeles": null,
+      "Número máximo de filas de la matriz de píxeles": null,
+      "Potencia de la lente objetiva": null,
+      "Valor del designador de código de la estructura anatómica primaria": null,
+      "Significado de la estructura anatómica primaria": null,
+      "Valor del designador de código del tipo de iluminación": null,
+      "Significado del tipo de iluminación": null,
+      "Modalidad": "KO"
+    },
+    {
+      "Identificador único de la serie": "1.3.6.1.4.1.14519.5.2.1.2103.7010.237254.1.2",
+      "Espaciado mínimo de píxeles con 2 cifras significativas": null,
+      "Número máximo de columnas de la matriz de píxeles": null,
+      "Número máximo de filas de la matriz de píxeles": null,
+      "Potencia de la lente objetiva": null,
+      "Valor del designador de código de la estructura anatómica primaria": null,
+      "Significado de la estructura anatómica primaria": null,
+      "Valor del designador de código del tipo de iluminación": null,
+      "Significado del tipo de iluminación": null,
+      "Modalidad": "KO"
+    },
+    {
+      "Identificador único de la serie": "1.3.6.1.4.1.14519.5.2.1.2103.7010.263376.2.1",
+      "Espaciado mínimo de píxeles con 2 cifras significativas": null,
+      "Número máximo de columnas de la matriz de píxeles": null,
+      "Número máximo de filas de la matriz de píxeles": null,
+      "Potencia de la lente objetiva": null,
+      "Valor del designador de código de la estructura anatómica primaria": null,
+      "Significado de la estructura anatómica primaria": null,
+      "Valor del designador de código del tipo de iluminación": null,
+      "Significado del tipo de iluminación": null,
+      "Modalidad": "KO"
+    },
+    {
+      "Identificador único de la serie": "1.3.6.1.4.1.14519.5.2.1.2103.7010.135953.2.2",
+      "Espaciado mínimo de píxeles con 2 cifras significativas": null,
+      "Número máximo de columnas de la matriz de píxeles": null,
+      "Número máximo de filas de la matriz de píxeles": null,
+      "Potencia de la lente objetiva": null,
+      "Valor del designador de código de la estructura anatómica primaria": null,
+      "Significado de la estructura anatómica primaria": null,
+      "Valor del designador de código del tipo de iluminación": null,
+      "Significado del tipo de iluminación": null,
+      "Modalidad": "KO"
+    }
+  ]
+}
