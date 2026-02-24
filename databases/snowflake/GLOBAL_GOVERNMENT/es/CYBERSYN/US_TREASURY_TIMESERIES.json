@@ -1,0 +1,70 @@
+{
+  "sample_rows": [
+    {
+      "Identificador geográfico": "country/USA",
+      "Variable": "121",
+      "Nombre de la variable": "Non-Tax Net Collections Amount: Fiscal Service Processed Electronically (Over-the-Counter)",
+      "Fecha": "2017-03-20",
+      "Valor": 64657026.0,
+      "Unidad": "USD"
+    },
+    {
+      "Identificador geográfico": "country/USA",
+      "Variable": "131",
+      "Nombre de la variable": "Non-Tax Net Collections Amount: Fiscal Service Settled Electronically (Over-the-Counter)",
+      "Fecha": "2022-08-29",
+      "Valor": 753.0,
+      "Unidad": "USD"
+    },
+    {
+      "Identificador geográfico": "country/USA",
+      "Variable": "213",
+      "Nombre de la variable": "IRS Non-Tax Net Collections Amount: Fully Electronic (Internet)",
+      "Fecha": "2017-08-10",
+      "Valor": 99641.0,
+      "Unidad": "USD"
+    },
+    {
+      "Identificador geográfico": "country/USA",
+      "Variable": "332",
+      "Nombre de la variable": "IRS Tax Net Collections Amount: Fiscal Service Settled Electronically (Mail)",
+      "Fecha": "2013-10-09",
+      "Valor": 704080197.0,
+      "Unidad": "USD"
+    },
+    {
+      "Identificador geográfico": "country/USA",
+      "Variable": "paper_savings_bonds_unmatured_&_unredeemed_all_series",
+      "Nombre de la variable": "Paper Savings Bonds Unmatured & Unredeemed: All Series",
+      "Fecha": "2020-11-30",
+      "Valor": 294438314.0,
+      "Unidad": "Count"
+    }
+  ],
+  "table_name": "US_TREASURY_TIMESERIES",
+  "table_fullname": "GLOBAL_GOVERNMENT.CYBERSYN.US_TREASURY_TIMESERIES",
+  "column_names": [
+    "Identificador geográfico",
+    "Unidad",
+    "Variable",
+    "Fecha",
+    "Nombre de la variable",
+    "Valor"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "DATE",
+    "TEXT",
+    "FLOAT"
+  ],
+  "description": [
+    "Un identificador único para un lugar. Se puede unir a otras tablas de geografía, incluidas GEOGRAPHY_INDEX, GEOGRAPHY_RELATIONSHIPS y GEOGRAPHY_CHARACTERISTICS.",
+    "Unidad de medida para el valor reportado.",
+    "Identificador único de una variable, conectable a la tabla de series temporales.",
+    "Fecha asociada al valor.",
+    "Nombre único legible por humanos para la variable.",
+    "Valor reportado para la variable."
+  ]
+}
