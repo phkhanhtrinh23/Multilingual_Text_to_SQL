@@ -1,0 +1,46 @@
+{
+  "sample_rows": [
+    {
+      "Identificador geográfico": "country/USA",
+      "Variable": "Industrial_Production:_Nondurable_Goods_Materials,_Seasonally_adjusted,_Monthly,_Index_2017=100",
+      "Identificador de serie": "IPNMAT"
+    },
+    {
+      "Identificador geográfico": "country/USA",
+      "Variable": "Industrial_Production:_Nondurable_Energy_Consumer_Goods:_Fuels,_Seasonally_adjusted,_Monthly,_Index_2017=100",
+      "Identificador de serie": "IPFUELS"
+    },
+    {
+      "Identificador geográfico": "country/USA",
+      "Variable": "Assets:_Liquidity_and_Credit_Facilities:_Net_Portfolio_Holdings_of_MS_Facilities_2020_LLC_(Main_Street_Lending_Program):_Wednesday_Level_in_Federal_Reserve_District_7:_Chicago,_Not_seasonally_adjusted,_Weekly,_USD",
+      "Identificador de serie": "H41RESPPAAEF07NWW"
+    },
+    {
+      "Identificador geográfico": "country/USA",
+      "Variable": "Layoffs_and_Discharges:_Total_Nonfarm,_Seasonally_adjusted,_Monthly,_Level_in_Thousands",
+      "Identificador de serie": "JTSLDL"
+    },
+    {
+      "Identificador geográfico": "country/USA",
+      "Variable": "New_Privately-Owned_Housing_Units_Authorized_in_Permit-Issuing_Places:_Units_in_Buildings_with_2-4_Units,_Seasonally_adjusted_annual_rate,_Monthly,_Units",
+      "Identificador de serie": "PERMIT24"
+    }
+  ],
+  "table_name": "FINANCIAL_FRED_VARIABLE_SERIES_ID_CROSSWALK",
+  "table_fullname": "FINANCE__ECONOMICS.CYBERSYN.FINANCIAL_FRED_VARIABLE_SERIES_ID_CROSSWALK",
+  "column_names": [
+    "Identificador de serie",
+    "Identificador geográfico",
+    "Variable"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Identificador de series de la base de datos FRED. La combinación de geo_id y variable es necesaria para identificar conjuntamente un series_id único.",
+    "Identificador único para un lugar que se puede unir a la tabla timeseries.",
+    "Identificador único que se puede unir a las tablas attributes y timeseries."
+  ]
+}
