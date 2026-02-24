@@ -1,0 +1,94 @@
+{
+  "sample_rows": [
+    {
+      "Identificador de la empresa": "ca52d8c892a8ffe6e8368f2bd7a5fca7",
+      "Nombre de la empresa": "WYNN RESORTS LTD",
+      "Nivel de entidad": "Corporate",
+      "Identificador de la empresa relacionada": "5a2aaa890644211a8e69ad206ee9d4de",
+      "Nombre de la empresa relacionada": "WYNN LAS VEGAS LLC",
+      "Nivel de la entidad relacionada": "Corporate",
+      "Tipo de relación": "Parent",
+      "Fecha de inicio de la relación": null,
+      "Fecha de finalización de la relación": null
+    },
+    {
+      "Identificador de la empresa": "61042fb57d4bc5965ff4f0dfa55f3aa2",
+      "Nombre de la empresa": "RITZ-CARLTON HOTEL COMPANY LLC",
+      "Nivel de entidad": "Corporate",
+      "Identificador de la empresa relacionada": "d0d371457687b60bbb116b9fc9ae65ea",
+      "Nombre de la empresa relacionada": "MARRIOTT INTERNATIONAL INC /MD/",
+      "Nivel de la entidad relacionada": "Corporate",
+      "Tipo de relación": "Subsidiary",
+      "Fecha de inicio de la relación": null,
+      "Fecha de finalización de la relación": null
+    },
+    {
+      "Identificador de la empresa": "9d60e1934f9141a0991597d08181e126",
+      "Nombre de la empresa": "TOWNEPLACE SUITES BY MARRIOTT",
+      "Nivel de entidad": "Corporate",
+      "Identificador de la empresa relacionada": "d0d371457687b60bbb116b9fc9ae65ea",
+      "Nombre de la empresa relacionada": "MARRIOTT INTERNATIONAL INC /MD/",
+      "Nivel de la entidad relacionada": "Corporate",
+      "Tipo de relación": "Subsidiary",
+      "Fecha de inicio de la relación": null,
+      "Fecha de finalización de la relación": null
+    },
+    {
+      "Identificador de la empresa": "b5647b2c2c12a1b09f5ce31802833f10",
+      "Nombre de la empresa": "WYNDHAM HOTELS & RESORTS, INC.",
+      "Nivel de entidad": "Corporate",
+      "Identificador de la empresa relacionada": "015a8a998d3e9492c6ff9ed4e452d802",
+      "Nombre de la empresa relacionada": "SUPER 8 WORLDWIDE, INC.",
+      "Nivel de la entidad relacionada": "Corporate",
+      "Tipo de relación": "Parent",
+      "Fecha de inicio de la relación": null,
+      "Fecha de finalización de la relación": null
+    },
+    {
+      "Identificador de la empresa": "b00320b7fdfbd6ecdbe7379e1e1e1d61",
+      "Nombre de la empresa": "COMCAST CORP",
+      "Nivel de entidad": "Corporate",
+      "Identificador de la empresa relacionada": "36df5b636ad537c1a94fb35cd7c91f80",
+      "Nombre de la empresa relacionada": "FANDANGO MEDIA LLC",
+      "Nivel de la entidad relacionada": "Corporate",
+      "Tipo de relación": "Parent",
+      "Fecha de inicio de la relación": null,
+      "Fecha de finalización de la relación": null
+    }
+  ],
+  "table_name": "COMPANY_RELATIONSHIPS",
+  "table_fullname": "FINANCE__ECONOMICS.CYBERSYN.COMPANY_RELATIONSHIPS",
+  "column_names": [
+    "Nombre de la empresa",
+    "Tipo de relación",
+    "Fecha de inicio de la relación",
+    "Fecha de finalización de la relación",
+    "Identificador de la empresa",
+    "Nivel de entidad",
+    "Identificador de la empresa relacionada",
+    "Nivel de la entidad relacionada",
+    "Nombre de la empresa relacionada"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "DATE",
+    "DATE",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "El nombre de la empresa.",
+    "Especifica el tipo de relación entre la empresa y la empresa relacionada. El valor es 'Parent' cuando la empresa es la matriz de la empresa relacionada y 'Subsidiary' cuando la empresa es una subsidiaria de la empresa relacionada.",
+    "El inicio de la asociación de una empresa con la empresa relacionada. En los casos en que la fecha de inicio es desconocida, se asigna NULL.",
+    "El final de la relación válida para la empresa y la empresa relacionada. En los casos en que la relación esté actualmente vigente, se asigna una fecha de finalización NULL.",
+    "Identificador único asignado por Cybersyn a cada empresa. Se puede unir a la tabla COMPANY_INDEX.",
+    "Describe el tipo o nivel de la entidad para mayor conveniencia. Actualmente, todas las entidades son entidades corporativas y se denotan como 'Corporate'.",
+    "Identificador único asignado por Cybersyn a la empresa relacionada. Se puede unir a la tabla COMPANY_INDEX.",
+    "Describe el tipo o nivel de la entidad relacionada para mayor conveniencia. Actualmente, todas las entidades son entidades corporativas y se denotan como 'Corporate'.",
+    "El nombre de la empresa relacionada."
+  ]
+}
