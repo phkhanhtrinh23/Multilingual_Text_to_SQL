@@ -1,0 +1,78 @@
+{
+  "sample_rows": [
+    {
+      "Identificador geográfico": null,
+      "Identificador geográfico de la contraparte": "country/TUR",
+      "Variable": "BIS,WS_LBS_D_PUB,1.0,Q.S.L.G.TO3.A.5J.A.5A.N.TR.N",
+      "Nombre de la variable": "All reporting countries - Cross-border Total liabilities of banks with headquarters in All countries (total) vis-a-vis residents of Turkey, Non-banks, total (Amounts outstanding / Stocks, Loans and deposits in All currencies (=D+F+U), All currencies excl. core, All reporting banks/institutions (domestic, foreign, consortium and unclassified)",
+      "Fecha": "2010-06-30",
+      "Valor": 7561000000.0,
+      "Unidad": "USD"
+    },
+    {
+      "Identificador geográfico": null,
+      "Identificador geográfico de la contraparte": "country/MWI",
+      "Variable": "BIS,WS_LBS_D_PUB,1.0,Q.S.C.G.TO1.A.5J.A.5A.B.MW.N",
+      "Nombre de la variable": "All reporting countries - Cross-border Total claims of banks with headquarters in All countries (total) vis-a-vis residents of Malawi, Banks, total (Amounts outstanding / Stocks, Loans and deposits in All currencies (=D+F+U), All currencies, All reporting banks/institutions (domestic, foreign, consortium and unclassified)",
+      "Fecha": "1998-09-30",
+      "Valor": 57000000.0,
+      "Unidad": "USD"
+    },
+    {
+      "Identificador geográfico": null,
+      "Identificador geográfico de la contraparte": "country/ETH",
+      "Variable": "BIS,WS_LBS_D_PUB,1.0,Q.F.L.A.UN9.A.5J.A.5A.A.ET.N",
+      "Nombre de la variable": "All reporting countries - Cross-border Total liabilities of banks with headquarters in All countries (total) vis-a-vis residents of Ethiopia, All sectors (FX and break adjusted change (BIS calculated), All instruments in All currencies (=D+F+U), Unallocated currencies, All reporting banks/institutions (domestic, foreign, consortium and unclassified)",
+      "Fecha": "1994-03-31",
+      "Valor": -1230000.0,
+      "Unidad": "USD"
+    },
+    {
+      "Identificador geográfico": null,
+      "Identificador geográfico de la contraparte": "country/TON",
+      "Variable": "BIS,WS_LBS_D_PUB,1.0,Q.S.L.B.TO1.A.5J.A.5A.A.TO.N",
+      "Nombre de la variable": "All reporting countries - Cross-border Total liabilities of banks with headquarters in All countries (total) vis-a-vis residents of Tonga, All sectors (Amounts outstanding / Stocks, Credit (loans & debt securities) in All currencies (=D+F+U), All currencies, All reporting banks/institutions (domestic, foreign, consortium and unclassified)",
+      "Fecha": "2009-09-30",
+      "Valor": 30000000.0,
+      "Unidad": "USD"
+    },
+    {
+      "Identificador geográfico": null,
+      "Identificador geográfico de la contraparte": "country/AUS",
+      "Variable": "BIS,WS_LBS_D_PUB,1.0,Q.F.C.G.UN9.A.5J.A.5A.B.AU.N",
+      "Nombre de la variable": "All reporting countries - Cross-border Total claims of banks with headquarters in All countries (total) vis-a-vis residents of Australia, Banks, total (FX and break adjusted change (BIS calculated), Loans and deposits in All currencies (=D+F+U), Unallocated currencies, All reporting banks/institutions (domestic, foreign, consortium and unclassified)",
+      "Fecha": "2010-03-31",
+      "Valor": -1417108000.0,
+      "Unidad": "USD"
+    }
+  ],
+  "table_name": "BANK_FOR_INTERNATIONAL_SETTLEMENTS_TIMESERIES",
+  "table_fullname": "FINANCE__ECONOMICS.CYBERSYN.BANK_FOR_INTERNATIONAL_SETTLEMENTS_TIMESERIES",
+  "column_names": [
+    "Identificador geográfico de la contraparte",
+    "Identificador geográfico",
+    "Unidad",
+    "Valor",
+    "Fecha",
+    "Variable",
+    "Nombre de la variable"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "FLOAT",
+    "DATE",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Un identificador único para un país o grupo de países, enlazable a la tabla GEOGRAPHY_INDEX, que representa la geografía de la contraparte para la variable.",
+    "Un identificador único para un país o grupo de países, enlazable a la tabla GEOGRAPHY_INDEX, que representa la geografía principal para la variable.",
+    "Unidad de medida para el valor informado.",
+    "Valor informado para la variable.",
+    "Fecha asociada al valor.",
+    "Identificador único de una variable, enlazable a la tabla timeseries.",
+    "Nombre legible para la variable."
+  ]
+}
