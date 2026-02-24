@@ -1,0 +1,70 @@
+{
+  "sample_rows": [
+    {
+      "Identificador del calendario": "day",
+      "Nombre del calendario": "Day",
+      "Fecha de inicio del período": "2017-02-03",
+      "Fecha de fin del período": "2017-02-03",
+      "Período anual": 2017,
+      "Posición ordinal en el período anual": 34
+    },
+    {
+      "Identificador del calendario": "week_monday_start",
+      "Nombre del calendario": "Week - Monday Start",
+      "Fecha de inicio del período": "2023-06-12",
+      "Fecha de fin del período": "2023-06-18",
+      "Período anual": 2023,
+      "Posición ordinal en el período anual": 24
+    },
+    {
+      "Identificador del calendario": "day",
+      "Nombre del calendario": "Day",
+      "Fecha de inicio del período": "2023-06-26",
+      "Fecha de fin del período": "2023-06-26",
+      "Período anual": 2023,
+      "Posición ordinal en el período anual": 177
+    },
+    {
+      "Identificador del calendario": "day",
+      "Nombre del calendario": "Day",
+      "Fecha de inicio del período": "2019-11-09",
+      "Fecha de fin del período": "2019-11-09",
+      "Período anual": 2019,
+      "Posición ordinal en el período anual": 313
+    },
+    {
+      "Identificador del calendario": "day",
+      "Nombre del calendario": "Day",
+      "Fecha de inicio del período": "2018-11-09",
+      "Fecha de fin del período": "2018-11-09",
+      "Período anual": 2018,
+      "Posición ordinal en el período anual": 313
+    }
+  ],
+  "table_name": "CALENDAR_INDEX",
+  "table_fullname": "GLOBAL_GOVERNMENT.CYBERSYN.CALENDAR_INDEX",
+  "column_names": [
+    "Nombre del calendario",
+    "Identificador del calendario",
+    "Posición ordinal en el período anual",
+    "Fecha de fin del período",
+    "Fecha de inicio del período",
+    "Período anual"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "NUMBER",
+    "DATE",
+    "DATE",
+    "NUMBER"
+  ],
+  "description": [
+    "Nombre legible por humanos para el tipo de calendario.",
+    "Identificador único que denota un tipo de calendario (p. ej., Mes, Trimestre, Mes minorista 4-5-4).",
+    "La posición ordinal del periodo dentro del periodo anual.",
+    "El último día del periodo.",
+    "El primer día del periodo.",
+    "El número de año relacionado con el calendario anual para el periodo. Refleja el año calendario para periodos de calendario y el año minorista 4-5-4 para periodos minoristas."
+  ]
+}
