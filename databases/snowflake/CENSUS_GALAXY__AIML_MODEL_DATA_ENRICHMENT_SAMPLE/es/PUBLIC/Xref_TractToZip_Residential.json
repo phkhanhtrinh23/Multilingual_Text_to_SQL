@@ -1,0 +1,46 @@
+{
+  "sample_rows": [
+    {
+      "Identificador de tracto del estado y condado de origen": "36085009701",
+      "Código postal de destino": "10310",
+      "Proporción de mapeo residencial TZ": "1.000000000000000"
+    },
+    {
+      "Identificador de tracto del estado y condado de origen": "36047055400",
+      "Código postal de destino": "11229",
+      "Proporción de mapeo residencial TZ": "0.949859154929578"
+    },
+    {
+      "Identificador de tracto del estado y condado de origen": "36061007100",
+      "Código postal de destino": "10121",
+      "Proporción de mapeo residencial TZ": "0E-15"
+    },
+    {
+      "Identificador de tracto del estado y condado de origen": "36061007100",
+      "Código postal de destino": "10119",
+      "Proporción de mapeo residencial TZ": "0E-15"
+    },
+    {
+      "Identificador de tracto del estado y condado de origen": "36061007100",
+      "Código postal de destino": "10014",
+      "Proporción de mapeo residencial TZ": "0.483077617328520"
+    }
+  ],
+  "table_name": "Xref_TractToZip_Residential",
+  "table_fullname": "CENSUS_GALAXY__AIML_MODEL_DATA_ENRICHMENT_SAMPLE.PUBLIC.Xref_TractToZip_Residential",
+  "column_names": [
+    "Identificador de tracto del estado y condado de origen",
+    "Código postal de destino",
+    "Proporción de mapeo residencial TZ"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "NUMBER"
+  ],
+  "description": [
+    "Un identificador único de clave compuesta que utiliza StateFIPS, CountyFIPS y Tract para un área geográfica específica. Este campo (y la tabla) es para métricas rodantes y valores desde el nivel de grupo de bloques censales o Tract del Censo hasta el Código Postal.",
+    "El código postal del Servicio Postal de los Estados Unidos que se relaciona con el StateCountyTractID basado en la proporción de residentes en esa región geográfica. Muchos tractos censales pueden superponerse a partes de Códigos Postales, y muchos Códigos Postales pueden superponerse a partes de tractos censales.",
+    "Las proporciones de residentes en cada tracto censal que están formadas por ese Código Postal asociado. “TZ” como sufijo designa la dirección de los datos, tracto censal a Código Postal (usualmente polígonos más pequeños hacia los más grandes)."
+  ]
+}
