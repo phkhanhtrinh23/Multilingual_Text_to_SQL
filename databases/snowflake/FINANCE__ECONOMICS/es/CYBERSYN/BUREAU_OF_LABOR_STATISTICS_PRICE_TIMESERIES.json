@@ -1,0 +1,62 @@
+{
+  "sample_rows": [
+    {
+      "Identificador geográfico": "censusRegion/03",
+      "variable": "Average_Price:_All_Ham_(Excluding_Canned_Ham_and_Luncheon_Slices),_per_lb._(453.6_gm)",
+      "nombre_de_variable": "Average Price: All Ham (Excluding Canned Ham and Luncheon Slices), per lb. (453.6 gm)",
+      "valor": 2.093,
+      "fecha": "2001-06-30"
+    },
+    {
+      "Identificador geográfico": "censusRegion/01",
+      "variable": "Average_Price:_American_processed_cheese,_per_lb._(453.6_gm)",
+      "nombre_de_variable": "Average Price: American processed cheese, per lb. (453.6 gm)",
+      "valor": 4.556,
+      "fecha": "2007-08-31"
+    },
+    {
+      "Identificador geográfico": "censusDivision/05",
+      "variable": "CPI:_Services_less_rent_of_shelter,_Not_seasonally_adjusted,_Semi-annual,_2017-12_Index_Date",
+      "nombre_de_variable": "CPI: Services less rent of shelter, Not seasonally adjusted, Semi-annual, 2017-12 Index Date",
+      "valor": 126.853,
+      "fecha": "2024-06-30"
+    },
+    {
+      "Identificador geográfico": "geoId/C42660",
+      "variable": "CPI:_All_items_less_energy,_Not_seasonally_adjusted,_Semi-annual",
+      "nombre_de_variable": "CPI: All items less energy, Not seasonally adjusted, Semi-annual",
+      "valor": 153.3,
+      "fecha": "1994-12-31"
+    },
+    {
+      "Identificador geográfico": "censusRegion/03",
+      "variable": "CPI:_Gasoline,_unleaded_regular,_Not_seasonally_adjusted,_Monthly",
+      "nombre_de_variable": "CPI: Gasoline, unleaded regular, Not seasonally adjusted, Monthly",
+      "valor": 98.0,
+      "fecha": "1990-08-31"
+    }
+  ],
+  "table_name": "BUREAU_OF_LABOR_STATISTICS_PRICE_TIMESERIES",
+  "table_fullname": "FINANCE__ECONOMICS.CYBERSYN.BUREAU_OF_LABOR_STATISTICS_PRICE_TIMESERIES",
+  "column_names": [
+    "Identificador geográfico",
+    "valor",
+    "variable",
+    "nombre_de_variable",
+    "fecha"
+  ],
+  "column_types": [
+    "TEXT",
+    "FLOAT",
+    "TEXT",
+    "TEXT",
+    "DATE"
+  ],
+  "description": [
+    "Un identificador único para un lugar, que se puede enlazar a las tablas geography_index/relationships",
+    "Valor de la métrica",
+    "Un identificador único para una variable, que se puede enlazar a la tabla de atributos",
+    "Nombre legible por humanos para una variable",
+    "Fecha asociada al valor, que se establece en el último día del periodo de reporte"
+  ]
+}
