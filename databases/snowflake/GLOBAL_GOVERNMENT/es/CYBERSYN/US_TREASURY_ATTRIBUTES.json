@@ -1,0 +1,78 @@
+{
+  "sample_rows": [
+    {
+      "Variable": "paper_savings_bonds_outstanding_series_i",
+      "VARIABLE_NAME": "Paper Savings Bonds Outstanding: Series I",
+      "Medida": "Paper Savings Bonds",
+      "Unidad": "Count",
+      "Frecuencia": "Monthly",
+      "MEASUREMENT_TYPE": "Series I",
+      "TAX_CATEGORY": null
+    },
+    {
+      "Variable": "treasurydirect_sales_by_term_amount_marketable_security_tips_5_years_from_certificates_of_indebtedness",
+      "VARIABLE_NAME": "TreasuryDirect Sales by Term Amount: Marketable Security TIPS (5 years) (From Certificates of Indebtedness)",
+      "Medida": "TreasuryDirect Sales by Term",
+      "Unidad": "USD",
+      "Frecuencia": "Monthly",
+      "MEASUREMENT_TYPE": "Marketable Security TIPS (5 years) (From Certificates of Indebtedness)",
+      "TAX_CATEGORY": null
+    },
+    {
+      "Variable": "paper_savings_bonds_redeemed_series_j",
+      "VARIABLE_NAME": "Paper Savings Bonds Redeemed: Series J",
+      "Medida": "Paper Savings Bonds",
+      "Unidad": "Count",
+      "Frecuencia": "Monthly",
+      "MEASUREMENT_TYPE": "Series J",
+      "TAX_CATEGORY": null
+    },
+    {
+      "Variable": "matured_unredeemed_debt_bonds_outstanding_series_j",
+      "VARIABLE_NAME": "Matured Unredeemed Debt: Bonds Outstanding, Series J",
+      "Medida": "Matured Unredeemed Debt",
+      "Unidad": "Count",
+      "Frecuencia": "Monthly",
+      "MEASUREMENT_TYPE": "Series J",
+      "TAX_CATEGORY": null
+    },
+    {
+      "Variable": "treasurydirect_sales_by_term_count_marketable_series_bill_7_weeks_from_certificates_of_indebtedness",
+      "VARIABLE_NAME": "TreasuryDirect Sales by Term Count: Marketable Series Bill (7 weeks) (From Certificates of Indebtedness)",
+      "Medida": "TreasuryDirect Sales by Term",
+      "Unidad": "Count",
+      "Frecuencia": "Monthly",
+      "MEASUREMENT_TYPE": "Marketable Series Bill (7 weeks) (From Certificates of Indebtedness)",
+      "TAX_CATEGORY": null
+    }
+  ],
+  "table_name": "US_TREASURY_ATTRIBUTES",
+  "table_fullname": "GLOBAL_GOVERNMENT.CYBERSYN.US_TREASURY_ATTRIBUTES",
+  "column_names": [
+    "Variable",
+    "Medida",
+    "VARIABLE_NAME",
+    "Frecuencia",
+    "TAX_CATEGORY",
+    "MEASUREMENT_TYPE",
+    "Unidad"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Identificador único para una variable, que se puede unir a la tabla de series temporales.",
+    "Atributo cuantificable o tema; descripción de lo que se está registrando.",
+    "Nombre único legible por humanos para la variable.",
+    "Frecuencia de agregaciones.",
+    "Categorías de impuestos reportadas por el Tesoro de los Estados Unidos, las cuales no son mutuamente excluyentes. El total de la Categoría de Impuestos contiene la suma de los montos de impuestos Non-Tax y del Servicio de Impuestos Internos (IRS). Las cinco categorías son 1. Non-Tax - Suma de IRS-Non-Tax y Non-Tax (aparte de IRS Non-Tax). 2. IRS Non-Tax - Recaudaciones para ALCs (Códigos de Ubicación de Agencias) que comienzan con 2009 pero no incluyen ninguno de los Centros de Servicio del IRS. 3. IRS Tax - Recaudaciones para las ALCs del Centro de Servicio del IRS. 4. Non-Tax (aparte de IRS Non-Tax) - Recaudaciones que no comienzan con ALC 2009. 5. IRS Tax & IRS Non-Tax - Suma de IRS Non-Tax e IRS Tax.",
+    "Tipo de instrumento del Tesoro de los Estados Unidos que se está midiendo (p. ej., Serie E de Bonos de Ahorro).",
+    "Unidad de medida para el valor reportado."
+  ]
+}
