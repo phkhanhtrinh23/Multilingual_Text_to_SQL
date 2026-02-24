@@ -1,0 +1,94 @@
+{
+  "sample_rows": [
+    {
+      "Identificador del aeropuerto": "1059BHM",
+      "Código DOT del aeropuerto": 1059,
+      "Nombre del aeropuerto": "Birmingham-Shuttlesworth International",
+      "Código alfabético del aeropuerto": "BHM",
+      "Código de área mundial del aeropuerto": 51,
+      "Ubicación": "Birmingham, AL: Birmingham-Shuttlesworth International",
+      "Ciudad del aeropuerto": "Birmingham",
+      "Identificador geográfico del estado": "geoId/01",
+      "Identificador geográfico del país": "country/USA"
+    },
+    {
+      "Identificador del aeropuerto": "42650MCI",
+      "Código DOT del aeropuerto": 42650,
+      "Nombre del aeropuerto": "Kansas City International",
+      "Código alfabético del aeropuerto": "MCI",
+      "Código de área mundial del aeropuerto": 64,
+      "Ubicación": "Kansas City, MO: Kansas City International",
+      "Ciudad del aeropuerto": "Kansas City",
+      "Identificador geográfico del estado": "geoId/29",
+      "Identificador geográfico del país": "country/USA"
+    },
+    {
+      "Identificador del aeropuerto": "91940TUS",
+      "Código DOT del aeropuerto": 91940,
+      "Nombre del aeropuerto": "Tucson International",
+      "Código alfabético del aeropuerto": "TUS",
+      "Código de área mundial del aeropuerto": 81,
+      "Ubicación": "Tucson, AZ: Tucson International",
+      "Ciudad del aeropuerto": "Tucson",
+      "Identificador geográfico del estado": "geoId/04",
+      "Identificador geográfico del país": "country/USA"
+    },
+    {
+      "Identificador del aeropuerto": "1298LIJ",
+      "Código DOT del aeropuerto": 1298,
+      "Nombre del aeropuerto": "Long Island Airport",
+      "Código alfabético del aeropuerto": "LIJ",
+      "Código de área mundial del aeropuerto": 1,
+      "Ubicación": "Long Island, AK: Long Island Airport",
+      "Ciudad del aeropuerto": "Long Island",
+      "Identificador geográfico del estado": "geoId/02",
+      "Identificador geográfico del país": "country/USA"
+    },
+    {
+      "Identificador del aeropuerto": "49005PIB",
+      "Código DOT del aeropuerto": 49005,
+      "Nombre del aeropuerto": "Hattiesburg-Laurel Regional",
+      "Código alfabético del aeropuerto": "PIB",
+      "Código de área mundial del aeropuerto": 53,
+      "Ubicación": "Hattiesburg/Laurel, MS: Hattiesburg-Laurel Regional",
+      "Ciudad del aeropuerto": "Hattiesburg/Laurel",
+      "Identificador geográfico del estado": "geoId/28",
+      "Identificador geográfico del país": "country/USA"
+    }
+  ],
+  "table_name": "AIRPORT_INDEX",
+  "table_fullname": "GLOBAL_GOVERNMENT.CYBERSYN.AIRPORT_INDEX",
+  "column_names": [
+    "Nombre del aeropuerto",
+    "Identificador geográfico del estado",
+    "Ciudad del aeropuerto",
+    "Código alfabético del aeropuerto",
+    "Código DOT del aeropuerto",
+    "Código de área mundial del aeropuerto",
+    "Identificador geográfico del país",
+    "Ubicación",
+    "Identificador del aeropuerto"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "NUMBER",
+    "NUMBER",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Nombre del aeropuerto.",
+    "Un identificador único para un estado, que se puede unir a la tabla GEOGRAPHY_INDEX, que representa la geografía principal de la variable.",
+    "Nombre de la ciudad en la que se encuentra el aeropuerto.",
+    "Código asignado a los aeropuertos por la Asociación Internacional de Transporte Aéreo (IATA), que se utiliza ampliamente en la industria de la aviación para la emisión de billetes, el manejo de equipaje y la planificación de vuelos.",
+    "Identificador único asignado por el US DOT a cada aeropuerto, utilizado para fines administrativos y de informes.",
+    "Identificador del US DOT para el área geográfica donde se encuentra ubicado el aeropuerto.",
+    "Un identificador único para un país, que se puede unir a la tabla GEOGRAPHY_INDEX, que representa la geografía principal de la variable.",
+    "Nombre completo de la ubicación del aeropuerto.",
+    "ID del aeropuerto de origen que forma parte de la ruta de vuelo que se está midiendo, combinación del código único DOT y del código oficial de 3 letras OAG emitido para ese aeropuerto."
+  ]
+}
