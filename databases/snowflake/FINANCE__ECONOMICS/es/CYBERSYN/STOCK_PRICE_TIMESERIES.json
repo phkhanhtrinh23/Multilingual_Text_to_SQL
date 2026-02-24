@@ -1,0 +1,86 @@
+{
+  "sample_rows": [
+    {
+      "símbolo": "FAMI",
+      "clase de activo": "Common Shares",
+      "código de la bolsa principal": "NAS",
+      "nombre de la bolsa principal": "NASDAQ CAPITAL MARKET",
+      "variable": "all-day_high",
+      "nombre de la variable": "All-Day High",
+      "fecha": "2022-08-08",
+      "valor": 1.19
+    },
+    {
+      "símbolo": "TIPT",
+      "clase de activo": "Equity",
+      "código de la bolsa principal": "NAS",
+      "nombre de la bolsa principal": "NASDAQ CAPITAL MARKET",
+      "variable": "nasdaq_volume",
+      "nombre de la variable": "Nasdaq Volume",
+      "fecha": "2023-02-16",
+      "valor": 17249.0
+    },
+    {
+      "símbolo": "BLK",
+      "clase de activo": "Equity",
+      "código de la bolsa principal": "NYS",
+      "nombre de la bolsa principal": "NEW YORK STOCK EXCHANGE",
+      "variable": "post-market_close",
+      "nombre de la variable": "Post-Market Close",
+      "fecha": "2021-04-26",
+      "valor": 817.51
+    },
+    {
+      "símbolo": "BRN",
+      "clase de activo": "Equity",
+      "código de la bolsa principal": "ASE",
+      "nombre de la bolsa principal": "NYSE MKT LLC",
+      "variable": "nasdaq_volume",
+      "nombre de la variable": "Nasdaq Volume",
+      "fecha": "2018-09-18",
+      "valor": 2028.0
+    },
+    {
+      "símbolo": "XLP",
+      "clase de activo": "ETF-Index Fund Shares",
+      "código de la bolsa principal": "PSE",
+      "nombre de la bolsa principal": "NYSE ARCA",
+      "variable": "nasdaq_volume",
+      "nombre de la variable": "Nasdaq Volume",
+      "fecha": "2023-11-16",
+      "valor": 2373734.0
+    }
+  ],
+  "table_name": "STOCK_PRICE_TIMESERIES",
+  "table_fullname": "FINANCE__ECONOMICS.CYBERSYN.STOCK_PRICE_TIMESERIES",
+  "column_names": [
+    "nombre de la bolsa principal",
+    "clase de activo",
+    "valor",
+    "código de la bolsa principal",
+    "variable",
+    "fecha",
+    "nombre de la variable",
+    "símbolo"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "FLOAT",
+    "TEXT",
+    "TEXT",
+    "DATE",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "El nombre de la bolsa para el lugar de negociación principal de un valor.",
+    "Tipo de valor.",
+    "Valor reportado para la variable.",
+    "El código de la bolsa para el lugar de negociación principal de un valor.",
+    "Identificador único para una variable, vinculable a la tabla de series temporales.",
+    "Fecha asociada al valor.",
+    "Nombre único legible por humanos para la variable.",
+    "Código alfanumérico que representa un valor específico que cotiza públicamente en la NASDAQ."
+  ]
+}
