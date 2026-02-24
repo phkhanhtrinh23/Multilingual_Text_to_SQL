@@ -1,0 +1,78 @@
+{
+  "sample_rows": [
+    {
+      "IDENTIFICADOR_GEOGRAFICO": "geoId/C41740",
+      "VARIABLE": "Annual_%_of_Appraisals_Above_Contract_Price_Ratio_of_Tract_Med._Inc._to_MSA_Med._Inc._Purchase_Missing",
+      "NOMBRE_DE_VARIABLE": "Annual % of Appraisals Above Contract Price Ratio of Tract Med. Inc. to MSA Med. Inc. Purchase Missing",
+      "FECHA": "2015-12-31",
+      "VALOR": 0.51,
+      "UNIDAD": "Percent",
+      "OCULTO": false
+    },
+    {
+      "IDENTIFICADOR_GEOGRAFICO": "geoId/M19804",
+      "VARIABLE": "Quarterly_25%_Quartile_of_Appraised_Value_Year_Built_Purchase_1980_to_1989",
+      "NOMBRE_DE_VARIABLE": "Quarterly 25% Quartile of Appraised Value Year Built Purchase 1980 to 1989",
+      "FECHA": "2023-12-31",
+      "VALOR": 264000.0,
+      "UNIDAD": "USD",
+      "OCULTO": false
+    },
+    {
+      "IDENTIFICADOR_GEOGRAFICO": "geoId/C36540",
+      "VARIABLE": "Annual_Mean_Comps_Adjustment_Percent_Effective_Age_Purchase_&_Refinance_6_to_10_years",
+      "NOMBRE_DE_VARIABLE": "Annual Mean Comps Adjustment Percent Effective Age Purchase & Refinance 6 to 10 years",
+      "FECHA": "2023-12-31",
+      "VALOR": 0.004,
+      "UNIDAD": "Percent",
+      "OCULTO": false
+    },
+    {
+      "IDENTIFICADOR_GEOGRAFICO": "geoId/39153502101",
+      "VARIABLE": "Annual_25%_Quartile_of_Appraised_Value_Refinance_All_Appraisals",
+      "NOMBRE_DE_VARIABLE": "Annual 25% Quartile of Appraised Value Refinance All Appraisals",
+      "FECHA": "2021-12-31",
+      "VALOR": 95500.0,
+      "UNIDAD": "USD",
+      "OCULTO": false
+    },
+    {
+      "IDENTIFICADOR_GEOGRAFICO": "geoId/M33874",
+      "VARIABLE": "Quarterly_Mean_Distance_to_Comps_Number_of_Rooms_Above_Grade_Refinance_7_Rooms",
+      "NOMBRE_DE_VARIABLE": "Quarterly Mean Distance to Comps Number of Rooms Above Grade Refinance 7 Rooms",
+      "FECHA": "2021-03-31",
+      "VALOR": 0.83,
+      "UNIDAD": "Miles",
+      "OCULTO": false
+    }
+  ],
+  "table_name": "FHFA_UNIFORM_APPRAISAL_TIMESERIES",
+  "table_fullname": "FINANCE__ECONOMICS.CYBERSYN.FHFA_UNIFORM_APPRAISAL_TIMESERIES",
+  "column_names": [
+    "UNIDAD",
+    "NOMBRE_DE_VARIABLE",
+    "VARIABLE",
+    "IDENTIFICADOR_GEOGRAFICO",
+    "OCULTO",
+    "FECHA",
+    "VALOR"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "BOOLEAN",
+    "DATE",
+    "FLOAT"
+  ],
+  "description": [
+    "Unidad de medida para la variable (p. ej., Count, Percent, Ratio, USD)",
+    "Descripción legible por humanos de la variable",
+    "Un identificador único para una variable que se puede unir a la tabla de atributos para filtrado",
+    "Un identificador geográfico único que se puede enlazar a las tablas geography_index/relationships",
+    "Booleano que indica si el valor ha sido suprimido en los datos subyacentes por motivos de privacidad. Los valores suprimidos aparecen como NULL",
+    "Fecha asociada al valor",
+    "El valor numérico informado para la variable y la fecha"
+  ]
+}
