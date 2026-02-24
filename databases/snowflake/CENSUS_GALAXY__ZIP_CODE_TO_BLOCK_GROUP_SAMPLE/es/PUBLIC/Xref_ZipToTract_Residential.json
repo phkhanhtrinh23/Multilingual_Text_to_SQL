@@ -1,0 +1,46 @@
+{
+  "sample_rows": [
+    {
+      "Código postal de origen": "13666",
+      "ID de tracto censal del estado y condado de destino": "36089492501",
+      "Proporción de mapeo residencial ZT": "1.000000000000000"
+    },
+    {
+      "Código postal de origen": "12160",
+      "ID de tracto censal del estado y condado de destino": "36095740400",
+      "Proporción de mapeo residencial ZT": "0.500000000000000"
+    },
+    {
+      "Código postal de origen": "12160",
+      "ID de tracto censal del estado y condado de destino": "36057072800",
+      "Proporción de mapeo residencial ZT": "0.032863849765258"
+    },
+    {
+      "Código postal de origen": "12854",
+      "ID de tracto censal del estado y condado de destino": "36115084001",
+      "Proporción de mapeo residencial ZT": "1.000000000000000"
+    },
+    {
+      "Código postal de origen": "12814",
+      "ID de tracto censal del estado y condado de destino": "36113078000",
+      "Proporción de mapeo residencial ZT": "0.995645863570392"
+    }
+  ],
+  "table_name": "Xref_ZipToTract_Residential",
+  "table_fullname": "CENSUS_GALAXY__ZIP_CODE_TO_BLOCK_GROUP_SAMPLE.PUBLIC.Xref_ZipToTract_Residential",
+  "column_names": [
+    "Código postal de origen",
+    "ID de tracto censal del estado y condado de destino",
+    "Proporción de mapeo residencial ZT"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "NUMBER"
+  ],
+  "description": [
+    "El código postal del Servicio Postal de EE. UU. que se relaciona con el StateCountyTractID, basado en la proporción de residentes en esa región geográfica. Muchos tractos pueden superponerse a partes de códigos postales, y muchos códigos postales pueden superponerse a partes de tractos.",
+    "Una clave compuesta de identificador único que utiliza StateFIPS, CountyFIPS y Tract para una ubicación geográfica específica. Este campo (y la tabla) es para métricas rodantes y valores desde el código postal hasta el nivel de grupo de bloques censales o Tract.",
+    "Las proporciones de residentes en cada código postal que están compuestas por ese Tract conectado. “ZT” como sufijo designa la dirección de los datos, código postal a Tract (usualmente polígonos más grandes hacia los más pequeños)."
+  ]
+}
