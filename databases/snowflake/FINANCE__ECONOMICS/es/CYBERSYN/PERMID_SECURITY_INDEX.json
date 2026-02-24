@@ -1,0 +1,102 @@
+{
+  "sample_rows": [
+    {
+      "Identificador de seguridad PERMID": "8589975674",
+      "Ticker principal": "EVN",
+      "Nombre de valor": "EATON VANCE MUNICIPAL INCOME CLOSED FUND",
+      "Tipo de activo": "Other",
+      "Código de bolsa principal": "NYQ",
+      "Nombre de la bolsa principal": "NYSE CONSOLIDATED",
+      "Estado de la seguridad": "Active",
+      "Símbolos globales": "[\n  \"EVN\",\n  \"XEVNX\"\n]",
+      "Código de bolsa": "[\n  \"NAS\",\n  \"NYQ\"\n]",
+      "Identificador de cotización PERMID": "[\n  \"55835369644\",\n  \"55839104515\"\n]"
+    },
+    {
+      "Identificador de seguridad PERMID": "8589959375",
+      "Ticker principal": "LENb",
+      "Nombre de valor": "LENNAR ORD SHS CLASS B",
+      "Tipo de activo": "Ordinary Shares",
+      "Código de bolsa principal": "ISS",
+      "Nombre de la bolsa principal": "ISE when trading NYSE and AMEX Stocks",
+      "Estado de la seguridad": "Active",
+      "Símbolos globales": "[\n  \"LENB*\",\n  \"LENb\",\n  \"LNN0\"\n]",
+      "Código de bolsa": "[\n  \"FRA\",\n  \"ISS\",\n  \"MEX\"\n]",
+      "Identificador de cotización PERMID": "[\n  \"21627275840\",\n  \"21736829361\",\n  \"55836192793\"\n]"
+    },
+    {
+      "Identificador de seguridad PERMID": "18040205046",
+      "Ticker principal": "XFSLX",
+      "Nombre de valor": "FIRST EAGLE SENIOR LOAN FUND",
+      "Tipo de activo": "Other",
+      "Código de bolsa principal": "NAS",
+      "Nombre de la bolsa principal": "NASDAQ CAPITAL MARKET",
+      "Estado de la seguridad": "Inactive",
+      "Símbolos globales": "[\n  \"TSLF\",\n  \"XFSLX\"\n]",
+      "Código de bolsa": "[\n  \"NAS\",\n  \"WCB\"\n]",
+      "Identificador de cotización PERMID": "[\n  \"21529763349\",\n  \"21529826402\"\n]"
+    },
+    {
+      "Identificador de seguridad PERMID": "8590935543",
+      "Ticker principal": "TIF*",
+      "Nombre de valor": "TIFFANY ORD SHS",
+      "Tipo de activo": "Ordinary Shares",
+      "Código de bolsa principal": "MXQ",
+      "Nombre de la bolsa principal": null,
+      "Estado de la seguridad": "Inactive",
+      "Símbolos globales": "[\n  \"0LFD\",\n  \"0LFDl\",\n  \"TIF*\"\n]",
+      "Código de bolsa": "[\n  \"BCO\",\n  \"LSE\",\n  \"MXQ\"\n]",
+      "Identificador de cotización PERMID": "[\n  \"21633621402\",\n  \"21634297966\",\n  \"21667705791\"\n]"
+    },
+    {
+      "Identificador de seguridad PERMID": "8590923465",
+      "Ticker principal": "RWSl",
+      "Nombre de valor": "RWS HOLDINGS ORD SHS",
+      "Tipo de activo": "Ordinary Shares",
+      "Código de bolsa principal": "BCO",
+      "Nombre de la bolsa principal": "BATS CHI-X Trade Reporting",
+      "Estado de la seguridad": "Active",
+      "Símbolos globales": "[\n  \"RWJ\",\n  \"RWSl\"\n]",
+      "Código de bolsa": "[\n  \"BCO\",\n  \"TDG\"\n]",
+      "Identificador de cotización PERMID": "[\n  \"21475037440\",\n  \"21538768765\"\n]"
+    }
+  ],
+  "table_name": "PERMID_SECURITY_INDEX",
+  "table_fullname": "FINANCE__ECONOMICS.CYBERSYN.PERMID_SECURITY_INDEX",
+  "column_names": [
+    "Tipo de activo",
+    "Código de bolsa",
+    "Ticker principal",
+    "Nombre de valor",
+    "Código de bolsa principal",
+    "Estado de la seguridad",
+    "Símbolos globales",
+    "Identificador de seguridad PERMID",
+    "Nombre de la bolsa principal",
+    "Identificador de cotización PERMID"
+  ],
+  "column_types": [
+    "TEXT",
+    "ARRAY",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "ARRAY",
+    "TEXT",
+    "TEXT",
+    "ARRAY"
+  ],
+  "description": [
+    "Una clase de activos de base amplia, como 'Ordinary Shares', 'Depositary Receipts', etc.",
+    "Un arreglo de códigos que representan las bolsas en las que se negocia el valor. Un arreglo vacío significa que la información de la bolsa no está disponible.",
+    "El ticker de la plaza de negociación principal de un valor. Si un valor cotiza en varias bolsas o tiene numerosos tickers, se intenta seleccionar el ticker del mercado de origen.",
+    "Nombre del valor.",
+    "El código de la bolsa para la plaza de negociación principal de un valor.",
+    "Estado del valor, es decir, 'Active' o 'Inactive'. Un valor activo es aquel que tiene cotizaciones activas y un valor inactivo no tiene cotizaciones activas. Este estado cambia con el tiempo.",
+    "Un arreglo de símbolos de cotización bajo los cuales el valor puede negociarse globalmente en todas las bolsas.",
+    "PermID para el valor.",
+    "El nombre de la bolsa para la plaza de negociación principal de un valor.",
+    "Un arreglo de PermIDs para las cotizaciones de cada bolsa donde se negocia el valor. Un arreglo vacío significa que la información de cotización no está disponible."
+  ]
+}

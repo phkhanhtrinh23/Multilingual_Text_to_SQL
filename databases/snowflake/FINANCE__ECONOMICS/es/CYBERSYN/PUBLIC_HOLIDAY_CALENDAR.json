@@ -1,0 +1,70 @@
+{
+  "sample_rows": [
+    {
+      "identificador geográfico": "country/MCO",
+      "ISO alfa-2": "MC",
+      "fecha": "1999-12-08",
+      "nombre del día festivo": "Immaculate Conception's Day",
+      "subdivisión": null,
+      "financiero": false
+    },
+    {
+      "identificador geográfico": "country/MCO",
+      "ISO alfa-2": "MC",
+      "fecha": "2000-06-22",
+      "nombre del día festivo": "Corpus Christi",
+      "subdivisión": null,
+      "financiero": false
+    },
+    {
+      "identificador geográfico": "country/MCO",
+      "ISO alfa-2": "MC",
+      "fecha": "2000-11-19",
+      "nombre del día festivo": "Prince's Day",
+      "subdivisión": null,
+      "financiero": false
+    },
+    {
+      "identificador geográfico": "country/MCO",
+      "ISO alfa-2": "MC",
+      "fecha": "2001-05-24",
+      "nombre del día festivo": "Ascension's Day",
+      "subdivisión": null,
+      "financiero": false
+    },
+    {
+      "identificador geográfico": "country/MCO",
+      "ISO alfa-2": "MC",
+      "fecha": "2001-11-01",
+      "nombre del día festivo": "All Saints' Day",
+      "subdivisión": null,
+      "financiero": false
+    }
+  ],
+  "table_name": "PUBLIC_HOLIDAY_CALENDAR",
+  "table_fullname": "FINANCE__ECONOMICS.CYBERSYN.PUBLIC_HOLIDAY_CALENDAR",
+  "column_names": [
+    "subdivisión",
+    "nombre del día festivo",
+    "ISO alfa-2",
+    "financiero",
+    "fecha",
+    "identificador geográfico"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "BOOLEAN",
+    "DATE",
+    "TEXT"
+  ],
+  "description": [
+    "Estado, provincia u otra geografía subyacente que es específica para el día festivo",
+    "Nombre del día festivo",
+    "Código de país de dos letras de la Organización Internacional de Normalización (ISO)",
+    "Boolean que denota el cierre del mercado bursátil para la región dada",
+    "Fecha asociada con el evento",
+    "GEO_ID de la tabla GEOGRAPHY_INDEX"
+  ]
+}
