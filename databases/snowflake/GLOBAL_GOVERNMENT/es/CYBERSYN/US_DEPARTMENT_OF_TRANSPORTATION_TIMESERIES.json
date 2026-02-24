@@ -1,0 +1,110 @@
+{
+  "sample_rows": [
+    {
+      "Tipo de vuelo": "28ad3b116a705f65fd2a9df6bec3f49f",
+      "Identificador de aerolínea": "06964_12",
+      "Aeronave": "3501",
+      "Aeropuerto de origen": "90530OOK",
+      "Aeropuerto de destino": "10360BET",
+      "Clase de servicio": "Non-Scheduled Civilian Passenger Service",
+      "Variable": "RAMP_IN_MINUTES",
+      "Nombre de variable": "Ramp to Ramp Time",
+      "Fecha": "2010-08-31",
+      "Valor": 56.0,
+      "Unidad": "Minutes"
+    },
+    {
+      "Tipo de vuelo": "cf4b7309ce4884368d51a7e51942e1b9",
+      "Identificador de aerolínea": "06820_32",
+      "Aeronave": "67761",
+      "Aeropuerto de origen": "33342MKE",
+      "Aeropuerto de destino": "30977ORD",
+      "Clase de servicio": "Scheduled Passenger/Cargo Service",
+      "Variable": "RAMP_IN_MINUTES",
+      "Nombre de variable": "Ramp to Ramp Time",
+      "Fecha": "2022-08-31",
+      "Valor": 129.0,
+      "Unidad": "Minutes"
+    },
+    {
+      "Tipo de vuelo": "f367e322ca9c2659c07cc794f71f1d91",
+      "Identificador de aerolínea": "07028_22",
+      "Aeronave": "3161",
+      "Aeropuerto de origen": "30781BTR",
+      "Aeropuerto de destino": "31057CLT",
+      "Clase de servicio": "Scheduled Passenger/Cargo Service",
+      "Variable": "AVAILABLE_CAPACITY_PAYLOAD_POUNDS",
+      "Nombre de variable": "Available Payload",
+      "Fecha": "2018-12-31",
+      "Valor": 17600.0,
+      "Unidad": "Pounds"
+    },
+    {
+      "Tipo de vuelo": "c9dd4f9fc360815254514841363591c7",
+      "Identificador de aerolínea": "01220_31",
+      "Aeronave": "61661",
+      "Aeropuerto de origen": "31703EWR",
+      "Aeropuerto de destino": "30792BUF",
+      "Clase de servicio": "Scheduled Passenger/Cargo Service",
+      "Variable": "DEPARTURES_PERFORMED",
+      "Nombre de variable": "Departures Performed",
+      "Fecha": "2001-02-28",
+      "Valor": 17.0,
+      "Unidad": "Count"
+    },
+    {
+      "Tipo de vuelo": "43c78ee4a763fae537e32de92c688134",
+      "Identificador de aerolínea": "06860_12",
+      "Aeronave": "41641",
+      "Aeropuerto de origen": "32122HGZ",
+      "Aeropuerto de destino": "32214HSL",
+      "Clase de servicio": "Scheduled Passenger/Cargo Service",
+      "Variable": "MAIL_TRANSPORTED",
+      "Nombre de variable": "Non-Stop Segment Mail Transported",
+      "Fecha": "2003-06-30",
+      "Valor": 1121.0,
+      "Unidad": "Pounds"
+    }
+  ],
+  "table_name": "US_DEPARTMENT_OF_TRANSPORTATION_TIMESERIES",
+  "table_fullname": "GLOBAL_GOVERNMENT.CYBERSYN.US_DEPARTMENT_OF_TRANSPORTATION_TIMESERIES",
+  "column_names": [
+    "Tipo de vuelo",
+    "Aeronave",
+    "Aeropuerto de destino",
+    "Unidad",
+    "Valor",
+    "Fecha",
+    "Clase de servicio",
+    "Nombre de variable",
+    "Aeropuerto de origen",
+    "Variable",
+    "Identificador de aerolínea"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "FLOAT",
+    "DATE",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Un hash único para la combinación de los aeropuertos de origen y destino, portaaviones y aeronaves. Clave primaria que refleja el patrón de vuelo.",
+    "ID para el tipo de aeronave, un modelo distintivo designado por el fabricante.",
+    "ID para el aeropuerto de destino que forma parte de la ruta de vuelo que se está midiendo, combinación del código único DOT y del código OAG oficial de 3 letras emitido para ese aeropuerto.",
+    "Unidad de medida para el valor reportado.",
+    "Valor reportado para la variable.",
+    "Fecha asociada al valor.",
+    "Tipo de servicio proporcionado por la aerolínea en un vuelo específico, desglosando el servicio programado del no programado y el tipo de servicio.",
+    "Nombre único legible para humanos de la variable.",
+    "ID para el aeropuerto de origen que forma parte de la ruta de vuelo que se está midiendo, combinación del código único DOT y del código OAG oficial de 3 letras emitido para ese aeropuerto.",
+    "Identificador único de una variable, que se puede unir a la tabla de series temporales.",
+    "ID para el portaaviones."
+  ]
+}
