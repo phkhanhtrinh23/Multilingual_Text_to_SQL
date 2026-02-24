@@ -1,0 +1,46 @@
+{
+  "sample_rows": [
+    {
+      "Identificador de tracto del estado y del condado de origen": "36047055400",
+      "Código postal de destino": "11229",
+      "Proporción de mapeo residencial TZ": "0.949859154929578"
+    },
+    {
+      "Identificador de tracto del estado y del condado de origen": "36061007100",
+      "Código postal de destino": "10119",
+      "Proporción de mapeo residencial TZ": "0E-15"
+    },
+    {
+      "Identificador de tracto del estado y del condado de origen": "36061007100",
+      "Código postal de destino": "10011",
+      "Proporción de mapeo residencial TZ": "0.516922382671480"
+    },
+    {
+      "Identificador de tracto del estado y del condado de origen": "36061007100",
+      "Código postal de destino": "10001",
+      "Proporción de mapeo residencial TZ": "0E-15"
+    },
+    {
+      "Identificador de tracto del estado y del condado de origen": "36047087600",
+      "Código postal de destino": "11203",
+      "Proporción de mapeo residencial TZ": "1.000000000000000"
+    }
+  ],
+  "table_name": "Xref_TractToZip_Residential",
+  "table_fullname": "CENSUS_GALAXY__ZIP_CODE_TO_BLOCK_GROUP_SAMPLE.PUBLIC.Xref_TractToZip_Residential",
+  "column_names": [
+    "Identificador de tracto del estado y del condado de origen",
+    "Código postal de destino",
+    "Proporción de mapeo residencial TZ"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "NUMBER"
+  ],
+  "description": [
+    "Una clave compuesta de identificador único que utiliza StateFIPS, CountyFIPS y Tract para una área geográfica específica. Este campo (y la tabla) es para métricas de evolución y valores desde el nivel del grupo de bloques del censo o Tract hasta el código postal.",
+    "El código postal del Servicio Postal de los Estados Unidos (USPS) que se relaciona con el StateCountyTractID basándose en la proporción de residentes en esa región geográfica. Muchos Tracts pueden superponerse a partes de códigos postales, y muchos códigos postales pueden superponerse a partes de Tracts.",
+    "Las proporciones de residentes en cada Tract que corresponden a ese Zip Code conectado. “TZ” como sufijo designa la dirección de los datos, de Tract a Zip Code (usualmente polígonos más pequeños hacia polígenos más grandes)."
+  ]
+}
