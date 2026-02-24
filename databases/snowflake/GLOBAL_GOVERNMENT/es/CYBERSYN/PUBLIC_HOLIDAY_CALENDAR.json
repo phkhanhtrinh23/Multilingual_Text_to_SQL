@@ -1,0 +1,70 @@
+{
+  "sample_rows": [
+    {
+      "Identificador geográfico": "country/LIE",
+      "Código ISO de dos letras": "LI",
+      "Fecha": "1970-12-24",
+      "Nombre del día festivo": "Heiliger Abend",
+      "Subdivisión": null,
+      "Es financiero": false
+    },
+    {
+      "Identificador geográfico": "country/LIE",
+      "Código ISO de dos letras": "LI",
+      "Fecha": "1971-01-02",
+      "Nombre del día festivo": "Berchtoldstag",
+      "Subdivisión": null,
+      "Es financiero": false
+    },
+    {
+      "Identificador geográfico": "country/LIE",
+      "Código ISO de dos letras": "LI",
+      "Fecha": "1971-04-11",
+      "Nombre del día festivo": "Ostersonntag",
+      "Subdivisión": null,
+      "Es financiero": false
+    },
+    {
+      "Identificador geográfico": "country/LIE",
+      "Código ISO de dos letras": "LI",
+      "Fecha": "1971-04-12",
+      "Nombre del día festivo": "Ostermontag",
+      "Subdivisión": null,
+      "Es financiero": true
+    },
+    {
+      "Identificador geográfico": "country/LIE",
+      "Código ISO de dos letras": "LI",
+      "Fecha": "1971-09-08",
+      "Nombre del día festivo": "Maria Geburt",
+      "Subdivisión": null,
+      "Es financiero": false
+    }
+  ],
+  "table_name": "PUBLIC_HOLIDAY_CALENDAR",
+  "table_fullname": "GLOBAL_GOVERNMENT.CYBERSYN.PUBLIC_HOLIDAY_CALENDAR",
+  "column_names": [
+    "Subdivisión",
+    "Nombre del día festivo",
+    "Código ISO de dos letras",
+    "Es financiero",
+    "Fecha",
+    "Identificador geográfico"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "BOOLEAN",
+    "DATE",
+    "TEXT"
+  ],
+  "description": [
+    "Estado, provincia u otra geografía subyacente específica del feriado",
+    "Nombre del feriado",
+    "Código de país de dos letras de la Organización Internacional de Normalización (ISO)",
+    "Booleano que indica el cierre del mercado bursátil para la región dada",
+    "Fecha asociada al evento",
+    "GEO_ID de la tabla GEOGRAPHY_INDEX"
+  ]
+}
