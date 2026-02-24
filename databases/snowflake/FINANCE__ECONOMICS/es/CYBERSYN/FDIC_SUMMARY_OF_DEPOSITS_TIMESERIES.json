@@ -1,0 +1,78 @@
+{
+  "sample_rows": [
+    {
+      "identificador de la institución FDIC": "2239",
+      "identificador de la sucursal FDIC": "286466",
+      "variable": "DEPSUMBR",
+      "nombre de la variable": "Branch Deposits",
+      "fecha": "2023-06-30",
+      "valor": 119632,
+      "unidad": "USD"
+    },
+    {
+      "identificador de la institución FDIC": "6499",
+      "identificador de la sucursal FDIC": "6499",
+      "variable": "DEPSUMBR",
+      "nombre de la variable": "Branch Deposits",
+      "fecha": "2017-06-30",
+      "valor": 59230,
+      "unidad": "USD"
+    },
+    {
+      "identificador de la institución FDIC": "417",
+      "identificador de la sucursal FDIC": "481396",
+      "variable": "DEPSUMBR",
+      "nombre de la variable": "Branch Deposits",
+      "fecha": "2014-06-30",
+      "valor": 35943,
+      "unidad": "USD"
+    },
+    {
+      "identificador de la institución FDIC": "3123",
+      "identificador de la sucursal FDIC": "203999",
+      "variable": "DEPSUMBR",
+      "nombre de la variable": "Branch Deposits",
+      "fecha": "2016-06-30",
+      "valor": 85928,
+      "unidad": "USD"
+    },
+    {
+      "identificador de la institución FDIC": "745",
+      "identificador de la sucursal FDIC": "745",
+      "variable": "ASSET",
+      "nombre de la variable": "Institutional Assets",
+      "fecha": "2007-06-30",
+      "valor": 133714,
+      "unidad": "USD"
+    }
+  ],
+  "table_name": "FDIC_SUMMARY_OF_DEPOSITS_TIMESERIES",
+  "table_fullname": "FINANCE__ECONOMICS.CYBERSYN.FDIC_SUMMARY_OF_DEPOSITS_TIMESERIES",
+  "column_names": [
+    "valor",
+    "fecha",
+    "identificador de la institución FDIC",
+    "unidad",
+    "variable",
+    "identificador de la sucursal FDIC",
+    "nombre de la variable"
+  ],
+  "column_types": [
+    "NUMBER",
+    "DATE",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "Valor reportado para la variable.",
+    "Fecha asociada con el valor.",
+    "Identificador FDIC único de la institución que posee la sucursal. Es un número único, añadido de forma secuencial a la base de datos de FDIC para bancos y sucursales. Este identificador se actualiza con cada fusión o compra de sucursales para reflejar al propietario más actual.",
+    "Unidad en la que se registra la medida (p. ej., USD YTD).",
+    "Identificador FDIC único para los datos financieros rastreados.",
+    "El número único de FDIC para el banco o la institución de ahorro asignado por la FDIC para identificar y rastrear. El ID de la sucursal de la oficina central es el mismo que el ID de la sucursal para todo el banco o la institución de ahorro.",
+    ""
+  ]
+}
