@@ -1,0 +1,86 @@
+{
+  "sample_rows": [
+    {
+      "Variable": "chf_sek",
+      "Nombre de la variable": "CHF/SEK Exchange Rate",
+      "ID de la moneda base": "CHF",
+      "ID de la moneda de cotización": "SEK",
+      "Nombre de la moneda base": "Swiss Franc",
+      "Nombre de la moneda de cotización": "Swedish Krona",
+      "Fecha": "2011-03-10",
+      "Valor": 6.8232
+    },
+    {
+      "Variable": "usd_try",
+      "Nombre de la variable": "USD/TRY Exchange Rate",
+      "ID de la moneda base": "USD",
+      "ID de la moneda de cotización": "TRY",
+      "Nombre de la moneda base": "United States Dollar",
+      "Nombre de la moneda de cotización": "Turkish Lira",
+      "Fecha": "2013-03-13",
+      "Valor": 1.8111
+    },
+    {
+      "Variable": "usd_mkd",
+      "Nombre de la variable": "USD/MKD Exchange Rate",
+      "ID de la moneda base": "USD",
+      "ID de la moneda de cotización": "MKD",
+      "Nombre de la moneda base": "United States Dollar",
+      "Nombre de la moneda de cotización": "Macedonian Denar",
+      "Fecha": "2024-04-25",
+      "Valor": 57.61
+    },
+    {
+      "Variable": "cad_sgd",
+      "Nombre de la variable": "CAD/SGD Exchange Rate",
+      "ID de la moneda base": "CAD",
+      "ID de la moneda de cotización": "SGD",
+      "Nombre de la moneda base": "Canadian Dollar",
+      "Nombre de la moneda de cotización": "Singapore Dollar",
+      "Fecha": "2012-12-24",
+      "Valor": 1.229
+    },
+    {
+      "Variable": "usd_inr",
+      "Nombre de la variable": "USD/INR Exchange Rate",
+      "ID de la moneda base": "USD",
+      "ID de la moneda de cotización": "INR",
+      "Nombre de la moneda base": "United States Dollar",
+      "Nombre de la moneda de cotización": "Indian Rupee",
+      "Fecha": "1981-07-28",
+      "Valor": 8.98
+    }
+  ],
+  "table_name": "FX_RATES_TIMESERIES",
+  "table_fullname": "FINANCE__ECONOMICS.CYBERSYN.FX_RATES_TIMESERIES",
+  "column_names": [
+    "Nombre de la moneda base",
+    "Variable",
+    "Nombre de la moneda de cotización",
+    "Valor",
+    "Nombre de la variable",
+    "ID de la moneda base",
+    "Fecha",
+    "ID de la moneda de cotización"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "FLOAT",
+    "TEXT",
+    "TEXT",
+    "DATE",
+    "TEXT"
+  ],
+  "description": [
+    "Nombre completo de la moneda base",
+    "Un identificador único para el par de divisas",
+    "Nombre completo de la moneda de cotización",
+    "Precio de la moneda base en términos de la moneda de cotización",
+    "Un identificador único legible por humanos para el par de divisas",
+    "Código de moneda ISO 4217 para la moneda base",
+    "Fecha de la tasa spot de divisas",
+    "Código de moneda ISO 4217 para la moneda de cotización"
+  ]
+}
