@@ -1,0 +1,110 @@
+{
+  "sample_rows": [
+    {
+      "Identificador RSSD del sucesor": 3076453,
+      "Nombre del sucesor": "California Bank of Commerce, National Association",
+      "Activo del sucesor": true,
+      "Categoría del sucesor": "Bank",
+      "Identificador RSSD del predecesor": 3302312,
+      "Nombre del predecesor": "Bank of Santa Clarita",
+      "Activo del predecesor": true,
+      "Categoría del predecesor": "Branch",
+      "Fecha de la transacción": "2021-10-02",
+      "Tipo de transformación": "Charter Discontinued",
+      "Método contable de fusión utilizado": "Purchase/Acquisition"
+    },
+    {
+      "Identificador RSSD del sucesor": 139656,
+      "Nombre del sucesor": "Equity Bank",
+      "Activo del sucesor": true,
+      "Categoría del sucesor": "Bank",
+      "Identificador RSSD del predecesor": 422059,
+      "Nombre del predecesor": "KansasLand Bank",
+      "Activo del predecesor": false,
+      "Categoría del predecesor": "Branch",
+      "Fecha de la transacción": "2024-07-02",
+      "Tipo de transformación": "Charter Discontinued",
+      "Método contable de fusión utilizado": "Purchase/Acquisition"
+    },
+    {
+      "Identificador RSSD del sucesor": 3076453,
+      "Nombre del sucesor": "California Bank of Commerce, National Association",
+      "Activo del sucesor": true,
+      "Categoría del sucesor": "Bank",
+      "Identificador RSSD del predecesor": 2704740,
+      "Nombre del predecesor": "Frontier Bank, FSB",
+      "Activo del predecesor": false,
+      "Categoría del predecesor": "Bank",
+      "Fecha de la transacción": "2014-11-08",
+      "Tipo de transformación": "Failure",
+      "Método contable de fusión utilizado": null
+    },
+    {
+      "Identificador RSSD del sucesor": 213248,
+      "Nombre del sucesor": "Firstar Bank Council Bluffs",
+      "Activo del sucesor": false,
+      "Categoría del sucesor": "Branch",
+      "Identificador RSSD del predecesor": 467649,
+      "Nombre del predecesor": "Firstar Bank Red Oak, National Association",
+      "Activo del predecesor": false,
+      "Categoría del predecesor": "Branch",
+      "Fecha de la transacción": "1995-08-28",
+      "Tipo de transformación": "Charter Discontinued",
+      "Método contable de fusión utilizado": "Pooling of interests or entities under common control."
+    },
+    {
+      "Identificador RSSD del sucesor": 363835,
+      "Nombre del sucesor": "First of America Bank-Illinois, National Association",
+      "Activo del sucesor": false,
+      "Categoría del sucesor": "Branch",
+      "Identificador RSSD del predecesor": 794130,
+      "Nombre del predecesor": "First of America Bank - Grayslake, National Association",
+      "Activo del predecesor": false,
+      "Categoría del predecesor": "Branch",
+      "Fecha de la transacción": "1989-06-04",
+      "Tipo de transformación": "Charter Discontinued",
+      "Método contable de fusión utilizado": null
+    }
+  ],
+  "table_name": "FINANCIAL_INSTITUTION_EVENTS",
+  "table_fullname": "FINANCE__ECONOMICS.CYBERSYN.FINANCIAL_INSTITUTION_EVENTS",
+  "column_names": [
+    "Nombre del sucesor",
+    "Tipo de transformación",
+    "Categoría del sucesor",
+    "Categoría del predecesor",
+    "Nombre del predecesor",
+    "Método contable de fusión utilizado",
+    "Activo del sucesor",
+    "Identificador RSSD del predecesor",
+    "Fecha de la transacción",
+    "Identificador RSSD del sucesor",
+    "Activo del predecesor"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "BOOLEAN",
+    "NUMBER",
+    "DATE",
+    "NUMBER",
+    "BOOLEAN"
+  ],
+  "description": [
+    "Nombre de la entidad sucesora",
+    "Descripción de la transformación",
+    "Categoría de alto nivel de la estructura legal de la entidad sucesora",
+    "Categoría de alto nivel de la estructura legal de la entidad predecesora",
+    "Nombre de la entidad predecesora",
+    "Método contable utilizado para resolver una fusión sin fallo",
+    "Indicador para indicar si la sucesora está activa",
+    "Identificador único de la entidad predecesora que se puede unir a la tabla de entidades",
+    "Fecha de la transacción",
+    "Identificador único de la entidad sucesora que se puede unir a la tabla de entidades",
+    "Indicador para indicar si la predecesora está activa"
+  ]
+}
