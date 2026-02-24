@@ -1,0 +1,110 @@
+{
+  "sample_rows": [
+    {
+      "Identificador de la empresa": "9cee45c58a4fdb6bb265552a0db62a00",
+      "Nombre de la empresa": "VENDERA RESOURCES VI-A LP",
+      "Nivel de entidad": "Corporate",
+      "Identificador del empleador": null,
+      "Identificador CIK": "0002011467",
+      "Identificador de entidad legal": null,
+      "ID PERMID de la empresa": "5087020389",
+      "Símbolo bursátil principal": null,
+      "Código de la bolsa principal": null,
+      "Nombre de la bolsa principal": null,
+      "Símbolos bursátiles globales": null
+    },
+    {
+      "Identificador de la empresa": "7766ef904f8648e8b8ac520b7267d5b5",
+      "Nombre de la empresa": "RT-AI I LLC",
+      "Nivel de entidad": "Corporate",
+      "Identificador del empleador": null,
+      "Identificador CIK": "0002018929",
+      "Identificador de entidad legal": null,
+      "ID PERMID de la empresa": "5087193531",
+      "Símbolo bursátil principal": null,
+      "Código de la bolsa principal": null,
+      "Nombre de la bolsa principal": null,
+      "Símbolos bursátiles globales": null
+    },
+    {
+      "Identificador de la empresa": "bfd8994995275e9917290bc423536fd6",
+      "Nombre de la empresa": "PANTHEON GLOBAL SECONDARY FUND III B L P",
+      "Nivel de entidad": "Corporate",
+      "Identificador del empleador": null,
+      "Identificador CIK": "0001371639",
+      "Identificador de entidad legal": null,
+      "ID PERMID de la empresa": "4297623383",
+      "Símbolo bursátil principal": null,
+      "Código de la bolsa principal": null,
+      "Nombre de la bolsa principal": null,
+      "Símbolos bursátiles globales": null
+    },
+    {
+      "Identificador de la empresa": "878d19cbba19e94e8645afbabd4a14c2",
+      "Nombre de la empresa": "SCI NEW CAP WEST",
+      "Nivel de entidad": "Corporate",
+      "Identificador del empleador": null,
+      "Identificador CIK": null,
+      "Identificador de entidad legal": null,
+      "ID PERMID de la empresa": "5057843478",
+      "Símbolo bursátil principal": null,
+      "Código de la bolsa principal": null,
+      "Nombre de la bolsa principal": null,
+      "Símbolos bursátiles globales": null
+    },
+    {
+      "Identificador de la empresa": "fcff55343666f5399f3e288f4c38c46b",
+      "Nombre de la empresa": "MADCAP MOTEL LOS ANGELES LLC",
+      "Nivel de entidad": "Corporate",
+      "Identificador del empleador": null,
+      "Identificador CIK": "0001766936",
+      "Identificador de entidad legal": null,
+      "ID PERMID de la empresa": "5067944874",
+      "Símbolo bursátil principal": null,
+      "Código de la bolsa principal": null,
+      "Nombre de la bolsa principal": null,
+      "Símbolos bursátiles globales": null
+    }
+  ],
+  "table_name": "COMPANY_INDEX",
+  "table_fullname": "FINANCE__ECONOMICS.CYBERSYN.COMPANY_INDEX",
+  "column_names": [
+    "Nombre de la bolsa principal",
+    "Símbolo bursátil principal",
+    "Nivel de entidad",
+    "ID PERMID de la empresa",
+    "Identificador de entidad legal",
+    "Identificador de la empresa",
+    "Identificador del empleador",
+    "Código de la bolsa principal",
+    "Símbolos bursátiles globales",
+    "Nombre de la empresa",
+    "Identificador CIK"
+  ],
+  "column_types": [
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "ARRAY",
+    "TEXT",
+    "TEXT",
+    "TEXT",
+    "ARRAY",
+    "TEXT",
+    "TEXT"
+  ],
+  "description": [
+    "El nombre de la bolsa para el recinto de negociación principal de un valor.",
+    "El ticker para el recinto de negociación principal de un valor. Si un valor cotiza en varias bolsas o tiene numerosos tickers, se intenta seleccionar el ticker del mercado de origen.",
+    "Describe el tipo o nivel de la entidad para mayor conveniencia. Actualmente, todas las entidades son entidades corporativas y se denotan como 'Corporate'.",
+    "Identificador Permanente, que es un identificador proporcionado por Refinitiv (a través de PermID) para identificar de forma única a una empresa.",
+    "Identificador de Entidad Jurídica, un identificador único de GLEIF que identifica a entidades jurídicas que participan en transacciones financieras.",
+    "Identificador único asignado por Cybersyn a cada empresa.",
+    "Número de Identificación del Empleador, un número de identificación único que el IRS asigna a una empresa.",
+    "El código de la bolsa para el recinto de negociación principal de un valor.",
+    "Una matriz de símbolos de cotización con los que el valor puede negociarse globalmente en todas las bolsas.",
+    "El nombre de la empresa.",
+    "Clave de Índice Central, un identificador único para las corporaciones registradas ante la Comisión de Bolsa y Valores de los Estados Unidos (SEC)."
+  ]
+}
