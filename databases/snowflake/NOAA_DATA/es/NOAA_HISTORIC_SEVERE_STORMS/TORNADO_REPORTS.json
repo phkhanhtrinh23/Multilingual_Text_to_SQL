@@ -1,0 +1,102 @@
+{
+  "table_name": "TORNADO_REPORTS",
+  "table_fullname": "NOAA_DATA.NOAA_HISTORIC_SEVERE_STORMS.TORNADO_REPORTS",
+  "column_names": [
+    "ubicación",
+    "marca de tiempo",
+    "estado",
+    "punto de reporte",
+    "hora",
+    "escala",
+    "latitud",
+    "condado",
+    "comentarios",
+    "longitud"
+  ],
+  "column_types": [
+    "TEXT",
+    "NUMBER",
+    "TEXT",
+    "BINARY",
+    "TEXT",
+    "TEXT",
+    "FLOAT",
+    "TEXT",
+    "TEXT",
+    "FLOAT"
+  ],
+  "description": [
+    "Ubicación del informe",
+    "Marca de tiempo en UTC",
+    "",
+    "",
+    "Hora en UTC",
+    "La Escala F clasifica los daños F0-F5, calibrados por ingenieros y meteorólogos, a lo largo de 28 diferentes tipos de indicadores de daño (principalmente varios tipos de edificios, pero también algunas otras estructuras, así como árboles).",
+    "Latitud a dos decimales",
+    "",
+    "",
+    "Longitud a dos decimales"
+  ],
+  "sample_rows": [
+    {
+      "marca de tiempo": 1547928240000000,
+      "hora": "2004",
+      "escala": "UNK",
+      "ubicación": "3 ENE MULBERRY",
+      "condado": "AUTAUGA",
+      "estado": "AL",
+      "latitud": 32.49,
+      "longitud": -86.73,
+      "comentarios": "*** 2 INJ *** CORRECTS PREVIOUS TORNADO REPORT TO INCLUDE 2 INJURIES. A NWS STORM SURVEY TEAM CONFIRMED A TORNADO OF EF-1 INTENSITY... WHICH OCCURRED JUST NORTHWEST OF (BMX)",
+      "punto de reporte": "bytearray(b'\\x01\\x01\\x00\\x00\\x00\\x1f\\x85\\xebQ\\xb8\\xaeU\\xc0\\x1f\\x85\\xebQ\\xb8>@@')"
+    },
+    {
+      "marca de tiempo": 1547931480000000,
+      "hora": "2058",
+      "escala": "UNK",
+      "ubicación": "2 W COTTAGE GROVE",
+      "condado": "COOSA",
+      "estado": "AL",
+      "latitud": 32.85,
+      "longitud": -86.15,
+      "comentarios": "A NWS STORM SURVEY TEAM CONFIRMED A TORNADO OF EF-1 INTENSITY... AFFECTING AREAS JUST SOUTHEAST OF ROCKFORD IN COOSA COUNTY ALONG COUNTY ROAD 101. (BMX)",
+      "punto de reporte": "bytearray(b'\\x01\\x01\\x00\\x00\\x00\\x9a\\x99\\x99\\x99\\x99\\x89U\\xc0\\xcd\\xcc\\xcc\\xcc\\xccl@@')"
+    },
+    {
+      "marca de tiempo": 1550965440000000,
+      "hora": "2344",
+      "escala": "UNK",
+      "ubicación": "3 WSW GAINESVILLE LAKE",
+      "condado": "PICKENS",
+      "estado": "AL",
+      "latitud": 33.06,
+      "longitud": -88.31,
+      "comentarios": "CORRECTS PREVIOUS TORNADO REPORT FROM 3 WSW GAINSVILLE LAKE. THE TORNADO TOUCHED DOWN JUST EAST OF NANCY CLARK ROAD... AND FIRST CAUSED DAMAGE ALONG AN EAST-WEST TREELI (BMX)",
+      "punto de reporte": "bytearray(b'\\x01\\x01\\x00\\x00\\x00\\xa4p=\\n\\xd7\\x13V\\xc0H\\xe1z\\x14\\xae\\x87@@')"
+    },
+    {
+      "marca de tiempo": 1550965920000000,
+      "hora": "2352",
+      "escala": "UNK",
+      "ubicación": "3 SSE HIGHTOGY",
+      "condado": "LAMAR",
+      "estado": "AL",
+      "latitud": 33.66,
+      "longitud": -88.06,
+      "comentarios": "THE TORNADO TOUCHED DOWN JUST SOUTH OF CRAWFORD RD IN THE KINGVILLE COMMUNITY AND TRAVELED NORTHEAST INTO FAR WESTERN FAYETTE COUNTY BEFORE LIFTING JUST EAST OF HOWTON (BMX)",
+      "punto de reporte": "bytearray(b'\\x01\\x01\\x00\\x00\\x00\\xa4p=\\n\\xd7\\x03V\\xc0\\x14\\xaeG\\xe1z\\xd4@@')"
+    },
+    {
+      "marca de tiempo": 1550966040000000,
+      "hora": "2354",
+      "escala": "UNK",
+      "ubicación": "2 NNW CODY",
+      "condado": "LAMAR",
+      "estado": "AL",
+      "latitud": 33.7,
+      "longitud": -87.98,
+      "comentarios": "REPORT OF TREES DOWN ALONG CODY RD. NEAR KINGVILLE. (BMX)",
+      "punto de reporte": "bytearray(b'\\x01\\x01\\x00\\x00\\x00\\x1f\\x85\\xebQ\\xb8\\xfeU\\xc0\\x9a\\x99\\x99\\x99\\x99\\xd9@@')"
+    }
+  ]
+}
