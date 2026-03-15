@@ -158,7 +158,7 @@ Pass@N Scores for MultiSpider 2.0 Datasets (N = 5, 10, 20)
 ---
 ## Benchmark Results
 
-### Table 1. Execution accuracy (%) across languages. The top row for each method corresponds to MultiSpider 1.0, while the bottom row corresponds to MultiSpider 2.0.
+### Table 4. Execution accuracy (%) across languages. The top row for each method corresponds to MultiSpider 1.0, while the bottom row corresponds to MultiSpider 2.0.
 
 <table>
   <thead>
@@ -176,7 +176,7 @@ Pass@N Scores for MultiSpider 2.0 Datasets (N = 5, 10, 20)
   </thead>
   <tbody>
     <tr><td>DIN-SQL + GPT-4o</td><td>80.55<br>12.98</td><td>80.11<br>12.49</td><td>80.06<br>13.21</td><td>80.48<br>12.87</td><td>-<br>9.10</td><td>78.27<br>8.99</td><td>73.14<br>8.01</td><td>70.51<br>9.13</td></tr>
-    <tr><td>DAIL-SQL + GPT-4o</td><td>84.25<br>12.30</td><td>83.32<br>12.13</td><td>83.76<br>13.05</td><td>83.45<br>14.76</td><td>-<br>10.94</td><td>72.18<br>8.43</td><td>78.68<br>9.04</td><td>82.37<br>8.36</td></tr>
+    <tr><td>DAIL-SQL + GPT-4o</td><td>84.25<br>12.30</td><td>83.32<br>12.13</td><td>83.76<br>13.05</td><td>83.45<br>14.76</td><td>-<br>10.94</td><td>72.18<br>8.43</td><td>78.68<br>9.04</td><td><strong>82.37</strong><br>8.36</td></tr>
     <tr><td>TAG-Bench + GPT-4o</td><td>81.53<br>12.56</td><td>81.40<br>13.30</td><td>81.04<br>14.01</td><td>81.34<br>13.78</td><td>-<br>9.24</td><td>70.25<br>11.86</td><td>76.83<br>8.31</td><td>73.89<br>10.26</td></tr>
     <tr><td>RESDSQL + GPT-4o</td><td>81.55<br>12.69</td><td>80.85<br>14.17</td><td>80.47<br>14.71</td><td>80.09<br>12.59</td><td>-<br>8.38</td><td>75.46<br>8.88</td><td>78.27<br>9.05</td><td>73.23<br>11.60</td></tr>
     <tr><td>C3SQL + GPT-4o</td><td>81.53<br>13.32</td><td>81.15<br>13.02</td><td>81.28<br>14.00</td><td>81.59<br>14.73</td><td>-<br>8.98</td><td>79.20<br>8.71</td><td>78.92<br>9.83</td><td>77.49<br>11.18</td></tr>
@@ -187,13 +187,13 @@ Pass@N Scores for MultiSpider 2.0 Datasets (N = 5, 10, 20)
     <tr><td>DeepSeek-R1-Distill-Qwen-32B</td><td>79.54<br>5.32</td><td>79.27<br>5.21</td><td>79.78<br>5.24</td><td>76.62<br>5.22</td><td>-<br>4.73</td><td>76.15<br>4.23</td><td>77.25<br>5.52</td><td>76.69<br>4.14</td></tr>
     <tr><td>DeepSeek-R1-Distill-Qwen-70B</td><td>80.01<br>5.83</td><td>79.15<br>5.61</td><td>79.37<br>5.46</td><td>79.68<br>5.47</td><td>-<br>5.33</td><td>78.40<br>5.64</td><td>79.65<br>5.89</td><td>77.10<br>5.22</td></tr>
     <tr><td>COLA + Gemini 1.5 Pro</td><td>89.23<br>15.68</td><td>86.34<br>15.26</td><td>87.65<br>14.85</td><td>86.38<br>14.55</td><td>-<br>13.97</td><td>81.95<br>12.11</td><td>82.02<br>13.66</td><td>80.94<br>12.44</td></tr>
-    <tr><td>COLA + OpenAI-o1-1217</td><td>94.95<br>15.92</td><td>92.23<br>16.20</td><td>91.97<br>15.14</td><td>91.95<br>14.23</td><td>-<br>15.53</td><td>83.45<br>13.43</td><td>84.46<br>13.43</td><td>82.15<br>12.49</td></tr>
-    <tr><td>COLA + DeepSeek-R1-Distill-Qwen-32B</td><td>90.95<br>15.43</td><td>91.23<br>14.02</td><td>90.49<br>15.58</td><td>90.54<br>14.56</td><td>-<br>13.12</td><td>81.94<br>14.45</td><td>80.17<br>15.74</td><td>80.26<br>13.83</td></tr>
-    <tr><td>COLA + DeepSeek-R1-Distill-Llama-70B</td><td>92.24<br>15.94</td><td>93.37<br>15.23</td><td>91.92<br>15.94</td><td>91.01<br>14.88</td><td>-<br>14.83</td><td>86.39<br>13.37</td><td>89.21<br>14.78</td><td>82.04<br>13.59</td></tr>
+    <tr><td>COLA + OpenAI-o1-1217</td><td><strong>94.95</strong><br>15.92</td><td>92.23<br><strong>16.20</strong></td><td><strong>91.97</strong><br>15.14</td><td><strong>91.95</strong><br>14.23</td><td>-<br><strong>15.53</strong></td><td>83.45<br>13.43</td><td>84.46<br>13.43</td><td>82.15<br>12.49</td></tr>
+    <tr><td>COLA + DeepSeek-R1-Distill-Qwen-32B</td><td>90.95<br>15.43</td><td>91.23<br>14.02</td><td>90.49<br>15.58</td><td>90.54<br>14.56</td><td>-<br>13.12</td><td>81.94<br><strong>14.45</strong></td><td>80.17<br><strong>15.74</strong></td><td>80.26<br><strong>13.83</strong></td></tr>
+    <tr><td>COLA + DeepSeek-R1-Distill-Llama-70B</td><td>92.24<br><strong>15.94</strong></td><td><strong>93.37</strong><br>15.23</td><td>91.92<br><strong>15.94</strong></td><td>91.01<br><strong>14.88</strong></td><td>-<br>14.83</td><td><strong>86.39</strong><br>13.37</td><td><strong>89.21</strong><br>14.78</td><td>82.04<br>13.59</td></tr>
   </tbody>
 </table>
 
-### Table 2. Exact matching accuracy (%) across languages. The top row for each method corresponds to MultiSpider 1.0, while the bottom row corresponds to MultiSpider 2.0.
+### Table 5. Exact matching accuracy (%) across languages. The top row for each method corresponds to MultiSpider 1.0, while the bottom row corresponds to MultiSpider 2.0.
 
 <table>
   <thead>
@@ -211,7 +211,7 @@ Pass@N Scores for MultiSpider 2.0 Datasets (N = 5, 10, 20)
   </thead>
   <tbody>
     <tr><td>DIN-SQL + GPT-4o</td><td>72.47<br>11.37</td><td>68.96<br>8.57</td><td>65.70<br>13.07</td><td>65.70<br>8.73</td><td>-<br>5.05</td><td>54.67<br>6.19</td><td>58.46<br>6.42</td><td>58.01<br>7.72</td></tr>
-    <tr><td>DAIL-SQL + GPT-4o</td><td>74.03<br>13.81</td><td>72.37<br>8.92</td><td>71.52<br>9.49</td><td>67.25<br>9.89</td><td>-<br>8.00</td><td>44.71<br>5.31</td><td>45.20<br>7.97</td><td>58.54<br>8.99</td></tr>
+    <tr><td>DAIL-SQL + GPT-4o</td><td>74.03<br>13.81</td><td>72.37<br>8.92</td><td>71.52<br>9.49</td><td>67.25<br>9.89</td><td>-<br><strong>8.00</strong></td><td>44.71<br>5.31</td><td>45.20<br><strong>7.97</strong></td><td><strong>58.54</strong><br><strong>8.99</strong></td></tr>
     <tr><td>TAG-Bench + GPT-4o</td><td>71.91<br>8.31</td><td>66.67<br>13.14</td><td>72.22<br>12.73</td><td>72.50<br>9.02</td><td>-<br>5.65</td><td>53.73<br>6.21</td><td>43.75<br>5.19</td><td>54.55<br>7.39</td></tr>
     <tr><td>RESDSQL + GPT-4o</td><td>70.78<br>11.44</td><td>72.01<br>9.23</td><td>67.53<br>12.85</td><td>66.30<br>12.74</td><td>-<br>7.64</td><td>41.83<br>6.19</td><td>55.81<br>5.57</td><td>56.03<br>7.69</td></tr>
     <tr><td>C3SQL + GPT-4o</td><td>67.85<br>12.09</td><td>69.77<br>11.97</td><td>68.77<br>14.42</td><td>68.70<br>8.61</td><td>-<br>5.58</td><td>51.39<br>7.70</td><td>52.15<br>6.52</td><td>53.30<br>5.75</td></tr>
@@ -221,10 +221,10 @@ Pass@N Scores for MultiSpider 2.0 Datasets (N = 5, 10, 20)
     <tr><td>OpenAI-o1-1217</td><td>67.72<br>3.64</td><td>68.50<br>4.43</td><td>68.81<br>2.16</td><td>66.79<br>4.47</td><td>-<br>4.51</td><td>48.55<br>3.67</td><td>56.18<br>3.78</td><td>49.16<br>3.53</td></tr>
     <tr><td>DeepSeek-R1-Distill-Qwen-32B</td><td>69.54<br>4.45</td><td>69.27<br>3.14</td><td>69.78<br>3.94</td><td>70.62<br>4.52</td><td>-<br>2.64</td><td>47.15<br>2.79</td><td>41.25<br>4.02</td><td>41.69<br>2.43</td></tr>
     <tr><td>DeepSeek-R1-Distill-Qwen-70B</td><td>67.00<br>4.96</td><td>68.15<br>4.25</td><td>71.37<br>4.60</td><td>70.68<br>4.01</td><td>-<br>4.12</td><td>47.40<br>4.13</td><td>58.65<br>4.56</td><td>47.10<br>4.39</td></tr>
-    <tr><td>COLA + Gemini 1.5 Pro</td><td>69.70<br>14.57</td><td>65.59<br>10.32</td><td>73.81<br>12.72</td><td>73.58<br>8.76</td><td>-<br>5.17</td><td>51.17<br>6.90</td><td>57.22<br>6.62</td><td>53.79<br>7.44</td></tr>
-    <tr><td>COLA + OpenAI-o1-1217</td><td>74.46<br>12.77</td><td>74.68<br>13.90</td><td>74.98<br>11.97</td><td>74.68<br>14.50</td><td>-<br>6.11</td><td>43.40<br>7.82</td><td>50.18<br>5.51</td><td>42.21<br>6.44</td></tr>
-    <tr><td>COLA + DeepSeek-R1-Distill-Qwen-32B</td><td>70.52<br>10.99</td><td>71.28<br>12.13</td><td>69.67<br>14.85</td><td>70.12<br>10.88</td><td>-<br>5.92</td><td>48.33<br>6.71</td><td>49.91<br>6.45</td><td>50.45<br>7.22</td></tr>
-    <tr><td>COLA + DeepSeek-R1-Distill-Llama-70B</td><td>72.89<br>14.55</td><td>73.12<br>12.67</td><td>71.45<br>12.01</td><td>74.78<br>11.79</td><td>-<br>6.24</td><td>59.14<br>7.15</td><td>59.33<br>6.89</td><td>52.98<br>7.68</td></tr>
+    <tr><td>COLA + Gemini 1.5 Pro</td><td>69.70<br><strong>14.57</strong></td><td>65.59<br>10.32</td><td>73.81<br>12.72</td><td>73.58<br>8.76</td><td>-<br>5.17</td><td>51.17<br>6.90</td><td>57.22<br>6.62</td><td>53.79<br>7.44</td></tr>
+    <tr><td>COLA + OpenAI-o1-1217</td><td><strong>74.46</strong><br>12.77</td><td><strong>74.68</strong><br><strong>13.90</strong></td><td><strong>74.98</strong><br>11.97</td><td>74.68<br><strong>14.50</strong></td><td>-<br>6.11</td><td>43.40<br><strong>7.82</strong></td><td>50.18<br>5.51</td><td>42.21<br>6.44</td></tr>
+    <tr><td>COLA + DeepSeek-R1-Distill-Qwen-32B</td><td>70.52<br>10.99</td><td>71.28<br>12.13</td><td>69.67<br><strong>14.85</strong></td><td>70.12<br>10.88</td><td>-<br>5.92</td><td>48.33<br>6.71</td><td>49.91<br>6.45</td><td>50.45<br>7.22</td></tr>
+    <tr><td>COLA + DeepSeek-R1-Distill-Llama-70B</td><td>72.89<br>14.55</td><td>73.12<br>12.67</td><td>71.45<br>12.01</td><td><strong>74.78</strong><br>11.79</td><td>-<br>6.24</td><td><strong>59.14</strong><br>7.15</td><td><strong>59.33</strong><br>6.89</td><td>52.98<br>7.68</td></tr>
   </tbody>
 </table>
 
