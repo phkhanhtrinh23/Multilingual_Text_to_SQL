@@ -140,7 +140,7 @@ MultiSpider 2.0 is a multilingual, enterprise-scale Text-to-SQL benchmark design
 
 ## Results At A Glance
 
-The paper shows a sharp difficulty jump from MultiSpider 1.0 to MultiSpider 2.0. Execution accuracy collapses for reasoning-only models, exact match remains even lower, and Pass@20 stays below 15%, which underlines how far current systems remain from robust multilingual enterprise Text-to-SQL.
+The paper shows a sharp difficulty jump from MultiSpider 1.0 to MultiSpider 2.0. Execution accuracy collapses for reasoning-only models, exact match remains even lower, and Pass@20 stays below 15%, which underlines how far current systems remain robust across multilingual enterprise Text-to-SQL dataset.
 
 ### Pass@N Scores on MultiSpider 2.0
 
@@ -157,8 +157,6 @@ The paper shows a sharp difficulty jump from MultiSpider 1.0 to MultiSpider 2.0.
 
 ---
 ## Benchmark Results
-
-**Paper note: Tables 1 and 2 print `COLA + DeepSeek-R1-Distill-Llama-70B`, while Table 6 prints `COLA + DeepSeek-R1-Distill-Qwen-70B`. The README preserves the labels exactly as they appear in the paper. In Tables 4 and 5, `-` means the paper did not report a Portuguese score for MultiSpider 1.0.**
 
 ### Table 1. Execution accuracy (%) across languages. The top row for each method corresponds to MultiSpider 1.0, while the bottom row corresponds to MultiSpider 2.0.
 
