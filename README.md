@@ -158,7 +158,7 @@ Pass@N Scores for MultiSpider 2.0 Datasets (N = 5, 10, 20)
 ---
 ## Benchmark Results
 
-### Table 4. Execution accuracy (%) across languages. The top row for each method corresponds to MultiSpider 1.0, while the bottom row corresponds to MultiSpider 2.0.
+### Table 1. Execution accuracy (%) across languages. The top row for each method corresponds to MultiSpider 1.0, while the bottom row corresponds to MultiSpider 2.0.
 
 <table>
   <thead>
@@ -193,7 +193,7 @@ Pass@N Scores for MultiSpider 2.0 Datasets (N = 5, 10, 20)
   </tbody>
 </table>
 
-### Table 5. Exact matching accuracy (%) across languages. The top row for each method corresponds to MultiSpider 1.0, while the bottom row corresponds to MultiSpider 2.0.
+### Table 2. Exact matching accuracy (%) across languages. The top row for each method corresponds to MultiSpider 1.0, while the bottom row corresponds to MultiSpider 2.0.
 
 <table>
   <thead>
