@@ -140,7 +140,7 @@ MultiSpider 2.0 is a multilingual, enterprise-scale Text-to-SQL benchmark design
 
 ## Results At A Glance
 
-The paper shows a sharp difficulty jump from MultiSpider 1.0 to MultiSpider 2.0. Execution accuracy collapses for reasoning-only models, exact match remains even lower, and Pass@20 stays below 15%, which underlines how far current systems remain robust across multilingual enterprise Text-to-SQL dataset.
+Pass@N Scores for MultiSpider 2.0 Datasets (N = 5, 10, 20)
 
 ### Pass@N Scores on MultiSpider 2.0
 
