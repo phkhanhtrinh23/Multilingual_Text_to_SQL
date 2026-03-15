@@ -158,6 +158,14 @@ Pass@N Scores for MultiSpider 2.0 Datasets (N = 5, 10, 20)
 ---
 ## Benchmark Results
 
+<p align="center">
+  <img src="resources/benchmark_pipeline.png" alt="Benchmark pipeline covering self-contained Text-to-SQL, LLM-driven query refinement, and collaborative language agents" width="78%" />
+</p>
+
+<p align="center">
+  <em>Benchmark settings used in the paper: self-contained Text-to-SQL, LLM-driven query refinement, and the COLA multi-agent pipeline.</em>
+</p>
+
 ### Table 1. Execution accuracy (%) across languages. The top row for each method corresponds to MultiSpider 1.0, while the bottom row corresponds to MultiSpider 2.0.
 
 <table>
