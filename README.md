@@ -1,4 +1,5 @@
 [![arXiv](https://img.shields.io/badge/arXiv-2509.24405-b31b1b.svg)](https://arxiv.org/abs/2509.24405)
+![visitors](https://visitor-badge.laobi.icu/badge?page_id=phkhanhtrinh23.Multilingual_Text_to_SQL)
 
 # Multilingual Text-to-SQL: MultiSpider 2.0
 
@@ -13,6 +14,21 @@ MultiSpider 2.0 is a multilingual, enterprise-scale Text-to-SQL benchmark design
 <p align="center">
   <em>Dataset construction and validation pipeline used for MultiSpider 2.0.</em>
 </p>
+
+## Citation
+
+If you use this repository or benchmark, please cite the paper:
+
+```bibtex
+@inproceedings{pham2025multilingual,
+  title={Multilingual Text-to-SQL: Benchmarking the Limits of Language Models with Collaborative Language Agents},
+  author={Pham, Khanh Trinh and Nguyen, Thu Huong and Jo, Jun and Nguyen, Quoc Viet Hung and Nguyen, Thanh Tam},
+  booktitle={Australasian Database Conference},
+  pages={108--123},
+  year={2025},
+  organization={Springer}
+}
+```
 
 ## Why MultiSpider 2.0
 
@@ -236,21 +252,11 @@ Pass@N Scores for MultiSpider 2.0 Datasets (N = 5, 10, 20)
   </tbody>
 </table>
 
-## Citation
-
-If you use this repository or benchmark, please cite the paper:
-
-```bibtex
-@inproceedings{pham2025multilingual,
-  title={Multilingual Text-to-SQL: Benchmarking the Limits of Language Models with Collaborative Language Agents},
-  author={Pham, Khanh Trinh and Nguyen, Thu Huong and Jo, Jun and Nguyen, Quoc Viet Hung and Nguyen, Thanh Tam},
-  booktitle={Australasian Database Conference},
-  pages={108--123},
-  year={2025},
-  organization={Springer}
-}
-```
-
 ## License
 
 MIT
+
+-----------
+**Backup Statistics**
+
+![Visitors](https://margherita-gustatory-zane.ngrok-free.dev/badge/phkhanhtrinh23%2FMultilingual_Text_to_SQL.svg?ngrok-skip-browser-warning=true)
